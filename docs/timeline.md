@@ -19,3 +19,5 @@ Other interactions, in build order: the meanwhile line (a band of years around a
 Phone: time runs down; lanes become region chips at the top, one or two open at a time; chain breadcrumb becomes a swipe bar; the year card sits behind a tap on the year. Same levels, same filters, same taps.
 
 Checks: web check, coverage check, cursor check, provenance on the year card (docs/agents.md).
+
+Preview: hovering a card or dot (long press on a phone) shows the preview card: the event's picture where it has one, title and date, the one-line description, Open. The same component serves every name, marker and bar in the atlas.
