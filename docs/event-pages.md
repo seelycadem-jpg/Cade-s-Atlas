@@ -116,7 +116,7 @@ audit: null
 ---
 ```
 
-Then the sections, in the fixed order, each under its fixed heading, optional ones omitted. Inline links to other events as `[[event-id|words]]`, to people as `[[person:id|words]]`, to features as `[[feature:id|words]]`.
+Then the sections, in the fixed order, each under its fixed heading, optional ones omitted. Inline links to other events as `[[event-id|words]]`, to people as `[[person:id|words]]`, to features as `[[feature:id|words]]`, to polities as `[[polity:id|words]]`. Every one opens a card in place (an overlay, so the reader stays on the sentence); a polity card carries a globe thumbnail of its territory at the page's year.
 
 ## Worked example: The Paris Peace Settlement, 1919 to 1923
 
