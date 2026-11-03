@@ -28,7 +28,7 @@ What is never room: skipping a wall because the event is small, padding a sectio
 | Layer | Shown | Holds | Reader it serves |
 | --- | --- | --- | --- |
 | 1. The takeaway | Always, first screen | The takeaway strip; the Overview; one picture or visual where it earns its place | Anyone, in thirty seconds |
-| 2. The brief | Always, one scroll | Why it happened; What it did; Winners and losers; Why it held or failed; What it set up; Today | The curious reader, in three minutes |
+| 2. The brief | Always, one scroll | Why it happened; What it did, and to whom; Why it held or failed; What it set up; Today | The curious reader, in three minutes |
 | 3. The detail | Behind "Open the detail" | The account; By the numbers; The argument; The common misreading; Places; The detail (the expert's nod); Interesting fact | The historian, in ten minutes |
 | 4. The chain | Always, after the detail control | Causes and effects, graded, with the arrow notes on tap; Strands; the exits | The reader following the thread |
 
@@ -52,8 +52,7 @@ A knot that spans several strands (a settlement with five treaties, a war with f
 | --- | --- | --- | --- |
 | Overview | 1 | 5 to 8 sentences, about 150 words, 2 to 3 paragraphs | The so-what in hard facts: what it ended, who won and lost, what it left unsolved, why it held or failed. Short declarative sentences, none over 25 words. No abstractions, no scene-setting, no quote. A reader who stops here has the event |
 | Why it happened | 2 | 3 to 6 sentences | The forces and the decision. Two or three drivers, ranked, each one sentence; then the trigger in its own sentence. Actors with role and name; the option declined named where a leader chose |
-| What it did | 2 | at most 5 bullets, or a paragraph | The terms or the actions as hard facts, with numbers and their basis. Bullets for terms, prose for a course of events |
-| Winners and losers | 2 | 3 to 6 sentences | Who gained, who lost, who paid, named, with what each got or lost |
+| What it did, and to whom | 2 | at most 5 bullets, or a paragraph | The terms or the actions as hard facts with numbers and their basis, each carrying its ledger in the same line: who gained and who paid, named, with the thing. Bullets for terms, prose for a course of events |
 | Why it held or failed | 2 | 3 to 5 sentences | The mechanism and the misjudgment: the analytic core. Enforcement first: who could make the outcome stick, and whether they did. Name the strongest objection to the page's own reading in this section |
 | What it set up | 2 | 2 to 4 lines | Later events, each a link with its year; the graded arrows live in the chain, this is the list |
 | Today | 2 | 1 to 2 lines | A border, institution, grievance or practice still live; checkable; written forward; no flourish |
@@ -131,14 +130,12 @@ The settlement left the central question of the war unresolved: Germany's place 
 
 **Why it happened.** The armistice of November 1918 ended the fighting with German armies still in France and Belgium. Many Germans did not believe they had lost. The victors met in Paris in January 1919 without Germany or Soviet Russia. French Prime Minister Georges Clemenceau wanted Germany too weak to attack again. British Prime Minister David Lloyd George wanted a Germany that could still trade. US President Woodrow Wilson wanted a League of Nations. Clemenceau gave up his claim to the Rhine for an Anglo-American guarantee.
 
-**What it did: the five treaties.**
-- Versailles, with Germany (June 1919): lost 13% of its European territory and all its colonies; army capped at 100,000; reparations set at 132 billion gold marks in 1921, of which it paid about 20 billion.
-- Saint-Germain, with Austria (September 1919): the Habsburg lands divided; union with Germany banned.
+**What it did, and to whom: the five treaties.**
+- Versailles, with Germany (June 1919): lost 13% of its European territory and all its colonies; army capped at 100,000; reparations set at 132 billion gold marks in 1921, of which it paid about 20 billion. France and Poland gained the land; Germany kept the largest industrial economy in central Europe.
+- Saint-Germain, with Austria (September 1919): the Habsburg lands divided; union with Germany banned. Czechoslovakia and Yugoslavia gained statehood and large minorities; Italy got less than it was promised in 1915.
 - Neuilly, with Bulgaria (November 1919): lost its Aegean coast to Greece.
-- Trianon, with Hungary (June 1920): lost 72% of its territory; 3.3 million Hungarians left outside the new borders.
-- Sevres, with the Ottoman Empire (August 1920): partitioned Anatolia and the Arab lands. Turkish nationalists overturned it by force; Lausanne replaced it in 1923.
-
-**Winners and losers.** Winners: Britain and France, whose empires reached their greatest size. Japan. Poland, Czechoslovakia and Yugoslavia, which gained statehood and large minorities. Turkey, the only defeated power to win better terms by force. Losers: Germany and Hungary. Italy, which received less than it was promised in 1915. China, which lost Shandong to Japan. The Arabs, who were promised independence and received mandates.
+- Trianon, with Hungary (June 1920): lost 72% of its territory; 3.3 million Hungarians left outside the new borders. Romania took the most.
+- Sevres, with the Ottoman Empire (August 1920): partitioned Anatolia and the Arab lands. Britain and France took the Arab provinces as mandates, and the Arabs who had been promised independence paid for it; Turkish nationalists overturned the partition of Anatolia by force, and Lausanne replaced it in 1923. Japan, elsewhere in the settlement, took Shandong from China and Germany's Pacific islands.
 
 **Why it held or failed.** The settlement had two flaws. First, it applied self-determination selectively. Poles and Czechs got states. Germans in Austria and the Sudetenland, Hungarians, Egyptians, Koreans and Arabs did not. Every loser gained a principled case against the peace.
 
