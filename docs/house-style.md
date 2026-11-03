@@ -94,12 +94,9 @@ One mechanism per hop; long chains are split. Necessary/Sufficient require a cou
 
 Claim (verb matched to grade) · Objection (strongest, stated) · Warrant (the transferable rule) · Verdict (grade, defended) · Evidence tests (hoop / smoking gun / both / straws; required for Tier 1) · Meta (type, grade, confidence, hops, cross-region).
 
-## Event brief (page order, agreed 2026-10-28, revised the same day)
+## Event brief
 
-The brief: Bottom line (rule three) · Why it matters (the consequences as mechanisms with their date range; never trivia).
-In depth: What happened (the situation first, then the actors with role and name, facts without causal verbs) · Why (two or three drivers ranked, then the trigger in its own sentence) · What followed (changed conditions, dated, in order of weight) · By the numbers (basis on every figure; ranges where sources differ) · A common misreading · Places · Interesting fact (where firsts, anniversaries, legends and the telegraph go; kept, at the bottom).
-Causes and effects: the trace · chains into the event, read as paths with the weakest arrow named · what caused this and what this caused, graded.
-Dropped: the questions-an-analyst-asks block and the one-line rule; the lens stays in the data as an editorial note.
+The event page structure, layers, word budgets, section rules, sourcing and file template are in event-pages.md (agreed 2026-11-03), which supersedes the page order that stood here.
 
 ## Grade visual language
 

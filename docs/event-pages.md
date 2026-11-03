@@ -1,12 +1,163 @@
-# Event pages and writing rules for the Claude Code build (agreed 2026-11-02; supersedes older rules where they conflict)
+# The event page (agreed 2026-11-03; supersedes every older page order, including the one formerly in house-style.md)
 
-Full method, structure table and the Paris worked example are in the Analytic Standards doc under "How to write an event page". Template and reviewer brief: review/writing/EVENT_PAGE_BRIEF.md.
+One page design for every event at every tier. The page is layered: a reader who stops after the first screen has the event; a reader who opens the detail has what a historian would ask for. The template and the Paris worked example are at the end. The reviewer brief is `review/writing/EVENT_PAGE_BRIEF.md`.
 
-- Voice: Richard Haass / Ian Bremmer, written like a presidential daily brief. Short declarative sentences, one fact or judgment each, none over 25 words. No idioms or figurative phrases ("finished off", "took the spoils"); the plain literal verb. No stock transitions, no rule-of-three for rhythm, no symmetrical cadence, no buzzwords (delve, leverage, tapestry, navigate, robust, shaped).
-- Page structure: Overview (the so-what in hard facts: what it ended, who won and lost, what it left unsolved, why it held or failed; 2-3 short paragraphs, ~150 words) · Why it happened · What it did · Winners and losers · Why it held or failed · What it set up · Today · The detail · Strands. 350-450 words for one event, up to 600 for a knot spanning several strands.
-- Scope: an event at the centre of something larger (a peace, a war, a revolution) covers the whole; its parts are strands (Paris Peace Settlement page; Versailles, Trianon, Sèvres are strands).
-- Review pipeline: draft (sourced) → fact-checker, style editor, red team in parallel → merge (fact fixes binding) → recheck any claim added at merge.
-- Link every event named: the words that name or describe another event link to its page (in "the Fourth Crusade sacked Constantinople in 1204", "sacked Constantinople" links to the Sack of Constantinople). Never link a bare date. Stored inline as [[event-id|words]]. Unwritten events go on a to-write queue and stay plain text. Links are navigation; graded arrows are causal claims and live in the chain.
-- Chronicle types: Place, Practice, Transformation; contests are shared stories written once and framed per chronicle. Chronicles take plain search-bar names (Russia, Slavery, The Nuclear Age).
+## Walls and room
 
-- Visuals: one or two small visuals per event page when they show what the prose cannot (before-and-after maps for wars, treaties and partitions, drawn from the atlas's own border data; charts for numbers that move; a short crisis timeline; an alignment diagram). None when they would only decorate. One-line caption; numbers sourced and fact-checked.
+Walls, the same on every page, because readers learn one layout and the checks run on it:
+
+- The layers and their order (below). Section headings are fixed words; the reader finds "Why it held or failed" in the same place on every page.
+- The Overview: the so-what in hard facts, two or three short paragraphs, first.
+- The register: presidential daily brief, active voice, rule zero, actors with role and name, no authorities, no value-laden words, plain verbs (house-style.md).
+- The data header: every field filled or marked blank with the reason; a verified Wikipedia and Britannica exit; tags; actors; place; time with precision; tier per chain; status.
+- Sourcing (below), and the four reviewers plus the flow editor.
+
+Room, where the agent decides, because events differ:
+
+- Which optional sections the event needs (below), and how long each runs inside its band.
+- Whether "What it did" is bullets (a treaty's terms) or prose (a battle's course).
+- Which visual or picture, if any, and where it sits.
+- The one awkward fact and the expert's nod: the agent finds them; no rule can.
+- The order of drivers in "Why it happened", and which objection to name in "Why it held or failed".
+- Sentence rhythm and word choice within the register. Two pages by two agents should read as two writers on one desk, never as one template filled twice.
+
+What is never room: skipping a wall because the event is small, padding a section to reach its band, or inventing a specific to fill a gap.
+
+## The layers
+
+| Layer | Shown | Holds | Reader it serves |
+| --- | --- | --- | --- |
+| 1. The takeaway | Always, first screen | The takeaway strip; the Overview; one picture or visual where it earns its place | Anyone, in thirty seconds |
+| 2. The brief | Always, one scroll | Why it happened; What it did; Winners and losers; Why it held or failed; What it set up; Today | The curious reader, in three minutes |
+| 3. The detail | Behind "Open the detail" | The account; By the numbers; The argument; The common misreading; Places; The detail (the expert's nod); Interesting fact | The historian, in ten minutes |
+| 4. The chain | Always, after the detail control | Causes and effects, graded, with the arrow notes on tap; Strands; the exits | The reader following the thread |
+
+The takeaway strip is the first thing on the page: when (the date, with its precision), where (the place, on a globe thumbnail), who (the actors as chips that open their cards), size (the tier word for the chain the reader came through: "Turning point in: The fall of the Republic"), and the strongest arrow in each direction ("Caused: the Pact of 60, Necessary"). The strip is built from the data header; the agent writes none of it.
+
+## Word budgets by tier
+
+A page is written once, at the highest tier the event holds in any chain; the layers let a reader at a lower tier stop early.
+
+| Tier (highest anywhere) | Layers 1 and 2 | Layer 3 | Whole page |
+| --- | --- | --- | --- |
+| Knot | 350 to 500 words | 400 to 900 words | up to 1,400 |
+| Strand | 200 to 350 words | up to 400, or none | up to 750 |
+| Fibre | 100 to 200 words; Overview plus the two sections the event needs | none; the detail stays in the brief | up to 200 |
+
+A knot that spans several strands (a settlement with five treaties, a war with four campaigns) may run to the top of its band; a knot that is one day (an assassination) sits at the bottom. The band is a wall; where inside it is room.
+
+## The sections
+
+| Section | Layer | Band | Rule |
+| --- | --- | --- | --- |
+| Overview | 1 | 5 to 8 sentences, about 150 words, 2 to 3 paragraphs | The so-what in hard facts: what it ended, who won and lost, what it left unsolved, why it held or failed. Short declarative sentences, none over 25 words. No abstractions, no scene-setting, no quote. A reader who stops here has the event |
+| Why it happened | 2 | 3 to 6 sentences | The forces and the decision. Two or three drivers, ranked, each one sentence; then the trigger in its own sentence. Actors with role and name; the option declined named where a leader chose |
+| What it did | 2 | at most 5 bullets, or a paragraph | The terms or the actions as hard facts, with numbers and their basis. Bullets for terms, prose for a course of events |
+| Winners and losers | 2 | 3 to 6 sentences | Who gained, who lost, who paid, named, with what each got or lost |
+| Why it held or failed | 2 | 3 to 5 sentences | The mechanism and the misjudgment: the analytic core. Enforcement first: who could make the outcome stick, and whether they did. Name the strongest objection to the page's own reading in this section |
+| What it set up | 2 | 2 to 4 lines | Later events, each a link with its year; the graded arrows live in the chain, this is the list |
+| Today | 2 | 1 to 2 lines | A border, institution, grievance or practice still live; checkable; written forward; no flourish |
+| The account | 3 | 150 to 500 words | What happened, in order: the situation first, then the actors, facts without causal verbs; the causal reading stays in layer 2. The section a historian reads first |
+| By the numbers | 3 | a short table or list | Every figure that changed the judgment, with its basis and the range where sources disagree |
+| The argument | 3 | 2 to 6 sentences; optional | Where the event is contested: "one reading holds ... the other holds ...", each with its evidence, neither with its authors named. Required when any link into or out of the event is Contested |
+| The common misreading | 3 | 1 to 3 sentences; optional | The thing most readers believe about this event that the evidence does not support, and what the evidence supports instead |
+| Places | 3 | a list; optional | The features and cities, each a link to its card |
+| The detail | 3 | 1 to 2 sentences | The expert's nod: one fact a general reader would not know and a specialist would recognise, dated to the day where possible |
+| Interesting fact | 3 | 1 to 2 sentences; optional | Firsts, legends and the telegraph go here, at the bottom, and only here |
+| Causes and effects | 4 | built from the links | What caused this and what this caused, each with its grade word and the arrow note on tap; chains into the event read as paths with the weakest arrow named |
+| Strands | 4 | a list | The component events with years, each a link; on a strand page, the knot it belongs to and its neighbours |
+| Exits | 4 | two links | Wikipedia and Britannica, verified |
+
+Optional sections are the agent's call. A fibre may have no layer 3 at all. A knot has every layer 3 section the event supports and omits the ones it does not, which is itself a judgment the red team reads.
+
+## Sourcing
+
+- At least two independent sources per page beyond the exits, recorded in the data header under `sources`, never in the text. The shelf (the editors' reading list) lives there too and never renders.
+- Every figure in the text has a basis in `figures`: the number, its source, its year, and the range where sources disagree. The text may say "about 20 billion"; the header says where that comes from.
+- Dates carry their precision. A date the sources dispute is written to the precision they agree on.
+- Quotations come only from primary sources with the source recorded, and only where the words themselves changed something. A quotation for colour is cut.
+- A fact the agent cannot source is left out and the gap is noted in the header under `open`, which is the to-write queue. Never approximated.
+- Rule two holds: no historian, author, school or dataset is named in the text. The data header is where they live.
+
+## The file
+
+One Markdown file per event in `content/events/`, named by slug. The header is validated by the build; a missing field fails the page.
+
+```yaml
+---
+id: paris-peace-settlement-1919
+title: The Paris Peace Settlement
+line: Five treaties ended the First World War, dissolved three empires and left Germany's place in Europe unresolved.
+time: { start: 1919-01-18, end: 1923-07-24, precision: day, era: CE, place_on: 1919-06-28 }
+place: { point: [48.8566, 2.3522], extent: europe-middle-east, name: Paris }
+actors:
+  - { id: georges-clemenceau, role: initiator }
+  - { id: david-lloyd-george, role: initiator }
+  - { id: woodrow-wilson, role: initiator }
+  - { id: germany, role: target, kind: polity }
+tags: [political, war, economic]
+tier:
+  - { chain: the-german-question, tier: knot }
+  - { chain: woodrow-wilson, tier: knot }
+  - { chain: the-ottomans, tier: strand }
+exits:
+  wikipedia: https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)
+  britannica: https://www.britannica.com/event/Paris-Peace-Conference
+sources:
+  - { title: "...", author: "...", year: 0000, note: "which claims it supports" }
+shelf: []
+figures:
+  - { text: "13 percent of its European territory", value: 13, unit: percent, source: "...", year: 0000 }
+images:
+  - { file: ..., caption: "The Big Four at Versailles, May 1919.", source: "...", licence: PD, credit: "..." }
+links: []            # written by /link; never by hand
+open: []             # facts to find; events to write
+status: draft        # draft | reviewed | published
+audit: null
+---
+```
+
+Then the sections, in the fixed order, each under its fixed heading, optional ones omitted. Inline links to other events as `[[event-id|words]]`, to people as `[[person:id|words]]`, to features as `[[feature:id|words]]`.
+
+## Worked example: The Paris Peace Settlement, 1919 to 1923
+
+A knot. Layers 1 and 2 are the text agreed in the Analytic Standards doc; layer 3 is marked where it would open.
+
+**Overview.** The Paris settlement dissolved three empires: Austria-Hungary, the Ottoman Empire and Germany's overseas empire. New states replaced them, from Poland and Czechoslovakia to Iraq and Syria. Germany survived as a republic. It lost 13 percent of its European territory and most of its army, and it was charged reparations. It remained the largest industrial economy in central Europe.
+
+Britain, France and Japan gained the most. Britain and France took the Ottoman Arab provinces and most of Germany's African colonies as League mandates. Japan took Germany's northern Pacific islands and its holdings in Shandong.
+
+The settlement left the central question of the war unresolved: Germany's place in Europe. It also had no means of enforcement. The US Senate rejected the treaty, and the League of Nations had no army. By the 1930s Britain and France would not enforce the terms alone.
+
+**Why it happened.** The armistice of November 1918 ended the fighting with German armies still in France and Belgium. Many Germans did not believe they had lost. The victors met in Paris in January 1919 without Germany or Soviet Russia. French Prime Minister Georges Clemenceau wanted Germany too weak to attack again. British Prime Minister David Lloyd George wanted a Germany that could still trade. US President Woodrow Wilson wanted a League of Nations. Clemenceau gave up his claim to the Rhine for an Anglo-American guarantee.
+
+**What it did: the five treaties.**
+- Versailles, with Germany (June 1919): lost 13% of its European territory and all its colonies; army capped at 100,000; reparations set at 132 billion gold marks in 1921, of which it paid about 20 billion.
+- Saint-Germain, with Austria (September 1919): the Habsburg lands divided; union with Germany banned.
+- Neuilly, with Bulgaria (November 1919): lost its Aegean coast to Greece.
+- Trianon, with Hungary (June 1920): lost 72% of its territory; 3.3 million Hungarians left outside the new borders.
+- Sevres, with the Ottoman Empire (August 1920): partitioned Anatolia and the Arab lands. Turkish nationalists overturned it by force; Lausanne replaced it in 1923.
+
+**Winners and losers.** Winners: Britain and France, whose empires reached their greatest size. Japan. Poland, Czechoslovakia and Yugoslavia, which gained statehood and large minorities. Turkey, the only defeated power to win better terms by force. Losers: Germany and Hungary. Italy, which received less than it was promised in 1915. China, which lost Shandong to Japan. The Arabs, who were promised independence and received mandates.
+
+**Why it held or failed.** The settlement had two flaws. First, it applied self-determination selectively. Poles and Czechs got states. Germans in Austria and the Sudetenland, Hungarians, Egyptians, Koreans and Arabs did not. Every loser gained a principled case against the peace.
+
+Second, it left Germany intact and surrounded by weak new states where Austria-Hungary and Russia had stood. The terms held only while Britain and France enforced them. By the 1930s British opinion considered German grievances fair. Hitler presented the Anschluss and the Sudeten claim as self-determination.
+
+**What it set up.** The May Fourth Movement (1919) · the March on Rome (1922) · the Great Syrian Revolt (1925 to 1927) · the Munich Agreement (1938).
+
+**Today.** Iraq, Syria, Lebanon, Jordan and Israel sit largely within borders drawn under the mandates.
+
+*[Open the detail: layer 3 opens here on the page. For this knot it holds The account (the conference from 18 January 1919 to the signing at Versailles on 28 June, the Council of Four, the German delegation's receipt of the terms on 7 May), By the numbers (the reparations figures with their basis and the range), The argument (one reading holds the terms were harsh enough to enrage and too weak to restrain; the other holds the terms were enforceable and the failure was the enforcers'), The common misreading (that reparations ruined Germany; the sum paid and its share of output), and the two below.]*
+
+**The detail.** On 11 April 1919 Japan's proposal to write racial equality into the League Covenant won 11 of the 17 votes in commission. Wilson, in the chair, ruled that it needed unanimity, and the clause died.
+
+**Strands.** Paris Peace Conference (1919 to 1920) · Versailles (1919) · Saint-Germain (1919) · Neuilly (1919) · Trianon (1920) · Sevres (1920) · the League of Nations and the mandates (1920) · Lausanne (1923).
+
+## The same Overview, failing
+
+For the reviewers' calibration. Every sentence below breaks a rule named in brackets.
+
+> The Paris Peace Conference was not merely a diplomatic gathering; it was a turning point that shaped the modern world [rule zero; "shaped"; aphoristic antithesis]. In the wake of the devastating Great War, the victorious Allied powers convened to forge a lasting peace [figurative verbs; "in the wake of"; scene-setting; no fact]. The treaty was signed by the delegates in the Hall of Mirrors [passive; a detail in the Overview]. Historians such as Margaret MacMillan have argued that the settlement was doomed from the start [rule two; "doomed"]. In many ways, the seeds of the Second World War were sown at Versailles [banned phrase; metaphor; inevitability].
+
+The same facts, in the register: the first paragraph of the worked example above.

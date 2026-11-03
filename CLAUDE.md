@@ -36,8 +36,9 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 
 ## Read before writing atlas text
 
-- `docs/event-pages.md`: event pages and writing rules for this build. Agreed
-  2026-11-02; it wins where older rules conflict.
+- `docs/event-pages.md`: the event page: walls and room, the four layers, word budgets by
+  tier, a rule per section, sourcing, the file template, the Paris worked example and a
+  failing Overview. Agreed 2026-11-03; it wins where older rules conflict.
 - `docs/narrative-flow.md`: the five flow tests, the three tiers (all events; tier per
   chain), flavor and the transplant test, the two checking agents, the six places and
   their checks, the era rule for old data. Wins over story-method.md on tiers.
