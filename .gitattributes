@@ -1,0 +1,7 @@
+# Keep data files byte-identical on Windows, and hide them from line-by-line diffs.
+site/**/*.json -text -diff
+site/maps/** -text -diff
+# Text files use Unix line endings in the repo.
+*.md text eol=lf
+*.py text eol=lf
+*.sh text eol=lf
