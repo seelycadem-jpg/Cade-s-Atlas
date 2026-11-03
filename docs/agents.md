@@ -18,6 +18,7 @@ Each skill lives in `.claude/skills/<name>/SKILL.md` and is written once, in the
 | --- | --- | --- |
 | `/build` | Pipeline, schema validator, tests; reports | 0 |
 | `/ship` | `/build`, commit, push; reports what deployed | 0 |
+| `/page-check` | Title, description, worded address, structured data, alt text, sitemap entry on every page; fails the build on a miss | 3 |
 | `/border-fix <polity> <years>` | Sourced fix file, owners rebuild, audit, ten spot-check screenshots | 4 |
 | `/place-events <year>` | Places the year's events by coordinates and lane; placement check | 4 |
 | `/profile <polity> <year>` | Country profile by era, source and year on every figure; provenance check | 5 |

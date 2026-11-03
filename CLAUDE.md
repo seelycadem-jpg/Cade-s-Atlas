@@ -43,6 +43,7 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
   their checks, the era rule for old data. Wins over story-method.md on tiers.
 - `docs/agents.md`: the session loop, the page pipeline, every skill with its phase, and
   the checks each of the six places adds. Read before building or running a skill.
+- `docs/seo.md`: what every page carries so it is found on Google; `/page-check` enforces it.
 - `docs/house-style.md`: voice, tiers, links, grades and the globe.
 - `docs/story-method.md`: chronicles, stories, patches, knots and the anti-slop rules.
 - `docs/border-review.md`: how the province map and its owners are built.
