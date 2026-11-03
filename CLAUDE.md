@@ -90,18 +90,41 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 Whatever the prompt says:
 
 - Never edit a built JSON file by hand; change the source and run the pipeline.
-- Never invent a name, date, figure or source to fill a gap; leave it out and queue it.
+- Never invent a name, date, figure or source to fill a gap; leave it out and put it on
+  the page's `open` list.
+- Never fill a pre-modern year from a modern series, and never write an estimate
+  without its basis and range; otherwise blank, with "no record before".
+- Never write a link by hand into a page header, draw an arrow the link table does not
+  hold, grade a link without its arrow note, or grade a Necessary without its
+  counterfactual sentence.
 - Never draw a border polygon by hand or reintroduce a hand-drawn patch; correct
   against the reference record with a sourced fix file.
 - Never run the 40-minute snap step without saying what it costs first.
 - Never delete or shorten a page to make a check pass; fix the flagged sentence.
-- Never write a page without reading its sources.
-- Never use an image without its source, licence and credit recorded beside it, and
-  never a photograph of a living person. Open sources only (Commons, Met Open Access,
-  LoC, National Archives); see docs/narrative-flow.md, Pictures.
+- Never write a page without reading its sources, and never ship one without its two
+  verified exits.
+- Never write a person's impact as prose: impact is graded links. A feature with no
+  link into a chain stays a label on the map, never a page.
+- Never use knot, strand, fibre, or any name from the analytic foundations where a
+  reader sees it. Readers see turning points, the full story, every detail, the five
+  grade words and the note.
+- Never change a section heading or the layer order of a page; never pad a section
+  to its band; never skip a wall because the event is small.
+- Never use an image without its source, licence and credit recorded beside it, never
+  a photograph of a living person, and never a credit printed under the picture.
+  Open sources only (Commons, Met Open Access, LoC, National Archives); see
+  docs/narrative-flow.md, Pictures.
+- Never let a reviewer read a draft it helped write; never skip the fact-checker or
+  the flow editor.
+- Never free zoom on the timeline, more than three levels, a page without Back or its
+  breadcrumb, or a card without the shared preview component.
+- Never hand-write the takeaway strip, the year card figures or any text the data
+  header generates.
+- Never add a view or layer without a licence line, or redistribute a file whose
+  licence forbids it.
 - Never commit secrets, large binaries or `node_modules`.
 - Never force-push, rewrite history or delete a branch; ask.
-- Never push to `main` with a red test.
+- Never push to `main` with a red test, and never ship a page whose status is draft.
 - Never start the next phase because the current one seems done; run its test.
 - Never add a library, service or framework outside the stack without proposing it.
 - Keep the Cliopatria CC BY credit on the About page.
