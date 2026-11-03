@@ -71,6 +71,9 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 - Use plain literal verbs. No idioms, cliches or figurative phrases.
 - Include no invented specifics. Leave out any name, date or figure that cannot be
   sourced.
+- Every event and person page carries a verified Wikipedia and Britannica exit.
+- Tags (political, war, economic, ideas, religion, science, culture, environment) sit on
+  every event, several at a time; they never affect tier.
 - Readers see the five grade words and the note. The analytic foundations stay internal.
 - The voice and method standards are internal. The public About page carries purpose,
   goal and the method in brief, plus any credit a data licence requires.
@@ -88,7 +91,9 @@ Whatever the prompt says:
 - Never run the 40-minute snap step without saying what it costs first.
 - Never delete or shorten a page to make a check pass; fix the flagged sentence.
 - Never write a page without reading its sources.
-- Never use a photo of a real person or an image without a licence.
+- Never use an image without its source, licence and credit recorded beside it, and
+  never a photograph of a living person. Open sources only (Commons, Met Open Access,
+  LoC, National Archives); see docs/narrative-flow.md, Pictures.
 - Never commit secrets, large binaries or `node_modules`.
 - Never force-push, rewrite history or delete a branch; ask.
 - Never push to `main` with a red test.

@@ -65,3 +65,27 @@ A person page is an event page turned ninety degrees: a life read as a chain. Pa
 ## Eras without modern data
 
 Where the modern series stop, the agent names the best record that exists for the era (chronicles, tax rolls, census fragments, archaeology, the Maddison and Seshat estimates), states its basis and range, and writes the figure as an estimate with that basis. A field with no record for an era is blank and says so. Picking the right record is the agent's job; inventing one is a hard limit.
+
+## Fields the model needs (agreed 2026-11-03)
+
+- Link.actor: the person whose decision the mechanism runs through, if any, with one flag: does the counterfactual hold if that person is removed? Actor named and flag "no" = a person-level Necessary link. The share of Tier 1 knots whose chain holds one is the great man number; the pipeline computes it.
+- Event.actors: the polities and people involved, each with a role (initiator, target, ally, victim, mediator).
+- Event.place: a point, always; an extent where the event covers ground (a war, a famine, a plague).
+- Event.time: a date with its precision (day, month, year, decade, approximate) and era (BCE or CE); a span where the event lasts, with the date that places it on the timeline named.
+- Event.tags: several per event from a fixed list: political, war, economic, ideas, religion, science, culture, environment. Tags never affect tier. Tags feed the Practice and Transformation chronicles: an event tagged science is a candidate for the gunpowder chain and the pipeline proposes it.
+- Event.exits: a verified Wikipedia article and a verified Britannica article on every event; a person carries the same two. No page ships without them.
+- Page.status: draft, reviewed or published, with the audit line and the date of the last check. The site hides unpublished pages; the flow editor reads only reviewed pages.
+
+The cannon test: the bombards at the Theodosian Walls are a strand inside the 1453 knot in the Ottoman chronicle and a knot in a gunpowder chronicle. Same event, two sizes; the tags let the second chronicle find it.
+
+## Pictures
+
+An image earns its place as a visual does: by showing what the prose cannot (a portrait painted in the sitter's lifetime, a drawing of the siege, the plan for D-Day).
+
+Sources: only those that state an open licence or public-domain status on the file itself, with the licence recorded beside the image: Wikimedia Commons (licence metadata readable by script), the Met Open Access collection (CC0, API), the Rijksmuseum, the Library of Congress, the US National Archives (US government works, including the D-Day plans and most twentieth-century war photographs), Europeana, Gallica, the Wellcome Collection. A museum page that shows a work without terms is a lead, never a source: for Bellini's 1480 portrait of Mehmed II, use the Commons reproduction with its licence line, since the National Gallery's page states no terms.
+
+Every image carries: source, creator, date made, licence, credit line, alt text, and a one-line caption in the brief register that says what it is, when it was made, and its relation to the event (made in the sitter's lifetime; a miniature twenty years after; a later artist's imagination, labelled as such).
+
+Out: photographs of living people; stock imagery; any file whose licence cannot be read from the source; decoration.
+
+Build: images are assets on R2 beside the map tiles, sized at build for phone and laptop; the design system sets the treatment; the `/image <event>` skill searches the open sources, checks the licence by script, writes caption and credit, and places the image. No licence line, no image.
