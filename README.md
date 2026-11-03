@@ -6,10 +6,10 @@ fresh rebuild.
 
 | Folder | Contents |
 | --- | --- |
-| `site/` | The last published atlas: page, event data and map data. Reference for the rebuild and source of the data. |
+| `site/` | Prototype 1: the last published atlas, frozen. Raw material for the rewrite and the source of the data. |
 | `docs/` | Internal writing and analytic standards. |
 | `pipeline/` | Reserved for the build scripts. See `pipeline/README.md`. |
 | `CLAUDE.md` | Standing instructions for Claude Code. |
 
-To view the old site, run `python -m http.server 8000` inside `site/` and open
+To view Prototype 1, run `python -m http.server 8000` inside `site/` and open
 http://localhost:8000.
