@@ -46,15 +46,23 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 
 ## Rules for all atlas text
 
-- Rule zero: never write the negation-then-reveal ("It did not X. It Y'd." or "not X,
-  but Y"), in any register, including chat. State what a thing is or did. Use "rather
-  than" in one clause only when the contrast is the point.
-- Presidential daily brief everywhere: short declarative sentences, one fact or
-  judgment each, none over 25 words, no sentence that could be cut.
-- The themes layer alone ("Man and Power" and the rest) is written like Cicero and may
-  ask questions in the prose.
+- Active voice with action verbs. Name who did what: "Moscow started the Crimean War
+  to take the Straits." Never "the war was started by", "there was", "it is believed".
+- Rule zero: say what a thing is or did. Never the negation-then-reveal ("The treaty
+  was not a peace. It was a truce." or "not X, but Y"), in any register, including
+  chat. Write "The treaty was a truce." The first sentence of the banned shape makes the
+  reader hold a wrong idea so the second can correct it. Use "rather than" in one
+  clause only when the contrast is the point.
+- Presidential daily brief everywhere, in the Stratfor manner: judgment first, short
+  declarative sentences, one fact or judgment each, none over 25 words, no sentence
+  that could be cut, nouns and verbs carrying the meaning, no word that tells the
+  reader how to feel.
+- The themes layer alone ("Man and Power" and the rest) is written like Cicero: it may
+  ask real questions, address the reader and take a style of its own. Rule zero holds.
 - Event pages open with an Overview: the so-what in hard facts, in 2-3 short paragraphs.
-- Name actors with role and name on first mention (German Chancellor Olaf Scholz).
+- Name a person with role and name on first mention (German Chancellor Olaf Scholz). A
+  government may act under its capital or seat when that is the actor: Moscow, London,
+  the Porte.
 - Name no academics, historians, authors or schools in product text. Give the facts and
   the judgment.
 - Use plain literal verbs. No idioms, cliches or figurative phrases.

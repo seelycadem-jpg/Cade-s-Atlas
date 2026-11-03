@@ -8,6 +8,10 @@ The full standards live in the doc "Meanwhile Atlas: Analytic Standards" (https:
 
 The negation-then-reveal is banned in every register, including chat with the user: "It did not X. It Y'd." / "Not X, but Y." / "The question is not X but Y." State what a thing is or did, directly. A contrast is stated in one clause with "rather than" or "instead of", and only when the contrast is the point. Example: write "The law enforced itself through rewards rather than punishment", never "The law did not create a system of punishment. It rewarded those who followed the rules."
 
+## Rule zero-A: active voice, action verbs (added 2026-11-03)
+
+Every sentence names who did what. "Moscow started the Crimean War to take the Straits." "The Porte raised the tribute." Never "the war was started by Russia", "there was a rise in tribute", "it is believed that". A government may act under its capital or seat (Moscow, London, the Porte, Beijing); a person is still named with role and name on first mention. Clearer example for rule zero: write "The treaty was a truce", never "The treaty was not a peace. It was a truce."
+
 ## Rule one: two registers
 
 - The presidential daily brief, everywhere: event briefs, arrow notes, story chapters at every altitude, theme propositions, the About page, chat. Every sentence carries information or argument. Judgment first. No word that could be cut without loss. If the President would skim it, cut it. No questions; the reader is told.
