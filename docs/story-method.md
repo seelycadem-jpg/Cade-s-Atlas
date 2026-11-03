@@ -33,7 +33,7 @@ Size is a label set by scope (five tests: span, reach, fan-out, load, thesis lev
 
 ## Four phases, three loops
 
-1. DEFINE: name the contest (a tension, never a period) → thesis (one sentence that could be wrong) → assumptions (3 at most) + disconfirmation line → read the shelf (3-6 real works; find the awkward fact).
+1. DEFINE: name the contest (a tension, never a period) → thesis (one sentence that could be wrong) → assumptions (3 at most) + disconfirmation line → read the shelf (3-6 real works; find the fact against).
 2. SELECT: list candidates → score tiers (reach, irreversibility, load) → pick hinges (3-7 chapters, one hinge each) → connector test (therefore or but; an and-then means merge or cut the chapter).
 3. CONNECT: grade each arrow (type, grade, confidence) → write notes (claim, objection, warrant, verdict) → link theatres (story-to-story, graded) → cross-region check (every T1 hinge leaves its region).
 4. WRITE AND CHECK: write the argument level first, compress to the knots, assemble the fibres → slop check (fails: rewrite) → red team ("where would an expert stop reading") (fails: regrade) → editor signs → published with audit line.
@@ -58,7 +58,7 @@ Ten themes in the Cicero register: Man and Power, Man and God, Man and War, Man 
 
 - Rule zero: no negation-then-reveal, in any register.
 - Expert's nod: every chapter has one fact a general reader wouldn't know and an expert would recognise.
-- Awkward fact: every story includes one thing that doesn't fit the thesis, stated as such.
+- The fact against: every story names the one fact that cuts against its thesis, stated as such.
 - Name the shelf: 3-6 real works by author and title per story; every Contested arrow names its schools.
 - Specific verbs, specific actors: institutions and people rather than capitals.
 - Disconfirmation line: what would have to be true for the thesis to be wrong.

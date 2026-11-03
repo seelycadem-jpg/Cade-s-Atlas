@@ -17,7 +17,7 @@ Room, where the agent decides, because events differ:
 - Which optional sections the event needs (below), and how long each runs inside its band.
 - Whether "What it did" is bullets (a treaty's terms) or prose (a battle's course).
 - Which visual or picture, if any, and where it sits.
-- The one awkward fact and the expert's nod: the agent finds them; no rule can.
+- The fact against and the expert's nod: the agent finds them; no rule can.
 - The order of drivers in "Why it happened", and which objection to name in "Why it held or failed".
 - Sentence rhythm and word choice within the register. Two pages by two agents should read as two writers on one desk, never as one template filled twice.
 

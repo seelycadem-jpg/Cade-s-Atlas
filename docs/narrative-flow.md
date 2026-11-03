@@ -34,11 +34,11 @@ Going deeper opens a chain. There is no fourth tier. A reader who wants more tha
 
 ## Flavor
 
-Flavor is the texture that belongs to one chronicle and no other. The transplant test: swap the proper nouns in a paragraph for those of another chronicle; if the paragraph still reads as true, it fails. A page draws on at least three of four sources: constraint (geography, demography, money), institution (by its own name, with one line on what it did), actor (role, name, the option declined), the expert's nod and the awkward fact. A detail earns its place by changing the judgment.
+Flavor is the texture that belongs to one chronicle and no other. The transplant test: swap the proper nouns in a paragraph for those of another chronicle; if the paragraph still reads as true, it fails. A page draws on at least three of four sources: constraint (geography, demography, money), institution (by its own name, with one line on what it did), actor (role, name, the option declined), the expert's nod and the fact against. A detail earns its place by changing the judgment.
 
 ## The two checking agents
 
-- Flavor check: reads one page or one story; runs the transplant test on every paragraph; counts the sources; checks every actor has a role and every verb is specific. Fails on any transplantable paragraph, fewer than three sources, or a missing nod or awkward fact. Runs beside the fact-checker, style editor and red team.
+- Flavor check: reads one page or one story; runs the transplant test on every paragraph; counts the sources; checks every actor has a role and every verb is specific. Fails on any transplantable paragraph, fewer than three sources, or a missing nod or fact against. Runs beside the fact-checker, style editor and red team.
 - Flow editor: reads a whole story, then a whole chronicle, top down and bottom up; runs the five tests. Runs on every assembly and after any page in it is rewritten.
 
 Both return a list of places with the failing test named, never a rewrite.

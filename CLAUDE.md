@@ -92,7 +92,7 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 - The voice and method standards are internal. The public About page carries purpose,
   goal and the method in brief, plus any credit a data licence requires.
 - Writing must pass an expert's reading as human work: an expert's nod on every page
-  (a fibre excepted), one awkward fact per story stated as such, no stock phrases, no
+  (a fibre excepted), one fact against per story, stated as such, no stock phrases, no
   neat symmetry. The Overview carries no scene-setting; The account in layer 3 is
   narrative by design.
 
