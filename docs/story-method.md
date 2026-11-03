@@ -58,7 +58,7 @@ Ten themes in the Cicero register: Man and Power, Man and God, Man and War, Man 
 
 - Rule zero: no negation-then-reveal, in any register.
 - Expert's nod: every chapter has one fact a general reader wouldn't know and an expert would recognise.
-- The fact against: every story names the one fact that cuts against its thesis, stated as such.
+- The fact against: every story carries the one fact that cuts against its thesis, written into the argument as a plain sentence (the settlement was a poor foundation, and it held for a decade), never labelled on the page. The name is the reviewers' word, never the reader's.
 - Name the shelf: 3-6 real works by author and title per story; every Contested arrow names its schools.
 - Specific verbs, specific actors: institutions and people rather than capitals.
 - Disconfirmation line: what would have to be true for the thesis to be wrong.
