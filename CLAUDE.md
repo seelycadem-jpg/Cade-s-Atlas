@@ -121,6 +121,16 @@ Whatever the prompt says:
   grade words and the note.
 - Never change a section heading or the layer order of a page; never pad a section
   to its band; never skip a wall because the event is small.
+- Never label or flag the fact against, the expert's nod or any reviewers' device
+  where a reader sees it; write it in as a plain sentence. Never manufacture a fact
+  against where the evidence holds no doubt.
+- Never satisfy a writing check by making the page worse: never apply a rule in its
+  literal form where the amended form exists; never cut a connector, a consequence or
+  a needed passive to pass a check; never write every sentence to one length; never
+  fill the template so two pages read as one writer. A check that fails a sentence on
+  the literal form of an amended rule is a bug in the check.
+- Never hedge with words where the grade does the hedging, and never explain the
+  method to the reader outside the About page.
 - Never use an image without its source, licence and credit recorded beside it, never
   a photograph of a living person, and never a credit printed under the picture.
   Open sources only (Commons, Met Open Access, LoC, National Archives); see
