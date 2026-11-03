@@ -94,6 +94,8 @@ Grade (one): Necessary · Sufficient · Contributing (default) · Contested · C
 Confidence (one): High · Moderate · Low.
 One mechanism per hop; long chains are split. Necessary/Sufficient require a counterfactual sentence; Contributing names the set and A's rank; Contested states each reading ("one reading holds …") with its evidence, without naming its authors. Ideological links need evidence the actors read or invoked the idea.
 
+Refinement (3 November 2026): the grade is the atlas's verdict; the confidence word says how sure; the objection in the note carries the challenge. A link the atlas judges real but which has a known case against it is graded (usually Contributing) at Low or Moderate confidence with the objection stated, never Contested. Contested is reserved for links where the readings are matched and the atlas withholds a verdict; it is rare. On the page, the Argument section states the atlas's verdict first and the challenge second. Confidence sets the line weight on every arrow (High heavy, Low thin); grade sets the line style.
+
 ## Arrow note (60-100 words)
 
 Claim (verb matched to grade) · Objection (strongest, stated) · Warrant (the transferable rule) · Verdict (grade, defended) · Evidence tests (hoop / smoking gun / both / straws; required for Tier 1) · Meta (type, grade, confidence, hops, cross-region).

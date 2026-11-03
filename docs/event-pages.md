@@ -59,7 +59,7 @@ A knot that spans several strands (a settlement with five treaties, a war with f
 | Today | 2 | 1 to 2 lines | A border, institution, grievance or practice still live; checkable; written forward; no flourish |
 | The account | 3 | 150 to 500 words | What happened, in order: the situation first, then the actors, facts without causal verbs; the causal reading stays in layer 2. The section a historian reads first |
 | By the numbers | 3 | a short table or list | Every figure that changed the judgment, with its basis and the range where sources disagree |
-| The argument | 3 | 2 to 6 sentences; optional | Where the event is contested: "one reading holds ... the other holds ...", each with its evidence, neither with its authors named. Required when any link into or out of the event is Contested |
+| The argument | 3 | 2 to 6 sentences; optional | The atlas's verdict first, the challenge second: the link's grade and confidence, then the strongest case against it with its evidence, no authors named. Required when any link into or out of the event is Contested or carries Low confidence. Where the readings are matched, "one reading holds ... the other holds ..." and the link stays Contested |
 | The common misreading | 3 | 1 to 3 sentences; optional | The thing most readers believe about this event that the evidence does not support, and what the evidence supports instead |
 | Places | 3 | a list; optional | The features and cities, each a link to its card |
 | The detail | 3 | 1 to 2 sentences | The expert's nod: one fact a general reader would not know and a specialist would recognise, dated to the day where possible |

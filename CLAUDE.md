@@ -89,6 +89,10 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 - Tags (political, war, economic, ideas, religion, science, culture, environment) sit on
   every event, several at a time; they never affect tier.
 - Readers see the five grade words and the note. The analytic foundations stay internal.
+- A link with a known case against it is graded at Low or Moderate confidence with the
+  objection in its note, never Contested. Contested is reserved for matched readings
+  where the atlas withholds a verdict. The Argument section states the verdict first,
+  the challenge second.
 - The voice and method standards are internal. The public About page carries purpose,
   goal and the method in brief, plus any credit a data licence requires.
 - Writing must pass an expert's reading as human work: an expert's nod on every page
