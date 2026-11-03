@@ -41,6 +41,8 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 - `docs/narrative-flow.md`: the five flow tests, the three tiers (all events; tier per
   chain), flavor and the transplant test, the two checking agents, the six places and
   their checks, the era rule for old data. Wins over story-method.md on tiers.
+- `docs/agents.md`: the session loop, the page pipeline, every skill with its phase, and
+  the checks each of the six places adds. Read before building or running a skill.
 - `docs/house-style.md`: voice, tiers, links, grades and the globe.
 - `docs/story-method.md`: chronicles, stories, patches, knots and the anti-slop rules.
 - `docs/border-review.md`: how the province map and its owners are built.
