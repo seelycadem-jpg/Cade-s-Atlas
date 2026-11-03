@@ -89,3 +89,9 @@ Every image carries in the repo: source, creator, date made, licence, credit lin
 Out: photographs of living people; stock imagery; any file whose licence cannot be read from the source; decoration. Never forced: the agent looks for a picture on every page, and a page with nothing worth showing ships without one, finished. A battle needs no plan; a photograph or painting of the battle is the picture, and a plan appears only where the plan itself is the point.
 
 Build: images are assets on R2 beside the map tiles, sized at build for phone and laptop; the design system sets the treatment; the `/image <event>` skill searches the open sources, checks the licence by script, writes caption and credit, and places the image. No licence line, no image.
+
+## A seventh object: the feature (agreed 2026-11-03)
+
+A named piece of the physical or economic world: strait, field, lake, river, range, plain, farmland belt, port, mine, reef. Fields: type; geometry (point, line or area); the layer it is drawn on; a brief on what it is and why it matters, in hard facts; figures with source and year; exits; links to the events and chronicles that ran through it. Features link from any text as [[feature-id|words]] and open a card on tap (type, one line, Read more). A feature earns its page by carrying at least one link; the rest stay labels on the map. The shared objects are events, links, people, polities, features, layers and themes.
+
+The Explore globe opens on the present: it is the board on which the chains are still being played. Its trade view draws a country's top exports and imports by product, its main partners as flows, and the ports and chokepoints its trade depends on (OEC and UN Comtrade for goods; the World Bank shipping density for routes), each figure with its year; tapping a chokepoint inverts the view to who depends on it.

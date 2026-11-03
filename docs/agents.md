@@ -36,6 +36,8 @@ Each skill lives in `.claude/skills/<name>/SKILL.md` and is written once, in the
 | `/year-brief <year>` | The world-in-that-year card from the summed profiles | 3, refined in 8 |
 | `/web-check <span>` | Arrows and links match both ways; coverage check | 8 |
 | `/layer <name>` | Fetch, licence by script, PMTiles, ranked table, brief, licence line | 11 |
+| `/feature <id>` | A feature page: geometry from its layer, brief, figures with source, links into chains, exits; four reviewers plus provenance | 11 |
+| `/trade-view <country>` | Exports, imports, partners and the chokepoints the routes depend on, from OEC, Comtrade and the shipping layer; provenance binds | 11 |
 
 ## Per place: the checks on top of the pipeline
 
@@ -44,7 +46,7 @@ Each skill lives in `.claude/skills/<name>/SKILL.md` and is written once, in the
 | Great people | `/people-cut`, `/person-page` | Chain check (every life event is an atlas event; every impact claim is a link); quota at selection; exits | An impact claim is prose; a life event has no page and no queue entry; length set by fame |
 | Political globe | `/border-fix`, `/place-events`, `/profile` | Record check; placement check; provenance check; 3-second budget on a phone | A hand-edited polygon; an event without coordinates; a figure without source or year; a modern series filling an ancient year |
 | Event pages | `/event-page` and its four reviewers, `/image` | Link check (every `[[id|words]]` resolves or is queued); exits; flow editor at assembly | A fact fix outstanding; rule zero or the active voice broken; a transplantable paragraph; a page shortened to pass |
-| Explore globe | `/layer` | Licence check; rank check (reproducible by script); size budget; link check (every brief links into a chronicle) | Licence unreadable; ranking not reproducible; over budget; a brief that names no chronicle |
+| Explore globe | `/layer`, `/feature`, `/trade-view` | Licence check; rank check (reproducible by script); size budget; link check (every brief and every feature links into a chronicle); provenance on every figure | Licence unreadable; ranking not reproducible; over budget; a brief or feature with no link; a figure without source or year |
 | Great themes | `/theme` | Real-question check; three-civilisation check; node check; link check on every case | A question asked to sound deep; a case without a link; a bare name; one civilisation |
 | Timeline | `/year-brief`, `/web-check` | Web check; coverage check (gaps marked, never hidden); cursor check (one year, every place); provenance on the year card | An arrow without a link; a link without an arrow; a silent gap; a cursor that moves one place and not another |
 
