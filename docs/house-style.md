@@ -12,6 +12,10 @@ The negation-then-reveal is banned in every register, including chat with the us
 
 Every sentence names who did what. "Moscow started the Crimean War to take the Straits." "The Porte raised the tribute." Never "the war was started by Russia", "there was a rise in tribute", "it is believed that". A government may act under its capital or seat (Moscow, London, the Porte, Beijing); a person is still named with role and name on first mention. Clearer example for rule zero: write "The treaty was a truce", never "The treaty was not a peace. It was a truce."
 
+## Amendments (3 November 2026)
+
+Read literally, some rules flatten prose; the checks enforce these forms. Sentences: average under 20 words, none over 30, lengths varied; one idea per sentence, and a fact may share a sentence with its consequence. Passive allowed when the actor is unknown or the thing done is the point; never to hide who decided. Rule zero bans the two-step reveal only; a plain negative fact is fine. Logical connectors inside sentences stay; banned are stock transitions at the head of a sentence and the "and then" between patches. Triplets built for rhythm are banned; three facts are three facts. Banned words apply in figurative use only. The expert's nod is per page (fibres excepted); the awkward fact is per story. No scene-setting applies to the Overview; The account is narrative. Wit lives in the choice and placement of a fact.
+
 ## Rule one: two registers
 
 - The presidential daily brief, everywhere: event briefs, arrow notes, story chapters at every altitude, theme propositions, the About page, chat. Every sentence carries information or argument. Judgment first. No word that could be cut without loss. If the President would skim it, cut it. No questions; the reader is told.

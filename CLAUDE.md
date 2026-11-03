@@ -54,17 +54,26 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 
 ## Rules for all atlas text
 
-- Active voice with action verbs. Name who did what: "Moscow started the Crimean War
-  to take the Straits." Never "the war was started by", "there was", "it is believed".
-- Rule zero: say what a thing is or did. Never the negation-then-reveal ("The treaty
-  was not a peace. It was a truce." or "not X, but Y"), in any register, including
-  chat. Write "The treaty was a truce." The first sentence of the banned shape makes the
-  reader hold a wrong idea so the second can correct it. Use "rather than" in one
-  clause only when the contrast is the point.
-- Presidential daily brief everywhere, in the Stratfor manner: judgment first, short
-  declarative sentences, one fact or judgment each, none over 25 words, no sentence
-  that could be cut, nouns and verbs carrying the meaning, no word that tells the
-  reader how to feel.
+- Active voice by default, with action verbs. Name who did what: "Moscow started the
+  Crimean War to take the Straits." Never "the war was started by" to hide who decided,
+  "there was", "it is believed". Passive is allowed when the actor is unknown ("the city
+  was founded around 1000 BCE") or when the thing done is the point and the doer comes
+  in the next sentence.
+- Rule zero: say what a thing is or did. Never the two-step reveal ("The treaty was
+  not a peace. It was a truce." or "not X, but Y"), in any register, including chat.
+  Write "The treaty was a truce." A plain negative fact ("Germany did not sign until
+  June") is a fact and is fine. Use "rather than" in one clause only when the contrast
+  is the point.
+- Presidential daily brief everywhere, in the Stratfor manner: judgment first,
+  declarative sentences, one idea each (a fact and its consequence may share one),
+  average under 20 words and none over 30, lengths varied, no sentence that could be
+  cut, nouns and verbs carrying the meaning, no word that tells the reader how to feel.
+  Logical connectors inside a sentence ("because", "so", "but") are the argument and
+  stay; banned are stock transitions at the head of a sentence ("Moreover",
+  "Furthermore", "However,") and the "and then" between paragraphs. A list of three
+  facts is fine; a triplet built for rhythm is banned. Banned words are banned in
+  figurative use; the literal use of a plain word never is. Wit lives in the choice
+  and placement of a fact, never in an adjective.
 - The themes layer alone ("Man and Power" and the rest) is written like Cicero: it may
   ask real questions, address the reader and take a style of its own. Rule zero holds.
 - Event pages open with an Overview: the so-what in hard facts, in 2-3 short paragraphs.
@@ -82,8 +91,10 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 - Readers see the five grade words and the note. The analytic foundations stay internal.
 - The voice and method standards are internal. The public About page carries purpose,
   goal and the method in brief, plus any credit a data licence requires.
-- Writing must pass an expert's reading as human work: expert-level specifics, one
-  awkward fact per story, no stock phrases, no neat symmetry.
+- Writing must pass an expert's reading as human work: an expert's nod on every page
+  (a fibre excepted), one awkward fact per story stated as such, no stock phrases, no
+  neat symmetry. The Overview carries no scene-setting; The account in layer 3 is
+  narrative by design.
 
 ## Hard limits
 
