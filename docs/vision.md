@@ -26,6 +26,15 @@ Its top-tier interface is built for the curious: readers move seamlessly between
 and stories. Top-tier analytic writing gives the reader the so-what in hard facts, and
 the option to go deeper into the events and turning points that interest them.
 
+## Prototype 1 is inspiration, never the standard
+
+Prototype 1 (`site/`, and the scripts in `pipeline/`) is old data and ideas to learn from.
+The new atlas improves on it in every way: the writing, the design, the data model, the
+maps and the speed. Nothing old ships as it is. Matching the old output is never a goal;
+the old content scripts are retired once `content/` replaces them, and the map scripts are
+kept only as a base to improve (seeded, licence-checked, carried past 2019, fast on a
+phone).
+
 ## The parts, and the place each lives
 
 | The statement says | Where it lives | Spec |

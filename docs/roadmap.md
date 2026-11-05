@@ -26,8 +26,8 @@ Goal: the project builds and tests itself, and a blank site is live on the inter
 | --- | --- | --- | --- |
 | 0.1 | Approve the stack | C | Done 2026-11-05 |
 | 0.2 | One settings file that tells every pipeline script where this project's folders are (`pipeline/` for code, `site/` for output, a git-ignored `work/` for scratch) | AI | No script names the old chat's folders |
-| 0.3 | Run `build.sh` inside the repo and compare with the stored data | AI | Same 781 events and 36 links, byte for byte |
-| 0.4 | Drop the unused `polities.py` step | AI | `rules.json` also matches |
+| 0.3 | Safety check that moving the scripts broke nothing: run `build.sh` from another folder into a test copy | AI | Done 2026-11-05 with step 0.2 |
+| 0.4 | ~~Drop the unused `polities.py` step~~ | AI | Not needed: the old content scripts are retired in Phase 2 |
 | 0.5 | Install Node and Astro; create `app/` with one blank page | AI | The page opens in a browser here |
 | 0.6 | First test (Playwright): open the page at phone and laptop size, check the title, save screenshots | AI | Test passes; Cade sees both screenshots |
 | 0.7 | GitHub Actions: run the build and the test on every push | AI | A green tick on GitHub |
