@@ -1,5 +1,6 @@
 """Rows whose name the research dates to a different era: the record shows polity X in years when, by every
 researched place, X ruled nowhere (and X does rule somewhere in the research at other times)."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import WORK
 import json, glob, collections, sys
 from names import same, key
 CP=[p for f in sorted(glob.glob("cp/*.json")) for p in json.load(open(f))["places"]]
@@ -10,7 +11,7 @@ for p in CP:
         for n in [t["ruler"]]+(t.get("aliases") or []):
             if n=="none" or not isinstance(n,str): continue
             L=life[n]; L[0]=min(L[0],t["from"]); L[1]=max(L[1],t["to"])
-ROWS=json.load(open("/tmp/g3/rows.json"))
+ROWS=json.load(open(WORK + "/g3/rows.json"))
 cache={}
 def span(nm):
     if nm in cache: return cache[nm]

@@ -1,9 +1,10 @@
 """Standalone lint for one anNN.py rewrite file: python3 lint_an.py an36.py"""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE
 import sys, re, importlib, os, json
-sys.path.insert(0, "/home/claude")
+sys.path.insert(0, ROOT)
 from briefcheck import BANNED, RZ, AUTH, FIELDS
 M = importlib.import_module(os.path.basename(sys.argv[1])[:-3])
-EV = {e["id"]: e for e in json.load(open("/home/claude/site/data.json"))["events"]}
+EV = {e["id"]: e for e in json.load(open(SITE + "/data.json"))["events"]}
 errs = []
 for eid, d in M.A.items():
     if eid not in EV: errs.append(f"{eid}: unknown event id"); continue

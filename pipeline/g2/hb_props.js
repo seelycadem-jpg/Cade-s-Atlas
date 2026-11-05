@@ -1,6 +1,6 @@
 // add label points and areas to the survey maps
 const fs=require("fs"), topo=require("topojson-client"), d3=require("d3-geo"); const _pl=require("polylabel"), polylabel=_pl.default||_pl;
-const dir=__dirname+"/../atlas/maps/";
+const dir=__dirname+"/../../site/maps/";
 for(const f of fs.readdirSync(dir).filter(f=>/^w\d+\.json$/.test(f))){
   const T=JSON.parse(fs.readFileSync(dir+f)); const k=Object.keys(T.objects)[0]; const G=T.objects[k].geometries; const F=topo.feature(T,T.objects[k]).features;
   F.forEach((ft,i)=>{ const g=G[i]; if(!ft.geometry||!ft.geometry.coordinates||!ft.geometry.coordinates.length) return; const polys=ft.geometry.type==="Polygon"?[ft.geometry.coordinates]:ft.geometry.coordinates; let best=null,ba=-1; for(const p of polys){ let a=d3.geoArea({type:"Polygon",coordinates:p}); if(a>2*Math.PI) a=4*Math.PI-a; if(a>ba){ba=a;best=p;} } if(!best) return;

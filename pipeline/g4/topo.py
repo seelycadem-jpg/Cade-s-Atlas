@@ -2,12 +2,13 @@
 objects.p = provinces (id, n name, c country, ar km2, lp label point); objects.e = one line per shared border or
 coast arc with the two provinces it separates (a, b; b=0 for a coast). Long straight cut lines (where a large region
 was split) are roughened by midpoint displacement, the same on both sides because the arc is shared."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, WORK
 import json, subprocess, math, random, sys, os
 import numpy as np
 from shapely.geometry import shape, LineString
 random.seed(11)
-subprocess.run(["mapshaper", "-i", "/tmp/g4/prov.geojson", "name=p", "-clean", "-simplify", "weighted", os.environ.get("KEEP", "30%"), "keep-shapes", "-o", "format=topojson", "quantization=2000000", "/tmp/g4/prov_raw.json"], check=True)
-T = json.load(open("/tmp/g4/prov_raw.json")); tr = T["transform"]; sx, sy = tr["scale"]; tx, ty = tr["translate"]
+subprocess.run(["mapshaper", "-i", WORK + "/g4/prov.geojson", "name=p", "-clean", "-simplify", "weighted", os.environ.get("KEEP", "30%"), "keep-shapes", "-o", "format=topojson", "quantization=2000000", WORK + "/g4/prov_raw.json"], check=True)
+T = json.load(open(WORK + "/g4/prov_raw.json")); tr = T["transform"]; sx, sy = tr["scale"]; tx, ty = tr["translate"]
 def dec(a):
     x = y = 0; o = []
     for p in a: x += p[0]; y += p[1]; o.append([x * sx + tx, y * sy + ty])
@@ -53,20 +54,20 @@ for k in range(len(new)):
     E.append({"type": "LineString", "arcs": [k], "properties": {"a": pa, "b": pb}})
 T["objects"]["e"] = {"type": "GeometryCollection", "geometries": E}
 T.pop("transform", None); T["arcs"] = [[[round(x, 5), round(y, 5)] for x, y in a] for a in new]
-json.dump(T, open("/tmp/g4/prov_r.json", "w"))
-subprocess.run(["mapshaper", "-i", "/tmp/g4/prov_r.json", "-o", "format=topojson", "quantization=1000000", "/home/claude/atlas/maps/prov.json"], check=True)
+json.dump(T, open(WORK + "/g4/prov_r.json", "w"))
+subprocess.run(["mapshaper", "-i", WORK + "/g4/prov_r.json", "-o", "format=topojson", "quantization=1000000", MAPS + "/prov.json"], check=True)
 # label points and neighbours for the pipeline
 from shapely.geometry import shape as sh
-F = json.load(open("/tmp/g4/prov.geojson"))["features"]
+F = json.load(open(WORK + "/g4/prov.geojson"))["features"]
 nb = {}
 for e in E:
     a, b = e["properties"]["a"], e["properties"]["b"]
     if b: nb.setdefault(a, set()).add(b); nb.setdefault(b, set()).add(a)
-json.dump({str(k): sorted(v) for k, v in nb.items()}, open("/tmp/g4/nb.json", "w"))
+json.dump({str(k): sorted(v) for k, v in nb.items()}, open(WORK + "/g4/nb.json", "w"))
 print(len(G), "provinces", len(E), "edges", file=sys.stderr)
 # ---- files for the globe: the map's worker loads the shapes itself; the page keeps only small tables ----
-subprocess.run(["mapshaper", "-i", "/home/claude/atlas/maps/prov.json", "-o", "format=geojson", "precision=0.0001", "/tmp/g4/out/"], check=True)
-P = json.load(open("/tmp/g4/out/p.json")); E = json.load(open("/tmp/g4/out/e.json"))
+subprocess.run(["mapshaper", "-i", MAPS + "/prov.json", "-o", "format=geojson", "precision=0.0001", WORK + "/g4/out/"], check=True)
+P = json.load(open(WORK + "/g4/out/p.json")); E = json.load(open(WORK + "/g4/out/e.json"))
 for f in P["features"]: f["properties"] = {"id": f["properties"]["id"]}
 for k, f in enumerate(E["features"]):
     c = f["geometry"]["coordinates"] if f.get("geometry") else []
@@ -82,18 +83,18 @@ for f in P["features"]:
     if g.is_valid: continue
     h = g.buffer(0); ps = [h] if h.geom_type == "Polygon" else [q for q in getattr(h, "geoms", []) if q.geom_type == "Polygon"]
     if ps: m = _m0(ps[0] if len(ps) == 1 else _MP(ps)); f["geometry"] = {"type": m["type"], "coordinates": _r4(m["coordinates"])}
-json.dump(P, open("/home/claude/atlas/maps/prov_p.json", "w"), separators=(",", ":"))
-json.dump(E, open("/home/claude/atlas/maps/prov_e.json", "w"), separators=(",", ":"))
+json.dump(P, open(MAPS + "/prov_p.json", "w"), separators=(",", ":"))
+json.dump(E, open(MAPS + "/prov_e.json", "w"), separators=(",", ":"))
 from shapely.geometry import shape as _sh
 ids = []; ar = []; cx = []; cy = []
 for f in P["features"]:
     g = _sh(f["geometry"]) if f.get("geometry") else None
     rp = g.representative_point() if g is not None and not g.is_empty else None
     ids.append(f["properties"]["id"]); cx.append(round(rp.x, 3) if rp else 0); cy.append(round(rp.y, 3) if rp else 0)
-pa = {g["properties"]["id"]: g["properties"].get("ar", 1) for g in json.load(open("/tmp/g4/prov_raw.json"))["objects"]["p"]["geometries"]}
+pa = {g["properties"]["id"]: g["properties"].get("ar", 1) for g in json.load(open(WORK + "/g4/prov_raw.json"))["objects"]["p"]["geometries"]}
 ar = [pa.get(i, 1) for i in ids]
 EA = []; EB = []
-Tt = json.load(open("/home/claude/atlas/maps/prov.json"))
+Tt = json.load(open(MAPS + "/prov.json"))
 for k, g in enumerate(Tt["objects"]["e"]["geometries"]):
     EA.append(g["properties"]["a"]); EB.append(g["properties"]["b"])
-json.dump({"id": ids, "ar": ar, "cx": cx, "cy": cy, "ea": EA, "eb": EB}, open("/home/claude/atlas/maps/prov_meta.json", "w"), separators=(",", ":"))
+json.dump({"id": ids, "ar": ar, "cx": cx, "cy": cy, "ea": EA, "eb": EB}, open(MAPS + "/prov_meta.json", "w"), separators=(",", ":"))

@@ -1,6 +1,6 @@
 #!/bin/bash
 set -e
-cd /home/claude
+cd "$(dirname "$0")"   # the pipeline folder; scripts take their paths from paths.py
 python3 make_json.py >/dev/null
 python3 arcs_build.py >/dev/null
 python3 refine.py | grep -v "^WARN backwards: Summer Palace"

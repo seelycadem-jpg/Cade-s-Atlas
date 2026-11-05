@@ -1,6 +1,7 @@
-"""Stage: map corrections. Reads site/maps/w*.json, patches NAME and SUBJECTO by rule, drops 1492, writes atlas/maps/."""
+"""Stage: map corrections. Reads site/maps/w*.json, patches NAME and SUBJECTO by rule, drops 1492, writes site/maps/."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import MAPS, SITE
 import json, re, os, shutil
-SRC="/home/claude/site/maps"; DST="/home/claude/atlas/maps"
+SRC=SITE + "/maps"; DST=MAPS
 YEARS=[1400,1500,1530,1600,1650,1700,1715,1783,1800,1815,1880,1900,1914,1920,1930,1938,1945,1960,1994,2000,2010]
 UK="United Kingdom"; FR="France"; PT="Portugal"; ES="Spain"; NL="Netherlands"; BE="Belgium"; IT="Italy"; DE="German Empire"; JP="Empire of Japan"; US="United States"; RU="Russian Empire"; SU="USSR"; TR="Ottoman Empire"; CN="China"; ZA="South Africa"; AU="Australia"; DK="Denmark"
 # (name regex, from, to, subject or None to clear, new name or None)  -- applied in order; first match wins per feature

@@ -1,16 +1,17 @@
 """Who owns each province, year by year.
-1400-1885: the corrected period maps (/tmp/g3/snapsF2): each province goes to the polity holding most of it,
+1400-1885: the corrected period maps (work/g3/snapsF2): each province goes to the polity holding most of it,
   judged by sample points inside the province. Land of peoples is recorded as such.
 1886-2019: CShapes 2.0 at mid-year, plus the land it leaves empty (csgaps), the same way.
-Output /tmp/g4/own_base.json: {"pol": [[src, name, overlord, union, extra]], "prov": {id: [[year, pol], ...]}} with
+Output work/g4/own_base.json: {"pol": [[src, name, overlord, union, extra]], "prov": {id: [[year, pol], ...]}} with
 pol 0 = no polity recorded. Later steps (estimate.py) fill the unowned provinces and apply research overrides."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import WORK
 import json, math, sys, os
 import numpy as np
 from shapely.geometry import shape, Point
 from shapely.validation import make_valid
 from shapely import contains_xy, prepare
 rng = np.random.default_rng(3)
-F = json.load(open("/tmp/g4/prov.geojson"))["features"]
+F = json.load(open(WORK + "/g4/prov.geojson"))["features"]
 pid = [f["properties"]["id"] for f in F]
 X, Y, O = [], [], []
 for k, f in enumerate(F):
@@ -44,8 +45,8 @@ def assign(feats):
     for (o, pi), c in cnt.items():
         if c > votes[o]: votes[o] = c; best[o] = pi
     return best
-spans = json.load(open(os.environ.get("SPANS", "/tmp/g3/spans_f.json")))
-SNAPS = os.environ.get("SNAPS", "/tmp/g3/snapsF2")
+spans = json.load(open(os.environ.get("SPANS", WORK + "/g3/spans_f.json")))
+SNAPS = os.environ.get("SNAPS", WORK + "/g3/snapsF2")
 own = {}  # year -> owner array
 for a, b in spans:
     fc = json.load(open(f"{SNAPS}/s{a}.geojson"))["features"]
@@ -59,7 +60,7 @@ for a, b in spans:
         feats.append((pi, g))
     own[a] = assign(feats)
     print(a, file=sys.stderr, flush=True)
-CSF = json.load(open("/tmp/rv/cs.geojson"))["features"]; GAP = json.load(open("/tmp/rv/csgaps.geojson"))["features"]
+CSF = json.load(open(WORK + "/rv/cs.geojson"))["features"]; GAP = json.load(open(WORK + "/rv/csgaps.geojson"))["features"]
 CSG = [(f["properties"], make_valid(shape(f["geometry"]))) for f in CSF if f.get("geometry")]
 GPG = [(f["properties"], make_valid(shape(f["geometry"]))) for f in GAP if f.get("geometry")]
 for y in range(1886, 2020):
@@ -81,5 +82,5 @@ for k in range(NP):
         v = int(own[y][k])
         if v != last: tl.append([y, v]); last = v
     prov[pid[k]] = tl
-json.dump({"pol": POL, "prov": prov, "years": years}, open("/tmp/g4/own_base.json", "w"))
+json.dump({"pol": POL, "prov": prov, "years": years}, open(WORK + "/g4/own_base.json", "w"))
 print("polities", len(POL), "changes", sum(len(v) for v in prov.values()), file=sys.stderr)

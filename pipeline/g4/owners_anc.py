@@ -5,7 +5,8 @@ Sources, in order of precedence for each province and step:
  2. states in the historical-basemaps world map in force (the latest snapshot at or before the year); a basemap state
     that mostly lies inside one Cliopatria polity is that polity (the two sources name the same realm differently);
  3. cultures and peoples of the basemaps, as named peoples' land (no state).
-Output /tmp/g4/own_anc.json in the own_base format."""
+Output work/g4/own_anc.json in the own_base format."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import WORK
 import json, re, sys, glob, os
 import numpy as np
 from shapely.geometry import shape
@@ -13,7 +14,7 @@ from shapely.validation import make_valid
 from shapely import contains_xy, prepare
 rng = np.random.default_rng(3)
 GRID = list(range(-3400, -753, 25)) + [-753] + list(range(-750, 0, 10)) + [1] + list(range(10, 1400, 10))
-F = json.load(open("/tmp/g4/prov.geojson"))["features"]; NP = len(F)
+F = json.load(open(WORK + "/g4/prov.geojson"))["features"]; NP = len(F)
 X, Y, O = [], [], []
 for k, f in enumerate(F):
     g = make_valid(shape(f["geometry"])); prepare(g)
@@ -44,7 +45,7 @@ def assign(feats, minvotes=1):
     return best
 # --- Cliopatria ---
 CL = []
-for f in json.load(open("/tmp/clio/cliopatria_polities_only_v021.geojson"))["features"]:
+for f in json.load(open(WORK + "/clio/cliopatria_polities_only_v021.geojson"))["features"]:
     p = f["properties"]
     if p.get("Type") != "POLITY" or p["FromYear"] >= 1400 or not f.get("geometry"): continue
     try: g = make_valid(shape(f["geometry"])); prepare(g)
@@ -55,7 +56,7 @@ print(len(CL), "Cliopatria shapes before 1400", file=sys.stderr, flush=True)
 def hbyear(fn):
     s = os.path.basename(fn)[6:-8]
     return -int(s[2:]) if s.startswith("bc") else int(s)
-HB = sorted((hbyear(fn), fn) for fn in glob.glob("/tmp/hb/geojson/world_*.geojson"))
+HB = sorted((hbyear(fn), fn) for fn in glob.glob(WORK + "/hb/geojson/world_*.geojson"))
 HB = [(y, fn) for y, fn in HB if -5000 <= y <= 1400]
 CULT = re.compile(r"cultur|hunter|gatherer|farmer|nomad|pastoral|tribe|people|aborigin|forag|fisher|fichers|Austronesians|Bantu|Khoisan|Semites|Dravidians|^Ainu$|J[oō]mon|Cycladic|Únětice|Beaker|Andronovo|Sintashta|Namazga|Afanasevo|Valdivia|Norte Chico|^Oxus$|^Thai$|Koreans|Tibeto|Tibetans|Arameans|Berbers|Celtiberians|Illyrians|Cimerians|Chinchor|Guanches|Saami|Vedic Aryans|Burmese|Sinic|Proto-|Paleo|Inuit|Dorset|Thule|Athabaskan|Innu|Beothuk|Arawaks|Ciboney|Malagasy|^Malay$|^Finns$|Karelians|Ests|Mordvinians|^Mari$|Bashkirs|Baltic|Slav|Germanic|Celts$|Scythians|Sarmatians|Saka$|Alans|Huns$|Xiongnu|Magyars|Northmen|Danes$|Czechs|Kipchak|Cuman|Turkic|Mongol|Tungus|Jurchen|Khitan(?! )|Hainan|Anasazi|Mogollon|Hohokam|Hopewell|Adena|Mississippian|Fremont|complex|Complex|Focus|^Miller$|^Porter$|Blemmyes|neolithic|megalith|Bronze Age|Urnfield|Hallstatt|La T[eè]ne", re.I)
 hbcache = {}
@@ -94,5 +95,5 @@ for k in range(NP):
         v = int(own[t][k])
         if v != last: tl.append([t, v]); last = v
     prov[F[k]["properties"]["id"]] = tl
-json.dump({"pol": POL, "prov": prov, "grid": GRID}, open("/tmp/g4/own_anc.json", "w"), separators=(",", ":"), ensure_ascii=False)
+json.dump({"pol": POL, "prov": prov, "grid": GRID}, open(WORK + "/g4/own_anc.json", "w"), separators=(",", ":"), ensure_ascii=False)
 print("polities", len(POL), file=sys.stderr)

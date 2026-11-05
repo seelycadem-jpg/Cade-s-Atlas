@@ -1,3 +1,4 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, UPLOADS
 import importlib.util, sys
 from openpyxl import Workbook
 from openpyxl.styles import Font, PatternFill, Alignment, Border, Side
@@ -6,10 +7,10 @@ from openpyxl.comments import Comment
 from openpyxl.cell.rich_text import CellRichText, TextBlock
 from openpyxl.cell.text import InlineFont
 
-sys.path.insert(0, "/home/claude")
-spec = importlib.util.spec_from_file_location("old", "/mnt/user-data/uploads/build.py")
+sys.path.insert(0, ROOT)
+spec = importlib.util.spec_from_file_location("old", UPLOADS + "/build.py")
 # reuse band definitions from the first version without re-running its build
-src = open("/mnt/user-data/uploads/build.py").read().split("REGIONS = {")[0]
+src = open(UPLOADS + "/build.py").read().split("REGIONS = {")[0]
 ns = {}; exec(src, ns)
 ERAS, EXPLORE, CONFLICTS, TECH = ns["ERAS"], ns["EXPLORE"], ns["CONFLICTS"], ns["TECH"]
 
@@ -170,6 +171,6 @@ for i, row in enumerate(details, 2):
 wd.freeze_panes = "E2"
 wd.auto_filter.ref = f"A1:I{len(details)+1}"
 
-out = "/home/claude/World_History_Timeline_1444-Present.xlsx"
+out = ROOT + "/World_History_Timeline_1444-Present.xlsx"
 wb.save(out)
 print(len(details), "events")

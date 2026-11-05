@@ -4,17 +4,18 @@ area patch is overlaid into one flat mosaic; each atom then carries its ruler ye
 The globe merges atoms by ruler for fills and labels and draws borders once, only between different
 rulers - so no seams, no overlaps, no masking.
 
-Writes atlas/maps/a{year}.json: topology "atoms", properties
+Writes site/maps/a{year}.json: topology "atoms", properties
   t  = [[year, owner, change], ...]   ruler from that year on (owner indexes `owners`, change indexes `changes` or -1)
   hz = index into `changes` of an undated change over this atom (hatched), or -1
   lp, ar = label point and area in km2
 and top-level `owners` [[NAME, SUBJECTO, INF]] and `changes` [{y, t, frm, to, a, b, k}]."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, WORK
 import json, subprocess, sys, math, os
 from shapely.geometry import shape, mapping, Polygon, MultiPolygon
 from shapely.ops import unary_union, polylabel
 from shapely.validation import make_valid
 from shapely import STRtree
-M = "/home/claude/atlas/maps"
+M = MAPS
 MAPY = [1400, 1500, 1530, 1600, 1650, 1700, 1715, 1783, 1800, 1815, 1880]
 NEXT = {y: (MAPY[i + 1] if i + 1 < len(MAPY) else 1886) for i, y in enumerate(MAPY)}
 def gj(path, tmp):
@@ -28,21 +29,21 @@ def polys(g):
     if g.geom_type == "Polygon": return [g]
     if hasattr(g, "geoms"): return [p for x in g.geoms for p in polys(x)]
     return []
-PIECES = gj(f"{M}/pieces.json", "/tmp/at_pieces.geojson")
-ISL = gj(f"{M}/islands.json", "/tmp/at_isl.geojson")
+PIECES = gj(f"{M}/pieces.json", WORK + "/at_pieces.geojson")
+ISL = gj(f"{M}/islands.json", WORK + "/at_isl.geojson")
 for my in MAPY:
     nx = NEXT[my]
-    base = [f for f in gj(f"{M}/w{my}.json", f"/tmp/at_w{my}.geojson") if f.get("geometry") and (f["properties"].get("NAME") or "").strip()]
+    base = [f for f in gj(f"{M}/w{my}.json", f"{WORK}/at_w{my}.geojson") if f.get("geometry") and (f["properties"].get("NAME") or "").strip()]
     pcs = [f for f in PIECES if f.get("geometry") and f["properties"].get("a") == my]
     isl = [f for f in ISL if f.get("geometry") and f["properties"]["a"] < nx and f["properties"]["b"] > my]
     src = []
     for i, f in enumerate(base): src.append({"type": "Feature", "properties": {"sid": f"b{i}"}, "geometry": f["geometry"]})
     for i, f in enumerate(pcs): src.append({"type": "Feature", "properties": {"sid": f"p{i}"}, "geometry": f["geometry"]})
     for i, f in enumerate(isl): src.append({"type": "Feature", "properties": {"sid": f"i{i}"}, "geometry": f["geometry"]})
-    json.dump({"type": "FeatureCollection", "features": src}, open("/tmp/at_src.geojson", "w"))
-    subprocess.run(["mapshaper", "-i", "/tmp/at_src.geojson", "snap", "-mosaic", "calc=ids=collect(sid)", "snap-interval=0.005",
-                    "-o", "format=geojson", "/tmp/at_mos.geojson"], check=True, capture_output=True)
-    mos = json.load(open("/tmp/at_mos.geojson"))["features"]
+    json.dump({"type": "FeatureCollection", "features": src}, open(WORK + "/at_src.geojson", "w"))
+    subprocess.run(["mapshaper", "-i", WORK + "/at_src.geojson", "snap", "-mosaic", "calc=ids=collect(sid)", "snap-interval=0.005",
+                    "-o", "format=geojson", WORK + "/at_mos.geojson"], check=True, capture_output=True)
+    mos = json.load(open(WORK + "/at_mos.geojson"))["features"]
     owners, oix = [], {}
     def own(n, s, inf=None):
         key = (n, s or None, inf or None)
@@ -110,9 +111,9 @@ for my in MAPY:
         except Exception: lp = big.representative_point()
         feats.append({"type": "Feature", "properties": {"t": a["t"], "hz": a["hz"], "lp": [round(lp.x, 2), round(lp.y, 2)], "ar": round(km2(a["g"]))},
                       "geometry": mapping(ps[0] if len(ps) == 1 else MultiPolygon(ps))})
-    json.dump({"type": "FeatureCollection", "features": feats}, open("/tmp/at_out.geojson", "w"))
-    subprocess.run(["mapshaper", "-i", "/tmp/at_out.geojson", "name=atoms", "-o", "format=topojson", "precision=0.0005", "/tmp/at_out.json"], check=True, capture_output=True)
-    T = json.load(open("/tmp/at_out.json"))
+    json.dump({"type": "FeatureCollection", "features": feats}, open(WORK + "/at_out.geojson", "w"))
+    subprocess.run(["mapshaper", "-i", WORK + "/at_out.geojson", "name=atoms", "-o", "format=topojson", "precision=0.0005", WORK + "/at_out.json"], check=True, capture_output=True)
+    T = json.load(open(WORK + "/at_out.json"))
     T["owners"] = owners; T["changes"] = changes
     json.dump(T, open(f"{M}/a{my}.json", "w"), separators=(",", ":"), ensure_ascii=False)
     print(my, "atoms", len(feats), "owners", len(owners), "changes", len(changes), "slivers merged", merged, "kb", os.path.getsize(f"{M}/a{my}.json") // 1024, file=sys.stderr)

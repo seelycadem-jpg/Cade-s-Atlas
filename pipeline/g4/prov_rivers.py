@@ -3,15 +3,16 @@ The first states were strips along rivers through desert (Nile, Tigris-Euphrates
 the Sahelian Niger and Senegal, the Tarim, the Yellow River). A province that a listed river crosses is split into the
 valley strip (within a few dozen km of the river) and the land beyond, so a valley state is drawn on its valley and
 the desert beside it can belong to no one.
-Reads and rewrites /tmp/g4/prov.geojson (the original is kept as prov_base.geojson)."""
+Reads and rewrites work/g4/prov.geojson (the original is kept as prov_base.geojson)."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, WORK
 import json, math, os, shutil, sys
 from shapely.geometry import shape, mapping, LineString, MultiPolygon
 from shapely.ops import unary_union
 from shapely.validation import make_valid
 from shapely import STRtree
-if not os.path.exists("/tmp/g4/prov_base.geojson"): shutil.copy("/tmp/g4/prov.geojson", "/tmp/g4/prov_base.geojson")
-F = json.load(open("/tmp/g4/prov_base.geojson"))["features"]
-T = json.load(open("/home/claude/atlas/maps/phys.json"))
+if not os.path.exists(WORK + "/g4/prov_base.geojson"): shutil.copy(WORK + "/g4/prov.geojson", WORK + "/g4/prov_base.geojson")
+F = json.load(open(WORK + "/g4/prov_base.geojson"))["features"]
+T = json.load(open(MAPS + "/phys.json"))
 sx, sy = T["transform"]["scale"]; tx, ty = T["transform"]["translate"]
 ARCS = []
 for a in T["arcs"]:
@@ -59,5 +60,5 @@ for f in F:
     out.append((dict(p, n=p["n"], ar=round(va), v=1), MultiPolygon(vp) if len(vp) > 1 else vp[0]))
     out.append((dict(p, n=p["n"], ar=round(ra)), MultiPolygon(rp) if len(rp) > 1 else rp[0])); ns += 1
 feats = [{"type": "Feature", "properties": dict(p, id=i + 1), "geometry": mapping(g)} for i, (p, g) in enumerate(out)]
-json.dump({"type": "FeatureCollection", "features": feats}, open("/tmp/g4/prov.geojson", "w"))
+json.dump({"type": "FeatureCollection", "features": feats}, open(WORK + "/g4/prov.geojson", "w"))
 print(ns, "provinces split along rivers;", len(feats), "provinces", file=sys.stderr)

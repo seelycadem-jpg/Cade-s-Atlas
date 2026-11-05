@@ -3,14 +3,15 @@ Starts from the modern first-level regions (Natural Earth admin-1, 10m), merges 
 splits large ones into parts of even size, so a province is about 5,000 km2 in the old, dense cores (Europe, the
 Mediterranean, the Middle East, India, China, Japan, Java), about 20,000 km2 elsewhere and up to 80,000 km2 in
 desert, tundra and ice. Islands far from their region's main body become provinces of their own when large enough.
-Output /tmp/g4/prov.geojson (id, name, country, area) for the topology step."""
+Output work/g4/prov.geojson (id, name, country, area) for the topology step."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import WORK
 import json, math, sys, random, os
 import numpy as np
 from shapely.geometry import shape, mapping, Point, MultiPolygon, Polygon, MultiPoint, box
 from shapely.ops import unary_union
 from shapely.validation import make_valid
 from shapely import STRtree, voronoi_polygons, prepare, contains_xy
-os.makedirs("/tmp/g4", exist_ok=True)
+os.makedirs(WORK + "/g4", exist_ok=True)
 random.seed(7); np.random.seed(7)
 def km2(g): return 0 if g.is_empty else abs(g.area) * 111.32 ** 2 * math.cos(math.radians(g.representative_point().y))
 def polys(g):
@@ -28,7 +29,7 @@ def target(pt):
     if any(a <= x <= c and b <= y <= d for a, b, c, d in SPARSE): return 80000
     if y < -60: return 1e12
     return 20000
-d = json.load(open("/tmp/nev/geojson/ne_10m_admin_1_states_provinces.geojson"))
+d = json.load(open(WORK + "/nev/geojson/ne_10m_admin_1_states_provinces.geojson"))
 U = []
 for f in d["features"]:
     p = f["properties"]
@@ -123,6 +124,6 @@ for v in R:
 feats = []
 for i, v in enumerate(out):
     feats.append({"type": "Feature", "properties": {"id": i + 1, "n": v["name"], "c": v["country"], "iso": v["iso"], "ar": round(v["ar"])}, "geometry": mapping(v["g"])})
-json.dump({"type": "FeatureCollection", "features": feats}, open("/tmp/g4/prov.geojson", "w"))
+json.dump({"type": "FeatureCollection", "features": feats}, open(WORK + "/g4/prov.geojson", "w"))
 A = sorted(f["properties"]["ar"] for f in feats)
 print(len(feats), "provinces; median", A[len(A) // 2], "km2; p10", A[len(A) // 10], "p90", A[int(.9 * len(A))], file=sys.stderr)

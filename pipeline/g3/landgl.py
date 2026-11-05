@@ -1,10 +1,11 @@
 """Land for the GPU map: planar polygons (cut at the 180th meridian), Antarctica kept."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, WORK
 import json, subprocess
 from shapely.geometry import shape, mapping, box, Polygon
 from shapely.affinity import translate
 from shapely.validation import make_valid
-subprocess.run(["mapshaper", "-i", "/home/claude/atlas/maps/land.json", "-o", "format=geojson", "/tmp/g3/land_raw.geojson"], check=True, capture_output=True)
-d = json.load(open("/tmp/g3/land_raw.geojson"))
+subprocess.run(["mapshaper", "-i", MAPS + "/land.json", "-o", "format=geojson", WORK + "/g3/land_raw.geojson"], check=True, capture_output=True)
+d = json.load(open(WORK + "/g3/land_raw.geojson"))
 gs = d["geometries"] if "geometries" in d else [f["geometry"] for f in d["features"]]
 out = []
 for g in gs:
@@ -17,6 +18,6 @@ for g in gs:
                 part = translate(part, dx); out += [p for p in getattr(part, "geoms", [part]) if p.geom_type == "Polygon" and not p.is_empty]
         else:
             v = make_valid(q); out += [p for p in getattr(v, "geoms", [v]) if p.geom_type == "Polygon"]
-json.dump({"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {}, "geometry": mapping(p)} for p in out]}, open("/tmp/g3/landgl.geojson", "w"))
-subprocess.run(["mapshaper", "-i", "/tmp/g3/landgl.geojson", "name=land", "-o", "format=topojson", "quantization=400000", "/home/claude/atlas/maps/landgl.json"], check=True, capture_output=True)
+json.dump({"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {}, "geometry": mapping(p)} for p in out]}, open(WORK + "/g3/landgl.geojson", "w"))
+subprocess.run(["mapshaper", "-i", WORK + "/g3/landgl.geojson", "name=land", "-o", "format=topojson", "quantization=400000", MAPS + "/landgl.json"], check=True, capture_output=True)
 print("land polygons", len(out))

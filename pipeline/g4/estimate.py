@@ -1,26 +1,27 @@
 """Fill and correct province owners.
  A. islands with no recorded owner join the nearest owned province's polity (within 4 degrees);
- B. provinces with no state (none or peoples) go, where the researched gazetteer (/home/claude/review/gaz) places a
+ B. provinces with no state (none or peoples) go, where the researched gazetteer (pipeline/review/gaz) places a
     polity, to the nearest such polity whose researched extent covers them (an estimate, marked src 'gaz');
- C. research control points (/home/claude/review/cp): a province whose researched ruler is a state the map does not
+ C. research control points (pipeline/review/cp): a province whose researched ruler is a state the map does not
     show there takes that ruler when the map has no state, and a capital takes its researched ruler when the map
     names someone unrelated.
-Input /tmp/g4/own_base.json, output /home/claude/atlas/maps/own.json."""
+Input work/g4/own_base.json, output site/maps/own.json."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, ROOT, WORK
 import json, glob, math, sys, os
 import numpy as np
 from shapely.geometry import shape, Point, MultiPoint
 from shapely.validation import make_valid
 from shapely import STRtree, contains_xy
-sys.path.insert(0, "/home/claude/review"); from names import same
-B = json.load(open("/tmp/g4/own_base.json")); POL = B["pol"]
+sys.path.insert(0, ROOT + "/review"); from names import same
+B = json.load(open(WORK + "/g4/own_base.json")); POL = B["pol"]
 # before 1400: the ancient grid (owners_anc.py), every 25 years to 753 BCE and every 10 years to 1390; from 1400 one row per year
-A_ = json.load(open("/tmp/g4/own_anc.json")); AOFF = len(POL); POL += A_["pol"]
+A_ = json.load(open(WORK + "/g4/own_anc.json")); AOFF = len(POL); POL += A_["pol"]
 years = list(A_["grid"]) + list(range(1400, 2020))
-F = json.load(open("/tmp/g4/prov.geojson"))["features"]; n = len(F)
+F = json.load(open(WORK + "/g4/prov.geojson"))["features"]; n = len(F)
 pid = [f["properties"]["id"] for f in F]; ix = {p: i for i, p in enumerate(pid)}
 G = [make_valid(shape(f["geometry"])) for f in F]
 rp = [g.representative_point() for g in G]; CX = np.array([p.x for p in rp]); CY = np.array([p.y for p in rp])
-nb = json.load(open("/tmp/g4/nb.json")); ADJ = [[] for _ in range(n)]
+nb = json.load(open(WORK + "/g4/nb.json")); ADJ = [[] for _ in range(n)]
 for k, v in nb.items():
     for j in v: ADJ[ix[int(k)]].append(ix[j])
 PI = {tuple(p): i for i, p in enumerate(POL)}
@@ -198,7 +199,7 @@ for yi in range(Y):
 print("island fills", na, file=sys.stderr)
 # ---------- B. gazetteer ----------
 GAZ = []
-for f in sorted(glob.glob("/home/claude/review/gaz/*.json")):
+for f in sorted(glob.glob(ROOT + "/review/gaz/*.json")):
     try: d = json.load(open(f))
     except Exception as e: print("bad", f, e, file=sys.stderr); continue
     for p in d.get("polities", []):
@@ -270,7 +271,7 @@ for yi, y in enumerate(years):
         p = GP[who[i]][0]; row[i] = pol("gaz", p["name"], ovl(p, y), "", "gaz"); nb_ += 1
 print("gazetteer province-years", nb_, file=sys.stderr)
 # ---------- C. research control points ----------
-CP = [p for f in sorted(glob.glob("/home/claude/review/cp/*.json")) for p in json.load(open(f))["places"]]
+CP = [p for f in sorted(glob.glob(ROOT + "/review/cp/*.json")) for p in json.load(open(f))["places"]]
 T = STRtree(G)
 def prov_of(x, y):
     pt = Point(x, y); hit = [i for i in T.query(pt) if G[i].contains(pt)]
@@ -364,12 +365,12 @@ for yi, y in enumerate(years):
         o = border.pop(); row[comp] = o; ne3 += len(comp)
 print("enclosed pockets filled", ne3, file=sys.stderr)
 isppl = np.array([p[0] == "pp" for p in POL] + [False] * 20000)
-# ---------- D. reviewers' corrections (/home/claude/review/fix/*.json), by modern country and region ----------
+# ---------- D. reviewers' corrections (pipeline/review/fix/*.json), by modern country and region ----------
 import re as _re
 def base(nm): return _re.sub(r"( islands)?( \d+)?$", "", nm).strip()
 PC = [F[i]["properties"]["c"] for i in range(n)]; PB = [base(F[i]["properties"]["n"]) for i in range(n)]
 nf = 0; bad = []
-for f in sorted(glob.glob("/home/claude/review/fix/*.json")):
+for f in sorted(glob.glob(ROOT + "/review/fix/*.json")):
     try: fixes = json.load(open(f))
     except Exception as e: print("bad fix file", f, e, file=sys.stderr); continue
     if isinstance(fixes, dict): fixes = fixes.get("fixes", [])
@@ -391,7 +392,7 @@ for f in sorted(glob.glob("/home/claude/review/fix/*.json")):
                     nf += 1
         except Exception as e: bad.append((f, str(e)[:60], ""))
 print("review corrections province-years", nf, "unmatched", len(bad), file=sys.stderr)
-if bad: json.dump(bad, open("/tmp/g4/fix_unmatched.json", "w"), indent=0, ensure_ascii=False)
+if bad: json.dump(bad, open(WORK + "/g4/fix_unmatched.json", "w"), indent=0, ensure_ascii=False)
 # ---------- F. statehood test for the native Americas ----------
 # A native polity is drawn as a country when it passes either test:
 #  (1) state-level society: a ruler or council governing more than one town from a fixed seat and taking tribute
@@ -401,7 +402,7 @@ if bad: json.dump(bad, open("/tmp/g4/fix_unmatched.json", "w"), indent=0, ensure
 # Otherwise its land is drawn as the named homeland of a people (neutral colour, name shown when zoomed in).
 NAT = {}
 for f in ("n_america", "latin_america"):
-    try: d = json.load(open(f"/home/claude/review/gaz/{f}.json"))
+    try: d = json.load(open(f"{ROOT}/review/gaz/{f}.json"))
     except Exception: continue
     for p in d.get("polities", []):
         for nm in [p["name"]] + (p.get("aliases") or []):
@@ -421,7 +422,7 @@ for nm in PASS: NAT.setdefault(nm, "pass")
 def always(nm):  # a state named only by the period maps (Olmec, Teotihuacan, Moche, Tiwanaku...) is state-level by their judgment
     if nm not in NAT: return True
     k = NAT.get(nm, ""); return k in STATE_KINDS or nm in PASS or _maya(nm) or bool(TAINO.search(nm))
-CTRY = {f["properties"]["ADMIN"]: f["properties"]["CONTINENT"] for f in json.load(open("/tmp/nev/geojson/ne_10m_admin_0_countries.geojson"))["features"]}
+CTRY = {f["properties"]["ADMIN"]: f["properties"]["CONTINENT"] for f in json.load(open(WORK + "/nev/geojson/ne_10m_admin_0_countries.geojson"))["features"]}
 AMER = np.array([CTRY.get(F[i]["properties"]["c"], "") in ("North America", "South America") or F[i]["properties"]["c"] in ("Falkland Islands", "Greenland") or (-125 < CX[i] < -25 and CY[i] > -60) for i in range(n)])
 PRE = set()  # every state in the Americas before 1492 is native
 for yi in range(years.index(1491) + 1):
@@ -448,7 +449,7 @@ for yi, y in enumerate(years):
         if nm in first and y >= first[nm]: continue
         row[ii] = pol("pp", nm, "", "", "native"); nf2 += len(ii)
 print("native lands shown as peoples' homelands (province-years)", nf2, "; nations in the treaty era", len(first), file=sys.stderr)
-json.dump({k: v for k, v in sorted(first.items(), key=lambda kv: kv[1])}, open("/tmp/g4/native_first.json", "w"), indent=0, ensure_ascii=False)
+json.dump({k: v for k, v in sorted(first.items(), key=lambda kv: kv[1])}, open(WORK + "/g4/native_first.json", "w"), indent=0, ensure_ascii=False)
 # ---------- write ----------
 prov = {}
 for i in range(n):
@@ -457,5 +458,5 @@ for i in range(n):
         v = int(M[yi, i])
         if v != last: tl.append([y, v]); last = v
     prov[pid[i]] = tl
-json.dump({"pol": POL, "prov": prov}, open("/home/claude/atlas/maps/own.json", "w"), separators=(",", ":"), ensure_ascii=False)
-print("polities", len(POL), "changes", sum(len(v) for v in prov.values()), os.path.getsize("/home/claude/atlas/maps/own.json") // 1024, "KB", file=sys.stderr)
+json.dump({"pol": POL, "prov": prov}, open(MAPS + "/own.json", "w"), separators=(",", ":"), ensure_ascii=False)
+print("polities", len(POL), "changes", sum(len(v) for v in prov.values()), os.path.getsize(MAPS + "/own.json") // 1024, "KB", file=sys.stderr)

@@ -1,10 +1,11 @@
 """Stage: polity profiles. Reads pol/*.py (L lists), validates, writes atlas/polities.json."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE
 import importlib.util, json, re, sys, os
 BANNED = ["existential", "in many ways", "complex interplay", "the stage was set", "it is no coincidence", "in other words", "it is important to note", "tapestry", "testament to", "delve", "in conclusion", "genuinely", "honestly", "straightforward"]
 RULE0 = [re.compile(r"\bnot\b[^.;]{0,60},? but\b", re.I), re.compile(r"\b(did|does|was|were|is|are) not\b[^.]{0,80}\.\s+(It|They|He|She|This)\b"), re.compile(r"\bnot (only|just|merely|simply)\b", re.I), re.compile(r"\brather than\b.*\brather than\b", re.I)]
 errs=[]; out=[]; seen=set()
 for name in ["eu","me","asia","af","am","extra"]:
-    spec=importlib.util.spec_from_file_location(name, f"/home/claude/pol/{name}.py"); M=importlib.util.module_from_spec(spec); spec.loader.exec_module(M)
+    spec=importlib.util.spec_from_file_location(name, f"{ROOT}/pol/{name}.py"); M=importlib.util.module_from_spec(spec); spec.loader.exec_module(M)
     for p in M.L:
         w=f"{name}:{p['t']} {p['a']}"
         try: re.compile(p["rx"], re.I)
@@ -54,6 +55,6 @@ import collections; print(collections.Counter(p["cls"] for p in out))
 for c in ["other","stateless","theocracy"]:
     print(c, [(p["t"],p["a"]) for p in out if p["cls"]==c][:40])
 
-json.dump(dict(polities=out), open("/home/claude/atlas/polities.json","w"), ensure_ascii=False, separators=(",",":"))
+json.dump(dict(polities=out), open(SITE + "/polities.json","w"), ensure_ascii=False, separators=(",",":"))
 words=sum(len((p.get("now","")+p.get("how","")+p.get("next","")).split()) for p in out)
 print(f"polities: {len(out)} entries, {len(by)} keys, {words} words")

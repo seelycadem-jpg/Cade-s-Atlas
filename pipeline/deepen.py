@@ -1,6 +1,7 @@
 """Stage: topic Q&A for every event, plus fuller story/why/who where the old text was thin."""
 import json, importlib
-P = "site/data.json"
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.dirname(_os.path.abspath(__file__))); from paths import SITE
+P = _os.path.join(SITE, "data.json")
 d = json.load(open(P))
 E = {e["id"]: e for e in d["events"]}
 n = {"q": 0, "story": 0, "why": 0, "who": 0, "hook": 0, "then": 0, "t": 0}

@@ -1,5 +1,6 @@
 """Who held the islands before 1886. The survey maps leave many islands blank or wrong; this list
 gives each island its ruler period by period. Geometry is the coastline polygon under the point."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, ROOT, SITE, WORK
 import json, subprocess
 from shapely.ops import unary_union
 from shapely.geometry import shape, Point, mapping
@@ -91,14 +92,14 @@ AREAS = [
 ]
 import re
 def hb_geom(y, rx, box):
-    gj = f"/tmp/hb_{y}.geojson"
-    subprocess.run(["mapshaper", "-i", f"/home/claude/site/maps/w{y}.json", "-o", "format=geojson", gj], check=True, capture_output=True)
+    gj = f"{WORK}/hb_{y}.geojson"
+    subprocess.run(["mapshaper", "-i", f"{SITE}/maps/w{y}.json", "-o", "format=geojson", gj], check=True, capture_output=True)
     from shapely.geometry import box as bx
     from shapely.ops import unary_union as uu
     F = json.load(open(gj))["features"]
     gs = [make_valid(shape(f["geometry"])) for f in F if f.get("geometry") and re.search(rx, f["properties"].get("NAME") or "")]
     return make_valid(uu(gs).intersection(bx(*box)))
-land_gj = json.load(open("/tmp/land.geojson"))
+land_gj = json.load(open(WORK + "/land.geojson"))
 geoms = [make_valid(shape(g)) for g in (land_gj["geometries"] if "geometries" in land_gj else [f["geometry"] for f in land_gj["features"]])]
 polys = []
 for g in geoms:
@@ -140,7 +141,7 @@ for name, spec, tl in AREAS:
         c = geom.representative_point()
         txt = {("Crimea", 1441): "The Crimean Khanate breaks away from the Golden Horde", ("Crimea", 1475): "The Crimean Khanate becomes an Ottoman vassal"}.get((name, a1), f"{name[0].upper()+name[1:]} passes from the {frm} to the {to}")
         changes.append({"y": a1, "d": str(a1), "t": txt, "k": "transfer", "lon": round(c.x, 2), "lat": round(c.y, 2), "ar": int(geom.area * 9000), "src": "isl"})
-json.dump({"type": "FeatureCollection", "features": feats}, open("/tmp/islands.geojson", "w"))
-subprocess.run(["mapshaper", "-i", "/tmp/islands.geojson", "name=islands", "-o", "format=topojson", "precision=0.005", "/home/claude/atlas/maps/islands.json"], check=True, capture_output=True)
-json.dump(changes, open("/home/claude/g2/isl_changes.json", "w"))
+json.dump({"type": "FeatureCollection", "features": feats}, open(WORK + "/islands.geojson", "w"))
+subprocess.run(["mapshaper", "-i", WORK + "/islands.geojson", "name=islands", "-o", "format=topojson", "precision=0.005", MAPS + "/islands.json"], check=True, capture_output=True)
+json.dump(changes, open(ROOT + "/g2/isl_changes.json", "w"))
 print(len(feats), "island periods;", len(changes), "ledger lines")

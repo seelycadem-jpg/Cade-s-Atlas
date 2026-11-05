@@ -1,14 +1,15 @@
 """Close the gaps between the survey maps and the coastline: land that no polity covers,
 and unnamed slivers, are merged into the neighbour that shares the longest edge.
 Large blank areas (genuinely outside any recorded polity) are left alone."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, WORK
 import json, subprocess, sys, math, os
 from shapely.geometry import shape, mapping as _mapping, MultiPolygon, Polygon
 from shapely.ops import unary_union
 from shapely.validation import make_valid
 from shapely import STRtree
-M = "/home/claude/atlas/maps"
+M = MAPS
 YEARS = [1400, 1500, 1530, 1600, 1650, 1700, 1715, 1783, 1800, 1815, 1880, 1900, 1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000, 2010]
-land_gj = json.load(open("/tmp/land.geojson"))
+land_gj = json.load(open(WORK + "/land.geojson"))
 geoms = land_gj["geometries"] if "geometries" in land_gj else [f["geometry"] for f in land_gj["features"]]
 LAND = make_valid(unary_union([make_valid(shape(g)) for g in geoms]))
 COAST = LAND.boundary.buffer(0.35)
@@ -25,7 +26,7 @@ def polys(g):
     if hasattr(g, "geoms"): return [p for x in g.geoms for p in polys(x)]
     return []
 for y in YEARS:
-    src = f"{M}/w{y}.json"; tmp = f"/tmp/gf_{y}.geojson"
+    src = f"{M}/w{y}.json"; tmp = f"{WORK}/gf_{y}.geojson"
     subprocess.run(["mapshaper", "-i", src, "-o", "format=geojson", tmp], check=True, capture_output=True)
     fc = json.load(open(tmp)); F = fc["features"]
     G = []

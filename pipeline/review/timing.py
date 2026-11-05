@@ -1,7 +1,8 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import ROOT
 import json,collections,glob,os
 from names import same
 CP=[]
-for f in sorted(glob.glob("/home/claude/review/cp/*.json")):
+for f in sorted(glob.glob(ROOT + "/review/cp/*.json")):
     for p in json.load(open(f))["places"]: CP.append(p)
 def truth(p,y):
     for t in p["timeline"]:

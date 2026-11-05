@@ -1,7 +1,8 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE
 # Stage 4: the 1 -> 2 -> 3 hierarchy, read from tiers_tree.txt (indentation = tier).
 # Build order: make_json.py -> arcs_build.py -> refine.py -> tiers.py
 import json, sys
-D = json.load(open("/home/claude/site/data.json")); EV = D["events"]
+D = json.load(open(SITE + "/data.json")); EV = D["events"]
 H = {}
 for e in EV: H.setdefault(e["h"], []).append(e)
 dup = [h for h, v in H.items() if len(v) > 1]
@@ -9,7 +10,7 @@ if dup: raise SystemExit("duplicate heads: %s" % dup)
 H = {h: v[0] for h, v in H.items()}
 for e in EV: e.pop("parent", None)
 placed, stack, errs = set(), {}, []
-for ln, raw in enumerate(open("/home/claude/tiers_tree.txt"), 1):
+for ln, raw in enumerate(open(ROOT + "/tiers_tree.txt"), 1):
     if not raw.strip() or raw.lstrip().startswith("#"): continue
     ind = len(raw) - len(raw.lstrip(" ")); h = raw.strip()
     if ind % 2: errs.append("odd indent line %d" % ln); continue
@@ -24,7 +25,7 @@ for ln, raw in enumerate(open("/home/claude/tiers_tree.txt"), 1):
         p = stack.get(lvl - 1)
         if p is not None: e["parent"] = p["id"]
 # key events and details added in details1.py / details2.py, placed under an existing parent
-sys.path.insert(0, "/home/claude")
+sys.path.insert(0, ROOT)
 import details1, details2, details3
 todo = details1.PLACE + details2.PLACE + details3.PLACE
 for _ in range(4):
@@ -67,7 +68,7 @@ missing = [e["h"] for e in EV if e["h"] not in placed]
 if missing: errs.append("not placed: %s" % missing)
 if errs: raise SystemExit("\n".join(errs))
 for e in EV: e["w"] = {1: 3, 2: 2, 3: 1}[e["tier"]]
-json.dump(D, open("/home/claude/site/data.json", "w"), ensure_ascii=False, separators=(",", ":"))
+json.dump(D, open(SITE + "/data.json", "w"), ensure_ascii=False, separators=(",", ":"))
 from collections import Counter
 kids = Counter(e.get("parent") for e in EV if e.get("parent"))
 print("tiers", dict(Counter(e["tier"] for e in EV)), "| with parent", sum(1 for e in EV if "parent" in e),

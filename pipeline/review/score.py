@@ -1,7 +1,8 @@
 """Score map sources against the control-point timelines.
 Sources: atlas (period maps 1400-1885 + CShapes/gaps from 1886, as the globe draws them), clio (raw Cliopatria base
 polities, before the period maps were built), hb (historical-basemaps snapshots), cs (CShapes alone, 1886+).
-Output /home/claude/review/score.json (every check) and a printed summary."""
+Output pipeline/review/score.json (every check) and a printed summary."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import ROOT, WORK
 import json, glob, os, re, sys, unicodedata, math
 from shapely.geometry import shape, Point
 from shapely import STRtree
@@ -9,7 +10,7 @@ from shapely.validation import make_valid
 sys.path.insert(0, os.path.dirname(__file__))
 from names import same, key  # lineage matching
 CP = []
-for f in sorted(glob.glob("/home/claude/review/cp/*.json")):
+for f in sorted(glob.glob(ROOT + "/review/cp/*.json")):
     d = json.load(open(f)); reg = os.path.basename(f)[:-5]
     for p in d["places"]:
         p["region"] = reg; CP.append(p)
@@ -35,8 +36,8 @@ class Layer:
         if near: return self.F[min(near, key=lambda i: self.G[i].distance(pt))]
         return None
 # ---------- atlas: period maps ----------
-spans = json.load(open(os.environ.get("SPANS", "/tmp/g3/spans.json")))
-SNAPS = os.environ.get("SNAPS", "/tmp/g3/snaps"); SUB = os.environ.get("SUBSET", "all"); TAG = os.environ.get("TAG", "")
+spans = json.load(open(os.environ.get("SPANS", WORK + "/g3/spans.json")))
+SNAPS = os.environ.get("SNAPS", WORK + "/g3/snaps"); SUB = os.environ.get("SUBSET", "all"); TAG = os.environ.get("TAG", "")
 SNAPC = {}
 def snap_layer(y):
     a = max(s[0] for s in spans if s[0] <= y)
@@ -44,7 +45,7 @@ def snap_layer(y):
         fc = json.load(open(f"{SNAPS}/s{a}.geojson"))["features"]
         SNAPC.clear(); SNAPC[a] = Layer([(f["properties"], shape(f["geometry"])) for f in fc])
     return SNAPC[a]
-CSF = json.load(open("/tmp/rv/cs.geojson"))["features"]; GAPF = json.load(open("/tmp/rv/csgaps.geojson"))["features"]
+CSF = json.load(open(WORK + "/rv/cs.geojson"))["features"]; GAPF = json.load(open(WORK + "/rv/csgaps.geojson"))["features"]
 CSG = [(f["properties"], shape(f["geometry"])) for f in CSF if f.get("geometry")]
 GAPG = [(f["properties"], shape(f["geometry"])) for f in GAPF if f.get("geometry")]
 CSC = {}
@@ -71,7 +72,7 @@ def atlas_at(p, y):
     r = cs_layer(y).at(p["lon"], p["lat"])
     return r and {"NAME": r["NAME"], "SUBJECTO": r.get("SUBJECTO"), "REGION": r.get("REGION")}
 # ---------- clio raw ----------
-ROWS = json.load(open(os.environ.get("ROWS", "/tmp/g3/rows.json")))
+ROWS = json.load(open(os.environ.get("ROWS", WORK + "/g3/rows.json")))
 CLIO = Layer([(r["properties"], shape(r["geometry"])) for r in ROWS])
 def clio_at(p, y):
     pt = Point(p["lon"], p["lat"])
@@ -83,12 +84,12 @@ def clio_at(p, y):
     else: i = min(hit, key=lambda i: CLIO.G[i].area)
     r = CLIO.F[i]; return {"NAME": r["NAME"], "SUBJECTO": r.get("SUBJECTO")}
 # ---------- historical-basemaps ----------
-HBY = sorted(int(m.group(1)) for f in glob.glob("/tmp/hb2/geojson/world_*.geojson") for m in [re.match(r".*world_(\d+)\.geojson", f)] if m and int(m.group(1)) >= 1400)
+HBY = sorted(int(m.group(1)) for f in glob.glob(WORK + "/hb2/geojson/world_*.geojson") for m in [re.match(r".*world_(\d+)\.geojson", f)] if m and int(m.group(1)) >= 1400)
 HBC = {}
 def hb_at(p, y):
     if y not in HBY: return "skip"
     if y not in HBC:
-        fs = json.load(open(f"/tmp/hb2/geojson/world_{y}.geojson"))["features"]
+        fs = json.load(open(f"{WORK}/hb2/geojson/world_{y}.geojson"))["features"]
         HBC[y] = Layer([(f["properties"], shape(f["geometry"])) for f in fs if f.get("geometry")])
     r = HBC[y].at(p["lon"], p["lat"])
     if r is None or not r.get("NAME"): return None
@@ -144,4 +145,4 @@ if __name__ == "__main__":
                 v, got = judge(t, m)
                 out.append({"src": name, "y": y, "i": i, "place": p["place"], "region": p["region"], "kind": p.get("kind"), "truth": t["ruler"], "ov": t.get("overlord"), "conf": t.get("confidence"), "v": v, "got": got, "edge": near_change(p, y)})
         print(y, file=sys.stderr, flush=True)
-    json.dump(out, open("/home/claude/review/score_" + "_".join(want) + TAG + ".json", "w"))
+    json.dump(out, open(ROOT + "/review/score_" + "_".join(want) + TAG + ".json", "w"))

@@ -1,7 +1,8 @@
 """Stage: the link graph. Reads graph/*.py (LINKS, STORY or STORIES, THEMES), runs the hard checks, writes site/graph.json."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE
 import json, glob, importlib, os, re, sys
-sys.path.insert(0, "/home/claude/graph"); sys.path.insert(0, "/home/claude")
-D = json.load(open("/home/claude/site/data.json")); EV = D["events"]; E = {e["id"]: e for e in EV}
+sys.path.insert(0, ROOT + "/graph"); sys.path.insert(0, ROOT)
+D = json.load(open(SITE + "/data.json")); EV = D["events"]; E = {e["id"]: e for e in EV}
 GRADES = ["Necessary", "Sufficient", "Contributing", "Contested", "Coincident"]
 TYPES = ["Structural", "Material", "Ideological", "Reactive", "Enabling", "Precedent"]
 CONF = ["High", "Moderate", "Low"]
@@ -18,7 +19,7 @@ def text_checks(where, s):
         if b in low: errs.append(f"{where}: banned phrase '{b}'")
     for rx in RZ:
         if rx.search(s): errs.append(f"{where}: rule zero (negation-then-reveal): …{rx.search(s).group(0)[:70]}…")
-for path in sorted(glob.glob("/home/claude/graph/*.py")):
+for path in sorted(glob.glob(ROOT + "/graph/*.py")):
     M = importlib.import_module(os.path.basename(path)[:-3])
     for l in getattr(M, "LINKS", []):
         w = f"{path}:{l['id']}"
@@ -97,7 +98,7 @@ for S in stories:
     for c in S["chapters"]:
         mem.setdefault(c["hinge"], []).append(dict(story=S["id"], chapter=c["id"], role="hinge"))
         for s in c.get("support", []): mem.setdefault(s, []).append(dict(story=S["id"], chapter=c["id"], role="support"))
-json.dump(dict(links=links, stories=stories, themes=themes, ev=out, mem=mem), open("/home/claude/site/graph.json", "w"), ensure_ascii=False, separators=(",", ":"))
+json.dump(dict(links=links, stories=stories, themes=themes, ev=out, mem=mem), open(SITE + "/graph.json", "w"), ensure_ascii=False, separators=(",", ":"))
 g = {}
 for l in links: g[l["grade"]] = g.get(l["grade"], 0) + 1
 print(f"graph: {len(links)} links {g}; cross-region {sum(1 for l in links if l['cross'])}; {len(stories)} stories; {len(themes)} themes; note words avg {sum(l['words'] for l in links)//max(1,len(links))}")

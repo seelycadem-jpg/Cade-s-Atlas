@@ -1,10 +1,11 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE, UPLOADS
 import sys, json, re
-sys.path.insert(0, "/home/claude")
+sys.path.insert(0, ROOT)
 import data_us, data_eu, data_eu2, data_asia, data_africa, data_africa2, data_latam
 from coords import C
 from facts import F, S
 
-src = open("/mnt/user-data/uploads/build.py").read().split("REGIONS = {")[0]
+src = open(UPLOADS + "/build.py").read().split("REGIONS = {")[0]
 ns = {}; exec(src, ns)
 
 REG = [
@@ -93,7 +94,7 @@ bands = dict(
 )
 out = dict(events=events, threads={k: v[0] for k, v in THREADS.items()}, bands=bands,
            regions=[dict(id=r, name=n) for r, n, _ in REG])
-json.dump(out, open("/home/claude/site/data.json", "w"), ensure_ascii=False, separators=(",", ":"))
+json.dump(out, open(SITE + "/data.json", "w"), ensure_ascii=False, separators=(",", ":"))
 print(len(events), "events; missing coords:", missing)
 print("facts:", sum("fact" in e for e in events), "sites:", sum("sites" in e for e in events))
 from collections import Counter

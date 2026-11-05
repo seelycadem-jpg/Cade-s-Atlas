@@ -1,3 +1,4 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS
 # Curated historical cities: name by period, founding/abandonment, rank (1 world city, 2 regional).
 # Format: (lat, lon, from, to, rank, [(until, name), ...]) ; the last name runs to 'to'.
 import json
@@ -154,5 +155,5 @@ C = [
  (21.31, -157.86, 1850, 2100, 2, [(2100, "Honolulu")]),
 ]
 out = [{"lat": la, "lon": lo, "a": a, "b": b, "r": r, "n": n} for la, lo, a, b, r, n in C]
-json.dump(out, open("/home/claude/atlas/maps/cities.json", "w"), separators=(",", ":"))
+json.dump(out, open(MAPS + "/cities.json", "w"), separators=(",", ":"))
 print(len(out))

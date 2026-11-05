@@ -1,12 +1,13 @@
 """Planar copy of the land for the Python steps: polygons that cross the 180th meridian (Wrangel
 Island, Fiji) are cut there, or shapely reads them as bands around the whole world."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, WORK
 import json
 from shapely.geometry import shape, mapping, box, MultiPolygon, Polygon
 from shapely.affinity import translate
 from shapely.validation import make_valid
 import subprocess
-subprocess.run(["mapshaper", "-i", "/home/claude/atlas/maps/land.json", "-o", "format=geojson", "/tmp/land.geojson"], check=True, capture_output=True)
-d = json.load(open("/tmp/land.geojson"))
+subprocess.run(["mapshaper", "-i", MAPS + "/land.json", "-o", "format=geojson", WORK + "/land.geojson"], check=True, capture_output=True)
+d = json.load(open(WORK + "/land.geojson"))
 gs = d["geometries"] if "geometries" in d else [f["geometry"] for f in d["features"]]
 out = []; cut = 0
 for g in gs:
@@ -23,5 +24,5 @@ for g in gs:
         else: out.append(make_valid(q))
 flat = []
 for p in out: flat += [x for x in getattr(p, "geoms", [p]) if x.geom_type == "Polygon"]
-json.dump({"type": "GeometryCollection", "geometries": [mapping(p) for p in flat]}, open("/tmp/land.geojson", "w"))
+json.dump({"type": "GeometryCollection", "geometries": [mapping(p) for p in flat]}, open(WORK + "/land.geojson", "w"))
 print("land polygons", len(out), "cut at the 180th meridian", cut)

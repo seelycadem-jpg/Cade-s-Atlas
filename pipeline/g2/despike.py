@@ -3,10 +3,11 @@
    reached from Madagascar to Australia), which clips onto whatever land lies under the spike;
 2. regional names for peoples kept to their region: a 'West African' people drawn in the Horn of
    Africa takes the name of the region it lies in."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, WORK
 import json, subprocess, sys, math
 from shapely.geometry import shape, mapping, Polygon, MultiPolygon, box
 from shapely.validation import make_valid
-M = "/home/claude/atlas/maps"
+M = MAPS
 YEARS = [1400, 1500, 1530, 1600, 1650, 1700, 1715, 1783, 1800, 1815, 1880, 1900, 1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000, 2010]
 def dist(a, b):
     lat = math.radians((a[1] + b[1]) / 2)
@@ -36,7 +37,7 @@ GENERIC = {"West African peoples", "Central African peoples", "East African peop
 PARTS = [((-20, -6, 10, 26), "West African peoples"), ((10, -6, 28, 26), "Central African peoples"), ((28, -6, 56, 26), "East African peoples"), ((-20, -40, 56, -6), "Bantu-speaking peoples")]
 total = 0
 for y in YEARS:
-    tmp = f"/tmp/ds_{y}.geojson"
+    tmp = f"{WORK}/ds_{y}.geojson"
     subprocess.run(["mapshaper", "-i", f"{M}/w{y}.json", "-o", "format=geojson", tmp], check=True, capture_output=True)
     fc = json.load(open(tmp)); out = []; n_sp = 0; n_rn = 0
     for f in fc["features"]:
