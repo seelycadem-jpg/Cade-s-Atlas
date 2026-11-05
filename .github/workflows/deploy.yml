@@ -31,3 +31,5 @@ jobs:
           apiToken: ${{ secrets.CLOUDFLARE_API_TOKEN }}
           accountId: 0effb947016baec29ad11af8089dc57c
           command: deploy
+          # Static-assets-only workers need wrangler 4; the action's default is 3.x.
+          wranglerVersion: "4.158.0"
