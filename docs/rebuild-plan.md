@@ -51,7 +51,7 @@ after one page, not after five hundred.
 The finished atlas will be many times the size of Prototype 1: thousands of events at three
 sizes, many chronicles and stories, a thousand people, and tens of thousands of links. Until
 Cade gives better numbers, the plan assumes about **50,000 events or more, 1,000 people, 100
-chronicles and 50,000 links**. Ten rules follow from that, and they are built in from the
+chronicles and 150,000 links**. Ten rules follow from that, and they are built in from the
 start because they are expensive to change later.
 
 1. **Addresses never change.** Every event's web address and id are fixed when it is
