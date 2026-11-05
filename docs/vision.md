@@ -61,11 +61,30 @@ competes on what an encyclopedia is built to avoid:
 - The atlas is designed to hold about 50,000 events. The real number grows from the
   chains we build, never from a target.
 
+## The front door (agreed 2026-11-05)
+
+1. **Open.** The reader lands on a plain earth with no year set, and about eight chronicles
+   or stories offered as cards: the title and the year range ("Christianity, from the
+   first century to today"). On a phone the cards sit under the globe.
+2. **Pick one.** The globe turns to where the chronicle begins and moves to its first year.
+   The political map for that year appears. The chronicle's opening turning point is
+   marked, and so are the world's other turning points of the same years, each opening
+   the preview card on tap. This is the "meanwhile" moment.
+3. **Go in, or wander.** The reader follows the chronicle as a chain, opens any other
+   marked event, or goes back to the cards.
+
+The world turning points that light up in step 2 are the top chain, "The world": a few
+hundred events chosen on purpose. It is also the default timeline view when no chronicle
+is chosen.
+
+Still to decide:
+- How the eight are picked: new each visit, or one set per day (which could tie in with
+  the daily game). Either way they are balanced across regions and eras.
+- How wide "the same years" is: the same year, the same decade, or set per chronicle.
+- The design of the cards and the opening screen, in Phase 1.
+
 ## Open questions
 
-1. **A default size for the front door.** Size belongs to an event inside a chain. Proposal:
-   a top chain, "The world", of a few hundred world turning points chosen on purpose, which
-   is the default timeline view and the front door; every chronicle hangs off it.
-2. **How the 50,000 are reached.** By opening events as chains of their own ("go deeper"),
+1. **How the 50,000 are reached.** By opening events as chains of their own ("go deeper"),
    chronicle by chronicle: world turning points first, then each chronicle's turning
    points, then the full story, then every detail.

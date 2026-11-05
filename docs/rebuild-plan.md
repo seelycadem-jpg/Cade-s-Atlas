@@ -172,6 +172,7 @@ UI is the key measure", so this phase gets its own time.
 | 1.1 | Collect what you liked and disliked in Prototype 1, and 3 to 5 sites whose look you admire | Cade | A short list |
 | 1.2 | Propose two or three directions: fonts, colours, spacing, with a mock event page on a phone | Claude | You can tap through each mock |
 | 1.3 | Pick one direction, or mix | Cade | Chosen |
+| 1.3a | Mock the front door on a phone: the plain earth, the eight chronicle cards, the turn to a first year with its political map and the world's turning points of those years (`docs/vision.md`) | Claude, Cade approves | You can tap through it |
 | 1.4 | Build the colour and font settings (light and dark) as one shared file | Claude | Every page uses it |
 | 1.5 | Build the navigation bar: bottom strip on a phone, left rail on a laptop, the six places, Back, the year, search | Claude | Test: present on every page, both sizes |
 | 1.6 | Build the one shared preview card (picture, title, date, one line, Open) | Claude | Test: opens on long-press and hover; closing returns to the same spot |
