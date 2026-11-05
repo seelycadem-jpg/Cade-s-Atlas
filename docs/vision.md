@@ -127,6 +127,31 @@ One guard: the effects of a recent event are still unfolding, so its Lasting and
 scores are provisional for 25 years and marked so in the data header. An ongoing war is a
 story, never yet a world turning point, and every figure in it carries its source and date.
 
+## Developing stories and who holds what (proposed 2026-11-05)
+
+A conflict still under way is a **developing story**: a story like any other, belonging to
+every chronicle it touches. Yemen's war today sits in the chronicle of Yemen (North and
+South, unification in 1990, the 2011 uprising, the Houthi entry into Sanaa in 2014), in
+the rivalry between Riyadh and Tehran, and in the story of the Red Sea and the Bab
+el-Mandeb, where it meets the strait's page on the Explore globe.
+
+On the Explore globe, a **control layer** shows the major armed groups of today and the
+ground each holds (the Houthis, M23 in eastern Congo, the armed groups of Colombia, and
+others), each labelled "Developing story" and linked to its chronicles. Rules:
+
+- **Licence first.** Each conflict's map comes from a source whose licence allows it,
+  checked by script; nothing is drawn by hand. Where no usable map exists, the conflict
+  shows as a pin and its story, without an area.
+- **Dated.** Every area carries its source and "as of" date. A map past its review date is
+  flagged on screen or withdrawn.
+- **Neutral.** Each group under its own name, with plain verbs ("holds", "controls"); each
+  side's claim at equal length (house-style.md, Politics).
+- **Current.** Every fact is checked against current sources when the story is written
+  and again at each review date.
+
+Developing stories can be written in any phase; the control layer ships with the Explore
+globe (Phase 11).
+
 ## Size of the whole
 
 About 50,000 events, from the first civilisations to today, across every size, built into
