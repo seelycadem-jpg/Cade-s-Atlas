@@ -46,6 +46,39 @@ place on the timeline, its links, on a phone, tested, live on the internet. Only
 we scale up to hundreds of events. If something about the design is wrong, we find out
 after one page, not after five hundred.
 
+### Built to be big
+
+The finished atlas will be many times the size of Prototype 1: thousands of events at three
+sizes, many chronicles and stories, a thousand people, and tens of thousands of links. Until
+Cade gives better numbers, the plan assumes about **20,000 events, 1,000 people, 100
+chronicles and 50,000 links**. Ten rules follow from that, and they are built in from the
+start because they are expensive to change later.
+
+1. **Addresses never change.** Every event's web address and id are fixed when it is
+   created. Thousands of links, Google results and shared game scores point at them.
+2. **One event, many chains, from day one.** The data model records an event's size per
+   chain (`docs/narrative-flow.md`), so the same event can be a turning point in one
+   chronicle and a small step in another.
+3. **The phone never loads everything.** The timeline and globe load only the slice of
+   time, region and size on screen, and fetch the rest as the reader moves. A size budget
+   per slice is tested.
+4. **Split files.** Links live in one file per chain, never in one giant file. Content
+   lives in one file per event, in folders by region.
+5. **The build checks everything, fast.** Every field, every `[[link]]`, every arrow,
+   across every file, on every build. A check that takes too long gets rebuilt, never
+   skipped.
+6. **Search is built in advance.** With thousands of pages, search uses a ready-made
+   index split into small pieces (Pagefind is the proposed tool; it needs Cade's OK).
+7. **Big files stay out of the repo.** Images and map tiles go to Cloudflare R2.
+8. **Hosting limits are checked early.** Cloudflare Pages caps the number of files per
+   upload (about 20,000 on the free plan; to be confirmed). The page count is planned
+   against that cap before it is reached.
+9. **Writing is a production line.** Thousands of pages through four reviewers each means
+   batches run in cloud sessions, a progress board showing every page's status, and
+   turning points written first, small events last.
+10. **Cade reviews by sample.** Nobody reads every page. Cade reads a few from every
+    batch, and a batch that fails gets fixed and sampled again.
+
 ---
 
 ## Part 2: Words you will see
@@ -72,7 +105,7 @@ after one page, not after five hundred.
 
 I recommend an answer for each. Say yes, or tell me what you'd prefer.
 
-1. **The stack.** Recommended below. Your rules say no tool joins without your OK.
+1. **The stack.** Approved by Cade on 5 Nov 2026.
 2. **Hosting account.** Your docs already put images and map tiles on Cloudflare R2, so I
    recommend Cloudflare Pages for the site too: free at this size, fast worldwide. You
    create the account (about 10 minutes, I'll walk you through it).
@@ -83,7 +116,7 @@ I recommend an answer for each. Say yes, or tell me what you'd prefer.
 5. **Ancient events.** 690 events from 3400 BCE to 1439 are selected but not written. I
    recommend they wait until after launch, so the first version covers 1440 to today.
 
-### The recommended stack
+### The stack (approved 2026-11-05)
 
 | Job | Tool | Why |
 | --- | --- | --- |
@@ -93,6 +126,7 @@ I recommend an answer for each. Say yes, or tell me what you'd prefer.
 | Pipeline | **Python** (kept) | Already works and is verified |
 | Tests | **Playwright** | Opens the site in a real browser at phone and laptop sizes |
 | Hosting | **Cloudflare Pages** and **R2** | R2 is already in the docs for images and tiles |
+| Search (proposed, not yet approved) | **Pagefind** | Builds a search index split into small pieces, so search stays fast with thousands of pages |
 | Running tests on every push | **GitHub Actions** | Free, built into GitHub |
 
 ---
@@ -153,15 +187,17 @@ Goal: describe each kind of thing exactly, then take the first event all the way
 | # | Step | Who | Done when |
 | --- | --- | --- | --- |
 | 2.1 | Write the schemas for the seven objects (event, link, person, polity, feature, layer, theme) from `docs/narrative-flow.md` and `docs/event-pages.md` | Claude | The build rejects a file with a missing field |
-| 2.2 | Create `content/` with its folders | Claude | Exists |
-| 2.3 | Make a starter file for each old event: header fields filled where the old data holds them, text empty, status `draft` | Claude, by script | 781 draft files; none visible to readers |
-| 2.4 | Move the 36 graded links into the link table (built by the pipeline, never by hand) | Claude, by script | Same 36 links, each with its note |
-| 2.5 | Write the first event through the full writing pipeline: draft from sources, four reviewers, merge, recheck | Claude agents | Status `reviewed` |
-| 2.6 | You read the first event | Cade | Approved, or notes sent back |
-| 2.7 | Build the event page: the takeaway strip from the data header, the four layers, "Open the detail" | Claude | The page renders on phone and laptop |
-| 2.8 | Inline links (`[[...]]`) open the preview card | Claude | Test: every link resolves or is queued |
-| 2.9 | `/page-check`: title, description, address in words, structured data, alt text, sitemap | Claude | Fails the build on a miss |
-| 2.10 | Put the first event live | Claude | It opens on your phone at its own web address |
+| 2.2 | Fix the address and id rules for every kind of thing; they never change after this | Claude proposes, Cade approves | Written into the schemas |
+| 2.3 | Create `content/` with its folders, split by region | Claude | Exists |
+| 2.4 | **Size test:** generate 20,000 fake test events and 50,000 fake links (marked fake, deleted after, never shipped) and measure build time, file count and phone load | Claude | Build under 10 minutes; the phone loads a timeline slice in under 3 seconds; file count fits the host |
+| 2.5 | Make a starter file for each old event: header fields filled where the old data holds them, text empty, status `draft` | Claude, by script | 781 draft files; none visible to readers |
+| 2.6 | Move the 36 graded links into the link table (built by the pipeline, never by hand) | Claude, by script | Same 36 links, each with its note |
+| 2.7 | Write the first event through the full writing pipeline: draft from sources, four reviewers, merge, recheck | Claude agents | Status `reviewed` |
+| 2.8 | You read the first event | Cade | Approved, or notes sent back |
+| 2.9 | Build the event page: the takeaway strip from the data header, the four layers, "Open the detail" | Claude | The page renders on phone and laptop |
+| 2.10 | Inline links (`[[...]]`) open the preview card | Claude | Test: every link resolves or is queued |
+| 2.11 | `/page-check`: title, description, address in words, structured data, alt text, sitemap | Claude | Fails the build on a miss |
+| 2.12 | Put the first event live | Claude | It opens on your phone at its own web address |
 
 **Phase 2 test:** the first event is live, passes every check, and you approve it on your phone.
 
@@ -194,6 +230,7 @@ Goal: the border maps on the new globe, fast on a phone.
 ### Phase 6: Event pages at scale
 
 - Write the `/event-page` skill and the reviewer skills from what worked on the first event.
+- Build the progress board: every page's status, by region, era and size, with gaps shown.
 - Batches of about forty events, Europe first, each batch through the four reviewers.
 - You spot-read a few from each batch.
 - Test: every published page passes the fact check, style checks and `/page-check`.
@@ -240,4 +277,4 @@ Goal: the border maps on the new globe, fast on a phone.
 
 ## Right now
 
-Step 0.1: say yes to the stack in Part 3, or ask about anything in it.
+Step 0.2: point the pipeline scripts at this project's folders.
