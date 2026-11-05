@@ -1,6 +1,11 @@
 # Project skills
 
-Skills Claude Code loads in every session on this repo. The atlas's own skills
+Skills Claude Code loads in every session on this repo.
+
+The atlas's own:
+
+- `build`: the pipeline check and the site build with browser tests; reports, never commits.
+- `ship`: `/build`, then commit and push to the session's branch; waits for GitHub's check. The atlas's own skills
 (`/build`, `/ship`, `/page-check` and the rest in `docs/agents.md`) are added here as
 each is first done by hand.
 
