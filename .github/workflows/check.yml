@@ -10,6 +10,7 @@ jobs:
   pipeline:
     name: Pipeline build
     runs-on: ubuntu-latest
+    timeout-minutes: 10
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-python@v5
@@ -22,6 +23,7 @@ jobs:
   site:
     name: Site build and browser tests
     runs-on: ubuntu-latest
+    timeout-minutes: 15
     defaults:
       run:
         working-directory: app
@@ -33,7 +35,9 @@ jobs:
           cache: npm
           cache-dependency-path: app/package-lock.json
       - run: npm ci
-      - run: npx playwright install --with-deps chromium
+      # The browser only: GitHub's machines already carry its system libraries, and
+      # the --with-deps apt step hung for over ten minutes on two runs (2026-11-05).
+      - run: npx playwright install chromium
       - run: npm test
       - name: Keep the screenshots and any failure traces
         if: always()
