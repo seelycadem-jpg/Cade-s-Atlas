@@ -1,0 +1,9 @@
+{
+  "name": "meanwhile-atlas-root",
+  "private": true,
+  "description": "Builds the site from the repo root, so a host's default settings work. The site itself lives in app/.",
+  "engines": { "node": ">=22.23.4" },
+  "scripts": {
+    "build": "cd app && npm ci --no-fund --no-audit && npm run build && cd .. && rm -rf dist && cp -r app/dist dist"
+  }
+}
