@@ -63,9 +63,13 @@ competes on what an encyclopedia is built to avoid:
 
 ## The front door (agreed 2026-11-05)
 
-1. **Open.** The reader lands on a plain earth with no year set, and about eight chronicles
-   or stories offered as cards: the title and the year range ("Christianity, from the
-   first century to today"). On a phone the cards sit under the globe.
+1. **Open.** The reader lands on a plain earth with no year set. Eight chronicles or
+   stories, drawn at random on every load, sit on the globe as pins where each begins,
+   with a card for each: the title and the year range. On a phone the cards sit under the
+   globe. The eight mix sizes, places and eras, for example: the rise of the Roman
+   Republic (a story inside the chronicle of Rome, from its founding to its fall); the
+   Spanish Empire; the rise and fall of the Inca; the Atomic Age (the science and the
+   politics, from fission to fusion); the civil war in Yemen today.
 2. **Pick one.** The globe turns to where the chronicle begins and moves to its first year.
    The political map for that year appears. The chronicle's opening turning point is
    marked, and so are the world's other turning points of the same years, each opening
@@ -77,14 +81,56 @@ The world turning points that light up in step 2 are the top chain, "The world":
 hundred events chosen on purpose. It is also the default timeline view when no chronicle
 is chosen.
 
+The draw is random on every load and balanced, so one set never holds eight from one
+region or one era.
+
 Still to decide:
-- How the eight are picked: new each visit, or one set per day (which could tie in with
-  the daily game). Either way they are balanced across regions and eras.
 - How wide "the same years" is: the same year, the same decade, or set per chronicle.
 - The design of the cards and the opening screen, in Phase 1.
 
-## Open questions
+## How big an event is (proposed 2026-11-05, for Cade's approval)
 
-1. **How the 50,000 are reached.** By opening events as chains of their own ("go deeper"),
-   chronicle by chronicle: world turning points first, then each chronicle's turning
-   points, then the full story, then every detail.
+Every event gets two judgments, each with one written reason, so the atlas can answer a
+reader who asks "why is this a turning point?" The method in brief goes on the About page.
+
+**1. World weight: does the world chain need it?** Three scores, 0 to 2 each, from the
+house-style rules Prototype 1 already used:
+
+| Score | Question | 0 | 1 | 2 |
+| --- | --- | --- | --- | --- |
+| Reach | How far did its effects spread, across regions and across kinds of life (power, money, faith, science)? | One place, one kind | Several places or kinds | Several regions and several kinds |
+| Lasting | Could it be undone? | Undone within a generation | Partly undone | Never undone |
+| Today | How much of today's world does it explain? | Little | Something still live | A border, institution or idea we live with |
+
+A total of 5 or 6 makes a candidate for "The world", which also needs at least one arrow
+into another region. Fame and death tolls score nothing: a famous event that changed
+little stays small, and a quiet one that changed much grows.
+
+**2. Size in a chain: what happens to this chain without it?** Asked again in every chain
+the event belongs to.
+- Turning point: the chain breaks without it. Its arrow inside the chain is graded
+  Necessary or Sufficient, with the counterfactual sentence.
+- The full story: a step on the path between two turning points.
+- Every detail: one step off the path; it explains how or why for the deep reader.
+
+The timeline's Pull button shows the second judgment to the reader: pull a turning point
+and the chain downstream greys out.
+
+## Depth grows toward the present
+
+The atlas gets denser as it nears today: more events per century, more detail per event,
+the most in the last hundred years. This follows the record (far more survives) and the
+reader (more of today's world traces to recent events). The timeline's time scale widens
+toward the present for the same reason.
+
+One guard: the effects of a recent event are still unfolding, so its Lasting and Today
+scores are provisional for 25 years and marked so in the data header. An ongoing war is a
+story, never yet a world turning point, and every figure in it carries its source and date.
+
+## Size of the whole
+
+About 50,000 events, from the first civilisations to today, across every size, built into
+the chronicles, stories and their paragraphs. It may end up larger. The build is tested at
+50,000 and planned to go past it; the real number grows from the chains, never from a
+target. Chains are written biggest first: world turning points, then each chronicle's
+turning points, then the full story, then every detail.
