@@ -20,4 +20,4 @@ Phone: time runs down; lanes become region chips at the top, one or two open at 
 
 Checks: web check, coverage check, cursor check, provenance on the year card (docs/agents.md).
 
-Preview: hovering a card or dot (long press on a phone) shows the preview card: the event's picture where it has one, title and date, the one-line description, Open. The same component serves every name, marker and bar in the atlas.
+Preview: hovering a card or dot (a tap on a phone; amended 2026-11-05, since few readers find a long press) shows the preview card: the event's picture where it has one, title and date, the one-line description, Open. The same component serves every name, marker and bar in the atlas.

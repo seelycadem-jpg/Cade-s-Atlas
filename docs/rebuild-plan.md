@@ -173,11 +173,15 @@ UI is the key measure", so this phase gets its own time.
 | 1.2 | Propose two or three directions: fonts, colours, spacing, with a mock event page on a phone | Claude | You can tap through each mock |
 | 1.3 | Pick one direction, or mix | Cade | Chosen |
 | 1.3a | Mock the front door on a phone: the plain earth, the eight chronicle cards, the turn to a first year with its political map and the world's turning points of those years (`docs/vision.md`) | Claude, Cade approves | You can tap through it |
+| 1.3b | UI rules, written down before building: one obvious next action per screen, everything else one tap away; one tap opens a preview and Open inside it navigates, everywhere; the same controls behave the same on every page | Claude, Cade approves | Written into the design file |
+| 1.3c | Mock the filters on a phone: type and depth as one row of chips up front, region as lane chips, theme, chronicle, person, grade and country behind More; filtered-out events fade | Claude, Cade approves | You can tap through it |
+| 1.3d | Mock the two globes (Political and Explore) as two pages that share one map engine, one look and one set of gestures | Claude, Cade approves | You can tap through both |
 | 1.4 | Build the colour and font settings (light and dark) as one shared file | Claude | Every page uses it |
 | 1.5 | Build the navigation bar: bottom strip on a phone, left rail on a laptop, the six places, Back, the year, search | Claude | Test: present on every page, both sizes |
-| 1.6 | Build the one shared preview card (picture, title, date, one line, Open) | Claude | Test: opens on long-press and hover; closing returns to the same spot |
+| 1.6 | Build the one shared preview card (picture, title, date, one line, Open) | Claude | Test: opens on tap (phone) and hover (laptop); closing returns to the same spot |
 | 1.7 | Build the breadcrumb and the Return chip | Claude | Test: Back lands on the exact place left |
 | 1.8 | Accessibility check: text size, contrast, tap-target size | Claude | Passes the check |
+| 1.9 | Test the mocks with 3 to 5 people: hand them a phone and a task ("find out why Constantinople fell, then what else was happening in 1453"), watch where they get stuck | Cade finds the people; Claude writes the tasks and sums up | Fixes made for every place two or more got stuck |
 
 **Phase 1 test:** you open the mock pages on your phone and say they look right.
 
@@ -195,6 +199,7 @@ Goal: describe each kind of thing exactly, then take the first event all the way
 | 2.6 | Move the 36 graded links into the link table (built by the pipeline, never by hand) | Claude, by script | Same 36 links, each with its note |
 | 2.7 | Write the first event through the full writing pipeline: draft from sources, four reviewers, merge, recheck | Claude agents | Status `reviewed` |
 | 2.8 | You read the first event | Cade | Approved, or notes sent back |
+| 2.8a | Repeat the people test on the live first event | Cade and Claude | Fixes made |
 | 2.9 | Build the event page: the takeaway strip from the data header, the four layers, "Open the detail" | Claude | The page renders on phone and laptop |
 | 2.10 | Inline links (`[[...]]`) open the preview card | Claude | Test: every link resolves or is queued |
 | 2.11 | `/page-check`: title, description, address in words, structured data, alt text, sitemap | Claude | Fails the build on a miss |
@@ -217,6 +222,9 @@ Goal: the shared year cursor and the timeline grid, using the events published s
 Goal: the border maps on the new globe, fast on a phone.
 
 - Package the province map and owners as map tiles (PMTiles) on R2.
+- Carry the borders past 2019, where the CShapes record ends: the 2019 map forward, plus
+  each later change as a dated, sourced fix file. Who actually holds ground today is the
+  Explore globe's control layer.
 - The globe page: year cursor, borders, polity cards, Open country.
 - Place every event by coordinates and lane (`/place-events`).
 - Border corrections only through sourced fix files (`/border-fix`).
