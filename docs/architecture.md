@@ -39,6 +39,9 @@ past it.
 
 From `app/`: `npm run dev` starts a local preview; `npm run build` writes the finished site
 to `app/dist/`.
+`npm test` builds the site, serves it, and runs the browser tests at a phone size (Pixel 7)
+and a laptop size (1280 by 800) with Playwright; screenshots land in `app/test-results/`.
+Playwright is pinned to 1.63.0 to match the browser installed in the cloud sessions.
 
 Astro is pinned to an exact version (7.4.2, which needs Node 22.23.4 or later). Upgrades are
 their own step, never a side effect.
