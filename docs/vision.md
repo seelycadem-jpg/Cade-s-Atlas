@@ -166,5 +166,7 @@ globe (Phase 11).
 About 50,000 events, from the first civilisations to today, across every size, built into
 the chronicles, stories and their paragraphs. It may end up larger. The build is tested at
 50,000 and planned to go past it; the real number grows from the chains, never from a
-target. Chains are written biggest first: world turning points, then each chronicle's
+target. The writing is the slow part: every page goes through sources, four reviewers
+and a recheck, so launch is a few hundred pages done to the full standard, and the
+atlas grows from there for years. Chains are written biggest first: world turning points, then each chronicle's
 turning points, then the full story, then every detail.

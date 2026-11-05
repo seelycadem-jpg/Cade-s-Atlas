@@ -32,7 +32,7 @@ Goal: the project builds and tests itself, and a blank site is live on the inter
 | 0.6 | First test (Playwright): open the page at phone and laptop size, check the title, save screenshots | AI | Test passes; Cade sees both screenshots |
 | 0.7 | GitHub Actions: run the build and the test on every push | AI | A green tick on GitHub |
 | 0.8 | Create a Cloudflare account | C, AI guides | Cade can log in |
-| 0.9 | Connect the repo to Cloudflare Pages | C+AI | The blank page opens on Cade's phone at its own address |
+| 0.9 | Connect the repo to Cloudflare so each push to `main` goes live. Checked 2026-11-05 on Cloudflare's limits pages: Pages holds 20,000 files on the free plan and 100,000 on paid; Workers static hosting holds 20,000 free and 100,000 on Workers Paid (about $5 a month). Start free; move to Workers Paid before the site passes 20,000 files; past 100,000, serve pages from R2 through a Worker | C+AI | The blank page opens on Cade's phone at its own address |
 | 0.10 | Write the `/build` and `/ship` skills from what worked | AI | Each runs with one command |
 | 0.11 | Cade's first pull request: read it, merge it | C, AI guides | `main` holds Phase 0 |
 | 0.12 | Update `docs/plan.md` to Phase 1 | AI | Done |
@@ -73,7 +73,8 @@ one event all the way to live.
 | 2.3 | Schemas for the seven objects (event, link, person, polity, feature, layer, theme) plus chronicle, story and patch | AI | The build rejects a file with a missing field |
 | 2.4 | Address and id rules; they never change after this | AI, C approves | In the schemas |
 | 2.5 | `content/` with its folders, split by region | AI | Exists |
-| 2.6 | Size test: 50,000 fake events and 150,000 fake links (marked fake, deleted after); measure build time, file count, phone load | AI | Build under 10 minutes; a timeline slice loads on a phone in under 3 seconds; file count fits the host |
+| 2.6 | Size test: 50,000 fake events and 150,000 fake links (marked fake, deleted after); measure build time, file count, phone load | AI | Build under 10 minutes; a timeline slice loads on a phone in under 3 seconds; the file count has a hosting route (step 0.9) |
+| 2.6a | Licence check of every map and data source for a public site: Natural Earth, CShapes, Cliopatria (CC BY), historical-basemaps (GPL-3.0: what sharing derived data requires), Pantheon, OEC, Comtrade. Pulled forward from Phase 4 so a failed licence is known before the globe is designed | AI, C approves | A licence line per source; any problem raised |
 | 2.7 | Act on the size test: change what failed | AI | The test passes |
 | 2.8 | Starter files for the old 781 events: header fields filled where the old data holds them, text empty, status draft | AI, by script | 781 drafts; none visible to readers |
 | 2.9 | The 36 graded links into the link table, built by the pipeline | AI, by script | Same 36 links with their notes |
@@ -117,7 +118,7 @@ Goal: the border maps on the new globe, fast on a phone.
 
 | # | Step | Who | Done when |
 | --- | --- | --- | --- |
-| 4.1 | Licence check of every map source for a public site: Natural Earth, CShapes, Cliopatria (CC BY), historical-basemaps (GPL-3.0: check what sharing derived data requires) | AI, C approves | A licence line per source; any problem raised before building |
+| 4.1 | Act on the licence check from step 2.6a: replace any source whose licence fails | AI | Every source cleared |
 | 4.2 | A download script for the raw sources, recording version and licence | AI | Sources fetched by one command |
 | 4.3 | Point the map scripts at the settings file from 0.2 | AI | Scripts run in the repo |
 | 4.4 | Regenerate the province mesh | AI | 11,203 provinces |
@@ -162,6 +163,7 @@ Goal: the writing production line running, world turning points first.
 | 6.3 | Score candidates for "The world" chain (three scores, one written reason each) | AI | A ranked list |
 | 6.4 | Cade approves the first world turning points (a few hundred) | C | Approved list |
 | 6.5 | The batch runner: 40 pages a batch in cloud sessions | AI | One batch runs end to end |
+| 6.5a | Measure the first batch: cost and hours per page at the full standard; set the launch target from the number (hundreds of pages done properly, never thousands done thinly) | AI reports, C decides | A written pace and a launch target |
 | 6.6 | Batches of world turning points, region by region | AI | Each batch reviewed |
 | 6.7 | Cade samples three pages per batch | C | Signed off, or the batch fixed and sampled again |
 | 6.8 | Pictures for each batch from open sources | AI | Licence line on every image |
