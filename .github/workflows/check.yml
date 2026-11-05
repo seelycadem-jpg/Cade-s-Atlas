@@ -1,0 +1,43 @@
+# Runs on every push and pull request: the pipeline build and the browser tests.
+# A red result means do not merge (CLAUDE.md: never push to main with a red test).
+name: check
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  pipeline:
+    name: Pipeline build
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - name: Build the data into a scratch folder and compare with site/
+        run: bash pipeline/check_build.sh
+
+  site:
+    name: Site build and browser tests
+    runs-on: ubuntu-latest
+    defaults:
+      run:
+        working-directory: app
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22.23.4"
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+      - run: npm ci
+      - run: npx playwright install --with-deps chromium
+      - run: npm test
+      - name: Keep the screenshots and any failure traces
+        if: always()
+        uses: actions/upload-artifact@v4
+        with:
+          name: browser-test-results
+          path: app/test-results/
+          if-no-files-found: ignore
