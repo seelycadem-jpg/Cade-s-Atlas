@@ -25,19 +25,19 @@ Goal: the project builds and tests itself, and a blank site is live on the inter
 | # | Step | Who | Done when |
 | --- | --- | --- | --- |
 | 0.1 | Approve the stack | C | Done 2026-11-05 |
-| 0.2 | One settings file that tells every pipeline script where this project's folders are (`pipeline/` for code, `site/` for output, a git-ignored `work/` for scratch) | AI | No script names the old chat's folders |
+| 0.2 | One settings file that tells every pipeline script where this project's folders are (`pipeline/` for code, `site/` for output, a git-ignored `work/` for scratch) | AI | Done 2026-11-05 |
 | 0.3 | Safety check that moving the scripts broke nothing: run `build.sh` from another folder into a test copy | AI | Done 2026-11-05 with step 0.2 |
 | 0.4 | ~~Drop the unused `polities.py` step~~ | AI | Not needed: the old content scripts are retired in Phase 2 |
-| 0.5 | Install Node and Astro; create `app/` with one blank page | AI | The page opens in a browser here |
-| 0.6 | First test (Playwright): open the page at phone and laptop size, check the title, save screenshots | AI | Test passes; Cade sees both screenshots |
-| 0.7 | GitHub Actions: run the build and the test on every push | AI | A green tick on GitHub |
-| 0.8 | Create a Cloudflare account | C, AI guides | Cade can log in |
-| 0.9 | Connect the repo to Cloudflare so each push to `main` goes live. Checked 2026-11-05 on Cloudflare's limits pages: Pages holds 20,000 files on the free plan and 100,000 on paid; Workers static hosting holds 20,000 free and 100,000 on Workers Paid (about $5 a month). Start free; move to Workers Paid before the site passes 20,000 files; past 100,000, serve pages from R2 through a Worker | C+AI | The blank page opens on Cade's phone at its own address |
-| 0.10 | Write the `/build` and `/ship` skills from what worked | AI | Each runs with one command |
-| 0.11 | Cade's first pull request: read it, merge it | C, AI guides | `main` holds Phase 0 |
-| 0.12 | Update `docs/plan.md` to Phase 1 | AI | Done |
+| 0.5 | Install Node and Astro; create `app/` with one blank page | AI | Done 2026-11-05 |
+| 0.6 | First test (Playwright): open the page at phone and laptop size, check the title, save screenshots | AI | Done 2026-11-05 |
+| 0.7 | GitHub Actions: run the build and the test on every push | AI | Done 2026-11-05 |
+| 0.8 | Create a Cloudflare account | C, AI guides | Done 2026-11-05 |
+| 0.9 | Connect the repo to Cloudflare so each push to `main` goes live. Checked 2026-11-05 on Cloudflare's limits pages: Pages holds 20,000 files on the free plan and 100,000 on paid; Workers static hosting holds 20,000 free and 100,000 on Workers Paid (about $5 a month). Start free; move to Workers Paid before the site passes 20,000 files; past 100,000, serve pages from R2 through a Worker | C+AI | Done 2026-11-05: GitHub deploys to Cloudflare Workers on every merge to `main` (`.github/workflows/deploy.yml`, token in a GitHub secret); live at https://cade-s-atlas.seelycadem.workers.dev |
+| 0.10 | Write the `/build` and `/ship` skills from what worked | AI | Done 2026-11-05 |
+| 0.11 | Cade's first pull request: read it, merge it | C, AI guides | Done 2026-11-05 (#58, then #59 and #60 for hosting) |
+| 0.12 | Update `docs/plan.md` to Phase 1 | AI | Done 2026-11-05 |
 
-**Test:** `build.sh` runs clean, the test passes on push, the blank site opens on a phone.
+**Test:** `build.sh` runs clean, the test passes on push, the blank site opens on a phone. **Passed 2026-11-05.**
 
 ## Phase 1: Look and feel
 

@@ -35,6 +35,14 @@ past it.
 | `site/` | Prototype 1, frozen; a source of leads only |
 | `work/` | Scratch and large intermediates; never committed |
 
+## Hosting
+
+Cloudflare Workers, as static assets (`wrangler.jsonc` at the root serves `dist/`). GitHub
+deploys on every merge to `main` (`.github/workflows/deploy.yml`) with a token held in the
+repository secret `CLOUDFLARE_API_TOKEN`; Cloudflare's own Git-connected build is not used.
+Live at https://cade-s-atlas.seelycadem.workers.dev until the domain arrives (Phase 10).
+Limits checked 2026-11-05: 20,000 files on the free plan, 100,000 on Workers Paid.
+
 ## Running it
 
 From `app/`: `npm run dev` starts a local preview; `npm run build` writes the finished site
