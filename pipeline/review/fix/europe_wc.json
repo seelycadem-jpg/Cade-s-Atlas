@@ -1,0 +1,1171 @@
+[
+ {
+  "from": 1402,
+  "to": 1419,
+  "country": "Monaco",
+  "regions": [
+   "Monaco"
+  ],
+  "owner": "Republic of Genoa",
+  "why": "Genoese control of Monaco 5 Nov 1402 - 5 Jun 1419 (map shows Kingdom of France in 1410)",
+  "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_Monaco",
+  "severity": "minor"
+ },
+ {
+  "from": 1419,
+  "to": 1524,
+  "country": "Monaco",
+  "regions": [
+   "Monaco"
+  ],
+  "owner": "Principality of Monaco",
+  "why": "Grimaldi lordship continuous from Jean I (1419), apart from a few weeks of Milanese occupation in 1436; map flips Genoa/Milan/France/Monaco almost every decade",
+  "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_Monaco",
+  "severity": "major"
+ },
+ {
+  "from": 1524,
+  "to": 1641,
+  "country": "Monaco",
+  "regions": [
+   "Monaco"
+  ],
+  "owner": "Principality of Monaco",
+  "overlord": "Spanish Empire",
+  "why": "Treaty of Burgos (1524) placed Monaco under Spanish protection with a Spanish garrison until the 1641 Treaty of Péronne; map alternates Monaco/Genoa every decade",
+  "source": "https://en.wikipedia.org/wiki/History_of_Monaco",
+  "severity": "major"
+ },
+ {
+  "from": 1641,
+  "to": 1793,
+  "country": "Monaco",
+  "regions": [
+   "Monaco"
+  ],
+  "owner": "Principality of Monaco",
+  "overlord": "Kingdom of France",
+  "why": "Under French protection from the Treaty of Péronne (1641) until French annexation in 1793; map flickers between protected and unprotected labels",
+  "source": "https://en.wikipedia.org/wiki/History_of_Monaco",
+  "severity": "minor"
+ },
+ {
+  "from": 1793,
+  "to": 1799,
+  "country": "Monaco",
+  "regions": [
+   "Monaco"
+  ],
+  "owner": "French First Republic",
+  "why": "Annexed by France 1793-1814 as part of Alpes-Maritimes, not a protected Monaco",
+  "source": "https://en.wikipedia.org/wiki/History_of_Monaco",
+  "severity": "minor"
+ },
+ {
+  "from": 1799,
+  "to": 1804,
+  "country": "Monaco",
+  "regions": [
+   "Monaco"
+  ],
+  "owner": "French Consulate",
+  "why": "Annexed by France 1793-1814 (department of Alpes-Maritimes)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Monaco",
+  "severity": "minor"
+ },
+ {
+  "from": 1815,
+  "to": 1861,
+  "country": "Monaco",
+  "regions": [
+   "Monaco"
+  ],
+  "owner": "Principality of Monaco",
+  "overlord": "Kingdom of Sardinia",
+  "why": "Congress of Vienna placed Monaco under Sardinian protection until 1860/61; Monaco was never a 'Kingdom' (map shows 'Kingdom of Monaco' 1820-1840)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Monaco",
+  "severity": "major"
+ },
+ {
+  "from": 1861,
+  "to": 2026,
+  "country": "Monaco",
+  "regions": [
+   "Monaco"
+  ],
+  "owner": "Principality of Monaco",
+  "why": "Franco-Monegasque Treaty (1861) recognised Monaco's sovereignty; it never became part of France (map shows Second French Empire 1860-70 and France 1890-2025)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Monaco",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1719,
+  "country": "Liechtenstein",
+  "regions": [
+   "Triesen–Schaan–Triesenberg–Balzers–Vaduz–Eschen–Gamprin–Ruggell–Planken–Mauren"
+  ],
+  "owner": "County of Vaduz",
+  "overlord": "Holy Roman Empire",
+  "why": "Vaduz and Schellenberg were imperial counties/lordships (Montfort-Werdenberg line, later Brandis, Sulz, Hohenems), never ruled by the Three Leagues or the Abbey of St Gall; bought by the Liechtensteins 1699/1712",
+  "source": "https://en.wikipedia.org/wiki/History_of_Liechtenstein",
+  "severity": "major"
+ },
+ {
+  "from": 1719,
+  "to": 2026,
+  "country": "Liechtenstein",
+  "regions": [
+   "Triesen–Schaan–Triesenberg–Balzers–Vaduz–Eschen–Gamprin–Ruggell–Planken–Mauren"
+  ],
+  "owner": "Principality of Liechtenstein",
+  "why": "Principality created 23 Jan 1719; sovereign in the Confederation of the Rhine and German Confederation, neutral from 1868; never part of Switzerland (map shows Swiss Confederation/Switzerland 1820-2025)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Liechtenstein",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1521,
+  "country": "Austria",
+  "regions": [
+   "Vorarlberg"
+  ],
+  "owner": "House of Habsburg",
+  "why": "Habsburgs bought Feldkirch (1375), Bludenz (1394), Sonnenberg (1474), half of Bregenz (1451); Vorarlberg was never held by the Three Leagues",
+  "source": "https://de.wikipedia.org/wiki/Geschichte_Vorarlbergs",
+  "severity": "major"
+ },
+ {
+  "from": 1485,
+  "to": 1490,
+  "country": "Austria",
+  "regions": [
+   "Wien",
+   "Niederösterreich"
+  ],
+  "owner": "Kingdom of Hungary",
+  "why": "Matthias Corvinus took Vienna (1485) and most of Lower Austria until his death on 6 Apr 1490",
+  "source": "https://en.wikipedia.org/wiki/Austrian%E2%80%93Hungarian_War_(1477%E2%80%931488)",
+  "severity": "minor"
+ },
+ {
+  "from": 1490,
+  "to": 1521,
+  "country": "Austria",
+  "regions": [
+   "Wien",
+   "Niederösterreich",
+   "Oberösterreich",
+   "Steiermark",
+   "Kärnten"
+  ],
+  "owner": "House of Habsburg",
+  "why": "Frederick III regained the Austrian lands after Matthias died in April 1490; Upper Austria, Styria and Carinthia were not Hungarian (map shows them Hungarian in 1490 and Vienna Habsburg - inverted)",
+  "source": "https://en.wikipedia.org/wiki/Austrian%E2%80%93Hungarian_War_(1477%E2%80%931488)",
+  "severity": "major"
+ },
+ {
+  "from": 1521,
+  "to": 1560,
+  "country": "Austria",
+  "regions": [
+   "Wien",
+   "Niederösterreich",
+   "Oberösterreich",
+   "Steiermark",
+   "Kärnten",
+   "Tirol",
+   "Vorarlberg"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Ferdinand I ruled the Austrian hereditary lands from 1521; they never belonged to the Spanish crown, and the 1529 Ottoman siege of Vienna failed (map shows Kingdom of Spain 1530-1550 and Ottoman Lower Austria 1530)",
+  "source": "https://en.wikipedia.org/wiki/Ferdinand_I,_Holy_Roman_Emperor",
+  "severity": "major"
+ },
+ {
+  "from": 1491,
+  "to": 1520,
+  "country": "Austria",
+  "regions": [
+   "Burgenland"
+  ],
+  "owner": "House of Habsburg",
+  "why": "Northern Burgenland mortgaged to Maximilian I in 1491 and held by the Habsburgs until 1647",
+  "source": "https://en.wikipedia.org/wiki/Burgenland",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1647,
+  "country": "Austria",
+  "regions": [
+   "Burgenland"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Habsburg mortgage territory 1491-1647; never Spanish (map shows Kingdom of Spain 1540-1550)",
+  "source": "https://en.wikipedia.org/wiki/Burgenland",
+  "severity": "major"
+ },
+ {
+  "from": 1849,
+  "to": 1867,
+  "country": "Austria",
+  "regions": [
+   "Burgenland"
+  ],
+  "owner": "Austrian Empire",
+  "why": "Hungarian Revolution ended 4 Oct 1849; 'Hungarian Nationalists' in 1850 is wrong",
+  "source": "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1848",
+  "severity": "minor"
+ },
+ {
+  "from": 1918,
+  "to": 1921,
+  "country": "Austria",
+  "regions": [
+   "Burgenland"
+  ],
+  "owner": "Kingdom of Hungary",
+  "why": "German West Hungary stayed Hungarian until its transfer to Austria in 1921 under Trianon",
+  "source": "https://en.wikipedia.org/wiki/Burgenland",
+  "severity": "minor"
+ },
+ {
+  "from": 1938,
+  "to": 1945,
+  "country": "Austria",
+  "regions": [
+   "*"
+  ],
+  "owner": "Nazi Germany",
+  "why": "Anschluss of 12 Mar 1938 annexed all of Austria until 27 Apr 1945 (map shows only Salzburg and Wien)",
+  "source": "https://en.wikipedia.org/wiki/Anschluss",
+  "severity": "major"
+ },
+ {
+  "from": 1871,
+  "to": 1918,
+  "country": "Germany",
+  "regions": [
+   "*"
+  ],
+  "owner": "German Empire",
+  "why": "German Empire 1871-1918; map switches to anachronistic 'Germany (Prussia)' from 1890 to 1949 and keeps one Lower Saxony province Dutch",
+  "source": "https://en.wikipedia.org/wiki/German_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1918,
+  "to": 1933,
+  "country": "Germany",
+  "regions": [
+   "*"
+  ],
+  "owner": "Weimar Republic",
+  "except": [
+   "Saarland"
+  ],
+  "why": "Weimar Republic 9 Nov 1918 - Mar 1933 (map shows 'Germany (Prussia)')",
+  "source": "https://en.wikipedia.org/wiki/Weimar_Republic",
+  "severity": "major"
+ },
+ {
+  "from": 1918,
+  "to": 1920,
+  "country": "Germany",
+  "regions": [
+   "Saarland"
+  ],
+  "owner": "Weimar Republic",
+  "why": "Saar part of Germany until Versailles took effect on 10 Jan 1920",
+  "source": "https://en.wikipedia.org/wiki/Weimar_Republic",
+  "severity": "minor"
+ },
+ {
+  "from": 1920,
+  "to": 1935,
+  "country": "Germany",
+  "regions": [
+   "Saarland"
+  ],
+  "owner": "Territory of the Saar Basin",
+  "overlord": "League of Nations",
+  "why": "League of Nations Territory of the Saar Basin 10 Jan 1920 - 1 Mar 1935",
+  "source": "https://en.wikipedia.org/wiki/Territory_of_the_Saar_Basin",
+  "severity": "major"
+ },
+ {
+  "from": 1933,
+  "to": 1945,
+  "country": "Germany",
+  "regions": [
+   "*"
+  ],
+  "owner": "Nazi Germany",
+  "except": [
+   "Saarland"
+  ],
+  "why": "Nazi Germany 1933-1945; same state is labelled 'Nazi Germany' in Austria/Luxembourg but 'Germany (Prussia)' here",
+  "source": "https://en.wikipedia.org/wiki/Weimar_Republic",
+  "severity": "major"
+ },
+ {
+  "from": 1935,
+  "to": 1945,
+  "country": "Germany",
+  "regions": [
+   "Saarland"
+  ],
+  "owner": "Nazi Germany",
+  "why": "Saar reincorporated 1 Mar 1935 after the plebiscite",
+  "source": "https://en.wikipedia.org/wiki/Territory_of_the_Saar_Basin",
+  "severity": "major"
+ },
+ {
+  "from": 1945,
+  "to": 1949,
+  "country": "Germany",
+  "regions": [
+   "*"
+  ],
+  "owner": "Allied-occupied Germany",
+  "except": [
+   "Saarland"
+  ],
+  "why": "Allied occupation from 5 Jun 1945 until the FRG (23 May 1949) and GDR (7 Oct 1949)",
+  "source": "https://en.wikipedia.org/wiki/Allied-occupied_Germany",
+  "severity": "minor"
+ },
+ {
+  "from": 1945,
+  "to": 1947,
+  "country": "Germany",
+  "regions": [
+   "Saarland"
+  ],
+  "owner": "Allied-occupied Germany",
+  "why": "Saar under French occupation before the protectorate constitution of Dec 1947",
+  "source": "https://en.wikipedia.org/wiki/Allied-occupied_Germany",
+  "severity": "minor"
+ },
+ {
+  "from": 1947,
+  "to": 1957,
+  "country": "Germany",
+  "regions": [
+   "Saarland"
+  ],
+  "owner": "Saar Protectorate",
+  "overlord": "France",
+  "why": "French protectorate from 1947; joined the FRG only on 1 Jan 1957 (map shows FRG in 1950)",
+  "source": "https://en.wikipedia.org/wiki/Saar_Protectorate",
+  "severity": "major"
+ },
+ {
+  "from": 1870,
+  "to": 1871,
+  "country": "France",
+  "regions": [
+   "Aisne",
+   "Ardennes",
+   "Aube",
+   "Marne",
+   "Meuse",
+   "Oise",
+   "Seien-et-Marne",
+   "Vosges",
+   "Yvelines",
+   "Essonne–Val-d'Oise",
+   "Meurthe-et-Moselle",
+   "Bas-Rhin",
+   "Haute-Rhin",
+   "Moselle"
+  ],
+  "owner": "Second French Empire",
+  "why": "Northern France was never North German Confederation territory; wartime occupation began only after Aug 1870 and the Empire fell 4 Sep 1870 (rest of France shows Second French Empire for 1870)",
+  "source": "https://en.wikipedia.org/wiki/Alsace%E2%80%93Lorraine",
+  "severity": "major"
+ },
+ {
+  "from": 1871,
+  "to": 1918,
+  "country": "France",
+  "regions": [
+   "Bas-Rhin",
+   "Haute-Rhin",
+   "Moselle"
+  ],
+  "owner": "German Empire",
+  "why": "Alsace-Lorraine annexed by the German Empire (Treaty of Frankfurt 10 May 1871) until 1918; map shows North German Confederation in 1870 and 'Germany (Prussia)' 1890-1910",
+  "source": "https://en.wikipedia.org/wiki/Alsace%E2%80%93Lorraine",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1791,
+  "country": "France",
+  "regions": [
+   "Vaucluse"
+  ],
+  "owner": "Papal States",
+  "why": "Comtat Venaissin papal 1274-1791 and Avignon 1348-1791; map shows Provence/France throughout",
+  "source": "https://en.wikipedia.org/wiki/Comtat_Venaissin",
+  "severity": "major"
+ },
+ {
+  "from": 1769,
+  "to": 1794,
+  "country": "France",
+  "regions": [
+   "Corse-du-Sud",
+   "Haute-Corse"
+  ],
+  "owner": "Kingdom of France",
+  "why": "Genoa ceded Corsica to France by the Treaty of Versailles (15 May 1768); French conquest complete May 1769 (map shows Republic of Genoa 1770-1790)",
+  "source": "https://en.wikipedia.org/wiki/Corsican_Republic",
+  "severity": "major"
+ },
+ {
+  "from": 1430,
+  "to": 1440,
+  "country": "France",
+  "regions": [
+   "Côtes-d'Armor",
+   "Finistère",
+   "Ille-et-Vilaine",
+   "Morbihan"
+  ],
+  "owner": "Duchy of Brittany",
+  "overlord": "Kingdom of France",
+  "why": "Brittany stayed under Duke John V (1399-1442), who allied with England at times but was never occupied; map shows Kingdom of England in 1430",
+  "source": "https://en.wikipedia.org/wiki/John_V,_Duke_of_Brittany",
+  "severity": "major"
+ },
+ {
+  "from": 1429,
+  "to": 1450,
+  "country": "France",
+  "regions": [
+   "Aube",
+   "Marne"
+  ],
+  "owner": "Kingdom of France",
+  "why": "Troyes (9 Jul 1429), Châlons (14 Jul) and Reims (16 Jul 1429) submitted to Charles VII; map keeps them English until 1450",
+  "source": "https://en.wikipedia.org/wiki/March_to_Reims",
+  "severity": "major"
+ },
+ {
+  "from": 1429,
+  "to": 1450,
+  "country": "France",
+  "regions": [
+   "Aisne"
+  ],
+  "owner": "Kingdom of France",
+  "why": "Laon and Soissons capitulated to Charles VII after the 1429 coronation; map keeps Aisne English until 1450",
+  "source": "https://www.britannica.com/place/France/Recovery-and-reunification-1429-83",
+  "severity": "major"
+ },
+ {
+  "from": 1420,
+  "to": 1450,
+  "country": "France",
+  "regions": [
+   "Loiret"
+  ],
+  "owner": "Kingdom of France",
+  "why": "Orléans was never taken by the English; the 1428-29 siege was lifted (map shows Loiret English 1420-1440)",
+  "source": "https://en.wikipedia.org/wiki/Lancastrian_War",
+  "severity": "major"
+ },
+ {
+  "from": 1425,
+  "to": 1448,
+  "country": "France",
+  "regions": [
+   "Mayenne",
+   "Sarthe"
+  ],
+  "owner": "Kingdom of England",
+  "why": "Maine stayed English until the forced handover of Le Mans in 1448 (map shows Valois-Anjou in 1440)",
+  "source": "https://en.wikipedia.org/wiki/1448_in_France",
+  "severity": "minor"
+ },
+ {
+  "from": 1523,
+  "to": 1600,
+  "country": "France",
+  "regions": [
+   "Allier",
+   "Puy-de-Dôme",
+   "Cantal",
+   "Haute-Loire",
+   "Loire",
+   "Creuse"
+  ],
+  "owner": "Kingdom of France",
+  "why": "Constable Charles III of Bourbon's lands were sequestered by the crown in Aug 1523 (he died a condemned rebel in 1527); map keeps them as a Bourbon appanage until 1600",
+  "source": "https://en.wikipedia.org/wiki/Charles_III,_Duke_of_Bourbon",
+  "severity": "major"
+ },
+ {
+  "from": 1477,
+  "to": 1490,
+  "country": "France",
+  "regions": [
+   "Vosges"
+  ],
+  "owner": "Duchy of Lorraine",
+  "why": "Charles the Bold died at Nancy in 1477 and Lorraine was restored to René II; map shows Burgundy in 1480",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Lorraine",
+  "severity": "minor"
+ },
+ {
+  "from": 1634,
+  "to": 1661,
+  "country": "France",
+  "regions": [
+   "Vosges",
+   "Meurthe-et-Moselle"
+  ],
+  "owner": "Kingdom of France",
+  "why": "First French occupation of Lorraine 1634-1661 (map flips back to Lorraine in 1650)",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Lorraine",
+  "severity": "major"
+ },
+ {
+  "from": 1661,
+  "to": 1670,
+  "country": "France",
+  "regions": [
+   "Vosges",
+   "Meurthe-et-Moselle"
+  ],
+  "owner": "Duchy of Lorraine",
+  "why": "Charles IV restored 1661 until the second French invasion of 1670",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Lorraine",
+  "severity": "minor"
+ },
+ {
+  "from": 1670,
+  "to": 1697,
+  "country": "France",
+  "regions": [
+   "Vosges",
+   "Meurthe-et-Moselle"
+  ],
+  "owner": "Kingdom of France",
+  "why": "Second French occupation 1670 until the Treaty of Ryswick (1697)",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Lorraine",
+  "severity": "major"
+ },
+ {
+  "from": 1697,
+  "to": 1766,
+  "country": "France",
+  "regions": [
+   "Vosges",
+   "Meurthe-et-Moselle"
+  ],
+  "owner": "Duchy of Lorraine",
+  "why": "Duchy restored 1697 (Leopold), then held by Stanislas Leszczynski 1737-1766; annexed to France only in 1766 (map flips France/Lorraine in 1710, 1740, 1750, 1760)",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Lorraine",
+  "severity": "major"
+ },
+ {
+  "from": 1480,
+  "to": 1634,
+  "country": "France",
+  "regions": [
+   "Meuse"
+  ],
+  "owner": "Duchy of Lorraine",
+  "why": "Duchy of Bar united with Lorraine from 1480 and passed to France only in 1766; map shows HRE minor states 1490-1550 and France from 1560",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Bar",
+  "severity": "major"
+ },
+ {
+  "from": 1697,
+  "to": 1766,
+  "country": "France",
+  "regions": [
+   "Meuse"
+  ],
+  "owner": "Duchy of Lorraine",
+  "why": "Barrois held by the dukes of Lorraine/Stanislas until 1766",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Bar",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1681,
+  "country": "France",
+  "regions": [
+   "Bas-Rhin"
+  ],
+  "owner": "Free City of Strasbourg",
+  "why": "Strasbourg stayed a free imperial city until French annexation in 1681 (map shows France from 1640)",
+  "source": "https://en.wikipedia.org/wiki/Strasbourg",
+  "severity": "major"
+ },
+ {
+  "from": 1536,
+  "to": 1560,
+  "country": "France",
+  "regions": [
+   "Alpes-Maritimes"
+  ],
+  "owner": "House of Savoy",
+  "why": "Nice stayed Savoyard while France occupied Savoy and Piedmont; the 1543 Franco-Ottoman siege failed",
+  "source": "https://en.wikipedia.org/wiki/Siege_of_Nice",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1680,
+  "country": "Germany",
+  "regions": [
+   "Saarland"
+  ],
+  "owner": "Nassau-Saarbrücken",
+  "why": "County of Nassau-Saarbrücken from 1381 until French annexation in the 1790s; map shows Lorraine/Anjou/Burgundy/France flipping every decade 1440-1770",
+  "source": "https://en.wikipedia.org/wiki/County_of_Nassau-Saarbr%C3%BCcken",
+  "severity": "major"
+ },
+ {
+  "from": 1680,
+  "to": 1697,
+  "country": "Germany",
+  "regions": [
+   "Saarland"
+  ],
+  "owner": "Kingdom of France",
+  "why": "French Saar province 1680-1697 (Réunions)",
+  "source": "https://www.saarland.de/stk/EN/history",
+  "severity": "minor"
+ },
+ {
+  "from": 1697,
+  "to": 1793,
+  "country": "Germany",
+  "regions": [
+   "Saarland"
+  ],
+  "owner": "Nassau-Saarbrücken",
+  "why": "County of Nassau-Saarbrücken restored after Ryswick until French annexation in the 1790s; map flips Lorraine/France each decade",
+  "source": "https://en.wikipedia.org/wiki/County_of_Nassau-Saarbr%C3%BCcken",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1635,
+  "country": "France",
+  "regions": [
+   "Guadeloupe"
+  ],
+  "owner": "none",
+  "why": "No European settlement before the French in 1635; never New Netherland",
+  "source": "https://en.wikipedia.org/wiki/History_of_Guadeloupe",
+  "severity": "minor"
+ },
+ {
+  "from": 1794,
+  "to": 1799,
+  "country": "France",
+  "regions": [
+   "Guadeloupe"
+  ],
+  "owner": "French First Republic",
+  "why": "French expedition retook Guadeloupe in 1794; 'French Louisiana' is wrong",
+  "source": "https://en.wikipedia.org/wiki/History_of_Guadeloupe",
+  "severity": "minor"
+ },
+ {
+  "from": 1799,
+  "to": 1804,
+  "country": "France",
+  "regions": [
+   "Guadeloupe"
+  ],
+  "owner": "French Consulate",
+  "why": "French colony; 'French Louisiana' is wrong",
+  "source": "https://en.wikipedia.org/wiki/History_of_Guadeloupe",
+  "severity": "minor"
+ },
+ {
+  "from": 1810,
+  "to": 1815,
+  "country": "France",
+  "regions": [
+   "Guadeloupe"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British occupation from 1810 (nominal Swedish cession 1813-14); never Portuguese",
+  "source": "https://en.wikipedia.org/wiki/History_of_Guadeloupe",
+  "severity": "major"
+ },
+ {
+  "from": 1620,
+  "to": 1635,
+  "country": "France",
+  "regions": [
+   "Martinique"
+  ],
+  "owner": "none",
+  "why": "France settled Martinique 1 Sep 1635; England never held it (map shows English Colonial Empire 1630)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Martinique",
+  "severity": "minor"
+ },
+ {
+  "from": 1664,
+  "to": 1792,
+  "country": "France",
+  "regions": [
+   "Guyane française"
+  ],
+  "owner": "Kingdom of France",
+  "why": "French colony at Cayenne; map flickers each decade between France, 'New France' and peoples, and shows Portuguese in 1780 (the Portuguese occupation was 1809-1817)",
+  "source": "https://en.wikipedia.org/wiki/French_Guiana",
+  "severity": "minor"
+ },
+ {
+  "from": 1792,
+  "to": 1809,
+  "country": "France",
+  "regions": [
+   "Guyane française"
+  ],
+  "owner": "French First Republic",
+  "why": "French colony until the 1809 Portuguese-British capture",
+  "source": "https://en.wikipedia.org/wiki/French_Guiana",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1642,
+  "country": "France",
+  "regions": [
+   "La Réunion"
+  ],
+  "owner": "none",
+  "why": "Island uninhabited and unclaimed until Pronis claimed it for France in 1642; never Dutch",
+  "source": "https://en.wikipedia.org/wiki/R%C3%A9union",
+  "severity": "minor"
+ },
+ {
+  "from": 1642,
+  "to": 1792,
+  "country": "France",
+  "regions": [
+   "La Réunion"
+  ],
+  "owner": "Kingdom of France",
+  "why": "French possession from 1642, colonised 1665 by the French East India Company (map labels it New France / French India)",
+  "source": "https://en.wikipedia.org/wiki/R%C3%A9union",
+  "severity": "minor"
+ },
+ {
+  "from": 1810,
+  "to": 1815,
+  "country": "France",
+  "regions": [
+   "La Réunion"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British invaded 7 Jul 1810 and held the island until its return after the 1814 Treaty of Paris",
+  "source": "https://en.wikipedia.org/wiki/R%C3%A9union",
+  "severity": "major"
+ },
+ {
+  "from": 1852,
+  "to": 1870,
+  "country": "France",
+  "regions": [
+   "La Réunion"
+  ],
+  "owner": "Second French Empire",
+  "why": "Réunion was never part of French Indochina (map shows French Indochina 1860-1880)",
+  "source": "https://en.wikipedia.org/wiki/R%C3%A9union",
+  "severity": "major"
+ },
+ {
+  "from": 1870,
+  "to": 1890,
+  "country": "France",
+  "regions": [
+   "La Réunion"
+  ],
+  "owner": "French Third Republic",
+  "why": "Réunion was never part of French Indochina",
+  "source": "https://en.wikipedia.org/wiki/R%C3%A9union",
+  "severity": "major"
+ },
+ {
+  "from": 1636,
+  "to": 1795,
+  "country": "Netherlands",
+  "regions": [
+   "Saba",
+   "St. Eustatius"
+  ],
+  "owner": "Dutch Republic",
+  "why": "Dutch West India Company colony from 1636; 'New Netherland' was the North American colony",
+  "source": "https://en.wikipedia.org/wiki/Sint_Eustatius",
+  "severity": "minor"
+ },
+ {
+  "from": 1816,
+  "to": 2026,
+  "country": "Netherlands",
+  "regions": [
+   "Saba",
+   "St. Eustatius"
+  ],
+  "owner": "Netherlands",
+  "why": "Dutch since 1816 (Netherlands Antilles 1954-2010, special municipalities since 2010); never French (map shows Guadeloupe [under France] 1890-2025)",
+  "source": "https://en.wikipedia.org/wiki/Sint_Eustatius",
+  "severity": "major"
+ },
+ {
+  "from": 1433,
+  "to": 1482,
+  "country": "Netherlands",
+  "regions": [
+   "Zuid-Holland",
+   "Noord-Holland"
+  ],
+  "owner": "Duchy of Burgundy",
+  "why": "Philip the Good took Holland/Zeeland in 1433 (Treaty of The Hague); map keeps Wittelsbach/Bavaria until 1440 and shows Utrecht holding Noord-Holland 1460-1470",
+  "source": "https://en.wikipedia.org/wiki/Jacqueline,_Countess_of_Hainaut",
+  "severity": "major"
+ },
+ {
+  "from": 1433,
+  "to": 1482,
+  "country": "Belgium",
+  "regions": [
+   "Hainaut"
+  ],
+  "owner": "Duchy of Burgundy",
+  "why": "Hainaut passed to Philip the Good in 1433 (map: Bavaria until 1440)",
+  "source": "https://en.wikipedia.org/wiki/Jacqueline,_Countess_of_Hainaut",
+  "severity": "minor"
+ },
+ {
+  "from": 1482,
+  "to": 1556,
+  "country": "Belgium",
+  "regions": [
+   "Antwerp",
+   "East Flanders",
+   "Flemish Brabant",
+   "Hainaut",
+   "Luxembourg",
+   "Namur",
+   "West Flanders"
+  ],
+  "owner": "Habsburg Netherlands",
+  "why": "Habsburg Netherlands 1482-1556, Spanish only from 1556; map flips Habsburg Monarchy/House of Habsburg/Kingdom of Spain (1520)/Habsburg Monarchy",
+  "source": "https://en.wikipedia.org/wiki/Habsburg_Netherlands",
+  "severity": "major"
+ },
+ {
+  "from": 1482,
+  "to": 1556,
+  "country": "Luxembourg",
+  "regions": [
+   "Diekirch–Luxembourg"
+  ],
+  "owner": "Habsburg Netherlands",
+  "why": "Part of the Habsburg Netherlands 1482-1556; map flips between three Habsburg labels",
+  "source": "https://en.wikipedia.org/wiki/Habsburg_Netherlands",
+  "severity": "minor"
+ },
+ {
+  "from": 1482,
+  "to": 1556,
+  "country": "France",
+  "regions": [
+   "Nord"
+  ],
+  "owner": "Habsburg Netherlands",
+  "why": "Flanders part of the Habsburg Netherlands 1482-1556, not Spain in 1520",
+  "source": "https://en.wikipedia.org/wiki/Habsburg_Netherlands",
+  "severity": "major"
+ },
+ {
+  "from": 1493,
+  "to": 1556,
+  "country": "France",
+  "regions": [
+   "Pas-de-Calais"
+  ],
+  "owner": "Habsburg Netherlands",
+  "why": "Artois part of the Habsburg Netherlands from 1493 (Senlis) to 1556, not Spain in 1520",
+  "source": "https://en.wikipedia.org/wiki/Habsburg_Netherlands",
+  "severity": "major"
+ },
+ {
+  "from": 1482,
+  "to": 1556,
+  "country": "Netherlands",
+  "regions": [
+   "Noord-Brabant",
+   "Zuid-Holland",
+   "Noord-Holland"
+  ],
+  "owner": "Habsburg Netherlands",
+  "why": "Habsburg Netherlands 1482-1556; map shows Kingdom of Spain in 1520 and Utrecht in Noord-Holland 1500-1520",
+  "source": "https://en.wikipedia.org/wiki/Habsburg_Netherlands",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1498,
+  "country": "Netherlands",
+  "regions": [
+   "Friesland"
+  ],
+  "owner": "Frisia (Lordship of Frisia)",
+  "why": "Frisian freedom: Friesland self-governing until Albert of Saxony was imposed in 1498; Holland/Burgundian claims were not effective (map shows Bavaria and Burgundy 1410-1480)",
+  "source": "https://en.wikipedia.org/wiki/Frisian_freedom",
+  "severity": "major"
+ },
+ {
+  "from": 1524,
+  "to": 1556,
+  "country": "Netherlands",
+  "regions": [
+   "Friesland"
+  ],
+  "owner": "Habsburg Netherlands",
+  "why": "Friesland acquired by the Habsburgs in 1524",
+  "source": "https://en.wikipedia.org/wiki/Habsburg_Netherlands",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1528,
+  "country": "Netherlands",
+  "regions": [
+   "Overijssel"
+  ],
+  "owner": "Prince-Bishopric of Utrecht",
+  "why": "Overijssel (Oversticht) belonged to the Prince-Bishopric of Utrecht until the Habsburg conquest of 1528, not to Guelders",
+  "source": "https://en.wikipedia.org/wiki/Prince-Bishopric_of_Utrecht",
+  "severity": "major"
+ },
+ {
+  "from": 1528,
+  "to": 1556,
+  "country": "Netherlands",
+  "regions": [
+   "Overijssel"
+  ],
+  "owner": "Habsburg Netherlands",
+  "why": "Overijssel acquired by the Habsburgs in 1528; map keeps it with Guelders until 1530",
+  "source": "https://en.wikipedia.org/wiki/Habsburg_Netherlands",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1520,
+  "country": "Netherlands",
+  "regions": [
+   "Drenthe"
+  ],
+  "owner": "Prince-Bishopric of Utrecht",
+  "why": "Drenthe was part of the Utrecht Oversticht, not of Groningen's Ommelanden",
+  "source": "https://en.wikipedia.org/wiki/Prince-Bishopric_of_Utrecht",
+  "severity": "major"
+ },
+ {
+  "from": 1536,
+  "to": 1556,
+  "country": "Netherlands",
+  "regions": [
+   "Groningen",
+   "Drenthe"
+  ],
+  "owner": "Habsburg Netherlands",
+  "why": "Groningen and Drenthe acquired by the Habsburgs in 1536",
+  "source": "https://en.wikipedia.org/wiki/Habsburg_Netherlands",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1543,
+  "country": "Netherlands",
+  "regions": [
+   "Gelderland"
+  ],
+  "owner": "Duchy of Guelders",
+  "why": "Guelders stayed independent until the Treaty of Venlo (1543); map shows Habsburg from 1530",
+  "source": "https://en.wikipedia.org/wiki/Habsburg_Netherlands",
+  "severity": "major"
+ },
+ {
+  "from": 1543,
+  "to": 1556,
+  "country": "Netherlands",
+  "regions": [
+   "Gelderland"
+  ],
+  "owner": "Habsburg Netherlands",
+  "why": "Guelders acquired by the Habsburgs in 1543 (Treaty of Venlo)",
+  "source": "https://en.wikipedia.org/wiki/Habsburg_Netherlands",
+  "severity": "minor"
+ },
+ {
+  "from": 1940,
+  "to": 1945,
+  "country": "Netherlands",
+  "regions": [
+   "Noord-Holland"
+  ],
+  "owner": "Netherlands",
+  "why": "Only Noord-Holland is shown as Nazi Germany; the occupation (May 1940-May 1945) covered the whole country and was never a formal annexation, and the map shows the rest of the Netherlands, Belgium and France as sovereign. Keep Noord-Holland consistent with its neighbours",
+  "source": "https://en.wikipedia.org/wiki/German_occupation_of_the_Netherlands",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1500,
+  "country": "Switzerland",
+  "regions": [
+   "Ticino"
+  ],
+  "owner": "Duchy of Milan",
+  "overlord": "Holy Roman Empire",
+  "why": "Bellinzona went to the Swiss only in 1500 and Lugano/Locarno/Mendrisio in 1512; only Leventina (1440) was Swiss earlier. The map shows Three Leagues in 1400 and the Swiss Confederation from 1440",
+  "source": "https://en.wikipedia.org/wiki/Ticino",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1451,
+  "country": "Switzerland",
+  "regions": [
+   "Sankt Gallen"
+  ],
+  "owner": "Abbey of Saint Gall",
+  "why": "Prince-Abbey of St Gall (allied to the Confederates from 1451), never part of the Three Leagues",
+  "source": "https://en.wikipedia.org/wiki/Abbey_of_Saint_Gall",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1416,
+  "country": "Switzerland",
+  "regions": [
+   "Vaud"
+  ],
+  "owner": "County of Savoy",
+  "why": "Vaud was Savoyard from 1218 until the Bernese conquest of 1536, never Neuchâtel's",
+  "source": "https://en.wikipedia.org/wiki/Vaud",
+  "severity": "minor"
+ },
+ {
+  "from": 1618,
+  "to": 1648,
+  "country": "Germany",
+  "regions": [
+   "Hamburg"
+  ],
+  "owner": "Free City of Hamburg",
+  "why": "Hamburg's new fortifications kept it untouched through the Thirty Years' War; it was never held by the Habsburgs (map shows Habsburg Monarchy in 1630)",
+  "source": "https://www.britannica.com/place/Hamburg-Germany/Evolution-of-the-modern-city",
+  "severity": "major"
+ },
+ {
+  "from": 1648,
+  "to": 1811,
+  "country": "Germany",
+  "regions": [
+   "Bremen"
+  ],
+  "owner": "Free City of Bremen",
+  "why": "Bremen city kept its independence until French annexation in 1811; it was never Swedish, Danish or Hanoverian (only the surrounding duchy of Bremen-Verden was)",
+  "source": "https://en.wikipedia.org/wiki/Bremen_(state)",
+  "severity": "major"
+ },
+ {
+  "from": 1815,
+  "to": 1867,
+  "country": "Germany",
+  "regions": [
+   "Bremen"
+  ],
+  "owner": "Free City of Bremen",
+  "why": "Bremen was restored as a free city in 1815; map shows Kingdom of Great Britain/Kingdom of Hanover",
+  "source": "https://en.wikipedia.org/wiki/Bremen_(state)",
+  "severity": "major"
+ },
+ {
+  "from": 1697,
+  "to": 1763,
+  "country": "Germany",
+  "regions": [
+   "Sachsen"
+  ],
+  "owner": "Electorate of Saxony",
+  "why": "Saxony stayed a separate Electorate of the Empire during the personal union with Poland (1697-1706, 1709-1763); map shows Polish-Lithuanian Commonwealth",
+  "source": "https://en.wikipedia.org/wiki/Electorate_of_Saxony",
+  "severity": "major"
+ },
+ {
+  "from": 1807,
+  "to": 1815,
+  "country": "Germany",
+  "regions": [
+   "Berlin",
+   "Brandenburg"
+  ],
+  "owner": "Kingdom of Prussia",
+  "why": "Prussia was never a member of the Confederation of the Rhine; it kept Brandenburg after Tilsit (map shows Confederation of the Rhine as owner in 1810). The Cottbus and Lower Lusatia area stayed Saxon to 1815 and cannot be split out at region level",
+  "source": "https://en.wikipedia.org/wiki/Confederation_of_the_Rhine",
+  "severity": "major"
+ },
+ {
+  "from": 1815,
+  "to": 1867,
+  "country": "Germany",
+  "regions": [
+   "Berlin",
+   "Brandenburg",
+   "Nordrhein-Westfalen",
+   "Saarland",
+   "Sachsen-Anhalt"
+  ],
+  "owner": "Kingdom of Prussia",
+  "why": "The provinces of Brandenburg, Saxony, Westphalia and the Rhine were Prussian from 1815. The German Confederation was a league of sovereign states and owned no land, yet the map shows it as owner 1820-1860, with Electorate of Hesse/Nassau in NRW",
+  "source": "https://en.wikipedia.org/wiki/Provinces_of_Prussia",
+  "severity": "major"
+ },
+ {
+  "from": 1814,
+  "to": 1848,
+  "country": "Germany",
+  "regions": [
+   "Schleswig-Holstein"
+  ],
+  "owner": "Kingdom of Denmark",
+  "why": "Denmark-Norway dissolved in 1814; the Danish king held Schleswig, Holstein and Lauenburg until 1864. The map shows Denmark-Norway, plus Kingdom of Great Britain and Hanover for Lauenburg",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Holstein",
+  "severity": "major"
+ },
+ {
+  "from": 1851,
+  "to": 1864,
+  "country": "Germany",
+  "regions": [
+   "Schleswig-Holstein"
+  ],
+  "owner": "Kingdom of Denmark",
+  "why": "Danish rule restored after the First Schleswig War until the 1864 war (map shows anachronistic Denmark-Norway in 1860)",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Holstein",
+  "severity": "major"
+ }
+]

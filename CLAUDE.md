@@ -28,8 +28,8 @@ pieces often with clear messages. Work on a branch for anything risky.
 - `site/data.json`: 781 events plus threads, bands, regions and arcs. `graph.json`
   holds links and stories.
 - `site/maps/`: borders and the province map. See `docs/border-review.md`.
-- `pipeline/`: build scripts. Read `pipeline/README.md`; the scripts are still missing
-  until it is deleted.
+- `pipeline/`: the build scripts behind Prototype 1, the research inputs and map intermediates.
+  Read `pipeline/README.md` before running anything.
 - `docs/`: the standards below.
 
 The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CDNs.

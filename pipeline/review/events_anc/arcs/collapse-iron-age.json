@@ -1,0 +1,2098 @@
+{
+ "arc": {
+  "id": "collapse-iron-age",
+  "size": "arc",
+  "title": "Palaces to Provinces",
+  "sub": "the Bronze Age collapse and the empires built on its ruins, 1363 to 486 BCE",
+  "span": [
+   -1363,
+   -486
+  ],
+  "themes": {
+   "primary": "power",
+   "secondary": [
+    "war",
+    "scarcity"
+   ]
+  },
+  "thesis": "The Late Bronze Age order rested on a handful of palaces that controlled scarce metal, writing and long-distance trade, and it fell together because each part depended on the others; the iron, alphabet and coin that followed spread the means of war and trade to small states, and the empires that reunited the Near East after 911 BCE held it to the degree that they taxed that wider world through provinces while leaving its local elites a stake.",
+  "assumptions": [
+   "Assumes the collapse was a cascade through linked palaces; a single dominant cause, such as one drought or one wave of invaders, would weaken the first half of the thesis.",
+   "Assumes iron and the alphabet lowered the cost of war and administration fast enough to matter politically, though iron took two to three centuries to displace bronze.",
+   "Assumes Assyria, Babylon and Persia form one line of development, so that Persian methods can be read as lessons drawn from Assyria's fall."
+  ],
+  "disconfirm": "If the thesis were wrong, the empire that ruled by deportation and direct provinces should have lasted as long as the one that ruled through local kings and gods. Assyria lasted 133 years from Tiglath-Pileser III's reforms to the fall of Nineveh; Persia lasted about 220 from Cyrus to Alexander. The comparison is confounded by the megadrought that weakened Assyria's heartland from about 675 BCE.",
+  "awkward": "The empire that rebuilt the Near East was the one great power of the Bronze Age club that never fell. Assyria kept its kings, its capital at Assur and its cuneiform scribes through the collapse, and its Iron Age empire still wrote royal annals in Akkadian on clay in 612 BCE.",
+  "shelf": [
+   {
+    "a": "Eric H. Cline",
+    "t": "1177 B.C.: The Year Civilization Collapsed",
+    "y": 2014
+   },
+   {
+    "a": "Marc Van De Mieroop",
+    "t": "A History of the Ancient Near East, ca. 3000-323 BC (3rd ed.)",
+    "y": 2016
+   },
+   {
+    "a": "Amélie Kuhrt",
+    "t": "The Ancient Near East c. 3000-330 BC",
+    "y": 1995
+   },
+   {
+    "a": "Eckart Frahm",
+    "t": "Assyria: The Rise and Fall of the World's First Empire",
+    "y": 2023
+   },
+   {
+    "a": "Pierre Briant",
+    "t": "From Cyrus to Alexander: A History of the Persian Empire",
+    "y": 2002
+   },
+   {
+    "a": "Robert Drews",
+    "t": "The End of the Bronze Age",
+    "y": 1993
+   }
+  ],
+  "stories": [
+   "linked-palaces",
+   "small-state-interval",
+   "assyrian-machine",
+   "persian-synthesis"
+  ]
+ },
+ "stories": [
+  {
+   "id": "linked-palaces",
+   "size": "story",
+   "title": "The Linked Palaces",
+   "sub": "the Late Bronze Age system and its collapse, 1363 to 1075 BCE",
+   "span": [
+    -1363,
+    -1075
+   ],
+   "parent": "collapse-iron-age",
+   "thesis": "The great kings of Egypt, Hatti, Babylon, Mitanni and Assyria ran an interdependent system of gift exchange, dynastic marriage and metal trade that kept the strongest of them at peace after 1259 BCE, and the same interdependence turned drought, famine and raiding after 1210 BCE into the collapse of the whole.",
+   "assumptions": [
+    "Assumes the palace archives, which record diplomacy and trade, describe how the system worked as well as how its kings wished it to look.",
+    "Assumes the destructions between about 1190 and 1130 BCE are connected; they cluster within two generations and rarely within one year.",
+    "Assumes Egypt's survival is the same collapse at lower intensity, with a slower decline in place of sudden destruction."
+   ],
+   "disconfirm": "If the thesis were wrong, the destructions should trace to one agent or one event: the Sea Peoples, a single drought or a war of all against all. The evidence points to several at once: tree rings show a three-year drought in Anatolia from about 1198 BCE, the Ugarit letters show raids by sea, and Hattusa was emptied by its own court before it burned.",
+   "awkward": "Assyria, a full member of the club and Hatti's main rival, lost territory to the Aramaeans and kept its king, its capital and its scribes; whatever broke the system left one of its great powers standing.",
+   "shelf": [
+    {
+     "a": "Eric H. Cline",
+     "t": "1177 B.C.: The Year Civilization Collapsed",
+     "y": 2014
+    },
+    {
+     "a": "Robert Drews",
+     "t": "The End of the Bronze Age",
+     "y": 1993
+    },
+    {
+     "a": "Trevor Bryce",
+     "t": "The Kingdom of the Hittites (new ed.)",
+     "y": 2005
+    },
+    {
+     "a": "Mario Liverani",
+     "t": "Prestige and Interest: International Relations in the Near East ca. 1600-1100 B.C.",
+     "y": 1990
+    },
+    {
+     "a": "Guy D. Middleton",
+     "t": "Understanding Collapse: Ancient History and Modern Myths",
+     "y": 2017
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The club",
+     "hinge": "me-1350-amarna",
+     "conn": null,
+     "s1": "By the 1350s BCE five great kings ran the eastern Mediterranean as a club of equals, trading gold, metal and princesses under rules of reciprocity that each of them tested.",
+     "s2": "The Amarna letters, some 380 tablets in Akkadian cuneiform from Pharaoh Akhenaten's capital, show the mechanics: the kings of Egypt, Babylon, Mitanni, Hatti and Alashiya called each other brother and bargained over gifts with the precision of merchants. Membership was contested; the Babylonian King Burna-Buriash II protested that Assyrian envoys at the Egyptian court were his vassals, and Egypt received them anyway, which admitted Assyria's Ashur-uballit I to the club. The Hittite King Suppiluliuma I sacked the Mitanni capital at Washukanni around 1345 BCE, and Mitanni's lands were divided between Hatti and Assyria. The metal flows beneath the diplomacy appear in the Uluburun wreck off southern Turkey: about ten tons of copper and one ton of tin, the ratio for bronze, with 175 glass ingots. Tin came from mines as far away as Central Asia, so every palace depended on routes it could not control.",
+     "support": [
+      "me-1345-mitanni-sacked",
+      "me-1363-ashur-uballit",
+      "me-1305-uluburun"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Kadesh and the treaty",
+     "hinge": "me-1259-hittite-treaty",
+     "conn": "but",
+     "s1": "Egypt and Hatti fought to a draw at Kadesh in 1274 BCE and then signed the oldest surviving peace treaty, which held for the rest of the Bronze Age.",
+     "s2": "Pharaoh Ramesses II carved Kadesh as a victory on five temples; the Hittites kept Kadesh and Amurru. In 1259 BCE Ramesses and the Hittite King Hattusili III agreed to non-aggression, mutual defence and the return of fugitives, a clause with a live target in Hattusili's deposed nephew Urhi-Teshub, who had fled to Egypt. The original silver tablets are lost; the text survives in hieroglyphs at Karnak and the Ramesseum and in Akkadian on clay from Hattusa. Ramesses married Hattusili's daughter around 1245 BCE. Peace in Syria freed Assyria in the east: King Tukulti-Ninurta I beat the Hittites at Nihriya and around 1225 BCE took Babylon and carried off the statue of Marduk, so the club entered its last decades with one rising power and two tired ones.",
+     "support": [
+      "me-1274-kadesh",
+      "me-1245-hittite-marriage",
+      "me-1237-nihriya",
+      "me-1225-tukulti-babylon"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Strain",
+     "hinge": "me-1208-merneptah-libyans",
+     "conn": "but",
+     "s1": "From the 1210s BCE the system came under strain at several points at once: famine in Hatti, invasion of Egypt from the west and drought on the Anatolian plateau.",
+     "s2": "Pharaoh Merneptah recorded that he shipped grain 'to keep alive this land of Hatti', and the Hittite Queen Puduhepa had already written to Ramesses II that she had no grain in her lands. In his fifth year, about 1208 BCE, Merneptah beat a Libyan invasion of the western Delta that brought Sherden, Shekelesh, Lukka and other seaborne allies; his inscriptions count 6,000 enemy dead and 9,000 prisoners. The stele that records the campaign also holds the first mention of Israel. Juniper rings from central Anatolia record a severe drought from about 1198 to 1196 BCE, three dry years on a plateau whose court lived from storehouses. Each shock alone had precedents and had been survived; the danger lay in their coinciding while the palaces had committed their reserves and fleets to one another.",
+     "support": [
+      "me-1213-grain-hatti",
+      "me-1198-anatolia-drought"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Cascade",
+     "hinge": "me-1177-bronze-collapse",
+     "conn": "therefore",
+     "s1": "Between about 1190 and 1175 BCE the palaces of Ugarit, Hatti and Mycenaean Greece fell within a generation, and Egypt held its frontier only by fighting in the Delta.",
+     "s2": "Ugarit's last king, Ammurapi, wrote to the king of Alashiya that enemy ships had burned his towns while his own troops and fleet were away in Hittite service; a letter from Chancellor Bay of Egypt, in office about 1194 to 1192 BCE, places the city's destruction after that date. The Hittite court left Hattusa before it burned, and the Hittite state ended with King Suppiluliuma II. The fire that destroyed the Palace of Nestor at Pylos around 1180 BCE baked its Linear B archive, which records rowers and detachments assigned to watch the coast. Around 1175 BCE Pharaoh Ramesses III fought the Peleset, Tjeker and Sherden in the Nile Delta and carved the victory at Medinet Habu. The Sea Peoples were one cause among several: displaced people as much as raiders, they struck palaces that had already lost the grain and metal flows that made them defensible.",
+     "support": [
+      "me-1185-ugarit-destroyed",
+      "me-1180-hattusa-abandoned",
+      "eu-1180-pylos-burns",
+      "me-1175-battle-delta"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "Egypt shrinks",
+     "hinge": "me-1077-new-kingdom-ends",
+     "conn": "but",
+     "s1": "Egypt came through the collapse with its state intact and spent the next century losing its empire, its revenue and its unity.",
+     "s2": "Around 1157 BCE the royal tomb-builders of Deir el-Medina stopped work after going eighteen days without grain rations, the first recorded strike. Two years later a harem plot killed Ramesses III; a CT scan of his mummy in 2012 showed his throat had been cut to the bone. The Egyptian garrisons in Canaan fell one by one, Megiddo and Lachish by about 1130 BCE and the fortress at Jaffa around 1125 BCE. With the death of Ramesses XI in 1077 BCE the kingdom split between a pharaoh at Tanis and the high priests of Amun at Thebes. The Story of Wenamun records the new standing: an envoy sent for cedar was made to pay in silver at Byblos, and the prince of Byblos produced his fathers' accounts to show that earlier pharaohs had paid too.",
+     "support": [
+      "me-1157-deir-medina-strike",
+      "me-1155-harem-conspiracy",
+      "me-1125-egypt-loses-canaan",
+      "me-1075-wenamun"
+     ]
+    }
+   ],
+   "today": "The collapse is a standard case in the study of systemic risk: linked states falling together after a cluster of shocks. The Uluburun cargo is on display at the Bodrum Museum of Underwater Archaeology in Turkey, and the Hittite copy of the 1259 BCE treaty is in the Istanbul Archaeology Museums."
+  },
+  {
+   "id": "small-state-interval",
+   "size": "story",
+   "title": "The Small-State Interval",
+   "sub": "Neo-Hittites, Aramaeans, Phoenicians and Greeks, 1180 to 832 BCE",
+   "span": [
+    -1180,
+    -832
+   ],
+   "parent": "collapse-iron-age",
+   "thesis": "For three centuries after the collapse no power could tax the Levant and Anatolia, and small states (Neo-Hittite, Aramaean, Phoenician, Philistine, Israelite and Greek) filled the space with cheaper tools of war, writing and trade, though they never combined for long against a returning empire.",
+   "assumptions": [
+    "Assumes the absence of a hegemon is the main fact of the period and that the small states filled a vacuum.",
+    "Assumes the alphabet's political effect came through cheaper administration and trade, which is better evidenced for Phoenician merchants than for kings.",
+    "Assumes the Greek case belongs with the Levantine one, though the Aegean lost writing entirely for some four centuries."
+   ],
+   "disconfirm": "If the thesis were wrong, a single power should have taxed the region before Assyria returned, or the small states should have combined into a lasting federation when it did. Qarqar is the test: eleven kings combined against Assyria in 853 BCE, and within twelve years the coalition had broken apart and its members were paying tribute.",
+   "awkward": "Iron arrived late. Bloomery smelting in the southern Levant is dated to about 930 BCE and bronze stayed in common use for weapons into the ninth century, so most of the small states formed before the cheap metal that is supposed to explain them.",
+   "shelf": [
+    {
+     "a": "Josephine Quinn",
+     "t": "In Search of the Phoenicians",
+     "y": 2018
+    },
+    {
+     "a": "Trevor Bryce",
+     "t": "The World of the Neo-Hittite Kingdoms",
+     "y": 2012
+    },
+    {
+     "a": "K. Lawson Younger Jr.",
+     "t": "A Political History of the Arameans",
+     "y": 2016
+    },
+    {
+     "a": "Anthony Snodgrass",
+     "t": "The Dark Age of Greece",
+     "y": 1971
+    },
+    {
+     "a": "Maria Eugenia Aubet",
+     "t": "The Phoenicians and the West",
+     "y": 1993
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The heirs",
+     "hinge": "me-1180-carchemish-great-king",
+     "conn": null,
+     "s1": "Where the Hittite empire had been, its provincial branches and their neighbours carried on as small kingdoms, and no power could tax the region for three centuries.",
+     "s2": "Kuzi-Teshub, son of the last Hittite viceroy at Carchemish, took the title Great King around 1180 BCE, and his line ruled Carchemish and Melid, carving inscriptions in Luwian hieroglyphs that continue the imperial tradition. On the southern coast of Canaan, locally made Aegean-style pottery and Aegean burial customs mark the settlement of the Philistines at Ashkelon, Ashdod, Ekron, Gath and Gaza; ancient DNA from Ashkelon shows a southern European component that was diluted within two centuries. Assyria tried to hold the Euphrates: King Tiglath-Pileser I campaigned repeatedly against Aramaean tribes and reached the Mediterranean at Arvad, and by his death in 1076 BCE the Aramaeans were pressing on the Assyrian heartland. Aramaean chiefs took over most of the Syrian kingdoms over the next two centuries, which is why Assyrian records name them 'Bit-', the house of a founding ancestor, as in Bit-Adini and Bit-Agusi.",
+     "support": [
+      "me-1175-philistines-settle",
+      "me-1100-aramaean-pressure"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The alphabet",
+     "hinge": "me-1050-phoenician-alphabet",
+     "conn": "therefore",
+     "s1": "In the ports that escaped destruction, a script of 22 consonant signs made writing cheap enough for merchants, and the Phoenician cities became the commercial hub of a Mediterranean with no great power.",
+     "s2": "Byblos, Sidon and Tyre came through the collapse with their harbours working. The Phoenician alphabet, standard by about 1050 BCE, could be learned by a merchant's clerk where cuneiform needed years of scribal school, and it passed to the Aramaeans, the Israelites and later the Greeks. King Hiram I of Tyre, who ruled about 980 to 947 BCE, joined the city's two islands, built a temple to Melqart and sent cedar and craftsmen to Jerusalem in exchange for wheat and oil. Tyre's traders settled Cyprus, founded Carthage around 814 BCE and reached the Atlantic. Iron became the common metal of the Levant in the same centuries; its ores were found almost everywhere, where bronze had depended on tin carried along a few long routes.",
+     "support": [
+      "me-980-hiram-tyre",
+      "me-930-iron-levant",
+      "me-814-carthage"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "The Aegean",
+     "hinge": "eu-950-lefkandi",
+     "conn": "but",
+     "s1": "Greece fell further than the Levant, losing its palaces, its writing and much of its population, and its recovery began when eastern trade returned.",
+     "s2": "After the palaces burned, Linear B went out of use and Greece was without writing for some four centuries. Many Peloponnesian settlements were abandoned; from the mid-11th century BCE Greeks from Attica and Euboea crossed the Aegean to settle Samos, Chios and the Ionian coast. At Lefkandi on Euboea, around 950 BCE, a man's ashes were buried in a Cypriot bronze amphora beside a woman wearing gold and a Babylonian pendant already about a thousand years old, with four sacrificed horses, under a building nearly 50 metres long. The Euboeans who traded east brought the alphabet home by about 800 BCE, turning Phoenician letters for consonants Greek lacked into vowels, and led the first Greek colonies to the west.",
+     "support": [
+      "eu-1050-ionian-migration",
+      "eu-800-greek-alphabet",
+      "eu-750-greek-colonies"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "The coalition",
+     "hinge": "me-853-qarqar",
+     "conn": "but",
+     "s1": "When Assyria returned to the west, the small states could combine against it for a battle and could not hold together for a decade.",
+     "s2": "In 853 BCE eleven kings, led by Hadadezer of Damascus, Irhuleni of Hamath and King Ahab of Israel, met the Assyrian King Shalmaneser III at Qarqar on the Orontes; his monolith credits Ahab with 2,000 chariots and lists 1,000 camels under Gindibu the Arab, the first appearance of Arabs in any record. The battle halted Assyria, and Shalmaneser fought the same coalition several more times over the following decade. By 841 BCE it had broken: Hazael had taken the throne of Damascus and was fighting Israel and Judah, and King Jehu of Israel knelt to Shalmaneser on the Black Obelisk. In the north, Sarduri I made Tushpa on Lake Van the capital of a united Urartu, the one rival in the region built on Assyria's scale. The small states had grown in the absence of a great power and had no institutions for its return.",
+     "support": [
+      "me-842-hazael",
+      "me-841-jehu-tribute",
+      "me-832-urartu-tushpa"
+     ]
+    }
+   ],
+   "today": "The Phoenician alphabet is the ancestor of the Greek, Latin, Cyrillic, Hebrew and Arabic scripts, used by most of the world's population. The ruins of Carchemish lie at Karkamış on the Turkish-Syrian border, facing the Syrian town of Jarablus."
+  },
+  {
+   "id": "assyrian-machine",
+   "size": "story",
+   "title": "The Assyrian Machine",
+   "sub": "Neo-Assyria's rise and fall, 911 to 605 BCE",
+   "span": [
+    -911,
+    -605
+   ],
+   "parent": "collapse-iron-age",
+   "thesis": "Assyria built the first empire of provinces, with a standing army, royal governors and mass deportation, and the same machinery that let it conquer from Egypt to Elam bound every loyalty to the king, so that the succession crises of 652 and after 631 BCE let its former subjects destroy it within two decades.",
+   "assumptions": [
+    "Assumes the reforms of Tiglath-Pileser III were a break, where they may only have codified practices built up over the previous century.",
+    "Assumes Assyrian royal inscriptions, which inflate victories and omit defeats, can be read for deportation numbers and campaigns at least to an order of magnitude.",
+    "Assumes the provinces were the empire's core, though much of its wealth came from vassal tribute that needed no governor."
+   ],
+   "disconfirm": "If the thesis were wrong, Assyria's fall should be explained by outside forces alone: the Median-Babylonian alliance, the Scythians, or the megadrought of about 675 to 550 BCE. The empire had survived the great revolt of 826 to 820 BCE and recovered; the difference after 631 BCE is that its enemies were former subjects organised on its own model.",
+   "awkward": "Assyria kept winning after the crisis the thesis blames. Ashurbanipal destroyed Susa in 647 BCE, the year after he won the civil war, and the empire held its provinces for another fifteen years before the collapse began.",
+   "shelf": [
+    {
+     "a": "Eckart Frahm",
+     "t": "Assyria: The Rise and Fall of the World's First Empire",
+     "y": 2023
+    },
+    {
+     "a": "Karen Radner",
+     "t": "Ancient Assyria: A Very Short Introduction",
+     "y": 2015
+    },
+    {
+     "a": "Mario Liverani",
+     "t": "Assyria: The Imperial Mission",
+     "y": 2017
+    },
+    {
+     "a": "Bustenay Oded",
+     "t": "Mass Deportations and Deportees in the Neo-Assyrian Empire",
+     "y": 1979
+    },
+    {
+     "a": "Sarah C. Melville",
+     "t": "The Campaigns of Sargon II, King of Assyria, 721-705 B.C.",
+     "y": 2016
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "Reconquest",
+     "hinge": "me-911-neo-assyria",
+     "conn": null,
+     "s1": "Assyria, the one Bronze Age great power that never fell, rebuilt its army from 911 BCE and spent a century retaking lands it regarded as its own.",
+     "s2": "King Adad-nirari II and his successors campaigned every year to recover the Middle Assyrian provinces from Aramaean rule, treating war as a royal duty owed to the god Ashur. Ashurnasirpal II moved the capital to Kalhu (Nimrud) in 879 BCE and recorded feeding 69,574 guests at its inauguration. Shalmaneser III pushed to the Mediterranean and Lake Van, though the western coalition held him at Qarqar. The model had a flaw: provinces were large and held by magnates, and when Shalmaneser's son Ashur-danin-pal revolted in 826 BCE, the king's own inscriptions say 27 cities including Nineveh went with him. The revolt lasted until 820 BCE, and for much of the next seventy years governors such as the field marshal Shamshi-ilu ran their regions as near-independent lords.",
+     "support": [
+      "me-879-kalhu",
+      "me-826-assyrian-revolt"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The machine",
+     "hinge": "me-745-tiglath-pileser",
+     "conn": "therefore",
+     "s1": "King Tiglath-Pileser III answered the magnates by remaking Assyria as a machine of small provinces, royal governors, a standing army and mass deportation, and roughly doubled its territory in eighteen years.",
+     "s2": "He took the throne in 745 BCE after a revolt at Kalhu, split the great provinces into smaller ones under royal appointees, erased Shamshi-ilu's name from the records and built a standing core, the kiṣir šarri, alongside the levies. He beat Urartu's Sarduri II near Arpad in 743 BCE, annexed Damascus in 732 BCE and in 729 BCE became the first Assyrian king the Babylonians accepted as their own. Deportation became policy: tens and possibly hundreds of thousands of people were moved to break local loyalties and put labour where the state needed it. Samaria fell in 722 BCE and Sargon II claimed to have deported 27,280 of its people, ending the kingdom of Israel. The deportees carried Aramaic, and Aramaic, written in the alphabet on leather and papyrus, became the empire's second language of government beside Akkadian on clay.",
+     "support": [
+      "me-743-arpad",
+      "me-732-damascus-falls",
+      "me-729-tp-babylon",
+      "me-722-samaria"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "The apex",
+     "hinge": "me-671-esarhaddon-memphis",
+     "conn": "therefore",
+     "s1": "Assyria reached its greatest extent when Esarhaddon took Memphis in 671 BCE, at a distance its army could reach and its governors could not hold.",
+     "s2": "Sargon II broke Urartu in 714 BCE, sacking the temple of Haldi at Musasir, and was killed in Tabal in 705 BCE; his body was never recovered, which his court read as divine judgment. His son Sennacherib moved the capital to Nineveh, crushed the Levantine revolt of 701 BCE by destroying Lachish and shutting King Hezekiah inside Jerusalem, and in 689 BCE razed Babylon and flooded its site after the Elamites had seized his heir. The Kushite pharaohs who had ruled Egypt since about 727 BCE backed every revolt in the Levant, and Esarhaddon set out to remove them: his first invasion was beaten near Ashkelon in 673 BCE, and the second took Memphis in 671 BCE with Pharaoh Taharqa's wife and son. Egypt revolted as soon as the army left, and Esarhaddon died at Harran in 669 BCE on his way back.",
+     "support": [
+      "me-714-urartu-campaign",
+      "me-705-sargon-killed",
+      "me-701-levant-campaign",
+      "me-689-babylon-destroyed",
+      "af-727-kush-egypt"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Overreach",
+     "hinge": "me-652-shamash-shum-ukin",
+     "conn": "but",
+     "s1": "Esarhaddon's division of the succession between two sons produced a civil war in 652 BCE that Assyria won at a cost it never recovered.",
+     "s2": "Ashurbanipal received Assyria and his elder brother Shamash-shum-ukin received Babylon under succession oaths sworn by the vassals in 672 BCE. Ashurbanipal's army sacked Thebes in 663 BCE and carried off two obelisks plated in electrum; within seven years Psamtik I of Sais, using Carian and Ionian mercenaries sent by King Gyges of Lydia, had reunited Egypt outside Assyrian control. In 652 BCE Shamash-shum-ukin rebelled with Chaldeans, Aramaeans and Elam, and Babylon fell only in 648 BCE after a two-year siege. Ashurbanipal destroyed Susa in 647 BCE, claimed to have sown salt on Elam and carried off its kings' bones, and so removed the buffer between Mesopotamia and the peoples of the Iranian plateau. His library at Nineveh, perhaps 100,000 texts copied from temples across the empire, survived because the city's fall buried it; when he died around 631 BCE his heirs fought each other for the throne.",
+     "support": [
+      "me-663-thebes-sacked",
+      "me-656-psamtik-egypt",
+      "me-647-susa-sacked",
+      "me-650-ashurbanipal-library",
+      "me-631-ashurbanipal-dies"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The fall",
+     "hinge": "me-612-nineveh-falls",
+     "conn": "therefore",
+     "s1": "Former subjects organised on Assyria's own model destroyed it in fourteen years, from Nabopolassar's coronation at Babylon in 626 BCE to the sack of Nineveh in 612 BCE.",
+     "s2": "Nabopolassar, a Babylonian leader of obscure origin, was crowned king of Babylon in November 626 BCE while Assyrian claimants fought over the throne. Cyaxares of the Medes ended a Scythian overlordship around 625 BCE and replaced tribal levies with a standing army on Assyrian and Urartian lines. The Medes sacked Assur, the religious capital, in 614 BCE; Cyaxares and Nabopolassar met in its ruins to seal an alliance with a marriage, and their armies took Nineveh after a siege in the summer of 612 BCE. Ashur-uballit II held Harran with Egyptian help until 609 BCE, and the crown prince Nebuchadnezzar destroyed the last Egyptian and Assyrian force at Carchemish in 605 BCE. The Assyrian capitals were left in ruins, and Babylon took over the provinces almost whole.",
+     "support": [
+      "me-626-nabopolassar",
+      "me-625-cyaxares",
+      "me-614-assur-sacked",
+      "me-609-harran",
+      "me-605-carchemish"
+     ]
+    }
+   ],
+   "today": "Islamic State fighters bulldozed and blew up much of Nimrud and damaged the gates of Nineveh in 2015 and 2016; restoration began after Iraqi forces retook the Mosul area. The Library of Ashurbanipal's tablets are in the British Museum, where they remain the main source for the Epic of Gilgamesh."
+  },
+  {
+   "id": "persian-synthesis",
+   "size": "story",
+   "title": "The Persian Synthesis",
+   "sub": "Babylon, Lydia, Media and the Achaemenid empire, 605 to 486 BCE",
+   "span": [
+    -605,
+    -486
+   ],
+   "parent": "collapse-iron-age",
+   "thesis": "Persia absorbed all four heirs of Assyria within 25 years because Cyrus and Darius kept Assyria's provinces, roads and tribute while leaving local officials, gods and languages in place, which made surrender cheaper than resistance for the elites of Media, Lydia, Babylon and Egypt.",
+   "assumptions": [
+    "Assumes the Cyrus Cylinder and the Persian royal inscriptions describe policy, though they are propaganda in a Mesopotamian genre that Assyrian kings also used.",
+    "Assumes the Median kingdom was a state Cyrus could inherit; the evidence for a Median empire is mostly Greek and much of it late.",
+    "Assumes Darius's reforms completed Cyrus's design, though Darius took power in a coup and had reason to present himself as a restorer."
+   ],
+   "disconfirm": "If the thesis were wrong, the conquests should have been won by force and held by force. The revolts of 522 to 521 BCE are the test: by Darius's own count he fought nineteen battles in a year against nine rival kings, which suggests that the restraint of Cyrus and Cambyses had bought the empire time and little loyalty.",
+   "awkward": "Babylon opened its gates in 539 BCE after a battle at Opis in which, by the Babylonian chronicle, Cyrus's army killed the people; the cylinder that presents a peaceful liberation leaves the battle out.",
+   "shelf": [
+    {
+     "a": "Pierre Briant",
+     "t": "From Cyrus to Alexander: A History of the Persian Empire",
+     "y": 2002
+    },
+    {
+     "a": "Amélie Kuhrt",
+     "t": "The Persian Empire: A Corpus of Sources from the Achaemenid Period",
+     "y": 2007
+    },
+    {
+     "a": "Matt Waters",
+     "t": "Ancient Persia: A Concise History of the Achaemenid Empire, 550-330 BCE",
+     "y": 2014
+    },
+    {
+     "a": "Lloyd Llewellyn-Jones",
+     "t": "Persians: The Age of the Great Kings",
+     "y": 2022
+    },
+    {
+     "a": "Paul-Alain Beaulieu",
+     "t": "The Reign of Nabonidus, King of Babylon 556-539 B.C.",
+     "y": 1989
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "Four heirs",
+     "hinge": "me-585-eclipse-halys",
+     "conn": null,
+     "s1": "Assyria's fall left four successor kingdoms (Babylon, Media, Lydia and Egypt) in a balance that a treaty of 585 BCE fixed in Anatolia and that lasted a generation.",
+     "s2": "Lydia and Media had fought for five years when an eclipse, dated by modern calculation to 28 May 585 BCE, halted a battle; King Alyattes of Lydia and King Cyaxares of Media made the Halys river their border and married Alyattes's daughter Aryenis to Cyaxares's son Astyages. Media had taken the Urartian capital around 590 BCE. Nebuchadnezzar II spent Levantine tribute on Babylon, whose Ishtar Gate of glazed blue brick, built around 569 BCE, was excavated by a German team and partly rebuilt in Berlin. Lydia had begun striking electrum coins in the late seventh century BCE, giving traders metal of guaranteed weight. The balance depended on its kings: Nabonidus, who took Babylon's throne in 556 BCE, spent about ten years at the oasis of Tayma in Arabia while his son Belshazzar governed and Babylon's New Year festival lapsed.",
+     "support": [
+      "me-590-medes-urartu",
+      "me-569-ishtar-gate",
+      "me-630-lydian-coins",
+      "me-552-nabonidus-tayma"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Cyrus",
+     "hinge": "me-550-cyrus",
+     "conn": "but",
+     "s1": "Cyrus II, the Persian vassal king of Anshan, overturned the balance within a decade by winning over the Median army and then using Media's resources to take Lydia.",
+     "s2": "Cyrus's war with his Median overlord Astyages began around 553 BCE and ended in 550 BCE when the Median commander Harpagus and part of the army changed sides and Ecbatana fell. Cyrus spared Astyages and kept Median nobles in high command, so the Median state passed to him with its officers. King Croesus of Lydia crossed the Halys, fought a drawn battle at Pteria and went home for the winter; Cyrus followed, beat him outside Sardis, using camels to frighten the Lydian horses, and took the citadel after fourteen days in 547 or 546 BCE. Harpagus then reduced the Greek cities of Ionia, Caria and Lycia by about 542 BCE, and Persia's frontier with the Greek world dates from his campaigns.",
+     "support": [
+      "me-547-sardis",
+      "me-542-harpagus-ionia"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Babylon",
+     "hinge": "me-539-babylon-falls",
+     "conn": "therefore",
+     "s1": "Cyrus took Babylon in 539 BCE with one battle and an appeal to the city's priests, and he governed it as its legitimate king.",
+     "s2": "Nabonidus's army met the Persians at Opis on the Tigris and was routed; Sippar opened its gates on 10 October, and Cyrus's commander Ugbaru entered Babylon two days later without a fight. The clay cylinder laid in the foundations of Marduk's temple blames Nabonidus for impiety, names Marduk as the god who chose Cyrus and records the return of gods and people to their cities, in the standard form of a Babylonian building inscription. The temples and the bureaucracy kept working, and contracts in the business archive of the Egibi family of Babylon run on through the conquest, now dated by Cyrus's years. Cyrus was killed beyond the Syr Darya fighting the Massagetae in 530 BCE, and his son Cambyses II took Egypt at Pelusium in 525 BCE, completing Persia's absorption of all four heirs.",
+     "support": [
+      "me-539-opis",
+      "me-539-cyrus-cylinder",
+      "sa-530-cyrus-dies",
+      "me-525-pelusium"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Darius",
+     "hinge": "me-522-darius",
+     "conn": "but",
+     "s1": "The death of Cambyses in 522 BCE set off revolts across the empire, and Darius I won the throne by force and then rebuilt the state so that it could outlast another disputed succession.",
+     "s2": "Darius and six Persian nobles killed the king they called the impostor Gaumata in September 522 BCE; the Behistun inscription, carved in Old Persian, Elamite and Babylonian on a cliff above the road to Ecbatana, counts nineteen battles in a year against nine rival kings. He then set the empire in about twenty satrapies paying fixed tribute, improved the roads with relay stations and issued the gold daric. The Persepolis Fortification tablets, over 15,000 Elamite records from 509 to 493 BCE, show the system at work: rations of grain, wine and beer issued to named workers, women as numerous as men among them, and sealed travel passes for officials on the road. Darius took the Indus valley, crossed into Europe against the Scythians in 513 BCE and opened a canal from the Nile to the Red Sea around 497 BCE. The weak point was the western edge: the Ionian cities revolted in 499 BCE with ships from Athens and Eretria, and Darius's answer began the wars with Greece.",
+     "support": [
+      "me-520-behistun",
+      "me-509-persepolis-tablets",
+      "sa-518-persia-indus",
+      "me-513-scythian-campaign",
+      "me-497-red-sea-canal",
+      "me-499-ionian-revolt"
+     ]
+    }
+   ],
+   "today": "Iran's last shah made the Cyrus Cylinder the emblem of the 1971 celebration of 2,500 years of monarchy and called it the first charter of human rights, a reading historians reject; when the British Museum lent it to Tehran in 2010 it drew large crowds under the Islamic Republic. A replica is displayed at United Nations headquarters in New York."
+  }
+ ],
+ "new_events": [
+  {
+   "id": "me-1363-ashur-uballit",
+   "y": -1363,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Ashur-uballit I makes Assyria a great power",
+   "where": "Assur, northern Iraq",
+   "lat": 35.46,
+   "lon": 43.26,
+   "wk": "Ashur-uballit I",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-1595-hittites-babylon"
+   ],
+   "why_selected": "Assyria joined the great-power club and took Mitanni's eastern lands; the state that later survived the collapse"
+  },
+  {
+   "id": "me-1345-mitanni-sacked",
+   "y": -1345,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Hittites sack the Mitanni capital",
+   "where": "Washukanni, upper Khabur, Syria",
+   "lat": 36.83,
+   "lon": 40.07,
+   "wk": "Mitanni",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-1650-hittites",
+    "me-1350-amarna"
+   ],
+   "why_selected": "Removed one of five great powers and left Hatti and Assyria facing each other across the Euphrates"
+  },
+  {
+   "id": "me-1305-uluburun",
+   "y": -1305,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Uluburun ship sinks with copper and tin",
+   "where": "Uluburun, off Kaş, southern Turkey",
+   "lat": 36.13,
+   "lon": 29.69,
+   "wk": "Uluburun shipwreck",
+   "c": [
+    "economic"
+   ],
+   "t": [
+    "silk"
+   ],
+   "causes": [
+    "me-1350-amarna"
+   ],
+   "why_selected": "Ten tons of copper and one of tin: the bronze trade the palace system depended on, caught in one cargo"
+  },
+  {
+   "id": "me-1259-hittite-treaty",
+   "y": -1259,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Egypt and Hatti sign a peace treaty",
+   "where": "Pi-Ramesses, Nile Delta, and Hattusa",
+   "lat": 30.8,
+   "lon": 31.83,
+   "wk": "Egyptian–Hittite peace treaty",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "law",
+    "conflict"
+   ],
+   "causes": [
+    "me-1274-kadesh"
+   ],
+   "why_selected": "Oldest surviving peace treaty; fixed the Syrian border and held until the Hittite state ended"
+  },
+  {
+   "id": "me-1245-hittite-marriage",
+   "y": -1245,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Ramesses II marries a Hittite princess",
+   "where": "Pi-Ramesses, Nile Delta, Egypt",
+   "lat": 30.8,
+   "lon": 31.83,
+   "wk": "Maathorneferure",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "law"
+   ],
+   "causes": [
+    "me-1259-hittite-treaty"
+   ],
+   "why_selected": "Sealed the treaty with a dynastic marriage, the club's standard instrument of alliance"
+  },
+  {
+   "id": "me-1237-nihriya",
+   "y": -1237,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Assyria defeats the Hittites at Nihriya",
+   "where": "Upper Tigris region, southeastern Turkey",
+   "lat": 37.9,
+   "lon": 40.2,
+   "wk": "Battle of Nihriya",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-1363-ashur-uballit"
+   ],
+   "why_selected": "Assyria beat Hatti in the field; the Hittites faced a rising power in the east as their own strength ebbed"
+  },
+  {
+   "id": "me-1225-tukulti-babylon",
+   "y": -1225,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Tukulti-Ninurta I takes Babylon",
+   "where": "Babylon, Iraq",
+   "lat": 32.54,
+   "lon": 44.42,
+   "wk": "Tukulti-Ninurta I",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-1237-nihriya"
+   ],
+   "why_selected": "First Assyrian conquest of Babylon; took Marduk's statue and set the pattern of Assyrian-Babylonian enmity"
+  },
+  {
+   "id": "me-1213-grain-hatti",
+   "y": -1213,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Egypt ships grain to famine-hit Hatti",
+   "where": "Hattusa, central Anatolia",
+   "lat": 40.02,
+   "lon": 34.62,
+   "wk": "Merneptah",
+   "c": [
+    "economic"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-1259-hittite-treaty"
+   ],
+   "why_selected": "Evidence that the Hittite core could no longer feed itself and leaned on its former enemy"
+  },
+  {
+   "id": "me-1208-merneptah-libyans",
+   "y": -1208,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Merneptah repels Libyans and Sea Peoples",
+   "where": "Western Nile Delta, Egypt",
+   "lat": 30.9,
+   "lon": 30.3,
+   "wk": "Merneptah Stele",
+   "bt": "biography/Merneptah",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "me-1259-hittite-treaty"
+   ],
+   "why_selected": "First large attack on Egypt with Sea Peoples allies; the stele also holds the first mention of Israel"
+  },
+  {
+   "id": "me-1198-anatolia-drought",
+   "y": -1198,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Three-year drought on the Anatolian plateau",
+   "where": "Gordion, central Anatolia",
+   "lat": 39.65,
+   "lon": 31.98,
+   "wk": "Late Bronze Age collapse",
+   "c": [
+    "economic"
+   ],
+   "t": [],
+   "causes": [],
+   "why_selected": "Tree rings date a severe drought to the years just before Hattusa was abandoned"
+  },
+  {
+   "id": "me-1185-ugarit-destroyed",
+   "y": -1185,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Ugarit destroyed",
+   "where": "Ugarit (Ras Shamra), Syrian coast",
+   "lat": 35.6,
+   "lon": 35.78,
+   "wk": "Ugarit",
+   "bt": "place/Ugarit",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "cities"
+   ],
+   "causes": [
+    "me-1208-merneptah-libyans",
+    "me-1198-anatolia-drought"
+   ],
+   "why_selected": "The richest port of the system burned and was never rebuilt; its archive records the last weeks"
+  },
+  {
+   "id": "me-1180-hattusa-abandoned",
+   "y": -1180,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Hittite court abandons Hattusa",
+   "where": "Hattusa (Boğazkale), central Anatolia",
+   "lat": 40.02,
+   "lon": 34.62,
+   "wk": "Hattusa",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "cities"
+   ],
+   "causes": [
+    "me-1213-grain-hatti",
+    "me-1198-anatolia-drought"
+   ],
+   "why_selected": "End of the Hittite state; the capital was emptied before it burned"
+  },
+  {
+   "id": "eu-1180-pylos-burns",
+   "y": -1180,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Palace of Nestor at Pylos burns",
+   "where": "Pylos, Messenia, Greece",
+   "lat": 37.03,
+   "lon": 21.7,
+   "wk": "Palace of Nestor",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "conflict",
+    "cities"
+   ],
+   "causes": [
+    "eu-1600-mycenae"
+   ],
+   "why_selected": "End of the Mycenaean palace states; the fire preserved the Linear B archive"
+  },
+  {
+   "id": "me-1175-battle-delta",
+   "y": -1175,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Ramesses III defeats the Sea Peoples",
+   "where": "Nile Delta, Egypt",
+   "lat": 31.0,
+   "lon": 31.2,
+   "wk": "Battle of the Delta",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "me-1208-merneptah-libyans",
+    "me-1185-ugarit-destroyed"
+   ],
+   "why_selected": "Egypt held its border; the defeated Peleset are linked to the Philistines of Canaan"
+  },
+  {
+   "id": "me-1157-deir-medina-strike",
+   "y": -1157,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Royal tomb-builders strike for rations",
+   "where": "Deir el-Medina, Thebes, Egypt",
+   "lat": 25.73,
+   "lon": 32.6,
+   "wk": "Deir el-Medina",
+   "c": [
+    "economic"
+   ],
+   "t": [
+    "rights"
+   ],
+   "causes": [
+    "me-1175-battle-delta"
+   ],
+   "why_selected": "First recorded strike; shows the Egyptian state failing to pay its own workers"
+  },
+  {
+   "id": "me-1155-harem-conspiracy",
+   "y": -1155,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Ramesses III murdered in a harem plot",
+   "where": "Medinet Habu, Thebes, Egypt",
+   "lat": 25.72,
+   "lon": 32.6,
+   "wk": "Harem conspiracy",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "law"
+   ],
+   "causes": [
+    "me-1157-deir-medina-strike"
+   ],
+   "why_selected": "Court violence at the top of the last strong New Kingdom reign"
+  },
+  {
+   "id": "me-1125-egypt-loses-canaan",
+   "y": -1125,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Egypt's last garrisons in Canaan burn",
+   "where": "Jaffa, Levant coast",
+   "lat": 32.05,
+   "lon": 34.75,
+   "wk": "Jaffa",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-1175-battle-delta"
+   ],
+   "why_selected": "End of three centuries of Egyptian rule in Canaan"
+  },
+  {
+   "id": "me-1077-new-kingdom-ends",
+   "y": -1077,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Egypt splits between Tanis and Thebes",
+   "where": "Tanis, Nile Delta, Egypt",
+   "lat": 30.98,
+   "lon": 31.88,
+   "wk": "Third Intermediate Period of Egypt",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-1125-egypt-loses-canaan",
+    "me-1155-harem-conspiracy"
+   ],
+   "why_selected": "End of the New Kingdom; Egypt left the great-power game for three centuries"
+  },
+  {
+   "id": "me-1075-wenamun",
+   "y": -1075,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Wenamun must pay for cedar at Byblos",
+   "where": "Byblos, Lebanon",
+   "lat": 34.12,
+   "lon": 35.65,
+   "wk": "Story of Wenamun",
+   "c": [
+    "economic",
+    "political"
+   ],
+   "t": [
+    "silk"
+   ],
+   "causes": [
+    "me-1077-new-kingdom-ends"
+   ],
+   "why_selected": "Shows Egypt's lost standing in the Levant ports and the new commercial terms of trade"
+  },
+  {
+   "id": "me-1180-carchemish-great-king",
+   "y": -1180,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Carchemish's king claims Hittite great kingship",
+   "where": "Carchemish, Turkish-Syrian border",
+   "lat": 36.83,
+   "lon": 38.01,
+   "wk": "Kuzi-Teshub",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-1180-hattusa-abandoned"
+   ],
+   "why_selected": "Start of the Neo-Hittite states, the Hittite line continued as a regional kingdom"
+  },
+  {
+   "id": "me-1175-philistines-settle",
+   "y": -1175,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Philistines settle the southern Canaan coast",
+   "where": "Ashkelon, southern Levant",
+   "lat": 31.66,
+   "lon": 34.55,
+   "wk": "Philistines",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "cities",
+    "conflict"
+   ],
+   "causes": [
+    "me-1175-battle-delta"
+   ],
+   "why_selected": "Aegean migrants founded the five-city Philistine league, rivals of the Israelite hill states"
+  },
+  {
+   "id": "me-1100-aramaean-pressure",
+   "y": -1100,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1177-bronze-collapse",
+   "h": "Tiglath-Pileser I fights the Aramaeans",
+   "where": "Middle Euphrates, Syria",
+   "lat": 35.33,
+   "lon": 40.14,
+   "wk": "Tiglath-Pileser I",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "steppe",
+    "conflict"
+   ],
+   "causes": [
+    "me-1177-bronze-collapse"
+   ],
+   "why_selected": "Assyria's last push west before Aramaean tribes overran upper Mesopotamia and took over the Syrian states"
+  },
+  {
+   "id": "me-930-iron-levant",
+   "y": -930,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-1050-phoenician-alphabet",
+   "h": "Iron smelting established in the Levant",
+   "where": "Tell Hammeh, Jordan valley",
+   "lat": 32.21,
+   "lon": 35.6,
+   "wk": "Iron Age",
+   "c": [
+    "science",
+    "economic"
+   ],
+   "t": [
+    "science"
+   ],
+   "causes": [
+    "me-1177-bronze-collapse"
+   ],
+   "why_selected": "Iron from local ores replaced bronze that had needed long-distance tin; cheaper weapons and tools"
+  },
+  {
+   "id": "me-980-hiram-tyre",
+   "y": -980,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-1050-phoenician-alphabet",
+   "h": "Hiram I makes Tyre the leading port",
+   "where": "Tyre, Lebanon",
+   "lat": 33.27,
+   "lon": 35.2,
+   "wk": "Hiram I",
+   "c": [
+    "economic",
+    "political"
+   ],
+   "t": [
+    "silk",
+    "cities"
+   ],
+   "causes": [
+    "me-1050-phoenician-alphabet"
+   ],
+   "why_selected": "Tyre's rise began the Phoenician trading network that founded Carthage"
+  },
+  {
+   "id": "eu-1050-ionian-migration",
+   "y": -1050,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-1050-phoenician-alphabet",
+   "h": "Greeks settle the Ionian coast and islands",
+   "where": "Miletus, Ionia",
+   "lat": 37.53,
+   "lon": 27.28,
+   "wk": "Iron Age Greek migrations",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "cities",
+    "explore"
+   ],
+   "causes": [
+    "eu-1180-pylos-burns"
+   ],
+   "why_selected": "Created the eastern Greek world of Ionia that later met Lydia and Persia"
+  },
+  {
+   "id": "eu-950-lefkandi",
+   "y": -950,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-1050-phoenician-alphabet",
+   "h": "Lefkandi chief buried with eastern goods",
+   "where": "Lefkandi, Euboea, Greece",
+   "lat": 38.41,
+   "lon": 23.68,
+   "wk": "Lefkandi",
+   "c": [
+    "culture",
+    "economic"
+   ],
+   "t": [
+    "silk"
+   ],
+   "causes": [
+    "eu-1180-pylos-burns"
+   ],
+   "why_selected": "Earliest evidence of renewed Greek contact with the Levant during the Dark Age"
+  },
+  {
+   "id": "me-853-qarqar",
+   "y": -853,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-911-neo-assyria",
+   "h": "Levantine coalition halts Assyria at Qarqar",
+   "where": "Qarqar, Orontes valley, Syria",
+   "lat": 35.82,
+   "lon": 36.32,
+   "wk": "Battle of Qarqar",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-911-neo-assyria"
+   ],
+   "why_selected": "Largest battle recorded to that date; the small states' one effective coalition; first mention of Arabs"
+  },
+  {
+   "id": "me-842-hazael",
+   "y": -842,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Hazael seizes the throne of Damascus",
+   "where": "Damascus, Syria",
+   "lat": 33.51,
+   "lon": 36.29,
+   "wk": "Hazael",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "me-853-qarqar"
+   ],
+   "why_selected": "Broke the anti-Assyrian coalition; Damascus fought Israel and Judah instead"
+  },
+  {
+   "id": "me-841-jehu-tribute",
+   "y": -841,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Jehu of Israel pays tribute to Assyria",
+   "where": "Kalhu (Nimrud), Iraq",
+   "lat": 36.1,
+   "lon": 43.33,
+   "wk": "Black Obelisk of Shalmaneser III",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-842-hazael"
+   ],
+   "why_selected": "The coalition's members submitting one by one; the only image of an Israelite king"
+  },
+  {
+   "id": "me-832-urartu-tushpa",
+   "y": -832,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Sarduri I unites Urartu at Van",
+   "where": "Tushpa (Van), eastern Turkey",
+   "lat": 38.5,
+   "lon": 43.34,
+   "wk": "Sarduri I",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-911-neo-assyria"
+   ],
+   "why_selected": "Created Assyria's one northern rival on its own scale"
+  },
+  {
+   "id": "me-879-kalhu",
+   "y": -879,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Ashurnasirpal II makes Kalhu his capital",
+   "where": "Kalhu (Nimrud), Iraq",
+   "lat": 36.1,
+   "lon": 43.33,
+   "wk": "Nimrud",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "cities"
+   ],
+   "causes": [
+    "me-911-neo-assyria"
+   ],
+   "why_selected": "New capital built with deported labour; the reconquest era's showpiece"
+  },
+  {
+   "id": "me-826-assyrian-revolt",
+   "y": -826,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-911-neo-assyria",
+   "h": "Great revolt splits Assyria",
+   "where": "Nineveh, Iraq",
+   "lat": 36.36,
+   "lon": 43.15,
+   "wk": "Shamshi-Adad V",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "me-879-kalhu"
+   ],
+   "why_selected": "Showed the danger of large provinces under magnates; led to eighty years of weak kings"
+  },
+  {
+   "id": "me-743-arpad",
+   "y": -743,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Tiglath-Pileser III defeats Urartu near Arpad",
+   "where": "Arpad (Tell Rifaat), Syria",
+   "lat": 36.47,
+   "lon": 37.1,
+   "wk": "Tiglath-Pileser III",
+   "bt": "biography/Tiglath-pileser-III",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-745-tiglath-pileser",
+    "me-832-urartu-tushpa"
+   ],
+   "why_selected": "Drove Urartu out of north Syria and opened the west to annexation"
+  },
+  {
+   "id": "me-732-damascus-falls",
+   "y": -732,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Assyria annexes Damascus",
+   "where": "Damascus, Syria",
+   "lat": 33.51,
+   "lon": 36.29,
+   "wk": "Aram-Damascus",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-745-tiglath-pileser",
+    "me-842-hazael"
+   ],
+   "why_selected": "End of the strongest Aramaean kingdom; the Levant turned into provinces"
+  },
+  {
+   "id": "me-729-tp-babylon",
+   "y": -729,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Tiglath-Pileser III crowned king of Babylon",
+   "where": "Babylon, Iraq",
+   "lat": 32.54,
+   "lon": 44.42,
+   "wk": "Tiglath-Pileser III",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-745-tiglath-pileser"
+   ],
+   "why_selected": "Began the personal union with Babylon that Assyria never found a stable form for"
+  },
+  {
+   "id": "me-722-samaria",
+   "y": -722,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-911-neo-assyria",
+   "h": "Assyria ends the kingdom of Israel",
+   "where": "Samaria, central highlands",
+   "lat": 32.28,
+   "lon": 35.2,
+   "wk": "Samerina",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "atrocity"
+   ],
+   "causes": [
+    "me-745-tiglath-pileser",
+    "me-732-damascus-falls"
+   ],
+   "why_selected": "Showcase of deportation policy: Israel became the province of Samerina, its people moved east"
+  },
+  {
+   "id": "me-714-urartu-campaign",
+   "y": -714,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Sargon II breaks Urartu",
+   "where": "Lake Urmia, northwestern Iran",
+   "lat": 37.7,
+   "lon": 45.3,
+   "wk": "Sargon II",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-743-arpad"
+   ],
+   "why_selected": "Removed Urartu as a rival and exposed it to the Cimmerians"
+  },
+  {
+   "id": "me-705-sargon-killed",
+   "y": -705,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Sargon II killed in battle in Tabal",
+   "where": "Tabal, central Anatolia",
+   "lat": 38.7,
+   "lon": 35.5,
+   "wk": "Sargon II",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-714-urartu-campaign"
+   ],
+   "why_selected": "A king lost in battle, his body never recovered; Sennacherib moved the capital to Nineveh"
+  },
+  {
+   "id": "me-701-levant-campaign",
+   "y": -701,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Sennacherib crushes the Levant revolt",
+   "where": "Lachish, southern Levant",
+   "lat": 31.56,
+   "lon": 34.85,
+   "wk": "Siege of Lachish",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-705-sargon-killed",
+    "af-727-kush-egypt"
+   ],
+   "why_selected": "Assyria's answer to the Kushite-backed revolt; Lachish destroyed, Jerusalem besieged and made tributary"
+  },
+  {
+   "id": "me-689-babylon-destroyed",
+   "y": -689,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-911-neo-assyria",
+   "h": "Sennacherib destroys Babylon",
+   "where": "Babylon, Iraq",
+   "lat": 32.54,
+   "lon": 44.42,
+   "wk": "Sennacherib",
+   "bt": "biography/Sennacherib",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "atrocity"
+   ],
+   "causes": [
+    "me-729-tp-babylon"
+   ],
+   "why_selected": "The failure of every attempt to rule Babylon; the act Esarhaddon spent his reign undoing"
+  },
+  {
+   "id": "me-671-esarhaddon-memphis",
+   "y": -671,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-911-neo-assyria",
+   "h": "Esarhaddon takes Memphis",
+   "where": "Memphis, Egypt",
+   "lat": 29.85,
+   "lon": 31.25,
+   "wk": "Assyrian conquest of Egypt",
+   "bt": "biography/Esarhaddon",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "af-727-kush-egypt",
+    "me-701-levant-campaign"
+   ],
+   "why_selected": "Assyria's greatest extent; Egypt proved conquerable and ungovernable from Nineveh"
+  },
+  {
+   "id": "me-663-thebes-sacked",
+   "y": -663,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Ashurbanipal's army sacks Thebes",
+   "where": "Thebes (Luxor), Egypt",
+   "lat": 25.7,
+   "lon": 32.64,
+   "wk": "Sack of Thebes",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "atrocity"
+   ],
+   "causes": [
+    "me-671-esarhaddon-memphis"
+   ],
+   "why_selected": "Ended Kushite rule in Egypt; the high-water mark of Assyrian reach"
+  },
+  {
+   "id": "me-656-psamtik-egypt",
+   "y": -656,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Psamtik I reunites Egypt free of Assyria",
+   "where": "Sais, Nile Delta, Egypt",
+   "lat": 30.97,
+   "lon": 30.77,
+   "wk": "Psamtik I",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "indep"
+   ],
+   "causes": [
+    "me-663-thebes-sacked"
+   ],
+   "why_selected": "First province of the empire to break away for good, with Lydian-sent Greek mercenaries"
+  },
+  {
+   "id": "me-652-shamash-shum-ukin",
+   "y": -652,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-911-neo-assyria",
+   "h": "Babylon's king revolts against Ashurbanipal",
+   "where": "Babylon, Iraq",
+   "lat": 32.54,
+   "lon": 44.42,
+   "wk": "Shamash-shum-ukin",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "me-689-babylon-destroyed",
+    "me-671-esarhaddon-memphis"
+   ],
+   "why_selected": "Four-year civil war between royal brothers; Assyria won and never recovered its strength"
+  },
+  {
+   "id": "me-650-ashurbanipal-library",
+   "y": -650,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Ashurbanipal assembles his library at Nineveh",
+   "where": "Nineveh, Iraq",
+   "lat": 36.36,
+   "lon": 43.15,
+   "wk": "Library of Ashurbanipal",
+   "c": [
+    "culture",
+    "ideas"
+   ],
+   "t": [
+    "science"
+   ],
+   "causes": [
+    "me-652-shamash-shum-ukin"
+   ],
+   "why_selected": "Preserved most of Mesopotamian literature, including Gilgamesh, by being buried in 612"
+  },
+  {
+   "id": "me-647-susa-sacked",
+   "y": -647,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Ashurbanipal destroys Susa",
+   "where": "Susa, Khuzestan, Iran",
+   "lat": 32.19,
+   "lon": 48.26,
+   "wk": "Battle of Susa",
+   "bt": "biography/Ashurbanipal",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "atrocity"
+   ],
+   "causes": [
+    "me-652-shamash-shum-ukin"
+   ],
+   "why_selected": "Ended Elam as a power and removed the buffer between Mesopotamia and the Iranian peoples"
+  },
+  {
+   "id": "me-631-ashurbanipal-dies",
+   "y": -631,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Ashurbanipal dies; succession wars begin",
+   "where": "Nineveh, Iraq",
+   "lat": 36.36,
+   "lon": 43.15,
+   "wk": "Ashurbanipal",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-652-shamash-shum-ukin"
+   ],
+   "why_selected": "Opened the succession crisis that let Babylon break away"
+  },
+  {
+   "id": "me-626-nabopolassar",
+   "y": -626,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-550-cyrus",
+   "h": "Nabopolassar crowned king of Babylon",
+   "where": "Babylon, Iraq",
+   "lat": 32.54,
+   "lon": 44.42,
+   "wk": "Revolt of Babylon (626 BC)",
+   "bt": "biography/Nabopolassar",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "indep"
+   ],
+   "causes": [
+    "me-631-ashurbanipal-dies"
+   ],
+   "why_selected": "Founded the Neo-Babylonian state that destroyed Assyria and inherited its provinces"
+  },
+  {
+   "id": "me-625-cyaxares",
+   "y": -625,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-550-cyrus",
+   "h": "Cyaxares unites the Medes",
+   "where": "Ecbatana (Hamadan), Iran",
+   "lat": 34.8,
+   "lon": 48.52,
+   "wk": "Cyaxares",
+   "bt": "biography/Cyaxares",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "me-647-susa-sacked",
+    "eu-700-scythians"
+   ],
+   "why_selected": "Built a standing army on the Assyrian model; Media became Assyria's executioner and Persia's base"
+  },
+  {
+   "id": "me-614-assur-sacked",
+   "y": -614,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Medes sack Assur",
+   "where": "Assur, northern Iraq",
+   "lat": 35.46,
+   "lon": 43.26,
+   "wk": "Fall of Assur",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-625-cyaxares"
+   ],
+   "why_selected": "Destroyed Assyria's religious capital; Medes and Babylonians allied in its ruins"
+  },
+  {
+   "id": "me-609-harran",
+   "y": -609,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Assyria's last king loses Harran",
+   "where": "Harran, southeastern Turkey",
+   "lat": 36.86,
+   "lon": 39.03,
+   "wk": "Ashur-uballit II",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-612-nineveh-falls"
+   ],
+   "why_selected": "The Assyrian state's final stand, with Egyptian help, failed"
+  },
+  {
+   "id": "me-605-carchemish",
+   "y": -605,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-550-cyrus",
+   "h": "Nebuchadnezzar defeats Egypt at Carchemish",
+   "where": "Carchemish, Turkish-Syrian border",
+   "lat": 36.83,
+   "lon": 38.01,
+   "wk": "Battle of Carchemish",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-609-harran",
+    "me-626-nabopolassar"
+   ],
+   "why_selected": "Gave Babylon the Levant and ended Egypt's bid to inherit Assyria's west"
+  },
+  {
+   "id": "me-590-medes-urartu",
+   "y": -590,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Medes take the Urartian capital",
+   "where": "Tushpa (Van), eastern Turkey",
+   "lat": 38.5,
+   "lon": 43.34,
+   "wk": "Urartu",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-625-cyaxares",
+    "me-832-urartu-tushpa"
+   ],
+   "why_selected": "Media absorbed Assyria's old northern rival and reached Anatolia"
+  },
+  {
+   "id": "me-585-eclipse-halys",
+   "y": -585,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-550-cyrus",
+   "h": "Eclipse ends the Lydian-Median war",
+   "where": "Halys river, central Anatolia",
+   "lat": 39.5,
+   "lon": 34.5,
+   "wk": "Battle of the Eclipse",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "law",
+    "conflict"
+   ],
+   "causes": [
+    "me-590-medes-urartu",
+    "me-630-lydian-coins"
+   ],
+   "why_selected": "Fixed a four-power balance in the Near East with a border and a royal marriage"
+  },
+  {
+   "id": "me-569-ishtar-gate",
+   "y": -569,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Nebuchadnezzar rebuilds Babylon",
+   "where": "Babylon, Iraq",
+   "lat": 32.54,
+   "lon": 44.42,
+   "wk": "Ishtar Gate",
+   "c": [
+    "culture",
+    "economic"
+   ],
+   "t": [
+    "cities"
+   ],
+   "causes": [
+    "me-605-carchemish"
+   ],
+   "why_selected": "Levantine tribute turned into the largest city of its age"
+  },
+  {
+   "id": "me-552-nabonidus-tayma",
+   "y": -552,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Nabonidus withdraws to Tayma in Arabia",
+   "where": "Tayma, northwestern Arabia",
+   "lat": 27.63,
+   "lon": 38.55,
+   "wk": "Nabonidus",
+   "bt": "biography/Nabonidus",
+   "c": [
+    "political",
+    "religion"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-569-ishtar-gate"
+   ],
+   "why_selected": "A decade's absence alienated Babylon's priests, who later welcomed Cyrus"
+  },
+  {
+   "id": "me-547-sardis",
+   "y": -547,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-550-cyrus",
+   "h": "Cyrus takes Sardis and ends Lydia",
+   "where": "Sardis, western Turkey",
+   "lat": 38.49,
+   "lon": 28.04,
+   "wk": "Siege of Sardis (547 BC)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-550-cyrus",
+    "me-585-eclipse-halys"
+   ],
+   "why_selected": "Gave Persia Lydia's wealth and brought it to the Aegean and the Greeks"
+  },
+  {
+   "id": "me-542-harpagus-ionia",
+   "y": -542,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Harpagus conquers Ionia, Caria and Lycia",
+   "where": "Xanthos, Lycia, southwestern Turkey",
+   "lat": 36.36,
+   "lon": 29.32,
+   "wk": "Harpagus",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-547-sardis"
+   ],
+   "why_selected": "Made the Greek cities of Asia Persian subjects; the root of the Greco-Persian wars"
+  },
+  {
+   "id": "me-539-opis",
+   "y": -539,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Cyrus routs the Babylonian army at Opis",
+   "where": "Opis, on the Tigris, Iraq",
+   "lat": 33.1,
+   "lon": 44.4,
+   "wk": "Battle of Opis",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-552-nabonidus-tayma",
+    "me-547-sardis"
+   ],
+   "why_selected": "The one battle of the Babylonian campaign, omitted from Cyrus's own account"
+  },
+  {
+   "id": "me-539-cyrus-cylinder",
+   "y": -539,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Cyrus Cylinder presents Cyrus as Marduk's choice",
+   "where": "Babylon, Iraq",
+   "lat": 32.54,
+   "lon": 44.42,
+   "wk": "Cyrus Cylinder",
+   "c": [
+    "political",
+    "religion"
+   ],
+   "t": [
+    "empire",
+    "faith"
+   ],
+   "causes": [
+    "me-539-babylon-falls"
+   ],
+   "why_selected": "Statement of rule through local gods and elites; later misread as a human-rights charter"
+  },
+  {
+   "id": "sa-530-cyrus-dies",
+   "y": -530,
+   "r": "sa",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Cyrus killed fighting the Massagetae",
+   "where": "Syr Darya, Central Asia",
+   "lat": 42.5,
+   "lon": 64.5,
+   "wk": "Cyrus the Great",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "steppe"
+   ],
+   "causes": [
+    "me-539-babylon-falls"
+   ],
+   "why_selected": "Marked the empire's limit on the steppe frontier"
+  },
+  {
+   "id": "me-525-pelusium",
+   "y": -525,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-550-cyrus",
+   "h": "Cambyses conquers Egypt at Pelusium",
+   "where": "Pelusium, eastern Nile Delta, Egypt",
+   "lat": 31.04,
+   "lon": 32.55,
+   "wk": "Battle of Pelusium (525 BC)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-539-babylon-falls"
+   ],
+   "why_selected": "Completed Persia's absorption of all four heirs of Assyria"
+  },
+  {
+   "id": "me-520-behistun",
+   "y": -520,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Darius's Behistun inscription justifies his coup",
+   "where": "Behistun, Kermanshah, Iran",
+   "lat": 34.39,
+   "lon": 47.44,
+   "wk": "Behistun Inscription",
+   "c": [
+    "political",
+    "culture"
+   ],
+   "t": [
+    "empire",
+    "law"
+   ],
+   "causes": [
+    "me-522-darius"
+   ],
+   "why_selected": "The regime's own account of 522-521, in three languages; later the key to deciphering cuneiform"
+  },
+  {
+   "id": "me-513-scythian-campaign",
+   "y": -513,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Darius crosses into Europe against the Scythians",
+   "where": "Lower Danube and Pontic steppe",
+   "lat": 45.22,
+   "lon": 28.73,
+   "wk": "Scythian campaign of Darius I",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "me-522-darius"
+   ],
+   "why_selected": "Failed against the Scythians but brought Thrace and Macedon under Persian authority, putting Persia on the Aegean's European side"
+  },
+  {
+   "id": "me-509-persepolis-tablets",
+   "y": -509,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Persepolis archive records the imperial economy",
+   "where": "Persepolis, Fars, Iran",
+   "lat": 29.93,
+   "lon": 52.89,
+   "wk": "Persepolis Administrative Archives",
+   "c": [
+    "economic",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-522-darius"
+   ],
+   "why_selected": "Over 15,000 tablets show Achaemenid administration at work from 509 to 493 BCE"
+  },
+  {
+   "id": "me-499-ionian-revolt",
+   "y": -499,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-550-cyrus",
+   "h": "Ionian Greek cities revolt against Persia",
+   "where": "Miletus, Ionia (western Turkey)",
+   "lat": 37.53,
+   "lon": 27.28,
+   "wk": "Ionian Revolt",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-522-darius",
+    "me-513-scythian-campaign"
+   ],
+   "why_selected": "Athenian help to the rebels, and the burning of Sardis in 498, gave Persia its reason to invade mainland Greece"
+  },
+  {
+   "id": "me-497-red-sea-canal",
+   "y": -497,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Darius opens a Nile-Red Sea canal",
+   "where": "Wadi Tumilat to the Gulf of Suez, Egypt",
+   "lat": 30.27,
+   "lon": 32.47,
+   "wk": "Canal of the Pharaohs",
+   "c": [
+    "economic",
+    "science"
+   ],
+   "t": [
+    "silk",
+    "empire"
+   ],
+   "causes": [
+    "me-525-pelusium",
+    "me-522-darius"
+   ],
+   "why_selected": "Linked Egypt to the Persian Gulf by sea; a forerunner of the Suez Canal"
+  }
+ ]
+}

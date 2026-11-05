@@ -1,0 +1,241 @@
+## na192063 | 1920 | Women's suffrage (19th Amendment) | who: Suffragists: Alice Paul, Carrie Chapman Catt | where: United States
+  bluf: The 19th Amendment gave American women the vote after a 72-year campaign, roughly doubling the electorate. It was part of a global wave of women's suffrage after World War I, though Black women in the South stayed largely disenfranchised until 1965.
+  now: Women now vote at higher rates than men in US elections, and the gender gap between the parties has become one of the largest divides in American politics.
+  story: Suffragists marched, picketed the White House and went on hunger strikes. Women's war work helped win support, and the 19th Amendment passed in 1920.
+  why: Decades of activism, the example of Western states such as Wyoming that already let women vote, and women's war work, which strengthened their claim.
+  then: Women's votes did not form the bloc many expected, and many Black women in the South were still blocked from voting until the Voting Rights Act of 1965.
+  fact: Tennessee ratified it by a single vote. Legislator Harry Burn switched his vote after a letter from his mother.
+## d-scopes | 1925 | Scopes 'Monkey' Trial | who: Teacher John Scopes; lawyer Clarence Darrow; prosecutor William Jennings Bryan | where: Dayton, Tennessee
+  bluf: The Scopes trial dramatized the clash between religious fundamentalism and modern science in American public life. Scopes lost, but the trial made fundamentalists look backward to many Americans and began a long legal fight over what schools may teach.
+  now: Arguments over teaching evolution continue in some US states and have broadened into fights over what schools may teach about religion, race and sexuality.
+  story: Tennessee had banned the teaching of human evolution in public schools. Scopes agreed to test the law; in July 1925 Darrow defended him against Bryan. Scopes was found guilty and fined $100, a verdict later overturned on a technicality.
+  why: Fundamentalist Protestants feared that evolution undermined the Bible and morality, and the ACLU wanted a test case against Tennessee's new law.
+  then: The law stayed on the books until 1967; the Supreme Court struck down such bans in 1968.
+## na192964 | 1929 | Stock market crash | who: Wall Street investors | where: New York
+  bluf: The 1929 crash burst a speculative bubble and, through bank failures and policy mistakes, turned into the Great Depression, the worst economic collapse of the industrial era. The Depression discredited laissez-faire capitalism, brought the New Deal to America, and helped bring extremists to power in Europe.
+  now: It led to deposit insurance and stock market rules still in force, and its lessons (save the banks, keep spending up) shaped responses to the 2008 financial crisis and the 2020 pandemic.
+  story: Stock prices had soared on borrowed money through the 1920s. On 'Black Thursday', October 24, 1929, and 'Black Tuesday', October 29, prices collapsed. Over the next three years, thousands of banks failed and the economy shrank by about a quarter.
+  why: A stock bubble fuelled by buying on borrowed money, weak bank regulation, overproduction in farming and industry, and global imbalances left by war debts and reparations.
+  trig: Panic selling on 'Black Thursday' (October 24) and 'Black Tuesday' (October 29), 1929.
+  then: The Federal Reserve let thousands of banks fail and the money supply shrink. Countries raised tariffs and clung to the gold standard, spreading the slump worldwide. By 1933 a quarter of American workers were unemployed, and mass unemployment in Germany fed the Nazi rise.
+  fact: Shoeshine boys giving stock tips were a famous warning sign that the bubble had gone too far.
+## d-smoot | 1930 | Smoot-Hawley tariff | who: Senator Reed Smoot; Representative Willis Hawley; President Herbert Hoover | where: Washington, D.C.
+  bluf: The Smoot-Hawley tariff raised duties on thousands of imports and provoked retaliation that contributed to the collapse of world trade. Economists debate how much it deepened the Depression, but it became the classic warning against protectionism.
+  now: It is invoked in every debate over tariffs, including the sweeping US tariffs of 2025, as a warning of retaliation and shrinking trade.
+  story: Hoover signed the act in June 1930, despite a petition from over 1,000 economists. It raised duties on thousands of goods; Canada, European countries and others retaliated, and world trade fell by about two-thirds between 1929 and 1934.
+  why: Farm prices had collapsed in the 1920s, and once the bill was in Congress, industries lobbied to add protection for their own products.
+  then: In 1934 Congress let the president negotiate tariff cuts with other countries.
+## d-tva | 1933 | Tennessee Valley Authority | who: Franklin D. Roosevelt; Congress | where: Knoxville, Tennessee
+  bluf: The TVA used public investment to bring electricity, flood control and jobs to a poor region. It became a model for state-led regional development worldwide.
+  now: The TVA is still the largest public power provider in the United States.
+  story: Created in May 1933, the TVA built dams across the Tennessee River valley, generating cheap power, controlling floods and restoring worn-out farmland. When it began, few farms in the region had electricity.
+  why: The Depression and the region's deep poverty, and the New Deal's belief in public power and planning.
+  then: Its cheap power brought electricity to most of the valley's farms and later fed the Manhattan Project's uranium plant at Oak Ridge.
+## na193365 | 1933 | FDR's New Deal | who: Franklin D. Roosevelt | where: United States
+  bluf: Roosevelt's New Deal expanded Washington's role in the economy: regulating banks and markets, creating jobs, protecting unions and building a social safety net. It redefined American politics around the idea that government is responsible for economic security.
+  now: It created the idea that government is responsible for economic security.
+  story: FDR launched programs that put millions to work building roads, dams and schools, insured bank deposits, regulated the stock market, protected workers' right to unionize and, in 1935, created Social Security.
+  why: With a quarter of the workforce unemployed and the banking system collapsing, voters gave Roosevelt a mandate for drastic action.
+  then: The economy recovered slowly, with full recovery only in World War II. The New Deal built a coalition of workers, farmers, urban ethnic groups, Southern whites and Black voters that dominated politics for decades, though many programs excluded Black Americans, especially in the South.
+## d-dustbowl | 1935 | Black Sunday dust storm | who: Farmers of the southern Great Plains | where: Oklahoma Panhandle
+  bluf: The Dust Bowl was an ecological disaster caused by ploughing up the Great Plains and then years of drought. It drove hundreds of thousands off the land and led to federal soil conservation.
+  now: Steinbeck's The Grapes of Wrath told its migrants' story, and the Dust Bowl remains a warning about farming practices and drought.
+  story: On April 14, 1935, a huge dust storm rolled across Oklahoma and Texas, turning day to night. A reporter's account coined the term 'Dust Bowl'. Years of drought on ploughed-up prairie had stripped the soil.
+  why: Grasslands were ploughed up during a wartime and 1920s wheat boom, removing the roots that held the soil; when years of drought came, the wind blew it away.
+  then: Congress created the Soil Conservation Service in 1935, and hundreds of thousands left the Plains.
+## na193566 | 1935 | Social Security | who: FDR; Congress | where: United States
+  bluf: Social Security created a national system of old-age pensions and unemployment insurance funded by payroll taxes. It became the core of the American welfare state.
+  now: Social Security is the largest US government programme, and its projected funding shortfall in the 2030s is a recurring political battle.
+  story: Elderly poverty was crushing in the Depression. The Social Security Act paid pensions funded by payroll taxes and set up unemployment insurance.
+  why: Millions of older Americans had lost savings and jobs in the Depression.
+  then: Coverage expanded over decades to farm and domestic workers, the disabled and survivors, and Medicare was added in 1965.
+## w2-lendlease | 1941 | Lend-Lease: America arms Britain | who: Franklin D. Roosevelt; Congress | where: Washington DC
+  bluf: Lend-Lease made the United States 'the arsenal of democracy' before it entered the war, sustaining Britain and later the USSR with weapons, food and vehicles. It tied America's economy to the Allied cause.
+  now: It became the model for supplying allies without sending troops, and its name was revived for aid to Ukraine in 2022.
+  story: Britain was running out of money. Roosevelt's Lend-Lease Act let the US supply weapons and goods to countries fighting the Axis, to be paid back later or not at all.
+  why: Roosevelt wanted Britain to survive without sending US troops, at a time when most Americans opposed entering the war.
+  then: After June 1941 it also went to the USSR, which got hundreds of thousands of trucks.
+## d-internment | 1942 | Japanese Americans interned | who: Franklin D. Roosevelt; about 120,000 Japanese Americans | where: Manzanar, California, one of ten camps
+  bluf: The internment of about 120,000 Japanese Americans, most of them US citizens, was a mass violation of civil liberties driven by wartime fear and racism. Its later acknowledgment as an injustice shapes American debates over security and rights.
+  now: In 1988 Congress apologised and paid $20,000 to each surviving internee.
+  story: Executive Order 9066, signed on February 19, 1942, let the army remove people from the West Coast. Families had days to sell homes and businesses before being sent to ten remote camps, where many stayed until 1945.
+  why: Wartime fear after Pearl Harbor, decades of anti-Asian racism on the West Coast, and pressure from politicians, the army and farmers who wanted Japanese Americans' land.
+  then: The Supreme Court upheld the removal in Korematsu v. United States (1944); not one Japanese American was ever convicted of espionage.
+## d-trinity | 1945 | Trinity: the first atomic bomb test | who: J. Robert Oppenheimer and Manhattan Project scientists | where: Jornada del Muerto desert, New Mexico
+  bluf: The Trinity test proved the atomic bomb worked and opened the nuclear age. Within weeks the bomb was used on Japan, and within four years the Soviet Union had its own.
+  now: Nuclear weapons have shaped great-power relations ever since, and fallout from the test affected nearby communities, a legacy still being addressed.
+  story: At 5:29 am on July 16, 1945, a plutonium bomb exploded with the force of about 20,000 tons of TNT. Oppenheimer later recalled a line from the Bhagavad Gita: 'Now I am become Death, the destroyer of worlds.'
+  why: The Manhattan Project, launched in 1942 for fear that Germany would build a bomb first.
+  then: Three weeks later, atomic bombs destroyed Hiroshima and Nagasaki, and the Soviet Union, whose spies had penetrated the project, tested its own bomb in 1949.
+## na194568 | 1945 | United Nations founded | who: Delegates of 50 nations | where: San Francisco
+  bluf: The United Nations created a permanent world body with the great powers at its centre, designed to avoid the League's failures. Its Security Council veto protected the powers' interests but often paralysed action, while its agencies and General Assembly became the main forum for global cooperation and decolonization.
+  now: The UN has 193 members. The veto has blocked action on Syria, Ukraine and Gaza, and Security Council reform is endlessly debated.
+  story: Meeting in San Francisco from April to June 1945, delegates from 50 nations drafted the UN Charter, signed on June 26. It created a General Assembly of all members and a Security Council in which the five main victors, the US, USSR, Britain, France and China, each hold a veto.
+  why: The League of Nations had failed to stop WWII; the Allies wanted a stronger body that included the great powers.
+  then: The veto meant the Security Council was often paralysed during the Cold War, but the UN oversaw decolonization, peacekeeping and the 1948 Universal Declaration of Human Rights.
+## d-ironcurtain | 1946 | Churchill's Iron Curtain speech | who: Winston Churchill; President Harry Truman | where: Fulton, Missouri
+  bluf: Churchill's 'Iron Curtain' speech publicly named the division of Europe into Soviet and Western spheres and called for an Anglo-American alliance to resist Moscow. It helped frame the emerging Cold War for Western publics.
+  now: The speech named the division of Europe and marked the Western turn from alliance with Moscow to containment; the Truman Doctrine and the Marshall Plan followed within fifteen months.
+  story: Speaking at Westminster College on March 5, 1946, with Truman on stage, Churchill said that from Stettin on the Baltic to Trieste on the Adriatic an iron curtain had descended, with Eastern Europe under Moscow's control. He called for an Anglo-American alliance.
+  why: Soviet forces controlled Eastern Europe after the war, and pro-Soviet governments were taking power there, while the West's public still hoped for cooperation with Moscow.
+  then: Within a year the Truman Doctrine committed the US to containing communism.
+  fact: 'Iron curtain' became the defining phrase of the Cold War.
+## na195472 | 1954 | Brown v. Board of Education | who: Supreme Court (Earl Warren); NAACP (Thurgood Marshall) | where: Topeka, Kansas
+  bluf: Brown v. Board declared school segregation unconstitutional, overturning 'separate but equal'. It gave the civil rights movement constitutional backing, though implementing it took decades of struggle.
+  now: It is the legal turning point of the civil rights movement, and debates over school segregation by income and neighbourhood show its goals remain contested.
+  story: NAACP lawyers led by Thurgood Marshall argued segregation harmed Black children. The Court ruled unanimously that 'separate educational facilities are inherently unequal.'
+  why: The NAACP spent decades building legal challenges to segregated schooling.
+  then: Southern states resisted for years; troops escorted Black students in Little Rock in 1957.
+  fact: Thurgood Marshall, who argued the case, later became the first Black Supreme Court justice.
+## na195573 | 1955 | Montgomery bus boycott | who: Rosa Parks, Martin Luther King Jr. | where: Montgomery, Alabama
+  bluf: The Montgomery bus boycott, sparked by Rosa Parks' arrest, showed that organized, nonviolent economic pressure could defeat segregation. It made Martin Luther King Jr. the leader of a national civil rights movement.
+  now: It proved that organized, nonviolent mass protest could win, and it made Martin Luther King Jr. a national leader.
+  story: Rosa Parks, an NAACP activist, was arrested for not moving to the back of a bus. Black residents boycotted the buses for 381 days, led by a 26-year-old Martin Luther King Jr.
+  why: Rosa Parks, an NAACP activist, was arrested for refusing to give up her seat, and Montgomery's Black community was organized and ready to act.
+  then: The Supreme Court struck down bus segregation and King became a national leader.
+  fact: It lasted 381 days. King was just 26 years old.
+## d-moongoal | 1961 | Kennedy sets the Moon goal | who: John F. Kennedy | where: Washington, D.C.
+  bluf: Kennedy's Moon goal turned the space race into a national mission with a deadline, mobilizing huge resources. It showed how a clear, ambitious objective can focus government, science and industry.
+  now: 'Moonshot' became a word for any hugely ambitious goal, and NASA's Artemis programme aims to return astronauts to the Moon in a new race with China.
+  story: On May 25, 1961, after Gagarin's flight and the Bay of Pigs fiasco, Kennedy told Congress the US should commit to landing a man on the Moon and returning him safely by the end of the 1960s. NASA's budget soared.
+  why: The US was behind in the space race, Kennedy had just suffered the Bay of Pigs fiasco, and his advisers chose a goal distant enough that America could win it.
+  then: Apollo 11 landed on July 20, 1969, after a programme that at its peak took over 4% of the federal budget.
+## d-hotline | 1963 | Moscow-Washington hotline | who: The Kennedy and Khrushchev governments | where: Washington, D.C. and Moscow
+  bluf: The Moscow-Washington hotline was created after the missile crisis showed how slow communication could lead to nuclear war. It became both a tool and a symbol of crisis management between rivals.
+  now: The link still exists, now over secure computer connections, and similar military hotlines are a recurring demand in US-China relations.
+  story: During the missile crisis, messages between the leaders took hours to deliver. In June 1963 the two governments agreed on a direct teletype link, which began working on August 30.
+  why: During the missile crisis, messages took hours to deliver and decode, and both sides realized that a misunderstanding could start a nuclear war.
+  then: That summer they also signed the Partial Test Ban Treaty, beginning an era of arms control.
+  myth: It was never a red telephone: it began as teletype machines, and later used fax and email.
+## na196376 | 1963 | JFK assassinated | who: John F. Kennedy; Lee Harvey Oswald | where: Dallas
+  bluf: Kennedy's assassination shocked America and the world, ending a presidency that had embodied youthful optimism. Lyndon Johnson used the moment to push through civil rights and 'Great Society' laws.
+  now: Distrust of the official explanation, from the Warren Commission onward, fed a lasting public suspicion of government in American politics.
+  story: On November 22, 1963, President Kennedy was shot while riding in an open car through Dallas. Lee Harvey Oswald, a former Marine who had lived in the Soviet Union, was arrested; two days later he was shot dead by nightclub owner Jack Ruby.
+  why: The Warren Commission concluded Oswald acted alone; his motives remain unclear.
+  then: Lyndon Johnson used the shock to pass the Civil Rights Act of 1964, and won a landslide election that year.
+## na196477 | 1964 | Civil Rights Act | who: Lyndon Johnson; MLK; Congress | where: United States
+  bluf: The Civil Rights Act outlawed segregation in public places and discrimination in employment, ending legal Jim Crow. It committed the federal government to enforcing equal rights and reshaped party politics as many white Southerners moved to the Republicans.
+  now: It remains the foundation of US anti-discrimination law, and in 2020 the Supreme Court read its ban on sex discrimination at work to cover sexual orientation and gender identity.
+  story: After years of protest and violence, including Birmingham's police dogs and fire hoses, President Johnson pushed through a sweeping law against discrimination based on race, religion, sex or national origin.
+  why: Years of protest, televised violence against demonstrators in Birmingham, and the momentum created by Kennedy's assassination and Johnson's legislative skill.
+  then: Jim Crow ended in law, though not overnight in practice, and the Voting Rights Act followed in 1965.
+## na196578 | 1965 | Voting Rights Act | who: Lyndon Johnson; Selma marchers (John Lewis, Martin Luther King Jr.) | where: Selma, Alabama; Washington DC
+  bluf: The Voting Rights Act ended the literacy tests and intimidation that had kept most Black Southerners from voting. It transformed Southern politics and remains at the centre of fights over voting rules.
+  now: The Supreme Court struck down its federal pre-approval requirement in 2013 (Shelby County v. Holder); voting rules remain fiercely contested.
+  story: On March 7, 1965, Alabama state troopers beat peaceful voting-rights marchers on Selma's Edmund Pettus Bridge. Televised images shocked the nation. In August, Johnson signed the Voting Rights Act, banning literacy tests and sending federal examiners to register voters.
+  why: Southern states had used literacy tests, poll taxes and intimidation to keep Black citizens from voting.
+  then: Black voter registration in Mississippi rose from about 7% to nearly 60% within a few years.
+## na196879 | 1968 | Martin Luther King Jr. assassinated | who: James Earl Ray; Martin Luther King Jr. | where: Memphis, Tennessee
+  bluf: King's assassination removed the civil rights movement's most influential leader just as he was turning to poverty and the Vietnam War. It set off riots in more than 100 cities and, within a week, the passage of the Fair Housing Act.
+  now: King's murder set off riots in a hundred cities, pushed the Fair Housing Act through Congress within a week, and ended the phase of the civil rights movement that had worked through nonviolent mass protest.
+  story: Martin Luther King Jr. had turned to fighting poverty and opposing the Vietnam War, and was planning a Poor People's Campaign, when he went to Memphis to support striking Black sanitation workers. On April 4, 1968, the evening after his 'I've Been to the Mountaintop' speech, he was shot dead on the balcony of the Lorraine Motel. He was 39.
+  why: James Earl Ray, an escaped convict and segregationist, was convicted; King's family later questioned whether he acted alone.
+  then: Riots broke out in more than 100 cities; Congress passed the Fair Housing Act a week later.
+  fact: His birthday is a federal holiday; his legacy is claimed across the political spectrum.
+## na196879b | 1968 | Robert F. Kennedy assassinated | who: Sirhan Sirhan; Robert F. Kennedy | where: Ambassador Hotel, Los Angeles
+  bluf: Robert Kennedy's assassination removed a leading anti-war candidate and deepened the sense that America was coming apart. It helped Nixon win on 'law and order', the start of a conservative shift in US politics.
+  now: Kennedy's murder removed the one candidate who might have united the anti-war and civil rights coalitions, opened the way for Nixon, and shifted American politics toward 'law and order' for a generation.
+  story: RFK, running for president as an opponent of the Vietnam War, was shot in the hotel's kitchen after his victory speech on June 5, 1968, and died the next day.
+  why: Sirhan Sirhan, a Palestinian-born Jordanian, said he was angered by Kennedy's support for Israel.
+  then: Richard Nixon won the presidency in November on a 'law and order' platform.
+## na196980 | 1969 | Moon landing | who: Neil Armstrong, Buzz Aldrin, Michael Collins; NASA | where: The Moon
+  bluf: The Moon landing was the climax of the space race and a decisive Cold War prestige victory for the United States. It showed what concentrated public investment in science and engineering could achieve, and gave humanity its first view of Earth as a single, fragile planet.
+  now: Apollo spun off advances in computing and materials, and NASA's Artemis programme and China's lunar plans have revived a race to the Moon.
+  story: Apollo 11 landed on July 20, 1969. Neil Armstrong and Buzz Aldrin walked on the Moon while Michael Collins orbited. About 600 million people watched on TV.
+  why: Kennedy had committed the United States in 1961 to beat the Soviet Union to the Moon, after Gagarin's flight made space a test of which system was superior.
+  then: Twelve men walked on the Moon by 1972, and no one has been back since. The rivalry wound down into cooperation, from the Apollo-Soyuz mission (1975) to the International Space Station.
+  fact: The Apollo guidance computer had about 4 KB of memory, far less than a modern calculator.
+## na197181 | 1971 | Dollar leaves gold standard | who: Richard Nixon | where: United States
+  bluf: Nixon's suspension of the dollar's convertibility into gold ended the Bretton Woods system and created today's world of floating currencies backed by trust in governments. It gave states more monetary freedom but also unleashed inflation and volatility.
+  now: All major currencies today are backed by trust in governments, not by gold.
+  story: On August 15, 1971, as foreign governments swapped dollars for US gold faster than the US could supply it, President Nixon suspended the dollar's convertibility into gold and imposed wage and price controls. The Bretton Woods system of fixed exchange rates collapsed within two years.
+  why: US inflation and Vietnam War spending meant there were far more dollars abroad than gold to back them.
+  then: Currencies began to float, inflation surged through the 1970s, and the dollar remained the world's reserve currency anyway.
+## na197483 | 1974 | Nixon resigns (Watergate) | who: Richard Nixon; Woodward & Bernstein | where: Washington DC
+  bluf: Watergate made Nixon the only US president to resign, after investigations exposed his cover-up of a break-in and other abuses of power. It led to reforms of campaign finance and executive power, and deepened public distrust of government.
+  now: Watergate remains the benchmark for abuse of executive power, and '-gate' became the suffix for every scandal.
+  story: Burglars linked to Nixon's campaign broke into Democratic offices. Secret White House tapes proved Nixon helped cover it up, and he resigned before impeachment.
+  why: Nixon's campaign organized a break-in at the Democratic headquarters, and Nixon ordered a cover-up.
+  then: Congress passed new limits on presidential power and campaign money, President Ford pardoned Nixon, and public trust in government fell sharply.
+## na198185 | 1981 | Reagan presidency | who: Ronald Reagan | where: United States
+  bluf: Reagan's presidency moved American politics rightward with tax cuts, deregulation, a military buildup and pressure on the Soviet Union, followed by arms deals with Gorbachev. Conservatism became the dominant force in US politics for a generation.
+  now: Both parties still argue over his legacy on taxes, deficits and the role of government, and the Republican turn from free trade under Trump broke with part of it.
+  story: After the 1970s 'malaise', Reagan promised smaller government and a tougher line with the USSR. He also later negotiated arms cuts with Gorbachev.
+  why: Voters wanted change after inflation, the Iran hostage crisis and economic gloom.
+  then: Taxes were cut and the military built up, the national debt roughly tripled, and Reagan's later arms deals with Gorbachev helped end the Cold War.
+## na198786 | 1987 | INF Treaty with USSR | who: Reagan, Gorbachev | where: Washington DC
+  bluf: The INF Treaty eliminated an entire class of nuclear missiles and introduced on-site inspections. It was the high point of Cold War arms control, and its collapse in 2019 marked the unravelling of that system.
+  now: The US left the treaty in 2019, accusing Russia of deploying a banned missile, and Russia has since fired an intermediate-range missile at Ukraine.
+  story: In December 1987 Reagan and Gorbachev signed the Intermediate-Range Nuclear Forces Treaty in Washington, eliminating a whole class of nuclear missiles in Europe. It allowed on-site inspections, and by 1991 the two countries had destroyed 2,692 missiles.
+  why: Gorbachev's reforms opened room for détente, and both sides wanted to remove missiles that could strike within minutes.
+  then: By 1991 the two countries had destroyed 2,692 missiles, checked by each other's inspectors.
+## na199087 | 1990 | Dot-com boom | who: Tech startups; investors | where: Silicon Valley
+  bluf: The dot-com boom poured money into internet startups and ended in a crash, but the infrastructure and companies that survived built the modern digital economy. It showed that bubbles can fund lasting technological change.
+  now: Today's tech platforms grew out of this era, and investors still measure new booms, such as AI, against the dot-com bubble.
+  story: After the web opened to the public in the early 1990s, investors poured money into internet startups, many with no profits. The tech-heavy Nasdaq index rose fivefold between 1995 and March 2000, then lost about three-quarters of its value by 2002.
+  why: The commercial internet, cheap capital and investors' belief that the web had changed all the rules.
+  then: Trillions of dollars in paper wealth vanished and hundreds of startups died, but the fibre-optic networks laid during the boom made internet access cheap, and survivors like Amazon and Google became giants.
+  fact: Pets.com went from IPO to shutdown in about nine months.
+## na199489 | 1994 | NAFTA | who: US, Canada, Mexico; Clinton | where: North America
+  bluf: NAFTA created a North American free-trade zone that integrated supply chains across the United States, Canada and Mexico. It boosted trade and investment but also became a symbol of lost manufacturing jobs, feeding the backlash against globalization.
+  now: It was renegotiated in 2020 as the USMCA, and US tariffs on Canada and Mexico in 2025 strained the integrated North American economy it built.
+  story: In force from January 1, 1994, the North American Free Trade Agreement phased out most tariffs between the US, Canada and Mexico. Car-making and farming supply chains spread across all three countries.
+  why: Leaders in all three countries hoped freer trade would boost growth, and Mexico wanted to lock in its market reforms.
+  then: Trade among the three countries roughly tripled, and supply chains for cars and food crossed borders many times; critics blamed it for lost factory jobs and the ruin of small Mexican farmers.
+## na200190 | 2001 | 9/11 attacks | who: al-Qaeda (Osama bin Laden) | where: New York, Washington DC, Pennsylvania
+  bluf: Al-Qaeda's attacks on New York and Washington killed nearly 3,000 people, the deadliest terrorist attack in history. They launched the US 'War on Terror' (wars in Afghanistan and Iraq, mass surveillance and a global campaign against jihadist groups), which defined two decades of world politics.
+  now: Airport security, surveillance and two decades of war all came from this day.
+  story: Al-Qaeda operatives flew planes into the World Trade Center and the Pentagon; a fourth crashed in Pennsylvania. It was the deadliest attack on US soil.
+  why: Al-Qaeda opposed the US military presence in Saudi Arabia and US support for Israel and for Arab governments it considered apostate, and hoped to provoke a war that would rally Muslims to its cause.
+  trig: Nineteen hijackers seized four airliners on the morning of September 11, 2001.
+  then: The United States invaded Afghanistan (2001) and Iraq (2003), created the Department of Homeland Security, expanded surveillance and held detainees at Guantánamo. The wars cost trillions of dollars and hundreds of thousands of lives.
+  fact: It was the deadliest day for US firefighters in history: 343 died.
+## d-lehman | 2008 | Lehman Brothers collapses | who: Lehman Brothers; the US Treasury and Federal Reserve | where: New York
+  bluf: Lehman Brothers' bankruptcy turned a housing slump into a global financial panic. It forced governments to rescue banks and showed that some financial institutions were too interconnected to fail without bringing down the system.
+  now: Banks now face much stricter capital rules, and anger at the bailouts fed populist movements on both left and right.
+  story: Weighed down by mortgage-linked assets, Lehman filed for bankruptcy on September 15, 2008, the largest in US history, with over $600 billion in assets. The government, which had rescued Bear Stearns in March, let it fail, and credit markets froze worldwide.
+  why: Banks had borrowed heavily to bet on US mortgages, many made to borrowers who could not repay, and Lehman had little capital to absorb losses when house prices fell.
+  then: Within weeks governments were rescuing banks, and Congress passed a $700 billion bailout.
+## na200892 | 2008 | Global financial crisis | who: Lehman Brothers; banks; governments | where: Wall Street, New York
+  bluf: The 2008 financial crisis, triggered by a US housing bubble and risky mortgage securities, caused the worst global recession since the 1930s. Bank bailouts while millions lost homes and jobs fuelled anger that drove populist movements on both left and right.
+  now: Anger at bank bailouts fuelled populist movements on the left and right.
+  story: A housing bubble fed by risky mortgages burst in 2007. In September 2008 Lehman Brothers failed, credit froze worldwide, and governments bailed out banks to prevent a total collapse.
+  why: Subprime lending, complex securities built on it, heavy borrowing by banks and too little regulation, fed by global savings flows and low interest rates.
+  trig: The bankruptcy of Lehman Brothers in September 2008.
+  then: The Great Recession cost millions of jobs and homes. Governments bailed out banks, central banks cut rates to zero and bought bonds, and new rules forced banks to hold more capital.
+## na200892b | 2008 | Obama elected president | who: Barack Obama | where: Chicago (election night)
+  bluf: Barack Obama's election as the first Black US president was a historic milestone, carried by the financial crisis and opposition to the Iraq War. His presidency passed major health and financial reforms but also saw deepening political polarization.
+  now: His election, 143 years after the abolition of slavery, was a historic milestone.
+  story: On November 4, 2008, Senator Barack Obama of Illinois defeated John McCain with about 53% of the popular vote, becoming the first African American president.
+  why: The financial crisis, the unpopular Iraq War and a campaign that mobilised young and minority voters.
+  then: His administration passed a stimulus package, a health-care law and new financial regulation.
+## na201093 | 2010 | Affordable Care Act | who: Obama; Congress | where: United States
+  bluf: The Affordable Care Act was the biggest expansion of US health coverage since the 1960s, reaching about 20 million more people. It became a defining partisan battle and survived repeated repeal attempts and court challenges.
+  now: It survived repeated repeal attempts, and a dispute over extending its expanded subsidies was at the centre of the 2025 federal government shutdown.
+  story: Signed in March 2010 after a year of fierce debate, the Affordable Care Act required most Americans to have health insurance, barred insurers from refusing people with pre-existing conditions, offered subsidies and expanded Medicaid.
+  why: Tens of millions of Americans had no health insurance, and costs were rising fast.
+  then: About 20 million more people gained coverage, and the uninsured rate fell to record lows. Republicans tried for years to repeal it, failing by one vote in the Senate in 2017, and it survived three Supreme Court challenges.
+## na201695 | 2016 | Trump elected | who: Donald Trump | where: United States
+  bluf: Donald Trump's election as an outsider promising 'America First' reflected anger over trade, immigration and the political establishment. It moved US policy toward tariffs and scepticism of alliances and international institutions, and reshaped the Republican Party.
+  now: Populist politics reshaped both US parties, and the Republican Party has become Trump's party.
+  story: Donald Trump campaigned against free trade, immigration and the political establishment and won the Electoral College while losing the popular vote.
+  why: Discontent over trade and lost manufacturing jobs, immigration, and distrust of the political establishment, concentrated in swing states.
+  then: US policy shifted toward tariffs, especially on China, tighter immigration and scepticism of alliances; Trump lost in 2020 and won again in 2024.
+## na202096 | 2020 | COVID-19 pandemic | who: Global; US government | where: United States
+  bluf: The COVID-19 pandemic killed millions worldwide, shut down economies and transformed work, schooling and public health. Vaccines developed with new mRNA technology saved millions of lives, while lockdowns, mandates and misinformation deepened political divisions.
+  now: Remote work, government spending and public trust in science all changed.
+  story: COVID-19 spread from Wuhan, China, across the globe in early 2020. Lockdowns closed schools and businesses, and over 1 million Americans died.
+  why: A new coronavirus, first identified in Wuhan in late 2019, spread rapidly through global travel networks before most countries reacted.
+  then: Vaccines were developed in under a year. Governments spent trillions on relief, and inflation followed in 2021-23.
+## na202197 | 2021 | Jan 6 Capitol attack | who: Trump supporters | where: Washington DC
+  bluf: The January 6 attack on the Capitol was an attempt by Trump supporters to stop Congress from certifying the 2020 election result. It failed, but it became a defining event in American debates over the peaceful transfer of power and political violence.
+  now: It remains a defining event in debates over the peaceful transfer of power, and Americans are deeply divided over how to remember it.
+  story: On January 6, 2021, as Congress met to certify Joe Biden's election victory, President Donald Trump told a rally near the White House that the election had been stolen and urged the crowd to march to the Capitol, to make their voices heard 'peacefully and patriotically' but also to 'fight like hell'. Thousands broke through police lines and into the building, forcing lawmakers to flee; about 140 police officers were injured. Congress completed the certification that night.
+  why: False claims that the 2020 election had been stolen, repeated by the outgoing president.
+  then: More than 1,500 people were charged, and Trump was impeached a second time and acquitted by the Senate; on returning to office in 2025 he pardoned or commuted the sentences of nearly all of them.
+## na202499 | 2024 | Trump elected again | who: Donald Trump | where: United States
+  bluf: Donald Trump's return to the presidency, sweeping all seven swing states, confirmed populism's hold on American politics. His second term has brought sweeping tariffs, expansive use of executive power and a reshaping of US alliances and trade.
+  now: Trump became only the second president to win non-consecutive terms, and his second term's sweeping tariffs and use of executive power are reshaping US trade and alliances.
+  story: Donald Trump defeated Vice President Kamala Harris in November 2024, winning every swing state and a plurality of the popular vote. He became the first president since Grover Cleveland to win two non-consecutive terms.
+  why: Voter concern about inflation and immigration, and dissatisfaction with the incumbent administration.
+  then: His second term brought sweeping tariffs, mass deportation efforts, deep cuts to the federal workforce and foreign aid, and legal battles over the limits of presidential power.

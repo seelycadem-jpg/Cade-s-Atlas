@@ -1,0 +1,2236 @@
+{
+ "arc": {
+  "id": "greek-poleis",
+  "size": "arc",
+  "title": "The Freedom of the Greeks",
+  "sub": "city-states, hegemony and the outside powers, c. 770 to 146 BCE",
+  "span": [
+   -770,
+   -146
+  ],
+  "themes": {
+   "primary": "power",
+   "secondary": [
+    "war",
+    "stranger"
+   ]
+  },
+  "thesis": "The polis could defend its own autonomy but could not combine it with scale: every Greek bid to lead the others, Athenian, Spartan and Theban, broke within two generations on its allies' demand for autonomy, and the cities passed under outside powers, Persian money, the Macedonian army and finally Rome, each of which proclaimed 'the freedom of the Greeks'.",
+  "assumptions": [
+   "Assumes autonomia was a working political value that moved allies to revolt, and more than a slogan the strong used against their rivals.",
+   "Assumes the Athenian empire failed as a hegemony; a case can be made that it was a viable state that lost a war to Persian money and one strategic error in Sicily.",
+   "Assumes Macedon and Rome were outside powers; the Macedonian kings claimed Greek descent and competed at Olympia."
+  ],
+  "disconfirm": "If the thesis were wrong, a league built on guarantees of autonomy should have held without an outside paymaster. Two tests: the Second Athenian League of 378, whose charter banned tribute and garrisons and which broke apart in the Social War of 357-355; and the Achaean League, which held most of the Peloponnese together for more than a century and fell only to Rome.",
+  "awkward": "The Achaean League combined autonomy and scale for 135 years, with a federal citizenship, a common coinage and a general elected each year, and it was Rome that dissolved it. The Greek failure to federate was a failure of the classical powers, Athens, Sparta and Thebes, more than of the polis as a form.",
+  "shelf": [
+   {
+    "a": "Mogens Herman Hansen",
+    "t": "Polis: An Introduction to the Ancient Greek City-State",
+    "y": 2006
+   },
+   {
+    "a": "Robin Osborne",
+    "t": "Greece in the Making, 1200-479 BC",
+    "y": 1996
+   },
+   {
+    "a": "Russell Meiggs",
+    "t": "The Athenian Empire",
+    "y": 1972
+   },
+   {
+    "a": "Josiah Ober",
+    "t": "The Rise and Fall of Classical Greece",
+    "y": 2015
+   },
+   {
+    "a": "Erich S. Gruen",
+    "t": "The Hellenistic World and the Coming of Rome",
+    "y": 1984
+   }
+  ],
+  "stories": [
+   "greek-hoplite-bargain",
+   "greek-alliance-empire",
+   "greek-peloponnesian-war",
+   "greek-freedom-by-decree"
+  ]
+ },
+ "stories": [
+  {
+   "id": "greek-hoplite-bargain",
+   "size": "story",
+   "title": "The Hoplite Bargain",
+   "sub": "colonies, tyrants and constitutions, c. 770 to 508 BCE",
+   "span": [
+    -770,
+    -508
+   ],
+   "parent": "greek-poleis",
+   "thesis": "The polis took its lasting forms from a bargain between the landowning families and the farmers who stood in their battle line: colonies exported the surplus, tyrants broke the families where the bargain failed, and the durable constitutions, Sparta's by conquest and Athens' by law, gave the hoplite class a share of power.",
+   "assumptions": [
+    "Assumes the hoplite phalanx was in place by the mid-7th century; the date of the 'hoplite revolution' is contested and some put a fully closed phalanx after 500.",
+    "Assumes land shortage drove colonisation; trade, exile and civil strife drove many foundations.",
+    "Assumes the later Athenian and Spartan traditions about Lycurgus, Solon and Cleisthenes preserve the substance of reforms written down generations afterwards."
+   ],
+   "disconfirm": "If the thesis were wrong, tyrannies should not cluster in the century when the hoplite class was rising, and the constitutions that lasted should have kept that class out of power. Solon's Athens is the closest test: the third property class, the zeugitai who supplied the hoplites, was admitted to the chief magistracy only in 457.",
+   "awkward": "Athens' founding reforms needed Spartan arms: Spartan King Cleomenes I expelled the tyrant Hippias in 510, and Cleisthenes' reform of 508 survived only because the citizens besieged a second Spartan force on the Acropolis. The democratic polis was founded with outside help and against outside intervention in the same three years.",
+   "shelf": [
+    {
+     "a": "Anthony Snodgrass",
+     "t": "Archaic Greece: The Age of Experiment",
+     "y": 1980
+    },
+    {
+     "a": "Hans van Wees",
+     "t": "Greek Warfare: Myths and Realities",
+     "y": 2004
+    },
+    {
+     "a": "Paul Cartledge",
+     "t": "Sparta and Lakonia: A Regional History 1300-362 BC",
+     "y": 1979
+    },
+    {
+     "a": "Robin Osborne",
+     "t": "Greece in the Making, 1200-479 BC",
+     "y": 1996
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The colonies",
+     "hinge": "eu-750-greek-colonies",
+     "conn": null,
+     "s1": "Between about 770 and 550 BCE the Greek cities sent their surplus sons across the Mediterranean and the Black Sea, and colonisation relieved the land pressure that would otherwise have broken them sooner.",
+     "s2": "Euboeans set up the first western post at Pithekoussai on Ischia around 770 to trade for Etruscan iron; Corinth founded Syracuse in 734, Megara founded Byzantium about 667, and Thera sent settlers to Cyrene in 631. Thera's assembly conscripted one son from each household for the Cyrene venture and made refusal to sail a capital offence, which is emigration by order of a city that could not feed its people. Each foundation became a full polis with its own laws, linked to its mother city by cult and sentiment and owing it no tribute. The result was a Greek world several hundred cities wide in which no single state grew stronger. The colonies also carried the alphabet west: a cup found in a grave at Pithekoussai, dated about 730, bears one of the oldest Greek verse inscriptions, and the Latin alphabet descends from the Euboean letters the Etruscans learned there.",
+     "support": [
+      "eu-770-pithekoussai",
+      "eu-734-syracuse",
+      "eu-667-byzantium",
+      "me-631-cyrene",
+      "eu-800-greek-alphabet"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Sparta's answer",
+     "hinge": "eu-660-second-messenian",
+     "conn": "but",
+     "s1": "Sparta solved its land problem by conquering the plain of Messenia and enserfing its people as helots, and paid for the solution by turning its citizens into a permanent army of occupation.",
+     "s2": "Sparta took Messenia in a war of the late 8th century and reconquered it after a revolt usually dated about 660-650, fought by Spartan hoplites to marching songs, the earliest surviving Greek verse that urges men to hold their place in line shield to shield. After the revolt every Spartiate lived on a plot worked by helots and spent his life from the age of seven in state training and the mess, and the citizen body, about 8,000 in 480, was closed to newcomers. Each year the Spartan ephors formally declared war on the helots so that killing one carried no religious pollution. Expansion stopped at Tegea in the 6th century, and around 550 Sparta turned to bilateral alliances in which each member swore to have the same friends and enemies as Sparta: the Peloponnesian League. The arrangement made Sparta the strongest land power in Greece and left it permanently afraid of a helot rising, which limited how long its army could stay away from home.",
+     "support": [
+      "eu-730-messenia",
+      "eu-550-peloponnesian-league"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "The tyrants",
+     "hinge": "eu-657-cypselus",
+     "conn": "but",
+     "s1": "Elsewhere the old aristocracies kept the land and the new hoplite farmers wanted a share, and ambitious nobles took power with popular backing; tyranny became the archaic polis's commonest route out of narrow oligarchy.",
+     "s2": "Cypselus overthrew the Bacchiad clan at Corinth in 657 and his family ruled about seventy years; the Orthagorids at Sicyon lasted about a century, the longest tyranny the Greeks recorded. At Athens the noble Cylon tried in 632 with troops lent by his father-in-law, the tyrant Theagenes of Megara, and failed. His followers were killed after being promised their lives, and the curse on the Alcmaeonid family held responsible was still being invoked by Sparta in 432 against Pericles, an Alcmaeonid on his mother's side. The Athenian aristocracy's answer was Draco's written code of about 621, which replaced judgment by nobles with published law and made most offences capital. Tyrannies rarely outlived a second generation, and each fall left a citizen body that had learned it could do without the old families.",
+     "support": [
+      "eu-632-cylon",
+      "eu-621-draco"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Solon's settlement",
+     "hinge": "eu-594-solon",
+     "conn": "therefore",
+     "s1": "Solon's reforms of 594 ended debt bondage at Athens and made wealth the test for office in place of birth, which bought the city a generation without civil war and failed to stop a tyrant.",
+     "s2": "Solon, elected archon with powers to arbitrate, cancelled debts secured on land and persons, banned loans on the security of the body and brought home Athenians sold abroad for debt. He divided citizens into four classes by the annual yield of their land, the highest at 500 measures, and opened office by class; the thetes, the poorest, received a place in the assembly and the right of appeal to a popular court. His own poems describe him standing with a shield held over both sides, and both sides were dissatisfied. Twice within a decade Athens failed to elect a chief magistrate, and in 561 Peisistratus seized the Acropolis with a bodyguard voted by the assembly. Peisistratus held power three times until his death in 527, funded partly by silver from the Pangaion region of Thrace, and his rule taught Attica's villages to look to Athens.",
+     "support": [
+      "eu-621-draco",
+      "eu-561-peisistratus"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "Cleisthenes",
+     "hinge": "eu-508-democracy",
+     "conn": "but",
+     "s1": "The tyranny's fall in 510 reopened the aristocratic feud, and Cleisthenes won it in 508 by giving power to the demes and to ten new tribes, which produced the citizen army that fought at Marathon eighteen years later.",
+     "s2": "Spartan King Cleomenes I expelled the tyrant Hippias in 510, four years after Hipparchus, his brother, was murdered by Harmodius and Aristogeiton. When his rival Isagoras won the archonship with Spartan backing, Cleisthenes the Alcmaeonid took the people into his faction. His reform replaced the four kinship tribes with ten artificial ones, each built from three blocs drawn from the coast, the inland and the city, so that every tribal regiment mixed men from across Attica; about 139 villages, the demes, became the units of citizenship, and a Council of 500 took fifty men from each tribe. Cleomenes invaded to reverse it and was besieged on the Acropolis by the citizens until he left. In 506 the new army defeated the Boeotians and the Chalcidians of Euboea on a single day, and Athens settled 4,000 of its citizens on Chalcidian land.",
+     "support": [
+      "eu-561-peisistratus",
+      "eu-510-hippias-expelled"
+     ]
+    }
+   ],
+   "today": "Marseille, Syracuse, Naples and Istanbul are Greek foundations still occupied as cities. Selection by lot, the Athenian method for filling the Council of 500, is used for modern citizens' assemblies: Ireland's assembly of 2016-2018 drew 99 citizens by lot, and its recommendation led to the 2018 referendum that legalised abortion."
+  },
+  {
+   "id": "greek-alliance-empire",
+   "size": "story",
+   "title": "Alliance into Empire",
+   "sub": "from the Ionian Revolt to the Thirty Years' Peace, 499 to 446 BCE",
+   "span": [
+    -499,
+    -446
+   ],
+   "parent": "greek-poleis",
+   "thesis": "Persia was beaten at sea by a fleet only Athens could man, and the alliance formed to keep Persia out became an Athenian empire within a generation because most allies paid money instead of ships and Athens spent the money on its own citizens.",
+   "assumptions": [
+    "Assumes Persia's invasions aimed at the conquest of Greece; Persian sources do not mention the wars, and a punitive raid on Athens and Eretria is a possible reading of 490.",
+    "Assumes the allies' choice to pay money instead of ships was voluntary at first; some members were compelled from the start.",
+    "Assumes tribute paid for Athenian democracy; Athens also had large domestic revenues from Laurion silver and harbour dues."
+   ],
+   "disconfirm": "If the thesis were wrong, the league should have remained an alliance of navies. The test is the count of members still supplying ships: by about 440 only Samos, Chios and Lesbos did, and Samos lost its fleet after its revolt of 440-439.",
+   "awkward": "The decisive land battle was Spartan: at Plataea in 479 the Spartan hoplites under the regent Pausanias broke the Persian army and killed its commander Mardonius, and the claim that the Athenian fleet saved Greece was an argument Athens made to justify its empire.",
+   "shelf": [
+    {
+     "a": "Peter Green",
+     "t": "The Greco-Persian Wars",
+     "y": 1996
+    },
+    {
+     "a": "Russell Meiggs",
+     "t": "The Athenian Empire",
+     "y": 1972
+    },
+    {
+     "a": "Pierre Briant",
+     "t": "From Cyrus to Alexander: A History of the Persian Empire",
+     "y": 2002
+    },
+    {
+     "a": "Tom Holland",
+     "t": "Persian Fire",
+     "y": 2005
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The Ionian Revolt",
+     "hinge": "me-499-ionian-revolt",
+     "conn": null,
+     "s1": "The Ionian Greek cities under Persian rule revolted in 499 with Athenian help, and Darius I took Athens' part in burning Sardis as reason to bring mainland Greece within his empire's reach.",
+     "s2": "Aristagoras, the tyrant of Miletus, turned a failed Persian attack on Naxos into a revolt of the Ionian cities to save his own position. Athens sent twenty ships and Eretria five, and the force burned Sardis, the seat of the Persian governor of Lydia. The revolt spread to the Hellespont and Cyprus before a mainly Phoenician fleet of about 600 ships destroyed the Ionian fleet of 353 at Lade in 494; Miletus was sacked and its people deported to the Persian Gulf. Darius' son-in-law Mardonius then deposed the Ionian tyrants and allowed the cities democracies, a Persian king installing the constitution Athens would claim as its own. Persia's ambition in the Aegean predated the revolt; the revolt gave it a target.",
+     "support": [
+      "me-494-lade",
+      "me-522-darius"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Marathon",
+     "hinge": "eu-490-marathon",
+     "conn": "therefore",
+     "s1": "Athens' new citizen army beat a Persian seaborne force at Marathon in 490, which showed that hoplites could beat Persian infantry and made the democracy a state worth punishing a second time.",
+     "s2": "Darius sent an expedition under Datis and Artaphernes that razed Eretria and landed at Marathon on the advice of the exiled Athenian tyrant Hippias. About 10,000 Athenians and Plataeans under the polemarch Callimachus and the general Miltiades charged across the plain; Persian dead were counted at 6,400 against 192 Athenians. The Spartans, held at home by a religious law until the full moon, arrived the day after. The 192 were buried on the field under a mound that still stands, an honour no other Athenian war dead received. Persia answered with a far larger invasion, and Xerxes began preparing it after his accession in 486.",
+     "support": [
+      "eu-510-hippias-expelled",
+      "me-494-lade"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Salamis",
+     "hinge": "eu-480-salamis",
+     "conn": "but",
+     "s1": "The second invasion was decided at sea by a fleet Athens built from a silver strike at Laurion in 483, and Sparta's army finished it at Plataea in 479.",
+     "s2": "Themistocles persuaded the assembly to spend the new silver on triremes instead of sharing it among citizens, citing the war with Aegina; Athens had about 200 ships by 480. Xerxes crossed the Hellespont in 480, and at Thermopylae Spartan King Leonidas and about 7,000 allies held the pass for three days while the fleet fought off Artemisium. Athens was evacuated and burned; in September the Greek fleet of about 370 triremes, nearly half of them Athenian, beat the Persian fleet in the straits of Salamis and Xerxes withdrew to Asia. His general Mardonius stayed and was killed at Plataea the next summer by a Spartan-led army. The Athenian fleet was rowed by the thetes, the poorest citizens, and later Athenians traced the radical democracy to the naval crowd that won at Salamis.",
+     "support": [
+      "eu-483-laurion-fleet",
+      "eu-480-thermopylae",
+      "eu-479-plataea"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "The league",
+     "hinge": "eu-478-delian-league",
+     "conn": "therefore",
+     "s1": "Leadership of the war against Persia passed from Sparta to Athens in 478, and the Delian League's design, ships or money from each member, contained the empire from the start.",
+     "s2": "The Spartan regent Pausanias behaved like a Persian satrap at Byzantium, and the Ionian allies asked Athens to lead; Sparta withdrew, relieved to keep its army at home. Aristides assessed the first contributions at 460 talents a year, with the treasury on the sacred island of Delos. Cimon's victory at the Eurymedon around 466 destroyed a Persian fleet and army and removed the immediate threat at the moment Athens began forcing members to stay in: Naxos around 471 and Thasos in 465-463, which lost its walls, fleet and mines. Sparta secretly promised Thasos an invasion of Attica and was stopped only by the earthquake of 464 and the helot revolt that followed. When Sparta then sent home the Athenian hoplites Cimon had brought to help against the helots, Athens left the alliance of 481 and allied with Argos, Sparta's enemy.",
+     "support": [
+      "eu-479-plataea",
+      "eu-465-thasos",
+      "eu-464-sparta-earthquake"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The empire",
+     "hinge": "eu-454-treasury-athens",
+     "conn": "therefore",
+     "s1": "Athens moved the league treasury from Delos to Athens in 454 and from then on spent allied tribute as Athenian revenue, paying jurors, rowers and the builders of the Parthenon.",
+     "s2": "The move followed the destruction in 454 of an Athenian expedition sent to Egypt in 460 to support a revolt against Persia, and was justified as security. From 454 one-sixtieth of each payment went to Athena, and the inscribed records of that share are the main evidence for the empire's size: between 150 and 200 tributary cities at most dates. Ephialtes' reform of 461 had already moved power to the council, assembly and courts; Pericles introduced pay for jurors, and in 451 restricted citizenship to children of two Athenian parents, which made the benefits of empire a closed privilege. Allies were required to bring major lawsuits to Athens, and Athenian settlers received land on allied territory. The Parthenon, begun in 447, was paid for in part from the league reserve, and Pericles' opponents said so in the assembly.",
+     "support": [
+      "eu-461-ephialtes",
+      "eu-447-parthenon",
+      "eu-478-delian-league"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "Two blocs",
+     "hinge": "eu-446-thirty-years-peace",
+     "conn": "but",
+     "s1": "Athens' attempt to add a land empire failed, and the peace of 446-445 recognised two blocs, forbade members to switch sides and held for fifteen years while Sparta's fear of Athenian power grew.",
+     "s2": "From 460 Athens fought Corinth, Aegina, Sparta and Thebes while campaigning in Egypt; it won Boeotia at Oenophyta in 457 and lost it at Coronea in 447, and Euboea and Megara revolted in 446. Under the peace Athens gave up its mainland holdings, Megara's ports, Troezen and Achaea, and kept its sea empire; disputes were to go to arbitration. When Samos revolted in 440, Corinth argued in the Peloponnesian League that each bloc had the right to punish its own members, and Sparta stayed out. The arbitration clause decided the next war's blame: Athens offered arbitration in 432, Sparta refused, and Spartans later believed their misfortunes in the war came from that refusal.",
+     "support": [
+      "eu-460-first-peloponnesian",
+      "eu-464-sparta-earthquake"
+     ]
+    }
+   ],
+   "today": "The Serpent Column, the bronze victory monument for Plataea that lists 31 Greek states, still stands in the Hippodrome in Istanbul, where Constantine moved it. The British Museum holds the Parthenon sculptures removed under Lord Elgin in 1801-1812, and Greece's request for their return remains unresolved."
+  },
+  {
+   "id": "greek-peloponnesian-war",
+   "size": "story",
+   "title": "Sicily and Persian Gold",
+   "sub": "the Peloponnesian War, 433 to 399 BCE",
+   "span": [
+    -433,
+    -399
+   ],
+   "parent": "greek-poleis",
+   "thesis": "Athens lost a war its strategy could have drawn: the plague and the Sicilian expedition destroyed its manpower and its reserve, and Persian money then gave Sparta the fleet it could never have paid for on its own.",
+   "assumptions": [
+    "Assumes Pericles' defensive strategy could have produced a peace on acceptable terms; the Peace of Nicias is the evidence, and it held badly.",
+    "Assumes Sparta could not have built a fleet without Persia; Syracusan and Corinthian ships after 413 cut against it.",
+    "Rests mainly on one witness, an Athenian general exiled in 424 whose account breaks off in 411."
+   ],
+   "disconfirm": "If the thesis were wrong, Athens should have been losing before 415: its revenue, fleet and alliance should have been failing in the first ten years of the war. In 421 Athens held Pylos and 292 Spartan prisoners, had raised the tribute assessment roughly threefold in 425, and lost no major ally except Amphipolis.",
+   "awkward": "Athens recovered from Sicily. It won at Cyzicus in 410 and at Arginusae in 406, and refused Spartan offers of peace after both, so the war lost in Sicily was still open to a negotiated end in 406 and Athens chose to fight on.",
+   "shelf": [
+    {
+     "a": "Donald Kagan",
+     "t": "The Peloponnesian War",
+     "y": 2003
+    },
+    {
+     "a": "G. E. M. de Ste. Croix",
+     "t": "The Origins of the Peloponnesian War",
+     "y": 1972
+    },
+    {
+     "a": "Victor Davis Hanson",
+     "t": "A War Like No Other",
+     "y": 2005
+    },
+    {
+     "a": "Simon Hornblower",
+     "t": "A Commentary on Thucydides, vol. I",
+     "y": 1991
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "Fear of Athens",
+     "hinge": "eu-431-peloponnesian",
+     "conn": null,
+     "s1": "Sparta went to war in 431 out of fear of Athenian power, and it went that year because Corinth threatened to leave the Peloponnesian League if Sparta held back.",
+     "s2": "Athens allied in 433 with Corcyra, a Corinthian colony with one of the three largest navies in Greece, and its ships turned back the Corinthian fleet at Sybota. Potidaea, a Corinthian colony paying tribute to Athens, revolted in 432 and was besieged, and the Megarian decree shut Megara out of the harbours of the empire and the Athenian market. At the Spartan assembly of 432 the Corinthians said they would look for other allies; the Spartans voted that Athens had broken the treaty, and the league congress voted for war. Athens offered arbitration under the treaty of 446 and Sparta refused. The war began in spring 431 when Thebes, Sparta's ally, attacked Plataea at night.",
+     "support": [
+      "eu-433-sybota",
+      "eu-432-potidaea",
+      "eu-432-megarian-decree",
+      "eu-446-thirty-years-peace"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The plague",
+     "hinge": "eu-430-plague",
+     "conn": "but",
+     "s1": "Pericles' strategy of giving up the countryside and holding the sea assumed Athens could wait out the Spartan invasions; the plague of 430, spreading through a city packed with refugees, killed perhaps a quarter to a third of its people and Pericles with them.",
+     "s2": "Spartan King Archidamus II led the Peloponnesian army into Attica each summer while the Athenians, moved inside the walls joining Athens to Piraeus, raided the Peloponnesian coast by sea. The epidemic came in through Piraeus in 430 and killed 4,400 hoplites and 300 cavalrymen among the citizens, more hoplites than Athens lost in any single battle before Sicily. The Athenians fined Pericles and removed him from office in 430, re-elected him, and lost him to the disease in autumn 429. A mass grave of the period excavated in the Kerameikos cemetery was claimed in 2006 to yield typhoid DNA; the identification is disputed. His successors, Cleon above all, preferred offensive war, and the strategy that assumed patience lost its author.",
+     "support": [
+      "eu-429-pericles-dies",
+      "eu-431-peloponnesian"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Mytilene and Pylos",
+     "hinge": "eu-425-pylos",
+     "conn": "therefore",
+     "s1": "Without Pericles Athens fought harder and with more luck: it held its allies by terror after Mytilene's revolt and captured 292 Spartans at Pylos in 425, the best bargaining counter of the war.",
+     "s2": "Mytilene, one of the last allies still supplying ships, revolted in 428; the assembly voted to kill every adult male, reversed the vote the next day after the speaker Diodotus argued from Athenian interest, and the second trireme arrived just in time; more than a thousand ringleaders were executed. In 427 Sparta took Plataea after a two-year siege and killed its defenders. In 425 the general Demosthenes fortified Pylos on the Messenian coast and cut off 420 Spartans on the island of Sphacteria; Cleon brought 292 back, about 120 of them Spartiates, and the threat to kill them ended the invasions of Attica. Sparta answered through Brasidas, who took Amphipolis in 424, and the Athenian general who lost it was exiled for twenty years and used them to write the war's history. Cleon and Brasidas both died at Amphipolis in 422, and the Peace of Nicias in 421 restored prewar positions.",
+     "support": [
+      "eu-428-mytilene",
+      "eu-424-amphipolis",
+      "eu-421-peace-nicias"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Melos and Sicily",
+     "hinge": "eu-415-sicilian-expedition",
+     "conn": "but",
+     "s1": "The peace never settled the war, and in 415 Athens sent its largest expedition to conquer Syracuse; by 413 it had lost two fleets, two armies and its reserve.",
+     "s2": "In the winter of 416-415 Athens killed the men of the neutral island of Melos and enslaved the women and children for refusing to join the empire. Alcibiades proposed the Sicilian venture on an appeal from Segesta; Nicias opposed it and inflated the request, and the assembly granted 134 triremes and 5,100 hoplites. Days before sailing the city's herms were mutilated, Alcibiades was recalled to stand trial, and he fled to Sparta, where he advised sending the Spartan Gylippus to Syracuse and fortifying Decelea in Attica. Decelea cost Athens its Laurion silver and more than 20,000 runaway slaves. A second fleet of 73 triremes failed to turn the siege, and in 413 the army was destroyed on its retreat, Nicias and Demosthenes were executed, and 7,000 prisoners went to the stone quarries of Syracuse, where some reportedly won release by reciting Athenian tragedy.",
+     "support": [
+      "eu-416-melos",
+      "eu-415-alcibiades-defects",
+      "eu-413-sicily-disaster",
+      "eu-413-decelea"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "Persian money",
+     "hinge": "me-412-persia-funds-sparta",
+     "conn": "therefore",
+     "s1": "The Sicilian disaster brought Persia back into the Aegean: from 412 its governors paid Sparta's rowers in return for the Greek cities of Asia, and the partnership of Cyrus the Younger and Lysander from 407 made the payments decisive.",
+     "s2": "The satraps Tissaphernes and Pharnabazus competed to fund Sparta, and three treaties in 412-411 recognised the King's claim to the Asian Greek cities, the freedom Sparta had gone to war to defend. Chios, Miletus and much of Ionia revolted from Athens in 412. At Athens an oligarchic coup in 411 set up the Four Hundred on the promise that Persia would fund an oligarchy; the fleet at Samos stayed democratic and recalled Alcibiades. Athens destroyed a Spartan fleet at Cyzicus in 410 and won at Arginusae in 406, refused Spartan peace offers both times, and after Arginusae executed six of its generals for failing to rescue men in a storm. Persia rebuilt Sparta's fleet each time, and Cyrus, sent west by his father Darius II, raised Spartan pay from three obols a day to four, which drew rowers away from Athenian ships.",
+     "support": [
+      "eu-411-four-hundred",
+      "me-407-cyrus-lysander",
+      "me-406-arginusae"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "Aegospotami",
+     "hinge": "eu-405-aegospotami",
+     "conn": "therefore",
+     "s1": "Lysander's Persian-paid fleet caught the Athenian fleet beached at Aegospotami in 405 and took it almost whole, and Athens, cut off from Black Sea grain, surrendered in April 404.",
+     "s2": "The Athenian fleet of 180 ships lay on an open beach across the Hellespont from Lysander's base at Lampsacus; Lysander attacked when the crews were ashore for food, and only about twelve ships escaped, among them the general Conon's. Lysander executed the Athenian prisoners, about 3,000 by one account, and blockaded Piraeus. Corinth and Thebes wanted Athens destroyed and its people enslaved; Sparta refused, citing Athens' service against Persia and wanting a counterweight to Thebes. The terms: the Long Walls and the walls of Piraeus pulled down, all but twelve ships surrendered, the exiles recalled, and Athens to follow Sparta in war and peace. The walls came down to the music of flute girls, and the victors called it the first day of Greek freedom.",
+     "support": [
+      "eu-404-athens-surrenders",
+      "me-407-cyrus-lysander"
+     ]
+    },
+    {
+     "id": "c7",
+     "title": "The Thirty",
+     "hinge": "eu-404-thirty-tyrants",
+     "conn": "but",
+     "s1": "Sparta's victory produced a Spartan-backed junta at Athens that killed about 1,500 citizens in eight months and fell in 403, and the democracy restored after it proved more stable than the empire it had lost.",
+     "s2": "Lysander installed the Thirty under Critias with a Spartan garrison on the Acropolis; they limited full citizenship to 3,000, executed resident foreigners for their property and put to death their own moderate member Theramenes. Exiles under Thrasybulus seized the border fort of Phyle and then Piraeus. Spartan King Pausanias, distrusting Lysander, brokered a settlement in 403 with an amnesty that bound Athenians not to recall past wrongs, and the democracy repaid from public funds the loan the Thirty had taken from Sparta to fight it. The restored democracy lasted until the Macedonian settlement of 322. Its most disputed act was the trial of Socrates in 399, the teacher of Critias and Alcibiades, condemned for impiety and corrupting the young.",
+     "support": [
+      "eu-403-democracy-restored",
+      "eu-399-socrates"
+     ]
+    }
+   ],
+   "today": "The war's contemporary history is a set text at the US Naval War College and other staff colleges, and its claim that Spartan fear of Athens' growth made war inevitable is the ancient analogy most often cited in the debate over US-China rivalry. The amnesty of 403, which barred prosecutions for acts committed under the Thirty, is the earliest well-documented political amnesty and a standard case in the study of transitional justice."
+  },
+  {
+   "id": "greek-freedom-by-decree",
+   "size": "story",
+   "title": "Freedom by Decree",
+   "sub": "from Spartan hegemony to the sack of Corinth, 404 to 146 BCE",
+   "span": [
+    -404,
+    -146
+   ],
+   "parent": "greek-poleis",
+   "thesis": "After 404 no Greek city could lead the others without an outside sponsor, and from the King's Peace of 387 to the sack of Corinth in 146 the 'freedom of the Greeks' was a grant made by Persia, Macedon and Rome that kept the cities divided.",
+   "assumptions": [
+    "Assumes Macedon won through money and a professional army more than through Greek decline; the Greek cities were as populous and rich in the 4th century as in the 5th.",
+    "Assumes the Hellenistic kingdoms belong in a Greek story; most of their subjects were Egyptians, Syrians, Babylonians and Iranians.",
+    "Assumes Rome's eastern wars were reactive until 168; a rival reading has Rome seeking dominance in Greece from 200."
+   ],
+   "disconfirm": "If the thesis were wrong, a Greek power should have led Greece without an outside sponsor for a generation after 404. Thebes is the test: it won at Leuctra in 371 without Persian money and dominated the Peloponnese for nine years, sought Persian backing in 367 and was refused by the Greeks, and lost its leadership when Epaminondas died in 362.",
+   "awkward": "Losing the freedom to make war left the polis intact as a working community: Greek cities ran their own courts, festivals and finances under the kings and Rome for six more centuries, and Alexander and his successors founded more Greek cities than the archaic colonists had.",
+   "shelf": [
+    {
+     "a": "John Buckler",
+     "t": "Aegean Greece in the Fourth Century BC",
+     "y": 2003
+    },
+    {
+     "a": "A. B. Bosworth",
+     "t": "Conquest and Empire: The Reign of Alexander the Great",
+     "y": 1988
+    },
+    {
+     "a": "Peter Green",
+     "t": "Alexander to Actium: The Historical Evolution of the Hellenistic Age",
+     "y": 1990
+    },
+    {
+     "a": "Erich S. Gruen",
+     "t": "The Hellenistic World and the Coming of Rome",
+     "y": 1984
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The King's Peace",
+     "hinge": "me-387-kings-peace",
+     "conn": null,
+     "s1": "Sparta's hegemony after 404 depended on Persia, and when Sparta invaded Persian Asia Minor, Persian money raised a Greek coalition against it until Sparta accepted a peace the Persian King dictated in 387.",
+     "s2": "Lysander replaced the Athenian empire with Spartan governors and boards of ten local partisans, and Sparta backed Cyrus the Younger's bid for the Persian throne. About 13,000 Greek mercenaries fought for Cyrus at Cunaxa near Babylon in 401; he was killed, and the survivors, the Ten Thousand, marched out through Armenia to the Black Sea. Spartan King Agesilaus II campaigned in Asia from 396 until Persian gold paid Thebes, Athens, Corinth and Argos to start the Corinthian War in 395; the Persian coin, the daric, bore an archer, and Agesilaus said Persian archers had driven him from Asia. The King's Peace gave the Asian Greek cities and Cyprus to Persia and declared all other cities autonomous, with Sparta as its enforcer. Sparta used the autonomy clause to dissolve the Boeotian League and in 382 seized the Cadmea, the citadel of Thebes, in peacetime.",
+     "support": [
+      "me-401-cunaxa",
+      "eu-395-corinthian-war",
+      "eu-382-cadmea"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Leuctra",
+     "hinge": "eu-371-leuctra",
+     "conn": "therefore",
+     "s1": "Thebes broke Spartan power at Leuctra in 371 and freed Messenia in 369, which ended the helot economy that had made Sparta possible, and then failed to build a lasting order in its place.",
+     "s2": "Theban exiles expelled the Spartan garrison in 379, and in 378 Athens founded a new league whose charter promised members freedom from tribute, garrisons and governors, the abuses of its first empire listed as prohibitions. At Leuctra the Boeotarch Epaminondas massed his left wing fifty shields deep against the Spartan right and killed King Cleombrotus I and about 400 of the 700 Spartiates present; Sparta's citizen body, perhaps 8,000 in 480, had fallen to under 1,500 and could not replace them. Theban armies invaded Laconia in 370-369, freed the helots of Messenia, founded the city of Messene on Mount Ithome and backed a new Arcadian League. In 367 the Theban general Pelopidas obtained a Persian rescript in Thebes' favour, and the Greek cities refused to swear to it. Epaminondas died winning at Mantinea in 362, and a contemporary wrote that the battle left Greece in more confusion and disorder than before.",
+     "support": [
+      "eu-378-second-athenian-league",
+      "eu-369-messene",
+      "eu-362-mantinea"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Philip",
+     "hinge": "eu-338-chaeronea",
+     "conn": "therefore",
+     "s1": "Philip II took Macedon in collapse in 359 and, with Pangaion gold and a professional army, made himself master of Greece at Chaeronea in 338, while the cities able to stop him were spent from fighting each other.",
+     "s2": "Philip became king after his brother Perdiccas III died with 4,000 men fighting the Illyrians; he had spent about three years as a hostage in Thebes, the city of Epaminondas. He armed Macedonian farmers with the sarissa, a pike about five metres long, and drilled them as a standing phalanx, and the mines at Crenides, taken in 356 and renamed Philippi, gave him more than 1,000 talents a year. Athens lost Chios, Rhodes, Cos and Byzantium in the Social War of 357-355 as Philip took Amphipolis and the north Aegean coast; he razed Olynthus in 348, and the peace of 346 gave him a seat on the council of Delphi. At Chaeronea in August 338 the Macedonian army beat Athens and Thebes; the Theban Sacred Band died almost to a man, and 254 skeletons were found under the stone lion raised over their grave. In 337 Philip made the Greek states swear a common peace, the League of Corinth, with himself as its leader, a ban on overthrowing existing constitutions and a declared war of revenge on Persia.",
+     "support": [
+      "eu-359-philip-ii",
+      "eu-356-philippi",
+      "eu-348-olynthus",
+      "eu-337-league-of-corinth"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Alexander",
+     "hinge": "eu-334-alexander",
+     "conn": "therefore",
+     "s1": "Alexander used the league's war of revenge to destroy the Persian Empire in four years, and moved the centre of the Greek world from the Aegean cities to the courts of kings in Egypt and Asia.",
+     "s2": "Philip was murdered at Aegae in 336; when Thebes revolted in 335 Alexander razed it and sold about 30,000 Thebans into slavery. He crossed to Asia in 334 with about 37,000 men, won at the Granicus that year, beat Darius III at Issus in 333, took Tyre after a seven-month siege in 332, founded Alexandria in Egypt and destroyed the Persian army at Gaugamela in October 331. More Greeks fought for Persia than for Alexander in the early battles: at the Granicus he massacred the Greek mercenaries in Persian service and sent 2,000 survivors to Macedon in chains. Persepolis was burned in 330, and the Persian treasuries yielded about 180,000 talents of bullion, which Alexander and his successors coined and spent across the eastern Mediterranean. He reached the Hydaspes in the Punjab in 326, where his army refused to go further, and died at Babylon in 323.",
+     "support": [
+      "me-333-issus",
+      "me-331-gaugamela",
+      "me-330-persepolis",
+      "me-331-alexandria",
+      "sa-326-alexander-india"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The kingdoms",
+     "hinge": "me-301-ipsus",
+     "conn": "but",
+     "s1": "Alexander died without an adult heir, and twenty years of war among his generals ended at Ipsus in 301 with the empire divided among kings who treated the old cities as prizes and proclaimed their freedom when it served.",
+     "s2": "Athens led a Greek revolt at the news of his death and lost it at Crannon and off Amorgos in 322; the regent Antipater restricted citizenship to men worth 2,000 drachmas, cutting the citizen body from 21,000 to 9,000, and put a garrison in the Piraeus. In 315 Antigonus the One-Eyed declared at Tyre that all Greeks should be free, ungarrisoned and autonomous, and his rivals answered with the same promise. At Ipsus in 301 Seleucus, Lysimachus and Cassander killed Antigonus; Seleucus' war elephants, obtained from the Indian emperor Chandragupta Maurya in exchange for the eastern satrapies, decided the battle. Antigonid Macedon, Seleucid Asia and Ptolemaic Egypt then held the field for a century. The cities' own answer was federation: the Achaean League, refounded in 281, took Corinth's citadel from its Macedonian garrison in 243 and grew to include most of the Peloponnese.",
+     "support": [
+      "me-323-diadochi",
+      "eu-322-lamian-war",
+      "eu-281-achaean-league"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "Rome's grant",
+     "hinge": "eu-196-isthmian-freedom",
+     "conn": "therefore",
+     "s1": "Rome entered Greece to stop Philip V's alliance with Hannibal and stayed to arbitrate it: at the Isthmian Games of 196 the Roman commander Titus Quinctius Flamininus proclaimed the Greeks free, and the cities found that freedom granted by Rome meant deferring to Rome.",
+     "s2": "At the peace conference of Naupactus in 217 an Aetolian delegate warned the Greeks to settle their quarrels before the cloud gathering in the west, the war between Rome and Carthage, settled on Greece. Philip V of Macedon allied with Hannibal in 215 after Cannae, and Rome fought him in 214-205 and again from 200 until its legions broke his phalanx at Cynoscephalae in 197. The proclamation at the Isthmus freed the cities Philip had held, and the crowd's shout was said to have brought down birds flying overhead. Rome withdrew its troops in 194 and returned within three years to expel the Seleucid king Antiochus III from Greece, and after his defeat at Magnesia in 190 the treaty of Apamea pushed Seleucid power beyond the Taurus mountains. From then on Greek disputes went to the Senate, and every faction in every city sought a Roman patron.",
+     "support": [
+      "eu-217-naupactus",
+      "eu-215-philip-hannibal",
+      "eu-197-cynoscephalae",
+      "eu-216-cannae"
+     ]
+    },
+    {
+     "id": "c7",
+     "title": "Corinth",
+     "hinge": "me-146-rome-carthage",
+     "conn": "but",
+     "s1": "Rome's tolerance of Greek freedom ended in 168, when it abolished the Macedonian monarchy after Pydna, and in 146 it razed Corinth and broke up the Achaean League, the last independent Greek power.",
+     "s2": "After King Perseus lost at Pydna in 168, Rome split Macedon into four republics, took 1,000 leading Achaeans to Italy as hostages, and in 167 enslaved some 150,000 people in Epirus. The same summer the Roman envoy Gaius Popillius Laenas drew a circle in the sand round the Seleucid king Antiochus IV outside Alexandria and told him to answer the Senate's demand to leave Egypt before stepping out of it; Antiochus left. A pretender's revolt in 149-148 made Macedonia a Roman province. When Rome ordered the Achaean League to release Sparta, Corinth and Argos, the league went to war, and the consul Lucius Mummius destroyed Corinth in 146, killed its men and sold its women and children. Mummius shipped Corinth's paintings and statues to Rome and is said to have warned the shippers that anything they lost would have to be replaced with new ones.",
+     "support": [
+      "eu-168-pydna",
+      "me-168-eleusis"
+     ]
+    }
+   ],
+   "today": "Alexandria, founded in 331, is Egypt's second city, and several cities from Central Asia to Afghanistan trace their names or origins to Alexander's foundations. The Achaean League was studied by the authors of the US Constitution: Federalist No. 18 uses it as an example of a confederacy that failed for want of central authority."
+  }
+ ],
+ "new_events": [
+  {
+   "id": "eu-770-pithekoussai",
+   "y": -770,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Euboeans found Pithekoussai on Ischia",
+   "where": "Pithekoussai (Ischia), Italy",
+   "lat": 40.75,
+   "lon": 13.86,
+   "wk": "Pithekoussai",
+   "c": [
+    "economic"
+   ],
+   "t": [
+    "explore",
+    "cities"
+   ],
+   "causes": [],
+   "why_selected": "The first Greek settlement in the west, a trading post for Etruscan iron; its Nestor cup of c. 730 is among the earliest Greek alphabetic texts"
+  },
+  {
+   "id": "eu-734-syracuse",
+   "y": -734,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Corinthians found Syracuse",
+   "where": "Syracuse, Sicily",
+   "lat": 37.06,
+   "lon": 15.29,
+   "wk": "Syracuse, Sicily",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "cities",
+    "explore"
+   ],
+   "causes": [
+    "eu-750-greek-colonies"
+   ],
+   "why_selected": "Became the largest Greek city in the west and the city that destroyed the Athenian expedition of 415-413"
+  },
+  {
+   "id": "eu-667-byzantium",
+   "y": -667,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Megarians found Byzantium",
+   "where": "Byzantium (Istanbul)",
+   "lat": 41.01,
+   "lon": 28.98,
+   "wk": "Byzantium",
+   "c": [
+    "economic",
+    "political"
+   ],
+   "t": [
+    "cities",
+    "explore"
+   ],
+   "causes": [
+    "eu-750-greek-colonies"
+   ],
+   "why_selected": "Put a Greek city on the Bosporus, the choke point of the Black Sea grain route on which Athens later depended"
+  },
+  {
+   "id": "me-631-cyrene",
+   "y": -631,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Therans found Cyrene in Libya",
+   "where": "Cyrene, Libya",
+   "lat": 32.82,
+   "lon": 21.86,
+   "wk": "Cyrene, Libya",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "cities",
+    "explore"
+   ],
+   "causes": [
+    "eu-750-greek-colonies"
+   ],
+   "why_selected": "The best-documented foundation: its surviving decree shows colonisation as compulsory emigration by a city short of land"
+  },
+  {
+   "id": "eu-660-second-messenian",
+   "y": -660,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Sparta crushes the Messenian revolt",
+   "where": "Mount Eira, Messenia",
+   "lat": 37.38,
+   "lon": 21.92,
+   "wk": "Second Messenian War",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "slavery",
+    "conflict"
+   ],
+   "causes": [
+    "eu-730-messenia"
+   ],
+   "why_selected": "Fixed the helot system and the Spartan citizen-soldier that rested on it for three centuries"
+  },
+  {
+   "id": "eu-550-peloponnesian-league",
+   "y": -550,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Sparta builds the Peloponnesian League",
+   "where": "Sparta",
+   "lat": 37.08,
+   "lon": 22.43,
+   "wk": "Peloponnesian League",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "empire"
+   ],
+   "causes": [
+    "eu-660-second-messenian"
+   ],
+   "why_selected": "Sparta turned from conquest to bilateral alliances; the bloc that fought Persia and then Athens"
+  },
+  {
+   "id": "eu-657-cypselus",
+   "y": -657,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-508-democracy",
+   "h": "Cypselus seizes power at Corinth",
+   "where": "Corinth",
+   "lat": 37.906,
+   "lon": 22.878,
+   "wk": "Cypselus",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "revolution"
+   ],
+   "causes": [],
+   "why_selected": "The first Greek tyranny; his family ruled Corinth about seventy years and founded colonies on the Adriatic"
+  },
+  {
+   "id": "eu-632-cylon",
+   "y": -632,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Cylon fails to seize Athens",
+   "where": "Acropolis, Athens",
+   "lat": 37.9715,
+   "lon": 23.7257,
+   "wk": "Cylon of Athens",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "revolution"
+   ],
+   "causes": [
+    "eu-657-cypselus"
+   ],
+   "why_selected": "Failed coup whose massacre left a curse on the Alcmaeonid family that Sparta invoked against Pericles in 432"
+  },
+  {
+   "id": "eu-621-draco",
+   "y": -621,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Draco writes down Athens' laws",
+   "where": "Athens",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Draconian constitution",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "law"
+   ],
+   "causes": [
+    "eu-632-cylon"
+   ],
+   "why_selected": "Written law in place of aristocratic judgment; its homicide law outlived Solon"
+  },
+  {
+   "id": "eu-561-peisistratus",
+   "y": -561,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Peisistratus becomes tyrant of Athens",
+   "where": "Athens",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Pisistratus",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "revolution"
+   ],
+   "causes": [
+    "eu-594-solon"
+   ],
+   "why_selected": "Solon's settlement failed into tyranny; the Peisistratids unified Attica and built its festivals for half a century"
+  },
+  {
+   "id": "eu-510-hippias-expelled",
+   "y": -510,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Sparta expels the tyrant Hippias",
+   "where": "Athens",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Hippias (tyrant)",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "revolution"
+   ],
+   "causes": [
+    "eu-561-peisistratus",
+    "eu-550-peloponnesian-league"
+   ],
+   "why_selected": "Spartan King Cleomenes I ended the tyranny and opened the contest that Cleisthenes won; Hippias later guided the Persians to Marathon"
+  },
+  {
+   "id": "me-499-ionian-revolt",
+   "y": -499,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Ionian Greeks revolt against Persia",
+   "where": "Miletus, Ionia",
+   "lat": 37.53,
+   "lon": 27.28,
+   "wk": "Ionian Revolt",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "indep"
+   ],
+   "causes": [
+    "me-522-darius"
+   ],
+   "why_selected": "Athens' help to the rebels, and the burning of Sardis, gave Darius I his reason to invade Greece"
+  },
+  {
+   "id": "me-494-lade",
+   "y": -494,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Persia crushes the Ionian fleet at Lade",
+   "where": "Lade, off Miletus",
+   "lat": 37.5,
+   "lon": 27.27,
+   "wk": "Battle of Lade",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-499-ionian-revolt"
+   ],
+   "why_selected": "Ended the revolt; Miletus, the richest Ionian city, was sacked and its people deported"
+  },
+  {
+   "id": "eu-490-marathon",
+   "y": -490,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Athenians defeat Persians at Marathon",
+   "where": "Marathon, Attica",
+   "lat": 38.118,
+   "lon": 23.978,
+   "wk": "Battle of Marathon",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-499-ionian-revolt",
+    "eu-508-democracy",
+    "eu-510-hippias-expelled"
+   ],
+   "why_selected": "The new democracy's citizen army beat a Persian force, proving hoplites could beat Persian infantry"
+  },
+  {
+   "id": "eu-483-laurion-fleet",
+   "y": -483,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Athens spends Laurion silver on warships",
+   "where": "Laurion, Attica",
+   "lat": 37.71,
+   "lon": 24.05,
+   "wk": "Themistocles",
+   "c": [
+    "economic",
+    "war"
+   ],
+   "t": [
+    "money"
+   ],
+   "causes": [
+    "eu-490-marathon"
+   ],
+   "why_selected": "Themistocles turned a silver strike into the fleet that fought at Salamis and later held the Athenian empire"
+  },
+  {
+   "id": "eu-480-thermopylae",
+   "y": -480,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Leonidas holds Thermopylae for three days",
+   "where": "Thermopylae, central Greece",
+   "lat": 38.796,
+   "lon": 22.536,
+   "wk": "Battle of Thermopylae",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-490-marathon"
+   ],
+   "why_selected": "Delayed Xerxes while the fleet fought at Artemisium; Persia then took and burned Athens"
+  },
+  {
+   "id": "eu-479-plataea",
+   "y": -479,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Greeks destroy the Persian army at Plataea",
+   "where": "Plataea, Boeotia",
+   "lat": 38.21,
+   "lon": 23.27,
+   "wk": "Battle of Plataea",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-480-salamis"
+   ],
+   "why_selected": "The Spartan-led victory that ended Persia's invasion of Greece and killed its commander Mardonius"
+  },
+  {
+   "id": "eu-478-delian-league",
+   "y": -478,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Athens leads a new Delian League",
+   "where": "Delos, Cyclades",
+   "lat": 37.4,
+   "lon": 25.27,
+   "wk": "Delian League",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-479-plataea",
+    "eu-480-salamis"
+   ],
+   "why_selected": "The alliance against Persia whose design, ships or money from each member, became the Athenian empire"
+  },
+  {
+   "id": "eu-465-thasos",
+   "y": -465,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Athens crushes the revolt of Thasos",
+   "where": "Thasos, north Aegean",
+   "lat": 40.78,
+   "lon": 24.71,
+   "wk": "Thasian rebellion",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-478-delian-league"
+   ],
+   "why_selected": "A member was forced to stay in the league and stripped of its fleet and mines; the alliance became a hegemony"
+  },
+  {
+   "id": "eu-464-sparta-earthquake",
+   "y": -464,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Earthquake at Sparta sets off helot revolt",
+   "where": "Sparta",
+   "lat": 37.08,
+   "lon": 22.43,
+   "wk": "464 BC Sparta earthquake",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "slavery",
+    "conflict"
+   ],
+   "causes": [
+    "eu-660-second-messenian"
+   ],
+   "why_selected": "Stopped a Spartan invasion of Attica, and Sparta's dismissal of Athenian helpers broke the wartime alliance"
+  },
+  {
+   "id": "eu-461-ephialtes",
+   "y": -461,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Ephialtes strips the Areopagus of power",
+   "where": "Athens",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Ephialtes",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "rights",
+    "revolution"
+   ],
+   "causes": [
+    "eu-464-sparta-earthquake",
+    "eu-508-democracy"
+   ],
+   "why_selected": "Moved political trials and oversight to the council, assembly and popular courts; the start of the radical democracy"
+  },
+  {
+   "id": "eu-460-first-peloponnesian",
+   "y": -460,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "First Peloponnesian War begins",
+   "where": "Tanagra, Boeotia",
+   "lat": 38.32,
+   "lon": 23.53,
+   "wk": "First Peloponnesian War",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "empire"
+   ],
+   "causes": [
+    "eu-464-sparta-earthquake"
+   ],
+   "why_selected": "Athens fought Corinth, Aegina, Sparta and Thebes for fifteen years and failed to hold a land empire"
+  },
+  {
+   "id": "eu-454-treasury-athens",
+   "y": -454,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "League treasury moved from Delos to Athens",
+   "where": "Athens",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Delian League",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "eu-478-delian-league",
+    "eu-465-thasos"
+   ],
+   "why_selected": "From here allied tribute was Athenian revenue; the inscribed tribute quota lists begin in 454/453"
+  },
+  {
+   "id": "eu-447-parthenon",
+   "y": -447,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Athens begins building the Parthenon",
+   "where": "Acropolis, Athens",
+   "lat": 37.9715,
+   "lon": 23.7266,
+   "wk": "Parthenon",
+   "c": [
+    "culture",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "eu-454-treasury-athens"
+   ],
+   "why_selected": "Built partly from the league reserve; the empire's money made visible"
+  },
+  {
+   "id": "eu-446-thirty-years-peace",
+   "y": -446,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Athens and Sparta make a thirty-year peace",
+   "where": "Athens and Sparta",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Thirty Years' Peace",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-460-first-peloponnesian"
+   ],
+   "why_selected": "Recognised two blocs and provided for arbitration; its breakdown in 432-431 began the Peloponnesian War"
+  },
+  {
+   "id": "eu-433-sybota",
+   "y": -433,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Athens backs Corcyra against Corinth at Sybota",
+   "where": "Sybota islands, Epirus",
+   "lat": 39.4,
+   "lon": 20.23,
+   "wk": "Battle of Sybota",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-446-thirty-years-peace"
+   ],
+   "why_selected": "Athens' alliance with Corcyra's navy turned a colonial quarrel into a quarrel between the blocs"
+  },
+  {
+   "id": "eu-432-potidaea",
+   "y": -432,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Potidaea revolts and Athens besieges it",
+   "where": "Potidaea, Chalcidice",
+   "lat": 40.19,
+   "lon": 23.33,
+   "wk": "Battle of Potidaea",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-433-sybota"
+   ],
+   "why_selected": "A Corinthian colony inside the Athenian empire; its siege put Corinthian and Athenian troops in the field against each other"
+  },
+  {
+   "id": "eu-432-megarian-decree",
+   "y": -432,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Athens bars Megara from its markets",
+   "where": "Athens and Megara",
+   "lat": 37.996,
+   "lon": 23.344,
+   "wk": "Megarian decree",
+   "c": [
+    "economic",
+    "political"
+   ],
+   "t": [
+    "money",
+    "conflict"
+   ],
+   "causes": [
+    "eu-446-thirty-years-peace"
+   ],
+   "why_selected": "An economic sanction Sparta demanded Athens revoke; Pericles refused, and the refusal became a cause of war"
+  },
+  {
+   "id": "eu-430-plague",
+   "y": -430,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Plague breaks out in besieged Athens",
+   "where": "Athens and Piraeus",
+   "lat": 37.94,
+   "lon": 23.65,
+   "wk": "Plague of Athens",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-431-peloponnesian"
+   ],
+   "why_selected": "Killed perhaps a quarter to a third of a population crowded within the walls by Pericles' strategy"
+  },
+  {
+   "id": "eu-429-pericles-dies",
+   "y": -429,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Pericles dies of the plague",
+   "where": "Athens",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Pericles",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-430-plague"
+   ],
+   "why_selected": "Removed the author of the defensive strategy and opened Athenian policy to more aggressive leaders"
+  },
+  {
+   "id": "eu-428-mytilene",
+   "y": -428,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Mytilene revolts against Athens",
+   "where": "Mytilene, Lesbos",
+   "lat": 39.11,
+   "lon": 26.55,
+   "wk": "Mytilenean revolt",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-431-peloponnesian"
+   ],
+   "why_selected": "One of the last ship-providing allies revolted; Athens voted to kill all its men and reversed the vote a day later"
+  },
+  {
+   "id": "eu-425-pylos",
+   "y": -425,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Athens captures Spartans at Pylos",
+   "where": "Pylos and Sphacteria, Messenia",
+   "lat": 36.93,
+   "lon": 21.66,
+   "wk": "Battle of Sphacteria",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-429-pericles-dies"
+   ],
+   "why_selected": "292 prisoners, about 120 of them Spartiates, gave Athens the leverage that stopped the invasions of Attica"
+  },
+  {
+   "id": "eu-424-amphipolis",
+   "y": -424,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Brasidas takes Amphipolis from Athens",
+   "where": "Amphipolis, Thrace",
+   "lat": 40.82,
+   "lon": 23.85,
+   "wk": "Brasidas",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-425-pylos"
+   ],
+   "why_selected": "Sparta's answer to Pylos: a strike at Athens' timber and silver in the north"
+  },
+  {
+   "id": "eu-421-peace-nicias",
+   "y": -421,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Peace of Nicias halts the war",
+   "where": "Athens and Sparta",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Peace of Nicias",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-425-pylos",
+    "eu-424-amphipolis"
+   ],
+   "why_selected": "A return to prewar positions that Sparta's allies Corinth and Thebes refused to sign"
+  },
+  {
+   "id": "eu-416-melos",
+   "y": -416,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Athens destroys the island of Melos",
+   "where": "Melos, Cyclades",
+   "lat": 36.69,
+   "lon": 24.42,
+   "wk": "Siege of Melos",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-421-peace-nicias"
+   ],
+   "why_selected": "Athens killed the men and enslaved the women and children of a neutral island that refused to join the empire"
+  },
+  {
+   "id": "eu-415-sicilian-expedition",
+   "y": -415,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Athens sends a great fleet against Syracuse",
+   "where": "Syracuse, Sicily",
+   "lat": 37.06,
+   "lon": 15.29,
+   "wk": "Sicilian Expedition",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-421-peace-nicias",
+    "eu-734-syracuse"
+   ],
+   "why_selected": "The largest Athenian expedition of the war; its destruction cost Athens most of its fleet and reserve"
+  },
+  {
+   "id": "eu-415-alcibiades-defects",
+   "y": -415,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Alcibiades is recalled and defects to Sparta",
+   "where": "Athens",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Alcibiades",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-415-sicilian-expedition"
+   ],
+   "why_selected": "The expedition's author advised Sparta to reinforce Syracuse and fortify Decelea"
+  },
+  {
+   "id": "eu-413-sicily-disaster",
+   "y": -413,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Athenian army destroyed in Sicily",
+   "where": "Assinarus river, Sicily",
+   "lat": 36.93,
+   "lon": 15.08,
+   "wk": "Nicias",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-415-sicilian-expedition",
+    "eu-415-alcibiades-defects"
+   ],
+   "why_selected": "Two fleets and both commanders lost; 7,000 prisoners were put to work in the quarries of Syracuse"
+  },
+  {
+   "id": "eu-413-decelea",
+   "y": -413,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Sparta fortifies Decelea in Attica",
+   "where": "Decelea, Attica",
+   "lat": 38.17,
+   "lon": 23.79,
+   "wk": "Decelea",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "slavery",
+    "money"
+   ],
+   "causes": [
+    "eu-415-alcibiades-defects"
+   ],
+   "why_selected": "A permanent garrison in Attica cut Athens off from Laurion silver; more than 20,000 slaves deserted"
+  },
+  {
+   "id": "me-412-persia-funds-sparta",
+   "y": -412,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Persia agrees to fund Sparta's fleet",
+   "where": "Miletus, Ionia",
+   "lat": 37.53,
+   "lon": 27.28,
+   "wk": "Tissaphernes",
+   "c": [
+    "war",
+    "economic",
+    "political"
+   ],
+   "t": [
+    "money",
+    "empire"
+   ],
+   "causes": [
+    "eu-413-sicily-disaster"
+   ],
+   "why_selected": "Sparta conceded the Asian Greek cities to the King in return for pay for its rowers; the war became winnable for Sparta"
+  },
+  {
+   "id": "eu-411-four-hundred",
+   "y": -411,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Oligarchs overthrow Athenian democracy",
+   "where": "Athens",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Athenian coup of 411 BC",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "revolution"
+   ],
+   "causes": [
+    "eu-413-sicily-disaster",
+    "me-412-persia-funds-sparta"
+   ],
+   "why_selected": "The Four Hundred took power promising Persian money; the fleet at Samos stayed democratic and they fell within months"
+  },
+  {
+   "id": "me-407-cyrus-lysander",
+   "y": -407,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Cyrus the Younger bankrolls Lysander's fleet",
+   "where": "Sardis, Lydia",
+   "lat": 38.49,
+   "lon": 28.04,
+   "wk": "Cyrus the Younger",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "money"
+   ],
+   "causes": [
+    "me-412-persia-funds-sparta"
+   ],
+   "why_selected": "The Persian prince raised Spartan rowers' pay and drained Athenian crews; the partnership won the war"
+  },
+  {
+   "id": "me-406-arginusae",
+   "y": -406,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Athens wins at Arginusae, executes its generals",
+   "where": "Arginusae islands, off Lesbos",
+   "lat": 39.03,
+   "lon": 26.78,
+   "wk": "Battle of Arginusae",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "me-407-cyrus-lysander"
+   ],
+   "why_selected": "Athens' last great victory; it refused Sparta's peace offer and executed six of its winning commanders"
+  },
+  {
+   "id": "eu-405-aegospotami",
+   "y": -405,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Lysander destroys the Athenian fleet",
+   "where": "Aegospotami, Hellespont",
+   "lat": 40.35,
+   "lon": 26.62,
+   "wk": "Battle of Aegospotami",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "empire"
+   ],
+   "causes": [
+    "me-407-cyrus-lysander",
+    "me-406-arginusae"
+   ],
+   "why_selected": "Ended Athenian sea power and with it the grain route from the Black Sea"
+  },
+  {
+   "id": "eu-404-athens-surrenders",
+   "y": -404,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Athens surrenders and loses its walls",
+   "where": "Athens and Piraeus",
+   "lat": 37.94,
+   "lon": 23.65,
+   "wk": "Long Walls",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-405-aegospotami"
+   ],
+   "why_selected": "End of the Peloponnesian War and of the Athenian empire; Sparta became the hegemon of Greece"
+  },
+  {
+   "id": "eu-404-thirty-tyrants",
+   "y": -404,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Sparta installs the Thirty at Athens",
+   "where": "Athens",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Thirty Tyrants",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "revolution",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-404-athens-surrenders"
+   ],
+   "why_selected": "A Spartan-backed junta that killed about 1,500 Athenians and discredited oligarchy at Athens for eighty years"
+  },
+  {
+   "id": "eu-403-democracy-restored",
+   "y": -403,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Thrasybulus restores democracy with an amnesty",
+   "where": "Piraeus",
+   "lat": 37.94,
+   "lon": 23.65,
+   "wk": "Thrasybulus",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "rights",
+    "law"
+   ],
+   "causes": [
+    "eu-404-thirty-tyrants"
+   ],
+   "why_selected": "An amnesty forbade prosecutions for acts under the Thirty; the restored democracy lasted until 322"
+  },
+  {
+   "id": "eu-399-socrates",
+   "y": -399,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-508-democracy",
+   "h": "Athens tries and executes Socrates",
+   "where": "Agora, Athens",
+   "lat": 37.975,
+   "lon": 23.722,
+   "wk": "Trial of Socrates",
+   "c": [
+    "ideas",
+    "political"
+   ],
+   "t": [
+    "rights"
+   ],
+   "causes": [
+    "eu-404-thirty-tyrants",
+    "eu-403-democracy-restored"
+   ],
+   "why_selected": "The restored democracy condemned the teacher of Critias and Alcibiades; the founding case for philosophy's quarrel with the city"
+  },
+  {
+   "id": "me-401-cunaxa",
+   "y": -401,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Greek mercenaries fight for Cyrus at Cunaxa",
+   "where": "Cunaxa, near Babylon",
+   "lat": 33.3,
+   "lon": 44.05,
+   "wk": "Battle of Cunaxa",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-407-cyrus-lysander"
+   ],
+   "why_selected": "Cyrus died, and the Ten Thousand's march home showed Greeks that the Persian heartland could be reached"
+  },
+  {
+   "id": "eu-395-corinthian-war",
+   "y": -395,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Persian gold funds the Corinthian War",
+   "where": "Corinth",
+   "lat": 37.906,
+   "lon": 22.878,
+   "wk": "Corinthian War",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "money",
+    "conflict"
+   ],
+   "causes": [
+    "me-401-cunaxa",
+    "eu-404-athens-surrenders"
+   ],
+   "why_selected": "Thebes, Athens, Corinth and Argos, paid by Persia, forced Sparta's king out of Asia"
+  },
+  {
+   "id": "me-387-kings-peace",
+   "y": -387,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Persian King dictates the King's Peace",
+   "where": "Sardis, Lydia",
+   "lat": 38.49,
+   "lon": 28.04,
+   "wk": "Peace of Antalcidas",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-395-corinthian-war"
+   ],
+   "why_selected": "Gave the Asian Greeks to Persia and made Sparta enforcer of an autonomy clause it used against its rivals"
+  },
+  {
+   "id": "eu-382-cadmea",
+   "y": -382,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Sparta seizes the citadel of Thebes",
+   "where": "Cadmea, Thebes",
+   "lat": 38.32,
+   "lon": 23.32,
+   "wk": "Cadmea",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "me-387-kings-peace"
+   ],
+   "why_selected": "The peak of Spartan overreach; the liberation of Thebes in 379 began Theban power"
+  },
+  {
+   "id": "eu-378-second-athenian-league",
+   "y": -378,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Athens founds the Second Athenian League",
+   "where": "Athens",
+   "lat": 37.97,
+   "lon": 23.73,
+   "wk": "Second Athenian League",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-382-cadmea"
+   ],
+   "why_selected": "An alliance chartered against the abuses of the first: no tribute, garrisons or governors; it broke up in 357-355"
+  },
+  {
+   "id": "eu-371-leuctra",
+   "y": -371,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Thebes breaks Spartan power at Leuctra",
+   "where": "Leuctra, Boeotia",
+   "lat": 38.25,
+   "lon": 23.18,
+   "wk": "Battle of Leuctra",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-382-cadmea"
+   ],
+   "why_selected": "Killed about 400 of 700 Spartiates present; Sparta never recovered its army or its hegemony"
+  },
+  {
+   "id": "eu-369-messene",
+   "y": -369,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Epaminondas frees Messenia and founds Messene",
+   "where": "Messene, Messenia",
+   "lat": 37.175,
+   "lon": 21.92,
+   "wk": "Messene",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "slavery",
+    "indep"
+   ],
+   "causes": [
+    "eu-371-leuctra",
+    "eu-660-second-messenian"
+   ],
+   "why_selected": "Ended the helot economy in Messenia that had sustained Sparta for three centuries"
+  },
+  {
+   "id": "eu-362-mantinea",
+   "y": -362,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Epaminondas killed at Mantinea",
+   "where": "Mantinea, Arcadia",
+   "lat": 37.62,
+   "lon": 22.39,
+   "wk": "Battle of Mantinea (362 BC)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-369-messene"
+   ],
+   "why_selected": "A Theban victory that ended Theban leadership; no Greek city held hegemony afterwards"
+  },
+  {
+   "id": "eu-359-philip-ii",
+   "y": -359,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Philip II becomes king of Macedon",
+   "where": "Pella, Macedon",
+   "lat": 40.76,
+   "lon": 22.52,
+   "wk": "Philip II of Macedon",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-371-leuctra"
+   ],
+   "why_selected": "A former hostage in Thebes took a kingdom in crisis and built the army that conquered Greece and Persia"
+  },
+  {
+   "id": "eu-356-philippi",
+   "y": -356,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Philip seizes the gold mines at Philippi",
+   "where": "Philippi (Crenides), Macedonia",
+   "lat": 41.01,
+   "lon": 24.29,
+   "wk": "Philippi",
+   "c": [
+    "economic",
+    "war"
+   ],
+   "t": [
+    "money",
+    "empire"
+   ],
+   "causes": [
+    "eu-359-philip-ii"
+   ],
+   "why_selected": "Pangaion gold, more than 1,000 talents a year, paid for a standing army and Greek politicians"
+  },
+  {
+   "id": "eu-348-olynthus",
+   "y": -348,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Philip destroys Olynthus",
+   "where": "Olynthus, Chalcidice",
+   "lat": 40.3,
+   "lon": 23.35,
+   "wk": "Olynthus",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-356-philippi"
+   ],
+   "why_selected": "Ended the Chalcidian League, the last northern power able to resist Macedon"
+  },
+  {
+   "id": "eu-337-league-of-corinth",
+   "y": -337,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Greeks swear the League of Corinth",
+   "where": "Corinth",
+   "lat": 37.906,
+   "lon": 22.878,
+   "wk": "League of Corinth",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-338-chaeronea"
+   ],
+   "why_selected": "A common peace under a Macedonian hegemon, sworn for a war of revenge on Persia"
+  },
+  {
+   "id": "me-333-issus",
+   "y": -333,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Alexander defeats Darius III at Issus",
+   "where": "Issus, Cilicia",
+   "lat": 36.84,
+   "lon": 36.2,
+   "wk": "Battle of Issus",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-334-alexander"
+   ],
+   "why_selected": "Darius fled and left his family; Alexander took the Levant coast and cut Persia off from the sea"
+  },
+  {
+   "id": "me-331-gaugamela",
+   "y": -331,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Alexander defeats Darius at Gaugamela",
+   "where": "Gaugamela, near Mosul",
+   "lat": 36.56,
+   "lon": 43.44,
+   "wk": "Battle of Gaugamela",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-333-issus"
+   ],
+   "why_selected": "The end of the Achaemenid Empire as a fighting power; Babylon and Susa opened to Alexander"
+  },
+  {
+   "id": "me-330-persepolis",
+   "y": -330,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Alexander burns Persepolis",
+   "where": "Persepolis, Fars",
+   "lat": 29.935,
+   "lon": 52.89,
+   "wk": "Persepolis",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "me-331-gaugamela"
+   ],
+   "why_selected": "The war of revenge declared complete; the Persian treasuries' bullion was coined and spent across the east"
+  },
+  {
+   "id": "eu-322-lamian-war",
+   "y": -322,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Macedon crushes the Athenian revolt",
+   "where": "Crannon, Thessaly",
+   "lat": 39.5,
+   "lon": 22.3,
+   "wk": "Lamian War",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "rights"
+   ],
+   "causes": [
+    "me-323-diadochi"
+   ],
+   "why_selected": "Ended Athenian democracy and naval power: the citizen body was cut from 21,000 to 9,000"
+  },
+  {
+   "id": "me-301-ipsus",
+   "y": -301,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Antigonus killed at Ipsus",
+   "where": "Ipsus, Phrygia",
+   "lat": 38.67,
+   "lon": 31.03,
+   "wk": "Battle of Ipsus",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-323-diadochi"
+   ],
+   "why_selected": "Ended the last attempt to hold Alexander's empire together; three kingdoms followed"
+  },
+  {
+   "id": "eu-281-achaean-league",
+   "y": -281,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Achaean cities refound their federal league",
+   "where": "Aigion, Achaea",
+   "lat": 38.25,
+   "lon": 22.08,
+   "wk": "Achaean League",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "indep",
+    "rights"
+   ],
+   "causes": [
+    "me-301-ipsus"
+   ],
+   "why_selected": "A federation with common citizenship and coinage that grew to hold most of the Peloponnese until 146"
+  },
+  {
+   "id": "eu-217-naupactus",
+   "y": -217,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Greek states make peace at Naupactus",
+   "where": "Naupactus, Aetolia",
+   "lat": 38.39,
+   "lon": 21.83,
+   "wk": "Social War (220–217 BC)",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [],
+   "why_selected": "The peace conference where an Aetolian speaker warned the Greeks of the cloud gathering in the west"
+  },
+  {
+   "id": "eu-215-philip-hannibal",
+   "y": -215,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Philip V allies with Hannibal",
+   "where": "Macedon and southern Italy",
+   "lat": 40.76,
+   "lon": 22.52,
+   "wk": "Macedonian–Carthaginian Treaty",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "empire"
+   ],
+   "causes": [
+    "eu-216-cannae",
+    "eu-217-naupactus"
+   ],
+   "why_selected": "Brought Rome across the Adriatic and into Greek affairs for good"
+  },
+  {
+   "id": "eu-197-cynoscephalae",
+   "y": -197,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome defeats Philip V at Cynoscephalae",
+   "where": "Cynoscephalae, Thessaly",
+   "lat": 39.42,
+   "lon": 22.6,
+   "wk": "Battle of Cynoscephalae",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-215-philip-hannibal"
+   ],
+   "why_selected": "The legion beat the phalanx; Philip V gave up his Greek holdings"
+  },
+  {
+   "id": "eu-196-isthmian-freedom",
+   "y": -196,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome proclaims the freedom of the Greeks",
+   "where": "Isthmia, near Corinth",
+   "lat": 37.92,
+   "lon": 22.99,
+   "wk": "Titus Quinctius Flamininus",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "indep"
+   ],
+   "causes": [
+    "eu-197-cynoscephalae"
+   ],
+   "why_selected": "Rome took over the Hellenistic kings' slogan; freedom became a Roman grant with Roman conditions"
+  },
+  {
+   "id": "eu-168-pydna",
+   "y": -168,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome ends the Macedonian monarchy at Pydna",
+   "where": "Pydna, Macedonia",
+   "lat": 40.37,
+   "lon": 22.6,
+   "wk": "Battle of Pydna",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-197-cynoscephalae",
+    "eu-196-isthmian-freedom"
+   ],
+   "why_selected": "Macedon split into four republics; Rome became the arbiter of every Greek state"
+  },
+  {
+   "id": "me-168-eleusis",
+   "y": -168,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Roman envoy turns Antiochus IV back",
+   "where": "Eleusis, near Alexandria",
+   "lat": 31.2,
+   "lon": 29.95,
+   "wk": "Gaius Popillius Laenas",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-168-pydna"
+   ],
+   "why_selected": "One envoy with no army ended a Seleucid invasion of Egypt; the Hellenistic kings now took orders from Rome"
+  }
+ ]
+}

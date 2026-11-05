@@ -1,0 +1,250 @@
+## na182032 | 1820 | Missouri Compromise | who: Henry Clay; Congress | where: Missouri / Louisiana Territory
+  bluf: The Missouri Compromise kept the Senate balanced between slave and free states by drawing a line across the West. It postponed but did not resolve the question of slavery's expansion, which eventually broke the Union.
+  now: Jefferson called it 'a fire bell in the night', a warning of the Civil War to come.
+  story: Missouri wanted to join as a slave state, which would upset the balance in the Senate. Congress admitted Missouri with slavery and Maine as free, and banned slavery north of the 36°30' line.
+  why: Missouri's request to join as a slave state would have upset the balance of 11 free and 11 slave states in the Senate, and Northern congressmen tried to ban slavery there.
+  then: It held for 34 years, until the Kansas-Nebraska Act threw it out and the Dred Scott ruling declared such bans unconstitutional.
+## na182333 | 1823 | Monroe Doctrine | who: President Monroe; John Quincy Adams | where: Western Hemisphere
+  bluf: The Monroe Doctrine declared the Western Hemisphere closed to new European colonization, staking a US claim to a regional sphere of influence. Unenforceable at first, it became the justification for a century of US interventions in Latin America.
+  now: It is still the basis of US policy that treats the Americas as its sphere of influence, and US officials have revived its language in response to Chinese and Russian activity in the region.
+  story: As Latin American nations won independence, President Monroe declared that the Western Hemisphere was closed to new European colonies. Britain's navy, which also wanted Spain out, gave it teeth.
+  why: Latin American nations had just won independence, and the United States feared European monarchies might help Spain reconquer them, or that Russia would expand down the Pacific coast.
+  then: Theodore Roosevelt's 1904 'corollary' claimed a right to intervene in Latin American countries, used to justify occupations of Haiti, the Dominican Republic and Nicaragua.
+  fact: The US had no navy able to enforce it. It worked because Britain's Royal Navy also wanted Spain and France kept out.
+## na182534 | 1825 | Erie Canal opens | who: New York State; Gov. DeWitt Clinton | where: Albany to Buffalo
+  bluf: The Erie Canal linked the Great Lakes to the Atlantic through New York and cut freight costs by around 90%. It made New York City America's commercial capital and tied the Midwest's economy to the Northeast rather than the South.
+  now: New York's dominance as America's business hub started with this canal.
+  story: The 584 km Erie Canal, dug largely by hand over eight years, linked the Hudson River at Albany with Lake Erie at Buffalo. It opened in October 1825, cutting freight costs between the Great Lakes and New York by around 90%.
+  why: New York wanted to capture the trade of the growing Midwest, and Governor DeWitt Clinton persuaded the state to pay for the canal when Congress would not.
+  then: Midwestern grain flowed east through New York, and towns boomed along the route.
+  fact: Critics called it 'Clinton's Ditch'. It cut freight costs from Buffalo to NYC by about 90%.
+## na183035 | 1830 | Indian Removal Act | who: Andrew Jackson; Congress | where: Southeastern US
+  bluf: The Indian Removal Act authorized the forced relocation of Native nations from the Southeast to lands west of the Mississippi. It made dispossession federal policy, defied the Supreme Court's recognition of tribal sovereignty, and is now widely described as ethnic cleansing.
+  now: It is now widely described as ethnic cleansing and underlies today's debates over Native sovereignty.
+  story: President Andrew Jackson pushed the law so white settlers could take Cherokee, Creek, Choctaw, Chickasaw and Seminole land, prized for cotton and gold. Removal was supposed to be by treaty; in practice it was forced.
+  why: Settlers wanted Native land for cotton and, in Georgia, gold, and Jackson and the Southern states rejected tribal sovereignty.
+  then: About 60,000 Cherokee, Creek, Choctaw, Chickasaw and Seminole people were removed in the 1830s, and thousands died on the journeys, most notoriously on the Cherokee 'Trail of Tears' (1838). The Seminole resisted removal in Florida for years.
+## d-worcester | 1832 | Worcester v. Georgia | who: Chief Justice John Marshall; missionary Samuel Worcester; the Cherokee Nation | where: Washington, D.C.
+  bluf: Worcester v. Georgia recognized Native nations as distinct political communities over which states had no authority. Jackson's refusal to enforce it showed that court rulings are only as strong as the executive's willingness to carry them out.
+  now: The ruling remains a foundation of tribal sovereignty in US law and is still cited in cases over tribal jurisdiction.
+  story: Missionary Samuel Worcester was jailed for living among the Cherokee without a Georgia licence. On March 3, 1832 the Court ruled that Georgia's laws had no force in Cherokee territory, which only the federal government could deal with. Georgia refused to comply.
+  why: Georgia was seizing Cherokee land after gold was discovered there, and passed laws extending its authority over the Cherokee Nation.
+  then: In 1835 a small Cherokee faction signed the Treaty of New Echota, which was used to force the whole nation west in 1838.
+  myth: Jackson probably never said 'John Marshall has made his decision; now let him enforce it', but he did nothing to enforce the ruling.
+## d-alamo | 1836 | Battle of the Alamo | who: Antonio López de Santa Anna; Texan defenders including Jim Bowie and Davy Crockett | where: San Antonio, Texas
+  bluf: The Alamo became the rallying cry of Texan independence, which led to US annexation and the Mexican-American War. It remains a contested symbol: heroic sacrifice in Texan memory, but part of a revolt partly about preserving slavery.
+  now: The Alamo remains a contested symbol in debates over how Texas and the United States remember their Mexican past.
+  story: After a 13-day siege, Santa Anna's army stormed the Alamo on March 6, 1836, and about 200 defenders died. Six weeks later, shouting 'Remember the Alamo!', Sam Houston's army defeated and captured Santa Anna at San Jacinto.
+  why: American settlers in Mexican Texas rebelled against Santa Anna's centralising rule and Mexico's limits on slavery.
+  then: Texas became an independent republic, annexed by the United States in 1845.
+## na183836 | 1838 | Trail of Tears | who: Cherokee Nation; US Army | where: Georgia to Oklahoma
+  bluf: The forced removal of the Cherokee, despite their victory at the Supreme Court, became the defining symbol of Native dispossession. Around a quarter of those removed died.
+  now: The Cherokee Nation rebuilt in Oklahoma and is today one of the largest tribes in the US.
+  story: The Supreme Court ruled for the Cherokee in 1832, but Jackson ignored it. In 1838 the army forced about 16,000 Cherokee from their homes into camps and then on a march to Oklahoma.
+  why: Enforcement of removal despite a Supreme Court ruling for the Cherokee.
+  then: Around 4,000 Cherokee died from disease, cold and hunger, and their land in Georgia had already been handed to white settlers by state lottery.
+  fact: The Cherokee had won their case at the Supreme Court in 1832; Jackson ignored the ruling.
+## na184537 | 1845 | Texas annexed | who: President Polk; Republic of Texas | where: Texas
+  bluf: Annexing Texas brought a large slave state into the Union and made war with Mexico likely. 'Manifest Destiny' gave expansion an ideological justification that shaped US policy for a century.
+  now: 'Manifest Destiny' gave American expansion a moral claim that shaped policy from the Pacific coast to the overseas empire of 1898.
+  story: Texas had broken from Mexico in 1836 and wanted to join the US as a slave state. Congress annexed it in 1845; the same year a journalist, John O'Sullivan, coined the phrase 'Manifest Destiny' for America's supposed right to spread across the continent.
+  why: Texas wanted to join the United States as a slave state; expansionists believed in 'Manifest Destiny', and Southern politicians wanted another slave state in the Senate.
+  then: Mexico saw annexation as theft and broke off relations, and a border dispute became war within a year.
+## na184638 | 1846 | Mexican-American War | who: US (Polk) vs. Mexico | where: Texas, California, Mexico City
+  bluf: The United States took about half of Mexico's territory, including California and the Southwest, in a war many Americans at the time saw as aggression. The land made the United States a continental, Pacific power, but the fight over whether slavery could spread into it drove the country toward civil war.
+  now: The war took half of Mexico's territory and gave the United States its Pacific coast, which settled its continental shape and reopened the slavery question over the new lands; Mexican politics still carries the memory.
+  story: Mexico had never accepted Texas's independence or its US annexation, and the two countries disputed the border. President Polk sent troops into the disputed zone, and after a clash in April 1846 he declared that Mexico had 'shed American blood upon American soil'. US forces took California and New Mexico and, after landing at Veracruz, captured Mexico City in September 1847.
+  why: Polk wanted California and its Pacific ports, many Americans believed in 'Manifest Destiny', and Mexico, politically unstable, refused to sell.
+  trig: A clash between US and Mexican troops in the disputed land north of the Rio Grande in April 1846.
+  then: Mexico gave up about half its territory in the Treaty of Guadalupe Hidalgo (1848). The fight over allowing slavery in the new lands split the parties along sectional lines. Many Civil War generals, including Grant and Lee, first fought here.
+## na184839 | 1848 | California Gold Rush | who: ~300,000 migrants ('49ers') from the world over | where: California
+  bluf: The Gold Rush brought a sudden flood of migrants from around the world, made California a state within two years and tied the Pacific coast to the US economy. For Native Californians it brought genocidal violence that destroyed most of their population.
+  now: California's diverse population and its boom-and-bust spirit date from the Rush.
+  story: In January 1848, days before Mexico signed California over to the United States, James Marshall found gold at Sutter's Mill in the Sierra Nevada foothills. Once President Polk confirmed the find that December, about 300,000 people poured in from the eastern US, Latin America, Europe, Australia and China. San Francisco grew from about 1,000 people to some 25,000 within two years.
+  why: A carpenter, James Marshall, spotted gold flakes while building a sawmill for John Sutter.
+  then: California became a state in 1850. Its Native population fell from about 150,000 to about 30,000 by 1870 through killings, disease and starvation, which California's governor formally acknowledged as genocide in 2019.
+  fact: San Francisco grew from about 1,000 people to around 25,000 in two years. Levi Strauss started selling sturdy pants to miners.
+## na184840 | 1848 | Seneca Falls Convention | who: Elizabeth Cady Stanton, Lucretia Mott | where: Seneca Falls, New York
+  bluf: Seneca Falls launched the organized women's rights movement in the United States, demanding equality including the vote. It used the language of the Declaration of Independence to expose that document's exclusions.
+  now: It launched the organized women's rights movement in the US; its demands, from the vote to property rights, set the agenda until the 19th Amendment in 1920.
+  story: Elizabeth Cady Stanton and Lucretia Mott, angered at being shut out of an anti-slavery meeting, called the first women's rights convention. Its Declaration of Sentiments demanded equal rights, including the vote.
+  why: Women abolitionists had been barred from full participation in anti-slavery conventions, and the experience convinced them to fight for their own rights.
+  then: It took 72 more years for women to win the national vote, and the movement split after the Civil War over whether to back votes for Black men first.
+  fact: Of the 100 signers, only one, Charlotte Woodward, lived to see women win the vote in 1920.
+## na185041 | 1850 | Compromise of 1850 | who: Clay, Webster, Douglas | where: United States
+  bluf: The Compromise of 1850 admitted California as a free state and, in exchange, passed a harsh Fugitive Slave Act. Forcing Northerners to help return people who had escaped slavery radicalized Northern opinion against it.
+  now: It showed that compromise over slavery was running out; its Fugitive Slave Act forced Northerners to help return escaped slaves and turned many of them against slavery.
+  story: California joined as a free state. To satisfy the South, Congress passed the Fugitive Slave Act, forcing Northerners to help catch people who had escaped slavery.
+  why: The land taken from Mexico reopened the question of slavery in the territories, and California's request to join as a free state threatened the balance in the Senate.
+  then: Anger in the North grew as people who had escaped slavery were seized in Northern cities, and 'Uncle Tom's Cabin' (1852) became a bestseller.
+## na185442 | 1854 | Kansas-Nebraska Act | who: Stephen Douglas | where: Kansas & Nebraska territories
+  bluf: The Kansas-Nebraska Act scrapped the Missouri Compromise line and let settlers vote on slavery, turning Kansas into a battleground. It destroyed the Whig Party, created the Republican Party and set the country on the path to war.
+  now: It destroyed the Whig Party, gave birth to the Republican Party and turned the slavery fight violent in 'Bleeding Kansas', putting the country on the road to civil war.
+  story: Senator Stephen Douglas wanted a railroad through the territory, so he let settlers decide on slavery, scrapping the Missouri line. Pro- and anti-slavery settlers poured in and fought ('Bleeding Kansas').
+  why: Senator Stephen Douglas wanted to organize the territory for a transcontinental railroad and won Southern votes by letting settlers decide on slavery.
+  then: Outrage created the Republican Party, which elected Lincoln six years later.
+  fact: The fighting over it gave the new Republican Party its cause; six years later it elected Lincoln.
+## na185743 | 1857 | Dred Scott decision | who: Supreme Court (Chief Justice Taney); Dred Scott | where: Washington DC
+  bluf: Dred Scott declared that Black Americans could not be citizens and that Congress could not ban slavery in the territories. Meant to settle the slavery question, it made compromise impossible and hastened the Civil War.
+  now: It's widely seen as the worst decision in Supreme Court history, overturned by the 14th Amendment.
+  story: Dred Scott sued for freedom after living in free territory. Chief Justice Taney ruled that Black people had no rights and that Congress couldn't ban slavery in the territories.
+  why: President Buchanan and the Court's Southern majority hoped a sweeping ruling would settle slavery in the territories once and for all.
+  then: The ruling enraged the North, boosted the new Republican Party and made compromise impossible; Lincoln's election in 1860 followed.
+## na186144 | 1861 | Civil War begins | who: Union (Lincoln) vs. Confederacy (Jefferson Davis) | where: Fort Sumter, South Carolina
+  bluf: The Civil War was fought over whether slavery would continue and whether states could leave the Union. The Union's victory abolished slavery and established the supremacy of the national government, but the collapse of Reconstruction left racial equality unfinished for another century.
+  now: The war ended slavery, settled that the Union could not be left, and created a federal state with an income tax, a national currency and a standing claim on its citizens that the republic of 1789 lacked.
+  story: After Abraham Lincoln, who opposed the spread of slavery, won the 1860 election without carrying a single Southern state, eleven Southern states seceded to protect slavery and formed the Confederacy. On April 12, 1861, Confederate forces fired on Fort Sumter in Charleston Harbor, and Lincoln called for troops to put down the rebellion.
+  why: Decades of conflict over slavery's expansion into the West, the South's dependence on the labor of about 4 million enslaved people, and the growing political power of the free-labor North.
+  trig: Lincoln's election in November 1860 and the Confederate attack on Fort Sumter in April 1861.
+  then: Some 620,000 to 750,000 soldiers died. The Union's industrial and manpower advantages, emancipation and Black enlistment eventually won. The 13th, 14th and 15th Amendments ended slavery, defined citizenship and protected voting rights, though Southern states later nullified many of those protections.
+  fact: Arguments over Confederate monuments and the war's meaning have run since 1865.
+## na186345 | 1863 | Emancipation Proclamation | who: Abraham Lincoln | where: Confederate states
+  bluf: The Emancipation Proclamation turned the Union's war to preserve the nation into a war to end slavery. It let Black men enlist, kept Britain and France from recognizing the Confederacy, and set the course for permanent abolition in the 13th Amendment.
+  now: The proclamation turned the war into a war against slavery, kept Britain and France out of it, and brought 180,000 black soldiers into the Union army, which made emancipation irreversible before the amendment of 1865.
+  story: On January 1, 1863, using his war powers, Lincoln declared enslaved people in areas in rebellion 'forever free'. It did not apply to loyal slave states or to areas already under Union control, so it freed few people at once, but every Union advance now brought freedom, and Black men could join the Union army.
+  why: Lincoln wanted to weaken the Confederacy's labor force, recruit Black soldiers and make it politically impossible for Britain and France to back the South. Enslaved people fleeing to Union lines had already made slavery a war issue.
+  then: About 180,000 Black soldiers fought for the Union, Britain and France stayed out, and the 13th Amendment abolished slavery nationwide in 1865.
+  fact: Juneteenth, a federal holiday since 2021, marks the day the news reached the last enslaved Texans.
+## na186346 | 1863 | Battle of Gettysburg | who: Meade vs. Robert E. Lee | where: Gettysburg, Pennsylvania
+  bluf: Gettysburg ended Lee's last invasion of the North and, with Vicksburg's fall the next day, marked the turning point of the Civil War. Lincoln's address there redefined the war's purpose as equality and democracy.
+  now: Lincoln's two-minute Gettysburg Address redefined the war as 'a new birth of freedom'.
+  story: Lee hoped a big win in the North would force a peace. After brutal fighting, Pickett's Charge failed on the third day. About 50,000 men were killed, wounded or captured.
+  why: After victories in Virginia, Lee invaded the North hoping a major win on Union soil would break Northern morale and force peace.
+  then: The South never invaded again, and Vicksburg fell the next day, giving the Union control of the Mississippi.
+  fact: Lincoln's Gettysburg Address was about 270 words and took two minutes. The main speaker before him talked for two hours.
+## na186547 | 1865 | Lee surrenders at Appomattox | who: Ulysses S. Grant; Robert E. Lee | where: Appomattox Court House, Virginia
+  bluf: Lee's surrender ended the Confederacy's main army and effectively the Civil War. Grant's generous terms aimed at reconciliation, foreshadowing a peace that put reunion ahead of justice for the freed people.
+  now: The war killed an estimated 620,000 to 750,000 soldiers, the deadliest conflict in American history.
+  story: After a ten-month siege at Petersburg and the fall of Richmond, Lee's starving army was surrounded. On April 9, 1865, he surrendered to Grant, who let his men go home with their horses.
+  why: The Confederacy was exhausted, outnumbered and outproduced; Sherman's march had wrecked its heartland, and Grant's siege had stretched Lee's army to breaking point.
+  then: The remaining Confederate armies surrendered over the following weeks, and Lincoln was assassinated five days after Appomattox.
+  fact: On the day he was shot, Lincoln signed the law creating the Secret Service, originally to fight counterfeit money.
+## na186547b | 1865 | Lincoln assassinated | who: John Wilkes Booth; Abraham Lincoln | where: Ford's Theatre, Washington DC
+  bluf: Lincoln's murder put Andrew Johnson, a Southern Democrat hostile to Black rights, in charge of Reconstruction. It tilted the peace toward leniency for the South and contributed to Reconstruction's failure.
+  now: Lincoln's death made him a martyr and shaped how Americans remember the war.
+  story: John Wilkes Booth, an actor and Confederate sympathiser, shot Lincoln at Ford's Theatre on April 14, 1865; he died the next morning. A co-conspirator also stabbed Secretary of State William Seward, who survived.
+  why: Booth hoped to throw the Union government into chaos and revive the Confederate cause.
+  then: Andrew Johnson, a Southern Democrat hostile to Black rights, became president and clashed with Congress over Reconstruction.
+  fact: On the day he was shot, Lincoln signed the law creating the Secret Service, originally to fight counterfeit money.
+## na186547c | 1865 | 13th Amendment abolishes slavery | who: Congress and the states | where: Washington DC
+  bluf: The 13th Amendment abolished slavery throughout the United States, freeing about four million people and making emancipation permanent law. Its exception for punishment of crime was exploited after Reconstruction through convict leasing, which re-created forced labor for many Black Southerners.
+  now: Its exception for punishment for crime is debated today in connection with prison labour.
+  story: Passed by Congress in January 1865 and ratified in December, the 13th Amendment abolished slavery and involuntary servitude 'except as a punishment for crime'. About four million people were freed.
+  why: The Emancipation Proclamation was a war measure covering only rebel areas; abolition needed a permanent legal basis.
+  then: The 14th (1868) and 15th (1870) Amendments promised citizenship, equal protection and the vote for Black men.
+## na186748 | 1867 | Alaska purchased | who: Secretary of State William Seward; Russia | where: Alaska
+  bluf: The purchase of Alaska removed Russia from North America and gave the United States a vast Arctic and Pacific territory. Once mocked as 'Seward's Folly', it proved strategically and economically valuable, for its gold and oil and, in the Cold War, as a frontline facing the Soviet Union.
+  now: Alaska gives the US an Arctic coastline, and it sits just 55 miles from Russia.
+  story: Russia needed money after the Crimean War and feared losing Alaska to Britain anyway. Secretary of State Seward bought it for about 2 cents an acre.
+  why: Russia needed cash after the Crimean War, could not defend Alaska, and preferred selling it to the United States to seeing Britain take it.
+  then: Gold strikes in the 1890s and oil in the 1960s made it a bargain.
+  fact: Critics mocked it as 'Seward's Folly'. It cost about 2 cents an acre.
+## na186949 | 1869 | Transcontinental railroad | who: Union Pacific & Central Pacific; Chinese and Irish laborers | where: Promontory Summit, Utah
+  bluf: The transcontinental railroad tied the Pacific coast to the rest of the United States, created a national market and sped the settlement of the West. Built largely by Chinese and Irish laborers, it devastated the Plains nations and the bison herds they depended on.
+  now: Its mix of public subsidy and private profit set the pattern for American infrastructure, and the time zones adopted for the railways in 1883 still govern daily life.
+  story: Two companies built toward each other, the Central Pacific with thousands of Chinese workers and the Union Pacific with Irish and Civil War veterans. They met in Utah in 1869.
+  why: Congress wanted to bind California to the Union and open the West to settlement and markets, and gave railroad companies huge land grants and loans to do it.
+  then: Crossing the country fell from months to about a week, and the bison herds and Plains nations were devastated.
+  fact: Railroads were the reason the US adopted standard time zones in 1883; before that every town kept its own time.
+## na187650 | 1876 | Little Bighorn | who: Lakota and Cheyenne (Sitting Bull, Crazy Horse) vs. Custer | where: Montana
+  bluf: The Lakota and Cheyenne victory over Custer was the greatest Native military success of the Plains wars, but it brought overwhelming US retaliation. Within a year the Black Hills were seized and resistance broken.
+  now: The Lakota have refused payment for the Black Hills to this day; a 1980 Supreme Court ruling awarded compensation that, with interest, now exceeds $1 billion.
+  story: After gold was found in the sacred Black Hills, the US tried to force the Lakota onto reservations. Sitting Bull and Crazy Horse's warriors defeated Custer's 7th Cavalry in Montana.
+  why: The United States broke the 1868 treaty that guaranteed the Black Hills to the Lakota after gold was found there, and ordered all Lakota onto reservations.
+  then: The US responded with overwhelming force: within a year Crazy Horse had surrendered, Sitting Bull had fled to Canada, and Congress had seized the Black Hills.
+  fact: Custer's force of about 210 men was wiped out.
+## na187751 | 1877 | Reconstruction ends | who: Hayes, Democrats (Compromise of 1877) | where: The South
+  bluf: The end of Reconstruction withdrew federal protection of Black Southerners' rights in exchange for settling a disputed presidential election. White-supremacist governments then disenfranchised Black voters and built Jim Crow segregation, which lasted until the civil rights movement.
+  now: The civil rights movement of the 1950s and 60s was a fight to undo this, and the balance between federal and state control of voting is still contested.
+  story: To settle the disputed 1876 election, Democrats let Republican Hayes take office if troops left the South. White Southern governments then stripped Black citizens of votes and imposed segregation.
+  why: Northern fatigue with occupying the South, an economic depression after 1873, white-supremacist violence, and a disputed 1876 election.
+  trig: The Compromise of 1877, which gave Republican Rutherford Hayes the presidency in exchange for removing federal troops from the South.
+  then: Southern states used poll taxes, literacy tests and violence to strip Black citizens of the vote, and the Supreme Court upheld segregation in Plessy v. Ferguson (1896). Thousands of Black Americans were lynched.
+  fact: 'Jim Crow' came from a minstrel-show character.
+## na188252 | 1882 | Chinese Exclusion Act | who: Congress; President Chester A. Arthur | where: United States
+  bluf: The Chinese Exclusion Act was the first US law to bar immigrants by nationality. It established that Washington could exclude people by race and origin, a template for later immigration restrictions.
+  now: It is the root of US laws that decide who may enter by origin; Congress formally expressed regret for it in 2011 and 2012.
+  story: Chinese workers had built railroads and mined gold, then faced racist violence and blame for low wages. Congress banned Chinese laborers from immigrating.
+  why: Chinese workers on the West Coast were blamed for low wages during a depression, and politicians of both parties courted anti-Chinese voters.
+  then: The ban lasted until 1943 and set the template for later immigration restrictions.
+## na188653 | 1886 | Haymarket affair | who: Chicago workers and anarchists; police | where: Haymarket Square, Chicago
+  bluf: The Haymarket bombing and the hanging of anarchists on thin evidence became a global symbol of labor's struggle. In the United States it fed fear of immigrant radicals and weakened the labor movement; elsewhere May 1 became International Workers' Day.
+  now: May 1 became International Workers' Day in honour of the Haymarket martyrs, almost everywhere except the US.
+  story: During a national strike for the eight-hour day, a rally at Chicago's Haymarket Square ended when someone threw a bomb at police. Seven officers and at least four civilians died. Eight anarchists were convicted on thin evidence, and four were hanged.
+  why: Workers were fighting for an eight-hour day amid violent clashes with police and employers.
+  then: A wave of fear of immigrant radicals followed, the Knights of Labor went into decline, and the more moderate AFL took its place.
+## na188653b | 1886 | American Federation of Labor founded | who: Samuel Gompers; craft unions | where: Columbus, Ohio
+  bluf: The AFL organized skilled workers around practical gains (wages, hours, conditions) rather than revolution. Its 'business unionism' set the moderate pattern of American labor, which never built a mass socialist party like Europe's.
+  now: The AFL's focus on wages and conditions rather than socialism shaped American unions, which remain more pragmatic and less tied to a political party than many in Europe.
+  story: Craft unions led by Samuel Gompers formed the AFL in December 1886. Gompers focused on 'bread-and-butter' goals, wages, hours and conditions, rather than revolution.
+  why: After the Haymarket backlash weakened the more radical Knights of Labor, craft unions wanted a stronger national organisation.
+  then: The AFL grew to millions of members by World War I and merged with the CIO in 1955.
+## na189054 | 1890 | Wounded Knee Massacre | who: US 7th Cavalry; Lakota | where: South Dakota
+  bluf: The massacre at Wounded Knee marked the end of armed Native resistance in the United States. With the official 'closing' of the frontier the same year, it ended the era of the Plains wars and began decades of forced assimilation.
+  now: In 1973 activists occupied Wounded Knee to protest broken treaties, and the massacre remains a symbol in debates over Native sovereignty and land.
+  story: The Army, alarmed by the Ghost Dance movement, tried to disarm a Lakota camp. Shooting broke out and soldiers killed about 250 people, many women and children. The same year, the Census declared the frontier closed.
+  why: The Army feared the Ghost Dance, a religious movement promising the return of the old world, and the killing of Sitting Bull days earlier had raised tensions.
+  then: Native peoples were confined to shrinking reservations, their children sent to boarding schools to strip them of their culture, and tribal land broken up into private plots.
+  fact: Historian Frederick Jackson Turner built his famous frontier thesis on the 1890 census's announcement.
+## na189655 | 1896 | Plessy v. Ferguson | who: Supreme Court; Homer Plessy | where: Washington DC / Louisiana
+  bluf: Plessy v. Ferguson gave constitutional approval to 'separate but equal', legalizing racial segregation across the South. It stood for 58 years, until Brown v. Board of Education.
+  now: 'Separate but equal' governed American law for 58 years until Brown v. Board overturned it in 1954, a reminder that courts can entrench injustice as well as end it.
+  story: Homer Plessy deliberately sat in a whites-only train car to test Louisiana's law. The Court ruled 7–1 that segregation was legal if facilities were 'equal', which they almost never were.
+  why: Homer Plessy, a man of mixed race, deliberately sat in a whites-only railway car to test Louisiana's segregation law.
+  then: Segregation spread across schools, trains, restaurants and hospitals, while Southern states stripped Black citizens of the vote.
+## na190157 | 1901 | Theodore Roosevelt becomes president | who: Theodore Roosevelt | where: United States
+  bluf: Theodore Roosevelt used the presidency to regulate big business, protect consumers and conserve land, expanding Washington's role in the economy. He also launched an assertive foreign policy in the Americas and beyond.
+  now: Antitrust law, food safety rules and national parks are his lasting legacy, and debates over breaking up today's tech giants revive his arguments.
+  story: Theodore Roosevelt became president after McKinley was assassinated. He broke up monopolies, regulated food and medicine, and protected vast lands as national parks and forests.
+  why: President McKinley was shot by an anarchist in Buffalo in September 1901 and died eight days later.
+  then: The Progressive Era brought income tax, direct election of senators and women's suffrage.
+## na190358 | 1903 | Wright brothers fly | who: Orville & Wilbur Wright | where: Kitty Hawk, North Carolina
+  bluf: The Wright brothers' controlled, powered flight began the age of aviation. Within decades aircraft transformed warfare, shrank distances and made global travel and trade routine.
+  now: About 4 billion airline trips are taken each year, and aviation's emissions are part of the climate debate.
+  story: Orville and Wilbur Wright, bicycle makers from Ohio, built a powered plane with controls that let a pilot steer. On December 17, 1903, it flew 120 feet.
+  why: Bicycle makers who solved the problem of control, with wing-warping and a movable rudder, building on decades of glider experiments and lighter engines.
+  then: Within 15 years planes were fighting in World War I. Air power reshaped war, from strategic bombing to aircraft carriers, and jet airliners later made mass travel possible.
+  fact: The first flight lasted 12 seconds and covered 120 feet, less than the wingspan of a Boeing 747.
+## na190859 | 1908 | Model T | who: Henry Ford and the Ford Motor Company | where: Detroit
+  bluf: The Model T and the moving assembly line made cars affordable for ordinary workers, creating mass production and mass consumption. 'Fordism' reshaped industry, cities and the global politics of oil.
+  now: Mass production and car culture reshaped cities, suburbs and oil politics.
+  story: Ford's Model T was simple and tough. His moving assembly line (1913) cut build time from 12 hours to about 90 minutes, and he paid workers $5 a day so they could afford one.
+  why: Ford wanted a car ordinary people could afford, and standardized parts and the moving assembly line made it possible.
+  then: By 1927 Ford had sold 15 million, and mass car ownership created suburbs, highways and dependence on oil.
+  fact: Ford said you could have it 'any color, as long as it's black'. The price fell from $850 to about $260 as the assembly line improved.
+## na191360 | 1913 | 16th Amendment: federal income tax | who: Congress and the states | where: Washington DC
+  bluf: The income tax gave the federal government a powerful new source of revenue that fell mainly on the wealthy. It made possible the expansion of the American state, from war spending to the New Deal and the modern welfare state.
+  now: The individual income tax is still the largest single source of federal revenue.
+  story: Ratified in February 1913, the amendment let Congress tax incomes without dividing the tax among the states by population. The first tax hit only the richest Americans, at rates of 1-7%.
+  why: Progressive reformers wanted revenue that fell on the wealthy, not tariffs that raised prices for everyone.
+  then: The income tax paid for World War I, the New Deal and World War II, and became the government's main source of revenue.
+## na191360b | 1913 | Federal Reserve created | who: Woodrow Wilson; Congress | where: Washington DC
+  bluf: The Federal Reserve gave the United States a central bank to act as lender of last resort after repeated bank panics. Its failures in the Great Depression and its later role made it the most powerful economic institution in the world.
+  now: The Fed sets interest rates that move markets worldwide, and its independence from political pressure is a recurring battle, intensified in 2025.
+  story: The Panic of 1907 was stopped only when the banker J. P. Morgan organised a rescue. To avoid depending on one man, Congress created the Federal Reserve System in December 1913: twelve regional banks under a board in Washington.
+  why: Repeated banking panics, culminating in 1907, and the lack of any lender of last resort, which left the system relying on private bankers like J. P. Morgan.
+  then: The Fed's failure to stop bank collapses after 1929 deepened the Great Depression.
+## d-pancho | 1916 | Pancho Villa raids Columbus, New Mexico | who: Pancho Villa; US general John J. Pershing | where: Columbus, New Mexico
+  bluf: Pancho Villa's raid on Columbus led to a US punitive expedition into Mexico that never caught him. It deepened US-Mexico tensions just as Germany was courting Mexico.
+  now: Villa remains a folk hero in Mexico, a symbol of defiance toward US power.
+  story: On March 9, 1916, several hundred Villistas attacked Columbus, killing 18 Americans. President Wilson sent General Pershing with over 10,000 troops into Mexico; they never caught Villa and withdrew in February 1917.
+  why: Villa was angry that the US had recognised his rival, Venustiano Carranza.
+  then: Tension with Mexico made Germany's Zimmermann Telegram all the more alarming.
+## d-zimmermann | 1917 | Zimmermann Telegram | who: German foreign minister Arthur Zimmermann; British codebreakers of Room 40 | where: Washington, D.C.
+  bluf: Britain's decoding of the Zimmermann Telegram exposed Germany's offer to help Mexico regain lost territory if it attacked the United States. Together with unrestricted submarine warfare, it pushed America into the war.
+  now: It is one of the most consequential intelligence coups in history, and Britain hid how it had broken the code, a model of protecting sources while using what they reveal.
+  story: In January 1917 Zimmermann cabled Germany's minister in Mexico, proposing an alliance if the US entered the war. British intelligence decoded the message and passed it to Washington; published on March 1, it caused outrage.
+  why: Germany was resuming unrestricted submarine warfare and expected the US to join the war.
+  then: With U-boats sinking American ships, Congress declared war on April 6, 1917.
+## na191962b | 1918 | Wilson's Fourteen Points | who: Woodrow Wilson | where: Washington DC (speech to Congress)
+  bluf: Wilson's Fourteen Points set out a liberal vision for peace: self-determination, open diplomacy, free trade and a League of Nations. Applied unevenly at Versailles, they inspired colonized peoples and then disappointed them when the promises were not extended to them.
+  now: Colonised peoples from Egypt to Korea and Vietnam took up Wilson's language of self-determination.
+  story: In a speech to Congress in January 1918, Wilson set out fourteen war aims: open diplomacy, free trade, freedom of the seas, self-determination for Europe's peoples and an association of nations to keep the peace.
+  why: To define Allied war aims and answer Bolshevik calls for peace after the Russian Revolution.
+  then: Germany asked for an armistice on the basis of the Fourteen Points, and felt betrayed by the harsher treaty.
+## na191962 | 1919 | Senate rejects the Treaty of Versailles | who: The Senate (Henry Cabot Lodge); Woodrow Wilson | where: Washington DC
+  bluf: The Senate's rejection of the Versailles treaty kept the United States out of the League of Nations it had designed. Without America, the League lacked the power to stop aggression in the 1930s.
+  now: The UN, founded in 1945 with the US at its centre, was designed to avoid the League's mistakes.
+  story: Wilson refused to accept the reservations demanded by Senate Republicans led by Henry Cabot Lodge, who feared the League would drag the US into foreign wars. The treaty failed in November 1919 and again in March 1920.
+  why: Fear of foreign entanglements, party rivalry, and Wilson's refusal to compromise, worsened by his stroke in October 1919.
+  then: Without the US, the League was too weak to stop the aggressions of the 1930s.

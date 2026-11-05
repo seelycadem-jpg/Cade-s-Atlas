@@ -1,0 +1,268 @@
+## af-nandi | 1905 | Nandi leader killed at a peace meeting | who: Koitalel Arap Samoei; British officer Richard Meinertzhagen | where: Nandi Hills, Kenya
+  bluf: The killing of the Nandi leader Koitalel at a truce meeting ended a decade of resistance to the Uganda Railway. It shows the treachery often used to break African resistance.
+  now: Kenya honours Koitalel as a resistance hero, part of a national memory that celebrates early opposition to colonial rule.
+  story: The Nandi raided the railway and telegraph lines. Their orkoiyot (spiritual leader) Koitalel was killed by Meinertzhagen at a meeting arranged as a truce.
+  why: The Uganda Railway and its telegraph crossed Nandi land, and the Nandi raided them for a decade.
+  then: The Nandi were moved to a reserve, and their land on the Uasin Gishu plateau was opened to white settlers.
+## af190531 | 1905 | Maji Maji Rebellion | who: Ngoni, Matumbi and other peoples vs. German colonial rule | where: Southern Tanganyika (Tanzania)
+  bluf: The Maji Maji Rebellion united diverse peoples of southern Tanganyika against German forced labor, inspired by a prophet's promise of sacred water. Germany's scorched-earth response caused a famine that killed up to 300,000 people, and the rising became a founding story of Tanzanian unity.
+  now: Tanzania honours it as a founding moment of national unity, and in 2023 Germany's president apologized in Tanzania for the colonial crimes committed during the war.
+  story: Forced to grow cotton for export, communities united behind the prophet Kinjikitile, whose 'maji' (water) was said to turn bullets to water.
+  why: Brutal forced labor; belief that sacred 'maji' water would turn bullets to water.
+  then: Germany crushed it with a scorched-earth campaign; up to 300,000 died, mostly from famine.
+  fact: 'Maji' is Swahili for water. Fighters believed sacred water from the prophet Kinjikitile would turn German bullets to water.
+## af-dernburg | 1907 | Germany reforms its colonies after Maji Maji | who: Colonial Secretary Bernhard Dernburg; Governor Rechenberg | where: Berlin and Dar es Salaam
+  bluf: After the colonial wars, Germany shifted toward economic development and African cash crops rather than rule by force alone. Historians debate whether it was real reform or a more efficient form of exploitation.
+  now: Historians debate whether it was real reform or just more efficient exploitation.
+  story: Dernburg, a banker, argued colonies should be run as businesses with African cash farmers, not by force alone. In East Africa, Governor Rechenberg favored African peasant production over settler plantations.
+  why: The colonial wars in East and South-West Africa were expensive scandals in the Reichstag, and the 1907 election was fought over colonial policy.
+  then: Railways like the Central Line to Lake Tanganyika were built, and African cash crops such as cotton and coffee were promoted.
+## af190832 | 1908 | Belgium takes Congo from Leopold | who: Belgian parliament; reformers E.D. Morel, Roger Casement | where: Congo
+  bluf: Belgium's annexation ended Leopold's personal rule after an international campaign exposed his atrocities. It was one of the first modern human-rights campaigns, though Belgian colonial rule remained exploitative.
+  now: It was one of the first modern human-rights campaigns, and in 2020 Belgium's king expressed 'deepest regrets' for colonial wounds in Congo.
+  story: Exposed by the reports of British consul Roger Casement and the campaigns of journalist E. D. Morel, the atrocities of Leopold II's rubber regime caused worldwide outrage. In 1908 the Belgian parliament annexed the Congo Free State as a Belgian colony.
+  why: International outrage over atrocities, exposed by Casement's report and Morel's campaign, made Leopold's private rule untenable.
+  then: Belgian rule lasted until 1960, more regulated but still extractive, and left Congo with very few trained administrators at independence.
+## af191033 | 1910 | Union of South Africa | who: Britain; white settlers | where: South Africa
+  bluf: The Union of South Africa reconciled British and Boer whites by excluding Black Africans from power. The 1913 Natives Land Act, restricting Black land ownership to a small fraction of the country, laid foundations for apartheid.
+  now: The land law's effects on who owns South Africa's land are still debated today.
+  story: Eight years after the Boer War, Britain created the Union of South Africa as a self-governing dominion. Only white men could vote in most of it, and the 1913 Natives Land Act soon restricted Black land ownership to about 7% of the country.
+  why: Britain wanted to reconcile the British and Boer white populations after the war and create a self-governing dominion.
+  then: Black leaders founded the South African Native National Congress, later the ANC, in 1912 to fight back.
+## af-tanga | 1914 | Battle of Tanga: the 'Battle of the Bees' | who: British-Indian force (about 8,000) vs. Lettow-Vorbeck's Schutztruppe (about 1,000) | where: Tanga, Tanzania
+  bluf: The British defeat at Tanga by a much smaller German force began a four-year campaign in East Africa. It showed how a small, mobile army could tie down far larger ones in vast terrain.
+  now: British propaganda later claimed the Germans had used the bees deliberately; there is no evidence they did.
+  story: British-Indian troops landed at Tanga to take German East Africa. Lettow-Vorbeck's outnumbered force counterattacked, and swarms of bees disturbed by gunfire broke up British units. The British re-embarked, leaving weapons behind.
+  why: Britain wanted to seize Germany's colony quickly with a landing at its main northern port.
+  then: A four-year guerrilla war followed across East Africa, and the Germans captured enough modern rifles and ammunition to sustain it for months.
+## af191434 | 1914 | WWI East Africa campaign | who: German Gen. Lettow-Vorbeck vs. British Empire | where: Tanzania, Kenya, Mozambique
+  bluf: World War I in East Africa was a long guerrilla campaign fought mostly by African soldiers and supplied by over a million porters, hundreds of thousands of whom died. It shows how Europe's war devastated colonies that had no say in it.
+  now: The campaign tied down 150,000 Allied troops for four years, killed perhaps 100,000 African porters, and transferred Tanganyika from Germany to Britain, which fixed the map of East Africa until independence.
+  story: German commander Paul von Lettow-Vorbeck led a small force of German officers and African askari soldiers on a long guerrilla chase through Tanzania, Kenya and Mozambique. He surrendered only after hearing of the armistice in Europe.
+  why: World War I spread to the colonies: Britain wanted to seize German East Africa, and Germany wanted to tie down British forces far from Europe.
+  then: Over a million Africans were forced to carry supplies; hundreds of thousands of porters and civilians died of disease and hunger.
+  fact: The porters who died are among the least remembered victims of the war.
+## af-surrender | 1918 | Last German army in WWI surrenders in Africa | who: Paul von Lettow-Vorbeck | where: Abercorn (Mbala), Zambia
+  bluf: The last German force of World War I surrendered in Africa two weeks after the armistice, undefeated in battle. Its commander was celebrated in Germany, while the war's enormous toll on Africans was largely ignored.
+  now: His campaign is studied in military schools, while the cost to Africans is often ignored.
+  story: Paul von Lettow-Vorbeck's small army of German officers and African askari soldiers had evaded far larger British forces for four years, living off the land and moving into Mozambique and Northern Rhodesia. He learned of the armistice from a captured British dispatch and surrendered at Abercorn on November 25, 1918, two weeks after the war ended in Europe. At home he was celebrated as 'undefeated'; his campaign cost the lives of hundreds of thousands of Africans, mostly porters and civilians, through disease, famine and forced labour.
+  why: The armistice in Europe had ended the war; Lettow-Vorbeck learned of it from a captured British message.
+  then: The Allies divided Germany's colonies among themselves as League of Nations mandates.
+## af-tanganyika | 1919 | German East Africa becomes Tanganyika | who: League of Nations; Britain; Belgium | where: Dar es Salaam
+  bluf: The League of Nations mandate transferred German East Africa to Britain and Belgium under the idea of international trusteeship. In practice it was colonial rule, but mandate status later gave Tanganyikans an international forum to press for independence.
+  now: The mandate's borders are today's Tanzania, Rwanda and Burundi, and the idea of international trusteeship shaped the UN's later push for decolonization.
+  story: The Treaty of Versailles took Germany's colonies. Britain got most of German East Africa as a League of Nations mandate, formally in 1922; Belgium got Ruanda-Urundi.
+  why: The Allies divided Germany's colonies among themselves, but Wilson's ideals forced them to call it trusteeship under League of Nations oversight.
+  then: Britain ruled through chiefs ('indirect rule'), with far less white settlement than in Kenya, which shaped Tanzania's later development.
+## af193536 | 1935 | Italy invades Ethiopia | who: Mussolini; Emperor Haile Selassie | where: Ethiopia
+  bluf: Italy's invasion of Ethiopia, using poison gas, conquered one of Africa's last independent states while the League of Nations imposed only weak sanctions. The League's failure showed aggressors that collective security was hollow.
+  now: The League's failure showed Hitler that aggression would go unpunished.
+  story: Italy invaded to avenge its 1896 defeat at Adwa, using mustard gas on soldiers and civilians. Emperor Haile Selassie went to the League of Nations in person and warned, 'It is us today. It will be you tomorrow.'
+  why: Mussolini wanted revenge for Adwa, a colonial empire and a display of fascist strength.
+  then: Italy left the League, drew closer to Hitler, and ruled Ethiopia until British and Ethiopian forces freed it in 1941.
+  fact: Haile Selassie's speech to the League of Nations warned: 'It is us today. It will be you tomorrow.'
+## af194837 | 1948 | Apartheid begins | who: National Party (D.F. Malan) | where: South Africa
+  bluf: Apartheid turned South Africa's existing segregation into a comprehensive legal system of racial classification and separation that lasted until 1994. It made South Africa a global pariah, and the struggle against it became a defining cause of human rights.
+  now: Apartheid ended in 1994, but South Africa remains one of the most unequal countries on Earth.
+  story: The National Party won the whites-only election of 1948 and passed laws classifying every person by race, banning mixed marriages, segregating neighbourhoods and forcing Black South Africans to carry passes. It later created ethnic 'homelands' to strip Black South Africans of their citizenship.
+  why: Afrikaner nationalism, fear of the Black majority, white workers' fear of competition, and the economic interest in cheap Black labor without political rights.
+  then: Resistance grew, from the 1960 Sharpeville massacre to the 1976 Soweto uprising, along with world sanctions.
+## af195238 | 1952 | Mau Mau uprising | who: Kikuyu fighters (Kenya Land and Freedom Army) vs. Britain | where: Kenya
+  bluf: The Mau Mau uprising was a revolt over land and freedom that Britain crushed with mass detention, torture and executions. Though defeated militarily, it convinced Britain it could not hold Kenya and sped independence.
+  now: In 2013 Britain paid compensation to over 5,000 elderly survivors of the camps.
+  story: White settlers had taken the best farmland in the Kenyan highlands. Kikuyu fighters of the Kenya Land and Freedom Army attacked settlers and loyalists. Britain declared an emergency, detained about 150,000 people and used widespread torture.
+  why: White settlers had taken the best land in the Kenyan highlands, leaving Kikuyu squatters and workers impoverished and shut out of politics.
+  then: Military defeat for the fighters, but Britain saw it couldn't hold Kenya; independence came in 1963.
+  fact: In 2013 Britain paid compensation to over 5,000 Kenyans tortured in detention camps.
+## af195741 | 1957 | Ghana independent | who: Kwame Nkrumah | where: Ghana (Gold Coast)
+  bluf: Ghana's independence under Kwame Nkrumah made it the first sub-Saharan African colony to win freedom from European rule. It inspired independence movements across the continent and made Nkrumah the leading voice of pan-Africanism, though his rule turned authoritarian.
+  now: Ghana's independence opened the floodgates of African decolonization, and its return to stable democracy since 1992 has made it a regional model.
+  story: Kwame Nkrumah, jailed by the British, led a mass movement of strikes and boycotts. On March 6, 1957, the Gold Coast became Ghana, named after an ancient West African empire.
+  why: Nkrumah's Convention People's Party built a mass movement and won elections the British could not ignore, and a weakened Britain saw a gradual handover as the best way to keep influence.
+  then: Nkrumah championed pan-Africanism and backed independence movements across the continent; he was overthrown in 1966.
+  fact: Nkrumah named the country after the medieval Ghana Empire, which was actually hundreds of miles away in today's Mali and Mauritania.
+## af196042 | 1960 | 'Year of Africa' | who: 17 newly independent nations incl. Nigeria, Congo, Senegal | where: Africa
+  bluf: In 1960 seventeen African countries won independence, the peak of decolonization. The new states inherited colonial borders, economies built to export raw materials and weak institutions, and quickly became arenas of Cold War rivalry, coups and conflict, while also building national identities and regional institutions.
+  now: Most of Africa's map, and many of its political challenges, date from this moment; the recent expulsion of French troops from the Sahel shows those post-independence ties are still contested.
+  story: In 1960 seventeen African countries won independence, among them Nigeria, Congo, Senegal, Madagascar, Somalia, Cameroon, Côte d'Ivoire and most of the rest of French West and Central Africa. In February, Britain's prime minister Harold Macmillan told South Africa's parliament that a 'wind of change' was blowing through the continent.
+  why: European powers had been weakened by World War II and faced US and UN pressure; nationalist movements were strong; and France chose to grant independence quickly to keep influence through cooperation agreements.
+  then: Congo's crisis began within days, and military coups swept the continent from the mid-1960s. France kept close political, military and monetary ties with its former colonies.
+## d-sharpeville | 1960 | Sharpeville massacre | who: South African police; Pan Africanist Congress protesters | where: Sharpeville, South Africa
+  bluf: The Sharpeville massacre shattered hopes of peaceful change in South Africa: the government banned the ANC and PAC, which turned to armed struggle. It also made apartheid a target of worldwide condemnation.
+  now: March 21 is Human Rights Day in South Africa and the UN's day against racial discrimination.
+  story: On March 21, 1960, thousands gathered at Sharpeville police station to protest against laws forcing Black South Africans to carry passes. Police opened fire, killing 69 people, many of them shot in the back.
+  why: The Pan Africanist Congress, a breakaway from the ANC, called on people to leave their passes at home and present themselves for arrest at police stations.
+  then: The government declared a state of emergency and banned the ANC and PAC, which turned to armed struggle in 1961.
+## af196143 | 1961 | Lumumba assassinated | who: Patrice Lumumba; Katangan secessionists, with Belgian officers present | where: Near Élisabethville (Lubumbashi), Katanga
+  bluf: The murder of Patrice Lumumba, Congo's first elected prime minister, with Belgian and US complicity, cut short Congo's democratic beginnings. It paved the way for Mobutu's 32-year US-backed dictatorship and made Lumumba a symbol of betrayed African independence.
+  now: Belgium apologised in 2022 and returned his only remains, a tooth, to his family.
+  story: Lumumba, who had denounced Belgian colonialism at the independence ceremony, was dismissed amid an army mutiny and Katanga's secession, then arrested by Joseph Mobutu's soldiers. He was flown to Katanga and shot on January 17, 1961, with Belgian officers present; the CIA had earlier plotted to poison him.
+  why: Belgium and the US feared Lumumba would turn to the Soviet Union; Congolese rivals wanted him gone.
+  then: Congo slid into civil war and, from 1965, Mobutu's 32-year dictatorship, which looted the country with Western support.
+  fact: One of Lumumba's teeth was returned to his family by Belgium in 2022.
+## af196143b | 1961 | Tanganyika becomes independent | who: Julius Nyerere; the Tanganyika African National Union (TANU) | where: Dar es Salaam
+  bluf: Tanganyika won independence peacefully under Julius Nyerere, whose mass party had built broad support. Nyerere shaped Tanzania's stable, unified identity, though his one-party socialism had mixed economic results.
+  now: Nyerere, 'Mwalimu' (teacher), is Tanzania's founding father, revered for building national unity.
+  story: Julius Nyerere's TANU won independence from Britain through peaceful mass organising. Tanganyika, a UN trust territory, became independent on December 9, 1961, with Nyerere as prime minister.
+  why: TANU's mass support, and Britain's acceptance that the trust territory would become independent.
+  then: Tanganyika united with Zanzibar in 1964 to form Tanzania, and Nyerere's 1967 Arusha Declaration launched African socialism and forced villagization.
+## af196344 | 1963 | Organisation of African Unity founded | who: Haile Selassie, Kwame Nkrumah and 30 other heads of state | where: Addis Ababa
+  bluf: The OAU united newly independent African states to defend their sovereignty and end colonial rule, backing liberation movements in the south. It also froze colonial borders and enshrined non-interference, which shielded dictators.
+  now: It became the African Union in 2002, and its rule that colonial borders must not be changed still underpins Africa's map.
+  story: Thirty-two states founded the Organisation of African Unity in Addis Ababa in May 1963 to defend their independence and end colonial rule in Africa.
+  why: Newly independent states wanted to defend their sovereignty, end colonial rule in the rest of Africa and avoid conflicts over borders.
+  then: The OAU backed liberation movements in Angola, Mozambique, Rhodesia and South Africa.
+  fact: The OAU, and later the African Union, chose Addis Ababa because Ethiopia had never been colonised.
+## af196344b | 1963 | Kenya becomes independent | who: Jomo Kenyatta; the Kenya African National Union (KANU) | where: Nairobi
+  bluf: Kenya's independence under Jomo Kenyatta, once jailed as a Mau Mau leader, ended settler rule. Kenyatta's government kept much of the colonial economy and land distribution, feeding grievances that still shape Kenyan politics.
+  now: December 12, Jamhuri Day, is Kenya's national day; the Kenyattas remain a political dynasty.
+  story: Britain had imprisoned Kenyatta for years on disputed charges of leading Mau Mau. Released in 1961, he led KANU to victory and became prime minister at independence on December 12, 1963.
+  why: The Mau Mau war and the wider wave of decolonisation convinced Britain that settler rule was over.
+  then: Kenya became a one-party state under Kenyatta and then Daniel arap Moi until 1991.
+## af196445 | 1964 | Tanzania formed | who: Julius Nyerere; Abeid Karume | where: Tanganyika & Zanzibar
+  bluf: The union of Tanganyika and Zanzibar created Tanzania, partly to stabilize Zanzibar after its revolution and limit Cold War rivalry there. Under Nyerere, Swahili and a deliberately built national identity made Tanzania one of Africa's most cohesive states.
+  now: Zanzibar keeps its own semi-autonomous government, and the union is still debated.
+  story: A violent revolution in Zanzibar overthrew the Arab-led sultanate in January 1964. Three months later Nyerere and Abeid Karume merged the two countries.
+  why: After Zanzibar's revolution, Nyerere and Karume merged the two states, partly to contain Cold War rivalry on the islands.
+  then: Tanzania became one of Africa's most stable states, with Swahili as a unifying national language.
+  fact: The name combines TANganyika and ZANzibar.
+## d-rivonia | 1964 | Mandela sentenced to life | who: Nelson Mandela, Walter Sisulu and other ANC leaders | where: Pretoria
+  bluf: The Rivonia Trial jailed Mandela and the ANC leadership for life and seemed to crush the resistance. Instead, his speech and his imprisonment made him the world's most famous political prisoner and the symbol of the anti-apartheid struggle.
+  now: His speech, ending 'it is an ideal for which I am prepared to die', is one of the great speeches of the century.
+  story: Mandela and other ANC leaders were tried for sabotage after police raided their hideout at Rivonia. In April 1964 Mandela spoke for three hours from the dock. In June eight defendants were sentenced to life imprisonment, most of them on Robben Island.
+  why: The ANC had turned to sabotage after being banned in 1960, and police captured its underground leadership at a farm in Rivonia.
+  then: Mandela spent 27 years in prison and became the world's most famous political prisoner.
+## af196746 | 1967 | Biafran War | who: Nigerian federal government vs. Biafra (Odumegwu Ojukwu) | where: Southeastern Nigeria
+  bluf: Nigeria's war against Biafran secession killed somewhere between 500,000 and over two million people, mostly from famine caused by blockade. It preserved Nigeria's unity and set a precedent: Africa's colonial borders would be defended by force.
+  now: Biafra still shapes Nigerian politics, from Igbo complaints of marginalization to a revived separatist movement.
+  story: After two coups in 1966 and massacres of Igbo people in the north, the southeast declared independence as Biafra in May 1967. Nigeria's blockade caused mass starvation; images of starving children shocked the world. Biafra surrendered in January 1970.
+  why: Ethnic and regional rivalries in a federation created by British colonial rule, and oil in the southeast.
+  then: Estimates of the dead range from about 500,000 to over 2 million, mostly from famine.
+  fact: Médecins Sans Frontières (Doctors Without Borders) was founded in 1971 by French doctors who had worked in Biafra.
+## af196746b | 1967 | Arusha Declaration | who: Julius Nyerere; TANU | where: Arusha, Tanzania
+  bluf: The Arusha Declaration committed Tanzania to Ujamaa, an African socialism of self-reliance and collective villages. It built national unity but failed economically, and Tanzania turned to market reforms in the 1980s.
+  now: Ujamaa's emphasis on Swahili and national unity helped make Tanzania one of Africa's most cohesive nations.
+  story: Nyerere's declaration committed Tanzania to Ujamaa, Swahili for 'familyhood': nationalised banks and industries, self-reliance and, from 1973, the often forced movement of millions of rural people into collective villages.
+  why: Nyerere believed an African socialism rooted in village life would build a united, self-reliant nation.
+  then: Ujamaa villages largely failed economically, and Tanzania turned to market reforms in the 1980s.
+  fact: Nyerere was called 'Mwalimu', Swahili for teacher, his job before politics.
+## af197447 | 1974 | Haile Selassie overthrown | who: Derg military junta (later Mengistu) | where: Ethiopia
+  bluf: The overthrow of Haile Selassie ended Ethiopia's ancient monarchy and brought a Marxist military junta, the Derg, to power. The Derg's 'Red Terror', its wars and the famines of the 1980s devastated Ethiopia until 1991.
+  now: The Derg's fall in 1991 brought a system of ethnic federalism that still shapes Ethiopia's politics and conflicts.
+  story: Haile Selassie had ruled since 1930. Famine, a hidden cover-up and rising prices fed protests; the Derg, a Marxist military committee, took power.
+  why: Famine, which the emperor's government tried to hide, rising prices and army mutinies.
+  then: Under Mengistu Haile Mariam, the 'Red Terror' killed tens of thousands, and the emperor died in custody in 1975.
+## af197548 | 1975 | Angola becomes independent | who: MPLA (Agostinho Neto); rival FNLA and UNITA | where: Luanda
+  bluf: Angola won independence in the middle of a civil war between rival movements backed by the United States, the Soviet Union, Cuba and South Africa. The war lasted until 2002, making Angola one of the Cold War's most destructive proxy battlegrounds.
+  now: Angola is a major oil producer, and the MPLA still rules; José Eduardo dos Santos governed for 38 years, and his family's wealth became a symbol of oil-fuelled corruption.
+  story: Three rival movements had fought Portuguese rule since 1961. As Portugal left, they fought each other: the MPLA, backed by the USSR and tens of thousands of Cuban troops, held Luanda; UNITA and the FNLA were backed by the US, South Africa and Zaire. Independence came on November 11, 1975.
+  why: Portugal's own army overthrew its dictatorship in 1974, exhausted by colonial wars, and left without an agreed government in place.
+  then: The civil war lasted, with pauses, until UNITA's leader Jonas Savimbi was killed in 2002; perhaps half a million people died, and Cuban troops stayed until 1991.
+## af197548b | 1975 | Mozambique becomes independent | who: FRELIMO (Samora Machel) | where: Maputo
+  bluf: Mozambique's independence followed Portugal's own revolution, which ended its colonial wars. The new state immediately became a Cold War battleground, with a devastating civil war fuelled by Rhodesia and South Africa.
+  now: FRELIMO has governed Mozambique since independence, and its disputed 2024 election win set off deadly protests.
+  story: FRELIMO had fought Portuguese rule since 1964. After Portugal's 'Carnation Revolution' of April 1974, the new government agreed to leave, and Mozambique became independent on June 25, 1975, under Samora Machel.
+  why: Portugal's colonial wars had exhausted its army, which overthrew the dictatorship.
+  then: A civil war with RENAMO rebels, backed by Rhodesia and South Africa, killed about a million people before peace in 1992.
+## d-soweto | 1976 | Soweto uprising | who: Black school students in Soweto; South African police | where: Soweto, South Africa
+  bluf: The Soweto uprising, sparked by forcing schools to teach in Afrikaans, marked a new generation's revolt against apartheid. The killing of schoolchildren turned world opinion further against South Africa and sent many young activists into the armed struggle.
+  now: The uprising turned a new generation against apartheid and drew world attention to it; June 16 is now Youth Day in South Africa.
+  story: On June 16, 1976, thousands of students marched against a rule forcing schools to teach in Afrikaans. Police opened fire; a photograph of the dying schoolboy Hector Pieterson went around the world. Unrest spread, and hundreds were killed in the following months.
+  why: Apartheid's inferior 'Bantu education', a Black Consciousness movement among students, and a decree forcing them to learn half their subjects in Afrikaans, the language of their rulers.
+  then: Thousands of young people fled abroad to join the ANC in exile, giving it a new generation of fighters.
+## af197949 | 1979 | Tanzania ousts Idi Amin | who: Tanzanian army and Ugandan exiles; Nyerere | where: Uganda
+  bluf: Tanzania's invasion of Uganda toppled Idi Amin after Amin had attacked Tanzania. It was a rare case of an African state overthrowing a neighbour's dictator, breaking the continent's norm of non-interference.
+  now: It is one of the few times an African country invaded a neighbour to remove a dictator, and the African Union later adopted a right to intervene against mass atrocities.
+  story: Amin's army invaded Tanzania's Kagera region in 1978. Nyerere's army, with Ugandan exiles, counterattacked and captured Kampala in April 1979.
+  why: Amin's army invaded and annexed Tanzania's Kagera region in 1978, and Nyerere decided to remove him rather than just expel his troops.
+  then: Amin fled to Libya and then Saudi Arabia; Uganda went through more coups and a civil war until Yoweri Museveni took power in 1986.
+  fact: One of the very few times an African army invaded a neighbor and toppled its leader, with the OAU looking the other way.
+## af198050 | 1980 | Zimbabwe independent | who: Robert Mugabe | where: Zimbabwe (Rhodesia)
+  bluf: Zimbabwe's independence ended white-minority rule after a long guerrilla war and brought Robert Mugabe to power. Mugabe's 37-year rule turned authoritarian, and his land seizures and hyperinflation wrecked the economy.
+  now: Zimbabwe is often cited in debates about land reform, including South Africa's, and Mugabe was finally removed by his own army in 2017.
+  story: Rhodesia's white minority had declared independence from Britain in 1965 to avoid majority rule. A guerrilla war forced a deal, and Robert Mugabe won the 1980 elections.
+  why: A long guerrilla 'bush war' forced the white minority government to negotiate.
+  then: Mugabe ruled for 37 years; land seizures and hyperinflation wrecked the economy.
+  fact: The country is named after Great Zimbabwe, a medieval stone city that colonial authorities claimed Africans couldn't have built.
+## af198451 | 1984 | Ethiopian famine | who: Ethiopian government; Live Aid | where: Ethiopia
+  bluf: The Ethiopian famine of 1983-85, caused by drought but made far worse by war and government policy, killed up to a million people. Live Aid transformed humanitarian fundraising, but the famine also showed how aid can be manipulated by governments at war.
+  now: Debates over aid in war zones, from Sudan to Gaza, still turn on the lesson that famine is usually political.
+  story: Drought struck northern Ethiopia, but war and government policies made it far worse. BBC footage sparked Band Aid and the 1985 Live Aid concerts.
+  why: Drought made far worse by civil war and government policies, including forced resettlement.
+  then: It changed how Western charities raise money and raised hard questions about aid in war zones.
+## af199052 | 1990 | Mandela freed | who: Nelson Mandela; F.W. de Klerk | where: South Africa
+  bluf: Mandela's release and the unbanning of the ANC opened negotiations to end apartheid. They showed the regime had recognized that sanctions, resistance and economic decline made white minority rule unsustainable.
+  now: Mandela became a global symbol of forgiveness and peaceful transition.
+  story: On February 2, 1990, President F. W. de Klerk legalised the ANC and other banned movements. Nine days later, Nelson Mandela walked out of Victor Verster prison after 27 years.
+  why: Sanctions, internal resistance and a failing economy convinced President F. W. de Klerk that apartheid could not last.
+  then: Four years of tense negotiations led to South Africa's first democratic election.
+  fact: Mandela was prisoner 46664 on Robben Island. He stayed on a US terrorism watch list until 2008.
+## af199453 | 1994 | Rwandan genocide | who: Hutu extremists; the interim government; Tutsi and moderate Hutu victims | where: Rwanda
+  bluf: In 100 days, Hutu extremists killed about 800,000 people, mostly Tutsi, while the world stood by. The genocide destabilized the entire Great Lakes region, setting off the Congo wars, and led to the 'Responsibility to Protect' doctrine.
+  now: The world's failure to act led to the 'Responsibility to Protect' principle; Rwanda rebuilt under Paul Kagame.
+  story: After President Habyarimana's plane was shot down on April 6, 1994, Hutu extremists used radio propaganda, militias and machetes to slaughter Tutsi and moderate Hutu. UN peacekeepers were ordered not to intervene. The Tutsi-led Rwandan Patriotic Front ended the genocide by taking Kigali in July.
+  why: Ethnic divisions hardened under Belgian colonial rule, a civil war since 1990, economic crisis, and extremists' fear of sharing power under a peace deal.
+  trig: The shooting down of President Habyarimana's plane on April 6, 1994.
+  then: Perpetrators fled into Congo, setting off the Congo wars. The RPF government under Paul Kagame rebuilt Rwanda with rapid development and tight authoritarian control.
+  fact: About 800,000 people were killed in roughly 100 days, one of the fastest mass killings in history.
+## af199453b | 1994 | Mandela elected president | who: Nelson Mandela; the ANC | where: Pretoria
+  bluf: South Africa's first democratic election ended apartheid and made Nelson Mandela president. Its negotiated, peaceful transition became a global model, but the economic inequalities built under apartheid largely remain.
+  now: April 27 is Freedom Day; inequality and corruption remain South Africa's great challenges.
+  story: Millions queued for hours on April 27, 1994, many voting for the first time. The ANC won 62%, and Mandela, imprisoned for 27 years, was inaugurated in May.
+  why: Four years of negotiations between the ANC and the National Party, pushed by sanctions, resistance and violence that threatened civil war.
+  then: A Truth and Reconciliation Commission heard testimony about apartheid-era crimes, and the 1996 constitution became one of the world's most liberal.
+## af199654 | 1996 | Congo wars begin | who: Rwanda, Uganda, Laurent Kabila; later 9 countries | where: DR Congo
+  bluf: The Congo wars drew in nine African countries and killed millions, mostly through disease and hunger, making them the deadliest conflict since World War II. Fighting over minerals continues in eastern Congo today.
+  now: Fighting continues in eastern Congo, tied to minerals used in phones and electric cars.
+  story: Rwanda and Uganda invaded to chase genocide perpetrators and installed Laurent Kabila. Then they turned on him, and Angola, Zimbabwe and others joined. Armies plundered coltan, gold and diamonds.
+  why: Spillover from the Rwandan genocide, the collapse of Mobutu's state, and fights over minerals.
+  then: Estimates of the dead run into the millions, mostly from disease and hunger. Eastern Congo is still fought over by dozens of armed groups, including the M23 rebels, whom UN experts say Rwanda backs, who seized Goma in 2025.
+## d-trc | 1996 | Truth and Reconciliation Commission | who: Archbishop Desmond Tutu; victims and perpetrators of apartheid-era violence | where: Cape Town
+  bluf: South Africa's Truth and Reconciliation Commission traded amnesty for full confession, aiming at truth and healing rather than punishment. It became a model for countries emerging from atrocity, though many victims felt justice was not done.
+  now: It became a model for truth commissions from Latin America to Africa, and debate over whether it traded justice for peace continues.
+  story: Chaired by Desmond Tutu, the commission held public hearings from April 1996 at which thousands of victims told their stories. Perpetrators could apply for amnesty if they fully disclosed politically motivated crimes; fewer than a thousand of about 7,000 applicants received it.
+  why: A negotiated transition left the old security forces intact, and the new government needed the truth about apartheid's crimes without trials that could destabilize the country.
+  then: Its 1998 report blamed the apartheid state most, but also criticised the ANC.
+## af200255 | 2002 | African Union founded | who: African states | where: Durban, South Africa
+  bluf: The African Union replaced the OAU with a body that claimed the right to intervene in member states to stop genocide and war crimes, a break with strict non-interference. Its peacekeeping and mediation have had mixed results.
+  now: The Union replaced an organisation that could not intervene with one that can in principle, and it has since mandated peacekeeping in Somalia and suspended members after coups, while lacking the money to enforce its decisions.
+  story: Launched in Durban in July 2002 to replace the Organisation of African Unity, the African Union gave itself the right to intervene in member states in cases of genocide, war crimes and crimes against humanity, a break with the OAU's strict non-interference.
+  why: The OAU had failed to prevent atrocities such as Rwanda's, and African leaders wanted stronger cooperation and peacekeeping.
+  then: It has sent peacekeepers to Somalia, Sudan and elsewhere and suspended members after coups, though juntas in the Sahel have defied it.
+  fact: The AU became a permanent G20 member in 2023.
+## af200356 | 2003 | Darfur | who: Sudanese government; Janjaweed militias | where: Darfur, Sudan
+  bluf: In Darfur, Sudan's government and its Janjaweed militias killed hundreds of thousands, and the International Criminal Court issued its first arrest warrant for a sitting head of state. The same militias later became the RSF, a central force in Sudan's current war.
+  now: Janjaweed leaders formed the RSF, now fighting Sudan's army in a war marked by fresh mass killings in Darfur, including after the fall of El Fasher in 2025.
+  story: In 2003 rebels from Darfur's non-Arab groups attacked government posts. The government armed Arab militias, the Janjaweed, which with army support burned villages, killed and raped; around 300,000 people died and more than 2 million were displaced.
+  why: A rebellion by Darfur's non-Arab groups against marginalization, and the government's decision to crush it with Arab militias.
+  then: The International Criminal Court charged President Omar al-Bashir with genocide, the first sitting head of state charged.
+## af201157 | 2011 | South Sudan becomes independent | who: South Sudanese; Salva Kiir | where: Juba
+  bluf: South Sudan's independence ended decades of war with Khartoum, but within two years a civil war broke out between its own leaders. It shows how independence won by armed struggle can leave a state without working institutions.
+  now: South Sudan remains one of the world's most fragile states, and renewed fighting and the arrest of Vice President Machar in 2025 threatened its peace deal.
+  story: After two long civil wars between Sudan's government and southern rebels, a 2005 peace deal allowed a referendum. Nearly 99% voted to secede, and South Sudan became independent on July 9, 2011.
+  why: Decades of war and discrimination by Khartoum against the mostly non-Arab, non-Muslim south.
+  then: A power struggle between President Kiir and Vice President Machar became a civil war in 2013.
+## af201458 | 2014 | Ebola outbreak | who: Guinea, Liberia, Sierra Leone | where: West Africa
+  bluf: The 2014-16 Ebola epidemic in West Africa killed over 11,000 people and exposed weak health systems and a slow global response. It led to faster international outbreak responses and an Ebola vaccine.
+  now: An Ebola vaccine was approved in 2019, and the epidemic offered lessons, often unheeded, for COVID-19.
+  story: The outbreak began in a Guinean village in December 2013 and spread to Liberia and Sierra Leone in 2014, overwhelming health systems weakened by years of war. By 2016 there had been about 28,600 cases and over 11,300 deaths.
+  why: Weak health systems after years of war, and a virus spreading in crowded cities for the first time.
+  then: The world built faster ways to respond to epidemics, including a WHO emergency fund, and vaccine trials in Guinea proved successful.
+## af202059 | 2020 | Tigray war | who: Ethiopian government (Abiy Ahmed), Eritrea vs. TPLF | where: Tigray, Ethiopia
+  bluf: Ethiopia's war in Tigray killed hundreds of thousands, many through famine, and involved Eritrean troops and mass atrocities. It shattered Ethiopia's image as a rising African power and exposed the fragility of its ethnic federal system.
+  now: It stalled Ethiopia's economic rise, and tensions between Ethiopia and Eritrea, including over Ethiopia's demand for access to the sea, raise fears of a new war.
+  story: Prime Minister Abiy Ahmed, a Nobel Peace Prize winner, sent troops against the TPLF, Tigray's ruling party. Eritrean forces joined. Famine was used as a weapon.
+  why: A power struggle between Prime Minister Abiy Ahmed and the Tigray People's Liberation Front, which had dominated Ethiopia until 2018.
+  then: A peace deal was signed in 2022, but tensions with Eritrea and in other regions persist.
+## af202160 | 2021 | Sahel coups | who: Militaries in Mali, Burkina Faso, Niger | where: Sahel
+  bluf: A wave of military coups in Mali, Burkina Faso and Niger expelled French forces and brought in Russian mercenaries, reshaping the Sahel's alliances. The juntas promised security, but jihadist violence has kept growing.
+  now: Jihadist violence in the Sahel has kept growing, making it the region with the most terrorism deaths in the world, and in 2025 militants blockaded fuel supplies to Mali's capital.
+  story: Soldiers seized power in Mali (2020 and 2021), Burkina Faso (twice in 2022) and Niger (2023), blaming civilian governments and French troops for failing to stop jihadist insurgents.
+  why: Soldiers blamed civilian governments and French troops for failing to stop jihadist insurgencies that had killed thousands and displaced millions, and anti-French anger was widespread.
+  then: France withdrew its troops; Russian mercenaries moved in; the juntas left the regional bloc ECOWAS.
+## af202361 | 2023 | Sudan civil war | who: Sudanese Armed Forces vs. Rapid Support Forces | where: Sudan
+  bluf: Sudan's war between the army and the Rapid Support Forces has created the world's largest displacement crisis and spread famine. It is a struggle between two military factions that had jointly overthrown a civilian transition, with outside powers backing each side.
+  now: It is one of the world's worst humanitarian crises and a regional proxy contest: the United Arab Emirates is accused of backing the RSF, which it denies, while Egypt and others back the army.
+  story: On April 15, 2023, fighting broke out in Khartoum between the army under General Abdel Fattah al-Burhan and the paramilitary Rapid Support Forces of General Mohamed Hamdan Dagalo ('Hemedti'), who had seized power together in a 2021 coup. In Darfur, the RSF carried out new ethnic massacres.
+  why: The army and the RSF, which had jointly seized power in 2021, fought over control as a transition to civilian rule was being negotiated.
+  then: More than 10 million people were displaced, famine was confirmed in parts of Darfur, and the RSF took El Fasher in 2025 amid reports of mass killings.

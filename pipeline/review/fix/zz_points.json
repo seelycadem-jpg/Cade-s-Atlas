@@ -1,0 +1,82 @@
+[
+ {
+  "from": 1792,
+  "to": 1958,
+  "at": [
+   62.33,
+   25.13
+  ],
+  "country": "Pakistan",
+  "regions": [
+   "Baluchistan"
+  ],
+  "owner": "Oman",
+  "why": "Gwadar granted to the future Sultan of Muscat by the Khan of Kalat (1783), held by Muscat from 1792 until sold to Pakistan in 1958; drawn as its whole coastal province",
+  "source": "https://en.wikipedia.org/wiki/Gwadar",
+  "severity": "major"
+ },
+ {
+  "from": 1794,
+  "to": 1868,
+  "at": [
+   56.27,
+   27.18
+  ],
+  "country": "Iran",
+  "regions": [
+   "Hormozgan"
+  ],
+  "owner": "Oman",
+  "why": "Bandar Abbas, Qeshm and Hormuz leased by Muscat from Persia c.1794 until 1868",
+  "source": "https://en.wikipedia.org/wiki/Bandar_Abbas",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1507,
+  "at": [
+   53.8,
+   12.5
+  ],
+  "country": "Yemen",
+  "regions": [
+   "Hadramawt"
+  ],
+  "owner": "Mahra Sultanate of Qishn and Socotra",
+  "why": "Socotra under the Mahra sultans of Qishn",
+  "source": "https://en.wikipedia.org/wiki/Mahra_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1507,
+  "to": 1511,
+  "at": [
+   53.8,
+   12.5
+  ],
+  "country": "Yemen",
+  "regions": [
+   "Hadramawt"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "Portuguese fort at Suq, 1507-1511",
+  "source": "https://en.wikipedia.org/wiki/Socotra",
+  "severity": "minor"
+ },
+ {
+  "from": 1511,
+  "to": 1886,
+  "at": [
+   53.8,
+   12.5
+  ],
+  "country": "Yemen",
+  "regions": [
+   "Hadramawt"
+  ],
+  "owner": "Mahra Sultanate of Qishn and Socotra",
+  "why": "Socotra under the Mahra sultans until the British protectorate (1886)",
+  "source": "https://en.wikipedia.org/wiki/Mahra_Sultanate",
+  "severity": "major"
+ }
+]

@@ -1,0 +1,1109 @@
+[
+ {
+  "from": 1659,
+  "to": 1834,
+  "country": "Saint Helena",
+  "regions": [
+   "Saint Helena"
+  ],
+  "owner": "Saint Helena",
+  "overlord": "East India Company",
+  "why": "English East India Company settled St Helena in 1659 (first governor); crown colony from 22 Apr 1834. Map shows no polity for all 625 years",
+  "source": "https://en.wikipedia.org/wiki/Saint_Helena",
+  "severity": "major"
+ },
+ {
+  "from": 1834,
+  "to": 2026,
+  "country": "Saint Helena",
+  "regions": [
+   "Saint Helena"
+  ],
+  "owner": "Saint Helena",
+  "overlord": "United Kingdom",
+  "why": "Crown colony from 22 Apr 1834 to present (British Overseas Territory)",
+  "source": "https://en.wikipedia.org/wiki/Saint_Helena",
+  "severity": "major"
+ },
+ {
+  "from": 1815,
+  "to": 2026,
+  "country": "Saint Helena",
+  "regions": [
+   "Ascension"
+  ],
+  "owner": "Saint Helena",
+  "overlord": "United Kingdom",
+  "why": "Britain garrisoned Ascension from 22 Oct 1815 (Admiralty until 1922, then dependency of St Helena); map shows no polity",
+  "source": "https://en.wikipedia.org/wiki/Ascension_Island",
+  "severity": "major"
+ },
+ {
+  "from": 1816,
+  "to": 2026,
+  "country": "Saint Helena",
+  "regions": [
+   "Tristan da Cunha"
+  ],
+  "owner": "Saint Helena",
+  "overlord": "United Kingdom",
+  "why": "Britain annexed and garrisoned Tristan da Cunha 14 Aug 1816; dependency of St Helena from 1938; map shows no polity",
+  "source": "https://en.wikipedia.org/wiki/Tristan_da_Cunha",
+  "severity": "major"
+ },
+ {
+  "from": 1808,
+  "to": 1896,
+  "country": "Sierra Leone",
+  "regions": [
+   "Southern"
+  ],
+  "owner": "Sierra Leone",
+  "overlord": "United Kingdom",
+  "why": "Freetown/Sierra Leone a British Crown colony from 1808; map labels it 'British Cape Colony' 1820-1890 (South African polity) and as bare 'United Kingdom' 1810",
+  "source": "https://en.wikipedia.org/wiki/Sierra_Leone_Colony_and_Protectorate",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1896,
+  "country": "Sierra Leone",
+  "regions": [
+   "Eastern"
+  ],
+  "owner": "none",
+  "why": "Hinterland not British until the protectorate of 31 Aug 1896; map shows Korana/Griqua 'peoples' (South Africa) in 1830 and 'British Cape Colony' 1840-1890",
+  "source": "https://en.wikipedia.org/wiki/Sierra_Leone_Colony_and_Protectorate",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1896,
+  "country": "Sierra Leone",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "none",
+  "why": "Temne/Limba/Loko chiefdoms outside British rule until the protectorate of 31 Aug 1896; map shows 'British Cape Colony' 1840-1890",
+  "source": "https://en.wikipedia.org/wiki/Sierra_Leone_Colony_and_Protectorate",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1840,
+  "country": "Guinea",
+  "regions": [
+   "Macenta"
+  ],
+  "owner": "none",
+  "why": "Map shows South African 'peoples: Korana, Barolong, Griqua; Trekboers' in forest Guinea in 1830 (data leak)",
+  "source": "https://en.wikipedia.org/wiki/Sierra_Leone_Colony_and_Protectorate",
+  "severity": "minor"
+ },
+ {
+  "from": 1870,
+  "to": 1880,
+  "country": "Guinea",
+  "regions": [
+   "Faranah"
+  ],
+  "owner": "Imamate of Futa Jallon",
+  "why": "Map shows 'British Cape Colony' in Faranah in 1870 (data leak); Futa Jallon held the area until 1896",
+  "source": "https://en.wikipedia.org/wiki/Imamate_of_Futa_Jallon",
+  "severity": "major"
+ },
+ {
+  "from": 1870,
+  "to": 1880,
+  "country": "Guinea",
+  "regions": [
+   "Forécariah–Dubréka"
+  ],
+  "owner": "Moria",
+  "why": "Map shows 'British Cape Colony' in coastal Guinea in 1870 (data leak); Moria/Sumbuya held the coast",
+  "source": "https://en.wikipedia.org/wiki/Sierra_Leone_Colony_and_Protectorate",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1896,
+  "country": "Guinea",
+  "regions": [
+   "Dalaba–Koubia–Lélouma",
+   "Mali",
+   "Mamou",
+   "Télimélé",
+   "Gaoual",
+   "Faranah"
+  ],
+  "owner": "Imamate of Futa Jallon",
+  "why": "Futa Jallon independent until French entered Timbo 3 Nov 1896 and won at Porédaka 14 Nov 1896; map drops it to 'West African peoples'/alt names in 1890",
+  "source": "https://en.wikipedia.org/wiki/Imamate_of_Futa_Jallon",
+  "severity": "major"
+ },
+ {
+  "from": 1880,
+  "to": 1891,
+  "country": "Guinea",
+  "regions": [
+   "Kankan"
+  ],
+  "owner": "Wassoulou Empire",
+  "why": "Samori's Wassoulou Empire held Kankan (allied Baté) until French under Archinard took Kankan in Apr 1891",
+  "source": "https://en.wikipedia.org/wiki/Wassoulou_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1893,
+  "country": "Guinea",
+  "regions": [
+   "Kouroussa",
+   "Kissidougou",
+   "Beyla",
+   "Macenta"
+  ],
+  "owner": "Wassoulou Empire",
+  "why": "Samori held upper Guinea until French campaigns of 1891-93 (Bissandougou garrisoned Jan 1892, Faranah taken early 1893); map shows stateless peoples in 1890",
+  "source": "https://en.wikipedia.org/wiki/Wassoulou_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1520,
+  "to": 1600,
+  "country": "Guinea",
+  "regions": [
+   "Boke",
+   "Forécariah–Dubréka",
+   "Beyla",
+   "Kissidougou"
+  ],
+  "owner": "none",
+  "why": "Mali Empire, already in decline, did not rule the Guinea coast/forest; map flips these regions Mali/peoples every decade 1520-1600",
+  "source": "https://en.wikipedia.org/wiki/Mali_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1600,
+  "country": "Sierra Leone",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "none",
+  "why": "Mali Empire never ruled northern Sierra Leone; decade-by-decade Mali/peoples flicker 1520-1570",
+  "source": "https://en.wikipedia.org/wiki/Mali_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1600,
+  "country": "Ivory Coast",
+  "regions": [
+   "Denguélé"
+  ],
+  "owner": "none",
+  "why": "Mali/peoples flicker every decade 1520-1600 in Odienné area; no evidence of Mali rule this late",
+  "source": "https://en.wikipedia.org/wiki/Mali_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1830,
+  "to": 1847,
+  "country": "Liberia",
+  "regions": [
+   "Grand Cape Mount–Margibi–Bomi",
+   "Grand Bassa",
+   "Sinoe"
+  ],
+  "owner": "Colony of Liberia",
+  "why": "Settlements founded by the private American Colonization Society (Cape Mesurado acquired 1821; Commonwealth 1838/39) - not US territory; the US declined to make it a colony. Map labels it 'United States of America'",
+  "source": "https://en.wikipedia.org/wiki/History_of_Liberia",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1834,
+  "country": "Liberia",
+  "regions": [
+   "River Gee–Grand Kru"
+  ],
+  "owner": "none",
+  "why": "No settler colony at Cape Palmas before Feb 1834; map shows 'United States of America'",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Maryland",
+  "severity": "minor"
+ },
+ {
+  "from": 1834,
+  "to": 1857,
+  "country": "Liberia",
+  "regions": [
+   "River Gee–Grand Kru"
+  ],
+  "owner": "Republic of Maryland",
+  "why": "Maryland in Africa founded at Cape Palmas 12 Feb 1834, independent 1854, annexed by Liberia 1857; separate from Liberia (map shows USA then Liberia from 1850)",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Maryland",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1907,
+  "country": "Liberia",
+  "regions": [
+   "Lofa",
+   "Nimba",
+   "Grand Gedeh"
+  ],
+  "owner": "none",
+  "why": "Interior not under settler/Liberian control: the hinterland was first organised into districts in 1907 and the Frontier Force formed in 1908; map shows USA from 1830 and Liberia from 1850",
+  "source": "https://www.globalsecurity.org/military/library/report/1985/liberia_1_indirectrulep.htm",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1907,
+  "country": "Liberia",
+  "regions": [
+   "Gbapolu"
+  ],
+  "owner": "none",
+  "why": "Interior (Bopolu/Condo country) not administered by Liberia until hinterland districts of 1907; map shows USA 1840 and Liberia from 1850",
+  "source": "https://www.globalsecurity.org/military/library/report/1985/liberia_1_indirectrulep.htm",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1910,
+  "country": "Ivory Coast",
+  "regions": [
+   "Bas-Sassandra",
+   "Cavally",
+   "Dix-Huit Montagnes",
+   "Haut-Sassandra",
+   "Worodougou",
+   "Marahoué"
+  ],
+  "owner": "none",
+  "why": "Colony proclaimed only in 1893 and the western/central forest was taken by military 'pacification' from 1906-08 under Angoulvant; map shows full French control from 1890",
+  "source": "https://en.wikipedia.org/wiki/French_Ivory_Coast",
+  "severity": "major"
+ },
+ {
+  "from": 1750,
+  "to": 1910,
+  "country": "Ivory Coast",
+  "regions": [
+   "N'zi-Comoé",
+   "Vallée du Bandama"
+  ],
+  "owner": "Baoulé chiefdoms",
+  "why": "Baoulé kingdom (c.1730, between Bandama and N'Zi) never under Asante; map flickers Ashanti/Baoulé/Kong every decade 1750-1880 and shows French from 1890 though the Baoulé defied colonial rule until the 1906+ pacification",
+  "source": "https://en.wikipedia.org/wiki/Baoul%C3%A9_people",
+  "severity": "major"
+ },
+ {
+  "from": 1750,
+  "to": 1890,
+  "country": "Ivory Coast",
+  "regions": [
+   "Agnéby"
+  ],
+  "owner": "none",
+  "why": "Asante never ruled the Agnéby lagoon hinterland; map flickers Ashanti/peoples every decade 1750-1880",
+  "source": "https://en.wikipedia.org/wiki/Ashanti_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1880,
+  "to": 1898,
+  "country": "Ivory Coast",
+  "regions": [
+   "Denguélé"
+  ],
+  "owner": "Wassoulou Empire",
+  "why": "Odienné (Kabadougou) was Samori's; he moved his base there in 1892 and held the north until captured 29 Sep 1898; map shows French from 1890",
+  "source": "https://en.wikipedia.org/wiki/Wassoulou_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1850,
+  "to": 1897,
+  "country": "Ivory Coast",
+  "regions": [
+   "Zanzan"
+  ],
+  "owner": "Gyaman",
+  "why": "Gyaman (Bondoukou) was an Asante tributary to 1875, then autonomous; Samori 1895-97; partitioned after 1897. Map shows Kong Empire 1850-1890 and French from 1890",
+  "source": "https://en.wikipedia.org/wiki/Gyaman",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1898,
+  "country": "Ivory Coast",
+  "regions": [
+   "Savanes"
+  ],
+  "owner": "Kong Empire",
+  "why": "Kong was not occupied by France in 1890; Samori destroyed Kong in May 1897 and the French took over 1898",
+  "source": "https://en.wikipedia.org/wiki/Kong_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1480,
+  "country": "Senegal",
+  "regions": [
+   "Louga",
+   "Saint-Louis"
+  ],
+  "owner": "Jolof Empire",
+  "why": "Jolof Empire independent of Mali from c.1360 and ruled these lands until the 1549 breakup; map shows Mali Empire here until 1480",
+  "source": "https://en.wikipedia.org/wiki/Jolof_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1490,
+  "country": "Senegal",
+  "regions": [
+   "Kaffrine"
+  ],
+  "owner": "Jolof Empire",
+  "why": "Saloum area within Jolof's sphere until Saloum's founding c.1494; map shows Mali Empire",
+  "source": "https://en.wikipedia.org/wiki/Jolof_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1880,
+  "country": "Senegal",
+  "regions": [
+   "Kaffrine"
+  ],
+  "owner": "Kingdom of Saloum",
+  "why": "Saloum founded c.1494 and lasted into the colonial era; map flickers Saloum/Mali/Songhai every decade 1500-1580",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Saloum",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1520,
+  "country": "Senegal",
+  "regions": [
+   "Fatick"
+  ],
+  "owner": "Kingdom of Sine",
+  "overlord": "Jolof Empire",
+  "why": "Sine (Diakhao) was a Jolof tributary until it broke away before 1520; map shows Mali Empire 1400-1490 and 1500-1510",
+  "source": "https://en.wikipedia.org/wiki/Jolof_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1520,
+  "to": 1870,
+  "country": "Senegal",
+  "regions": [
+   "Fatick"
+  ],
+  "owner": "Kingdom of Sine",
+  "why": "Kingdom of Sine (c.1335-1969) is missing after 1500: map shows Mali/Saloum/Songhai flicker, then 'Dutch Republic' and 'Dutch Cape Colony' (1640-1700, a South African polity) in its place",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sine",
+  "severity": "major"
+ },
+ {
+  "from": 1480,
+  "to": 1549,
+  "country": "Senegal",
+  "regions": [
+   "Thiès"
+  ],
+  "owner": "Kingdom of Cayor",
+  "overlord": "Jolof Empire",
+  "why": "Thiès is Cayor; map relabels it Kingdom of Sine 1480-1550",
+  "source": "https://en.wikipedia.org/wiki/Cayor",
+  "severity": "minor"
+ },
+ {
+  "from": 1800,
+  "to": 1886,
+  "country": "Senegal",
+  "regions": [
+   "Thiès"
+  ],
+  "owner": "Kingdom of Cayor",
+  "why": "Cayor survived until Samba Fall was killed 6 Oct 1886 and Lat Jor fell; map replaces it in 1800 with the Lebou Republic (Cap-Vert peninsula only) and then French rule from 1860",
+  "source": "https://en.wikipedia.org/wiki/Cayor",
+  "severity": "major"
+ },
+ {
+  "from": 1780,
+  "to": 1855,
+  "country": "Senegal",
+  "regions": [
+   "Saint-Louis"
+  ],
+  "owner": "Kingdom of Waalo",
+  "why": "Lower Senegal river was Waalo until the French conquest of 1855; map shows 'Kingdom of Jolof' (an inland kingdom) here 1780-1860",
+  "source": "https://en.wikipedia.org/wiki/Waalo",
+  "severity": "major"
+ },
+ {
+  "from": 1888,
+  "to": 1960,
+  "country": "Senegal",
+  "regions": [
+   "Ziguinchor"
+  ],
+  "owner": "Senegal",
+  "overlord": "France",
+  "why": "Portugal transferred Ziguinchor to France on 22 Apr 1888; map keeps Casamance Portuguese until 1960",
+  "source": "https://en.wikipedia.org/wiki/Ziguinchor",
+  "severity": "major"
+ },
+ {
+  "from": 1570,
+  "to": 1600,
+  "country": "Senegal",
+  "regions": [
+   "Kolda",
+   "Ziguinchor"
+  ],
+  "owner": "Kaabu",
+  "why": "Songhai never reached Casamance; map shows Songhai Empire here 1570-1600. Kaabu was independent from 1537",
+  "source": "https://en.wikipedia.org/wiki/Kaabu",
+  "severity": "major"
+ },
+ {
+  "from": 1570,
+  "to": 1580,
+  "country": "Senegal",
+  "regions": [
+   "Kédougou"
+  ],
+  "owner": "none",
+  "why": "Songhai never ruled south-eastern Senegal; map shows Songhai Empire in 1570",
+  "source": "https://en.wikipedia.org/wiki/Songhai_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1660,
+  "to": 1903,
+  "country": "Mauritania",
+  "regions": [
+   "Trarza"
+  ],
+  "owner": "Emirate of Trarza",
+  "why": "Emirate of Trarza (c.1640) is missing; map shows the region French from 1660 (Saint-Louis is a river-mouth island in Senegal). Trarza became a French protectorate 15 Dec 1902",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Trarza",
+  "severity": "major"
+ },
+ {
+  "from": 1960,
+  "to": 2026,
+  "country": "Mauritania",
+  "regions": [
+   "Trarza"
+  ],
+  "owner": "Mauritania",
+  "why": "Trarza is Mauritanian; map shows it as Senegal from 1960 to today",
+  "source": "https://en.wikipedia.org/wiki/Trarza_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 1903,
+  "country": "Mauritania",
+  "regions": [
+   "Brakna"
+  ],
+  "owner": "Emirate of Brakna",
+  "why": "Brakna declared a French protectorate in 1902; Coppolani's peaceful penetration only began 1901",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Brakna",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1905,
+  "country": "Mauritania",
+  "regions": [
+   "Tagant"
+  ],
+  "owner": "Emirate of Tagant",
+  "why": "Map drops the emirate to 'nomads' in 1890 and shows French rule from 1900; Tagant was only subdued in 1904 and Coppolani was killed at Tidjikja in May 1905",
+  "source": "https://en.wikipedia.org/wiki/Colonial_Mauritania",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1909,
+  "country": "Mauritania",
+  "regions": [
+   "Adrar"
+  ],
+  "owner": "Emirate of Adrar",
+  "why": "Map drops the emirate in 1890 and shows French from 1900; Gouraud took Atar in 1908 and the Adrar submitted in 1909",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Adrar",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 1909,
+  "country": "Mauritania",
+  "regions": [
+   "Inchiri"
+  ],
+  "owner": "none",
+  "why": "Northern Mauritania not under French control before the 1908-09 Adrar campaign",
+  "source": "https://en.wikipedia.org/wiki/Colonial_Mauritania",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1934,
+  "country": "Mauritania",
+  "regions": [
+   "Tiris Zemmour"
+  ],
+  "owner": "Reguibat",
+  "why": "Far north was raided by the Reguibat outside French control until their last raid/submission in 1934; map shows French from 1900",
+  "source": "https://en.wikipedia.org/wiki/Colonial_Mauritania",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1900,
+  "country": "Mauritania",
+  "regions": [
+   "Hodh ech Chargui",
+   "Hodh el Gharbi"
+  ],
+  "owner": "Hodh Hassani tribes",
+  "why": "Map drops the Hodh tribes to generic 'nomads' for 1890 only (flicker before French occupation)",
+  "source": "https://en.wikipedia.org/wiki/Colonial_Mauritania",
+  "severity": "minor"
+ },
+ {
+  "from": 1430,
+  "to": 1468,
+  "country": "Mali",
+  "regions": [
+   "Timbuktu"
+  ],
+  "owner": "none",
+  "why": "Tuareg seized Timbuktu from Mali in 1433/34; Sonni Ali of Songhai took it only in 1468",
+  "source": "https://en.wikipedia.org/wiki/Timbuktu",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1898,
+  "country": "Mali",
+  "regions": [
+   "Sikasso"
+  ],
+  "owner": "Kénédougou Kingdom",
+  "why": "Sikasso was the capital of Kénédougou, which Samori besieged in vain in 1887-88; it fell to France on 1 May 1898. Map gives the region to Samori's Wassoulou Empire and Kong",
+  "source": "https://en.wikipedia.org/wiki/K%C3%A9n%C3%A9dougou_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1960,
+  "to": 2026,
+  "country": "Mali",
+  "regions": [
+   "Sikasso"
+  ],
+  "owner": "Mali",
+  "why": "Sikasso is Malian; map shows part of it as Guinea from 1960",
+  "source": "https://en.wikipedia.org/wiki/Sikasso_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1810,
+  "to": 1895,
+  "country": "Burkina Faso",
+  "regions": [
+   "Yatenga–Bam"
+  ],
+  "owner": "Kingdom of Yatenga",
+  "why": "Yatenga had its own unbroken line of Naabas 1806-1895 (Tuguri ... Baongo) before France; map gives the region to Ouagadougou (Kingdom of Wagadugu) 1810-1900",
+  "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Mossi_state_of_Yatenga",
+  "severity": "major"
+ },
+ {
+  "from": 1850,
+  "to": 1897,
+  "country": "Burkina Faso",
+  "regions": [
+   "Houet"
+  ],
+  "owner": "Gwiriko",
+  "why": "Gwiriko (Bobo-Dioulasso) independent of Kong from 1740 until French occupation 1897; map shows Kong Empire 1850-1900",
+  "source": "https://en.wikipedia.org/wiki/Gwiriko",
+  "severity": "major"
+ },
+ {
+  "from": 1810,
+  "to": 1897,
+  "country": "Burkina Faso",
+  "regions": [
+   "Mou Houn"
+  ],
+  "owner": "none",
+  "why": "Bwa/Marka country of the Black Volta bend was ruled neither by Mossi Ouagadougou nor by Kong (fragmented after c.1745); map shows Wagadugu 1810-1850 and Kong 1850-1900",
+  "source": "https://en.wikipedia.org/wiki/Kong_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1850,
+  "to": 1898,
+  "country": "Burkina Faso",
+  "regions": [
+   "Kénédougou"
+  ],
+  "owner": "Kénédougou Kingdom",
+  "why": "Kénédougou (independent of Kong from 1825, fell 1898) held this area; map shows Kong Empire 1850-1900 though Kong had fragmented after c.1745",
+  "source": "https://en.wikipedia.org/wiki/K%C3%A9n%C3%A9dougou_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1850,
+  "to": 1898,
+  "country": "Burkina Faso",
+  "regions": [
+   "Kossi",
+   "Komoé",
+   "Poni",
+   "Balé–Bougouriba"
+  ],
+  "owner": "none",
+  "why": "Kong Empire fragmented after Seku Watara's death c.1745 and did not rule western Burkina in 1850-1900; map shows it covering a third of the country",
+  "source": "https://en.wikipedia.org/wiki/Kong_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1450,
+  "to": 1630,
+  "country": "Burkina Faso",
+  "regions": [
+   "Balé–Bougouriba",
+   "Mou Houn"
+  ],
+  "owner": "none",
+  "why": "Mossi rule never reached the Black Volta/Lobi-Dagara lands; map shows Kingdom of Wagadugu",
+  "source": "https://en.wikipedia.org/wiki/Mossi_Kingdoms",
+  "severity": "minor"
+ },
+ {
+  "from": 1710,
+  "to": 1850,
+  "country": "Burkina Faso",
+  "regions": [
+   "Balé–Bougouriba",
+   "Poni"
+  ],
+  "owner": "none",
+  "why": "Mossi Ouagadougou never ruled Lobi/Dagara country; map shows Kingdom of Wagadugu 1710-1750 and 1810-1850",
+  "source": "https://en.wikipedia.org/wiki/Mossi_Kingdoms",
+  "severity": "minor"
+ },
+ {
+  "from": 1630,
+  "to": 1897,
+  "country": "Ghana",
+  "regions": [
+   "Upper West"
+  ],
+  "owner": "Kingdom of Wala",
+  "why": "Wa was ruled by the Wa-Naa (Kingdom of Wala), not Ouagadougou or Kong; map shows Kingdom of Wagadugu 1630-1850 and Kong Empire 1850-1900",
+  "source": "https://en.wikipedia.org/wiki/Wala_people",
+  "severity": "major"
+ },
+ {
+  "from": 1770,
+  "to": 1840,
+  "country": "Ghana",
+  "regions": [
+   "Volta"
+  ],
+  "owner": "Anlo",
+  "why": "Oyo's tributaries lay in Aja/Ewe lands of modern Benin-Togo; it never ruled the Volta/Anlo area. Map shows Oyo Empire here 1770-1840",
+  "source": "https://en.wikipedia.org/wiki/Oyo_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1874,
+  "to": 1890,
+  "country": "Ghana",
+  "regions": [
+   "Eastern",
+   "Western"
+  ],
+  "owner": "Ghana",
+  "overlord": "United Kingdom",
+  "why": "Southern protectorate (Akyem, Wassa, Nzema, Ahanta) became the Gold Coast crown colony in 1874 after the Dutch forts were bought in 1872; map keeps these regions Ashanti until 1890",
+  "source": "https://en.wikipedia.org/wiki/Gold_Coast_(British_colony)",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1896,
+  "country": "Ghana",
+  "regions": [
+   "Brong Ahafo"
+  ],
+  "owner": "Ashanti Empire",
+  "why": "Asante and its Brong provinces were occupied only in 1896 (protectorate/colony 1896-1902); map shows British from 1890",
+  "source": "https://en.wikipedia.org/wiki/Gold_Coast_(British_colony)",
+  "severity": "minor"
+ },
+ {
+  "from": 1914,
+  "to": 1957,
+  "country": "Ghana",
+  "regions": [
+   "Volta"
+  ],
+  "owner": "British Togoland",
+  "overlord": "United Kingdom",
+  "why": "Western Togoland occupied by Britain in 1914 and held as British Togoland until union with the Gold Coast in 1956-57; map labels 1920-1930 'German Togoland [under United Kingdom]'",
+  "source": "https://en.wikipedia.org/wiki/Togoland",
+  "severity": "minor"
+ },
+ {
+  "from": 1850,
+  "to": 1890,
+  "country": "Togo",
+  "regions": [
+   "Plateaux"
+  ],
+  "owner": "none",
+  "why": "Dahomey never ruled the Togo plateau (Atakpamé/Notsé); map shows Kingdom of Dahomey here 1850-1890",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Dahomey",
+  "severity": "major"
+ },
+ {
+  "from": 1850,
+  "to": 1898,
+  "country": "Togo",
+  "regions": [
+   "Kara"
+  ],
+  "owner": "none",
+  "why": "Kabye/Lamba highlands were never ruled by the Mossi; map shows Kingdom of Wagadugu 1850-1890 and 'Mossi States' 1890",
+  "source": "https://en.wikipedia.org/wiki/Mossi_Kingdoms",
+  "severity": "major"
+ },
+ {
+  "from": 1690,
+  "to": 1730,
+  "country": "Benin",
+  "regions": [
+   "Zou"
+  ],
+  "owner": "Kingdom of Dahomey",
+  "why": "Zou holds Abomey, Dahomey's capital (kingdom c.1600-1894); map shows Kingdom of Porto-Novo here",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Dahomey",
+  "severity": "major"
+ },
+ {
+  "from": 1730,
+  "to": 1823,
+  "country": "Benin",
+  "regions": [
+   "Zou"
+  ],
+  "owner": "Kingdom of Dahomey",
+  "overlord": "Oyo Empire",
+  "why": "Dahomey was an Oyo tributary 1732-1823 but kept its own kings; map replaces it with Oyo Empire 1750-1830",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Dahomey",
+  "severity": "major"
+ },
+ {
+  "from": 1823,
+  "to": 1894,
+  "country": "Benin",
+  "regions": [
+   "Zou"
+  ],
+  "owner": "Kingdom of Dahomey",
+  "why": "Dahomey independent of Oyo from the 1820s until the French conquest of 1892-94; map shows Kingdom of Porto-Novo in its capital region 1830-1900",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Dahomey",
+  "severity": "major"
+ },
+ {
+  "from": 1894,
+  "to": 1960,
+  "country": "Benin",
+  "regions": [
+   "Zou"
+  ],
+  "owner": "Benin",
+  "overlord": "France",
+  "why": "Dahomey conquered 1894 (protectorate, colony 1904)",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Dahomey",
+  "severity": "minor"
+ },
+ {
+  "from": 1960,
+  "to": 1975,
+  "country": "Benin",
+  "regions": [
+   "*"
+  ],
+  "owner": "Republic of Dahomey",
+  "why": "Independent state was named Dahomey until 30 Nov 1975; map labels it 'Benin' from 1970 (Zou alone shows Dahomey)",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Dahomey",
+  "severity": "minor"
+ },
+ {
+  "from": 1710,
+  "to": 1750,
+  "country": "Nigeria",
+  "regions": [
+   "Bayelsa"
+  ],
+  "owner": "Nembe Kingdom",
+  "why": "Oyo never ruled the Niger Delta; map shows Oyo Empire 1710-1750",
+  "source": "https://en.wikipedia.org/wiki/Oyo_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1710,
+  "to": 1750,
+  "country": "Nigeria",
+  "regions": [
+   "Delta"
+  ],
+  "owner": "Warri Kingdom",
+  "why": "Oyo never ruled Warri/the western Delta; map shows Oyo Empire 1710-1750",
+  "source": "https://en.wikipedia.org/wiki/Oyo_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1710,
+  "to": 1750,
+  "country": "Nigeria",
+  "regions": [
+   "Ondo"
+  ],
+  "owner": "Kingdom of Benin",
+  "why": "Oyo failed to conquer Benin's eastern Yoruba marches; map shows Oyo Empire 1710-1750",
+  "source": "https://en.wikipedia.org/wiki/Oyo_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1500,
+  "country": "Nigeria",
+  "regions": [
+   "Kogi"
+  ],
+  "owner": "none",
+  "why": "Benin did not reach the Niger-Benue confluence in 1400; map shows Kingdom of Benin",
+  "source": "https://en.wikipedia.org/wiki/Igala_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1900,
+  "country": "Nigeria",
+  "regions": [
+   "Kogi"
+  ],
+  "owner": "Igala Kingdom",
+  "why": "Igala kingdom (Idah, 16th c.) is missing until 1750; map shows Kingdom of Benin 1500-1710, Oyo 1710-1750 and flickers Oyo/Sokoto/Igala every decade thereafter",
+  "source": "https://en.wikipedia.org/wiki/Igala_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1710,
+  "country": "Nigeria",
+  "regions": [
+   "Osun"
+  ],
+  "owner": "Ijesha",
+  "why": "Ilesa (Ijesha, c.1300) and Ife were kin, not subjects, of Benin; map shows Kingdom of Benin in Osun 1400-1640 and flickers Benin/Oyo to 1710",
+  "source": "https://en.wikipedia.org/wiki/Ilesa",
+  "severity": "major"
+ },
+ {
+  "from": 1820,
+  "to": 1890,
+  "country": "Nigeria",
+  "regions": [
+   "Osun"
+  ],
+  "owner": "Ijesha",
+  "why": "Sokoto never held Osun; map flickers Ijesha/Sokoto Caliphate every decade 1830-1880",
+  "source": "https://en.wikipedia.org/wiki/Ilesa",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1902,
+  "country": "Nigeria",
+  "regions": [
+   "Anambra",
+   "Enugu"
+  ],
+  "owner": "Aro Confederacy",
+  "why": "Igbo interior was not occupied until the Anglo-Aro War (Arochukwu taken 28 Dec 1901, confederacy collapsed 1902); map shows Oil Rivers Protectorate from 1890",
+  "source": "https://en.wikipedia.org/wiki/Aro_Confederacy",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1901,
+  "country": "Nigeria",
+  "regions": [
+   "Adamawa"
+  ],
+  "owner": "Sokoto Caliphate",
+  "why": "Yola (Adamawa Emirate) was taken by the British on 2 Sep 1901; Germany only advanced into southern Adamawa from 1898. Map shows German Kamerun from 1890",
+  "source": "https://en.wikipedia.org/wiki/Adamawa_Emirate",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1901,
+  "country": "Nigeria",
+  "regions": [
+   "Taraba"
+  ],
+  "owner": "Sokoto Caliphate",
+  "why": "Muri/Adamawa emirate lands were not German-occupied in the 1890s (German advance from the south began 1898); map shows Kamerun from 1890",
+  "source": "https://en.wikipedia.org/wiki/Adamawa_Emirate",
+  "severity": "minor"
+ },
+ {
+  "from": 1900,
+  "to": 1903,
+  "country": "Nigeria",
+  "regions": [
+   "Kano",
+   "Katsina",
+   "Jigawa",
+   "Zamfara",
+   "Kebbi"
+  ],
+  "owner": "Sokoto Caliphate",
+  "why": "Northern Nigeria protectorate proclaimed on paper 1 Jan 1900, but fighting began in 1902; Kano fell in 1903 and Sokoto conceded 13 Mar 1903",
+  "source": "https://en.wikipedia.org/wiki/Northern_Nigeria_Protectorate",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 1902,
+  "country": "Nigeria",
+  "regions": [
+   "Kaduna",
+   "Bauchi",
+   "Gombe"
+  ],
+  "owner": "Sokoto Caliphate",
+  "why": "Zaria and Bauchi emirates were occupied only in 1902; map shows British rule from 1900",
+  "source": "https://en.wikipedia.org/wiki/Northern_Nigeria_Protectorate",
+  "severity": "minor"
+ },
+ {
+  "from": 1903,
+  "to": 1914,
+  "country": "Nigeria",
+  "regions": [
+   "Sokoto"
+  ],
+  "owner": "Northern Nigeria",
+  "overlord": "United Kingdom",
+  "why": "Sokoto submitted 13 Mar 1903; map keeps Sokoto Caliphate until 1910",
+  "source": "https://en.wikipedia.org/wiki/Sokoto_Caliphate",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1906,
+  "country": "Niger",
+  "regions": [
+   "Agadez"
+  ],
+  "owner": "Sultanate of Agadez",
+  "why": "Sultanate of Agadez (1405) came under French administration only in 1906; map drops it to 'nomads' in 1890 and shows French from 1900",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Agadez",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1899,
+  "country": "Niger",
+  "regions": [
+   "Zinder"
+  ],
+  "owner": "Sultanate of Damagaram",
+  "why": "Damagaram (Zinder, 1736) independent under Tanimoune; Zinder occupied by the French in July 1899. Map shows Sokoto Caliphate in 1890",
+  "source": "https://en.wikipedia.org/wiki/Damagaram",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1899,
+  "country": "Niger",
+  "regions": [
+   "Maradi"
+  ],
+  "owner": "Maradi",
+  "why": "Maradi was the Katsina state-in-exile opposing Sokoto, alongside Gobir-Tibiri; French arrived 1899. Map flickers Sokoto/Gobir every decade 1830-1890",
+  "source": "https://en.wikipedia.org/wiki/Maradi,_Niger",
+  "severity": "minor"
+ },
+ {
+  "from": 1830,
+  "to": 1898,
+  "country": "Niger",
+  "regions": [
+   "Dosso"
+  ],
+  "owner": "Dosso Kingdom",
+  "why": "Dosso led Zarma resistance to Sokoto from the 1820s (under Gando only 1849-56) until the French arrived 1898; map shows Sokoto Caliphate 1830-1900",
+  "source": "https://en.wikipedia.org/wiki/Dosso_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1910,
+  "to": 1960,
+  "country": "Niger",
+  "regions": [
+   "Diffa"
+  ],
+  "owner": "Niger",
+  "overlord": "France",
+  "why": "Diffa was part of French Niger; map shows part of it British 1910-1960",
+  "source": "https://en.wikipedia.org/wiki/Diffa_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1960,
+  "to": 2026,
+  "country": "Niger",
+  "regions": [
+   "Diffa"
+  ],
+  "owner": "Niger",
+  "why": "Diffa is in Niger; map shows part of it as Nigeria from 1960 to today",
+  "source": "https://en.wikipedia.org/wiki/Diffa_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1867,
+  "to": 1890,
+  "country": "Guinea Bissau",
+  "regions": [
+   "Bafatá–Tombali"
+  ],
+  "owner": "Fuladu",
+  "why": "After Kaabu fell at Kansala in 1867 the Fula state of Fuladu ruled the upper Geba/Casamance; map shows stateless peoples 1870-1890",
+  "source": "https://en.wikipedia.org/wiki/Fuladu",
+  "severity": "minor"
+ }
+]

@@ -1,0 +1,523 @@
+[
+ {
+  "from": 1503,
+  "to": 1556,
+  "country": "Russia",
+  "regions": [
+   "Volgograd",
+   "Kalmyk"
+  ],
+  "owner": "Astrakhan Khanate",
+  "overlord": "",
+  "why": "After the Great Horde fell (1502) the lower Volga west bank was Astrakhan's (with Nogai herds)",
+  "source": "https://en.wikipedia.org/wiki/Astrakhan_Khanate",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1556,
+  "to": 1600,
+  "country": "Russia",
+  "regions": [
+   "Volgograd",
+   "Kalmyk"
+  ],
+  "owner": "Nogai Horde",
+  "overlord": "Tsardom of Russia",
+  "why": "Great Nogai Horde, a Muscovite vassal after the fall of Astrakhan (1556)",
+  "source": "https://en.wikipedia.org/wiki/Nogai_Horde",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1600,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Volgograd"
+  ],
+  "owner": "Tsardom of Russia",
+  "overlord": "",
+  "why": "Volga line forts (Tsaritsyn 1589) held by Muscovy",
+  "source": "https://en.wikipedia.org/wiki/Volgograd",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1600,
+  "to": 1634,
+  "country": "Russia",
+  "regions": [
+   "Kalmyk"
+  ],
+  "owner": "Nogai Horde",
+  "overlord": "Tsardom of Russia",
+  "why": "Nogai herds west of the Volga under Muscovite suzerainty until the Kalmyk arrival",
+  "source": "https://en.wikipedia.org/wiki/Nogai_Horde",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1503,
+  "to": 1570,
+  "country": "Russia",
+  "regions": [
+   "Rostov"
+  ],
+  "owner": "Crimean Khanate",
+  "overlord": "",
+  "why": "Lower Don steppe held by Crimea and its Nogai after 1502",
+  "source": "https://en.wikipedia.org/wiki/Crimean_Khanate",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1570,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Rostov"
+  ],
+  "owner": "Don Cossacks",
+  "overlord": "",
+  "why": "Don Cossack Host (recognised by Moscow 1570) held the lower Don; Azov stayed Ottoman",
+  "source": "https://en.wikipedia.org/wiki/Don_Cossacks",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1570,
+  "to": 1640,
+  "country": "Ukraine",
+  "regions": [
+   "Luhans'k"
+  ],
+  "owner": "Don Cossacks",
+  "overlord": "",
+  "why": "Upper Donets steppe was Don Cossack range",
+  "source": "https://en.wikipedia.org/wiki/Don_Cossacks",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1503,
+  "to": 1570,
+  "country": "Ukraine",
+  "regions": [
+   "Luhans'k"
+  ],
+  "owner": "Crimean Khanate",
+  "overlord": "",
+  "why": "Wild Fields raided and claimed by Crimea after 1502",
+  "source": "https://en.wikipedia.org/wiki/Wild_Fields",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1503,
+  "to": 1585,
+  "country": "Russia",
+  "regions": [
+   "Voronezh"
+  ],
+  "owner": "Crimean Khanate",
+  "overlord": "",
+  "why": "Wild Fields south of the Muscovite frontier, Crimean raiding ground until the Voronezh fort (1585)",
+  "source": "https://en.wikipedia.org/wiki/Wild_Fields",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1585,
+  "to": 1600,
+  "country": "Russia",
+  "regions": [
+   "Voronezh"
+  ],
+  "owner": "Tsardom of Russia",
+  "overlord": "",
+  "why": "Voronezh founded 1585 as a Muscovite frontier fort",
+  "source": "https://en.wikipedia.org/wiki/Voronezh",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1503,
+  "to": 1521,
+  "country": "Russia",
+  "regions": [
+   "Lipetsk",
+   "Tambov"
+  ],
+  "owner": "Ryazan",
+  "overlord": "",
+  "why": "Southern lands of the Grand Principality of Ryazan, annexed by Moscow in 1521",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Ryazan",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1521,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Lipetsk",
+   "Tambov"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "overlord": "",
+  "why": "Ryazan annexed 1521",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Ryazan",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1547,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Lipetsk",
+   "Tambov",
+   "Mordovia"
+  ],
+  "owner": "Tsardom of Russia",
+  "overlord": "",
+  "why": "Muscovite frontier lands (Tambov fort 1636)",
+  "source": "https://en.wikipedia.org/wiki/Tambov",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1503,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Mordovia"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "overlord": "",
+  "why": "Temnikov and the Moksha lands under Moscow",
+  "source": "https://en.wikipedia.org/wiki/Mordovia",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1503,
+  "to": 1552,
+  "country": "Russia",
+  "regions": [
+   "Penza"
+  ],
+  "owner": "Khanate of Kazan",
+  "overlord": "",
+  "why": "Erzya and Moksha lands south of Kazan paid tribute to Kazan until 1552",
+  "source": "https://en.wikipedia.org/wiki/Khanate_of_Kazan",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1552,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Penza"
+  ],
+  "owner": "Tsardom of Russia",
+  "overlord": "",
+  "why": "After the fall of Kazan (1552) Muscovy held the Sura lands",
+  "source": "https://en.wikipedia.org/wiki/Penza",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1438,
+  "country": "Russia",
+  "regions": [
+   "Udmurt"
+  ],
+  "owner": "Golden Horde",
+  "overlord": "",
+  "why": "Udmurt lands paid tribute to the Horde (Kazan ulus)",
+  "source": "https://en.wikipedia.org/wiki/Udmurts",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1438,
+  "to": 1552,
+  "country": "Russia",
+  "regions": [
+   "Udmurt"
+  ],
+  "owner": "Khanate of Kazan",
+  "overlord": "",
+  "why": "Southern Udmurts were subjects of Kazan until 1552",
+  "source": "https://en.wikipedia.org/wiki/Udmurts",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1503,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Belgorod"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "overlord": "",
+  "why": "Severian lands ceded to Moscow by Lithuania (1503)",
+  "source": "https://en.wikipedia.org/wiki/Muscovite–Lithuanian_Wars",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1547,
+  "to": 1680,
+  "country": "Russia",
+  "regions": [
+   "Belgorod"
+  ],
+  "owner": "Tsardom of Russia",
+  "overlord": "",
+  "why": "Belgorod line (fort 1596) on Muscovy's steppe frontier",
+  "source": "https://en.wikipedia.org/wiki/Belgorod_Line",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1547,
+  "to": 1680,
+  "country": "Ukraine",
+  "regions": [
+   "Sumy"
+  ],
+  "owner": "Tsardom of Russia",
+  "overlord": "",
+  "why": "Putyvl and the Sumy lands stayed Muscovite",
+  "source": "https://en.wikipedia.org/wiki/Sumy",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1503,
+  "to": 1569,
+  "country": "Ukraine",
+  "regions": [
+   "Kharkiv"
+  ],
+  "owner": "Grand Duchy of Lithuania",
+  "overlord": "",
+  "why": "Wild Fields claimed by Lithuania",
+  "source": "https://en.wikipedia.org/wiki/Wild_Fields",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1569,
+  "to": 1647,
+  "country": "Ukraine",
+  "regions": [
+   "Kharkiv"
+  ],
+  "owner": "Polish-Lithuanian Commonwealth",
+  "overlord": "",
+  "why": "Wild Fields within the Commonwealth's claims until Sloboda settlement",
+  "source": "https://en.wikipedia.org/wiki/Wild_Fields",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1647,
+  "to": 1680,
+  "country": "Ukraine",
+  "regions": [
+   "Kharkiv"
+  ],
+  "owner": "Tsardom of Russia",
+  "overlord": "",
+  "why": "Sloboda Ukraine settled under Muscovy (Kharkiv founded 1654)",
+  "source": "https://en.wikipedia.org/wiki/Sloboda_Ukraine",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1598,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Kurgan"
+  ],
+  "owner": "Tsardom of Russia",
+  "overlord": "",
+  "why": "Tobol valley under the Tobolsk and Tyumen districts after Kuchum's fall (1598)",
+  "source": "https://en.wikipedia.org/wiki/Siberian_Khanate",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1721,
+  "to": 1800,
+  "country": "Russia",
+  "regions": [
+   "Kurgan"
+  ],
+  "owner": "Russian Empire",
+  "overlord": "",
+  "why": "Tobol valley under the Russian Empire",
+  "source": "https://en.wikipedia.org/wiki/Kurgan_Oblast",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1460,
+  "to": 1774,
+  "country": "Russia",
+  "regions": [
+   "Kabardin-Balkar"
+  ],
+  "owner": "Kabarda",
+  "overlord": "",
+  "why": "Kabardian principality from the 15th c.; Russian after 1774",
+  "source": "https://en.wikipedia.org/wiki/Kabardia",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1460,
+  "to": 1829,
+  "country": "Russia",
+  "regions": [
+   "Adygey",
+   "Karachay-Cherkess"
+  ],
+  "owner": "Circassia",
+  "overlord": "",
+  "why": "Circassian principalities between the Kuban and the mountains until the Russian conquest",
+  "source": "https://en.wikipedia.org/wiki/Circassia",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1500,
+  "to": 1785,
+  "country": "Russia",
+  "regions": [
+   "Chechnya",
+   "Ingush",
+   "North Ossetia"
+  ],
+  "owner": "peoples:Vainakh and Ossetian societies",
+  "overlord": "",
+  "why": "Highland communities with no overlord until Russian forts (Vladikavkaz 1784)",
+  "source": "https://en.wikipedia.org/wiki/Vainakh_peoples",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1405,
+  "to": 1428,
+  "country": "Kazakhstan",
+  "regions": [
+   "Qostanay",
+   "Aqmola",
+   "North Kazakhstan",
+   "Pavlodar",
+   "Qaraghandy",
+   "Aqtöbe",
+   "East Kazakhstan"
+  ],
+  "owner": "Golden Horde",
+  "overlord": "",
+  "why": "Eastern wing (Uzbek ulus) of the Horde before Abu'l-Khayr",
+  "source": "https://en.wikipedia.org/wiki/Golden_Horde",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1598,
+  "to": 1725,
+  "country": "Kazakhstan",
+  "regions": [
+   "North Kazakhstan",
+   "Qostanay"
+  ],
+  "owner": "Kazakh Khanate",
+  "overlord": "",
+  "why": "Middle Jüz pastures south of the Russian Tobol forts",
+  "source": "https://en.wikipedia.org/wiki/Kazakh_Khanate",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1510,
+  "to": 1725,
+  "country": "Kazakhstan",
+  "regions": [
+   "Qyzylorda",
+   "Mangghystau"
+  ],
+  "owner": "Kazakh Khanate",
+  "overlord": "",
+  "why": "Syr Darya towns and western pastures of the Kazakh Khanate",
+  "source": "https://en.wikipedia.org/wiki/Kazakh_Khanate",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1510,
+  "to": 1600,
+  "country": "Turkmenistan",
+  "regions": [
+   "Balkan"
+  ],
+  "owner": "Yomut Turkmen",
+  "overlord": "",
+  "why": "Turkmen tribes of the Balkan and Mangyshlak steppe",
+  "source": "https://en.wikipedia.org/wiki/Yomut",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1556,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Stavropol'"
+  ],
+  "owner": "Lesser Nogai Horde",
+  "overlord": "Crimean Khanate",
+  "why": "Kuban and Kuma steppe of the Lesser Nogai under Crimean suzerainty after 1556; map showed 'Siberian peoples'",
+  "source": "https://en.wikipedia.org/wiki/Nogai_Horde",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1503,
+  "to": 1600,
+  "country": "Russia",
+  "regions": [
+   "Saratov"
+  ],
+  "owner": "Nogai Horde",
+  "overlord": "",
+  "why": "Nogai pastures on the middle Volga until Saratov fort (1590)",
+  "source": "https://en.wikipedia.org/wiki/Nogai_Horde",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ },
+ {
+  "from": 1547,
+  "to": 1600,
+  "country": "Russia",
+  "regions": [
+   "Kursk"
+  ],
+  "owner": "Tsardom of Russia",
+  "overlord": "",
+  "why": "Kursk lands Muscovite since the 1500s (fort rebuilt 1586)",
+  "source": "https://en.wikipedia.org/wiki/Kursk",
+  "severity": "major",
+  "by": "steppe fill 2026-10-30"
+ }
+]

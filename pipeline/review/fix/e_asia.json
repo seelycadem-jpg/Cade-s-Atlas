@@ -1,0 +1,1244 @@
+[
+ {
+  "from": 1673,
+  "to": 1683,
+  "country": "Hong Kong S.A.R.",
+  "regions": [
+   "*"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Shown as 'Southern Ming' 1673-1683; Southern Ming ended 1662 and Guangdong stayed Qing apart from Shang Zhixin's brief 1676-77 revolt",
+  "source": "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1941,
+  "country": "Hong Kong S.A.R.",
+  "regions": [
+   "*"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "Map returns Hong Kong to China from 1886 to 1997; it was a British colony 1841-1997 (New Territories leased 1898)",
+  "source": "https://en.wikipedia.org/wiki/British_Hong_Kong",
+  "severity": "major"
+ },
+ {
+  "from": 1941,
+  "to": 1945,
+  "country": "Hong Kong S.A.R.",
+  "regions": [
+   "*"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Japanese occupation of Hong Kong Dec 1941 - Aug 1945",
+  "source": "https://en.wikipedia.org/wiki/British_Hong_Kong",
+  "severity": "major"
+ },
+ {
+  "from": 1945,
+  "to": 1997,
+  "country": "Hong Kong S.A.R.",
+  "regions": [
+   "*"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British rule resumed 1945 until the handover on 1 July 1997",
+  "source": "https://en.wikipedia.org/wiki/British_Hong_Kong",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1644,
+  "country": "Taiwan",
+  "regions": [
+   "Kinmen"
+  ],
+  "owner": "Ming Dynasty",
+  "why": "Kinmen flickers between Ming and no polity every few years; it was a Ming-garrisoned Fujian island throughout (named 1387 under Hongwu)",
+  "source": "https://en.wikipedia.org/wiki/Kinmen",
+  "severity": "minor"
+ },
+ {
+  "from": 1644,
+  "to": 1663,
+  "country": "Taiwan",
+  "regions": [
+   "Kinmen"
+  ],
+  "owner": "Southern Ming",
+  "why": "Ming loyalist (Zheng/Prince of Lu) base until the Qing took the island in 1663",
+  "source": "https://en.wikipedia.org/wiki/Kinmen",
+  "severity": "minor"
+ },
+ {
+  "from": 1663,
+  "to": 1886,
+  "country": "Taiwan",
+  "regions": [
+   "Kinmen"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Qing from 1663 (part of Tong'an County); map flickers to no polity and shows 'Southern Ming' in 1673-1683",
+  "source": "https://en.wikipedia.org/wiki/Kinmen",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1912,
+  "country": "Taiwan",
+  "regions": [
+   "Kinmen"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Qing until the 1912 abdication (map relabels it 'China' from 1886)",
+  "source": "https://en.wikipedia.org/wiki/Qing_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1912,
+  "to": 1937,
+  "country": "Taiwan",
+  "regions": [
+   "Kinmen"
+  ],
+  "owner": "China",
+  "why": "Republic of China, part of Fujian",
+  "source": "https://en.wikipedia.org/wiki/Kinmen",
+  "severity": "minor"
+ },
+ {
+  "from": 1937,
+  "to": 1945,
+  "country": "Taiwan",
+  "regions": [
+   "Kinmen"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Japanese occupation of Kinmen 1937 - Oct 1945",
+  "source": "https://en.wikipedia.org/wiki/Kinmen",
+  "severity": "minor"
+ },
+ {
+  "from": 1945,
+  "to": 1949,
+  "country": "Taiwan",
+  "regions": [
+   "Kinmen"
+  ],
+  "owner": "China",
+  "why": "ROC administration restored 3 Oct 1945",
+  "source": "https://en.wikipedia.org/wiki/Kinmen",
+  "severity": "minor"
+ },
+ {
+  "from": 1949,
+  "to": 2026,
+  "country": "Taiwan",
+  "regions": [
+   "Kinmen"
+  ],
+  "owner": "Taiwan",
+  "why": "Kinmen is shown as PRC 'China' from 1949 to today; the ROC (Taiwan) has held it since the 1949 Battle of Guningtou",
+  "source": "https://en.wikipedia.org/wiki/Kinmen",
+  "severity": "major"
+ },
+ {
+  "from": 1974,
+  "to": 2026,
+  "country": "China",
+  "regions": [
+   "Paracel Islands"
+  ],
+  "owner": "China",
+  "why": "Map shows Vietnam holding Paracel units to 2025; PRC took full de facto control after the Battle of the Paracel Islands (Jan 1974)",
+  "source": "https://en.wikipedia.org/wiki/Battle_of_the_Paracel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Hsinchu",
+   "Hualien",
+   "Kaohsiung City",
+   "Nantou",
+   "New Taipei City",
+   "Pingtung",
+   "Taichung City",
+   "Tainan City",
+   "Taitung",
+   "Yunlin"
+  ],
+  "owner": "none",
+  "why": "Labelled '(peoples: Dutch Formosa)' from 1600, but the VOC only arrived at Tayouan in 1624; indigenous land with no state before then",
+  "source": "https://en.wikipedia.org/wiki/Dutch_Formosa",
+  "severity": "minor"
+ },
+ {
+  "from": 1597,
+  "to": 1622,
+  "country": "Taiwan",
+  "regions": [
+   "Penghu"
+  ],
+  "owner": "Ming Dynasty",
+  "why": "Ming kept a permanent garrison on Penghu from 1597",
+  "source": "https://en.wikipedia.org/wiki/Penghu",
+  "severity": "minor"
+ },
+ {
+  "from": 1622,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Penghu"
+  ],
+  "owner": "Dutch East India Company",
+  "why": "VOC fort on Penghu 1622-1624",
+  "source": "https://en.wikipedia.org/wiki/Penghu",
+  "severity": "minor"
+ },
+ {
+  "from": 1624,
+  "to": 1644,
+  "country": "Taiwan",
+  "regions": [
+   "Penghu"
+  ],
+  "owner": "Ming Dynasty",
+  "why": "Ming fleet expelled the Dutch in 1624; map shows Dutch Republic on Penghu in the 1640s-1650s",
+  "source": "https://en.wikipedia.org/wiki/Penghu",
+  "severity": "minor"
+ },
+ {
+  "from": 1626,
+  "to": 1642,
+  "country": "Taiwan",
+  "regions": [
+   "New Taipei City"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Spanish Formosa (Keelung/Tamsui) 1626-1642; map starts it in the 1630s and flickers",
+  "source": "https://en.wikipedia.org/wiki/Spanish_Formosa",
+  "severity": "minor"
+ },
+ {
+  "from": 1642,
+  "to": 1662,
+  "country": "Taiwan",
+  "regions": [
+   "New Taipei City"
+  ],
+  "owner": "Dutch Republic",
+  "why": "Dutch took the Spanish north in 1642 (held Keelung to 1668); map shows indigenous peoples",
+  "source": "https://en.wikipedia.org/wiki/Dutch_Formosa",
+  "severity": "minor"
+ },
+ {
+  "from": 1662,
+  "to": 1683,
+  "country": "Taiwan",
+  "regions": [
+   "Tainan City",
+   "Kaohsiung City",
+   "Pingtung",
+   "Yunlin",
+   "Penghu"
+  ],
+  "owner": "Kingdom of Tungning",
+  "why": "Zheng Kingdom of Tungning (1662-1683) ruled SW Taiwan and Penghu; map shows 'Southern Ming' then '(peoples: Ketagalan)' outside Tainan from 1674",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Tungning",
+  "severity": "major"
+ },
+ {
+  "from": 1662,
+  "to": 1683,
+  "country": "Taiwan",
+  "regions": [
+   "Hualien",
+   "Taitung"
+  ],
+  "owner": "none",
+  "why": "East coast was outside Tungning control; map shows it as 'Southern Ming' 1662-1674",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Tungning",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1592,
+  "country": "South Korea",
+  "regions": [
+   "Gyeonggi"
+  ],
+  "owner": "Joseon",
+  "why": "Gyeonggi island units flicker between Joseon and no polity every few years",
+  "source": "https://en.wikipedia.org/wiki/Joseon",
+  "severity": "minor"
+ },
+ {
+  "from": 1593,
+  "to": 1600,
+  "country": "South Korea",
+  "regions": [
+   "Seoul",
+   "Gyeonggi",
+   "Incheon",
+   "North Chungcheong",
+   "Daegu",
+   "North Gyeongsang"
+  ],
+  "owner": "Joseon",
+  "why": "Japanese shown holding Seoul and inland Korea 1592-1600; they abandoned Seoul on 17 May 1593 and fell back to the south coast",
+  "source": "https://en.wikipedia.org/wiki/Battle_of_Haengju",
+  "severity": "minor"
+ },
+ {
+  "from": 1599,
+  "to": 1600,
+  "country": "South Korea",
+  "regions": [
+   "Busan",
+   "Ulsan",
+   "South Gyeongsang"
+  ],
+  "owner": "Joseon",
+  "why": "Final Japanese withdrawal 16 Dec 1598",
+  "source": "https://en.wikipedia.org/wiki/Imjin_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1636,
+  "to": 1640,
+  "country": "South Korea",
+  "regions": [
+   "Seoul",
+   "Gyeonggi",
+   "Incheon"
+  ],
+  "owner": "Joseon",
+  "why": "Map gives Seoul area to 'Later Jin' 1636-1640; the Qing invasion ended in Joseon's surrender in Jan 1637 and Joseon stayed a separate tributary kingdom",
+  "source": "https://en.wikipedia.org/wiki/Qing_invasion_of_Joseon",
+  "severity": "minor"
+ },
+ {
+  "from": 1636,
+  "to": 1640,
+  "country": "North Korea",
+  "regions": [
+   "Hwanghae-namdo",
+   "P'yŏngan-bukto"
+  ],
+  "owner": "Joseon",
+  "why": "As above: no Qing annexation after the 1636-37 invasion",
+  "source": "https://en.wikipedia.org/wiki/Qing_invasion_of_Joseon",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1886,
+  "country": "South Korea",
+  "regions": [
+   "South Jeolla"
+  ],
+  "owner": "Joseon",
+  "why": "South Jeolla island units shown as no polity throughout the Joseon period",
+  "source": "https://en.wikipedia.org/wiki/Joseon",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1592,
+  "country": "South Korea",
+  "regions": [
+   "North Gyeongsang"
+  ],
+  "owner": "Joseon",
+  "why": "North Gyeongsang island unit (Ulleung) shown as no polity throughout",
+  "source": "https://en.wikipedia.org/wiki/Joseon",
+  "severity": "minor"
+ },
+ {
+  "from": 1593,
+  "to": 1886,
+  "country": "South Korea",
+  "regions": [
+   "North Gyeongsang"
+  ],
+  "owner": "Joseon",
+  "why": "As above",
+  "source": "https://en.wikipedia.org/wiki/Joseon",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1905,
+  "country": "South Korea",
+  "regions": [
+   "South Jeolla",
+   "North Gyeongsang"
+  ],
+  "owner": "Korea",
+  "why": "Island units shown as no polity",
+  "source": "https://en.wikipedia.org/wiki/Korea_under_Japanese_rule",
+  "severity": "minor"
+ },
+ {
+  "from": 1905,
+  "to": 1945,
+  "country": "South Korea",
+  "regions": [
+   "*"
+  ],
+  "owner": "Korea",
+  "overlord": "Japan",
+  "why": "Japanese protectorate from 17 Nov 1905, annexed 29 Aug 1910, colony to 1945; map keeps Korea independent to 1910/11 and shows odd 'Empire of Japan' patches in Seoul/Pyongyang in 1910",
+  "source": "https://en.wikipedia.org/wiki/Korea_under_Japanese_rule",
+  "severity": "major"
+ },
+ {
+  "from": 1905,
+  "to": 1945,
+  "country": "North Korea",
+  "regions": [
+   "*"
+  ],
+  "owner": "Korea",
+  "overlord": "Japan",
+  "why": "As above",
+  "source": "https://en.wikipedia.org/wiki/Korea_under_Japanese_rule",
+  "severity": "major"
+ },
+ {
+  "from": 1945,
+  "to": 1948,
+  "country": "South Korea",
+  "regions": [
+   "*"
+  ],
+  "owner": "United States Army Military Government in Korea",
+  "overlord": "United States of America",
+  "why": "US occupation zone south of the 38th parallel; Republic of Korea only proclaimed 15 Aug 1948 (map shows ROK from 1946)",
+  "source": "https://en.wikipedia.org/wiki/Division_of_Korea",
+  "severity": "minor"
+ },
+ {
+  "from": 1945,
+  "to": 1948,
+  "country": "North Korea",
+  "regions": [
+   "*"
+  ],
+  "owner": "Soviet Civil Administration",
+  "overlord": "Russia (Soviet Union)",
+  "why": "Soviet occupation zone; DPRK only proclaimed 9 Sep 1948 (map shows it from 1946)",
+  "source": "https://en.wikipedia.org/wiki/Division_of_Korea",
+  "severity": "minor"
+ },
+ {
+  "from": 1948,
+  "to": 2026,
+  "country": "South Korea",
+  "regions": [
+   "*"
+  ],
+  "owner": "Korea, Republic of",
+  "why": "Map shows ~6% of South Korea (Gyeonggi/Ongjin island units) under North Korea from 1950 to today; these have been ROK-held. Also island units shown as no polity",
+  "source": "https://en.wikipedia.org/wiki/Division_of_Korea",
+  "severity": "major"
+ },
+ {
+  "from": 1948,
+  "to": 2026,
+  "country": "North Korea",
+  "regions": [
+   "*"
+  ],
+  "owner": "Korea, People's Republic of",
+  "why": "DPRK independent from 9 Sep 1948 (map keeps Soviet overlord to 1949)",
+  "source": "https://en.wikipedia.org/wiki/Division_of_Korea",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1609,
+  "country": "Japan",
+  "regions": [
+   "Okinawa"
+  ],
+  "owner": "Ryukyu Kingdom",
+  "overlord": "Ming Dynasty",
+  "why": "Map makes Okinawa part of the Tokugawa Shogunate from 1600 to 1870; Ryukyu stayed an independent Ming tributary until the Satsuma invasion of 1609",
+  "source": "https://en.wikipedia.org/wiki/Ryukyu_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1609,
+  "to": 1879,
+  "country": "Japan",
+  "regions": [
+   "Okinawa"
+  ],
+  "owner": "Ryukyu Kingdom",
+  "overlord": "Satsuma Domain",
+  "why": "After 1609 Ryukyu was a vassal of Satsuma (also tributary to China) until annexed as Okinawa Prefecture in 1879; map shows it as directly Tokugawa/Empire of Japan",
+  "source": "https://en.wikipedia.org/wiki/Ryukyu_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1879,
+  "to": 1886,
+  "country": "Japan",
+  "regions": [
+   "Okinawa"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Annexed as Okinawa Prefecture 1879",
+  "source": "https://en.wikipedia.org/wiki/Ryukyu_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1945,
+  "country": "Japan",
+  "regions": [
+   "Okinawa"
+  ],
+  "owner": "Japan",
+  "why": "Japanese prefecture; many Okinawa island units (Miyako etc.) shown as no polity",
+  "source": "https://en.wikipedia.org/wiki/Ryukyu_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1945,
+  "to": 1972,
+  "country": "Japan",
+  "regions": [
+   "Okinawa"
+  ],
+  "owner": "United States Civil Administration of the Ryukyu Islands",
+  "why": "US military government from 1945, USCAR from 1950, until reversion on 15 May 1972 (map shows US only from about 1950)",
+  "source": "https://en.wikipedia.org/wiki/United_States_Civil_Administration_of_the_Ryukyu_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1972,
+  "to": 2026,
+  "country": "Japan",
+  "regions": [
+   "Okinawa"
+  ],
+  "owner": "Japan",
+  "why": "Reverted to Japan 15 May 1972; outlying Okinawa island units still shown as no polity today",
+  "source": "https://en.wikipedia.org/wiki/United_States_Civil_Administration_of_the_Ryukyu_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1875,
+  "to": 1886,
+  "country": "Japan",
+  "regions": [
+   "Tokyo"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Tokyo's island units (Izu, Bonin) are 'no polity' for the whole 1400-2025 span, which is why Japan shows 7% no polity even in 2025; Japan annexed the Bonins in 1875",
+  "source": "https://en.wikipedia.org/wiki/Bonin_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1945,
+  "country": "Japan",
+  "regions": [
+   "Tokyo"
+  ],
+  "owner": "Japan",
+  "why": "As above",
+  "source": "https://en.wikipedia.org/wiki/Bonin_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1968,
+  "to": 2026,
+  "country": "Japan",
+  "regions": [
+   "Tokyo"
+  ],
+  "owner": "Japan",
+  "why": "Bonins returned by the US in 1968; Izu and Bonin islands are Japanese today",
+  "source": "https://en.wikipedia.org/wiki/Bonin_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 2026,
+  "country": "Japan",
+  "regions": [
+   "Hokkaidō"
+  ],
+  "owner": "Japan",
+  "why": "Hokkaidō island units (Rishiri/Rebun, Okushiri) shown as no polity to today",
+  "source": "https://en.wikipedia.org/wiki/Hokkaido",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1946,
+  "country": "Japan",
+  "regions": [
+   "Kagoshima"
+  ],
+  "owner": "Japan",
+  "why": "Kagoshima island units (Tokara etc.) shown as no polity to today",
+  "source": "https://en.wikipedia.org/wiki/United_States_Civil_Administration_of_the_Ryukyu_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1953,
+  "to": 2026,
+  "country": "Japan",
+  "regions": [
+   "Kagoshima"
+  ],
+  "owner": "Japan",
+  "why": "As above (Amami/Tokara back under Japan by 1953)",
+  "source": "https://en.wikipedia.org/wiki/United_States_Civil_Administration_of_the_Ryukyu_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 2026,
+  "country": "Japan",
+  "regions": [
+   "Nagasaki"
+  ],
+  "owner": "Japan",
+  "why": "A Nagasaki island unit (Iki) drops to no polity from 1886 to today",
+  "source": "https://en.wikipedia.org/wiki/Nagasaki_Prefecture",
+  "severity": "minor"
+ },
+ {
+  "from": 1455,
+  "to": 1468,
+  "country": "Mongolia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Northern Yuan",
+  "except": [
+   "Bayan-Ölgiy",
+   "Uvs",
+   "Hovd",
+   "Dzavhan",
+   "Hövsgöl"
+  ],
+  "why": "Oirat (Esen) rule over central and eastern Mongolia shown until 1468; the Oirat state collapsed with Esen's death in 1455 and the Northern Yuan khans (Markörgis) followed",
+  "source": "https://en.wikipedia.org/wiki/Esen_Taishi",
+  "severity": "major"
+ },
+ {
+  "from": 1547,
+  "to": 1582,
+  "country": "Mongolia",
+  "regions": [
+   "Bayan-Ölgiy",
+   "Uvs",
+   "Hovd",
+   "Dzavhan",
+   "Govi-Altay",
+   "Hövsgöl"
+  ],
+  "owner": "Northern Yuan",
+  "why": "NW Mongolia shown as '(Tibetan and Mongol pastoralists; Turpan Khanate influence)' and then Tümed; this was Oirat/Khalkha Mongol land, reunited with the eastern Mongols under Tümen Zasagt Khan; neither Tibetans, Turpan nor the Inner Mongolian Tümed held it",
+  "source": "https://en.wikipedia.org/wiki/Oirats",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1911,
+  "country": "Mongolia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Map relabels Qing as 'China' from 1886; the Qing dynasty lasted until 1911/12",
+  "source": "https://en.wikipedia.org/wiki/Qing_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1911,
+  "to": 1919,
+  "country": "Mongolia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Mongolia",
+  "why": "Bogd Khanate declared independence 1 Dec 1911 (autonomy under nominal Chinese suzerainty from 1915); map keeps Mongolia as China until 1921",
+  "source": "https://en.wikipedia.org/wiki/Bogd_Khanate_of_Mongolia",
+  "severity": "major"
+ },
+ {
+  "from": 1919,
+  "to": 1921,
+  "country": "Mongolia",
+  "regions": [
+   "*"
+  ],
+  "owner": "China",
+  "why": "Chinese occupation under Xu Shuzheng, Oct 1919 to early 1921",
+  "source": "https://en.wikipedia.org/wiki/Bogd_Khanate_of_Mongolia",
+  "severity": "minor"
+ },
+ {
+  "from": 1636,
+  "to": 1644,
+  "country": "China",
+  "regions": [
+   "Shanxi"
+  ],
+  "owner": "Ming Dynasty",
+  "why": "All of Shanxi given to 'Li Zicheng' from 1636; Li held no stable territory until 1643-44 (Shun proclaimed Feb 1644)",
+  "source": "https://en.wikipedia.org/wiki/Li_Zicheng",
+  "severity": "major"
+ },
+ {
+  "from": 1632,
+  "to": 1643,
+  "country": "China",
+  "regions": [
+   "Shaanxi"
+  ],
+  "owner": "Ming Dynasty",
+  "why": "Li Zicheng shown ruling much of Shaanxi from 1632; he was a roving rebel (driven from Shaanxi in 1636) until he took Xi'an in late 1643",
+  "source": "https://en.wikipedia.org/wiki/Li_Zicheng",
+  "severity": "major"
+ },
+ {
+  "from": 1643,
+  "to": 1645,
+  "country": "China",
+  "regions": [
+   "Shaanxi"
+  ],
+  "owner": "Li Zicheng",
+  "why": "Li's Shun state held Shaanxi from late 1643 until he abandoned Xi'an in Feb 1645",
+  "source": "https://en.wikipedia.org/wiki/Li_Zicheng",
+  "severity": "minor"
+ },
+ {
+  "from": 1645,
+  "to": 1648,
+  "country": "China",
+  "regions": [
+   "Shaanxi"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Part of Shaanxi shown as '(peoples: Mongol and Turkic nomads)' 1645-48 after Qing took Xi'an",
+  "source": "https://en.wikipedia.org/wiki/Li_Zicheng",
+  "severity": "minor"
+ },
+ {
+  "from": 1636,
+  "to": 1645,
+  "country": "China",
+  "regions": [
+   "Liaoning",
+   "Jilin",
+   "Heilongjiang",
+   "Inner Mongol"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Shown as 'Later Jin Dynasty' to 1645; Hong Taiji renamed the state Great Qing in 1636 (also flagged: Later Jin units in Hebei/Shaanxi/Ningxia/Gansu need the same rename)",
+  "source": "https://en.wikipedia.org/wiki/Later_Jin_(1616%E2%80%931636)",
+  "severity": "minor"
+ },
+ {
+  "from": 1644,
+  "to": 1647,
+  "country": "China",
+  "regions": [
+   "Sichuan",
+   "Chongqing"
+  ],
+  "owner": "Zhang Xianzhong",
+  "why": "Most of Sichuan and Chongqing shown as '(peoples: Mongol and Turkic nomads)' 1644-48; Zhang Xianzhong's Xi regime ruled from Chengdu until he was killed in Jan 1647",
+  "source": "https://en.wikipedia.org/wiki/Zhang_Xianzhong",
+  "severity": "major"
+ },
+ {
+  "from": 1647,
+  "to": 1648,
+  "country": "China",
+  "regions": [
+   "Sichuan",
+   "Chongqing"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Qing forces in Sichuan after killing Zhang Xianzhong in 1647",
+  "source": "https://en.wikipedia.org/wiki/Zhang_Xianzhong",
+  "severity": "minor"
+ },
+ {
+  "from": 1644,
+  "to": 1645,
+  "country": "China",
+  "regions": [
+   "Anhui",
+   "Jiangsu",
+   "Shanghai"
+  ],
+  "owner": "Southern Ming",
+  "why": "Hongguang (Southern Ming) court at Nanjing from June 1644",
+  "source": "https://en.wikipedia.org/wiki/Southern_Ming",
+  "severity": "minor"
+ },
+ {
+  "from": 1645,
+  "to": 1653,
+  "country": "China",
+  "regions": [
+   "Anhui",
+   "Jiangsu",
+   "Shanghai"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Map keeps most of Anhui, Jiangsu and Shanghai Southern Ming until 1653; Nanjing fell to the Qing in June 1645",
+  "source": "https://en.wikipedia.org/wiki/Southern_Ming",
+  "severity": "major"
+ },
+ {
+  "from": 1644,
+  "to": 1646,
+  "country": "China",
+  "regions": [
+   "Zhejiang",
+   "Fujian",
+   "Jiangxi"
+  ],
+  "owner": "Southern Ming",
+  "why": "Southern Ming (Hongguang, then Lu regency and Longwu); map shows nomads in 1644",
+  "source": "https://en.wikipedia.org/wiki/Southern_Ming",
+  "severity": "minor"
+ },
+ {
+  "from": 1646,
+  "to": 1653,
+  "country": "China",
+  "regions": [
+   "Zhejiang",
+   "Fujian",
+   "Jiangxi"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Shown Southern Ming until 1653; Hangzhou fell July 1645, the Lu regent's Zhejiang base fell 1646, Fuzhou fell Oct 1646, Qing besieging Ganzhou (south Jiangxi) by 1646",
+  "source": "https://en.wikipedia.org/wiki/Southern_Ming",
+  "severity": "major"
+ },
+ {
+  "from": 1644,
+  "to": 1645,
+  "country": "China",
+  "regions": [
+   "Hunan"
+  ],
+  "owner": "Southern Ming",
+  "why": "Map shows '(peoples: Mongol and Turkic nomads)' for 1644",
+  "source": "https://en.wikipedia.org/wiki/Southern_Ming",
+  "severity": "minor"
+ },
+ {
+  "from": 1645,
+  "to": 1653,
+  "country": "China",
+  "regions": [
+   "Hubei",
+   "Henan"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Shown largely Southern Ming until 1653; Qing (Ajige) pursued Li Zicheng into Wuchang in 1645 and held Henan and Hubei thereafter",
+  "source": "https://en.wikipedia.org/wiki/Transition_from_Ming_to_Qing",
+  "severity": "major"
+ },
+ {
+  "from": 1651,
+  "to": 1653,
+  "country": "China",
+  "regions": [
+   "Guangdong"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Guangzhou fell to Shang Kexi on 24 Nov 1650",
+  "source": "https://en.wikipedia.org/wiki/Southern_Ming",
+  "severity": "minor"
+ },
+ {
+  "from": 1653,
+  "to": 1659,
+  "country": "China",
+  "regions": [
+   "Guizhou"
+  ],
+  "owner": "Southern Ming",
+  "why": "Shown Qing from 1653; Qing campaigns into Guizhou and Yunnan only began in late 1658",
+  "source": "https://en.wikipedia.org/wiki/Southern_Ming",
+  "severity": "minor"
+ },
+ {
+  "from": 1644,
+  "to": 1659,
+  "country": "China",
+  "regions": [
+   "Yunnan"
+  ],
+  "owner": "Southern Ming",
+  "why": "Half of Yunnan shown Qing from 1653 (and a 'First Toungoo Empire' unit in 1644); Yunnan stayed Southern Ming until Kunming fell in Jan 1659",
+  "source": "https://en.wikipedia.org/wiki/Southern_Ming",
+  "severity": "minor"
+ },
+ {
+  "from": 1673,
+  "to": 1682,
+  "country": "China",
+  "regions": [
+   "Yunnan"
+  ],
+  "owner": "Wu Zhou",
+  "why": "Shown as 'Southern Ming' 1673-1683 (Southern Ming ended 1662); this was Wu Sangui's revolt (Zhou dynasty from 1678); Kunming fell Oct-Dec 1681",
+  "source": "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories",
+  "severity": "major"
+ },
+ {
+  "from": 1682,
+  "to": 1683,
+  "country": "China",
+  "regions": [
+   "Yunnan"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Revolt ended Dec 1681",
+  "source": "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories",
+  "severity": "minor"
+ },
+ {
+  "from": 1673,
+  "to": 1674,
+  "country": "China",
+  "regions": [
+   "Guizhou",
+   "Hunan",
+   "Sichuan",
+   "Chongqing",
+   "Guangxi"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Revolt only began in Dec 1673 in Yunnan; some units already shown 'Southern Ming' in 1673",
+  "source": "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories",
+  "severity": "minor"
+ },
+ {
+  "from": 1674,
+  "to": 1680,
+  "country": "China",
+  "regions": [
+   "Guizhou",
+   "Hunan",
+   "Sichuan",
+   "Chongqing",
+   "Guangxi"
+  ],
+  "owner": "Wu Zhou",
+  "why": "Shown as 'Southern Ming' (from 1677 in most units) to 1683; held by Wu Sangui's forces and allies (Sun Yanling/Kong Sizhen in Guangxi) from 1674 until Qing recovery of Hunan, Sichuan, Guangxi and Guizhou in 1680",
+  "source": "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories",
+  "severity": "major"
+ },
+ {
+  "from": 1680,
+  "to": 1683,
+  "country": "China",
+  "regions": [
+   "Guizhou",
+   "Hunan",
+   "Sichuan",
+   "Chongqing",
+   "Guangxi"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Recovered by the Qing in 1680",
+  "source": "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories",
+  "severity": "major"
+ },
+ {
+  "from": 1673,
+  "to": 1683,
+  "country": "China",
+  "regions": [
+   "Guangdong",
+   "Hubei",
+   "Jiangxi"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Shown as 'Southern Ming' 1673/1677-1683; these stayed Qing apart from Shang Zhixin's short 1676-77 revolt in Guangdong",
+  "source": "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories",
+  "severity": "major"
+ },
+ {
+  "from": 1673,
+  "to": 1674,
+  "country": "China",
+  "regions": [
+   "Fujian"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Before Geng Jingzhong's revolt",
+  "source": "https://en.wikipedia.org/wiki/Geng_Jingzhong",
+  "severity": "minor"
+ },
+ {
+  "from": 1674,
+  "to": 1676,
+  "country": "China",
+  "regions": [
+   "Fujian"
+  ],
+  "owner": "Geng Jingzhong",
+  "why": "Geng Jingzhong's revolt in Fujian 1674-1676 (map labels it 'Southern Ming')",
+  "source": "https://en.wikipedia.org/wiki/Geng_Jingzhong",
+  "severity": "minor"
+ },
+ {
+  "from": 1676,
+  "to": 1683,
+  "country": "China",
+  "regions": [
+   "Fujian"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Geng surrendered in 1676; map keeps Fujian 'Southern Ming' to 1683",
+  "source": "https://en.wikipedia.org/wiki/Geng_Jingzhong",
+  "severity": "major"
+ },
+ {
+  "from": 1676,
+  "to": 1683,
+  "country": "China",
+  "regions": [
+   "Shaanxi"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Shown partly 'Southern Ming' 1677-1683; Wang Fuchen's Shaanxi revolt (1674) ended in surrender after about three years",
+  "source": "https://en.wikipedia.org/wiki/Revolt_of_the_Three_Feudatories",
+  "severity": "minor"
+ },
+ {
+  "from": 1856,
+  "to": 1873,
+  "country": "China",
+  "regions": [
+   "Sichuan",
+   "Chongqing"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Panthay Rebellion shown holding ~40% of Sichuan and part of Chongqing; the Dali sultanate was in western Yunnan and Sichuan was 'not in rebellion'",
+  "source": "https://en.wikipedia.org/wiki/Panthay_Rebellion",
+  "severity": "major"
+ },
+ {
+  "from": 1857,
+  "to": 1865,
+  "country": "China",
+  "regions": [
+   "Hubei"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Taiping shown holding ~half of Hubei until 1864; Qing retook Wuchang for the final time in Dec 1856",
+  "source": "https://en.wikipedia.org/wiki/Taiping_Rebellion",
+  "severity": "minor"
+ },
+ {
+  "from": 1862,
+  "to": 1878,
+  "country": "China",
+  "regions": [
+   "Gansu",
+   "Ningxia",
+   "Shaanxi"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Dungan Revolt areas shown as '(peoples: Mongol and Turkic nomads)'; the rebels formed no state and these remained Qing provinces in revolt",
+  "source": "https://en.wikipedia.org/wiki/Dungan_Revolt_(1862%E2%80%931877)",
+  "severity": "major"
+ },
+ {
+  "from": 1865,
+  "to": 1878,
+  "country": "China",
+  "regions": [
+   "Xinjiang"
+  ],
+  "owner": "Yettishar",
+  "why": "Yettishar (Yaqub Beg, 1865-1877) shown as a ~0% sliver while the Tarim Basin is '(peoples: ...)'; it ruled the Seven Cities until Qing retook Kashgar in Dec 1877 (note: the Russian-occupied Ili unit, 1871-1881, should stay Russian)",
+  "source": "https://en.wikipedia.org/wiki/Yettishar",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1912,
+  "country": "China",
+  "regions": [
+   "*"
+  ],
+  "owner": "Qing Dynasty",
+  "except": [
+   "Xizang"
+  ],
+  "why": "Map relabels the Qing as 'China' from 1886, 26 years before the Qing ended (abdication 12 Feb 1912). Note: Russian Port Arthur 1898-1905 and later leases are unit-level and should be kept",
+  "source": "https://en.wikipedia.org/wiki/Qing_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1895,
+  "country": "Taiwan",
+  "regions": [
+   "Hsinchu",
+   "Hualien",
+   "Kaohsiung City",
+   "Nantou",
+   "New Taipei City",
+   "Pingtung",
+   "Taichung City",
+   "Tainan City",
+   "Taitung",
+   "Yunlin",
+   "Penghu"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Same 1886 'China' relabel; Taiwan was Qing until ceded to Japan in 1895",
+  "source": "https://en.wikipedia.org/wiki/Qing_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1720,
+  "to": 1912,
+  "country": "China",
+  "regions": [
+   "Xizang"
+  ],
+  "owner": "Tibet",
+  "overlord": "Qing Dynasty",
+  "why": "Map flips Tibet between independent (1730-1790s), Dzungar (1720 snapshot), and directly Qing (1800-1910). After the Qing expelled the Dzungars in 1720 the Ganden Phodrang ruled under Qing protectorate (ambans from 1728) until 1912",
+  "source": "https://en.wikipedia.org/wiki/Tibet_under_Qing_rule",
+  "severity": "major"
+ },
+ {
+  "from": 1913,
+  "to": 1951,
+  "country": "China",
+  "regions": [
+   "Qinghai"
+  ],
+  "owner": "China",
+  "why": "Most of Qinghai shown under Tibet 1913-1951; Qinghai was ruled by the Ma clique (Ma Qi, Ma Lin, Ma Bufang) under the Republic, who beat a 1932 Tibetan invasion; PLA took it in 1949",
+  "source": "https://en.wikipedia.org/wiki/Ma_Bufang",
+  "severity": "major"
+ },
+ {
+  "from": 1932,
+  "to": 1951,
+  "country": "China",
+  "regions": [
+   "Sichuan"
+  ],
+  "owner": "China",
+  "why": "Western Sichuan units shown Tibetan to 1951; after the 1930-32 Sino-Tibetan War all Kham east of the Jinsha was in Chinese hands",
+  "source": "https://en.wikipedia.org/wiki/Sino-Tibetan_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1932,
+  "to": 1945,
+  "country": "China",
+  "regions": [
+   "Heilongjiang",
+   "Jilin",
+   "Liaoning"
+  ],
+  "owner": "Manchukuo",
+  "overlord": "Empire of Japan",
+  "why": "Manchukuo shown as a 0% sliver in Liaoning only in 1940; it covered all of Manchuria (Liaoning, Jilin, Heilongjiang, plus Rehe from 1933), 1 Mar 1932 - Aug 1945",
+  "source": "https://en.wikipedia.org/wiki/Manchukuo",
+  "severity": "major"
+ },
+ {
+  "from": 1937,
+  "to": 1945,
+  "country": "China",
+  "regions": [
+   "Inner Mongol"
+  ],
+  "owner": "Mengjiang",
+  "overlord": "Empire of Japan",
+  "why": "Mengjiang shown as a 0% sliver; it covered Chahar and Suiyuan (central Inner Mongolia) from 1936-37 to Aug 1945 (eastern Inner Mongolia was in Manchukuo)",
+  "source": "https://en.wikipedia.org/wiki/Mengjiang",
+  "severity": "major"
+ },
+ {
+  "from": 1938,
+  "to": 1940,
+  "country": "China",
+  "regions": [
+   "Beijing",
+   "Tianjin"
+  ],
+  "owner": "Provisional Government of the Republic of China",
+  "overlord": "Empire of Japan",
+  "why": "Japanese-occupied north China administered by the Peking Provisional Government (Dec 1937 - Mar 1940); map keeps it under China",
+  "source": "https://en.wikipedia.org/wiki/Reorganized_National_Government_of_the_Republic_of_China",
+  "severity": "major"
+ },
+ {
+  "from": 1938,
+  "to": 1940,
+  "country": "China",
+  "regions": [
+   "Jiangsu",
+   "Shanghai"
+  ],
+  "owner": "Reformed Government of the Republic of China",
+  "overlord": "Empire of Japan",
+  "why": "Japanese-occupied central China under the Reformed Government (Nanjing, Mar 1938 - Mar 1940)",
+  "source": "https://en.wikipedia.org/wiki/Reorganized_National_Government_of_the_Republic_of_China",
+  "severity": "major"
+ },
+ {
+  "from": 1940,
+  "to": 1945,
+  "country": "China",
+  "regions": [
+   "Beijing",
+   "Tianjin",
+   "Jiangsu",
+   "Shanghai"
+  ],
+  "owner": "Reorganized National Government of the Republic of China",
+  "overlord": "Empire of Japan",
+  "why": "Wang Jingwei's collaborationist government (30 Mar 1940 - Aug 1945) controlled Jiangsu (incl. Nanjing) and Shanghai, and nominally the north via the North China Political Council",
+  "source": "https://en.wikipedia.org/wiki/Reorganized_National_Government_of_the_Republic_of_China",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1945,
+  "country": "China",
+  "regions": [
+   "Hainan"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Japanese occupation of Hainan, Feb 1939 - Sep 1945",
+  "source": "https://en.wikipedia.org/wiki/Japanese_occupation_of_Hainan",
+  "severity": "minor"
+ }
+]

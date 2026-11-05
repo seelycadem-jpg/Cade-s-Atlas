@@ -1,0 +1,869 @@
+[
+ {
+  "from": 1400,
+  "to": 1510,
+  "country": "Chad",
+  "regions": [
+   "Kanem",
+   "Lac",
+   "Barh El Gazel",
+   "Batha"
+  ],
+  "owner": "Bulala Sultanate",
+  "why": "Bulala held Kanem from the late 14th c. until Idris Katagarmabe's reconquest in the early 16th c.; map flips Bornu/Bulala/nomads every decade",
+  "source": "https://en.wikipedia.org/wiki/Bulala",
+  "severity": "major"
+ },
+ {
+  "from": 1510,
+  "to": 1630,
+  "country": "Chad",
+  "regions": [
+   "Kanem",
+   "Barh El Gazel"
+  ],
+  "owner": "Bulala Sultanate",
+  "overlord": "Bornu Empire",
+  "why": "After Katagarmabe's reconquest the Bulala governed Kanem as Bornu vassals until Wadai drove them to Lake Fitri c.1630; map alternates Bornu/Bulala each decade",
+  "source": "https://en.wikipedia.org/wiki/Kanem_(historical_region)",
+  "severity": "minor"
+ },
+ {
+  "from": 1630,
+  "to": 1810,
+  "country": "Chad",
+  "regions": [
+   "Kanem"
+  ],
+  "owner": "Kanem (Alifate of Mao)",
+  "overlord": "Bornu Empire",
+  "why": "Bornu general Dala Afuno retook Kanem c.1630 and founded the Dalatoa (Alifa of Mao) line under Bornu; map flips between Bornu, Wadai and the Alifate every decade",
+  "source": "https://en.wikipedia.org/wiki/Kanem_(historical_region)",
+  "severity": "major"
+ },
+ {
+  "from": 1810,
+  "to": 1900,
+  "country": "Chad",
+  "regions": [
+   "Kanem"
+  ],
+  "owner": "Kanem (Alifate of Mao)",
+  "overlord": "Wadai Empire",
+  "why": "In the 19th c. the Dalatoa rulers were Wadai appointees (Kanem a Wadai vassal in 1892, Awlad Sulayman raiding) until the French protectorate of 1899-1900; Rabih's Kanem-Bornu never held Kanem",
+  "source": "https://en.wikipedia.org/wiki/Kanem_(historical_region)",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1580,
+  "country": "Chad",
+  "regions": [
+   "Chari-Baguirmi",
+   "Ville de N'Djamena"
+  ],
+  "owner": "Kingdom of Baguirmi",
+  "why": "Baguirmi founded 1522 (capital Massenya); map flips Bornu/Baguirmi each decade",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Baguirmi",
+  "severity": "minor"
+ },
+ {
+  "from": 1580,
+  "to": 1751,
+  "country": "Chad",
+  "regions": [
+   "Chari-Baguirmi",
+   "Ville de N'Djamena"
+  ],
+  "owner": "Kingdom of Baguirmi",
+  "overlord": "Bornu Empire",
+  "why": "Baguirmi remained a kingdom tributary to Bornu (from Idris Alooma) until independence under Muhammad al-Amin 1751; map shows direct Bornu rule 1620-1760 so Baguirmi vanishes",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Baguirmi",
+  "severity": "major"
+ },
+ {
+  "from": 1751,
+  "to": 1805,
+  "country": "Chad",
+  "regions": [
+   "Chari-Baguirmi",
+   "Ville de N'Djamena"
+  ],
+  "owner": "Kingdom of Baguirmi",
+  "why": "Baguirmi independent from 1751 until Wadai conquest 1805",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Baguirmi",
+  "severity": "minor"
+ },
+ {
+  "from": 1805,
+  "to": 1897,
+  "country": "Chad",
+  "regions": [
+   "Chari-Baguirmi",
+   "Ville de N'Djamena"
+  ],
+  "owner": "Kingdom of Baguirmi",
+  "overlord": "Wadai Empire",
+  "why": "Wadai conquered Baguirmi in 1805 and held it tributary until the French protectorate treaty of 1897; map shows Bornu/Saharan nomads in parts in 1890",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Baguirmi",
+  "severity": "minor"
+ },
+ {
+  "from": 1897,
+  "to": 1900,
+  "country": "Chad",
+  "regions": [
+   "Chari-Baguirmi",
+   "Ville de N'Djamena"
+  ],
+  "owner": "Kingdom of Baguirmi",
+  "overlord": "France",
+  "why": "French protectorate from 1897; colony from 1900-02",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Baguirmi",
+  "severity": "minor"
+ },
+ {
+  "from": 1580,
+  "to": 1900,
+  "country": "Chad",
+  "regions": [
+   "Mayo-Kebbi Est"
+  ],
+  "owner": "none",
+  "why": "Musgum/Massa country between Logone and Chari had no Bornu rule; eastern Musgum only paid tribute to Baguirmi in the 19th c. Map shows Bornu Empire here 1620-1900",
+  "source": "https://en.wikipedia.org/wiki/Musgum_people",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1900,
+  "country": "Chad",
+  "regions": [
+   "Mayo-Kebbi Ouest"
+  ],
+  "owner": "Léré (Moundang)",
+  "why": "The Moundang kingdom of Léré (Gong) lasted until French colonization; map flips Bornu/peoples 1640-1760 and gives Sokoto Caliphate 1820-1900, neither of which ruled Léré",
+  "source": "https://tchadinfos.com/2021/04/04/chefferie-traditionnelle-la-royaute-moundang-face-au-modernisme/",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1900,
+  "country": "Chad",
+  "regions": [
+   "Tandjilé"
+  ],
+  "owner": "Sara chiefdoms",
+  "why": "Sara/Kaba country was stateless and raided by Baguirmi, not ruled by Bornu (shown 1640-1830) or Sokoto (shown 1830-1880); incorporated by France early 20th c.",
+  "source": "https://www.everyculture.com/Africa-Middle-East/Sara-History-and-Cultural-Relations.html",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1909,
+  "country": "Chad",
+  "regions": [
+   "Batha",
+   "Guéra",
+   "Wadi Fira"
+  ],
+  "owner": "Wadai Empire",
+  "why": "Wadai founded 1635, independent until the French took Abéché in 1909; map flips Wadai/'Saharan nomads' every decade and shows French rule already in 1900",
+  "source": "https://en.wikipedia.org/wiki/Ouaddai_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1909,
+  "country": "Chad",
+  "regions": [
+   "Ouaddaï"
+  ],
+  "owner": "Wadai Empire",
+  "why": "Abéché fell to the French only in 1909 (Ouaddai War 1909-12); map shows French Congo here in 1900",
+  "source": "https://en.wikipedia.org/wiki/Ouaddai_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1909,
+  "country": "Chad",
+  "regions": [
+   "Salamat"
+  ],
+  "owner": "Dar Runga",
+  "overlord": "Wadai Empire",
+  "why": "Dar Runga remained a Wadai tributary until the French conquest of Wadai (1909); map shows 'Saharan nomads' 1890 and France 1900",
+  "source": "https://en.wikipedia.org/wiki/Ouaddai_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1805,
+  "to": 1909,
+  "country": "Chad",
+  "regions": [
+   "Sila"
+  ],
+  "owner": "Dar Sila",
+  "overlord": "Wadai Empire",
+  "why": "Dar Sila was a Daju sultanate made tributary by Wadai's Sabun (c.1804-15); map shows direct Wadai then 'Saharan nomads' then France 1900",
+  "source": "https://en.wikipedia.org/wiki/Ouaddai_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1909,
+  "to": 1916,
+  "country": "Chad",
+  "regions": [
+   "Sila"
+  ],
+  "owner": "Dar Sila",
+  "why": "Sultan Muhammad Bakhit's Dar Sila remained independent until the French occupation of 1916",
+  "source": "https://www.relbib.de/Record/35001759X",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1913,
+  "country": "Chad",
+  "regions": [
+   "Borkou",
+   "Ennedi"
+  ],
+  "owner": "Daza of Borkou and Ennedi",
+  "why": "French forces only advanced into Borkou and Ennedi in 1913 (Ain Galaka Nov 1913, Senussi expelled by Feb 1914); map shows France from 1900",
+  "source": "https://omniatlas.com/maps/sub-saharan-africa/19130314/",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1914,
+  "country": "Chad",
+  "regions": [
+   "Tibesti"
+  ],
+  "owner": "Teda of Tibesti",
+  "why": "Tibesti was first entered by a French column in early 1914; map shows France from 1900",
+  "source": "https://en.wikipedia.org/wiki/Tibesti_Mountains",
+  "severity": "major"
+ },
+ {
+  "from": 1916,
+  "to": 1929,
+  "country": "Chad",
+  "regions": [
+   "Tibesti"
+  ],
+  "owner": "Teda of Tibesti",
+  "why": "Toubou resistance forced the French out of Tibesti in 1916; reconquered 1929",
+  "source": "https://en.wikipedia.org/wiki/Tibesti_Mountains",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1897,
+  "country": "Central African Republic",
+  "regions": [
+   "Bamingui-Bangoran",
+   "Vakaga"
+  ],
+  "owner": "Dar al-Kuti",
+  "overlord": "Rabih az-Zubayr",
+  "why": "Rabih installed Muhammad al-Sanusi in Dar al-Kuti in 1890 (capital later N'Délé); map shows unorganized peoples/Rabih then France from 1900",
+  "source": "https://en.wikipedia.org/wiki/Dar_al_Kuti",
+  "severity": "major"
+ },
+ {
+  "from": 1897,
+  "to": 1912,
+  "country": "Central African Republic",
+  "regions": [
+   "Bamingui-Bangoran",
+   "Vakaga"
+  ],
+  "owner": "Dar al-Kuti",
+  "overlord": "France",
+  "why": "French protectorate treaty 28 Aug 1897; Dar al-Kuti kept its autonomy until al-Sanusi's death in 1911 and the fall of Ouanda Djallé on 17 Dec 1912",
+  "source": "https://en.wikipedia.org/wiki/Dar_al_Kuti",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1894,
+  "country": "Central African Republic",
+  "regions": [
+   "Mbomou"
+  ],
+  "owner": "Bangassou Sultanate",
+  "why": "Bangassou (Nzakara) sultanate recognized as sovereign in the early 1890s; map shows unorganized peoples in 1890",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Bangassou",
+  "severity": "minor"
+ },
+ {
+  "from": 1894,
+  "to": 1917,
+  "country": "Central African Republic",
+  "regions": [
+   "Mbomou"
+  ],
+  "owner": "Bangassou Sultanate",
+  "overlord": "France",
+  "why": "French protectorate 1894-1917; abolished and put under direct administration only in 1917 (map shows direct French rule from 1900)",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Bangassou",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1909,
+  "country": "Central African Republic",
+  "regions": [
+   "Haut-Mbomou"
+  ],
+  "owner": "Zemio Sultanate",
+  "why": "Zande sultanate of Zemio (c.1872) independent until French protectorate 12 Apr 1909",
+  "source": "https://www.worldstatesmen.org/Central_African_Rep_native.html",
+  "severity": "minor"
+ },
+ {
+  "from": 1909,
+  "to": 1923,
+  "country": "Central African Republic",
+  "regions": [
+   "Haut-Mbomou"
+  ],
+  "owner": "Zemio Sultanate",
+  "overlord": "France",
+  "why": "French protectorate from 1909; suppressed only in 1923 (map shows direct French rule from 1900)",
+  "source": "https://www.worldstatesmen.org/Central_African_Rep_native.html",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Cameroon",
+  "regions": [
+   "Sud-Ouest"
+  ],
+  "owner": "none",
+  "why": "Old Calabar (Efik) was founded c.1650 in what is now Nigeria; it cannot hold south-west Cameroon from 1400",
+  "source": "https://en.wikipedia.org/wiki/Old_Calabar",
+  "severity": "major"
+ },
+ {
+  "from": 1580,
+  "to": 1614,
+  "country": "Cameroon",
+  "regions": [
+   "Extrême-Nord"
+  ],
+  "owner": "Mandara Kingdom",
+  "why": "Mandara (Wandala) kingdom c.1500-1902, capital Dulo from c.1580; map replaces it with direct Bornu rule 1580-1890",
+  "source": "https://en.wikipedia.org/wiki/Mandara_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1614,
+  "to": 1781,
+  "country": "Cameroon",
+  "regions": [
+   "Extrême-Nord"
+  ],
+  "owner": "Mandara Kingdom",
+  "overlord": "Bornu Empire",
+  "why": "Bornu installed Aldawa Nanda in 1614 giving it influence over Mandara, until Mandara defeated Bornu c.1781",
+  "source": "https://en.wikipedia.org/wiki/Mandara_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1781,
+  "to": 1902,
+  "country": "Cameroon",
+  "regions": [
+   "Extrême-Nord"
+  ],
+  "owner": "Mandara Kingdom",
+  "why": "Mandara independent after c.1781 (Fulani attacks from 1809) until German conquest in 1902; map shows Bornu then German Kamerun already in 1890",
+  "source": "https://en.wikipedia.org/wiki/Mandara_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1810,
+  "country": "Cameroon",
+  "regions": [
+   "Nord"
+  ],
+  "owner": "none",
+  "why": "Benue basin (Garoua) had no Bornu rule before the Fulani jihad of 1809; map flips Bornu/peoples every decade",
+  "source": "https://en.wikipedia.org/wiki/Adamawa_Emirate",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1901,
+  "country": "Cameroon",
+  "regions": [
+   "Adamaoua",
+   "Nord"
+  ],
+  "owner": "Sokoto Caliphate",
+  "why": "German conquest of Adamawa ran from Jan 1899; Ngaoundéré stormed 20 Aug 1901, Garoua and Rey Bouba taken 1901; map shows German Kamerun already in 1890",
+  "source": "https://en.wikipedia.org/wiki/Adamawa_Wars",
+  "severity": "major"
+ },
+ {
+  "from": 1650,
+  "to": 1890,
+  "country": "Cameroon",
+  "regions": [
+   "Ouest"
+  ],
+  "owner": "Bamum Kingdom",
+  "why": "Bamum kingdom (Foumban) existed continuously c.1394-1923; map drops it in 1650 for a Bafoussam chiefdom",
+  "source": "https://en.wikipedia.org/wiki/Bamum_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1500,
+  "to": 1827,
+  "country": "Equatorial Guinea",
+  "regions": [
+   "Bioko Sur"
+  ],
+  "owner": "none",
+  "why": "Portugal only claimed Bioko (Bubi chiefdoms held it; Dutch traded there 1642 without consent) and ceded the claim in 1778; first effective foreign base was British Port Clarence 1827. Map shows Portuguese/Spanish rule and 'Bakweri' (a Cameroonian people) here",
+  "source": "https://en.wikipedia.org/wiki/Bioko",
+  "severity": "major"
+ },
+ {
+  "from": 1778,
+  "to": 1843,
+  "country": "Equatorial Guinea",
+  "regions": [
+   "Annobón"
+  ],
+  "owner": "none",
+  "why": "After the 1778 cession to Spain the islanders expelled the Spanish and governed themselves; map keeps Portugal here until 1880s",
+  "source": "https://en.wikipedia.org/wiki/Annob%C3%B3n",
+  "severity": "major"
+ },
+ {
+  "from": 1843,
+  "to": 1890,
+  "country": "Equatorial Guinea",
+  "regions": [
+   "Annobón"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Annobón placed under the Spanish colony of Elobey, Annobón and Corisco from 1843",
+  "source": "https://en.wikipedia.org/wiki/Elobey,_Annob%C3%B3n,_and_Corisco",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1968,
+  "country": "Equatorial Guinea",
+  "regions": [
+   "Annobón"
+  ],
+  "owner": "Equatorial Guinea",
+  "overlord": "Spain",
+  "why": "Part of Spanish Guinea until 1968; map shows Annobón as '(no polity)' from 1890 to 2025",
+  "source": "https://en.wikipedia.org/wiki/Elobey,_Annob%C3%B3n,_and_Corisco",
+  "severity": "major"
+ },
+ {
+  "from": 1968,
+  "to": 2026,
+  "country": "Equatorial Guinea",
+  "regions": [
+   "Annobón"
+  ],
+  "owner": "Equatorial Guinea",
+  "why": "Annobón is part of independent Equatorial Guinea since 1968; map shows '(no polity)'",
+  "source": "https://en.wikipedia.org/wiki/Equatorial_Guinea",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1926,
+  "country": "Equatorial Guinea",
+  "regions": [
+   "Wele-Nzás",
+   "Centro Sur"
+  ],
+  "owner": "Fang",
+  "why": "Spain held only a coastal strip of Río Muni; garrisons were spread through the interior only by 1926 (pacified 1929); map shows Spanish rule from 1890",
+  "source": "https://en.wikipedia.org/wiki/Spanish_Guinea",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1910,
+  "country": "Sao Tome and Principe",
+  "regions": [
+   "Príncipe"
+  ],
+  "owner": "Kingdom of Portugal",
+  "why": "Príncipe stayed Portuguese until 1975; map shows it as 'Equatorial Guinea [under Spain]' from 1890 and as Equatorial Guinea after 1968",
+  "source": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+  "severity": "major"
+ },
+ {
+  "from": 1910,
+  "to": 1926,
+  "country": "Sao Tome and Principe",
+  "regions": [
+   "Príncipe"
+  ],
+  "owner": "Portuguese First Republic",
+  "why": "Príncipe Portuguese (as São Tomé)",
+  "source": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+  "severity": "major"
+ },
+ {
+  "from": 1926,
+  "to": 1975,
+  "country": "Sao Tome and Principe",
+  "regions": [
+   "Príncipe"
+  ],
+  "owner": "Portuguese Second Republic",
+  "why": "Príncipe Portuguese until independence 12 July 1975",
+  "source": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+  "severity": "major"
+ },
+ {
+  "from": 1975,
+  "to": 2026,
+  "country": "Sao Tome and Principe",
+  "regions": [
+   "Príncipe"
+  ],
+  "owner": "São Tomé and Príncipe",
+  "why": "Independent São Tomé and Príncipe from 12 July 1975; map shows Equatorial Guinea through 2025",
+  "source": "https://en.wikipedia.org/wiki/S%C3%A3o_Tom%C3%A9_and_Pr%C3%ADncipe",
+  "severity": "major"
+ },
+ {
+  "from": 1709,
+  "to": 1857,
+  "country": "Angola",
+  "regions": [
+   "Zaire",
+   "Uíge"
+  ],
+  "owner": "Kingdom of Kongo",
+  "why": "Kongo reunified 1709 and continued as a kingdom; map gives these lands to 'Kingdom of Lunda' (1710-1890), which never ruled northern Angola",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+  "severity": "major"
+ },
+ {
+  "from": 1857,
+  "to": 1914,
+  "country": "Angola",
+  "regions": [
+   "Zaire",
+   "Uíge"
+  ],
+  "owner": "Kingdom of Kongo",
+  "overlord": "Portugal",
+  "why": "Kongo became an (intermittent) Portuguese vassal from 1857 and was abolished after the 1914 revolt; map shows Lunda then direct Portuguese rule from 1890",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+  "severity": "major"
+ },
+ {
+  "from": 1710,
+  "to": 1910,
+  "country": "Angola",
+  "regions": [
+   "Bengo"
+  ],
+  "owner": "Dembos (Ndembu chiefdoms)",
+  "overlord": "Portuguese Angola",
+  "why": "Dembos chiefdoms stayed autonomous until subdued in 1910 (occupation completed 1917); map alternates them with 'Kingdom of Lunda' each decade and shows direct Portuguese rule from 1890",
+  "source": "https://countrystudies.us/angola/18.htm",
+  "severity": "major"
+ },
+ {
+  "from": 1515,
+  "to": 1626,
+  "country": "Angola",
+  "regions": [
+   "Cuanza Norte"
+  ],
+  "owner": "Kingdom of Ndongo",
+  "why": "Ndongo (capital Kabasa near N'dalatando) sent embassies to Portugal by 1518 and fought Portugal until 1626; map shows it only 1520-1550 and never in Cuanza Norte",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ndongo",
+  "severity": "major"
+ },
+ {
+  "from": 1626,
+  "to": 1671,
+  "country": "Angola",
+  "regions": [
+   "Cuanza Norte"
+  ],
+  "owner": "Kingdom of Ndongo",
+  "overlord": "Portuguese Empire",
+  "why": "Portuguese-backed Ngola Hari ruled Ndongo from 1626 until the fall of Pungo a Ndongo in 1671",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ndongo",
+  "severity": "minor"
+ },
+ {
+  "from": 1641,
+  "to": 1648,
+  "country": "Angola",
+  "regions": [
+   "Luanda"
+  ],
+  "owner": "Dutch Republic",
+  "why": "Dutch West India Company held Luanda from 26 Aug 1641 to Aug 1648",
+  "source": "https://en.wikipedia.org/wiki/Dutch_Loango-Angola",
+  "severity": "minor"
+ },
+ {
+  "from": 1590,
+  "to": 1617,
+  "country": "Angola",
+  "regions": [
+   "Benguela"
+  ],
+  "owner": "none",
+  "why": "'Bakweri' are a Cameroonian people and do not belong in Benguela",
+  "source": "https://en.wikipedia.org/wiki/Benguela",
+  "severity": "major"
+ },
+ {
+  "from": 1617,
+  "to": 1890,
+  "country": "Angola",
+  "regions": [
+   "Benguela"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "São Filipe de Benguela founded 1617; map flips Portuguese/peoples each decade",
+  "source": "https://en.wikipedia.org/wiki/Benguela",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1840,
+  "country": "Angola",
+  "regions": [
+   "Namibe"
+  ],
+  "owner": "none",
+  "why": "'Cakaudrove' is a Fijian chiefdom, wrongly placed in southern Angola",
+  "source": "https://en.wikipedia.org/wiki/Mo%C3%A7%C3%A2medes",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1890,
+  "country": "Angola",
+  "regions": [
+   "Namibe"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "Moçâmedes founded by the Portuguese in 1840 with a fort at Ponta Negra",
+  "source": "https://en.wikipedia.org/wiki/Mo%C3%A7%C3%A2medes",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1845,
+  "country": "Angola",
+  "regions": [
+   "Cuando Cubango"
+  ],
+  "owner": "none",
+  "why": "'Cakaudrove' is a Fijian chiefdom, wrongly placed in southern Angola",
+  "source": "https://en.wikipedia.org/wiki/Makololo",
+  "severity": "major"
+ },
+ {
+  "from": 1864,
+  "to": 1890,
+  "country": "Angola",
+  "regions": [
+   "Cuando Cubango"
+  ],
+  "owner": "none",
+  "why": "After the Makololo dynasty fell in 1864 the map restores 'Cakaudrove' (Fijian) here",
+  "source": "https://en.wikipedia.org/wiki/Makololo",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Angola",
+  "regions": [
+   "Cunene"
+  ],
+  "owner": "none",
+  "why": "'Cakaudrove' is a Fijian chiefdom, wrongly placed in southern Angola",
+  "source": "https://en.wikipedia.org/wiki/Oukwanyama",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1915,
+  "country": "Angola",
+  "regions": [
+   "Cunene"
+  ],
+  "owner": "Uukwanyama",
+  "why": "Kwanyama kingdom resisted until the Battle of Mongua and fall of N'giva (2 Sep 1915); Ombandja fell in 1907. Map shows direct Portuguese rule from 1890",
+  "source": "https://en.wikipedia.org/wiki/Ovambo_Uprising",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1902,
+  "country": "Angola",
+  "regions": [
+   "Huambo"
+  ],
+  "owner": "Bailundo",
+  "why": "Bailundo stayed autonomous until the 1902 war (Portuguese columns entered Bailundo 24 Sep 1902)",
+  "source": "https://en.wikipedia.org/wiki/Second_Portuguese%E2%80%93Ovimbundu_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1709,
+  "to": 1885,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Bas-Congo"
+  ],
+  "owner": "Kingdom of Kongo",
+  "why": "Kongo's eastern provinces (Nsundi, Mbata) lay here; map gives them to 'Kingdom of Lunda' 1710-1890 alternating with Ngoyo",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+  "severity": "major"
+ },
+ {
+  "from": 1885,
+  "to": 1908,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Bas-Congo",
+   "Kinshasa City",
+   "Équateur",
+   "Bandundu",
+   "Kasaï-Occidental",
+   "Kasaï-Oriental",
+   "Orientale",
+   "Katanga"
+  ],
+  "owner": "Congo Free State",
+  "why": "1885-1908 was Leopold II's personal Congo Free State, not Belgian; Belgium annexed it only on 15 Nov 1908. Map labels it 'Congo, DR (Zaire) [under Belgium]'",
+  "source": "https://en.wikipedia.org/wiki/Congo_Free_State",
+  "severity": "major"
+ },
+ {
+  "from": 1885,
+  "to": 1894,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Maniema"
+  ],
+  "owner": "Tippu Tip's Manyema state",
+  "overlord": "Sultanate of Zanzibar",
+  "why": "Zanzibari/Swahili rule in Maniema ended only with the Congo Arab War (1892-94); map shows Free State rule by 1890",
+  "source": "https://en.wikipedia.org/wiki/Congo_Free_State",
+  "severity": "major"
+ },
+ {
+  "from": 1885,
+  "to": 1894,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Nord-Kivu",
+   "Sud-Kivu"
+  ],
+  "owner": "none",
+  "why": "Free State control reached Kivu only after the Congo Arab War (1892-94)",
+  "source": "https://en.wikipedia.org/wiki/Congo_Free_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1894,
+  "to": 1908,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Maniema",
+   "Nord-Kivu",
+   "Sud-Kivu"
+  ],
+  "owner": "Congo Free State",
+  "why": "Free State control after defeat of the Zanzibari by early 1894; still Leopold's personal state until 1908",
+  "source": "https://en.wikipedia.org/wiki/Congo_Free_State",
+  "severity": "major"
+ },
+ {
+  "from": 1960,
+  "to": 1963,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Katanga"
+  ],
+  "owner": "State of Katanga",
+  "why": "Katanga seceded 11 Jul 1960 until 21 Jan 1963; map shows the secession on only a sliver of the region",
+  "source": "https://en.wikipedia.org/wiki/State_of_Katanga",
+  "severity": "major"
+ },
+ {
+  "from": 1960,
+  "to": 1962,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Kasaï-Oriental"
+  ],
+  "owner": "South Kasai",
+  "why": "South Kasai seceded 9 Aug 1960 (capital Bakwanga) until Oct 1962",
+  "source": "https://en.wikipedia.org/wiki/South_Kasai",
+  "severity": "minor"
+ },
+ {
+  "from": 1911,
+  "to": 1916,
+  "country": "Gabon",
+  "regions": [
+   "Wouleu-Ntem"
+  ],
+  "owner": "Kamerun",
+  "overlord": "Germany (Prussia)",
+  "why": "Ceded to Germany as Neukamerun by the 4 Nov 1911 Morocco-Congo agreement (districts Wolö-Ntem, Ssanga, Mittel-Ssanga-Lobaye, Ober-Ssanga-Uham); retaken by France in WWI",
+  "source": "https://en.wikipedia.org/wiki/Neukamerun",
+  "severity": "minor"
+ },
+ {
+  "from": 1911,
+  "to": 1916,
+  "country": "Republic of the Congo",
+  "regions": [
+   "Sangha"
+  ],
+  "owner": "Kamerun",
+  "overlord": "Germany (Prussia)",
+  "why": "Ceded to Germany as Neukamerun by the 4 Nov 1911 Morocco-Congo agreement (districts Wolö-Ntem, Ssanga, Mittel-Ssanga-Lobaye, Ober-Ssanga-Uham); retaken by France in WWI",
+  "source": "https://en.wikipedia.org/wiki/Neukamerun",
+  "severity": "minor"
+ },
+ {
+  "from": 1911,
+  "to": 1916,
+  "country": "Central African Republic",
+  "regions": [
+   "Lobaye",
+   "Sangha-Mbaéré",
+   "Mambéré-Kadéï"
+  ],
+  "owner": "Kamerun",
+  "overlord": "Germany (Prussia)",
+  "why": "Ceded to Germany as Neukamerun by the 4 Nov 1911 Morocco-Congo agreement (districts Wolö-Ntem, Ssanga, Mittel-Ssanga-Lobaye, Ober-Ssanga-Uham); retaken by France in WWI",
+  "source": "https://en.wikipedia.org/wiki/Neukamerun",
+  "severity": "minor"
+ }
+]

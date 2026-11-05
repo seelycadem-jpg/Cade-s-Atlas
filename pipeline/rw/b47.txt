@@ -1,0 +1,235 @@
+## la14920 | 1492 | Columbus reaches the Caribbean | who: Christopher Columbus, for Spain; Taíno people | where: Bahamas, Hispaniola
+  bluf: Columbus's landing began permanent contact between the Americas and the rest of the world, the largest exchange of people, plants, animals and diseases in history. It led to the conquest and depopulation of Indigenous societies and to European empires that reshaped the global economy.
+  now: The populations, languages, religions and racial hierarchies of the Americas all derive from this encounter. The fight over Columbus Day versus Indigenous Peoples' Day shows how contested its meaning remains.
+  story: With three small ships funded by Spain, Columbus landed in the Bahamas and then Hispaniola. The Taíno welcomed him; within decades they were nearly wiped out by disease, forced labor and violence.
+  why: Iberian kingdoms were competing for a route to Asian trade. Columbus badly underestimated the size of the earth, and Castile, freed by its conquest of Granada, gambled on his plan.
+  trig: Ferdinand and Isabella agreed in April 1492 to fund the voyage; Columbus landed in the Bahamas on October 12.
+  then: Spanish settlement, forced labor and epidemics destroyed the Taíno within decades. The Columbian Exchange carried maize and potatoes to Europe, Africa and Asia, fuelling population growth, while horses, cattle, wheat and smallpox went west. American silver later financed Spain and flowed on to China.
+  fact: Columbus died still believing he had reached Asia, which is why the Caribbean islands are the 'West Indies'. Tomatoes, potatoes, chocolate and chili peppers all came from the Americas: Italy had no tomato sauce and India no chili before this.
+## la14941 | 1494 | Treaty of Tordesillas | who: Spain, Portugal, Pope Alexander VI | where: Tordesillas, Spain
+  bluf: Spain and Portugal divided the newly reachable world between them by treaty, without consulting anyone who lived there. The line explains why Brazil speaks Portuguese and set the precedent of European powers carving up other continents on maps.
+  now: Beyond Brazil's language and culture, the idea that distant powers could draw colonial borders returned at the Berlin Conference of 1884-85.
+  story: After Columbus, Spain and Portugal agreed on a line about 370 leagues west of Cape Verde: lands west for Spain, east for Portugal. No one asked the people who lived there.
+  why: Columbus's return set off a dispute over who owned newly found lands. Pope Alexander VI issued decrees favouring Spain, and Portugal negotiated directly to move the line west.
+  then: Brazil's eastern coast fell on Portugal's side. France, England and the Dutch rejected the treaty and argued that land belonged to whoever actually occupied it.
+  fact: The line ran 370 leagues west of Cape Verde. Brazil's eastern bulge sticks out past it, which is why Brazil alone speaks Portuguese.
+## la15002 | 1500 | Cabral claims Brazil | who: Pedro Álvares Cabral, Portugal | where: Brazil
+  bluf: Cabral's landing gave Portugal Brazil, which became the largest and richest part of its empire. Brazil grew on sugar, gold and enslaved African labor and became the largest slave society in the Americas.
+  now: Brazil is the largest Portuguese-speaking nation and has the largest population of African descent outside Africa. Its racial inequalities trace back to the plantation economy.
+  story: In April 1500 Pedro Álvares Cabral, leading 13 ships to India, swung far west into the Atlantic to catch favourable winds and sighted the coast of Brazil. He claimed the land for Portugal, stayed about ten days, and sent a ship home with the news.
+  why: Sailing far west to catch the Atlantic winds that carried ships around Africa, his fleet reached South America inside the zone Tordesillas had given Portugal.
+  then: Portugal first exploited brazilwood, then built sugar plantations in the northeast worked by enslaved Africans; gold strikes in the 1690s drew settlers inland. Brazil received about 40% of all Africans shipped across the Atlantic.
+## la15133 | 1513 | Balboa sees the Pacific | who: Vasco Núñez de Balboa | where: Panama
+  bluf: Balboa's crossing showed that a narrow isthmus separated the Atlantic from a vast ocean, confirming that the Americas lay between Europe and Asia. Panama became Spain's crossroads for moving Peruvian silver and, four centuries later, the site of a canal.
+  now: The Panama Canal (1914) uses the same narrow crossing and remains a strategic chokepoint that both the United States and China watch closely.
+  story: In September 1513 Vasco Núñez de Balboa led about 190 Spaniards and hundreds of Indigenous guides and porters across the Isthmus of Panama. On September 25 he saw the Pacific from a mountain peak, and days later waded into it to claim the 'South Sea' for Spain.
+  why: Indigenous people told Spanish settlers on the Caribbean coast of a sea and of rich lands to the south.
+  then: Magellan's expedition crossed the Pacific in 1520-21, and Pizarro launched the conquest of the Inca from Panama. Peruvian silver crossed the isthmus on its way to Spain.
+## d-malinche | 1519 | Malinche becomes Cortés's interpreter | who: Malintzin (La Malinche); Hernán Cortés | where: Tabasco coast, Mexico
+  bluf: Malinche's languages let Cortés negotiate, recruit allies and read Aztec politics. Without her, his small force could not have built the coalition that toppled the empire. She also became Mexico's most contested symbol of the conquest.
+  now: In Mexico 'malinchista' means someone who prefers foreign things. Many historians now see her as an enslaved woman surviving impossible choices rather than a traitor.
+  story: After defeating the Maya of Potonchán in March 1519, Cortés was given 20 enslaved women, among them Malintzin, who spoke Nahuatl and Maya. Working with a Spanish castaway who knew Maya, she translated for Cortés, soon learned Spanish, and advised him in his dealings with the Aztecs and their enemies.
+  why: Cortés needed to talk to the Aztecs and their rivals. She spoke Nahuatl and Maya, soon learned Spanish, and understood the region's politics.
+  then: She interpreted at every major encounter, including with Moctezuma, and bore Cortés a son, Martín, one of the first prominent mestizos.
+## la15194 | 1519 | Cortés lands in Mexico | who: Hernán Cortés; Moctezuma II; Malinche | where: Veracruz, Mexico
+  bluf: Cortés's landing began the conquest of the Aztec Empire, the most powerful state in Mesoamerica. The outcome depended less on Spanish weapons than on alliances with Indigenous peoples who resented Aztec rule, and on smallpox.
+  now: Mexico's mestizo identity, and the long argument over Malinche (traitor or survivor), show how this encounter still shapes how Mexicans see themselves.
+  story: Hernán Cortés landed on the Gulf coast in 1519 with about 500 men, defying his governor in Cuba, and scuttled his ships so his men could not turn back. With Malinche, a Nahua woman who became his interpreter and adviser, he allied with the Totonacs and then with Tlaxcala, longtime enemies of the Aztecs, and marched on Tenochtitlan.
+  why: Cortés wanted gold, land and glory, and he exploited the hatred that subject and rival peoples felt for Aztec tribute demands and human sacrifice.
+  then: Tenochtitlan fell in 1521 after a siege fought largely by tens of thousands of Indigenous allies, during a smallpox epidemic. Spain built New Spain on top of Aztec systems of tribute and labor.
+  fact: Cortés scuttled his own ships so his men couldn't turn back. His translator, an enslaved Nahua woman known as Malinche, was arguably as decisive as he was.
+## d-noche | 1520 | La Noche Triste | who: Hernán Cortés; Aztec warriors under Cuitláhuac | where: Tenochtitlan (Mexico City)
+  bluf: The Aztec rising of June 1520 showed that the invaders could be beaten on Aztec ground. Cortés survived only because his Tlaxcalan allies stayed loyal, and the smallpox epidemic that followed shifted the balance back.
+  now: In 2021 Mexico City renamed the tree linked to the episode from the 'Noche Triste' (sad night) to the 'Noche Victoriosa' (victorious night), a sign of how national memory has shifted toward the Indigenous side.
+  story: After Moctezuma died in Spanish custody, the city rose against the invaders. On the night of June 30, 1520, Cortés tried to escape along a causeway; hundreds of Spaniards and many more Tlaxcalan allies were killed, some weighed down by the gold they carried.
+  why: Pedro de Alvarado's massacre of Aztec nobles at the festival of Toxcatl provoked a rising, and Moctezuma's death in Spanish custody left the Spaniards without a hostage to bargain with.
+  then: Cortés retreated to Tlaxcala, rebuilt with reinforcements and Indigenous allies, and built boats for a siege. Smallpox killed Moctezuma's successor Cuitláhuac and many of the city's defenders.
+## la15215 | 1521 | Tenochtitlan falls | who: Cortés and Tlaxcalan allies vs. Aztecs | where: Mexico City
+  bluf: The fall of Tenochtitlan ended the Aztec Empire and made central Mexico the core of Spain's American empire. It was won by an Indigenous coalition under Spanish leadership, and by epidemic disease, which together destroyed the largest city in the Americas.
+  now: Mexican national identity is built on this collision: the Aztec eagle on the flag, the Spanish language and Catholic faith, and a mestizo majority. Mexico City still sinks into the drained lakebed.
+  story: Cortés returned in 1521 with Spanish reinforcements, tens of thousands of Tlaxcalan and other Indigenous allies, and brigantines built to control the lake. Smallpox had already killed huge numbers, including the emperor Cuitláhuac. After a 75-day siege, the last emperor, Cuauhtémoc, was captured on August 13, 1521, and the city was destroyed block by block.
+  why: Aztec rule rested on tribute and fear rather than integration, so subject and rival peoples joined the invaders. Smallpox, to which Native Americans had no immunity, devastated the defenders.
+  then: Spain built Mexico City on the ruins and ran New Spain through the existing Indigenous nobility and tribute systems. Disease and forced labor cut central Mexico's Indigenous population, by most estimates, by 80-90% within a century. Tlaxcala kept special privileges as a reward for its alliance.
+  fact: Tenochtitlan, built on islands in a lake, had perhaps 200,000 people, bigger than any city in Spain. Mexico City still sinks every year because it sits on the old lakebed.
+## d-incacivil | 1532 | Atahualpa wins the Inca civil war | who: Atahualpa; his half-brother Huáscar | where: Near Cusco, Peru
+  bluf: The war between Atahualpa and Huáscar split the Inca state just as the Spanish arrived. Pizarro could exploit the factions, and some Andean peoples saw the newcomers as allies against the victors.
+  now: Many historians see the civil war, together with disease, as a key reason a few hundred Spaniards could topple the empire.
+  story: When the emperor Huayna Capac died around 1527, probably of smallpox, his sons Huáscar and Atahualpa fought for the throne. In 1532 Atahualpa's generals defeated and captured Huáscar near Cusco, only months before Pizarro reached Cajamarca.
+  why: Inca succession had no fixed rule, and an epidemic, probably smallpox spreading ahead of the Spanish, killed the emperor Huayna Capac and his chosen heir around 1527.
+  then: Atahualpa's armies won, but Huáscar's supporters in Cusco and conquered peoples such as the Cañari and Chachapoya resented the victors, and some later joined the Spanish.
+## la15326 | 1532 | Pizarro captures Atahualpa | who: Francisco Pizarro; Inca emperor Atahualpa | where: Cajamarca, Peru
+  bluf: Pizarro's capture of Atahualpa decapitated the Inca state, the largest empire in the Americas, and opened the Andes to Spanish conquest. Andean silver, soon found at Potosí, would finance Spain and knit together the world economy.
+  now: Millions of people in Peru, Bolivia and Ecuador still speak Quechua, and Indigenous movements in the Andes frame politics in terms of the conquest.
+  story: In November 1532 at Cajamarca, about 170 Spaniards ambushed Atahualpa's unarmed retinue with guns, horses and steel, and captured him. He paid a room full of gold and silver for his release, but Pizarro executed him in 1533 and marched on Cusco with Indigenous allies.
+  why: Smallpox and a civil war had weakened the empire, and its highly centralized structure meant that capturing the ruler paralysed command.
+  trig: Atahualpa agreed to meet the Spaniards in Cajamarca's square, confident in the army of tens of thousands camped nearby.
+  then: Spain installed puppet Inca rulers, faced a great rebellion in 1536 and fought bitter wars among the conquerors themselves; an Inca state held out in Vilcabamba until 1572. Spain founded Lima and built the Viceroyalty of Peru on Andean labor systems.
+  fact: Atahualpa offered to fill a room once with gold and twice with silver as ransom. He paid it, and the Spanish executed him anyway.
+## d-lima | 1535 | Pizarro founds Lima | who: Francisco Pizarro | where: Lima, Peru
+  bluf: Founding Lima on the coast turned the Andes toward the sea and Spain. Lima became the capital of a viceroyalty governing most of Spanish South America, and Peru's centre of power moved from the Indigenous highlands to a Spanish coastal city.
+  now: Peru's sharp divide between a dominant coastal capital and the Andean and Amazonian interior, visible in its election maps, goes back to this choice.
+  story: On January 18, 1535, Pizarro founded the Ciudad de los Reyes on the Rímac River near the sea, where Spanish ships could reach it. It became the capital of the Viceroyalty of Peru, which governed most of Spanish South America.
+  why: A coastal capital linked the colony to Panama and Spain, unlike Cusco high in the Andes, and was safer from Inca resistance.
+  then: Lima became home to the viceroy, the Inquisition, the merchants who controlled silver exports, and the University of San Marcos (1551), one of the oldest in the Americas.
+## la15457 | 1545 | Potosí silver discovered | who: Spanish colonists; Indigenous forced laborers (mita) | where: Potosí, Bolivia
+  bluf: Potosí's silver made Spain the first global empire and created the first truly global trade, as American silver flowed to Europe and on to China. It was dug by forced Indigenous labor that devastated Andean communities.
+  now: The Spanish silver peso became the first global currency and a model for the US dollar. Bolivia remains one of South America's poorest countries, a classic case of the 'resource curse'.
+  story: In 1545 silver was found at the Cerro Rico ('rich hill') in the Andes of today's Bolivia. Potosí quickly grew to well over 100,000 people, one of the largest cities in the Americas. From the 1570s Viceroy Toledo organized the mita, a forced labor draft that sent Indigenous men to the mines, and a mercury refining process greatly increased output.
+  why: Spain's hunger for revenue and China's demand for silver made the mine immensely valuable, and the colonial state could compel Andean labor to work it.
+  then: Silver paid for Spain's wars but also fed inflation across Europe (the 'price revolution') and made Spain dependent on bullion rather than manufacturing. Through the Manila galleons, much of it ended up in Ming China, which had shifted its taxes to silver.
+  fact: Spanish still has the phrase 'vale un Potosí' (worth a Potosí) for something priceless. Its silver made the Spanish peso the first global currency, and much of it ended up in China.
+## la15658 | 1565 | Manila galleon trade begins | who: Spanish navigator Andrés de Urdaneta; Spanish, Chinese and Mexican merchants | where: Acapulco–Manila
+  bluf: The Manila galleons linked the Americas to Asia and completed the first global trade network. American silver bought Chinese silk and porcelain, tying Ming China's economy to Spanish American mines.
+  now: The galleon trade is often called the beginning of globalization. Culinary and cultural links between Mexico and the Philippines, and the Chinese communities of Southeast Asia, trace back to it.
+  story: In 1565 Andrés de Urdaneta found the eastward route back across the Pacific, using the westerly winds of the north Pacific. For 250 years galleons carried Mexican and Peruvian silver from Acapulco to Manila to buy Chinese silk and porcelain, and sailed back once or twice a year.
+  why: China's economy had shifted to silver for taxes and trade, so silver was worth far more there than in Europe. Spain needed a way to reach Asian markets from its American colonies.
+  then: Silver flowed to China for 250 years. American crops such as maize, sweet potatoes and chillies spread to Asia, helping China's population grow, and Chinese merchants settled in Manila.
+  fact: For 250 years one or two huge ships a year crossed the Pacific. Chinese porcelain shards still turn up in Mexican digs.
+## la15729 | 1572 | Last Inca stronghold falls | who: Túpac Amaru I; Spanish viceroy Toledo | where: Vilcabamba, Peru
+  bluf: The capture and execution of Túpac Amaru ended the last independent Inca state and completed Spain's conquest of the Andes. Viceroy Toledo then reorganized Andean society to extract silver and tribute more efficiently.
+  now: Túpac Amaru's name became a symbol of resistance, taken up by the great rebellion of 1780, by guerrilla movements and even by the rapper Tupac Shakur.
+  story: For 35 years after the conquest, Inca rulers held out in the remote jungle state of Vilcabamba. In 1572 Viceroy Francisco de Toledo sent an army, captured the last Inca ruler, Túpac Amaru, and had him beheaded in Cusco's main square.
+  why: Toledo wanted to end the last independent Inca state and tighten Spanish control over Andean labor.
+  then: Toledo forced Indigenous people into new planned towns (reducciones), formalized the mita labor draft for Potosí and cracked down on the Inca nobility. Resistance went underground and resurfaced in later rebellions.
+## la169310 | 1693 | Brazilian gold rush | who: Bandeirantes; enslaved Africans | where: Minas Gerais, Brazil
+  bluf: Brazil's gold rush shifted the colony's population and economy inland and sharply increased demand for enslaved Africans. Much of the gold flowed through Portugal to Britain, helping finance Britain's commercial expansion.
+  now: Minas Gerais is still a mining state; the dam disasters at Mariana (2015) and Brumadinho (2019) show the industry's continuing costs.
+  story: In the 1690s bandeirantes, slave-raiding explorers from São Paulo, found gold in the hills of Minas Gerais. A rush followed: tens of thousands of Portuguese settlers and enslaved Africans poured in, and towns like Ouro Preto grew rich.
+  why: Bandeirantes searching the interior for captives and precious metals struck gold in Minas Gerais.
+  then: Minas Gerais became Brazil's richest region, and the capital moved from Salvador to Rio de Janeiro (1763), the port for the mines. Under the Methuen Treaty (1703) Portugal bought British cloth and paid the difference in Brazilian gold.
+## la178011 | 1780 | Túpac Amaru II rebellion | who: José Gabriel Condorcanqui (Túpac Amaru II) | where: Peru
+  bluf: Túpac Amaru II's rebellion was the largest Indigenous uprising in colonial Spanish America, a revolt against abusive officials and forced labour. Its brutal suppression left Creole elites afraid of Indigenous mobilization, which shaped Peru's cautious, elite-led road to independence.
+  now: He is a national hero in Peru and an icon of resistance across Latin America.
+  story: In November 1780 José Gabriel Condorcanqui, a wealthy mule-train owner of Inca descent, seized and executed a hated Spanish official. Calling himself Túpac Amaru II, he led tens of thousands of Indigenous and mestizo rebels against abusive officials and forced labour.
+  why: Crushing taxes, forced purchases of goods from officials, and the mita forced-labour system.
+  then: He was captured and executed in 1781, and Spain banned Inca dress, symbols and titles. The rebellion continued under Túpac Katari in Upper Peru (Bolivia).
+## la179112 | 1791 | Haitian Revolution begins | who: Toussaint Louverture; enslaved Africans | where: Saint-Domingue (Haiti)
+  bluf: The Haitian Revolution was the only slave revolt in history to found a nation, and it destroyed the world's most profitable colony. It proved enslaved people could defeat European armies, terrified slaveholding societies, and pushed Napoleon to sell Louisiana to the United States.
+  now: Haiti paid the indemnity and related loans until 1947, draining its economy. The revolution is a touchstone for Black freedom and anti-colonial movements.
+  story: Saint-Domingue produced much of the world's sugar and coffee using the labor of about 500,000 enslaved Africans, worked so hard that planters constantly imported more. In August 1791 they rose on the northern plain. Led by Toussaint Louverture and later Jean-Jacques Dessalines, they fought off Spanish and British invasions and, in 1802-03, Napoleon's army.
+  why: Brutal sugar slavery; free people of colour demanding equal rights; and the French Revolution's declarations of liberty, which divided the colony's whites and inspired the enslaved.
+  trig: A ceremony at Bois Caïman and coordinated uprisings across the northern plain in August 1791.
+  then: France abolished slavery in 1794, and Haiti declared independence in 1804. Napoleon's defeat there led him to sell Louisiana (1803). Haiti was isolated: the United States refused recognition until 1862, and France demanded a huge indemnity in 1825 in return for recognizing it.
+  fact: Napoleon's failure to retake Haiti is why he gave up on America and sold Louisiana.
+## d-toussaint | 1802 | Toussaint Louverture captured | who: Toussaint Louverture; General Charles Leclerc | where: Near Gonaïves, Haiti
+  bluf: Napoleon's capture of Toussaint aimed to decapitate the Haitian Revolution and restore slavery. It backfired: news that France had brought back slavery elsewhere drove Haitians to fight on to full independence.
+  now: Toussaint is a hero of Black liberation and anti-colonial movements worldwide, and his capture shows that Napoleon meant to restore slavery.
+  story: Napoleon sent a large army under his brother-in-law Leclerc to retake Saint-Domingue. On June 7, 1802, Toussaint was arrested at a meeting he had been invited to, deported, and died in a freezing prison in the Jura mountains in April 1803.
+  why: Napoleon wanted to restore French control and, it soon became clear, slavery.
+  then: When news came that France had restored slavery in Guadeloupe, Haitians rose again under Dessalines.
+## d-vertieres | 1803 | Battle of Vertières | who: Jean-Jacques Dessalines; François Capois; French general Rochambeau | where: Vertières, near Cap-Haïtien
+  bluf: Vertières ended Napoleon's attempt to retake Saint-Domingue and restore slavery, leading directly to Haitian independence. Yellow fever and Haitian resistance destroyed one of the largest expeditionary forces France ever sent overseas.
+  now: It made Haiti the second independent nation in the Americas and the first born of a slave revolt, a precedent that terrified slaveholding powers.
+  story: On November 18, 1803, Dessalines's army attacked the last French positions around Cap-Français. Rochambeau agreed to evacuate, and Haiti declared independence on January 1, 1804.
+  why: Yellow fever had destroyed much of the French army, and renewed war with Britain cut off reinforcements.
+  then: Haiti became the first state founded after a successful revolt by enslaved people.
+## la180413 | 1804 | Haiti independent | who: Jean-Jacques Dessalines | where: Haiti
+  bluf: Haiti's independence created the first Black republic and the first state to abolish slavery permanently. The great powers answered with isolation, and France with a ruinous indemnity, showing how threatening a free Black state was to the slaveholding world.
+  now: Many historians tie Haiti's poverty partly to the indemnity, and in 2025 France's president called it an injustice and set up a joint commission of historians to study it.
+  story: On January 1, 1804, at Gonaïves, Jean-Jacques Dessalines declared the independence of Haiti, taking back the island's Taíno name. He abolished slavery for good and later had himself crowned emperor.
+  why: Haitian armies had defeated Napoleon's attempt to restore French rule and slavery.
+  then: Dessalines ordered the killing of most of the remaining French whites in 1804. France forced Haiti to pay a crushing 'indemnity' for its freedom, which Haiti paid off for over a century.
+  fact: France made Haiti pay a huge 'indemnity' for its own freedom; Haiti kept paying for over a century.
+## la180814 | 1808 | Portuguese court flees to Brazil | who: Prince Regent João | where: Rio de Janeiro
+  bluf: The Portuguese court's flight made Rio de Janeiro the capital of a European empire and turned Brazil from colony into kingdom. It explains why Brazil became independent as one unified monarchy rather than splintering like Spanish America.
+  now: It is the only time a European empire was ruled from a colony, and it is why Brazil, unlike Spanish America, is one huge Portuguese-speaking country.
+  story: In November 1807, as Napoleon's army approached Lisbon, the Portuguese royal family and thousands of courtiers sailed for Brazil under British naval escort. Rio de Janeiro became the capital of the Portuguese empire in 1808.
+  why: Napoleon invaded Portugal for refusing to join his blockade of Britain.
+  then: Brazil gained schools, banks and a printing press. When King João VI returned to Portugal in 1821, his son Pedro stayed and declared Brazilian independence in 1822.
+  fact: The only time a European empire was ruled from one of its colonies.
+## la181015 | 1810 | Hidalgo's revolt | who: Father Miguel Hidalgo | where: Dolores, Mexico
+  bluf: Hidalgo's call to revolt began Mexico's war of independence as a mass uprising of the Indigenous and mestizo poor. Its violence frightened Creole elites, which is why independence, when it came in 1821, was led by conservatives.
+  now: Mexico's national story celebrates Hidalgo's popular revolt, even though independence was won by conservatives, a tension in how Mexico remembers its founding.
+  story: Father Miguel Hidalgo rang the church bell at Dolores and called on Indigenous and mestizo Mexicans to rise up. He was captured and executed in 1811.
+  why: Napoleon's overthrow of Spain's king created a crisis of authority, on top of Creole resentment of Spanish-born officials and Indigenous and mestizo grievances over land and tribute.
+  then: The war lasted 11 years. Independence was finally won in 1821 by the conservative officer Agustín de Iturbide, who briefly made himself emperor.
+  fact: Mexico's Independence Day is September 16, the anniversary of Hidalgo's cry. It is not Cinco de Mayo.
+## la181616 | 1816 | Argentina independent | who: Congress of Tucumán; José de San Martín | where: Argentina
+  bluf: Argentina's declaration completed the break with Spain in the Río de la Plata and launched San Martín's campaigns that freed Chile and Peru. Decades of civil war between Buenos Aires and the provinces followed, shaping Argentina's lasting divide between port and interior.
+  now: The rivalry between Buenos Aires and the provinces, born in these years, still shapes Argentina's federal politics.
+  story: On July 9, 1816, delegates of the United Provinces of the Río de la Plata met at Tucumán and declared independence from Spain. The next year José de San Martín led an army across the Andes to free Chile and then Peru.
+  why: Spain's crisis under Napoleon had let local juntas govern since 1810, and leaders wanted to make it permanent.
+  then: Argentina fought civil wars for decades between Buenos Aires, which wanted a strong centre, and provincial strongmen who wanted federalism; a lasting constitution came only in 1853.
+## la181917 | 1819 | Bolívar wins at Boyacá | who: Simón Bolívar | where: Colombia
+  bluf: Bolívar's victory at Boyacá freed New Granada (today's Colombia) from Spain and turned the tide of independence in northern South America. It launched campaigns that liberated five countries and created Gran Colombia, Bolívar's short-lived attempt at a great South American republic.
+  now: Bolívar is the 'Liberator' of five countries, and Hugo Chávez's 'Bolivarian revolution' and Venezuela's official name show his continuing political power.
+  story: In 1819 Simón Bolívar led his army across the flooded plains of the Llanos and over the freezing Andes into New Granada. On August 7 at the bridge of Boyacá he defeated the Spanish army, and Bogotá fell three days later.
+  why: Spain's authority had collapsed after Napoleon invaded it in 1808, and Creole elites wanted self-rule. Spain's harsh reconquest after 1815 had turned many against it, and Bolívar needed a new strategy after repeated defeats in Venezuela.
+  then: He created Gran Colombia and helped free Ecuador, Peru and Bolivia. Independence was led by Creole elites, and the colonial social hierarchy, including the exclusion of Indigenous people, largely remained.
+  fact: Bolivia is named after Bolívar.
+## la182118 | 1821 | Mexico independent | who: Agustín de Iturbide | where: Mexico
+  bluf: Mexico won independence not through Hidalgo's popular revolt but through a conservative deal that preserved the Church and elite privileges. It inherited a huge, divided territory and fragile institutions, and lost half of that territory to the United States within a generation.
+  now: Mexico became Latin America's largest Spanish-speaking nation, and arguments over the role of the Church, the army and the regions shaped its politics through the revolution of 1910.
+  story: Agustín de Iturbide, a royalist officer who had fought Mexico's rebels, switched sides in 1821 and joined the insurgent leader Vicente Guerrero. Their Plan of Iguala promised independence, Catholicism and equality, and Spain's last viceroy accepted it. Iturbide made himself emperor in 1822 but was overthrown a year later.
+  why: Conservative Creole elites, alarmed by a liberal revolution in Spain that threatened Church and army privileges, decided independence was safer than rule from Madrid.
+  trig: Spain's liberal revolution of 1820, which restored its 1812 constitution.
+  then: Mexico's first decades brought constant coups and conflict between centralists and federalists, liberals and conservatives. Texas broke away in 1836, and the United States took the north in 1848.
+## la182219 | 1822 | Brazil independent | who: Prince Pedro (Emperor Pedro I); his adviser José Bonifácio | where: Brazil
+  bluf: Brazil's independence under its own prince kept the country united and monarchical, avoiding the wars and fragmentation of Spanish America. It also preserved slavery and the plantation elite, making Brazil the last country in the Americas to abolish slavery, in 1888.
+  now: Brazil is the only Latin American country that became a monarchy rather than a republic at independence.
+  story: When Portugal's parliament ordered Brazil back to colonial status and recalled Prince Pedro, he refused. On September 7, 1822, by the Ipiranga stream near São Paulo, he declared 'Independence or death!', and he was crowned emperor that December.
+  why: Portugal's parliament tried to return Brazil to colonial status after the royal court went home, and Brazilian elites rallied behind Prince Pedro to keep their autonomy.
+  then: Brazil stayed united under a monarchy until 1889 and kept slavery until 1888, the last country in the Americas to abolish it.
+## la182420 | 1824 | Battle of Ayacucho | who: Antonio José de Sucre | where: Peru
+  bluf: Ayacucho destroyed Spain's last major army in South America and ended its mainland American empire; Spain kept only Cuba and Puerto Rico.
+  now: It completed South American independence, but the new republics kept Spanish colonial borders, elites and inequalities, which still shape the region.
+  story: On December 9, 1824, high in the Peruvian Andes, Antonio José de Sucre's patriot army defeated the much larger army of the last Spanish viceroy at Ayacucho. The viceroy was captured and his army surrendered.
+  why: Spain's last major army in South America held the Peruvian highlands, and Bolívar and Sucre had to destroy it to secure the independence of the whole continent.
+  then: Spain's mainland American empire was over, and Bolivia was founded the next year, named after Bolívar.
+## la183021 | 1830 | Gran Colombia breaks apart | who: Simón Bolívar; Venezuelan leader José Antonio Páez; Ecuador's Juan José Flores | where: Colombia, Venezuela, Ecuador
+  bluf: The collapse of Gran Colombia ended Bolívar's vision of a large, unified South American republic. Latin America fragmented into many states dominated by regional elites and military strongmen (caudillos).
+  now: Gran Colombia's breakup into Venezuela, Colombia and Ecuador shows how hard it is to hold a large state together without shared institutions; Chávez later revived 'Bolivarian' ideas of Latin American unity.
+  story: Gran Colombia, which Bolívar built from today's Colombia, Venezuela, Ecuador and Panama, broke apart in 1830 as Venezuela under José Antonio Páez and then Ecuador seceded. Bolívar resigned and died of tuberculosis in December 1830, saying he had 'ploughed the sea'.
+  why: Regional elites resented rule from Bogotá, and Bolívar's attempt at a strong central government made enemies.
+  then: Latin America stayed divided into many states, often ruled by regional strongmen, a fragmentation that left it weaker relative to the United States.
+## d-baptistwar | 1831 | Baptist War in Jamaica | who: Samuel Sharpe and enslaved Jamaicans | where: Western Jamaica
+  bluf: The Baptist War, the largest slave uprising in the British Caribbean, convinced Parliament that slavery could not be maintained without constant violence. It hastened the 1833 Abolition Act.
+  now: Sam Sharpe is a National Hero of Jamaica, and the revolt is a reminder that the enslaved helped win their own freedom.
+  story: Led by Baptist deacon Samuel Sharpe, tens of thousands of enslaved people planned a peaceful strike after Christmas 1831. It turned into a revolt; 14 white people and about 200 rebels died in the fighting, and over 300 more were executed afterwards, Sharpe among them.
+  why: Rumours that freedom had already been granted in London, and brutal conditions on the sugar estates.
+  then: Parliament passed the Slavery Abolition Act in 1833. Slave owners received £20 million in compensation, while the formerly enslaved got nothing and had to work years of unpaid 'apprenticeship'.
+## d-beagle | 1831 | Darwin sails on the Beagle | who: Charles Darwin; Captain Robert FitzRoy | where: Galápagos Islands
+  bluf: Darwin's voyage gave him the observations (fossils, geology, island species) that led to his theory of evolution by natural selection. It also shows how imperial survey voyages produced scientific knowledge.
+  now: The Galápagos remain a living laboratory of evolution, and protecting them is a test of modern conservation.
+  story: HMS Beagle left Plymouth on December 27, 1831, to chart South America's coasts. Darwin collected fossils and specimens, and in the Galápagos in 1835 he noticed that mockingbirds differed from island to island.
+  why: FitzRoy wanted a gentleman companion and naturalist for the long voyage.
+  then: Back home, Darwin began his notebooks on the 'transmutation' of species in 1837.
+## la184822 | 1848 | Treaty of Guadalupe Hidalgo | who: US envoy Nicholas Trist; Mexican commissioners | where: Guadalupe Hidalgo, Mexico City
+  bluf: The treaty transferred about half of Mexico's territory, including California, to the United States, and made tens of thousands of Mexicans US residents overnight. It fixed much of the modern US-Mexico border and created the Mexican-American population of the Southwest.
+  now: 'We didn't cross the border, the border crossed us' is a saying in the US Southwest.
+  story: Signed in February 1848 at Guadalupe Hidalgo near Mexico City, the treaty gave the US about half of Mexico's territory, including California, Nevada, Utah and most of Arizona and New Mexico, for $15 million. Mexicans living there could become US citizens.
+  why: US troops occupied Mexico City, and Mexico, divided and bankrupt, had to make peace on American terms.
+  then: About 80,000 Mexicans became US residents; their property rights, though promised, were often lost in later land disputes.
+## la186223 | 1862 | French invade Mexico | who: Napoleon III | where: Mexico
+  bluf: Napoleon III's invasion tried to set up a French-backed monarchy in Mexico while the United States was distracted by civil war. Mexican resistance, symbolized by the victory at Puebla, and later US pressure defeated the scheme and strengthened Mexican nationalism under Benito Juárez.
+  now: The French intervention and the empire it installed under Maximilian collapsed in 1867, which discredited monarchy in Mexico for good and fixed the republic under Juárez.
+  story: In 1861 Mexico suspended payments on its foreign debts. Britain and Spain soon withdrew, but Napoleon III's France invaded, seeking a Catholic monarchy friendly to France. Mexican forces under Ignacio Zaragoza beat the French at Puebla on May 5, 1862, but France took Mexico City the next year.
+  why: Mexico suspended its debt payments, and Napoleon III wanted a French-backed empire while the US was busy with its civil war.
+  then: France took Mexico City in 1863 and made the Austrian archduke Maximilian emperor, but faced continuing guerrilla resistance.
+  fact: Cinco de Mayo, the 1862 victory at Puebla, is now celebrated more in the United States than in Mexico.
+## la186424 | 1864 | Paraguayan War | who: Paraguay vs. Brazil, Argentina, Uruguay | where: South America
+  bluf: The Paraguayan War was the deadliest in Latin American history, devastating Paraguay and confirming Brazil and Argentina as the region's powers. Paraguay lost much of its population and territory.
+  now: It is the deadliest war in Latin American history; Paraguay lost a large share of its population, and the war is still central to Paraguayan nationalism and its wariness of its larger neighbours.
+  story: In 1864 Paraguay's dictator Francisco Solano López intervened in a Uruguayan civil war and invaded Brazilian and Argentine territory. Brazil, Argentina and Uruguay allied against him, and the war dragged on until López was killed in 1870.
+  why: Paraguay's dictator Francisco Solano López intervened in a Uruguayan civil war against Brazil's ally, then invaded Brazilian and Argentine territory, uniting his neighbours against him.
+  then: Paraguay may have lost over half its population, including most of its men.
+  fact: Paraguay may have lost over half its population, including most of its men.
+## la186725 | 1867 | Emperor Maximilian executed | who: Benito Juárez | where: Querétaro, Mexico
+  bluf: Maximilian's execution ended France's attempt to impose a European monarchy on Mexico and confirmed the victory of Juárez's liberal republic.
+  now: It ended European attempts to rule Mexico and made Juárez, a Zapotec lawyer, the symbol of Mexican sovereignty and the secular state.
+  story: After the US Civil War, the United States pressed France to leave Mexico, and Napoleon III withdrew his troops in 1866-67. Maximilian stayed on; Benito Juárez's republican forces captured him at Querétaro, and he was shot on June 19, 1867.
+  why: Napoleon III pulled out his troops under US pressure, leaving Maximilian without protection.
+  then: Juárez restored the republic, confirming Mexico's independence and the liberal reforms that limited the Church's power.
+  fact: Édouard Manet painted the execution, a criticism of Napoleon III, and the painting was banned in France.
+## la187626 | 1876 | Porfirio Díaz dictatorship | who: Porfirio Díaz | where: Mexico
+  bluf: Porfirio Díaz's 35-year dictatorship brought railways, foreign investment and order to Mexico, but concentrated land and wealth in a few hands. The resulting inequality and political closure exploded in the revolution of 1910.
+  now: His motto 'order and progress' is a classic of development dictatorships.
+  story: General Porfirio Díaz seized power in 1876 under the slogan 'no re-election', then ruled almost continuously until 1911. Railways, mines and foreign investment boomed, while peasants and Indigenous villages lost their land to haciendas.
+  why: Díaz led a revolt against President Sebastián Lerdo de Tejada's bid for re-election.
+  then: Peasants lost their land to haciendas and foreign companies, and anger exploded in the revolution of 1910.
+## la188627 | 1886 | Cuba ends slavery | who: Spain's government; Cuban abolitionists and the enslaved | where: Cuba
+  bluf: Spain's abolition of slavery in Cuba ended one of the largest and last slave economies in the Americas, under pressure from war and abolitionists. Afro-Cubans' role in the independence wars tied racial freedom to Cuban nationalism.
+  now: Afro-Cuban music, religion and culture are at the heart of Cuban identity.
+  story: Cuba's sugar boom had depended on enslaved Africans. The Ten Years' War (1868–78), in which many enslaved people fought for independence, and pressure from abolitionists forced Spain to end slavery in stages.
+  why: The Ten Years' War, in which rebels freed enslaved people who joined them, and growing abolitionist pressure made slavery unsustainable.
+  then: Formerly enslaved Cubans joined the next independence war in large numbers.

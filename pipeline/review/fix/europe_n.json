@@ -1,0 +1,1417 @@
+[
+ {
+  "from": 1400,
+  "to": 1542,
+  "country": "Ireland",
+  "regions": [
+   "Meath",
+   "Kildare",
+   "Kilkenny",
+   "Wexford",
+   "North Tipperary"
+  ],
+  "owner": "Lordship of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "English Lordship of Ireland (the Pale plus the Butler/Ormond and Wexford lordships) until the Crown of Ireland Act 1542. Map currently flips these between Kingdom of England, Lordship, Gaelic and even Kalmar Union/Denmark-Norway (Wexford) every decade",
+  "source": "https://en.wikipedia.org/wiki/Lordship_of_Ireland",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1583,
+  "country": "Ireland",
+  "regions": [
+   "Cork",
+   "Kerry",
+   "Limerick"
+  ],
+  "owner": "Earldom of Desmond",
+  "overlord": "Kingdom of England",
+  "why": "FitzGerald Earldom of Desmond held Limerick and much of Cork and Kerry from 1329 until forfeiture after the Second Desmond Rebellion in 1583; map shows Desmond only to ~1420 then Gaelic/Lordship/England flips and Kalmar Union in Limerick",
+  "source": "https://en.wikipedia.org/wiki/Earl_of_Desmond",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1543,
+  "country": "Ireland",
+  "regions": [
+   "Clare"
+  ],
+  "owner": "Kingdom of Thomond",
+  "why": "Clare was the O'Brien Kingdom of Thomond until Murrough O'Brien's surrender and regrant (Earl of Thomond) in 1542-43; map shows Earldom of Desmond, Kalmar Union and Denmark-Norway",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Thomond",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1543,
+  "country": "Ireland",
+  "regions": [
+   "Galway"
+  ],
+  "owner": "Gaelic Irish lordships",
+  "why": "Gaelicised Clanricarde Burkes and Gaelic lords held Galway until the 1543 surrender and regrant; map wrongly shows the Earldom of Desmond (a Munster earldom) here 1410-1450. Owner = the map's existing '(peoples: Gaelic Irish lordships)' layer",
+  "source": "https://en.wikipedia.org/wiki/Tudor_conquest_of_Ireland",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1556,
+  "country": "Ireland",
+  "regions": [
+   "Laoighis",
+   "Offaly"
+  ],
+  "owner": "Gaelic Irish lordships",
+  "why": "O'More (Laois) and O'Connor Faly (Offaly) Gaelic lordships until the Laois-Offaly plantation of 1556; map shows Earldom of Desmond then Lordship/England flips. Owner = existing Gaelic lordships peoples layer",
+  "source": "https://en.wikipedia.org/wiki/Tudor_conquest_of_Ireland",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1570,
+  "country": "Ireland",
+  "regions": [
+   "Leitrim",
+   "Mayo",
+   "Roscommon"
+  ],
+  "owner": "Gaelic Irish lordships",
+  "why": "Connacht lordships (O'Rourke, O'Conor, MacWilliam Burkes) outside English control until Tudor presidency/composition of Connacht from c.1570; map shows them as Lordship of Ireland 1459-1540 and flipping. Owner = existing Gaelic lordships peoples layer",
+  "source": "https://en.wikipedia.org/wiki/Tudor_conquest_of_Ireland",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1579,
+  "country": "Ireland",
+  "regions": [
+   "Cavan–Monaghan"
+  ],
+  "owner": "Gaelic Irish lordships",
+  "why": "East Breifne (O'Reilly) and Oriel (MacMahon) were Gaelic lordships until shired in the late 16th c.; map flips Cavan–Monaghan between Kingdom of England and Lordship every decade 1407-1540",
+  "source": "https://en.wikipedia.org/wiki/Tudor_conquest_of_Ireland",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1607,
+  "country": "Ireland",
+  "regions": [
+   "Donegal"
+  ],
+  "owner": "Gaelic Irish lordships",
+  "why": "Tír Chonaill (O'Donnell) remained Gaelic until the end of the Nine Years' War (1603) and the Flight of the Earls (1607); map shows Donegal as Lordship of Ireland 1459-1540 and Kingdom of England 1579-1595",
+  "source": "https://en.wikipedia.org/wiki/Flight_of_the_Earls",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1607,
+  "country": "United Kingdom",
+  "regions": [
+   "Omagh–Dungannon"
+  ],
+  "owner": "Tír Eoghain",
+  "why": "O'Neill Tír Eoghain remained Gaelic until 1603/1607; map shows Lordship of Ireland 1460-1530 and Kingdom of England 1580-1590",
+  "source": "https://en.wikipedia.org/wiki/Tír_Eoghain",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1607,
+  "country": "United Kingdom",
+  "regions": [
+   "Ballymena–Moyle–Ards–Larne–Newtownabbey–Belfast–Castlereagh",
+   "Mid Ulster–Antrim–Banbridge–Lisburn",
+   "Strabane–Magherafelt–Coleraine"
+  ],
+  "owner": "Gaelic Irish lordships",
+  "why": "East and north Ulster (Clandeboye O'Neills, MacDonnells, O'Cahans, Magennis) were Gaelic until the Flight of the Earls 1607; map flips them every decade between Kingdom of England, Lordship of Ireland, Kingdom of Scotland (never ruled there) and Gaelic",
+  "source": "https://en.wikipedia.org/wiki/Flight_of_the_Earls",
+  "severity": "major"
+ },
+ {
+  "from": 1542,
+  "to": 1642,
+  "country": "Ireland",
+  "regions": [
+   "Meath",
+   "Kildare",
+   "Kilkenny",
+   "Wexford",
+   "North Tipperary"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "Crown of Ireland Act 1542 created the Kingdom of Ireland, a dependency of England in personal union; map shows Kingdom of Ireland only around 1550 then relabels the same land 'Kingdom of England'",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ireland",
+  "severity": "minor"
+ },
+ {
+  "from": 1543,
+  "to": 1642,
+  "country": "Ireland",
+  "regions": [
+   "Clare",
+   "Galway"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "Thomond and Clanricarde submitted under surrender and regrant 1543; Kingdom of Ireland thereafter (map shows Denmark-Norway in Clare until 1547)",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ireland",
+  "severity": "major"
+ },
+ {
+  "from": 1556,
+  "to": 1642,
+  "country": "Ireland",
+  "regions": [
+   "Laoighis",
+   "Offaly"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "Laois-Offaly planted as Queen's and King's Counties from 1556",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ireland",
+  "severity": "minor"
+ },
+ {
+  "from": 1570,
+  "to": 1642,
+  "country": "Ireland",
+  "regions": [
+   "Leitrim",
+   "Mayo",
+   "Roscommon"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "Connacht brought under the Kingdom of Ireland's presidency from c.1570",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ireland",
+  "severity": "minor"
+ },
+ {
+  "from": 1579,
+  "to": 1642,
+  "country": "Ireland",
+  "regions": [
+   "Cavan–Monaghan"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "Cavan/Monaghan shired and brought under crown administration from 1579",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ireland",
+  "severity": "minor"
+ },
+ {
+  "from": 1583,
+  "to": 1642,
+  "country": "Ireland",
+  "regions": [
+   "Cork",
+   "Kerry",
+   "Limerick"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "Desmond lands forfeited to the crown 1583 (Munster plantation)",
+  "source": "https://en.wikipedia.org/wiki/Earl_of_Desmond",
+  "severity": "minor"
+ },
+ {
+  "from": 1607,
+  "to": 1642,
+  "country": "Ireland",
+  "regions": [
+   "Donegal"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "Tír Chonaill passed to crown control after the Flight of the Earls 1607",
+  "source": "https://en.wikipedia.org/wiki/Flight_of_the_Earls",
+  "severity": "minor"
+ },
+ {
+  "from": 1607,
+  "to": 1642,
+  "country": "United Kingdom",
+  "regions": [
+   "Ballymena–Moyle–Ards–Larne–Newtownabbey–Belfast–Castlereagh",
+   "Mid Ulster–Antrim–Banbridge–Lisburn",
+   "Strabane–Magherafelt–Coleraine",
+   "Omagh–Dungannon"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "Ulster was part of the Kingdom of Ireland after 1607 (Plantation of Ulster), not the Kingdom of England",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ireland",
+  "severity": "minor"
+ },
+ {
+  "from": 1660,
+  "to": 1707,
+  "country": "Ireland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "Restored Kingdom of Ireland (separate kingdom, dependency of England) 1660-1707; map labels it Kingdom of England",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ireland",
+  "severity": "minor"
+ },
+ {
+  "from": 1660,
+  "to": 1707,
+  "country": "United Kingdom",
+  "regions": [
+   "Ballymena–Moyle–Ards–Larne–Newtownabbey–Belfast–Castlereagh",
+   "Mid Ulster–Antrim–Banbridge–Lisburn",
+   "Strabane–Magherafelt–Coleraine",
+   "Omagh–Dungannon"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of England",
+  "why": "Ulster part of the restored Kingdom of Ireland 1660-1707",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ireland",
+  "severity": "minor"
+ },
+ {
+  "from": 1707,
+  "to": 1801,
+  "country": "Ireland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of Great Britain",
+  "why": "Ireland was not part of the Kingdom of Great Britain (1707 union covered England and Scotland only); it remained the Kingdom of Ireland, a dependency of Great Britain, until the Acts of Union took effect 1 Jan 1801",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ireland",
+  "severity": "major"
+ },
+ {
+  "from": 1707,
+  "to": 1801,
+  "country": "United Kingdom",
+  "regions": [
+   "Ballymena–Moyle–Ards–Larne–Newtownabbey–Belfast–Castlereagh",
+   "Mid Ulster–Antrim–Banbridge–Lisburn",
+   "Strabane–Magherafelt–Coleraine",
+   "Omagh–Dungannon"
+  ],
+  "owner": "Kingdom of Ireland",
+  "overlord": "Kingdom of Great Britain",
+  "why": "Ulster was in the Kingdom of Ireland, not Great Britain, until 1801",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ireland",
+  "severity": "major"
+ },
+ {
+  "from": 1603,
+  "to": 1652,
+  "country": "United Kingdom",
+  "regions": [
+   "Aberdeenshire",
+   "Angus",
+   "Argyll and Bute",
+   "Dumfries and Galloway",
+   "East Lothian–North Lanarkshire–West Lothian",
+   "Eilean Siar",
+   "Highland",
+   "Moray",
+   "Orkney",
+   "Perthshire and Kinross",
+   "Scottish Borders",
+   "Shetland Islands",
+   "South Ayrshire–North Ayshire–Renfrewshire–West Dunbartonshire–East Dunbartonshire–Glasgow",
+   "South Lanarkshire",
+   "Stirling"
+  ],
+  "owner": "Kingdom of Scotland",
+  "why": "The 1603 Union of the Crowns was only a personal union; Scotland stayed a separate kingdom until 1707 (apart from Cromwellian occupation 1652-60). Map shows Scotland as Kingdom of England 1610-1630 and '(peoples: Scotland)' in 1640",
+  "source": "https://en.wikipedia.org/wiki/Union_of_the_Crowns",
+  "severity": "major"
+ },
+ {
+  "from": 1660,
+  "to": 1707,
+  "country": "United Kingdom",
+  "regions": [
+   "Aberdeenshire",
+   "Angus",
+   "Argyll and Bute",
+   "Dumfries and Galloway",
+   "East Lothian–North Lanarkshire–West Lothian",
+   "Eilean Siar",
+   "Highland",
+   "Moray",
+   "Orkney",
+   "Perthshire and Kinross",
+   "Scottish Borders",
+   "Shetland Islands",
+   "South Ayrshire–North Ayshire–Renfrewshire–West Dunbartonshire–East Dunbartonshire–Glasgow",
+   "South Lanarkshire",
+   "Stirling"
+  ],
+  "owner": "Kingdom of Scotland",
+  "why": "Kingdom of Scotland restored 1660 and separate until the Acts of Union 1707; map shows Kingdom of England 1670-1700",
+  "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1707",
+  "severity": "major"
+ },
+ {
+  "from": 1801,
+  "to": 1886,
+  "country": "United Kingdom",
+  "regions": [
+   "*"
+  ],
+  "owner": "United Kingdom",
+  "why": "United Kingdom of Great Britain and Ireland created 1 Jan 1801; map keeps 'Kingdom of Great Britain' until 1886",
+  "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+  "severity": "major"
+ },
+ {
+  "from": 1801,
+  "to": 1886,
+  "country": "Ireland",
+  "regions": [
+   "*"
+  ],
+  "owner": "United Kingdom",
+  "why": "Ireland was part of the United Kingdom from 1 Jan 1801; map shows 'Kingdom of Great Britain' until 1886",
+  "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+  "severity": "major"
+ },
+ {
+  "from": 1801,
+  "to": 1886,
+  "country": "Isle of Man",
+  "regions": [
+   "*"
+  ],
+  "owner": "United Kingdom",
+  "why": "Map uses United Kingdom for the Isle of Man after 1886; 'Kingdom of Great Britain' label after 1801 is anachronistic",
+  "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+  "severity": "minor"
+ },
+ {
+  "from": 1922,
+  "to": 1937,
+  "country": "Ireland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Irish Free State",
+  "why": "Irish Free State existed Dec 1922 - Dec 1937 (then Ireland/Éire); map shows 1930 as 'Ireland' for 15 regions and 'Irish Free State' for only Kildare and Kilkenny",
+  "source": "https://en.wikipedia.org/wiki/Irish_Free_State",
+  "severity": "major"
+ },
+ {
+  "from": 1402,
+  "to": 1475,
+  "country": "Isle of Man",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of England",
+  "why": "Mann was under English lords from c.1333 and granted by Henry IV to Sir John Stanley in 1405/06; map shows it Scottish 1410-1470",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Isle_of_Man",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1461,
+  "country": "Jersey",
+  "regions": [
+   "Jersey"
+  ],
+  "owner": "Kingdom of England",
+  "why": "Channel Islands were kept by the English crown after the loss of Normandy (1204, Treaty of Paris 1259); map shows them French for most of 1400-2025",
+  "source": "https://en.wikipedia.org/wiki/Channel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1468,
+  "to": 1707,
+  "country": "Jersey",
+  "regions": [
+   "Jersey"
+  ],
+  "owner": "Kingdom of England",
+  "why": "English crown possession (Jersey's French occupation 1461-1468 aside); map shows Kingdom of France",
+  "source": "https://en.wikipedia.org/wiki/Channel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1707,
+  "to": 1801,
+  "country": "Jersey",
+  "regions": [
+   "Jersey"
+  ],
+  "owner": "Kingdom of Great Britain",
+  "overlord": "British Empire",
+  "why": "British crown dependency; map shows Kingdom of France",
+  "source": "https://en.wikipedia.org/wiki/Channel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1801,
+  "to": 1940,
+  "country": "Jersey",
+  "regions": [
+   "Jersey"
+  ],
+  "owner": "United Kingdom",
+  "why": "British crown dependency; map shows French Consulate/Empire/Republic/France",
+  "source": "https://en.wikipedia.org/wiki/Channel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1940,
+  "to": 1945,
+  "country": "Jersey",
+  "regions": [
+   "Jersey"
+  ],
+  "owner": "Nazi Germany",
+  "why": "German occupation of the Channel Islands June 1940 - May 1945",
+  "source": "https://en.wikipedia.org/wiki/German_occupation_of_the_Channel_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1945,
+  "to": 2026,
+  "country": "Jersey",
+  "regions": [
+   "Jersey"
+  ],
+  "owner": "United Kingdom",
+  "why": "British crown dependency since liberation 1945; map shows France",
+  "source": "https://en.wikipedia.org/wiki/Channel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1461,
+  "country": "Guernsey",
+  "regions": [
+   "Sark"
+  ],
+  "owner": "Kingdom of England",
+  "why": "Channel Islands were kept by the English crown after the loss of Normandy (1204, Treaty of Paris 1259); map shows them French for most of 1400-2025",
+  "source": "https://en.wikipedia.org/wiki/Channel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1468,
+  "to": 1707,
+  "country": "Guernsey",
+  "regions": [
+   "Sark"
+  ],
+  "owner": "Kingdom of England",
+  "why": "English crown possession (Jersey's French occupation 1461-1468 aside); map shows Kingdom of France",
+  "source": "https://en.wikipedia.org/wiki/Channel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1707,
+  "to": 1801,
+  "country": "Guernsey",
+  "regions": [
+   "Sark"
+  ],
+  "owner": "Kingdom of Great Britain",
+  "overlord": "British Empire",
+  "why": "British crown dependency; map shows Kingdom of France",
+  "source": "https://en.wikipedia.org/wiki/Channel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1801,
+  "to": 1940,
+  "country": "Guernsey",
+  "regions": [
+   "Sark"
+  ],
+  "owner": "United Kingdom",
+  "why": "British crown dependency; map shows French Consulate/Empire/Republic/France",
+  "source": "https://en.wikipedia.org/wiki/Channel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1940,
+  "to": 1945,
+  "country": "Guernsey",
+  "regions": [
+   "Sark"
+  ],
+  "owner": "Nazi Germany",
+  "why": "German occupation of the Channel Islands June 1940 - May 1945",
+  "source": "https://en.wikipedia.org/wiki/German_occupation_of_the_Channel_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1945,
+  "to": 2026,
+  "country": "Guernsey",
+  "regions": [
+   "Sark"
+  ],
+  "owner": "United Kingdom",
+  "why": "British crown dependency since liberation 1945; map shows France",
+  "source": "https://en.wikipedia.org/wiki/Channel_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1397,
+  "to": 1402,
+  "country": "Sweden",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalmar Union",
+  "why": "Kalmar Union formed June 1397; the 1400 snapshot still shows separate kingdoms and puts Swedish Dalarna and Värmland under Norway",
+  "source": "https://en.wikipedia.org/wiki/Kalmar_Union",
+  "severity": "minor"
+ },
+ {
+  "from": 1397,
+  "to": 1402,
+  "country": "Norway",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalmar Union",
+  "except": [
+   "Svalbard",
+   "Bouvet Island"
+  ],
+  "why": "Kalmar Union formed 1397",
+  "source": "https://en.wikipedia.org/wiki/Kalmar_Union",
+  "severity": "minor"
+ },
+ {
+  "from": 1397,
+  "to": 1402,
+  "country": "Denmark",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalmar Union",
+  "why": "Kalmar Union formed 1397",
+  "source": "https://en.wikipedia.org/wiki/Kalmar_Union",
+  "severity": "minor"
+ },
+ {
+  "from": 1397,
+  "to": 1402,
+  "country": "Finland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalmar Union",
+  "except": [
+   "Lapland",
+   "Northern Ostrobothnia",
+   "Northern Savonia–Kainuu",
+   "North Karelia"
+  ],
+  "why": "Kalmar Union formed 1397 (Swedish Finland)",
+  "source": "https://en.wikipedia.org/wiki/Kalmar_Union",
+  "severity": "minor"
+ },
+ {
+  "from": 1397,
+  "to": 1402,
+  "country": "Aland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalmar Union",
+  "why": "Kalmar Union formed 1397",
+  "source": "https://en.wikipedia.org/wiki/Kalmar_Union",
+  "severity": "minor"
+ },
+ {
+  "from": 1397,
+  "to": 1402,
+  "country": "Iceland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalmar Union",
+  "why": "Kalmar Union formed 1397 (Norwegian dependency)",
+  "source": "https://en.wikipedia.org/wiki/Kalmar_Union",
+  "severity": "minor"
+ },
+ {
+  "from": 1397,
+  "to": 1402,
+  "country": "Faroe Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalmar Union",
+  "why": "Kalmar Union formed 1397 (Norwegian dependency)",
+  "source": "https://en.wikipedia.org/wiki/Kalmar_Union",
+  "severity": "minor"
+ },
+ {
+  "from": 1397,
+  "to": 1402,
+  "country": "United Kingdom",
+  "regions": [
+   "Orkney",
+   "Shetland Islands"
+  ],
+  "owner": "Kalmar Union",
+  "why": "Norwegian Orkney/Shetland in the Kalmar Union from 1397 (map shows Kalmar Union from 1410)",
+  "source": "https://en.wikipedia.org/wiki/Kalmar_Union",
+  "severity": "minor"
+ },
+ {
+  "from": 1448,
+  "to": 1457,
+  "country": "Sweden",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Sweden",
+  "except": [
+   "Blekinge",
+   "Gotland",
+   "Halland",
+   "Skåne",
+   "Jämtland"
+  ],
+  "why": "Karl Knutsson (Charles VIII) was elected king of Sweden in 1448 against the Oldenburg Christian I and reigned to 1457; map labels Sweden 'House of Oldenburg [under Kalmar Union]' in 1450",
+  "source": "https://en.wikipedia.org/wiki/Charles_VIII_of_Sweden",
+  "severity": "major"
+ },
+ {
+  "from": 1448,
+  "to": 1457,
+  "country": "Finland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Sweden",
+  "except": [
+   "North Karelia"
+  ],
+  "why": "Finland followed Charles VIII's Sweden 1448-1457, not the Oldenburg king",
+  "source": "https://en.wikipedia.org/wiki/Charles_VIII_of_Sweden",
+  "severity": "major"
+ },
+ {
+  "from": 1448,
+  "to": 1457,
+  "country": "Aland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Sweden",
+  "why": "Åland followed Charles VIII's Sweden 1448-1457",
+  "source": "https://en.wikipedia.org/wiki/Charles_VIII_of_Sweden",
+  "severity": "major"
+ },
+ {
+  "from": 1501,
+  "to": 1523,
+  "country": "Sweden",
+  "regions": [
+   "Norrbotten",
+   "Västerbotten"
+  ],
+  "owner": "Kingdom of Sweden",
+  "why": "Flow fix: map shows Sweden as Kingdom of Sweden in 1510-1520 but leaves Norrbotten/Västerbotten under the Kalmar Union",
+  "source": "https://en.wikipedia.org/wiki/Kalmar_Union",
+  "severity": "minor"
+ },
+ {
+  "from": 1501,
+  "to": 1523,
+  "country": "Finland",
+  "regions": [
+   "Lapland"
+  ],
+  "owner": "Kingdom of Sweden",
+  "why": "Flow fix: Finnish Lapland left under the Kalmar Union while the rest of Swedish Finland is Kingdom of Sweden",
+  "source": "https://en.wikipedia.org/wiki/Kalmar_Union",
+  "severity": "minor"
+ },
+ {
+  "from": 1721,
+  "to": 1814,
+  "country": "Sweden",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Sweden",
+  "why": "The Swedish Empire (great-power era 1611-1721) ended at the Treaty of Nystad 1721 (Age of Liberty follows); map keeps 'Swedish Empire' to 1810",
+  "source": "https://en.wikipedia.org/wiki/Swedish_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1721,
+  "to": 1809,
+  "country": "Finland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Sweden",
+  "except": [
+   "South Karelia"
+  ],
+  "why": "Swedish Finland after 1721 belongs to the Kingdom of Sweden, not the 'Swedish Empire'",
+  "source": "https://en.wikipedia.org/wiki/Swedish_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1721,
+  "to": 1743,
+  "country": "Finland",
+  "regions": [
+   "South Karelia"
+  ],
+  "owner": "Kingdom of Sweden",
+  "why": "Swedish until the Treaty of Åbo 1743",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Åbo",
+  "severity": "minor"
+ },
+ {
+  "from": 1721,
+  "to": 1809,
+  "country": "Aland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Sweden",
+  "why": "Åland part of the Kingdom of Sweden until 1809",
+  "source": "https://en.wikipedia.org/wiki/Swedish_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1809,
+  "to": 1917,
+  "country": "Finland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Grand Duchy of Finland",
+  "overlord": "Russian Empire",
+  "why": "Finland was the autonomous Grand Duchy of Finland under the Russian emperor 1809-1917; map shows it as plain Russian Empire and then 'Russia (Soviet Union)' from 1890",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Finland",
+  "severity": "major"
+ },
+ {
+  "from": 1809,
+  "to": 1917,
+  "country": "Aland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Grand Duchy of Finland",
+  "overlord": "Russian Empire",
+  "why": "Åland was part of the Grand Duchy of Finland 1809-1917",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Finland",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1814,
+  "country": "Denmark",
+  "regions": [
+   "Midtjylland"
+  ],
+  "owner": "Denmark-Norway",
+  "why": "Sweden never held Midtjylland (central Jutland); map flips it to Swedish Empire in 1670-80, 1700, 1730 and to Sweden-Norway in 1880",
+  "source": "https://en.wikipedia.org/wiki/Denmark–Norway",
+  "severity": "major"
+ },
+ {
+  "from": 1814,
+  "to": 1886,
+  "country": "Denmark",
+  "regions": [
+   "*"
+  ],
+  "owner": "Denmark",
+  "why": "Denmark-Norway ended with the Treaty of Kiel 1814; map keeps 'Denmark-Norway' for Denmark until 1886 (and Midtjylland under Sweden-Norway in 1880). NB North Schleswig (in Syddanmark) was Prussian 1864-1920 but cannot be split from Funen at region level",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Kiel",
+  "severity": "major"
+ },
+ {
+  "from": 1814,
+  "to": 1886,
+  "country": "Iceland",
+  "regions": [
+   "*"
+  ],
+  "owner": "Iceland",
+  "overlord": "Denmark",
+  "why": "Iceland stayed a Danish dependency after 1814; 'Denmark-Norway' label anachronistic (map uses Iceland [under Denmark] from 1890)",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Kiel",
+  "severity": "major"
+ },
+ {
+  "from": 1814,
+  "to": 1940,
+  "country": "Faroe Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Denmark",
+  "why": "Faroes stayed Danish after the Treaty of Kiel 1814; map shows 'Denmark-Norway' to 1880 and two-thirds of the islands as United Kingdom 1890-1930",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Faroe_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1945,
+  "to": 2026,
+  "country": "Faroe Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Denmark",
+  "why": "British wartime occupation ended Sept 1945; Faroes are Danish (home rule 1948). Map shows two-thirds as United Kingdom 1950-2025",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Faroe_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1905,
+  "country": "Norway",
+  "regions": [
+   "*"
+  ],
+  "owner": "United Kingdoms of Sweden and Norway",
+  "except": [
+   "Svalbard",
+   "Bouvet Island"
+  ],
+  "why": "Norway was a separate kingdom in union with Sweden until 7 June 1905; map shows Norway as part of 'Sweden' 1890-1900",
+  "source": "https://en.wikipedia.org/wiki/Union_between_Sweden_and_Norway",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1905,
+  "country": "Sweden",
+  "regions": [
+   "*"
+  ],
+  "owner": "United Kingdoms of Sweden and Norway",
+  "why": "Union with Norway lasted until 1905; flow fix so Sweden and Norway share the union polity as in 1820-1880",
+  "source": "https://en.wikipedia.org/wiki/Union_between_Sweden_and_Norway",
+  "severity": "minor"
+ },
+ {
+  "from": 1940,
+  "to": 1945,
+  "country": "Norway",
+  "regions": [
+   "*"
+  ],
+  "owner": "Nazi Germany",
+  "except": [
+   "Svalbard",
+   "Bouvet Island"
+  ],
+  "why": "Germany occupied all of mainland Norway April/June 1940 - May 1945; map shows only Akershus German in 1940",
+  "source": "https://en.wikipedia.org/wiki/German_occupation_of_Norway",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1925,
+  "country": "Norway",
+  "regions": [
+   "Svalbard"
+  ],
+  "owner": "none",
+  "why": "Svalbard was terra nullius (discovered 1596, sovereignty disputed) until the Svalbard Treaty came into force 14 Aug 1925; map labels it '(peoples: Denmark-Norway)' / '(peoples: Sweden–Norway)'",
+  "source": "https://en.wikipedia.org/wiki/Svalbard_Treaty",
+  "severity": "minor"
+ },
+ {
+  "from": 1928,
+  "to": 2026,
+  "country": "Norway",
+  "regions": [
+   "Bouvet Island"
+  ],
+  "owner": "Norway",
+  "why": "Norway claimed Bouvet Island 1 Dec 1927 and annexed it 23 Jan 1928 (dependency 1930); map shows no polity throughout",
+  "source": "https://en.wikipedia.org/wiki/Bouvet_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1422,
+  "country": "Latvia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Teutonic Order",
+  "overlord": "Holy Roman Empire",
+  "why": "Livonia was under the Teutonic/Livonian Order and allied bishoprics; the 1400 snapshot shows 30% of Latvia as '(peoples: Teutonic Knights)'",
+  "source": "https://en.wikipedia.org/wiki/Livonian_Confederation",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1422,
+  "country": "Estonia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Teutonic Order",
+  "overlord": "Holy Roman Empire",
+  "why": "Same as Latvia: Lääne shown as '(peoples: Teutonic Knights)' in 1400",
+  "source": "https://en.wikipedia.org/wiki/Livonian_Confederation",
+  "severity": "minor"
+ },
+ {
+  "from": 1422,
+  "to": 1558,
+  "country": "Latvia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Livonian Confederation",
+  "why": "Standard name is Livonian Confederation (Walk agreement 1435; dissolved 1561); map uses the nonstandard 'Livonian Conference' and switches to 'Livonian Confederation' for Riga in 1560, splitting one polity into two colours",
+  "source": "https://en.wikipedia.org/wiki/Livonian_Confederation",
+  "severity": "minor"
+ },
+ {
+  "from": 1422,
+  "to": 1558,
+  "country": "Estonia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Livonian Confederation",
+  "why": "Same naming fix as Latvia",
+  "source": "https://en.wikipedia.org/wiki/Livonian_Confederation",
+  "severity": "minor"
+ },
+ {
+  "from": 1558,
+  "to": 1561,
+  "country": "Latvia",
+  "regions": [
+   "Amatas–Siguldas–Ropazu",
+   "Bauska",
+   "Daugavpils",
+   "Dobele–Kandavas–Brocenu–Auces",
+   "Ilukstes–Viesites",
+   "Jekabpils–Jaunjelgavas–Plavinu",
+   "Krustpils–Livanu–Aglonas–Preilu",
+   "Kuldigas",
+   "Limbaži–Smiltenes–Kocenu",
+   "Madona–Ogre–Erglu–Kokneses–Lielvardes–Skriveru",
+   "Rezeknes",
+   "Salacgrivas–Alojas–Mazsalacas–Rujienas",
+   "Saldus",
+   "Talsi",
+   "Tukums–Pargaujas–Krimuldas–Riga–Sejas–Garkalnes",
+   "Vecumnieku–Engures–Iecavas–Olaines"
+  ],
+  "owner": "Livonian Confederation",
+  "why": "Order and archbishopric lands not taken by Russia stayed in the Livonian Confederation until the Treaty of Vilnius (Nov 1561); 1560 snapshot shows them as '(peoples: Poland-Lithuania)', 'House of Jagiellon', 'Livonian Order' and Denmark-Norway (Kuldiga/Saldus/Dobele were Order land, not the Danish-bought bishopric)",
+  "source": "https://en.wikipedia.org/wiki/Livonian_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1558,
+  "to": 1561,
+  "country": "Estonia",
+  "regions": [
+   "Harju",
+   "Pärnu",
+   "Rapla"
+  ],
+  "owner": "Livonian Confederation",
+  "why": "Reval/Harrien and Pernau remained Confederation/Order land until 1561; shown as '(peoples: Poland-Lithuania)' in 1560",
+  "source": "https://en.wikipedia.org/wiki/Livonian_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1561,
+  "to": 1572,
+  "country": "Latvia",
+  "regions": [
+   "Aluksne–Balvu",
+   "Amatas–Siguldas–Ropazu",
+   "Daugavpils",
+   "Jekabpils–Jaunjelgavas–Plavinu",
+   "Krustpils–Livanu–Aglonas–Preilu",
+   "Limbaži–Smiltenes–Kocenu",
+   "Ludzas–Vilakas–Karsavas",
+   "Madona–Ogre–Erglu–Kokneses–Lielvardes–Skriveru",
+   "Rezeknes",
+   "Salacgrivas–Alojas–Mazsalacas–Rujienas",
+   "Valkas–Burtnieku–Strencu"
+  ],
+  "owner": "Duchy of Livonia",
+  "overlord": "Polish-Lithuanian Commonwealth",
+  "why": "Livonia north of the Daugava became the Duchy of Livonia under Lithuanian (from 1569 joint Polish-Lithuanian) suzerainty by the Treaty of Vilnius 1561; the 1570 snapshot labels it 'Holy Roman Empire Minor States [under HRE]', which never ruled there",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Livonia",
+  "severity": "major"
+ },
+ {
+  "from": 1561,
+  "to": 1572,
+  "country": "Estonia",
+  "regions": [
+   "Pärnu"
+  ],
+  "owner": "Duchy of Livonia",
+  "overlord": "Polish-Lithuanian Commonwealth",
+  "why": "Pernau held by Poland-Lithuania in the 1560s; map shows 'HRE Minor States'",
+  "source": "https://en.wikipedia.org/wiki/Pärnu",
+  "severity": "minor"
+ },
+ {
+  "from": 1561,
+  "to": 1572,
+  "country": "Estonia",
+  "regions": [
+   "Rapla"
+  ],
+  "owner": "Kingdom of Sweden",
+  "why": "Harrien (Rapla area) became Swedish Estonia in 1561; map shows 'HRE Minor States' in 1570",
+  "source": "https://en.wikipedia.org/wiki/Livonian_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1561,
+  "to": 1572,
+  "country": "Estonia",
+  "regions": [
+   "Põlva",
+   "Viljandi"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Dorpat area and Fellin held by Russia from 1558/1560 through the 1570s; map flips them to 'HRE Minor States' in 1570",
+  "source": "https://en.wikipedia.org/wiki/Livonian_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1560,
+  "to": 1645,
+  "country": "Estonia",
+  "regions": [
+   "Saare"
+  ],
+  "owner": "Denmark-Norway",
+  "why": "Ösel (Saaremaa) was Danish from 1559/60 until the Treaty of Brömsebro 1645; map shows it as peoples, 'HRE Minor States', House of Jagiellon and Polish-Lithuanian Commonwealth (Ruhnu) in turn",
+  "source": "https://en.wikipedia.org/wiki/Saaremaa",
+  "severity": "major"
+ },
+ {
+  "from": 1645,
+  "to": 1710,
+  "country": "Estonia",
+  "regions": [
+   "Saare"
+  ],
+  "owner": "Swedish Empire",
+  "why": "Ösel Swedish 1645-1710; map shows part of Saare (Ruhnu) as Polish-Lithuanian Commonwealth 1650-1700 and 'Pro-Swedish Poland' in 1710",
+  "source": "https://en.wikipedia.org/wiki/Saaremaa",
+  "severity": "minor"
+ },
+ {
+  "from": 1710,
+  "to": 1721,
+  "country": "Estonia",
+  "regions": [
+   "Saare"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Capitulation of Estonia and Livonia 1710, confirmed at Nystad 1721",
+  "source": "https://en.wikipedia.org/wiki/Saaremaa",
+  "severity": "minor"
+ },
+ {
+  "from": 1721,
+  "to": 1918,
+  "country": "Estonia",
+  "regions": [
+   "Saare"
+  ],
+  "owner": "Russian Empire",
+  "why": "Ösel part of the Russian Empire (Governorate of Livonia) 1721-1918; map shows part of it (Ruhnu) under the Duchy of Courland 1740-1790, which never held it",
+  "source": "https://en.wikipedia.org/wiki/Saaremaa",
+  "severity": "major"
+ },
+ {
+  "from": 1919,
+  "to": 1940,
+  "country": "Estonia",
+  "regions": [
+   "Saare"
+  ],
+  "owner": "Estonia",
+  "why": "Ruhnu (Saare County) joined Estonia in 1919; map shows it as Latvia 1920-1930",
+  "source": "https://en.wikipedia.org/wiki/Ruhnu",
+  "severity": "major"
+ },
+ {
+  "from": 1991,
+  "to": 2026,
+  "country": "Estonia",
+  "regions": [
+   "Saare"
+  ],
+  "owner": "Estonia",
+  "why": "Ruhnu is Estonian (Saare County); map shows it as Latvia 2000-2025",
+  "source": "https://en.wikipedia.org/wiki/Ruhnu",
+  "severity": "major"
+ },
+ {
+  "from": 1561,
+  "to": 1795,
+  "country": "Latvia",
+  "regions": [
+   "Bauska",
+   "Dobele–Kandavas–Brocenu–Auces",
+   "Ilukstes–Viesites",
+   "Kuldigas",
+   "Saldus",
+   "Talsi",
+   "Vecumnieku–Engures–Iecavas–Olaines"
+  ],
+  "owner": "Duchy of Courland and Semigallia",
+  "overlord": "Polish-Lithuanian Commonwealth",
+  "why": "Courland was a vassal duchy of Lithuania/the Polish-Lithuanian Commonwealth from 1561 until Russian annexation 24 Oct 1795. Map shows it as House of Jagiellon/PLC directly, 'Pro-Swedish Poland' 1710, Tsardom of Russia/Russian Empire 1720-1730 and an independent 'Duchy of Courland' 1740-1790",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Courland_and_Semigallia",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1918,
+  "country": "Latvia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "why": "'Russia (Soviet Union)' before 1917 is anachronistic; Latvia was in the Russian Empire until 1918",
+  "source": "https://en.wikipedia.org/wiki/Russian_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1918,
+  "country": "Estonia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "except": [
+   "Saare"
+  ],
+  "why": "'Russia (Soviet Union)' before 1917 is anachronistic; Estonia was in the Russian Empire until 1918",
+  "source": "https://en.wikipedia.org/wiki/Russian_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1569,
+  "country": "Lithuania",
+  "regions": [
+   "*"
+  ],
+  "owner": "Grand Duchy of Lithuania",
+  "except": [
+   "Klaipedos"
+  ],
+  "why": "'House of Jagiellon' (1450-1570) is a dynasty, not a state: the polity was the Grand Duchy of Lithuania (in personal union with Poland) until the Union of Lublin, 1 July 1569",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "major"
+ },
+ {
+  "from": 1569,
+  "to": 1655,
+  "country": "Lithuania",
+  "regions": [
+   "*"
+  ],
+  "owner": "Polish-Lithuanian Commonwealth",
+  "except": [
+   "Klaipedos"
+  ],
+  "why": "Union of Lublin 1569 created the Polish-Lithuanian Commonwealth; map still shows 'House of Jagiellon' in 1570",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1709,
+  "to": 1713,
+  "country": "Lithuania",
+  "regions": [
+   "*"
+  ],
+  "owner": "Polish-Lithuanian Commonwealth",
+  "except": [
+   "Klaipedos"
+  ],
+  "why": "Stanisław Leszczyński's Swedish-backed reign ended 8 July 1709 with Augustus II restored; the 1710 snapshot still shows 'Pro-Swedish Poland'",
+  "source": "https://en.wikipedia.org/wiki/Stanisław_Leszczyński",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1466,
+  "country": "Lithuania",
+  "regions": [
+   "Klaipedos"
+  ],
+  "owner": "Teutonic Order",
+  "overlord": "Holy Roman Empire",
+  "why": "Memel (Klaipėda) and its region belonged to the Teutonic Order's Prussia from 1252; the Treaty of Melno (1422) fixed the Prussian-Lithuanian border, which lasted until 1918-20. NB the Klaipedos province also covers Kretinga/Skuodas (historically Lithuanian, ~half the area); the Memel Territory is the larger, defining part",
+  "source": "https://en.wikipedia.org/wiki/Klaipėda_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1466,
+  "to": 1525,
+  "country": "Lithuania",
+  "regions": [
+   "Klaipedos"
+  ],
+  "owner": "Teutonic Order",
+  "why": "Teutonic Prussia (Polish fief after 1466); neighbouring Kaliningrad already uses this label",
+  "source": "https://en.wikipedia.org/wiki/Klaipėda_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1525,
+  "to": 1618,
+  "country": "Lithuania",
+  "regions": [
+   "Klaipedos"
+  ],
+  "owner": "Duchy of Prussia",
+  "why": "Memel part of the Duchy of Prussia from 1525",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Prussia",
+  "severity": "major"
+ },
+ {
+  "from": 1618,
+  "to": 1701,
+  "country": "Lithuania",
+  "regions": [
+   "Klaipedos"
+  ],
+  "owner": "Brandenburg-Prussia",
+  "why": "Duchy of Prussia in union with Brandenburg from 1618 (map's name for Kaliningrad)",
+  "source": "https://en.wikipedia.org/wiki/Brandenburg-Prussia",
+  "severity": "major"
+ },
+ {
+  "from": 1701,
+  "to": 1871,
+  "country": "Lithuania",
+  "regions": [
+   "Klaipedos"
+  ],
+  "owner": "Kingdom of Prussia",
+  "why": "Memel part of the Kingdom of Prussia (East Prussia)",
+  "source": "https://en.wikipedia.org/wiki/Klaipėda_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1871,
+  "to": 1886,
+  "country": "Lithuania",
+  "regions": [
+   "Klaipedos"
+  ],
+  "owner": "German Empire",
+  "why": "Memel part of the German Empire",
+  "source": "https://en.wikipedia.org/wiki/Klaipėda_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1920,
+  "country": "Lithuania",
+  "regions": [
+   "Klaipedos"
+  ],
+  "owner": "Germany (Prussia)",
+  "why": "Memel Territory detached from Germany only by the Treaty of Versailles (1920); Lithuanian from 1923",
+  "source": "https://en.wikipedia.org/wiki/Klaipėda_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1945,
+  "country": "Lithuania",
+  "regions": [
+   "Klaipedos"
+  ],
+  "owner": "Germany (Prussia)",
+  "why": "Germany annexed the Klaipėda Region in March 1939 until 1945; map shows it Soviet in 1940",
+  "source": "https://en.wikipedia.org/wiki/Klaipėda_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1815,
+  "to": 1918,
+  "country": "Lithuania",
+  "regions": [
+   "Marijampoles"
+  ],
+  "owner": "Congress Poland",
+  "overlord": "Russian Empire",
+  "why": "Suvalkija (Marijampolė) was in Congress Poland under the Russian emperor from 1815; map shows a stray 'Poles' polity in 1830 and anachronistic 'Russia (Soviet Union)' from 1890",
+  "source": "https://en.wikipedia.org/wiki/Congress_Poland",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1918,
+  "country": "Lithuania",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "except": [
+   "Klaipedos",
+   "Marijampoles"
+  ],
+  "why": "'Russia (Soviet Union)' before 1917 is anachronistic; Lithuania was in the Russian Empire until 1918",
+  "source": "https://en.wikipedia.org/wiki/Russian_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1940,
+  "country": "Lithuania",
+  "regions": [
+   "Vilniaus"
+  ],
+  "owner": "Lithuania",
+  "why": "Vilnius Region transferred from occupied Poland to Lithuania in October 1939 (Soviet–Lithuanian Mutual Assistance Treaty)",
+  "source": "https://en.wikipedia.org/wiki/Soviet–Lithuanian_Mutual_Assistance_Treaty",
+  "severity": "minor"
+ },
+ {
+  "from": 1940,
+  "to": 1991,
+  "country": "Lithuania",
+  "regions": [
+   "Vilniaus"
+  ],
+  "owner": "Russia (Soviet Union)",
+  "why": "Vilnius region occupied with the rest of Lithuania in June 1940; map splits it in 1940 between 'Soviet Union' and a non-existent Poland, and shows a separate 'Republic of Lithuania' only in Vilniaus in 1990 while the rest stays Soviet",
+  "source": "https://en.wikipedia.org/wiki/Soviet_occupation_of_the_Baltic_states_(1940)",
+  "severity": "minor"
+ }
+]

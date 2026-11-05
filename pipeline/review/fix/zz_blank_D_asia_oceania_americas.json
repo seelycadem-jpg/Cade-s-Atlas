@@ -1,0 +1,1430 @@
+[
+ {
+  "from": 1475,
+  "to": 1821,
+  "country": "Indonesia",
+  "regions": [
+   "Sumatera Selatan"
+  ],
+  "owner": "Sultanate of Palembang",
+  "only_open": true,
+  "why": "Palembang's upstream (uluan) lands shown as 'Island peoples' after Majapahit's fall; Palembang (under Demak-linked rulers, sultanate from 1659) held the Musi basin until the Dutch conquest of 1821",
+  "source": "https://en.wikipedia.org/wiki/Palembang_Sultanate",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1821,
+  "to": 1886,
+  "country": "Indonesia",
+  "regions": [
+   "Sumatera Selatan"
+  ],
+  "owner": "Dutch East Indies",
+  "overlord": "Netherlands",
+  "only_open": true,
+  "why": "Dutch annexed Palembang in 1821 and dissolved the sultanate in 1823; the upland part is shown as 'Island peoples' to 1886",
+  "source": "https://en.wikipedia.org/wiki/Palembang_Sultanate",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1475,
+  "to": 1526,
+  "country": "Indonesia",
+  "regions": [
+   "Kalimantan Selatan"
+  ],
+  "owner": "Negara Daha",
+  "only_open": true,
+  "why": "Negara Daha held the Barito/Amuntai lowlands after Majapahit until the Banjar takeover of 1526; islands and coast shown as 'Island peoples'",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Banjar",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1526,
+  "to": 1860,
+  "country": "Indonesia",
+  "regions": [
+   "Kalimantan Selatan"
+  ],
+  "owner": "Sultanate of Banjar",
+  "only_open": true,
+  "why": "Hulu Sungai (Amuntai, the old Negara Daha heartland) shown as 'Island peoples' 1526-1886; it was the Banjar Sultanate's core until the Dutch abolished it in 1860",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Banjar",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1860,
+  "to": 1886,
+  "country": "Indonesia",
+  "regions": [
+   "Kalimantan Selatan"
+  ],
+  "owner": "Dutch East Indies",
+  "overlord": "Netherlands",
+  "only_open": true,
+  "why": "Banjar Sultanate abolished and annexed by the Dutch in 1860",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Banjar",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1526,
+  "to": 1874,
+  "country": "Indonesia",
+  "regions": [
+   "Aceh"
+  ],
+  "owner": "Sultanate of Aceh",
+  "only_open": true,
+  "why": "Pasai (taken by Ali Mughayat Syah in the 1520s), the Gayo/Alas interior and Simeulue shown as 'Island peoples'; Aceh ruled or was overlord of the region until the Dutch took Kutaraja in 1874",
+  "source": "https://en.wikipedia.org/wiki/Aceh_Sultanate",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1824,
+  "to": 1886,
+  "country": "Indonesia",
+  "regions": [
+   "Bengkulu"
+  ],
+  "owner": "Dutch East Indies",
+  "overlord": "Netherlands",
+  "only_open": true,
+  "why": "Bencoolen passed to the Netherlands under the Anglo-Dutch Treaty of 1824; map shows 'Island peoples' 1846-1886",
+  "source": "https://en.wikipedia.org/wiki/Bengkulu_(city)",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1475,
+  "to": 1615,
+  "country": "Indonesia",
+  "regions": [
+   "Jambi"
+  ],
+  "owner": "Sultanate of Jambi",
+  "only_open": true,
+  "why": "Jambi kingdom (infobox 1460-1615) broke from Majapahit in the early 16th century and became a sultanate c.1615; map shows 'Island peoples' in the Batang Hari basin",
+  "source": "https://en.wikipedia.org/wiki/Jambi_Sultanate",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1475,
+  "to": 1511,
+  "country": "Malaysia",
+  "regions": [
+   "Terengganu"
+  ],
+  "owner": "Malacca Sultanate",
+  "why": "Terengganu was a Malacca vassal (its ruler paid homage under Alauddin Riayat Shah, 1477-1488) until Malacca fell in 1511; map shows 'Island peoples'",
+  "source": "https://en.wikipedia.org/wiki/Terengganu",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1475,
+  "to": 1511,
+  "country": "Malaysia",
+  "regions": [
+   "Perak"
+  ],
+  "owner": "Malacca Sultanate",
+  "why": "Malacca incorporated the coast 'between Dindings and Johor' (Dindings = Manjung, Perak) under Muzaffar Shah; map shows 'Island peoples' until 1510",
+  "source": "https://en.wikipedia.org/wiki/Malacca_Sultanate",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1406,
+  "country": "Myanmar",
+  "regions": [
+   "Rakhine"
+  ],
+  "owner": "Launggyet Dynasty",
+  "only_open": true,
+  "why": "Arakan (incl. Ramree and the south coast) was ruled by the Launggyet dynasty until the Ava invasion of 1404-1406; southern part shown as 'Island peoples'",
+  "source": "https://en.wikipedia.org/wiki/Launggyet_Dynasty",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1407,
+  "country": "Myanmar",
+  "regions": [
+   "Magway"
+  ],
+  "owner": "Ava Kingdom",
+  "only_open": true,
+  "why": "Western Magway shown as 'Island peoples' 1400-1407 between Ava-held provinces; part of Ava's Upper Burma",
+  "source": "https://en.wikipedia.org/wiki/Ava_Kingdom",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1880,
+  "to": 1902,
+  "country": "Indonesia",
+  "regions": [
+   "Papua"
+  ],
+  "owner": "peoples:Papuans",
+  "why": "Earlier fix set 'none' (no Dutch post before Merauke 1902); stateless land should be shown as peoples, not as empty",
+  "source": "https://en.wikipedia.org/wiki/Western_New_Guinea",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Hsinchu"
+  ],
+  "owner": "Atayal",
+  "why": "Map shows the modern 'Taiwan [under Japan]' 1400-1600 and nothing 1600-1624; before the Dutch (1624) the island had no unified government and was held by its Austronesian peoples (same name the map uses from 1624)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Hualien"
+  ],
+  "owner": "Amis",
+  "why": "Map shows the modern 'Taiwan [under Japan]' 1400-1600 and nothing 1600-1624; before the Dutch (1624) the island had no unified government and was held by its Austronesian peoples (same name the map uses from 1624)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Kaohsiung City"
+  ],
+  "owner": "Siraya",
+  "why": "Map shows the modern 'Taiwan [under Japan]' 1400-1600 and nothing 1600-1624; before the Dutch (1624) the island had no unified government and was held by its Austronesian peoples (same name the map uses from 1624)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Nantou"
+  ],
+  "owner": "Seediq and Truku",
+  "why": "Map shows the modern 'Taiwan [under Japan]' 1400-1600 and nothing 1600-1624; before the Dutch (1624) the island had no unified government and was held by its Austronesian peoples (same name the map uses from 1624)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "New Taipei City"
+  ],
+  "owner": "Kavalan",
+  "why": "Map shows the modern 'Taiwan [under Japan]' 1400-1600 and nothing 1600-1624; before the Dutch (1624) the island had no unified government and was held by its Austronesian peoples (same name the map uses from 1624)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Pingtung"
+  ],
+  "owner": "Paiwan",
+  "why": "Map shows the modern 'Taiwan [under Japan]' 1400-1600 and nothing 1600-1624; before the Dutch (1624) the island had no unified government and was held by its Austronesian peoples (same name the map uses from 1624)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Taichung City"
+  ],
+  "owner": "Seediq and Truku",
+  "why": "Map shows the modern 'Taiwan [under Japan]' 1400-1600 and nothing 1600-1624; before the Dutch (1624) the island had no unified government and was held by its Austronesian peoples (same name the map uses from 1624)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Tainan City"
+  ],
+  "owner": "Siraya",
+  "why": "Map shows the modern 'Taiwan [under Japan]' 1400-1600 and nothing 1600-1624; before the Dutch (1624) the island had no unified government and was held by its Austronesian peoples (same name the map uses from 1624)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Taitung"
+  ],
+  "owner": "Puyuma",
+  "why": "Map shows the modern 'Taiwan [under Japan]' 1400-1600 and nothing 1600-1624; before the Dutch (1624) the island had no unified government and was held by its Austronesian peoples (same name the map uses from 1624)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Taiwan",
+  "regions": [
+   "Yunlin"
+  ],
+  "owner": "peoples:Babuza and Hoanya",
+  "why": "Map shows 'Taiwan [under Japan]' 1400-1600 and nothing 1600-1624; plains Austronesian (Babuza/Hoanya) land before the Dutch; the Kingdom of Middag is only attested in the 17th century",
+  "source": "https://en.wikipedia.org/wiki/History_of_Taiwan",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1597,
+  "country": "Taiwan",
+  "regions": [
+   "Penghu"
+  ],
+  "owner": "Ming Dynasty",
+  "why": "Map shows 'Taiwan [under Japan]'; Penghu belonged to Tong'an County, Fujian; the Ming evacuated it in the 15th century and garrisoned it permanently from 1597",
+  "source": "https://en.wikipedia.org/wiki/Penghu",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1662,
+  "to": 1683,
+  "country": "Taiwan",
+  "regions": [
+   "Hualien"
+  ],
+  "owner": "Amis",
+  "why": "Earlier fix set 'none' (east coast outside Tungning control); it was Amis land, shown so before 1662",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Tungning",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1662,
+  "to": 1683,
+  "country": "Taiwan",
+  "regions": [
+   "Taitung"
+  ],
+  "owner": "Puyuma",
+  "why": "Earlier fix set 'none' (east coast outside Tungning control); Puyuma/Amis land, shown so before 1662",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Tungning",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1570,
+  "to": 1914,
+  "country": "India",
+  "regions": [
+   "Arunachal Pradesh"
+  ],
+  "owner": "peoples:Adi, Nyishi, Apatani and Mishmi tribes",
+  "why": "Earlier fix set 'none' (tribal areas independent until the McMahon Line, 1914); stateless land should be drawn as its peoples, not empty",
+  "source": "https://en.wikipedia.org/wiki/History_of_Arunachal_Pradesh",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1642,
+  "country": "India",
+  "regions": [
+   "Sikkim"
+  ],
+  "owner": "peoples:Lepcha",
+  "why": "Lepchas (with Limbu and Magar) ruled the land in villages until the Namgyal kingdom of 1642; map shows generic 'Hill and forest peoples', bogus Tibet spells and 'none' 1590-1642",
+  "source": "https://en.wikipedia.org/wiki/History_of_Sikkim",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1616,
+  "country": "Bhutan",
+  "regions": [
+   "Thimphu",
+   "Ha",
+   "Wangdi Phodrang",
+   "Lhuntshi",
+   "Mongar",
+   "Tashigang",
+   "Shemgang"
+  ],
+  "owner": "peoples:Bhutanese valley chiefdoms",
+  "why": "Before the Zhabdrung (1616) Bhutan had no central government, only small local kingdoms and chiefdoms; map shows generic 'Hill and forest peoples' with stray Tibet/Koch Bihar spells",
+  "source": "https://en.wikipedia.org/wiki/History_of_Bhutan",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1635,
+  "country": "Bhutan",
+  "regions": [
+   "Bumthang"
+  ],
+  "owner": "Kingdom of Bumthang",
+  "why": "Bumthang was ruled by its own kings (Chakhar) until the Zhabdrung's consolidation; map shows 'Hill and forest peoples'",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Bumthang",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1616,
+  "to": 1635,
+  "country": "Bhutan",
+  "regions": [
+   "Lhuntshi",
+   "Mongar",
+   "Tashigang",
+   "Shemgang"
+  ],
+  "owner": "peoples:Bhutanese valley chiefdoms",
+  "why": "Central/eastern lords were subdued later by Chogyal Minjur Tenpa; map flickers 'Bhutan'/peoples here 1625-1635",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Bumthang",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1616,
+  "to": 1640,
+  "country": "Bhutan",
+  "regions": [
+   "Thimphu"
+  ],
+  "owner": "Bhutan (Zhabdrung theocracy)",
+  "why": "Zhabdrung Ngawang Namgyal based himself in the Thimphu valley from 1616 (Chagri), built Simtokha 1627; map shows peoples/'Bhutan'/'Kingdom of Bhutan' flickers",
+  "source": "https://en.wikipedia.org/wiki/Timeline_of_Bhutanese_history",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1634,
+  "to": 1640,
+  "country": "Bhutan",
+  "regions": [
+   "Ha",
+   "Gasa",
+   "Wangdi Phodrang",
+   "Chhukha–Daga"
+  ],
+  "owner": "Bhutan (Zhabdrung theocracy)",
+  "why": "Western Bhutan united under the Zhabdrung after the Battle of Five Lamas (1634); map flickers peoples/Tsangpa/'Bhutan'",
+  "source": "https://en.wikipedia.org/wiki/Timeline_of_Bhutanese_history",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1616,
+  "to": 1634,
+  "country": "Bhutan",
+  "regions": [
+   "Ha",
+   "Wangdi Phodrang",
+   "Chhukha–Daga"
+  ],
+  "owner": "peoples:Bhutanese valley chiefdoms",
+  "why": "Pre-unification local lordships; map flickers 'Bhutan'/peoples 1625-1626",
+  "source": "https://en.wikipedia.org/wiki/History_of_Bhutan",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1468,
+  "to": 1618,
+  "country": "Bhutan",
+  "regions": [
+   "Gasa"
+  ],
+  "owner": "peoples:Bhutanese valley chiefdoms",
+  "only_open": true,
+  "why": "Gaps between Tibetan claims are generic 'Hill and forest peoples'",
+  "source": "https://en.wikipedia.org/wiki/History_of_Bhutan",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1670,
+  "to": 1686,
+  "country": "India",
+  "regions": [
+   "Karnataka"
+  ],
+  "owner": "Bijapur Sultanate",
+  "only_open": true,
+  "why": "Bijapur's own heartland (Bijapur, Gulbarga, Raichur) and Carnatic holdings shown as 'Hill and forest peoples' 1670-1683/86; the sultanate lasted until the Mughal conquest of 12 Sept 1686",
+  "source": "https://en.wikipedia.org/wiki/Bijapur_Sultanate",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1686,
+  "to": 1700,
+  "country": "India",
+  "regions": [
+   "Karnataka"
+  ],
+  "owner": "Mughal Empire",
+  "only_open": true,
+  "why": "Remaining open land after Bijapur's fall annexed into a Mughal subah",
+  "source": "https://en.wikipedia.org/wiki/Bijapur_Sultanate",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1744,
+  "to": 1762,
+  "country": "India",
+  "regions": [
+   "Karnataka"
+  ],
+  "owner": "Hyderabad State",
+  "only_open": true,
+  "why": "Bijapur and Gulbarga districts blank 1744-1760; held by the Nizam until ceded to the Marathas after Udgir (Jan 1760)",
+  "source": "https://en.wikipedia.org/wiki/Battle_of_Udgir",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1762,
+  "to": 1799,
+  "country": "India",
+  "regions": [
+   "Karnataka"
+  ],
+  "owner": "Kingdom of Mysore",
+  "only_open": true,
+  "why": "Kolar, Chitradurga (taken by Hyder Ali 1779) and Uttara Kannada shown blank until 1799; Mysore under Hyder Ali/Tipu held them",
+  "source": "https://en.wikipedia.org/wiki/Chitradurga_Fort",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1571,
+  "to": 1640,
+  "country": "India",
+  "regions": [
+   "Telangana"
+  ],
+  "owner": "Golconda Sultanate",
+  "only_open": true,
+  "why": "Gap inside Golconda's own core between Golconda-held decades",
+  "source": "https://en.wikipedia.org/wiki/Qutb_Shahi_dynasty",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1670,
+  "to": 1687,
+  "country": "India",
+  "regions": [
+   "Telangana"
+  ],
+  "owner": "Golconda Sultanate",
+  "only_open": true,
+  "why": "Gap inside Golconda's core; sultanate lasted until the siege of Golconda (1687)",
+  "source": "https://en.wikipedia.org/wiki/Qutb_Shahi_dynasty",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1434,
+  "to": 1450,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh"
+  ],
+  "owner": "Vijayanagara Empire",
+  "only_open": true,
+  "why": "Nellore/Udayagiri country shown 'Hill and forest peoples' between Delhi and Vijayanagara spells; Vijayanagara held it",
+  "source": "https://en.wikipedia.org/wiki/Vijayanagara_Empire",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1565,
+  "to": 1571,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh",
+   "Tamil Nadu"
+  ],
+  "owner": "Vijayanagara Empire",
+  "only_open": true,
+  "why": "After Talikota (1565) the Aravidu dynasty kept ruling from Penukonda; map blanks these provinces 1565-1571",
+  "source": "https://en.wikipedia.org/wiki/Vijayanagara_Empire",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1571,
+  "to": 1626,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh"
+  ],
+  "owner": "Golconda Sultanate",
+  "only_open": true,
+  "why": "Guntur/Palnadu shown blank between Golconda decades",
+  "source": "https://en.wikipedia.org/wiki/Qutb_Shahi_dynasty",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1626,
+  "to": 1646,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh",
+   "Tamil Nadu"
+  ],
+  "owner": "Vijayanagara Empire",
+  "only_open": true,
+  "why": "Map ends Vijayanagara in 1626, but the Aravidu kings ruled from Chandragiri and Vellore until 1646; their land is shown as 'Hill and forest peoples'",
+  "source": "https://en.wikipedia.org/wiki/Vijayanagara_Empire",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1646,
+  "to": 1670,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh"
+  ],
+  "owner": "Bijapur Sultanate",
+  "only_open": true,
+  "why": "Rayalaseema remainder after Vijayanagara's end, shown blank",
+  "source": "https://en.wikipedia.org/wiki/Bijapur_Sultanate",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1670,
+  "to": 1687,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh"
+  ],
+  "owner": "Golconda Sultanate",
+  "only_open": true,
+  "why": "16-17 of 32 Andhra provinces blank 1670-1683/86; Golconda (21 sarkars in 1670, incl. 'Karnatak and Arcot') held most of it until 1687 (Adoni/Kurnool in the west was Bijapur's to 1686)",
+  "source": "https://en.wikipedia.org/wiki/Qutb_Shahi_dynasty",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1721,
+  "to": 1724,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh"
+  ],
+  "owner": "Mughal Empire",
+  "only_open": true,
+  "why": "Brief blanks in Mughal Deccan before the Nizam's state",
+  "source": "https://en.wikipedia.org/wiki/Hyderabad_State",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1724,
+  "to": 1758,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh"
+  ],
+  "owner": "Hyderabad State",
+  "only_open": true,
+  "why": "Kurnool/Cuddapah area blank 1727-1741 inside the Nizam's Deccan (Hyderabad State founded 1724)",
+  "source": "https://en.wikipedia.org/wiki/Hyderabad_State",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1758,
+  "to": 1779,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh"
+  ],
+  "owner": "Hyderabad State",
+  "only_open": true,
+  "why": "Kurnool/Cuddapah nawabs under the Nizam; shown blank",
+  "source": "https://en.wikipedia.org/wiki/Hyderabad_State",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1779,
+  "to": 1792,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh"
+  ],
+  "owner": "Kingdom of Mysore",
+  "only_open": true,
+  "why": "Cuddapah, Gandikota and Bellary-Anantapur under Hyder Ali/Tipu until ceded by the Treaty of Seringapatam (1792)",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Seringapatam",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1792,
+  "to": 1799,
+  "country": "India",
+  "regions": [
+   "Andhra Pradesh"
+  ],
+  "owner": "Hyderabad State",
+  "only_open": true,
+  "why": "Land between the Krishna and Penner plus Cuddapah and Gandikota ceded to the Nizam in 1792",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Seringapatam",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1762,
+  "to": 1792,
+  "country": "India",
+  "regions": [
+   "Tamil Nadu"
+  ],
+  "owner": "Kingdom of Mysore",
+  "only_open": true,
+  "why": "Baramahal and Hosur blank to 1791; held by Mysore until ceded to the British in 1792",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Seringapatam",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1744,
+  "to": 1760,
+  "country": "India",
+  "regions": [
+   "Maharashtra"
+  ],
+  "owner": "Hyderabad State",
+  "only_open": true,
+  "why": "16 Khandesh/Marathwada provinces blank 1744-1752/60; Aurangabad was the Nizam's capital and Ahmadnagar, Daulatabad, Burhanpur were ceded to the Marathas only after Udgir (1760)",
+  "source": "https://en.wikipedia.org/wiki/Battle_of_Udgir",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1447,
+  "to": 1526,
+  "country": "Pakistan",
+  "regions": [
+   "Punjab"
+  ],
+  "owner": "Delhi Sultanate",
+  "only_open": true,
+  "why": "Up to 16 of 41 Punjab provinces blank 1447-1526 (Salt Range, Jhelum, Sargodha); the Lahore province stayed under the Delhi sultans' governors (Tatar Khan, then Daulat Khan Lodi 1500-1524) until Babur",
+  "source": "https://en.wikipedia.org/wiki/Daulat_Khan_Lodi",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1749,
+  "to": 1762,
+  "country": "Pakistan",
+  "regions": [
+   "Punjab"
+  ],
+  "owner": "Durrani Empire",
+  "only_open": true,
+  "why": "Punjab ceded to Ahmad Shah Durrani in 1749; provinces shown blank 1752-1762",
+  "source": "https://en.wikipedia.org/wiki/Durrani_Empire",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1591,
+  "to": 1595,
+  "country": "Pakistan",
+  "regions": [
+   "Sind"
+  ],
+  "owner": "Mughal Empire",
+  "only_open": true,
+  "why": "Lower Sind (Thatta) blank 1591-1595 between Tarkhan and Mughal; Sindh was conquered by the Mughals in 1591",
+  "source": "https://en.wikipedia.org/wiki/Tarkhan_dynasty",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1752,
+  "to": 1762,
+  "country": "Pakistan",
+  "regions": [
+   "Azad Kashmir"
+  ],
+  "owner": "Durrani Empire",
+  "why": "Durrani Empire took Kashmir in 1752; map shows Afsharid Iran (gone after 1747) then 'Hill and forest peoples'",
+  "source": "https://en.wikipedia.org/wiki/History_of_Kashmir",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1530,
+  "to": 1534,
+  "country": "India",
+  "regions": [
+   "Uttar Pradesh"
+  ],
+  "owner": "Mughal Empire",
+  "only_open": true,
+  "why": "Gaps between Mughal decades",
+  "source": "https://en.wikipedia.org/wiki/Mughal_Empire",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1579,
+  "to": 1586,
+  "country": "India",
+  "regions": [
+   "Uttar Pradesh"
+  ],
+  "owner": "Mughal Empire",
+  "only_open": true,
+  "why": "Seven Rohilkhand/Awadh provinces blank 1579-1586 inside Akbar's empire",
+  "source": "https://en.wikipedia.org/wiki/Mughal_Empire",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1562,
+  "to": 1572,
+  "country": "India",
+  "regions": [
+   "Madhya Pradesh"
+  ],
+  "owner": "Mughal Empire",
+  "only_open": true,
+  "why": "Malwa blank 1562-1572 after Akbar's conquest of Baz Bahadur's sultanate (1561-62)",
+  "source": "https://en.wikipedia.org/wiki/Malwa_Sultanate",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1516,
+  "to": 1522,
+  "country": "Afghanistan",
+  "regions": [
+   "Kandahar"
+  ],
+  "owner": "Arghun dynasty",
+  "only_open": true,
+  "why": "Kandahar held by the Arghuns until Babur annexed it in 1522",
+  "source": "https://en.wikipedia.org/wiki/Babur",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1522,
+  "to": 1526,
+  "country": "Afghanistan",
+  "regions": [
+   "Kandahar"
+  ],
+  "owner": "Mughal Empire",
+  "only_open": true,
+  "why": "Babur's Kandahar (taken 1522)",
+  "source": "https://en.wikipedia.org/wiki/Babur",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1516,
+  "to": 1526,
+  "country": "Afghanistan",
+  "regions": [
+   "Zabul",
+   "Paktika",
+   "Ghazni"
+  ],
+  "owner": "Timurid Empire",
+  "only_open": true,
+  "why": "Ghilzai country between Kabul and Kandahar blank 1516-1526 inside Babur's Kabul kingdom (Kabul taken 1504)",
+  "source": "https://en.wikipedia.org/wiki/Babur",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1534,
+  "to": 1547,
+  "country": "Afghanistan",
+  "regions": [
+   "Zabul",
+   "Paktika",
+   "Kandahar"
+  ],
+  "owner": "Mughal Empire",
+  "only_open": true,
+  "why": "Blank between Mughal decades; Kabul-Kandahar held by Babur's sons",
+  "source": "https://en.wikipedia.org/wiki/Babur",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1630,
+  "to": 1632,
+  "country": "Russia",
+  "regions": [
+   "Sakha (Yakutia)"
+  ],
+  "owner": "peoples:Sakha, Evenks and Yukaghirs",
+  "why": "Earlier fix left 'none' (Yakutsk founded 1632); land of its peoples, not empty",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1630,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Irkutsk"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "1630s gap ('none'); Russians held the Angara/upper Lena (Bratsk ostrog 1631), map has Russia both before and after",
+  "source": "https://en.wikipedia.org/wiki/Bratsk",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1630,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Buryat",
+   "Chita"
+  ],
+  "owner": "Khalkha khanates",
+  "why": "1630s gap ('none'); Russians reached Baikal only in 1643 and Nerchinsk 1653; Transbaikalia under the Khalkha khans as the map shows from 1640",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1630,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Altay",
+   "Gorno-Altay"
+  ],
+  "owner": "Teleuts and Altai Oirats",
+  "why": "1630s gap ('none'); Teleut/Altai Oirat land before and after",
+  "source": "https://en.wikipedia.org/wiki/Teleuts",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1629,
+  "to": 1666,
+  "country": "Russia",
+  "regions": [
+   "Khakass"
+  ],
+  "owner": "Yenisei Kirghiz (Khongorai)",
+  "overlord": "Altan Khans (Khotogoid Khalkha)",
+  "why": "Map gives Khakassia to Russia from 1629 (Krasnoyarsk is further north), then 'none' and 'Khalkha'; the Yenisei Kirghiz under Altan Khan held it until Sengge's 1666 campaign; Russian forts came only in 1707/1718",
+  "source": "https://en.wikipedia.org/wiki/Dzungar_conquest_of_Yenisei",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1666,
+  "to": 1703,
+  "country": "Russia",
+  "regions": [
+   "Khakass"
+  ],
+  "owner": "Yenisei Kirghiz (Khongorai)",
+  "overlord": "Dzungar Khanate",
+  "why": "Sengge subjugated the Yenisei Kirghiz in 1666 and made Russia recognise him as their overlord (1667)",
+  "source": "https://en.wikipedia.org/wiki/Dzungar_conquest_of_Yenisei",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1630,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Maga Buryatdan"
+  ],
+  "owner": "Evens (Lamuts)",
+  "why": "1630s gap ('none'); Evens land (Okhotsk founded 1647)",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1630,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Kamchatka"
+  ],
+  "owner": "peoples:Koryaks and Itelmens",
+  "why": "1630s gap ('none'); Kamchatka annexed only by Atlasov 1697",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1630,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Chukchi Autonomous Okrug"
+  ],
+  "owner": "Chukchi",
+  "why": "1630s gap ('none'); Chukotka annexed only in 1778",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1630,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Amur"
+  ],
+  "owner": "Solon Evenks",
+  "why": "Gap ('none') then 'Qing' 1636; Bombogor's Solons held the Amur until the Qing campaign of 1639-40 (captured Aug 1640)",
+  "source": "https://en.wikipedia.org/wiki/Bombogor_(chief)",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1630,
+  "to": 1650,
+  "country": "Russia",
+  "regions": [
+   "Khabarovsk"
+  ],
+  "owner": "peoples:Evens, Evenks and Amur peoples",
+  "why": "Gap ('none') then all 42 provinces 'Qing Dynasty' 1636-1650, incl. the Okhotsk coast; Qing tribute reached only the Amur peoples; Russians at Okhotsk 1647",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1459,
+  "country": "Russia",
+  "regions": [
+   "Kirov"
+  ],
+  "owner": "Vyatka Land",
+  "why": "Labelled '(peoples: Novgorod)'; Vyatka (Khlynov, Kotelnich, Orlov) was a de facto independent land until Moscow forced its submission in 1459",
+  "source": "https://en.wikipedia.org/wiki/Vyatka_Land",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1459,
+  "to": 1489,
+  "country": "Russia",
+  "regions": [
+   "Kirov"
+  ],
+  "owner": "Vyatka Land",
+  "overlord": "Grand Principality of Moscow",
+  "why": "Vyatka accepted Moscow's suzerainty and tribute in 1459 but stayed semi-independent until annexed in 1489",
+  "source": "https://en.wikipedia.org/wiki/Vyatka_Land",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1400,
+  "to": 1468,
+  "country": "Russia",
+  "regions": [
+   "Murmansk"
+  ],
+  "owner": "Novgorod Republic",
+  "only_open": true,
+  "why": "Kola Sámi paid tribute to Novgorod (Tre and Kolo volosts, 13th-15th c.; Umba and Varzuga settled 1466); map shows only 'Sámi' until 1468",
+  "source": "https://en.wikipedia.org/wiki/Kola_Peninsula",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1540,
+  "to": 1811,
+  "country": "Paraguay",
+  "regions": [
+   "Presidente Hayes"
+  ],
+  "owner": "peoples:Enxet and Qom",
+  "why": "Earlier fix set 'none' (never under effective Spanish control); Lower Chaco land of the Enxet (Lengua) and Toba-Qom, should not be empty",
+  "source": "https://en.wikipedia.org/wiki/Gran_Chaco",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1760,
+  "to": 1890,
+  "country": "Paraguay",
+  "regions": [
+   "Boquerón"
+  ],
+  "owner": "Nivaclé and Chorote",
+  "why": "Earlier fix set 'none' (Chaco Boreal in Indigenous hands); same nation the map shows here before 1760",
+  "source": "https://en.wikipedia.org/wiki/Gran_Chaco",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1760,
+  "to": 1890,
+  "country": "Paraguay",
+  "regions": [
+   "Alto Paraguay"
+  ],
+  "owner": "Ayoreo",
+  "why": "Earlier fix set 'none'; same nation the map shows here before 1760",
+  "source": "https://en.wikipedia.org/wiki/Gran_Chaco",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1550,
+  "to": 1697,
+  "country": "Belize",
+  "regions": [
+   "Cayo–Toledo"
+  ],
+  "owner": "Manche Chʼol",
+  "why": "Earlier fix set 'none'; Manche Chʼol territory ran to the Sittee River (Toledo, Stann Creek) until their removal was completed in 1697",
+  "source": "https://en.wikipedia.org/wiki/Manche_Chʼol",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1697,
+  "to": 1798,
+  "country": "Belize",
+  "regions": [
+   "Cayo–Toledo"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Earlier fix set 'none'; the 1763, 1783 and 1786 treaties kept Spanish sovereignty over Belize, British cutters confined to the north until after 1798",
+  "source": "https://en.wikipedia.org/wiki/History_of_Belize",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1500,
+  "to": 1640,
+  "country": "Nicaragua",
+  "regions": [
+   "Atlántico Norte",
+   "Atlántico Sur"
+  ],
+  "owner": "peoples:Miskito, Mayangna and Rama",
+  "why": "Earlier fix set 'none'; Spain never conquered the Mosquito Coast in the 16th century; small egalitarian groups until the Miskito kingdom (c.1640)",
+  "source": "https://en.wikipedia.org/wiki/Mosquito_Coast",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1500,
+  "to": 1530,
+  "country": "Nicaragua",
+  "regions": [
+   "Jinotega",
+   "Rio San Juan"
+  ],
+  "owner": "peoples:Mayangna and Rama",
+  "why": "Earlier fix set 'none' (anachronistic 'Viceroyalty' label); Indigenous land before Spanish control",
+  "source": "https://en.wikipedia.org/wiki/Mosquito_Coast",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1500,
+  "to": 1530,
+  "country": "Honduras",
+  "regions": [
+   "Gracias a Dios",
+   "Islas de la Bahía"
+  ],
+  "owner": "Pech",
+  "why": "Earlier fix set 'none'; Pech inhabited the Bay Islands and Mosquitia at contact (islands nearly emptied by slavers by 1528)",
+  "source": "https://en.wikipedia.org/wiki/Bay_Islands_Department",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1500,
+  "to": 1530,
+  "country": "Mexico",
+  "regions": [
+   "Tabasco"
+  ],
+  "owner": "peoples:Chontal Maya",
+  "why": "Earlier fix set 'none'; Chontal Maya provinces (Potonchán) held Tabasco; Spanish conquest only began 1519",
+  "source": "https://en.wikipedia.org/wiki/Tabasco",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1500,
+  "to": 1524,
+  "country": "Guatemala",
+  "regions": [
+   "Santa Rosa–Zacapa–Chiquimula–Jalapa"
+  ],
+  "owner": "peoples:Chʼortiʼ, Poqomam and Xinca",
+  "why": "Earlier fix set 'none'; Chʼortiʼ (Chiquimula), Poqomam and Xinca country before the conquest",
+  "source": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Guatemala",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1541,
+  "to": 1655,
+  "country": "Colombia",
+  "regions": [
+   "Boyacá"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Muisca heartland (Duitama/Sogamoso, conquered 1537-1539) shown as 'Amazon hunter-gatherers' 1571-1655",
+  "source": "https://en.wikipedia.org/wiki/Duitama",
+  "severity": "major",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1700,
+  "to": 1744,
+  "country": "Colombia",
+  "regions": [
+   "Casanare"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Casanare shown as Amazon/Amazonian peoples 1700-1744; it was the Spanish Gobernación/Provincia de Santiago de las Atalayas (1660) with Jesuit missions until 1767",
+  "source": "https://es.wikipedia.org/wiki/Casanare",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1571,
+  "to": 1605,
+  "country": "Brazil",
+  "regions": [
+   "Alagoas"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "Alagoas coast shown as 'Amazonian peoples'; it was part of the Captaincy of Pernambuco (1534/35) until 1817",
+  "source": "https://en.wikipedia.org/wiki/Captaincy_of_Pernambuco",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1657,
+  "to": 1781,
+  "country": "Guyana",
+  "regions": [
+   "Pomeroon-Supenaam"
+  ],
+  "owner": "Dutch Republic",
+  "why": "Shown as Kalina/peoples, then Spanish 1780-1820; Pomeroon was the Zeeland colony Nova Zeelandia from 1657 under the same chamber as Essequibo, whose west-bank plantations covered the area",
+  "source": "https://en.wikipedia.org/wiki/Essequibo_(colony)",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1781,
+  "to": 1782,
+  "country": "Guyana",
+  "regions": [
+   "Pomeroon-Supenaam"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British capture of Essequibo 1781",
+  "source": "https://en.wikipedia.org/wiki/Essequibo_(colony)",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1782,
+  "to": 1784,
+  "country": "Guyana",
+  "regions": [
+   "Pomeroon-Supenaam"
+  ],
+  "owner": "Kingdom of France",
+  "why": "French occupation 1782-83",
+  "source": "https://en.wikipedia.org/wiki/Essequibo_(colony)",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1784,
+  "to": 1796,
+  "country": "Guyana",
+  "regions": [
+   "Pomeroon-Supenaam"
+  ],
+  "owner": "Dutch Republic",
+  "why": "Restored to the Dutch by the 1783 peace",
+  "source": "https://en.wikipedia.org/wiki/Essequibo_(colony)",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1796,
+  "to": 1802,
+  "country": "Guyana",
+  "regions": [
+   "Pomeroon-Supenaam"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British occupation 1796",
+  "source": "https://en.wikipedia.org/wiki/Essequibo_(colony)",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1802,
+  "to": 1803,
+  "country": "Guyana",
+  "regions": [
+   "Pomeroon-Supenaam"
+  ],
+  "owner": "Batavian Republic",
+  "why": "Returned under the Peace of Amiens 1802-1803",
+  "source": "https://en.wikipedia.org/wiki/Essequibo_(colony)",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1803,
+  "to": 1831,
+  "country": "Guyana",
+  "regions": [
+   "Pomeroon-Supenaam"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British from 1803 (formally 1814); map shows peoples and Gran Colombia",
+  "source": "https://en.wikipedia.org/wiki/Essequibo_(colony)",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1561,
+  "to": 1588,
+  "country": "Venezuela",
+  "regions": [
+   "Táchira"
+  ],
+  "owner": "Spanish Empire",
+  "why": "San Cristóbal founded 31 March 1561; map shows 'Amazonian peoples' 1571-1588",
+  "source": "https://en.wikipedia.org/wiki/San_Cristóbal,_Táchira",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1577,
+  "to": 1588,
+  "country": "Venezuela",
+  "regions": [
+   "Barinas"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Barinas (Altamira de Cáceres) founded 30 June 1577; map shows 'Amazonian peoples'",
+  "source": "https://en.wikipedia.org/wiki/Barinas,_Barinas",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1530,
+  "to": 1565,
+  "country": "Venezuela",
+  "regions": [
+   "Lara"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Province of Venezuela (Welser-leased 1528-1546); El Tocuyo founded 1545 and was the provincial capital 1546-48; map shows 'Indigenous nations' 1530-1565",
+  "source": "https://en.wikipedia.org/wiki/El_Tocuyo",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1475,
+  "to": 1497,
+  "country": "Peru",
+  "regions": [
+   "Amazonas"
+  ],
+  "owner": "Inca Empire",
+  "only_open": true,
+  "why": "Chachapoyas conquered by Túpac Inca Yupanqui around 1475; map shows 'Amazonian peoples' 1475-1497",
+  "source": "https://en.wikipedia.org/wiki/Chachapoya_culture",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ },
+ {
+  "from": 1470,
+  "to": 1475,
+  "country": "Ecuador",
+  "regions": [
+   "Azuay"
+  ],
+  "owner": "Cañari",
+  "why": "Gap labelled 'Amazonian peoples' between Cañari and Inca rule in the Cañari heartland",
+  "source": "https://en.wikipedia.org/wiki/Cañari",
+  "severity": "minor",
+  "by": "blank review D 2026-10-30"
+ }
+]

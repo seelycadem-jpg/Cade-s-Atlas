@@ -1,0 +1,1390 @@
+[
+ {
+  "from": 1698,
+  "to": 1749,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Zanzibar South and Central"
+  ],
+  "owner": "Yarubid dynasty",
+  "why": "After the fall of Fort Jesus (Dec 1698) the Ya'rubid imam Saif bin Sultan took Zanzibar, Pemba and Kilwa; map shows an anachronistic 'Sultanate of Zanzibar [Oman]' for 1700-1819",
+  "source": "https://en.wikipedia.org/wiki/Saif_bin_Sultan",
+  "severity": "major"
+ },
+ {
+  "from": 1749,
+  "to": 1856,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Zanzibar South and Central"
+  ],
+  "owner": "Oman",
+  "why": "Zanzibar's governor recognised Ahmad bin Said (Al Bu Said, imam 1744, sole ruler 1749); Zanzibar stayed part of the Al Bu Said realm, Said bin Sultan moving his court there (1832/1840), until the 1856 partition. One name ('Oman', as for Muscat) so the realm reads as one country",
+  "source": "https://en.wikipedia.org/wiki/Yaruba_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1856,
+  "to": 1890,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Zanzibar South and Central",
+   "Kusini-Pemba"
+  ],
+  "owner": "Sultanate of Zanzibar",
+  "why": "Separate Sultanate of Zanzibar from Said bin Sultan's death and the 1856 partition (confirmed by the 1861 Canning Award) until the British protectorate of 1 July 1890",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Zanzibar",
+  "severity": "major"
+ },
+ {
+  "from": 1698,
+  "to": 1746,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Kusini-Pemba"
+  ],
+  "owner": "Yarubid dynasty",
+  "why": "Pemba taken by the Ya'rubid imam Saif bin Sultan soon after Mombasa fell (1698); map shows 'Sultanate of Zanzibar [Oman]'",
+  "source": "https://en.wikipedia.org/wiki/Saif_bin_Sultan",
+  "severity": "major"
+ },
+ {
+  "from": 1746,
+  "to": 1822,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Kusini-Pemba"
+  ],
+  "owner": "Mombasa",
+  "why": "Pemba was held by the Mazrui governors of Mombasa (independent of the Al Bu Said from 1746) until Said bin Sultan's expedition drove them out in 1822",
+  "source": "https://www.britannica.com/topic/Mazari",
+  "severity": "major"
+ },
+ {
+  "from": 1822,
+  "to": 1856,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Kusini-Pemba"
+  ],
+  "owner": "Oman",
+  "why": "Said bin Sultan took Pemba from the Mazrui in 1822; part of the Al Bu Said realm until the 1856 partition (map: 'Sultanate of Oman'/'Sultanate of Zanzibar [Oman]')",
+  "source": "https://www.britannica.com/topic/Mazari",
+  "severity": "major"
+ },
+ {
+  "from": 1593,
+  "to": 1698,
+  "country": "Kenya",
+  "regions": [
+   "Coast"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "Portuguese Fort Jesus at Mombasa founded 1593; Mombasa a Portuguese colony 1632-1698 with Malindi, Pate and Lamu tributary; map shows Mombasa's province as 'Mijikenda'",
+  "source": "https://worldstatesmen.org/Kenya_native.html",
+  "severity": "major"
+ },
+ {
+  "from": 1698,
+  "to": 1746,
+  "country": "Kenya",
+  "regions": [
+   "Coast"
+  ],
+  "owner": "Yarubid dynasty",
+  "why": "Mombasa under Omani (Ya'rubid) sovereignty from the fall of Fort Jesus, 13 Dec 1698 (brief Portuguese return Mar 1728-Nov 1729) until the Mazrui broke away in 1746",
+  "source": "https://worldstatesmen.org/Kenya_native.html",
+  "severity": "major"
+ },
+ {
+  "from": 1746,
+  "to": 1837,
+  "country": "Kenya",
+  "regions": [
+   "Coast"
+  ],
+  "owner": "Mombasa",
+  "why": "Mazrui sultanate of Mombasa, independent of the Al Bu Said (disputed by Oman) 1746-1837 (British provisional protectorate 1824-26), dominant on the Kenyan coast; map shows Mijikenda/peoples",
+  "source": "https://worldstatesmen.org/Kenya_native.html",
+  "severity": "major"
+ },
+ {
+  "from": 1837,
+  "to": 1856,
+  "country": "Kenya",
+  "regions": [
+   "Coast"
+  ],
+  "owner": "Oman",
+  "why": "Said bin Sultan annexed Mombasa 24 Jun 1837 (Lamu under Oman since 1813, Pate under Omani suzerainty 1821); the coast belonged to the Al Bu Said realm until 1856; map shows 'Omani Slave Coast' and peoples",
+  "source": "https://worldstatesmen.org/Kenya_native.html",
+  "severity": "major"
+ },
+ {
+  "from": 1856,
+  "to": 1890,
+  "country": "Kenya",
+  "regions": [
+   "Coast"
+  ],
+  "owner": "Sultanate of Zanzibar",
+  "why": "Kenyan coast (Mombasa, Malindi, Lamu) under the Sultan of Zanzibar after the 1856 partition; administration leased to the IBEA Company 1887/88, protectorate 1895 (the 10-mile strip stayed under the Sultan's sovereignty until 1963); map shows 'People's Republic of Zanzibar'",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Zanzibar",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1505,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Lindi",
+   "Mtwara",
+   "Pwani"
+  ],
+  "owner": "Kilwa Sultanate",
+  "why": "Kilwa (Kilwa Kisiwani, in Lindi region) owned or claimed overlordship of the coast incl. Mafia down to Sofala at its 15th-century peak; map shows Bantu/East African peoples",
+  "source": "https://en.wikipedia.org/wiki/Kilwa_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1505,
+  "to": 1513,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Lindi"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "Almeida took Kilwa in 1505 and built Fort Santiago; Portuguese occupation until 1512/13",
+  "source": "https://en.wikipedia.org/wiki/Kilwa_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1513,
+  "to": 1698,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Lindi"
+  ],
+  "owner": "Kilwa Sultanate",
+  "why": "Kilwa sultanate restored after the Portuguese left (1512/13); the map already shows it on Kilwa's own province but leaves the rest of Lindi region as 'Bantu peoples'",
+  "source": "https://en.wikipedia.org/wiki/Kilwa_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1698,
+  "to": 1744,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Lindi"
+  ],
+  "owner": "Kilwa Sultanate",
+  "overlord": "Yarubid dynasty",
+  "why": "Kilwa taken by the Ya'rubid imam Saif bin Sultan soon after Mombasa (1698); sultanate continued under Omani overlordship",
+  "source": "https://en.wikipedia.org/wiki/Saif_bin_Sultan",
+  "severity": "major"
+ },
+ {
+  "from": 1744,
+  "to": 1785,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Lindi"
+  ],
+  "owner": "Kilwa Sultanate",
+  "why": "Kilwa outside effective Omani control during the Ya'rubid-Al Bu Said transition until the Omani reoccupation of 1784-85",
+  "source": "https://apcentral.collegeboard.org/series/east-africa-indian-ocean-basin-world-economy-1760-1880/appendix5-timeline",
+  "severity": "minor"
+ },
+ {
+  "from": 1785,
+  "to": 1856,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Lindi",
+   "Mtwara",
+   "Pwani",
+   "Dar-Es-Salaam"
+  ],
+  "owner": "Oman",
+  "why": "1784-85: the ruler of Oman sent a force to reoccupy Kilwa and the other Swahili towns (Mafia, the Mrima coast, Lindi, Mikindani) submitted to Omani rule; part of the Al Bu Said realm until 1856. Map shows peoples, 'Zaramo', 'Omani Slave Coast' and a separate 'Omani Empire'",
+  "source": "https://apcentral.collegeboard.org/series/east-africa-indian-ocean-basin-world-economy-1760-1880/appendix5-timeline",
+  "severity": "major"
+ },
+ {
+  "from": 1856,
+  "to": 1890,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Lindi",
+   "Mtwara",
+   "Pwani",
+   "Dar-Es-Salaam"
+  ],
+  "owner": "Sultanate of Zanzibar",
+  "why": "Mainland coast from Cape Delgado northward under the Sultan of Zanzibar after the 1856 partition (Dar es Salaam founded by Sultan Majid 1865/66) until the German purchase of 1890; map shows peoples and an anachronistic 'People's Republic of Zanzibar'",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Zanzibar",
+  "severity": "major"
+ },
+ {
+  "from": 1860,
+  "to": 1862,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Tanga"
+  ],
+  "owner": "Shambaa Kingdom",
+  "why": "Kimweri ye Nyumbai's Shambaa kingdom lasted until his death in 1862; map has an anachronistic 'People's Republic of Zanzibar' from 1860",
+  "source": "https://en.wikipedia.org/wiki/Shambaa_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1862,
+  "to": 1890,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Tanga"
+  ],
+  "owner": "Sultanate of Zanzibar",
+  "why": "After Kimweri's death (1862) the Shambaa kingdom split into warring factions; the coast (Tanga, Pangani) was the Sultan of Zanzibar's, who backed Semboja inland; map shows 'People's Republic of Zanzibar' (a 1964 state)",
+  "source": "https://en.wikipedia.org/wiki/Shambaa_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1624,
+  "to": 1749,
+  "country": "Oman",
+  "regions": [
+   "Al Wusta"
+  ],
+  "owner": "Yarubid dynasty",
+  "why": "Central Oman (Duqm, Mahout, Jiddat al-Harasis) under the Ya'rubid imamate 1624-1749; map shows Bedouin tribes on most of it and a second name 'Ya'rubid Imamate of Oman'",
+  "source": "https://en.wikipedia.org/wiki/Yaruba_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1749,
+  "to": 1890,
+  "country": "Oman",
+  "regions": [
+   "Al Wusta"
+  ],
+  "owner": "Oman",
+  "why": "Al Bu Said Oman (Ahmad bin Said imam 1744, sole ruler 1749) held the coast between Ja'lan and Dhofar; map flickers between Bedouin tribes and Oman",
+  "source": "https://en.wikipedia.org/wiki/Yaruba_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1749,
+  "to": 1890,
+  "country": "Oman",
+  "regions": [
+   "Ash Sharqiyah South",
+   "Ad Dakhliyah",
+   "Al Dhahira"
+  ],
+  "owner": "Oman",
+  "why": "Sur, Ja'lan, Nizwa and Ibri were part of Al Bu Said Oman after 1749; map leaves half these regions as Bedouin tribes (Al Dhahira also partly 'Abu Dhabi', 'Trucial States' and 'Qatari tribes')",
+  "source": "https://en.wikipedia.org/wiki/Yaruba_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1414,
+  "to": 1804,
+  "country": "Oman",
+  "regions": [
+   "Dhofar"
+  ],
+  "owner": "Kathiri Sultanate",
+  "why": "Kathiri sultans seized Dhofar in 1414 and ruled it (again from 1462/63) until c.1804; map shows Bedouin tribes",
+  "source": "https://en.wikipedia.org/wiki/Kathiri",
+  "severity": "major"
+ },
+ {
+  "from": 1804,
+  "to": 1829,
+  "country": "Oman",
+  "regions": [
+   "Dhofar"
+  ],
+  "owner": "peoples:Qara and Mahra tribes (Dhofar)",
+  "why": "Between Kathiri rule and Omani suzerainty Dhofar was held by local tribes under Muhammad bin Aqil; map shows 'Qatari tribes' on part",
+  "source": "https://www.crwflags.com/FoTW/FLAGS/om-dhofr.html",
+  "severity": "minor"
+ },
+ {
+  "from": 1829,
+  "to": 1876,
+  "country": "Oman",
+  "regions": [
+   "Dhofar"
+  ],
+  "owner": "Oman",
+  "why": "Dhofar's Kathiri and Qara tribes under the suzerainty of Muscat from 1829 (Said bin Sultan) until Fadhl bin Alawi's takeover in 1876",
+  "source": "https://www.crwflags.com/FoTW/FLAGS/om-dhofr.html",
+  "severity": "major"
+ },
+ {
+  "from": 1879,
+  "to": 1890,
+  "country": "Oman",
+  "regions": [
+   "Dhofar"
+  ],
+  "owner": "Oman",
+  "why": "Dhofar annexed by Oman in 1879 after Fadhl bin Alawi was expelled; map shows mostly Bedouin tribes until 1890",
+  "source": "https://www.crwflags.com/FoTW/FLAGS/om-dhofr.html",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1624,
+  "country": "Oman",
+  "regions": [
+   "Al Dhahira",
+   "Ash Sharqiyah North",
+   "Al Buraymi"
+  ],
+  "owner": "Nabhani dynasty",
+  "why": "Interior Oman was ruled by the Nabhani kings (Bahla/Nizwa) until the Ya'rubid takeover of 1624; map shows 'Mahdids' (a 12th-century Yemeni dynasty) to 1480, Bedouin tribes and a stray Ottoman decade",
+  "source": "https://en.wikipedia.org/wiki/Nabhani_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1520,
+  "country": "Oman",
+  "regions": [
+   "Ad Dakhliyah",
+   "Al Batnah North",
+   "Al Batnah South"
+  ],
+  "owner": "Nabhani dynasty",
+  "why": "Nabhani kings ruled interior Oman (and at times the coast) until 1624; map shows 'Mahdids', a 12th-century Yemeni dynasty, before 1480/1490",
+  "source": "https://en.wikipedia.org/wiki/Nabhani_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1515,
+  "country": "Oman",
+  "regions": [
+   "Ash Sharqiyah South"
+  ],
+  "owner": "Kingdom of Ormus",
+  "why": "Qalhat and the Sur coast were developed and held by the Kingdom of Hormuz (Muscat also a Hormuzi dependency); map shows 'Mahdids' and Bedouin tribes",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ormus",
+  "severity": "major"
+ },
+ {
+  "from": 1515,
+  "to": 1622,
+  "country": "Oman",
+  "regions": [
+   "Ash Sharqiyah South"
+  ],
+  "owner": "Kingdom of Ormus",
+  "overlord": "Portuguese Empire",
+  "why": "Hormuz and its Omani provinces were a Portuguese protectorate 1515-1622 (Albuquerque took the Omani coastal cities 1507); map shows Bedouin tribes",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_Oman",
+  "severity": "major"
+ },
+ {
+  "from": 1622,
+  "to": 1624,
+  "country": "Oman",
+  "regions": [
+   "Ash Sharqiyah South"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "After the fall of Hormuz (1622) the Portuguese moved their forces to the Omani coast until the Ya'rubid advance",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_Oman",
+  "severity": "minor"
+ },
+ {
+  "from": 1800,
+  "to": 1818,
+  "country": "Oman",
+  "regions": [
+   "Al Buraymi"
+  ],
+  "owner": "Emirate of Diriyah",
+  "why": "Buraimi oasis under Wahhabi (First Saudi State) control from 1800; map shows 'Qatari tribes (Al-Buainain, Al Musallam)'",
+  "source": "https://en.wikipedia.org/wiki/Buraimi_dispute",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1480,
+  "country": "Oman",
+  "regions": [
+   "Musandam"
+  ],
+  "owner": "Shihuh of Musandam",
+  "why": "Replace anachronistic 'Mahdids' (12th-century Yemen) with the Shihuh polity the map uses from 1480",
+  "source": "https://en.wikipedia.org/wiki/Mahdids",
+  "severity": "minor"
+ },
+ {
+  "from": 1820,
+  "to": 1900,
+  "country": "Oman",
+  "regions": [
+   "Musandam"
+  ],
+  "owner": "Oman",
+  "why": "Musandam (Shihuh, Khasab) was Muscat's; map gives one province to 'Qatar Dynasty' 1820-1889 and 'Trucial States' 1890s",
+  "source": "https://en.wikipedia.org/wiki/Musandam_Governorate",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1515,
+  "country": "United Arab Emirates",
+  "regions": [
+   "Ras Al Khaymah"
+  ],
+  "owner": "Kingdom of Ormus",
+  "why": "Julfar (Ras al-Khaimah) rose as a dependency of Hormuz in the 14th-15th centuries; map shows 'Mahdids' and Shihuh",
+  "source": "https://en.wikipedia.org/wiki/Julfar",
+  "severity": "minor"
+ },
+ {
+  "from": 1515,
+  "to": 1622,
+  "country": "United Arab Emirates",
+  "regions": [
+   "Ras Al Khaymah",
+   "Sharjah",
+   "Dubay"
+  ],
+  "owner": "Kingdom of Ormus",
+  "overlord": "Portuguese Empire",
+  "why": "Julfar and the coast were under direct Hormuzi control by the 1520s, Hormuz being a Portuguese protectorate 1515-1622; map shows no polity 1550-1629 and a Qatari tribal label 1520s",
+  "source": "https://en.wikipedia.org/wiki/Julfar",
+  "severity": "major"
+ },
+ {
+  "from": 1622,
+  "to": 1633,
+  "country": "United Arab Emirates",
+  "regions": [
+   "Ras Al Khaymah",
+   "Sharjah",
+   "Dubay"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "Portuguese forts at Julfar and Khor Fakkan (1621) held until the Ya'rubid capture of Julfar in 1633",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_Oman",
+  "severity": "minor"
+ },
+ {
+  "from": 1747,
+  "to": 1820,
+  "country": "United Arab Emirates",
+  "regions": [
+   "Sharjah",
+   "Ras Al Khaymah"
+  ],
+  "owner": "Qawasim Sheikhdom of Sharjah and Ras al-Khaimah",
+  "why": "Qasimi sheikhs (Rashid bin Matar 1747-77, Saqr bin Rashid 1777-1803) ruled Ras al-Khaimah and Sharjah as rivals of Oman until the 1820 treaty; map shows 'Oman' 1760-1799",
+  "source": "https://en.wikipedia.org/wiki/Al_Qasimi",
+  "severity": "major"
+ },
+ {
+  "from": 1820,
+  "to": 1890,
+  "country": "United Arab Emirates",
+  "regions": [
+   "Ras Al Khaymah"
+  ],
+  "owner": "Trucial States",
+  "overlord": "British Empire",
+  "why": "Ras al-Khaimah signed the 1820 General Maritime Treaty and was a Trucial State; map shows 'Qatar Dynasty' 1830-1889",
+  "source": "https://en.wikipedia.org/wiki/Al_Qasimi",
+  "severity": "major"
+ },
+ {
+  "from": 1790,
+  "to": 1820,
+  "country": "United Arab Emirates",
+  "regions": [
+   "Dubay"
+  ],
+  "owner": "Abu Dhabi (Bani Yas)",
+  "why": "Dubai (first recorded 1799) was a Bani Yas settlement dependent on Abu Dhabi until 1833; map shows 'Oman' and 'Qawasim'",
+  "source": "https://en.wikipedia.org/wiki/History_of_Dubai",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1630,
+  "country": "United Arab Emirates",
+  "regions": [
+   "Abu Dhabi"
+  ],
+  "owner": "peoples:Bedouin tribes",
+  "why": "No polity recorded 1550-1629 and a Qatari tribal label in the 1520s-40s; the Abu Dhabi interior (Liwa) was Bedouin country until the Bani Yas emirate",
+  "source": "https://en.wikipedia.org/wiki/Bani_Yas",
+  "severity": "minor"
+ },
+ {
+  "from": 1670,
+  "to": 1766,
+  "country": "Qatar",
+  "regions": [
+   "Ar Rayyān"
+  ],
+  "owner": "Bani Khalid Emirate",
+  "why": "Bani Khalid expelled the Ottomans from al-Hasa (1670) and held jurisdiction over Qatar; map shows Bedouin tribes",
+  "source": "https://en.wikipedia.org/wiki/History_of_Qatar",
+  "severity": "major"
+ },
+ {
+  "from": 1766,
+  "to": 1783,
+  "country": "Qatar",
+  "regions": [
+   "Ar Rayyān"
+  ],
+  "owner": "Zubarah (Al Khalifa / Utub)",
+  "why": "Utub (Al Khalifa, Al Jalahma) settled at Zubarah in 1766",
+  "source": "https://en.wikipedia.org/wiki/History_of_Qatar",
+  "severity": "minor"
+ },
+ {
+  "from": 1783,
+  "to": 1795,
+  "country": "Qatar",
+  "regions": [
+   "Ar Rayyān"
+  ],
+  "owner": "House of Khalifa",
+  "why": "Al Khalifa took Bahrain in 1783 and claimed authority over mainland Qatar",
+  "source": "https://en.wikipedia.org/wiki/History_of_Qatar",
+  "severity": "minor"
+ },
+ {
+  "from": 1795,
+  "to": 1811,
+  "country": "Qatar",
+  "regions": [
+   "Ar Rayyān"
+  ],
+  "owner": "Emirate of Diriyah",
+  "why": "Wahhabis defeated the Bani Khalid (1795) and garrisoned Zubarah until Said bin Sultan's 1811 attack; map shows 'Qatari tribes'",
+  "source": "https://en.wikipedia.org/wiki/History_of_Qatar",
+  "severity": "minor"
+ },
+ {
+  "from": 1811,
+  "to": 1830,
+  "country": "Qatar",
+  "regions": [
+   "Ar Rayyān"
+  ],
+  "owner": "House of Khalifa",
+  "why": "Al Khalifa power restored in Qatar after 1811",
+  "source": "https://en.wikipedia.org/wiki/History_of_Qatar",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1660,
+  "country": "Yemen",
+  "regions": [
+   "Al Mahrah"
+  ],
+  "owner": "Mahra Sultanate of Qishn and Socotra",
+  "why": "Mahra sultanate (Banu Afrar) ruled the Mahra mainland and Socotra; map leaves part as Bedouin tribes",
+  "source": "https://en.wikipedia.org/wiki/Mahra_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1690,
+  "to": 1886,
+  "country": "Yemen",
+  "regions": [
+   "Al Mahrah"
+  ],
+  "owner": "Mahra Sultanate of Qishn and Socotra",
+  "why": "Mahra sultanate ruled Mahra until its 1886 protectorate treaty; map shows part as Bedouin tribes and 1870-1885 a generic 'British Colonial Empire'",
+  "source": "https://en.wikipedia.org/wiki/Mahra_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1890,
+  "country": "Yemen",
+  "regions": [
+   "Al Mahrah"
+  ],
+  "owner": "Aden Protectorate",
+  "overlord": "United Kingdom",
+  "why": "1886 Protectorate Treaty brought Qishn and Socotra under the Aden Protectorate",
+  "source": "https://en.wikipedia.org/wiki/Mahra_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1803,
+  "to": 1858,
+  "country": "Yemen",
+  "regions": [
+   "Hadramawt"
+  ],
+  "owner": "Kathiri Sultanate",
+  "only_open": true,
+  "why": "Second Kathiri state (1803-1858) held Seiyun, Tarim and Shihr; map shows most of Hadramawt as Bedouin tribes (only open land filled: Kasadi Mukalla, Wahidi and Mahra kept)",
+  "source": "https://en.wikipedia.org/wiki/Kathiri",
+  "severity": "major"
+ },
+ {
+  "from": 1858,
+  "to": 1888,
+  "country": "Yemen",
+  "regions": [
+   "Hadramawt"
+  ],
+  "owner": "Qu'aiti Sultanate",
+  "why": "Qu'aiti took Shibam 1858, Shihr 1866-67 and Mukalla 1881; British protectorate treaty 1 May 1888; map shows Bedouin tribes, Majeerteen and from 1870 a generic 'British Colonial Empire'",
+  "source": "https://en.wikipedia.org/wiki/Qu%27aiti",
+  "severity": "major"
+ },
+ {
+  "from": 1888,
+  "to": 1890,
+  "country": "Yemen",
+  "regions": [
+   "Hadramawt"
+  ],
+  "owner": "Aden Protectorate",
+  "overlord": "United Kingdom",
+  "why": "Qu'aiti protectorate treaty 1888 (Kathiri 1888)",
+  "source": "https://en.wikipedia.org/wiki/Qu%27aiti",
+  "severity": "minor"
+ },
+ {
+  "from": 1740,
+  "to": 1870,
+  "country": "Yemen",
+  "regions": [
+   "Lahij"
+  ],
+  "owner": "Sultanate of Lahej",
+  "why": "Abdali Sultanate of Lahej self-ruling 1728 and independent 1740 (British protection from 1839/1872); map shows Bedouin, 'Imamate of Yemen' 1820-49 and 'Ottoman Empire' 1850-69, though the Ottomans did not reach Lahej until 1915",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Lahej",
+  "severity": "major"
+ },
+ {
+  "from": 1740,
+  "to": 1839,
+  "country": "Yemen",
+  "regions": [
+   "`Adan"
+  ],
+  "owner": "Sultanate of Lahej",
+  "why": "Aden belonged to the Sultan of Lahej until the British took it on 19 January 1839; map shows 'Imamate of Yemen' 1820-39",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Lahej",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Yemen",
+  "regions": [
+   "Al Jawf",
+   "Ma'rib",
+   "Al Bayda'"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman Yemen Vilayet 1872-1918; map gives these regions to the Rashidi 'Emirate of Jabal Shammar' and 'Emirate of Nejd', which never reached Yemen",
+  "source": "https://en.wikipedia.org/wiki/Yemen_Vilayet",
+  "severity": "major"
+ },
+ {
+  "from": 1520,
+  "to": 1750,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ar Riyad"
+  ],
+  "owner": "peoples:Najd oasis towns and Bedouin tribes",
+  "why": "No polity recorded 1520-1749: Najd was divided among small town emirates (al-Uyaynah, Diriyah, Riyadh) and tribes (Dawasir, Qahtan) until the Emirate of Diriyah (1744)",
+  "source": "https://en.wikipedia.org/wiki/Najd",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1800,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ha'il"
+  ],
+  "owner": "peoples:Shammar tribes (Al Ali sheikhs)",
+  "why": "No polity recorded 1520-1799; Jabal Shammar was Shammar tribal country (the map uses this label from 1820)",
+  "source": "https://en.wikipedia.org/wiki/Shammar",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1800,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Al Hudud ash Shamaliyah"
+  ],
+  "owner": "peoples:Bedouin tribes",
+  "why": "No polity recorded 1520-1799; northern desert of Anazzah, Shammar and Dhafir Bedouin",
+  "source": "https://en.wikipedia.org/wiki/Anazzah",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1790,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Al Jawf"
+  ],
+  "owner": "peoples:Bedouin tribes",
+  "why": "No polity recorded 1520-1789; Jawf/Dumat al-Jandal oases and Bedouin (Anazzah, Sharārāt)",
+  "source": "https://en.wikipedia.org/wiki/Al-Jawf_Province",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1540,
+  "country": "Eritrea",
+  "regions": [
+   "Debubawi Keyih Bahri"
+  ],
+  "owner": "peoples:Afar",
+  "only_open": true,
+  "why": "Danakil coast is Afar country; map labels it 'Saharan nomads (Tuareg, Moors, Tubu)' and 'Bedouin tribes'",
+  "source": "https://en.wikipedia.org/wiki/Afar_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1780,
+  "to": 1900,
+  "country": "Eritrea",
+  "regions": [
+   "Debubawi Keyih Bahri"
+  ],
+  "owner": "peoples:Afar",
+  "only_open": true,
+  "why": "Afar clans between Massawa and Rahayta; map shows 'Bedouin tribes' / 'East African peoples' (Sultanate of Rahayta kept)",
+  "source": "https://en.wikipedia.org/wiki/Afar_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1900,
+  "country": "Ethiopia",
+  "regions": [
+   "Afar"
+  ],
+  "owner": "peoples:Afar",
+  "only_open": true,
+  "why": "Open land in the Afar region is labelled 'Saharan nomads (Tuareg, Moors, Tubu)', 'Bedouin tribes' or 'East African peoples'; Afar clans (Aussa sultanate kept where shown)",
+  "source": "https://en.wikipedia.org/wiki/Afar_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1420,
+  "country": "Djibouti",
+  "regions": [
+   "Obock"
+  ],
+  "owner": "peoples:Afar",
+  "why": "Obock labelled 'Saharan nomads (Tuareg, Moors, Tubu)' before Adal; Afar country",
+  "source": "https://en.wikipedia.org/wiki/Afar_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1580,
+  "country": "Ethiopia",
+  "regions": [
+   "Benshangul-Gumaz"
+  ],
+  "owner": "peoples:Berta and Gumuz",
+  "only_open": true,
+  "why": "Labelled 'Saharan nomads (Tuareg, Moors, Tubu)' / Nuba; Benishangul is the homeland of the Berta and Gumuz",
+  "source": "https://en.wikipedia.org/wiki/Berta_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Ethiopia",
+  "regions": [
+   "Gambela Peoples"
+  ],
+  "owner": "peoples:Anuak and Nuer",
+  "why": "Labelled 'Saharan nomads (Tuareg, Moors, Tubu)'; Gambela is Anuak and Nuer country",
+  "source": "https://en.wikipedia.org/wiki/Anuak_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1580,
+  "to": 1630,
+  "country": "Somaliland",
+  "regions": [
+   "Somaliland"
+  ],
+  "owner": "peoples:Somali clans (Isaaq, Gadabuursi, Dhulbahante)",
+  "why": "No polity recorded 1580-1629 after Adal's collapse; northern Somali clan country",
+  "source": "https://en.wikipedia.org/wiki/Isaaq",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Somaliland",
+  "regions": [
+   "Somaliland"
+  ],
+  "owner": "peoples:Somali clans (Isaaq, Gadabuursi, Dhulbahante)",
+  "only_open": true,
+  "why": "Generic 'East African peoples' on the clan lands between the Isaaq, Gadabuursi and Warsangali polities (those kept)",
+  "source": "https://en.wikipedia.org/wiki/Isaaq",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1910,
+  "country": "Somalia",
+  "regions": [
+   "Hiiraan"
+  ],
+  "owner": "peoples:Hawiye clans",
+  "why": "No polity recorded 1890-1909 before Italian administration of the interior",
+  "source": "https://en.wikipedia.org/wiki/Hawiye",
+  "severity": "minor"
+ },
+ {
+  "from": 1690,
+  "to": 1910,
+  "country": "Somalia",
+  "regions": [
+   "Bakool",
+   "Bay"
+  ],
+  "owner": "peoples:Rahanweyn (Digil and Mirifle) clans",
+  "why": "Generic 'East African peoples' after the Ajuran, and no polity at all 1890-1909; Bay and Bakool are Rahanweyn country",
+  "source": "https://en.wikipedia.org/wiki/Rahanweyn",
+  "severity": "minor"
+ },
+ {
+  "from": 1910,
+  "to": 1920,
+  "country": "Somalia",
+  "regions": [
+   "Bay"
+  ],
+  "owner": "Italian Somaliland",
+  "overlord": "Italy/Sardinia",
+  "why": "Bay (Baidoa) under Italian Somaliland after the 1908 consolidation of the colony; map shows no polity 1890-1919",
+  "source": "https://en.wikipedia.org/wiki/Italian_Somaliland",
+  "severity": "minor"
+ },
+ {
+  "from": 1650,
+  "to": 1869,
+  "country": "Somalia",
+  "regions": [
+   "Jubbada Hoose"
+  ],
+  "owner": "peoples:Somali clans and Bajuni",
+  "why": "Lower Jubba between the Ajuran and the Zanzibari fort at Kismayo (1869); map shows 'East African peoples' and a bogus 'Omani Slave Coast' 1840-59",
+  "source": "https://en.wikipedia.org/wiki/Omani_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1895,
+  "country": "Kenya",
+  "regions": [
+   "Central",
+   "Eastern",
+   "North-Eastern",
+   "Rift Valley"
+  ],
+  "owner": "Kenya",
+  "overlord": "United Kingdom",
+  "why": "No polity recorded in 1890-94: the British sphere was administered by the Imperial British East Africa Company (charter 1888) until the 1895 East Africa Protectorate",
+  "source": "https://en.wikipedia.org/wiki/Imperial_British_East_Africa_Company",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1900,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Kigoma",
+   "Katavi",
+   "Mbeya",
+   "Rukwa",
+   "Morogoro"
+  ],
+  "owner": "Tanzania (Tanganyika)",
+  "overlord": "Germany (Prussia)",
+  "why": "No polity recorded in the 1890s; interior assigned to German East Africa by the 1890 Heligoland-Zanzibar Treaty and administered by the German government from 1891",
+  "source": "https://en.wikipedia.org/wiki/German_East_Africa",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1890,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Kigoma"
+  ],
+  "owner": "Buha kingdoms",
+  "only_open": true,
+  "why": "Ha kingdoms (Buha) held the Kigoma highlands; map leaves half the region as Bantu/East African peoples",
+  "source": "https://en.wikipedia.org/wiki/Ha_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1830,
+  "country": "Mozambique",
+  "regions": [
+   "Gaza"
+  ],
+  "owner": "peoples:Tsonga (Thonga)",
+  "only_open": true,
+  "why": "Labelled 'Khoisan' (and no polity 1450-1519); the lower Limpopo is Tsonga country",
+  "source": "https://en.wikipedia.org/wiki/Tsonga_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1534,
+  "country": "Mozambique",
+  "regions": [
+   "Inhambane"
+  ],
+  "owner": "peoples:Tonga (Bitonga) and Chopi",
+  "why": "Labelled 'Khoisan'; the Bitonga lived around Inhambane",
+  "source": "https://en.wikipedia.org/wiki/Inhambane",
+  "severity": "minor"
+ },
+ {
+  "from": 1534,
+  "to": 1830,
+  "country": "Mozambique",
+  "regions": [
+   "Inhambane"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "Portuguese permanent trading post at Inhambane from 1534 (first Jesuit mission 1560); map shows 'Khoisan' until 1820",
+  "source": "https://en.wikipedia.org/wiki/Inhambane",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1700,
+  "country": "Zambia",
+  "regions": [
+   "Western"
+  ],
+  "owner": "Barotse Kingdom",
+  "only_open": true,
+  "why": "Lozi (Luyi) kingdom began in the 17th century in the Bulozi plain; map shows Bantu peoples on most of Western Province",
+  "source": "https://en.wikipedia.org/wiki/Barotseland",
+  "severity": "minor"
+ },
+ {
+  "from": 1650,
+  "to": 1860,
+  "country": "Zambia",
+  "regions": [
+   "Eastern"
+  ],
+  "owner": "Undi kingdom",
+  "only_open": true,
+  "why": "Undi's Chewa kingdom reached the Luangwa in the 17th century; map shows 2 of 3 provinces as Bantu peoples",
+  "source": "https://en.wikipedia.org/wiki/Maravi",
+  "severity": "minor"
+ },
+ {
+  "from": 1740,
+  "to": 1820,
+  "country": "Zambia",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "Bemba Kingdom",
+  "only_open": true,
+  "why": "Bemba under the Chitimukulu entered Zambia before 1740 and expanded until 1808; map starts them in 1820",
+  "source": "https://en.wikipedia.org/wiki/Bemba_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1810,
+  "to": 1900,
+  "country": "Zambia",
+  "regions": [
+   "Muchinga"
+  ],
+  "owner": "Bemba Kingdom",
+  "only_open": true,
+  "why": "Chileshe Chepela (1810-60) and Chitapankwa (1866-87) brought the Bisa and Luangwa valley under Bemba control; map shows Bantu peoples",
+  "source": "https://en.wikipedia.org/wiki/Bemba_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Zambia",
+  "regions": [
+   "Southern"
+  ],
+  "owner": "peoples:Tonga and Ila",
+  "only_open": true,
+  "why": "No polity recorded 1400-1699; the Southern Province plateau is the land of the stateless Tonga and Ila",
+  "source": "https://en.wikipedia.org/wiki/Tonga_people_of_Zambia_and_Zimbabwe",
+  "severity": "minor"
+ },
+ {
+  "from": 1760,
+  "to": 1890,
+  "country": "Zimbabwe",
+  "regions": [
+   "Mashonaland Central"
+  ],
+  "owner": "peoples:Shona (Korekore) chiefdoms",
+  "why": "No polity recorded after the Mutapa state moved to Chidima (c.1760); Korekore Shona chiefdoms",
+  "source": "https://en.wikipedia.org/wiki/Shona_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1840,
+  "to": 1890,
+  "country": "Zimbabwe",
+  "regions": [
+   "Mashonaland West"
+  ],
+  "owner": "peoples:Shona chiefdoms",
+  "why": "No polity recorded after the Rozvi collapse (c.1838); Shona chiefdoms raided by the Ndebele",
+  "source": "https://en.wikipedia.org/wiki/Shona_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1430,
+  "country": "Zimbabwe",
+  "regions": [
+   "Mashonaland Central",
+   "Mashonaland West"
+  ],
+  "owner": "peoples:Shona chiefdoms",
+  "why": "No polity recorded before the Mutapa state",
+  "source": "https://en.wikipedia.org/wiki/Shona_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1720,
+  "country": "Madagascar",
+  "regions": [
+   "Atsinanana"
+  ],
+  "owner": "peoples:Betsimisaraka clans",
+  "only_open": true,
+  "why": "No polity recorded 1400-1719; land of the Betsimisaraka clans before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1720,
+  "country": "Madagascar",
+  "regions": [
+   "Analanjirofo"
+  ],
+  "owner": "peoples:Betsimisaraka clans",
+  "only_open": true,
+  "why": "No polity recorded 1400-1719; land of the Betsimisaraka clans before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1820,
+  "country": "Madagascar",
+  "regions": [
+   "Sava"
+  ],
+  "owner": "peoples:Betsimisaraka and Antankarana clans",
+  "only_open": true,
+  "why": "No polity recorded 1400-1819; land of the Betsimisaraka and Antankarana clans before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Madagascar",
+  "regions": [
+   "Alaotra-Mangoro"
+  ],
+  "owner": "peoples:Sihanaka",
+  "only_open": true,
+  "why": "No polity recorded 1400-1599; land of the Sihanaka before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1650,
+  "country": "Madagascar",
+  "regions": [
+   "Androy"
+  ],
+  "owner": "peoples:Antandroy",
+  "only_open": true,
+  "why": "No polity recorded 1400-1649; land of the Antandroy before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1620,
+  "country": "Madagascar",
+  "regions": [
+   "Anosy"
+  ],
+  "owner": "peoples:Antanosy",
+  "only_open": true,
+  "why": "No polity recorded 1400-1619; land of the Antanosy before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1650,
+  "country": "Madagascar",
+  "regions": [
+   "Atsimo-Atsinanana"
+  ],
+  "owner": "peoples:Antaisaka",
+  "only_open": true,
+  "why": "No polity recorded 1400-1649; land of the Antaisaka before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1650,
+  "country": "Madagascar",
+  "regions": [
+   "Atsimo-Andrefana"
+  ],
+  "owner": "peoples:Vezo and Mahafaly",
+  "only_open": true,
+  "why": "No polity recorded 1400-1649; land of the Vezo and Mahafaly before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1650,
+  "country": "Madagascar",
+  "regions": [
+   "Menabe"
+  ],
+  "owner": "peoples:Sakalava (Vezo and Masikoro)",
+  "only_open": true,
+  "why": "No polity recorded 1400-1649; land of the Sakalava (Vezo and Masikoro) before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1650,
+  "country": "Madagascar",
+  "regions": [
+   "Ihorombe"
+  ],
+  "owner": "peoples:Bara",
+  "only_open": true,
+  "why": "No polity recorded 1400-1649; land of the Bara before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1690,
+  "country": "Madagascar",
+  "regions": [
+   "Melaky"
+  ],
+  "owner": "peoples:Sakalava clans",
+  "only_open": true,
+  "why": "No polity recorded 1400-1689; land of the Sakalava clans before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Madagascar",
+  "regions": [
+   "Boeny"
+  ],
+  "owner": "peoples:Sakalava clans and Antalaotra ports",
+  "only_open": true,
+  "why": "No polity recorded 1400-1699; land of the Sakalava clans and Antalaotra ports before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1690,
+  "country": "Madagascar",
+  "regions": [
+   "Betsiboka"
+  ],
+  "owner": "peoples:Sakalava clans",
+  "only_open": true,
+  "why": "No polity recorded 1400-1689; land of the Sakalava clans before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1800,
+  "country": "Madagascar",
+  "regions": [
+   "Bongolava"
+  ],
+  "owner": "peoples:Sakalava clans",
+  "only_open": true,
+  "why": "No polity recorded 1400-1799; land of the Sakalava clans before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1820,
+  "country": "Madagascar",
+  "regions": [
+   "Sofia"
+  ],
+  "owner": "peoples:Tsimihety and Sakalava clans",
+  "only_open": true,
+  "why": "No polity recorded 1400-1819; land of the Tsimihety and Sakalava clans before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Madagascar",
+  "regions": [
+   "Diana"
+  ],
+  "owner": "peoples:Antankarana clans",
+  "only_open": true,
+  "why": "No polity recorded 1400-1699; land of the Antankarana clans before the kingdoms the map shows next",
+  "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1800,
+  "to": 1820,
+  "country": "United Arab Emirates",
+  "regions": [
+   "Abu Dhabi"
+  ],
+  "owner": "Abu Dhabi (Bani Yas)",
+  "only_open": true,
+  "why": "'Qatari tribes (Al-Buainain, Al Musallam)' label sprayed across Arabia in 1800-1819; the Abu Dhabi interior was Bani Yas country (Al Bu Falah at Liwa from c.1700, Abu Dhabi island settled 1795)",
+  "source": "https://en.wikipedia.org/wiki/Bani_Yas",
+  "severity": "minor"
+ },
+ {
+  "from": 1800,
+  "to": 1820,
+  "country": "Iran",
+  "regions": [
+   "Hormozgan"
+  ],
+  "owner": "Qawasim Sheikhdom of Sharjah and Ras al-Khaimah",
+  "only_open": true,
+  "why": "'Qatari tribes (Al-Buainain, Al Musallam)' label sprayed across Arabia in 1800-1819 on a Gulf island province (Abu Musa), which belonged to the Qasimi sheikhs (map gives it to the Trucial States from 1820)",
+  "source": "https://en.wikipedia.org/wiki/Al_Qasimi",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1622,
+  "country": "Iran",
+  "regions": [
+   "Hormozgan"
+  ],
+  "owner": "Kingdom of Ormus",
+  "overlord": "Portuguese Empire",
+  "only_open": true,
+  "why": "An island province in the Strait of Hormuz is labelled 'Arab coastal and Bedouin tribes of Qatar' / 'Bedouin tribes'; the strait islands were the Kingdom of Hormuz's, a Portuguese protectorate 1515-1622",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ormus",
+  "severity": "minor"
+ },
+ {
+  "from": 1800,
+  "to": 1820,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Najran"
+  ],
+  "owner": "peoples:Bedouin tribes",
+  "only_open": true,
+  "why": "'Qatari tribes (Al-Buainain, Al Musallam)' label sprayed across Arabia in 1800-1819; Najran's desert is Yam/Bedouin country",
+  "source": "https://en.wikipedia.org/wiki/Najran",
+  "severity": "minor"
+ },
+ {
+  "from": 1800,
+  "to": 1820,
+  "country": "Yemen",
+  "regions": [
+   "Ma'rib"
+  ],
+  "owner": "peoples:Bedouin tribes",
+  "only_open": true,
+  "why": "'Qatari tribes (Al-Buainain, Al Musallam)' label sprayed across Arabia in 1800-1819",
+  "source": "https://en.wikipedia.org/wiki/Marib",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1640,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Najran",
+   "Tabuk"
+  ],
+  "owner": "peoples:Bedouin tribes",
+  "only_open": true,
+  "why": "'Arab coastal and Bedouin tribes of Qatar' label misplaced far from Qatar in the 1520s-1630s",
+  "source": "https://en.wikipedia.org/wiki/Najran",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1640,
+  "country": "Yemen",
+  "regions": [
+   "Shabwah",
+   "Ma'rib",
+   "Al Bayda'"
+  ],
+  "owner": "peoples:Bedouin tribes",
+  "only_open": true,
+  "why": "'Arab coastal and Bedouin tribes of Qatar' label misplaced far from Qatar in the 1520s-1630s",
+  "source": "https://en.wikipedia.org/wiki/Shabwah_Governorate",
+  "severity": "minor"
+ }
+]

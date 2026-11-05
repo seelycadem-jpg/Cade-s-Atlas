@@ -1,0 +1,243 @@
+## na14970 | 1497 | Cabot reaches Newfoundland | who: John Cabot, Venetian sailing for England's Henry VII | where: Newfoundland, Canada
+  bluf: Cabot's voyage gave England its legal claim to North America, the basis for later colonies. The cod fishery off Newfoundland drew European fishermen for centuries and pulled the North Atlantic into the European economy.
+  now: Canada's Atlantic provinces grew from the fishery. Its collapse through overfishing led to Canada's cod moratorium in 1992, a lesson in exhausting a common resource.
+  story: John Cabot sailed west for Henry VII hoping to reach Asia, and landed on the rocky coast of Newfoundland instead. He found no spices, but the waters were so thick with cod his crew could scoop them up in baskets.
+  why: After Columbus, Henry VII wanted a share of the western routes, and Bristol merchants already fished far out into the Atlantic.
+  then: England did little for a century, but revived the claim to justify Newfoundland (1583) and Jamestown (1607). Basque, Portuguese, French and English fleets worked the cod banks, and salt cod became a major traded staple.
+## na15341 | 1534 | Cartier explores the St. Lawrence | who: Jacques Cartier, for France | where: Gulf of St. Lawrence, Canada
+  bluf: Cartier's voyages gave France its claim to the St. Lawrence, the river system leading into the heart of North America. That route became the backbone of New France and its fur trade with Indigenous nations.
+  now: Cartier's route gave France its claim to the St Lawrence and the fur trade, and the French-speaking society of Quebec that still governs itself inside Canada descends from it.
+  story: Jacques Cartier sailed into the Gulf of St. Lawrence looking for a passage to Asia and for gold. He mapped the great river, met the Iroquoians of Stadacona, and borrowed their word 'kanata' (village) for the land.
+  why: Francis I wanted a share of the Americas, rejecting the Spanish-Portuguese division of the world, and hoped for a Northwest Passage to Asia and for gold.
+  then: Cartier's attempts at settlement failed, but the claim held; Champlain founded Quebec on the same river in 1608.
+  fact: The name 'Canada' comes from an Iroquoian word for village that Cartier recorded.
+## na15872 | 1587 | Roanoke colony founded, then vanishes | who: ~115 English settlers led by John White | where: Roanoke Island, North Carolina
+  bluf: Roanoke's failure taught England that colonies could not survive as private adventures without steady supplies, money and workable relations with Native peoples. Those lessons shaped the joint-stock company model behind Jamestown.
+  now: The 'Lost Colony' remains unsolved; many historians think survivors joined nearby Native communities such as the Croatoan.
+  story: About 115 settlers landed on Roanoke Island in 1587. When supply ships finally returned in 1590, delayed by war with Spain, the colony was gone. The only clue was 'CROATOAN' carved into a post.
+  why: Sir Walter Raleigh, holding a royal patent, wanted a base for raiding Spanish shipping and a claim to North American land.
+  then: War with Spain delayed resupply until 1590, by which time the colony was gone. England's next attempt, Jamestown (1607), was organized by a joint-stock company with far more capital.
+## na16073 | 1607 | Jamestown founded | who: Virginia Company of London; John Smith; Powhatan Confederacy | where: Virginia
+  bluf: Jamestown was England's first lasting American colony, and its survival on tobacco created the model of the plantation South: an export crop, land taken from Native peoples, and an ever-growing demand for bound labor that turned to African slavery. It also produced English America's first representative assembly.
+  now: Representative government, Native dispossession and slavery, central threads of American history, all appear together in Virginia's first decades.
+  story: In 1607 the Virginia Company of London, a joint-stock venture, sent about 100 men to found Jamestown in the territory of the Powhatan Confederacy. Hoping for gold, they found disease, hunger and a powerful Native state; most early settlers died, especially in the 'starving time' of 1609-10. Tobacco, planted by John Rolfe from 1612, finally made the colony pay.
+  why: England wanted its share of the Americas after Spain's success, and investors hoped for gold and a passage to Asia. The joint-stock company let merchants spread the risk.
+  then: Tobacco exports boomed and settlers spread onto Powhatan land, provoking wars in 1622 and 1644. Labor came first from English indentured servants, then increasingly from enslaved Africans. In 1619 Virginia created the House of Burgesses.
+  fact: In the 'Starving Time' winter of 1609–10, about 80% of the colonists died.
+## na16084 | 1608 | French found Quebec | who: Samuel de Champlain | where: Quebec City, Canada
+  bluf: Champlain's Quebec anchored New France, an empire built on the fur trade and alliances with Indigenous nations rather than mass settlement. Its legacy is a French-speaking society that has survived inside an English-speaking continent.
+  now: Quebec's distinct identity, its language laws and its two independence referendums (1980 and 1995) trace back to this colony.
+  story: Samuel de Champlain built a trading post at a narrow point on the St. Lawrence. He allied with the Huron and Algonquin, trading guns and goods for beaver pelts that Europe craved for hats.
+  why: France wanted to control the lucrative fur trade with Indigenous partners, and Quebec's narrows commanded the St. Lawrence.
+  then: French traders and missionaries pushed deep into the interior along the rivers to the Great Lakes and the Mississippi, allied with the Wendat (Huron) and Algonquin against the Iroquois. With only about 70,000 settlers by 1760, New France could not withstand Britain, which conquered it in 1759-63.
+## na16195 | 1619 | First enslaved Africans arrive in Virginia | who: ~20 Angolans taken from a Portuguese slave ship; Virginia colonists | where: Point Comfort, Virginia
+  bluf: The sale of about 20 Africans at Point Comfort in 1619 is the earliest recorded arrival of Africans in English North America. Over the following decades Virginia turned servitude into hereditary, race-based slavery, a system that shaped the economy, Constitution and society of the future United States.
+  now: The date is central to debates over how to tell America's story, and the legacies of slavery still shape inequality and politics in the United States.
+  story: English privateers seized Angolans from a Portuguese slave ship and traded about 20 of them to Virginia colonists for food. Their status was not yet fixed by law, but within decades Virginia wrote race-based, lifelong slavery into its codes.
+  why: Tobacco planters needed labor, and English privateers sold captives they had seized from a Portuguese slave ship bound for Mexico.
+  then: At first Africans' status varied and some gained freedom, but from the 1660s Virginia laws made slavery lifelong, hereditary through the mother (1662) and based on race. After Bacon's Rebellion (1676), planters shifted from indentured servants to enslaved Africans.
+## na16196 | 1619 | First elected assembly (House of Burgesses) | who: Virginia colonists | where: Jamestown, Virginia
+  bluf: The House of Burgesses was the first elected legislature in English America, the root of a tradition of colonial self-government that later made Parliament's taxes look like tyranny. It began the same year enslaved Africans arrived: freedom and slavery grew up together.
+  now: Freedom and slavery arriving in Virginia the same year captures the central contradiction of American history.
+  story: To attract settlers, the Virginia Company let colonists elect representatives to help make local laws. It was the first legislature of its kind in English America, though only property-owning white men had a say.
+  why: The Virginia Company offered a measure of self-government to attract settlers.
+  then: Colonists grew used to governing themselves through their own assemblies, which made later British taxes imposed without their consent feel illegitimate.
+## na16207 | 1620 | Mayflower lands at Plymouth | who: Pilgrims (English Separatists); Wampanoag under Massasoit | where: Plymouth, Massachusetts
+  bluf: Plymouth was small, but the Mayflower Compact, in which settlers agreed to make and obey their own laws, became a founding text of American self-government. The colony opened New England to Puritan migration, which shaped American religious and civic culture.
+  now: The Compact is an early model of government by consent, and the Thanksgiving story is built on these first years.
+  story: The Pilgrims fled England to worship their own way. Blown off course, they signed the Mayflower Compact, agreeing to make and obey their own laws. Half died the first winter; Wampanoag help, through Massasoit and Squanto, kept the rest alive.
+  why: The Pilgrims were Separatists who had left the Church of England and wanted to worship their own way, away from persecution.
+  then: Plymouth survived thanks to Wampanoag help, and the alliance held for decades, until King Philip's War (1675-76) destroyed Native power in southern New England.
+  fact: The Pilgrims were helped by Squanto (Tisquantum), who spoke English because he had been kidnapped and taken to Europe years earlier.
+## na16308 | 1630 | Massachusetts Bay Colony | who: ~1,000 Puritans led by John Winthrop | where: Boston, Massachusetts
+  bluf: The Puritan colony brought a large, organized, family-based migration that built a literate, town-governed and intensely religious society in New England. Its ideals and its intolerance, from the 'city upon a hill' to the banishing of dissenters, shaped American civic culture.
+  now: The 'city upon a hill' remains part of American political rhetoric about national mission, and New England's emphasis on education and local government persists.
+  story: Led by John Winthrop, Puritans arrived in a well-funded, organized migration and founded Boston. They prized education (Harvard came in 1636) and strict religious community, and they banished dissenters like Anne Hutchinson and Roger Williams.
+  why: Puritans under pressure from Charles I and Archbishop Laud wanted to build a godly community, and a royal charter let their company govern itself in America.
+  then: About 20,000 English migrated in the 'Great Migration' of the 1630s. Town meetings, schools and Harvard (1636) took root; dissenters such as Roger Williams founded Rhode Island on religious freedom. Expansion brought wars with Native peoples, from the Pequot War (1637) to King Philip's War (1675-76).
+## na16649 | 1664 | English seize New Amsterdam | who: English fleet under Duke of York; Dutch governor Peter Stuyvesant | where: Manhattan
+  bluf: England's seizure of New Amsterdam gave it an unbroken coastline from New England to the Chesapeake and a superb harbour. New York's Dutch commercial origins and diversity shaped what became America's financial capital.
+  now: The seizure gave England the Hudson and a continuous coast from Maine to Carolina, and New York kept the Dutch habit of trade before creed, which made it the commercial capital of the continent.
+  story: An English fleet sailed into the harbor during a trade war with the Dutch. With few defenders and little support, governor Peter Stuyvesant surrendered. The city was renamed for the king's brother, the Duke of York.
+  why: England and the Dutch Republic were rivals for trade, and England wanted the Dutch colony that split its American colonies in two.
+  then: England now held an unbroken coast from Maine to the Carolinas; the Dutch briefly retook the city in 1673 but gave it up for good in 1674.
+  fact: The city's many-languages, trade-first character began under the Dutch.
+## na167510 | 1675 | King Philip's War | who: Wampanoag sachem Metacom ('King Philip') vs. New England colonists | where: New England
+  bluf: King Philip's War was, relative to population, one of the deadliest wars in American history, and it ended Native independence in southern New England. Its pattern of land pressure, war, enslavement and removal repeated across the continent.
+  now: It set a pattern of frontier war and removal that repeated across the continent.
+  story: Metacom, the Wampanoag leader the English called King Philip, led a coalition against colonists who kept taking land and imposing their law. Dozens of towns burned. Metacom was killed and many captives were sold into slavery in the Caribbean.
+  why: Colonists kept taking land and imposing their law on Native peoples, while Native leaders saw their autonomy shrinking with each treaty.
+  trig: Plymouth's execution in June 1675 of three Wampanoag men for killing John Sassamon, a Christian Native informer.
+  then: Dozens of towns burned on both sides. Metacom was killed, and many Native captives were sold into slavery in the Caribbean. The Native nations of southern New England never recovered their independence.
+## na167611 | 1676 | Bacon's Rebellion | who: Nathaniel Bacon, poor white and Black servants vs. Gov. Berkeley | where: Virginia
+  bluf: When poor white and Black Virginians joined in revolt against the colonial elite, planters responded by turning to African slavery and writing racial divisions into law. Many historians see it as a turning point in the making of America's racial order.
+  now: Historians point to this moment as a key origin of America's racial hierarchy.
+  story: Nathaniel Bacon led frontier settlers, servants and enslaved people against the governor, demanding war on Native peoples and more land. They burned Jamestown before the revolt collapsed when Bacon died.
+  why: Frontier settlers wanted land and war on Native peoples, and resented a governor and elite who controlled land and the Native trade, at a time of low tobacco prices.
+  then: Frightened planters shifted from indentured servants to enslaved Africans and passed laws giving poor whites privileges over Black people, dividing workers by race.
+## na168212 | 1682 | Penn founds Pennsylvania | who: William Penn, Quaker | where: Pennsylvania
+  bluf: Pennsylvania was founded on religious tolerance and drew a diverse mix of settlers, becoming a model of pluralism that shaped American ideals. Philadelphia, its planned capital, became the political centre of the American Revolution.
+  now: Religious freedom and pluralism became core American ideals, and Philadelphia hosted both the Declaration of Independence and the Constitutional Convention.
+  story: King Charles II owed William Penn's father money and paid with land. Penn designed Pennsylvania as a 'holy experiment' with religious tolerance and fair dealings with the Lenape. Philadelphia was laid out on a grid.
+  why: Charles II repaid a debt to Penn's father with land, and Penn wanted a refuge for Quakers and a 'holy experiment' in tolerance.
+  then: Pennsylvania drew Germans, Scots-Irish and many others and became the most diverse colony. Penn's fair dealing with the Lenape was later undermined by his sons, notably in the fraudulent Walking Purchase of 1737.
+## na169213 | 1692 | Salem witch trials | who: Puritan magistrates; accused villagers | where: Salem, Massachusetts
+  bluf: The Salem trials showed how fear, local feuds and courts that accepted unverifiable evidence could produce mass injustice. Their collapse discredited 'spectral evidence' and pushed colonial courts toward stricter standards of proof.
+  now: 'Witch hunt' became shorthand for mass hysteria, from the McCarthy era to today.
+  story: After girls in Salem Village had strange fits, accusations spread fast. Courts accepted 'spectral evidence' of dreams and visions, and 20 people were executed before officials stopped the trials.
+  why: Fear, local feuds, the trauma of frontier war with Native peoples and France, and religious anxiety.
+  then: Massachusetts later apologized and paid compensation to the victims' families.
+  fact: Nobody was burned. 19 were hanged and one man was pressed to death under stones.
+## na173914 | 1739 | Stono Rebellion | who: ~60 enslaved Africans, many from Kongo | where: near Charleston, South Carolina
+  bluf: The Stono Rebellion was the largest slave revolt in Britain's mainland colonies. The harsh laws that followed show how slave societies answered resistance by tightening control.
+  now: Stono shows that enslaved Africans resisted from the start, and that the slave codes which defined Southern law were written in response to that resistance.
+  story: About 60 enslaved people, many from Kongo with military experience, seized weapons near Charleston and headed for Spanish Florida, which promised freedom. Militia caught and killed most of them.
+  why: Brutal conditions, and Spanish Florida's offer of freedom to runaways, a deliberate tactic against Britain.
+  then: South Carolina's Negro Act of 1740 barred enslaved people from gathering, growing their own food, earning money or learning to read.
+## na175415 | 1754 | French and Indian War begins | who: Britain and colonists (incl. young George Washington) vs. France and Native allies | where: Ohio River Valley
+  bluf: A frontier clash over the Ohio Valley escalated into the first truly global war between Britain and France. Britain's victory removed France from North America but left debts that led to the taxes that provoked the American Revolution.
+  now: Without this war there would have been no American Revolution a decade later.
+  story: Britain and France both claimed the Ohio River Valley. Washington's Virginia militia attacked a French party in 1754, starting a war that spread to Europe, India and the oceans as the Seven Years' War.
+  why: Both Britain and France claimed the Ohio Valley, and the French built forts there to link Canada with Louisiana.
+  trig: Washington's attack on a French party at Jumonville Glen in May 1754.
+  then: Britain won, but its huge war debt led it to tax the colonies. Native nations lost their ability to play the two empires against each other.
+## na176316 | 1763 | Treaty of Paris: Britain wins Canada | who: Britain, France, Spain | where: Paris
+  bluf: France's surrender of almost all of North America left Britain dominant from Hudson Bay to Florida. By removing the French threat, it also removed the colonists' main reason to depend on Britain, setting up the Revolution.
+  now: Britain's victory set up both Canada's British identity and the American Revolution.
+  story: Defeated in the Seven Years' War, France handed Canada and land east of the Mississippi to Britain, and Louisiana to Spain. Britain now dominated the continent's east.
+  why: Britain won the Seven Years' War, and France gave up its North American empire to make peace.
+  then: Free of the French threat, colonists needed British protection much less. Britain's Proclamation of 1763, meant to calm Native nations after Pontiac's War, barred settlement west of the Appalachians and angered colonists.
+## na176517 | 1765 | Stamp Act | who: British Parliament; colonists | where: Thirteen Colonies
+  bluf: The Stamp Act was Parliament's first direct tax on the American colonies, and united colonial resistance turned a revenue measure into a constitutional crisis. 'No taxation without representation' became the principle that drove the colonies toward independence.
+  now: The Stamp Act produced the first united colonial resistance and the principle that taxation requires the consent of the taxed; its repeal taught the colonies that resistance worked.
+  story: To pay war debts, Parliament taxed newspapers, legal documents and playing cards in the colonies. Colonists boycotted British goods, rioted, and met in a Stamp Act Congress. Parliament repealed it a year later.
+  why: Britain needed to pay war debt and the cost of keeping troops in America.
+  then: Parliament repealed it a year later but passed the Declaratory Act, asserting its right to legislate for the colonies 'in all cases whatsoever'. Colonists learned that united protest worked, and Britain kept trying new taxes.
+## na177018 | 1770 | Boston Massacre | who: British soldiers; Boston crowd; Crispus Attucks among the 5 killed | where: Boston
+  bluf: The killing of five Bostonians by British soldiers became the Patriots' most powerful propaganda and deepened colonial hostility to British troops. The fair trial that followed also showed the colonists' commitment to the rule of law.
+  now: It shows how one image, here Paul Revere's engraving, can shape a political cause.
+  story: British soldiers fired into a crowd throwing snowballs and rocks, killing five, including Crispus Attucks, a man of African and Native descent. Paul Revere's dramatic engraving spread the story everywhere.
+  why: Tension over British troops stationed in Boston to enforce unpopular customs duties.
+  then: John Adams defended the soldiers in court and most were acquitted, but Patriots marked the anniversary each year with speeches that kept anger alive until the war.
+## na177319 | 1773 | Boston Tea Party | who: Sons of Liberty | where: Boston Harbor
+  bluf: The destruction of the East India Company's tea was a direct challenge to Parliament's authority. Britain's punitive response, the Coercive Acts, united the colonies against it and led directly to war.
+  now: It remains the go-to symbol of American protest against taxes and distant power.
+  story: The Tea Act gave the East India Company a monopoly on tea in the colonies. The Sons of Liberty, disguised as Mohawks, boarded three ships and destroyed the cargo.
+  why: Protest against the Tea Act, which gave the East India Company a monopoly in the colonies and reasserted Parliament's right to tax them.
+  then: Britain closed Boston's port and took over Massachusetts' government, pushing the colonies to unite in the First Continental Congress (1774).
+  fact: The protesters disguised themselves as Mohawk Indians. The East India Company tea they dumped would be worth over $1 million today.
+## d-bunker | 1775 | Battle of Bunker Hill | who: Colonial militia under William Prescott; British troops under William Howe | where: Charlestown, Massachusetts
+  bluf: Bunker Hill showed that colonial militia could inflict heavy losses on British regulars. The British victory was so costly that it made them cautious and gave the Americans confidence.
+  now: It showed early that the Revolution would be a real war, not a protest, and that Britain faced a long and costly fight.
+  story: Militia fortified Breed's Hill overlooking Boston. On June 17, 1775 British troops made three frontal assaults; they took the position only when the defenders ran out of powder, suffering over 1,000 casualties to about 450 American.
+  why: Both sides were trying to control the heights around besieged Boston.
+  then: The British left Boston in March 1776 after Washington placed cannon on Dorchester Heights.
+  myth: The order 'Don't fire until you see the whites of their eyes' may never have been given at Bunker Hill; similar orders were common at the time.
+## na177520 | 1775 | Battles of Lexington and Concord | who: Massachusetts militia vs. British regulars | where: Massachusetts
+  bluf: The first shots of the Revolutionary War turned a political dispute into armed rebellion. Colonial militia proved they would fight, and within weeks New England had Boston under siege and Congress had created an army.
+  now: April 19 is still Patriots' Day in Massachusetts, the day of the Boston Marathon.
+  story: British troops marched to seize colonial weapons at Concord. Warned by riders like Paul Revere, militia met them at Lexington and Concord, then harried them all the way back to Boston.
+  why: British troops tried to seize colonial weapons and powder stored at Concord.
+  then: Within weeks colonial forces had Boston under siege, and the Continental Army was formed under Washington.
+## d-commonsense | 1776 | Paine's Common Sense | who: Thomas Paine | where: Philadelphia
+  bluf: Common Sense turned colonial resistance into a demand for independence and a republic, in language ordinary people could read. It showed the political power of mass print persuasion.
+  now: It is a model of political persuasion aimed at a mass audience, the ancestor of the modern pamphlet and opinion column.
+  story: Published in January 1776, Common Sense attacked monarchy itself and argued it was absurd for an island to rule a continent. It sold perhaps 100,000 copies or more in its first year, in colonies of about 2.5 million people.
+  why: Fighting had begun, but many colonists still hoped to make peace with the king.
+  then: Six months later Congress declared independence, using many of Paine's arguments.
+## na177621 | 1776 | Declaration of Independence | who: Continental Congress; Thomas Jefferson as main author | where: Philadelphia
+  bluf: The Declaration justified the break with Britain by asserting universal rights and government by consent, which made the Revolution a cause for the world rather than a colonial dispute. Its claim that 'all men are created equal' clashed from the start with slavery, a contradiction that has driven American politics ever since.
+  now: Its words inspired revolutions worldwide and were used by abolitionists, suffragists and civil rights leaders to demand that America live up to them.
+  story: Fifteen months into the war, on July 4, 1776, the Continental Congress adopted Thomas Jefferson's draft announcing independence. It argued that governments get their power from the consent of the governed and that people may overthrow tyrants, then listed grievances against George III. Jefferson enslaved hundreds of people over his life, and a passage condemning the slave trade was cut from his draft.
+  why: War had begun, and independence was needed to win foreign allies, especially France, which would not back rebels seeking only better terms.
+  then: France saw a real cause worth backing and joined the war in 1778, and the Declaration's language of universal rights was echoed in France's Declaration of the Rights of Man in 1789.
+  fact: John Adams and Thomas Jefferson, rivals and friends, both died on July 4, 1826, the 50th anniversary.
+## d-saratoga | 1777 | Battles of Saratoga | who: General Horatio Gates and Benedict Arnold; British general John Burgoyne | where: Saratoga, New York
+  bluf: The surrender of an entire British army at Saratoga persuaded France to enter the war, turning a colonial rebellion into a global conflict Britain could not win. It was the strategic turning point of the Revolution.
+  now: Many historians call Saratoga the turning point of the Revolutionary War.
+  story: Burgoyne marched south from Canada to cut New England off from the other colonies. After two battles in September and October, his army was surrounded and surrendered on October 17, 1777.
+  why: Britain planned to cut New England off from the other colonies along the Hudson, but poor coordination between British commanders left Burgoyne without support.
+  then: France signed an alliance with the United States in February 1778, and Spain and the Dutch Republic later joined the war, stretching British forces around the world.
+## na178122 | 1781 | Victory at Yorktown | who: Washington, French under Rochambeau and de Grasse; British under Cornwallis | where: Yorktown, Virginia
+  bluf: Yorktown, won by a combined American-French army and the French navy, effectively ended the war. Sea power decided it: Britain could not supply or rescue an army it could not protect at sea.
+  now: American independence was won with decisive French help, a fact often forgotten.
+  story: Washington and French general Rochambeau marched south while the French navy blocked escape by sea. Cornwallis surrendered over 7,000 troops after a three-week siege.
+  why: A French fleet under de Grasse blocked the Chesapeake, trapping Cornwallis's army against the sea.
+  then: Lord North's government fell in March 1782, and peace talks led to the Treaty of Paris in 1783.
+## na178323 | 1783 | Independence recognized | who: American envoys Benjamin Franklin, John Adams and John Jay; British negotiators | where: Paris
+  bluf: Britain's recognition of American independence created the first modern state born from a colonial revolt. The generous border at the Mississippi gave the United States room to expand west, at the expense of Native nations who were not consulted.
+  now: The treaty roughly doubled the area of the former colonies and opened the way west.
+  story: Signed in Paris on September 3, 1783, the treaty recognised the independence of the United States and set its western border at the Mississippi River. Britain kept Canada, and returned Florida to Spain in a separate deal.
+  why: Britain wanted to end a costly war, and also to pull the United States away from France with generous terms.
+  then: The new nation was free but weak, deeply in debt and loosely governed under the Articles of Confederation, problems that led to the Constitution four years later.
+## d-shays | 1786 | Shays' Rebellion | who: Daniel Shays and farmers of western Massachusetts | where: Springfield, Massachusetts
+  bluf: Shays' Rebellion convinced many American leaders that the Articles of Confederation were too weak to keep order or pay debts. It helped push the states toward the Constitutional Convention and a stronger national government.
+  now: The rebellion convinced the propertied leadership that the Confederation could not keep order, and it produced the Philadelphia convention within a year; the Constitution's strong federal government is its direct result.
+  story: Squeezed by taxes and debts payable in scarce hard money, farmers led by war veteran Daniel Shays shut down county courts in 1786 to stop foreclosures. In January 1787 a privately funded state militia scattered them at the Springfield arsenal.
+  why: A post-war depression and heavy state taxes to pay off war debts.
+  then: The revolt helped persuade the states to send delegates to the Philadelphia Convention in May 1787.
+## na178724 | 1787 | Constitution written | who: Madison, Washington, Hamilton and 52 other delegates | where: Philadelphia
+  bluf: The Constitution created a federal republic with separated powers, checks and balances, and a national government able to tax and govern. It is the oldest written national constitution still in force, and its compromises, including over slavery, shaped American politics for centuries.
+  now: It is the oldest written national constitution still in use. Debates over the Electoral College, the Senate's small-state advantage and federal versus state power are rooted in its compromises.
+  story: The Articles of Confederation left Congress unable to tax, regulate trade or enforce laws. In 1787 delegates in Philadelphia wrote a new framework: a two-chamber Congress (the 'Great Compromise' between large and small states), an elected president, an independent judiciary and federal supremacy over the states. To keep the South in, they counted enslaved people as three-fifths of a person for representation and protected the slave trade until 1808.
+  why: Under the Articles of Confederation the national government could not tax, pay its war debts, regulate trade between states or put down revolts such as Shays' Rebellion.
+  then: After a fierce ratification fight that produced the Federalist Papers, it took effect in 1789, and the Bill of Rights followed in 1791.
+  fact: Rhode Island refused to send anyone to the convention.
+## d-washington | 1789 | Washington inaugurated as first president | who: George Washington | where: Federal Hall, New York City
+  bluf: Washington's presidency turned the Constitution into a working government and set precedents (a cabinet, two terms, a peaceful handover) that the text did not require. His voluntary departure after two terms established that power in the republic would rotate.
+  now: The 22nd Amendment (1951) wrote the two-term limit into the Constitution.
+  story: On April 30, 1789, Washington swore the oath on the balcony of Federal Hall in New York, then the capital. He set lasting precedents, from the simple title 'Mr. President' to forming a cabinet of department heads.
+  why: Washington was the one figure trusted by every faction, and his reputation for giving up power made it safe to create a strong presidency.
+  then: He stepped down after two terms in 1797, setting a two-term tradition that held until 1940.
+## na179125 | 1791 | Bill of Rights | who: James Madison; states ratify | where: United States
+  bluf: The Bill of Rights wrote individual liberties into the Constitution as limits on federal power, the price of winning over those who feared a strong central government. Through court rulings, especially after the 14th Amendment, it became the core of American civil liberties.
+  now: Free speech, gun rights and police searches are still argued over in Bill of Rights terms.
+  story: Opponents of the Constitution feared a powerful central government. James Madison drafted amendments protecting speech, religion, the press, the right to bear arms, and fair trials.
+  why: Supporters of the Constitution promised amendments to win over Anti-Federalists who feared central power.
+  then: At first it limited only the federal government; after the Civil War the 14th Amendment let courts apply it to the states, mostly during the 20th century.
+## na179326 | 1793 | Whitney's cotton gin | who: Eli Whitney, a young inventor working on a Georgia plantation | where: Georgia
+  bluf: The cotton gin made short-staple cotton profitable across the Deep South, reviving and expanding slavery at a time when it might have declined. Cotton became America's leading export, tying Southern slavery to Britain's textile mills.
+  now: It shows how technology can deepen injustice, and it tied the US South to Britain's textile mills.
+  story: Eli Whitney's gin pulled seeds from cotton far faster than by hand. Growing short-staple cotton suddenly paid almost anywhere in the South, and planters pushed west into the Deep South with enslaved workers.
+  why: Short-staple cotton, which grew across the inland South, paid only if its sticky seeds could be removed cheaply, and Britain's mills were hungry for raw cotton.
+  then: Enslaved people in the US grew from about 700,000 in 1790 to nearly 4 million by 1860.
+  fact: Whitney made little money from the gin. He got rich making muskets with interchangeable parts.
+## d-marbury | 1803 | Marbury v. Madison | who: Chief Justice John Marshall; William Marbury; Secretary of State James Madison | where: Washington, D.C.
+  bluf: Marbury v. Madison established judicial review: the Supreme Court's power to strike down laws that conflict with the Constitution. It made the courts a co-equal branch and the final interpreter of the Constitution.
+  now: Courts in many countries have since adopted the idea of judicial review.
+  story: William Marbury sued to receive a judgeship he had been promised. Chief Justice Marshall ruled on February 24, 1803 that Marbury was entitled to it, but that the law letting him sue directly in the Supreme Court was unconstitutional and therefore void.
+  why: A political fight between outgoing Federalists and Jefferson's Republicans.
+  then: Judicial review became a pillar of American government, though the Court did not strike down another federal law until the Dred Scott case in 1857.
+## na180327 | 1803 | Louisiana Purchase | who: Jefferson; Napoleon | where: Mississippi to the Rockies
+  bluf: The Louisiana Purchase doubled the size of the United States and gave it the Mississippi and New Orleans, making it a continental power. It also reopened the question of slavery in new territories, which escalated over the next half-century into civil war.
+  now: Fifteen of today's states lie partly or wholly in the territory, and the Mississippi basin it secured became the agricultural heart of the country.
+  story: Napoleon needed money after his army was destroyed in Haiti, and gave up on an American empire. Jefferson's envoys, sent to buy New Orleans, came back with 828,000 square miles.
+  why: Napoleon needed money for war with Britain and had given up on an American empire after his army was destroyed in Haiti. Jefferson wanted New Orleans, through which western farmers shipped their crops.
+  then: It opened the West to settlement and set off decades of fights over whether new states would allow slavery. The Native nations who lived there were not consulted, and their lands were taken over the following century.
+  fact: The US paid about 3 cents an acre. Napoleon sold it because his army had just been destroyed in Haiti.
+## na180428 | 1804 | Lewis and Clark expedition | who: Meriwether Lewis, William Clark, Sacagawea | where: Missouri River to the Pacific
+  bluf: Lewis and Clark mapped the new Louisiana territory and a route to the Pacific, strengthening US claims to the Oregon Country. The expedition previewed how American expansion would depend on Native knowledge and lead to Native dispossession.
+  now: It set the pattern of the American West: exploration and trade followed by settlement, which dispossessed the Native nations whose help made the expedition possible.
+  story: Jefferson sent Meriwether Lewis and William Clark to explore the new territory. Guided in part by Sacagawea, a Shoshone woman, the Corps of Discovery reached the Pacific in 1805 and returned with maps and scientific notes.
+  why: Jefferson wanted scientific knowledge, a water route to the Pacific for the fur trade, and to stake a claim to the Northwest before Britain did.
+  then: Their journey strengthened US claims to the Oregon Country, and fur traders and later settlers followed their route west.
+  fact: Only one member died in over two years, probably of appendicitis.
+## na180829 | 1808 | Atlantic slave imports banned | who: The US Congress; President Thomas Jefferson | where: United States
+  bluf: The United States banned the importing of enslaved people at the first moment the Constitution allowed, but slavery itself kept growing. The internal slave trade from the Upper South to the cotton states became a huge business that tore families apart.
+  now: The 'second middle passage' inside the US is far less known than the Atlantic one.
+  story: The Constitution allowed a ban after 1808, and Congress passed one on the first possible day. Smuggling continued, and the domestic slave trade boomed instead.
+  why: The Constitution barred a ban before 1808; by then even many slaveholders supported one, since it raised the value of the people they already enslaved and eased fears of revolt after Haiti.
+  then: Around a million enslaved people were sold from the Upper South to the Deep South, often tearing families apart.
+## na181230 | 1812 | War of 1812 | who: US vs. Britain and Native allies (Tecumseh) | where: Great Lakes, Washington DC, New Orleans
+  bluf: The War of 1812 ended in stalemate between the United States and Britain, but it confirmed American independence, boosted nationalism and broke Native resistance in the Old Northwest. For Canada, repelling American invasions became part of its founding identity.
+  now: It confirmed American independence and gave Canada a story of resisting the United States, one root of its distinct identity.
+  story: Angry at British seizures of American sailors and trade limits, the US declared war and tried to invade Canada. Britain burned the White House in 1814, but failed to take Baltimore.
+  why: Britain was seizing American sailors and blocking US trade with France, and many Americans blamed Britain for arming Native resistance and hoped to conquer Canada.
+  then: The war ended in a draw, but Native resistance in the Midwest was crushed with Tecumseh's death.
+  fact: The Battle of New Orleans was fought after the peace treaty had already been signed; the news hadn't crossed the Atlantic yet. The bombardment of Fort McHenry inspired 'The Star-Spangled Banner'.
+## na181931 | 1819 | Florida acquired | who: John Quincy Adams; Spain | where: Florida
+  bluf: Florida's acquisition showed a pattern of US expansion: military pressure first, then a purchase from a weakened power. The same treaty fixed a border to the Pacific, giving the United States its first legal claim to the Pacific coast.
+  now: The deal shows America's habit of expanding first and negotiating later.
+  story: Jackson's troops chased Seminole raiders into Spanish Florida and seized forts there. Weak and distracted, Spain sold the territory in the Adams-Onís Treaty and fixed a border with the US to the Pacific.
+  why: Spain, weakened by the Napoleonic Wars and independence revolts, could not defend Florida, and Andrew Jackson's raids against the Seminole had already occupied much of it.
+  then: Florida became a slave territory, and the US Army fought long wars to remove the Seminole, many of whom refused to leave.

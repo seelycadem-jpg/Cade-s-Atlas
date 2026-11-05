@@ -1,0 +1,2336 @@
+[
+ {
+  "from": 1400,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Moskovskaya"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Moscow's home region (incl. Kolomna) shown partly as Golden Horde (to 1460) and Ryazan (1460-1530); it was Muscovite throughout",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Moscow",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Vladimir"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Vladimir shown as Golden Horde and then Qasim Khanate (1460-1560); the grand princely seat was held by Moscow from 1389 and Qasim was a small Moscow-dependent khanate at Kasimov in Ryazan oblast",
+  "source": "https://en.wikipedia.org/wiki/Vladimir-Suzdal",
+  "severity": "major"
+ },
+ {
+  "from": 1547,
+  "to": 1560,
+  "country": "Russia",
+  "regions": [
+   "Vladimir"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Continuation: Vladimir was core Tsardom territory, not Qasim Khanate",
+  "source": "https://en.wikipedia.org/wiki/Qasim_Khanate",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1490,
+  "country": "Russia",
+  "regions": [
+   "Kostroma",
+   "Ivanovo"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "'Principality of Vladimir-Suzdal' is shown until 1490 but ceased in 1389; these lands were Muscovite",
+  "source": "https://en.wikipedia.org/wiki/Vladimir-Suzdal",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1463,
+  "country": "Russia",
+  "regions": [
+   "Yaroslavl'"
+  ],
+  "owner": "Principality of Yaroslavl",
+  "why": "Shown as 'Principality of Vladimir-Suzdal' (defunct 1389); Yaroslavl was its own principality until absorbed by Moscow in 1463",
+  "source": "https://en.wikipedia.org/wiki/Principality_of_Yaroslavl",
+  "severity": "major"
+ },
+ {
+  "from": 1463,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Yaroslavl'"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Yaroslavl part of Moscow from 1463; map keeps Vladimir-Suzdal until 1490",
+  "source": "https://en.wikipedia.org/wiki/Principality_of_Yaroslavl",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1409,
+  "country": "Russia",
+  "regions": [
+   "Nizhegorod"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Nizhny Novgorod annexed by Moscow 1392; map shows Golden Horde/Kazan/steppe peoples flipping through 1550",
+  "source": "https://en.wikipedia.org/wiki/Principality_of_Nizhny_Novgorod-Suzdal",
+  "severity": "major"
+ },
+ {
+  "from": 1415,
+  "to": 1445,
+  "country": "Russia",
+  "regions": [
+   "Nizhegorod"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Muscovite again after 1415 (brief restorations 1409-15, 1445-46 only)",
+  "source": "https://en.wikipedia.org/wiki/Principality_of_Nizhny_Novgorod-Suzdal",
+  "severity": "major"
+ },
+ {
+  "from": 1446,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Nizhegorod"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Muscovite after 1446; map flips it between Golden Horde, Kazan, Qasim and 'peoples' every decade",
+  "source": "https://en.wikipedia.org/wiki/Principality_of_Nizhny_Novgorod-Suzdal",
+  "severity": "major"
+ },
+ {
+  "from": 1547,
+  "to": 1560,
+  "country": "Russia",
+  "regions": [
+   "Nizhegorod"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Shown as steppe nomads in 1550; it was core Tsardom territory",
+  "source": "https://en.wikipedia.org/wiki/Principality_of_Nizhny_Novgorod-Suzdal",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1521,
+  "country": "Russia",
+  "regions": [
+   "Ryazan'"
+  ],
+  "owner": "Ryazan",
+  "why": "Grand Principality of Ryazan existed until 1521 but is shown only as a sliver while the oblast goes to the Golden Horde (to 1460) and Qasim Khanate",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Ryazan",
+  "severity": "major"
+ },
+ {
+  "from": 1521,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Ryazan'"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Ryazan merged into Muscovy 1521",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Ryazan",
+  "severity": "major"
+ },
+ {
+  "from": 1547,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Ryazan'"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Ryazan oblast flips Tsardom / steppe nomads / 'Siberian peoples' every decade 1550-1630; it was core Russian territory",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Ryazan",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1485,
+  "country": "Russia",
+  "regions": [
+   "Tver'"
+  ],
+  "owner": "Grand Principality of Tver",
+  "why": "Tver was independent until annexed by Moscow in 1485; map gives the oblast to Vladimir-Suzdal/Moscow/Lithuania with Tver only a sliver",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tver",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1510,
+  "country": "Russia",
+  "regions": [
+   "Pskov"
+  ],
+  "owner": "Pskov Republic",
+  "why": "Pskov Republic (1348-1510) is shown only as a 0% sliver; the oblast is split between Lithuania and 'Grand Duchy of Moscow'",
+  "source": "https://en.wikipedia.org/wiki/Pskov_Republic",
+  "severity": "major"
+ },
+ {
+  "from": 1510,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Pskov"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Annexed 1510; map uses a duplicate 'Grand Duchy of Moscow' name for 1510-1520",
+  "source": "https://en.wikipedia.org/wiki/Pskov_Republic",
+  "severity": "minor"
+ },
+ {
+  "from": 1478,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Novgorod",
+   "City of St. Petersburg"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Novgorod annexed 1478; map uses a second name 'Grand Duchy of Moscow' (separate colour) in 1480",
+  "source": "https://en.wikipedia.org/wiki/Novgorod_Republic",
+  "severity": "minor"
+ },
+ {
+  "from": 1478,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Vologda"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "After Novgorod's annexation (1478) Vologda was wholly Muscovite; map flips it to '(peoples: Novgorod)' in 1490",
+  "source": "https://en.wikipedia.org/wiki/Novgorod_Republic",
+  "severity": "minor"
+ },
+ {
+  "from": 1489,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Kirov"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Vyatka annexed by Moscow 1489; map flips Moscow / '(peoples: Novgorod)' / Kazan",
+  "source": "https://en.wikipedia.org/wiki/Vyatka_Land",
+  "severity": "minor"
+ },
+ {
+  "from": 1478,
+  "to": 1547,
+  "country": "Russia",
+  "regions": [
+   "Perm'"
+  ],
+  "owner": "Grand Principality of Moscow",
+  "why": "Great Perm annexed by Moscow 1478; map flips Moscow / peoples / Sibir",
+  "source": "https://en.wikipedia.org/wiki/Great_Perm",
+  "severity": "minor"
+ },
+ {
+  "from": 1547,
+  "to": 1560,
+  "country": "Russia",
+  "regions": [
+   "Perm'"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Continuation of Muscovite Perm",
+  "source": "https://en.wikipedia.org/wiki/Great_Perm",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1514,
+  "country": "Russia",
+  "regions": [
+   "Smolensk"
+  ],
+  "owner": "Grand Duchy of Lithuania",
+  "why": "Smolensk shown as Muscovite from 1500; Moscow captured it only on 1 August 1514",
+  "source": "https://en.wikipedia.org/wiki/Siege_of_Smolensk_(1514)",
+  "severity": "major"
+ },
+ {
+  "from": 1552,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Mordovia"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Mordvin lands Russian from 1552 but flip to steppe nomads (1550s,1580) and 'Siberian peoples' (1600, 1620)",
+  "source": "https://en.wikipedia.org/wiki/Mordovia",
+  "severity": "major"
+ },
+ {
+  "from": 1586,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Voronezh"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Voronezh fort 1586; map flips it to 'Siberian peoples', Don Cossacks, Kalmyk Khanate and Sloboda",
+  "source": "https://en.wikipedia.org/wiki/Voronezh",
+  "severity": "major"
+ },
+ {
+  "from": 1590,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Saratov"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Saratov founded c.1590; map flips it to 'Siberian peoples' in 1600 and 1620",
+  "source": "https://en.wikipedia.org/wiki/Saratov",
+  "severity": "major"
+ },
+ {
+  "from": 1596,
+  "to": 1670,
+  "country": "Russia",
+  "regions": [
+   "Belgorod"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Belgorod fort 1596; map shows 'Siberian peoples' in 1600 and 1620",
+  "source": "https://en.wikipedia.org/wiki/Belgorod",
+  "severity": "major"
+ },
+ {
+  "from": 1596,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Kursk"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Kursk fortress rebuilt 1596; map flips it to peoples/'Siberian peoples'",
+  "source": "https://en.wikipedia.org/wiki/Kursk",
+  "severity": "major"
+ },
+ {
+  "from": 1636,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Tambov"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Tambov founded 1636; map flips it Tsardom / 'Siberian peoples'",
+  "source": "https://en.wikipedia.org/wiki/Tambov",
+  "severity": "major"
+ },
+ {
+  "from": 1654,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Smolensk"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Smolensk shown as 'Pro-Swedish Poland' in 1710; it was Russian from 1654, confirmed at Andrusovo 1667",
+  "source": "https://en.wikipedia.org/wiki/Truce_of_Andrusovo",
+  "severity": "major"
+ },
+ {
+  "from": 1617,
+  "to": 1702,
+  "country": "Russia",
+  "regions": [
+   "Leningrad"
+  ],
+  "owner": "Swedish Empire",
+  "why": "Ingria Swedish 1617 (Stolbovo) to the Great Northern War; map flips Leningrad oblast between Sweden, Tsardom and '(peoples: Siberian peoples)'",
+  "source": "https://en.wikipedia.org/wiki/Swedish_Ingria",
+  "severity": "major"
+ },
+ {
+  "from": 1721,
+  "to": 1881,
+  "country": "Russia",
+  "regions": [
+   "Leningrad"
+  ],
+  "owner": "Russian Empire",
+  "why": "Ceded to Russia 1721 (Nystad); map shows '(peoples: Siberian peoples)' in 1800 and 1850",
+  "source": "https://en.wikipedia.org/wiki/Swedish_Ingria",
+  "severity": "major"
+ },
+ {
+  "from": 1586,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Tyumen'"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Tyumen founded 1586 (first Russian town in Siberia); map flips it back to 'Siberian peoples' in 1600, 1620 and 1700",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "major"
+ },
+ {
+  "from": 1604,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Tomsk"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Tomsk founded 1604; map flips it to peoples",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "minor"
+ },
+ {
+  "from": 1618,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Kemerovo"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Kuznetsk founded 1618; map flips Tsardom/peoples (1670, 1700)",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "minor"
+ },
+ {
+  "from": 1628,
+  "to": 1721,
+  "country": "Russia",
+  "regions": [
+   "Krasnoyarsk"
+  ],
+  "owner": "Tsardom of Russia",
+  "why": "Krasnoyarsk founded 1628; map flips Tsardom/peoples (1670, 1700)",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "minor"
+ },
+ {
+  "from": 1721,
+  "to": 1881,
+  "country": "Russia",
+  "regions": [
+   "Krasnoyarsk"
+  ],
+  "owner": "Russian Empire",
+  "why": "Map flips Krasnoyarsk to 'Siberian peoples' in 1730 (and 1890-1910)",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "minor"
+ },
+ {
+  "from": 1630,
+  "to": 1640,
+  "country": "Russia",
+  "regions": [
+   "Chukchi Autonomous Okrug",
+   "Kamchatka",
+   "Maga Buryatdan",
+   "Khabarovsk",
+   "Amur",
+   "Buryat",
+   "Chita",
+   "Irkutsk",
+   "Altay",
+   "Gorno-Altay",
+   "Khakass"
+  ],
+  "owner": "none",
+  "why": "1630 snapshot gives the Tsardom all of Siberia to the Pacific (then reverts in 1640); Russians reached the Lena only in 1632, Baikal 1643, Okhotsk 1647, Kamchatka 1697, Chukotka 1778",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1632,
+  "country": "Russia",
+  "regions": [
+   "Sakha (Yakutia)"
+  ],
+  "owner": "none",
+  "why": "Yakutsk founded 1632; Tsardom shown in 1630",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+  "severity": "minor"
+ },
+ {
+  "from": 1636,
+  "to": 1650,
+  "country": "Russia",
+  "regions": [
+   "Amur",
+   "Khabarovsk",
+   "Primor'ye",
+   "Yevrey"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "'Later Jin' shown in 1640; it was renamed Qing in 1636",
+  "source": "https://en.wikipedia.org/wiki/Later_Jin_(1616–1636)",
+  "severity": "minor"
+ },
+ {
+  "from": 1881,
+  "to": 1912,
+  "country": "Russia",
+  "regions": [
+   "Tuva"
+  ],
+  "owner": "Qing Dynasty",
+  "why": "Tuva relabelled 'China' from 1890; still Qing until 1911/12",
+  "source": "https://en.wikipedia.org/wiki/Tuvan_People%27s_Republic",
+  "severity": "minor"
+ },
+ {
+  "from": 1921,
+  "to": 1944,
+  "country": "Russia",
+  "regions": [
+   "Tuva"
+  ],
+  "owner": "Tuvan People's Republic",
+  "why": "Tuvan People's Republic (1921-1944) is missing; Tuva is shown Soviet from 1920. Annexed to the USSR 11 Oct/1 Nov 1944",
+  "source": "https://en.wikipedia.org/wiki/Tuvan_People%27s_Republic",
+  "severity": "major"
+ },
+ {
+  "from": 1881,
+  "to": 1917,
+  "country": "Russia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "except": [
+   "Kaliningrad",
+   "Sakhalin",
+   "Chukchi Autonomous Okrug",
+   "Tuva"
+  ],
+  "why": "From 1890 the map labels the Tsarist state 'Russia (Soviet Union)'; the Russian Empire lasted to 1917",
+  "source": "https://en.wikipedia.org/wiki/Russian_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1881,
+  "to": 1917,
+  "country": "Ukraine",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "except": [
+   "Chernivtsi",
+   "Ivano-Frankivs'k",
+   "L'viv",
+   "Ternopil'",
+   "Transcarpathia"
+  ],
+  "why": "Same anachronism ('Russia (Soviet Union)' from 1890) for Russian-ruled Ukraine",
+  "source": "https://en.wikipedia.org/wiki/Russian_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1881,
+  "to": 1917,
+  "country": "Belarus",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "why": "Same anachronism for Belarus",
+  "source": "https://en.wikipedia.org/wiki/Russian_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1881,
+  "to": 1917,
+  "country": "Moldova",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "why": "Same anachronism for Bessarabia",
+  "source": "https://en.wikipedia.org/wiki/Russian_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1881,
+  "to": 1915,
+  "country": "Poland",
+  "regions": [
+   "Lublin",
+   "Masovian",
+   "Łódź",
+   "Świętokrzyskie",
+   "Podlachian"
+  ],
+  "owner": "Russian Empire",
+  "why": "Same anachronism for Russian Poland (Soviet Union shown 1890-1910)",
+  "source": "https://en.wikipedia.org/wiki/Congress_Poland",
+  "severity": "major"
+ },
+ {
+  "from": 1915,
+  "to": 1918,
+  "country": "Poland",
+  "regions": [
+   "Masovian",
+   "Łódź",
+   "Podlachian"
+  ],
+  "owner": "German Empire",
+  "why": "Russian Poland occupied by the Central Powers from 1915; German Governor-General in Warsaw",
+  "source": "https://en.wikipedia.org/wiki/Regency_Kingdom_of_Poland",
+  "severity": "minor"
+ },
+ {
+  "from": 1915,
+  "to": 1918,
+  "country": "Poland",
+  "regions": [
+   "Lublin",
+   "Świętokrzyskie"
+  ],
+  "owner": "Austria-Hungary",
+  "why": "Austro-Hungarian Governor-General in Lublin from 1915",
+  "source": "https://en.wikipedia.org/wiki/Regency_Kingdom_of_Poland",
+  "severity": "minor"
+ },
+ {
+  "from": 1918,
+  "to": 1939,
+  "country": "Poland",
+  "regions": [
+   "Lublin",
+   "Masovian",
+   "Łódź",
+   "Świętokrzyskie",
+   "Podlachian",
+   "Lesser Poland",
+   "Subcarpathian"
+  ],
+  "owner": "Poland",
+  "why": "Independent Poland from November 1918 (map shows the change only by the 1920 snapshot)",
+  "source": "https://en.wikipedia.org/wiki/Peace_of_Riga",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1569,
+  "country": "Poland",
+  "regions": [
+   "Greater Poland",
+   "Lesser Poland",
+   "Lublin",
+   "Łódź",
+   "Świętokrzyskie",
+   "Subcarpathian"
+  ],
+  "owner": "Kingdom of Poland",
+  "why": "'House of Jagiellon' is a dynasty, not a state; until the Union of Lublin (1569) Poland and Lithuania were separate states in personal union (map uses 'Kingdom of Poland'/'Grand Duchy of Lithuania' before 1450)",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1466,
+  "to": 1569,
+  "country": "Poland",
+  "regions": [
+   "Kuyavian-Pomeranian",
+   "Pomeranian"
+  ],
+  "owner": "Kingdom of Poland",
+  "why": "Royal Prussia part of the Polish Crown after 1466; shown as 'House of Jagiellon'",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1526,
+  "to": 1569,
+  "country": "Poland",
+  "regions": [
+   "Masovian"
+  ],
+  "owner": "Kingdom of Poland",
+  "why": "Masovia incorporated into the Crown 1526; shown as 'House of Jagiellon'",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Masovia",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1569,
+  "country": "Ukraine",
+  "regions": [
+   "L'viv",
+   "Ivano-Frankivs'k",
+   "Ternopil'",
+   "Khmel'nyts'kyy"
+  ],
+  "owner": "Kingdom of Poland",
+  "why": "Red Ruthenia and Podolia belonged to the Polish Crown; shown as 'House of Jagiellon'",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1569,
+  "country": "Belarus",
+  "regions": [
+   "*"
+  ],
+  "owner": "Grand Duchy of Lithuania",
+  "except": [
+   "Mogilev"
+  ],
+  "why": "Lithuanian until 1569; shown as 'House of Jagiellon'",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1500,
+  "country": "Belarus",
+  "regions": [
+   "Mogilev"
+  ],
+  "owner": "Grand Duchy of Lithuania",
+  "why": "Lithuanian; shown as 'House of Jagiellon'",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1569,
+  "country": "Poland",
+  "regions": [
+   "Podlachian"
+  ],
+  "owner": "Grand Duchy of Lithuania",
+  "why": "Podlachia was Lithuanian until transferred to the Crown in 1569",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1569,
+  "country": "Ukraine",
+  "regions": [
+   "Volyn",
+   "Rivne",
+   "Zhytomyr",
+   "Kiev",
+   "Kiev City",
+   "Cherkasy",
+   "Vinnytsya"
+  ],
+  "owner": "Grand Duchy of Lithuania",
+  "why": "Volhynia, Kiev and Bracław were Lithuanian until 1569; shown as 'House of Jagiellon'",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1503,
+  "country": "Ukraine",
+  "regions": [
+   "Chernihiv",
+   "Sumy"
+  ],
+  "owner": "Grand Duchy of Lithuania",
+  "why": "Lithuanian until ceded to Moscow; shown as 'House of Jagiellon'",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1503,
+  "country": "Russia",
+  "regions": [
+   "Bryansk"
+  ],
+  "owner": "Grand Duchy of Lithuania",
+  "why": "Lithuanian until ceded to Moscow; shown as 'House of Jagiellon'",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1569,
+  "to": 1580,
+  "country": "Poland",
+  "regions": [
+   "Greater Poland",
+   "Kuyavian-Pomeranian",
+   "Lesser Poland",
+   "Lublin",
+   "Masovian",
+   "Podlachian",
+   "Pomeranian",
+   "Subcarpathian",
+   "Łódź",
+   "Świętokrzyskie"
+  ],
+  "owner": "Polish-Lithuanian Commonwealth",
+  "why": "Commonwealth created by the Union of Lublin, 1 July 1569; map starts it only in 1580",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1569,
+  "to": 1580,
+  "country": "Belarus",
+  "regions": [
+   "*"
+  ],
+  "owner": "Polish-Lithuanian Commonwealth",
+  "why": "Union of Lublin 1569",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1569,
+  "to": 1580,
+  "country": "Ukraine",
+  "regions": [
+   "L'viv",
+   "Ivano-Frankivs'k",
+   "Ternopil'",
+   "Khmel'nyts'kyy",
+   "Volyn",
+   "Rivne",
+   "Zhytomyr",
+   "Kiev",
+   "Kiev City",
+   "Cherkasy",
+   "Vinnytsya"
+  ],
+  "owner": "Polish-Lithuanian Commonwealth",
+  "why": "Union of Lublin 1569",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1580,
+  "to": 1654,
+  "country": "Belarus",
+  "regions": [
+   "Mogilev"
+  ],
+  "owner": "Polish-Lithuanian Commonwealth",
+  "why": "Shown as '(peoples: Siberian peoples)' in 1610; Mogilev was Commonwealth territory",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Lublin",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1526,
+  "country": "Poland",
+  "regions": [
+   "Masovian"
+  ],
+  "owner": "Duchy of Masovia",
+  "overlord": "Kingdom of Poland",
+  "why": "Duchy of Masovia (Polish fief) missing; incorporated into the Crown only in 1526",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Masovia",
+  "severity": "minor"
+ },
+ {
+  "from": 1466,
+  "to": 1525,
+  "country": "Russia",
+  "regions": [
+   "Kaliningrad"
+  ],
+  "owner": "Teutonic Order",
+  "overlord": "Kingdom of Poland",
+  "why": "Teutonic state was a Polish fief after the Second Peace of Thorn (1466)",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Prussia",
+  "severity": "minor"
+ },
+ {
+  "from": 1525,
+  "to": 1569,
+  "country": "Russia",
+  "regions": [
+   "Kaliningrad"
+  ],
+  "owner": "Duchy of Prussia",
+  "overlord": "Kingdom of Poland",
+  "why": "Duchy of Prussia was a Polish fief 1525-1657",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Prussia",
+  "severity": "minor"
+ },
+ {
+  "from": 1569,
+  "to": 1618,
+  "country": "Russia",
+  "regions": [
+   "Kaliningrad"
+  ],
+  "owner": "Duchy of Prussia",
+  "overlord": "Polish-Lithuanian Commonwealth",
+  "why": "Polish fief until 1657",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Prussia",
+  "severity": "minor"
+ },
+ {
+  "from": 1618,
+  "to": 1657,
+  "country": "Russia",
+  "regions": [
+   "Kaliningrad"
+  ],
+  "owner": "Brandenburg-Prussia",
+  "overlord": "Polish-Lithuanian Commonwealth",
+  "why": "Ducal Prussia remained under Polish suzerainty until Wehlau/Bromberg 1657",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Prussia",
+  "severity": "minor"
+ },
+ {
+  "from": 1709,
+  "to": 1720,
+  "country": "Poland",
+  "regions": [
+   "Greater Poland",
+   "Kuyavian-Pomeranian",
+   "Lesser Poland",
+   "Lublin",
+   "Masovian",
+   "Podlachian",
+   "Subcarpathian",
+   "Łódź",
+   "Świętokrzyskie"
+  ],
+  "owner": "Polish-Lithuanian Commonwealth",
+  "why": "'Pro-Swedish Poland' shown in 1710; Stanisław's reign ended 8 July 1709 and Augustus II was restored",
+  "source": "https://en.wikipedia.org/wiki/Stanisław_Leszczyński",
+  "severity": "major"
+ },
+ {
+  "from": 1709,
+  "to": 1720,
+  "country": "Belarus",
+  "regions": [
+   "*"
+  ],
+  "owner": "Polish-Lithuanian Commonwealth",
+  "why": "'Pro-Swedish Poland' shown in 1710; Augustus II restored 1709",
+  "source": "https://en.wikipedia.org/wiki/Stanisław_Leszczyński",
+  "severity": "major"
+ },
+ {
+  "from": 1709,
+  "to": 1720,
+  "country": "Ukraine",
+  "regions": [
+   "Ivano-Frankivs'k",
+   "L'viv",
+   "Rivne",
+   "Volyn",
+   "Ternopil'",
+   "Khmel'nyts'kyy",
+   "Vinnytsya",
+   "Zhytomyr"
+  ],
+  "owner": "Polish-Lithuanian Commonwealth",
+  "why": "'Pro-Swedish Poland' shown in 1710; Augustus II restored 1709",
+  "source": "https://en.wikipedia.org/wiki/Stanisław_Leszczyński",
+  "severity": "major"
+ },
+ {
+  "from": 1758,
+  "to": 1763,
+  "country": "Poland",
+  "regions": [
+   "Lubusz",
+   "West Pomeranian"
+  ],
+  "owner": "Kingdom of Prussia",
+  "why": "1760 shows the Russian Empire holding Neumark/Farther Pomerania; the Russian occupation covered East Prussia",
+  "source": "https://en.wikipedia.org/wiki/Russian_Prussia",
+  "severity": "minor"
+ },
+ {
+  "from": 1807,
+  "to": 1815,
+  "country": "Poland",
+  "regions": [
+   "Lower Silesian",
+   "Lubusz",
+   "Opole",
+   "Pomeranian",
+   "Warmian-Masurian",
+   "West Pomeranian"
+  ],
+  "owner": "Kingdom of Prussia",
+  "why": "Prussian provinces shown as 'Confederation of the Rhine' in 1810; Prussia was never a member",
+  "source": "https://en.wikipedia.org/wiki/Confederation_of_the_Rhine",
+  "severity": "major"
+ },
+ {
+  "from": 1807,
+  "to": 1815,
+  "country": "Russia",
+  "regions": [
+   "Kaliningrad"
+  ],
+  "owner": "Kingdom of Prussia",
+  "why": "East Prussia shown as 'Confederation of the Rhine' in 1810; Prussia was never a member",
+  "source": "https://en.wikipedia.org/wiki/Confederation_of_the_Rhine",
+  "severity": "major"
+ },
+ {
+  "from": 1815,
+  "to": 1867,
+  "country": "Poland",
+  "regions": [
+   "Pomeranian",
+   "Warmian-Masurian"
+  ],
+  "owner": "Kingdom of Prussia",
+  "why": "West and East Prussia shown as 'German Confederation' but lay outside it (except 1848-51)",
+  "source": "https://en.wikipedia.org/wiki/German_Confederation",
+  "severity": "minor"
+ },
+ {
+  "from": 1815,
+  "to": 1867,
+  "country": "Russia",
+  "regions": [
+   "Kaliningrad"
+  ],
+  "owner": "Kingdom of Prussia",
+  "why": "East Prussia shown as 'German Confederation' but lay outside it (except 1848-51)",
+  "source": "https://en.wikipedia.org/wiki/German_Confederation",
+  "severity": "minor"
+ },
+ {
+  "from": 1815,
+  "to": 1867,
+  "country": "Poland",
+  "regions": [
+   "Lublin",
+   "Masovian",
+   "Łódź",
+   "Świętokrzyskie"
+  ],
+  "owner": "Congress Poland",
+  "overlord": "Russian Empire",
+  "why": "Congress Poland shown as plain Russian Empire, then as 'Poles' for the 1830 decade (the November Uprising only began 29 Nov 1830 and was crushed in 1831)",
+  "source": "https://en.wikipedia.org/wiki/Congress_Poland",
+  "severity": "major"
+ },
+ {
+  "from": 1648,
+  "to": 1654,
+  "country": "Ukraine",
+  "regions": [
+   "Cherkasy",
+   "Chernihiv",
+   "Kiev",
+   "Kiev City",
+   "Poltava",
+   "Vinnytsya"
+  ],
+  "owner": "Cossack Hetmanate",
+  "why": "Cossack Hetmanate (from 1648; Zboriv 1649 covered Kiev, Bracław, Chernihiv voivodeships) shown only in Kiev City in 1650",
+  "source": "https://en.wikipedia.org/wiki/Cossack_Hetmanate",
+  "severity": "major"
+ },
+ {
+  "from": 1654,
+  "to": 1667,
+  "country": "Ukraine",
+  "regions": [
+   "Cherkasy",
+   "Chernihiv",
+   "Kiev",
+   "Kiev City",
+   "Poltava",
+   "Vinnytsya"
+  ],
+  "owner": "Cossack Hetmanate",
+  "overlord": "Tsardom of Russia",
+  "why": "After Pereiaslav (1654) an autonomous Hetmanate under the tsar; map shows Tsardom proper and '(peoples: PLC)' in 1660",
+  "source": "https://en.wikipedia.org/wiki/Cossack_Hetmanate",
+  "severity": "major"
+ },
+ {
+  "from": 1667,
+  "to": 1721,
+  "country": "Ukraine",
+  "regions": [
+   "Chernihiv",
+   "Poltava",
+   "Kiev City"
+  ],
+  "owner": "Cossack Hetmanate",
+  "overlord": "Tsardom of Russia",
+  "why": "Left-bank Hetmanate under Russia after Andrusovo; shown as Tsardom proper",
+  "source": "https://en.wikipedia.org/wiki/Cossack_Hetmanate",
+  "severity": "major"
+ },
+ {
+  "from": 1721,
+  "to": 1764,
+  "country": "Ukraine",
+  "regions": [
+   "Chernihiv",
+   "Poltava",
+   "Kiev City"
+  ],
+  "owner": "Cossack Hetmanate",
+  "overlord": "Russian Empire",
+  "why": "Hetmanate abolished only in 1764; shown as Russian Empire proper",
+  "source": "https://en.wikipedia.org/wiki/Cossack_Hetmanate",
+  "severity": "major"
+ },
+ {
+  "from": 1721,
+  "to": 1765,
+  "country": "Ukraine",
+  "regions": [
+   "Kharkiv"
+  ],
+  "owner": "Sloboda Ukraine",
+  "overlord": "Russian Empire",
+  "why": "Overlord shown as 'Tsardom of Russia' until 1760; Russian Empire from 1721, regiments abolished 1765",
+  "source": "https://en.wikipedia.org/wiki/Sloboda_Ukraine",
+  "severity": "minor"
+ },
+ {
+  "from": 1475,
+  "to": 1774,
+  "country": "Russia",
+  "regions": [
+   "Crimea"
+  ],
+  "owner": "Crimean Khanate",
+  "overlord": "Ottoman Empire",
+  "why": "Crimean Khanate shown without overlord; it was an Ottoman vassal 1475-1774",
+  "source": "https://en.wikipedia.org/wiki/Crimean_Khanate",
+  "severity": "major"
+ },
+ {
+  "from": 1484,
+  "to": 1769,
+  "country": "Ukraine",
+  "regions": [
+   "Odessa"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Budjak/Yedisan coast flips every decade between Ottoman, Jagiellon/Commonwealth, Moldavia and peoples; Ottoman from 1484 until the Russo-Turkish wars",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "major"
+ },
+ {
+  "from": 1538,
+  "to": 1769,
+  "country": "Ukraine",
+  "regions": [
+   "Mykolayiv"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ochakiv (Özi) region flips Ottoman/Jagiellon/Crimean every decade; Ottoman from 1538 until Jassy 1792 (map's 1770 Russian occupation left as is)",
+  "source": "https://en.wikipedia.org/wiki/Ochakiv",
+  "severity": "major"
+ },
+ {
+  "from": 1538,
+  "to": 1792,
+  "country": "Moldova",
+  "regions": [
+   "Bender–Criuleni–Grigoriopol"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Flips Moldavia/Ottoman/Crimean every decade; Bender was an Ottoman fortress district from 1538",
+  "source": "https://en.wikipedia.org/wiki/Bender,_Moldova",
+  "severity": "minor"
+ },
+ {
+  "from": 1417,
+  "to": 1594,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dolj",
+   "Dâmbovita",
+   "Giurgiu",
+   "Gorj",
+   "Ialomita",
+   "Mehedinti",
+   "Olt",
+   "Prahova",
+   "Teleorman",
+   "Vâlcea"
+  ],
+  "owner": "Principality of Wallachia",
+  "overlord": "Ottoman Empire",
+  "why": "Wallachia shown with no overlord; Ottoman vassal 1417-1862 with interruptions",
+  "source": "https://en.wikipedia.org/wiki/Wallachia",
+  "severity": "major"
+ },
+ {
+  "from": 1601,
+  "to": 1718,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dolj",
+   "Dâmbovita",
+   "Giurgiu",
+   "Gorj",
+   "Ialomita",
+   "Mehedinti",
+   "Olt",
+   "Prahova",
+   "Teleorman",
+   "Vâlcea"
+  ],
+  "owner": "Principality of Wallachia",
+  "overlord": "Ottoman Empire",
+  "why": "Wallachia shown with no overlord; Ottoman vassal 1417-1862 with interruptions",
+  "source": "https://en.wikipedia.org/wiki/Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1739,
+  "to": 1769,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dolj",
+   "Dâmbovita",
+   "Giurgiu",
+   "Gorj",
+   "Ialomita",
+   "Mehedinti",
+   "Olt",
+   "Prahova",
+   "Teleorman",
+   "Vâlcea"
+  ],
+  "owner": "Principality of Wallachia",
+  "overlord": "Ottoman Empire",
+  "why": "Wallachia shown with no overlord; Ottoman vassal 1417-1862 with interruptions",
+  "source": "https://en.wikipedia.org/wiki/Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1774,
+  "to": 1788,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dolj",
+   "Dâmbovita",
+   "Giurgiu",
+   "Gorj",
+   "Ialomita",
+   "Mehedinti",
+   "Olt",
+   "Prahova",
+   "Teleorman",
+   "Vâlcea"
+  ],
+  "owner": "Principality of Wallachia",
+  "overlord": "Ottoman Empire",
+  "why": "Wallachia shown with no overlord; Ottoman vassal 1417-1862 with interruptions",
+  "source": "https://en.wikipedia.org/wiki/Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1792,
+  "to": 1806,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dolj",
+   "Dâmbovita",
+   "Giurgiu",
+   "Gorj",
+   "Ialomita",
+   "Mehedinti",
+   "Olt",
+   "Prahova",
+   "Teleorman",
+   "Vâlcea"
+  ],
+  "owner": "Principality of Wallachia",
+  "overlord": "Ottoman Empire",
+  "why": "Wallachia shown with no overlord; Ottoman vassal 1417-1862 with interruptions",
+  "source": "https://en.wikipedia.org/wiki/Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1812,
+  "to": 1828,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dolj",
+   "Dâmbovita",
+   "Giurgiu",
+   "Gorj",
+   "Ialomita",
+   "Mehedinti",
+   "Olt",
+   "Prahova",
+   "Teleorman",
+   "Vâlcea"
+  ],
+  "owner": "Principality of Wallachia",
+  "overlord": "Ottoman Empire",
+  "why": "Wallachia shown with no overlord; Ottoman vassal 1417-1862 with interruptions",
+  "source": "https://en.wikipedia.org/wiki/Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1834,
+  "to": 1848,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dolj",
+   "Dâmbovita",
+   "Giurgiu",
+   "Gorj",
+   "Ialomita",
+   "Mehedinti",
+   "Olt",
+   "Prahova",
+   "Teleorman",
+   "Vâlcea"
+  ],
+  "owner": "Principality of Wallachia",
+  "overlord": "Ottoman Empire",
+  "why": "Wallachia shown with no overlord; Ottoman vassal 1417-1862 with interruptions",
+  "source": "https://en.wikipedia.org/wiki/Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1851,
+  "to": 1853,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dolj",
+   "Dâmbovita",
+   "Giurgiu",
+   "Gorj",
+   "Ialomita",
+   "Mehedinti",
+   "Olt",
+   "Prahova",
+   "Teleorman",
+   "Vâlcea"
+  ],
+  "owner": "Principality of Wallachia",
+  "overlord": "Ottoman Empire",
+  "why": "Wallachia shown with no overlord; Ottoman vassal 1417-1862 with interruptions",
+  "source": "https://en.wikipedia.org/wiki/Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1856,
+  "to": 1859,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dolj",
+   "Dâmbovita",
+   "Giurgiu",
+   "Gorj",
+   "Ialomita",
+   "Mehedinti",
+   "Olt",
+   "Prahova",
+   "Teleorman",
+   "Vâlcea"
+  ],
+  "owner": "Principality of Wallachia",
+  "overlord": "Ottoman Empire",
+  "why": "Wallachia shown with no overlord; Ottoman vassal 1417-1862 with interruptions",
+  "source": "https://en.wikipedia.org/wiki/Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1718,
+  "to": 1739,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dâmbovita",
+   "Giurgiu",
+   "Ialomita",
+   "Prahova",
+   "Teleorman"
+  ],
+  "owner": "Principality of Wallachia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal (Oltenia Habsburg 1718-39)",
+  "source": "https://en.wikipedia.org/wiki/Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1498,
+  "to": 1572,
+  "country": "Romania",
+  "regions": [
+   "Bacau",
+   "Botosani",
+   "Galati",
+   "Iasi",
+   "Neamt",
+   "Vaslui",
+   "Vrancea"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Moldavia shown with no overlord; Ottoman vassal 1498-1572, 1574-1600, 1618-1859",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "major"
+ },
+ {
+  "from": 1574,
+  "to": 1600,
+  "country": "Romania",
+  "regions": [
+   "Bacau",
+   "Botosani",
+   "Galati",
+   "Iasi",
+   "Neamt",
+   "Vaslui",
+   "Vrancea"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Moldavia shown with no overlord; Ottoman vassal 1498-1572, 1574-1600, 1618-1859",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1618,
+  "to": 1769,
+  "country": "Romania",
+  "regions": [
+   "Bacau",
+   "Botosani",
+   "Galati",
+   "Iasi",
+   "Neamt",
+   "Vaslui",
+   "Vrancea"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Moldavia shown with no overlord; Ottoman vassal 1498-1572, 1574-1600, 1618-1859",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1774,
+  "to": 1788,
+  "country": "Romania",
+  "regions": [
+   "Bacau",
+   "Botosani",
+   "Galati",
+   "Iasi",
+   "Neamt",
+   "Vaslui",
+   "Vrancea"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Moldavia shown with no overlord; Ottoman vassal 1498-1572, 1574-1600, 1618-1859",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1792,
+  "to": 1806,
+  "country": "Romania",
+  "regions": [
+   "Bacau",
+   "Botosani",
+   "Galati",
+   "Iasi",
+   "Neamt",
+   "Vaslui",
+   "Vrancea"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Moldavia shown with no overlord; Ottoman vassal 1498-1572, 1574-1600, 1618-1859",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1812,
+  "to": 1828,
+  "country": "Romania",
+  "regions": [
+   "Bacau",
+   "Botosani",
+   "Galati",
+   "Iasi",
+   "Neamt",
+   "Vaslui",
+   "Vrancea"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Moldavia shown with no overlord; Ottoman vassal 1498-1572, 1574-1600, 1618-1859",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1834,
+  "to": 1848,
+  "country": "Romania",
+  "regions": [
+   "Bacau",
+   "Botosani",
+   "Galati",
+   "Iasi",
+   "Neamt",
+   "Vaslui",
+   "Vrancea"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Moldavia shown with no overlord; Ottoman vassal 1498-1572, 1574-1600, 1618-1859",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1851,
+  "to": 1853,
+  "country": "Romania",
+  "regions": [
+   "Bacau",
+   "Botosani",
+   "Galati",
+   "Iasi",
+   "Neamt",
+   "Vaslui",
+   "Vrancea"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Moldavia shown with no overlord; Ottoman vassal 1498-1572, 1574-1600, 1618-1859",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1856,
+  "to": 1859,
+  "country": "Romania",
+  "regions": [
+   "Bacau",
+   "Botosani",
+   "Galati",
+   "Iasi",
+   "Neamt",
+   "Vaslui",
+   "Vrancea"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Moldavia shown with no overlord; Ottoman vassal 1498-1572, 1574-1600, 1618-1859",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1498,
+  "to": 1572,
+  "country": "Romania",
+  "regions": [
+   "Suceava"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal (Bukovina Habsburg from 1775)",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1498,
+  "to": 1572,
+  "country": "Ukraine",
+  "regions": [
+   "Chernivtsi"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal (Bukovina Habsburg from 1775)",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1574,
+  "to": 1600,
+  "country": "Romania",
+  "regions": [
+   "Suceava"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal (Bukovina Habsburg from 1775)",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1574,
+  "to": 1600,
+  "country": "Ukraine",
+  "regions": [
+   "Chernivtsi"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal (Bukovina Habsburg from 1775)",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1618,
+  "to": 1769,
+  "country": "Romania",
+  "regions": [
+   "Suceava"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal (Bukovina Habsburg from 1775)",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1618,
+  "to": 1769,
+  "country": "Ukraine",
+  "regions": [
+   "Chernivtsi"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal (Bukovina Habsburg from 1775)",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1774,
+  "to": 1775,
+  "country": "Romania",
+  "regions": [
+   "Suceava"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal (Bukovina Habsburg from 1775)",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1774,
+  "to": 1775,
+  "country": "Ukraine",
+  "regions": [
+   "Chernivtsi"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal (Bukovina Habsburg from 1775)",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1498,
+  "to": 1572,
+  "country": "Moldova",
+  "regions": [
+   "Anenii Noi–Străşeni–Ialoveni",
+   "Cimişlia–Taraclia",
+   "Donduseni–Briceni",
+   "Hîncesti–Cantemir",
+   "Rezina–Camenca–Rezina",
+   "Soroca–Floreşti",
+   "Teleneşti–Nisporeni",
+   "Ungheni–Sîngerei"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal until Russian annexation of Bessarabia 1812",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "major"
+ },
+ {
+  "from": 1574,
+  "to": 1600,
+  "country": "Moldova",
+  "regions": [
+   "Anenii Noi–Străşeni–Ialoveni",
+   "Cimişlia–Taraclia",
+   "Donduseni–Briceni",
+   "Hîncesti–Cantemir",
+   "Rezina–Camenca–Rezina",
+   "Soroca–Floreşti",
+   "Teleneşti–Nisporeni",
+   "Ungheni–Sîngerei"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal until Russian annexation of Bessarabia 1812",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1618,
+  "to": 1769,
+  "country": "Moldova",
+  "regions": [
+   "Anenii Noi–Străşeni–Ialoveni",
+   "Cimişlia–Taraclia",
+   "Donduseni–Briceni",
+   "Hîncesti–Cantemir",
+   "Rezina–Camenca–Rezina",
+   "Soroca–Floreşti",
+   "Teleneşti–Nisporeni",
+   "Ungheni–Sîngerei"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal until Russian annexation of Bessarabia 1812",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1774,
+  "to": 1788,
+  "country": "Moldova",
+  "regions": [
+   "Anenii Noi–Străşeni–Ialoveni",
+   "Cimişlia–Taraclia",
+   "Donduseni–Briceni",
+   "Hîncesti–Cantemir",
+   "Rezina–Camenca–Rezina",
+   "Soroca–Floreşti",
+   "Teleneşti–Nisporeni",
+   "Ungheni–Sîngerei"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal until Russian annexation of Bessarabia 1812",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1792,
+  "to": 1806,
+  "country": "Moldova",
+  "regions": [
+   "Anenii Noi–Străşeni–Ialoveni",
+   "Cimişlia–Taraclia",
+   "Donduseni–Briceni",
+   "Hîncesti–Cantemir",
+   "Rezina–Camenca–Rezina",
+   "Soroca–Floreşti",
+   "Teleneşti–Nisporeni",
+   "Ungheni–Sîngerei"
+  ],
+  "owner": "Principality of Moldavia",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal until Russian annexation of Bessarabia 1812",
+  "source": "https://en.wikipedia.org/wiki/Moldavia",
+  "severity": "minor"
+ },
+ {
+  "from": 1570,
+  "to": 1690,
+  "country": "Romania",
+  "regions": [
+   "Alba",
+   "Bihor",
+   "Bistrita-Nasaud",
+   "Brasov",
+   "Cluj",
+   "Covasna",
+   "Harghita",
+   "Hunedoara",
+   "Maramures",
+   "Mures",
+   "Salaj",
+   "Satu Mare",
+   "Sibiu"
+  ],
+  "owner": "Principality of Transylvania",
+  "overlord": "Ottoman Empire",
+  "why": "Principality of Transylvania shown with no overlord; it was an Ottoman vassal until the Habsburg takeover",
+  "source": "https://en.wikipedia.org/wiki/Principality_of_Transylvania_(1570–1711)",
+  "severity": "major"
+ },
+ {
+  "from": 1440,
+  "to": 1458,
+  "country": "Hungary",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Hungary",
+  "why": "1450 shows 'House of Habsburg [under Holy Roman Empire]'; Hungary was never part of the HRE (Ladislaus V's minority under regent Hunyadi), and the map reverts to Kingdom of Hungary in 1460",
+  "source": "https://en.wikipedia.org/wiki/Ladislaus_the_Posthumous",
+  "severity": "minor"
+ },
+ {
+  "from": 1440,
+  "to": 1458,
+  "country": "Slovakia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Hungary",
+  "why": "Same: Hungary not under the HRE",
+  "source": "https://en.wikipedia.org/wiki/Ladislaus_the_Posthumous",
+  "severity": "minor"
+ },
+ {
+  "from": 1440,
+  "to": 1458,
+  "country": "Romania",
+  "regions": [
+   "Alba",
+   "Arad",
+   "Bihor",
+   "Bistrita-Nasaud",
+   "Brasov",
+   "Caras-Severin",
+   "Cluj",
+   "Covasna",
+   "Harghita",
+   "Hunedoara",
+   "Maramures",
+   "Mures",
+   "Salaj",
+   "Satu Mare",
+   "Sibiu",
+   "Timis"
+  ],
+  "owner": "Kingdom of Hungary",
+  "why": "Same: Hungary not under the HRE",
+  "source": "https://en.wikipedia.org/wiki/Ladislaus_the_Posthumous",
+  "severity": "minor"
+ },
+ {
+  "from": 1440,
+  "to": 1458,
+  "country": "Ukraine",
+  "regions": [
+   "Transcarpathia"
+  ],
+  "owner": "Kingdom of Hungary",
+  "why": "Same: Hungary not under the HRE",
+  "source": "https://en.wikipedia.org/wiki/Ladislaus_the_Posthumous",
+  "severity": "minor"
+ },
+ {
+  "from": 1527,
+  "to": 1804,
+  "country": "Czech Republic",
+  "regions": [
+   "*"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "1530-1550 shows 'Kingdom of Spain [under Spanish Empire]' (Spain never ruled Bohemia; Ferdinand I's Austrian Habsburgs did from 1526); Prague alone is kept as a separate 'Kingdom of Bohemia [under HRE]' colour 1530-1800",
+  "source": "https://en.wikipedia.org/wiki/Lands_of_the_Bohemian_Crown",
+  "severity": "major"
+ },
+ {
+  "from": 1527,
+  "to": 1742,
+  "country": "Poland",
+  "regions": [
+   "Lower Silesian",
+   "Opole"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Silesia shown as 'Kingdom of Spain' 1530-1550; it passed with Bohemia to the Austrian Habsburgs (1526) until lost to Prussia 1742",
+  "source": "https://en.wikipedia.org/wiki/Lands_of_the_Bohemian_Crown",
+  "severity": "major"
+ },
+ {
+  "from": 1527,
+  "to": 1560,
+  "country": "Slovakia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Royal Hungary shown as 'Kingdom of Spain' 1540-1550; it was under the Austrian Habsburgs",
+  "source": "https://en.wikipedia.org/wiki/Royal_Hungary",
+  "severity": "major"
+ },
+ {
+  "from": 1527,
+  "to": 1560,
+  "country": "Hungary",
+  "regions": [
+   "Gyor-Moson-Sopron",
+   "Vas",
+   "Zala"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Western Royal Hungary shown as 'Kingdom of Spain' 1540-1550",
+  "source": "https://en.wikipedia.org/wiki/Royal_Hungary",
+  "severity": "major"
+ },
+ {
+  "from": 1527,
+  "to": 1552,
+  "country": "Hungary",
+  "regions": [
+   "Veszprém"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Shown Ottoman in 1530 and 'Kingdom of Spain' in 1540; part of Habsburg Royal Hungary",
+  "source": "https://en.wikipedia.org/wiki/Royal_Hungary",
+  "severity": "minor"
+ },
+ {
+  "from": 1849,
+  "to": 1860,
+  "country": "Hungary",
+  "regions": [
+   "*"
+  ],
+  "owner": "Austrian Empire",
+  "why": "1850 shows 'Hungarian Nationalists' ruling Hungary; the revolution was crushed by Oct 1849 and Habsburg rule restored",
+  "source": "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1848",
+  "severity": "major"
+ },
+ {
+  "from": 1849,
+  "to": 1860,
+  "country": "Slovakia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Austrian Empire",
+  "why": "Same: 'Hungarian Nationalists' shown in 1850",
+  "source": "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1848",
+  "severity": "major"
+ },
+ {
+  "from": 1849,
+  "to": 1860,
+  "country": "Romania",
+  "regions": [
+   "Alba",
+   "Arad",
+   "Bihor",
+   "Bistrita-Nasaud",
+   "Brasov",
+   "Caras-Severin",
+   "Cluj",
+   "Covasna",
+   "Harghita",
+   "Hunedoara",
+   "Maramures",
+   "Mures",
+   "Salaj",
+   "Satu Mare",
+   "Sibiu",
+   "Timis"
+  ],
+  "owner": "Austrian Empire",
+  "why": "Same: 'Hungarian Nationalists' shown in Transylvania/Banat in 1850",
+  "source": "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1848",
+  "severity": "major"
+ },
+ {
+  "from": 1849,
+  "to": 1860,
+  "country": "Ukraine",
+  "regions": [
+   "Transcarpathia"
+  ],
+  "owner": "Austrian Empire",
+  "why": "Same: 'Hungarian Nationalists' shown in 1850",
+  "source": "https://en.wikipedia.org/wiki/Hungarian_Revolution_of_1848",
+  "severity": "major"
+ },
+ {
+  "from": 1866,
+  "to": 1890,
+  "country": "Romania",
+  "regions": [
+   "Arges",
+   "Braila",
+   "Buzau",
+   "Calarasi",
+   "Dolj",
+   "Dâmbovita",
+   "Giurgiu",
+   "Gorj",
+   "Ialomita",
+   "Mehedinti",
+   "Olt",
+   "Prahova",
+   "Teleorman",
+   "Vâlcea",
+   "Bacau",
+   "Botosani",
+   "Galati",
+   "Iasi",
+   "Neamt",
+   "Vaslui",
+   "Vrancea"
+  ],
+  "owner": "Rumania",
+  "why": "'United Principalities of Moldavia and Wallachia' shown through 1880; the state was named Romania from 1866 (kingdom 1881)",
+  "source": "https://en.wikipedia.org/wiki/United_Principalities_of_Moldavia_and_Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1878,
+  "to": 1890,
+  "country": "Romania",
+  "regions": [
+   "Constanta",
+   "Tulcea"
+  ],
+  "owner": "Rumania",
+  "why": "Northern Dobruja joined Romania 1878; shown as 'United Principalities'",
+  "source": "https://en.wikipedia.org/wiki/United_Principalities_of_Moldavia_and_Wallachia",
+  "severity": "minor"
+ },
+ {
+  "from": 1918,
+  "to": 1940,
+  "country": "Moldova",
+  "regions": [
+   "*"
+  ],
+  "owner": "Rumania",
+  "except": [
+   "Bender–Criuleni–Grigoriopol"
+  ],
+  "why": "Bessarabia united with Romania 9 April 1918 but is shown as 'Russia (Soviet Union)' in 1920 (only one district as 'Kingdom of Romania')",
+  "source": "https://en.wikipedia.org/wiki/Union_of_Bessarabia_with_Romania",
+  "severity": "major"
+ },
+ {
+  "from": 1940,
+  "to": 1945,
+  "country": "Romania",
+  "regions": [
+   "Bihor",
+   "Bistrita-Nasaud",
+   "Cluj",
+   "Covasna",
+   "Harghita",
+   "Maramures",
+   "Mures",
+   "Salaj",
+   "Satu Mare"
+  ],
+  "owner": "Hungary",
+  "why": "Northern Transylvania ceded to Hungary by the Second Vienna Award (30 Aug 1940) until 1944/45; map keeps it Romanian",
+  "source": "https://en.wikipedia.org/wiki/Second_Vienna_Award",
+  "severity": "major"
+ },
+ {
+  "from": 1920,
+  "to": 1939,
+  "country": "Belarus",
+  "regions": [
+   "Brest",
+   "Grodno"
+  ],
+  "owner": "Poland",
+  "why": "Western Belarus Polish (confirmed at Riga 1921); 1920 shows Grodno as Lithuania and Brest as Soviet",
+  "source": "https://en.wikipedia.org/wiki/Peace_of_Riga",
+  "severity": "major"
+ },
+ {
+  "from": 1920,
+  "to": 1939,
+  "country": "Ukraine",
+  "regions": [
+   "Volyn",
+   "Rivne"
+  ],
+  "owner": "Poland",
+  "why": "Western Volhynia Polish (Riga 1921); map shows it Soviet until the 1930 snapshot",
+  "source": "https://en.wikipedia.org/wiki/Peace_of_Riga",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1945,
+  "country": "Czech Republic",
+  "regions": [
+   "Jihomoravský",
+   "Jihočeský",
+   "Královéhradecký",
+   "Olomoucký",
+   "Pardubický",
+   "Prague",
+   "Středočeský",
+   "Vysočina",
+   "Zlínský"
+  ],
+  "owner": "Protectorate of Bohemia and Moravia",
+  "overlord": "Nazi Germany",
+  "why": "1940 shows 'Czechoslovakia' still holding 65% of Czechia; it was dissolved 15-16 March 1939 and the rump Czech lands became the Protectorate",
+  "source": "https://en.wikipedia.org/wiki/Protectorate_of_Bohemia_and_Moravia",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1945,
+  "country": "Slovakia",
+  "regions": [
+   "Banskobystrický",
+   "Prešov",
+   "Trenciansky",
+   "Trnavský",
+   "Žilinský"
+  ],
+  "owner": "Slovak Republic",
+  "overlord": "Nazi Germany",
+  "why": "1940 shows 'Czechoslovakia' holding 67% of Slovakia; the Slovak Republic (14 Mar 1939-1945) held all of it outside the Hungarian-annexed south",
+  "source": "https://en.wikipedia.org/wiki/Slovak_Republic_(1939–1945)",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1945,
+  "country": "Ukraine",
+  "regions": [
+   "Transcarpathia"
+  ],
+  "owner": "Hungary",
+  "why": "Carpatho-Ukraine annexed by Hungary 16 March 1939; map shows Czechoslovakia in 1940",
+  "source": "https://en.wikipedia.org/wiki/Carpatho-Ukraine",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1945,
+  "country": "Poland",
+  "regions": [
+   "Greater Poland",
+   "Kuyavian-Pomeranian",
+   "Łódź",
+   "Silesian",
+   "Pomeranian"
+  ],
+  "owner": "Germany (Prussia)",
+  "why": "1940 shows independent 'Poland' holding 62% of Poland; these areas were annexed to Germany (Wartheland, Danzig-West Prussia, East Upper Silesia)",
+  "source": "https://en.wikipedia.org/wiki/General_Government",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1945,
+  "country": "Poland",
+  "regions": [
+   "Lublin",
+   "Lesser Poland",
+   "Masovian",
+   "Świętokrzyskie",
+   "Subcarpathian"
+  ],
+  "owner": "General Government",
+  "overlord": "Nazi Germany",
+  "why": "1940 shows independent 'Poland'; central Poland was the German-run General Government (26 Oct 1939-Jan 1945)",
+  "source": "https://en.wikipedia.org/wiki/General_Government",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1941,
+  "country": "Poland",
+  "regions": [
+   "Podlachian"
+  ],
+  "owner": "Russia (Soviet Union)",
+  "why": "Białystok region annexed by the USSR in 1939; map shows Poland",
+  "source": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland",
+  "severity": "major"
+ },
+ {
+  "from": 1941,
+  "to": 1945,
+  "country": "Poland",
+  "regions": [
+   "Podlachian"
+  ],
+  "owner": "Germany (Prussia)",
+  "why": "Bezirk Bialystok, attached to East Prussia, 1 Aug 1941-1944",
+  "source": "https://en.wikipedia.org/wiki/Bezirk_Bialystok",
+  "severity": "minor"
+ },
+ {
+  "from": 1939,
+  "to": 1941,
+  "country": "Ukraine",
+  "regions": [
+   "L'viv",
+   "Ivano-Frankivs'k",
+   "Ternopil'",
+   "Volyn",
+   "Rivne"
+  ],
+  "owner": "Russia (Soviet Union)",
+  "why": "Western Ukraine annexed by the USSR in Nov 1939; map shows Poland until after 1940",
+  "source": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1941,
+  "country": "Belarus",
+  "regions": [
+   "Brest",
+   "Grodno",
+   "Minsk",
+   "Vitebsk"
+  ],
+  "owner": "Russia (Soviet Union)",
+  "why": "Western Belarus annexed by the USSR in Nov 1939; map shows Poland in 1940",
+  "source": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland",
+  "severity": "major"
+ },
+ {
+  "from": 1941,
+  "to": 1944,
+  "country": "Ukraine",
+  "regions": [
+   "L'viv",
+   "Ivano-Frankivs'k",
+   "Ternopil'"
+  ],
+  "owner": "General Government",
+  "overlord": "Nazi Germany",
+  "why": "Distrikt Galizien added to the General Government 1 Aug 1941",
+  "source": "https://en.wikipedia.org/wiki/General_Government",
+  "severity": "minor"
+ },
+ {
+  "from": 1941,
+  "to": 1944,
+  "country": "Ukraine",
+  "regions": [
+   "Volyn",
+   "Rivne"
+  ],
+  "owner": "Reichskommissariat Ukraine",
+  "overlord": "Nazi Germany",
+  "why": "German civil administration (capital Rivne) 1941-44",
+  "source": "https://en.wikipedia.org/wiki/Reichskommissariat_Ukraine",
+  "severity": "minor"
+ },
+ {
+  "from": 1941,
+  "to": 1944,
+  "country": "Belarus",
+  "regions": [
+   "Brest"
+  ],
+  "owner": "Reichskommissariat Ukraine",
+  "overlord": "Nazi Germany",
+  "why": "Brest-Litovsk was in Reichskommissariat Ukraine 1941-44",
+  "source": "https://en.wikipedia.org/wiki/Reichskommissariat_Ukraine",
+  "severity": "minor"
+ },
+ {
+  "from": 1941,
+  "to": 1944,
+  "country": "Belarus",
+  "regions": [
+   "Grodno"
+  ],
+  "owner": "Germany (Prussia)",
+  "why": "Grodno attached to Bezirk Bialystok (East Prussia) from 1 Nov 1941",
+  "source": "https://en.wikipedia.org/wiki/Bezirk_Bialystok",
+  "severity": "minor"
+ },
+ {
+  "from": 1944,
+  "to": 1950,
+  "country": "Ukraine",
+  "regions": [
+   "L'viv",
+   "Ivano-Frankivs'k",
+   "Ternopil'",
+   "Volyn",
+   "Rivne"
+  ],
+  "owner": "Russia (Soviet Union)",
+  "why": "Retaken by the USSR in 1944; map shows Poland until the 1950 snapshot",
+  "source": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland",
+  "severity": "minor"
+ },
+ {
+  "from": 1944,
+  "to": 1950,
+  "country": "Belarus",
+  "regions": [
+   "Brest",
+   "Grodno",
+   "Minsk",
+   "Vitebsk"
+  ],
+  "owner": "Russia (Soviet Union)",
+  "why": "Retaken by the USSR in 1944; map shows Poland until the 1950 snapshot",
+  "source": "https://en.wikipedia.org/wiki/Soviet_invasion_of_Poland",
+  "severity": "minor"
+ }
+]

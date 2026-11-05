@@ -1,0 +1,11344 @@
+{
+ "region": "Arid and steppe belt: Arabian Peninsula, North African interior, Central Asia and steppe, Siberia, Mongolia and Tibet frontier",
+ "polities": [
+  {
+   "name": "Emirate of Diriyah (First Saudi State)",
+   "aliases": [
+    "First Saudi State",
+    "Wahhabi state"
+   ],
+   "from": 1727,
+   "to": 1818,
+   "seat": {
+    "name": "Diriyah",
+    "lat": 24.74,
+    "lon": 46.57
+   },
+   "extent": [
+    [
+     28.0,
+     42.5
+    ],
+    [
+     28.4,
+     48.4
+    ],
+    [
+     26.2,
+     50.2
+    ],
+    [
+     24.5,
+     51.3
+    ],
+    [
+     22.0,
+     49.0
+    ],
+    [
+     21.5,
+     45.0
+    ],
+    [
+     24.5,
+     42.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1727,
+     "to": 1773,
+     "extent": [
+      [
+       25.3,
+       46.0
+      ],
+      [
+       25.1,
+       47.2
+      ],
+      [
+       24.2,
+       47.3
+      ],
+      [
+       24.0,
+       46.2
+      ]
+     ]
+    },
+    {
+     "from": 1773,
+     "to": 1795,
+     "extent": [
+      [
+       27.5,
+       42.5
+      ],
+      [
+       27.0,
+       45.5
+      ],
+      [
+       25.5,
+       48.0
+      ],
+      [
+       22.5,
+       47.5
+      ],
+      [
+       22.0,
+       45.5
+      ],
+      [
+       24.5,
+       43.0
+      ]
+     ]
+    },
+    {
+     "from": 1795,
+     "to": 1803,
+     "extent": [
+      [
+       28.0,
+       42.5
+      ],
+      [
+       28.4,
+       48.4
+      ],
+      [
+       26.2,
+       50.2
+      ],
+      [
+       24.5,
+       51.3
+      ],
+      [
+       22.0,
+       49.0
+      ],
+      [
+       21.5,
+       45.0
+      ],
+      [
+       24.5,
+       42.5
+      ]
+     ]
+    },
+    {
+     "from": 1803,
+     "to": 1813,
+     "extent": [
+      [
+       30.5,
+       39.5
+      ],
+      [
+       29.3,
+       47.5
+      ],
+      [
+       26.3,
+       50.1
+      ],
+      [
+       24.0,
+       51.5
+      ],
+      [
+       19.5,
+       50.0
+      ],
+      [
+       17.5,
+       43.5
+      ],
+      [
+       21.0,
+       39.2
+      ],
+      [
+       25.5,
+       37.0
+      ]
+     ]
+    },
+    {
+     "from": 1813,
+     "to": 1818,
+     "extent": [
+      [
+       27.5,
+       42.5
+      ],
+      [
+       28.0,
+       48.0
+      ],
+      [
+       25.5,
+       49.8
+      ],
+      [
+       22.5,
+       47.5
+      ],
+      [
+       22.0,
+       45.5
+      ],
+      [
+       24.5,
+       43.0
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Diriyah",
+   "confidence": "high",
+   "note": "Town emirate of Al Saud until the 1744 alliance with Muhammad ibn Abd al-Wahhab; Riyadh taken 1773, al-Hasa c.1795, Mecca 1803/1806, Medina 1805; destroyed by Egyptian-Ottoman army 1818. Main extent = c.1800 (Najd + Hasa)."
+  },
+  {
+   "name": "Emirate of Nejd (Second Saudi State)",
+   "aliases": [
+    "Second Saudi State"
+   ],
+   "from": 1824,
+   "to": 1891,
+   "seat": {
+    "name": "Riyadh",
+    "lat": 24.63,
+    "lon": 46.72
+   },
+   "extent": [
+    [
+     28.3,
+     42.5
+    ],
+    [
+     28.4,
+     48.4
+    ],
+    [
+     26.2,
+     50.2
+    ],
+    [
+     24.5,
+     51.0
+    ],
+    [
+     21.0,
+     48.5
+    ],
+    [
+     20.8,
+     45.0
+    ],
+    [
+     24.0,
+     42.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1838,
+     "to": 1843,
+     "name": "Egypt (Muhammad Ali)"
+    },
+    {
+     "from": 1887,
+     "to": 1891,
+     "name": "Emirate of Jabal Shammar"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1824,
+     "to": 1830,
+     "extent": [
+      [
+       27.5,
+       42.5
+      ],
+      [
+       27.0,
+       45.5
+      ],
+      [
+       25.5,
+       48.0
+      ],
+      [
+       22.5,
+       47.5
+      ],
+      [
+       22.0,
+       45.5
+      ],
+      [
+       24.5,
+       43.0
+      ]
+     ]
+    },
+    {
+     "from": 1830,
+     "to": 1871,
+     "extent": [
+      [
+       28.3,
+       42.5
+      ],
+      [
+       28.4,
+       48.4
+      ],
+      [
+       26.2,
+       50.2
+      ],
+      [
+       24.5,
+       51.0
+      ],
+      [
+       21.0,
+       48.5
+      ],
+      [
+       20.8,
+       45.0
+      ],
+      [
+       24.0,
+       42.5
+      ]
+     ]
+    },
+    {
+     "from": 1871,
+     "to": 1891,
+     "extent": [
+      [
+       27.0,
+       43.0
+      ],
+      [
+       26.8,
+       46.0
+      ],
+      [
+       25.5,
+       47.8
+      ],
+      [
+       22.5,
+       47.5
+      ],
+      [
+       22.0,
+       45.5
+      ],
+      [
+       24.5,
+       43.5
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Nejd",
+   "confidence": "high",
+   "note": "Al-Hasa held 1830-1871 (lost to Ottomans 1871); civil war of Faisal's sons from 1865; Rashidi overlordship from 1887, Al Saud expelled after Mulayda 1891 (Riyadh then governed by Rashidi governors until 1902)."
+  },
+  {
+   "name": "Emirate of al-Uyaynah",
+   "from": 1400,
+   "to": 1760,
+   "seat": {
+    "name": "al-Uyaynah",
+    "lat": 24.91,
+    "lon": 46.38
+   },
+   "reach_km": 40,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Al-Uyaynah",
+   "confidence": "low",
+   "note": "Oasis emirate of the Al Mu'ammar, the leading town of al-Arid in the 15th-17th c.; absorbed by Diriyah after 1750-60. Start date approximate."
+  },
+  {
+   "name": "Diriyah town emirate (Al Muqrin)",
+   "from": 1446,
+   "to": 1727,
+   "seat": {
+    "name": "Diriyah",
+    "lat": 24.74,
+    "lon": 46.57
+   },
+   "reach_km": 25,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Diriyah",
+   "confidence": "moderate",
+   "note": "Founded 1446 by Mani' al-Muraydi, ancestor of Al Saud; one of many small Najdi town-states before 1727 (continues as Emirate of Diriyah)."
+  },
+  {
+   "name": "Emirate of Riyadh (Al Dawwas)",
+   "from": 1737,
+   "to": 1773,
+   "seat": {
+    "name": "Riyadh",
+    "lat": 24.63,
+    "lon": 46.72
+   },
+   "reach_km": 35,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Dahham_ibn_Dawwas",
+   "confidence": "moderate",
+   "note": "Dahham ibn Dawwas ruled Riyadh/Manfuha and fought Diriyah for c.27 years; fled 1773."
+  },
+  {
+   "name": "Emirate of Jabal Shammar",
+   "aliases": [
+    "Rashidi Emirate",
+    "Emirate of Ha'il"
+   ],
+   "from": 1836,
+   "to": 1921,
+   "seat": {
+    "name": "Ha'il",
+    "lat": 27.52,
+    "lon": 41.69
+   },
+   "extent": [
+    [
+     30.0,
+     39.0
+    ],
+    [
+     29.8,
+     42.5
+    ],
+    [
+     28.0,
+     44.0
+    ],
+    [
+     26.5,
+     43.5
+    ],
+    [
+     26.3,
+     40.5
+    ],
+    [
+     27.5,
+     38.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1836,
+     "to": 1865,
+     "name": "Emirate of Nejd (nominal)"
+    },
+    {
+     "from": 1871,
+     "to": 1921,
+     "name": "Ottoman Empire (nominal)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1836,
+     "to": 1853,
+     "extent": [
+      [
+       28.5,
+       39.5
+      ],
+      [
+       28.5,
+       42.8
+      ],
+      [
+       27.0,
+       43.5
+      ],
+      [
+       26.5,
+       41.0
+      ],
+      [
+       27.3,
+       39.3
+      ]
+     ]
+    },
+    {
+     "from": 1853,
+     "to": 1887,
+     "extent": [
+      [
+       30.0,
+       39.0
+      ],
+      [
+       29.8,
+       42.5
+      ],
+      [
+       28.0,
+       44.0
+      ],
+      [
+       26.5,
+       43.5
+      ],
+      [
+       26.3,
+       40.5
+      ],
+      [
+       27.5,
+       38.5
+      ]
+     ]
+    },
+    {
+     "from": 1887,
+     "to": 1902,
+     "extent": [
+      [
+       31.0,
+       38.0
+      ],
+      [
+       30.5,
+       43.0
+      ],
+      [
+       28.5,
+       46.5
+      ],
+      [
+       25.5,
+       47.8
+      ],
+      [
+       23.5,
+       46.5
+      ],
+      [
+       25.0,
+       42.5
+      ],
+      [
+       26.5,
+       38.5
+      ]
+     ]
+    },
+    {
+     "from": 1902,
+     "to": 1921,
+     "extent": [
+      [
+       30.5,
+       38.5
+      ],
+      [
+       30.0,
+       43.0
+      ],
+      [
+       28.0,
+       44.5
+      ],
+      [
+       26.5,
+       43.5
+      ],
+      [
+       26.3,
+       40.0
+      ],
+      [
+       27.5,
+       38.5
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Jabal_Shammar",
+   "confidence": "high",
+   "note": "Al Rashid of the Shammar; al-Jawf added 1853; peak under Muhammad ibn Rashid (1869-97) ruling all Najd after 1891; conquered by Ibn Saud 1921."
+  },
+  {
+   "name": "Emirate of Buraydah (Qassim)",
+   "aliases": [
+    "Al Abu Ulayyan",
+    "Al Muhanna"
+   ],
+   "from": 1700,
+   "to": 1904,
+   "seat": {
+    "name": "Buraydah",
+    "lat": 26.33,
+    "lon": 43.97
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1775,
+     "to": 1818,
+     "name": "Emirate of Diriyah"
+    },
+    {
+     "from": 1824,
+     "to": 1863,
+     "name": "Emirate of Nejd"
+    },
+    {
+     "from": 1891,
+     "to": 1904,
+     "name": "Emirate of Jabal Shammar"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Buraidah",
+   "confidence": "low",
+   "note": "Northern Qassim town emirate (Al Abu Ulayyan, then Al Muhanna from 1860s); rival of Unaizah; dates approximate."
+  },
+  {
+   "name": "Emirate of Unaizah",
+   "aliases": [
+    "Al Sulaim"
+   ],
+   "from": 1700,
+   "to": 1904,
+   "seat": {
+    "name": "Unaizah",
+    "lat": 26.08,
+    "lon": 43.99
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1775,
+     "to": 1818,
+     "name": "Emirate of Diriyah"
+    },
+    {
+     "from": 1824,
+     "to": 1865,
+     "name": "Emirate of Nejd"
+    },
+    {
+     "from": 1891,
+     "to": 1904,
+     "name": "Emirate of Jabal Shammar"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Unaizah",
+   "confidence": "low",
+   "note": "Southern Qassim trading town under its own amirs (Al Sulaim in 19th c.); dates approximate."
+  },
+  {
+   "name": "Sharifate of Mecca",
+   "aliases": [
+    "Emirate of Mecca",
+    "Hejaz"
+   ],
+   "from": 968,
+   "to": 1925,
+   "seat": {
+    "name": "Mecca",
+    "lat": 21.42,
+    "lon": 39.83
+   },
+   "extent": [
+    [
+     25.0,
+     37.3
+    ],
+    [
+     24.8,
+     39.9
+    ],
+    [
+     22.5,
+     41.5
+    ],
+    [
+     20.5,
+     41.5
+    ],
+    [
+     19.0,
+     41.3
+    ],
+    [
+     20.5,
+     39.6
+    ],
+    [
+     22.5,
+     39.1
+    ],
+    [
+     24.1,
+     38.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1517,
+     "name": "Mamluk Sultanate"
+    },
+    {
+     "from": 1517,
+     "to": 1803,
+     "name": "Ottoman Empire"
+    },
+    {
+     "from": 1803,
+     "to": 1813,
+     "name": "Emirate of Diriyah"
+    },
+    {
+     "from": 1813,
+     "to": 1840,
+     "name": "Egypt (Muhammad Ali) for the Ottoman Empire"
+    },
+    {
+     "from": 1840,
+     "to": 1916,
+     "name": "Ottoman Empire"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Sharifate_of_Mecca",
+   "confidence": "high",
+   "note": "Hashemite sharifs governed Mecca, Ta'if and much of Hejaz; Medina and Jeddah usually under separate Mamluk/Ottoman officials. Independent Kingdom of Hejaz 1916-1925."
+  },
+  {
+   "name": "Emirate of the Banu Khalid",
+   "aliases": [
+    "Bani Khalid Emirate",
+    "Al Humaid"
+   ],
+   "from": 1669,
+   "to": 1796,
+   "seat": {
+    "name": "al-Mubarraz (al-Hasa)",
+    "lat": 25.41,
+    "lon": 49.58
+   },
+   "extent": [
+    [
+     29.4,
+     47.6
+    ],
+    [
+     28.0,
+     48.6
+    ],
+    [
+     26.6,
+     50.0
+    ],
+    [
+     25.0,
+     50.6
+    ],
+    [
+     24.6,
+     49.3
+    ],
+    [
+     26.0,
+     48.2
+    ],
+    [
+     27.8,
+     46.8
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Bani_Khalid",
+   "confidence": "moderate",
+   "note": "Al Humaid of the Banu Khalid expelled the Ottomans from al-Hasa 1669/70; overlords of Qatif, Hasa and the Kuwait coast; conquered by the First Saudi State 1793-96, briefly restored 1818-1830."
+  },
+  {
+   "name": "Jabrid Sultanate",
+   "aliases": [
+    "Jabrids",
+    "Banu Jabr"
+   ],
+   "from": 1417,
+   "to": 1524,
+   "seat": {
+    "name": "al-Hasa (Hofuf)",
+    "lat": 25.38,
+    "lon": 49.59
+   },
+   "extent": [
+    [
+     27.2,
+     49.0
+    ],
+    [
+     26.7,
+     50.3
+    ],
+    [
+     26.3,
+     50.7
+    ],
+    [
+     25.5,
+     51.6
+    ],
+    [
+     24.5,
+     51.3
+    ],
+    [
+     23.6,
+     49.6
+    ],
+    [
+     24.8,
+     48.6
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Jabrids",
+   "confidence": "moderate",
+   "note": "Bedouin dynasty of the Banu Uqayl ruling al-Hasa, Qatif and (from 1487) Bahrain; also raided into Oman; fell to Muntafiq/Portuguese-Hormuz pressure c.1521-24."
+  },
+  {
+   "name": "Lahsa Eyalet (Ottoman al-Hasa)",
+   "from": 1550,
+   "to": 1670,
+   "seat": {
+    "name": "Hofuf",
+    "lat": 25.38,
+    "lon": 49.59
+   },
+   "extent": [
+    [
+     27.6,
+     48.7
+    ],
+    [
+     26.6,
+     50.1
+    ],
+    [
+     25.2,
+     50.6
+    ],
+    [
+     24.8,
+     49.4
+    ],
+    [
+     26.0,
+     48.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1550,
+     "to": 1670,
+     "name": "Ottoman Empire"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Lahsa_Eyalet",
+   "confidence": "moderate",
+   "note": "Ottoman province of eastern Arabia, coast and al-Hasa oasis; lost to the Banu Khalid c.1670."
+  },
+  {
+   "name": "Hasa Sanjak (Ottoman)",
+   "from": 1871,
+   "to": 1913,
+   "seat": {
+    "name": "Hofuf",
+    "lat": 25.38,
+    "lon": 49.59
+   },
+   "extent": [
+    [
+     27.6,
+     48.7
+    ],
+    [
+     26.6,
+     50.1
+    ],
+    [
+     25.2,
+     50.6
+    ],
+    [
+     24.8,
+     49.4
+    ],
+    [
+     26.0,
+     48.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1871,
+     "to": 1913,
+     "name": "Ottoman Empire"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Al-Hasa",
+   "confidence": "moderate",
+   "note": "Ottoman (Basra vilayet) sanjak taken from the Second Saudi State 1871; taken by Ibn Saud 1913."
+  },
+  {
+   "name": "Emirate of Asir (Al Mutahami / Al A'id)",
+   "from": 1800,
+   "to": 1872,
+   "seat": {
+    "name": "Abha",
+    "lat": 18.22,
+    "lon": 42.5
+   },
+   "extent": [
+    [
+     20.0,
+     41.5
+    ],
+    [
+     19.6,
+     43.0
+    ],
+    [
+     17.8,
+     43.5
+    ],
+    [
+     17.3,
+     42.5
+    ],
+    [
+     18.3,
+     41.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1800,
+     "to": 1818,
+     "name": "Emirate of Diriyah"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/%27Asir_Region",
+   "confidence": "low",
+   "note": "Highland chiefs of the Asir confederation (Rufaydah/Mughaydi) who joined the Wahhabis, resisted Egypt in the 1820s-30s and were annexed by the Ottomans 1871-72. Before 1800 Asir was tribal (see gaps)."
+  },
+  {
+   "name": "Makrami Emirate of Najran",
+   "aliases": [
+    "Al Makrami",
+    "Banu Yam"
+   ],
+   "from": 1640,
+   "to": 1934,
+   "seat": {
+    "name": "Badr al-Janoub / Najran",
+    "lat": 17.49,
+    "lon": 44.13
+   },
+   "reach_km": 90,
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Sulaymani",
+   "confidence": "low",
+   "note": "Sulaymani Isma'ili da'is of the Al Makrami family, backed by the Yam tribe, ruled Najran from the mid-17th c. and raided Hadramawt and Najd; annexed by Saudi Arabia 1934. Start date approximate."
+  },
+  {
+   "name": "Sheikhdom of Kuwait",
+   "aliases": [
+    "Al Sabah"
+   ],
+   "from": 1752,
+   "to": 1961,
+   "seat": {
+    "name": "Kuwait",
+    "lat": 29.37,
+    "lon": 47.98
+   },
+   "extent": [
+    [
+     30.1,
+     47.7
+    ],
+    [
+     29.4,
+     48.4
+    ],
+    [
+     28.55,
+     48.4
+    ],
+    [
+     28.55,
+     47.4
+    ],
+    [
+     29.1,
+     46.55
+    ],
+    [
+     30.0,
+     47.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1752,
+     "to": 1790,
+     "name": "Emirate of the Banu Khalid (nominal)"
+    },
+    {
+     "from": 1871,
+     "to": 1899,
+     "name": "Ottoman Empire (nominal)"
+    },
+    {
+     "from": 1899,
+     "to": 1961,
+     "name": "British Empire"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Sheikhdom_of_Kuwait",
+   "confidence": "high",
+   "note": "Utub settlement under Al Sabah; 1899 Anglo-Kuwaiti agreement."
+  },
+  {
+   "name": "Zubarah (Al Khalifa / Utub)",
+   "from": 1762,
+   "to": 1878,
+   "seat": {
+    "name": "Zubarah",
+    "lat": 25.98,
+    "lon": 51.03
+   },
+   "reach_km": 40,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Zubarah",
+   "confidence": "moderate",
+   "note": "Utub (Al Khalifa, Al Jalahma) pearling port on NW Qatar; base for the 1783 conquest of Bahrain; destroyed 1878 by the Al Thani."
+  },
+  {
+   "name": "Bahrain (Al Khalifa)",
+   "from": 1783,
+   "to": 1971,
+   "seat": {
+    "name": "Manama / Muharraq",
+    "lat": 26.24,
+    "lon": 50.61
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1820,
+     "to": 1971,
+     "name": "British Empire (treaty)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/History_of_Bahrain",
+   "confidence": "high",
+   "note": "Island archipelago; also claimed NW Qatar (Zubarah) until 1868. British protection formalised 1861/1880/1892."
+  },
+  {
+   "name": "Bahrain under foreign rule",
+   "from": 1400,
+   "to": 1783,
+   "seat": {
+    "name": "Bilad al-Qadim",
+    "lat": 26.21,
+    "lon": 50.54
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1487,
+     "name": "Kingdom of Hormuz"
+    },
+    {
+     "from": 1487,
+     "to": 1521,
+     "name": "Jabrid Sultanate"
+    },
+    {
+     "from": 1521,
+     "to": 1602,
+     "name": "Portuguese Empire (via Hormuz)"
+    },
+    {
+     "from": 1602,
+     "to": 1717,
+     "name": "Safavid Persia"
+    },
+    {
+     "from": 1717,
+     "to": 1736,
+     "name": "Oman (Ya'rubid)"
+    },
+    {
+     "from": 1736,
+     "to": 1783,
+     "name": "Persia (Afsharid/Zand, via Bushehr)"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/History_of_Bahrain",
+   "confidence": "moderate",
+   "note": "Use for the archipelago before Al Khalifa conquest."
+  },
+  {
+   "name": "Qatar (Al Thani)",
+   "from": 1868,
+   "to": 1971,
+   "seat": {
+    "name": "Doha",
+    "lat": 25.29,
+    "lon": 51.53
+   },
+   "extent": [
+    [
+     26.15,
+     51.2
+    ],
+    [
+     25.6,
+     51.62
+    ],
+    [
+     24.6,
+     51.5
+    ],
+    [
+     24.55,
+     50.8
+    ],
+    [
+     25.6,
+     50.75
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1871,
+     "to": 1913,
+     "name": "Ottoman Empire"
+    },
+    {
+     "from": 1916,
+     "to": 1971,
+     "name": "British Empire"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/History_of_Qatar",
+   "confidence": "high",
+   "note": "Before 1868 the peninsula's towns were under Bahraini (Al Khalifa) nominal authority and local tribes (Al Musallam, Al Bin Ali)."
+  },
+  {
+   "name": "Anazzah confederation",
+   "aliases": [
+    "Anizah",
+    "Ruwala",
+    "Fid'an",
+    "Sba'a",
+    "Amarat"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Khaybar region (early) / Syrian desert",
+    "lat": 31.5,
+    "lon": 39.5
+   },
+   "extent": [
+    [
+     33.5,
+     37.5
+    ],
+    [
+     33.0,
+     41.0
+    ],
+    [
+     30.5,
+     42.0
+    ],
+    [
+     28.0,
+     42.0
+    ],
+    [
+     27.5,
+     39.0
+    ],
+    [
+     30.0,
+     37.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1650,
+     "seat": {
+      "name": "Khaybar",
+      "lat": 25.7,
+      "lon": 39.29
+     },
+     "extent": [
+      [
+       27.5,
+       37.5
+      ],
+      [
+       27.8,
+       41.0
+      ],
+      [
+       25.0,
+       42.5
+      ],
+      [
+       24.0,
+       40.0
+      ],
+      [
+       25.5,
+       37.8
+      ]
+     ]
+    },
+    {
+     "from": 1650,
+     "to": 1900,
+     "seat": {
+      "name": "al-Jawf (Ruwala range)",
+      "lat": 29.81,
+      "lon": 39.87
+     },
+     "extent": [
+      [
+       33.5,
+       37.5
+      ],
+      [
+       33.0,
+       41.0
+      ],
+      [
+       30.5,
+       42.0
+      ],
+      [
+       28.0,
+       42.0
+      ],
+      [
+       27.5,
+       39.0
+      ],
+      [
+       30.0,
+       37.0
+      ]
+     ]
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Anazzah",
+   "confidence": "low",
+   "note": "Great camel-herding confederation; migrated from Khaybar/northern Hejaz into the Syrian desert in 17th-18th c. Al Saud claim Anazzah descent."
+  },
+  {
+   "name": "Shammar confederation (Jazira branch)",
+   "from": 1790,
+   "to": 1900,
+   "seat": {
+    "name": "Jazira steppe",
+    "lat": 35.5,
+    "lon": 42.0
+   },
+   "extent": [
+    [
+     36.8,
+     40.0
+    ],
+    [
+     36.5,
+     43.0
+    ],
+    [
+     34.3,
+     43.8
+    ],
+    [
+     33.6,
+     42.0
+    ],
+    [
+     35.2,
+     39.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Shammar",
+   "confidence": "low",
+   "note": "Shammar clans (Jarba) who left Najd in the late 18th c. and dominated the Jazira steppe between Euphrates and Tigris; the Najdi Shammar are under the Emirate of Jabal Shammar."
+  },
+  {
+   "name": "Mutayr",
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "al-Artawiyah area",
+    "lat": 26.5,
+    "lon": 45.3
+   },
+   "extent": [
+    [
+     28.8,
+     44.0
+    ],
+    [
+     28.7,
+     47.0
+    ],
+    [
+     27.0,
+     47.5
+    ],
+    [
+     25.8,
+     45.5
+    ],
+    [
+     26.5,
+     43.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Mutayr",
+   "confidence": "low",
+   "note": "Camel-herding tribe ranging between Qassim and the Kuwait hinterland (dirah from 18th c.)."
+  },
+  {
+   "name": "Utaybah",
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Upper Najd ('Aliya)",
+    "lat": 23.8,
+    "lon": 43.0
+   },
+   "extent": [
+    [
+     25.5,
+     40.5
+    ],
+    [
+     25.3,
+     44.5
+    ],
+    [
+     23.0,
+     45.5
+    ],
+    [
+     21.0,
+     43.5
+    ],
+    [
+     21.8,
+     40.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Otaibah",
+   "confidence": "low",
+   "note": "Large confederation of the Najd-Hejaz borderland (between Ta'if and Riyadh)."
+  },
+  {
+   "name": "Harb",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Wadi al-Safra",
+    "lat": 23.9,
+    "lon": 39.2
+   },
+   "extent": [
+    [
+     25.5,
+     38.5
+    ],
+    [
+     25.8,
+     40.5
+    ],
+    [
+     24.5,
+     42.0
+    ],
+    [
+     22.8,
+     40.5
+    ],
+    [
+     23.3,
+     38.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Harb_(tribe)",
+   "confidence": "low",
+   "note": "Controlled the Mecca-Medina pilgrim road (received sharifian/Ottoman subsidies); later also in Qassim."
+  },
+  {
+   "name": "Al Murrah",
+   "from": 1500,
+   "to": 1900,
+   "seat": {
+    "name": "Jabrin oasis",
+    "lat": 23.27,
+    "lon": 49.03
+   },
+   "extent": [
+    [
+     24.0,
+     49.0
+    ],
+    [
+     23.5,
+     51.0
+    ],
+    [
+     20.5,
+     51.5
+    ],
+    [
+     19.5,
+     48.5
+    ],
+    [
+     21.5,
+     47.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Al_Murrah",
+   "confidence": "low",
+   "note": "Nomads of the northern Rub' al-Khali and Jabrin."
+  },
+  {
+   "name": "Al Ajman (tribe)",
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "al-Hasa hinterland",
+    "lat": 26.3,
+    "lon": 48.3
+   },
+   "extent": [
+    [
+     28.0,
+     46.5
+    ],
+    [
+     27.5,
+     48.5
+    ],
+    [
+     26.0,
+     49.3
+    ],
+    [
+     25.0,
+     48.0
+    ],
+    [
+     26.3,
+     46.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Ajman_(tribe)",
+   "confidence": "low",
+   "note": "Yam-descended tribe of the eastern Najd/al-Hasa steppe."
+  },
+  {
+   "name": "Dawasir",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Wadi ad-Dawasir (al-Sulayyil)",
+    "lat": 20.46,
+    "lon": 45.57
+   },
+   "reach_km": 150,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Dawasir",
+   "confidence": "low",
+   "note": "Settled and nomadic tribe of Wadi ad-Dawasir and al-Aflaj."
+  },
+  {
+   "name": "Qahtan (tribe)",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Tathlith",
+    "lat": 19.53,
+    "lon": 43.51
+   },
+   "extent": [
+    [
+     21.5,
+     43.0
+    ],
+    [
+     21.0,
+     45.5
+    ],
+    [
+     19.0,
+     45.5
+    ],
+    [
+     18.3,
+     43.8
+    ],
+    [
+     19.8,
+     42.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Qahtan_(tribe)",
+   "confidence": "low",
+   "note": "Southern Najd and eastern Asir; parts moved to central Najd in the 19th c."
+  },
+  {
+   "name": "Huwaitat",
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Ma'an / Aqaba hinterland",
+    "lat": 29.5,
+    "lon": 35.6
+   },
+   "extent": [
+    [
+     30.8,
+     35.2
+    ],
+    [
+     30.5,
+     36.8
+    ],
+    [
+     28.5,
+     37.3
+    ],
+    [
+     27.0,
+     36.5
+    ],
+    [
+     28.0,
+     35.0
+    ],
+    [
+     29.5,
+     34.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Howeitat",
+   "confidence": "low",
+   "note": "Northern Hejaz, Hisma and southern Transjordan; nominally Ottoman."
+  },
+  {
+   "name": "Dhafir",
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Batin / Hafar al-Batin",
+    "lat": 28.43,
+    "lon": 45.96
+   },
+   "reach_km": 150,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Al-Dhafeer",
+   "confidence": "low",
+   "note": "Steppe between Kuwait, Zubair and Najd; allied variously with Muntafiq and Saudis."
+  },
+  {
+   "name": "Rasulid Sultanate",
+   "aliases": [
+    "Rasulids"
+   ],
+   "from": 1229,
+   "to": 1454,
+   "seat": {
+    "name": "Ta'izz",
+    "lat": 13.58,
+    "lon": 44.02
+   },
+   "extent": [
+    [
+     16.8,
+     42.7
+    ],
+    [
+     16.0,
+     44.0
+    ],
+    [
+     14.8,
+     45.3
+    ],
+    [
+     13.2,
+     45.4
+    ],
+    [
+     12.7,
+     43.5
+    ],
+    [
+     14.5,
+     43.0
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Rasulid_dynasty",
+   "confidence": "high",
+   "note": "Lowland and southern Yemen (Tihama, Ta'izz, Ibb, Aden); Zabid winter capital; northern highlands under the Zaydi imams."
+  },
+  {
+   "name": "Tahirid Sultanate",
+   "aliases": [
+    "Banu Tahir"
+   ],
+   "from": 1454,
+   "to": 1517,
+   "seat": {
+    "name": "al-Miqranah / Rada'",
+    "lat": 14.42,
+    "lon": 44.84
+   },
+   "extent": [
+    [
+     16.5,
+     42.7
+    ],
+    [
+     15.7,
+     44.3
+    ],
+    [
+     14.8,
+     45.5
+    ],
+    [
+     13.2,
+     45.4
+    ],
+    [
+     12.7,
+     43.5
+    ],
+    [
+     14.5,
+     43.0
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Tahirids_(Yemen)",
+   "confidence": "moderate",
+   "note": "Successors of the Rasulids (Zabid, Aden, Ta'izz, Rada'); overthrown by the Mamluk expedition 1517; remnant in Aden until 1538."
+  },
+  {
+   "name": "Zaydi Imamate of Yemen (pre-Qasimid)",
+   "from": 897,
+   "to": 1597,
+   "seat": {
+    "name": "Sa'dah",
+    "lat": 16.94,
+    "lon": 43.76
+   },
+   "extent": [
+    [
+     17.6,
+     43.2
+    ],
+    [
+     17.3,
+     44.5
+    ],
+    [
+     15.6,
+     44.6
+    ],
+    [
+     15.2,
+     43.7
+    ],
+    [
+     16.3,
+     43.2
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Imams_of_Yemen",
+   "confidence": "low",
+   "note": "Rival Zaydi imams (e.g. al-Mahdi Ahmad, Sharaf al-Din line at Thula/Kawkaban 1506-1567) held the northern highlands, Sanaa intermittently. Seat moved (Sa'dah, Thula, Sanaa)."
+  },
+  {
+   "name": "Yemen Eyalet (Ottoman, first period)",
+   "from": 1538,
+   "to": 1635,
+   "seat": {
+    "name": "Zabid / Sanaa",
+    "lat": 15.35,
+    "lon": 44.21
+   },
+   "extent": [
+    [
+     16.8,
+     42.7
+    ],
+    [
+     16.6,
+     44.4
+    ],
+    [
+     15.0,
+     45.2
+    ],
+    [
+     13.2,
+     45.4
+    ],
+    [
+     12.7,
+     43.5
+    ],
+    [
+     14.5,
+     43.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1538,
+     "to": 1635,
+     "name": "Ottoman Empire"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Yemen_Eyalet",
+   "confidence": "high",
+   "note": "Ottoman Yemen 1538-1635 (highlands only after 1547, lost progressively to the Qasimids from 1597)."
+  },
+  {
+   "name": "Yemen Vilayet (Ottoman, second period)",
+   "from": 1849,
+   "to": 1918,
+   "seat": {
+    "name": "Sanaa",
+    "lat": 15.35,
+    "lon": 44.21
+   },
+   "extent": [
+    [
+     16.8,
+     42.7
+    ],
+    [
+     16.6,
+     44.4
+    ],
+    [
+     15.0,
+     45.2
+    ],
+    [
+     13.6,
+     45.0
+    ],
+    [
+     12.9,
+     43.5
+    ],
+    [
+     14.5,
+     43.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1849,
+     "to": 1918,
+     "name": "Ottoman Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1849,
+     "to": 1872,
+     "seat": {
+      "name": "Hodeidah",
+      "lat": 14.8,
+      "lon": 42.95
+     },
+     "extent": [
+      [
+       16.8,
+       42.7
+      ],
+      [
+       16.5,
+       43.3
+      ],
+      [
+       14.5,
+       43.4
+      ],
+      [
+       13.4,
+       43.3
+      ],
+      [
+       14.8,
+       42.8
+      ]
+     ]
+    },
+    {
+     "from": 1872,
+     "to": 1918,
+     "seat": {
+      "name": "Sanaa",
+      "lat": 15.35,
+      "lon": 44.21
+     },
+     "extent": [
+      [
+       16.8,
+       42.7
+      ],
+      [
+       16.6,
+       44.4
+      ],
+      [
+       15.0,
+       45.2
+      ],
+      [
+       13.6,
+       45.0
+      ],
+      [
+       12.9,
+       43.5
+      ],
+      [
+       14.5,
+       43.0
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Yemen_Vilayet",
+   "confidence": "high",
+   "note": "Tihama from 1849, Sanaa and highlands from 1872; northern Zaydi highlands under Hamid al-Din imams in revolt from 1890s."
+  },
+  {
+   "name": "Qasimid Imamate of Yemen",
+   "aliases": [
+    "Zaydi Imamate",
+    "Imamate of Sanaa"
+   ],
+   "from": 1597,
+   "to": 1872,
+   "seat": {
+    "name": "Sanaa",
+    "lat": 15.35,
+    "lon": 44.21
+   },
+   "extent": [
+    [
+     17.6,
+     42.7
+    ],
+    [
+     17.2,
+     45.0
+    ],
+    [
+     15.5,
+     45.6
+    ],
+    [
+     13.3,
+     45.6
+    ],
+    [
+     12.7,
+     43.5
+    ],
+    [
+     15.0,
+     42.8
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1597,
+     "to": 1636,
+     "seat": {
+      "name": "Shahara",
+      "lat": 16.18,
+      "lon": 43.7
+     },
+     "extent": [
+      [
+       17.6,
+       43.2
+      ],
+      [
+       17.3,
+       44.6
+      ],
+      [
+       15.4,
+       44.6
+      ],
+      [
+       15.2,
+       43.6
+      ],
+      [
+       16.3,
+       43.2
+      ]
+     ]
+    },
+    {
+     "from": 1636,
+     "to": 1658,
+     "seat": {
+      "name": "Sanaa",
+      "lat": 15.35,
+      "lon": 44.21
+     },
+     "extent": [
+      [
+       17.6,
+       42.7
+      ],
+      [
+       17.2,
+       45.0
+      ],
+      [
+       15.5,
+       45.6
+      ],
+      [
+       13.3,
+       45.6
+      ],
+      [
+       12.7,
+       43.5
+      ],
+      [
+       15.0,
+       42.8
+      ]
+     ]
+    },
+    {
+     "from": 1658,
+     "to": 1705,
+     "seat": {
+      "name": "Sanaa / Dawran",
+      "lat": 15.35,
+      "lon": 44.21
+     },
+     "extent": [
+      [
+       17.6,
+       42.7
+      ],
+      [
+       17.4,
+       45.0
+      ],
+      [
+       16.5,
+       49.5
+      ],
+      [
+       14.7,
+       49.5
+      ],
+      [
+       13.0,
+       45.5
+      ],
+      [
+       12.7,
+       43.5
+      ],
+      [
+       15.0,
+       42.8
+      ]
+     ]
+    },
+    {
+     "from": 1705,
+     "to": 1849,
+     "seat": {
+      "name": "al-Mawahib / Sanaa",
+      "lat": 14.55,
+      "lon": 44.4
+     },
+     "extent": [
+      [
+       17.0,
+       42.8
+      ],
+      [
+       16.5,
+       44.8
+      ],
+      [
+       14.8,
+       45.0
+      ],
+      [
+       13.5,
+       44.2
+      ],
+      [
+       14.5,
+       43.0
+      ]
+     ]
+    },
+    {
+     "from": 1849,
+     "to": 1872,
+     "seat": {
+      "name": "Sanaa",
+      "lat": 15.35,
+      "lon": 44.21
+     },
+     "extent": [
+      [
+       16.2,
+       43.6
+      ],
+      [
+       16.0,
+       44.6
+      ],
+      [
+       15.0,
+       44.6
+      ],
+      [
+       14.9,
+       43.8
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Qasimid_State",
+   "confidence": "high",
+   "note": "Expelled the Ottomans 1635/36; at peak (1658-c.1700) ruled Hadramawt and Aden; lost the south to Lahej and Yafa after 1728, Tihama to the Ottomans 1849, Sanaa 1872. Zaydi imamate revived in the northern highlands 1890s-1918 (Hamid al-Din) under Ottoman rule."
+  },
+  {
+   "name": "Sharifate of Abu Arish",
+   "aliases": [
+    "Khayrati sharifs",
+    "al-Mikhlaf al-Sulaymani"
+   ],
+   "from": 1600,
+   "to": 1830,
+   "seat": {
+    "name": "Abu Arish",
+    "lat": 16.97,
+    "lon": 42.83
+   },
+   "reach_km": 80,
+   "overlord": [
+    {
+     "from": 1636,
+     "to": 1720,
+     "name": "Qasimid Imamate of Yemen"
+    },
+    {
+     "from": 1803,
+     "to": 1818,
+     "name": "Emirate of Diriyah"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Abu_Arish",
+   "confidence": "low",
+   "note": "Sharifs of the Tihama coast north of Hodeidah (Jizan); autonomous from the Zaydi imams in the 18th c., briefly great under Hamud Abu Mismar (1801-1818); then Egyptian/Ottoman."
+  },
+  {
+   "name": "Sultanate of Lahej",
+   "aliases": [
+    "Abdali Sultanate"
+   ],
+   "from": 1728,
+   "to": 1967,
+   "seat": {
+    "name": "Lahij (al-Hawtah)",
+    "lat": 13.05,
+    "lon": 44.88
+   },
+   "extent": [
+    [
+     13.35,
+     44.6
+    ],
+    [
+     13.25,
+     45.05
+    ],
+    [
+     12.82,
+     45.05
+    ],
+    [
+     12.75,
+     44.85
+    ],
+    [
+     12.95,
+     44.55
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1839,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Lahej",
+   "confidence": "high",
+   "note": "Broke from the Zaydi imams 1728; held Aden until British seizure 1839."
+  },
+  {
+   "name": "Aden Settlement (British)",
+   "from": 1839,
+   "to": 1967,
+   "seat": {
+    "name": "Aden (Crater)",
+    "lat": 12.78,
+    "lon": 45.04
+   },
+   "reach_km": 12,
+   "overlord": [
+    {
+     "from": 1839,
+     "to": 1937,
+     "name": "British India"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Colony_of_Aden",
+   "confidence": "high",
+   "note": "Taken from Lahej 1839; port and hinterland enclave."
+  },
+  {
+   "name": "Fadhli Sultanate",
+   "from": 1670,
+   "to": 1967,
+   "seat": {
+    "name": "Shuqra",
+    "lat": 13.35,
+    "lon": 45.7
+   },
+   "extent": [
+    [
+     13.6,
+     45.2
+    ],
+    [
+     13.7,
+     46.0
+    ],
+    [
+     13.35,
+     46.2
+    ],
+    [
+     13.05,
+     45.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1888,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Fadhli_Sultanate",
+   "confidence": "moderate",
+   "note": "Abyan coast; seat later Zinjibar. Founding date approximate."
+  },
+  {
+   "name": "Lower Yafa Sultanate",
+   "aliases": [
+    "Bani Qasid",
+    "Afifi sultans"
+   ],
+   "from": 1700,
+   "to": 1967,
+   "seat": {
+    "name": "Ja'ar",
+    "lat": 13.22,
+    "lon": 45.31
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1895,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Lower_Yafa",
+   "confidence": "low",
+   "note": "Yafa'i tribes threw off Zaydi rule c.1700-1730; early seat al-Qara in the Yafa hills; capital Ja'ar in the 19th-20th c."
+  },
+  {
+   "name": "Upper Yafa Sultanate",
+   "from": 1700,
+   "to": 1967,
+   "seat": {
+    "name": "Mahjaba",
+    "lat": 13.95,
+    "lon": 45.55
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1903,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Upper_Yafa",
+   "confidence": "low",
+   "note": "Confederation of Yafa'i sheikhdoms (Mausatta, Dhubi, Hadrami, Maflahi, Dhanbi) under the Harharah sultans."
+  },
+  {
+   "name": "Upper Aulaqi Sultanate",
+   "from": 1700,
+   "to": 1967,
+   "seat": {
+    "name": "Nisab",
+    "lat": 14.53,
+    "lon": 46.33
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1903,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Upper_Aulaqi_Sultanate",
+   "confidence": "low",
+   "note": "Awlaqi tribal sultanate; also Upper Aulaqi Sheikhdom (Said) nearby."
+  },
+  {
+   "name": "Lower Aulaqi Sultanate",
+   "from": 1700,
+   "to": 1967,
+   "seat": {
+    "name": "Ahwar",
+    "lat": 13.52,
+    "lon": 46.71
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1888,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Lower_Aulaqi_Sultanate",
+   "confidence": "low"
+  },
+  {
+   "name": "Wahidi Sultanates",
+   "from": 1700,
+   "to": 1967,
+   "seat": {
+    "name": "Balhaf / Habban",
+    "lat": 14.0,
+    "lon": 48.18
+   },
+   "extent": [
+    [
+     14.6,
+     47.0
+    ],
+    [
+     14.6,
+     47.9
+    ],
+    [
+     14.1,
+     48.5
+    ],
+    [
+     13.9,
+     48.0
+    ],
+    [
+     13.8,
+     47.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1888,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Wahidi_Balhaf",
+   "confidence": "low",
+   "note": "Wahidi sultanates of Balhaf, Azzan, Bir Ali and Habban (one family, several branches)."
+  },
+  {
+   "name": "Haushabi Sultanate",
+   "from": 1700,
+   "to": 1967,
+   "seat": {
+    "name": "al-Musaymir",
+    "lat": 13.43,
+    "lon": 44.62
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1839,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Haushabi",
+   "confidence": "low"
+  },
+  {
+   "name": "Emirate of Dhala (Amiri)",
+   "aliases": [
+    "Amiri"
+   ],
+   "from": 1700,
+   "to": 1967,
+   "seat": {
+    "name": "al-Dhala",
+    "lat": 13.7,
+    "lon": 44.73
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1880,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Dhala",
+   "confidence": "low"
+  },
+  {
+   "name": "Audhali Sultanate",
+   "from": 1700,
+   "to": 1967,
+   "seat": {
+    "name": "Zara / Lawdar",
+    "lat": 13.88,
+    "lon": 45.87
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1914,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Audhali_Sultanate",
+   "confidence": "low"
+  },
+  {
+   "name": "Emirate of Beihan",
+   "aliases": [
+    "Bayhan"
+   ],
+   "from": 1680,
+   "to": 1967,
+   "seat": {
+    "name": "Beihan (Harib)",
+    "lat": 14.8,
+    "lon": 45.72
+   },
+   "reach_km": 35,
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Beihan",
+   "confidence": "low"
+  },
+  {
+   "name": "Kathiri Sultanate",
+   "from": 1395,
+   "to": 1967,
+   "seat": {
+    "name": "Seiyun",
+    "lat": 15.94,
+    "lon": 48.79
+   },
+   "extent": [
+    [
+     16.5,
+     47.8
+    ],
+    [
+     16.3,
+     50.0
+    ],
+    [
+     14.9,
+     50.0
+    ],
+    [
+     14.5,
+     49.0
+    ],
+    [
+     14.9,
+     48.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1658,
+     "to": 1705,
+     "name": "Qasimid Imamate of Yemen"
+    },
+    {
+     "from": 1888,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1730,
+     "extent": [
+      [
+       16.5,
+       47.8
+      ],
+      [
+       16.3,
+       50.0
+      ],
+      [
+       14.9,
+       50.0
+      ],
+      [
+       14.5,
+       49.0
+      ],
+      [
+       14.9,
+       48.0
+      ]
+     ]
+    },
+    {
+     "from": 1730,
+     "to": 1858,
+     "extent": [
+      [
+       16.3,
+       48.3
+      ],
+      [
+       16.2,
+       49.6
+      ],
+      [
+       15.4,
+       49.6
+      ],
+      [
+       15.3,
+       48.4
+      ]
+     ]
+    },
+    {
+     "from": 1858,
+     "to": 1967,
+     "extent": [
+      [
+       16.15,
+       48.55
+      ],
+      [
+       16.15,
+       49.3
+      ],
+      [
+       15.75,
+       49.3
+      ],
+      [
+       15.75,
+       48.55
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Kathiri",
+   "confidence": "moderate",
+   "note": "Ruled Wadi Hadramawt with Ash-Shihr (from 1460s) and intermittently Dhofar (seized 1414); first state collapsed 1730 amid Yafa'i incursions; revived 1803; after 1858-81 confined to Seiyun-Tarim by the Qu'aiti."
+  },
+  {
+   "name": "Qu'aiti Sultanate",
+   "from": 1858,
+   "to": 1967,
+   "seat": {
+    "name": "Shibam",
+    "lat": 15.93,
+    "lon": 48.63
+   },
+   "extent": [
+    [
+     15.9,
+     47.7
+    ],
+    [
+     16.0,
+     48.7
+    ],
+    [
+     15.4,
+     49.6
+    ],
+    [
+     14.9,
+     50.3
+    ],
+    [
+     14.4,
+     49.5
+    ],
+    [
+     14.0,
+     48.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1888,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1858,
+     "to": 1881,
+     "seat": {
+      "name": "Shibam / Ash-Shihr",
+      "lat": 15.93,
+      "lon": 48.63
+     },
+     "extent": [
+      [
+       15.95,
+       48.3
+      ],
+      [
+       15.95,
+       48.9
+      ],
+      [
+       14.6,
+       49.8
+      ],
+      [
+       14.6,
+       49.4
+      ]
+     ]
+    },
+    {
+     "from": 1881,
+     "to": 1967,
+     "seat": {
+      "name": "Mukalla",
+      "lat": 14.54,
+      "lon": 49.13
+     },
+     "extent": [
+      [
+       15.9,
+       47.7
+      ],
+      [
+       16.0,
+       48.7
+      ],
+      [
+       15.4,
+       49.6
+      ],
+      [
+       14.9,
+       50.3
+      ],
+      [
+       14.4,
+       49.5
+      ],
+      [
+       14.0,
+       48.2
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Qu%27aiti",
+   "confidence": "high",
+   "note": "Yafa'i jamadar family enriched in Hyderabad; took Ash-Shihr 1866 and Mukalla 1881 from the Kasadi."
+  },
+  {
+   "name": "Kasadi Sultanate of Mukalla",
+   "from": 1700,
+   "to": 1881,
+   "seat": {
+    "name": "Mukalla",
+    "lat": 14.54,
+    "lon": 49.13
+   },
+   "reach_km": 40,
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Mukalla",
+   "confidence": "low",
+   "note": "Yafa'i Kasadi naqibs ruled Mukalla port; ousted by the Qu'aiti 1881."
+  },
+  {
+   "name": "Mahra Sultanate of Qishn and Socotra",
+   "aliases": [
+    "Ba Dujana",
+    "Afrari"
+   ],
+   "from": 1432,
+   "to": 1967,
+   "seat": {
+    "name": "Qishn",
+    "lat": 15.43,
+    "lon": 51.68
+   },
+   "extent": [
+    [
+     17.8,
+     51.5
+    ],
+    [
+     16.9,
+     52.4
+    ],
+    [
+     16.6,
+     53.0
+    ],
+    [
+     15.2,
+     52.2
+    ],
+    [
+     15.0,
+     51.0
+    ],
+    [
+     16.4,
+     50.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1886,
+     "to": 1967,
+     "name": "British Empire (Aden Protectorate treaty)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1432,
+     "to": 1495,
+     "seat": {
+      "name": "Ash-Shihr",
+      "lat": 14.76,
+      "lon": 49.6
+     },
+     "extent": [
+      [
+       15.5,
+       49.2
+      ],
+      [
+       15.4,
+       50.5
+      ],
+      [
+       14.9,
+       51.0
+      ],
+      [
+       14.7,
+       49.5
+      ]
+     ]
+    },
+    {
+     "from": 1495,
+     "to": 1967,
+     "seat": {
+      "name": "Qishn",
+      "lat": 15.43,
+      "lon": 51.68
+     },
+     "extent": [
+      [
+       17.8,
+       51.5
+      ],
+      [
+       16.9,
+       52.4
+      ],
+      [
+       16.6,
+       53.0
+      ],
+      [
+       15.2,
+       52.2
+      ],
+      [
+       15.0,
+       51.0
+      ],
+      [
+       16.4,
+       50.5
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Mahra_Sultanate",
+   "confidence": "moderate",
+   "note": "Lost Shihr 1495; thereafter mainland Mahra plus the island of Socotra (seat Hadibu/Tamrida, 12.65N 54.02E), settled c.1480; Portuguese fort on Socotra 1507-11."
+  },
+  {
+   "name": "Nabhani dynasty (Oman)",
+   "from": 1154,
+   "to": 1624,
+   "seat": {
+    "name": "Bahla",
+    "lat": 22.96,
+    "lon": 57.3
+   },
+   "extent": [
+    [
+     24.3,
+     56.2
+    ],
+    [
+     23.8,
+     57.7
+    ],
+    [
+     22.6,
+     58.5
+    ],
+    [
+     21.8,
+     57.8
+    ],
+    [
+     22.4,
+     56.5
+    ],
+    [
+     23.5,
+     55.8
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Nabhani_dynasty",
+   "confidence": "moderate",
+   "note": "Maliks of interior Oman (Bahla, Nizwa) alternating with Ibadi imams; coast under Hormuz then Portugal."
+  },
+  {
+   "name": "Kingdom of Hormuz",
+   "aliases": [
+    "Ormus"
+   ],
+   "from": 1100,
+   "to": 1622,
+   "seat": {
+    "name": "Hormuz Island",
+    "lat": 27.09,
+    "lon": 56.45
+   },
+   "reach_km": 150,
+   "overlord": [
+    {
+     "from": 1515,
+     "to": 1622,
+     "name": "Portuguese Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ormus",
+   "confidence": "moderate",
+   "note": "Maritime kingdom at the Strait; held Omani coastal towns (Qalhat, Muscat, Sohar, Julfar), Bahrain to 1487/1521 and the Persian littoral. Draw as coastal strips; ended by Anglo-Persian capture 1622."
+  },
+  {
+   "name": "Portuguese Muscat and Omani coast",
+   "from": 1507,
+   "to": 1650,
+   "seat": {
+    "name": "Muscat",
+    "lat": 23.61,
+    "lon": 58.59
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1507,
+     "to": 1650,
+     "name": "Portuguese Empire"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Muscat",
+   "confidence": "moderate",
+   "note": "Fortified ports Muscat, Sohar, Qurayyat, Khor Fakkan, Julfar; Muscat taken by the Ya'rubids 1650."
+  },
+  {
+   "name": "Ya'rubid Imamate of Oman",
+   "aliases": [
+    "Yaruba",
+    "Imamate of Oman"
+   ],
+   "from": 1624,
+   "to": 1742,
+   "seat": {
+    "name": "Rustaq",
+    "lat": 23.39,
+    "lon": 57.42
+   },
+   "extent": [
+    [
+     26.3,
+     56.2
+    ],
+    [
+     24.8,
+     56.0
+    ],
+    [
+     23.6,
+     55.5
+    ],
+    [
+     22.0,
+     56.3
+    ],
+    [
+     20.2,
+     57.8
+    ],
+    [
+     22.4,
+     59.8
+    ],
+    [
+     23.7,
+     58.6
+    ],
+    [
+     24.6,
+     56.7
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1624,
+     "to": 1650,
+     "seat": {
+      "name": "Rustaq",
+      "lat": 23.39,
+      "lon": 57.42
+     },
+     "extent": [
+      [
+       24.3,
+       56.0
+      ],
+      [
+       23.5,
+       55.8
+      ],
+      [
+       22.2,
+       56.6
+      ],
+      [
+       22.6,
+       58.4
+      ],
+      [
+       23.5,
+       57.8
+      ]
+     ]
+    },
+    {
+     "from": 1650,
+     "to": 1742,
+     "seat": {
+      "name": "Rustaq / Jabrin / Nizwa",
+      "lat": 23.39,
+      "lon": 57.42
+     },
+     "extent": [
+      [
+       26.3,
+       56.2
+      ],
+      [
+       24.8,
+       56.0
+      ],
+      [
+       23.6,
+       55.5
+      ],
+      [
+       22.0,
+       56.3
+      ],
+      [
+       20.2,
+       57.8
+      ],
+      [
+       22.4,
+       59.8
+      ],
+      [
+       23.7,
+       58.6
+      ],
+      [
+       24.6,
+       56.7
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Yaruba_dynasty",
+   "confidence": "high",
+   "note": "Expelled the Portuguese (Muscat 1650) and built an overseas empire in East Africa (Mombasa 1698, Zanzibar); civil war from 1719 and Persian invasion 1737-44."
+  },
+  {
+   "name": "Muscat and Oman (Al Busaid)",
+   "aliases": [
+    "Sultanate of Muscat",
+    "Omani Empire"
+   ],
+   "from": 1744,
+   "to": 1970,
+   "seat": {
+    "name": "Muscat",
+    "lat": 23.61,
+    "lon": 58.59
+   },
+   "extent": [
+    [
+     26.3,
+     56.2
+    ],
+    [
+     24.8,
+     56.0
+    ],
+    [
+     23.6,
+     55.5
+    ],
+    [
+     22.0,
+     56.3
+    ],
+    [
+     20.2,
+     57.8
+    ],
+    [
+     22.4,
+     59.8
+    ],
+    [
+     23.7,
+     58.6
+    ],
+    [
+     24.6,
+     56.7
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1744,
+     "to": 1784,
+     "seat": {
+      "name": "Rustaq",
+      "lat": 23.39,
+      "lon": 57.42
+     },
+     "extent": [
+      [
+       26.3,
+       56.2
+      ],
+      [
+       24.8,
+       56.0
+      ],
+      [
+       23.6,
+       55.5
+      ],
+      [
+       22.0,
+       56.3
+      ],
+      [
+       20.2,
+       57.8
+      ],
+      [
+       22.4,
+       59.8
+      ],
+      [
+       23.7,
+       58.6
+      ],
+      [
+       24.6,
+       56.7
+      ]
+     ]
+    },
+    {
+     "from": 1784,
+     "to": 1879,
+     "seat": {
+      "name": "Muscat",
+      "lat": 23.61,
+      "lon": 58.59
+     },
+     "extent": [
+      [
+       26.3,
+       56.2
+      ],
+      [
+       24.8,
+       56.0
+      ],
+      [
+       23.6,
+       55.5
+      ],
+      [
+       22.0,
+       56.3
+      ],
+      [
+       20.2,
+       57.8
+      ],
+      [
+       22.4,
+       59.8
+      ],
+      [
+       23.7,
+       58.6
+      ],
+      [
+       24.6,
+       56.7
+      ]
+     ]
+    },
+    {
+     "from": 1879,
+     "to": 1970,
+     "seat": {
+      "name": "Muscat",
+      "lat": 23.61,
+      "lon": 58.59
+     },
+     "extent": [
+      [
+       26.3,
+       56.2
+      ],
+      [
+       24.8,
+       56.0
+      ],
+      [
+       23.6,
+       55.5
+      ],
+      [
+       22.0,
+       55.9
+      ],
+      [
+       19.0,
+       54.7
+      ],
+      [
+       17.3,
+       53.1
+      ],
+      [
+       17.0,
+       55.3
+      ],
+      [
+       20.4,
+       58.8
+      ],
+      [
+       23.7,
+       58.6
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Muscat_and_Oman",
+   "confidence": "high",
+   "note": "Ahmad bin Said; Zanzibar split off 1856/61; Gwadar 1783-1958; Dhofar (Salalah) held from 1829, firmly from 1879. Interior tribes often autonomous (Azzan's imamate 1868-71)."
+  },
+  {
+   "name": "Shihuh of Musandam",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Khasab",
+    "lat": 26.18,
+    "lon": 56.25
+   },
+   "extent": [
+    [
+     26.4,
+     56.2
+    ],
+    [
+     26.3,
+     56.5
+    ],
+    [
+     25.8,
+     56.4
+    ],
+    [
+     25.7,
+     56.1
+    ],
+    [
+     26.0,
+     56.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1650,
+     "to": 1900,
+     "name": "Oman (nominal)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Shihuh",
+   "confidence": "low",
+   "note": "Mountain tribe of the Musandam peninsula."
+  },
+  {
+   "name": "Qawasim Sheikhdom of Sharjah and Ras al-Khaimah",
+   "aliases": [
+    "Qawasim",
+    "Sharjah"
+   ],
+   "from": 1727,
+   "to": 1971,
+   "seat": {
+    "name": "Ras al-Khaimah",
+    "lat": 25.79,
+    "lon": 55.95
+   },
+   "extent": [
+    [
+     26.05,
+     56.08
+    ],
+    [
+     25.6,
+     56.25
+    ],
+    [
+     25.15,
+     56.35
+    ],
+    [
+     24.95,
+     56.1
+    ],
+    [
+     25.2,
+     55.4
+    ],
+    [
+     25.6,
+     55.7
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1820,
+     "to": 1971,
+     "name": "British Empire (Trucial treaties)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1727,
+     "to": 1803,
+     "seat": {
+      "name": "Ras al-Khaimah",
+      "lat": 25.79,
+      "lon": 55.95
+     }
+    },
+    {
+     "from": 1803,
+     "to": 1971,
+     "seat": {
+      "name": "Sharjah",
+      "lat": 25.36,
+      "lon": 55.39
+     },
+     "extent": [
+      [
+       25.45,
+       55.4
+      ],
+      [
+       25.3,
+       55.75
+      ],
+      [
+       25.15,
+       56.35
+      ],
+      [
+       24.95,
+       56.1
+      ],
+      [
+       25.2,
+       55.4
+      ]
+     ]
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Al_Qasimi",
+   "confidence": "moderate",
+   "note": "Maritime power also holding Lingeh on the Persian coast; British campaigns 1809, 1819. Ras al-Khaimah separate 1869-1900 and from 1921; Sharjah phase extent excludes RAK."
+  },
+  {
+   "name": "Ras al-Khaimah (separate sheikhdom)",
+   "from": 1869,
+   "to": 1900,
+   "seat": {
+    "name": "Ras al-Khaimah",
+    "lat": 25.79,
+    "lon": 55.95
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1869,
+     "to": 1900,
+     "name": "British Empire (Trucial treaties)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Ras_Al_Khaimah",
+   "confidence": "moderate",
+   "note": "Separate Qasimi branch 1869-1900, reabsorbed by Sharjah, independent again 1921."
+  },
+  {
+   "name": "Abu Dhabi (Bani Yas)",
+   "aliases": [
+    "Al Nahyan",
+    "Bani Yas"
+   ],
+   "from": 1761,
+   "to": 1971,
+   "seat": {
+    "name": "Abu Dhabi",
+    "lat": 24.47,
+    "lon": 54.37
+   },
+   "extent": [
+    [
+     24.65,
+     51.6
+    ],
+    [
+     24.95,
+     54.6
+    ],
+    [
+     24.35,
+     55.5
+    ],
+    [
+     24.0,
+     55.8
+    ],
+    [
+     22.9,
+     55.2
+    ],
+    [
+     22.6,
+     52.5
+    ],
+    [
+     24.0,
+     51.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1820,
+     "to": 1971,
+     "name": "British Empire (Trucial treaties)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1761,
+     "to": 1793,
+     "seat": {
+      "name": "Liwa oasis",
+      "lat": 23.13,
+      "lon": 53.77
+     }
+    },
+    {
+     "from": 1793,
+     "to": 1971,
+     "seat": {
+      "name": "Abu Dhabi",
+      "lat": 24.47,
+      "lon": 54.37
+     }
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Abu_Dhabi",
+   "confidence": "high",
+   "note": "Bani Yas confederation of Liwa; Abu Dhabi island settled 1761, seat from 1793; Buraimi/al-Ain shared with Oman."
+  },
+  {
+   "name": "Dubai",
+   "from": 1833,
+   "to": 1971,
+   "seat": {
+    "name": "Dubai",
+    "lat": 25.27,
+    "lon": 55.3
+   },
+   "extent": [
+    [
+     25.35,
+     55.15
+    ],
+    [
+     25.27,
+     55.55
+    ],
+    [
+     24.85,
+     55.6
+    ],
+    [
+     24.75,
+     55.05
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1833,
+     "to": 1853,
+     "name": "Abu Dhabi (nominal)"
+    },
+    {
+     "from": 1853,
+     "to": 1971,
+     "name": "British Empire (Trucial treaties)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Dubai",
+   "confidence": "high",
+   "note": "Al Bu Falasah (Al Maktoum) seceded from Abu Dhabi 1833."
+  },
+  {
+   "name": "Ajman",
+   "from": 1816,
+   "to": 1971,
+   "seat": {
+    "name": "Ajman",
+    "lat": 25.41,
+    "lon": 55.44
+   },
+   "reach_km": 8,
+   "overlord": [
+    {
+     "from": 1820,
+     "to": 1971,
+     "name": "British Empire (Trucial treaties)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Ajman",
+   "confidence": "moderate"
+  },
+  {
+   "name": "Umm al-Quwain",
+   "from": 1775,
+   "to": 1971,
+   "seat": {
+    "name": "Umm al-Quwain",
+    "lat": 25.56,
+    "lon": 55.55
+   },
+   "reach_km": 12,
+   "overlord": [
+    {
+     "from": 1820,
+     "to": 1971,
+     "name": "British Empire (Trucial treaties)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Umm_Al_Quwain",
+   "confidence": "moderate"
+  },
+  {
+   "name": "Fujairah (Sharqiyin)",
+   "from": 1879,
+   "to": 1971,
+   "seat": {
+    "name": "Fujairah",
+    "lat": 25.12,
+    "lon": 56.34
+   },
+   "reach_km": 20,
+   "overlord": [
+    {
+     "from": 1879,
+     "to": 1902,
+     "name": "Qawasim Sheikhdom of Sharjah and Ras al-Khaimah (nominal)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Fujairah",
+   "confidence": "moderate",
+   "note": "Sharqiyin tribe on the Batinah/east coast; de facto autonomous from Sharjah from c.1901; British recognition 1952."
+  },
+  {
+   "name": "Tuat-Gourara-Tidikelt oases",
+   "aliases": [
+    "Touat",
+    "Gourara",
+    "Tidikelt",
+    "In Salah"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Tamentit",
+    "lat": 27.77,
+    "lon": -0.27
+   },
+   "extent": [
+    [
+     29.6,
+     -0.5
+    ],
+    [
+     29.4,
+     1.0
+    ],
+    [
+     27.6,
+     0.6
+    ],
+    [
+     27.4,
+     2.6
+    ],
+    [
+     26.9,
+     2.6
+    ],
+    [
+     26.6,
+     0.0
+    ],
+    [
+     27.6,
+     -0.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1583,
+     "to": 1610,
+     "name": "Saadi Morocco"
+    },
+    {
+     "from": 1645,
+     "to": 1800,
+     "name": "Alaouite Morocco (intermittent)"
+    },
+    {
+     "from": 1892,
+     "to": 1900,
+     "name": "Alaouite Morocco"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Touat",
+   "confidence": "moderate",
+   "note": "Ksour communities under councils (jama'a) and local caids; Tamentit main ksar (Gourara seat Timimoun 29.26N 0.24E; Tidikelt seat In Salah 27.20N 2.47E). Also paid tribute to Algiers until 1830. French occupation 1899-1901."
+  },
+  {
+   "name": "Mzab confederation",
+   "aliases": [
+    "Pentapolis of the Mzab",
+    "Ibadi Mzab"
+   ],
+   "from": 1012,
+   "to": 1882,
+   "seat": {
+    "name": "Ghardaia",
+    "lat": 32.49,
+    "lon": 3.67
+   },
+   "extent": [
+    [
+     32.75,
+     3.5
+    ],
+    [
+     32.6,
+     3.95
+    ],
+    [
+     32.3,
+     3.85
+    ],
+    [
+     32.35,
+     3.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1853,
+     "to": 1882,
+     "name": "France (protectorate)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/M%27zab",
+   "confidence": "high",
+   "note": "Ibadi city-league of Ghardaia, Beni Isguen, Melika, Bou Noura, El Atteuf (plus Guerrara and Berriane in the 17th c.); annexed to French Algeria 1882."
+  },
+  {
+   "name": "Sultanate of Ouargla",
+   "from": 1400,
+   "to": 1872,
+   "seat": {
+    "name": "Ouargla",
+    "lat": 31.95,
+    "lon": 5.33
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1552,
+     "to": 1830,
+     "name": "Regency of Algiers (tribute)"
+    },
+    {
+     "from": 1853,
+     "to": 1872,
+     "name": "France"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Ouargla",
+   "confidence": "low",
+   "note": "Oasis town with its own sultans (often of disputed authority) between Mzab and Touggourt; French occupation 1853, definitive 1872."
+  },
+  {
+   "name": "Sultanate of Touggourt",
+   "aliases": [
+    "Banu Djellab",
+    "Oued Righ"
+   ],
+   "from": 1414,
+   "to": 1854,
+   "seat": {
+    "name": "Touggourt",
+    "lat": 33.1,
+    "lon": 6.07
+   },
+   "extent": [
+    [
+     34.0,
+     5.9
+    ],
+    [
+     33.6,
+     6.9
+    ],
+    [
+     33.2,
+     7.0
+    ],
+    [
+     32.9,
+     6.1
+    ],
+    [
+     33.3,
+     5.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1552,
+     "to": 1830,
+     "name": "Regency of Algiers (tribute)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Touggourt",
+   "confidence": "moderate",
+   "note": "Banu Djellab dynasty ruling the Oued Righ oases and often the Souf (El Oued); French 1854."
+  },
+  {
+   "name": "Chaamba confederation",
+   "from": 1500,
+   "to": 1900,
+   "seat": {
+    "name": "Metlili",
+    "lat": 32.27,
+    "lon": 3.63
+   },
+   "extent": [
+    [
+     32.6,
+     2.8
+    ],
+    [
+     32.2,
+     6.0
+    ],
+    [
+     30.5,
+     6.5
+    ],
+    [
+     29.5,
+     4.5
+    ],
+    [
+     30.4,
+     2.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Chaamba",
+   "confidence": "low",
+   "note": "Arab nomads of the northern Algerian Sahara (Metlili, Ouargla, El Golea); allies of France from the 1850s."
+  },
+  {
+   "name": "Kel Ahaggar",
+   "aliases": [
+    "Hoggar Tuareg"
+   ],
+   "from": 1650,
+   "to": 1905,
+   "seat": {
+    "name": "Tamanrasset / Idélès",
+    "lat": 22.79,
+    "lon": 5.52
+   },
+   "extent": [
+    [
+     25.5,
+     3.0
+    ],
+    [
+     25.0,
+     7.0
+    ],
+    [
+     22.0,
+     8.5
+    ],
+    [
+     20.0,
+     7.0
+    ],
+    [
+     20.5,
+     3.5
+    ],
+    [
+     23.0,
+     2.0
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Kel_Ahaggar",
+   "confidence": "moderate",
+   "note": "Tuareg drum-group (ettebel) confederation under an amenokal (Kel Ghela); submitted to France 1905."
+  },
+  {
+   "name": "Kel Ajjer",
+   "from": 1650,
+   "to": 1913,
+   "seat": {
+    "name": "Ghat / Djanet",
+    "lat": 24.96,
+    "lon": 10.17
+   },
+   "extent": [
+    [
+     28.0,
+     7.5
+    ],
+    [
+     27.0,
+     11.0
+    ],
+    [
+     24.5,
+     11.5
+    ],
+    [
+     23.5,
+     10.0
+    ],
+    [
+     24.5,
+     7.5
+    ],
+    [
+     26.5,
+     6.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1875,
+     "to": 1913,
+     "name": "Ottoman Empire (Ghat garrison)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Kel_Ajjer",
+   "confidence": "moderate",
+   "note": "Tuareg confederation of the Tassili n'Ajjer; Ghat (Libya) and Djanet (Algeria)."
+  },
+  {
+   "name": "Ghadames",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Ghadames",
+    "lat": 30.13,
+    "lon": 9.5
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1551,
+     "name": "Hafsid Sultanate (nominal)"
+    },
+    {
+     "from": 1551,
+     "to": 1900,
+     "name": "Ottoman Tripolitania"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Ghadames",
+   "confidence": "moderate",
+   "note": "Caravan oasis governed by its own notables under Tunis/Tripoli suzerainty."
+  },
+  {
+   "name": "Fezzan (Bornu suzerainty and local sheikhs)",
+   "from": 1400,
+   "to": 1550,
+   "seat": {
+    "name": "Traghan / Murzuk",
+    "lat": 25.93,
+    "lon": 14.43
+   },
+   "extent": [
+    [
+     27.8,
+     12.0
+    ],
+    [
+     27.3,
+     15.5
+    ],
+    [
+     25.6,
+     16.0
+    ],
+    [
+     24.4,
+     14.5
+    ],
+    [
+     24.8,
+     11.5
+    ],
+    [
+     26.5,
+     10.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1500,
+     "name": "Kanem-Bornu (nominal)"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Fezzan",
+   "confidence": "low",
+   "note": "Between the Kanem conquest (13th c.) and the Awlad Muhammad; local Arab/Berber sheikhs at Traghan and Zawila."
+  },
+  {
+   "name": "Awlad Muhammad of Fezzan",
+   "aliases": [
+    "Sultanate of Fezzan"
+   ],
+   "from": 1550,
+   "to": 1813,
+   "seat": {
+    "name": "Murzuk",
+    "lat": 25.92,
+    "lon": 13.92
+   },
+   "extent": [
+    [
+     27.8,
+     12.0
+    ],
+    [
+     27.3,
+     15.5
+    ],
+    [
+     25.6,
+     16.0
+    ],
+    [
+     24.4,
+     14.5
+    ],
+    [
+     24.8,
+     11.5
+    ],
+    [
+     26.5,
+     10.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1577,
+     "to": 1813,
+     "name": "Ottoman Tripolitania (tribute)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Awlad_Muhammad",
+   "confidence": "moderate",
+   "note": "Moroccan-origin sharifian dynasty at Murzuk; paid tribute to Tripoli; destroyed by the Karamanli 1811-13."
+  },
+  {
+   "name": "Awlad Sulayman",
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Sirte desert / Kanem",
+    "lat": 30.0,
+    "lon": 16.5
+   },
+   "extent": [
+    [
+     31.2,
+     15.0
+    ],
+    [
+     30.8,
+     19.0
+    ],
+    [
+     28.5,
+     19.5
+    ],
+    [
+     27.0,
+     16.5
+    ],
+    [
+     28.5,
+     14.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1700,
+     "to": 1842,
+     "seat": {
+      "name": "Sirte desert",
+      "lat": 30.0,
+      "lon": 16.5
+     },
+     "extent": [
+      [
+       31.2,
+       15.0
+      ],
+      [
+       30.8,
+       19.0
+      ],
+      [
+       28.5,
+       19.5
+      ],
+      [
+       27.0,
+       16.5
+      ],
+      [
+       28.5,
+       14.0
+      ]
+     ]
+    },
+    {
+     "from": 1842,
+     "to": 1900,
+     "seat": {
+      "name": "Kanem (Chad)",
+      "lat": 14.6,
+      "lon": 15.0
+     },
+     "extent": [
+      [
+       15.5,
+       13.8
+      ],
+      [
+       15.6,
+       16.0
+      ],
+      [
+       13.8,
+       16.0
+      ],
+      [
+       13.6,
+       14.0
+      ]
+     ]
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Ouled_Slimane_people",
+   "confidence": "low",
+   "note": "Arab tribe dominating the Sirte and Fezzan routes; under Abd al-Jalil Sayf al-Nasr ruled Fezzan c.1831-42; then migrated to Kanem."
+  },
+  {
+   "name": "Senussi Order lands",
+   "aliases": [
+    "Sanusiyya"
+   ],
+   "from": 1843,
+   "to": 1931,
+   "seat": {
+    "name": "Jaghbub",
+    "lat": 29.74,
+    "lon": 24.52
+   },
+   "extent": [
+    [
+     32.8,
+     20.0
+    ],
+    [
+     32.5,
+     23.0
+    ],
+    [
+     30.0,
+     25.0
+    ],
+    [
+     24.0,
+     25.0
+    ],
+    [
+     22.0,
+     22.5
+    ],
+    [
+     24.5,
+     19.5
+    ],
+    [
+     29.0,
+     19.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1843,
+     "to": 1911,
+     "name": "Ottoman Empire (nominal)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1843,
+     "to": 1856,
+     "seat": {
+      "name": "al-Bayda",
+      "lat": 32.76,
+      "lon": 21.74
+     },
+     "extent": [
+      [
+       32.9,
+       20.5
+      ],
+      [
+       32.8,
+       23.0
+      ],
+      [
+       31.0,
+       23.0
+      ],
+      [
+       31.0,
+       20.5
+      ]
+     ]
+    },
+    {
+     "from": 1856,
+     "to": 1895,
+     "seat": {
+      "name": "Jaghbub",
+      "lat": 29.74,
+      "lon": 24.52
+     },
+     "extent": [
+      [
+       32.8,
+       20.0
+      ],
+      [
+       32.5,
+       23.0
+      ],
+      [
+       30.5,
+       25.0
+      ],
+      [
+       28.0,
+       24.5
+      ],
+      [
+       28.5,
+       20.0
+      ]
+     ]
+    },
+    {
+     "from": 1895,
+     "to": 1931,
+     "seat": {
+      "name": "Kufra (al-Jawf)",
+      "lat": 24.2,
+      "lon": 23.3
+     },
+     "extent": [
+      [
+       32.8,
+       20.0
+      ],
+      [
+       32.5,
+       23.0
+      ],
+      [
+       30.0,
+       25.0
+      ],
+      [
+       24.0,
+       25.0
+      ],
+      [
+       20.0,
+       22.0
+      ],
+      [
+       21.5,
+       18.5
+      ],
+      [
+       24.5,
+       19.5
+      ],
+      [
+       29.0,
+       19.5
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Senussi",
+   "confidence": "moderate",
+   "note": "Sufi order whose zawiya network governed the Cyrenaican interior; moved to Kufra 1895 and Gouro (Chad) 1899; Italian conquest completed 1931."
+  },
+  {
+   "name": "Kufra (Zuwaya)",
+   "from": 1840,
+   "to": 1895,
+   "seat": {
+    "name": "al-Jawf (Kufra)",
+    "lat": 24.2,
+    "lon": 23.3
+   },
+   "reach_km": 120,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kufra",
+   "confidence": "low",
+   "note": "Zuwaya Arabs took the Kufra oases from the Tubu c.1840; became the Senussi capital 1895."
+  },
+  {
+   "name": "Teda of Tibesti",
+   "aliases": [
+    "Tubu",
+    "Derde of Tibesti",
+    "Toubou"
+   ],
+   "from": 1400,
+   "to": 1914,
+   "seat": {
+    "name": "Bardaï",
+    "lat": 21.36,
+    "lon": 17.0
+   },
+   "extent": [
+    [
+     23.5,
+     15.5
+    ],
+    [
+     23.0,
+     18.5
+    ],
+    [
+     21.0,
+     19.5
+    ],
+    [
+     19.5,
+     18.0
+    ],
+    [
+     20.0,
+     15.5
+    ],
+    [
+     21.8,
+     14.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Toubou_people",
+   "confidence": "moderate",
+   "note": "Teda clans under an elected derde (Tomagra clan); also ranged to Kawar and Kufra. French occupation 1914."
+  },
+  {
+   "name": "Daza of Borkou and Ennedi",
+   "from": 1400,
+   "to": 1913,
+   "seat": {
+    "name": "Faya (Borkou)",
+    "lat": 17.93,
+    "lon": 19.11
+   },
+   "extent": [
+    [
+     19.5,
+     17.0
+    ],
+    [
+     19.0,
+     22.5
+    ],
+    [
+     16.0,
+     23.0
+    ],
+    [
+     15.8,
+     19.5
+    ],
+    [
+     17.0,
+     16.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1650,
+     "to": 1900,
+     "name": "Wadai Sultanate (partial tribute)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Toubou_people",
+   "confidence": "low",
+   "note": "Southern Tubu (Gorane) pastoralists; Senussi zawiyas from 1899; French 1913."
+  },
+  {
+   "name": "Siwa oasis",
+   "from": 1400,
+   "to": 1820,
+   "seat": {
+    "name": "Siwa (Shali)",
+    "lat": 29.2,
+    "lon": 25.52
+   },
+   "reach_km": 40,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Siwa_Oasis",
+   "confidence": "low",
+   "note": "Self-governing Berber oasis under its shaykhs (eastern and western factions) until conquered by Muhammad Ali's Egypt 1820."
+  },
+  {
+   "name": "Alaouite Sharifate of Tafilalt",
+   "from": 1631,
+   "to": 1666,
+   "seat": {
+    "name": "Rissani (Sijilmasa)",
+    "lat": 31.28,
+    "lon": -4.26
+   },
+   "extent": [
+    [
+     32.2,
+     -5.2
+    ],
+    [
+     32.0,
+     -3.4
+    ],
+    [
+     30.8,
+     -3.6
+    ],
+    [
+     30.9,
+     -5.2
+    ]
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Alaouite_dynasty",
+   "confidence": "moderate",
+   "note": "Alaouite sharifs (Moulay Ali al-Sharif, Muhammad ibn Sharif, al-Rashid) ruling Tafilalt before conquering Fez 1666; Tafilalt before 1631 under Saadis and Dila'iyya influence."
+  },
+  {
+   "name": "Zawiya of Dila (Dila'iyya)",
+   "from": 1566,
+   "to": 1668,
+   "seat": {
+    "name": "Dila (near Khenifra)",
+    "lat": 32.65,
+    "lon": -5.7
+   },
+   "extent": [
+    [
+     34.2,
+     -6.3
+    ],
+    [
+     34.0,
+     -4.6
+    ],
+    [
+     32.4,
+     -4.2
+    ],
+    [
+     31.8,
+     -5.6
+    ],
+    [
+     32.6,
+     -6.8
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1566,
+     "to": 1638,
+     "extent": [
+      [
+       33.2,
+       -6.3
+      ],
+      [
+       33.0,
+       -5.0
+      ],
+      [
+       32.2,
+       -5.0
+      ],
+      [
+       32.2,
+       -6.3
+      ]
+     ]
+    },
+    {
+     "from": 1638,
+     "to": 1668,
+     "extent": [
+      [
+       34.2,
+       -6.3
+      ],
+      [
+       34.0,
+       -4.6
+      ],
+      [
+       32.4,
+       -4.2
+      ],
+      [
+       31.8,
+       -5.6
+      ],
+      [
+       32.6,
+       -6.8
+      ]
+     ]
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Zawiya_Dila%27iya",
+   "confidence": "moderate",
+   "note": "Sufi lodge that ruled the Middle Atlas and, 1640s-1660s, Fez, Meknes and Salé; destroyed by al-Rashid 1668."
+  },
+  {
+   "name": "Emirate of Tazerwalt (Iligh)",
+   "aliases": [
+    "Bou Dmia",
+    "Semlalia"
+   ],
+   "from": 1614,
+   "to": 1886,
+   "seat": {
+    "name": "Iligh",
+    "lat": 29.55,
+    "lon": -9.17
+   },
+   "extent": [
+    [
+     30.2,
+     -9.8
+    ],
+    [
+     30.0,
+     -8.6
+    ],
+    [
+     29.0,
+     -8.6
+    ],
+    [
+     28.9,
+     -10.0
+    ],
+    [
+     29.6,
+     -10.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1670,
+     "to": 1886,
+     "name": "Alaouite Morocco (intermittent)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Tazeroualt",
+   "confidence": "low",
+   "note": "Sidi Ali Bou Dmia's zawiya-state in the Anti-Atlas/Sous trading with Timbuktu (peak 1614-1670); autonomous again under the Hashim family in the 19th c. until Moulay Hassan's 1882/1886 harkas."
+  },
+  {
+   "name": "Tekna confederation (Wad Nun)",
+   "aliases": [
+    "Emirate of Wad Nun",
+    "Beyrouk"
+   ],
+   "from": 1500,
+   "to": 1900,
+   "seat": {
+    "name": "Guelmim",
+    "lat": 28.99,
+    "lon": -10.06
+   },
+   "extent": [
+    [
+     29.3,
+     -10.6
+    ],
+    [
+     28.9,
+     -8.5
+    ],
+    [
+     27.6,
+     -8.7
+    ],
+    [
+     27.7,
+     -12.9
+    ],
+    [
+     28.5,
+     -11.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1880,
+     "to": 1900,
+     "name": "Alaouite Morocco (nominal)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Tekna",
+   "confidence": "low",
+   "note": "Arab-Berber tribal confederation of Wad Nun and the Draa mouth; the Beyrouk family of Guelmim acted as independent emirs in the 19th c., dealing with European merchants."
+  },
+  {
+   "name": "Ait Atta confederation",
+   "from": 1500,
+   "to": 1933,
+   "seat": {
+    "name": "Igherm Amazdar (Jbel Saghro)",
+    "lat": 31.1,
+    "lon": -5.6
+   },
+   "extent": [
+    [
+     31.7,
+     -6.2
+    ],
+    [
+     31.6,
+     -4.3
+    ],
+    [
+     30.6,
+     -3.8
+    ],
+    [
+     29.8,
+     -5.0
+    ],
+    [
+     30.4,
+     -6.6
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Ait_Atta",
+   "confidence": "moderate",
+   "note": "Amazigh 'five fifths' confederation of Jbel Saghro, Draa and Tafilalt fringes, outside makhzen control (bled es-siba) until the French Battle of Bougafer 1933; Ait Khabbash branch raided into Tuat."
+  },
+  {
+   "name": "Reguibat",
+   "from": 1700,
+   "to": 1934,
+   "seat": {
+    "name": "Saguia el-Hamra",
+    "lat": 26.8,
+    "lon": -11.0
+   },
+   "extent": [
+    [
+     28.0,
+     -11.5
+    ],
+    [
+     27.8,
+     -8.0
+    ],
+    [
+     26.0,
+     -5.0
+    ],
+    [
+     24.5,
+     -8.0
+    ],
+    [
+     25.5,
+     -12.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Reguibat",
+   "confidence": "low",
+   "note": "Sahrawi camel-nomad confederation (Reguibat es-Sahel, Reguibat ech-Charg) of Saguia el-Hamra and the Hammada of Tindouf."
+  },
+  {
+   "name": "Tindouf (Tajakant)",
+   "from": 1852,
+   "to": 1895,
+   "seat": {
+    "name": "Tindouf",
+    "lat": 27.67,
+    "lon": -8.15
+   },
+   "reach_km": 60,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Tindouf",
+   "confidence": "low",
+   "note": "Caravan town founded 1852 by the Tajakant tribe; destroyed by the Reguibat 1895."
+  },
+  {
+   "name": "Ouled Delim",
+   "from": 1600,
+   "to": 1934,
+   "seat": {
+    "name": "Dakhla hinterland",
+    "lat": 23.7,
+    "lon": -15.5
+   },
+   "extent": [
+    [
+     25.0,
+     -14.8
+    ],
+    [
+     24.5,
+     -12.5
+    ],
+    [
+     21.5,
+     -13.5
+    ],
+    [
+     21.0,
+     -16.8
+    ],
+    [
+     23.5,
+     -16.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Oulad_Delim",
+   "confidence": "low",
+   "note": "Hassani warrior tribe of Rio de Oro (Tiris); Spanish coastal post Villa Cisneros 1884."
+  },
+  {
+   "name": "Figuig oasis",
+   "from": 1400,
+   "to": 1903,
+   "seat": {
+    "name": "Figuig",
+    "lat": 32.11,
+    "lon": -1.23
+   },
+   "reach_km": 20,
+   "overlord": [
+    {
+     "from": 1550,
+     "to": 1903,
+     "name": "Morocco (nominal)"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Figuig",
+   "confidence": "low",
+   "note": "Seven ksour under their own jama'as; French pressure 1903."
+  },
+  {
+   "name": "Golden Horde",
+   "aliases": [
+    "Ulus of Jochi",
+    "Kipchak Khanate",
+    "Great Horde (after 1466)"
+   ],
+   "from": 1242,
+   "to": 1502,
+   "seat": {
+    "name": "Sarai (New Sarai)",
+    "lat": 48.56,
+    "lon": 45.33
+   },
+   "extent": [
+    [
+     55.5,
+     46.0
+    ],
+    [
+     53.5,
+     56.0
+    ],
+    [
+     51.0,
+     62.0
+    ],
+    [
+     44.5,
+     60.0
+    ],
+    [
+     43.0,
+     47.5
+    ],
+    [
+     45.0,
+     36.0
+    ],
+    [
+     49.0,
+     33.0
+    ],
+    [
+     52.5,
+     38.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1438,
+     "extent": [
+      [
+       55.5,
+       46.0
+      ],
+      [
+       53.5,
+       56.0
+      ],
+      [
+       51.0,
+       62.0
+      ],
+      [
+       44.5,
+       60.0
+      ],
+      [
+       43.0,
+       47.5
+      ],
+      [
+       45.0,
+       36.0
+      ],
+      [
+       49.0,
+       33.0
+      ],
+      [
+       52.5,
+       38.0
+      ]
+     ]
+    },
+    {
+     "from": 1438,
+     "to": 1466,
+     "extent": [
+      [
+       53.5,
+       42.0
+      ],
+      [
+       52.0,
+       48.5
+      ],
+      [
+       48.0,
+       50.0
+      ],
+      [
+       45.5,
+       47.0
+      ],
+      [
+       45.0,
+       40.5
+      ],
+      [
+       47.5,
+       38.5
+      ],
+      [
+       51.0,
+       39.0
+      ]
+     ]
+    },
+    {
+     "from": 1466,
+     "to": 1502,
+     "extent": [
+      [
+       52.5,
+       42.0
+      ],
+      [
+       51.5,
+       48.5
+      ],
+      [
+       48.0,
+       49.5
+      ],
+      [
+       45.5,
+       47.0
+      ],
+      [
+       45.2,
+       41.5
+      ],
+      [
+       48.0,
+       40.0
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Golden_Horde",
+   "confidence": "high",
+   "note": "After the breakaway of Kazan (1438), Crimea (1441), Nogai, Astrakhan (1466) the rump 'Great Horde' held the lower Volga-Don steppe until destroyed by Crimea 1502."
+  },
+  {
+   "name": "Nogai Horde",
+   "aliases": [
+    "Mangyt yurt"
+   ],
+   "from": 1440,
+   "to": 1634,
+   "seat": {
+    "name": "Saraychik",
+    "lat": 47.51,
+    "lon": 51.73
+   },
+   "extent": [
+    [
+     56.0,
+     52.0
+    ],
+    [
+     55.0,
+     60.0
+    ],
+    [
+     51.5,
+     63.0
+    ],
+    [
+     46.5,
+     56.5
+    ],
+    [
+     46.0,
+     50.0
+    ],
+    [
+     48.5,
+     46.5
+    ],
+    [
+     52.5,
+     48.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1557,
+     "to": 1634,
+     "name": "Tsardom of Russia (nominal, Great Nogai)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Nogai_Horde",
+   "confidence": "high",
+   "note": "Manghit beys between Volga, Yaik and Emba (north to Bashkiria). Split 1557 into Great Nogai (east of Volga) and Lesser Nogai (Kuban/Azov, Crimean vassal); Great Nogai displaced by the Kalmyks 1630s."
+  },
+  {
+   "name": "Khanate of Kazan",
+   "from": 1438,
+   "to": 1552,
+   "seat": {
+    "name": "Kazan",
+    "lat": 55.79,
+    "lon": 49.12
+   },
+   "extent": [
+    [
+     57.5,
+     47.5
+    ],
+    [
+     57.0,
+     52.0
+    ],
+    [
+     55.0,
+     54.5
+    ],
+    [
+     53.5,
+     52.0
+    ],
+    [
+     53.8,
+     47.0
+    ],
+    [
+     55.5,
+     45.5
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Khanate_of_Kazan",
+   "confidence": "high",
+   "note": "Khanate on the middle Volga and lower Kama; conquered by Muscovy 1552."
+  },
+  {
+   "name": "Khanate of Astrakhan",
+   "from": 1466,
+   "to": 1556,
+   "seat": {
+    "name": "Hajji Tarkhan (Astrakhan)",
+    "lat": 46.35,
+    "lon": 48.04
+   },
+   "extent": [
+    [
+     48.5,
+     45.5
+    ],
+    [
+     48.0,
+     47.5
+    ],
+    [
+     46.5,
+     49.0
+    ],
+    [
+     45.5,
+     47.5
+    ],
+    [
+     45.8,
+     45.0
+    ],
+    [
+     47.3,
+     44.5
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Astrakhan_Khanate",
+   "confidence": "high",
+   "note": "Lower Volga delta khanate; annexed by Muscovy 1556."
+  },
+  {
+   "name": "Kalmyk Khanate",
+   "aliases": [
+    "Torghut Kalmyks"
+   ],
+   "from": 1630,
+   "to": 1771,
+   "seat": {
+    "name": "Lower Volga steppe (khan's horde)",
+    "lat": 47.0,
+    "lon": 46.2
+   },
+   "extent": [
+    [
+     52.0,
+     46.0
+    ],
+    [
+     51.5,
+     51.5
+    ],
+    [
+     47.5,
+     52.0
+    ],
+    [
+     46.0,
+     47.5
+    ],
+    [
+     44.5,
+     45.0
+    ],
+    [
+     45.5,
+     43.0
+    ],
+    [
+     48.5,
+     43.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1655,
+     "to": 1771,
+     "name": "Tsardom/Empire of Russia (treaty)"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Kalmyk_Khanate",
+   "confidence": "high",
+   "note": "Torghut Oirats who crossed the Yaik 1630; peak under Ayuka Khan (1669-1724); most left for Dzungaria 1771 and the khanate was abolished."
+  },
+  {
+   "name": "Bashkir lands",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Ufa",
+    "lat": 54.73,
+    "lon": 55.96
+   },
+   "extent": [
+    [
+     57.0,
+     54.0
+    ],
+    [
+     56.5,
+     60.0
+    ],
+    [
+     53.5,
+     61.0
+    ],
+    [
+     51.0,
+     59.0
+    ],
+    [
+     51.5,
+     55.0
+    ],
+    [
+     53.5,
+     52.5
+    ],
+    [
+     55.5,
+     52.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1440,
+     "name": "Golden Horde"
+    },
+    {
+     "from": 1440,
+     "to": 1557,
+     "name": "Nogai Horde / Kazan / Sibir"
+    },
+    {
+     "from": 1557,
+     "to": 1900,
+     "name": "Tsardom/Empire of Russia"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Bashkirs",
+   "confidence": "moderate",
+   "note": "Bashkir tribes (four 'roads') holding votchina land rights under Russia; revolts 1662-64, 1704-11, 1735-40, 1755; Ufa fortress 1574. After 1800 increasingly settled by Russians."
+  },
+  {
+   "name": "Bukey Horde",
+   "aliases": [
+    "Inner Horde",
+    "Inner Kazakh Horde"
+   ],
+   "from": 1801,
+   "to": 1845,
+   "seat": {
+    "name": "Khan Ordasy (Urda)",
+    "lat": 48.71,
+    "lon": 47.42
+   },
+   "extent": [
+    [
+     50.5,
+     46.5
+    ],
+    [
+     50.8,
+     50.5
+    ],
+    [
+     47.5,
+     51.5
+    ],
+    [
+     46.5,
+     49.5
+    ],
+    [
+     47.6,
+     47.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1801,
+     "to": 1845,
+     "name": "Russian Empire"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Bukey_Horde",
+   "confidence": "high",
+   "note": "Junior jüz Kazakhs allowed to settle between Volga and Ural; khan abolished 1845."
+  },
+  {
+   "name": "Uzbek Khanate (Abu'l-Khayr)",
+   "aliases": [
+    "Nomadic Uzbeks",
+    "Shibanid ulus"
+   ],
+   "from": 1428,
+   "to": 1468,
+   "seat": {
+    "name": "Sighnaq",
+    "lat": 44.18,
+    "lon": 67.75
+   },
+   "extent": [
+    [
+     56.0,
+     62.0
+    ],
+    [
+     53.0,
+     70.0
+    ],
+    [
+     48.0,
+     72.0
+    ],
+    [
+     44.0,
+     68.5
+    ],
+    [
+     44.5,
+     61.5
+    ],
+    [
+     48.5,
+     55.0
+    ],
+    [
+     52.5,
+     57.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1428,
+     "to": 1446,
+     "seat": {
+      "name": "Chimgi-Tura (Tyumen)",
+      "lat": 57.15,
+      "lon": 65.53
+     }
+    },
+    {
+     "from": 1446,
+     "to": 1468,
+     "seat": {
+      "name": "Sighnaq",
+      "lat": 44.18,
+      "lon": 67.75
+     }
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Abu%27l-Khayr_Khan",
+   "confidence": "moderate",
+   "note": "Abu'l-Khayr Khan's nomad confederation (Dasht-i Kipchak); collapsed at his death 1468, Kazakhs splitting off; descendants (Shaybanids) conquered Transoxiana 1500."
+  },
+  {
+   "name": "Kazakh Khanate",
+   "from": 1465,
+   "to": 1847,
+   "seat": {
+    "name": "Turkestan (Yasi)",
+    "lat": 43.3,
+    "lon": 68.27
+   },
+   "extent": [
+    [
+     55.0,
+     62.0
+    ],
+    [
+     54.0,
+     73.0
+    ],
+    [
+     50.5,
+     82.0
+    ],
+    [
+     46.0,
+     81.0
+    ],
+    [
+     43.0,
+     76.0
+    ],
+    [
+     42.2,
+     69.0
+    ],
+    [
+     44.0,
+     62.0
+    ],
+    [
+     47.0,
+     52.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1465,
+     "to": 1520,
+     "seat": {
+      "name": "Sighnaq / Semirechye",
+      "lat": 44.18,
+      "lon": 67.75
+     },
+     "extent": [
+      [
+       47.5,
+       66.0
+      ],
+      [
+       46.0,
+       80.0
+      ],
+      [
+       43.0,
+       80.0
+      ],
+      [
+       42.5,
+       72.0
+      ],
+      [
+       43.5,
+       66.0
+      ]
+     ]
+    },
+    {
+     "from": 1520,
+     "to": 1600,
+     "seat": {
+      "name": "Sighnaq / Sauran",
+      "lat": 44.18,
+      "lon": 67.75
+     },
+     "extent": [
+      [
+       52.0,
+       60.0
+      ],
+      [
+       51.0,
+       75.0
+      ],
+      [
+       46.0,
+       81.0
+      ],
+      [
+       43.0,
+       76.0
+      ],
+      [
+       42.4,
+       69.0
+      ],
+      [
+       44.0,
+       62.0
+      ],
+      [
+       48.0,
+       56.0
+      ]
+     ]
+    },
+    {
+     "from": 1600,
+     "to": 1723,
+     "seat": {
+      "name": "Turkestan (Yasi)",
+      "lat": 43.3,
+      "lon": 68.27
+     },
+     "extent": [
+      [
+       55.0,
+       62.0
+      ],
+      [
+       54.0,
+       73.0
+      ],
+      [
+       50.5,
+       82.0
+      ],
+      [
+       46.0,
+       81.0
+      ],
+      [
+       43.0,
+       76.0
+      ],
+      [
+       42.2,
+       69.0
+      ],
+      [
+       44.0,
+       62.0
+      ],
+      [
+       47.0,
+       52.5
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Kazakh_Khanate",
+   "confidence": "high",
+   "note": "Founded by Janibek and Kerey in Semirechye; peak under Kasym (d.1521) and Tauke (1680-1715). After 1718/1723 (Dzungar 'Barefooted Flight') effectively three separate jüz, entered separately. 1847 = end of Kenesary's revolt."
+  },
+  {
+   "name": "Senior Jüz (Uly Jüz)",
+   "aliases": [
+    "Great Horde (Kazakh)",
+    "Ulu Jüz"
+   ],
+   "from": 1718,
+   "to": 1848,
+   "seat": {
+    "name": "Taraz / Semirechye",
+    "lat": 42.9,
+    "lon": 71.37
+   },
+   "extent": [
+    [
+     46.5,
+     74.0
+    ],
+    [
+     46.0,
+     81.0
+    ],
+    [
+     43.0,
+     80.5
+    ],
+    [
+     42.3,
+     72.0
+    ],
+    [
+     42.0,
+     68.5
+    ],
+    [
+     44.0,
+     68.0
+    ],
+    [
+     45.5,
+     70.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1723,
+     "to": 1758,
+     "name": "Dzungar Khanate"
+    },
+    {
+     "from": 1810,
+     "to": 1848,
+     "name": "Khanate of Kokand (south)"
+    },
+    {
+     "from": 1846,
+     "to": 1848,
+     "name": "Russian Empire"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/J%C3%BCz",
+   "confidence": "moderate",
+   "note": "Semirechye and the Syr Darya middle; held Tashkent 1720s-1784 (Tole bi); Russian annexation 1846-48."
+  },
+  {
+   "name": "Middle Jüz (Orta Jüz)",
+   "from": 1718,
+   "to": 1822,
+   "seat": {
+    "name": "Kokshetau / Ablai's ordo",
+    "lat": 53.28,
+    "lon": 69.39
+   },
+   "extent": [
+    [
+     55.0,
+     64.0
+    ],
+    [
+     54.0,
+     76.0
+    ],
+    [
+     50.5,
+     83.0
+    ],
+    [
+     47.0,
+     80.0
+    ],
+    [
+     46.5,
+     72.0
+    ],
+    [
+     44.5,
+     66.0
+    ],
+    [
+     48.0,
+     62.0
+    ],
+    [
+     52.0,
+     61.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1740,
+     "to": 1822,
+     "name": "Russian Empire (nominal)"
+    },
+    {
+     "from": 1757,
+     "to": 1781,
+     "name": "Qing China (nominal tribute)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/J%C3%BCz",
+   "confidence": "moderate",
+   "note": "Central and NE Kazakh steppe; Ablai Khan (r.1771-81) the dominant figure; khanship abolished by Speransky's 1822 Statute."
+  },
+  {
+   "name": "Junior Jüz (Kishi Jüz)",
+   "aliases": [
+    "Little Horde"
+   ],
+   "from": 1718,
+   "to": 1824,
+   "seat": {
+    "name": "Irgiz / Abulkhair's ordo",
+    "lat": 48.62,
+    "lon": 61.26
+   },
+   "extent": [
+    [
+     51.5,
+     51.0
+    ],
+    [
+     51.0,
+     61.5
+    ],
+    [
+     47.5,
+     63.5
+    ],
+    [
+     44.0,
+     62.0
+    ],
+    [
+     43.5,
+     58.0
+    ],
+    [
+     45.5,
+     53.0
+    ],
+    [
+     46.8,
+     51.5
+    ],
+    [
+     49.0,
+     49.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1731,
+     "to": 1824,
+     "name": "Russian Empire (nominal)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/J%C3%BCz",
+   "confidence": "moderate",
+   "note": "Western Kazakh steppe between Yaik/Ural, Aral Sea and Mangyshlak; Abulkhair's oath to Russia 1731; khan abolished 1824."
+  },
+  {
+   "name": "Kenesary's Kazakh Khanate",
+   "from": 1841,
+   "to": 1847,
+   "seat": {
+    "name": "Turgai steppe (roving)",
+    "lat": 49.0,
+    "lon": 65.0
+   },
+   "reach_km": 400,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Kenesary_Kasymov",
+   "confidence": "moderate",
+   "note": "Revolt-state of Kenesary Kasymov across central Kazakhstan; killed by Kyrgyz 1847."
+  },
+  {
+   "name": "Karakalpaks",
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Chimbay",
+    "lat": 42.94,
+    "lon": 59.78
+   },
+   "extent": [
+    [
+     44.5,
+     58.5
+    ],
+    [
+     44.0,
+     60.5
+    ],
+    [
+     42.4,
+     60.6
+    ],
+    [
+     42.2,
+     59.0
+    ],
+    [
+     43.2,
+     58.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1740,
+     "name": "Kazakh Khanate (partial)"
+    },
+    {
+     "from": 1811,
+     "to": 1873,
+     "name": "Khanate of Khiva"
+    },
+    {
+     "from": 1873,
+     "to": 1900,
+     "name": "Russian Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1600,
+     "to": 1740,
+     "seat": {
+      "name": "lower Syr Darya",
+      "lat": 44.5,
+      "lon": 65.8
+     },
+     "extent": [
+      [
+       45.0,
+       64.5
+      ],
+      [
+       45.0,
+       67.0
+      ],
+      [
+       43.6,
+       68.0
+      ],
+      [
+       43.5,
+       65.0
+      ]
+     ]
+    },
+    {
+     "from": 1740,
+     "to": 1900,
+     "seat": {
+      "name": "Chimbay",
+      "lat": 42.94,
+      "lon": 59.78
+     },
+     "extent": [
+      [
+       44.5,
+       58.5
+      ],
+      [
+       44.0,
+       60.5
+      ],
+      [
+       42.4,
+       60.6
+      ],
+      [
+       42.2,
+       59.0
+      ],
+      [
+       43.2,
+       58.0
+      ]
+     ]
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Karakalpaks",
+   "confidence": "low",
+   "note": "Lower Syr Darya, then the Amu Darya delta after 1740s; subject to Khiva in the 19th c."
+  },
+  {
+   "name": "Timurid Empire",
+   "from": 1370,
+   "to": 1507,
+   "seat": {
+    "name": "Samarkand",
+    "lat": 39.65,
+    "lon": 66.96
+   },
+   "extent": [
+    [
+     43.0,
+     66.0
+    ],
+    [
+     42.0,
+     72.0
+    ],
+    [
+     37.0,
+     72.0
+    ],
+    [
+     34.0,
+     71.0
+    ],
+    [
+     27.0,
+     63.0
+    ],
+    [
+     30.0,
+     52.0
+    ],
+    [
+     36.5,
+     52.0
+    ],
+    [
+     40.0,
+     56.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1405,
+     "seat": {
+      "name": "Samarkand",
+      "lat": 39.65,
+      "lon": 66.96
+     },
+     "extent": [
+      [
+       43.0,
+       66.0
+      ],
+      [
+       42.0,
+       72.0
+      ],
+      [
+       37.0,
+       72.0
+      ],
+      [
+       34.0,
+       71.0
+      ],
+      [
+       27.0,
+       60.0
+      ],
+      [
+       30.0,
+       48.0
+      ],
+      [
+       39.0,
+       44.0
+      ],
+      [
+       40.0,
+       56.0
+      ]
+     ]
+    },
+    {
+     "from": 1405,
+     "to": 1447,
+     "seat": {
+      "name": "Herat",
+      "lat": 34.35,
+      "lon": 62.2
+     },
+     "extent": [
+      [
+       43.0,
+       66.0
+      ],
+      [
+       42.0,
+       72.0
+      ],
+      [
+       37.0,
+       72.0
+      ],
+      [
+       34.0,
+       71.0
+      ],
+      [
+       27.0,
+       63.0
+      ],
+      [
+       30.0,
+       52.0
+      ],
+      [
+       36.5,
+       52.0
+      ],
+      [
+       40.0,
+       56.0
+      ]
+     ]
+    },
+    {
+     "from": 1447,
+     "to": 1507,
+     "seat": {
+      "name": "Herat / Samarkand",
+      "lat": 34.35,
+      "lon": 62.2
+     },
+     "extent": [
+      [
+       42.0,
+       63.0
+      ],
+      [
+       41.5,
+       70.0
+      ],
+      [
+       37.0,
+       71.5
+      ],
+      [
+       34.0,
+       69.0
+      ],
+      [
+       31.0,
+       64.0
+      ],
+      [
+       33.0,
+       59.5
+      ],
+      [
+       37.5,
+       57.0
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Timurid_Empire",
+   "confidence": "high",
+   "note": "Shah Rukh ruled from Herat; after 1447-1469 split into Samarkand (to 1500) and Herat (to 1507) branches, see separate entries."
+  },
+  {
+   "name": "Timurid Samarkand (Transoxiana)",
+   "from": 1451,
+   "to": 1501,
+   "seat": {
+    "name": "Samarkand",
+    "lat": 39.65,
+    "lon": 66.96
+   },
+   "extent": [
+    [
+     42.5,
+     63.5
+    ],
+    [
+     41.5,
+     70.5
+    ],
+    [
+     39.5,
+     71.0
+    ],
+    [
+     37.5,
+     68.5
+    ],
+    [
+     37.5,
+     65.0
+    ],
+    [
+     39.5,
+     63.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Abu_Sa%27id_Mirza",
+   "confidence": "moderate",
+   "note": "Abu Sa'id and his sons (Sultan Ahmad, Babur briefly); fell to Muhammad Shaybani 1500-01."
+  },
+  {
+   "name": "Timurid Herat (Khorasan)",
+   "from": 1469,
+   "to": 1507,
+   "seat": {
+    "name": "Herat",
+    "lat": 34.35,
+    "lon": 62.2
+   },
+   "extent": [
+    [
+     38.0,
+     58.5
+    ],
+    [
+     37.0,
+     66.5
+    ],
+    [
+     35.0,
+     67.5
+    ],
+    [
+     32.5,
+     65.0
+    ],
+    [
+     31.5,
+     61.0
+    ],
+    [
+     34.0,
+     59.0
+    ],
+    [
+     36.5,
+     56.5
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Husayn_Bayqara",
+   "confidence": "high",
+   "note": "Sultan Husayn Bayqara's Khorasan; conquered by the Shaybanids 1507."
+  },
+  {
+   "name": "Shaybanid Khanate of Bukhara",
+   "aliases": [
+    "Abulkhairid Khanate"
+   ],
+   "from": 1500,
+   "to": 1599,
+   "seat": {
+    "name": "Bukhara",
+    "lat": 39.77,
+    "lon": 64.42
+   },
+   "extent": [
+    [
+     43.0,
+     61.5
+    ],
+    [
+     42.5,
+     69.5
+    ],
+    [
+     40.5,
+     71.0
+    ],
+    [
+     37.5,
+     70.5
+    ],
+    [
+     35.5,
+     65.0
+    ],
+    [
+     36.5,
+     61.0
+    ],
+    [
+     39.5,
+     61.5
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Shaybanids",
+   "confidence": "high",
+   "note": "Appanage system (Samarkand, Tashkent, Balkh, Bukhara); capital moved from Samarkand to Bukhara 1557 under Abdullah Khan II, who also held Herat and Khwarazm briefly."
+  },
+  {
+   "name": "Janid (Ashtarkhanid) Khanate of Bukhara",
+   "aliases": [
+    "Ashtarkhanids",
+    "Toqay-Timurids"
+   ],
+   "from": 1599,
+   "to": 1785,
+   "seat": {
+    "name": "Bukhara",
+    "lat": 39.77,
+    "lon": 64.42
+   },
+   "extent": [
+    [
+     41.5,
+     62.5
+    ],
+    [
+     41.3,
+     69.0
+    ],
+    [
+     39.5,
+     71.0
+    ],
+    [
+     37.5,
+     70.5
+    ],
+    [
+     35.5,
+     65.0
+    ],
+    [
+     37.0,
+     62.0
+    ],
+    [
+     39.5,
+     62.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1740,
+     "to": 1747,
+     "name": "Afsharid Persia"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Janid_dynasty",
+   "confidence": "high",
+   "note": "Balkh held as an appanage of the heir; real power passed to Manghit ataliqs from 1747."
+  },
+  {
+   "name": "Emirate of Bukhara",
+   "aliases": [
+    "Manghit dynasty"
+   ],
+   "from": 1785,
+   "to": 1920,
+   "seat": {
+    "name": "Bukhara",
+    "lat": 39.77,
+    "lon": 64.42
+   },
+   "extent": [
+    [
+     41.5,
+     62.5
+    ],
+    [
+     40.8,
+     67.8
+    ],
+    [
+     39.5,
+     70.0
+    ],
+    [
+     37.0,
+     70.5
+    ],
+    [
+     37.0,
+     66.0
+    ],
+    [
+     37.3,
+     62.5
+    ],
+    [
+     39.5,
+     62.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1868,
+     "to": 1920,
+     "name": "Russian Empire (protectorate)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1785,
+     "to": 1868,
+     "extent": [
+      [
+       41.5,
+       62.5
+      ],
+      [
+       40.8,
+       67.8
+      ],
+      [
+       39.5,
+       70.0
+      ],
+      [
+       37.0,
+       70.5
+      ],
+      [
+       37.0,
+       66.0
+      ],
+      [
+       37.3,
+       62.5
+      ],
+      [
+       39.5,
+       62.0
+      ]
+     ]
+    },
+    {
+     "from": 1868,
+     "to": 1920,
+     "extent": [
+      [
+       40.8,
+       63.0
+      ],
+      [
+       40.0,
+       66.0
+      ],
+      [
+       39.5,
+       68.5
+      ],
+      [
+       39.3,
+       72.0
+      ],
+      [
+       37.5,
+       74.0
+      ],
+      [
+       37.0,
+       71.5
+      ],
+      [
+       37.2,
+       66.0
+      ],
+      [
+       38.0,
+       63.0
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Bukhara",
+   "confidence": "high",
+   "note": "Lost Samarkand 1868 to Russia; gained Hissar/Kulob (1870s), Karategin, Darvaz (1877) and western Pamirs (1895)."
+  },
+  {
+   "name": "Khanate of Khiva",
+   "aliases": [
+    "Khwarazm",
+    "Arabshahid / Qongrat dynasties"
+   ],
+   "from": 1511,
+   "to": 1920,
+   "seat": {
+    "name": "Khiva",
+    "lat": 41.38,
+    "lon": 60.36
+   },
+   "extent": [
+    [
+     44.5,
+     57.5
+    ],
+    [
+     43.5,
+     61.5
+    ],
+    [
+     41.5,
+     62.0
+    ],
+    [
+     40.5,
+     61.5
+    ],
+    [
+     40.9,
+     59.5
+    ],
+    [
+     42.0,
+     56.5
+    ],
+    [
+     43.5,
+     56.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1740,
+     "to": 1747,
+     "name": "Afsharid Persia"
+    },
+    {
+     "from": 1873,
+     "to": 1920,
+     "name": "Russian Empire (protectorate)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1511,
+     "to": 1619,
+     "seat": {
+      "name": "Urgench / Vazir",
+      "lat": 42.3,
+      "lon": 59.4
+     }
+    },
+    {
+     "from": 1619,
+     "to": 1920,
+     "seat": {
+      "name": "Khiva",
+      "lat": 41.38,
+      "lon": 60.36
+     }
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Khanate_of_Khiva",
+   "confidence": "high",
+   "note": "Arabshahid Shibanids until 1727, then Inaqs (Qongrat dynasty from 1804); claimed suzerainty over Yomut and Teke Turkmen and the Karakalpaks."
+  },
+  {
+   "name": "Khanate of Kokand",
+   "from": 1709,
+   "to": 1876,
+   "seat": {
+    "name": "Kokand",
+    "lat": 40.53,
+    "lon": 70.94
+   },
+   "extent": [
+    [
+     44.5,
+     66.5
+    ],
+    [
+     44.0,
+     74.0
+    ],
+    [
+     42.5,
+     79.0
+    ],
+    [
+     39.5,
+     75.0
+    ],
+    [
+     39.3,
+     72.0
+    ],
+    [
+     39.8,
+     69.0
+    ],
+    [
+     41.5,
+     68.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1760,
+     "to": 1800,
+     "name": "Qing China (nominal tribute)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1709,
+     "to": 1800,
+     "extent": [
+      [
+       41.6,
+       70.4
+      ],
+      [
+       41.5,
+       73.5
+      ],
+      [
+       40.2,
+       73.7
+      ],
+      [
+       39.8,
+       71.0
+      ],
+      [
+       40.3,
+       70.0
+      ]
+     ]
+    },
+    {
+     "from": 1800,
+     "to": 1865,
+     "extent": [
+      [
+       44.5,
+       66.5
+      ],
+      [
+       44.0,
+       74.0
+      ],
+      [
+       42.5,
+       79.0
+      ],
+      [
+       39.5,
+       75.0
+      ],
+      [
+       39.3,
+       72.0
+      ],
+      [
+       39.8,
+       69.0
+      ],
+      [
+       41.5,
+       68.0
+      ]
+     ]
+    },
+    {
+     "from": 1865,
+     "to": 1876,
+     "extent": [
+      [
+       41.6,
+       70.0
+      ],
+      [
+       41.5,
+       73.5
+      ],
+      [
+       40.2,
+       73.9
+      ],
+      [
+       39.5,
+       72.5
+      ],
+      [
+       40.0,
+       70.0
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Khanate_of_Kokand",
+   "confidence": "high",
+   "note": "Shahrukhid Ming dynasty of the Fergana Valley; Tashkent taken 1809, Kazakh Syr-Darya and Kyrgyz highlands by 1830s; Russia took Tashkent 1865, annexed rump 1876."
+  },
+  {
+   "name": "Beylik of Shahrisabz",
+   "aliases": [
+    "Kenagas beys of Kesh"
+   ],
+   "from": 1750,
+   "to": 1870,
+   "seat": {
+    "name": "Shahrisabz",
+    "lat": 39.06,
+    "lon": 66.83
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1785,
+     "to": 1856,
+     "name": "Emirate of Bukhara (intermittent)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Shahrisabz",
+   "confidence": "low",
+   "note": "Kenagas Uzbek beys of Shahrisabz and Kitab, frequently independent of Bukhara; Russian capture 1870 and handover to Bukhara."
+  },
+  {
+   "name": "Beylik of Ura-Tyube",
+   "from": 1700,
+   "to": 1866,
+   "seat": {
+    "name": "Ura-Tyube (Istaravshan)",
+    "lat": 39.91,
+    "lon": 69.0
+   },
+   "reach_km": 40,
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Istaravshan",
+   "confidence": "low",
+   "note": "Yuz Uzbek beylik contested by Bukhara and Kokand; Russian conquest 1866."
+  },
+  {
+   "name": "Beylik of Hissar",
+   "from": 1750,
+   "to": 1869,
+   "seat": {
+    "name": "Hissar",
+    "lat": 38.52,
+    "lon": 68.55
+   },
+   "extent": [
+    [
+     39.0,
+     67.5
+    ],
+    [
+     39.0,
+     69.3
+    ],
+    [
+     38.2,
+     69.3
+    ],
+    [
+     38.0,
+     67.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1785,
+     "to": 1869,
+     "name": "Emirate of Bukhara (intermittent)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Hisor",
+   "confidence": "low",
+   "note": "Uzbek (Yuz/Kongrat) beys of the Hissar valley; firmly under Bukhara from 1869."
+  },
+  {
+   "name": "Beylik of Kulob",
+   "from": 1750,
+   "to": 1870,
+   "seat": {
+    "name": "Kulob",
+    "lat": 37.91,
+    "lon": 69.78
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1785,
+     "to": 1870,
+     "name": "Emirate of Bukhara (intermittent)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Kulob",
+   "confidence": "low",
+   "note": "Lakai/Kungrat Uzbek beys; absorbed by Bukhara 1870."
+  },
+  {
+   "name": "Karategin (Mirs of Karategin)",
+   "from": 1500,
+   "to": 1877,
+   "seat": {
+    "name": "Garm",
+    "lat": 39.02,
+    "lon": 70.37
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1800,
+     "to": 1868,
+     "name": "Khanate of Kokand (intermittent)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Karategin",
+   "confidence": "low",
+   "note": "Tajik mountain principality of the Surkhob valley; annexed by Bukhara 1877."
+  },
+  {
+   "name": "Darwaz (Shahs of Darwaz)",
+   "from": 1400,
+   "to": 1878,
+   "seat": {
+    "name": "Kalai-Khumb",
+    "lat": 38.45,
+    "lon": 70.79
+   },
+   "reach_km": 60,
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Darvoz",
+   "confidence": "low",
+   "note": "Tajik shahs on both banks of the Panj; annexed by Bukhara 1878; left-bank portion went to Afghanistan."
+  },
+  {
+   "name": "Shughnan-Roshan",
+   "from": 1400,
+   "to": 1895,
+   "seat": {
+    "name": "Qal'a-i Bar-panja (Shughnan)",
+    "lat": 37.49,
+    "lon": 71.55
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1830,
+     "to": 1883,
+     "name": "Badakhshan (Mir of Faizabad)"
+    },
+    {
+     "from": 1883,
+     "to": 1895,
+     "name": "Emirate of Afghanistan"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Shughnan",
+   "confidence": "low",
+   "note": "Pamiri principalities of the Panj valley; divided 1895 between Afghanistan and Bukhara (Russian)."
+  },
+  {
+   "name": "Wakhan (Mirs of Wakhan)",
+   "from": 1400,
+   "to": 1883,
+   "seat": {
+    "name": "Qala-e Panja",
+    "lat": 37.0,
+    "lon": 72.55
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1800,
+     "to": 1883,
+     "name": "Badakhshan (Mir of Faizabad) (intermittent)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Wakhan",
+   "confidence": "low",
+   "note": "Wakhi principality of the upper Panj; Afghan annexation 1883."
+  },
+  {
+   "name": "Mirs of Badakhshan",
+   "aliases": [
+    "Yarid dynasty"
+   ],
+   "from": 1657,
+   "to": 1881,
+   "seat": {
+    "name": "Faizabad",
+    "lat": 37.12,
+    "lon": 70.58
+   },
+   "extent": [
+    [
+     38.0,
+     70.2
+    ],
+    [
+     37.6,
+     71.5
+    ],
+    [
+     36.8,
+     71.6
+    ],
+    [
+     36.0,
+     70.8
+    ],
+    [
+     36.5,
+     69.8
+    ],
+    [
+     37.3,
+     69.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1768,
+     "to": 1800,
+     "name": "Durrani Empire (tribute)"
+    },
+    {
+     "from": 1822,
+     "to": 1840,
+     "name": "Khanate of Kunduz"
+    },
+    {
+     "from": 1859,
+     "to": 1881,
+     "name": "Emirate of Afghanistan"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Badakhshan",
+   "confidence": "moderate",
+   "note": "Yarid mirs (from c.1657) ruling Badakhshan; annexed by Abdur Rahman 1881. Before 1650s under Timurid/Shaybanid/Mughal princes."
+  },
+  {
+   "name": "Hotak dynasty",
+   "from": 1709,
+   "to": 1738,
+   "seat": {
+    "name": "Kandahar",
+    "lat": 31.61,
+    "lon": 65.71
+   },
+   "extent": [
+    [
+     33.5,
+     63.5
+    ],
+    [
+     33.0,
+     69.0
+    ],
+    [
+     30.5,
+     69.5
+    ],
+    [
+     29.8,
+     66.0
+    ],
+    [
+     30.5,
+     62.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1709,
+     "to": 1722,
+     "seat": {
+      "name": "Kandahar",
+      "lat": 31.61,
+      "lon": 65.71
+     },
+     "extent": [
+      [
+       33.5,
+       63.5
+      ],
+      [
+       33.0,
+       69.0
+      ],
+      [
+       30.5,
+       69.5
+      ],
+      [
+       29.8,
+       66.0
+      ],
+      [
+       30.5,
+       62.5
+      ]
+     ]
+    },
+    {
+     "from": 1722,
+     "to": 1729,
+     "seat": {
+      "name": "Isfahan",
+      "lat": 32.65,
+      "lon": 51.67
+     },
+     "extent": [
+      [
+       37.0,
+       48.0
+      ],
+      [
+       36.5,
+       58.0
+      ],
+      [
+       31.0,
+       66.5
+      ],
+      [
+       29.5,
+       66.0
+      ],
+      [
+       29.0,
+       61.0
+      ],
+      [
+       29.5,
+       52.0
+      ],
+      [
+       31.5,
+       48.5
+      ]
+     ]
+    },
+    {
+     "from": 1729,
+     "to": 1738,
+     "seat": {
+      "name": "Kandahar",
+      "lat": 31.61,
+      "lon": 65.71
+     },
+     "extent": [
+      [
+       33.5,
+       63.5
+      ],
+      [
+       33.0,
+       69.0
+      ],
+      [
+       30.5,
+       69.5
+      ],
+      [
+       29.8,
+       66.0
+      ],
+      [
+       30.5,
+       62.5
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Hotak_dynasty",
+   "confidence": "high",
+   "note": "Ghilji revolt against the Safavids 1709; conquered Isfahan 1722; expelled from Persia 1729; Kandahar taken by Nader Shah 1738."
+  },
+  {
+   "name": "Abdali Sultanate of Herat",
+   "from": 1717,
+   "to": 1732,
+   "seat": {
+    "name": "Herat",
+    "lat": 34.35,
+    "lon": 62.2
+   },
+   "reach_km": 150,
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Herat",
+   "confidence": "low",
+   "note": "Abdali (later Durrani) Pashtun revolt-state at Herat between Safavid collapse and Nader Shah's conquest (1729-32)."
+  },
+  {
+   "name": "Durrani Empire",
+   "aliases": [
+    "Sadozai kingdom"
+   ],
+   "from": 1747,
+   "to": 1823,
+   "seat": {
+    "name": "Kandahar",
+    "lat": 31.61,
+    "lon": 65.71
+   },
+   "extent": [
+    [
+     37.5,
+     62.0
+    ],
+    [
+     37.5,
+     71.5
+    ],
+    [
+     35.0,
+     75.5
+    ],
+    [
+     32.5,
+     75.5
+    ],
+    [
+     30.0,
+     74.0
+    ],
+    [
+     26.0,
+     71.0
+    ],
+    [
+     24.5,
+     67.5
+    ],
+    [
+     33.5,
+     60.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1747,
+     "to": 1776,
+     "seat": {
+      "name": "Kandahar",
+      "lat": 31.61,
+      "lon": 65.71
+     }
+    },
+    {
+     "from": 1776,
+     "to": 1823,
+     "seat": {
+      "name": "Kabul",
+      "lat": 34.53,
+      "lon": 69.17
+     }
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Durrani_Empire",
+   "confidence": "high",
+   "note": "Ahmad Shah Durrani: Afghanistan, Kashmir, Punjab, Sindh and Baluchistan tributary, Khorasan protectorate; Punjab lost to the Sikhs 1760s-1799; Kashmir 1819; Sadozai collapse 1818-23."
+  },
+  {
+   "name": "Emirate of Afghanistan",
+   "aliases": [
+    "Barakzai emirate",
+    "Emirate of Kabul"
+   ],
+   "from": 1823,
+   "to": 1926,
+   "seat": {
+    "name": "Kabul",
+    "lat": 34.53,
+    "lon": 69.17
+   },
+   "extent": [
+    [
+     37.3,
+     62.5
+    ],
+    [
+     37.2,
+     66.5
+    ],
+    [
+     38.0,
+     71.0
+    ],
+    [
+     37.0,
+     74.9
+    ],
+    [
+     35.0,
+     71.3
+    ],
+    [
+     33.0,
+     70.0
+    ],
+    [
+     29.5,
+     66.3
+    ],
+    [
+     29.4,
+     61.0
+    ],
+    [
+     35.5,
+     61.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1879,
+     "to": 1919,
+     "name": "British Empire (foreign policy)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1823,
+     "to": 1850,
+     "extent": [
+      [
+       35.5,
+       67.5
+      ],
+      [
+       35.3,
+       71.0
+      ],
+      [
+       34.0,
+       71.2
+      ],
+      [
+       32.5,
+       69.5
+      ],
+      [
+       33.0,
+       67.5
+      ]
+     ]
+    },
+    {
+     "from": 1850,
+     "to": 1863,
+     "extent": [
+      [
+       37.0,
+       65.0
+      ],
+      [
+       37.5,
+       70.5
+      ],
+      [
+       35.3,
+       71.0
+      ],
+      [
+       33.0,
+       70.0
+      ],
+      [
+       30.5,
+       66.5
+      ],
+      [
+       31.5,
+       64.0
+      ],
+      [
+       34.5,
+       64.0
+      ]
+     ]
+    },
+    {
+     "from": 1863,
+     "to": 1926,
+     "extent": [
+      [
+       37.3,
+       62.5
+      ],
+      [
+       37.2,
+       66.5
+      ],
+      [
+       38.0,
+       71.0
+      ],
+      [
+       37.0,
+       74.9
+      ],
+      [
+       35.0,
+       71.3
+      ],
+      [
+       33.0,
+       70.0
+      ],
+      [
+       29.5,
+       66.3
+      ],
+      [
+       29.4,
+       61.0
+      ],
+      [
+       35.5,
+       61.0
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Afghanistan",
+   "confidence": "high",
+   "note": "Dost Mohammad Khan; Balkh 1850, Kandahar 1855, Herat 1863; Badakhshan 1881, Hazarajat 1893, Kafiristan 1896. Shah Shuja's British-backed restoration 1839-42."
+  },
+  {
+   "name": "Principality of Herat",
+   "from": 1818,
+   "to": 1863,
+   "seat": {
+    "name": "Herat",
+    "lat": 34.35,
+    "lon": 62.2
+   },
+   "extent": [
+    [
+     36.0,
+     61.0
+    ],
+    [
+     35.5,
+     64.5
+    ],
+    [
+     33.5,
+     64.0
+    ],
+    [
+     32.5,
+     62.5
+    ],
+    [
+     33.5,
+     60.5
+    ],
+    [
+     35.0,
+     60.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1857,
+     "to": 1863,
+     "name": "Qajar Persia (nominal)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Herat",
+   "confidence": "moderate",
+   "note": "Sadozai remnant under Mahmud Shah and Kamran (to 1842), then Yar Mohammad Alakozai; besieged by Persia 1837-38 and 1856; taken by Dost Mohammad 1863."
+  },
+  {
+   "name": "Kandahar Sardars",
+   "from": 1818,
+   "to": 1855,
+   "seat": {
+    "name": "Kandahar",
+    "lat": 31.61,
+    "lon": 65.71
+   },
+   "extent": [
+    [
+     33.0,
+     64.0
+    ],
+    [
+     32.8,
+     67.5
+    ],
+    [
+     31.0,
+     67.6
+    ],
+    [
+     29.6,
+     66.0
+    ],
+    [
+     30.2,
+     62.5
+    ],
+    [
+     31.8,
+     62.5
+    ]
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Kandahar",
+   "confidence": "moderate",
+   "note": "Barakzai 'Dil brothers' (Purdil, Kohandil, Rahmdil Khan); British occupation 1839-42; annexed by Kabul 1855."
+  },
+  {
+   "name": "Peshawar Sardars",
+   "from": 1818,
+   "to": 1834,
+   "seat": {
+    "name": "Peshawar",
+    "lat": 34.01,
+    "lon": 71.58
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1823,
+     "to": 1834,
+     "name": "Sikh Empire (tribute)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Peshawar",
+   "confidence": "low",
+   "note": "Barakzai brothers (Yar Mohammad, Sultan Mohammad); annexed by Ranjit Singh 1834."
+  },
+  {
+   "name": "Khanate of Kunduz (Qataghan)",
+   "from": 1700,
+   "to": 1859,
+   "seat": {
+    "name": "Kunduz",
+    "lat": 36.73,
+    "lon": 68.86
+   },
+   "extent": [
+    [
+     37.3,
+     67.8
+    ],
+    [
+     37.5,
+     70.0
+    ],
+    [
+     36.5,
+     70.5
+    ],
+    [
+     35.6,
+     69.0
+    ],
+    [
+     36.0,
+     67.5
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Murad_Beg",
+   "confidence": "low",
+   "note": "Qataghan Uzbek mirs; peak under Mir Murad Beg (c.1815-1842) who also ruled Badakhshan and Balkh; Afghan conquest 1859."
+  },
+  {
+   "name": "Khanate of Maymana",
+   "from": 1730,
+   "to": 1884,
+   "seat": {
+    "name": "Maymana",
+    "lat": 35.92,
+    "lon": 64.78
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1751,
+     "to": 1820,
+     "name": "Durrani Empire (nominal)"
+    },
+    {
+     "from": 1868,
+     "to": 1884,
+     "name": "Emirate of Afghanistan (intermittent)"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Maymana",
+   "confidence": "low",
+   "note": "Ming Uzbek khans; strongest of the 'Chahar Wilayat'; final Afghan conquest 1884."
+  },
+  {
+   "name": "Uzbek khanates of Andkhoy, Shibirghan and Sar-e Pol",
+   "from": 1730,
+   "to": 1875,
+   "seat": {
+    "name": "Shibirghan",
+    "lat": 36.67,
+    "lon": 65.75
+   },
+   "reach_km": 80,
+   "overlord": [
+    {
+     "from": 1751,
+     "to": 1820,
+     "name": "Durrani Empire (nominal)"
+    },
+    {
+     "from": 1820,
+     "to": 1849,
+     "name": "Emirate of Bukhara (nominal)"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Chahar_Wilayat",
+   "confidence": "low",
+   "note": "Remaining small Uzbek khanates of the 'Four Wilayats' (with Maymana) in the northern Afghan plain; Afghan by 1875."
+  },
+  {
+   "name": "Khanate of Balkh",
+   "from": 1500,
+   "to": 1850,
+   "seat": {
+    "name": "Balkh",
+    "lat": 36.76,
+    "lon": 66.9
+   },
+   "extent": [
+    [
+     37.3,
+     65.8
+    ],
+    [
+     37.2,
+     67.8
+    ],
+    [
+     36.3,
+     68.0
+    ],
+    [
+     36.0,
+     66.5
+    ],
+    [
+     36.6,
+     65.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1500,
+     "to": 1740,
+     "name": "Bukhara (appanage)"
+    },
+    {
+     "from": 1646,
+     "to": 1647,
+     "name": "Mughal Empire"
+    },
+    {
+     "from": 1751,
+     "to": 1820,
+     "name": "Durrani Empire"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Balkh",
+   "confidence": "low",
+   "note": "Appanage of Shaybanid and Janid heirs; Afghan from 1751, then autonomous Uzbek rulers under Bukharan influence; annexed by Dost Mohammad 1850 (Mazar-i Sharif became the seat)."
+  },
+  {
+   "name": "Kafiristan",
+   "aliases": [
+    "Nuristan"
+   ],
+   "from": 1400,
+   "to": 1896,
+   "seat": {
+    "name": "Kamdesh",
+    "lat": 35.42,
+    "lon": 71.34
+   },
+   "extent": [
+    [
+     36.0,
+     70.3
+    ],
+    [
+     35.9,
+     71.5
+    ],
+    [
+     35.2,
+     71.4
+    ],
+    [
+     34.9,
+     70.6
+    ],
+    [
+     35.3,
+     70.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kafiristan",
+   "confidence": "moderate",
+   "note": "Non-Muslim Kalasha/Kati/Prasun-speaking valley communities never subject to a state until Abdur Rahman's conquest 1895-96 (renamed Nuristan)."
+  },
+  {
+   "name": "Hazarajat",
+   "from": 1400,
+   "to": 1893,
+   "seat": {
+    "name": "Bamyan",
+    "lat": 34.82,
+    "lon": 67.83
+   },
+   "extent": [
+    [
+     35.3,
+     65.0
+    ],
+    [
+     35.0,
+     68.3
+    ],
+    [
+     33.8,
+     68.5
+    ],
+    [
+     33.0,
+     67.5
+    ],
+    [
+     33.3,
+     65.0
+    ],
+    [
+     34.3,
+     64.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1747,
+     "to": 1823,
+     "name": "Durrani Empire (nominal)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Hazarajat",
+   "confidence": "moderate",
+   "note": "Autonomous Hazara mirs and tribes of the central highlands; conquered by Abdur Rahman 1891-93."
+  },
+  {
+   "name": "Tekke Turkmen",
+   "from": 1700,
+   "to": 1884,
+   "seat": {
+    "name": "Geok Tepe (Akhal)",
+    "lat": 38.15,
+    "lon": 57.97
+   },
+   "extent": [
+    [
+     39.3,
+     55.5
+    ],
+    [
+     38.8,
+     58.5
+    ],
+    [
+     37.8,
+     61.0
+    ],
+    [
+     37.2,
+     62.5
+    ],
+    [
+     37.0,
+     61.0
+    ],
+    [
+     37.8,
+     58.0
+    ],
+    [
+     38.4,
+     56.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1740,
+     "to": 1747,
+     "name": "Afsharid Persia"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1700,
+     "to": 1856,
+     "seat": {
+      "name": "Geok Tepe (Akhal)",
+      "lat": 38.15,
+      "lon": 57.97
+     },
+     "extent": [
+      [
+       39.3,
+       55.5
+      ],
+      [
+       38.8,
+       58.5
+      ],
+      [
+       37.8,
+       60.0
+      ],
+      [
+       37.6,
+       58.5
+      ],
+      [
+       38.4,
+       56.0
+      ]
+     ]
+    },
+    {
+     "from": 1856,
+     "to": 1884,
+     "seat": {
+      "name": "Merv (Koushut Khan Kala)",
+      "lat": 37.6,
+      "lon": 61.83
+     },
+     "extent": [
+      [
+       39.3,
+       55.5
+      ],
+      [
+       38.8,
+       58.5
+      ],
+      [
+       37.8,
+       61.0
+      ],
+      [
+       37.2,
+       62.5
+      ],
+      [
+       37.0,
+       61.0
+      ],
+      [
+       37.8,
+       58.0
+      ],
+      [
+       38.4,
+       56.0
+      ]
+     ]
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Teke_(tribe)",
+   "confidence": "moderate",
+   "note": "Akhal oasis Tekke, and from 1856 Merv Tekke (defeated Persia 1861); Russian victories at Geok Tepe 1881 and Merv annexation 1884."
+  },
+  {
+   "name": "Yomut Turkmen",
+   "from": 1600,
+   "to": 1884,
+   "seat": {
+    "name": "Gorgan-Atrek steppe",
+    "lat": 37.3,
+    "lon": 54.5
+   },
+   "extent": [
+    [
+     42.2,
+     57.5
+    ],
+    [
+     41.0,
+     59.5
+    ],
+    [
+     39.5,
+     56.5
+    ],
+    [
+     37.5,
+     55.5
+    ],
+    [
+     36.9,
+     54.0
+    ],
+    [
+     38.5,
+     53.5
+    ],
+    [
+     40.5,
+     53.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1770,
+     "to": 1873,
+     "name": "Khanate of Khiva (Khwarazm branch, intermittent)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Yomut",
+   "confidence": "low",
+   "note": "Two branches: Khwarazm Yomut (Khiva oasis edge) and Gorgan-Atrek Yomut on the Persian frontier; Krasnovodsk 1869."
+  },
+  {
+   "name": "Goklen Turkmen",
+   "from": 1600,
+   "to": 1884,
+   "seat": {
+    "name": "Gonbad-e Kavus area",
+    "lat": 37.25,
+    "lon": 55.17
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1790,
+     "to": 1884,
+     "name": "Qajar Persia (intermittent)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Turkmens",
+   "confidence": "low",
+   "note": "Upper Gorgan valley, most often tributary to Persia."
+  },
+  {
+   "name": "Ersari Turkmen",
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Kerki",
+    "lat": 37.83,
+    "lon": 65.21
+   },
+   "extent": [
+    [
+     39.0,
+     63.5
+    ],
+    [
+     38.5,
+     65.5
+    ],
+    [
+     37.2,
+     66.2
+    ],
+    [
+     36.8,
+     65.0
+    ],
+    [
+     37.8,
+     63.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1785,
+     "to": 1900,
+     "name": "Emirate of Bukhara (partial)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Ersari",
+   "confidence": "low",
+   "note": "Middle Amu Darya and northern Afghanistan (Andkhoy area)."
+  },
+  {
+   "name": "Salor Turkmen",
+   "from": 1500,
+   "to": 1884,
+   "seat": {
+    "name": "Serakhs",
+    "lat": 36.53,
+    "lon": 61.16
+   },
+   "reach_km": 80,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Salyr",
+   "confidence": "low",
+   "note": "Oldest Oghuz Turkmen tribe; held Merv until c.1830, then Serakhs; broken by the Tekke and Persians."
+  },
+  {
+   "name": "Saryk Turkmen",
+   "from": 1600,
+   "to": 1885,
+   "seat": {
+    "name": "Panjdeh (Tagtabazar)",
+    "lat": 35.95,
+    "lon": 62.92
+   },
+   "reach_km": 80,
+   "phases": [
+    {
+     "from": 1600,
+     "to": 1856,
+     "seat": {
+      "name": "Merv",
+      "lat": 37.6,
+      "lon": 61.83
+     }
+    },
+    {
+     "from": 1856,
+     "to": 1885,
+     "seat": {
+      "name": "Panjdeh (Tagtabazar)",
+      "lat": 35.95,
+      "lon": 62.92
+     }
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Saryk",
+   "confidence": "low",
+   "note": "Held Merv until displaced by the Tekke 1856; then the Murghab at Panjdeh (Russian 1885)."
+  },
+  {
+   "name": "Moghulistan",
+   "aliases": [
+    "Eastern Chagatai Khanate"
+   ],
+   "from": 1347,
+   "to": 1462,
+   "seat": {
+    "name": "Almalik / Issyk-Kul ordo",
+    "lat": 43.9,
+    "lon": 80.8
+   },
+   "extent": [
+    [
+     46.5,
+     74.0
+    ],
+    [
+     46.5,
+     84.0
+    ],
+    [
+     44.0,
+     90.0
+    ],
+    [
+     42.5,
+     89.0
+    ],
+    [
+     40.0,
+     80.0
+    ],
+    [
+     39.5,
+     74.5
+    ],
+    [
+     42.5,
+     72.5
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Moghulistan",
+   "confidence": "high",
+   "note": "Nomadic Chagatai khanate (Semirechye, Ili, Tarim north); Dughlat emirs ruled Kashgar; split 1462 into western (Moghulistan proper, to 1514/1680s) and eastern (Turpan) khanates."
+  },
+  {
+   "name": "Turpan Khanate",
+   "aliases": [
+    "Eastern Moghul Khanate",
+    "Uyghurstan"
+   ],
+   "from": 1462,
+   "to": 1680,
+   "seat": {
+    "name": "Turpan",
+    "lat": 42.95,
+    "lon": 89.18
+   },
+   "extent": [
+    [
+     44.0,
+     86.5
+    ],
+    [
+     43.5,
+     95.0
+    ],
+    [
+     41.5,
+     95.5
+    ],
+    [
+     41.6,
+     87.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1680,
+     "to": 1696,
+     "name": "Dzungar Khanate"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Turpan_Khanate",
+   "confidence": "moderate",
+   "note": "Eastern Chagatai branch (Yunus's son Ahmad; separate from c.1462/1487); took Hami 1513; Wikipedia gives 1487-c.1660 for the khanate, after which Turpan fell to Yarkent/Dzungar control (1680)."
+  },
+  {
+   "name": "Yarkent Khanate",
+   "aliases": [
+    "Saidiya",
+    "Mamlakati Moghuliya"
+   ],
+   "from": 1514,
+   "to": 1705,
+   "seat": {
+    "name": "Yarkand",
+    "lat": 38.42,
+    "lon": 77.24
+   },
+   "extent": [
+    [
+     42.3,
+     74.5
+    ],
+    [
+     41.8,
+     80.0
+    ],
+    [
+     42.0,
+     86.0
+    ],
+    [
+     40.0,
+     88.5
+    ],
+    [
+     37.0,
+     82.0
+    ],
+    [
+     36.5,
+     77.0
+    ],
+    [
+     38.5,
+     73.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1680,
+     "to": 1705,
+     "name": "Dzungar Khanate"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Yarkent_Khanate",
+   "confidence": "high",
+   "note": "Sultan Said Khan's Moghul khanate of the western Tarim (Kashgar, Yarkand, Khotan, Aksu); Dzungar conquest 1680 installed Afaqi khojas."
+  },
+  {
+   "name": "Kashgaria under the Khojas",
+   "aliases": [
+    "Afaqi and Ishaqi khojas",
+    "Altishahr"
+   ],
+   "from": 1680,
+   "to": 1759,
+   "seat": {
+    "name": "Kashgar",
+    "lat": 39.47,
+    "lon": 75.99
+   },
+   "extent": [
+    [
+     42.3,
+     74.5
+    ],
+    [
+     41.8,
+     80.0
+    ],
+    [
+     42.0,
+     86.0
+    ],
+    [
+     40.0,
+     88.5
+    ],
+    [
+     37.0,
+     82.0
+    ],
+    [
+     36.5,
+     77.0
+    ],
+    [
+     38.5,
+     73.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1680,
+     "to": 1757,
+     "name": "Dzungar Khanate"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Khoja_(Turkestan)",
+   "confidence": "moderate",
+   "note": "Naqshbandi khoja factions as Dzungar vassals; Qing conquest 1759 (Altishahr then under Qing until 1865)."
+  },
+  {
+   "name": "Kumul Khanate",
+   "from": 1696,
+   "to": 1930,
+   "seat": {
+    "name": "Hami",
+    "lat": 42.83,
+    "lon": 93.51
+   },
+   "reach_km": 90,
+   "overlord": [
+    {
+     "from": 1696,
+     "to": 1912,
+     "name": "Qing China"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Kumul_Khanate",
+   "confidence": "high",
+   "note": "Uyghur khanate of Hami, early Qing ally; abolished 1930."
+  },
+  {
+   "name": "Yettishar",
+   "aliases": [
+    "Kashgaria (Yakub Beg)"
+   ],
+   "from": 1865,
+   "to": 1877,
+   "seat": {
+    "name": "Kashgar",
+    "lat": 39.47,
+    "lon": 75.99
+   },
+   "extent": [
+    [
+     42.3,
+     74.5
+    ],
+    [
+     42.5,
+     80.5
+    ],
+    [
+     43.3,
+     88.5
+    ],
+    [
+     42.0,
+     89.5
+    ],
+    [
+     39.5,
+     88.5
+    ],
+    [
+     36.5,
+     80.0
+    ],
+    [
+     37.0,
+     75.5
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Yettishar",
+   "confidence": "high",
+   "note": "Yakub Beg's Kokandi-led state over the Tarim basin (and Turpan/Urumqi 1870-77); Qing reconquest 1877."
+  },
+  {
+   "name": "Kyrgyz tribes",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Issyk-Kul / Talas",
+    "lat": 42.45,
+    "lon": 76.2
+   },
+   "extent": [
+    [
+     43.3,
+     71.5
+    ],
+    [
+     43.0,
+     80.0
+    ],
+    [
+     41.5,
+     80.0
+    ],
+    [
+     39.5,
+     74.0
+    ],
+    [
+     39.5,
+     71.5
+    ],
+    [
+     41.0,
+     71.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1514,
+     "name": "Moghulistan"
+    },
+    {
+     "from": 1680,
+     "to": 1758,
+     "name": "Dzungar Khanate (partial)"
+    },
+    {
+     "from": 1825,
+     "to": 1865,
+     "name": "Khanate of Kokand"
+    },
+    {
+     "from": 1855,
+     "to": 1900,
+     "name": "Russian Empire"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kyrgyz_people",
+   "confidence": "moderate",
+   "note": "Tribal Kyrgyz (right and left wings, Ichkilik) of the Tian Shan and Pamir-Alay, in Tian Shan from the 15th-16th c.; Bugu, Sarybagysh, Solto tribes accepted Russian rule 1855-67."
+  },
+  {
+   "name": "Russian Siberia (effective ostrog control)",
+   "aliases": [
+    "Siberian Prikaz lands",
+    "Siberia Governorate"
+   ],
+   "from": 1582,
+   "to": 1917,
+   "seat": {
+    "name": "Tobolsk",
+    "lat": 58.2,
+    "lon": 68.25
+   },
+   "extent": [
+    [
+     72.0,
+     60.0
+    ],
+    [
+     73.0,
+     110.0
+    ],
+    [
+     71.5,
+     160.0
+    ],
+    [
+     66.0,
+     178.0
+    ],
+    [
+     60.0,
+     170.0
+    ],
+    [
+     51.0,
+     156.5
+    ],
+    [
+     53.0,
+     124.0
+    ],
+    [
+     50.0,
+     105.0
+    ],
+    [
+     51.0,
+     80.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1582,
+     "to": 1600,
+     "seat": {
+      "name": "Tobolsk",
+      "lat": 58.2,
+      "lon": 68.25
+     },
+     "extent": [
+      [
+       66.5,
+       60.0
+      ],
+      [
+       66.5,
+       70.0
+      ],
+      [
+       61.0,
+       82.0
+      ],
+      [
+       58.5,
+       85.0
+      ],
+      [
+       56.5,
+       74.0
+      ],
+      [
+       56.5,
+       65.0
+      ],
+      [
+       59.0,
+       59.5
+      ]
+     ]
+    },
+    {
+     "from": 1600,
+     "to": 1630,
+     "seat": {
+      "name": "Tobolsk",
+      "lat": 58.2,
+      "lon": 68.25
+     },
+     "extent": [
+      [
+       71.0,
+       60.0
+      ],
+      [
+       70.0,
+       88.0
+      ],
+      [
+       61.0,
+       93.0
+      ],
+      [
+       55.5,
+       93.0
+      ],
+      [
+       54.0,
+       87.0
+      ],
+      [
+       56.0,
+       74.0
+      ],
+      [
+       56.5,
+       65.0
+      ],
+      [
+       59.0,
+       59.5
+      ]
+     ]
+    },
+    {
+     "from": 1630,
+     "to": 1650,
+     "seat": {
+      "name": "Tobolsk",
+      "lat": 58.2,
+      "lon": 68.25
+     },
+     "extent": [
+      [
+       72.0,
+       60.0
+      ],
+      [
+       73.0,
+       110.0
+      ],
+      [
+       71.0,
+       150.0
+      ],
+      [
+       62.0,
+       152.0
+      ],
+      [
+       59.0,
+       143.0
+      ],
+      [
+       58.0,
+       120.0
+      ],
+      [
+       55.5,
+       100.0
+      ],
+      [
+       54.0,
+       87.0
+      ],
+      [
+       56.0,
+       70.0
+      ]
+     ]
+    },
+    {
+     "from": 1650,
+     "to": 1700,
+     "seat": {
+      "name": "Tobolsk",
+      "lat": 58.2,
+      "lon": 68.25
+     },
+     "extent": [
+      [
+       72.0,
+       60.0
+      ],
+      [
+       73.0,
+       110.0
+      ],
+      [
+       71.5,
+       160.0
+      ],
+      [
+       66.0,
+       175.0
+      ],
+      [
+       62.0,
+       165.0
+      ],
+      [
+       59.0,
+       143.0
+      ],
+      [
+       53.0,
+       124.0
+      ],
+      [
+       51.0,
+       105.0
+      ],
+      [
+       55.0,
+       72.0
+      ]
+     ]
+    },
+    {
+     "from": 1700,
+     "to": 1800,
+     "seat": {
+      "name": "Tobolsk / Irkutsk",
+      "lat": 58.2,
+      "lon": 68.25
+     },
+     "extent": [
+      [
+       72.0,
+       60.0
+      ],
+      [
+       73.0,
+       110.0
+      ],
+      [
+       71.5,
+       160.0
+      ],
+      [
+       66.0,
+       178.0
+      ],
+      [
+       60.0,
+       170.0
+      ],
+      [
+       51.0,
+       156.5
+      ],
+      [
+       53.0,
+       124.0
+      ],
+      [
+       50.0,
+       105.0
+      ],
+      [
+       51.0,
+       80.0
+      ]
+     ]
+    },
+    {
+     "from": 1800,
+     "to": 1917,
+     "seat": {
+      "name": "Irkutsk / Omsk",
+      "lat": 52.29,
+      "lon": 104.3
+     },
+     "extent": [
+      [
+       72.0,
+       60.0
+      ],
+      [
+       73.0,
+       110.0
+      ],
+      [
+       71.5,
+       160.0
+      ],
+      [
+       66.0,
+       179.9
+      ],
+      [
+       60.0,
+       170.0
+      ],
+      [
+       51.0,
+       156.5
+      ],
+      [
+       43.0,
+       131.5
+      ],
+      [
+       49.5,
+       117.0
+      ],
+      [
+       50.0,
+       87.0
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Siberia",
+   "confidence": "moderate",
+   "note": "Effective reach of the ostrog/yasak network (not claims): Tobolsk 1587, Mangazeya 1601, Tomsk 1604, Yeniseysk 1619, Krasnoyarsk 1628, Yakutsk 1632, Okhotsk 1647, Anadyr 1649, Irkutsk 1661, Nerchinsk 1689, Kamchatka 1697-1731, Omsk 1716, Amur 1858-60. Native nations below remained largely self-governing under yasak; Chukchi effectively outside control. Overlay native polities on top."
+  },
+  {
+   "name": "Khanate of Sibir",
+   "from": 1468,
+   "to": 1598,
+   "seat": {
+    "name": "Qashliq (Isker)",
+    "lat": 58.13,
+    "lon": 68.37
+   },
+   "extent": [
+    [
+     60.0,
+     62.0
+    ],
+    [
+     60.5,
+     70.0
+    ],
+    [
+     58.5,
+     75.0
+    ],
+    [
+     55.5,
+     74.0
+    ],
+    [
+     55.5,
+     66.0
+    ],
+    [
+     57.5,
+     61.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1555,
+     "to": 1572,
+     "name": "Tsardom of Russia (tribute)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1468,
+     "to": 1495,
+     "seat": {
+      "name": "Chimgi-Tura",
+      "lat": 57.15,
+      "lon": 65.53
+     }
+    },
+    {
+     "from": 1495,
+     "to": 1598,
+     "seat": {
+      "name": "Qashliq (Isker)",
+      "lat": 58.13,
+      "lon": 68.37
+     }
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Khanate_of_Sibir",
+   "confidence": "high",
+   "note": "Taibugid then Shibanid (Kuchum, 1563-98) khanate of the Irtysh-Tobol; Yermak took Qashliq 1582; Kuchum defeated 1598."
+  },
+  {
+   "name": "Tyumen Khanate",
+   "from": 1220,
+   "to": 1468,
+   "seat": {
+    "name": "Chimgi-Tura",
+    "lat": 57.15,
+    "lon": 65.53
+   },
+   "extent": [
+    [
+     59.5,
+     62.0
+    ],
+    [
+     59.5,
+     69.0
+    ],
+    [
+     57.0,
+     72.0
+    ],
+    [
+     55.5,
+     68.0
+    ],
+    [
+     56.5,
+     62.5
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Khanate_of_Sibir",
+   "confidence": "moderate",
+   "note": "Shibanid/Taibugid khanate on the Tura; Abu'l-Khayr held it 1428-46; succeeded by the Khanate of Sibir."
+  },
+  {
+   "name": "Pelym Principality",
+   "from": 1400,
+   "to": 1593,
+   "seat": {
+    "name": "Pelym",
+    "lat": 59.65,
+    "lon": 63.05
+   },
+   "extent": [
+    [
+     62.0,
+     59.5
+    ],
+    [
+     61.5,
+     64.0
+    ],
+    [
+     59.0,
+     64.5
+    ],
+    [
+     58.5,
+     61.0
+    ],
+    [
+     60.0,
+     59.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1468,
+     "to": 1582,
+     "name": "Khanate of Sibir (partial)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Kondia",
+   "confidence": "low",
+   "note": "Mansi (Vogul) principality on the Tavda/Pelym and Lozva; raided Perm; Russian ostrog 1593."
+  },
+  {
+   "name": "Koda Principality",
+   "from": 1400,
+   "to": 1644,
+   "seat": {
+    "name": "Koda (Kodsky gorodok)",
+    "lat": 61.97,
+    "lon": 65.05
+   },
+   "extent": [
+    [
+     63.0,
+     63.5
+    ],
+    [
+     62.8,
+     66.5
+    ],
+    [
+     61.0,
+     67.5
+    ],
+    [
+     60.8,
+     64.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1585,
+     "to": 1644,
+     "name": "Tsardom/Empire of Russia"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Khanty",
+   "confidence": "low",
+   "note": "Khanty principality of the Alachev princes on the lower Ob; allied with Russia from 1585, abolished 1644."
+  },
+  {
+   "name": "Obdor Principality",
+   "from": 1400,
+   "to": 1700,
+   "seat": {
+    "name": "Obdorsk (Salekhard)",
+    "lat": 66.53,
+    "lon": 66.6
+   },
+   "reach_km": 150,
+   "overlord": [
+    {
+     "from": 1595,
+     "to": 1700,
+     "name": "Tsardom/Empire of Russia"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Salekhard",
+   "confidence": "low",
+   "note": "Khanty-Nenets princes (Taishin family) of the lower Ob; Obdorsk ostrog 1595."
+  },
+  {
+   "name": "Piebald Horde (Pegaya Orda)",
+   "from": 1500,
+   "to": 1598,
+   "seat": {
+    "name": "Narym",
+    "lat": 58.96,
+    "lon": 81.65
+   },
+   "extent": [
+    [
+     60.0,
+     78.0
+    ],
+    [
+     60.0,
+     85.0
+    ],
+    [
+     57.8,
+     86.5
+    ],
+    [
+     57.5,
+     80.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1563,
+     "to": 1598,
+     "name": "Khanate of Sibir (allied)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Selkups",
+   "confidence": "low",
+   "note": "Selkup chiefdom-confederation of the middle Ob (Prince Voni); Narym ostrog 1596-98."
+  },
+  {
+   "name": "Nenets (Samoyeds)",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Pustozersk area",
+    "lat": 67.65,
+    "lon": 52.35
+   },
+   "extent": [
+    [
+     69.0,
+     44.0
+    ],
+    [
+     68.5,
+     60.0
+    ],
+    [
+     73.0,
+     70.0
+    ],
+    [
+     72.0,
+     85.0
+    ],
+    [
+     66.5,
+     85.0
+    ],
+    [
+     65.0,
+     72.0
+    ],
+    [
+     66.0,
+     60.0
+    ],
+    [
+     66.5,
+     45.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1478,
+     "name": "Novgorod Republic (yasak, west only)"
+    },
+    {
+     "from": 1500,
+     "to": 1900,
+     "name": "Tsardom/Empire of Russia (yasak)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Nenets",
+   "confidence": "moderate",
+   "note": "Reindeer-herding tundra clans from the Kanin peninsula to the Yenisei; Pustozersk 1499, Mangazeya 1601; 'forest Nenets' further south."
+  },
+  {
+   "name": "Evenks (Tungus)",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Tura (Lower Tunguska)",
+    "lat": 64.27,
+    "lon": 100.22
+   },
+   "extent": [
+    [
+     66.0,
+     90.0
+    ],
+    [
+     65.0,
+     120.0
+    ],
+    [
+     60.0,
+     135.0
+    ],
+    [
+     55.0,
+     130.0
+    ],
+    [
+     54.0,
+     112.0
+    ],
+    [
+     56.0,
+     96.0
+    ],
+    [
+     60.0,
+     88.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1620,
+     "to": 1900,
+     "name": "Tsardom/Empire of Russia (yasak)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Evenks",
+   "confidence": "moderate",
+   "note": "Clan-based reindeer hunters across the central Siberian taiga from the Yenisei to the Okhotsk sea; yasak from 1620s; Manchu-allied Evenk/Solon on the Amur are East Asia."
+  },
+  {
+   "name": "Sakha (Yakuts)",
+   "aliases": [
+    "Yakut toyonates"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Tuymaada valley (Yakutsk)",
+    "lat": 62.03,
+    "lon": 129.73
+   },
+   "extent": [
+    [
+     66.5,
+     118.0
+    ],
+    [
+     66.0,
+     134.0
+    ],
+    [
+     61.5,
+     138.0
+    ],
+    [
+     59.5,
+     132.0
+    ],
+    [
+     60.0,
+     116.0
+    ],
+    [
+     63.0,
+     112.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1632,
+     "to": 1900,
+     "name": "Tsardom/Empire of Russia"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Yakuts",
+   "confidence": "high",
+   "note": "Turkic horse/cattle herders of the middle Lena under clan toyons (Tygyn of Kangalas the best known); Yakutsk ostrog 1632, revolts 1634-42; later spread north to the Kolyma and Anabar."
+  },
+  {
+   "name": "Evens (Lamuts)",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Okhotsk coast",
+    "lat": 59.36,
+    "lon": 143.2
+   },
+   "extent": [
+    [
+     69.0,
+     130.0
+    ],
+    [
+     68.0,
+     155.0
+    ],
+    [
+     62.0,
+     160.0
+    ],
+    [
+     59.0,
+     152.0
+    ],
+    [
+     59.5,
+     141.0
+    ],
+    [
+     63.5,
+     135.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1647,
+     "to": 1900,
+     "name": "Tsardom/Empire of Russia (yasak)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Evens",
+   "confidence": "low",
+   "note": "Reindeer herders of the Verkhoyansk-Kolyma uplands and Okhotsk coast."
+  },
+  {
+   "name": "Yukaghirs",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Middle Kolyma",
+    "lat": 67.45,
+    "lon": 153.7
+   },
+   "extent": [
+    [
+     72.0,
+     140.0
+    ],
+    [
+     71.5,
+     160.0
+    ],
+    [
+     66.0,
+     162.0
+    ],
+    [
+     64.5,
+     150.0
+    ],
+    [
+     67.0,
+     140.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1640,
+     "to": 1900,
+     "name": "Tsardom/Empire of Russia (yasak)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Yukaghir_people",
+   "confidence": "low",
+   "note": "Once spanning Lena-Anadyr; heavily reduced by epidemics and wars after Russian arrival (Nizhnekolymsk 1644)."
+  },
+  {
+   "name": "Chukchi",
+   "from": 1400,
+   "to": 1930,
+   "seat": {
+    "name": "Chukotka interior",
+    "lat": 66.0,
+    "lon": 172.0
+   },
+   "extent": [
+    [
+     69.8,
+     160.0
+    ],
+    [
+     70.0,
+     176.0
+    ],
+    [
+     68.0,
+     179.9
+    ],
+    [
+     64.5,
+     179.9
+    ],
+    [
+     64.5,
+     174.0
+    ],
+    [
+     62.5,
+     170.0
+    ],
+    [
+     64.5,
+     165.0
+    ],
+    [
+     67.5,
+     161.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1778,
+     "to": 1930,
+     "name": "Tsardom/Empire of Russia (nominal)"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Chukchi_people",
+   "confidence": "high",
+   "note": "Reindeer and coastal Chukchi defeated Russian campaigns (Pavlutsky killed 1747); Anadyr ostrog abandoned 1764; nominal submission 1778 but self-governing to the Soviet period. Extent clipped at 180 deg: the territory continues east to Cape Dezhnev (66.1N, -169.7)."
+  },
+  {
+   "name": "Koryaks",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Penzhina",
+    "lat": 62.4,
+    "lon": 165.3
+   },
+   "extent": [
+    [
+     63.5,
+     158.0
+    ],
+    [
+     64.5,
+     168.0
+    ],
+    [
+     61.0,
+     174.0
+    ],
+    [
+     57.5,
+     163.0
+    ],
+    [
+     59.0,
+     158.0
+    ],
+    [
+     62.0,
+     155.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1700,
+     "to": 1900,
+     "name": "Tsardom/Empire of Russia"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Koryaks",
+   "confidence": "moderate",
+   "note": "Reindeer and maritime Koryaks of northern Kamchatka and the Penzhina; subdued 1700-1757."
+  },
+  {
+   "name": "Itelmens (Kamchadals)",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Kamchatka river valley",
+    "lat": 56.2,
+    "lon": 160.0
+   },
+   "extent": [
+    [
+     57.5,
+     156.5
+    ],
+    [
+     57.5,
+     162.5
+    ],
+    [
+     53.0,
+     160.0
+    ],
+    [
+     51.0,
+     156.6
+    ],
+    [
+     54.0,
+     155.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1697,
+     "to": 1900,
+     "name": "Tsardom/Empire of Russia"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Itelmens",
+   "confidence": "moderate",
+   "note": "Fortified-village peoples of southern Kamchatka; Atlasov 1697, great revolt 1731; drastic population collapse."
+  },
+  {
+   "name": "Buryats",
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Ust-Orda / Kuda steppe",
+    "lat": 52.8,
+    "lon": 104.75
+   },
+   "extent": [
+    [
+     56.0,
+     102.0
+    ],
+    [
+     55.0,
+     112.0
+    ],
+    [
+     51.0,
+     117.0
+    ],
+    [
+     49.5,
+     110.0
+    ],
+    [
+     50.5,
+     101.0
+    ],
+    [
+     52.5,
+     99.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1640,
+     "name": "Khalkha Mongol khans (Setsen/Tüsheet, partial)"
+    },
+    {
+     "from": 1650,
+     "to": 1900,
+     "name": "Tsardom/Empire of Russia"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Buryats",
+   "confidence": "moderate",
+   "note": "Mongol-speaking clans (Bulagat, Ekhirit, Khori, Khongodor) west and east of Baikal; Russian ostrogs Bratsk 1631, Irkutsk 1661, Udinsk 1666; border fixed at Kyakhta 1727."
+  },
+  {
+   "name": "Tuvan lands (Uriankhai)",
+   "aliases": [
+    "Uriankhai",
+    "Tannu Uriankhai"
+   ],
+   "from": 1400,
+   "to": 1911,
+   "seat": {
+    "name": "Upper Yenisei basin",
+    "lat": 51.72,
+    "lon": 94.45
+   },
+   "extent": [
+    [
+     52.5,
+     89.0
+    ],
+    [
+     52.0,
+     98.5
+    ],
+    [
+     50.6,
+     99.5
+    ],
+    [
+     50.2,
+     95.0
+    ],
+    [
+     49.8,
+     89.5
+    ],
+    [
+     51.0,
+     88.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1560,
+     "name": "Oirats"
+    },
+    {
+     "from": 1560,
+     "to": 1690,
+     "name": "Altan Khans (Khotogoid Khalkha)"
+    },
+    {
+     "from": 1690,
+     "to": 1757,
+     "name": "Dzungar Khanate"
+    },
+    {
+     "from": 1757,
+     "to": 1911,
+     "name": "Qing China"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Tuvans",
+   "confidence": "moderate",
+   "note": "Turkic herders and taiga reindeer hunters (Todzha) of the upper Yenisei, organised under Qing into five khoshuns."
+  },
+  {
+   "name": "Yenisei Kirghiz (Khongorai)",
+   "from": 1600,
+   "to": 1703,
+   "seat": {
+    "name": "Minusinsk basin",
+    "lat": 53.72,
+    "lon": 91.43
+   },
+   "extent": [
+    [
+     56.0,
+     89.0
+    ],
+    [
+     55.5,
+     93.0
+    ],
+    [
+     53.0,
+     93.0
+    ],
+    [
+     52.5,
+     90.0
+    ],
+    [
+     54.0,
+     88.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1667,
+     "name": "Altan Khans (Khotogoid Khalkha)"
+    },
+    {
+     "from": 1667,
+     "to": 1703,
+     "name": "Dzungar Khanate"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Yenisei_Kirghiz",
+   "confidence": "moderate",
+   "note": "Four Kirghiz uluses (Altysar, Isar, Altyr, Tuba) on the upper Yenisei fighting Russian Krasnoyarsk; most deported to Dzungaria 1703."
+  },
+  {
+   "name": "Teleuts and Altai Oirats",
+   "from": 1600,
+   "to": 1756,
+   "seat": {
+    "name": "Upper Ob / Biya",
+    "lat": 52.5,
+    "lon": 85.5
+   },
+   "extent": [
+    [
+     54.5,
+     82.0
+    ],
+    [
+     54.0,
+     87.5
+    ],
+    [
+     51.5,
+     88.5
+    ],
+    [
+     49.8,
+     87.5
+    ],
+    [
+     50.5,
+     84.0
+    ],
+    [
+     52.0,
+     81.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1635,
+     "to": 1756,
+     "name": "Dzungar Khanate"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Teleuts",
+   "confidence": "low",
+   "note": "Teleut ('White Kalmyk') princes (Abak) of the upper Ob and Altai Telengits; Russian after the fall of Dzungaria (1756)."
+  },
+  {
+   "name": "Northern Yuan",
+   "from": 1368,
+   "to": 1635,
+   "seat": {
+    "name": "Karakorum (to c.1480) / Chahar",
+    "lat": 47.2,
+    "lon": 102.82
+   },
+   "extent": [
+    [
+     52.0,
+     88.0
+    ],
+    [
+     52.0,
+     120.0
+    ],
+    [
+     47.0,
+     122.0
+    ],
+    [
+     42.0,
+     117.0
+    ],
+    [
+     41.0,
+     106.0
+    ],
+    [
+     42.5,
+     96.0
+    ],
+    [
+     46.0,
+     88.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1480,
+     "seat": {
+      "name": "Karakorum",
+      "lat": 47.2,
+      "lon": 102.82
+     },
+     "extent": [
+      [
+       52.0,
+       95.0
+      ],
+      [
+       52.0,
+       120.0
+      ],
+      [
+       47.0,
+       122.0
+      ],
+      [
+       42.0,
+       117.0
+      ],
+      [
+       41.0,
+       106.0
+      ],
+      [
+       43.0,
+       97.0
+      ],
+      [
+       47.5,
+       96.0
+      ]
+     ]
+    },
+    {
+     "from": 1480,
+     "to": 1550,
+     "seat": {
+      "name": "Chahar ordo",
+      "lat": 42.5,
+      "lon": 115.5
+     },
+     "extent": [
+      [
+       52.0,
+       95.0
+      ],
+      [
+       52.0,
+       120.0
+      ],
+      [
+       47.0,
+       122.0
+      ],
+      [
+       42.0,
+       120.0
+      ],
+      [
+       39.5,
+       110.0
+      ],
+      [
+       40.5,
+       105.0
+      ],
+      [
+       44.0,
+       97.0
+      ]
+     ]
+    },
+    {
+     "from": 1550,
+     "to": 1635,
+     "seat": {
+      "name": "Chahar ordo",
+      "lat": 43.7,
+      "lon": 118.6
+     },
+     "extent": [
+      [
+       45.0,
+       115.0
+      ],
+      [
+       44.5,
+       122.0
+      ],
+      [
+       42.0,
+       122.0
+      ],
+      [
+       41.0,
+       116.5
+      ],
+      [
+       42.5,
+       113.5
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Northern_Yuan_dynasty",
+   "confidence": "high",
+   "note": "Great khans of the eastern Mongols; Oirat dominance 1438-54 (Esen); reunified by Dayan Khan c.1480-1517; after 1550 the khan's direct domain shrank to the Chahar, Khalkha/Tumed being autonomous; Ligdan Khan's death 1634/35 ended it."
+  },
+  {
+   "name": "Four Oirat",
+   "aliases": [
+    "Dörben Oirat",
+    "Oirat confederation"
+   ],
+   "from": 1399,
+   "to": 1634,
+   "seat": {
+    "name": "Khovd / Altai ordo",
+    "lat": 48.0,
+    "lon": 91.64
+   },
+   "extent": [
+    [
+     52.0,
+     85.0
+    ],
+    [
+     51.5,
+     96.0
+    ],
+    [
+     47.5,
+     99.0
+    ],
+    [
+     44.0,
+     96.0
+    ],
+    [
+     43.5,
+     85.0
+    ],
+    [
+     46.5,
+     80.0
+    ],
+    [
+     49.5,
+     80.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1438,
+     "to": 1455,
+     "extent": [
+      [
+       52.0,
+       85.0
+      ],
+      [
+       52.0,
+       118.0
+      ],
+      [
+       47.0,
+       120.0
+      ],
+      [
+       41.5,
+       112.0
+      ],
+      [
+       41.5,
+       100.0
+      ],
+      [
+       43.5,
+       85.0
+      ],
+      [
+       47.0,
+       80.0
+      ]
+     ]
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Four_Oirat",
+   "confidence": "high",
+   "note": "Choros, Torghut, Dörbet, Khoshut confederation of western Mongolia; under Esen Taishi (1438-54) ruled all Mongolia and captured the Ming emperor (1449). Succeeded by the Dzungar Khanate, Khoshut Khanate and Kalmyks."
+  },
+  {
+   "name": "Dzungar Khanate",
+   "from": 1634,
+   "to": 1758,
+   "seat": {
+    "name": "Ghulja (Kulja)",
+    "lat": 43.91,
+    "lon": 81.32
+   },
+   "extent": [
+    [
+     50.5,
+     78.0
+    ],
+    [
+     49.5,
+     91.0
+    ],
+    [
+     46.5,
+     95.0
+    ],
+    [
+     43.0,
+     94.0
+    ],
+    [
+     41.0,
+     86.0
+    ],
+    [
+     42.0,
+     76.0
+    ],
+    [
+     45.0,
+     72.0
+    ],
+    [
+     48.0,
+     74.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1634,
+     "to": 1680,
+     "extent": [
+      [
+       50.0,
+       80.0
+      ],
+      [
+       49.5,
+       91.0
+      ],
+      [
+       46.5,
+       95.0
+      ],
+      [
+       43.5,
+       92.0
+      ],
+      [
+       43.0,
+       82.0
+      ],
+      [
+       45.5,
+       78.0
+      ]
+     ]
+    },
+    {
+     "from": 1680,
+     "to": 1745,
+     "extent": [
+      [
+       50.5,
+       78.0
+      ],
+      [
+       49.5,
+       91.0
+      ],
+      [
+       46.5,
+       95.0
+      ],
+      [
+       43.0,
+       94.0
+      ],
+      [
+       41.0,
+       86.0
+      ],
+      [
+       42.0,
+       76.0
+      ],
+      [
+       45.0,
+       72.0
+      ],
+      [
+       48.0,
+       74.0
+      ]
+     ]
+    },
+    {
+     "from": 1745,
+     "to": 1758,
+     "extent": [
+      [
+       50.0,
+       80.0
+      ],
+      [
+       49.5,
+       91.0
+      ],
+      [
+       46.5,
+       94.0
+      ],
+      [
+       43.0,
+       92.0
+      ],
+      [
+       43.0,
+       80.0
+      ],
+      [
+       45.5,
+       77.0
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Dzungar_Khanate",
+   "confidence": "high",
+   "note": "Choros-led Oirat empire (Erdeni Batur, Galdan Boshugtu, Tsewang Rabtan, Galdan Tseren); Tarim vassals 1680-1757, Kazakh tribute 1723-58, occupied Lhasa 1717-20; destroyed by the Qing 1755-58."
+  },
+  {
+   "name": "Khoshut Khanate",
+   "from": 1642,
+   "to": 1717,
+   "seat": {
+    "name": "Lhasa (Dam pastures)",
+    "lat": 29.65,
+    "lon": 91.12
+   },
+   "extent": [
+    [
+     38.5,
+     93.0
+    ],
+    [
+     38.0,
+     101.0
+    ],
+    [
+     35.0,
+     102.5
+    ],
+    [
+     32.0,
+     98.5
+    ],
+    [
+     28.5,
+     97.5
+    ],
+    [
+     27.8,
+     90.0
+    ],
+    [
+     29.5,
+     82.0
+    ],
+    [
+     33.0,
+     80.0
+    ],
+    [
+     35.5,
+     86.0
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Khoshut_Khanate",
+   "confidence": "high",
+   "note": "Güshi Khan's Khoshut conquered Kham and Tsang (1637-42) and made the 5th Dalai Lama ruler of Tibet under Khoshut overlordship; Lha-bzang Khan killed by the Dzungars 1717."
+  },
+  {
+   "name": "Upper Mongols of Kokonor (Khoshut of Qinghai)",
+   "from": 1637,
+   "to": 1724,
+   "seat": {
+    "name": "Kokonor (Qinghai Lake)",
+    "lat": 36.9,
+    "lon": 100.2
+   },
+   "extent": [
+    [
+     38.5,
+     94.0
+    ],
+    [
+     38.0,
+     101.0
+    ],
+    [
+     35.0,
+     102.0
+    ],
+    [
+     34.0,
+     97.0
+    ],
+    [
+     36.0,
+     93.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1642,
+     "to": 1717,
+     "name": "Khoshut Khanate"
+    },
+    {
+     "from": 1697,
+     "to": 1723,
+     "name": "Qing China (nominal)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Khoshut_Khanate",
+   "confidence": "moderate",
+   "note": "Güshi Khan's sons' banners around Kokonor; Lobzang Danjin's revolt 1723-24 crushed and organised into Qing banners (to 1911)."
+  },
+  {
+   "name": "Tüsheet Khan Aimag",
+   "from": 1580,
+   "to": 1911,
+   "seat": {
+    "name": "Erdene Zuu / Urga",
+    "lat": 47.2,
+    "lon": 102.84
+   },
+   "extent": [
+    [
+     50.0,
+     101.5
+    ],
+    [
+     50.3,
+     108.5
+    ],
+    [
+     47.5,
+     111.0
+    ],
+    [
+     44.5,
+     109.5
+    ],
+    [
+     44.5,
+     103.0
+    ],
+    [
+     47.0,
+     100.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1691,
+     "to": 1911,
+     "name": "Qing China"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1580,
+     "to": 1725,
+     "seat": {
+      "name": "Erdene Zuu",
+      "lat": 47.2,
+      "lon": 102.84
+     },
+     "extent": [
+      [
+       50.0,
+       98.5
+      ],
+      [
+       50.3,
+       108.5
+      ],
+      [
+       47.5,
+       111.0
+      ],
+      [
+       44.5,
+       109.5
+      ],
+      [
+       44.5,
+       99.5
+      ],
+      [
+       47.0,
+       98.5
+      ]
+     ]
+    },
+    {
+     "from": 1725,
+     "to": 1911,
+     "seat": {
+      "name": "Urga (Ikh Khüree)",
+      "lat": 47.92,
+      "lon": 106.92
+     },
+     "extent": [
+      [
+       50.0,
+       101.5
+      ],
+      [
+       50.3,
+       108.5
+      ],
+      [
+       47.5,
+       111.0
+      ],
+      [
+       44.5,
+       109.5
+      ],
+      [
+       44.5,
+       103.0
+      ],
+      [
+       47.0,
+       100.5
+      ]
+     ]
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Khalkha_Mongols",
+   "confidence": "moderate",
+   "note": "Central Khalkha khanate (Abtai Khan founded Erdene Zuu 1585); Galdan's invasion 1688 drove Khalkha to submit to the Qing at Dolon Nor 1691; Sain Noyon split off 1725."
+  },
+  {
+   "name": "Setsen Khan Aimag",
+   "from": 1580,
+   "to": 1911,
+   "seat": {
+    "name": "Kherlen (Öndörkhaan)",
+    "lat": 47.32,
+    "lon": 110.65
+   },
+   "extent": [
+    [
+     50.0,
+     108.5
+    ],
+    [
+     50.0,
+     116.0
+    ],
+    [
+     47.5,
+     119.5
+    ],
+    [
+     45.5,
+     117.0
+    ],
+    [
+     45.0,
+     110.5
+    ],
+    [
+     47.5,
+     110.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1691,
+     "to": 1911,
+     "name": "Qing China"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Khalkha_Mongols",
+   "confidence": "moderate",
+   "note": "Eastern Khalkha khanate."
+  },
+  {
+   "name": "Zasagt Khan Aimag",
+   "from": 1580,
+   "to": 1911,
+   "seat": {
+    "name": "Zasagt Khan ordo (Gobi-Altai)",
+    "lat": 47.0,
+    "lon": 96.9
+   },
+   "extent": [
+    [
+     50.5,
+     94.0
+    ],
+    [
+     50.3,
+     99.5
+    ],
+    [
+     47.0,
+     100.5
+    ],
+    [
+     44.5,
+     99.5
+    ],
+    [
+     44.5,
+     95.0
+    ],
+    [
+     47.0,
+     93.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1691,
+     "to": 1911,
+     "name": "Qing China"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Khalkha_Mongols",
+   "confidence": "moderate",
+   "note": "Western Khalkha khanate; conflict with Tüsheet Khan triggered Galdan's intervention 1688."
+  },
+  {
+   "name": "Sain Noyon Khan Aimag",
+   "from": 1725,
+   "to": 1911,
+   "seat": {
+    "name": "Tsetserleg area",
+    "lat": 47.47,
+    "lon": 101.45
+   },
+   "extent": [
+    [
+     50.0,
+     98.5
+    ],
+    [
+     50.0,
+     102.5
+    ],
+    [
+     47.0,
+     103.5
+    ],
+    [
+     44.5,
+     103.0
+    ],
+    [
+     44.5,
+     99.5
+    ],
+    [
+     47.0,
+     99.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1725,
+     "to": 1911,
+     "name": "Qing China"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Khalkha_Mongols",
+   "confidence": "moderate",
+   "note": "Created by the Qing from Tüsheet Khan lands for Tseren Efu."
+  },
+  {
+   "name": "Altan Khans of the Khotogoid",
+   "from": 1580,
+   "to": 1690,
+   "seat": {
+    "name": "Uvs Nuur area",
+    "lat": 49.98,
+    "lon": 92.07
+   },
+   "extent": [
+    [
+     51.5,
+     89.0
+    ],
+    [
+     51.5,
+     96.0
+    ],
+    [
+     49.5,
+     97.0
+    ],
+    [
+     48.5,
+     93.0
+    ],
+    [
+     49.5,
+     89.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1580,
+     "to": 1691,
+     "name": "Zasagt Khan Aimag (nominal)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Altan_Khan_of_the_Khalkha",
+   "confidence": "moderate",
+   "note": "Northwestern Khalkha khans (Sholoi Ubashi, Ombo Erdene) overlords of Tuva and the Yenisei Kirghiz; dealt with Moscow; crushed by Dzungars c.1690."
+  },
+  {
+   "name": "Tumed (Altan Khan)",
+   "from": 1520,
+   "to": 1632,
+   "seat": {
+    "name": "Kökeqota (Hohhot)",
+    "lat": 40.82,
+    "lon": 111.65
+   },
+   "extent": [
+    [
+     42.5,
+     108.0
+    ],
+    [
+     42.3,
+     114.0
+    ],
+    [
+     40.3,
+     114.0
+    ],
+    [
+     39.9,
+     109.0
+    ],
+    [
+     41.0,
+     107.0
+    ]
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Altan_Khan",
+   "confidence": "high",
+   "note": "Altan Khan (r.1542-82) founded Hohhot 1572, invited the 3rd Dalai Lama 1578; overrun by Ligdan 1628-32, then Manchu banners."
+  },
+  {
+   "name": "Ordos Mongols",
+   "from": 1500,
+   "to": 1911,
+   "seat": {
+    "name": "Ejen Khoroo",
+    "lat": 39.37,
+    "lon": 109.77
+   },
+   "extent": [
+    [
+     40.8,
+     106.5
+    ],
+    [
+     40.5,
+     111.0
+    ],
+    [
+     38.0,
+     110.5
+    ],
+    [
+     37.6,
+     107.0
+    ],
+    [
+     39.0,
+     106.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1636,
+     "to": 1911,
+     "name": "Qing China"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Ordos_Mongols",
+   "confidence": "moderate",
+   "note": "Jinong's tumen inside the Yellow River loop; Qing league (Yeke Juu) after 1636."
+  },
+  {
+   "name": "Phagmodrupa dynasty",
+   "from": 1354,
+   "to": 1618,
+   "seat": {
+    "name": "Nedong",
+    "lat": 29.23,
+    "lon": 91.77
+   },
+   "extent": [
+    [
+     31.0,
+     85.0
+    ],
+    [
+     31.0,
+     92.5
+    ],
+    [
+     30.0,
+     94.5
+    ],
+    [
+     28.5,
+     93.0
+    ],
+    [
+     28.0,
+     88.5
+    ],
+    [
+     29.0,
+     85.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1354,
+     "to": 1435,
+     "extent": [
+      [
+       31.0,
+       85.0
+      ],
+      [
+       31.0,
+       92.5
+      ],
+      [
+       30.0,
+       94.5
+      ],
+      [
+       28.5,
+       93.0
+      ],
+      [
+       28.0,
+       88.5
+      ],
+      [
+       29.0,
+       85.0
+      ]
+     ]
+    },
+    {
+     "from": 1435,
+     "to": 1565,
+     "extent": [
+      [
+       30.5,
+       90.0
+      ],
+      [
+       30.6,
+       92.5
+      ],
+      [
+       29.8,
+       94.0
+      ],
+      [
+       28.5,
+       93.0
+      ],
+      [
+       28.6,
+       90.3
+      ]
+     ]
+    },
+    {
+     "from": 1565,
+     "to": 1618,
+     "extent": [
+      [
+       29.7,
+       91.2
+      ],
+      [
+       29.7,
+       92.6
+      ],
+      [
+       28.7,
+       92.8
+      ],
+      [
+       28.8,
+       91.3
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Phagmodrupa_dynasty",
+   "confidence": "high",
+   "note": "Lang family gongmas who ended Sakya rule; Tsang lost to the Rinpungpa after 1435, real power gone by 1565; Nedong taken by the Tsangpa 1618."
+  },
+  {
+   "name": "Rinpungpa",
+   "from": 1435,
+   "to": 1565,
+   "seat": {
+    "name": "Rinpung",
+    "lat": 29.27,
+    "lon": 90.0
+   },
+   "extent": [
+    [
+     30.5,
+     86.5
+    ],
+    [
+     30.3,
+     90.5
+    ],
+    [
+     29.0,
+     91.0
+    ],
+    [
+     28.2,
+     89.5
+    ],
+    [
+     28.6,
+     86.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1435,
+     "to": 1481,
+     "name": "Phagmodrupa dynasty (nominal)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1498,
+     "to": 1517,
+     "extent": [
+      [
+       30.5,
+       86.5
+      ],
+      [
+       30.5,
+       91.5
+      ],
+      [
+       29.0,
+       91.8
+      ],
+      [
+       28.2,
+       89.5
+      ],
+      [
+       28.6,
+       86.5
+      ]
+     ]
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Rinpungpa",
+   "confidence": "high",
+   "note": "Ministers of the Phagmodrupa who ruled Tsang from Rinpung and Samdrubtse; held Lhasa 1498-1517; overthrown by their governor Karma Tseten (Tsangpa) 1565."
+  },
+  {
+   "name": "Tsangpa dynasty",
+   "from": 1565,
+   "to": 1642,
+   "seat": {
+    "name": "Shigatse (Samdrubtse)",
+    "lat": 29.27,
+    "lon": 88.88
+   },
+   "extent": [
+    [
+     31.5,
+     84.0
+    ],
+    [
+     31.5,
+     92.5
+    ],
+    [
+     30.0,
+     94.5
+    ],
+    [
+     28.5,
+     93.0
+    ],
+    [
+     27.9,
+     88.5
+    ],
+    [
+     28.8,
+     84.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1565,
+     "to": 1618,
+     "extent": [
+      [
+       31.0,
+       84.5
+      ],
+      [
+       30.6,
+       90.6
+      ],
+      [
+       29.0,
+       91.0
+      ],
+      [
+       28.0,
+       88.5
+      ],
+      [
+       28.8,
+       84.5
+      ]
+     ]
+    },
+    {
+     "from": 1618,
+     "to": 1642,
+     "extent": [
+      [
+       31.5,
+       84.0
+      ],
+      [
+       31.5,
+       92.5
+      ],
+      [
+       30.0,
+       94.5
+      ],
+      [
+       28.5,
+       93.0
+      ],
+      [
+       27.9,
+       88.5
+      ],
+      [
+       28.8,
+       84.5
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Tsangpa",
+   "confidence": "high",
+   "note": "Karma-Kagyu-backed kings of Tsang; conquered Ü 1618; defeated by Güshi Khan 1642."
+  },
+  {
+   "name": "Ganden Phodrang",
+   "aliases": [
+    "Government of Tibet",
+    "Dalai Lama's government"
+   ],
+   "from": 1642,
+   "to": 1959,
+   "seat": {
+    "name": "Lhasa",
+    "lat": 29.65,
+    "lon": 91.12
+   },
+   "extent": [
+    [
+     33.0,
+     79.5
+    ],
+    [
+     35.5,
+     86.0
+    ],
+    [
+     34.5,
+     92.0
+    ],
+    [
+     32.5,
+     97.0
+    ],
+    [
+     30.0,
+     99.0
+    ],
+    [
+     28.3,
+     97.5
+    ],
+    [
+     27.8,
+     91.5
+    ],
+    [
+     28.0,
+     86.0
+    ],
+    [
+     30.0,
+     81.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1642,
+     "to": 1717,
+     "name": "Khoshut Khanate"
+    },
+    {
+     "from": 1717,
+     "to": 1720,
+     "name": "Dzungar Khanate (occupation)"
+    },
+    {
+     "from": 1720,
+     "to": 1912,
+     "name": "Qing China"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ganden_Phodrang",
+   "confidence": "high",
+   "note": "Dalai Lamas' government; western Tibet (Ngari) from 1683; eastern Kham states mostly self-ruling (see Kham entries); Nyarong added 1865."
+  },
+  {
+   "name": "Principality of Gyantse",
+   "from": 1350,
+   "to": 1440,
+   "seat": {
+    "name": "Gyantse",
+    "lat": 28.92,
+    "lon": 89.6
+   },
+   "reach_km": 50,
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Gyantse",
+   "confidence": "low",
+   "note": "Rabten Kunsang Phag's principality (Gyantse Kumbum 1427); absorbed by the Rinpungpa."
+  },
+  {
+   "name": "Lato Lho (Shekar)",
+   "aliases": [
+    "Southern Latö"
+   ],
+   "from": 1350,
+   "to": 1600,
+   "seat": {
+    "name": "Shekar",
+    "lat": 28.66,
+    "lon": 87.13
+   },
+   "reach_km": 70,
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Tingri_County",
+   "confidence": "low",
+   "note": "Myriarchy-descended princes of western Tsang under Phagmodrupa/Rinpungpa suzerainty."
+  },
+  {
+   "name": "Gungthang",
+   "aliases": [
+    "Mangyul Gungthang"
+   ],
+   "from": 910,
+   "to": 1620,
+   "seat": {
+    "name": "Dzongka (Gungthang)",
+    "lat": 28.97,
+    "lon": 85.37
+   },
+   "reach_km": 100,
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1565,
+     "name": "Phagmodrupa / Rinpungpa (nominal)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Dzongka",
+   "confidence": "low",
+   "note": "Descendants of the Yarlung kings controlling the Kyirong-Nepal route; conquered by the Tsangpa c.1620."
+  },
+  {
+   "name": "Lhagyari",
+   "from": 1400,
+   "to": 1959,
+   "seat": {
+    "name": "Lhagyari (Chusum)",
+    "lat": 29.07,
+    "lon": 92.43
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1642,
+     "to": 1959,
+     "name": "Ganden Phodrang (Tibet)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Lhagyari_Palace",
+   "confidence": "low",
+   "note": "Small hereditary kingdom in southern Tibet claiming Yarlung royal descent; autonomous estate under Lhasa."
+  },
+  {
+   "name": "Kingdom of Pome (Powo)",
+   "from": 1400,
+   "to": 1931,
+   "seat": {
+    "name": "Bomi (Kanam)",
+    "lat": 29.86,
+    "lon": 95.77
+   },
+   "extent": [
+    [
+     30.6,
+     94.5
+    ],
+    [
+     30.4,
+     97.0
+    ],
+    [
+     29.3,
+     97.2
+    ],
+    [
+     29.0,
+     95.0
+    ],
+    [
+     29.7,
+     94.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1642,
+     "to": 1931,
+     "name": "Ganden Phodrang (Tibet) (nominal)"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Bomi_County",
+   "confidence": "low",
+   "note": "Kanam Depa rulers of Powo, largely independent until Lhasa's 1931 conquest."
+  },
+  {
+   "name": "Guge Kingdom",
+   "from": 950,
+   "to": 1630,
+   "seat": {
+    "name": "Tsaparang",
+    "lat": 31.48,
+    "lon": 79.81
+   },
+   "extent": [
+    [
+     32.8,
+     79.3
+    ],
+    [
+     32.5,
+     81.5
+    ],
+    [
+     31.0,
+     82.0
+    ],
+    [
+     30.2,
+     81.0
+    ],
+    [
+     30.8,
+     78.8
+    ],
+    [
+     31.8,
+     78.4
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Guge",
+   "confidence": "high",
+   "note": "Western Tibetan kingdom (with Purang); Jesuit mission 1624; conquered by Ladakh 1630."
+  },
+  {
+   "name": "Kingdom of Ladakh",
+   "aliases": [
+    "Namgyal dynasty",
+    "Maryul"
+   ],
+   "from": 1460,
+   "to": 1842,
+   "seat": {
+    "name": "Leh",
+    "lat": 34.16,
+    "lon": 77.58
+   },
+   "extent": [
+    [
+     35.5,
+     75.8
+    ],
+    [
+     35.0,
+     79.5
+    ],
+    [
+     32.8,
+     79.5
+    ],
+    [
+     32.4,
+     78.0
+    ],
+    [
+     33.4,
+     75.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1684,
+     "to": 1834,
+     "name": "Mughal Empire / Kashmir (nominal tribute)"
+    },
+    {
+     "from": 1834,
+     "to": 1842,
+     "name": "Dogra Jammu (Sikh Empire)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1630,
+     "to": 1684,
+     "extent": [
+      [
+       35.5,
+       75.8
+      ],
+      [
+       35.0,
+       79.5
+      ],
+      [
+       33.5,
+       81.5
+      ],
+      [
+       31.0,
+       82.5
+      ],
+      [
+       30.2,
+       81.0
+      ],
+      [
+       31.0,
+       78.6
+      ],
+      [
+       32.4,
+       77.5
+      ],
+      [
+       33.4,
+       75.8
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Namgyal_dynasty",
+   "confidence": "high",
+   "note": "Held Guge and Ngari 1630-84 until the Tibet-Ladakh-Mughal war (Treaty of Tingmosgang 1684); conquered by Zorawar Singh 1834-42."
+  },
+  {
+   "name": "Kingdom of Lo (Mustang)",
+   "aliases": [
+    "Lo",
+    "Mustang"
+   ],
+   "from": 1380,
+   "to": 2008,
+   "seat": {
+    "name": "Lo Manthang",
+    "lat": 29.18,
+    "lon": 83.96
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1440,
+     "name": "Gungthang"
+    },
+    {
+     "from": 1700,
+     "to": 1789,
+     "name": "Jumla (tribute)"
+    },
+    {
+     "from": 1789,
+     "to": 2008,
+     "name": "Kingdom of Nepal"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Upper_Mustang",
+   "confidence": "high",
+   "note": "Founded by Ame Pal c.1380; tributary to Gorkha Nepal from 1789."
+  },
+  {
+   "name": "Kingdom of Derge",
+   "from": 1300,
+   "to": 1909,
+   "seat": {
+    "name": "Dêgê (Gonchen)",
+    "lat": 31.8,
+    "lon": 98.58
+   },
+   "extent": [
+    [
+     33.3,
+     97.3
+    ],
+    [
+     32.8,
+     99.7
+    ],
+    [
+     31.6,
+     100.2
+    ],
+    [
+     30.9,
+     99.4
+    ],
+    [
+     31.3,
+     98.2
+    ],
+    [
+     32.4,
+     97.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1639,
+     "to": 1717,
+     "name": "Khoshut Khanate (nominal)"
+    },
+    {
+     "from": 1728,
+     "to": 1909,
+     "name": "Qing China (tusi)"
+    },
+    {
+     "from": 1863,
+     "to": 1865,
+     "name": "Nyarong (Gönpo Namgyal)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Derge",
+   "confidence": "moderate",
+   "note": "Most powerful Kham kingdom; Dêgê seat from the mid-15th c.; printing house 1729; annexed by Zhao Erfeng 1908-09."
+  },
+  {
+   "name": "Kingdom of Nangchen",
+   "from": 1300,
+   "to": 1951,
+   "seat": {
+    "name": "Nangchen",
+    "lat": 32.2,
+    "lon": 96.48
+   },
+   "extent": [
+    [
+     33.5,
+     94.5
+    ],
+    [
+     33.2,
+     97.0
+    ],
+    [
+     32.0,
+     97.3
+    ],
+    [
+     31.5,
+     96.0
+    ],
+    [
+     32.3,
+     94.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1642,
+     "to": 1717,
+     "name": "Khoshut Khanate"
+    },
+    {
+     "from": 1725,
+     "to": 1912,
+     "name": "Qing China (Xining amban)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Nangq%C3%AAn_County",
+   "confidence": "low",
+   "note": "Kingdom of 25 tribes in upper Mekong (Dza-chu) basin under the Nangchen gyalpo."
+  },
+  {
+   "name": "Kingdom of Lingtsang",
+   "from": 1300,
+   "to": 1950,
+   "seat": {
+    "name": "Lingtsang",
+    "lat": 32.55,
+    "lon": 98.95
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1728,
+     "to": 1912,
+     "name": "Qing China (tusi)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Lingtsang",
+   "confidence": "low",
+   "note": "Small kingdom north-east of Derge claiming descent from Gesar of Ling."
+  },
+  {
+   "name": "Kingdom of Chakla",
+   "from": 1407,
+   "to": 1911,
+   "seat": {
+    "name": "Dartsedo (Kangding)",
+    "lat": 30.0,
+    "lon": 101.96
+   },
+   "extent": [
+    [
+     31.0,
+     101.3
+    ],
+    [
+     30.8,
+     102.5
+    ],
+    [
+     29.4,
+     102.5
+    ],
+    [
+     29.3,
+     101.4
+    ],
+    [
+     30.2,
+     100.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1700,
+     "to": 1911,
+     "name": "Qing China (tusi)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Chakla",
+   "confidence": "moderate",
+   "note": "One of the four great Kham chiefdoms (with Derge, Batang, Lithang); Ming recognition 1407; Qing annexation 1911."
+  },
+  {
+   "name": "Chiefdom of Batang",
+   "from": 1650,
+   "to": 1905,
+   "seat": {
+    "name": "Batang",
+    "lat": 30.0,
+    "lon": 99.11
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1642,
+     "to": 1719,
+     "name": "Khoshut / Ganden Phodrang"
+    },
+    {
+     "from": 1719,
+     "to": 1905,
+     "name": "Qing China (tusi)"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Batang_County",
+   "confidence": "low",
+   "note": "Hereditary chiefdom on the Jinsha; 1905 uprising led to Zhao Erfeng's conquest."
+  },
+  {
+   "name": "Chiefdom of Lithang",
+   "from": 1650,
+   "to": 1906,
+   "seat": {
+    "name": "Lithang",
+    "lat": 29.99,
+    "lon": 100.27
+   },
+   "reach_km": 90,
+   "overlord": [
+    {
+     "from": 1642,
+     "to": 1719,
+     "name": "Khoshut / Ganden Phodrang"
+    },
+    {
+     "from": 1719,
+     "to": 1906,
+     "name": "Qing China (tusi)"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Litang_County",
+   "confidence": "low",
+   "note": "Birthplace of the 7th Dalai Lama; Qing tusi from 1719."
+  },
+  {
+   "name": "Chamdo (Phagpa Lha lama state)",
+   "from": 1437,
+   "to": 1917,
+   "seat": {
+    "name": "Chamdo",
+    "lat": 31.14,
+    "lon": 97.17
+   },
+   "reach_km": 90,
+   "overlord": [
+    {
+     "from": 1642,
+     "to": 1719,
+     "name": "Khoshut / Ganden Phodrang"
+    },
+    {
+     "from": 1719,
+     "to": 1912,
+     "name": "Qing China / Ganden Phodrang (Tibet)"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Chamdo",
+   "confidence": "low",
+   "note": "Gelug monastic principality of Jampaling (founded 1437) under the Phagpa Lha incarnations."
+  },
+  {
+   "name": "Hor States (Five Hor)",
+   "aliases": [
+    "Beri",
+    "Drango",
+    "Kangsar",
+    "Mazur",
+    "Trehor"
+   ],
+   "from": 1640,
+   "to": 1950,
+   "seat": {
+    "name": "Kandze",
+    "lat": 31.62,
+    "lon": 99.99
+   },
+   "reach_km": 80,
+   "overlord": [
+    {
+     "from": 1642,
+     "to": 1717,
+     "name": "Khoshut Khanate"
+    },
+    {
+     "from": 1728,
+     "to": 1912,
+     "name": "Qing China (tusi)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Hor_States",
+   "confidence": "low",
+   "note": "Five Mongol-descended chiefdoms of the Yalong valley; Beri king defeated by Güshi Khan 1639/40."
+  },
+  {
+   "name": "Nyarong (Gönpo Namgyal)",
+   "from": 1837,
+   "to": 1865,
+   "seat": {
+    "name": "Nyarong",
+    "lat": 30.98,
+    "lon": 100.85
+   },
+   "extent": [
+    [
+     33.0,
+     98.0
+    ],
+    [
+     32.5,
+     101.5
+    ],
+    [
+     30.0,
+     101.8
+    ],
+    [
+     29.5,
+     99.5
+    ],
+    [
+     31.0,
+     98.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1837,
+     "to": 1848,
+     "seat": {
+      "name": "Nyarong",
+      "lat": 30.98,
+      "lon": 100.85
+     },
+     "reach_km": 60
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Gonpo_Namgyal",
+   "confidence": "moderate",
+   "note": "Gönpo Namgyal's chiefdom expanded over Derge, Hor and Lithang c.1848-63; destroyed by a Lhasa army 1865, after which Nyarong was governed by a Lhasa commissioner."
+  },
+  {
+   "name": "Chuchen (Great Jinchuan)",
+   "aliases": [
+    "Great Jinchuan",
+    "Rabten"
+   ],
+   "from": 1666,
+   "to": 1776,
+   "seat": {
+    "name": "Leyi (Jinchuan)",
+    "lat": 31.48,
+    "lon": 102.06
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1666,
+     "to": 1776,
+     "name": "Qing China (tusi)"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Jinchuan_campaigns",
+   "confidence": "moderate",
+   "note": "Gyalrong chiefdom whose wars with the Qing (1747-49, 1771-76) were among the costliest Qing campaigns; with Tsanlha (Small Jinchuan, 31.0N 102.36E) annexed 1776."
+  },
+  {
+   "name": "Gyalrong chiefdoms",
+   "from": 1400,
+   "to": 1950,
+   "seat": {
+    "name": "Barkam (Zhuokeji)",
+    "lat": 31.9,
+    "lon": 102.22
+   },
+   "extent": [
+    [
+     32.6,
+     101.2
+    ],
+    [
+     32.4,
+     103.0
+    ],
+    [
+     31.0,
+     103.3
+    ],
+    [
+     30.5,
+     102.4
+    ],
+    [
+     31.0,
+     101.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1644,
+     "name": "Ming China (tusi)"
+    },
+    {
+     "from": 1644,
+     "to": 1912,
+     "name": "Qing China (tusi)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Gyalrong_people",
+   "confidence": "low",
+   "note": "The 'eighteen' Gyalrong chiefdoms (Somo, Chogtse, Dzonggag, Trokyab, etc.) of the upper Dadu basin; Great and Small Jinchuan listed separately."
+  },
+  {
+   "name": "Muli lama kingdom",
+   "aliases": [
+    "Mili"
+   ],
+   "from": 1580,
+   "to": 1953,
+   "seat": {
+    "name": "Muli",
+    "lat": 27.93,
+    "lon": 101.27
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1729,
+     "to": 1912,
+     "name": "Qing China (tusi)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Muli_Tibetan_Autonomous_County",
+   "confidence": "moderate",
+   "note": "Gelug lama-kings (founded after the 3rd Dalai Lama's visit, 1580)."
+  },
+  {
+   "name": "Golog confederation",
+   "from": 1400,
+   "to": 1950,
+   "seat": {
+    "name": "Machen",
+    "lat": 34.48,
+    "lon": 100.24
+   },
+   "extent": [
+    [
+     35.3,
+     98.0
+    ],
+    [
+     35.0,
+     101.0
+    ],
+    [
+     33.0,
+     101.8
+    ],
+    [
+     32.5,
+     99.5
+    ],
+    [
+     34.0,
+     97.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1724,
+     "to": 1912,
+     "name": "Qing China (nominal, Xining amban)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Golog_Tibetan_Autonomous_Prefecture",
+   "confidence": "low",
+   "note": "Three Golog chiefly lineages (Wangchen Bum, Akyong Bum, Khangsar) of the upper Yellow River, effectively independent."
+  }
+ ],
+ "gaps": [
+  {
+   "area": "Najd oasis towns before 1744 (al-Washm, Sudair, al-Kharj, al-Aflaj, Huraymila, Ushaiqer)",
+   "from": 1400,
+   "to": 1745,
+   "note": "Not empty: dozens of autonomous oasis emirates of a few towns each (e.g. Al Madlaj of Majma'ah, Huraymila, al-Kharj), surrounded by Bedouin dirahs. Only Uyaynah, Diriyah and Riyadh itemised; fill the rest of central Najd with the Bedouin confederations listed or leave fragmented."
+  },
+  {
+   "area": "Asir highlands and Tihamat Asir before 1800",
+   "from": 1400,
+   "to": 1800,
+   "note": "Tribal (Shahran, Rufaydah, Bal-Qarn, Ghamid, Zahran) with nominal allegiance to the Sharifs of Mecca or the Zaydi imams; Abu Arish/Jizan coast held by the Sharifs of Abu Arish (Khayrati) under the Zaydi imams in the 17th-18th c."
+  },
+  {
+   "area": "Rub' al-Khali interior",
+   "from": 1400,
+   "to": 1900,
+   "note": "Largely uninhabited sand sea; Al Murrah and Rashid/Manahil nomads only on its margins."
+  },
+  {
+   "area": "Nafud desert and northern Arabia 1400-1650",
+   "from": 1400,
+   "to": 1650,
+   "note": "Tribal (Anazzah, Shammar, Banu Lam) with no state; al-Jawf/Dumat al-Jandal and Tayma small oasis communities."
+  },
+  {
+   "area": "Upper Yemen tribal belt (Hashid and Bakil, al-Jawf, Marib)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Tribal confederations (Hashid, Bakil, Dahm, Abidah of Marib, Sharifs of al-Jawf/Marib) under nominal Zaydi or Ottoman suzerainty; fill from the Zaydi Imamate/Qasimid entries."
+  },
+  {
+   "area": "Interior Oman and Dhahirah (Buraimi, Ibri, Sharqiyah)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Under Nabhani maliks/Ibadi imams then Ya'rubid and Busaidi rulers, but tribes (Bani Ghafir, Hinawi and Ghafiri factions, Duru', Wahiba, Janaba) often autonomous; Buraimi contested with Saudis 1800-1869."
+  },
+  {
+   "area": "Dhofar 1400-1829",
+   "from": 1400,
+   "to": 1829,
+   "note": "Under Kathiri sultans intermittently from 1414, otherwise Qara/Shahra tribes; Busaidi Oman from 1829 (firm 1879)."
+  },
+  {
+   "area": "Libyan Desert (Great Sand Sea, Calanshio, Sarir) and Tanezrouft/Erg Chech",
+   "from": 1400,
+   "to": 1900,
+   "note": "Effectively uninhabited sand seas and regs; crossed by caravans only."
+  },
+  {
+   "area": "Draa valley and pre-Saharan Morocco south of the High Atlas",
+   "from": 1400,
+   "to": 1900,
+   "note": "Ksour of the Draa (Ktaoua, Mhamid, Zagora), Dades and Todgha under local jama'as, Arab tribes (Ma'qil) and the Ait Atta/Ait Yafelman; nominally Saadi/Alaouite. Fill with Ait Atta and Morocco."
+  },
+  {
+   "area": "Sahara of Algeria between Tuat and the Tell (Grand Erg Occidental, Saoura)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Saoura ksour (Beni Abbes, Kenadsa zawiya) and nomads (Doui Menia, Ouled Djerir, Ghenanma); nominally Moroccan."
+  },
+  {
+   "area": "Ennedi/Wanyanga and the Libya-Chad-Sudan border (Uweinat)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Sparse Bideyat/Zaghawa and Tubu pastoralists; Wadai and Darfur claims on the southern edge."
+  },
+  {
+   "area": "Ustyurt plateau and Kyzylkum / Karakum desert interiors",
+   "from": 1400,
+   "to": 1900,
+   "note": "Very thinly used winter pastures of Kazakh (Adai), Turkmen (Chowdur, Igdir) and Karakalpak nomads; no fixed authority. Draw as the adjoining nomad confederation or leave empty."
+  },
+  {
+   "area": "Betpak-Dala desert (central Kazakhstan)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Near-empty clay desert between Chu and Sarysu rivers; seasonal Kazakh use only."
+  },
+  {
+   "area": "Eastern Pamirs (Alichur, Murghab plateau)",
+   "from": 1400,
+   "to": 1895,
+   "note": "High plateau with seasonal Kyrgyz herders; nominally Kokand/Qing/Shughnan until the 1895 Pamir boundary."
+  },
+  {
+   "area": "Taklamakan desert interior and Lop Nur",
+   "from": 1400,
+   "to": 1900,
+   "note": "Uninhabited sand sea within the oases-states' outlines."
+  },
+  {
+   "area": "Taimyr peninsula and Anabar tundra",
+   "from": 1400,
+   "to": 1900,
+   "note": "Nganasan, Dolgan and Enets hunters; no polity (Russian yasak via Khatanga from 17th c.)."
+  },
+  {
+   "area": "Arctic coast and islands (Severnaya Zemlya, New Siberian Islands)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Uninhabited."
+  },
+  {
+   "area": "Lower Amur, Okhotsk-Uda and Sakhalin hinterland",
+   "from": 1400,
+   "to": 1900,
+   "note": "Nivkh, Ulch, Nanai and Negidal fisher-peoples under nominal Ming/Qing (Nurgan) then Russian (1858-60) authority; expected in the East Asia list."
+  },
+  {
+   "area": "Upper Kolyma - Chukotka interior uplands",
+   "from": 1400,
+   "to": 1900,
+   "note": "Very sparse Yukaghir/Even/Chukchi seasonal use; boundaries between those nations are approximate."
+  },
+  {
+   "area": "Changtang plateau (northern Tibet)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Mostly uninhabited high plateau; nomad pastures (Hor, Nagchu) on its south edge under Lhasa; northern part empty."
+  },
+  {
+   "area": "Gobi desert core and Alashan",
+   "from": 1400,
+   "to": 1900,
+   "note": "Sparse; Alashan Khoshut banner (Qing jasagh from 1697) in the west, Khalkha and Inner Mongol banners elsewhere; Ejin Torghut 1698-."
+  },
+  {
+   "area": "Kham states not itemised (Lhatok, Gonjo, Draya, Markham, Sangen, Gyelthang)",
+   "from": 1400,
+   "to": 1909,
+   "note": "Small chiefdoms and monastic estates between Chamdo, Derge and Batang; fill with the nearest itemised Kham polity or Ganden Phodrang."
+  },
+  {
+   "area": "Amdo outside Kokonor and Golog (Rebgong, Labrang, Ngawa)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Monastic estates (Labrang Tashikyil 1709) and tribal chiefdoms under Xining/Ming-Qing tusi; expected partly in the East Asia list."
+  }
+ ]
+}

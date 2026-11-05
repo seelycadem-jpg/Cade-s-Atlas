@@ -1,0 +1,2222 @@
+{
+ "arc": {
+  "id": "roman-republic",
+  "size": "arc",
+  "title": "Conquest Undid the Republic",
+  "sub": "Rome from the expulsion of the kings to Augustus, 509 to 27 BCE",
+  "span": [
+   -509,
+   -27
+  ],
+  "themes": {
+   "primary": "power",
+   "secondary": [
+    "war",
+    "scarcity"
+   ]
+  },
+  "thesis": "The Republic's institutions shared the rewards of war among a competing aristocracy, a citizen militia and Italian allies, and that bargain conquered Italy and then the Mediterranean; once the rewards of conquest came from overseas and at scale, they flowed to individual commanders and their armies, and the institutions that had won the empire could no longer govern the men who ran it.",
+  "assumptions": [
+   "Assumes the sources for the early Republic, written down three to four centuries later, preserve the outline of real institutions even where the stories are invented.",
+   "Assumes the fall was structural; a case can be made that it was the contingent outcome of a few men's choices between 60 and 44 BCE, and that the system was functioning in 63.",
+   "Assumes the Gracchan account of a dispossessed Italian peasantry is broadly right, which field survey of the Italian countryside has made contestable."
+  ],
+  "disconfirm": "If the thesis were wrong, the Republic should have broken under the strain of losing wars as readily as winning them, or the armies that marched on Rome should have been indifferent to their generals' fortunes. The test cases run the thesis's way: the Republic survived Cannae with its institutions intact, and every army that marched on Rome between 88 and 43 BCE did so for a commander who controlled its pay, its plunder or its discharge.",
+  "awkward": "The Republic's fastest conquests, from 200 to 146 BCE, coincided with its most stable politics: no army entered Rome and no tribune was killed while Macedon, the Seleucids and Carthage were broken. The thesis needs a lag of two generations between cause and effect and has to explain it.",
+  "shelf": [
+   {
+    "a": "Ronald Syme",
+    "t": "The Roman Revolution",
+    "y": 1939
+   },
+   {
+    "a": "Keith Hopkins",
+    "t": "Conquerors and Slaves",
+    "y": 1978
+   },
+   {
+    "a": "William V. Harris",
+    "t": "War and Imperialism in Republican Rome, 327-70 B.C.",
+    "y": 1979
+   },
+   {
+    "a": "Erich S. Gruen",
+    "t": "The Last Generation of the Roman Republic",
+    "y": 1974
+   },
+   {
+    "a": "Harriet I. Flower",
+    "t": "Roman Republics",
+    "y": 2010
+   },
+   {
+    "a": "Mary Beard",
+    "t": "SPQR: A History of Ancient Rome",
+    "y": 2015
+   }
+  ],
+  "stories": [
+   "roman-republic-italy",
+   "roman-republic-mediterranean",
+   "roman-republic-force",
+   "roman-republic-commands"
+  ]
+ },
+ "stories": [
+  {
+   "id": "roman-republic-italy",
+   "size": "story",
+   "title": "Conquest by Inclusion",
+   "sub": "Rome and Italy, 509 to 264 BCE",
+   "span": [
+    -509,
+    -264
+   ],
+   "parent": "roman-republic",
+   "thesis": "Rome conquered Italy by turning each defeated enemy into an ally that owed it soldiers, and it could do so because it settled its own class conflict on the same terms, by admitting the plebeian rich to office and to the spoils of war.",
+   "assumptions": [
+    "Assumes the narrative of the Conflict of the Orders, written down under Augustus, preserves the sequence of real reforms.",
+    "Assumes the alliance system was policy; it may have been a run of ad hoc treaties later read as a design.",
+    "Assumes manpower was the decisive military variable, ahead of tactics or leadership."
+   ],
+   "disconfirm": "If the thesis were wrong, Rome's allies should have defected when Rome lost. Pyrrhus is the test: after Heraclea and Asculum the Greek cities of the south and the Samnites joined him, while the Latin colonies and the allies of central Italy held, and he could turn neither victory into recruits. Had central Italy gone over in 280 BCE, the alliance would have been a product of Roman winning and the thesis would fail.",
+   "awkward": "Rome's expansion ran as fast before plebeians reached the consulship as after: Veii, the largest Etruscan city within its reach, fell in 396 BCE to a state that had yet to elect a plebeian consul.",
+   "shelf": [
+    {
+     "a": "T. J. Cornell",
+     "t": "The Beginnings of Rome",
+     "y": 1995
+    },
+    {
+     "a": "Gary Forsythe",
+     "t": "A Critical History of Early Rome",
+     "y": 2005
+    },
+    {
+     "a": "Kurt A. Raaflaub (ed.)",
+     "t": "Social Struggles in Archaic Rome",
+     "y": 1986
+    },
+    {
+     "a": "Kathryn Lomas",
+     "t": "The Rise of Rome",
+     "y": 2017
+    },
+    {
+     "a": "E. T. Salmon",
+     "t": "Samnium and the Samnites",
+     "y": 1967
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The kings expelled",
+     "hinge": "eu-509-roman-republic",
+     "conn": null,
+     "s1": "The aristocracy that expelled King Tarquinius Superbus in about 509 BCE built a state designed to stop any one of its members from ruling, and the design held for 460 years.",
+     "s2": "The Republic replaced the king with two consuls elected for one year, each able to block the other, and parked the king's sacred duties in a powerless priest, the rex sacrorum, so that no magistrate would inherit them. The story of Lucretia and Brutus is legend; the date is roughly supported by the dedication of the Capitoline temple and by a treaty with Carthage, preserved in a Greek text of the second century BCE, dated to the Republic's first year. Rome lost the regional primacy of the kings and fought the Latin cities until its victory at Lake Regillus in 496. The treaty that followed in 493, the Foedus Cassianum, set the terms on which Rome would conquer Italy: mutual defence, booty split equally, joint colonies, and in practice a Roman commander.",
+     "support": [
+      "eu-496-lake-regillus",
+      "eu-493-foedus-cassianum"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The orders",
+     "hinge": "eu-451-twelve-tables",
+     "conn": "but",
+     "s1": "The plebeians who filled the army used their refusal to serve as leverage, and the patricians' first lasting concession was written law.",
+     "s2": "In 494 BCE the plebs walked out of the city during a war levy, the first of five secessions, and won tribunes with the power to protect any citizen against a magistrate. Their demand for published law produced the decemvirs, ten men who suspended the ordinary magistracies in 451 and posted the Twelve Tables in the Forum by 449. The code fixed legal procedure, debt bondage and a father's power over his household, and its eleventh table banned marriage between patricians and plebeians, a ban the Lex Canuleia repealed in 445. Roman boys still learned the Tables by heart in Cicero's childhood, three and a half centuries later. The code made law public and left office a patrician monopoly, and the contest moved to the consulship.",
+     "support": [
+      "eu-494-first-secession",
+      "eu-445-lex-canuleia"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Veii and the Gauls",
+     "hinge": "eu-390-gallic-sack",
+     "conn": "but",
+     "s1": "Rome doubled its territory by taking Veii in 396 BCE and was sacked by a Gallic war band six years later, and the shock taught it to fortify, to colonise and to rebuild its alliances by force.",
+     "s2": "Veii, the Etruscan city 16 km north across the Tiber, fell after a war Roman tradition stretched to ten years, and its land went to Roman citizens in plots of seven iugera. Senones Gauls from the Adriatic coast routed the Roman army at the Allia and occupied the city, by tradition all but the Capitol, and left on payment of gold. The conventional date of 390 rests on a Roman year count that runs several years long; synchronisms with Greek history put the sack in 387 or 386. Rome answered with a stone circuit of about 11 km, built of tufa from the Grotta Oscura quarries in captured Veientine territory. The Latin allies had used the defeat to test their independence, and Rome spent the next fifty years bringing them back.",
+     "support": [
+      "eu-396-veii",
+      "eu-378-servian-wall"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "One nobility, one alliance",
+     "hinge": "eu-338-latin-settlement",
+     "conn": "therefore",
+     "s1": "Rome opened the consulship to plebeians in 367 BCE and dissolved the Latin League in 338, and the two acts built one machine: a single nobility competing for command, leading armies drawn from a growing body of citizens and allies.",
+     "s2": "The Licinian-Sextian laws admitted plebeians to the consulship, and Lucius Sextius Lateranus held it in 366; within two generations the patrician-plebeian nobility was one class, ranked by offices held and wars won. When the Latins demanded equal partnership in 340, Rome fought them for two years and then took their league apart city by city. Some Latin towns received full citizenship, Campanian Capua received citizenship without the vote, and the remaining Latins kept trade and marriage rights with Rome and lost them with each other. Every arrangement bound a community to Rome alone and obliged it to send troops. The bronze rams of Antium's warships were fixed to the speakers' platform in the Forum, which took its name, the Rostra, from them.",
+     "support": [
+      "eu-367-licinian-sextian",
+      "eu-340-latin-war"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The Samnites",
+     "hinge": "eu-295-sentinum",
+     "conn": "but",
+     "s1": "The Samnites of the central Apennines were the one Italian people able to fight Rome for half a century, and Rome beat them with roads, colonies and a coalition that outlasted theirs.",
+     "s2": "The Samnite wars ran from 343 to 290 BCE with long truces between them. At the Caudine Forks in 321 a Samnite army trapped both consuls and sent the surrendered Romans under the yoke, a peace the Senate, by Roman account, later repudiated. Censor Appius Claudius Caecus began the Via Appia to Capua in 312, a military road that moved legions to the Samnite frontier. At Sentinum in 295 Rome faced Samnites, Senones Gauls, Etruscans and Umbrians together and won with about 40,000 men, after the consul Publius Decius Mus, as his father had at Vesuvius in 340, vowed himself and the enemy to the gods of the underworld and charged to his death. A final plebeian secession in 287 produced the Lex Hortensia, which made the plebeian assembly's votes binding on all citizens and closed the Conflict of the Orders as Rome finished the conquest of central Italy.",
+     "support": [
+      "eu-321-caudine-forks",
+      "eu-312-via-appia",
+      "eu-287-lex-hortensia"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "Pyrrhus",
+     "hinge": "eu-280-heraclea",
+     "conn": "therefore",
+     "s1": "King Pyrrhus of Epirus, invited by Tarentum in 280 BCE, beat Rome twice and lost the war, because Rome could replace its legions and he could not replace his veterans.",
+     "s2": "Pyrrhus brought about 25,000 men and twenty elephants, the first the Romans had faced, and won at Heraclea in 280 and Asculum in 279 at a cost to his officer corps that gave the language the Pyrrhic victory. The Greek cities of the south and the Samnites joined him; the Latin colonies and central Italy held, and the Senate, by tradition stiffened by the blind Appius Claudius, refused to treat while he stood on Italian soil. After three years in Sicily he lost at Beneventum in 275 and sailed home. Tarentum surrendered in 272, and Rome held the peninsula south of the Po. The Greek cities' entry into the alliance gave Rome ships and crews and a frontier on the Strait of Messina, three kilometres across from a Sicily where Carthage was the dominant power.",
+     "support": [
+      "eu-275-beneventum",
+      "eu-272-tarentum"
+     ]
+    }
+   ],
+   "today": "Roman law's descent from the Twelve Tables runs through Justinian's codification to the civil-law systems of continental Europe and Latin America. The Senate, the veto and the tribune survive as terms in modern constitutions, and Italy's Strada Statale 7 still follows the Via Appia from Rome to Capua."
+  },
+  {
+   "id": "roman-republic-mediterranean",
+   "size": "story",
+   "title": "The Inexhaustible Levy",
+   "sub": "Rome's wars with Carthage and the Hellenistic kingdoms, 264 to 133 BCE",
+   "span": [
+    -264,
+    -133
+   ],
+   "parent": "roman-republic",
+   "thesis": "Rome won the Mediterranean in about 120 years because its Italian alliance could replace armies faster than any rival could destroy them, and the victories paid out in provinces, silver and slaves that a city-state run by annual magistrates had no machinery to govern.",
+   "assumptions": [
+    "Assumes the Roman tally of some 700,000 infantry available to Rome and its allies in 225 BCE is of the right order.",
+    "Assumes Rome's wars were driven more by its alliance structure and its nobles' competition for glory than by fear of rivals; the defensive reading of Roman imperialism disputes this.",
+    "Assumes the provinces' revenues and captives reached Italy at a scale large enough to change its economy within two generations."
+   ],
+   "disconfirm": "If the thesis were wrong, Rome should have lost a war of attrition to a rival of comparable manpower, or its Italian allies should have defected en masse after Cannae. Some did: Capua and much of the south went over to Hannibal. The thesis rests on the Latin colonies and central Italy, which held, and would fail if their loyalty proved to be fear of Roman garrisons alone.",
+   "awkward": "The Senate repeatedly declined to annex. After Cynoscephalae it withdrew from Greece, after Pydna it split Macedon into four republics, and it took its first eastern province only in 146 BCE, after fifty years of trying to rule through free cities. A machine built for conquest was reluctant to govern what it conquered.",
+   "shelf": [
+    {
+     "a": "Arthur M. Eckstein",
+     "t": "Mediterranean Anarchy, Interstate War, and the Rise of Rome",
+     "y": 2006
+    },
+    {
+     "a": "Adrian Goldsworthy",
+     "t": "The Punic Wars",
+     "y": 2000
+    },
+    {
+     "a": "Dexter Hoyos",
+     "t": "Mastering the West: Rome and Carthage at War",
+     "y": 2015
+    },
+    {
+     "a": "Erich S. Gruen",
+     "t": "The Hellenistic World and the Coming of Rome",
+     "y": 1984
+    },
+    {
+     "a": "Nathan Rosenstein",
+     "t": "Rome at War: Farms, Families, and Death in the Middle Republic",
+     "y": 2004
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "Sicily",
+     "hinge": "eu-264-first-punic",
+     "conn": null,
+     "s1": "Rome crossed the Strait of Messina in 264 BCE in a quarrel over one Sicilian city and found itself in a 23-year war with the Mediterranean's leading sea power.",
+     "s2": "The Mamertines, Campanian mercenaries holding Messana, appealed to both Rome and Carthage, and the Roman assembly voted to accept their alliance while the Senate hesitated. Rome, whose navy amounted to a few allied triremes, built about a hundred quinqueremes in a matter of weeks and won at Mylae in 260 with the corvus, a boarding bridge that let legionaries fight at sea. Storms destroyed whole Roman fleets in 255 and 249, and in 242 leading citizens paid for a new fleet with private loans repayable only in victory. That fleet won at the Aegates Islands in 241; Carthage paid 3,200 talents and gave up Sicily, Rome's first overseas possession, governed by its own praetor from 227. In 238, while Carthage fought its own mutinous mercenaries, Rome took Sardinia and Corsica and 1,200 more talents, a seizure even accounts friendly to Rome called unjust.",
+     "support": [
+      "eu-260-mylae",
+      "eu-241-sicily-province",
+      "eu-238-sardinia"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Hannibal's wager",
+     "hinge": "eu-216-cannae",
+     "conn": "therefore",
+     "s1": "Hannibal Barca invaded Italy in 218 BCE to break Rome's alliance system, won the most complete battlefield victory of antiquity at Cannae, and found that the alliance held at its core.",
+     "s2": "The Barcid family rebuilt Carthaginian power in Spain after 237 on silver mines and Iberian soldiers, and Hannibal's siege of Saguntum, a Roman friend on the Spanish coast, gave Rome its cause for war in 218. He crossed the Alps late that year and reached the Po valley with about 20,000 infantry and 6,000 cavalry, and destroyed Roman armies at the Trebia, at Lake Trasimene in 217 and at Cannae in August 216, where some 50,000 Romans and allies died in an afternoon. Capua, the second city of Italy, and much of the south defected. The Latin colonies and the allies of central Italy stayed, and by 212 Rome had about 25 legions under arms while following Quintus Fabius Maximus's strategy of shadowing Hannibal and refusing battle. Hannibal won every major battle he fought in Italy over fifteen years and never had the siege train or the recruits to take Rome.",
+     "support": [
+      "eu-237-barcid-spain",
+      "eu-218-hannibal-alps",
+      "eu-217-trasimene"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Zama",
+     "hinge": "me-202-zama",
+     "conn": "but",
+     "s1": "Rome won the war in Spain and Africa, and the peace of 201 BCE left it the only power in the western Mediterranean.",
+     "s2": "Publius Cornelius Scipio, given a proconsular command in Spain at about 25 without having held the consulship, took New Carthage in 209 with its silver, its arsenal and its Iberian hostages, and drove Carthage from Spain by 206. Hannibal's brother Hasdrubal reached Italy with a relief army and was destroyed at the Metaurus in 207; his head was thrown into Hannibal's camp. Scipio invaded Africa in 204, and at Zama in 202 he beat Hannibal with Numidian cavalry from King Masinissa, the arm that had won Cannae for Carthage. The treaty of 201 cut Carthage's navy to ten triremes, imposed 10,000 talents over fifty years and forbade it to make war without Rome's consent. Rome kept Spain, organised as two provinces in 197, and kept armies there for the next seventy years; Scipio's career, an army given to a man without office, was the first of the Republic's extraordinary commands.",
+     "support": [
+      "eu-209-new-carthage",
+      "eu-207-metaurus",
+      "eu-197-hispania"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "The Greek East",
+     "hinge": "eu-168-pydna",
+     "conn": "therefore",
+     "s1": "Rome broke Macedon and the Seleucid empire within thirty years and ordered the third Hellenistic power about with a single sentence, and for most of that time it tried to rule Greece without governing it.",
+     "s2": "Consul Titus Quinctius Flamininus defeated King Philip V of Macedon at Cynoscephalae in 197 BCE, where the legion's maniples broke a phalanx caught on uneven ground, and proclaimed the freedom of the Greeks at the Isthmian Games of 196. Antiochus III, the Seleucid king, crossed into Greece and was beaten at Magnesia in the winter of 190; the Treaty of Apamea in 188 cost him Asia Minor west of the Taurus and 15,000 talents. Perseus, Philip's son, lost the kingdom at Pydna in 168, Rome split Macedon into four republics, and the next year it sold 150,000 Epirotes into slavery. That summer the envoy Gaius Popillius Laenas met Antiochus IV outside Alexandria, drew a circle in the sand around him and demanded an answer before he stepped out of it; the king left Egypt. Macedonian treasure let Rome stop taxing its own citizens directly from 167.",
+     "support": [
+      "eu-197-cynoscephalae",
+      "eu-196-isthmian-freedom",
+      "me-190-magnesia",
+      "me-188-apamea",
+      "me-168-eleusis"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The provinces",
+     "hinge": "me-146-rome-carthage",
+     "conn": "therefore",
+     "s1": "In 146 BCE Rome destroyed Carthage and Corinth and made Africa and Macedonia provinces, and the profits of empire began to reach Italy faster than its institutions could absorb them.",
+     "s2": "Rome had already found that its governors needed policing: the Lex Calpurnia of 149 set up the first standing criminal court, a jury of senators to try governors for extortion, and control of its juries became one of the most contested prizes in Roman politics for the next eighty years. The Spanish wars ran on until Scipio Aemilianus starved Numantia into surrender in 133, and the long service they demanded fell on the small farmers who filled the legions. In the same year King Attalus III of Pergamum died and left his kingdom to the Roman people, the richest province Rome had yet acquired. Captives from these wars worked the estates in Italy and Sicily that senators bought with their share of the plunder, and in 135 the slaves of Sicily rose.",
+     "support": [
+      "eu-149-lex-calpurnia",
+      "eu-133-numantia",
+      "me-133-attalus-bequest"
+     ]
+    }
+   ],
+   "today": "The site of Carthage, rebuilt by Rome and now a suburb of Tunis, is a UNESCO World Heritage Site, and Cannae remains the standard case study of double envelopment in military staff colleges. The Latin provincia, a magistrate's assigned sphere of command, is the root of the word province in the European languages."
+  },
+  {
+   "id": "roman-republic-force",
+   "size": "story",
+   "title": "Force Became Precedent",
+   "sub": "From the Gracchi to Sulla, 133 to 79 BCE",
+   "span": [
+    -133,
+    -79
+   ],
+   "parent": "roman-republic",
+   "thesis": "From 133 to 79 BCE every attempt to redistribute the profits of empire, land to citizens, citizenship to allies, commands to outsiders, was met with force, and each use of force set the precedent the next contender used, until Sulla brought a Roman army into Rome.",
+   "assumptions": [
+    "Assumes the land crisis the Gracchi described was real; field survey finds small farms persisting across much of Italy.",
+    "Assumes the soldiers who followed Sulla in 88 BCE acted mainly for material reward, ahead of any loyalty to his cause.",
+    "Assumes the Senate's resort to emergency decrees was a choice and that compromise was available to it."
+   ],
+   "disconfirm": "If the thesis were wrong, the escalation should show breaks: contested reforms passing peacefully, or force failing and being abandoned. The Social War is the nearest case. Rome conceded citizenship in 90 BCE within a year of the fighting starting, and the concession worked; had that pattern held for the land and command questions, the escalation would be an artefact of a few crises and the thesis would fail.",
+   "awkward": "The army that marched on Rome in 88 BCE was a conscript army raised for the Social War, and the professional proletarian army credited to Gaius Marius is largely a construct of nineteenth-century scholarship: his volunteers of 107 were discharged after Africa, and the levy continued.",
+   "shelf": [
+    {
+     "a": "P. A. Brunt",
+     "t": "The Fall of the Roman Republic and Related Essays",
+     "y": 1988
+    },
+    {
+     "a": "David Stockton",
+     "t": "The Gracchi",
+     "y": 1979
+    },
+    {
+     "a": "Arthur Keaveney",
+     "t": "Sulla: The Last Republican",
+     "y": 1982
+    },
+    {
+     "a": "Henrik Mouritsen",
+     "t": "Italian Unification: A Study in Ancient and Modern Historiography",
+     "y": 1998
+    },
+    {
+     "a": "Francois Cadiou",
+     "t": "L'armee imaginaire: les soldats proletaires dans les legions romaines au dernier siecle de la Republique",
+     "y": 2018
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The Gracchi",
+     "hinge": "eu-133-gracchi",
+     "conn": null,
+     "s1": "Tribune Tiberius Sempronius Gracchus tried in 133 BCE to rebuild the citizen farmers who filled the legions out of public land held by the rich, and senators beat him to death on the Capitol.",
+     "s2": "His law enforced an old limit of 500 iugera on holdings of public land and gave the surplus to poor citizens in allotments that could not be sold, at a time when Sicily's estate slaves were two years into a revolt led by the Syrian prophet Eunus. He had a fellow tribune who vetoed the law deposed by vote and proposed to fund the settlers from King Attalus's bequest, two acts the Senate read as a bid for kingship. The pontifex maximus, Publius Cornelius Scipio Nasica, led senators and their clients against him with clubs and broken benches, and about 300 died in the first civic bloodshed Roman tradition recorded since the kings. His brother Gaius Gracchus, tribune in 123 and 122, extended the programme to subsidised grain, colonies and equestrian juries, and in 121 the Senate passed its first emergency decree, under which consul Lucius Opimius killed him and some 3,000 followers. The land commission kept working, and its boundary stones survive in Campania and Lucania.",
+     "support": [
+      "eu-135-first-servile-war",
+      "eu-121-gaius-gracchus"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Marius",
+     "hinge": "eu-107-marius",
+     "conn": "but",
+     "s1": "Gaius Marius, a new man from Arpinum, won the consulship of 107 BCE by attacking the nobility's conduct of the war against Jugurtha, and the Cimbric emergency then kept him in office five years running.",
+     "s2": "Jugurtha, a Numidian prince, had bribed senators and killed Italian traders at Cirta in 112, and the war dragged; the assembly took the African command from the Senate's choice and gave it to Marius. He enrolled volunteers from the propertyless for it, a few thousand men later treated as the birth of a professional army. The larger emergency came from the north: the Cimbri and Teutones destroyed two consular armies at Arausio in 105, the worst Roman defeat since Cannae, and Marius held the consulship every year from 104 to 100 in breach of the rule requiring ten years between terms. He destroyed the Teutones at Aquae Sextiae in 102 and the Cimbri at Vercellae in 101. To settle his veterans he allied with tribune Lucius Appuleius Saturninus, and when Saturninus's men murdered a consular candidate in 100, Marius enforced the Senate's emergency decree against his own ally, whom a mob killed with roof tiles in the senate house.",
+     "support": [
+      "me-112-jugurthine-war",
+      "eu-105-arausio",
+      "eu-101-vercellae",
+      "eu-100-saturninus"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "The allies",
+     "hinge": "eu-91-social-war",
+     "conn": "but",
+     "s1": "Italy's allies, who supplied half or more of Rome's soldiers and had no vote on its wars, rose in 91 BCE to win the citizenship, and won it while losing the war.",
+     "s2": "Tribune Marcus Livius Drusus proposed in 91 to enfranchise the allies; the Senate annulled his laws and an unknown assassin stabbed him in his own house. The Marsi, the Samnites and their neighbours founded a state called Italia with its capital at Corfinium and a senate of 500, and struck coins showing the Italian bull goring the Roman wolf. Rome fought armies trained and equipped exactly as its own, and some 50,000 men died on each side. Consul Lucius Julius Caesar's law of 90 granted citizenship to communities that had stayed loyal or laid down their arms, and a law of 89 extended it further. The citizen census rose from about 394,000 in 115 to about 910,000 in 70, and the fight over how the new citizens would be spread among the voting tribes became the spark of the next war.",
+     "support": [
+      "eu-91-drusus",
+      "eu-90-lex-julia"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Sulla",
+     "hinge": "eu-88-sulla-march",
+     "conn": "therefore",
+     "s1": "Consul Lucius Cornelius Sulla marched his army on Rome in 88 BCE when a tribune's law transferred his eastern command to Marius, and that precedent decided every crisis of the Republic's remaining sixty years.",
+     "s2": "King Mithridates VI of Pontus had overrun Roman Asia and ordered every Roman and Italian in it killed on a single day, 80,000 by one ancient count. Tribune Publius Sulpicius Rufus passed laws spreading the new citizens across all the tribes and giving the war to Marius; Sulla's six legions at Nola followed him to Rome, and all his officers but one quaestor refused. Once Sulla had sailed east, consul Lucius Cornelius Cinna and Marius took the city by force in 87 and killed their opponents. Sulla came back in 83, won the civil war at the Colline Gate in November 82, and had himself made dictator with no term; his proscription lists made killing the named men lawful and rewarded, and their estates went to his followers. He packed the Senate, gutted the tribunate, gave the courts back to senators, settled his veterans in colonies across Italy, and laid down the dictatorship in 81.",
+     "support": [
+      "me-88-asiatic-vespers",
+      "eu-87-cinna",
+      "eu-82-colline-gate",
+      "eu-82-sulla-dictator"
+     ]
+    }
+   ],
+   "today": "The Social War made Italia a political unit for the first time, and the name the rebels struck on their coins is the name of the modern state. The senatus consultum ultimum is the standard ancient precedent cited in modern legal debate over emergency powers and states of exception."
+  },
+  {
+   "id": "roman-republic-commands",
+   "size": "story",
+   "title": "Extraordinary Commands",
+   "sub": "From Pompey to Augustus, 78 to 27 BCE",
+   "span": [
+    -78,
+    -27
+   ],
+   "parent": "roman-republic",
+   "thesis": "After Sulla the Republic met each crisis by giving one man a large army for years at a time, and the men those commands made could be neither employed nor disciplined by the Senate; civil war became the only way to rank them, and Augustus won it by making the command permanent and his own.",
+   "assumptions": [
+    "Assumes the commands answered real crises, pirates, Mithridates, Gaul, and that the Senate had no other instrument for them.",
+    "Assumes Caesar's war in Gaul was driven more by Roman politics than by Gallic events.",
+    "Assumes the Republic was past recovery by 44 BCE, which the assassins plainly doubted."
+   ],
+   "disconfirm": "If the thesis were wrong, a commander should have come home from an extraordinary command, laid it down and kept his standing. Pompey did lay down his army at Brundisium in 62 BCE, and the Senate then refused to ratify his eastern settlement or settle his veterans, which pushed him into the compact with Crassus and Caesar. The thesis survives only if that refusal was itself the system failing.",
+   "awkward": "The institutions kept working through the supposed collapse: elections were held, courts sat, and Marcus Tullius Cicero, a new man with no army, reached the consulship in 63 BCE and put down a conspiracy by senatorial decree. Few Romans of the 50s BCE had reason to think they were living through a republic's last decade.",
+   "shelf": [
+    {
+     "a": "Tom Holland",
+     "t": "Rubicon: The Triumph and Tragedy of the Roman Republic",
+     "y": 2003
+    },
+    {
+     "a": "Robert Morstein-Marx",
+     "t": "Julius Caesar and the Roman People",
+     "y": 2021
+    },
+    {
+     "a": "Robin Seager",
+     "t": "Pompey the Great: A Political Biography",
+     "y": 2002
+    },
+    {
+     "a": "Josiah Osgood",
+     "t": "Caesar's Legacy: Civil War and the Emergence of the Roman Empire",
+     "y": 2006
+    },
+    {
+     "a": "Kurt A. Raaflaub and Mark Toher (eds.)",
+     "t": "Between Republic and Empire: Interpretations of Augustus and His Principate",
+     "y": 1990
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "Pompey's commands",
+     "hinge": "eu-67-lex-gabinia",
+     "conn": null,
+     "s1": "Gnaeus Pompeius Magnus held armies almost continuously from the age of 23 without the offices the law required, and the Lex Gabinia of 67 BCE made his career the Republic's method.",
+     "s2": "Pompey raised three legions privately for Sulla in 83 and held commands in Sicily, Africa and Spain before he had sat in the Senate. The slave army of Spartacus was crushed in 71 by Marcus Licinius Crassus, who crucified 6,000 captives along the Via Appia, and Pompey and Crassus, both with armies outside the city, took the consulship of 70 and restored the tribunes' powers Sulla had removed. Tribune Aulus Gabinius's law of 67 gave Pompey command against the pirates with authority over the whole sea and 50 miles inland, 500 ships and the right to name his own legates; he cleared the Mediterranean in about three months. The Lex Manilia of 66 added the war against Mithridates, and by 63 Pompey had annexed Syria, taken Jerusalem and entered the Holy of Holies, and by his own claim raised Rome's annual revenues from 50 to 85 million denarii. The same year consul Marcus Tullius Cicero suppressed Catiline's conspiracy at home and had five citizens strangled without trial under the Senate's emergency decree.",
+     "support": [
+      "eu-73-spartacus",
+      "eu-70-pompey-crassus",
+      "me-63-pompey-jerusalem",
+      "eu-63-catiline"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The compact",
+     "hinge": "eu-60-first-triumvirate",
+     "conn": "but",
+     "s1": "Pompey came home in 62 BCE and disbanded his army, the Senate refused to ratify his eastern settlement or give his veterans land, and he joined Crassus and Gaius Julius Caesar in a private compact to win through the assembly what the Senate denied.",
+     "s2": "The alliance formed between mid-60 and January 59, and Caesar's consulship of 59 delivered its terms: land for Pompey's veterans, the eastern settlement ratified, relief for the tax-farming companies Crassus backed, and for Caesar a five-year command in Cisalpine Gaul and Illyricum, to which the Senate added Transalpine Gaul. His colleague Marcus Calpurnius Bibulus stayed in his house for most of the year announcing unfavourable omens, which left every law of 59 open to challenge. Publius Clodius Pulcher, a patrician who had himself adopted into a plebeian family to stand for tribune, passed a law in 58 exiling anyone who had executed a citizen without trial, and Cicero left Rome for Thessalonica. Recalled in 57, he watched the three renew their compact at Luca in 56: second consulships for Pompey and Crassus in 55, five-year commands in Spain and Syria, and five more years in Gaul for Caesar.",
+     "support": [
+      "eu-58-cicero-exile",
+      "eu-56-luca"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Gaul",
+     "hinge": "eu-52-alesia",
+     "conn": "therefore",
+     "s1": "Caesar turned a frontier governorship into eight years of conquest between the Rhine and the Pyrenees, and by 52 BCE he was too strong for the Senate to recall and too exposed to prosecution to give up his army.",
+     "s2": "The war began in 58 when Caesar turned back the migrating Helvetii at Bibracte, a campaign he justified as the defence of Rome's Gallic allies, and his annual dispatches kept him before the voters in Rome. He bridged the Rhine and crossed to Britain in 55 and 54. Julia, Caesar's daughter and Pompey's wife, died in 54, and Crassus died at Carrhae in 53, removing both the family tie and the third partner. In January 52 Titus Annius Milo's gang killed Clodius on the Via Appia, the mob burned the senate house as his pyre, and the Senate made Pompey sole consul. That September Caesar besieged Vercingetorix, the Arvernian leader of a general Gallic revolt, at Alesia behind two rings of works, about 16 km facing in and 21 km facing out, and beat off a relief army; Gallic independence ended there. Ancient counts put the cost of the Gallic war at a million dead and a million enslaved.",
+     "support": [
+      "eu-58-helvetii",
+      "me-53-carrhae",
+      "eu-52-clodius"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "The Rubicon",
+     "hinge": "eu-49-rubicon",
+     "conn": "therefore",
+     "s1": "Caesar crossed the Rubicon in January 49 BCE because giving up his command meant prosecution, and the Senate's hard core, with Pompey as its general, preferred war to a compromise that left him in office.",
+     "s2": "Caesar asked to stand for a second consulship in absentia so he could pass straight from command to office, immune from the courts; the faction around Marcus Porcius Cato demanded he give up his army first. On 7 January the Senate passed its emergency decree, the tribunes who had vetoed on his behalf fled to his camp, and Caesar crossed the boundary of Italy with a single legion, ahead of his main army. Pompey abandoned Italy for Greece within two months, counting on the eastern provinces and the fleet. Caesar beat him at Pharsalus in August 48, and Pompey was stabbed on landing in Egypt by the ministers of King Ptolemy XIII. The Pompeians fought on in Africa until Thapsus in 46, after which Cato killed himself at Utica, and in Spain until Munda in 45. Caesar was named dictator for ten years in 46 and dictator in perpetuity early in 44.",
+     "support": [
+      "eu-48-pharsalus",
+      "eu-45-munda"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The Ides",
+     "hinge": "eu-44-caesar-assassinated",
+     "conn": "but",
+     "s1": "More than 60 senators killed Caesar on 15 March 44 BCE to restore the Republic, and within twenty months his heir and his lieutenant had made themselves rulers by law, proscribed their enemies, Cicero among them, and destroyed the assassins at Philippi.",
+     "s2": "The conspirators, led by Marcus Junius Brutus and Gaius Cassius Longinus, had no plan for the day after; consul Marcus Antonius held the city, and Caesar's will adopted his 18-year-old great-nephew Gaius Octavius as his son and heir. Octavian raised a private army from Caesar's veterans, fought Antony at Mutina in 43 on the Senate's side, and then, refused a consulship, marched on Rome and took it. In November 43 Antony, Octavian and Marcus Aemilius Lepidus had themselves named triumvirs for five years by the Lex Titia, with powers above every magistrate. Their proscriptions killed perhaps 300 senators and equestrians and confiscated estates to pay the legions; Cicero, whose Philippics had attacked Antony for a year, was caught near Formiae on 7 December 43, and his head and hands were displayed on the Rostra. At Philippi in October 42 Antony and Octavian destroyed the assassins' armies, and Brutus and Cassius killed themselves.",
+     "support": [
+      "eu-43-second-triumvirate",
+      "eu-43-cicero-killed",
+      "eu-42-philippi"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "The settlement",
+     "hinge": "eu-27-augustus",
+     "conn": "therefore",
+     "s1": "Octavian won the last civil war at Actium in 31 BCE and in January 27 handed the state back to the Senate and people in a form that left the armies, the money and the frontier provinces in his hands.",
+     "s2": "His admiral Marcus Vipsanius Agrippa destroyed Sextus Pompeius's fleet at Naulochus in 36, and the same year Lepidus, who had tried to take Sicily for himself, was stripped of his powers. Antony, governing the East from Alexandria with Queen Cleopatra VII, gave Octavian his war when Antony's will, taken from the Vestal Virgins and read to the Senate, asked for burial in Alexandria. Actium on 2 September 31 was a blockade broken by a sea battle; Antony and Cleopatra killed themselves after Alexandria fell in August 30, and Egypt became a province under an equestrian prefect answering to Octavian alone, which no senator could enter without his leave. On 13 January 27 Octavian renounced his powers before the Senate, which three days later named him Augustus and gave him a ten-year command over Spain, Gaul and Syria, where most of the legions stood. Every army of the Republic now answered to one commander, and the nobles' competition for military glory, the engine of four centuries of conquest, was over.",
+     "support": [
+      "eu-36-naulochus",
+      "eu-31-actium",
+      "me-30-egypt-province"
+     ]
+    }
+   ],
+   "today": "Emperor descends from imperator, and Kaiser and tsar from Caesar; July and August are named for Caesar and Augustus. Crossing the Rubicon is the standard idiom for an irreversible commitment in English and most European languages."
+  }
+ ],
+ "new_events": [
+  {
+   "id": "eu-496-lake-regillus",
+   "y": -496,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome defeats the Latins at Lake Regillus",
+   "where": "Lake Regillus, near Frascati, Latium",
+   "lat": 41.83,
+   "lon": 12.68,
+   "wk": "Battle of Lake Regillus",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-509-roman-republic"
+   ],
+   "why_selected": "The young Republic's victory over the Latin cities that led straight to the treaty on which Rome built its alliances"
+  },
+  {
+   "id": "eu-494-first-secession",
+   "y": -494,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Plebeians secede and win tribunes",
+   "where": "Mons Sacer, north-east of Rome",
+   "lat": 41.94,
+   "lon": 12.53,
+   "wk": "Secessio plebis",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "rights",
+    "law"
+   ],
+   "causes": [
+    "eu-509-roman-republic"
+   ],
+   "why_selected": "The soldiers' strike that created the tribunate and opened two centuries of the Conflict of the Orders"
+  },
+  {
+   "id": "eu-493-foedus-cassianum",
+   "y": -493,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome and Latins sign the Foedus Cassianum",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Foedus Cassianum",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire",
+    "law"
+   ],
+   "causes": [
+    "eu-496-lake-regillus"
+   ],
+   "why_selected": "Mutual defence, equal booty and joint colonies: the template for the alliance system that conquered Italy"
+  },
+  {
+   "id": "eu-451-twelve-tables",
+   "y": -451,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Decemvirs write the Twelve Tables",
+   "where": "Roman Forum",
+   "lat": 41.892,
+   "lon": 12.485,
+   "wk": "Twelve Tables",
+   "bt": "topic/Twelve-Tables",
+   "c": [
+    "political",
+    "ideas"
+   ],
+   "t": [
+    "law",
+    "rights"
+   ],
+   "causes": [
+    "eu-494-first-secession"
+   ],
+   "why_selected": "Rome's first written law, published on demand of the plebs; the root of the Roman legal tradition"
+  },
+  {
+   "id": "eu-445-lex-canuleia",
+   "y": -445,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Patricians and plebeians may intermarry",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Lex Canuleia",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "rights",
+    "law"
+   ],
+   "causes": [
+    "eu-451-twelve-tables"
+   ],
+   "why_selected": "Repealed the Twelve Tables' marriage ban; the first step toward a single patrician-plebeian nobility"
+  },
+  {
+   "id": "eu-396-veii",
+   "y": -396,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome captures Veii",
+   "where": "Veii, north of Rome",
+   "lat": 42.02,
+   "lon": 12.4,
+   "wk": "Battle of Veii",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-493-foedus-cassianum"
+   ],
+   "why_selected": "Doubled Roman territory and gave plebeians land; Rome's first conquest of a major Etruscan city"
+  },
+  {
+   "id": "eu-390-gallic-sack",
+   "y": -390,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Gauls win at the Allia, sack Rome",
+   "where": "River Allia and Rome",
+   "lat": 42.01,
+   "lon": 12.53,
+   "wk": "Battle of the Allia",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [],
+   "why_selected": "The only sack of Rome for 800 years; drove fortification, colonisation and the reassertion of control over the Latins"
+  },
+  {
+   "id": "eu-378-servian-wall",
+   "y": -378,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome builds its stone circuit wall",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.5,
+   "wk": "Servian Wall",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "cities"
+   ],
+   "causes": [
+    "eu-390-gallic-sack"
+   ],
+   "why_selected": "The 11 km wall of Veientine tufa built after the Gallic sack; Rome was never again taken by an Italian enemy"
+  },
+  {
+   "id": "eu-367-licinian-sextian",
+   "y": -367,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Licinian-Sextian laws open the consulship to plebeians",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Licinio-Sextian rogations",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "rights",
+    "law"
+   ],
+   "causes": [
+    "eu-451-twelve-tables",
+    "eu-396-veii"
+   ],
+   "why_selected": "Fused the patrician and plebeian elites into one nobility competing for command, the engine of expansion"
+  },
+  {
+   "id": "eu-340-latin-war",
+   "y": -340,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Latins revolt against Rome",
+   "where": "Latium",
+   "lat": 41.75,
+   "lon": 12.7,
+   "wk": "Latin War",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-493-foedus-cassianum",
+    "eu-390-gallic-sack"
+   ],
+   "why_selected": "The Latin cities' last bid for equal partnership, which Rome answered by dismantling their league"
+  },
+  {
+   "id": "eu-338-latin-settlement",
+   "y": -338,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome dissolves the Latin League",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Latin League",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "rights"
+   ],
+   "causes": [
+    "eu-340-latin-war"
+   ],
+   "why_selected": "Graded citizenship and bilateral alliances: the settlement that turned defeated enemies into Roman manpower"
+  },
+  {
+   "id": "eu-321-caudine-forks",
+   "y": -321,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Samnites trap a Roman army at Caudium",
+   "where": "Caudine Forks, near Montesarchio",
+   "lat": 41.06,
+   "lon": 14.64,
+   "wk": "Battle of the Caudine Forks",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-338-latin-settlement"
+   ],
+   "why_selected": "Rome's worst humiliation of the Samnite Wars; spurred the roads, colonies and reforms that won them"
+  },
+  {
+   "id": "eu-312-via-appia",
+   "y": -312,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Censor Appius Claudius builds the Via Appia",
+   "where": "Rome to Capua",
+   "lat": 41.87,
+   "lon": 12.5,
+   "wk": "Appian Way",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "cities"
+   ],
+   "causes": [
+    "eu-321-caudine-forks"
+   ],
+   "why_selected": "The first great Roman military road, built to move legions to the Samnite front"
+  },
+  {
+   "id": "eu-295-sentinum",
+   "y": -295,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome breaks the Italian coalition at Sentinum",
+   "where": "Sentinum, near Sassoferrato",
+   "lat": 43.43,
+   "lon": 12.86,
+   "wk": "Battle of Sentinum",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "empire"
+   ],
+   "causes": [
+    "eu-312-via-appia",
+    "eu-338-latin-settlement"
+   ],
+   "why_selected": "Rome defeated Samnites, Gauls, Etruscans and Umbrians together; decided the mastery of central Italy"
+  },
+  {
+   "id": "eu-287-lex-hortensia",
+   "y": -287,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Plebeian votes bind all Romans",
+   "where": "Janiculum, Rome",
+   "lat": 41.89,
+   "lon": 12.46,
+   "wk": "Lex Hortensia",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "rights",
+    "law"
+   ],
+   "causes": [
+    "eu-367-licinian-sextian",
+    "eu-494-first-secession"
+   ],
+   "why_selected": "Made plebiscites law for all citizens and ended the Conflict of the Orders; the legal basis of the Gracchi's tribunates"
+  },
+  {
+   "id": "eu-280-heraclea",
+   "y": -280,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Pyrrhus defeats Rome at Heraclea",
+   "where": "Heraclea, near Policoro",
+   "lat": 40.21,
+   "lon": 16.68,
+   "wk": "Battle of Heraclea",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-295-sentinum"
+   ],
+   "why_selected": "The first clash of legion and Hellenistic phalanx; the test of whether Rome's alliance would hold under defeat"
+  },
+  {
+   "id": "eu-275-beneventum",
+   "y": -275,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome defeats Pyrrhus at Beneventum",
+   "where": "Beneventum (Benevento)",
+   "lat": 41.13,
+   "lon": 14.78,
+   "wk": "Battle of Beneventum (275 BC)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-280-heraclea"
+   ],
+   "why_selected": "Ended Pyrrhus's Italian war; a Hellenistic king beaten by Rome's capacity to replace its losses"
+  },
+  {
+   "id": "eu-272-tarentum",
+   "y": -272,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Tarentum surrenders; Rome holds the south",
+   "where": "Tarentum (Taranto)",
+   "lat": 40.47,
+   "lon": 17.24,
+   "wk": "Pyrrhic War",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-275-beneventum"
+   ],
+   "why_selected": "Completed Rome's control of the peninsula south of the Po and brought it to the Strait of Messina, facing Carthage"
+  },
+  {
+   "id": "eu-260-mylae",
+   "y": -260,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome's new fleet wins at Mylae",
+   "where": "Mylae (Milazzo), Sicily",
+   "lat": 38.22,
+   "lon": 15.24,
+   "wk": "Battle of Mylae",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-264-first-punic",
+    "eu-272-tarentum"
+   ],
+   "why_selected": "Rome's first naval victory, won with the corvus by a state that had no war fleet four years earlier"
+  },
+  {
+   "id": "eu-241-sicily-province",
+   "y": -241,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Carthage cedes Sicily, Rome's first province",
+   "where": "Lilybaeum (Marsala), Sicily",
+   "lat": 37.8,
+   "lon": 12.44,
+   "wk": "Sicilia (Roman province)",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-260-mylae",
+    "eu-264-first-punic"
+   ],
+   "why_selected": "The Aegates victory ended the First Punic War; Sicily became the first overseas territory Rome governed"
+  },
+  {
+   "id": "eu-238-sardinia",
+   "y": -238,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome seizes Sardinia and Corsica",
+   "where": "Carales (Cagliari), Sardinia",
+   "lat": 39.22,
+   "lon": 9.12,
+   "wk": "Sardinia and Corsica",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-241-sicily-province"
+   ],
+   "why_selected": "Taken from Carthage during its mercenary war; the grievance that drove the Barcids to Spain"
+  },
+  {
+   "id": "eu-237-barcid-spain",
+   "y": -237,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Hamilcar Barca begins Carthage's conquest of Spain",
+   "where": "Gades (Cadiz)",
+   "lat": 36.53,
+   "lon": -6.29,
+   "wk": "Barcid conquest of Hispania",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "eu-238-sardinia",
+    "eu-241-sicily-province"
+   ],
+   "why_selected": "Silver mines and Iberian soldiers rebuilt Carthaginian power and gave Hannibal his base"
+  },
+  {
+   "id": "eu-218-hannibal-alps",
+   "y": -218,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Hannibal crosses the Alps into Italy",
+   "where": "Western Alps",
+   "lat": 45.0,
+   "lon": 7.0,
+   "wk": "Hannibal's crossing of the Alps",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-237-barcid-spain"
+   ],
+   "why_selected": "Carried the Second Punic War into Italy to break Rome's alliance system at its source"
+  },
+  {
+   "id": "eu-217-trasimene",
+   "y": -217,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Hannibal ambushes a Roman army at Trasimene",
+   "where": "Lake Trasimene, near Tuoro",
+   "lat": 43.2,
+   "lon": 12.08,
+   "wk": "Battle of Lake Trasimene",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-218-hannibal-alps"
+   ],
+   "why_selected": "The largest ambush in Roman history; prompted Fabius Maximus's strategy of delay"
+  },
+  {
+   "id": "eu-209-new-carthage",
+   "y": -209,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Scipio takes New Carthage",
+   "where": "Carthago Nova (Cartagena)",
+   "lat": 37.6,
+   "lon": -0.98,
+   "wk": "Battle of Cartagena (209 BC)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "money"
+   ],
+   "causes": [
+    "eu-216-cannae",
+    "eu-237-barcid-spain"
+   ],
+   "why_selected": "Seized Carthage's Spanish capital, treasury and hostages; began the end of Barcid Spain"
+  },
+  {
+   "id": "eu-207-metaurus",
+   "y": -207,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome destroys Hasdrubal's army at the Metaurus",
+   "where": "Metaurus river, near Fano",
+   "lat": 43.73,
+   "lon": 12.85,
+   "wk": "Battle of the Metaurus",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-209-new-carthage"
+   ],
+   "why_selected": "Stopped the reinforcement Hannibal needed; the war in Italy was lost for Carthage from here"
+  },
+  {
+   "id": "me-202-zama",
+   "y": -202,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Scipio defeats Hannibal at Zama",
+   "where": "Zama, Tunisia",
+   "lat": 36.3,
+   "lon": 9.45,
+   "wk": "Battle of Zama",
+   "bt": "event/Battle-of-Zama",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "empire"
+   ],
+   "causes": [
+    "eu-209-new-carthage",
+    "eu-207-metaurus"
+   ],
+   "why_selected": "Ended the Second Punic War; the treaty of 201 left Rome the only power in the western Mediterranean"
+  },
+  {
+   "id": "eu-197-hispania",
+   "y": -197,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome organises two provinces in Spain",
+   "where": "Tarraco (Tarragona)",
+   "lat": 41.12,
+   "lon": 1.25,
+   "wk": "Hispania",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "me-202-zama",
+    "eu-209-new-carthage"
+   ],
+   "why_selected": "Committed Rome to seventy years of Spanish war and permanent overseas garrisons"
+  },
+  {
+   "id": "eu-197-cynoscephalae",
+   "y": -197,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome defeats Philip V at Cynoscephalae",
+   "where": "Cynoscephalae, Thessaly",
+   "lat": 39.43,
+   "lon": 22.53,
+   "wk": "Battle of Cynoscephalae",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-216-cannae",
+    "me-202-zama"
+   ],
+   "why_selected": "Legion beat phalanx; Macedon reduced to a second-rank power"
+  },
+  {
+   "id": "eu-196-isthmian-freedom",
+   "y": -196,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Flamininus proclaims the freedom of the Greeks",
+   "where": "Isthmia, near Corinth",
+   "lat": 37.92,
+   "lon": 22.99,
+   "wk": "Titus Quinctius Flamininus",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-197-cynoscephalae"
+   ],
+   "why_selected": "Rome's first attempt to rule Greece through free cities and patronage, without provinces"
+  },
+  {
+   "id": "me-190-magnesia",
+   "y": -190,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome routs Antiochus III at Magnesia",
+   "where": "Magnesia ad Sipylum (Manisa)",
+   "lat": 38.62,
+   "lon": 27.43,
+   "wk": "Battle of Magnesia",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "empire"
+   ],
+   "causes": [
+    "eu-196-isthmian-freedom"
+   ],
+   "why_selected": "Broke the Seleucid empire's power west of the Taurus"
+  },
+  {
+   "id": "me-188-apamea",
+   "y": -188,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Treaty of Apamea strips the Seleucids",
+   "where": "Apamea Kibotos (Dinar)",
+   "lat": 38.07,
+   "lon": 30.16,
+   "wk": "Treaty of Apamea",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "me-190-magnesia"
+   ],
+   "why_selected": "15,000 talents and Asia Minor lost; built up Pergamum, whose king would later leave it to Rome"
+  },
+  {
+   "id": "eu-168-pydna",
+   "y": -168,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome ends the Macedonian kingdom at Pydna",
+   "where": "Pydna, Macedonia",
+   "lat": 40.37,
+   "lon": 22.6,
+   "wk": "Battle of Pydna",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "empire"
+   ],
+   "causes": [
+    "eu-197-cynoscephalae",
+    "me-188-apamea"
+   ],
+   "why_selected": "Destroyed the Antigonid monarchy; Macedonian treasure ended direct taxation of Roman citizens"
+  },
+  {
+   "id": "me-168-eleusis",
+   "y": -168,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome orders Antiochus IV out of Egypt",
+   "where": "Eleusis, near Alexandria",
+   "lat": 31.2,
+   "lon": 29.95,
+   "wk": "Gaius Popillius Laenas",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-168-pydna"
+   ],
+   "why_selected": "The 'circle in the sand': Roman hegemony over the Hellenistic East exercised by one envoy's sentence"
+  },
+  {
+   "id": "eu-149-lex-calpurnia",
+   "y": -149,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome creates a court for governors' extortion",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Lex Calpurnia de repetundis",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "law",
+    "empire"
+   ],
+   "causes": [
+    "eu-197-hispania"
+   ],
+   "why_selected": "The first standing criminal court; its juries became the central prize of late-Republican politics"
+  },
+  {
+   "id": "eu-133-numantia",
+   "y": -133,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Scipio Aemilianus destroys Numantia",
+   "where": "Numantia, near Soria",
+   "lat": 41.81,
+   "lon": -2.44,
+   "wk": "Numantine War",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "empire"
+   ],
+   "causes": [
+    "eu-197-hispania"
+   ],
+   "why_selected": "Ended the Celtiberian wars whose long service drained Italy's farmer-soldiers"
+  },
+  {
+   "id": "me-133-attalus-bequest",
+   "y": -133,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Attalus III leaves Pergamum to Rome",
+   "where": "Pergamon (Bergama)",
+   "lat": 39.13,
+   "lon": 27.18,
+   "wk": "Attalus III",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "me-188-apamea"
+   ],
+   "why_selected": "Rome's richest province, the province of Asia; its revenue became a weapon in Roman politics from the first year"
+  },
+  {
+   "id": "eu-135-first-servile-war",
+   "y": -135,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Sicily's slaves rise under Eunus",
+   "where": "Enna, Sicily",
+   "lat": 37.57,
+   "lon": 14.28,
+   "wk": "First Servile War",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "slavery",
+    "conflict"
+   ],
+   "causes": [
+    "me-146-rome-carthage"
+   ],
+   "why_selected": "The plantation economy built on war captives turned on its owners"
+  },
+  {
+   "id": "eu-121-gaius-gracchus",
+   "y": -121,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Senate's emergency decree kills Gaius Gracchus",
+   "where": "Aventine Hill, Rome",
+   "lat": 41.88,
+   "lon": 12.48,
+   "wk": "Gaius Gracchus",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "rights",
+    "law",
+    "conflict"
+   ],
+   "causes": [
+    "eu-133-gracchi"
+   ],
+   "why_selected": "The first senatus consultum ultimum: legalised killing of citizens as an instrument of politics"
+  },
+  {
+   "id": "me-112-jugurthine-war",
+   "y": -112,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Rome declares war on Jugurtha of Numidia",
+   "where": "Cirta (Constantine), Algeria",
+   "lat": 36.37,
+   "lon": 6.61,
+   "wk": "Jugurthine War",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-146-rome-carthage"
+   ],
+   "why_selected": "Exposed senatorial corruption and gave Marius the command that made him"
+  },
+  {
+   "id": "eu-107-marius",
+   "y": -107,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Marius elected consul, enrols the propertyless",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Marian reforms",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "me-112-jugurthine-war"
+   ],
+   "why_selected": "A new man's consulship won against the nobility; later read as the start of a professional, general-loyal army"
+  },
+  {
+   "id": "eu-105-arausio",
+   "y": -105,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Cimbri and Teutones destroy two Roman armies",
+   "where": "Arausio (Orange)",
+   "lat": 44.14,
+   "lon": 4.81,
+   "wk": "Battle of Arausio",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [],
+   "why_selected": "Rome's worst defeat since Cannae; the emergency that justified Marius's five consecutive consulships"
+  },
+  {
+   "id": "eu-101-vercellae",
+   "y": -101,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Marius destroys the Cimbri at Vercellae",
+   "where": "Vercellae, Po valley",
+   "lat": 45.32,
+   "lon": 8.42,
+   "wk": "Battle of Vercellae",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-105-arausio",
+    "eu-107-marius"
+   ],
+   "why_selected": "Ended the northern invasions and left Marius with veterans to settle"
+  },
+  {
+   "id": "eu-100-saturninus",
+   "y": -100,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Saturninus killed under the emergency decree",
+   "where": "Curia Hostilia, Rome",
+   "lat": 41.893,
+   "lon": 12.485,
+   "wk": "Lucius Appuleius Saturninus",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-101-vercellae",
+    "eu-121-gaius-gracchus"
+   ],
+   "why_selected": "Veteran land and street violence fused; Marius enforced the decree against his own ally"
+  },
+  {
+   "id": "eu-91-drusus",
+   "y": -91,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Tribune Drusus assassinated over Italian citizenship",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Marcus Livius Drusus (reformer)",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "rights"
+   ],
+   "causes": [
+    "eu-121-gaius-gracchus"
+   ],
+   "why_selected": "Killing of the last reformer to offer the allies citizenship peacefully; the trigger for the Social War"
+  },
+  {
+   "id": "eu-91-social-war",
+   "y": -91,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Italian allies revolt against Rome",
+   "where": "Asculum and Corfinium",
+   "lat": 42.85,
+   "lon": 13.58,
+   "wk": "Social War (91–87 BC)",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "rights",
+    "conflict"
+   ],
+   "causes": [
+    "eu-91-drusus"
+   ],
+   "why_selected": "Italy fought Rome for a share of its empire; ended with citizenship for all Italians south of the Po"
+  },
+  {
+   "id": "eu-90-lex-julia",
+   "y": -90,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Rome grants citizenship to loyal Italians",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Lucius Julius Caesar (consul 90 BC)",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "rights",
+    "law"
+   ],
+   "causes": [
+    "eu-91-social-war"
+   ],
+   "why_selected": "More than doubled the citizen body; the distribution of the new citizens in the tribes caused the next crisis"
+  },
+  {
+   "id": "me-88-asiatic-vespers",
+   "y": -88,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Mithridates massacres Romans in Asia",
+   "where": "Ephesus and Roman Asia",
+   "lat": 37.94,
+   "lon": 27.34,
+   "wk": "Asiatic Vespers",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "atrocity",
+    "empire"
+   ],
+   "causes": [
+    "me-133-attalus-bequest"
+   ],
+   "why_selected": "Created the eastern command that Sulla and Marius fought over"
+  },
+  {
+   "id": "eu-88-sulla-march",
+   "y": -88,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Sulla marches his army on Rome",
+   "where": "Rome (from Nola)",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "March on Rome (88 BC)",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "conflict",
+    "revolution"
+   ],
+   "causes": [
+    "me-88-asiatic-vespers",
+    "eu-90-lex-julia",
+    "eu-107-marius"
+   ],
+   "why_selected": "The first Roman army to take Rome; the precedent for every civil war that followed"
+  },
+  {
+   "id": "eu-87-cinna",
+   "y": -87,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Cinna and Marius retake Rome by force",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Lucius Cornelius Cinna",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-88-sulla-march"
+   ],
+   "why_selected": "The second march on Rome in two years; made civil war the routine settlement of political disputes"
+  },
+  {
+   "id": "eu-82-colline-gate",
+   "y": -82,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Sulla wins at the Colline Gate",
+   "where": "Porta Collina, Rome",
+   "lat": 41.91,
+   "lon": 12.5,
+   "wk": "Battle of the Colline Gate",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-87-cinna"
+   ],
+   "why_selected": "Decided Sulla's civil war against the Marians and Samnites at the walls of Rome"
+  },
+  {
+   "id": "eu-82-sulla-dictator",
+   "y": -82,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Sulla named dictator, proscribes his enemies",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Sulla",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict",
+    "law",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-82-colline-gate"
+   ],
+   "why_selected": "Dictatorship without term, legal murder by list, and a Senate-first constitution that lasted a decade"
+  },
+  {
+   "id": "eu-70-pompey-crassus",
+   "y": -70,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Pompey and Crassus consuls; tribunes restored",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Pompey",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-73-spartacus",
+    "eu-82-sulla-dictator"
+   ],
+   "why_selected": "Two generals with armies at the gates took the consulship and dismantled Sulla's restrictions"
+  },
+  {
+   "id": "eu-67-lex-gabinia",
+   "y": -67,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Lex Gabinia gives Pompey the whole sea",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Lex Gabinia de piratis persequendis",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-70-pompey-crassus"
+   ],
+   "why_selected": "The model extraordinary command: one man, multi-year, empire-wide authority voted by the assembly"
+  },
+  {
+   "id": "me-63-pompey-jerusalem",
+   "y": -63,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Pompey takes Jerusalem and settles the East",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Siege of Jerusalem (63 BC)",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "faith"
+   ],
+   "causes": [
+    "eu-67-lex-gabinia"
+   ],
+   "why_selected": "Ended Hasmonean independence and the Seleucid line; Pompey's eastern settlement the Senate then refused to ratify"
+  },
+  {
+   "id": "eu-63-catiline",
+   "y": -63,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Cicero crushes Catiline's conspiracy",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Catilinarian conspiracy",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict",
+    "law"
+   ],
+   "causes": [
+    "eu-82-sulla-dictator"
+   ],
+   "why_selected": "Executions of citizens without trial under the emergency decree; the act that later exiled Cicero"
+  },
+  {
+   "id": "eu-60-first-triumvirate",
+   "y": -60,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Pompey, Crassus and Caesar form a compact",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "First Triumvirate",
+   "bt": "topic/First-Triumvirate",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "me-63-pompey-jerusalem"
+   ],
+   "why_selected": "A private alliance that ran the state through the assembly over the Senate and gave Caesar Gaul"
+  },
+  {
+   "id": "eu-58-cicero-exile",
+   "y": -58,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Clodius drives Cicero into exile",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.48,
+   "wk": "Publius Clodius Pulcher",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "law",
+    "conflict"
+   ],
+   "causes": [
+    "eu-63-catiline",
+    "eu-60-first-triumvirate"
+   ],
+   "why_selected": "A consular, the Senate's voice, removed by a tribune's law with the triumvirs' consent"
+  },
+  {
+   "id": "eu-58-helvetii",
+   "y": -58,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Caesar begins the Gallic War",
+   "where": "Bibracte, Burgundy",
+   "lat": 46.92,
+   "lon": 4.04,
+   "wk": "Battle of Bibracte",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-60-first-triumvirate"
+   ],
+   "why_selected": "Turned a provincial governorship into an eight-year war of conquest"
+  },
+  {
+   "id": "eu-56-luca",
+   "y": -56,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Triumvirs renew their compact at Luca",
+   "where": "Luca (Lucca)",
+   "lat": 43.84,
+   "lon": 10.5,
+   "wk": "Luca Conference",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-60-first-triumvirate"
+   ],
+   "why_selected": "Divided the empire's armies among three men for five more years"
+  },
+  {
+   "id": "eu-52-clodius",
+   "y": -52,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Clodius killed; Pompey made sole consul",
+   "where": "Bovillae, Via Appia",
+   "lat": 41.75,
+   "lon": 12.62,
+   "wk": "Titus Annius Milo",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-58-cicero-exile"
+   ],
+   "why_selected": "Gang war in the capital and the senate house burned; Pompey drew closer to the Senate against Caesar"
+  },
+  {
+   "id": "eu-52-alesia",
+   "y": -52,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Caesar defeats Vercingetorix at Alesia",
+   "where": "Alesia, Burgundy",
+   "lat": 47.54,
+   "lon": 4.5,
+   "wk": "Battle of Alesia",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-58-helvetii"
+   ],
+   "why_selected": "Ended Gallic independence and gave Caesar a veteran army loyal to him alone"
+  },
+  {
+   "id": "eu-48-pharsalus",
+   "y": -48,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Caesar defeats Pompey at Pharsalus",
+   "where": "Pharsalus, Thessaly",
+   "lat": 39.3,
+   "lon": 22.38,
+   "wk": "Battle of Pharsalus",
+   "bt": "event/Battle-of-Pharsalus",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-49-rubicon"
+   ],
+   "why_selected": "Decided the civil war; Pompey fled to Egypt and was killed on landing"
+  },
+  {
+   "id": "eu-45-munda",
+   "y": -45,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Caesar crushes the last Pompeians at Munda",
+   "where": "Munda, Andalusia",
+   "lat": 37.3,
+   "lon": -4.9,
+   "wk": "Battle of Munda",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-48-pharsalus"
+   ],
+   "why_selected": "Last battle of Caesar's civil war; left him without an armed rival"
+  },
+  {
+   "id": "eu-44-caesar-assassinated",
+   "y": -44,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Senators assassinate Caesar",
+   "where": "Theatre of Pompey, Rome",
+   "lat": 41.895,
+   "lon": 12.474,
+   "wk": "Assassination of Julius Caesar",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict",
+    "revolution"
+   ],
+   "causes": [
+    "eu-45-munda"
+   ],
+   "why_selected": "The attempt to restore the Republic by killing the dictator; reopened the civil wars"
+  },
+  {
+   "id": "eu-43-second-triumvirate",
+   "y": -43,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Antony, Octavian and Lepidus made triumvirs",
+   "where": "Bononia (Bologna)",
+   "lat": 44.49,
+   "lon": 11.34,
+   "wk": "Second Triumvirate",
+   "bt": "topic/Second-Triumvirate",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "conflict",
+    "law"
+   ],
+   "causes": [
+    "eu-44-caesar-assassinated"
+   ],
+   "why_selected": "A legal dictatorship of three, with proscriptions to fund the legions"
+  },
+  {
+   "id": "eu-43-cicero-killed",
+   "y": -43,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Cicero killed in the proscriptions",
+   "where": "Formiae (Formia)",
+   "lat": 41.26,
+   "lon": 13.61,
+   "wk": "Cicero",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "atrocity",
+    "conflict"
+   ],
+   "causes": [
+    "eu-43-second-triumvirate"
+   ],
+   "why_selected": "The Republic's leading civilian voice killed on the triumvirs' list"
+  },
+  {
+   "id": "eu-42-philippi",
+   "y": -42,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Antony and Octavian win at Philippi",
+   "where": "Philippi, Macedonia",
+   "lat": 41.01,
+   "lon": 24.29,
+   "wk": "Battle of Philippi",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-43-second-triumvirate"
+   ],
+   "why_selected": "Ended the republican cause in arms; Brutus and Cassius killed themselves"
+  },
+  {
+   "id": "eu-36-naulochus",
+   "y": -36,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Agrippa defeats Sextus Pompeius at Naulochus",
+   "where": "Naulochus, Sicily",
+   "lat": 38.23,
+   "lon": 15.4,
+   "wk": "Battle of Naulochus",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "conflict"
+   ],
+   "causes": [
+    "eu-42-philippi"
+   ],
+   "why_selected": "Secured the West and Italy's grain supply for Octavian; Lepidus removed the same year"
+  },
+  {
+   "id": "me-30-egypt-province",
+   "y": -30,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Octavian takes Egypt as his own province",
+   "where": "Alexandria",
+   "lat": 31.2,
+   "lon": 29.92,
+   "wk": "Egypt (Roman province)",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "eu-31-actium"
+   ],
+   "why_selected": "Ended the last Hellenistic kingdom; Egypt's grain and treasure answered to the emperor alone"
+  }
+ ]
+}

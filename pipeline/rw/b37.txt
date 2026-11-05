@@ -1,0 +1,269 @@
+## eu185372 | 1853 | Crimean War | who: Britain, France, Ottomans vs. Russia | where: Crimea
+  bluf: Britain and France fought Russia to stop it from dominating the weakening Ottoman Empire and the Black Sea. Russia's defeat exposed its backwardness, prompting the emancipation of the serfs, and broke up the Concert of Europe, opening the way to the wars of Italian and German unification.
+  now: The war ended the Concert of Europe: the powers that had kept the peace since 1815 fought each other, Austria's neutrality left it isolated, and the wars of Italian and German unification followed within fifteen years. Russia's defeat forced the emancipation of its serfs.
+  story: Allied armies besieged Russia's Black Sea base at Sevastopol. Bungling generals and disease killed far more men than bullets. Florence Nightingale reformed military nursing.
+  why: Russian ambitions in the Ottoman Balkans and the straits, a quarrel over the protection of Christians in the Holy Land, and British and French determination to keep Russia out of the Mediterranean.
+  trig: Russia's occupation of the Ottoman Danubian principalities (Moldavia and Wallachia) in 1853.
+  then: The Treaty of Paris (1856) banned warships from the Black Sea. A humiliated Russia freed its serfs and modernized its army. Austria's neutrality cost it Russia's friendship, leaving it isolated when Piedmont and Prussia went to war to unify Italy and Germany.
+  fact: The first war covered by telegraph and photography; it gave Britain the Charge of the Light Brigade and Florence Nightingale's reform of nursing.
+## eu185973 | 1859 | Darwin's Origin of Species | who: Charles Darwin | where: England
+  bluf: Darwin showed that species evolve through natural selection, explaining the diversity of life without divine design. The theory transformed biology and challenged religious accounts of creation; its misuse as 'social Darwinism' was used to justify racism and imperialism.
+  now: Evolution is the foundation of modern biology and medicine, from vaccines to genetics.
+  story: After over twenty years of research begun on the Beagle voyage, and prompted by Alfred Russel Wallace's independent discovery of the same idea, Charles Darwin published On the Origin of Species in 1859. He argued that individuals vary, more are born than can survive, and those with helpful traits leave more offspring, so species change over long periods.
+  why: Darwin had gathered evidence for decades, and Alfred Russel Wallace's independent discovery of the same theory in 1858 pushed him to publish.
+  then: It set off fierce debates with religious leaders. Most scientists accepted evolution within decades, though natural selection itself was disputed until genetics confirmed it in the 1930s-40s. The 'survival of the fittest' was applied to societies and races, feeding eugenics and imperialist ideology.
+  fact: Alfred Russel Wallace came up with the same theory independently, which pushed Darwin to publish.
+## d-oxforddebate | 1860 | Oxford evolution debate | who: Thomas Huxley; Bishop Samuel Wilberforce | where: Oxford University Museum
+  bluf: The Oxford debate dramatized the clash between Darwinian science and religious authority and became a legend of science triumphing over dogma. The real exchange was more ambiguous, but it marked scientists' growing independence from the Church.
+  now: It shows how stories of science's battles with religion get shaped and simplified after the fact.
+  story: At the British Association meeting on June 30, 1860, Wilberforce reportedly asked Huxley whether it was through his grandfather or his grandmother that he claimed descent from an ape. Huxley is said to have replied that he would rather have an ape for a grandfather than a man who used his gifts to obscure the truth.
+  why: Darwin's book, published seven months earlier, had provoked fierce debate.
+  then: Most scientists accepted evolution within about 20 years, though natural selection as its mechanism stayed disputed until the 1930s.
+## eu186174 | 1861 | Italy unified | who: Cavour, Garibaldi, King Victor Emmanuel II | where: Turin
+  bluf: Italy's unification combined Piedmont's diplomacy, Garibaldi's volunteer campaigns and French military help. It created a new great power, but the hasty merger of a richer north with a poorer south created a divide that persists.
+  now: Italy's north-south economic divide dates from unification and still shapes its politics, from regional parties to arguments over how taxes are shared.
+  story: Piedmont's prime minister Cavour won French help to drive Austria out of Lombardy in 1859, and Garibaldi's 'Thousand' volunteers conquered Sicily and Naples in 1860. In March 1861 Victor Emmanuel II was proclaimed King of Italy.
+  why: Nationalism, Piedmont's ambition and Austria's isolation after the Crimean War.
+  then: Venice joined in 1866 and Rome in 1870, after French troops left; the papacy refused to recognize the Italian state until 1929.
+  fact: At unification only a small minority of Italians, by some estimates under 10%, spoke standard Italian.
+## eu186174b | 1861 | Russia frees the serfs | who: Tsar Alexander II | where: St Petersburg
+  bluf: Alexander II's emancipation of 23 million serfs was Russia's attempt to modernize after defeat in Crimea. It ended legal bondage but left peasants poor, indebted and hungry for land, feeding the unrest that culminated in revolution.
+  now: Debates about whether reform from above can work without political freedom still cite Alexander II.
+  story: Defeat in the Crimean War convinced Alexander II that Russia had to modernise. His Emancipation Manifesto freed the privately owned serfs, but they had to pay for their land over 49 years and often received less than they had farmed before.
+  why: Military defeat and fear of revolt: it was 'better to abolish serfdom from above than wait for it to abolish itself from below', the tsar said.
+  then: Peasant poverty, debt and land hunger fed decades of unrest, which erupted in 1905 and 1917.
+## eu186775 | 1867 | Austria-Hungary formed | who: Emperor Franz Joseph; Hungarian leaders | where: Central Europe
+  bluf: The Compromise of 1867 turned the Habsburg Empire into a dual monarchy, giving Hungary self-government to keep it loyal. It satisfied Hungarians but not the empire's Czechs, Slavs and others, whose national demands helped destroy it in 1918.
+  now: The Compromise gave Hungary equal standing and left the Slavs of both halves without it, a structure that could satisfy neither nationalism nor reform; its collapse in 1918 drew the modern map of Central Europe.
+  story: Defeated by Prussia in 1866 and shut out of Germany, Emperor Franz Joseph struck a deal with Hungary's leaders, the Compromise of 1867. The empire became Austria-Hungary: two states with their own parliaments and governments, sharing a monarch, an army, a foreign policy and the finances to pay for them. Franz Joseph was crowned King of Hungary in Budapest.
+  why: Defeat by Prussia in 1866 left Austria weak, and Hungarian nationalists demanded autonomy as the price of their loyalty.
+  then: The empire's many peoples, Czechs, Slavs, Poles and others, wanted the same.
+## d-ems | 1870 | Ems Dispatch | who: Otto von Bismarck; King Wilhelm I; French ambassador Vincent Benedetti | where: Bad Ems, Germany
+  bluf: Bismarck's edit of the Ems telegram goaded France into declaring war, making it look like the aggressor and bringing the south German states to Prussia's side. It is a classic case of manipulating the press to trigger a war.
+  now: The edited telegram provoked France into declaring war on Prussia with the south German states on Prussia's side, the condition Bismarck needed for unification.
+  story: At the spa town of Ems, the French ambassador asked King Wilhelm to promise that no Hohenzollern would ever claim Spain's throne. Wilhelm politely declined; Bismarck cut the report so it read as a snub and released it to the press. France declared war on July 19.
+  why: Bismarck wanted a war with France to bring the south German states into a united Germany.
+  then: The south German states joined Prussia, and France was beaten within months.
+  fact: It is the classic case of a leader shaping the news so that the other side appears the aggressor.
+## d-sedan | 1870 | Napoleon III captured at Sedan | who: Prussian chief of staff Helmuth von Moltke; Emperor Napoleon III | where: Sedan, France
+  bluf: Sedan's encirclement and the capture of Napoleon III ended France's Second Empire in a single battle. It showed the power of railway mobilization and general-staff planning, which every European army then copied.
+  now: The defeat gave birth to the Third Republic, and the loss of Alsace-Lorraine became a lasting grievance that fed French support for war in 1914.
+  story: On September 1, 1870, German armies encircled Marshal MacMahon's army at Sedan. The next day Napoleon III surrendered with about 100,000 men, and two days later crowds in Paris proclaimed a republic.
+  why: Germany mobilized faster by railway, planned better through its general staff and outgunned the French with steel breech-loading artillery, while French commanders hesitated into encirclement.
+  then: Paris was besieged, and Germany was united under the Prussian king in January 1871.
+## eu187076 | 1870 | Franco-Prussian War | who: Bismarck's Prussia vs. Napoleon III's France | where: France
+  bluf: Prussia's rapid victory over France unified Germany and made it continental Europe's strongest power, shifting the European balance overnight. France's loss of Alsace-Lorraine left a desire for revenge that helped split Europe into hostile alliances before 1914.
+  now: French resentment and German power shaped Europe's alliances until 1914, and the Franco-German rivalry ended only with European integration after 1945.
+  story: In July 1870 France declared war on Prussia after Bismarck's edited Ems telegram. Prussia and its south German allies mobilised fast by railway, encircled one French army at Metz and captured Napoleon III with another at Sedan in September. Paris was besieged and surrendered in January 1871.
+  why: Bismarck wanted a war with France to bring the south German states into a Prussian-led Germany, and Napoleon III, seeking prestige, was alarmed by a Prussian candidate for the Spanish throne.
+  trig: Bismarck's release of the edited Ems telegram in July 1870, which made the French feel insulted.
+  then: The German Empire was proclaimed in January 1871. France lost Alsace-Lorraine and paid a heavy indemnity; Napoleon III's empire fell and the Third Republic was born; Italy took Rome as French troops left.
+## eu187177 | 1871 | German Empire proclaimed | who: Wilhelm I; Otto von Bismarck | where: Hall of Mirrors, Versailles
+  bluf: Proclaiming the German Empire at Versailles created a unified Germany under Prussian leadership: authoritarian, militarized and economically dynamic. Its rise upset the European balance and set the stage for both world wars.
+  now: France made Germany sign the Treaty of Versailles in the same hall in 1919.
+  story: With Paris under siege, the German princes proclaimed King Wilhelm I of Prussia German Emperor in Versailles' Hall of Mirrors on January 18, 1871. France had to give up Alsace and much of Lorraine and pay a large indemnity.
+  why: Prussia's victories over Denmark, Austria and France let Bismarck unite Germany on Prussia's terms.
+  then: Germany became continental Europe's strongest economy and army, and Bismarck spent 20 years building alliances to keep France isolated and reassure everyone else.
+  fact: Germany proclaimed its empire inside the French palace of Versailles, a deliberate humiliation France repaid in 1919.
+## eu187177b | 1871 | Paris Commune | who: Paris workers and National Guard; French government troops | where: Paris
+  bluf: The Paris Commune was a radical workers' government brutally crushed by the French army. It became a founding myth of the socialist left and showed how deeply class conflict divided the new French Republic.
+  now: The Commune's suppression killed about 20,000 and settled the Third Republic as a conservative state; its example gave the socialist movement a model of workers' government and a lesson, drawn by Lenin, that a revolution must hold the army.
+  story: After France's defeat, radicals and workers took over Paris in March 1871 and ran the city as the Commune, separating church and state and banning night work in bakeries. In the 'Bloody Week' of May, government troops retook the city, killing perhaps 10,000 or more Communards.
+  why: Humiliation in the war, the hardships of the siege and anger at a conservative national government.
+  then: France became a lasting republic, the Third Republic, but its left and right stayed bitterly divided.
+  fact: Marx hailed it as the first workers' government.
+## eu187878 | 1878 | Congress of Berlin | who: Bismarck; great powers | where: Berlin
+  bluf: The Congress of Berlin cut back Russia's gains from its victory over the Ottomans, recognized new Balkan states and gave Austria-Hungary control of Bosnia. It satisfied none of the Balkan nationalisms and turned the region into Europe's powder keg.
+  now: It set up the tensions that exploded in Sarajevo in 1914, and Bosnia's place between Serbs, Croats and Bosniaks remains unresolved.
+  story: After Russia beat the Ottomans, Bismarck hosted a congress to limit Russian gains. Serbia, Romania and Montenegro became independent; Austria took over Bosnia.
+  why: Russia's victory over the Ottomans had created a large Bulgaria under Russian influence, alarming Britain and Austria-Hungary.
+  then: Serbian anger at Austria-Hungary's control of Bosnia festered, and Austria annexed it outright in 1908.
+## eu188279 | 1882 | Triple Alliance | who: Germany, Austria-Hungary, Italy | where: Central Europe
+  bluf: The Triple Alliance tied Germany to Austria-Hungary and Italy, and France's answer, alliance with Russia and later understanding with Britain, divided Europe into two armed camps. The alliance system turned a Balkan crisis into a world war in 1914.
+  now: It is the standard example of rigid alliance blocs turning a local crisis into a general war, a lesson still cited whenever alliances are debated.
+  story: In May 1882 Germany, Austria-Hungary and Italy signed a secret defensive alliance. Each promised help if another was attacked by two great powers, and Germany and Italy pledged to aid each other against a French attack.
+  why: Bismarck wanted to keep France isolated; Italy was angry that France had taken Tunisia in 1881.
+  then: France answered by allying with Russia in 1894 and reaching an entente with Britain in 1904; Italy, never fully committed, switched sides in 1915.
+## d-bismarck1890 | 1890 | Bismarck dismissed | who: Kaiser Wilhelm II; Chancellor Otto von Bismarck | where: Berlin
+  bluf: Bismarck's dismissal removed the one man whose alliance system had kept France isolated, and within four years Germany faced the two-front alliance it then spent a generation planning to fight.
+  now: It is the clearest modern case of a structural shift caused by a personnel decision, and a standing argument against systems that depend on one person.
+  story: Wilhelm II, 31 and on the throne for twenty months, demanded Bismarck's resignation on March 18, 1890, after disputes over social policy and the chancellor's right to see ministers alone. Three months later Berlin let the secret Reinsurance Treaty with Russia lapse. Russia turned to France; the Franco-Russian alliance was signed in 1894.
+  why: The alliance system rested on personal contradictions only Bismarck managed: Germany was allied to Austria and secretly pledged to Russia at once. Wilhelm II, 31, wanted to govern himself and had been told the Russian treaty was disloyal to Austria.
+  trig: Wilhelm demanded Bismarck's resignation on March 18, 1890; in June Berlin let the Reinsurance Treaty with Russia lapse.
+  then: Russia turned to France and the two signed a military alliance in 1894; German planning for a two-front war became the Schlieffen Plan.
+## eu189481 | 1894 | Franco-Russian Alliance | who: France, Russia | where: Europe
+  bluf: The Franco-Russian Alliance ended France's isolation and faced Germany with the threat of a two-front war. German planning to beat that threat, the Schlieffen Plan, shaped how World War I began.
+  now: That plan's march through neutral Belgium brought Britain into World War I, a lesson in how military plans can drive political decisions.
+  story: After Germany let its 'Reinsurance Treaty' with Russia lapse in 1890, France offered Russia loans and friendship. A secret military convention, agreed in 1892 and ratified in 1894, pledged each to fight Germany if it attacked the other.
+  why: Germany let its Reinsurance Treaty with Russia lapse in 1890, and France, seeking to end its own isolation, offered Russia loans and an alliance.
+  then: Germany now faced possible war on two fronts and planned for it with the Schlieffen Plan: beat France fast, then turn on Russia.
+## jp-treatyrev | 1894 | Britain agrees to end extraterritoriality | who: Foreign Minister Mutsu Munemitsu; Britain | where: London
+  bluf: Britain's agreement to end extraterritoriality made Japan the first non-Western nation to escape the unequal treaty system. It was a reward for Japan's modernization and an investment in Japan as a partner against Russia.
+  now: Japan was the first non-Western country to escape the unequal treaty system.
+  story: The Anglo-Japanese Treaty of Commerce and Navigation agreed that foreigners in Japan would face Japanese courts from 1899. Other powers followed.
+  why: Japan had a constitution and modern legal codes; Britain also wanted Japan as a partner against Russia.
+  then: Two weeks later Japan went to war with China, confident of Britain's goodwill.
+## eu189882 | 1898 | Germany builds a navy | who: Kaiser Wilhelm II; Admiral Tirpitz | where: Germany
+  bluf: Germany's decision to build a battle fleet challenged Britain's naval supremacy and pushed Britain to end its isolation and align with France and Russia. The naval race was a key source of Anglo-German hostility before 1914.
+  now: The Anglo-German naval race is a standard example of a security dilemma and is often cited in debates over China's naval build-up and US power in the Pacific.
+  story: Kaiser Wilhelm II and Admiral Alfred von Tirpitz pushed Navy Laws through the Reichstag in 1898 and 1900 to build a battle fleet that could challenge Britain's. Britain answered with HMS Dreadnought in 1906, and a naval arms race followed.
+  why: Wilhelm II wanted 'a place in the sun' for Germany as a world power, which he believed required a great navy.
+  then: Britain launched the Dreadnought in 1906 and settled its differences with France (1904) and Russia (1907).
+## eu190483 | 1904 | Entente Cordiale | who: Britain, France | where: London
+  bluf: The Entente Cordiale ended centuries of Anglo-French rivalry by settling colonial disputes, aligning Britain with France against German power. It became the core of the coalition that fought Germany in two world wars.
+  now: The Anglo-French partnership forged here fought two world wars together and remains the core of European defence cooperation, including on Ukraine.
+  story: In April 1904 Britain and France signed a set of agreements settling old colonial quarrels: France accepted British control of Egypt, and Britain accepted French influence in Morocco. It was not an alliance, but it ended centuries of rivalry.
+  why: Both feared Germany's growing power and navy, and settling their old colonial quarrels over Egypt and Morocco freed them to cooperate.
+  then: Germany tested the Entente in Morocco in 1905 and 1911, which only drew Britain and France closer; Russia joined in 1907, forming the Triple Entente.
+## eu190584 | 1905 | Russian Revolution of 1905 | who: Workers, peasants; Tsar Nicholas II | where: Russia
+  bluf: Defeat by Japan and the 'Bloody Sunday' massacre forced Nicholas II to grant a parliament, the Duma, and civil liberties. He soon rolled the reforms back, leaving the anger that exploded in 1917.
+  now: Lenin called it the 'dress rehearsal' for 1917: a regime that grants reforms only under pressure and then takes them back can lose its legitimacy.
+  story: Troops fired on peaceful marchers in St. Petersburg on 'Bloody Sunday'. Strikes and mutinies spread; Nicholas II created a parliament, the Duma.
+  why: Defeat by Japan exposed the regime's incompetence, industrial workers and peasants lived in deep poverty, and the 'Bloody Sunday' massacre destroyed faith in the tsar.
+  then: Nicholas II soon curtailed the Duma's powers and his minister Stolypin had more than a thousand rebels executed, leaving the anger unresolved.
+## d-bleriot | 1909 | Blériot flies the English Channel | who: Louis Blériot | where: Dover, England
+  bluf: Blériot's flight across the Channel showed that the sea no longer guaranteed Britain's safety. Air power would soon change warfare and strategy.
+  now: Air power soon erased Britain's island security, a shift that shaped British strategy in both world wars.
+  story: On July 25, 1909, Louis Blériot flew his monoplane about 36 km across the English Channel from near Calais to Dover in some 37 minutes, winning the Daily Mail's £1,000 prize. British commentators warned that the country could no longer count on the sea and its navy to keep it safe.
+  why: Newspapers offered big prizes to promote aviation, and engines and aircraft were improving fast after the Wright brothers' first flights in 1903.
+  then: Military interest in aircraft grew; planes fought in World War I five years later.
+## d-christmastruce | 1914 | Christmas truce | who: British and German soldiers on the Western Front | where: Flanders, Belgium
+  bluf: The Christmas truce showed that frontline soldiers on both sides saw each other as fellow humans. The bans on fraternizing that followed show how armies work to maintain hostility.
+  now: The truce showed commanders that hostility between conscript armies had to be maintained by discipline and propaganda, and both sides ordered against repetition; the war's brutalisation followed.
+  story: On Christmas Eve and Christmas Day 1914, along parts of the front, mostly in Belgium, British and German troops called unofficial truces. They buried their dead, swapped food and cigarettes, and in a few places kicked a football about.
+  why: Exhaustion, cold, and a sense that the enemy was much like themselves.
+  then: Commanders forbade fraternizing, and the war grew more brutal, with poison gas used from April 1915; later truces were rare.
+  fact: It is remembered as a symbol of shared humanity in war.
+## d-marne | 1914 | First Battle of the Marne | who: French commander Joseph Joffre; the British Expeditionary Force; German armies under Helmuth von Moltke the Younger | where: Marne River, east of Paris
+  bluf: The Marne stopped Germany's plan for a quick victory over France and turned the war into a long struggle of attrition in the trenches. Germany now faced the two-front war it had planned to avoid.
+  now: The Marne stopped Germany short of Paris and destroyed its plan for a short war; the trench stalemate that followed turned the conflict into four years of attrition that broke four empires.
+  story: German armies swept through Belgium toward Paris. From September 6, 1914, French and British forces counter-attacked into a gap between two German armies; some French reinforcements were rushed from Paris in taxis. The Germans fell back to the Aisne River and dug in.
+  why: Germany's Schlieffen Plan required defeating France in about six weeks.
+  then: Both sides dug trenches from the Channel to Switzerland, and the war became a stalemate.
+  fact: The 'taxis of the Marne' became a French legend of mobilisation.
+## eu191485 | 1914 | WWI begins | who: Central Powers vs. Russia, France, Britain | where: Europe
+  bluf: World War I destroyed four empires, killed about 20 million people and ended the 19th-century European order. Its peace settlements redrew the maps of Europe and the Middle East, brought communism to power in Russia, and left grievances that led directly to World War II.
+  now: Today's Middle East and Eastern European borders, and the causes of World War II, come from this war. Analysts still study 1914 to understand how a crisis between great powers could spiral into a war nobody wanted.
+  story: On June 28, 1914, Gavrilo Princip, a Bosnian Serb nationalist, assassinated Archduke Franz Ferdinand, heir to Austria-Hungary, in Sarajevo. Austria-Hungary, backed by Germany, sent Serbia an ultimatum; Russia mobilized to support Serbia; Germany declared war on Russia and France and invaded Belgium, which brought in Britain. Machine guns, artillery and trenches turned the Western Front into a stalemate of mass slaughter.
+  why: Rival alliance blocs, an arms race, rigid mobilization plans that rewarded striking first, nationalism in the Balkans and among the great powers, Austria-Hungary's fear of collapse, and Germany's sense of encirclement.
+  trig: The assassination in Sarajevo and the 'July Crisis' of ultimatums and mobilizations that followed.
+  then: About 20 million soldiers and civilians died. The German, Austro-Hungarian, Russian and Ottoman empires collapsed; the Bolsheviks took Russia; new states emerged in Eastern Europe; Britain and France divided the Arab Middle East; and the United States emerged as the world's creditor.
+  fact: Franz Ferdinand's driver took a wrong turn and stopped right in front of the assassin, Gavrilo Princip.
+## d-lusitania | 1915 | Lusitania sunk | who: German submarine U-20; the Cunard liner Lusitania | where: Off the Old Head of Kinsale, Ireland
+  bluf: The sinking of the Lusitania turned American opinion against Germany and made unrestricted submarine warfare a political liability. It was a step on the road to US entry into the war in 1917.
+  now: It shows how attacks on civilians can change the attitudes of neutral countries.
+  story: On May 7, 1915, the German submarine U-20 torpedoed the British liner Lusitania off southern Ireland without warning, and it sank in 18 minutes. Of 1,959 people aboard, 1,198 died, including 128 Americans. Germany had placed notices in New York newspapers warning that ships in the war zone could be sunk, and the liner was carrying rifle ammunition, which Germany cited to justify the attack.
+  why: Germany had declared the waters around Britain a war zone; the ship was also carrying rifle ammunition.
+  then: American outrage forced Germany to limit submarine attacks until 1917; when it resumed unrestricted warfare in 1917, the US entered the war.
+## d-somme | 1916 | Battle of the Somme | who: British and French armies; the German army | where: Somme River, France
+  bluf: The Somme's first day, with 57,000 British casualties, became the symbol of World War I's futile slaughter. Over the whole battle both sides lost more than a million men for minor gains, but the British army learned tactics that helped it win in 1918.
+  now: The Somme shapes British memory of World War I as futile slaughter and is studied as a lesson in adapting tactics to new technology.
+  story: On July 1, 1916, after a week of bombardment, British troops advanced and were cut down by German machine guns. The battle went on until November, saw the first use of tanks, and gained about 10 km.
+  why: To relieve pressure on the French at Verdun and break the German line.
+  then: Commanders learned costly lessons in artillery, infantry tactics and tanks that helped the Allies break the German lines in 1918.
+## d-verdun | 1916 | Battle of Verdun | who: German Fifth Army; French army under Philippe Pétain and Robert Nivelle | where: Verdun, France
+  bluf: Verdun was a battle of attrition meant to 'bleed France white', and it nearly bled both armies white. It became France's symbol of national endurance and shaped its defensive thinking, from the Maginot Line to Pétain's later role.
+  now: Verdun became the symbol of French endurance and of the futility of attrition; Kohl and Mitterrand chose it in 1984 to stage Franco-German reconciliation.
+  story: From February 21, 1916, German forces attacked the fortress city of Verdun. France rotated most of its army through the battle under the slogan 'They shall not pass'. By December the front was back near where it started.
+  why: German chief of staff Erich von Falkenhayn wanted to wear down France's army.
+  then: Verdun made Pétain a national hero, which later helped him lead Vichy France.
+## d-february | 1917 | Tsar Nicholas II abdicates | who: Nicholas II; Petrograd workers and soldiers; the Provisional Government | where: Petrograd (Saint Petersburg)
+  bluf: The February Revolution ended three centuries of Romanov rule in a week, but created a split of power between a weak Provisional Government and the soviets. Its decision to keep fighting the war opened the way for the Bolsheviks.
+  now: It ended more than 300 years of Romanov rule, and the failure of the new government to end the war or build stable institutions opened the way for the Bolsheviks.
+  story: Strikes and food protests began on International Women's Day, March 8, 1917 (February 23 in Russia's calendar). When soldiers joined the crowds, the tsar's generals advised him to go, and he abdicated on March 15. A Provisional Government took over, alongside workers' councils called soviets.
+  why: Millions of war dead, food shortages in the cities, and a monarchy discredited by defeat and by Rasputin's influence; when the capital's garrison refused to fire, the regime fell.
+  then: The Provisional Government kept fighting the war, and the Bolsheviks seized power in November.
+## eu191786 | 1917 | Russian Revolution | who: Lenin and the Bolsheviks | where: Petrograd (St. Petersburg)
+  bluf: The Russian Revolution overthrew the tsar and brought Lenin's Bolsheviks to power, creating the world's first communist state. It set up the 20th century's central ideological conflict, inspired revolutionaries worldwide, and produced a one-party dictatorship that killed millions.
+  now: The 20th century's great ideological struggle, communism against capitalism, starts here, and Russia's later authoritarianism draws on Soviet habits of rule.
+  story: In February 1917 (March in the Western calendar), strikes and bread riots in Petrograd, joined by soldiers, forced Nicholas II to abdicate. A Provisional Government kept fighting the war while workers' and soldiers' councils (soviets) competed for power. In October (November), Lenin's Bolsheviks seized the capital promising 'peace, land and bread', shut down the elected Constituent Assembly and fought a civil war against their opponents.
+  why: Huge war losses, food shortages, a discredited autocracy, peasant hunger for land, and the Provisional Government's decision to stay in the war.
+  trig: Bread riots and strikes in Petrograd in February 1917; in October, the Provisional Government's collapse of authority and Lenin's decision to seize power.
+  then: The Bolsheviks made peace with Germany, won the civil war and founded the USSR in 1922. Under Stalin the state collectivized agriculture, industrialized by force and imprisoned and killed millions.
+  fact: The 'October Revolution' happened in November by the Western calendar; Russia still used the old Julian calendar.
+## na191761 | 1917 | US enters WWI | who: Woodrow Wilson | where: Europe
+  bluf: America's entry tipped World War I toward the Allies with fresh troops and money. It marked the arrival of the United States as a decisive world power, though it soon retreated into isolation after rejecting the League of Nations.
+  now: The debate between engagement and isolation in US foreign policy began here.
+  story: German submarines sank US ships, and the Zimmermann Telegram offered Mexico US land to join Germany. Wilson asked Congress for war to make the world 'safe for democracy'.
+  why: Germany resumed unrestricted submarine warfare in February 1917, sinking American ships, and the Zimmermann Telegram revealed it had offered Mexico US territory; the US also had heavy loans to Britain and France at stake.
+  then: Two million US troops reached France, helping force Germany to seek an armistice.
+## d-brestlitovsk | 1918 | Treaty of Brest-Litovsk | who: Lenin's Bolshevik government; Germany and its allies | where: Brest, Belarus
+  bluf: Brest-Litovsk took Russia out of World War I at the cost of vast territory and much of its industry and population. It showed the Bolsheviks put holding power ahead of holding land, and briefly gave Germany a huge eastern empire.
+  now: Several of the lost lands, from Finland and the Baltic states to Poland, became independent, and Russia's view of them as lost borderlands still shapes its policy.
+  story: Signed on March 3, 1918, the treaty took Russia out of World War I. Russia gave up Poland, the Baltic lands, Finland and Ukraine, with about a third of its population and much of its industry and farmland.
+  why: The Bolsheviks needed peace to hold on to power, and the army had collapsed.
+  then: Germany moved troops west for a last offensive; the treaty was cancelled after Germany's defeat in November.
+## d-rcw | 1918 | Russian Civil War begins | who: The Bolshevik Red Army under Leon Trotsky; White armies; Allied interventions | where: Russia, from Ukraine to Siberia
+  bluf: The Russian Civil War killed millions and ended in Bolshevik victory, shaping the Soviet state into a militarized, one-party dictatorship. Foreign intervention left lasting Soviet suspicion of the West.
+  now: The war shaped the Soviet state's militarized, one-party character, and the Allied intervention fed a Russian narrative of Western hostility that is still invoked.
+  story: From 1918, anti-Bolshevik White armies, nationalist forces and Allied troops fought the Red Army built by Leon Trotsky. Fighting, terror on both sides, famine and disease killed perhaps 7 to 12 million people.
+  why: The Bolsheviks' seizure of power and their closing of the elected Constituent Assembly.
+  then: The Bolsheviks won through central control, terror and their enemies' disunity, and founded the Soviet Union in 1922.
+## d-romanovs | 1918 | Romanov family executed | who: Nicholas II, Alexandra, their five children and four servants; Bolshevik guards | where: Ipatiev House, Yekaterinburg
+  bluf: The execution of the Romanovs removed any rallying point for the Whites and showed the Bolsheviks' readiness to use terror. The family's canonization in 2000 reflects post-Soviet Russia's rehabilitation of the tsarist past.
+  now: The Russian Orthodox Church canonized the family in 2000, part of post-Soviet Russia's embrace of its tsarist past alongside its Soviet one.
+  story: With White forces approaching Yekaterinburg, the local Soviet, with Moscow's approval, had the family shot in the night of July 16-17, 1918. Their bodies were hidden; most were found in 1979 and identified by DNA in the 1990s, the last two in 2007.
+  why: The Bolsheviks feared the Whites would free the tsar and rally around him.
+  then: Rumours that a daughter, Anastasia, had survived lasted for decades until DNA disproved them.
+## d-spanishflu | 1918 | Spanish flu pandemic | who: Doctors, nurses and governments worldwide | where: Brest, France, one of the ports where the deadly second wave began
+  bluf: The 1918 influenza pandemic killed more people than World War I, spread by troop movements and wartime conditions. It pushed governments to invest in public health and remains the benchmark for modern pandemic planning.
+  now: It remains the benchmark for pandemic planning; scientists reconstructed the virus in 2005 to study how pandemics spread.
+  story: Influenza spread with troops and ships in 1918, in waves. The deadliest wave struck almost at once in August and September at Brest in France, Freetown in Sierra Leone and Boston. Unusually, it killed many healthy young adults; estimates of the dead range from about 17 to 50 million or more.
+  why: Crowded camps, troop ships and wartime hunger helped a new flu virus spread.
+  then: It faded by 1920, and many countries built up their public health services.
+  fact: It was called 'Spanish' only because neutral Spain's newspapers reported it freely while warring countries censored the news.
+## eu191887 | 1918 | Armistice ends World War I | who: Allies; Germany | where: Compiègne, France
+  bluf: The Armistice ended the fighting with Germany's army still on foreign soil, which let German nationalists later claim it had been 'stabbed in the back' at home. The collapse of four empires reshaped Europe and the Middle East.
+  now: Remembrance Day at 11 a.m. on November 11, and the 'stab-in-the-back' myth in Germany, both grew out of how the war ended.
+  story: With its army retreating, its allies collapsing and revolution breaking out at home, Germany sent delegates to meet Allied commander Ferdinand Foch in a railway carriage in the forest of Compiègne. The armistice took effect at 11 am on November 11, 1918.
+  why: Germany was exhausted, its allies had collapsed, and revolution was breaking out at home.
+  then: The German, Austro-Hungarian, Russian and Ottoman empires fell, creating new countries like Poland, Czechoslovakia and Yugoslavia.
+## eu191988 | 1919 | Treaty of Versailles | who: Wilson, Clemenceau, Lloyd George | where: Paris
+  bluf: The Treaty of Versailles ended World War I with Germany by blaming it for the war, stripping territory and colonies, limiting its army and demanding reparations. Too harsh for Germans to accept and too weakly enforced to hold them down, it fed the resentment Hitler exploited.
+  now: The treaty's terms fixed German politics for twenty years: every party demanded revision, the republic that signed it carried the blame, and the settlement was harsh enough to be hated and too weakly enforced to prevent rearmament. The 1945 settlement was designed as its opposite.
+  story: Signed on June 28, 1919 in the Hall of Mirrors, the treaty blamed Germany for the war, took its colonies and about 13% of its European territory, limited its army to 100,000 men, and required reparations later set at 132 billion gold marks.
+  why: France, invaded twice in 50 years, wanted security and reparations; Britain wanted German naval and colonial power curbed; Wilson wanted a League of Nations and self-determination. The compromise satisfied no one.
+  then: Germans called it a 'dictated peace'. The US Senate rejected it, reparations were repeatedly rescheduled and largely unpaid, and Britain and France failed to enforce its limits when Hitler rearmed.
+  fact: It was signed in the Hall of Mirrors, where Germany had proclaimed its empire in 1871, on the fifth anniversary of Franz Ferdinand's assassination.
+## d-league | 1920 | League of Nations founded | who: Woodrow Wilson's idea; 42 founding member states | where: Geneva
+  bluf: The League of Nations was the first attempt at a permanent international organization to keep the peace. It settled small disputes but failed against great-power aggression in the 1930s, lessons applied in designing the United Nations.
+  now: The United Nations replaced it in 1945-46, with a Security Council where the great powers hold vetoes, designed to keep them inside the system that the League had lost.
+  story: Created by the Treaty of Versailles, the League came into being on January 10, 1920. It settled some small disputes and ran mandates and refugee work, but the US never joined, and it could not stop Japan, Italy or Germany in the 1930s.
+  why: Horror at the slaughter of World War I, and Woodrow Wilson's belief that open diplomacy and collective security could replace the balance of power.
+  then: Japan and Germany left in 1933 and Italy in 1937, and the League could not stop the aggressions that led to World War II.
+## eu192289 | 1922 | Mussolini's March on Rome | who: Benito Mussolini; King Victor Emmanuel III | where: Rome
+  bluf: Mussolini's March on Rome brought fascism to power through intimidation and the king's acquiescence rather than an actual coup. Italy became the first fascist state, a model for Hitler and for authoritarian movements worldwide.
+  now: Fascism remains the benchmark for movements that use democratic institutions to win power and then dismantle them, and arguments over the label run through politics today.
+  story: As thousands of Fascist Blackshirts converged on Rome, the king refused to declare martial law and asked Mussolini to become prime minister. By 1925 he had made Italy a one-party dictatorship.
+  why: Post-war strikes, fear of socialist revolution and anger at the 'mutilated victory' at Versailles.
+  then: Italy became the first fascist state: other parties banned, the press controlled, opponents jailed or killed.
+## eu192289b | 1922 | Soviet Union founded | who: Lenin; the Bolshevik Party | where: Moscow
+  bluf: The Soviet Union formally united Russia with Ukraine, Belarus and the Transcaucasian republics in a federation controlled by the Communist Party. Its internal ethnic borders became the borders of 15 independent states when it collapsed in 1991.
+  now: The USSR's internal borders became the borders of 15 independent countries in 1991.
+  story: After winning the civil war, the Bolsheviks joined Russia with Ukraine, Belarus and the Transcaucasian republic in the Union of Soviet Socialist Republics, formally a federation but in practice ruled by the Communist Party from Moscow.
+  why: To bind the former Russian Empire's lands together under Communist rule.
+  then: Lenin died in 1924, and Stalin, who controlled the party machine, won the struggle to succeed him.
+## d-beerhall | 1923 | Beer Hall Putsch | who: Adolf Hitler; General Erich Ludendorff; Bavarian police | where: Munich
+  bluf: Hitler's failed coup in Munich showed how weak the Nazi movement was in 1923, but his lenient sentence and the publicity of his trial made him a national figure. He switched to winning power legally, which proved more dangerous.
+  now: The lenient sentence is often cited as a failure of a democracy to defend itself, and debates over punishing coup attempts still invoke it.
+  story: On November 8, 1923, Hitler burst into a Munich beer hall and proclaimed a national revolution. The next day police fired on his marchers; 16 Nazis and 4 policemen died. Sentenced to five years, Hitler served about nine months, writing Mein Kampf.
+  why: Hitler hoped to copy Mussolini's March on Rome in the chaos of hyperinflation.
+  then: Hitler decided to win power through elections instead, and the Nazis turned the dead of the putsch into martyrs for their propaganda.
+## d-hyperinflation | 1923 | German hyperinflation | who: The Weimar Republic; German savers and workers | where: Berlin
+  bluf: Germany's hyperinflation destroyed middle-class savings and discredited the Weimar Republic. It left a lasting German fear of inflation and helped create the conditions in which extremist parties later thrived.
+  now: Fear of inflation still shapes German economic policy and its insistence on an independent central bank, a principle built into the European Central Bank.
+  story: Printing money to pay its bills and support workers resisting the French occupation of the Ruhr, the government lost control of prices. Prices doubled every few days, workers were paid twice a day, and savings were wiped out.
+  why: Germany financed the war with debt, then printed money to pay its bills and reparations and to support workers on strike against the French occupation of the Ruhr.
+  then: A new currency, the Rentenmark, ended it in late 1923, but the middle class never forgot.
+## eu192490 | 1924 | Stalin rises | who: Joseph Stalin | where: USSR
+  bluf: Stalin's victory in the struggle to succeed Lenin turned the Soviet Union into a personal dictatorship. His forced industrialization and collectivization made the USSR an industrial power able to defeat Germany, at the cost of famine, terror and millions of deaths.
+  now: Russia's ambivalence about Stalin, as victor in World War II and as mass murderer, and Ukraine's memory of the Holodomor are both rooted in his rule.
+  story: After Lenin died in January 1924, Joseph Stalin used his post as the party's General Secretary to fill it with loyalists. He allied with rivals to defeat Leon Trotsky, then turned on them; by 1929 he was undisputed leader.
+  why: As General Secretary, Stalin controlled party appointments and outmanoeuvred more famous rivals.
+  then: Forced collectivization, famine and purges killed millions; the USSR also industrialized fast.
+## d-lindbergh | 1927 | Lindbergh flies the Atlantic | who: Charles Lindbergh | where: Le Bourget airfield, Paris
+  bluf: Lindbergh's solo transatlantic flight made aviation a mass enthusiasm and spurred investment in commercial airlines. It showed the oceans would not separate continents for long.
+  now: Lindbergh later led the 'America First' campaign against entering World War II, making him a symbol of America's prewar debate over intervention.
+  story: Taking off from Roosevelt Field on May 20, 1927 in the Spirit of St. Louis, Lindbergh landed at Le Bourget the next evening before a huge crowd. He won a $25,000 prize.
+  why: A prize offered by hotelier Raymond Orteig for the first non-stop flight between New York and Paris.
+  then: Interest in flying boomed, investment in aviation surged, and airlines began carrying passengers across the United States.

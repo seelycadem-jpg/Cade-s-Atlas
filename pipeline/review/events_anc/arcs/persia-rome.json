@@ -1,0 +1,2081 @@
+{
+ "arc": {
+  "id": "persia-rome",
+  "size": "arc",
+  "title": "The Unwinnable War",
+  "sub": "Mediterranean powers against Iranian empires, 550 BCE to 651 CE",
+  "span": [
+   -550,
+   651
+  ],
+  "themes": {
+   "primary": "war",
+   "secondary": [
+    "power",
+    "god"
+   ]
+  },
+  "thesis": "For eleven centuries the Mediterranean powers and the Iranian empires could defeat, raid and humiliate each other but could not hold each other's heartlands, and the one sustained attempt to end the contest by conquest, Khosrow II's war of 602-628, exhausted both so far that the Arabs took all of Iran and Rome's richest provinces within a generation.",
+  "assumptions": [
+   "Assumes distance and terrain, the Zagros, the Syrian steppe and the Armenian highlands, set the limit of conquest more than ideology or leadership did.",
+   "Assumes three Iranian dynasties, and the Macedonian kingdom that ruled Iran between them, can be read as one side of one contest; the participants read it so, from Ardashir I's reported claim to the Achaemenid lands to Heraclius's recovery of the True Cross.",
+   "Assumes the Arab conquest of Iran owed more to Persian exhaustion than to Arab strength; the atlas grades the two together."
+  ],
+  "disconfirm": "If the thesis were wrong, a conquest of the other side's core should have held for generations without breaking the conqueror. Rome's three captures of Ctesiphon (116, 165, 197) and Khosrow II's decade in Syria and Egypt fit the thesis; Alexander's conquest of Iran is the test case against it.",
+  "awkward": "Alexander III of Macedon took the entire Achaemenid empire in four campaigning seasons, 334-330 BCE, and his Seleucid successors ruled the Iranian plateau for about 160 years. The stalemate holds from about 300 BCE, once the Macedonian kingdoms faced each other and Rome; it fails for the one case in which the Iranian side had a single king whose defeat and death delivered the whole system.",
+  "shelf": [
+   {
+    "a": "Pierre Briant",
+    "t": "From Cyrus to Alexander: A History of the Persian Empire",
+    "y": 2002
+   },
+   {
+    "a": "Beate Dignas and Engelbert Winter",
+    "t": "Rome and Persia in Late Antiquity: Neighbours and Rivals",
+    "y": 2007
+   },
+   {
+    "a": "Matthew P. Canepa",
+    "t": "The Two Eyes of the Earth: Art and Ritual of Kingship between Rome and Sasanian Iran",
+    "y": 2009
+   },
+   {
+    "a": "Touraj Daryaee",
+    "t": "Sasanian Persia: The Rise and Fall of an Empire",
+    "y": 2009
+   },
+   {
+    "a": "James Howard-Johnston",
+    "t": "Witnesses to a World Crisis: Historians and Histories of the Middle East in the Seventh Century",
+    "y": 2010
+   }
+  ],
+  "stories": [
+   "persia-delegated-empire",
+   "persia-euphrates-line",
+   "persia-mutual-exhaustion"
+  ]
+ },
+ "stories": [
+  {
+   "id": "persia-delegated-empire",
+   "size": "story",
+   "title": "The Delegated Empire",
+   "sub": "Achaemenid Persia and the Greeks, 522 to 330 BCE",
+   "span": [
+    -522,
+    -330
+   ],
+   "parent": "persia-rome",
+   "thesis": "Achaemenid Persia ruled through satraps, local elites and fixed tribute, which made it cheap to run and able to absorb its Greek defeats and buy back its position with silver, and the same delegation let Alexander capture the whole system by destroying one king and seizing his treasuries.",
+   "assumptions": [
+    "Assumes the defeats of 480-479 were peripheral to Persian power; the Aegean coast's tribute was small against the revenues of Babylonia and Egypt.",
+    "Assumes the Greek narrative sources overstate Persian decline; the Persepolis tablets and Babylonian archives show an administration working to the end.",
+    "Assumes Alexander's speed owed more to the Persian system than to Macedonian tactics."
+   ],
+   "disconfirm": "If the thesis were wrong, Persian revenue, territory or cohesion should show steady decline from 479. Egypt's sixty years of independence from 404 is the strongest case for that reading; its reconquest in 343 is the strongest case against.",
+   "awkward": "Court murders killed Xerxes I in 465, Artaxerxes III in 338 and his son Arses in 336, and the dynasty's succession crises gave both Cyrus the Younger and Alexander their openings. The delegated system ran well; the dynasty at its top was its weakest part.",
+   "shelf": [
+    {
+     "a": "Pierre Briant",
+     "t": "From Cyrus to Alexander: A History of the Persian Empire",
+     "y": 2002
+    },
+    {
+     "a": "David M. Lewis",
+     "t": "Sparta and Persia",
+     "y": 1977
+    },
+    {
+     "a": "Matt Waters",
+     "t": "Ancient Persia: A Concise History of the Achaemenid Empire, 550-330 BCE",
+     "y": 2014
+    },
+    {
+     "a": "Pierre Briant",
+     "t": "Darius in the Shadow of Alexander",
+     "y": 2015
+    },
+    {
+     "a": "Lloyd Llewellyn-Jones",
+     "t": "Persians: The Age of the Great Kings",
+     "y": 2022
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The system",
+     "hinge": "me-522-darius",
+     "conn": null,
+     "s1": "Darius I turned Cyrus's conquests into a system of satrapies, fixed tribute and royal roads that could absorb defeats at its edges, and it outlived him by 156 years.",
+     "s2": "Persian King Darius I took the throne in 522 by killing Gaumata, the man he called an impostor posing as Cyrus's son, and spent his first year putting down revolts in nearly every province; the Behistun inscription, in Old Persian, Elamite and Babylonian, is his account of that year. He then fixed the empire in some 20 satrapies paying assessed tribute in silver, linked Susa to Sardis by a road of about 2,500 km with relay stations, and began Persepolis around 518. Local elites, temples and laws stayed in place under Persian governors, which kept the cost of rule low. Thousands of Elamite tablets from Persepolis, covering about 509 to 493, record rations of grain and wine issued to workers by the jar. The Scythian campaign of about 513 failed against the nomads but left Thrace and the kingdom of Macedon under Persian authority, so Alexander's ancestors began as Persian vassals.",
+     "support": [
+      "me-520-behistun",
+      "me-518-persepolis",
+      "sa-518-persia-indus",
+      "me-513-scythian-campaign",
+      "me-539-babylon-falls"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The western overreach",
+     "hinge": "eu-480-salamis",
+     "conn": "therefore",
+     "s1": "The system's reach to the Aegean drew Persia into a war with mainland Greece that it lost at sea and on land without losing anything that carried its revenue.",
+     "s2": "The Greek cities of Ionia revolted in 499 against the tyrants Persia ruled them through; Athens and Eretria sent ships and burned Sardis in 498, and Darius needed six years and the naval victory at Lade in 494 to end it. The expedition that landed at Marathon in 490 under the commanders Datis and Artaphernes was a punitive raid with a political aim, to restore the exiled Athenian tyrant Hippias, who sailed with it. Xerxes I had to suppress a revolt in Egypt and two in Babylon before he could invade in 480, and Babylon lost its standing as a privileged city afterwards. Salamis in 480 and Plataea and Mycale in 479 ended Persian designs on mainland Greece and cost the Aegean coast. The core provinces stayed intact, and Xerxes ruled them until courtiers murdered him in 465.",
+     "support": [
+      "me-499-ionian-revolt",
+      "me-484-xerxes-revolts",
+      "me-465-xerxes-murdered"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Silver over spears",
+     "hinge": "me-387-kings-peace",
+     "conn": "but",
+     "s1": "Persia recovered with money what it had lost with armies, and in 387 the Great King dictated the terms of peace among the Greek cities.",
+     "s2": "From 412 the satraps Tissaphernes at Sardis and Pharnabazus at Dascylium paid for Sparta's fleet against Athens in return for recognition of the King's claim to the Ionian cities, and the subsidies of Cyrus the Younger from 407 financed the fleet that won the Peloponnesian War at Aegospotami in 405. Egypt broke away in 404 and stayed independent for sixty years, the empire's largest loss. Cyrus the Younger marched on his brother Artaxerxes II in 401 with about 10,000 Greek mercenaries and died at Cunaxa; the mercenaries' retreat to the Black Sea taught Greeks that a Persian heartland could be crossed. The King's Peace of 387, read out to Greek envoys at Sardis from a royal rescript, gave Persia the Asian Greek cities and Cyprus and made the King guarantor of autonomy for the rest. Artaxerxes III retook Egypt in 343, and the empire Alexander invaded was larger than at any time since 404.",
+     "support": [
+      "me-412-persian-spartan-treaty",
+      "eu-431-peloponnesian",
+      "me-404-egypt-secedes",
+      "me-401-cunaxa",
+      "me-343-egypt-reconquest"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Captured whole",
+     "hinge": "eu-334-alexander",
+     "conn": "but",
+     "s1": "The delegation that made Persia cheap to rule let Alexander take it whole: after Gaugamela the satrapies, treasuries and roads passed to the new king with many of their officials in place.",
+     "s2": "The court eunuch Bagoas poisoned Artaxerxes III in 338 and his son Arses in 336, and Darius III came to the throne in the year Philip II of Macedon's advance force crossed into Asia. Alexander III of Macedon won at the Granicus in 334, at Issus in 333 and at Gaugamela on 1 October 331, after which Babylon and Susa opened their gates; the treasuries of Susa, Persepolis and Ecbatana yielded on the order of 180,000 talents of silver. Persepolis burned in early 330, and that summer Bessus, satrap of Bactria, murdered Darius III as Alexander closed in. Alexander kept Persian satraps in several provinces, including Mazaeus at Babylon, and adopted Persian court ceremony; his hardest fighting came afterwards, in Bactria and Sogdiana, where local lords had held power under the Achaemenids as well. His death in 323 left the empire to his generals, and Iran became the eastern half of a Macedonian kingdom run from Babylon and Syria.",
+     "support": [
+      "me-338-artaxerxes-iii-poisoned",
+      "me-331-gaugamela",
+      "me-330-darius-iii-killed",
+      "me-323-diadochi"
+     ]
+    }
+   ],
+   "today": "Persepolis (inscribed 1979), Pasargadae (2004) and Behistun (2006) are UNESCO World Heritage Sites in Iran, and the Behistun text was the key to deciphering Babylonian cuneiform in the 1840s and 1850s. The Cyrus Cylinder, excavated at Babylon in 1879 and held by the British Museum, is used by the Islamic Republic and by Iranian monarchists alike as a symbol of Iranian statehood."
+  },
+  {
+   "id": "persia-euphrates-line",
+   "size": "story",
+   "title": "The Euphrates Line",
+   "sub": "Seleucids, Parthians and Rome, 312 BCE to 224 CE",
+   "span": [
+    -312,
+    224
+   ],
+   "parent": "persia-rome",
+   "thesis": "From Seleucus I to Septimius Severus no power could hold both the Mediterranean coast and the Iranian plateau: the Seleucids lost Iran once Rome pressed them in the west, Rome took Ctesiphon three times and kept none of it, Parthia overran Syria and kept none of it, and the frontier settled on the Euphrates with Armenia as the compromise; Arsacid Parthia fell to a revolt inside Iran that Roman sacks had made possible.",
+   "assumptions": [
+    "Assumes the Seleucid loss of Iran and Rome's failure to take it are the same problem: the distance between the Mediterranean and the plateau.",
+    "Assumes Parthia's structure, vassal kings and great noble houses under an Arsacid king, made it hard to conquer and slow to mobilise, and that the same feature kept it from holding Syria.",
+    "Assumes the Sasanian revolt of 224 owed something to Roman pressure; it may have been a purely Iranian dynastic event."
+   ],
+   "disconfirm": "If the thesis were wrong, a Roman hold on Babylonia or a Parthian hold on Syria should have lasted beyond a few years. Trajan's provinces lasted from 116 to 117 and the Parthian occupation of Syria from 40 to 38 BCE, so the test is the record of every later attempt.",
+   "awkward": "Rome did hold part of the far side: Septimius Severus's province of Mesopotamia, with its capital at Nisibis, lasted from about 198 to 363. The stalemate held between the two heartlands; the borderland between them changed hands, and once it moved east it stayed there for 165 years.",
+   "shelf": [
+    {
+     "a": "Susan Sherwin-White and Amélie Kuhrt",
+     "t": "From Samarkhand to Sardis: A New Approach to the Seleucid Empire",
+     "y": 1993
+    },
+    {
+     "a": "Benjamin Isaac",
+     "t": "The Limits of Empire: The Roman Army in the East",
+     "y": 1990
+    },
+    {
+     "a": "Fergus Millar",
+     "t": "The Roman Near East, 31 BC-AD 337",
+     "y": 1993
+    },
+    {
+     "a": "Rose Mary Sheldon",
+     "t": "Rome's Wars in Parthia: Blood in the Sand",
+     "y": 2010
+    },
+    {
+     "a": "Uwe Ellerbrock",
+     "t": "The Parthians: The Forgotten Empire",
+     "y": 2021
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The Macedonian inheritance",
+     "hinge": "me-312-seleucus-babylon",
+     "conn": null,
+     "s1": "Seleucus I rebuilt Alexander's Asian empire from Babylon, and his dynasty spent the next century finding that it could not hold the Iranian plateau and the Mediterranean coast at once.",
+     "s2": "Seleucus, a Macedonian cavalry officer who had been satrap of Babylon, retook the city with a small force in 311, and his dynasty counted its years from 312/311 in a continuous era that Syriac Christians still used a thousand years later. He took the eastern satrapies to the Indus, then around 305 ceded the Indian provinces to Chandragupta Maurya for 500 war elephants, which helped him win at Ipsus in 301 and gain north Syria, where he founded Antioch. The dynasty's centre of gravity moved west to Syria and its wars with Ptolemaic Egypt, and the east slipped away: Bactria's governor Diodotus broke off around 250, and the Parni nomads under Arsaces took the province of Parthia between about 247 and 238. Antiochus III marched east from about 210 to 205, besieged Bactra for two years and won recognitions of overlordship from both Parthia and Bactria, which lasted as long as his army stayed.",
+     "support": [
+      "me-305-seleucus-chandragupta",
+      "me-301-ipsus",
+      "me-247-parthia",
+      "sa-256-greco-bactria",
+      "me-209-antiochus-iii-anabasis"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Rome closes the west",
+     "hinge": "me-190-magnesia",
+     "conn": "but",
+     "s1": "Rome's defeat of Antiochus III at Magnesia in 190 cut the Seleucids off from Anatolia and its revenues and began a decline that Parthia completed from the east.",
+     "s2": "Antiochus III crossed into Greece in 192 and was beaten at Thermopylae in 191 and at Magnesia in 190 by a Roman army under Lucius Cornelius Scipio, with his brother Scipio Africanus attached as legate. The Treaty of Apamea in 188 pushed the Seleucid frontier back to the Taurus, imposed an indemnity of 15,000 talents, most of it in twelve annual instalments, and limited the king's fleet and war elephants. Antiochus III died in 187 plundering a temple in Elymais for money. In 168 the Roman envoy Gaius Popillius Laenas drew a circle in the sand around Antiochus IV outside Alexandria and demanded an answer before he stepped out of it; Antiochus gave up Egypt. His attempt to impose Greek cult on Jerusalem soon after provoked the Maccabean revolt, which tied down Seleucid armies in the years Parthia moved west.",
+     "support": [
+      "me-168-eleusis",
+      "me-167-maccabees"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Parthia takes the plateau",
+     "hinge": "me-141-mithridates-seleucia",
+     "conn": "therefore",
+     "s1": "Mithridates I took Media and Babylonia from the weakened Seleucids between about 148 and 141, and power over Iran returned to the Tigris under an Iranian dynasty.",
+     "s2": "Mithridates I of Parthia took Ecbatana around 148 and was minting coins at Seleucia on the Tigris, the largest Greek city in Asia, by 141. The Seleucid counter-offensive under Demetrius II ended with his capture in 139; he spent ten years as an honoured prisoner married to a Parthian princess. Antiochus VII Sidetes, the last Seleucid king with a full field army, retook Babylonia in 130 and was killed in Media in 129, and Phraates II's victory ended Seleucid claims east of the Euphrates. The Arsacids kept the Greek cities and their councils, used Greek on their coins and ruled through vassal kings and great noble houses, which made the state hard to destroy and slow to mobilise. Ctesiphon, across the Tigris from Seleucia, became the Arsacid royal city and stayed the seat of Iranian kings until 637.",
+     "support": [
+      "me-148-mithridates-media",
+      "me-129-antiochus-vii-killed"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Carrhae",
+     "hinge": "me-53-carrhae",
+     "conn": "therefore",
+     "s1": "The Seleucid collapse left Rome and Parthia face to face on the Euphrates, and Carrhae in 53 BCE showed that Parthian horse archers supplied by a camel train could destroy a Roman army in Mesopotamia.",
+     "s2": "The first official contact came in about 96, when the Roman governor Lucius Cornelius Sulla met the Parthian envoy Orobazus on the Euphrates and took the centre seat; Mithridates II had the envoy executed for allowing it. Pompey's settlement of 64 ended the Seleucid kingdom and made Syria a Roman province bordering Parthia. Marcus Licinius Crassus invaded in 53 without a pretext, and the Parthian general Surena, with about 9,000 horse archers, 1,000 armoured cavalry and 1,000 camels carrying spare arrows, destroyed his seven legions at Carrhae; some 20,000 Romans died and 10,000 were taken prisoner. Crassus's death removed the third partner from the arrangement between Caesar and Pompey and hastened the civil war of 49. A Parthian army under the prince Pacorus and the Roman renegade Quintus Labienus overran Syria in 40 and was expelled by 38, and Mark Antony's invasion of Media Atropatene in 36 lost about 24,000 men in the retreat.",
+     "support": [
+      "me-96-sulla-orobazus",
+      "me-64-pompey-syria",
+      "eu-49-rubicon",
+      "me-40-parthian-invasion",
+      "me-36-antony-parthia"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The Armenian compromise",
+     "hinge": "me-63-rhandeia",
+     "conn": "therefore",
+     "s1": "Armenia, the one territory both empires needed and neither could hold, became the frontier's safety valve when Rome and Parthia agreed in 63 CE that an Arsacid would rule it under Roman investiture.",
+     "s2": "Armenia's highlands flank both the upper Euphrates and the road into Media, so whichever power held it threatened the other's interior. The Roman Emperor Augustus recovered Crassus's standards by negotiation in 20 BCE and paired the deal with a Roman-installed king in Armenia, and for eighty years the two empires fought through rival candidates for its throne. The general Gnaeus Domitius Corbulo took the Armenian capital Artaxata in 58, but a second Roman army surrendered at Rhandeia in 62, and the treaty agreed there in 63 split the difference: Tiridates, brother of the Parthian King Vologases I, would be king, crowned by Nero. Tiridates travelled overland to Rome in 66 with some 3,000 horsemen, and Nero placed the diadem on his head in the Forum. The formula of an Arsacid king approved by Rome kept the peace for about fifty years, until Trajan annexed Armenia in 114, and Arsacids held the Armenian throne until 428.",
+     "support": [
+      "me-20-standards-returned",
+      "me-66-tiridates-crowned"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "Sacked from the west",
+     "hinge": "me-116-trajan-ctesiphon",
+     "conn": "but",
+     "s1": "Rome sacked Ctesiphon three times in eighty years and kept only northern Mesopotamia, while the repeated humiliations drained the Arsacid dynasty's standing with its own nobles.",
+     "s2": "Trajan annexed Armenia in 114, took Ctesiphon in 116 and reached the Persian Gulf, but revolts in the conquered cities and among the Jews of the eastern diaspora forced him back, and Hadrian gave up Armenia and Mesopotamia on his accession in 117. Avidius Cassius burned Seleucia and Ctesiphon in 165, and Seleucia, which had held perhaps several hundred thousand people, never recovered; the returning legions brought back the epidemic known as the Antonine Plague. Septimius Severus sacked Ctesiphon in 197 and created the province of Mesopotamia with its capital at Nisibis, the one Roman gain beyond the Euphrates that lasted. The last Parthian king, Artabanus IV, beat the Emperor Macrinus near Nisibis in 217 and forced him to pay 200 million sesterces. Seven years later Ardashir, a sub-king in Persis, killed Artabanus in battle and ended the dynasty.",
+     "support": [
+      "eu-117-hadrian",
+      "me-165-ctesiphon-sacked",
+      "eu-165-antonine-plague",
+      "me-197-severus-ctesiphon",
+      "me-217-nisibis-macrinus"
+     ]
+    }
+   ],
+   "today": "The Euphrates crossings at Zeugma and Samosata, the main Roman bridgeheads toward Parthia, now lie partly or wholly under the reservoirs of Turkey's Birecik and Atatürk dams. The site of Seleucia and Ctesiphon lies about 35 km south-east of Baghdad, and the dating era Seleucus founded in 312/311 BCE survived in Syriac church use into modern times."
+  },
+  {
+   "id": "persia-mutual-exhaustion",
+   "size": "story",
+   "title": "Mutual Exhaustion",
+   "sub": "Sasanian Iran and Rome, 224 to 651",
+   "span": [
+    224,
+    651
+   ],
+   "parent": "persia-rome",
+   "thesis": "Sasanian Iran was a more centralised and more ideological rival than Parthia, and after a century of Persian victories the two empires settled into a managed rivalry of fortresses, subsidies, treaties and Arab client kings; Khosrow II's attempt to break it by conquest from 602 exhausted both, and his abolition of the Lakhmid kingdom opened the desert frontier the Arab armies crossed in 633.",
+   "assumptions": [
+    "Assumes the managed rivalry of the fifth and sixth centuries was a working equilibrium, which the wars of 502-506, 527-532, 540-562 and 572-591 make questionable.",
+    "Assumes the Arab conquest of Iran owed more to the war of 602-628 and the civil war of 628-632 than to Arab numbers or doctrine.",
+    "Assumes the Lakhmid kingdom served Persia as a buffer; it also served as a raiding arm against Roman Syria, and its removal may have had other motives."
+   ],
+   "disconfirm": "If the thesis were wrong, a Sasanian state that had not fought the war of 602-628 should still have lost Iraq to the Arabs on a similar timescale. The speed of the conquest of Iraq, from Khalid ibn al-Walid's raids in 633 to the fall of Ctesiphon in 637, would then measure Arab strength more than Persian weakness.",
+   "awkward": "Rome fought the same war, won it, and still lost Syria, Palestine and Egypt to the same Arab armies within fifteen years of Heraclius's victory. Exhaustion explains why both empires lost their southern provinces; it leaves open why Rome survived in Anatolia while the Sasanian state vanished entirely, and the answer may lie in Constantinople's walls and the lack of any Iranian equivalent once Ctesiphon fell.",
+   "shelf": [
+    {
+     "a": "Beate Dignas and Engelbert Winter",
+     "t": "Rome and Persia in Late Antiquity: Neighbours and Rivals",
+     "y": 2007
+    },
+    {
+     "a": "Parvaneh Pourshariati",
+     "t": "Decline and Fall of the Sasanian Empire: The Sasanian-Parthian Confederacy and the Arab Conquest of Iran",
+     "y": 2008
+    },
+    {
+     "a": "Greg Fisher",
+     "t": "Between Empires: Arabs, Romans, and Sasanians in Late Antiquity",
+     "y": 2011
+    },
+    {
+     "a": "James Howard-Johnston",
+     "t": "Witnesses to a World Crisis: Historians and Histories of the Middle East in the Seventh Century",
+     "y": 2010
+    },
+    {
+     "a": "Hugh Kennedy",
+     "t": "The Great Arab Conquests",
+     "y": 2007
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "A sharper rival",
+     "hinge": "me-224-sasanian",
+     "conn": null,
+     "s1": "Ardashir I replaced the Parthians in 224 with a dynasty from Persis that centralised Iran, bound kingship to the Zoroastrian priesthood and attacked Roman Mesopotamia within six years.",
+     "s2": "Ardashir, a sub-king in Persis, killed Artabanus IV at Hormozdgan on 28 April 224 and was crowned at Ctesiphon. The new dynasty replaced most Parthian vassal kings with princes of its own house, founded cities under royal names and tied the throne to the Zoroastrian priesthood, while great Parthian houses such as the Suren and the Karen kept their lands and commands inside the new order. Ardashir invaded Roman Mesopotamia in 230; Roman writers record his claim to all the lands the Achaemenids had ruled, a claim the Persian sources never state. The Emperor Severus Alexander's counter-offensive of 232 was costly for both sides. The fall in 241 of Hatra, the desert city that had become a Roman ally, opened the road to the Euphrates and added an eastern front to the military crisis that broke the Roman imperial succession after 235.",
+     "support": [
+      "me-230-ardashir-mesopotamia",
+      "me-241-hatra-falls",
+      "eu-235-crisis-235"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Shapur's victories",
+     "hinge": "me-260-edessa-valerian",
+     "conn": "therefore",
+     "s1": "Shapur I killed, bought off and captured Roman emperors in sixteen years, the worst Roman humiliation in the East, and annexed nothing west of the Euphrates.",
+     "s2": "Gordian III died after the battle of Misiche in 244, and his successor Philip the Arab paid 500,000 denarii to bring the army home. Shapur I destroyed a Roman army of some 60,000 at Barbalissos around 253 and plundered Antioch, and in 260 captured the Emperor Valerian at Edessa with his praetorian prefect and senators. Roman prisoners were settled in Khuzestan and Persis, where tradition credits them with building Gundishapur and the bridge-dam at Shushtar. Shapur's inscription on the Ka'ba-ye Zartosht at Naqsh-e Rostam, in Middle Persian, Parthian and Greek, claims 36 Roman cities taken in the campaign of 253 alone. Odaenathus, the ruler of Palmyra, harried the Persian army on its way home, and Shapur's gains of 253-260 came down to plunder and skilled labour; the Euphrates line held.",
+     "support": [
+      "me-244-misiche",
+      "me-253-barbalissos",
+      "me-262-shapur-inscription"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Armenia divided",
+     "hinge": "me-387-armenia-partition",
+     "conn": "but",
+     "s1": "Christianity turned the contest over Armenia into a religious one, and the two empires settled it around 387 by dividing the kingdom, Persia taking about four-fifths.",
+     "s2": "The Roman Caesar Galerius's victory over Narseh in 298 brought the Peace of Nisibis of 299, which gave Rome five districts beyond the Tigris and the right to invest Armenia's kings. Armenia's King Tiridates III adopted Christianity in the early fourth century, by tradition in 301, and Constantine's conversion made Armenian Christians a Roman interest inside a Persian sphere. Shapur II spent decades recovering the losses of 299; Julian's invasion of 363 reached Ctesiphon and ended with his death, and his successor Jovian gave up Nisibis, Singara and the districts beyond the Tigris to save the army. After the partition the Persians abolished the Arsacid monarchy in their share of Armenia in 428. Yazdegerd I let the Christians of his empire organise as a single church at the Synod of Seleucia-Ctesiphon in 410, which made them a Persian institution rather than a Roman fifth column. Yazdegerd II's attempt to impose Zoroastrianism on Armenia produced the revolt crushed at Avarayr in 451, and by 484 Persia had conceded the Armenians their faith.",
+     "support": [
+      "me-299-peace-of-nisibis",
+      "me-301-armenia-christian",
+      "me-363-julian-jovian",
+      "me-410-synod-seleucia",
+      "me-451-avarayr"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Managed rivalry",
+     "hinge": "me-532-eternal-peace",
+     "conn": "therefore",
+     "s1": "After the partition the two empires ran their rivalry through fortress lines, Roman payments and Arab client kings, and Khosrow I and Justinian I bought time from each other with treaties neither expected to last.",
+     "s2": "Kavad I's war of 502-506, fought partly to extract Roman money for his debts to the Hephthalites, led the Emperor Anastasius I to build the fortress of Dara 18 km from Persian Nisibis. Justinian I made the Ghassanid chief al-Harith ibn Jabala supreme phylarch of Rome's Arab allies in 529 to match the Lakhmid kings of al-Hira, Persia's clients since the late third century. Khosrow I, who came to the throne in 531 after the massacre of the Mazdakite sect and went on to reform the land tax, signed the Eternal Peace in 532 for a payment of 11,000 pounds of gold, and Justinian used the quiet to send Belisarius against Vandal Africa in 533. Khosrow broke the peace in 540 while Justinian's armies were in Italy, sacked Antioch and resettled its people in a new city near Ctesiphon he named Weh Antiok Khosrow, 'Khosrow's better Antioch'. The Fifty-Year Peace of 562 fixed Roman payments of 30,000 gold coins a year and channelled trade through named customs posts, and it lasted ten years.",
+     "support": [
+      "me-502-anastasian-war",
+      "me-529-ghassanid-phylarch",
+      "me-531-khosrow-i",
+      "eu-533-justinian-war",
+      "me-540-antioch-sacked",
+      "me-562-fifty-year-peace"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "Khosrow II's gamble",
+     "hinge": "me-602-byz-persia",
+     "conn": "but",
+     "s1": "Khosrow II used the murder of his patron Maurice in 602 to launch a war for the whole Roman East, held Syria, Palestine and Egypt for more than a decade, and lost it all when Heraclius struck at Iran's undefended north.",
+     "s2": "Sasanian King Khosrow II owed his throne to the Roman Emperor Maurice, whose army restored him at Blarathon in 591 in exchange for most of Persian Armenia and Iberia. When the centurion Phocas murdered Maurice in 602, Khosrow declared war as his avenger, and in the same year deposed the Lakhmid king al-Nu'man III and replaced the dynasty with a governor. Persian armies took Dara in 604, held Syria by 613 and took Jerusalem in 614, from where they carried the True Cross to Ctesiphon, and Alexandria in 619; the loss of Egyptian grain ended Constantinople's free bread ration in 618. The Avar and Persian siege of Constantinople in 626 failed because the Roman fleet kept the two armies apart across the Bosporus. The Emperor Heraclius, campaigning through the Caucasus with Western Turkic allies, won at Nineveh in December 627 and sacked the royal palace at Dastagird. Rome paid for the war by melting church plate, and Khosrow by taxes that turned his own nobles against him.",
+     "support": [
+      "me-591-khosrow-ii-restored",
+      "me-602-lakhmid-end",
+      "me-614-jerusalem",
+      "me-619-alexandria",
+      "me-626-constantinople-siege",
+      "me-627-nineveh"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "The open desert",
+     "hinge": "me-636-qadisiyyah",
+     "conn": "therefore",
+     "s1": "The war and the civil war after it left Sasanian Iraq without its Arab frontier guard, a settled king or a field army, and the Arab armies took the empire's richest province in four years.",
+     "s2": "Khosrow II was deposed and killed in February 628 in a coup that put his son Kavad II on the throne; Kavad made peace and died within months, and some ten rulers, among them Khosrow's daughters Boran and Azarmidokht, claimed the throne in four years. Both empires had already stripped their Arab buffers: Rome arrested the Ghassanid king al-Mundhir in 581 and the federation broke up, and the Bakr tribes' victory over a Persian force at Dhi Qar, sometime between 604 and 611, showed that the Persian desert edge was open once the Lakhmids were gone. Khalid ibn al-Walid's raids of 633 took al-Hira, the old Lakhmid capital. At al-Qadisiyyah, probably in 636, the Arab army under Sa'd ibn Abi Waqqas destroyed the imperial army and killed its commander, Rostam Farrokhzad, and Ctesiphon fell in March 637 after a three-month siege. The Sawad, the irrigated plain of lower Iraq, had supplied the largest share of Sasanian revenue, and its loss left the dynasty a kingdom of the mountains.",
+     "support": [
+      "me-609-dhi-qar",
+      "me-581-ghassanid-arrest",
+      "me-628-khosrow-ii-deposed",
+      "me-632-yazdegerd-iii",
+      "me-637-ctesiphon-falls"
+     ]
+    },
+    {
+     "id": "c7",
+     "title": "The flight east",
+     "hinge": "me-642-nahavand",
+     "conn": "but",
+     "s1": "The plateau held out for fourteen years after Ctesiphon, long enough to show that Iran's provinces could resist on their own and too short to save a dynasty that could no longer pay a central army.",
+     "s2": "Yazdegerd III raised a last imperial army, which the Arab commander al-Nu'man ibn Muqarrin destroyed at Nahavand in December 642 at the cost of his own life. After Nahavand the conquest went province by province: cities such as Hamadan, Isfahan and Rey made separate terms, and Istakhr in Persis surrendered, revolted and was sacked in 650-651 with heavy loss of life. Yazdegerd fled east through Kerman and Sistan to Merv, where a miller killed him in 651, by tradition at the instigation of the local governor Mahoe Suri. His son Peroz III appealed to Tang China, which named him governor of a nominal Persian command at Zaranj in 661; he died at the Tang court around 678. The caliphate kept Persian-speaking officials and Sasanian tax registers in Iraq and Iran until the 690s, and Persian, unlike Aramaic and Coptic, survived the conquest to return as a literary language in the ninth and tenth centuries.",
+     "support": [
+      "me-651-yazdegerd-iii-killed",
+      "me-661-peroz-tang"
+     ]
+    }
+   ],
+   "today": "Saddam Hussein's government called Iraq's 1980-88 war with Iran 'Saddam's Qadisiyyah', reading the battle of 636 as an Arab victory over Persia. The Taq Kasra, the great vault of the Sasanian palace at Ctesiphon and the largest surviving Sasanian building, lost part of its structure in 2019, and emergency stabilisation funded by the international heritage fund ALIPH began in 2021."
+  }
+ ],
+ "new_events": [
+  {
+   "id": "me-520-behistun",
+   "y": -520,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Darius's Behistun inscription justifies his coup",
+   "where": "Behistun, Kermanshah, Iran",
+   "lat": 34.39,
+   "lon": 47.44,
+   "wk": "Behistun Inscription",
+   "c": [
+    "political",
+    "culture"
+   ],
+   "t": [
+    "empire",
+    "law"
+   ],
+   "causes": [
+    "me-522-darius"
+   ],
+   "why_selected": "The regime's own account of 522-521, in three languages; later the key to deciphering cuneiform"
+  },
+  {
+   "id": "me-518-persepolis",
+   "y": -518,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Darius begins building Persepolis",
+   "where": "Persepolis, Fars, Iran",
+   "lat": 29.935,
+   "lon": 52.89,
+   "wk": "Persepolis",
+   "bt": "place/Persepolis",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "cities"
+   ],
+   "causes": [
+    "me-522-darius"
+   ],
+   "why_selected": "Ceremonial capital whose fortification tablets document the empire's ration and tribute administration"
+  },
+  {
+   "id": "me-513-scythian-campaign",
+   "y": -513,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Darius crosses into Europe against the Scythians",
+   "where": "Lower Danube and Pontic steppe",
+   "lat": 45.22,
+   "lon": 28.73,
+   "wk": "Scythian campaign of Darius I",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "me-522-darius"
+   ],
+   "why_selected": "Failed against the Scythians but brought Thrace and Macedon under Persian authority, putting Persia on the Aegean's European side"
+  },
+  {
+   "id": "me-499-ionian-revolt",
+   "y": -499,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-550-cyrus",
+   "h": "Ionian Greek cities revolt against Persia",
+   "where": "Miletus, Ionia (western Turkey)",
+   "lat": 37.53,
+   "lon": 27.28,
+   "wk": "Ionian Revolt",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-522-darius",
+    "me-513-scythian-campaign"
+   ],
+   "why_selected": "Athenian help to the rebels, and the burning of Sardis in 498, gave Persia its reason to invade mainland Greece"
+  },
+  {
+   "id": "me-484-xerxes-revolts",
+   "y": -484,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Xerxes crushes revolts in Egypt and Babylon",
+   "where": "Babylon, Mesopotamia",
+   "lat": 32.54,
+   "lon": 44.42,
+   "wk": "Xerxes I",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-499-ionian-revolt"
+   ],
+   "why_selected": "Shows where the empire's priorities lay: the rich provinces were secured before the Greek expedition of 480"
+  },
+  {
+   "id": "me-465-xerxes-murdered",
+   "y": -465,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Xerxes I murdered at court",
+   "where": "Persian court (probably Persepolis), Iran",
+   "lat": 29.935,
+   "lon": 52.89,
+   "wk": "Xerxes I",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-480-salamis"
+   ],
+   "why_selected": "First of the court murders that made the Achaemenid succession the empire's weakest point"
+  },
+  {
+   "id": "me-412-persian-spartan-treaty",
+   "y": -412,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Persia agrees to fund Sparta's fleet",
+   "where": "Miletus, Ionia (western Turkey)",
+   "lat": 37.53,
+   "lon": 27.28,
+   "wk": "Tissaphernes",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "eu-431-peloponnesian"
+   ],
+   "why_selected": "Persian silver traded for Spartan recognition of the King's claim to the Ionian cities; it decided the Peloponnesian War"
+  },
+  {
+   "id": "me-404-egypt-secedes",
+   "y": -404,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Egypt breaks away from Persia",
+   "where": "Sais, Nile Delta, Egypt",
+   "lat": 30.97,
+   "lon": 30.77,
+   "wk": "Twenty-eighth Dynasty of Egypt",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire",
+    "indep"
+   ],
+   "causes": [
+    "me-484-xerxes-revolts"
+   ],
+   "why_selected": "The empire's largest loss, independent for sixty years; the strongest evidence for Achaemenid decline"
+  },
+  {
+   "id": "me-401-cunaxa",
+   "y": -401,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Cyrus the Younger killed at Cunaxa",
+   "where": "Cunaxa, on the Euphrates north of Babylon, Iraq",
+   "lat": 33.35,
+   "lon": 43.95,
+   "wk": "Battle of Cunaxa",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-412-persian-spartan-treaty"
+   ],
+   "why_selected": "A succession war fought with Greek mercenaries; the retreat of the Ten Thousand showed Greeks they could cross the Persian heartland"
+  },
+  {
+   "id": "me-387-kings-peace",
+   "y": -387,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-550-cyrus",
+   "h": "Persia dictates the King's Peace",
+   "where": "Sardis, Lydia (western Turkey)",
+   "lat": 38.49,
+   "lon": 28.04,
+   "wk": "Peace of Antalcidas",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "me-412-persian-spartan-treaty",
+    "me-401-cunaxa"
+   ],
+   "why_selected": "Persia recovered the Asian Greek cities and became arbiter of Greek affairs by money and diplomacy, a century after Salamis"
+  },
+  {
+   "id": "me-343-egypt-reconquest",
+   "y": -343,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-550-cyrus",
+   "h": "Artaxerxes III reconquers Egypt",
+   "where": "Pelusium, Nile Delta, Egypt",
+   "lat": 31.04,
+   "lon": 32.55,
+   "wk": "Artaxerxes III",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-404-egypt-secedes"
+   ],
+   "why_selected": "Restored the empire to its greatest extent in sixty years, eleven years before Alexander's invasion"
+  },
+  {
+   "id": "me-338-artaxerxes-iii-poisoned",
+   "y": -338,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Court eunuch poisons Artaxerxes III",
+   "where": "Persian court (Susa), Iran",
+   "lat": 32.19,
+   "lon": 48.26,
+   "wk": "Artaxerxes IV",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-343-egypt-reconquest",
+    "me-465-xerxes-murdered"
+   ],
+   "why_selected": "Bagoas killed Artaxerxes III and then his son in 336, putting Darius III on the throne as Macedon prepared to invade"
+  },
+  {
+   "id": "me-331-gaugamela",
+   "y": -331,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Alexander defeats Darius III at Gaugamela",
+   "where": "Gaugamela, near Erbil, Iraq",
+   "lat": 36.56,
+   "lon": 43.44,
+   "wk": "Battle of Gaugamela",
+   "bt": "event/Battle-of-Gaugamela",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-334-alexander",
+    "me-338-artaxerxes-iii-poisoned"
+   ],
+   "why_selected": "The battle that delivered Babylon, Susa and Persepolis and their treasuries to Alexander"
+  },
+  {
+   "id": "me-330-darius-iii-killed",
+   "y": -330,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Darius III murdered; Persepolis burned",
+   "where": "Near Hecatompylos (Damghan), Iran",
+   "lat": 36.17,
+   "lon": 54.33,
+   "wk": "Darius III",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-331-gaugamela"
+   ],
+   "why_selected": "End of the Achaemenid dynasty; the satrap Bessus killed his king, and Persepolis burned the same year"
+  },
+  {
+   "id": "me-312-seleucus-babylon",
+   "y": -312,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Seleucus I takes Babylon; Seleucid era begins",
+   "where": "Babylon, Mesopotamia",
+   "lat": 32.54,
+   "lon": 44.42,
+   "wk": "Seleucus I Nicator",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-323-diadochi"
+   ],
+   "why_selected": "Founded the Macedonian kingdom that ruled Iran and Mesopotamia; its year count from 312/311 stayed in use for centuries"
+  },
+  {
+   "id": "me-305-seleucus-chandragupta",
+   "y": -305,
+   "approx": true,
+   "r": "sa",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Seleucus trades Indian provinces for 500 elephants",
+   "where": "Indus valley (Taxila region), Pakistan",
+   "lat": 33.74,
+   "lon": 72.79,
+   "wk": "Seleucid–Mauryan war",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-312-seleucus-babylon",
+    "sa-320-maurya"
+   ],
+   "why_selected": "Fixed the eastern limit of Macedonian rule and supplied the elephants that won Ipsus"
+  },
+  {
+   "id": "me-301-ipsus",
+   "y": -301,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Battle of Ipsus divides Alexander's empire",
+   "where": "Ipsus, Phrygia (near Afyon, Turkey)",
+   "lat": 38.75,
+   "lon": 30.85,
+   "wk": "Battle of Ipsus",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-305-seleucus-chandragupta"
+   ],
+   "why_selected": "Gave Seleucus north Syria, where Antioch was founded, and pulled the dynasty's centre of gravity west"
+  },
+  {
+   "id": "me-209-antiochus-iii-anabasis",
+   "y": -209,
+   "approx": true,
+   "r": "sa",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Antiochus III marches east to Bactria",
+   "where": "Bactra (Balkh), Afghanistan",
+   "lat": 36.76,
+   "lon": 66.9,
+   "wk": "Antiochus III the Great",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "me-247-parthia",
+    "sa-256-greco-bactria"
+   ],
+   "why_selected": "The last Seleucid attempt to hold the plateau; Parthia and Bactria submitted in name and broke away again"
+  },
+  {
+   "id": "me-190-magnesia",
+   "y": -190,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome defeats Antiochus III at Magnesia",
+   "where": "Magnesia ad Sipylum (Manisa, Turkey)",
+   "lat": 38.61,
+   "lon": 27.43,
+   "wk": "Battle of Magnesia",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-209-antiochus-iii-anabasis"
+   ],
+   "why_selected": "The Treaty of Apamea (188) took Anatolia and imposed an indemnity, starting the Seleucid decline that let Parthia move west"
+  },
+  {
+   "id": "me-168-eleusis",
+   "y": -168,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-146-rome-carthage",
+   "h": "Rome orders Antiochus IV out of Egypt",
+   "where": "Eleusis, outside Alexandria, Egypt",
+   "lat": 31.2,
+   "lon": 29.95,
+   "wk": "Gaius Popillius Laenas",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-190-magnesia"
+   ],
+   "why_selected": "The circle in the sand: Rome's word alone now limited a Seleucid king"
+  },
+  {
+   "id": "me-148-mithridates-media",
+   "y": -148,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Mithridates I of Parthia takes Media",
+   "where": "Ecbatana (Hamadan), Iran",
+   "lat": 34.8,
+   "lon": 48.51,
+   "wk": "Ecbatana",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-247-parthia",
+    "me-190-magnesia"
+   ],
+   "why_selected": "Parthia took the Iranian plateau's western core from the Seleucids"
+  },
+  {
+   "id": "me-141-mithridates-seleucia",
+   "y": -141,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-334-alexander",
+   "h": "Parthia takes Babylonia and Seleucia",
+   "where": "Seleucia on the Tigris, Iraq",
+   "lat": 33.1,
+   "lon": 44.52,
+   "wk": "Mithridates I of Parthia",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-148-mithridates-media"
+   ],
+   "why_selected": "Returned Mesopotamia to an Iranian dynasty and made the Tigris the Parthian centre for 365 years"
+  },
+  {
+   "id": "me-129-antiochus-vii-killed",
+   "y": -129,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Parthians kill Antiochus VII in Media",
+   "where": "Media (near Ecbatana), Iran",
+   "lat": 34.8,
+   "lon": 48.51,
+   "wk": "Antiochus VII Sidetes",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-141-mithridates-seleucia"
+   ],
+   "why_selected": "Last Seleucid attempt to recover the east; afterwards the Seleucids were a Syrian kingdom"
+  },
+  {
+   "id": "me-96-sulla-orobazus",
+   "y": -96,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "First Roman-Parthian meeting on the Euphrates",
+   "where": "Euphrates, eastern Anatolia",
+   "lat": 37.06,
+   "lon": 37.87,
+   "wk": "Orobazus",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-141-mithridates-seleucia"
+   ],
+   "why_selected": "First official contact; Mithridates II executed his envoy for letting Sulla take the seat of honour"
+  },
+  {
+   "id": "me-64-pompey-syria",
+   "y": -64,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Pompey ends the Seleucid kingdom",
+   "where": "Antioch, Syria",
+   "lat": 36.2,
+   "lon": 36.16,
+   "wk": "Antiochus XIII Asiaticus",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-129-antiochus-vii-killed",
+    "me-190-magnesia"
+   ],
+   "why_selected": "Made Syria a Roman province and Rome Parthia's direct neighbour"
+  },
+  {
+   "id": "me-40-parthian-invasion",
+   "y": -40,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Parthians and Roman renegades overrun Syria",
+   "where": "Syria and Judea",
+   "lat": 36.2,
+   "lon": 36.16,
+   "wk": "Parthian invasion of 40 BC",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-53-carrhae",
+    "eu-49-rubicon"
+   ],
+   "why_selected": "The furthest Parthian advance west; reversed by 38 BCE, showing Parthia could raid Syria and not keep it"
+  },
+  {
+   "id": "me-36-antony-parthia",
+   "y": -36,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Mark Antony's invasion of Media fails",
+   "where": "Phraaspa, Media Atropatene (north-west Iran)",
+   "lat": 37.39,
+   "lon": 46.24,
+   "wk": "Antony's Atropatene campaign",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-40-parthian-invasion"
+   ],
+   "why_selected": "The largest Roman invasion of Iran before Trajan, lost in retreat through the Zagros winter"
+  },
+  {
+   "id": "me-20-standards-returned",
+   "y": -20,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Augustus recovers the standards by treaty",
+   "where": "Euphrates frontier and Armenia",
+   "lat": 37.06,
+   "lon": 37.87,
+   "wk": "Phraates IV",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-53-carrhae",
+    "me-36-antony-parthia"
+   ],
+   "why_selected": "Augustus chose diplomacy over war and paired the deal with a Roman-installed king in Armenia"
+  },
+  {
+   "id": "me-63-rhandeia",
+   "y": 63,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Treaty of Rhandeia settles Armenia",
+   "where": "Rhandeia, near Elazığ, Turkey",
+   "lat": 38.67,
+   "lon": 39.22,
+   "wk": "Treaty of Rhandeia",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-20-standards-returned"
+   ],
+   "why_selected": "An Arsacid king of Armenia invested by Rome: the compromise that kept the peace for half a century"
+  },
+  {
+   "id": "me-66-tiridates-crowned",
+   "y": 66,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Nero crowns Armenia's Arsacid king",
+   "where": "Forum, Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Tiridates I of Armenia",
+   "c": [
+    "political",
+    "culture"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-63-rhandeia"
+   ],
+   "why_selected": "Public staging of the Rhandeia formula; Arsacid kings held Armenia until 428"
+  },
+  {
+   "id": "me-116-trajan-ctesiphon",
+   "y": 116,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Trajan takes Ctesiphon and reaches the Gulf",
+   "where": "Ctesiphon, Iraq",
+   "lat": 33.09,
+   "lon": 44.58,
+   "wk": "Trajan's Parthian campaign",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-63-rhandeia"
+   ],
+   "why_selected": "Rome's furthest reach east, abandoned by Hadrian within a year"
+  },
+  {
+   "id": "me-165-ctesiphon-sacked",
+   "y": 165,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Romans burn Seleucia and Ctesiphon",
+   "where": "Seleucia and Ctesiphon, Iraq",
+   "lat": 33.1,
+   "lon": 44.55,
+   "wk": "Roman–Parthian War of 161–166",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-116-trajan-ctesiphon"
+   ],
+   "why_selected": "Second Roman sack of the Parthian capital; Seleucia, the greatest Greek city of the east, never recovered"
+  },
+  {
+   "id": "me-197-severus-ctesiphon",
+   "y": 197,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Severus sacks Ctesiphon, annexes northern Mesopotamia",
+   "where": "Ctesiphon, Iraq",
+   "lat": 33.09,
+   "lon": 44.58,
+   "wk": "Mesopotamia (Roman province)",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-165-ctesiphon-sacked"
+   ],
+   "why_selected": "The one Roman gain beyond the Euphrates that lasted, until 363; it put Nisibis on the front line"
+  },
+  {
+   "id": "me-217-nisibis-macrinus",
+   "y": 217,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Parthians beat Macrinus at Nisibis",
+   "where": "Nisibis (Nusaybin, Turkey)",
+   "lat": 37.07,
+   "lon": 41.21,
+   "wk": "Battle of Nisibis (217)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-197-severus-ctesiphon"
+   ],
+   "why_selected": "Last Parthian victory over Rome, paid off with 200 million sesterces; seven years later the dynasty fell"
+  },
+  {
+   "id": "me-230-ardashir-mesopotamia",
+   "y": 230,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Ardashir I invades Roman Mesopotamia",
+   "where": "Nisibis (Nusaybin, Turkey)",
+   "lat": 37.07,
+   "lon": 41.21,
+   "wk": "Ardashir I",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-224-sasanian",
+    "me-197-severus-ctesiphon"
+   ],
+   "why_selected": "The new dynasty attacked Rome within six years, and Roman writers reported a claim to the old Achaemenid lands"
+  },
+  {
+   "id": "me-241-hatra-falls",
+   "y": 241,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Sasanians take and destroy Hatra",
+   "where": "Hatra, Iraq",
+   "lat": 35.588,
+   "lon": 42.718,
+   "wk": "Hatra",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-230-ardashir-mesopotamia"
+   ],
+   "why_selected": "Removed Rome's desert ally and opened the road to the Euphrates; triggered Gordian III's war"
+  },
+  {
+   "id": "me-244-misiche",
+   "y": 244,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Gordian III dies after defeat at Misiche",
+   "where": "Misiche (near Fallujah), Iraq",
+   "lat": 33.35,
+   "lon": 43.78,
+   "wk": "Battle of Misiche",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-241-hatra-falls"
+   ],
+   "why_selected": "First of Shapur I's three victories over Roman emperors; Philip paid 500,000 denarii for peace"
+  },
+  {
+   "id": "me-253-barbalissos",
+   "y": 253,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Shapur I wins at Barbalissos, sacks Antioch",
+   "where": "Barbalissos (Maskanah), Syria",
+   "lat": 36.02,
+   "lon": 38.08,
+   "wk": "Battle of Barbalissos",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-244-misiche"
+   ],
+   "why_selected": "Destroyed a Roman field army of some 60,000 and opened Syria to plunder"
+  },
+  {
+   "id": "me-260-edessa-valerian",
+   "y": 260,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Shapur I captures the Emperor Valerian",
+   "where": "Edessa (Şanlıurfa, Turkey)",
+   "lat": 37.16,
+   "lon": 38.79,
+   "wk": "Battle of Edessa",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-253-barbalissos",
+    "eu-235-crisis-235"
+   ],
+   "why_selected": "The only Roman emperor taken prisoner by a foreign enemy; the low point of Rome's third-century crisis in the east"
+  },
+  {
+   "id": "me-262-shapur-inscription",
+   "y": 262,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Shapur I's victory inscription at Naqsh-e Rostam",
+   "where": "Naqsh-e Rostam, Fars, Iran",
+   "lat": 29.99,
+   "lon": 52.87,
+   "wk": "Shapur I's inscription at Ka'ba-ye Zartosht",
+   "c": [
+    "culture",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-260-edessa-valerian"
+   ],
+   "why_selected": "The Persian side's own account of the wars, in Middle Persian, Parthian and Greek"
+  },
+  {
+   "id": "me-299-peace-of-nisibis",
+   "y": 299,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Peace of Nisibis favours Rome",
+   "where": "Nisibis (Nusaybin, Turkey)",
+   "lat": 37.07,
+   "lon": 41.21,
+   "wk": "Peace of Nisibis (299)",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-260-edessa-valerian"
+   ],
+   "why_selected": "Galerius's victory reversed Shapur's era and gave Rome the right to invest Armenia's kings; Shapur II spent his reign undoing it"
+  },
+  {
+   "id": "me-301-armenia-christian",
+   "y": 301,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Armenia's king adopts Christianity",
+   "where": "Vagharshapat, Armenia",
+   "lat": 40.16,
+   "lon": 44.29,
+   "wk": "Christianization of Armenia",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-299-peace-of-nisibis"
+   ],
+   "why_selected": "Turned the Armenian buffer into a Christian kingdom inside a Zoroastrian sphere, and made the contest over it religious"
+  },
+  {
+   "id": "me-363-julian-jovian",
+   "y": 363,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Julian dies in Persia; Rome cedes Nisibis",
+   "where": "Near Samarra, Iraq",
+   "lat": 34.2,
+   "lon": 43.87,
+   "wk": "Julian's Persian expedition",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-299-peace-of-nisibis"
+   ],
+   "why_selected": "The last great Roman invasion of Iraq; Jovian's treaty returned Nisibis and the trans-Tigris lands to Persia"
+  },
+  {
+   "id": "me-387-armenia-partition",
+   "y": 387,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Rome and Persia partition Armenia",
+   "where": "Armenia (Acilisene, near Erzincan, Turkey)",
+   "lat": 39.75,
+   "lon": 39.49,
+   "wk": "Peace of Acilisene",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-363-julian-jovian",
+    "me-301-armenia-christian"
+   ],
+   "why_selected": "Divided the buffer, Persia taking about four-fifths; ended the main cause of war for over a century"
+  },
+  {
+   "id": "me-410-synod-seleucia",
+   "y": 410,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Persia's Christians organise as one church",
+   "where": "Seleucia-Ctesiphon, Iraq",
+   "lat": 33.09,
+   "lon": 44.58,
+   "wk": "Council of Seleucia-Ctesiphon",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-387-armenia-partition",
+    "me-325-nicaea"
+   ],
+   "why_selected": "Yazdegerd I licensed the Church of the East, which then separated from the Roman church and later reached China"
+  },
+  {
+   "id": "me-451-avarayr",
+   "y": 451,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Armenians fight Persia at Avarayr",
+   "where": "Avarayr plain (near Maku), north-west Iran",
+   "lat": 39.1,
+   "lon": 44.7,
+   "wk": "Battle of Avarayr",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-387-armenia-partition"
+   ],
+   "why_selected": "Defeat in the field, but Persia conceded Armenian Christianity by 484; the founding memory of the Armenian Church"
+  },
+  {
+   "id": "me-502-anastasian-war",
+   "y": 502,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Kavad I's war; Rome builds Dara",
+   "where": "Dara, Mesopotamia (near Mardin, Turkey)",
+   "lat": 37.18,
+   "lon": 40.95,
+   "wk": "Anastasian War",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-387-armenia-partition"
+   ],
+   "why_selected": "Ended the long fifth-century peace and began the era of fortress lines and subsidies"
+  },
+  {
+   "id": "me-529-ghassanid-phylarch",
+   "y": 529,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Justinian makes the Ghassanid chief supreme phylarch",
+   "where": "Jabiyah, Golan",
+   "lat": 32.97,
+   "lon": 35.92,
+   "wk": "Ghassanids",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-502-anastasian-war"
+   ],
+   "why_selected": "Rome's answer to the Lakhmids: Arab client kingdoms became the desert frontier of both empires"
+  },
+  {
+   "id": "me-531-khosrow-i",
+   "y": 531,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Khosrow I takes the Sasanian throne",
+   "where": "Ctesiphon, Iraq",
+   "lat": 33.09,
+   "lon": 44.58,
+   "wk": "Khosrow I",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-502-anastasian-war"
+   ],
+   "why_selected": "After crushing the Mazdakites he reformed the land tax and army; the Sasanian state at its most effective"
+  },
+  {
+   "id": "me-532-eternal-peace",
+   "y": 532,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Khosrow I and Justinian's Eternal Peace",
+   "where": "Dara-Nisibis frontier",
+   "lat": 37.18,
+   "lon": 40.95,
+   "wk": "Perpetual Peace (532)",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "me-531-khosrow-i",
+    "me-529-ghassanid-phylarch"
+   ],
+   "why_selected": "Rome paid 11,000 lb of gold; the quiet in the east freed Justinian to invade Vandal Africa in 533"
+  },
+  {
+   "id": "me-540-antioch-sacked",
+   "y": 540,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Khosrow I sacks Antioch",
+   "where": "Antioch, Syria",
+   "lat": 36.2,
+   "lon": 36.16,
+   "wk": "Weh Antiok Khosrow",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-532-eternal-peace",
+    "eu-533-justinian-war"
+   ],
+   "why_selected": "Broke the Eternal Peace while Justinian's armies were in Italy; Antioch's people were resettled near Ctesiphon"
+  },
+  {
+   "id": "me-562-fifty-year-peace",
+   "y": 562,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Fifty-Year Peace regulates the frontier",
+   "where": "Dara, Mesopotamia (near Mardin, Turkey)",
+   "lat": 37.18,
+   "lon": 40.95,
+   "wk": "Fifty-Year Peace Treaty",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money",
+    "silk"
+   ],
+   "causes": [
+    "me-540-antioch-sacked"
+   ],
+   "why_selected": "Annual Roman payments and named customs posts for trade; the high point of managed rivalry, broken after ten years"
+  },
+  {
+   "id": "me-581-ghassanid-arrest",
+   "y": 581,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Rome arrests the Ghassanid king",
+   "where": "Jabiyah, Golan",
+   "lat": 32.97,
+   "lon": 35.92,
+   "wk": "Ghassanids",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-529-ghassanid-phylarch"
+   ],
+   "why_selected": "Rome dismantled its own Arab buffer over doctrine and suspicion; the federation broke up in the 580s"
+  },
+  {
+   "id": "me-591-khosrow-ii-restored",
+   "y": 591,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Roman army restores Khosrow II",
+   "where": "Blarathon, near Ganzak, north-west Iran",
+   "lat": 36.6,
+   "lon": 47.2,
+   "wk": "Battle of Blarathon",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-562-fifty-year-peace"
+   ],
+   "why_selected": "Maurice gained most of Persian Armenia and Iberia; Khosrow II owed his throne to a Roman emperor"
+  },
+  {
+   "id": "me-602-lakhmid-end",
+   "y": 602,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Khosrow II abolishes the Lakhmid kingdom",
+   "where": "Al-Hira, Iraq",
+   "lat": 31.88,
+   "lon": 44.45,
+   "wk": "Al-Nu'man III ibn al-Mundhir",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-591-khosrow-ii-restored"
+   ],
+   "why_selected": "Removed Persia's Arab buffer on the desert frontier, three decades before the Arab armies crossed it"
+  },
+  {
+   "id": "me-609-dhi-qar",
+   "y": 609,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Arab tribes defeat Persians at Dhi Qar",
+   "where": "Dhi Qar, southern Iraq",
+   "lat": 31.6,
+   "lon": 45.3,
+   "wk": "Battle of Dhi Qar",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-602-lakhmid-end"
+   ],
+   "why_selected": "Showed the Bakr tribes that Persian forces could be beaten once the Lakhmids were gone"
+  },
+  {
+   "id": "me-614-jerusalem",
+   "y": 614,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Persians take Jerusalem and the True Cross",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Sasanian conquest of Jerusalem",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "empire",
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-602-byz-persia"
+   ],
+   "why_selected": "Turned the war into a holy war on the Roman side; the Cross's return in 630 was Heraclius's triumph"
+  },
+  {
+   "id": "me-619-alexandria",
+   "y": 619,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Persians take Alexandria and Egypt",
+   "where": "Alexandria, Egypt",
+   "lat": 31.2,
+   "lon": 29.92,
+   "wk": "Sasanian conquest of Egypt",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-614-jerusalem"
+   ],
+   "why_selected": "Cost Rome its granary; the free bread ration of Constantinople ended in 618 as Egypt was lost"
+  },
+  {
+   "id": "me-626-constantinople-siege",
+   "y": 626,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Avars and Persians besiege Constantinople",
+   "where": "Constantinople",
+   "lat": 41.01,
+   "lon": 28.98,
+   "wk": "Siege of Constantinople (626)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-619-alexandria"
+   ],
+   "why_selected": "The Roman fleet kept the two armies apart; the empire's survival here made the counter-offensive possible"
+  },
+  {
+   "id": "me-627-nineveh",
+   "y": 627,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Heraclius defeats the Persians at Nineveh",
+   "where": "Nineveh, near Mosul, Iraq",
+   "lat": 36.36,
+   "lon": 43.15,
+   "wk": "Battle of Nineveh (627)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-626-constantinople-siege"
+   ],
+   "why_selected": "Opened the Persian heartland; Heraclius sacked the palace at Dastagird"
+  },
+  {
+   "id": "me-628-khosrow-ii-deposed",
+   "y": 628,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Khosrow II deposed and killed",
+   "where": "Ctesiphon, Iraq",
+   "lat": 33.09,
+   "lon": 44.58,
+   "wk": "Kavad II",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-627-nineveh"
+   ],
+   "why_selected": "Ended the war and began four years of Sasanian civil war with some ten claimants"
+  },
+  {
+   "id": "me-632-yazdegerd-iii",
+   "y": 632,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Yazdegerd III crowned; civil war ends",
+   "where": "Istakhr, Fars, Iran",
+   "lat": 29.98,
+   "lon": 52.92,
+   "wk": "Sasanian civil war of 628–632",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-628-khosrow-ii-deposed"
+   ],
+   "why_selected": "A boy king on a throne the war had emptied, the year the Arab armies were organised under the first caliph"
+  },
+  {
+   "id": "me-636-qadisiyyah",
+   "y": 636,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Arabs destroy the Sasanian army at Qadisiyyah",
+   "where": "Al-Qadisiyyah, near Kufa, Iraq",
+   "lat": 31.75,
+   "lon": 44.47,
+   "wk": "Battle of al-Qadisiyyah",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-622-hijra",
+    "me-632-yazdegerd-iii",
+    "me-609-dhi-qar"
+   ],
+   "why_selected": "Opened lower Iraq, the Sasanians' richest province; the commander Rostam Farrokhzad was killed"
+  },
+  {
+   "id": "me-637-ctesiphon-falls",
+   "y": 637,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Arabs take Ctesiphon",
+   "where": "Ctesiphon (al-Mada'in), Iraq",
+   "lat": 33.09,
+   "lon": 44.58,
+   "wk": "Siege of Ctesiphon (637)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-636-qadisiyyah"
+   ],
+   "why_selected": "The capital fell after a three-month siege; the court fled to the Zagros"
+  },
+  {
+   "id": "me-642-nahavand",
+   "y": 642,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Last Sasanian army destroyed at Nahavand",
+   "where": "Nahavand, Iran",
+   "lat": 34.19,
+   "lon": 48.37,
+   "wk": "Battle of Nahavand",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-637-ctesiphon-falls"
+   ],
+   "why_selected": "Ended organised imperial resistance; the plateau was then taken province by province"
+  },
+  {
+   "id": "me-651-yazdegerd-iii-killed",
+   "y": 651,
+   "approx": false,
+   "r": "sa",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Yazdegerd III killed at Merv",
+   "where": "Merv, Turkmenistan",
+   "lat": 37.66,
+   "lon": 62.19,
+   "wk": "Yazdegerd III",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-642-nahavand"
+   ],
+   "why_selected": "End of the Sasanian dynasty and of Iranian imperial independence for nearly two centuries"
+  },
+  {
+   "id": "me-661-peroz-tang",
+   "y": 661,
+   "approx": false,
+   "r": "sa",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Tang China backs the Sasanian heir",
+   "where": "Zaranj, Sistan (Afghanistan-Iran border)",
+   "lat": 30.96,
+   "lon": 61.86,
+   "wk": "Peroz III",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "silk"
+   ],
+   "causes": [
+    "me-651-yazdegerd-iii-killed",
+    "ea-618-tang"
+   ],
+   "why_selected": "The last Sasanian appeal for outside help; the Tang title was nominal and Peroz died at the Tang court around 678"
+  }
+ ]
+}

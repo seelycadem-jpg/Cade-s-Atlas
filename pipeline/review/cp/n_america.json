@@ -1,0 +1,6975 @@
+{
+ "region": "North America",
+ "places": [
+  {
+   "place": "Quebec City",
+   "lat": 46.81,
+   "lon": -71.21,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1608,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "St. Lawrence Iroquoians",
+      "Innu (Montagnais)",
+      "Algonquin"
+     ],
+     "date": "pre-1608",
+     "source": "https://en.wikipedia.org/wiki/Stadacona",
+     "confidence": "moderate",
+     "note": "Stadacona (St. Lawrence Iroquoian town) seen by Cartier 1535; St. Lawrence Iroquoians gone by c. 1580s; later Innu/Algonquin use."
+    },
+    {
+     "from": 1608,
+     "to": 1629,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "3 July 1608, Champlain founds the Habitation de Québec",
+     "source": "https://en.wikipedia.org/wiki/Quebec_City",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1629,
+     "to": 1632,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19/20 July 1629, Champlain surrenders to the Kirke brothers",
+     "source": "https://en.wikipedia.org/wiki/Surrender_of_Quebec_(1629)",
+     "confidence": "high",
+     "note": "English (Kirke) occupation; Quebec returned by Treaty of Saint-Germain-en-Laye (29 Mar 1632), French back July 1632."
+    },
+    {
+     "from": 1632,
+     "to": 1759,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July 1632, French resume possession under Treaty of Saint-Germain-en-Laye",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Saint-Germain-en-Laye_(1632)",
+     "confidence": "high",
+     "note": "Capital of New France."
+    },
+    {
+     "from": 1759,
+     "to": 1801,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 September 1759, capitulation of Quebec after the Battle of the Plains of Abraham",
+     "source": "https://en.wikipedia.org/wiki/Battle_of_the_Plains_of_Abraham",
+     "confidence": "high",
+     "note": "American siege of Quebec 1775-76 failed."
+    },
+    {
+     "from": 1801,
+     "to": 1867,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1801, Acts of Union 1800 create the United Kingdom",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+     "confidence": "high",
+     "note": "Same British rule; state renamed."
+    },
+    {
+     "from": 1867,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "1 July 1867, Confederation (British North America Act)",
+     "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Montreal",
+   "lat": 45.5,
+   "lon": -73.57,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1642,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "St. Lawrence Iroquoians",
+      "Algonquin",
+      "Haudenosaunee (Mohawk) war parties"
+     ],
+     "date": "pre-1642",
+     "source": "https://en.wikipedia.org/wiki/Hochelaga_(village)",
+     "confidence": "moderate",
+     "note": "Hochelaga visited by Cartier 1535; abandoned by c. 1600."
+    },
+    {
+     "from": 1642,
+     "to": 1760,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "17 May 1642, founding of Ville-Marie",
+     "source": "https://en.wikipedia.org/wiki/History_of_Montreal",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1760,
+     "to": 1801,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "8 September 1760, capitulation of Montreal (Vaudreuil to Amherst)",
+     "source": "https://en.wikipedia.org/wiki/Montreal_campaign",
+     "confidence": "high",
+     "note": "American occupation Nov 1775 - June 1776 (<1 yr) skipped. Capital of the Province of Canada 1844-49."
+    },
+    {
+     "from": 1801,
+     "to": 1867,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1801, Acts of Union 1800 create the United Kingdom",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+     "confidence": "high",
+     "note": "Same British rule; state renamed."
+    },
+    {
+     "from": 1867,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "1 July 1867, Confederation",
+     "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Ottawa",
+   "lat": 45.42,
+   "lon": -75.7,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1826,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Algonquin (Anishinaabe)"
+     ],
+     "date": "pre-1826",
+     "source": "https://en.wikipedia.org/wiki/History_of_Ottawa",
+     "confidence": "moderate",
+     "note": "Ottawa valley Algonquin territory; Philemon Wright's settlement at Hull (opposite bank) from 1800."
+    },
+    {
+     "from": 1826,
+     "to": 1867,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1826, Bytown founded with construction of the Rideau Canal (Col. John By)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Ottawa",
+     "confidence": "moderate",
+     "note": "Upper Canada / Province of Canada; Wright's Hull settlement 1800 is an alternative start. Chosen capital of Province of Canada 1857."
+    },
+    {
+     "from": 1867,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "1 July 1867, Confederation; Ottawa federal capital",
+     "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Toronto",
+   "lat": 43.65,
+   "lon": -79.38,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1750,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Huron-Wendat",
+      "Seneca",
+      "Mississauga (Anishinaabe)"
+     ],
+     "date": "pre-1750",
+     "source": "https://en.wikipedia.org/wiki/History_of_Toronto",
+     "confidence": "moderate",
+     "note": "Huron-Wendat villages to c. 1600; Seneca village Teiaiagon (1660s-1680s); Mississauga from c. 1700. French Magasin Royal on the Humber 1720-c.1730 (small trading store)."
+    },
+    {
+     "from": 1750,
+     "to": 1759,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1750-51, Fort Toronto then Fort Rouillé built",
+     "source": "https://en.wikipedia.org/wiki/Fort_Rouill%C3%A9",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1759,
+     "to": 1793,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Mississauga (Anishinaabe)"
+     ],
+     "date": "July 1759, garrison burns Fort Rouillé and withdraws",
+     "source": "https://en.wikipedia.org/wiki/Fort_Rouill%C3%A9",
+     "confidence": "moderate",
+     "note": "British held Niagara from 1759 and made the Toronto Purchase 1787, but no post at Toronto until 1793."
+    },
+    {
+     "from": 1793,
+     "to": 1801,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1793, Simcoe founds York as capital of Upper Canada",
+     "source": "https://en.wikipedia.org/wiki/Fort_Rouill%C3%A9",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1801,
+     "to": 1867,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1801, Acts of Union 1800",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+     "confidence": "high",
+     "note": "American raid on York April 1813 (days) skipped."
+    },
+    {
+     "from": 1867,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "1 July 1867, Confederation; Toronto capital of Ontario",
+     "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Halifax",
+   "lat": 44.65,
+   "lon": -63.58,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1749,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Mi'kmaq"
+     ],
+     "date": "pre-1749",
+     "source": "https://en.wikipedia.org/wiki/History_of_Halifax,_Nova_Scotia",
+     "confidence": "high",
+     "note": "Kjipuktuk; Mi'kmaq territory (French Acadia claim only on paper here)."
+    },
+    {
+     "from": 1749,
+     "to": 1801,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "21 June 1749, Halifax founded by Edward Cornwallis",
+     "source": "https://en.wikipedia.org/wiki/History_of_Halifax,_Nova_Scotia",
+     "confidence": "high",
+     "note": "Capital of Nova Scotia."
+    },
+    {
+     "from": 1801,
+     "to": 1867,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1801, Acts of Union 1800 create the United Kingdom",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+     "confidence": "high",
+     "note": "Same British rule; state renamed."
+    },
+    {
+     "from": 1867,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "1 July 1867, Confederation",
+     "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Annapolis Royal (Port-Royal)",
+   "lat": 44.74,
+   "lon": -65.52,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1605,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Mi'kmaq"
+     ],
+     "date": "pre-1605",
+     "source": "https://en.wikipedia.org/wiki/Annapolis_Royal",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1605,
+     "to": 1629,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1605, Habitation of Port-Royal built (de Mons, Champlain)",
+     "source": "https://en.wikipedia.org/wiki/Timeline_of_Port-Royal_-_Annapolis_Royal_history",
+     "confidence": "moderate",
+     "note": "Abandoned 1607-1610; habitation destroyed by Argall 1613 but French (Biencourt, La Tour) remained in the area."
+    },
+    {
+     "from": 1629,
+     "to": 1632,
+     "ruler": "Kingdom of Scotland",
+     "aliases": [
+      "Scotland",
+      "Q230791"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1629, Scots under Sir William Alexander build Charles Fort",
+     "source": "https://en.wikipedia.org/wiki/Timeline_of_Port-Royal_-_Annapolis_Royal_history",
+     "confidence": "high",
+     "note": "Scottish colony of Nova Scotia."
+    },
+    {
+     "from": 1632,
+     "to": 1654,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1632, Treaty of Saint-Germain-en-Laye; Scots ejected; d'Aulnay at Port-Royal 1634/36",
+     "source": "https://en.wikipedia.org/wiki/Timeline_of_Port-Royal_-_Annapolis_Royal_history",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1654,
+     "to": 1660,
+     "ruler": "Commonwealth of England",
+     "aliases": [
+      "England",
+      "The Protectorate",
+      "English Commonwealth"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "August 1654, captured by Robert Sedgwick",
+     "source": "https://en.wikipedia.org/wiki/Timeline_of_Port-Royal_-_Annapolis_Royal_history",
+     "confidence": "high",
+     "note": "Cromwellian Protectorate."
+    },
+    {
+     "from": 1660,
+     "to": 1670,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1660, Restoration of Charles II",
+     "source": "https://en.wikipedia.org/wiki/Stuart_Restoration",
+     "confidence": "high",
+     "note": "Acadia restored to France by Treaty of Breda 1667, handover delayed to 1670."
+    },
+    {
+     "from": 1670,
+     "to": 1710,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1670, French resume possession under Treaty of Breda",
+     "source": "https://en.wikipedia.org/wiki/Timeline_of_Port-Royal_-_Annapolis_Royal_history",
+     "confidence": "moderate",
+     "note": "Phips captured and sacked Port-Royal May 1690 but left no lasting garrison; French authority (Villebon) reasserted 1691. The Wikipedia timeline treats 1690-1697 as English; disputed."
+    },
+    {
+     "from": 1710,
+     "to": 1801,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "13 October 1710, Port-Royal surrenders; renamed Annapolis Royal",
+     "source": "https://en.wikipedia.org/wiki/Siege_of_Port_Royal_(1710)",
+     "confidence": "high",
+     "note": "Capital of British Nova Scotia until 1749."
+    },
+    {
+     "from": 1801,
+     "to": 1867,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1801, Acts of Union 1800 create the United Kingdom",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+     "confidence": "high",
+     "note": "Same British rule; state renamed."
+    },
+    {
+     "from": 1867,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "1 July 1867, Confederation",
+     "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Louisbourg",
+   "lat": 45.92,
+   "lon": -59.97,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1713,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Mi'kmaq"
+     ],
+     "date": "pre-1713",
+     "source": "https://en.wikipedia.org/wiki/Louisbourg",
+     "confidence": "high",
+     "note": "Harbour used seasonally by European fishermen (English Port)."
+    },
+    {
+     "from": 1713,
+     "to": 1745,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1713, French found Louisbourg (capital of Île Royale)",
+     "source": "https://en.wikipedia.org/wiki/Louisbourg",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1745,
+     "to": 1749,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "17 June 1745, captured by New England forces",
+     "source": "https://en.wikipedia.org/wiki/Siege_of_Louisbourg_(1745)",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1749,
+     "to": 1758,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July 1749, returned under Treaty of Aix-la-Chapelle (1748)",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Aix-la-Chapelle_(1748)",
+     "confidence": "high",
+     "note": "Treaty 1748; physical handover July 1749."
+    },
+    {
+     "from": 1758,
+     "to": 1801,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 July 1758, captured by Amherst and Boscawen",
+     "source": "https://en.wikipedia.org/wiki/Siege_of_Louisbourg_(1758)",
+     "confidence": "high",
+     "note": "Cape Breton a separate colony 1784-1820, then part of Nova Scotia."
+    },
+    {
+     "from": 1801,
+     "to": 1867,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1801, Acts of Union 1800 create the United Kingdom",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+     "confidence": "high",
+     "note": "Same British rule; state renamed."
+    },
+    {
+     "from": 1867,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "1 July 1867, Confederation",
+     "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "St. John's",
+   "lat": 47.56,
+   "lon": -52.71,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1630,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Beothuk"
+     ],
+     "date": "pre-1630",
+     "source": "https://en.wikipedia.org/wiki/St._John%27s,_Newfoundland_and_Labrador",
+     "confidence": "moderate",
+     "note": "Seasonal European (English, Portuguese, Basque) fishery from 1500s; Gilbert's claim 1583 was paper only."
+    },
+    {
+     "from": 1630,
+     "to": 1649,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c. 1630, permanent English settlement",
+     "source": "https://en.wikipedia.org/wiki/St._John%27s,_Newfoundland_and_Labrador",
+     "confidence": "moderate",
+     "note": "French raids/occupations 1696-97 (Iberville), Jan-spring 1709, and June-Sept 1762 were each under a year; skipped."
+    },
+    {
+     "from": 1649,
+     "to": 1660,
+     "ruler": "Commonwealth of England",
+     "aliases": [
+      "England",
+      "The Protectorate",
+      "English Commonwealth"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "30 January 1649, execution of Charles I; Commonwealth declared May 1649",
+     "source": "https://en.wikipedia.org/wiki/Commonwealth_of_England",
+     "confidence": "high",
+     "note": "English republic (Commonwealth/Protectorate)."
+    },
+    {
+     "from": 1660,
+     "to": 1707,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1660, Restoration of Charles II",
+     "source": "https://en.wikipedia.org/wiki/Stuart_Restoration",
+     "confidence": "high",
+     "note": "Monarchy restored."
+    },
+    {
+     "from": 1707,
+     "to": 1801,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1707, Acts of Union 1707 (England + Scotland)",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1707",
+     "confidence": "high",
+     "note": "Union of England and Scotland."
+    },
+    {
+     "from": 1801,
+     "to": 1907,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1801, Acts of Union 1800",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1907,
+     "to": 1934,
+     "ruler": "Dominion of Newfoundland",
+     "aliases": [
+      "Newfoundland"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "26 September 1907, Newfoundland becomes a Dominion",
+     "source": "https://en.wikipedia.org/wiki/Dominion_of_Newfoundland",
+     "confidence": "high",
+     "note": "Self-governing dominion."
+    },
+    {
+     "from": 1934,
+     "to": 1949,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "Commission of Government",
+      "Newfoundland",
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "16 February 1934, Commission of Government appointed by UK",
+     "source": "https://en.wikipedia.org/wiki/Commission_of_Government",
+     "confidence": "high",
+     "note": "Dominion self-government suspended; governed by UK-appointed commission."
+    },
+    {
+     "from": 1949,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 March 1949, Newfoundland joins Canada",
+     "source": "https://en.wikipedia.org/wiki/Newfoundland_Act",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Saint-Pierre",
+   "lat": 46.78,
+   "lon": -56.18,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1670,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "uninhabited (seasonal Basque/Breton fishermen)"
+     ],
+     "date": "pre-1670",
+     "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+     "confidence": "moderate",
+     "note": "Uninhabited; seasonal European fishermen; Cartier claim 1536 (paper)."
+    },
+    {
+     "from": 1670,
+     "to": 1713,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1670, French officer annexes islands; permanent settlers",
+     "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+     "confidence": "moderate",
+     "note": "English raids in early 1700s drove settlers out."
+    },
+    {
+     "from": 1713,
+     "to": 1763,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1713, Peace of Utrecht cedes islands to Britain",
+     "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1763,
+     "to": 1778,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1763, Treaty of Paris returns islands to France",
+     "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1778,
+     "to": 1783,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1778, British occupy and deport inhabitants",
+     "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1783,
+     "to": 1792,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1783, Treaty of Paris (Versailles) returns islands",
+     "source": "https://en.wikipedia.org/wiki/History_of_Saint_Pierre_and_Miquelon",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1792,
+     "to": 1793,
+     "ruler": "French First Republic",
+     "aliases": [
+      "France"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1792, French Republic proclaimed",
+     "source": "https://en.wikipedia.org/wiki/French_First_Republic",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1793,
+     "to": 1801,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1793, British occupy islands",
+     "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+     "confidence": "high",
+     "note": "British colony 1794; evacuated 1796 when a French squadron burned the settlement."
+    },
+    {
+     "from": 1801,
+     "to": 1816,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1801, Acts of Union 1800",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+     "confidence": "low",
+     "note": "Islands largely deserted 1796-1816; nominally French 1802-03 (Amiens), British again 1803, returned by Treaty of Paris 1814, British briefly 1815; French reoccupation 1816."
+    },
+    {
+     "from": 1816,
+     "to": 1848,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "Kingdom of France",
+      "July Monarchy",
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1816, French return and resettle",
+     "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+     "confidence": "high",
+     "note": "Bourbon Restoration / July Monarchy."
+    },
+    {
+     "from": 1848,
+     "to": 1852,
+     "ruler": "French Second Republic",
+     "aliases": [
+      "France"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "February 1848 revolution",
+     "source": "https://en.wikipedia.org/wiki/French_Second_Republic",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1852,
+     "to": 1870,
+     "ruler": "Second French Empire",
+     "aliases": [
+      "France"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "2 December 1852, Napoleon III's empire",
+     "source": "https://en.wikipedia.org/wiki/Second_French_Empire",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1870,
+     "to": 1940,
+     "ruler": "French Third Republic",
+     "aliases": [
+      "France"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "4 September 1870, Third Republic proclaimed",
+     "source": "https://en.wikipedia.org/wiki/French_Third_Republic",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1940,
+     "to": 1941,
+     "ruler": "Vichy France",
+     "aliases": [
+      "French State",
+      "France"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "10 July 1940, Vichy regime; colony administrator loyal to Vichy",
+     "source": "https://en.wikipedia.org/wiki/Free_French_takeover_of_Saint_Pierre_and_Miquelon",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1941,
+     "to": 1946,
+     "ruler": "Free France",
+     "aliases": [
+      "Provisional Government of the French Republic",
+      "France"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "24 December 1941, Free French seize the islands",
+     "source": "https://en.wikipedia.org/wiki/Free_French_takeover_of_Saint_Pierre_and_Miquelon",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1946,
+     "to": 1958,
+     "ruler": "French Fourth Republic",
+     "aliases": [
+      "France"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "October 1946, Fourth Republic; islands an overseas territory",
+     "source": "https://en.wikipedia.org/wiki/French_Fourth_Republic",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1958,
+     "to": 2025,
+     "ruler": "French Fifth Republic",
+     "aliases": [
+      "France"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "October 1958, Fifth Republic",
+     "source": "https://en.wikipedia.org/wiki/French_Fifth_Republic",
+     "confidence": "high",
+     "note": "Overseas department 1976, collectivity 1985/2003."
+    }
+   ]
+  },
+  {
+   "place": "Nain (Labrador)",
+   "lat": 56.54,
+   "lon": -61.72,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1771,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Labrador Inuit"
+     ],
+     "date": "pre-1771",
+     "source": "https://en.wikipedia.org/wiki/Nain,_Newfoundland_and_Labrador",
+     "confidence": "moderate",
+     "note": "Labrador Inuit coast; British paper sovereignty from 1763."
+    },
+    {
+     "from": 1771,
+     "to": 1801,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1771, Moravian mission founded at Nain under British land grant",
+     "source": "https://en.wikipedia.org/wiki/Nain,_Newfoundland_and_Labrador",
+     "confidence": "moderate",
+     "note": "Labrador coast attached to Newfoundland 1763, to Quebec 1774, back to Newfoundland 1809."
+    },
+    {
+     "from": 1801,
+     "to": 1907,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1801, Acts of Union 1800",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1907,
+     "to": 1934,
+     "ruler": "Dominion of Newfoundland",
+     "aliases": [
+      "Newfoundland"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "26 September 1907, Dominion of Newfoundland",
+     "source": "https://en.wikipedia.org/wiki/Dominion_of_Newfoundland",
+     "confidence": "high",
+     "note": "Labrador boundary with Quebec set by Privy Council 1927."
+    },
+    {
+     "from": 1934,
+     "to": 1949,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "Commission of Government",
+      "Newfoundland",
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "16 February 1934, Commission of Government",
+     "source": "https://en.wikipedia.org/wiki/Commission_of_Government",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1949,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 March 1949, Newfoundland and Labrador join Canada",
+     "source": "https://en.wikipedia.org/wiki/Newfoundland_Act",
+     "confidence": "high",
+     "note": "Nunatsiavut Inuit self-government within Canada since 2005."
+    }
+   ]
+  },
+  {
+   "place": "York Factory (Hudson Bay)",
+   "lat": 57.0,
+   "lon": -92.3,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1684,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Cree (Swampy Cree)"
+     ],
+     "date": "pre-1684",
+     "source": "https://en.wikipedia.org/wiki/York_Factory",
+     "confidence": "high",
+     "note": "HBC charter 1670 claimed Rupert's Land on paper."
+    },
+    {
+     "from": 1684,
+     "to": 1694,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "Hudson's Bay Company",
+      "Rupert's Land",
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1684, Hudson's Bay Company builds York Factory (Fort Nelson nearby 1682)",
+     "source": "https://en.wikipedia.org/wiki/York_Factory",
+     "confidence": "high",
+     "note": "HBC company post."
+    },
+    {
+     "from": 1694,
+     "to": 1696,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1694, captured by d'Iberville, renamed Fort Bourbon",
+     "source": "https://en.wikipedia.org/wiki/Anglo-French_conflicts_on_Hudson_Bay",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1696,
+     "to": 1697,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "Hudson's Bay Company",
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1696, retaken by English frigates",
+     "source": "https://en.wikipedia.org/wiki/Anglo-French_conflicts_on_Hudson_Bay",
+     "confidence": "moderate",
+     "note": "Wikipedia gives 1695; other accounts 1696 (William Allen's squadron)."
+    },
+    {
+     "from": 1697,
+     "to": 1714,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1697, d'Iberville retakes it after the Battle of Hudson's Bay",
+     "source": "https://en.wikipedia.org/wiki/Battle_of_Hudson%27s_Bay",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1714,
+     "to": 1801,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Hudson's Bay Company",
+      "Rupert's Land",
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1714, handed back to the HBC under the Treaty of Utrecht (1713)",
+     "source": "https://en.wikipedia.org/wiki/York_Factory",
+     "confidence": "moderate",
+     "note": "Treaty 1713, physical handover to James Knight 1714. La Pérouse raid Aug 1782 (returned 1783) skipped."
+    },
+    {
+     "from": 1801,
+     "to": 1870,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "Hudson's Bay Company",
+      "Rupert's Land",
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1801, Acts of Union 1800",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1800",
+     "confidence": "high",
+     "note": "HBC-governed Rupert's Land."
+    },
+    {
+     "from": 1870,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "15 July 1870, Rupert's Land transferred to Canada",
+     "source": "https://en.wikipedia.org/wiki/Rupert%27s_Land",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Winnipeg (Red River)",
+   "lat": 49.89,
+   "lon": -97.14,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1812,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Cree",
+      "Assiniboine",
+      "Ojibwe",
+      "Métis (from c. 1800)"
+     ],
+     "date": "pre-1812",
+     "source": "https://en.wikipedia.org/wiki/Red_River_Colony",
+     "confidence": "moderate",
+     "note": "La Vérendrye's Fort Rouge (1738) and NWC Fort Gibraltar (1810) were trade posts only."
+    },
+    {
+     "from": 1812,
+     "to": 1869,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "Hudson's Bay Company",
+      "District of Assiniboia",
+      "Rupert's Land",
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "August 1812, first Selkirk settlers arrive (grant of Assiniboia 1811)",
+     "source": "https://en.wikipedia.org/wiki/Red_River_Colony",
+     "confidence": "high",
+     "note": "Governed by HBC / Council of Assiniboia."
+    },
+    {
+     "from": 1869,
+     "to": 1870,
+     "ruler": "Provisional Government of Assiniboia",
+     "aliases": [
+      "Red River provisional government",
+      "Louis Riel"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "2 November 1869 Métis seize Upper Fort Garry; provisional government 8 Dec 1869",
+     "source": "https://en.wikipedia.org/wiki/Red_River_Rebellion",
+     "confidence": "moderate",
+     "note": "Riel's Métis provisional government until Wolseley expedition (24 Aug 1870)."
+    },
+    {
+     "from": 1870,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "15 July 1870, Manitoba Act in force; Winnipeg capital of Manitoba",
+     "source": "https://en.wikipedia.org/wiki/Manitoba_Act,_1870",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Huronia (Sainte-Marie, Midland)",
+   "lat": 44.73,
+   "lon": -79.85,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1440,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Ancestral Huron-Wendat"
+     ],
+     "date": "c. 1400",
+     "source": "https://en.wikipedia.org/wiki/Huronia_(region)",
+     "confidence": "low",
+     "note": "Ancestral Wendat villages consolidating in the region."
+    },
+    {
+     "from": 1440,
+     "to": 1649,
+     "ruler": "Wendat Confederacy",
+     "aliases": [
+      "Huron Confederacy",
+      "Wendake"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c. 1440, Attignawantan and Attigneenongnahac allied (Jesuit-reported tradition); four nations consolidated by c. 1600",
+     "source": "https://en.wikipedia.org/wiki/Huronia_(region)",
+     "confidence": "low",
+     "note": "French Jesuit mission Sainte-Marie 1639-1649 within Wendat country."
+    },
+    {
+     "from": 1649,
+     "to": 1817,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Haudenosaunee",
+      "Ojibwe / Mississauga"
+     ],
+     "date": "March 1649, Haudenosaunee destroy Huronia; Sainte-Marie burned",
+     "source": "https://en.wikipedia.org/wiki/Huronia_(region)",
+     "confidence": "moderate",
+     "note": "Depopulated; Haudenosaunee-controlled, then Ojibwe/Mississauga from c. 1690s. British purchase of Penetanguishene 1798."
+    },
+    {
+     "from": 1817,
+     "to": 1867,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1817, British naval establishment at Penetanguishene",
+     "source": "https://en.wikipedia.org/wiki/Penetanguishene",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1867,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "1 July 1867, Confederation",
+     "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Regina",
+   "lat": 50.45,
+   "lon": -104.61,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1882,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Plains Cree",
+      "Assiniboine (Nakoda)",
+      "Saulteaux"
+     ],
+     "date": "pre-1882",
+     "source": "https://en.wikipedia.org/wiki/Regina,_Saskatchewan",
+     "confidence": "moderate",
+     "note": "HBC Rupert's Land claim (paper); transferred to Canada 1870; Treaty 4 signed at Fort Qu'Appelle 1874."
+    },
+    {
+     "from": 1882,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "1882, Pile of Bones site chosen as seat of North-West Territories; NWMP headquarters",
+     "source": "https://en.wikipedia.org/wiki/Regina,_Saskatchewan",
+     "confidence": "moderate",
+     "note": "Effective Canadian government presence. Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Edmonton",
+   "lat": 53.54,
+   "lon": -113.49,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1802,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Cree",
+      "Blackfoot",
+      "Nakoda"
+     ],
+     "date": "pre-1802",
+     "source": "https://en.wikipedia.org/wiki/Fort_Edmonton",
+     "confidence": "moderate",
+     "note": "First Edmonton House 1795 c. 30 km downstream (Fort Saskatchewan)."
+    },
+    {
+     "from": 1802,
+     "to": 1870,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "Hudson's Bay Company",
+      "Rupert's Land",
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1802, HBC Fort Edmonton moved upstream to Rossdale (present city)",
+     "source": "https://en.wikipedia.org/wiki/Fort_Edmonton",
+     "confidence": "moderate",
+     "note": "HBC post in Rupert's Land."
+    },
+    {
+     "from": 1870,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "15 July 1870, Rupert's Land transferred to Canada",
+     "source": "https://en.wikipedia.org/wiki/Rupert%27s_Land",
+     "confidence": "high",
+     "note": "Capital of Alberta from 1905. Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Calgary",
+   "lat": 51.05,
+   "lon": -114.06,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1750,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Blackfoot (Niitsitapi)",
+      "Shoshone",
+      "Ktunaxa"
+     ],
+     "date": "pre-1750",
+     "source": "https://en.wikipedia.org/wiki/Blackfoot_Confederacy",
+     "confidence": "low",
+     "note": "Pre-horse era; Blackfoot ancestors, Shoshone and Kootenay also present."
+    },
+    {
+     "from": 1750,
+     "to": 1875,
+     "ruler": "Blackfoot Confederacy",
+     "aliases": [
+      "Niitsitapi",
+      "Siksikaitsitapi"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "mid-18th c., Blackfoot dominance of the northwestern plains after acquiring horses and guns",
+     "source": "https://en.wikipedia.org/wiki/Blackfoot_Confederacy",
+     "confidence": "low",
+     "note": "Siksika, Kainai, Piikani (with Tsuut'ina allies). Canada's 1870 paper title."
+    },
+    {
+     "from": 1875,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "July-Dec 1875, NWMP builds Fort Calgary",
+     "source": "https://en.wikipedia.org/wiki/Fort_Calgary",
+     "confidence": "high",
+     "note": "Treaty 7 in 1877. Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Victoria",
+   "lat": 48.42,
+   "lon": -123.37,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1843,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Lekwungen (Songhees, Coast Salish)"
+     ],
+     "date": "pre-1843",
+     "source": "https://en.wikipedia.org/wiki/Fort_Victoria_(British_Columbia)",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1843,
+     "to": 1871,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "Hudson's Bay Company",
+      "Colony of Vancouver Island",
+      "Colony of British Columbia",
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "March 1843, HBC builds Fort Victoria",
+     "source": "https://en.wikipedia.org/wiki/Fort_Victoria_(British_Columbia)",
+     "confidence": "high",
+     "note": "Colony of Vancouver Island 1849; united with British Columbia 1866."
+    },
+    {
+     "from": 1871,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "20 July 1871, British Columbia joins Canada",
+     "source": "https://en.wikipedia.org/wiki/British_Columbia_Terms_of_Union",
+     "confidence": "high",
+     "note": "Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Yuquot (Nootka Sound)",
+   "lat": 49.59,
+   "lon": -126.62,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1789,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Nuu-chah-nulth (Mowachaht, chiefs titled Maquinna)"
+     ],
+     "date": "pre-1789",
+     "source": "https://en.wikipedia.org/wiki/Yuquot",
+     "confidence": "high",
+     "note": "Cook visit 1778; British fur traders from 1785."
+    },
+    {
+     "from": 1789,
+     "to": 1795,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1789, Martínez builds Santa Cruz de Nuca",
+     "source": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Nuca",
+     "confidence": "high",
+     "note": "Abandoned Oct 1789 - Apr 1790 (skipped). Nootka Crisis 1789-90."
+    },
+    {
+     "from": 1795,
+     "to": 1871,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Nuu-chah-nulth (Mowachaht)"
+     ],
+     "date": "28 March 1795, Spain abandons post under third Nootka Convention",
+     "source": "https://en.wikipedia.org/wiki/Santa_Cruz_de_Nuca",
+     "confidence": "low",
+     "note": "Mowachaht reoccupied Yuquot. Colony of Vancouver Island (1849) claimed the coast but had no post here."
+    },
+    {
+     "from": 1871,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "20 July 1871, British Columbia joins Canada",
+     "source": "https://en.wikipedia.org/wiki/British_Columbia_Terms_of_Union",
+     "confidence": "low",
+     "note": "Effective administration of the west coast of Vancouver Island came gradually (reserves 1880s). Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Dawson City",
+   "lat": 64.06,
+   "lon": -139.43,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1897,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Hän (Tr'ondëk Hwëch'in)"
+     ],
+     "date": "pre-1897",
+     "source": "https://en.wikipedia.org/wiki/Dawson_City",
+     "confidence": "high",
+     "note": "Tr'ochëk fishing camp; Canadian paper title from 1870."
+    },
+    {
+     "from": 1897,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "January 1897, Dawson founded after Klondike strike (Aug 1896); NWMP post",
+     "source": "https://en.wikipedia.org/wiki/Dawson_City",
+     "confidence": "high",
+     "note": "Capital of Yukon Territory 1898-1953. Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Baker Lake (Nunavut interior)",
+   "lat": 64.32,
+   "lon": -96.02,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1916,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Caribou Inuit (Harvaqtuurmiut, Qaernermiut and others)"
+     ],
+     "date": "pre-1916",
+     "source": "https://en.wikipedia.org/wiki/Baker_Lake,_Nunavut",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1916,
+     "to": 1931,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": "United Kingdom",
+     "peoples": null,
+     "date": "1916, HBC post; RCMP present in area from c. 1915 (post 1930)",
+     "source": "https://en.wikipedia.org/wiki/Baker_Lake,_Nunavut",
+     "confidence": "low",
+     "note": "Earliest permanent outside presence; Canadian title from 1870/1880. Self-governing Dominion; external sovereignty with the UK until the Statute of Westminster (11 Dec 1931)."
+    },
+    {
+     "from": 1931,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1931, Statute of Westminster (full legislative autonomy)",
+     "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+     "confidence": "high",
+     "note": "Same state; overlord removed."
+    }
+   ]
+  },
+  {
+   "place": "Iqaluit (Frobisher Bay)",
+   "lat": 63.75,
+   "lon": -68.52,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1942,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Inuit"
+     ],
+     "date": "pre-1942",
+     "source": "https://en.wikipedia.org/wiki/Iqaluit",
+     "confidence": "low",
+     "note": "Arctic islands transferred UK->Canada 1880 (paper); HBC post at Ward Inlet from 1914; Eastern Arctic Patrol from 1922."
+    },
+    {
+     "from": 1942,
+     "to": 2025,
+     "ruler": "Canada",
+     "aliases": [
+      "Dominion of Canada",
+      "Q16"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1942, Frobisher Bay air base built (US forces on Canadian territory)",
+     "source": "https://en.wikipedia.org/wiki/Iqaluit",
+     "confidence": "low",
+     "note": "Permanent Canadian government services after 1959. Capital of Nunavut 1999."
+    }
+   ]
+  },
+  {
+   "place": "Nuuk (Godthåb)",
+   "lat": 64.18,
+   "lon": -51.72,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1721,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Kalaallit (Thule Inuit)"
+     ],
+     "date": "pre-1721",
+     "source": "https://en.wikipedia.org/wiki/Nuuk",
+     "confidence": "moderate",
+     "note": "Norse Western Settlement abandoned before 1400 (c. mid-14th c.)."
+    },
+    {
+     "from": 1721,
+     "to": 1814,
+     "ruler": "Denmark–Norway",
+     "aliases": [
+      "Kingdom of Denmark and Norway",
+      "Dano-Norwegian Realm",
+      "Q1649871"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "3 July 1721, Hans Egede founds Hope Colony (moved to Godthåb 1728)",
+     "source": "https://en.wikipedia.org/wiki/Hans_Egede",
+     "confidence": "high",
+     "note": "Wikipedia dates the city founding to 29 Aug 1728."
+    },
+    {
+     "from": 1814,
+     "to": 2025,
+     "ruler": "Kingdom of Denmark",
+     "aliases": [
+      "Greenland (Danish Realm)",
+      "Denmark",
+      "Danish Realm",
+      "Q35"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "14 January 1814, Treaty of Kiel: Greenland stays with Denmark",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Kiel",
+     "confidence": "high",
+     "note": "Home rule 1 May 1979; self-rule 2009 within the Danish Realm. US protection 1941-45 under Danish administration."
+    }
+   ]
+  },
+  {
+   "place": "Qaqortoq (Norse Eastern Settlement)",
+   "lat": 60.72,
+   "lon": -46.03,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1450,
+     "ruler": "Norse Greenland",
+     "aliases": [
+      "Greenland (Norse)",
+      "Grœnland"
+     ],
+     "overlord": "Kingdom of Norway",
+     "peoples": null,
+     "date": "c. 985 settlement; Hvalsey wedding 1408 is last written record",
+     "source": "https://en.wikipedia.org/wiki/Eastern_Settlement",
+     "confidence": "low",
+     "note": "Norse Greenland tributary to the Norwegian crown since 1261 (Kalmar Union from 1397); end date c. mid-15th c."
+    },
+    {
+     "from": 1450,
+     "to": 1775,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Kalaallit (Thule Inuit)"
+     ],
+     "date": "mid-15th c., Norse settlement ends",
+     "source": "https://en.wikipedia.org/wiki/Qaqortoq",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1775,
+     "to": 1814,
+     "ruler": "Denmark–Norway",
+     "aliases": [
+      "Kingdom of Denmark and Norway",
+      "Dano-Norwegian Realm",
+      "Q1649871"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1774/1775, Julianehåb founded by Anders Olsen",
+     "source": "https://en.wikipedia.org/wiki/Qaqortoq",
+     "confidence": "high",
+     "note": "Infobox 1774, text 1775."
+    },
+    {
+     "from": 1814,
+     "to": 2025,
+     "ruler": "Kingdom of Denmark",
+     "aliases": [
+      "Denmark",
+      "Danish Realm",
+      "Q35"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "14 January 1814, Treaty of Kiel",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Kiel",
+     "confidence": "high",
+     "note": "Home rule 1979, self-rule 2009."
+    }
+   ]
+  },
+  {
+   "place": "Tasiilaq (East Greenland)",
+   "lat": 65.61,
+   "lon": -37.63,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1894,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "East Greenlandic Inuit (Tunumiit)"
+     ],
+     "date": "pre-1894",
+     "source": "https://en.wikipedia.org/wiki/Tasiilaq",
+     "confidence": "high",
+     "note": "First European contact: Holm expedition 1884-85."
+    },
+    {
+     "from": 1894,
+     "to": 2025,
+     "ruler": "Kingdom of Denmark",
+     "aliases": [
+      "Denmark",
+      "Danish Realm",
+      "Q35"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1894, Danish trading station founded",
+     "source": "https://en.wikipedia.org/wiki/Tasiilaq",
+     "confidence": "high",
+     "note": "Norway's 1931-33 occupation claim (Erik the Red's Land) was further north and rejected by the PCIJ in 1933."
+    }
+   ]
+  },
+  {
+   "place": "Thule / Qaanaaq (NW Greenland)",
+   "lat": 77.47,
+   "lon": -69.23,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1937,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Inughuit (Polar Inuit)"
+     ],
+     "date": "pre-1937",
+     "source": "https://en.wikipedia.org/wiki/Qaanaaq",
+     "confidence": "moderate",
+     "note": "Rasmussen/Freuchen private Thule trading station 1910; Danish sovereignty proclaimed over all Greenland 1921; US renounced claims 1917."
+    },
+    {
+     "from": 1937,
+     "to": 2025,
+     "ruler": "Kingdom of Denmark",
+     "aliases": [
+      "Denmark",
+      "Danish Realm",
+      "Q35"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1937, Danish state assumes control of the Thule district",
+     "source": "https://en.wikipedia.org/wiki/Qaanaaq",
+     "confidence": "moderate",
+     "note": "1921 is an alternative date (Danish sovereignty declaration). Thule Air Base (US) 1951-53; relocation to Qaanaaq 1953."
+    }
+   ]
+  },
+  {
+   "place": "Sitka (New Archangel)",
+   "lat": 57.05,
+   "lon": -135.33,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1804,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Tlingit (Sheet'ká Kwáan, Kiks.ádi clan)"
+     ],
+     "date": "pre-1804",
+     "source": "https://en.wikipedia.org/wiki/Battle_of_Sitka",
+     "confidence": "moderate",
+     "note": "Russian Redoubt St. Michael at Old Sitka (10 km north) July 1799 - June 1802, destroyed by Tlingit."
+    },
+    {
+     "from": 1804,
+     "to": 1867,
+     "ruler": "Russian Empire",
+     "aliases": [
+      "Russia",
+      "Russian America",
+      "Russian-American Company",
+      "Q34266"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "October 1804, Russians defeat the Kiks.ádi and found New Archangel",
+     "source": "https://en.wikipedia.org/wiki/Battle_of_Sitka",
+     "confidence": "high",
+     "note": "Capital of Russian America from 1808."
+    },
+    {
+     "from": 1867,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 October 1867, transfer ceremony at Sitka",
+     "source": "https://en.wikipedia.org/wiki/Alaska_Purchase",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Kodiak",
+   "lat": 57.79,
+   "lon": -152.39,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1784,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Alutiiq (Sugpiaq)"
+     ],
+     "date": "pre-1784",
+     "source": "https://en.wikipedia.org/wiki/Kodiak,_Alaska",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1784,
+     "to": 1867,
+     "ruler": "Russian Empire",
+     "aliases": [
+      "Russia",
+      "Russian America",
+      "Russian-American Company",
+      "Q34266"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "August 1784, Shelikhov's post at Three Saints Bay (moved to Kodiak town 1792)",
+     "source": "https://en.wikipedia.org/wiki/Kodiak,_Alaska",
+     "confidence": "high",
+     "note": "Capital of Russian America until 1804."
+    },
+    {
+     "from": 1867,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 October 1867, Alaska Purchase takes effect",
+     "source": "https://en.wikipedia.org/wiki/Alaska_Purchase",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Fort Yukon",
+   "lat": 66.56,
+   "lon": -145.25,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1847,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Gwich'in"
+     ],
+     "date": "pre-1847",
+     "source": "https://fortwiki.com/Fort_Yukon_(1)",
+     "confidence": "high",
+     "note": "Russian paper claim; no Russian post this far up the Yukon."
+    },
+    {
+     "from": 1847,
+     "to": 1869,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "Hudson's Bay Company",
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 June 1847, HBC (A. H. Murray) builds Fort Yukon",
+     "source": "https://fortwiki.com/Fort_Yukon_(1)",
+     "confidence": "moderate",
+     "note": "HBC post inside Russian (after 1867 US) territory."
+    },
+    {
+     "from": 1869,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 August 1869, Capt. Charles Raymond orders HBC out (left spring 1870)",
+     "source": "https://fortwiki.com/Fort_Yukon_(1)",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Utqiagvik (Barrow)",
+   "lat": 71.29,
+   "lon": -156.79,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1881,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Iñupiat"
+     ],
+     "date": "pre-1881",
+     "source": "https://en.wikipedia.org/wiki/Utqiagvik,_Alaska",
+     "confidence": "high",
+     "note": "US title from 1867 (paper)."
+    },
+    {
+     "from": 1881,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1881, US Army research station; Presbyterian church 1888, refuge station 1889",
+     "source": "https://en.wikipedia.org/wiki/Utqiagvik,_Alaska",
+     "confidence": "low",
+     "note": "First US government presence; continuous presence from c. 1888-89."
+    }
+   ]
+  },
+  {
+   "place": "Boston",
+   "lat": 42.36,
+   "lon": -71.06,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1630,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Massachusett"
+     ],
+     "date": "pre-1630",
+     "source": "https://en.wikipedia.org/wiki/History_of_Boston",
+     "confidence": "high",
+     "note": "Shawmut peninsula."
+    },
+    {
+     "from": 1630,
+     "to": 1649,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "7 September 1630, Boston founded by Puritan settlers",
+     "source": "https://en.wikipedia.org/wiki/History_of_Boston",
+     "confidence": "high",
+     "note": "Massachusetts Bay Colony; Dominion of New England 1686-89."
+    },
+    {
+     "from": 1649,
+     "to": 1660,
+     "ruler": "Commonwealth of England",
+     "aliases": [
+      "England",
+      "The Protectorate",
+      "English Commonwealth"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "30 January 1649, execution of Charles I; Commonwealth declared May 1649",
+     "source": "https://en.wikipedia.org/wiki/Commonwealth_of_England",
+     "confidence": "high",
+     "note": "English republic (Commonwealth/Protectorate)."
+    },
+    {
+     "from": 1660,
+     "to": 1707,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1660, Restoration of Charles II",
+     "source": "https://en.wikipedia.org/wiki/Stuart_Restoration",
+     "confidence": "high",
+     "note": "Monarchy restored."
+    },
+    {
+     "from": 1707,
+     "to": 1776,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1707, Acts of Union 1707 (England + Scotland)",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1707",
+     "confidence": "high",
+     "note": "Union of England and Scotland."
+    },
+    {
+     "from": 1776,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "17 March 1776, British evacuate Boston",
+     "source": "https://en.wikipedia.org/wiki/Siege_of_Boston",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "New York (New Amsterdam)",
+   "lat": 40.71,
+   "lon": -74.01,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1624,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Lenape (Munsee)"
+     ],
+     "date": "pre-1624",
+     "source": "https://en.wikipedia.org/wiki/New_Amsterdam",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1624,
+     "to": 1664,
+     "ruler": "Dutch Republic",
+     "aliases": [
+      "United Provinces",
+      "New Netherland",
+      "Dutch West India Company",
+      "Q170072"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1624 settlement on Governors Island; Fort Amsterdam 1625",
+     "source": "https://en.wikipedia.org/wiki/New_Amsterdam",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1664,
+     "to": 1673,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "27 Aug / 8 Sep 1664, New Amsterdam surrenders to Richard Nicolls",
+     "source": "https://en.wikipedia.org/wiki/New_Amsterdam",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1673,
+     "to": 1674,
+     "ruler": "Dutch Republic",
+     "aliases": [
+      "United Provinces",
+      "New Netherland",
+      "Dutch West India Company",
+      "Q170072"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "August 1673, Dutch recapture (New Orange)",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Westminster_(1674)",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1674,
+     "to": 1707,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "10 November 1674, returned under Treaty of Westminster",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Westminster_(1674)",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1707,
+     "to": 1783,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1707, Acts of Union 1707 (England + Scotland)",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1707",
+     "confidence": "moderate",
+     "note": "Patriot committees controlled the city c. Oct 1775 - 15 Sep 1776 (under a year, skipped); British occupation 1776-83."
+    },
+    {
+     "from": 1783,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 November 1783, Evacuation Day",
+     "source": "https://en.wikipedia.org/wiki/Evacuation_Day_(New_York)",
+     "confidence": "high",
+     "note": "US capital 1785-1790."
+    }
+   ]
+  },
+  {
+   "place": "Onondaga (Haudenosaunee council fire)",
+   "lat": 43.05,
+   "lon": -76.15,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1450,
+     "ruler": "Onondaga Nation",
+     "aliases": [
+      "Onöñda'gega'"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c. 1400",
+     "source": "https://en.wikipedia.org/wiki/Onondaga_people",
+     "confidence": "low",
+     "note": "Before League formation."
+    },
+    {
+     "from": 1450,
+     "to": 1784,
+     "ruler": "Haudenosaunee Confederacy",
+     "aliases": [
+      "Iroquois Confederacy",
+      "Five Nations",
+      "Six Nations",
+      "League of the Iroquois"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c. 1450 (traditional/consensus date; proposals range 1142 to c. 1600)",
+     "source": "https://en.wikipedia.org/wiki/Iroquois",
+     "confidence": "low",
+     "note": "Onondaga hosted the League's central council fire. Van Schaick's expedition destroyed Onondaga towns April 1779."
+    },
+    {
+     "from": 1784,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "October 1784, Treaty of Fort Stanwix (after 1783 Treaty of Paris)",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Fort_Stanwix_(1784)",
+     "confidence": "moderate",
+     "note": "New York's 1788 Fort Schuyler treaty took most Onondaga land; Onondaga Nation retains a territory south of Syracuse."
+    }
+   ]
+  },
+  {
+   "place": "Philadelphia",
+   "lat": 39.95,
+   "lon": -75.16,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1643,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Lenape"
+     ],
+     "date": "pre-1643",
+     "source": "https://en.wikipedia.org/wiki/New_Sweden",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1643,
+     "to": 1655,
+     "ruler": "Swedish Empire",
+     "aliases": [
+      "Sweden",
+      "New Sweden",
+      "Q215443"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1643, New Gothenburg (Tinicum) and Swedish farms at Wicaco; Fort Nya Korsholm 1647",
+     "source": "https://en.wikipedia.org/wiki/New_Sweden",
+     "confidence": "moderate",
+     "note": "Sparse Swedish settlement within/next to the present city."
+    },
+    {
+     "from": 1655,
+     "to": 1664,
+     "ruler": "Dutch Republic",
+     "aliases": [
+      "United Provinces",
+      "New Netherland",
+      "Dutch West India Company",
+      "Q170072"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1655, Stuyvesant conquers New Sweden",
+     "source": "https://en.wikipedia.org/wiki/New_Sweden",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1664,
+     "to": 1673,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1664, English take the Delaware",
+     "source": "https://en.wikipedia.org/wiki/New_Sweden",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1673,
+     "to": 1674,
+     "ruler": "Dutch Republic",
+     "aliases": [
+      "United Provinces",
+      "New Netherland",
+      "Dutch West India Company",
+      "Q170072"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1673, Dutch reconquest of New Netherland",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Westminster_(1674)",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1674,
+     "to": 1707,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1674, Treaty of Westminster; Philadelphia founded 1682 by Penn",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Westminster_(1674)",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1707,
+     "to": 1776,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1707, Acts of Union 1707 (England + Scotland)",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1707",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1776,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "4 July 1776, Declaration of Independence at Philadelphia",
+     "source": "https://en.wikipedia.org/wiki/History_of_Philadelphia",
+     "confidence": "high",
+     "note": "British occupation 26 Sep 1777 - 18 Jun 1778 (<1 yr) skipped. US capital 1790-1800."
+    }
+   ]
+  },
+  {
+   "place": "Wilmington (Fort Christina)",
+   "lat": 39.74,
+   "lon": -75.54,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1638,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Lenape"
+     ],
+     "date": "pre-1638",
+     "source": "https://en.wikipedia.org/wiki/New_Sweden",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1638,
+     "to": 1655,
+     "ruler": "Swedish Empire",
+     "aliases": [
+      "Sweden",
+      "New Sweden",
+      "Q215443"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "March 1638, Fort Christina built",
+     "source": "https://en.wikipedia.org/wiki/New_Sweden",
+     "confidence": "high",
+     "note": "Capital of New Sweden."
+    },
+    {
+     "from": 1655,
+     "to": 1664,
+     "ruler": "Dutch Republic",
+     "aliases": [
+      "United Provinces",
+      "New Netherland",
+      "Dutch West India Company",
+      "Q170072"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1655, Dutch conquest",
+     "source": "https://en.wikipedia.org/wiki/New_Sweden",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1664,
+     "to": 1673,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1664, English conquest",
+     "source": "https://en.wikipedia.org/wiki/New_Sweden",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1673,
+     "to": 1674,
+     "ruler": "Dutch Republic",
+     "aliases": [
+      "United Provinces",
+      "New Netherland",
+      "Dutch West India Company",
+      "Q170072"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1673, Dutch reconquest",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Westminster_(1674)",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1674,
+     "to": 1707,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1674, Treaty of Westminster",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Westminster_(1674)",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1707,
+     "to": 1776,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1707, Acts of Union 1707 (England + Scotland)",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1707",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1776,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1776, Delaware independence",
+     "source": "https://en.wikipedia.org/wiki/Delaware_in_the_American_Revolution",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Pittsburgh (Forks of the Ohio)",
+   "lat": 40.44,
+   "lon": -80.01,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1754,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Lenape",
+      "Shawnee",
+      "Mingo (Seneca)"
+     ],
+     "date": "pre-1754",
+     "source": "https://en.wikipedia.org/wiki/Fort_Duquesne",
+     "confidence": "moderate",
+     "note": "Monongahela culture abandoned by c. 1600s; later Lenape, Shawnee and Mingo villages; Haudenosaunee claim. Virginian Fort Prince George Feb-Apr 1754 (skipped)."
+    },
+    {
+     "from": 1754,
+     "to": 1758,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 April 1754, French force takes the Forks and builds Fort Duquesne",
+     "source": "https://en.wikipedia.org/wiki/Fort_Duquesne",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1758,
+     "to": 1776,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 November 1758, Forbes expedition occupies the abandoned site; Fort Pitt",
+     "source": "https://en.wikipedia.org/wiki/Fort_Duquesne",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1776,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1776, independence (Fort Pitt held by Patriots)",
+     "source": "https://en.wikipedia.org/wiki/Fort_Pitt_(Pennsylvania)",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Washington, D.C.",
+   "lat": 38.9,
+   "lon": -77.04,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1662,
+     "ruler": "Piscataway chiefdom",
+     "aliases": [
+      "Conoy",
+      "Piscataway"
+     ],
+     "overlord": null,
+     "peoples": [
+      "Nacotchtank",
+      "Piscataway"
+     ],
+     "date": "pre-1662",
+     "source": "https://en.wikipedia.org/wiki/History_of_Washington,_D.C.",
+     "confidence": "low",
+     "note": "Nacotchtank (Anacostia) affiliated with the Piscataway (Conoy) paramountcy."
+    },
+    {
+     "from": 1662,
+     "to": 1707,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1662, first Maryland land patents (Blue Plains) in the future District",
+     "source": "https://en.wikipedia.org/wiki/History_of_Washington,_D.C.",
+     "confidence": "low",
+     "note": "Maryland authorized a fort 1697; Conoy moved away 1697-99."
+    },
+    {
+     "from": 1707,
+     "to": 1776,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1707, Acts of Union 1707 (England + Scotland)",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1707",
+     "confidence": "high",
+     "note": "Georgetown founded 1751."
+    },
+    {
+     "from": 1776,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1776, Maryland and Virginia independence; federal district from 1790/1800",
+     "source": "https://en.wikipedia.org/wiki/History_of_Washington,_D.C.",
+     "confidence": "high",
+     "note": "British raid and burning 24-25 Aug 1814 skipped."
+    }
+   ]
+  },
+  {
+   "place": "Jamestown",
+   "lat": 37.21,
+   "lon": -76.78,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1590,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Virginia Algonquians (Paspahegh)"
+     ],
+     "date": "pre-c. 1590",
+     "source": "https://en.wikipedia.org/wiki/Powhatan_Confederacy",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1590,
+     "to": 1607,
+     "ruler": "Powhatan Confederacy",
+     "aliases": [
+      "Tsenacommacah",
+      "Powhatan paramount chiefdom"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "late 16th c., Paspahegh incorporated into Wahunsenacawh's paramount chiefdom",
+     "source": "https://en.wikipedia.org/wiki/Powhatan_Confederacy",
+     "confidence": "low",
+     "note": "Join date of Paspahegh undocumented; Kecoughtan joined 1598."
+    },
+    {
+     "from": 1607,
+     "to": 1652,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "14 May 1607, Jamestown founded",
+     "source": "https://en.wikipedia.org/wiki/Jamestown,_Virginia",
+     "confidence": "high",
+     "note": "Capital of Virginia to 1699."
+    },
+    {
+     "from": 1652,
+     "to": 1660,
+     "ruler": "Commonwealth of England",
+     "aliases": [
+      "England",
+      "The Protectorate",
+      "English Commonwealth"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "March 1652, colony submits to Parliament's commissioners",
+     "source": "https://en.wikipedia.org/wiki/Colony_of_Virginia",
+     "confidence": "moderate",
+     "note": "English republic (Commonwealth/Protectorate)."
+    },
+    {
+     "from": 1660,
+     "to": 1707,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1660, Restoration of Charles II",
+     "source": "https://en.wikipedia.org/wiki/Stuart_Restoration",
+     "confidence": "high",
+     "note": "Monarchy restored."
+    },
+    {
+     "from": 1707,
+     "to": 1776,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1707, Acts of Union 1707 (England + Scotland)",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1707",
+     "confidence": "high",
+     "note": "Union of England and Scotland."
+    },
+    {
+     "from": 1776,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1776, Virginia independence",
+     "source": "https://en.wikipedia.org/wiki/Colony_of_Virginia",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1861,
+     "to": 1862,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1861, Virginia joins the Confederacy; Confederate battery on Jamestown Island",
+     "source": "https://en.wikipedia.org/wiki/Virginia_in_the_American_Civil_War",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1862,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1862, Confederates abandon the Peninsula",
+     "source": "https://en.wikipedia.org/wiki/Peninsula_campaign",
+     "confidence": "moderate",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Richmond",
+   "lat": 37.54,
+   "lon": -77.44,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1550,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Virginia Algonquians (Powhatan, Arrohattoc)"
+     ],
+     "date": "pre-c. 1550",
+     "source": "https://en.wikipedia.org/wiki/Powhatan_Confederacy",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1550,
+     "to": 1646,
+     "ruler": "Powhatan Confederacy",
+     "aliases": [
+      "Tsenacommacah"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "mid-1500s, paramountcy created (Powhatan and Arrohattoc among the six core nations)",
+     "source": "https://en.wikipedia.org/wiki/Powhatan_Confederacy",
+     "confidence": "low",
+     "note": "English West's fort at the falls 1609-10 short-lived."
+    },
+    {
+     "from": 1646,
+     "to": 1652,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1646, Treaty ending the Anglo-Powhatan war; Fort Charles at the falls (1645)",
+     "source": "https://en.wikipedia.org/wiki/Powhatan_Confederacy",
+     "confidence": "moderate",
+     "note": "Treaty of 1646 dissolved the confederacy and reserved the James River area to the English."
+    },
+    {
+     "from": 1652,
+     "to": 1660,
+     "ruler": "Commonwealth of England",
+     "aliases": [
+      "England",
+      "The Protectorate",
+      "English Commonwealth"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "March 1652, Virginia submits to Parliament",
+     "source": "https://en.wikipedia.org/wiki/Colony_of_Virginia",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1660,
+     "to": 1707,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1660, Restoration of Charles II",
+     "source": "https://en.wikipedia.org/wiki/Stuart_Restoration",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1707,
+     "to": 1776,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1707, Acts of Union 1707 (England + Scotland)",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1707",
+     "confidence": "high",
+     "note": "Richmond founded 1737."
+    },
+    {
+     "from": 1776,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1776, Virginia independence; capital of Virginia from 1780",
+     "source": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+     "confidence": "high",
+     "note": "Arnold's raid Jan 1781 skipped."
+    },
+    {
+     "from": 1861,
+     "to": 1865,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1861, Virginia joins CSA; Richmond Confederate capital",
+     "source": "https://en.wikipedia.org/wiki/Richmond,_Virginia",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1865,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "3 April 1865, Union forces enter Richmond",
+     "source": "https://en.wikipedia.org/wiki/Fall_of_Richmond",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Charleston",
+   "lat": 32.78,
+   "lon": -79.93,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1670,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Kiawah",
+      "Cusabo"
+     ],
+     "date": "pre-1670",
+     "source": "https://en.wikipedia.org/wiki/History_of_Charleston,_South_Carolina",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1670,
+     "to": 1707,
+     "ruler": "Kingdom of England",
+     "aliases": [
+      "England",
+      "Q179876"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "April 1670, Charles Town founded at Albemarle Point (moved to peninsula 1680)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Charleston,_South_Carolina",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1707,
+     "to": 1776,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1707, Acts of Union 1707 (England + Scotland)",
+     "source": "https://en.wikipedia.org/wiki/Acts_of_Union_1707",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1776,
+     "to": 1780,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1776, South Carolina independence (royal governor fled Sept 1775)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Charleston,_South_Carolina",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1780,
+     "to": 1782,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 May 1780, Lincoln surrenders the city",
+     "source": "https://en.wikipedia.org/wiki/Siege_of_Charleston",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1782,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "14 December 1782, British evacuation",
+     "source": "https://en.wikipedia.org/wiki/History_of_Charleston,_South_Carolina",
+     "confidence": "high",
+     "note": "SC capital to 1786/1790."
+    },
+    {
+     "from": 1861,
+     "to": 1865,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "February 1861, South Carolina (seceded 20 Dec 1860) a founding CSA state",
+     "source": "https://en.wikipedia.org/wiki/Confederate_States_of_America",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1865,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 February 1865, Confederates evacuate; Union occupation",
+     "source": "https://en.wikipedia.org/wiki/History_of_Charleston,_South_Carolina",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Savannah",
+   "lat": 32.08,
+   "lon": -81.09,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1733,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Yamacraw",
+      "Muscogee (Creek)"
+     ],
+     "date": "pre-1733",
+     "source": "https://en.wikipedia.org/wiki/History_of_Savannah,_Georgia",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1733,
+     "to": 1776,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 February 1733, Oglethorpe founds Savannah",
+     "source": "https://en.wikipedia.org/wiki/History_of_Savannah,_Georgia",
+     "confidence": "high",
+     "note": "Capital of colonial Georgia."
+    },
+    {
+     "from": 1776,
+     "to": 1778,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January-February 1776, royal governor Wright flees",
+     "source": "https://en.wikipedia.org/wiki/History_of_Savannah,_Georgia",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1778,
+     "to": 1782,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "29 December 1778, British capture Savannah",
+     "source": "https://en.wikipedia.org/wiki/Capture_of_Savannah",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1782,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 July 1782, British evacuation",
+     "source": "https://en.wikipedia.org/wiki/History_of_Savannah,_Georgia",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1861,
+     "to": 1864,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January-February 1861, Georgia secedes and joins CSA",
+     "source": "https://en.wikipedia.org/wiki/Georgia_in_the_American_Civil_War",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1864,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "21-22 December 1864, Sherman takes Savannah",
+     "source": "https://en.wikipedia.org/wiki/Savannah_campaign",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "St. Augustine",
+   "lat": 29.9,
+   "lon": -81.31,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1565,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Timucua (Mocama/Saturiwa)"
+     ],
+     "date": "pre-1565",
+     "source": "https://en.wikipedia.org/wiki/St._Augustine,_Florida",
+     "confidence": "high",
+     "note": "Timucua village of Seloy."
+    },
+    {
+     "from": 1565,
+     "to": 1763,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "8 September 1565, founded by Menéndez de Avilés",
+     "source": "https://en.wikipedia.org/wiki/St._Augustine,_Florida",
+     "confidence": "high",
+     "note": "Capital of Spanish Florida. Moore's 1702 siege failed."
+    },
+    {
+     "from": 1763,
+     "to": 1784,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July 1763, British take possession (Treaty of Paris 1763)",
+     "source": "https://en.wikipedia.org/wiki/St._Augustine,_Florida",
+     "confidence": "high",
+     "note": "Capital of British East Florida."
+    },
+    {
+     "from": 1784,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July 1784, Spain resumes possession (Treaty of Paris 1783)",
+     "source": "https://en.wikipedia.org/wiki/St._Augustine,_Florida",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1821,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "10 July 1821, transfer to US under Adams-Onís Treaty",
+     "source": "https://en.wikipedia.org/wiki/Adams%E2%80%93On%C3%ADs_Treaty",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1861,
+     "to": 1862,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January 1861, Florida militia seize Fort Marion; Florida joins CSA",
+     "source": "https://en.wikipedia.org/wiki/St._Augustine,_Florida",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1862,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "March 1862, Union troops occupy the city",
+     "source": "https://en.wikipedia.org/wiki/St._Augustine,_Florida",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Pensacola",
+   "lat": 30.42,
+   "lon": -87.22,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1559,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Pensacola people"
+     ],
+     "date": "pre-1559",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1559,
+     "to": 1561,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "15 August 1559, Tristán de Luna's colony",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "confidence": "high",
+     "note": "Abandoned 1561."
+    },
+    {
+     "from": 1561,
+     "to": 1698,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Pensacola people",
+      "Apalachee/Creek raiders"
+     ],
+     "date": "1561, Luna colony abandoned",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1698,
+     "to": 1719,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1698, Presidio Santa María de Galve",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1719,
+     "to": 1722,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1719, French capture",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1722,
+     "to": 1763,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1722, returned to Spain",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1763,
+     "to": 1781,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1763, British West Florida capital",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1781,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1781, Gálvez captures Pensacola",
+     "source": "https://en.wikipedia.org/wiki/Siege_of_Pensacola",
+     "confidence": "high",
+     "note": "Jackson's US occupations Nov 1814 (days) and May 1818 - Feb 1819 (<1 yr) skipped."
+    },
+    {
+     "from": 1821,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "17 July 1821, US takes possession; Jackson provisional governor",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1861,
+     "to": 1862,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January 1861, Florida secedes; Confederate control of city",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1862,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1862, Confederates abandon city; Union occupation",
+     "source": "https://en.wikipedia.org/wiki/Pensacola,_Florida",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Tallahassee (Apalachee)",
+   "lat": 30.44,
+   "lon": -84.28,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1633,
+     "ruler": "Apalachee chiefdom",
+     "aliases": [
+      "Apalachee Province"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "pre-1633",
+     "source": "https://en.wikipedia.org/wiki/Mission_San_Luis_de_Apalachee",
+     "confidence": "moderate",
+     "note": "Mississippian paramount chiefdom, capital Anhaica (in present Tallahassee)."
+    },
+    {
+     "from": 1633,
+     "to": 1704,
+     "ruler": "Apalachee chiefdom",
+     "aliases": [
+      "Apalachee Province"
+     ],
+     "overlord": "Spanish Empire",
+     "peoples": null,
+     "date": "1633, formal Spanish mission effort; Spanish soldiers 1638, deputy governor 1645",
+     "source": "https://en.wikipedia.org/wiki/Mission_San_Luis_de_Apalachee",
+     "confidence": "moderate",
+     "note": "Mission province under Spanish deputy governor at San Luis (moved to hilltop 1656)."
+    },
+    {
+     "from": 1704,
+     "to": 1821,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Creek",
+      "Seminole (Mikasuki)"
+     ],
+     "date": "July 1704, San Luis abandoned and burned after Moore's raids",
+     "source": "https://en.wikipedia.org/wiki/Mission_San_Luis_de_Apalachee",
+     "confidence": "moderate",
+     "note": "Creek/Seminole towns; Spanish (and 1763-83 British) fort at St. Marks 30 km south; Jackson's 1818 incursion."
+    },
+    {
+     "from": 1821,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1821, Florida transferred to US (Tallahassee chosen as capital 1824)",
+     "source": "https://en.wikipedia.org/wiki/Adams%E2%80%93On%C3%ADs_Treaty",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1861,
+     "to": 1865,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January 1861, Florida secedes; joins CSA",
+     "source": "https://en.wikipedia.org/wiki/Florida_in_the_American_Civil_War",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1865,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1865, Union occupies Tallahassee",
+     "source": "https://en.wikipedia.org/wiki/Florida_in_the_American_Civil_War",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Mound Key (Calusa capital)",
+   "lat": 26.42,
+   "lon": -81.86,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1566,
+     "ruler": "Calusa chiefdom",
+     "aliases": [
+      "Calusa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "pre-1566",
+     "source": "https://en.wikipedia.org/wiki/Calusa",
+     "confidence": "high",
+     "note": "Capital at Mound Key; dominated SW Florida."
+    },
+    {
+     "from": 1566,
+     "to": 1569,
+     "ruler": "Calusa chiefdom",
+     "aliases": [],
+     "overlord": "Spanish Empire",
+     "peoples": null,
+     "date": "1566, Spanish fort San Antón de Carlos and Jesuit mission at the Calusa capital",
+     "source": "https://en.wikipedia.org/wiki/Calusa",
+     "confidence": "moderate",
+     "note": "Spanish garrison installed a client chief; withdrawn 1569."
+    },
+    {
+     "from": 1569,
+     "to": 1711,
+     "ruler": "Calusa chiefdom",
+     "aliases": [],
+     "overlord": null,
+     "peoples": null,
+     "date": "1569, Spanish withdrawal",
+     "source": "https://en.wikipedia.org/wiki/Calusa",
+     "confidence": "moderate",
+     "note": "Calusa decline from Yamasee/Creek slave raids after 1704."
+    },
+    {
+     "from": 1711,
+     "to": 1850,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Calusa remnants",
+      "Cuban fishermen (Spanish Indians)",
+      "Seminole"
+     ],
+     "date": "1711, Spanish evacuate Calusa survivors to Cuba",
+     "source": "https://en.wikipedia.org/wiki/Calusa",
+     "confidence": "low",
+     "note": "Cuban fishing ranchos; Seminole; US title from 1821 (paper)."
+    },
+    {
+     "from": 1850,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1850, Fort Myers established (Third Seminole War ended 1858)",
+     "source": "https://en.wikipedia.org/wiki/Fort_Myers,_Florida",
+     "confidence": "low",
+     "note": "Florida joined CSA 1861 but the area saw little Confederate administration; Union held Fort Myers from 1863."
+    }
+   ]
+  },
+  {
+   "place": "New Echota (Cherokee capital)",
+   "lat": 34.54,
+   "lon": -84.91,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1580,
+     "ruler": "Coosa chiefdom",
+     "aliases": [
+      "Coosa",
+      "Kusa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "from at least 1400",
+     "source": "https://en.wikipedia.org/wiki/Coosa_chiefdom",
+     "confidence": "moderate",
+     "note": "Paramount chiefdom on the Coosawattee River; core abandoned by end of 16th c."
+    },
+    {
+     "from": 1580,
+     "to": 1794,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Muscogee (Creek)",
+      "Cherokee"
+     ],
+     "date": "late 16th c., Coosa core abandoned",
+     "source": "https://en.wikipedia.org/wiki/Coosa_chiefdom",
+     "confidence": "low",
+     "note": "Creek, then Cherokee from c. 1777 (Ustanali founded 1777, tribal seat from 1788)."
+    },
+    {
+     "from": 1794,
+     "to": 1832,
+     "ruler": "Cherokee Nation",
+     "aliases": [
+      "Cherokee"
+     ],
+     "overlord": "United States",
+     "peoples": null,
+     "date": "1794, Little Turkey recognised as principal chief of a unified Cherokee Nation; New Echota capital 1825",
+     "source": "https://en.wikipedia.org/wiki/Cherokee_Nation_(1794%E2%80%931907)",
+     "confidence": "moderate",
+     "note": "Domestic dependent nation within the US."
+    },
+    {
+     "from": 1832,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1832, Georgia land lottery of Cherokee lands; Cherokee government moves to Red Clay",
+     "source": "https://en.wikipedia.org/wiki/New_Echota",
+     "confidence": "moderate",
+     "note": "Removal of Cherokee 1838."
+    },
+    {
+     "from": 1861,
+     "to": 1864,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January 1861, Georgia secedes",
+     "source": "https://en.wikipedia.org/wiki/Georgia_in_the_American_Civil_War",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1864,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1864, Union armies occupy northwest Georgia (Atlanta campaign)",
+     "source": "https://en.wikipedia.org/wiki/Atlanta_campaign",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Mobile",
+   "lat": 30.69,
+   "lon": -88.04,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1702,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Mobilian",
+      "Tohomé"
+     ],
+     "date": "pre-1702",
+     "source": "https://en.wikipedia.org/wiki/Mobile,_Alabama",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1702,
+     "to": 1763,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1702, Fort Louis de la Louisiane (moved to present site 1711)",
+     "source": "https://en.wikipedia.org/wiki/Mobile,_Alabama",
+     "confidence": "high",
+     "note": "Capital of French Louisiana 1702-1720."
+    },
+    {
+     "from": 1763,
+     "to": 1780,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1763, British West Florida",
+     "source": "https://en.wikipedia.org/wiki/Mobile,_Alabama",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1780,
+     "to": 1813,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "14 March 1780, Gálvez takes Fort Charlotte",
+     "source": "https://en.wikipedia.org/wiki/Battle_of_Fort_Charlotte",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1813,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "April 1813, seized by Gen. James Wilkinson",
+     "source": "https://en.wikipedia.org/wiki/Mobile,_Alabama",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1861,
+     "to": 1865,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January-February 1861, Alabama secedes and joins CSA",
+     "source": "https://en.wikipedia.org/wiki/Alabama_in_the_American_Civil_War",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1865,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 April 1865, city surrenders to Union army",
+     "source": "https://en.wikipedia.org/wiki/Mobile,_Alabama",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "New Orleans",
+   "lat": 29.95,
+   "lon": -90.07,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1718,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Chitimacha",
+      "Quinipissa/Bayogoula"
+     ],
+     "date": "pre-1718",
+     "source": "https://en.wikipedia.org/wiki/History_of_New_Orleans",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1718,
+     "to": 1769,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1718, founded by Bienville; capital of Louisiana from 1722",
+     "source": "https://en.wikipedia.org/wiki/History_of_New_Orleans",
+     "confidence": "high",
+     "note": "Ceded to Spain 1762; Ulloa arrived 1766 but was expelled 1768."
+    },
+    {
+     "from": 1769,
+     "to": 1803,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "August 1769, O'Reilly takes effective control",
+     "source": "https://en.wikipedia.org/wiki/History_of_New_Orleans",
+     "confidence": "high",
+     "note": "France regained title 1800 and held it 20 days (30 Nov - 20 Dec 1803) - skipped."
+    },
+    {
+     "from": 1803,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "20 December 1803, Louisiana Purchase transfer",
+     "source": "https://en.wikipedia.org/wiki/Louisiana_Purchase",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1861,
+     "to": 1862,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January-March 1861, Louisiana secedes and joins CSA",
+     "source": "https://en.wikipedia.org/wiki/Louisiana_in_the_American_Civil_War",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1862,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1862, Union occupation after Farragut's capture (29 Apr)",
+     "source": "https://en.wikipedia.org/wiki/Capture_of_New_Orleans",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Natchez (Fort Rosalie)",
+   "lat": 31.56,
+   "lon": -91.4,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1716,
+     "ruler": "Natchez chiefdom",
+     "aliases": [
+      "Natchez",
+      "Théloël"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "pre-1716",
+     "source": "https://en.wikipedia.org/wiki/Natchez_people",
+     "confidence": "low",
+     "note": "Great Sun chiefdom (Plaquemine/Natchez); start date uncertain."
+    },
+    {
+     "from": 1716,
+     "to": 1729,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1716, French build Fort Rosalie",
+     "source": "https://en.wikipedia.org/wiki/Fort_Rosalie",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1729,
+     "to": 1730,
+     "ruler": "Natchez chiefdom",
+     "aliases": [
+      "Natchez"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "29 November 1729, Natchez revolt destroys the French post",
+     "source": "https://en.wikipedia.org/wiki/Fort_Rosalie",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1730,
+     "to": 1763,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "early 1730, French and Choctaw retake the site; Natchez dispersed 1731",
+     "source": "https://en.wikipedia.org/wiki/Fort_Rosalie",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1763,
+     "to": 1779,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1763, Treaty of Paris; Fort Panmure",
+     "source": "https://en.wikipedia.org/wiki/Fort_Rosalie",
+     "confidence": "high",
+     "note": "British garrison arrived 1764."
+    },
+    {
+     "from": 1779,
+     "to": 1798,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1779, Fort Panmure capitulates to Spain",
+     "source": "https://en.wikipedia.org/wiki/Fort_Rosalie",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1798,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "March 1798, Spanish withdraw; capital of Mississippi Territory",
+     "source": "https://en.wikipedia.org/wiki/Fort_Rosalie",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1861,
+     "to": 1863,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January 1861, Mississippi secedes and joins CSA",
+     "source": "https://en.wikipedia.org/wiki/Mississippi_in_the_American_Civil_War",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1863,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July 1863, Union occupies Natchez",
+     "source": "https://en.wikipedia.org/wiki/Natchez,_Mississippi",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "St. Louis",
+   "lat": 38.63,
+   "lon": -90.2,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1764,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Illinois Confederation",
+      "Osage",
+      "Missouria"
+     ],
+     "date": "pre-1764",
+     "source": "https://en.wikipedia.org/wiki/History_of_St._Louis_(1763%E2%80%931804)",
+     "confidence": "moderate",
+     "note": "Mississippian Cahokia abandoned by c. 1350-1400."
+    },
+    {
+     "from": 1764,
+     "to": 1770,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "February 1764, Laclède and Chouteau found St. Louis",
+     "source": "https://en.wikipedia.org/wiki/History_of_St._Louis_(1763%E2%80%931804)",
+     "confidence": "moderate",
+     "note": "De facto French administration (St. Ange) though Louisiana ceded to Spain 1762."
+    },
+    {
+     "from": 1770,
+     "to": 1804,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1770, Spanish lieutenant governor Piernas takes office",
+     "source": "https://en.wikipedia.org/wiki/History_of_St._Louis_(1763%E2%80%931804)",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1804,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9-10 March 1804, Three Flags Day",
+     "source": "https://en.wikipedia.org/wiki/Three_Flags_Day",
+     "confidence": "high",
+     "note": "Missouri a Union state in the Civil War."
+    }
+   ]
+  },
+  {
+   "place": "Detroit",
+   "lat": 42.33,
+   "lon": -83.05,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1701,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Odawa",
+      "Potawatomi",
+      "Wyandot",
+      "Ojibwe"
+     ],
+     "date": "pre-1701",
+     "source": "https://en.wikipedia.org/wiki/History_of_Detroit",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1701,
+     "to": 1760,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "New France",
+      "Q70972"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "24 July 1701, Cadillac founds Fort Pontchartrain du Détroit",
+     "source": "https://en.wikipedia.org/wiki/History_of_Detroit",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1760,
+     "to": 1796,
+     "ruler": "Kingdom of Great Britain",
+     "aliases": [
+      "Great Britain",
+      "British Empire",
+      "Q161885"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "29 November 1760, British take over",
+     "source": "https://en.wikipedia.org/wiki/History_of_Detroit",
+     "confidence": "high",
+     "note": "Held by Britain after 1783 until Jay Treaty handover. Pontiac's siege 1763 failed."
+    },
+    {
+     "from": 1796,
+     "to": 1812,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 July 1796, British hand over under Jay Treaty",
+     "source": "https://en.wikipedia.org/wiki/Jay_Treaty",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1812,
+     "to": 1813,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "16 August 1812, Hull surrenders",
+     "source": "https://en.wikipedia.org/wiki/Siege_of_Detroit",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1813,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "29 September 1813, Americans reoccupy after British withdrawal",
+     "source": "https://en.wikipedia.org/wiki/History_of_Detroit",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Chicago (Fort Dearborn)",
+   "lat": 41.88,
+   "lon": -87.63,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1803,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Miami",
+      "Potawatomi",
+      "Illinois Confederation"
+     ],
+     "date": "pre-1803",
+     "source": "https://en.wikipedia.org/wiki/Fort_Dearborn",
+     "confidence": "moderate",
+     "note": "French mission 1696 and British claims were not effective occupation."
+    },
+    {
+     "from": 1803,
+     "to": 1812,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1803, Fort Dearborn built",
+     "source": "https://en.wikipedia.org/wiki/Fort_Dearborn",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1812,
+     "to": 1816,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Potawatomi"
+     ],
+     "date": "15-16 August 1812, Potawatomi destroy Fort Dearborn",
+     "source": "https://en.wikipedia.org/wiki/Fort_Dearborn",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1816,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1816, Fort Dearborn rebuilt",
+     "source": "https://en.wikipedia.org/wiki/Fort_Dearborn",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Tahlequah (Cherokee Nation, Indian Territory)",
+   "lat": 35.91,
+   "lon": -94.98,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1828,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Osage",
+      "Caddoan peoples (earlier)"
+     ],
+     "date": "pre-1828",
+     "source": "https://en.wikipedia.org/wiki/Tahlequah,_Oklahoma",
+     "confidence": "low",
+     "note": "Osage hunting grounds (ceded 1825)."
+    },
+    {
+     "from": 1828,
+     "to": 1861,
+     "ruler": "Cherokee Nation",
+     "aliases": [
+      "Cherokee"
+     ],
+     "overlord": "United States",
+     "peoples": null,
+     "date": "1828-29, Western Cherokee (Old Settlers) settle under 1828 treaty; Tahlequah capital 1839",
+     "source": "https://en.wikipedia.org/wiki/Tahlequah,_Oklahoma",
+     "confidence": "moderate",
+     "note": "Self-governing nation; US Fort Gibson nearby from 1824."
+    },
+    {
+     "from": 1861,
+     "to": 1863,
+     "ruler": "Cherokee Nation",
+     "aliases": [
+      "Cherokee"
+     ],
+     "overlord": "Confederate States of America",
+     "peoples": null,
+     "date": "7 October 1861, treaty of alliance with the Confederacy",
+     "source": "https://en.wikipedia.org/wiki/Cherokee_Nation_(1794%E2%80%931907)",
+     "confidence": "moderate",
+     "note": "Union retook Fort Gibson April 1863; Cherokee council repudiated alliance Feb 1863."
+    },
+    {
+     "from": 1863,
+     "to": 1907,
+     "ruler": "Cherokee Nation",
+     "aliases": [
+      "Cherokee"
+     ],
+     "overlord": "United States",
+     "peoples": null,
+     "date": "1863, Union control restored",
+     "source": "https://en.wikipedia.org/wiki/Cherokee_Nation_(1794%E2%80%931907)",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1907,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "16 November 1907, Oklahoma statehood; Cherokee government dissolved",
+     "source": "https://en.wikipedia.org/wiki/Cherokee_Nation_(1794%E2%80%931907)",
+     "confidence": "high",
+     "note": "Modern Cherokee Nation is a federally recognised tribal government within the US."
+    }
+   ]
+  },
+  {
+   "place": "Bismarck (Mandan Heart River villages)",
+   "lat": 46.81,
+   "lon": -100.78,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1782,
+     "ruler": "Mandan",
+     "aliases": [
+      "Nueta",
+      "Mandan villages"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "by 15th c., Mandan consolidated in villages on the Missouri near the Heart River",
+     "source": "https://en.wikipedia.org/wiki/Mandan",
+     "confidence": "moderate",
+     "note": "Fortified earth-lodge towns (Huff, Double Ditch)."
+    },
+    {
+     "from": 1782,
+     "to": 1872,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Lakota",
+      "Yanktonai",
+      "Arikara",
+      "Mandan"
+     ],
+     "date": "1781-82, smallpox; Mandan move c. 25 miles north",
+     "source": "https://en.wikipedia.org/wiki/Mandan",
+     "confidence": "moderate",
+     "note": "Louisiana Purchase 1803 (paper); Dakota Territory 1861."
+    },
+    {
+     "from": 1872,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1872, Bismarck (Edwinton) founded; Fort Abraham Lincoln",
+     "source": "https://en.wikipedia.org/wiki/Bismarck,_North_Dakota",
+     "confidence": "high",
+     "note": "Capital of Dakota Territory 1883, North Dakota 1889."
+    }
+   ]
+  },
+  {
+   "place": "Black Hills",
+   "lat": 43.9,
+   "lon": -103.6,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1776,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Arikara",
+      "Kiowa",
+      "Plains Apache",
+      "Crow",
+      "Cheyenne"
+     ],
+     "date": "pre-1776",
+     "source": "https://en.wikipedia.org/wiki/Black_Hills",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1776,
+     "to": 1876,
+     "ruler": "Lakota",
+     "aliases": [
+      "Oceti Sakowin",
+      "Teton Sioux",
+      "Great Sioux Nation"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1776, Lakota take the Black Hills from the Cheyenne",
+     "source": "https://en.wikipedia.org/wiki/Black_Hills",
+     "confidence": "moderate",
+     "note": "Recognised as Lakota by Fort Laramie treaties 1851 and 1868. Some winter counts give c. 1765."
+    },
+    {
+     "from": 1876,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1876, gold-rush occupation and Great Sioux War (Act of 28 Feb 1877 annexes)",
+     "source": "https://en.wikipedia.org/wiki/Black_Hills",
+     "confidence": "moderate",
+     "note": "Lakota claim upheld by US Supreme Court 1980 (compensation refused)."
+    }
+   ]
+  },
+  {
+   "place": "Fort Phil Kearny (Powder River country)",
+   "lat": 44.53,
+   "lon": -106.83,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1750,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Shoshone",
+      "Kiowa",
+      "Crow (arriving)"
+     ],
+     "date": "pre-1750",
+     "source": "https://en.wikipedia.org/wiki/Red_Cloud%27s_War",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1750,
+     "to": 1860,
+     "ruler": "Crow Nation",
+     "aliases": [
+      "Apsáalooke",
+      "Crow"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18th c., Crow (Apsáalooke) hold the Powder River country",
+     "source": "https://en.wikipedia.org/wiki/Red_Cloud%27s_War",
+     "confidence": "low",
+     "note": "Crow camp documented 1805; 1851 Fort Laramie treaty recognised Crow territory here."
+    },
+    {
+     "from": 1860,
+     "to": 1866,
+     "ruler": "Lakota",
+     "aliases": [
+      "Oceti Sakowin",
+      "Teton Sioux"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "by 1860, Lakota and Cheyenne drive the Crow out",
+     "source": "https://en.wikipedia.org/wiki/Red_Cloud%27s_War",
+     "confidence": "moderate",
+     "note": "Allied Northern Cheyenne and Arapaho."
+    },
+    {
+     "from": 1866,
+     "to": 1868,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July 1866, Fort Phil Kearny established on the Bozeman Trail",
+     "source": "https://en.wikipedia.org/wiki/Fort_Phil_Kearny",
+     "confidence": "high",
+     "note": "Besieged throughout Red Cloud's War."
+    },
+    {
+     "from": 1868,
+     "to": 1876,
+     "ruler": "Lakota",
+     "aliases": [
+      "Oceti Sakowin",
+      "Teton Sioux"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "August 1868, fort abandoned under Treaty of Fort Laramie (1868)",
+     "source": "https://en.wikipedia.org/wiki/Red_Cloud%27s_War",
+     "confidence": "high",
+     "note": "Unceded Indian territory."
+    },
+    {
+     "from": 1876,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1876-77, Great Sioux War; Cantonment Reno / Fort McKinney 1876-78",
+     "source": "https://en.wikipedia.org/wiki/Great_Sioux_War_of_1876",
+     "confidence": "moderate",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Denver",
+   "lat": 39.74,
+   "lon": -104.99,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1858,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Arapaho",
+      "Cheyenne",
+      "Ute (earlier)"
+     ],
+     "date": "pre-1858",
+     "source": "https://en.wikipedia.org/wiki/History_of_Denver",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1858,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "October-November 1858, Auraria and Denver City founded (Kansas Territory)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Denver",
+     "confidence": "high",
+     "note": "Extra-legal Territory of Jefferson Oct 1859 - Jun 1861; Colorado Territory 28 Feb 1861."
+    }
+   ]
+  },
+  {
+   "place": "Palo Duro Canyon (Comanchería)",
+   "lat": 34.95,
+   "lon": -101.66,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1740,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Plains Apache (Querechos)"
+     ],
+     "date": "pre-c. 1740",
+     "source": "https://en.wikipedia.org/wiki/Comancheria",
+     "confidence": "low",
+     "note": "Querechos met by Coronado 1541."
+    },
+    {
+     "from": 1740,
+     "to": 1875,
+     "ruler": "Comanche",
+     "aliases": [
+      "Comanchería",
+      "Numunuu"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "early-mid 18th c., Comanche expansion onto the southern plains",
+     "source": "https://en.wikipedia.org/wiki/Comancheria",
+     "confidence": "low",
+     "note": "Comanchería; Kiowa allies. Spanish/Mexican/Texan/US claims were paper."
+    },
+    {
+     "from": 1875,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "2 June 1875, Quanah Parker's Kwahadi surrender at Fort Sill after the Red River War (Palo Duro Canyon battle 28 Sep 1874)",
+     "source": "https://en.wikipedia.org/wiki/Red_River_War",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "San Antonio",
+   "lat": 29.42,
+   "lon": -98.49,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1718,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Payaya (Coahuiltecan)"
+     ],
+     "date": "pre-1718",
+     "source": "https://en.wikipedia.org/wiki/History_of_San_Antonio",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1718,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 May 1718, Mission San Antonio de Valero; presidio 5 May",
+     "source": "https://en.wikipedia.org/wiki/History_of_San_Antonio",
+     "confidence": "high",
+     "note": "Capital of Spanish Texas from 1772. Gutiérrez-Magee Republic Apr-Aug 1813 skipped."
+    },
+    {
+     "from": 1821,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July 1821, Texas adheres to Mexican independence",
+     "source": "https://en.wikipedia.org/wiki/Mexican_Texas",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 1835,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1835,
+     "to": 1846,
+     "ruler": "Republic of Texas",
+     "aliases": [
+      "Texas Republic",
+      "Q170588"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 December 1835, Texians capture Béxar",
+     "source": "https://en.wikipedia.org/wiki/Siege_of_B%C3%A9xar",
+     "confidence": "high",
+     "note": "Mexican reoccupation Feb-May 1836 (Alamo) and Sept 1842 (Woll) skipped. Independence declared 2 Mar 1836."
+    },
+    {
+     "from": 1846,
+     "to": 1861,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 February 1846, annexation takes effect",
+     "source": "https://en.wikipedia.org/wiki/Texas_annexation",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1861,
+     "to": 1865,
+     "ruler": "Confederate States of America",
+     "aliases": [
+      "Confederacy",
+      "Confederate States",
+      "Q81931"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "February-March 1861, Texas secedes; Twiggs surrenders US posts at San Antonio 16 Feb",
+     "source": "https://en.wikipedia.org/wiki/Texas_in_the_American_Civil_War",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1865,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "June 1865, Union forces reoccupy Texas",
+     "source": "https://en.wikipedia.org/wiki/Texas_in_the_American_Civil_War",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Santa Fe",
+   "lat": 35.69,
+   "lon": -105.94,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1610,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Tanoan Pueblos (Tewa, Tano)"
+     ],
+     "date": "pre-1610",
+     "source": "https://en.wikipedia.org/wiki/History_of_Santa_Fe,_New_Mexico",
+     "confidence": "moderate",
+     "note": "Autonomous Pueblo towns; Oñate's colony at Ohkay Owingeh from 1598."
+    },
+    {
+     "from": 1610,
+     "to": 1680,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1610, Santa Fe capital of New Mexico (town begun 1607)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Santa_Fe,_New_Mexico",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1680,
+     "to": 1692,
+     "ruler": "Pueblo Revolt alliance",
+     "aliases": [
+      "Pueblo peoples",
+      "Tano Pueblo",
+      "Popé"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "August 1680, Pueblo Revolt expels Spanish",
+     "source": "https://en.wikipedia.org/wiki/Pueblo_Revolt",
+     "confidence": "high",
+     "note": "Pueblo peoples governed from the Palace of the Governors."
+    },
+    {
+     "from": 1692,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1692, de Vargas reconquest (city fully reoccupied Dec 1693)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Santa_Fe,_New_Mexico",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1821,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1821, Plan of Iguala / Treaty of Córdoba; Army of the Three Guarantees enters Mexico City 27 Sep 1821",
+     "source": "https://en.wikipedia.org/wiki/Mexican_War_of_Independence",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 1846,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": "Texas claim 1836-50 paper only; 1837 Chimayó rebellion skipped."
+    },
+    {
+     "from": 1846,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 August 1846, Kearny occupies Santa Fe",
+     "source": "https://en.wikipedia.org/wiki/History_of_Santa_Fe,_New_Mexico",
+     "confidence": "high",
+     "note": "Confederate occupation March 1862 (weeks) skipped."
+    }
+   ]
+  },
+  {
+   "place": "Tucson",
+   "lat": 32.22,
+   "lon": -110.97,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1775,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Sobaipuri",
+      "Tohono O'odham"
+     ],
+     "date": "pre-1775",
+     "source": "https://en.wikipedia.org/wiki/History_of_Tucson,_Arizona",
+     "confidence": "moderate",
+     "note": "Hohokam to c. 1450; Kino's mission San Xavier del Bac 1700 nearby."
+    },
+    {
+     "from": 1775,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "20 August 1775, Presidio San Agustín del Tucsón",
+     "source": "https://en.wikipedia.org/wiki/History_of_Tucson,_Arizona",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1821,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1821, Plan of Iguala / Treaty of Córdoba; Army of the Three Guarantees enters Mexico City 27 Sep 1821",
+     "source": "https://en.wikipedia.org/wiki/Mexican_War_of_Independence",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 1856,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": "Gadsden Purchase signed Dec 1853, ratified June 1854; Mormon Battalion passed Dec 1846."
+    },
+    {
+     "from": 1856,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "March 1856, Mexican garrison leaves; US troops arrive",
+     "source": "https://en.wikipedia.org/wiki/Gadsden_Purchase",
+     "confidence": "moderate",
+     "note": "Treaty in force 1854 is the alternative date. Confederate occupation Feb-May 1862 skipped."
+    }
+   ]
+  },
+  {
+   "place": "Apache Pass (Chiricahua country)",
+   "lat": 32.15,
+   "lon": -109.44,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1862,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Chiricahua Apache"
+     ],
+     "date": "pre-1862",
+     "source": "https://en.wikipedia.org/wiki/Fort_Bowie",
+     "confidence": "moderate",
+     "note": "Apachería; Spanish/Mexican and (1854) US claims were paper. Apache arrival in the region c. 1500s."
+    },
+    {
+     "from": 1862,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July 1862, Battle of Apache Pass; Fort Bowie built",
+     "source": "https://en.wikipedia.org/wiki/Fort_Bowie",
+     "confidence": "moderate",
+     "note": "Chiricahua Reservation 1872-76; Geronimo surrendered 1886."
+    }
+   ]
+  },
+  {
+   "place": "Salt Lake City",
+   "lat": 40.76,
+   "lon": -111.89,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1847,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Ute",
+      "Northwestern Shoshone",
+      "Goshute"
+     ],
+     "date": "pre-1847",
+     "source": "https://en.wikipedia.org/wiki/State_of_Deseret",
+     "confidence": "high",
+     "note": "Mexican claim (paper)."
+    },
+    {
+     "from": 1847,
+     "to": 1851,
+     "ruler": "State of Deseret",
+     "aliases": [
+      "Mormon provisional government",
+      "Deseret"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "24 July 1847, Mormon pioneers arrive; church-run government, Deseret constitution March 1849",
+     "source": "https://en.wikipedia.org/wiki/State_of_Deseret",
+     "confidence": "moderate",
+     "note": "De facto Mormon provisional government; US sovereignty from Treaty of Guadalupe Hidalgo (1848)."
+    },
+    {
+     "from": 1851,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1850-51, Utah Territory organised (9 Sept 1850); Deseret dissolved April 1851",
+     "source": "https://en.wikipedia.org/wiki/Utah_Territory",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Monterey (California)",
+   "lat": 36.6,
+   "lon": -121.89,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1770,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Rumsen Ohlone"
+     ],
+     "date": "pre-1770",
+     "source": "https://en.wikipedia.org/wiki/Presidio_of_Monterey",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1770,
+     "to": 1822,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "3 June 1770, Presidio of Monterey founded",
+     "source": "https://en.wikipedia.org/wiki/Presidio_of_Monterey",
+     "confidence": "high",
+     "note": "Capital of the Californias from 1777. Bouchard raid Nov 1818 (days) skipped."
+    },
+    {
+     "from": 1822,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "April 1822, Alta California swears allegiance to Mexico",
+     "source": "https://en.wikipedia.org/wiki/Mexican_California",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 1846,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": "Commodore Jones' mistaken seizure Oct 1842 (1 day) skipped."
+    },
+    {
+     "from": 1846,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "7 July 1846, Commodore Sloat raises US flag",
+     "source": "https://en.wikipedia.org/wiki/Battle_of_Monterey",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "San Francisco",
+   "lat": 37.8,
+   "lon": -122.45,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1776,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Yelamu (Ohlone)"
+     ],
+     "date": "pre-1776",
+     "source": "https://en.wikipedia.org/wiki/Presidio_of_San_Francisco",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1776,
+     "to": 1822,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "17 September 1776, Presidio dedicated",
+     "source": "https://en.wikipedia.org/wiki/Presidio_of_San_Francisco",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1822,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "April 1822, Alta California swears allegiance to Mexico",
+     "source": "https://en.wikipedia.org/wiki/Mexican_California",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 1846,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1846,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 July 1846, US Navy occupies Yerba Buena",
+     "source": "https://en.wikipedia.org/wiki/History_of_San_Francisco",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Los Angeles",
+   "lat": 34.05,
+   "lon": -118.24,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1781,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Tongva"
+     ],
+     "date": "pre-1781",
+     "source": "https://en.wikipedia.org/wiki/History_of_Los_Angeles",
+     "confidence": "high",
+     "note": "Village of Yaanga."
+    },
+    {
+     "from": 1781,
+     "to": 1822,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "4 September 1781, pueblo founded",
+     "source": "https://en.wikipedia.org/wiki/History_of_Los_Angeles",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1822,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "April 1822, Alta California swears allegiance to Mexico",
+     "source": "https://en.wikipedia.org/wiki/Mexican_California",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 1846,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": "Capital of Alta California at times (1835/1845)."
+    },
+    {
+     "from": 1846,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "13 August 1846, Stockton and Frémont occupy Los Angeles",
+     "source": "https://en.wikipedia.org/wiki/History_of_Los_Angeles",
+     "confidence": "high",
+     "note": "Californio recapture Sept 1846 - Jan 1847 (Treaty of Cahuenga 13 Jan 1847) skipped."
+    }
+   ]
+  },
+  {
+   "place": "Fort Ross",
+   "lat": 38.51,
+   "lon": -123.24,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1812,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Kashaya Pomo"
+     ],
+     "date": "pre-1812",
+     "source": "https://en.wikipedia.org/wiki/Fort_Ross,_California",
+     "confidence": "high",
+     "note": "Metini."
+    },
+    {
+     "from": 1812,
+     "to": 1841,
+     "ruler": "Russian Empire",
+     "aliases": [
+      "Russia",
+      "Russian America",
+      "Russian-American Company",
+      "Q34266"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 September 1812, Fort Ross dedicated by Kuskov (Russian-American Company)",
+     "source": "https://en.wikipedia.org/wiki/Fort_Ross,_California",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1841,
+     "to": 1846,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "December 1841, sold to John Sutter (Mexican citizen); Russians depart",
+     "source": "https://en.wikipedia.org/wiki/Fort_Ross,_California",
+     "confidence": "moderate",
+     "note": "Under Mexican jurisdiction."
+    },
+    {
+     "from": 1846,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July 1846, US occupation of northern California",
+     "source": "https://en.wikipedia.org/wiki/Conquest_of_California",
+     "confidence": "high",
+     "note": "Bear Flag (California Republic) June-July 1846 skipped."
+    }
+   ]
+  },
+  {
+   "place": "Fort Vancouver (Oregon Country)",
+   "lat": 45.63,
+   "lon": -122.66,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1825,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Chinookan peoples",
+      "Cowlitz"
+     ],
+     "date": "pre-1825",
+     "source": "https://en.wikipedia.org/wiki/Fort_Vancouver",
+     "confidence": "high",
+     "note": "Joint US-UK occupation of Oregon Country from 1818 (paper)."
+    },
+    {
+     "from": 1825,
+     "to": 1846,
+     "ruler": "United Kingdom",
+     "aliases": [
+      "Hudson's Bay Company",
+      "Oregon Country",
+      "United Kingdom of Great Britain and Ireland",
+      "Britain",
+      "British Empire",
+      "Q174193"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "winter 1824-25 (opened March 1825), HBC builds Fort Vancouver",
+     "source": "https://en.wikipedia.org/wiki/Fort_Vancouver",
+     "confidence": "high",
+     "note": "HBC Columbia Department headquarters; de facto British authority north of the Columbia."
+    },
+    {
+     "from": 1846,
+     "to": 2025,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "15 June 1846, Oregon Treaty sets border at 49°N",
+     "source": "https://en.wikipedia.org/wiki/Oregon_Treaty",
+     "confidence": "moderate",
+     "note": "HBC stayed until 1860; US Army Columbia Barracks 1849; Oregon Territory 1848."
+    }
+   ]
+  },
+  {
+   "place": "Monterrey",
+   "lat": 25.67,
+   "lon": -100.31,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1596,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Guachichil",
+      "Coahuiltecan bands"
+     ],
+     "date": "pre-1596",
+     "source": "https://en.wikipedia.org/wiki/History_of_Monterrey",
+     "confidence": "moderate",
+     "note": "Earlier Spanish attempts 1577 (Santa Lucía) and 1582 (Carvajal) were abandoned."
+    },
+    {
+     "from": 1596,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "20 September 1596, Diego de Montemayor founds Monterrey",
+     "source": "https://en.wikipedia.org/wiki/Monterrey",
+     "confidence": "high",
+     "note": "Nuevo Reino de León."
+    },
+    {
+     "from": 1821,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "3 July 1821, Nuevo León adheres to the Plan of Iguala",
+     "source": "https://en.wikipedia.org/wiki/History_of_Monterrey",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 1846,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1846,
+     "to": 1848,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "24 September 1846, capitulation after Battle of Monterrey",
+     "source": "https://en.wikipedia.org/wiki/Battle_of_Monterrey",
+     "confidence": "high",
+     "note": "US military occupation until mid-1848."
+    },
+    {
+     "from": 1848,
+     "to": 1864,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "June 1848, US withdrawal after Treaty of Guadalupe Hidalgo",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1864,
+     "to": 1866,
+     "ruler": "Second Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Empire of Maximilian",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "15-29 August 1864, Imperialist/French capture of Monterrey",
+     "source": "https://en.wikipedia.org/wiki/Capture_of_Monterrey_(1864)",
+     "confidence": "high",
+     "note": "Republicans held it a few days Nov 1865."
+    },
+    {
+     "from": 1866,
+     "to": 2025,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 July 1866, Imperialists evacuate Monterrey",
+     "source": "https://en.wikipedia.org/wiki/Second_French_intervention_in_Mexico",
+     "confidence": "moderate",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Saltillo",
+   "lat": 25.42,
+   "lon": -100.99,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1577,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Guachichil"
+     ],
+     "date": "pre-1577",
+     "source": "https://en.wikipedia.org/wiki/Saltillo",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1577,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 July 1577, Villa de Santiago del Saltillo founded",
+     "source": "https://en.wikipedia.org/wiki/Saltillo",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1821,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1821, Plan of Iguala / Treaty of Córdoba; Army of the Three Guarantees enters Mexico City 27 Sep 1821",
+     "source": "https://en.wikipedia.org/wiki/Mexican_War_of_Independence",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 1846,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": "Capital of Coahuila y Tejas from 1824."
+    },
+    {
+     "from": 1846,
+     "to": 1848,
+     "ruler": "United States",
+     "aliases": [
+      "United States of America",
+      "USA",
+      "United Colonies",
+      "Q30"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "16 November 1846, occupied by Taylor's army",
+     "source": "https://en.wikipedia.org/wiki/Saltillo",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1848,
+     "to": 1864,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1848, US withdrawal",
+     "source": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1864,
+     "to": 1866,
+     "ruler": "Second Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Empire of Maximilian",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "late 1864, held by Imperialists",
+     "source": "https://en.wikipedia.org/wiki/Second_French_intervention_in_Mexico",
+     "confidence": "moderate",
+     "note": "Republican Negrete briefly held it in 1865."
+    },
+    {
+     "from": 1866,
+     "to": 2025,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "4 August 1866, Imperialists evacuate Saltillo",
+     "source": "https://en.wikipedia.org/wiki/Second_French_intervention_in_Mexico",
+     "confidence": "moderate",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Chihuahua (city)",
+   "lat": 28.63,
+   "lon": -106.09,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1709,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Concho"
+     ],
+     "date": "pre-1709",
+     "source": "https://en.wikipedia.org/wiki/Chihuahua_(city)",
+     "confidence": "moderate",
+     "note": "Nueva Vizcaya mining frontier (Parral 1631, Santa Eulalia c. 1707) lay to the south/east."
+    },
+    {
+     "from": 1709,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 October 1709, Real de Minas de San Francisco de Cuéllar founded",
+     "source": "https://en.wikipedia.org/wiki/Chihuahua_(city)",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1821,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1821, Plan of Iguala / Treaty of Córdoba; Army of the Three Guarantees enters Mexico City 27 Sep 1821",
+     "source": "https://en.wikipedia.org/wiki/Mexican_War_of_Independence",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 2025,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": "US occupations Mar-Apr 1847 and Mar-Jul 1848, and French/Imperial occupations 15 Aug - 29 Oct 1865 and Dec 1865 - early 1866, each under a year, skipped. Juárez's seat of government 1864-65; Villa's base 1913-15."
+    }
+   ]
+  },
+  {
+   "place": "Ciudad Juárez (Paso del Norte)",
+   "lat": 31.74,
+   "lon": -106.49,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1659,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Manso",
+      "Suma"
+     ],
+     "date": "pre-1659",
+     "source": "https://en.wikipedia.org/wiki/Ciudad_Ju%C3%A1rez",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1659,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1659, Mission Nuestra Señora de Guadalupe de El Paso del Norte",
+     "source": "https://en.wikipedia.org/wiki/Ciudad_Ju%C3%A1rez",
+     "confidence": "high",
+     "note": "Refuge of New Mexico government 1680-1692."
+    },
+    {
+     "from": 1821,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1821, Plan of Iguala / Treaty of Córdoba; Army of the Three Guarantees enters Mexico City 27 Sep 1821",
+     "source": "https://en.wikipedia.org/wiki/Mexican_War_of_Independence",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 2025,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": "Doniphan's occupation Dec 1846 - Feb 1847 skipped. Never taken by Imperialists; Juárez's seat Aug-Nov 1865 and 1866. Madero's capture May 1911."
+    }
+   ]
+  },
+  {
+   "place": "Hermosillo",
+   "lat": 29.1,
+   "lon": -110.95,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1700,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Seri (Comcaac)",
+      "Pima Bajo",
+      "Tepoca"
+     ],
+     "date": "pre-1700",
+     "source": "https://en.wikipedia.org/wiki/Hermosillo",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1700,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 May 1700, Nuestra Señora del Pópulo; Presidio of Pitic June 1741",
+     "source": "https://en.wikipedia.org/wiki/Hermosillo",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1821,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1821, Plan of Iguala / Treaty of Córdoba; Army of the Three Guarantees enters Mexico City 27 Sep 1821",
+     "source": "https://en.wikipedia.org/wiki/Mexican_War_of_Independence",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 1865,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": "Raousset-Boulbon briefly took Hermosillo Oct 1852 (days)."
+    },
+    {
+     "from": 1865,
+     "to": 1866,
+     "ruler": "Second Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Empire of Maximilian",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "late 1865, Imperialists advance from Guaymas (French landing 29 March 1865)",
+     "source": "https://en.wikipedia.org/wiki/Hermosillo",
+     "confidence": "low",
+     "note": "Republicans briefly entered 4 May and 13 Nov 1866."
+    },
+    {
+     "from": 1866,
+     "to": 2025,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1866, French withdraw from Sonora",
+     "source": "https://en.wikipedia.org/wiki/Second_French_intervention_in_Mexico",
+     "confidence": "moderate",
+     "note": "State capital from 1879."
+    }
+   ]
+  },
+  {
+   "place": "Loreto (Baja California)",
+   "lat": 26.01,
+   "lon": -111.34,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1697,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Monqui",
+      "Guaycura"
+     ],
+     "date": "pre-1697",
+     "source": "https://en.wikipedia.org/wiki/Loreto,_Baja_California_Sur",
+     "confidence": "high",
+     "note": "Cortés' La Paz attempt 1535 and Atondo's 1683-85 San Bruno were short-lived."
+    },
+    {
+     "from": 1697,
+     "to": 1822,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 October 1697, Salvatierra founds Misión de Loreto",
+     "source": "https://en.wikipedia.org/wiki/Loreto,_Baja_California_Sur",
+     "confidence": "high",
+     "note": "Capital of the Californias to 1777, of Baja California to 1829."
+    },
+    {
+     "from": 1822,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "March 1822, Baja California adheres to Mexican independence",
+     "source": "https://en.wikipedia.org/wiki/Mexican_California",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 2025,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "high",
+     "note": "US naval occupation of Baja ports 1847-48 and Walker's 1853-54 filibuster did not hold Loreto for long."
+    }
+   ]
+  },
+  {
+   "place": "Vícam (Yaqui River)",
+   "lat": 27.64,
+   "lon": -110.29,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1617,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": [
+      "Yaqui (Yoeme)"
+     ],
+     "date": "pre-1617",
+     "source": "https://en.wikipedia.org/wiki/Yaqui_Wars",
+     "confidence": "moderate",
+     "note": "Yaqui defeated Spanish expeditions 1533 and 1609-10."
+    },
+    {
+     "from": 1617,
+     "to": 1821,
+     "ruler": "Spanish Empire",
+     "aliases": [
+      "Spain",
+      "New Spain",
+      "Crown of Castile",
+      "Q80702"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1617, Jesuit missions accepted by the Yaqui",
+     "source": "https://en.wikipedia.org/wiki/Yaqui",
+     "confidence": "moderate",
+     "note": "Eight Yaqui towns retained internal self-government; revolt 1740-42."
+    },
+    {
+     "from": 1821,
+     "to": 1823,
+     "ruler": "First Mexican Empire",
+     "aliases": [
+      "Mexican Empire",
+      "Mexico"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1821, Plan of Iguala / Treaty of Córdoba; Army of the Three Guarantees enters Mexico City 27 Sep 1821",
+     "source": "https://en.wikipedia.org/wiki/Mexican_War_of_Independence",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1823,
+     "to": 1875,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 March 1823, abdication of Iturbide; republic (1824 constitution)",
+     "source": "https://en.wikipedia.org/wiki/First_Mexican_Empire",
+     "confidence": "low",
+     "note": "Banderas revolt 1825-33; Yaqui allied with Imperialists 1865."
+    },
+    {
+     "from": 1875,
+     "to": 1886,
+     "ruler": "Yaqui (Cajemé)",
+     "aliases": [
+      "Yaqui republic",
+      "Yoeme"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c. 1875, Cajemé leads an autonomous Yaqui government",
+     "source": "https://en.wikipedia.org/wiki/Yaqui_Wars",
+     "confidence": "low",
+     "note": "Wikipedia dates Cajemé's leadership 1874-1887."
+    },
+    {
+     "from": 1886,
+     "to": 2025,
+     "ruler": "Mexico",
+     "aliases": [
+      "United Mexican States",
+      "Mexican Republic",
+      "Q96"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1886, Mexican army captures El Añil; Cajemé executed April 1887",
+     "source": "https://en.wikipedia.org/wiki/Yaqui_Wars",
+     "confidence": "moderate",
+     "note": "Guerrilla resistance until 1927-29."
+    }
+   ]
+  }
+ ]
+}

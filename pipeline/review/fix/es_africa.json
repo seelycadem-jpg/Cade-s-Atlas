@@ -1,0 +1,1398 @@
+[
+ {
+  "from": 1936,
+  "to": 1941,
+  "country": "Ethiopia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Italy",
+  "why": "Ethiopia was occupied and annexed by Italy (Addis Ababa fell 5 May 1936) as part of Italian East Africa until the British-Ethiopian reconquest of 1941; map shows Italy in only part of the country",
+  "source": "https://en.wikipedia.org/wiki/Italian_East_Africa",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1531,
+  "country": "Ethiopia",
+  "regions": [
+   "Tigray",
+   "Amhara"
+  ],
+  "owner": "Ethiopian Empire",
+  "why": "Tigray and Amhara were the core of the Solomonic Ethiopian Empire before the Adal invasion; map flickers every decade between the Empire and 'East African peoples' / 'Funj Sultanate' / 'Nuba and Kordofan' peoples",
+  "source": "https://en.wikipedia.org/wiki/Ethiopian_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1543,
+  "to": 1890,
+  "country": "Ethiopia",
+  "regions": [
+   "Tigray",
+   "Amhara"
+  ],
+  "owner": "Ethiopian Empire",
+  "why": "After the defeat of Ahmad Gragn (1543) the highlands of Tigray and Amhara (Gondar, Lasta, Begemder) stayed under the Ethiopian Empire through the Gondarine period, Zemene Mesafint and Yohannes IV; map alternates decade by decade with peoples, Funj Sultanate and 'Bedouin tribes'",
+  "source": "https://en.wikipedia.org/wiki/Ethiopian_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1936,
+  "country": "Ethiopia",
+  "regions": [
+   "Oromiya",
+   "Harari People",
+   "Dire Dawa",
+   "Addis Ababa"
+  ],
+  "owner": "Ethiopia",
+  "why": "Menelik II had subdued Arsi (1886), Harar (Jan 1887), Gurage (1889) and founded Addis Ababa (1886) before becoming emperor in 1889; map shows these as 'East African peoples' (a pseudo-polity) in 1890",
+  "source": "https://en.wikipedia.org/wiki/Menelik_II",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 1936,
+  "country": "Ethiopia",
+  "regions": [
+   "Southern Nations, Nationalities and Peoples",
+   "Somali",
+   "Benshangul-Gumaz",
+   "Gambela Peoples",
+   "Afar"
+  ],
+  "owner": "Ethiopia",
+  "why": "By 1900 Menelik had conquered Wolayta, Kaffa, the Ogaden (from 1891), Borana (1896-97) and Benishangul (1898); map shows parts as Kenya [UK] and Sudan [UK] in 1900 and as 'East African peoples' in 1890",
+  "source": "https://en.wikipedia.org/wiki/Menelik_II",
+  "severity": "major"
+ },
+ {
+  "from": 1557,
+  "to": 1866,
+  "country": "Eritrea",
+  "regions": [
+   "Semenawi Keyih Bahri"
+  ],
+  "owner": "Habesh Eyalet",
+  "overlord": "Ottoman Empire",
+  "why": "Ottomans took Massawa in 1557 and held it as Habesh Eyalet until it was transferred to Egypt in 1866; map shows Habesh only every other decade, alternating with Ethiopian Empire / Funj Sultanate",
+  "source": "https://en.wikipedia.org/wiki/Habesh_Eyalet",
+  "severity": "major"
+ },
+ {
+  "from": 1866,
+  "to": 1885,
+  "country": "Eritrea",
+  "regions": [
+   "Semenawi Keyih Bahri"
+  ],
+  "owner": "Khedivate of Egypt",
+  "why": "Massawa coast incorporated into Khedivial Egypt in 1866 until the Italian landing of 1885",
+  "source": "https://en.wikipedia.org/wiki/Habesh_Eyalet",
+  "severity": "major"
+ },
+ {
+  "from": 1885,
+  "to": 1890,
+  "country": "Eritrea",
+  "regions": [
+   "Semenawi Keyih Bahri"
+  ],
+  "owner": "Eritrea",
+  "overlord": "Italy/Sardinia",
+  "why": "Italy occupied Massawa in February 1885, before the 1890 proclamation of the Eritrea colony",
+  "source": "https://en.wikipedia.org/wiki/Italian_Eritrea",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1531,
+  "country": "Eritrea",
+  "regions": [
+   "Maekel",
+   "Debub"
+  ],
+  "owner": "Medri Bahri",
+  "overlord": "Ethiopian Empire",
+  "why": "Highland Eritrea (Hamasien, Seraye) was Medri Bahri, governed by the Bahr Negash under the Ethiopian emperor; map alternates every decade between Medri Bahri, Ethiopian Empire and 'Saharan nomads (Tuareg, Moors, Tubu)'",
+  "source": "https://en.wikipedia.org/wiki/Medri_Bahri",
+  "severity": "major"
+ },
+ {
+  "from": 1543,
+  "to": 1879,
+  "country": "Eritrea",
+  "regions": [
+   "Maekel",
+   "Debub"
+  ],
+  "owner": "Medri Bahri",
+  "overlord": "Ethiopian Empire",
+  "why": "Medri Bahri (Bahr Negash, later the autonomous Hab Sellus rulers of Hamasien) persisted until Yohannes IV placed it under Ras Alula; map alternates every decade between Medri Bahri, Ethiopian Empire and peoples",
+  "source": "https://en.wikipedia.org/wiki/Medri_Bahri",
+  "severity": "major"
+ },
+ {
+  "from": 1879,
+  "to": 1890,
+  "country": "Eritrea",
+  "regions": [
+   "Maekel",
+   "Debub"
+  ],
+  "owner": "Ethiopian Empire",
+  "why": "Highlands governed directly for Yohannes IV by Ras Alula until Italian occupation (Asmara 1889, colony 1890)",
+  "source": "https://en.wikipedia.org/wiki/Medri_Bahri",
+  "severity": "minor"
+ },
+ {
+  "from": 1577,
+  "to": 1630,
+  "country": "Djibouti",
+  "regions": [
+   "*"
+  ],
+  "owner": "Imamate of Aussa",
+  "why": "After Adal's collapse the Imamate of Aussa (1577) ruled eastern Ethiopia and north-western Djibouti; map alternates every decade between Aussa and 'Ethiopian Empire 67% / Ottoman Empire 33%', neither of which held Djibouti",
+  "source": "https://en.wikipedia.org/wiki/Imamate_of_Aussa",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1884,
+  "country": "Djibouti",
+  "regions": [
+   "Tadjourah"
+  ],
+  "owner": "Sultanate of Tadjoura",
+  "why": "Tadjoura was the seat of the Afar Dardar sultans (list from 1620) until the French protectorate treaties of 1883-87; map alternates with 'Ethiopian Empire' every other decade",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Tadjoura",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1884,
+  "country": "Djibouti",
+  "regions": [
+   "Obock"
+  ],
+  "owner": "Sultanate of Rahayta",
+  "why": "Obock coast belonged to the Afar sultans of Raheita until French occupation; map alternates with 'Ethiopian Empire' and 'Ottoman Empire', neither of which held it",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Tadjoura",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1760,
+  "country": "Djibouti",
+  "regions": [
+   "Ali Sabieh–Arta–Dikhil"
+  ],
+  "owner": "Sultanate of Tadjoura",
+  "why": "Southern Djibouti hinterland under Afar sultanates; map alternates with 'Ethiopian Empire', which never ruled here",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Tadjoura",
+  "severity": "minor"
+ },
+ {
+  "from": 1760,
+  "to": 1885,
+  "country": "Djibouti",
+  "regions": [
+   "Ali Sabieh–Arta–Dikhil"
+  ],
+  "owner": "Sultanate of Gobaad",
+  "why": "Gobaad sultanate in the Dikhil plain (treaty partner of France); map alternates with 'Ottoman Empire'",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Tadjoura",
+  "severity": "minor"
+ },
+ {
+  "from": 1884,
+  "to": 1890,
+  "country": "Djibouti",
+  "regions": [
+   "Obock",
+   "Tadjourah"
+  ],
+  "owner": "Djibouti",
+  "overlord": "France",
+  "why": "French Obock territory (bought 1862) was occupied and extended to Tadjoura by protectorate treaties from 1884",
+  "source": "https://en.wikipedia.org/wiki/French_Somaliland",
+  "severity": "minor"
+ },
+ {
+  "from": 1577,
+  "to": 1630,
+  "country": "Somaliland",
+  "regions": [
+   "Somaliland"
+  ],
+  "owner": "none",
+  "why": "The Imamate of Aussa ruled the Afar lowlands of eastern Ethiopia/Djibouti, not Somaliland (only a brief seizure of Zeila 1584-89); map shows Aussa over 100% of Somaliland",
+  "source": "https://en.wikipedia.org/wiki/Imamate_of_Aussa",
+  "severity": "major"
+ },
+ {
+  "from": 1991,
+  "to": 2026,
+  "country": "Somaliland",
+  "regions": [
+   "Somaliland"
+  ],
+  "owner": "Somaliland",
+  "why": "Somaliland declared independence in May 1991 and has administered the former British Somaliland de facto since; map shows it on only 12% and Somalia on the rest (east of Sool/Sanaag is disputed with Puntland)",
+  "source": "https://en.wikipedia.org/wiki/Somaliland",
+  "severity": "minor"
+ },
+ {
+  "from": 1889,
+  "to": 1927,
+  "country": "Somalia",
+  "regions": [
+   "Bari"
+  ],
+  "owner": "Majeerteen Sultanate",
+  "overlord": "Italy/Sardinia",
+  "why": "Majeerteen Sultanate became an Italian protectorate by the Alula treaty of 7 Apr 1889 but kept its own rule until conquered in the Campaign of the Sultanates (1927); map shows direct Italian Somaliland from 1890 (paper claim, not occupation)",
+  "source": "https://en.wikipedia.org/wiki/Majeerteen_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1889,
+  "to": 1905,
+  "country": "Somalia",
+  "regions": [
+   "Nugaal"
+  ],
+  "owner": "Majeerteen Sultanate",
+  "overlord": "Italy/Sardinia",
+  "why": "Nugaal was Majeerteen territory under the 1889 Italian protectorate until ceded to the Dervishes in 1905",
+  "source": "https://en.wikipedia.org/wiki/Majeerteen_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1905,
+  "to": 1920,
+  "country": "Somalia",
+  "regions": [
+   "Nugaal"
+  ],
+  "owner": "Dervish State",
+  "why": "By the Illig treaty (1905) Italy ceded the Nugaal valley to Mohammed Abdullah Hassan's Dervish State (HQ at Eyl 1905-09), which lasted until the 1920 British campaign; the Dervish State is absent from the map",
+  "source": "https://en.wikipedia.org/wiki/Dervish_movement_(Somali)",
+  "severity": "major"
+ },
+ {
+  "from": 1920,
+  "to": 1927,
+  "country": "Somalia",
+  "regions": [
+   "Nugaal"
+  ],
+  "owner": "Majeerteen Sultanate",
+  "overlord": "Italy/Sardinia",
+  "why": "After the fall of the Dervishes (1920) Nugaal reverted to the Majeerteen protectorate until Italian direct rule in 1927",
+  "source": "https://en.wikipedia.org/wiki/Majeerteen_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1889,
+  "to": 1927,
+  "country": "Somalia",
+  "regions": [
+   "Mudug",
+   "Galguduud"
+  ],
+  "owner": "Sultanate of Hobyo",
+  "overlord": "Italy/Sardinia",
+  "why": "Hobyo became an Italian protectorate (8 Feb 1889) but stayed self-ruling until annexed in the Campaign of the Sultanates (1925-27); map shows direct Italian rule from 1890",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Hobyo",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1908,
+  "country": "Somalia",
+  "regions": [
+   "Shabeellaha Hoose"
+  ],
+  "owner": "Geledi Sultanate",
+  "why": "Italy held only Benadir ports (Merca, Barawa 1893); the Geledi Sultanate at Afgooye ruled the Lower Shabelle until Italy pushed inland in 1905-08 (incorporated 1911); map shows full Italian control from 1890",
+  "source": "https://en.wikipedia.org/wiki/Geledi_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1908,
+  "country": "Somalia",
+  "regions": [
+   "Bay",
+   "Bakool",
+   "Hiiraan"
+  ],
+  "owner": "none",
+  "why": "Italian occupation of the interior began only with the 1905-08 campaigns and the interior towns stayed contested for years; map shows Italian Somaliland across the interior from 1890",
+  "source": "https://en.wikipedia.org/wiki/Italian_Somaliland",
+  "severity": "minor"
+ },
+ {
+  "from": 1941,
+  "to": 1950,
+  "country": "Somalia",
+  "regions": [
+   "*"
+  ],
+  "owner": "British Military Administration",
+  "overlord": "United Kingdom",
+  "why": "British forces took Italian Somaliland in Feb 1941 and held it under military administration until the 1950 UN trusteeship under Italy",
+  "source": "https://en.wikipedia.org/wiki/Italian_Somaliland",
+  "severity": "minor"
+ },
+ {
+  "from": 1840,
+  "to": 1860,
+  "country": "Somalia",
+  "regions": [
+   "Bari"
+  ],
+  "owner": "Majeerteen Sultanate",
+  "why": "The Majeerteen Sultanate ruled Bari continuously from the 18th century; map replaces it for 1840-59 with an 'Omani Slave Coast' (no Omani rule in the far north-east)",
+  "source": "https://en.wikipedia.org/wiki/Majeerteen_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1860,
+  "country": "Somalia",
+  "regions": [
+   "Shabeellaha Hoose"
+  ],
+  "owner": "Geledi Sultanate",
+  "why": "Lower Shabelle was ruled by the Geledi Sultanate (Afgooye), at its height under Yusuf Mahamud and Ahmed Yusuf (d. 1878); Zanzibari claims covered only port towns. Map shows an anachronistic 'Omani Slave Coast'",
+  "source": "https://en.wikipedia.org/wiki/Geledi_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1840,
+  "to": 1860,
+  "country": "Somalia",
+  "regions": [
+   "Mudug"
+  ],
+  "owner": "Hiraab Imamate",
+  "why": "Mudug was Hawiye/Hiraab country, never Omani-ruled; map shows 'Omani Slave Coast' for 1840-59",
+  "source": "https://en.wikipedia.org/wiki/Hiraab_Imamate",
+  "severity": "minor"
+ },
+ {
+  "from": 1856,
+  "to": 1890,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Zanzibar South and Central",
+   "Kusini-Pemba"
+  ],
+  "owner": "Sultanate of Zanzibar",
+  "why": "Zanzibar and Pemba formed the Sultanate of Zanzibar after the 1856 split from Oman; map labels them 'People's Republic of Zanzibar', a name from the 1964 revolution",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Zanzibar",
+  "severity": "major"
+ },
+ {
+  "from": 1820,
+  "to": 1856,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Zanzibar South and Central",
+   "Kusini-Pemba"
+  ],
+  "owner": "Sultanate of Oman",
+  "why": "Zanzibar and Pemba were ruled by Said bin Sultan of Oman (who moved his court to Zanzibar) until the 1856 partition; map uses an invented 'Omani Slave Coast'",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Zanzibar",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1900,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Tanga",
+   "Pwani",
+   "Dar-Es-Salaam",
+   "Lindi",
+   "Mtwara"
+  ],
+  "owner": "Tanzania (Tanganyika)",
+  "overlord": "Germany (Prussia)",
+  "why": "The mainland coast was administered by the German East Africa Company from 1888 and, after the Abushiri revolt was crushed (1889), by German imperial forces; map shows it as British-protected Zanzibar in 1890",
+  "source": "https://en.wikipedia.org/wiki/German_East_Africa",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1900,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Morogoro"
+  ],
+  "owner": "none",
+  "why": "Morogoro was never part of Zanzibar under British protection; inland German control was still being established in the 1890s",
+  "source": "https://en.wikipedia.org/wiki/German_East_Africa",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1895,
+  "country": "Kenya",
+  "regions": [
+   "Central",
+   "Eastern",
+   "Rift Valley",
+   "North-Eastern"
+  ],
+  "owner": "none",
+  "why": "In 1890-95 the IBEA Company effectively administered only the leased coastal strip; the East Africa Protectorate was proclaimed 1 July 1895 and interior rule came later. Map shows UK rule over most of Kenya from 1890",
+  "source": "https://en.wikipedia.org/wiki/East_Africa_Protectorate",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1901,
+  "country": "Uganda",
+  "regions": [
+   "Mbarara–Rukungiri–Rubirizi–Ibanda–Buhweju–Bushenyi–Sheema"
+  ],
+  "owner": "Kingdom of Ankole",
+  "why": "Nkore/Ankole (founded 15th c.) was the main kingdom of south-west Uganda until the Ankole Agreement of 1901; map drops it after 1600 for Buhweju and shows Buganda there 1810-49",
+  "source": "https://en.wikipedia.org/wiki/Nkore",
+  "severity": "major"
+ },
+ {
+  "from": 1810,
+  "to": 1830,
+  "country": "Uganda",
+  "regions": [
+   "Kibale–Kyenjojo–Kabarole–Ntoroko",
+   "Mubende–Kasese–Kamwenge",
+   "Kiryandongo–Apac–Buyende–Amolatar"
+  ],
+  "owner": "Kingdom of Bunyoro-Kitara",
+  "why": "These western/northern lands were Bunyoro's, not Buganda's; map shows Buganda holding half of Uganda 1810-49",
+  "source": "https://en.wikipedia.org/wiki/Tooro_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1876,
+  "country": "Uganda",
+  "regions": [
+   "Kibale–Kyenjojo–Kabarole–Ntoroko"
+  ],
+  "owner": "Tooro Kingdom",
+  "why": "Tooro broke away from Bunyoro in 1830 under Olimi I, was reabsorbed in 1876 and restored in 1891; absent from the map (shown as Buganda 1810-49)",
+  "source": "https://en.wikipedia.org/wiki/Tooro_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1850,
+  "country": "Uganda",
+  "regions": [
+   "Mubende–Kasese–Kamwenge",
+   "Kiryandongo–Apac–Buyende–Amolatar"
+  ],
+  "owner": "Kingdom of Bunyoro-Kitara",
+  "why": "Bunyoro, not Buganda, held Mubende and the Kiryandongo-Apac area; Buganda shown there 1810-49 is wrong",
+  "source": "https://en.wikipedia.org/wiki/Tooro_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1876,
+  "to": 1891,
+  "country": "Uganda",
+  "regions": [
+   "Kibale–Kyenjojo–Kabarole–Ntoroko"
+  ],
+  "owner": "Kingdom of Bunyoro-Kitara",
+  "why": "Tooro was reabsorbed into Bunyoro-Kitara 1876-1891",
+  "source": "https://en.wikipedia.org/wiki/Tooro_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1891,
+  "to": 1900,
+  "country": "Uganda",
+  "regions": [
+   "Kibale–Kyenjojo–Kabarole–Ntoroko"
+  ],
+  "owner": "Tooro Kingdom",
+  "why": "Tooro regained independence in 1891 (under British sponsorship) before the 1900 protectorate agreements",
+  "source": "https://en.wikipedia.org/wiki/Tooro_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1897,
+  "country": "Rwanda",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Rwanda",
+  "why": "Map splits Rwanda in 1890 between 'Rwanda' and 'Kingdom of Rwanda' (one state)",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+  "severity": "minor"
+ },
+ {
+  "from": 1897,
+  "to": 1916,
+  "country": "Rwanda",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Rwanda",
+  "overlord": "German Empire",
+  "why": "Germany established a protectorate over the Kingdom of Rwanda in 1897 by alliance with the king, who kept ruling; map shows 'Tanzania (Tanganyika)' (wrong name and implies direct rule)",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1903,
+  "country": "Burundi",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Burundi",
+  "why": "Burundi was assigned to German East Africa on paper in 1890 but not effectively controlled until the 1902-03 campaign against Mwezi IV; map shows 'German Empire' from c.1900",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+  "severity": "major"
+ },
+ {
+  "from": 1903,
+  "to": 1916,
+  "country": "Burundi",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Burundi",
+  "overlord": "German Empire",
+  "why": "After the Treaty of Ikiganda (1903) the Mwami ruled under German protection until Belgian occupation in June 1916; map shows 'German Empire' then 'Tanzania (Tanganyika)'",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1893,
+  "country": "Zimbabwe",
+  "regions": [
+   "Bulawayo",
+   "Matabeleland North",
+   "Matabeleland South",
+   "Midlands"
+  ],
+  "owner": "Mthwakazi",
+  "why": "The BSAC Pioneer Column occupied only Mashonaland in 1890; Lobengula's Ndebele kingdom (Mthwakazi) ruled Matabeleland until the First Matabele War of 1893. Map shows Rhodesia over 95% in 1890",
+  "source": "https://en.wikipedia.org/wiki/First_Matabele_War",
+  "severity": "major"
+ },
+ {
+  "from": 1965,
+  "to": 1979,
+  "country": "Zimbabwe",
+  "regions": [
+   "*"
+  ],
+  "owner": "Rhodesia",
+  "why": "After UDI (Nov 1965) the territory was the unrecognised state of Rhodesia; map mixes 'Zimbabwe (Rhodesia)' (the colonial label) with 'Rhodesia'",
+  "source": "https://en.wikipedia.org/wiki/Rhodesia",
+  "severity": "major"
+ },
+ {
+  "from": 1979,
+  "to": 1980,
+  "country": "Zimbabwe",
+  "regions": [
+   "*"
+  ],
+  "owner": "Zimbabwe Rhodesia",
+  "why": "Zimbabwe Rhodesia (June 1979) followed by brief return to British control (Dec 1979) before independence as Zimbabwe in April 1980",
+  "source": "https://en.wikipedia.org/wiki/Rhodesia",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1430,
+  "country": "Zimbabwe",
+  "regions": [
+   "Mashonaland Central",
+   "Mashonaland West"
+  ],
+  "owner": "none",
+  "why": "'Cakaudrove' is a Fijian chiefdom and cannot be in Zimbabwe; before Mutapa's rise this was Shona land without a recorded state",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+  "severity": "major"
+ },
+ {
+  "from": 1430,
+  "to": 1629,
+  "country": "Zimbabwe",
+  "regions": [
+   "Mashonaland Central",
+   "Mashonaland West"
+  ],
+  "owner": "Mutapa Empire",
+  "why": "The northern plateau (Dande, Musengezi) was the heartland of the Mutapa state; map replaces it 1520-1629 with 'Cakaudrove' (a Fijian chiefdom) and uses two names (Kingdom of Mutapa / Mutapa Empire)",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+  "severity": "major"
+ },
+ {
+  "from": 1629,
+  "to": 1693,
+  "country": "Zimbabwe",
+  "regions": [
+   "Mashonaland Central",
+   "Mashonaland West"
+  ],
+  "owner": "Mutapa Empire",
+  "overlord": "Portuguese Empire",
+  "why": "Mavhura accepted Portuguese vassalage in 1629; Portuguese feiras on the plateau were destroyed by Changamire Dombo in 1693",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+  "severity": "minor"
+ },
+ {
+  "from": 1693,
+  "to": 1760,
+  "country": "Zimbabwe",
+  "regions": [
+   "Mashonaland Central"
+  ],
+  "owner": "Mutapa Empire",
+  "why": "Mutapa kept its northern plateau core until its capitals moved to Chidima (Zambezi valley) in the 18th century; map uses 'Kingdom of Mutapa ~est' (different colour)",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+  "severity": "minor"
+ },
+ {
+  "from": 1760,
+  "to": 1890,
+  "country": "Zimbabwe",
+  "regions": [
+   "Mashonaland Central"
+  ],
+  "owner": "none",
+  "why": "After Mutapa withdrew to Chidima the area was under Shona chieftaincies; map shows the Fijian chiefdom 'Cakaudrove'",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+  "severity": "major"
+ },
+ {
+  "from": 1693,
+  "to": 1838,
+  "country": "Zimbabwe",
+  "regions": [
+   "Mashonaland West"
+  ],
+  "owner": "Rozvi Empire",
+  "why": "Changamire Dombo's Rozvi state dominated the plateau from c.1683/1693 until the Nguni/Ndebele invasions of the 1830s (subdued c.1838); map shows 'Cakaudrove' (Fijian)",
+  "source": "https://en.wikipedia.org/wiki/Rozvi_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1838,
+  "to": 1890,
+  "country": "Zimbabwe",
+  "regions": [
+   "Mashonaland West"
+  ],
+  "owner": "none",
+  "why": "Shona chieftaincies raided by the Ndebele after Rozvi collapse; map shows 'Cakaudrove' (Fijian) until 1880",
+  "source": "https://en.wikipedia.org/wiki/Rozvi_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Zambia",
+  "regions": [
+   "Southern"
+  ],
+  "owner": "none",
+  "why": "'Cakaudrove' is a Fijian chiefdom; southern Zambia (Tonga/Ila plateau) had no recorded state",
+  "source": "https://en.wikipedia.org/wiki/Cakaudrove_Province",
+  "severity": "major"
+ },
+ {
+  "from": 1820,
+  "to": 1899,
+  "country": "Zambia",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "Bemba Kingdom",
+  "why": "The Bemba paramountcy (Chitimukulu) expanded under Chileshe Chepela (1810-60) and Chitapankwa (1866-87), peaking in the 1870s, until British South Africa Company rule at the end of the 1890s; the state is missing (map shows peoples, and 'Yeke' in 1860-90)",
+  "source": "https://encyclopedia.com/humanities/encyclopedias-almanacs-transcripts-and-maps/bemba",
+  "severity": "major"
+ },
+ {
+  "from": 1750,
+  "to": 1899,
+  "country": "Zambia",
+  "regions": [
+   "Luapula"
+  ],
+  "owner": "Kazembe Kingdom",
+  "why": "Mwata Kazembe's Lunda kingdom crossed the Luapula c.1745-60 and ruled the valley until the British burned its capital in 1899; map shows it on 3% only and puts Msiri's Yeke (based in Katanga) on the Zambian side",
+  "source": "https://en.wikipedia.org/wiki/Kazembe",
+  "severity": "major"
+ },
+ {
+  "from": 1864,
+  "to": 1898,
+  "country": "Zambia",
+  "regions": [
+   "Western"
+  ],
+  "owner": "Barotse Kingdom",
+  "why": "Lozi rule restored after the 1864 overthrow of the Kololo; map splits the kingdom between 'Barotse Kingdom', 'Barotseland' and (1890) 'Lozi'",
+  "source": "https://en.wikipedia.org/wiki/Barotseland",
+  "severity": "minor"
+ },
+ {
+  "from": 1898,
+  "to": 1911,
+  "country": "Zambia",
+  "regions": [
+   "Western"
+  ],
+  "owner": "Barotseland",
+  "overlord": "British South Africa Company",
+  "why": "Barotseland became a BSAC/British protectorate (resident 1897, Lawley Concession 1898) and merged into Northern Rhodesia in 1911; map shows it as Portuguese Angola in 1900",
+  "source": "https://en.wikipedia.org/wiki/Barotseland",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 1911,
+  "country": "Zambia",
+  "regions": [
+   "North-Western"
+  ],
+  "owner": "Northwestern Rhodesia",
+  "overlord": "United Kingdom",
+  "why": "North-western Zambia stayed British (only land further west went to Angola in 1905); map shows 'Angola [under Portugal]' here in 1900",
+  "source": "https://en.wikipedia.org/wiki/Barotseland",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1904,
+  "country": "Malawi",
+  "regions": [
+   "Mzimba"
+  ],
+  "owner": "Mbelwa's Ngoni",
+  "why": "The northern (Jere) Ngoni kingdom founded c.1850 accepted British rule only in 1904; map shows a pseudo-polity 'Bantu peoples' in 1890 and British rule from 1900",
+  "source": "https://en.wikipedia.org/wiki/British_Central_Africa_Protectorate",
+  "severity": "major"
+ },
+ {
+  "from": 1891,
+  "to": 1900,
+  "country": "Malawi",
+  "regions": [
+   "Blantyre–Neno",
+   "Machinga–Zomba–Mulanje"
+  ],
+  "owner": "Malawi",
+  "overlord": "United Kingdom",
+  "why": "Shire Highlands protectorate (1889) ratified as the British Central Africa Protectorate in May 1891, governed from Zomba; map shows 'Bantu peoples' as a polity",
+  "source": "https://en.wikipedia.org/wiki/British_Central_Africa_Protectorate",
+  "severity": "minor"
+ },
+ {
+  "from": 1900,
+  "to": 1953,
+  "country": "Malawi",
+  "regions": [
+   "Likoma"
+  ],
+  "owner": "Malawi",
+  "overlord": "United Kingdom",
+  "why": "Likoma island (UMCA headquarters from 1884) belongs to Malawi as an exclave in Mozambican waters; map gives it to Portuguese Mozambique and later Mozambique through 2025",
+  "source": "https://en.wikipedia.org/wiki/Likoma_Island",
+  "severity": "major"
+ },
+ {
+  "from": 1953,
+  "to": 1964,
+  "country": "Malawi",
+  "regions": [
+   "Likoma"
+  ],
+  "owner": "Federation of Rhodesia and Nyasaland",
+  "overlord": "United Kingdom",
+  "why": "Likoma part of Nyasaland within the Federation",
+  "source": "https://en.wikipedia.org/wiki/Likoma_Island",
+  "severity": "major"
+ },
+ {
+  "from": 1964,
+  "to": 2026,
+  "country": "Malawi",
+  "regions": [
+   "Likoma"
+  ],
+  "owner": "Malawi",
+  "why": "Likoma is part of Malawi (Likoma District); map shows Mozambique",
+  "source": "https://en.wikipedia.org/wiki/Likoma_Island",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1895,
+  "country": "Mozambique",
+  "regions": [
+   "Gaza",
+   "Inhambane",
+   "Manica"
+  ],
+  "owner": "Gaza Empire",
+  "why": "Gungunhana's Gaza Empire ruled southern Mozambique until its defeat by Portugal in 1895; map shows Portuguese rule from 1890",
+  "source": "https://en.wikipedia.org/wiki/Gaza_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1900,
+  "country": "Mozambique",
+  "regions": [
+   "Niassa"
+  ],
+  "owner": "Yao chiefdoms",
+  "why": "The Niassa Company (chartered 1891) occupied the inland concession only in 1900-02 and fought Yao chiefs until 1912; map shows Portuguese rule from 1890",
+  "source": "https://en.wikipedia.org/wiki/Niassa_Company",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1430,
+  "country": "Mozambique",
+  "regions": [
+   "Tete"
+  ],
+  "owner": "none",
+  "why": "'Cakaudrove' is a Fijian chiefdom; replace with no state before Mutapa",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1590,
+  "country": "Mozambique",
+  "regions": [
+   "Tete"
+  ],
+  "owner": "Mutapa Empire",
+  "why": "Mutapa controlled the Zambezi trade routes; map shows the Fijian chiefdom 'Cakaudrove' here 1520-1629",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+  "severity": "major"
+ },
+ {
+  "from": 1700,
+  "to": 1795,
+  "country": "South Africa",
+  "regions": [
+   "Western Cape"
+  ],
+  "owner": "Dutch Cape Colony",
+  "overlord": "Dutch Republic",
+  "why": "The VOC Cape Colony (founded 1652) covered the south-western Cape (Stellenbosch, Drakenstein, Swellendam 1745) until British occupation in 1795; map shows it only every other decade (3%) and drops it in 1700, 1710, 1730",
+  "source": "https://en.wikipedia.org/wiki/Dutch_Cape_Colony",
+  "severity": "major"
+ },
+ {
+  "from": 1795,
+  "to": 1803,
+  "country": "South Africa",
+  "regions": [
+   "Western Cape"
+  ],
+  "owner": "British Cape Colony",
+  "overlord": "British Empire",
+  "why": "First British occupation of the Cape 1795-1803",
+  "source": "https://en.wikipedia.org/wiki/Dutch_Cape_Colony",
+  "severity": "minor"
+ },
+ {
+  "from": 1803,
+  "to": 1806,
+  "country": "South Africa",
+  "regions": [
+   "Western Cape"
+  ],
+  "owner": "Dutch Cape Colony",
+  "overlord": "Batavian Republic",
+  "why": "Cape returned to the Batavian Republic under the Peace of Amiens (1803) until the British reoccupation after Blaauwberg (1806); map shows British throughout",
+  "source": "https://en.wikipedia.org/wiki/Dutch_Cape_Colony",
+  "severity": "minor"
+ },
+ {
+  "from": 1877,
+  "to": 1881,
+  "country": "South Africa",
+  "regions": [
+   "Gauteng",
+   "Limpopo",
+   "Mpumalanga"
+  ],
+  "owner": "Transvaal",
+  "overlord": "United Kingdom",
+  "why": "First British annexation of the Transvaal, 12 Apr 1877 to the Pretoria Convention (3 Aug 1881); map labels it 'British Cape Colony'",
+  "source": "https://en.wikipedia.org/wiki/Transvaal_Colony",
+  "severity": "minor"
+ },
+ {
+  "from": 1901,
+  "to": 1910,
+  "country": "South Africa",
+  "regions": [
+   "Gauteng",
+   "Limpopo",
+   "Mpumalanga"
+  ],
+  "owner": "Transvaal Colony",
+  "overlord": "United Kingdom",
+  "why": "Transvaal annexed as a British colony on 1 Sept 1900 (war ended 31 May 1902) until Union in 1910; map shows the independent Boer republic until 1910",
+  "source": "https://en.wikipedia.org/wiki/Transvaal_Colony",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 1910,
+  "country": "South Africa",
+  "regions": [
+   "Free State"
+  ],
+  "owner": "Orange River Colony",
+  "overlord": "United Kingdom",
+  "why": "The Orange Free State was annexed as the Orange River Colony in 1900 (confirmed by the Treaty of Vereeniging 1902) until Union in 1910; map shows the Boer republic until 1910",
+  "source": "https://en.wikipedia.org/wiki/Orange_River_Colony",
+  "severity": "major"
+ },
+ {
+  "from": 1450,
+  "to": 1520,
+  "country": "South Africa",
+  "regions": [
+   "Limpopo",
+   "Mpumalanga"
+  ],
+  "owner": "none",
+  "why": "Mutapa lay between the Zambezi and the Limpopo; it never ruled south of the Limpopo, yet the map gives it 11% of South Africa",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1520,
+  "country": "Mozambique",
+  "regions": [
+   "Gaza"
+  ],
+  "owner": "none",
+  "why": "Mutapa did not reach the lower Limpopo/Gaza; map gives it Gaza province 1450-1520",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1915,
+  "country": "Namibia",
+  "regions": [
+   "Oshikoto"
+  ],
+  "owner": "Ondonga",
+  "why": "Germany never occupied Ovamboland (north of the police zone 'Red Line', ruled indirectly through the kingdoms); Ondonga stayed self-governing until South African occupation in 1915. Map shows direct German rule from 1890",
+  "source": "https://en.wikipedia.org/wiki/German_South_West_Africa",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1917,
+  "country": "Namibia",
+  "regions": [
+   "Ohangwena"
+  ],
+  "owner": "Oukwanyama",
+  "why": "No colonial power challenged the Oukwanyama kingdom until 1915; King Mandume fell fighting South African forces in Feb 1917",
+  "source": "https://en.wikipedia.org/wiki/Mandume_ya_Ndemufayo",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1915,
+  "country": "Namibia",
+  "regions": [
+   "Omusati"
+  ],
+  "owner": "Ovambo kingdoms",
+  "why": "Western Ovambo kingdoms (Ongandjera, Uukwaluudhi etc.) lay outside German-administered territory until 1915",
+  "source": "https://en.wikipedia.org/wiki/Ovamboland",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1894,
+  "country": "Namibia",
+  "regions": [
+   "Hardap"
+  ],
+  "owner": "Nama chiefdoms",
+  "why": "Hendrik Witbooi's Nama resisted German rule in 1893-94; German control of Namaland dates from the 1894 settlement, not 1890",
+  "source": "https://en.wikipedia.org/wiki/German_South_West_Africa",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1895,
+  "country": "Madagascar",
+  "regions": [
+   "Alaotra-Mangoro",
+   "Amoron'i Mania",
+   "Analamanga",
+   "Analanjirofo",
+   "Atsimo-Atsinanana",
+   "Atsinanana",
+   "Betsiboka",
+   "Boeny",
+   "Bongolava",
+   "Diana",
+   "Haute Matsiatra",
+   "Melaky",
+   "Sava",
+   "Sofia",
+   "Vakinankaratra",
+   "Vatovavy-Fitovinany"
+  ],
+  "owner": "Merina Kingdom",
+  "why": "The Merina Kingdom remained sovereign until the French took Antananarivo in 1895 (protectorate 1896, colony 1897); map replaces it in 1890 with a modern 'Madagascar (Malagasy)' covering the whole island",
+  "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1897,
+  "country": "Madagascar",
+  "regions": [
+   "Ihorombe",
+   "Anosy"
+  ],
+  "owner": "Bara kingdoms",
+  "why": "The south and west were never Merina-ruled; the Bara stayed independent until French conquest after 1895",
+  "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1897,
+  "country": "Madagascar",
+  "regions": [
+   "Androy"
+  ],
+  "owner": "Antandroy",
+  "why": "The Antandroy south stayed independent of Merina rule until French conquest",
+  "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1840,
+  "to": 1890,
+  "country": "Madagascar",
+  "regions": [
+   "Betsiboka",
+   "Boeny",
+   "Melaky"
+  ],
+  "owner": "Merina Kingdom",
+  "why": "Map splits the same state into 'Merina Kingdom' and 'Kingdom of Imerina ~est' (two colours)",
+  "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1712,
+  "country": "Madagascar",
+  "regions": [
+   "Analanjirofo"
+  ],
+  "owner": "none",
+  "why": "'Cakaudrove' is a Fijian chiefdom; 'French India' (1690s) also never held this coast. No state before Ratsimilaho's Betsimisaraka confederation (1712)",
+  "source": "https://en.wikipedia.org/wiki/Betsimisaraka_people",
+  "severity": "major"
+ },
+ {
+  "from": 1712,
+  "to": 1817,
+  "country": "Madagascar",
+  "regions": [
+   "Analanjirofo"
+  ],
+  "owner": "Betsimisaraka Confederation",
+  "why": "Ratsimilaho's Betsimisaraka confederation (from 1712) held the north-east coast until Radama I took Toamasina in 1817; map shows the Fijian 'Cakaudrove' 1820-29",
+  "source": "https://en.wikipedia.org/wiki/Betsimisaraka_people",
+  "severity": "major"
+ },
+ {
+  "from": 1817,
+  "to": 1890,
+  "country": "Madagascar",
+  "regions": [
+   "Analanjirofo"
+  ],
+  "owner": "Merina Kingdom",
+  "why": "Merina conquest of the Betsimisaraka coast in 1817",
+  "source": "https://en.wikipedia.org/wiki/Betsimisaraka_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1690,
+  "country": "Madagascar",
+  "regions": [
+   "Betsiboka",
+   "Boeny",
+   "Melaky"
+  ],
+  "owner": "none",
+  "why": "'Cakaudrove' (Fiji) and, from 1620, the highland Merina Kingdom are shown in the north-west before the Sakalava Boina kingdom; Merina expansion here began only under Radama I",
+  "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1620,
+  "to": 1810,
+  "country": "Madagascar",
+  "regions": [
+   "Amoron'i Mania",
+   "Haute Matsiatra"
+  ],
+  "owner": "Betsileo kingdoms",
+  "why": "Imerina was a small highland state until Andrianampoinimerina reunified it from 1787; the Betsileo south of it were conquered only around 1800-1820. Map gives the Betsileo lands to Merina from 1620",
+  "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1620,
+  "to": 1820,
+  "country": "Madagascar",
+  "regions": [
+   "Vatovavy-Fitovinany"
+  ],
+  "owner": "Antambahoaka",
+  "why": "South-east coast (Antambahoaka/Antemoro) was outside Merina rule until Radama I's campaigns; map gives it to Merina from 1620",
+  "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1620,
+  "to": 1643,
+  "country": "Madagascar",
+  "regions": [
+   "Anosy"
+  ],
+  "owner": "Antanosy",
+  "why": "Anosy was Antanosy country, not Merina (map shows Merina from 1620)",
+  "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1643,
+  "to": 1674,
+  "country": "Madagascar",
+  "regions": [
+   "Anosy"
+  ],
+  "owner": "Fort-Dauphin",
+  "overlord": "Kingdom of France",
+  "why": "French colony of Fort-Dauphin (1643, ended by the 1674 massacre); map labels it 'New France', the name of French Canada",
+  "source": "https://en.wikipedia.org/wiki/Massacre_of_Fort-Dauphin_(Madagascar)",
+  "severity": "minor"
+ },
+ {
+  "from": 1674,
+  "to": 1825,
+  "country": "Madagascar",
+  "regions": [
+   "Anosy"
+  ],
+  "owner": "Antanosy",
+  "why": "After the French left, Anosy returned to Antanosy rule until the Merina expansion; map shows Merina 1620-1800",
+  "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1680,
+  "to": 1886,
+  "country": "Comoros",
+  "regions": [
+   "Andjouân"
+  ],
+  "owner": "Sultanate of Ndzuwani",
+  "why": "Anjouan remained an independent sultanate until the 1886 French protectorate treaty (France held only Mayotte from 1841); map shows 'French India [under Kingdom of France]' from 1680",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Comoros",
+  "severity": "major"
+ },
+ {
+  "from": 1680,
+  "to": 1886,
+  "country": "Comoros",
+  "regions": [
+   "Moûhîlî"
+  ],
+  "owner": "Sultanate of Mwali",
+  "why": "Mohéli was a local sultanate until the 1886 protectorate; map shows 'French India' from 1680",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Comoros",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1908,
+  "country": "Comoros",
+  "regions": [
+   "Andjouân"
+  ],
+  "owner": "Sultanate of Ndzuwani",
+  "overlord": "France",
+  "why": "Protectorate treaties of 1886; the islands joined the colony of Madagascar in 1908",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Comoros",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1908,
+  "country": "Comoros",
+  "regions": [
+   "Moûhîlî"
+  ],
+  "owner": "Sultanate of Mwali",
+  "overlord": "France",
+  "why": "French protectorate from 1886 until incorporation into Madagascar colony in 1908; map shows 'Mozambique [under Portugal]' in 1890-1910",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Comoros",
+  "severity": "major"
+ },
+ {
+  "from": 1735,
+  "to": 1809,
+  "country": "Mauritius",
+  "regions": [
+   "Rodrigues"
+  ],
+  "owner": "French India",
+  "overlord": "Kingdom of France",
+  "why": "Permanent French settlement on Rodrigues from 1735 (subordinate to the French Mascarenes) until British capture in 1809; map shows no polity on Rodrigues ever",
+  "source": "https://en.wikipedia.org/wiki/Rodrigues",
+  "severity": "major"
+ },
+ {
+  "from": 1809,
+  "to": 1968,
+  "country": "Mauritius",
+  "regions": [
+   "Rodrigues",
+   "Agaléga"
+  ],
+  "owner": "Mauritius",
+  "overlord": "United Kingdom",
+  "why": "Rodrigues (taken 1809) and Agaléga were British dependencies of Mauritius; map shows them with no polity through 2025",
+  "source": "https://en.wikipedia.org/wiki/Rodrigues",
+  "severity": "major"
+ },
+ {
+  "from": 1968,
+  "to": 2026,
+  "country": "Mauritius",
+  "regions": [
+   "Rodrigues",
+   "Agaléga"
+  ],
+  "owner": "Mauritius",
+  "why": "Rodrigues and Agaléga are part of the Republic of Mauritius (Rodrigues autonomous since 2002); map shows no polity",
+  "source": "https://en.wikipedia.org/wiki/Rodrigues",
+  "severity": "major"
+ },
+ {
+  "from": 1770,
+  "to": 1811,
+  "country": "Seychelles",
+  "regions": [
+   "*"
+  ],
+  "owner": "French India",
+  "overlord": "Kingdom of France",
+  "why": "French claim (1756) and settlement from 1770, administered from Isle de France, until Britain took possession in 1811; map shows the islands as empty, 'Madagascar' or 'Merina Kingdom'",
+  "source": "https://en.wikipedia.org/wiki/History_of_Seychelles",
+  "severity": "major"
+ },
+ {
+  "from": 1811,
+  "to": 1976,
+  "country": "Seychelles",
+  "regions": [
+   "*"
+  ],
+  "owner": "Seychelles",
+  "overlord": "United Kingdom",
+  "why": "British colony (dependency of Mauritius until 1903) from 1811; outer islands Aldabra, Farquhar and Des Roches were in BIOT 1965-76. Map shows most of the islands with no polity and parts under 'Merina Kingdom', 'Madagascar' and 'Comoros'",
+  "source": "https://en.wikipedia.org/wiki/History_of_Seychelles",
+  "severity": "major"
+ },
+ {
+  "from": 1976,
+  "to": 2026,
+  "country": "Seychelles",
+  "regions": [
+   "*"
+  ],
+  "owner": "Seychelles",
+  "why": "Independent republic since 29 June 1976; map shows 75% 'no polity' plus 'Comoros' and 'Madagascar' through 2025",
+  "source": "https://en.wikipedia.org/wiki/History_of_Seychelles",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1900,
+  "country": "United Republic of Tanzania",
+  "regions": [
+   "Katavi",
+   "Kigoma",
+   "Mbeya",
+   "Rukwa"
+  ],
+  "owner": "none",
+  "why": "Map shows a 'Mirambo Unyanyembe Ukimbu' state over western Tanzania in the 1890s, but Mirambo died in 1884, his Urambo alliance was confined to northern Unyamwezi (Tabora region) and never reached Kigoma, Katavi, Rukwa or Mbeya",
+  "source": "https://en.wikipedia.org/wiki/Mirambo",
+  "severity": "minor"
+ },
+ {
+  "from": 1745,
+  "to": 1820,
+  "country": "Swaziland",
+  "regions": [
+   "Lubombo"
+  ],
+  "owner": "Swazi Kingdom",
+  "why": "Ngwane III (succeeded 1744) founded the Swazi (Ngwane) kingdom with its capital at Shiselweni; map shows only 'Khoisan' / 'Bantu-speaking peoples' until 1820 (Bantu-speaking farmers had been there since at least the 11th century)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Eswatini",
+  "severity": "minor"
+ },
+ {
+  "from": 1840,
+  "to": 1850,
+  "country": "Swaziland",
+  "regions": [
+   "Lubombo"
+  ],
+  "owner": "Swazi Kingdom",
+  "why": "Map switches to 'Kingdom of Eswatini ~est' for one decade, between 'Swazi Kingdom' before and after (same state)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Eswatini",
+  "severity": "minor"
+ }
+]

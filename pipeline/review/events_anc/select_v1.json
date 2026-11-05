@@ -1,0 +1,7433 @@
+[
+ {
+  "id": "me-3400-uruk-expansion",
+  "y": -3400,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-3300-writing",
+  "h": "Uruk spreads the city model",
+  "where": "Uruk (Warka), southern Iraq",
+  "lat": 31.32,
+  "lon": 45.64,
+  "wk": "Uruk period",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "Uruk's colonies from Syria to Iran carried temple-run cities and long-distance trade; the setting in which writing appeared"
+ },
+ {
+  "id": "ea-3300-liangzhu",
+  "y": -3300,
+  "approx": true,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-1600-shang",
+  "h": "Liangzhu builds a walled city",
+  "where": "Liangzhu, Zhejiang, China",
+  "lat": 30.39,
+  "lon": 119.99,
+  "wk": "Liangzhu culture",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "Earliest state-like society in China, with water works and jade ritual later taken up by Shang"
+ },
+ {
+  "id": "me-3300-writing",
+  "y": -3300,
+  "approx": true,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Writing invented at Uruk",
+  "where": "Uruk (Warka), southern Iraq",
+  "lat": 31.32,
+  "lon": 45.64,
+  "wk": "Cuneiform",
+  "c": [
+   "ideas",
+   "economic"
+  ],
+  "t": [
+   "cities",
+   "law"
+  ],
+  "causes": [
+   "me-3400-uruk-expansion"
+  ],
+  "why_selected": "Proto-cuneiform tablets of Uruk IV began as temple bookkeeping; writing made bureaucracy, contracts, law codes and history possible"
+ },
+ {
+  "id": "me-3100-egypt-unification",
+  "y": -3100,
+  "approx": true,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Upper and Lower Egypt unified",
+  "where": "Nile Valley, Egypt (Hierakonpolis)",
+  "lat": 25.1,
+  "lon": 32.78,
+  "wk": "Narmer",
+  "bt": "topic/ancient-Egypt",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire",
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "First territorial state; the model of divine kingship and bureaucracy for 3,000 years"
+ },
+ {
+  "id": "eu-3000-yamnaya",
+  "y": -3000,
+  "approx": true,
+  "r": "eu",
+  "tier": 2,
+  "parent": "sa-2000-chariot",
+  "h": "Steppe herders spread into Europe",
+  "where": "Pontic-Caspian steppe, Ukraine",
+  "lat": 47.5,
+  "lon": 35.0,
+  "wk": "Yamnaya culture",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [],
+  "why_selected": "Yamnaya migrations carried Indo-European languages and pastoral economy west and east"
+ },
+ {
+  "id": "la-2600-caral",
+  "y": -2600,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-1438-pachacuti",
+  "h": "Caral builds the Americas' first city",
+  "where": "Caral, Supe Valley, Peru",
+  "lat": -10.89,
+  "lon": -77.52,
+  "wk": "Caral–Supe civilization",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "Monumental towns in coastal Peru founded the Andean tradition that culminated in the Inca"
+ },
+ {
+  "id": "me-2600-pyramid",
+  "y": -2600,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-3100-egypt-unification",
+  "h": "Great Pyramid built at Giza",
+  "where": "Giza, Egypt",
+  "lat": 29.98,
+  "lon": 31.13,
+  "wk": "Great Pyramid of Giza",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "me-3100-egypt-unification"
+  ],
+  "why_selected": "Measures the Old Kingdom's power to tax grain and mobilise labour on a national scale"
+ },
+ {
+  "id": "sa-2600-indus",
+  "y": -2600,
+  "approx": true,
+  "r": "sa",
+  "tier": 1,
+  "parent": null,
+  "h": "Indus cities reach their peak",
+  "where": "Mohenjo-daro, Sindh, Pakistan",
+  "lat": 27.33,
+  "lon": 68.14,
+  "wk": "Indus Valley Civilisation",
+  "bt": "topic/Indus-civilization",
+  "c": [
+   "economic",
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "The largest urban civilisation of its day; its decline reshaped South Asia before the Vedic age"
+ },
+ {
+  "id": "af-2500-kerma",
+  "y": -2500,
+  "approx": true,
+  "r": "af",
+  "tier": 2,
+  "parent": "me-3100-egypt-unification",
+  "h": "Kerma kingdom rises in Nubia",
+  "where": "Kerma, northern Sudan",
+  "lat": 19.6,
+  "lon": 30.41,
+  "wk": "Kerma culture",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "First kingdom of sub-Saharan Africa; Egypt's rival for Nubian gold for a thousand years"
+ },
+ {
+  "id": "me-2334-sargon",
+  "y": -2334,
+  "approx": true,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Sargon founds the Akkadian Empire",
+  "where": "Akkad, central Iraq",
+  "lat": 33.1,
+  "lon": 44.1,
+  "wk": "Akkadian Empire",
+  "bt": "biography/Sargon",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-3300-writing"
+  ],
+  "why_selected": "First empire over many cities and peoples; the template every later Mesopotamian king claimed"
+ },
+ {
+  "id": "sa-2300-meluhha",
+  "y": -2300,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "sa-2600-indus",
+  "h": "Indus traders reach Mesopotamia",
+  "where": "Lothal, Gujarat (Indus port)",
+  "lat": 22.52,
+  "lon": 72.25,
+  "wk": "Meluhha",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "sa-2600-indus",
+   "me-2334-sargon"
+  ],
+  "why_selected": "Sea trade between the Indus and Akkad tied the two oldest urban zones together"
+ },
+ {
+  "id": "sa-2250-bmac",
+  "y": -2250,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "sa-2000-chariot",
+  "h": "Oxus civilisation flourishes",
+  "where": "Gonur Depe, Turkmenistan",
+  "lat": 37.97,
+  "lon": 62.04,
+  "wk": "Bactria–Margiana Archaeological Complex",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "cities",
+   "steppe"
+  ],
+  "causes": [],
+  "why_selected": "Central Asian oasis towns where steppe peoples met settled traders on the way south"
+ },
+ {
+  "id": "me-2200-drought-42",
+  "y": -2200,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-2334-sargon",
+  "h": "Megadrought hits the Near East",
+  "where": "Tell Leilan, northeast Syria",
+  "lat": 36.96,
+  "lon": 41.51,
+  "wk": "4.2-kiloyear event",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "A century-long drought is linked to the fall of Akkad, Egypt's Old Kingdom and Indus decline"
+ },
+ {
+  "id": "se-2200-austronesian",
+  "y": -2200,
+  "approx": true,
+  "r": "se",
+  "tier": 1,
+  "parent": null,
+  "h": "Austronesians sail south from Taiwan",
+  "where": "Batanes / northern Luzon",
+  "lat": 20.45,
+  "lon": 121.97,
+  "wk": "Austronesian peoples",
+  "c": [
+   "culture",
+   "economic"
+  ],
+  "t": [
+   "explore",
+   "native"
+  ],
+  "causes": [],
+  "why_selected": "Began the widest pre-modern language spread, from Madagascar to Easter Island"
+ },
+ {
+  "id": "me-2181-first-intermediate",
+  "y": -2181,
+  "approx": true,
+  "r": "me",
+  "tier": 3,
+  "parent": "me-3100-egypt-unification",
+  "h": "Egypt's Old Kingdom breaks up",
+  "where": "Memphis, Egypt",
+  "lat": 29.84,
+  "lon": 31.25,
+  "wk": "First Intermediate Period of Egypt",
+  "c": [
+   "political"
+  ],
+  "t": [],
+  "causes": [
+   "me-2200-drought-42",
+   "me-2600-pyramid"
+  ],
+  "why_selected": "Failed Nile floods and provincial governors ended central rule for over a century"
+ },
+ {
+  "id": "me-2112-ur-iii",
+  "y": -2112,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-1792-hammurabi",
+  "h": "Ur-Nammu founds the Third Dynasty of Ur",
+  "where": "Ur, southern Iraq",
+  "lat": 30.96,
+  "lon": 46.1,
+  "wk": "Third Dynasty of Ur",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "law",
+   "empire"
+  ],
+  "causes": [
+   "me-2334-sargon",
+   "me-2200-drought-42"
+  ],
+  "why_selected": "Most bureaucratic state of the ancient world; issued the oldest surviving law code"
+ },
+ {
+  "id": "me-2055-middle-kingdom",
+  "y": -2055,
+  "approx": true,
+  "r": "me",
+  "tier": 3,
+  "parent": "me-3100-egypt-unification",
+  "h": "Mentuhotep II reunites Egypt",
+  "where": "Thebes, Egypt",
+  "lat": 25.72,
+  "lon": 32.61,
+  "wk": "Mentuhotep II",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [],
+  "causes": [
+   "me-2181-first-intermediate"
+  ],
+  "why_selected": "Reunification from Thebes made the south the seat of later Egyptian power"
+ },
+ {
+  "id": "me-2004-amorites",
+  "y": -2004,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-1792-hammurabi",
+  "h": "Elam sacks Ur; Amorites take over",
+  "where": "Ur, southern Iraq",
+  "lat": 30.96,
+  "lon": 46.1,
+  "wk": "Amorites",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "me-2112-ur-iii"
+  ],
+  "why_selected": "Amorite dynasties replaced Sumerian rule across Mesopotamia; Hammurabi's line was one of them"
+ },
+ {
+  "id": "af-2000-bantu",
+  "y": -2000,
+  "approx": true,
+  "r": "af",
+  "tier": 1,
+  "parent": null,
+  "h": "Bantu-speakers begin to spread",
+  "where": "Grassfields, Cameroon-Nigeria border",
+  "lat": 6.0,
+  "lon": 10.5,
+  "wk": "Bantu expansion",
+  "bt": "topic/Bantu-peoples",
+  "c": [
+   "culture",
+   "economic"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [],
+  "why_selected": "Farming, later iron-working Bantu speakers spread over most of sub-Saharan Africa over three millennia"
+ },
+ {
+  "id": "sa-2000-chariot",
+  "y": -2000,
+  "approx": true,
+  "r": "sa",
+  "tier": 1,
+  "parent": null,
+  "h": "Steppe herders invent the chariot",
+  "where": "Sintashta, southern Urals",
+  "lat": 52.47,
+  "lon": 60.21,
+  "wk": "Sintashta culture",
+  "c": [
+   "science",
+   "war"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "eu-3000-yamnaya"
+  ],
+  "why_selected": "The spoked-wheel war chariot spread from the steppe to Egypt, India and China and reordered Bronze Age warfare"
+ },
+ {
+  "id": "ea-1900-erlitou",
+  "y": -1900,
+  "approx": true,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1600-shang",
+  "h": "Erlitou: China's first palace state",
+  "where": "Erlitou, Henan, China",
+  "lat": 34.69,
+  "lon": 112.69,
+  "wk": "Erlitou culture",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "Palace city and bronze casting on the Yellow River; the bridge from Neolithic China to the Shang"
+ },
+ {
+  "id": "eu-1900-minoan",
+  "y": -1900,
+  "approx": true,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-1177-bronze-collapse",
+  "h": "Minoan palaces built on Crete",
+  "where": "Knossos, Crete",
+  "lat": 35.3,
+  "lon": 25.16,
+  "wk": "Minoan civilization",
+  "bt": "topic/Minoan-civilization",
+  "c": [
+   "economic",
+   "culture"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "First European palace states, run on Aegean sea trade with Egypt and the Levant"
+ },
+ {
+  "id": "sa-1900-indus-decline",
+  "y": -1900,
+  "approx": true,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-2600-indus",
+  "h": "Indus cities abandoned",
+  "where": "Harappa, Punjab, Pakistan",
+  "lat": 30.63,
+  "lon": 72.86,
+  "wk": "Cemetery H culture",
+  "c": [
+   "economic",
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "sa-2600-indus",
+   "me-2200-drought-42"
+  ],
+  "why_selected": "De-urbanisation left north India rural when Indo-Aryan speakers arrived"
+ },
+ {
+  "id": "sa-1800-andronovo",
+  "y": -1800,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "sa-2000-chariot",
+  "h": "Andronovo herders spread across Central Asia",
+  "where": "Kazakh steppe",
+  "lat": 48.0,
+  "lon": 68.0,
+  "wk": "Andronovo culture",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "sa-2000-chariot"
+  ],
+  "why_selected": "Carried chariots, horses and Indo-Iranian languages toward Iran and India"
+ },
+ {
+  "id": "me-1792-hammurabi",
+  "y": -1792,
+  "approx": true,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Hammurabi builds Babylon's empire",
+  "where": "Babylon, Iraq",
+  "lat": 32.54,
+  "lon": 44.42,
+  "wk": "Hammurabi",
+  "bt": "biography/Hammurabi",
+  "c": [
+   "political",
+   "ideas"
+  ],
+  "t": [
+   "law",
+   "empire"
+  ],
+  "causes": [
+   "me-2004-amorites"
+  ],
+  "why_selected": "Made Babylon the lasting centre of Mesopotamia; his code is the model of kingship as giver of law"
+ },
+ {
+  "id": "na-1700-poverty-point",
+  "y": -1700,
+  "approx": true,
+  "r": "na",
+  "tier": 2,
+  "parent": "na-1050-cahokia",
+  "h": "Poverty Point earthworks raised",
+  "where": "Poverty Point, Louisiana",
+  "lat": 32.64,
+  "lon": -91.41,
+  "wk": "Poverty Point",
+  "c": [
+   "culture",
+   "economic"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [],
+  "why_selected": "Hunter-gatherers built huge earthworks and traded across the Mississippi basin; the mound-building tradition begins"
+ },
+ {
+  "id": "me-1650-hyksos",
+  "y": -1650,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "sa-2000-chariot",
+  "h": "Hyksos take Lower Egypt",
+  "where": "Avaris (Tell el-Dab'a), Nile Delta",
+  "lat": 30.79,
+  "lon": 31.82,
+  "wk": "Hyksos",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "sa-2000-chariot",
+   "me-2055-middle-kingdom"
+  ],
+  "why_selected": "Levantine rulers brought the horse, chariot and composite bow into Egypt"
+ },
+ {
+  "id": "me-1650-hittites",
+  "y": -1650,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-1177-bronze-collapse",
+  "h": "Hattusili I founds the Hittite kingdom",
+  "where": "Hattusa (Boğazkale), Turkey",
+  "lat": 40.02,
+  "lon": 34.62,
+  "wk": "Hittites",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [],
+  "why_selected": "Anatolian great power that sacked Babylon, fought Egypt at Kadesh and fell in the collapse"
+ },
+ {
+  "id": "ea-1600-shang",
+  "y": -1600,
+  "approx": true,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Shang dynasty rules the Yellow River",
+  "where": "Yanshi / Zhengzhou, Henan",
+  "lat": 34.75,
+  "lon": 113.65,
+  "wk": "Shang dynasty",
+  "bt": "topic/Shang-dynasty",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire",
+   "cities"
+  ],
+  "causes": [
+   "ea-1900-erlitou"
+  ],
+  "why_selected": "First Chinese dynasty attested by writing; set bronze ritual kingship and the script still in use"
+ },
+ {
+  "id": "eu-1600-mycenae",
+  "y": -1600,
+  "approx": true,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-1177-bronze-collapse",
+  "h": "Mycenaean Greece rises",
+  "where": "Mycenae, Peloponnese",
+  "lat": 37.73,
+  "lon": 22.76,
+  "wk": "Mycenaean Greece",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "eu-1900-minoan",
+   "sa-2000-chariot"
+  ],
+  "why_selected": "Greek-speaking warrior kingdoms whose fall began the Greek Dark Age"
+ },
+ {
+  "id": "me-1595-hittites-babylon",
+  "y": -1595,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-1792-hammurabi",
+  "h": "Hittites sack Babylon",
+  "where": "Babylon, Iraq",
+  "lat": 32.54,
+  "lon": 44.42,
+  "wk": "Mursili I",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-1650-hittites",
+   "me-1792-hammurabi"
+  ],
+  "why_selected": "Ended Hammurabi's dynasty and opened Mesopotamia to Kassite rule; announced the Hittites as a great power"
+ },
+ {
+  "id": "me-1550-new-kingdom",
+  "y": -1550,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-1177-bronze-collapse",
+  "h": "Ahmose expels the Hyksos",
+  "where": "Thebes, Egypt",
+  "lat": 25.72,
+  "lon": 32.61,
+  "wk": "Ahmose I",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-1650-hyksos"
+  ],
+  "why_selected": "Expulsion turned Egypt into a chariot empire ruling the Levant and Nubia"
+ },
+ {
+  "id": "af-1500-kerma-falls",
+  "y": -1500,
+  "approx": true,
+  "r": "af",
+  "tier": 3,
+  "parent": "me-3100-egypt-unification",
+  "h": "Egypt conquers Kerma",
+  "where": "Kerma, northern Sudan",
+  "lat": 19.6,
+  "lon": 30.41,
+  "wk": "Thutmose I",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "af-2500-kerma",
+   "me-1550-new-kingdom"
+  ],
+  "why_selected": "Egypt annexed Nubia and its gold; Egyptian rule shaped the later Kushite state"
+ },
+ {
+  "id": "sa-1500-indo-aryans",
+  "y": -1500,
+  "approx": true,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-2000-chariot",
+  "h": "Indo-Aryans settle the Punjab",
+  "where": "Punjab",
+  "lat": 31.0,
+  "lon": 74.0,
+  "wk": "Indo-Aryan migrations",
+  "c": [
+   "culture",
+   "religion"
+  ],
+  "t": [
+   "steppe",
+   "faith"
+  ],
+  "causes": [
+   "sa-2000-chariot",
+   "sa-1900-indus-decline"
+  ],
+  "why_selected": "Brought Vedic religion, Sanskrit and the chariot elite from which Hindu society developed"
+ },
+ {
+  "id": "sa-1500-rigveda",
+  "y": -1500,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "sa-500-buddha",
+  "h": "Rigveda hymns composed",
+  "where": "Punjab",
+  "lat": 31.0,
+  "lon": 74.0,
+  "wk": "Rigveda",
+  "c": [
+   "religion",
+   "culture"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "sa-1500-indo-aryans"
+  ],
+  "why_selected": "Oldest Indian text; the ritual and social order that Upanishads and Buddha later questioned"
+ },
+ {
+  "id": "af-1470-punt",
+  "y": -1470,
+  "approx": true,
+  "r": "af",
+  "tier": 3,
+  "parent": "me-3100-egypt-unification",
+  "h": "Hatshepsut's fleet trades with Punt",
+  "where": "Horn of Africa (Punt)",
+  "lat": 15.0,
+  "lon": 39.5,
+  "wk": "Land of Punt",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "explore"
+  ],
+  "causes": [
+   "me-1550-new-kingdom"
+  ],
+  "why_selected": "Egyptian Red Sea voyages for incense and gold; an early link between Africa and the Mediterranean"
+ },
+ {
+  "id": "eu-1450-knossos-mycenaean",
+  "y": -1450,
+  "approx": true,
+  "r": "eu",
+  "tier": 3,
+  "parent": "me-1177-bronze-collapse",
+  "h": "Mycenaeans take over Knossos",
+  "where": "Knossos, Crete",
+  "lat": 35.3,
+  "lon": 25.16,
+  "wk": "Linear B",
+  "c": [
+   "war",
+   "ideas"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "eu-1900-minoan",
+   "eu-1600-mycenae"
+  ],
+  "why_selected": "Linear B tablets record the earliest Greek and a palace economy that vanished in the collapse"
+ },
+ {
+  "id": "la-1400-olmec",
+  "y": -1400,
+  "approx": true,
+  "r": "la",
+  "tier": 1,
+  "parent": null,
+  "h": "Olmec civilisation centred at San Lorenzo",
+  "where": "San Lorenzo, Veracruz, Mexico",
+  "lat": 17.75,
+  "lon": -94.76,
+  "wk": "Olmecs",
+  "bt": "topic/Olmec",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "Mesoamerica's first complex society; set the ballgame, calendar and kingship later cultures shared"
+ },
+ {
+  "id": "me-1350-amarna",
+  "y": -1350,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-1177-bronze-collapse",
+  "h": "Amarna letters: great-power diplomacy",
+  "where": "Amarna, Egypt",
+  "lat": 27.65,
+  "lon": 30.9,
+  "wk": "Amarna letters",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-1550-new-kingdom",
+   "me-1595-hittites-babylon"
+  ],
+  "why_selected": "Egypt, Babylon, Mitanni, Hatti and Assyria wrote as 'brothers': the first international system"
+ },
+ {
+  "id": "oc-1350-lapita",
+  "y": -1350,
+  "approx": true,
+  "r": "oc",
+  "tier": 1,
+  "parent": null,
+  "h": "Lapita voyagers appear in the Bismarcks",
+  "where": "Bismarck Archipelago, Papua New Guinea",
+  "lat": -3.5,
+  "lon": 151.5,
+  "wk": "Lapita culture",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "explore",
+   "native"
+  ],
+  "causes": [
+   "se-2200-austronesian"
+  ],
+  "why_selected": "Lapita voyagers settled Remote Oceania; their descendants became the Polynesians"
+ },
+ {
+  "id": "me-1274-kadesh",
+  "y": -1274,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-1177-bronze-collapse",
+  "h": "Egypt and Hittites clash at Kadesh",
+  "where": "Kadesh, on the Orontes, Syria",
+  "lat": 34.56,
+  "lon": 36.52,
+  "wk": "Battle of Kadesh",
+  "bt": "event/Battle-of-Kadesh",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "me-1350-amarna",
+   "me-1650-hittites"
+  ],
+  "why_selected": "Largest chariot battle known; stalemate led to the first surviving peace treaty"
+ },
+ {
+  "id": "ea-1250-oracle-bones",
+  "y": -1250,
+  "approx": true,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1600-shang",
+  "h": "Shang kings write on oracle bones",
+  "where": "Anyang (Yinxu), Henan",
+  "lat": 36.13,
+  "lon": 114.31,
+  "wk": "Oracle bone script",
+  "c": [
+   "ideas",
+   "religion"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "ea-1600-shang",
+   "sa-2000-chariot"
+  ],
+  "why_selected": "Earliest Chinese writing; ancestor of the characters used across East Asia today"
+ },
+ {
+  "id": "ea-1200-sanxingdui",
+  "y": -1200,
+  "approx": true,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-1600-shang",
+  "h": "Sanxingdui bronze culture in Sichuan",
+  "where": "Sanxingdui, Guanghan, Sichuan",
+  "lat": 31.0,
+  "lon": 104.2,
+  "wk": "Sanxingdui",
+  "c": [
+   "culture",
+   "religion"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "ea-1600-shang"
+  ],
+  "why_selected": "A rich non-Shang bronze civilisation; Chinese civilisation had several centres"
+ },
+ {
+  "id": "sa-1200-kuru",
+  "y": -1200,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "sa-500-buddha",
+  "h": "Kuru kingdom: first Vedic state",
+  "where": "Kurukshetra, Haryana",
+  "lat": 29.97,
+  "lon": 76.85,
+  "wk": "Kuru kingdom",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "sa-1500-rigveda"
+  ],
+  "why_selected": "Organised Vedic ritual and caste hierarchy into a state; the base of classical Hinduism"
+ },
+ {
+  "id": "me-1177-bronze-collapse",
+  "y": -1177,
+  "approx": true,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Late Bronze Age collapse",
+  "where": "Ugarit, Syrian coast",
+  "lat": 35.6,
+  "lon": 35.78,
+  "wk": "Late Bronze Age collapse",
+  "c": [
+   "war",
+   "economic",
+   "political"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "me-1274-kadesh",
+   "eu-1600-mycenae"
+  ],
+  "why_selected": "The interlinked palace states fell within decades; iron, the alphabet and new peoples filled the gap"
+ },
+ {
+  "id": "me-1050-phoenician-alphabet",
+  "y": -1050,
+  "approx": true,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Phoenician alphabet spreads",
+  "where": "Byblos, Lebanon",
+  "lat": 34.12,
+  "lon": 35.65,
+  "wk": "Phoenician alphabet",
+  "c": [
+   "ideas",
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "me-1177-bronze-collapse"
+  ],
+  "why_selected": "Twenty-two letters anyone could learn; parent of Greek, Latin, Aramaic, Hebrew and Arabic scripts"
+ },
+ {
+  "id": "ea-1046-zhou",
+  "y": -1046,
+  "approx": true,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Zhou overthrows the Shang",
+  "where": "Muye, near Anyang, Henan",
+  "lat": 35.3,
+  "lon": 114.1,
+  "wk": "Battle of Muye",
+  "bt": "topic/Zhou-dynasty",
+  "c": [
+   "war",
+   "ideas"
+  ],
+  "t": [
+   "empire",
+   "law"
+  ],
+  "causes": [
+   "ea-1600-shang"
+  ],
+  "why_selected": "Justified by the Mandate of Heaven, the doctrine that legitimised and threatened every later Chinese dynasty"
+ },
+ {
+  "id": "sa-1000-pgw-iron",
+  "y": -1000,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "sa-500-buddha",
+  "h": "Iron working spreads to the Ganges plain",
+  "where": "Hastinapur, Uttar Pradesh",
+  "lat": 29.16,
+  "lon": 78.01,
+  "wk": "Painted Grey Ware culture",
+  "c": [
+   "science",
+   "economic"
+  ],
+  "t": [],
+  "causes": [
+   "sa-1200-kuru"
+  ],
+  "why_selected": "Iron tools helped clear the Ganges plain for the farming that fed its first cities"
+ },
+ {
+  "id": "se-1000-dong-son",
+  "y": -1000,
+  "approx": true,
+  "r": "se",
+  "tier": 2,
+  "parent": "ea-221-qin",
+  "h": "Dong Son bronze culture in Vietnam",
+  "where": "Red River Delta, Vietnam",
+  "lat": 20.0,
+  "lon": 105.8,
+  "wk": "Đông Sơn culture",
+  "c": [
+   "culture",
+   "economic"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [],
+  "why_selected": "Bronze drums traded across Southeast Asia; the society Chinese expansion later absorbed"
+ },
+ {
+  "id": "me-911-neo-assyria",
+  "y": -911,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Neo-Assyrian Empire begins",
+  "where": "Assur / Nineveh, northern Iraq",
+  "lat": 36.36,
+  "lon": 43.15,
+  "wk": "Neo-Assyrian Empire",
+  "bt": "place/Assyria",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire",
+   "atrocity"
+  ],
+  "causes": [
+   "me-1177-bronze-collapse"
+  ],
+  "why_selected": "First empire with provinces, a standing army and mass deportations; its methods passed to Babylon and Persia"
+ },
+ {
+  "id": "la-900-chavin",
+  "y": -900,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-1438-pachacuti",
+  "h": "Chavín cult unites the Andes",
+  "where": "Chavín de Huántar, Peru",
+  "lat": -9.59,
+  "lon": -77.18,
+  "wk": "Chavín culture",
+  "c": [
+   "religion",
+   "culture"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-2600-caral"
+  ],
+  "why_selected": "First pan-Andean religious horizon; shared imagery spread across highlands and coast"
+ },
+ {
+  "id": "la-900-la-venta",
+  "y": -900,
+  "approx": true,
+  "r": "la",
+  "tier": 3,
+  "parent": "la-1400-olmec",
+  "h": "La Venta succeeds San Lorenzo",
+  "where": "La Venta, Tabasco",
+  "lat": 18.1,
+  "lon": -94.04,
+  "wk": "La Venta",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-1400-olmec"
+  ],
+  "why_selected": "Main Olmec centre of the middle Formative; its influence spread across Mesoamerica"
+ },
+ {
+  "id": "oc-900-lapita-tonga",
+  "y": -900,
+  "approx": true,
+  "r": "oc",
+  "tier": 2,
+  "parent": "oc-1350-lapita",
+  "h": "Lapita settlers reach Fiji, Tonga and Samoa",
+  "where": "Nukuleka, Tonga",
+  "lat": -21.1,
+  "lon": -175.1,
+  "wk": "Polynesians",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "explore",
+   "native"
+  ],
+  "causes": [
+   "oc-1350-lapita"
+  ],
+  "why_selected": "Settlement of West Polynesia, the homeland of Polynesian culture"
+ },
+ {
+  "id": "me-814-carthage",
+  "y": -814,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-146-rome-carthage",
+  "h": "Phoenicians found Carthage",
+  "where": "Carthage, Tunisia",
+  "lat": 36.85,
+  "lon": 10.32,
+  "wk": "Ancient Carthage",
+  "c": [
+   "economic",
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "me-1050-phoenician-alphabet"
+  ],
+  "why_selected": "Tyre's colony became the western Mediterranean's trading power and Rome's great rival"
+ },
+ {
+  "id": "eu-800-greek-alphabet",
+  "y": -800,
+  "approx": true,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-1050-phoenician-alphabet",
+  "h": "Greeks adopt the alphabet",
+  "where": "Euboea / Aegean",
+  "lat": 38.46,
+  "lon": 23.6,
+  "wk": "Greek alphabet",
+  "c": [
+   "ideas"
+  ],
+  "t": [],
+  "causes": [
+   "me-1050-phoenician-alphabet"
+  ],
+  "why_selected": "Adding vowels made a full phonetic script; through Etruscan and Latin it became Europe's alphabet"
+ },
+ {
+  "id": "ea-771-zhou-falls",
+  "y": -771,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1046-zhou",
+  "h": "Zhou capital falls; kings lose power",
+  "where": "Haojing, near Xi'an",
+  "lat": 34.22,
+  "lon": 108.8,
+  "wk": "Western Zhou",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "ea-1046-zhou"
+  ],
+  "why_selected": "Quanrong raiders and rebels sacked the capital; power passed to rival states, beginning five centuries of competition"
+ },
+ {
+  "id": "ea-770-qin-state",
+  "y": -770,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-221-qin",
+  "h": "Qin enfeoffed as a Zhou state",
+  "where": "Western Wei valley, Gansu-Shaanxi",
+  "lat": 34.4,
+  "lon": 106.5,
+  "wk": "Qin (state)",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "ea-771-zhou-falls"
+  ],
+  "why_selected": "A frontier march facing the Rong became the state that unified China"
+ },
+ {
+  "id": "af-750-nok",
+  "y": -750,
+  "approx": true,
+  "r": "af",
+  "tier": 2,
+  "parent": "af-2000-bantu",
+  "h": "Nok people smelt iron in West Africa",
+  "where": "Nok, central Nigeria",
+  "lat": 9.5,
+  "lon": 8.0,
+  "wk": "Nok culture",
+  "c": [
+   "science",
+   "culture"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [],
+  "why_selected": "Iron smelting at Nok (c. 750-550 BCE) is among the earliest in West Africa; iron tools opened forest and savanna to farming"
+ },
+ {
+  "id": "eu-750-greek-colonies",
+  "y": -750,
+  "approx": true,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-508-democracy",
+  "h": "Greek cities found colonies abroad",
+  "where": "Pithekoussai / Syracuse",
+  "lat": 37.07,
+  "lon": 15.29,
+  "wk": "Greek colonisation",
+  "c": [
+   "economic",
+   "political"
+  ],
+  "t": [
+   "cities",
+   "explore"
+  ],
+  "causes": [
+   "eu-800-greek-alphabet"
+  ],
+  "why_selected": "Spread the polis from Spain to the Black Sea; seeded Italy with Greek culture and Rome with the alphabet"
+ },
+ {
+  "id": "la-750-nakbe",
+  "y": -750,
+  "approx": true,
+  "r": "la",
+  "tier": 3,
+  "parent": "la-1400-olmec",
+  "h": "Nakbe raises the first Maya monuments",
+  "where": "Nakbe, Petén, Guatemala",
+  "lat": 17.68,
+  "lon": -89.84,
+  "wk": "Nakbe",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-900-la-venta"
+  ],
+  "why_selected": "Earliest Maya monumental building; the start of lowland Maya kingship"
+ },
+ {
+  "id": "me-745-tiglath-pileser",
+  "y": -745,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-911-neo-assyria",
+  "h": "Tiglath-Pileser III builds a standing army",
+  "where": "Nimrud (Kalhu), northern Iraq",
+  "lat": 36.1,
+  "lon": 43.33,
+  "wk": "Tiglath-Pileser III",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-911-neo-assyria"
+  ],
+  "why_selected": "Professional army, provincial governors and population transfers made Assyria a true empire"
+ },
+ {
+  "id": "eu-730-messenia",
+  "y": -730,
+  "approx": true,
+  "r": "eu",
+  "tier": 3,
+  "parent": "eu-334-alexander",
+  "h": "Sparta conquers Messenia",
+  "where": "Messenia, Peloponnese",
+  "lat": 37.2,
+  "lon": 21.95,
+  "wk": "First Messenian War",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "slavery"
+  ],
+  "causes": [],
+  "why_selected": "Enslaving the Messenians as helots made Sparta a permanent military camp"
+ },
+ {
+  "id": "af-727-kush-egypt",
+  "y": -727,
+  "approx": true,
+  "r": "af",
+  "tier": 2,
+  "parent": "me-911-neo-assyria",
+  "h": "Kush conquers Egypt",
+  "where": "Napata, Sudan",
+  "lat": 18.53,
+  "lon": 31.83,
+  "wk": "Twenty-fifth Dynasty of Egypt",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "af-1500-kerma-falls"
+  ],
+  "why_selected": "A Nubian dynasty ruled Egypt until Assyria drove it out; Kush then turned south to Meroë"
+ },
+ {
+  "id": "eu-700-scythians",
+  "y": -700,
+  "approx": true,
+  "r": "eu",
+  "tier": 2,
+  "parent": "ea-209-xiongnu",
+  "h": "Scythian horse archers rule the steppe",
+  "where": "Pontic steppe, Ukraine",
+  "lat": 47.0,
+  "lon": 34.0,
+  "wk": "Scythians",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [],
+  "why_selected": "Mounted archery made steppe nomads a permanent military threat to settled states from China to Europe"
+ },
+ {
+  "id": "sa-700-upanishads",
+  "y": -700,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "sa-500-buddha",
+  "h": "Upanishads question Vedic ritual",
+  "where": "Videha, Ganges plain",
+  "lat": 26.6,
+  "lon": 85.9,
+  "wk": "Upanishads",
+  "c": [
+   "religion",
+   "ideas"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "sa-1200-kuru"
+  ],
+  "why_selected": "Ideas of karma, rebirth and liberation that Buddhism and Jainism built on"
+ },
+ {
+  "id": "ea-667-qi-hegemon",
+  "y": -667,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-1046-zhou",
+  "h": "Duke Huan of Qi becomes hegemon",
+  "where": "Linzi, Shandong",
+  "lat": 36.85,
+  "lon": 118.3,
+  "wk": "Duke Huan of Qi",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "money"
+  ],
+  "causes": [
+   "ea-771-zhou-falls"
+  ],
+  "why_selected": "Guan Zhong's state monopolies and the hegemon system filled the vacuum of Zhou power"
+ },
+ {
+  "id": "me-630-lydian-coins",
+  "y": -630,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-550-cyrus",
+  "h": "Lydia strikes the first coins",
+  "where": "Sardis, western Turkey",
+  "lat": 38.49,
+  "lon": 28.04,
+  "wk": "Lydia",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "money"
+  ],
+  "causes": [],
+  "why_selected": "Stamped coins spread to Greece and Persia and made markets and state pay run on money"
+ },
+ {
+  "id": "me-612-nineveh-falls",
+  "y": -612,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-550-cyrus",
+  "h": "Medes and Babylonians sack Nineveh",
+  "where": "Nineveh, Mosul, Iraq",
+  "lat": 36.36,
+  "lon": 43.15,
+  "wk": "Fall of Nineveh",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-911-neo-assyria"
+  ],
+  "why_selected": "Fall of Assyria left Babylon and the Medes to divide the Near East; Persia inherited both"
+ },
+ {
+  "id": "eu-600-etruscans",
+  "y": -600,
+  "approx": true,
+  "r": "eu",
+  "tier": 3,
+  "parent": "me-146-rome-carthage",
+  "h": "Etruscan cities dominate central Italy",
+  "where": "Tarquinia, Lazio",
+  "lat": 42.25,
+  "lon": 11.76,
+  "wk": "Etruscan civilization",
+  "c": [
+   "political",
+   "culture"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "eu-750-greek-colonies"
+  ],
+  "why_selected": "Etruscan kings shaped early Rome and passed on the alphabet and urban institutions"
+ },
+ {
+  "id": "sa-600-mahajanapadas",
+  "y": -600,
+  "approx": true,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-500-buddha",
+  "h": "Sixteen states form on the Ganges",
+  "where": "Rajgir (Magadha), Bihar",
+  "lat": 25.03,
+  "lon": 85.42,
+  "wk": "Mahajanapadas",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "sa-1200-kuru",
+   "sa-1000-pgw-iron"
+  ],
+  "why_selected": "Iron farming and new cities produced kingdoms; Magadha absorbed the rest and became the Maurya base"
+ },
+ {
+  "id": "eu-594-solon",
+  "y": -594,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-508-democracy",
+  "h": "Solon reforms Athens' laws",
+  "where": "Athens",
+  "lat": 37.97,
+  "lon": 23.73,
+  "wk": "Solon",
+  "bt": "biography/Solon",
+  "c": [
+   "political",
+   "ideas"
+  ],
+  "t": [
+   "law",
+   "rights"
+  ],
+  "causes": [],
+  "why_selected": "Cancelled debt slavery and gave citizens courts; the first step toward Athenian democracy"
+ },
+ {
+  "id": "af-591-meroe",
+  "y": -591,
+  "approx": true,
+  "r": "af",
+  "tier": 3,
+  "parent": "me-3100-egypt-unification",
+  "h": "Kush moves its capital to Meroë",
+  "where": "Meroë, Sudan",
+  "lat": 16.94,
+  "lon": 33.75,
+  "wk": "Meroë",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "af-727-kush-egypt"
+  ],
+  "why_selected": "Iron-working capital on the Nile that kept the Kushite state alive for 900 years"
+ },
+ {
+  "id": "me-587-jerusalem-587",
+  "y": -587,
+  "approx": true,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Babylon destroys Jerusalem's Temple",
+  "where": "Jerusalem",
+  "lat": 31.78,
+  "lon": 35.23,
+  "wk": "Siege of Jerusalem (587 BC)",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "faith",
+   "atrocity"
+  ],
+  "causes": [
+   "me-612-nineveh-falls"
+  ],
+  "why_selected": "Exile turned Judaism into a religion of scripture portable abroad; the root of Christianity and Islam"
+ },
+ {
+  "id": "me-550-cyrus",
+  "y": -550,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Cyrus founds the Persian Empire",
+  "where": "Pasargadae, Iran",
+  "lat": 30.2,
+  "lon": 53.18,
+  "wk": "Achaemenid Empire",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-612-nineveh-falls",
+   "me-630-lydian-coins"
+  ],
+  "why_selected": "Largest empire yet; ruled through local elites and tolerance, the model for every later Iranian and Near Eastern empire"
+ },
+ {
+  "id": "me-539-babylon-falls",
+  "y": -539,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-550-cyrus",
+  "h": "Cyrus takes Babylon, frees the exiles",
+  "where": "Babylon, Iraq",
+  "lat": 32.54,
+  "lon": 44.42,
+  "wk": "Fall of Babylon",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "me-550-cyrus",
+   "me-587-jerusalem-587"
+  ],
+  "why_selected": "Ended Mesopotamian independence; Judean exiles returned to rebuild the Temple"
+ },
+ {
+  "id": "me-522-darius",
+  "y": -522,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-550-cyrus",
+  "h": "Darius reorganises the Persian Empire",
+  "where": "Persepolis, Iran",
+  "lat": 29.93,
+  "lon": 52.89,
+  "wk": "Darius the Great",
+  "bt": "biography/Darius-I",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "empire",
+   "money",
+   "law"
+  ],
+  "causes": [
+   "me-550-cyrus",
+   "me-630-lydian-coins"
+  ],
+  "why_selected": "Satrapies, fixed tribute, coinage and the Royal Road became the standard kit of imperial government"
+ },
+ {
+  "id": "sa-518-persia-indus",
+  "y": -518,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "me-550-cyrus",
+  "h": "Persia annexes the Indus valley",
+  "where": "Gandhara / Taxila, Pakistan",
+  "lat": 33.74,
+  "lon": 72.79,
+  "wk": "Achaemenid conquest of the Indus Valley",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-522-darius"
+  ],
+  "why_selected": "Brought north-west India into the Persian world; Aramaic script and imperial methods followed"
+ },
+ {
+  "id": "eu-509-roman-republic",
+  "y": -509,
+  "approx": true,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-146-rome-carthage",
+  "h": "Romans expel their king, found a republic",
+  "where": "Rome",
+  "lat": 41.89,
+  "lon": 12.49,
+  "wk": "Roman Republic",
+  "bt": "place/Roman-Republic",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "law",
+   "revolution"
+  ],
+  "causes": [
+   "eu-600-etruscans"
+  ],
+  "why_selected": "Annual magistrates, a Senate and assemblies; the model of republican government ever since"
+ },
+ {
+  "id": "eu-508-democracy",
+  "y": -508,
+  "r": "eu",
+  "tier": 1,
+  "parent": null,
+  "h": "Cleisthenes founds Athenian democracy",
+  "where": "Athens",
+  "lat": 37.97,
+  "lon": 23.73,
+  "wk": "Athenian democracy",
+  "c": [
+   "political",
+   "ideas"
+  ],
+  "t": [
+   "rights",
+   "revolution"
+  ],
+  "causes": [
+   "eu-594-solon"
+  ],
+  "why_selected": "Rule by an assembly of citizens; the precedent every later democratic argument cites"
+ },
+ {
+  "id": "af-500-urewe",
+  "y": -500,
+  "approx": true,
+  "r": "af",
+  "tier": 3,
+  "parent": "af-2000-bantu",
+  "h": "Iron-working Bantu farmers reach the Great Lakes",
+  "where": "Lake Victoria basin",
+  "lat": -0.5,
+  "lon": 33.0,
+  "wk": "Urewe culture",
+  "c": [
+   "science",
+   "economic"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [
+   "af-2000-bantu"
+  ],
+  "why_selected": "Iron tools let Bantu farmers clear land and spread south and east"
+ },
+ {
+  "id": "ea-500-confucius",
+  "y": -500,
+  "approx": true,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Confucius teaches in Lu",
+  "where": "Qufu, Shandong",
+  "lat": 35.6,
+  "lon": 116.99,
+  "wk": "Confucius",
+  "bt": "biography/Confucius",
+  "c": [
+   "ideas",
+   "political"
+  ],
+  "t": [
+   "law"
+  ],
+  "causes": [
+   "ea-771-zhou-falls"
+  ],
+  "why_selected": "His ethics of hierarchy and merit became the state ideology of China, Korea, Vietnam and Japan"
+ },
+ {
+  "id": "la-500-monte-alban",
+  "y": -500,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-1400-olmec",
+  "h": "Zapotecs found Monte Albán",
+  "where": "Monte Albán, Oaxaca",
+  "lat": 17.04,
+  "lon": -96.77,
+  "wk": "Monte Albán",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-1400-olmec"
+  ],
+  "why_selected": "First Mesoamerican capital to rule a valley state; early writing and calendars"
+ },
+ {
+  "id": "na-500-adena",
+  "y": -500,
+  "approx": true,
+  "r": "na",
+  "tier": 3,
+  "parent": "na-1050-cahokia",
+  "h": "Adena mound builders in the Ohio Valley",
+  "where": "Chillicothe, Ohio",
+  "lat": 39.33,
+  "lon": -82.98,
+  "wk": "Adena culture",
+  "c": [
+   "culture",
+   "religion"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [
+   "na-1700-poverty-point"
+  ],
+  "why_selected": "Burial mounds and trade networks that grew into the Hopewell tradition"
+ },
+ {
+  "id": "sa-500-buddha",
+  "y": -500,
+  "approx": true,
+  "r": "sa",
+  "tier": 1,
+  "parent": null,
+  "h": "The Buddha teaches in the Ganges plain",
+  "where": "Bodh Gaya / Sarnath",
+  "lat": 25.38,
+  "lon": 83.02,
+  "wk": "The Buddha",
+  "bt": "biography/Buddha-founder-of-Buddhism",
+  "c": [
+   "religion",
+   "ideas"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "sa-600-mahajanapadas",
+   "sa-700-upanishads"
+  ],
+  "why_selected": "Founded a missionary religion that spread across Asia along trade routes"
+ },
+ {
+  "id": "sa-500-mahavira",
+  "y": -500,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "sa-500-buddha",
+  "h": "Mahavira shapes Jainism",
+  "where": "Vaishali, Bihar",
+  "lat": 25.99,
+  "lon": 85.13,
+  "wk": "Mahavira",
+  "c": [
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "sa-700-upanishads"
+  ],
+  "why_selected": "Non-violence and asceticism; Jain merchants became a lasting commercial community"
+ },
+ {
+  "id": "eu-480-salamis",
+  "y": -480,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-334-alexander",
+  "h": "Greeks defeat Persia at Salamis",
+  "where": "Salamis, Saronic Gulf",
+  "lat": 37.95,
+  "lon": 23.57,
+  "wk": "Battle of Salamis",
+  "bt": "event/Battle-of-Salamis",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "me-522-darius",
+   "eu-508-democracy"
+  ],
+  "why_selected": "Halted Persian expansion into Europe and gave Athens the navy and allies it turned into an empire"
+ },
+ {
+  "id": "ea-475-warring-states",
+  "y": -475,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-221-qin",
+  "h": "China's Warring States period begins",
+  "where": "Central China",
+  "lat": 34.5,
+  "lon": 112.0,
+  "wk": "Warring States period",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "conflict"
+  ],
+  "causes": [
+   "ea-771-zhou-falls"
+  ],
+  "why_selected": "Mass infantry, iron and bureaucracy in a contest of survival; Qin won it"
+ },
+ {
+  "id": "eu-431-peloponnesian",
+  "y": -431,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-334-alexander",
+  "h": "Peloponnesian War begins",
+  "where": "Athens and Sparta",
+  "lat": 37.97,
+  "lon": 23.73,
+  "wk": "Peloponnesian War",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "conflict"
+  ],
+  "causes": [
+   "eu-480-salamis"
+  ],
+  "why_selected": "Exhausted the Greek city-states and left them open to Persian money and Macedonian conquest"
+ },
+ {
+  "id": "ea-356-shang-yang",
+  "y": -356,
+  "approx": true,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-221-qin",
+  "h": "Shang Yang's reforms in Qin",
+  "where": "Yueyang, Shaanxi",
+  "lat": 34.62,
+  "lon": 109.15,
+  "wk": "Shang Yang",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "law"
+  ],
+  "causes": [
+   "ea-475-warring-states",
+   "ea-770-qin-state"
+  ],
+  "why_selected": "Legalist laws, land reform and ranks by merit in war made Qin the most efficient war state"
+ },
+ {
+  "id": "eu-338-chaeronea",
+  "y": -338,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-334-alexander",
+  "h": "Philip II defeats Athens and Thebes",
+  "where": "Chaeronea, Boeotia",
+  "lat": 38.5,
+  "lon": 22.85,
+  "wk": "Battle of Chaeronea (338 BC)",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "eu-431-peloponnesian"
+  ],
+  "why_selected": "Macedon became master of Greece and inherited the plan to invade Persia"
+ },
+ {
+  "id": "eu-334-alexander",
+  "y": -334,
+  "r": "eu",
+  "tier": 1,
+  "parent": null,
+  "h": "Alexander invades the Persian Empire",
+  "where": "Granicus, northwest Turkey",
+  "lat": 40.22,
+  "lon": 27.24,
+  "wk": "Wars of Alexander the Great",
+  "bt": "biography/Alexander-the-Great",
+  "c": [
+   "war",
+   "culture"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "eu-338-chaeronea",
+   "me-522-darius"
+  ],
+  "why_selected": "Destroyed Persia and spread Greek cities and culture from Egypt to the Indus"
+ },
+ {
+  "id": "me-331-alexandria",
+  "y": -331,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "eu-334-alexander",
+  "h": "Alexander founds Alexandria",
+  "where": "Alexandria, Egypt",
+  "lat": 31.2,
+  "lon": 29.92,
+  "wk": "Alexandria",
+  "c": [
+   "economic",
+   "science"
+  ],
+  "t": [
+   "cities",
+   "science"
+  ],
+  "causes": [
+   "eu-334-alexander"
+  ],
+  "why_selected": "Became the Mediterranean's largest port and centre of Greek science for six centuries"
+ },
+ {
+  "id": "sa-326-alexander-india",
+  "y": -326,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-261-ashoka",
+  "h": "Alexander reaches the Indus",
+  "where": "Hydaspes (Jhelum), Punjab",
+  "lat": 32.93,
+  "lon": 73.73,
+  "wk": "Indian campaign of Alexander the Great",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "eu-334-alexander"
+  ],
+  "why_selected": "Shattered the north-west Indian states and opened the way for Chandragupta Maurya"
+ },
+ {
+  "id": "me-323-diadochi",
+  "y": -323,
+  "r": "me",
+  "tier": 2,
+  "parent": "eu-334-alexander",
+  "h": "Alexander dies; generals divide his empire",
+  "where": "Babylon, Iraq",
+  "lat": 32.54,
+  "lon": 44.42,
+  "wk": "Wars of the Diadochi",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "eu-334-alexander"
+  ],
+  "why_selected": "Created the Ptolemaic and Seleucid kingdoms that Rome and Parthia later absorbed"
+ },
+ {
+  "id": "sa-320-maurya",
+  "y": -320,
+  "approx": true,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-261-ashoka",
+  "h": "Chandragupta founds the Maurya Empire",
+  "where": "Pataliputra (Patna), Bihar",
+  "lat": 25.61,
+  "lon": 85.14,
+  "wk": "Maurya Empire",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "sa-326-alexander-india",
+   "sa-600-mahajanapadas"
+  ],
+  "why_selected": "First empire over most of the subcontinent"
+ },
+ {
+  "id": "la-300-el-mirador",
+  "y": -300,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-1400-olmec",
+  "h": "El Mirador: first great Maya city",
+  "where": "El Mirador, Petén, Guatemala",
+  "lat": 17.75,
+  "lon": -89.92,
+  "wk": "El Mirador",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-750-nakbe"
+  ],
+  "why_selected": "Preclassic Maya kingship and monumental building, the foundation of the Classic Maya world"
+ },
+ {
+  "id": "me-300-euclid",
+  "y": -300,
+  "approx": true,
+  "r": "me",
+  "tier": 3,
+  "parent": "me-750-abbasid",
+  "h": "Euclid writes the Elements in Alexandria",
+  "where": "Alexandria, Egypt",
+  "lat": 31.2,
+  "lon": 29.92,
+  "wk": "Euclid's Elements",
+  "c": [
+   "science"
+  ],
+  "t": [
+   "science"
+  ],
+  "causes": [
+   "me-331-alexandria"
+  ],
+  "why_selected": "Model of deductive proof; passed through Arabic translation to medieval Europe"
+ },
+ {
+  "id": "eu-264-first-punic",
+  "y": -264,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-146-rome-carthage",
+  "h": "First Punic War begins",
+  "where": "Messina, Sicily",
+  "lat": 38.19,
+  "lon": 15.55,
+  "wk": "First Punic War",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "eu-509-roman-republic",
+   "me-814-carthage"
+  ],
+  "why_selected": "Rome built a navy, won Sicily and became a Mediterranean power"
+ },
+ {
+  "id": "sa-261-ashoka",
+  "y": -261,
+  "approx": true,
+  "r": "sa",
+  "tier": 1,
+  "parent": null,
+  "h": "Ashoka turns to Buddhism after Kalinga",
+  "where": "Dhauli, Odisha",
+  "lat": 20.19,
+  "lon": 85.84,
+  "wk": "Kalinga War",
+  "bt": "biography/Ashoka",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "faith",
+   "empire"
+  ],
+  "causes": [
+   "sa-320-maurya",
+   "sa-500-buddha"
+  ],
+  "why_selected": "Royal patronage carried Buddhism to Sri Lanka and Central Asia, beginning its rise as a world religion"
+ },
+ {
+  "id": "sa-256-greco-bactria",
+  "y": -256,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "ea-138-zhang-qian",
+  "h": "Greco-Bactrian kingdom breaks away",
+  "where": "Balkh, Afghanistan",
+  "lat": 36.76,
+  "lon": 66.9,
+  "wk": "Greco-Bactrian Kingdom",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "silk"
+  ],
+  "causes": [
+   "me-323-diadochi"
+  ],
+  "why_selected": "Greek state in Afghanistan; Han envoys found it there; Greek art fed Gandharan Buddhist sculpture"
+ },
+ {
+  "id": "af-250-jenne-jeno",
+  "y": -250,
+  "approx": true,
+  "r": "af",
+  "tier": 3,
+  "parent": "af-1235-sundiata",
+  "h": "Jenne-Jeno trading town on the Niger",
+  "where": "Djenné, Mali",
+  "lat": 13.89,
+  "lon": -4.55,
+  "wk": "Djenné-Djeno",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "African urbanism that grew without outside stimulus; the base of later Niger trade"
+ },
+ {
+  "id": "sa-250-mahinda",
+  "y": -250,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "sa-261-ashoka",
+  "h": "Buddhism reaches Sri Lanka",
+  "where": "Anuradhapura, Sri Lanka",
+  "lat": 8.31,
+  "lon": 80.4,
+  "wk": "Mahinda (Buddhist monk)",
+  "c": [
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "sa-261-ashoka"
+  ],
+  "why_selected": "Sri Lanka became the base of Theravada Buddhism, later carried to Burma and Thailand"
+ },
+ {
+  "id": "me-247-parthia",
+  "y": -247,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "ea-138-zhang-qian",
+  "h": "Parthians found their empire in Iran",
+  "where": "Nisa, Turkmenistan",
+  "lat": 37.95,
+  "lon": 58.2,
+  "wk": "Parthian Empire",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire",
+   "silk",
+   "steppe"
+  ],
+  "causes": [
+   "me-323-diadochi"
+  ],
+  "why_selected": "Steppe-born dynasty that held the middle of the Silk Road and stopped Rome in the east"
+ },
+ {
+  "id": "ea-221-qin",
+  "y": -221,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Qin unifies China",
+  "where": "Xianyang, Shaanxi",
+  "lat": 34.33,
+  "lon": 108.71,
+  "wk": "Qin's wars of unification",
+  "bt": "topic/Qin-dynasty",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire",
+   "law"
+  ],
+  "causes": [
+   "ea-356-shang-yang"
+  ],
+  "why_selected": "Created the unified bureaucratic empire, script, weights and laws that defined China"
+ },
+ {
+  "id": "eu-216-cannae",
+  "y": -216,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-146-rome-carthage",
+  "h": "Hannibal crushes Rome at Cannae",
+  "where": "Cannae, Apulia",
+  "lat": 41.31,
+  "lon": 16.13,
+  "wk": "Battle of Cannae",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "conflict"
+  ],
+  "causes": [
+   "eu-264-first-punic"
+  ],
+  "why_selected": "Rome survived its worst defeat, outlasted Hannibal and emerged the Mediterranean's strongest state"
+ },
+ {
+  "id": "ea-209-xiongnu",
+  "y": -209,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Modu Chanyu unites the Xiongnu",
+  "where": "Mongolian steppe",
+  "lat": 47.5,
+  "lon": 102.5,
+  "wk": "Modu Chanyu",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "empire"
+  ],
+  "causes": [
+   "ea-221-qin"
+  ],
+  "why_selected": "First steppe empire; China's relations with the steppe, war or tribute, followed its pattern for two millennia"
+ },
+ {
+  "id": "ea-209-chen-sheng",
+  "y": -209,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-221-qin",
+  "h": "Peasant revolt topples the Qin",
+  "where": "Dazexiang, Anhui",
+  "lat": 33.6,
+  "lon": 117.0,
+  "wk": "Chen Sheng and Wu Guang uprising",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "revolution"
+  ],
+  "causes": [
+   "ea-221-qin"
+  ],
+  "why_selected": "Showed that Qin's harsh law could not hold; the lesson of the Han's milder rule"
+ },
+ {
+  "id": "ea-202-han",
+  "y": -202,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-221-qin",
+  "h": "Liu Bang founds the Han dynasty",
+  "where": "Chang'an (Xi'an)",
+  "lat": 34.27,
+  "lon": 108.9,
+  "wk": "Han dynasty",
+  "bt": "topic/Han-dynasty",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "ea-209-chen-sheng"
+  ],
+  "why_selected": "Kept Qin's institutions under a milder ideology; four centuries that gave the Chinese their name 'Han'"
+ },
+ {
+  "id": "ea-200-baideng",
+  "y": -200,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-209-xiongnu",
+  "h": "Xiongnu trap the Han emperor at Baideng",
+  "where": "Datong, Shanxi",
+  "lat": 40.08,
+  "lon": 113.3,
+  "wk": "Battle of Baideng",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "conflict"
+  ],
+  "causes": [
+   "ea-209-xiongnu",
+   "ea-202-han"
+  ],
+  "why_selected": "Forced Han into the heqin system: brides and silk paid to the steppe for peace"
+ },
+ {
+  "id": "me-167-maccabees",
+  "y": -167,
+  "r": "me",
+  "tier": 3,
+  "parent": "me-587-jerusalem-587",
+  "h": "Maccabees revolt against the Seleucids",
+  "where": "Modiin / Jerusalem",
+  "lat": 31.78,
+  "lon": 35.23,
+  "wk": "Maccabean Revolt",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "faith",
+   "indep"
+  ],
+  "causes": [
+   "me-323-diadochi"
+  ],
+  "why_selected": "Restored a Jewish state and the Temple cult; the Judea into which Jesus was born"
+ },
+ {
+  "id": "me-146-rome-carthage",
+  "y": -146,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Rome destroys Carthage and Corinth",
+  "where": "Carthage, Tunisia",
+  "lat": 36.85,
+  "lon": 10.32,
+  "wk": "Third Punic War",
+  "bt": "event/Punic-Wars",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "atrocity"
+  ],
+  "causes": [
+   "eu-216-cannae",
+   "me-814-carthage"
+  ],
+  "why_selected": "Left Rome master of the Mediterranean; plunder and slaves destabilised its republic"
+ },
+ {
+  "id": "ea-138-zhang-qian",
+  "y": -138,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Zhang Qian's mission opens the Silk Road",
+  "where": "Chang'an (Xi'an)",
+  "lat": 34.27,
+  "lon": 108.9,
+  "wk": "Zhang Qian",
+  "bt": "biography/Zhang-Qian",
+  "c": [
+   "economic",
+   "political"
+  ],
+  "t": [
+   "silk",
+   "explore"
+  ],
+  "causes": [
+   "ea-200-baideng"
+  ],
+  "why_selected": "Han China learned of Central Asia and sent armies and silk west; the start of regular Silk Road exchange"
+ },
+ {
+  "id": "ea-136-han-confucian",
+  "y": -136,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-500-confucius",
+  "h": "Emperor Wu makes Confucianism state doctrine",
+  "where": "Chang'an (Xi'an)",
+  "lat": 34.27,
+  "lon": 108.9,
+  "wk": "Emperor Wu of Han",
+  "c": [
+   "ideas",
+   "political"
+  ],
+  "t": [
+   "law"
+  ],
+  "causes": [
+   "ea-202-han",
+   "ea-500-confucius"
+  ],
+  "why_selected": "Tied officialdom to the Confucian classics, the basis of the later examination system"
+ },
+ {
+  "id": "eu-133-gracchi",
+  "y": -133,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-27-augustus",
+  "h": "Tiberius Gracchus killed in Rome",
+  "where": "Rome",
+  "lat": 41.89,
+  "lon": 12.49,
+  "wk": "Tiberius Gracchus",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "rights",
+   "conflict"
+  ],
+  "causes": [
+   "me-146-rome-carthage"
+  ],
+  "why_selected": "First political killing in the Forum; land and slavery disputes now settled by force"
+ },
+ {
+  "id": "ea-119-mobei",
+  "y": -119,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-209-xiongnu",
+  "h": "Han crushes the Xiongnu at Mobei",
+  "where": "Gobi, Mongolia",
+  "lat": 45.0,
+  "lon": 106.0,
+  "wk": "Battle of Mobei",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "conflict"
+  ],
+  "causes": [
+   "ea-138-zhang-qian"
+  ],
+  "why_selected": "Drove the Xiongnu north and secured the Hexi Corridor for the Silk Road"
+ },
+ {
+  "id": "se-111-nanyue",
+  "y": -111,
+  "r": "se",
+  "tier": 2,
+  "parent": "ea-221-qin",
+  "h": "Han conquers Nanyue and northern Vietnam",
+  "where": "Panyu (Guangzhou)",
+  "lat": 23.13,
+  "lon": 113.26,
+  "wk": "Han conquest of Nanyue",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "ea-202-han",
+   "se-1000-dong-son"
+  ],
+  "why_selected": "Began a thousand years of Chinese rule in the Red River Delta"
+ },
+ {
+  "id": "ea-108-gojoseon",
+  "y": -108,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-221-qin",
+  "h": "Han conquers Gojoseon in Korea",
+  "where": "Wanggeom (Pyongyang)",
+  "lat": 39.02,
+  "lon": 125.75,
+  "wk": "Han conquest of Old Chosŏn",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "ea-202-han"
+  ],
+  "why_selected": "Han commanderies brought Chinese writing and statecraft into Korea"
+ },
+ {
+  "id": "na-100-hopewell",
+  "y": -100,
+  "approx": true,
+  "r": "na",
+  "tier": 3,
+  "parent": "na-1050-cahokia",
+  "h": "Hopewell trade network spans the Midwest",
+  "where": "Chillicothe, Ohio",
+  "lat": 39.33,
+  "lon": -82.98,
+  "wk": "Hopewell tradition",
+  "c": [
+   "economic",
+   "culture"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [
+   "na-500-adena"
+  ],
+  "why_selected": "Exchange of copper, shell and obsidian from the Rockies to the Gulf"
+ },
+ {
+  "id": "ea-81-salt-iron",
+  "y": -81,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-500-confucius",
+  "h": "Han court debates salt and iron monopolies",
+  "where": "Chang'an (Xi'an)",
+  "lat": 34.27,
+  "lon": 108.9,
+  "wk": "Discourses on Salt and Iron",
+  "c": [
+   "economic",
+   "ideas"
+  ],
+  "t": [
+   "money"
+  ],
+  "causes": [
+   "ea-136-han-confucian"
+  ],
+  "why_selected": "Confucians and Legalists argued state monopoly against light taxes; the template for Chinese economic debate"
+ },
+ {
+  "id": "eu-73-spartacus",
+  "y": -73,
+  "r": "eu",
+  "tier": 3,
+  "parent": "eu-27-augustus",
+  "h": "Spartacus leads a slave revolt",
+  "where": "Capua, Campania",
+  "lat": 41.08,
+  "lon": 14.25,
+  "wk": "Third Servile War",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "slavery",
+   "revolution"
+  ],
+  "causes": [
+   "me-146-rome-carthage"
+  ],
+  "why_selected": "Largest slave rising against Rome; showed the danger of the plantation economy conquest created"
+ },
+ {
+  "id": "ea-60-western-regions",
+  "y": -60,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-138-zhang-qian",
+  "h": "Han garrisons the Tarim Basin",
+  "where": "Wulei, Tarim Basin",
+  "lat": 41.8,
+  "lon": 84.0,
+  "wk": "Protectorate of the Western Regions",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "silk",
+   "empire"
+  ],
+  "causes": [
+   "ea-119-mobei"
+  ],
+  "why_selected": "Han garrisons in the Tarim Basin protected the Silk Road caravans"
+ },
+ {
+  "id": "me-53-carrhae",
+  "y": -53,
+  "r": "me",
+  "tier": 2,
+  "parent": "eu-27-augustus",
+  "h": "Parthians destroy Crassus at Carrhae",
+  "where": "Harran, Turkey",
+  "lat": 36.86,
+  "lon": 39.03,
+  "wk": "Battle of Carrhae",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "me-247-parthia"
+  ],
+  "why_selected": "Ended the triumvirate's balance and fixed the Euphrates as Rome's eastern limit"
+ },
+ {
+  "id": "eu-49-rubicon",
+  "y": -49,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-27-augustus",
+  "h": "Caesar crosses the Rubicon",
+  "where": "Rubicon, near Rimini",
+  "lat": 44.06,
+  "lon": 12.45,
+  "wk": "Caesar's civil war",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "revolution"
+  ],
+  "causes": [
+   "eu-133-gracchi",
+   "me-53-carrhae"
+  ],
+  "why_selected": "Civil war ended the Republic's institutions in all but name"
+ },
+ {
+  "id": "eu-31-actium",
+  "y": -31,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-27-augustus",
+  "h": "Octavian wins at Actium",
+  "where": "Actium, western Greece",
+  "lat": 38.95,
+  "lon": 20.73,
+  "wk": "Battle of Actium",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "eu-49-rubicon"
+  ],
+  "why_selected": "Removed the last rival to Octavian and delivered Egypt to Rome"
+ },
+ {
+  "id": "eu-27-augustus",
+  "y": -27,
+  "r": "eu",
+  "tier": 1,
+  "parent": null,
+  "h": "Augustus becomes Rome's first emperor",
+  "where": "Rome",
+  "lat": 41.89,
+  "lon": 12.49,
+  "wk": "Augustus",
+  "bt": "biography/Augustus-Roman-emperor",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "eu-31-actium"
+  ],
+  "why_selected": "Monarchy in republican dress; two centuries of Roman peace and the frame for Christianity's spread"
+ },
+ {
+  "id": "sa-25-indo-roman",
+  "y": -25,
+  "approx": true,
+  "r": "sa",
+  "tier": 2,
+  "parent": "ea-138-zhang-qian",
+  "h": "Romans sail the monsoon to India",
+  "where": "Muziris, Kerala",
+  "lat": 10.15,
+  "lon": 76.21,
+  "wk": "Indo-Roman trade relations",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "silk",
+   "money"
+  ],
+  "causes": [
+   "eu-31-actium"
+  ],
+  "why_selected": "Over a hundred ships a year carried Roman gold to India for pepper and textiles"
+ },
+ {
+  "id": "ea-9-wang-mang",
+  "y": 9,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-220-han-collapse",
+  "h": "Wang Mang usurps the Han throne",
+  "where": "Chang'an (Xi'an)",
+  "lat": 34.27,
+  "lon": 108.9,
+  "wk": "Wang Mang",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "money"
+  ],
+  "causes": [
+   "ea-81-salt-iron"
+  ],
+  "why_selected": "Radical land and currency reforms failed amid Yellow River floods; the Han restored at Luoyang"
+ },
+ {
+  "id": "eu-9-teutoburg",
+  "y": 9,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-476-west-rome",
+  "h": "Germans destroy three legions",
+  "where": "Kalkriese, Lower Saxony",
+  "lat": 52.41,
+  "lon": 8.13,
+  "wk": "Battle of the Teutoburg Forest",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "eu-27-augustus"
+  ],
+  "why_selected": "Fixed the Rhine as Rome's frontier, leaving Germania outside the empire"
+ },
+ {
+  "id": "me-30-jesus",
+  "y": 30,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "eu-312-constantine",
+  "h": "Jesus crucified in Jerusalem",
+  "where": "Jerusalem",
+  "lat": 31.78,
+  "lon": 35.23,
+  "wk": "Crucifixion of Jesus",
+  "c": [
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "me-167-maccabees",
+   "eu-27-augustus"
+  ],
+  "why_selected": "Followers proclaimed his resurrection and founded the movement that became Christianity"
+ },
+ {
+  "id": "se-40-trung",
+  "y": 40,
+  "r": "se",
+  "tier": 3,
+  "parent": "ea-221-qin",
+  "h": "Trưng sisters revolt against Han rule",
+  "where": "Mê Linh, Vietnam",
+  "lat": 21.18,
+  "lon": 105.72,
+  "wk": "Trưng sisters",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "indep"
+  ],
+  "causes": [
+   "se-111-nanyue"
+  ],
+  "why_selected": "First large Vietnamese rising against China; a lasting symbol of resistance"
+ },
+ {
+  "id": "ea-68-buddhism-china",
+  "y": 68,
+  "approx": true,
+  "r": "ea",
+  "tier": 2,
+  "parent": "sa-500-buddha",
+  "h": "Buddhism reaches Han China",
+  "where": "Luoyang, Henan",
+  "lat": 34.62,
+  "lon": 112.45,
+  "wk": "White Horse Temple",
+  "c": [
+   "religion"
+  ],
+  "t": [
+   "faith",
+   "silk"
+  ],
+  "causes": [
+   "ea-138-zhang-qian",
+   "sa-500-buddha"
+  ],
+  "why_selected": "Silk Road missionaries began Buddhism's rise into one of China's three teachings"
+ },
+ {
+  "id": "me-70-temple-70",
+  "y": 70,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-587-jerusalem-587",
+  "h": "Rome destroys the Second Temple",
+  "where": "Jerusalem",
+  "lat": 31.78,
+  "lon": 35.23,
+  "wk": "Siege of Jerusalem (70 CE)",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "faith",
+   "atrocity"
+  ],
+  "causes": [
+   "me-30-jesus",
+   "eu-27-augustus"
+  ],
+  "why_selected": "Ended Temple sacrifice; Judaism re-formed around rabbis and texts, and Christianity separated from it"
+ },
+ {
+  "id": "af-100-aksum",
+  "y": 100,
+  "approx": true,
+  "r": "af",
+  "tier": 2,
+  "parent": "me-636-islam-conquest",
+  "h": "Aksum rises on Red Sea trade",
+  "where": "Aksum, Tigray, Ethiopia",
+  "lat": 14.13,
+  "lon": 38.72,
+  "wk": "Kingdom of Aksum",
+  "c": [
+   "economic",
+   "political"
+  ],
+  "t": [
+   "silk"
+  ],
+  "causes": [
+   "sa-25-indo-roman"
+  ],
+  "why_selected": "Controlled the Red Sea ivory and gold trade; one of the great powers of late antiquity"
+ },
+ {
+  "id": "la-100-teotihuacan",
+  "y": 100,
+  "approx": true,
+  "r": "la",
+  "tier": 1,
+  "parent": null,
+  "h": "Teotihuacan becomes the Americas' great city",
+  "where": "Teotihuacan, Valley of Mexico",
+  "lat": 19.69,
+  "lon": -98.84,
+  "wk": "Teotihuacan",
+  "bt": "place/Teotihuacan",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-1400-olmec",
+   "la-500-monte-alban"
+  ],
+  "why_selected": "Largest city in the Americas; its trade and armies reached the Maya and its ruins awed the Aztecs"
+ },
+ {
+  "id": "la-100-moche",
+  "y": 100,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-1438-pachacuti",
+  "h": "Moche states rise on Peru's north coast",
+  "where": "Huacas del Sol y de la Luna, Trujillo",
+  "lat": -8.13,
+  "lon": -78.99,
+  "wk": "Moche civilization",
+  "c": [
+   "political",
+   "culture"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-900-chavin"
+  ],
+  "why_selected": "Irrigation states with large adobe temples; forerunners of the Chimú"
+ },
+ {
+  "id": "la-100-nazca",
+  "y": 100,
+  "approx": true,
+  "r": "la",
+  "tier": 3,
+  "parent": "la-1438-pachacuti",
+  "h": "Nazca culture on Peru's south coast",
+  "where": "Nazca, Peru",
+  "lat": -14.83,
+  "lon": -74.94,
+  "wk": "Nazca culture",
+  "c": [
+   "culture",
+   "religion"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [
+   "la-900-chavin"
+  ],
+  "why_selected": "Underground aqueducts and geoglyphs; part of the coastal tradition Wari absorbed"
+ },
+ {
+  "id": "se-100-funan",
+  "y": 100,
+  "approx": true,
+  "r": "se",
+  "tier": 2,
+  "parent": "se-683-srivijaya",
+  "h": "Funan's port links India and China",
+  "where": "Óc Eo, Mekong Delta",
+  "lat": 10.24,
+  "lon": 105.15,
+  "wk": "Funan",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "silk"
+  ],
+  "causes": [
+   "sa-25-indo-roman"
+  ],
+  "why_selected": "First Indianised state of Southeast Asia; the sea route between India and China ran past it"
+ },
+ {
+  "id": "ea-105-paper",
+  "y": 105,
+  "r": "ea",
+  "tier": 2,
+  "parent": "me-750-abbasid",
+  "h": "Cai Lun improves papermaking",
+  "where": "Luoyang, Henan",
+  "lat": 34.62,
+  "lon": 112.45,
+  "wk": "Cai Lun",
+  "c": [
+   "science"
+  ],
+  "t": [
+   "science"
+  ],
+  "causes": [
+   "ea-202-han"
+  ],
+  "why_selected": "Cheap paper spread across Asia and, via the Islamic world, to Europe, where it later fed printing"
+ },
+ {
+  "id": "eu-117-hadrian",
+  "y": 117,
+  "r": "eu",
+  "tier": 3,
+  "parent": "eu-476-west-rome",
+  "h": "Hadrian gives up Trajan's eastern conquests",
+  "where": "Rome",
+  "lat": 41.89,
+  "lon": 12.49,
+  "wk": "Hadrian",
+  "bt": "biography/Hadrian",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "eu-27-augustus"
+  ],
+  "why_selected": "Rome turned from expansion to fixed, fortified frontiers it then had to man"
+ },
+ {
+  "id": "sa-127-kanishka",
+  "y": 127,
+  "approx": true,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-500-buddha",
+  "h": "Kanishka rules the Kushan Empire",
+  "where": "Peshawar (Purushapura)",
+  "lat": 34.01,
+  "lon": 71.58,
+  "wk": "Kanishka",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "silk",
+   "faith",
+   "steppe"
+  ],
+  "causes": [
+   "sa-256-greco-bactria",
+   "ea-138-zhang-qian"
+  ],
+  "why_selected": "A Central Asian empire astride the Silk Road that sponsored Mahayana Buddhism's spread to China"
+ },
+ {
+  "id": "eu-165-antonine-plague",
+  "y": 165,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-476-west-rome",
+  "h": "Antonine Plague strikes the Roman Empire",
+  "where": "Rome",
+  "lat": 41.89,
+  "lon": 12.49,
+  "wk": "Antonine Plague",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "conflict"
+  ],
+  "causes": [
+   "me-247-parthia"
+  ],
+  "why_selected": "Returning troops from Parthia brought an epidemic that killed millions and strained army recruitment"
+ },
+ {
+  "id": "ea-184-yellow-turbans",
+  "y": 184,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-220-han-collapse",
+  "h": "Yellow Turban Rebellion",
+  "where": "North China Plain",
+  "lat": 35.5,
+  "lon": 115.0,
+  "wk": "Yellow Turban Rebellion",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "revolution"
+  ],
+  "causes": [
+   "ea-202-han"
+  ],
+  "why_selected": "Peasant millenarian revolt; generals raised to crush it became the warlords who ended the Han"
+ },
+ {
+  "id": "se-192-champa",
+  "y": 192,
+  "approx": true,
+  "r": "se",
+  "tier": 3,
+  "parent": "se-683-srivijaya",
+  "h": "Champa kingdom founded",
+  "where": "Trà Kiệu, central Vietnam",
+  "lat": 15.83,
+  "lon": 108.24,
+  "wk": "Champa",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "silk"
+  ],
+  "causes": [
+   "se-111-nanyue"
+  ],
+  "why_selected": "Indianised maritime state in central Vietnam, absorbed by Vietnam's southward march"
+ },
+ {
+  "id": "ea-208-red-cliffs",
+  "y": 208,
+  "approx": true,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-220-han-collapse",
+  "h": "Battle of Red Cliffs",
+  "where": "Chibi, Hubei",
+  "lat": 29.72,
+  "lon": 113.88,
+  "wk": "Battle of Red Cliffs",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "conflict"
+  ],
+  "causes": [
+   "ea-184-yellow-turbans"
+  ],
+  "why_selected": "Blocked Cao Cao's reunification and fixed the Three Kingdoms division"
+ },
+ {
+  "id": "ea-220-han-collapse",
+  "y": 220,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Han dynasty ends; China divides",
+  "where": "Luoyang, Henan",
+  "lat": 34.62,
+  "lon": 112.45,
+  "wk": "End of the Han dynasty",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "ea-184-yellow-turbans",
+   "ea-208-red-cliffs"
+  ],
+  "why_selected": "Began three and a half centuries of division in which steppe peoples ruled the north and Buddhism spread"
+ },
+ {
+  "id": "me-224-sasanian",
+  "y": 224,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-636-islam-conquest",
+  "h": "Ardashir founds the Sasanian Empire",
+  "where": "Firuzabad (Ardashir-Khwarrah), Iran",
+  "lat": 28.85,
+  "lon": 52.53,
+  "wk": "Sasanian Empire",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "me-247-parthia"
+  ],
+  "why_selected": "A centralising Persian state with Zoroastrian orthodoxy; Rome's equal rival for four centuries"
+ },
+ {
+  "id": "eu-235-crisis-235",
+  "y": 235,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-476-west-rome",
+  "h": "Crisis of the Third Century begins",
+  "where": "Rome / frontiers",
+  "lat": 41.89,
+  "lon": 12.49,
+  "wk": "Crisis of the Third Century",
+  "c": [
+   "political",
+   "economic",
+   "war"
+  ],
+  "t": [
+   "empire",
+   "money"
+  ],
+  "causes": [
+   "me-224-sasanian",
+   "eu-165-antonine-plague"
+  ],
+  "why_selected": "Fifty years of usurpation, invasion and debased coinage; the empire survived only by militarising"
+ },
+ {
+  "id": "eu-284-diocletian",
+  "y": 284,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-312-constantine",
+  "h": "Diocletian rebuilds the empire",
+  "where": "Nicomedia (İzmit)",
+  "lat": 40.77,
+  "lon": 29.92,
+  "wk": "Diocletian",
+  "bt": "biography/Diocletian",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "eu-235-crisis-235"
+  ],
+  "why_selected": "Tetrarchy, larger army, new taxes and the last great persecution of Christians"
+ },
+ {
+  "id": "af-300-trans-saharan",
+  "y": 300,
+  "approx": true,
+  "r": "af",
+  "tier": 2,
+  "parent": "af-1235-sundiata",
+  "h": "Camels open trans-Saharan trade",
+  "where": "Sahara (Tadmekka route)",
+  "lat": 18.5,
+  "lon": 1.6,
+  "wk": "Trans-Saharan trade",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "money",
+   "slavery"
+  ],
+  "causes": [
+   "af-250-jenne-jeno"
+  ],
+  "why_selected": "Camel caravans linked West African gold to the Mediterranean, and later carried Islam and slaves"
+ },
+ {
+  "id": "ea-311-yongjia",
+  "y": 311,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-589-sui",
+  "h": "Xiongnu sack Luoyang",
+  "where": "Luoyang, Henan",
+  "lat": 34.62,
+  "lon": 112.45,
+  "wk": "Disaster of Yongjia",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "atrocity"
+  ],
+  "causes": [
+   "ea-220-han-collapse"
+  ],
+  "why_selected": "North China fell to steppe dynasties; the Chinese elite migrated south and developed the Yangtze"
+ },
+ {
+  "id": "eu-312-constantine",
+  "y": 312,
+  "r": "eu",
+  "tier": 1,
+  "parent": null,
+  "h": "Constantine converts to Christianity",
+  "where": "Milvian Bridge, Rome",
+  "lat": 41.94,
+  "lon": 12.47,
+  "wk": "Constantine the Great and Christianity",
+  "c": [
+   "religion",
+   "political"
+  ],
+  "t": [
+   "faith",
+   "empire"
+  ],
+  "causes": [
+   "eu-284-diocletian",
+   "me-30-jesus"
+  ],
+  "why_selected": "Imperial backing turned Christianity from a persecuted minority into the religion of the Roman world"
+ },
+ {
+  "id": "sa-320-chandragupta-gupta",
+  "y": 320,
+  "r": "sa",
+  "tier": 2,
+  "parent": "me-750-abbasid",
+  "h": "Gupta Empire founded",
+  "where": "Pataliputra (Patna), Bihar",
+  "lat": 25.61,
+  "lon": 85.14,
+  "wk": "Gupta Empire",
+  "bt": "topic/Gupta-dynasty",
+  "c": [
+   "political",
+   "science"
+  ],
+  "t": [
+   "empire",
+   "science"
+  ],
+  "causes": [
+   "sa-127-kanishka"
+  ],
+  "why_selected": "Classical age of Indian science, Sanskrit literature and Hindu temple culture"
+ },
+ {
+  "id": "me-325-nicaea",
+  "y": 325,
+  "r": "me",
+  "tier": 2,
+  "parent": "eu-312-constantine",
+  "h": "First Council of Nicaea defines the creed",
+  "where": "Nicaea (İznik), Turkey",
+  "lat": 40.43,
+  "lon": 29.72,
+  "wk": "First Council of Nicaea",
+  "c": [
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "eu-312-constantine"
+  ],
+  "why_selected": "Emperor and bishops fixed orthodoxy; the model of state-defined Christian doctrine"
+ },
+ {
+  "id": "af-330-ezana",
+  "y": 330,
+  "approx": true,
+  "r": "af",
+  "tier": 2,
+  "parent": "eu-312-constantine",
+  "h": "Aksum's King Ezana adopts Christianity",
+  "where": "Aksum, Tigray, Ethiopia",
+  "lat": 14.13,
+  "lon": 38.72,
+  "wk": "Ezana of Axum",
+  "c": [
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "af-100-aksum",
+   "eu-312-constantine"
+  ],
+  "why_selected": "Made Ethiopia one of the oldest Christian states, a link to the Mediterranean church for 1,600 years"
+ },
+ {
+  "id": "eu-330-constantinople",
+  "y": 330,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-312-constantine",
+  "h": "Constantine dedicates Constantinople",
+  "where": "Constantinople (Istanbul)",
+  "lat": 41.01,
+  "lon": 28.98,
+  "wk": "Constantinople",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire",
+   "cities"
+  ],
+  "causes": [
+   "eu-312-constantine"
+  ],
+  "why_selected": "New Rome on the Bosporus anchored the eastern empire for 1,100 years"
+ },
+ {
+  "id": "eu-376-goths-cross",
+  "y": 376,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-476-west-rome",
+  "h": "Goths cross the Danube fleeing the Huns",
+  "where": "Lower Danube, Bulgaria",
+  "lat": 43.7,
+  "lon": 25.5,
+  "wk": "Gothic War (376–382)",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "conflict"
+  ],
+  "causes": [
+   "ea-209-xiongnu"
+  ],
+  "why_selected": "Hun pressure pushed whole peoples into the empire; Rome could neither absorb nor expel them"
+ },
+ {
+  "id": "eu-378-adrianople",
+  "y": 378,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-476-west-rome",
+  "h": "Goths destroy a Roman army at Adrianople",
+  "where": "Adrianople (Edirne)",
+  "lat": 41.68,
+  "lon": 26.56,
+  "wk": "Battle of Adrianople",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "eu-376-goths-cross"
+  ],
+  "why_selected": "Killed Emperor Valens; Goths settled inside the empire as armed, autonomous allies"
+ },
+ {
+  "id": "la-378-teotihuacan-tikal",
+  "y": 378,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-100-teotihuacan",
+  "h": "Teotihuacan installs a new king at Tikal",
+  "where": "Tikal, Guatemala",
+  "lat": 17.22,
+  "lon": -89.62,
+  "wk": "Siyaj Kʼakʼ",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "la-100-teotihuacan"
+  ],
+  "why_selected": "Teotihuacan's intervention reshaped Maya dynasties and politics for two centuries"
+ },
+ {
+  "id": "eu-380-thessalonica",
+  "y": 380,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-312-constantine",
+  "h": "Christianity made the state religion",
+  "where": "Thessalonica",
+  "lat": 40.64,
+  "lon": 22.94,
+  "wk": "Edict of Thessalonica",
+  "c": [
+   "religion",
+   "political"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "me-325-nicaea"
+  ],
+  "why_selected": "Nicene Christianity became the only lawful faith; pagan cults were closed in the following years"
+ },
+ {
+  "id": "eu-410-sack-410",
+  "y": 410,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-476-west-rome",
+  "h": "Alaric's Visigoths sack Rome",
+  "where": "Rome",
+  "lat": 41.89,
+  "lon": 12.49,
+  "wk": "Sack of Rome (410)",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "eu-378-adrianople"
+  ],
+  "why_selected": "First fall of Rome to a foreign enemy in 800 years; Augustine answered with The City of God"
+ },
+ {
+  "id": "ea-439-northern-wei",
+  "y": 439,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-589-sui",
+  "h": "Northern Wei unifies north China",
+  "where": "Pingcheng (Datong)",
+  "lat": 40.08,
+  "lon": 113.3,
+  "wk": "Northern Wei",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "steppe",
+   "faith"
+  ],
+  "causes": [
+   "ea-311-yongjia"
+  ],
+  "why_selected": "Steppe-born Xianbei rulers adopted Chinese ways and Buddhism; Sui and Tang came from their elite"
+ },
+ {
+  "id": "me-439-vandals-carthage",
+  "y": 439,
+  "r": "me",
+  "tier": 2,
+  "parent": "eu-476-west-rome",
+  "h": "Vandals take Carthage",
+  "where": "Carthage, Tunisia",
+  "lat": 36.85,
+  "lon": 10.32,
+  "wk": "Vandal Kingdom",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "eu-376-goths-cross"
+  ],
+  "why_selected": "Cut the western empire off from Africa's grain and taxes; a blow it could not survive"
+ },
+ {
+  "id": "me-451-chalcedon",
+  "y": 451,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-636-islam-conquest",
+  "h": "Council of Chalcedon splits the Church",
+  "where": "Chalcedon (Kadıköy), Istanbul",
+  "lat": 40.99,
+  "lon": 29.03,
+  "wk": "Council of Chalcedon",
+  "c": [
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "me-325-nicaea"
+  ],
+  "why_selected": "Egyptian, Syrian and Armenian churches broke with Constantinople, weakening its hold on the provinces Arabs later took"
+ },
+ {
+  "id": "ea-475-yamato",
+  "y": 475,
+  "approx": true,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-589-sui",
+  "h": "Yamato kings dominate central Japan",
+  "where": "Nara basin",
+  "lat": 34.6,
+  "lon": 135.8,
+  "wk": "Kofun period",
+  "c": [
+   "political"
+  ],
+  "t": [],
+  "causes": [],
+  "why_selected": "Keyhole-tomb kingship from which the Japanese imperial state grew"
+ },
+ {
+  "id": "eu-476-west-rome",
+  "y": 476,
+  "r": "eu",
+  "tier": 1,
+  "parent": null,
+  "h": "Western Roman Empire falls",
+  "where": "Ravenna",
+  "lat": 44.42,
+  "lon": 12.2,
+  "wk": "Fall of the Western Roman Empire",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "eu-410-sack-410",
+   "me-439-vandals-carthage",
+   "eu-376-goths-cross"
+  ],
+  "why_selected": "Germanic kingdoms replaced Roman rule in the West; the Church became the main heir to Rome's authority"
+ },
+ {
+  "id": "eu-496-clovis",
+  "y": 496,
+  "approx": true,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-800-charlemagne",
+  "h": "Clovis converts to Christianity",
+  "where": "Reims",
+  "lat": 49.25,
+  "lon": 4.03,
+  "wk": "Clovis I",
+  "bt": "biography/Clovis-I",
+  "c": [
+   "religion",
+   "political"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "eu-476-west-rome"
+  ],
+  "why_selected": "Catholic conversion won the Franks Roman elites and the Church; the base of the Frankish kingdom"
+ },
+ {
+  "id": "sa-499-aryabhata",
+  "y": 499,
+  "r": "sa",
+  "tier": 3,
+  "parent": "me-750-abbasid",
+  "h": "Aryabhata publishes his astronomy",
+  "where": "Kusumapura (Patna)",
+  "lat": 25.61,
+  "lon": 85.14,
+  "wk": "Aryabhata",
+  "c": [
+   "science"
+  ],
+  "t": [
+   "science"
+  ],
+  "causes": [
+   "sa-320-chandragupta-gupta"
+  ],
+  "why_selected": "Place-value arithmetic and astronomy later translated in Baghdad"
+ },
+ {
+  "id": "af-500-madagascar",
+  "y": 500,
+  "approx": true,
+  "r": "af",
+  "tier": 3,
+  "parent": "se-2200-austronesian",
+  "h": "Austronesians settle Madagascar",
+  "where": "Madagascar",
+  "lat": -18.9,
+  "lon": 47.5,
+  "wk": "Madagascar",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "explore"
+  ],
+  "causes": [
+   "se-2200-austronesian"
+  ],
+  "why_selected": "Sailors from Borneo reached Africa; Malagasy is an Austronesian language"
+ },
+ {
+  "id": "la-500-tiwanaku",
+  "y": 500,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-1438-pachacuti",
+  "h": "Tiwanaku dominates Lake Titicaca",
+  "where": "Tiwanaku, Bolivia",
+  "lat": -16.55,
+  "lon": -68.67,
+  "wk": "Tiwanaku",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-900-chavin"
+  ],
+  "why_selected": "Highland state whose collapse around 1000 left the Andes fragmented until the Inca"
+ },
+ {
+  "id": "sa-500-alchon",
+  "y": 500,
+  "approx": true,
+  "r": "sa",
+  "tier": 3,
+  "parent": "ea-209-xiongnu",
+  "h": "Huna invaders break the Gupta Empire",
+  "where": "Punjab / Malwa",
+  "lat": 31.5,
+  "lon": 74.3,
+  "wk": "Alchon Huns",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "sa-320-chandragupta-gupta"
+  ],
+  "why_selected": "Steppe invasion ended India's classical empire and fragmented the north"
+ },
+ {
+  "id": "eu-529-justinian-code",
+  "y": 529,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-476-west-rome",
+  "h": "Justinian codifies Roman law",
+  "where": "Constantinople (Istanbul)",
+  "lat": 41.01,
+  "lon": 28.98,
+  "wk": "Corpus Juris Civilis",
+  "c": [
+   "political",
+   "ideas"
+  ],
+  "t": [
+   "law"
+  ],
+  "causes": [
+   "eu-330-constantinople"
+  ],
+  "why_selected": "Its recovery in medieval Bologna made Roman law the base of continental European legal systems"
+ },
+ {
+  "id": "eu-533-justinian-war",
+  "y": 533,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-636-islam-conquest",
+  "h": "Justinian reconquers Africa and Italy",
+  "where": "Constantinople (Istanbul)",
+  "lat": 41.01,
+  "lon": 28.98,
+  "wk": "Vandalic War",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-439-vandals-carthage",
+   "eu-476-west-rome"
+  ],
+  "why_selected": "Won back territory at a cost that exhausted the empire before the Persian and Arab wars"
+ },
+ {
+  "id": "eu-541-plague-541",
+  "y": 541,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-636-islam-conquest",
+  "h": "Plague of Justinian",
+  "where": "Constantinople (Istanbul)",
+  "lat": 41.01,
+  "lon": 28.98,
+  "wk": "Plague of Justinian",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "conflict"
+  ],
+  "causes": [
+   "eu-533-justinian-war"
+  ],
+  "why_selected": "First bubonic plague pandemic; cut population and tax revenue in both Rome and Persia"
+ },
+ {
+  "id": "la-550-teotihuacan-falls",
+  "y": 550,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-100-teotihuacan",
+  "h": "Teotihuacan burns and declines",
+  "where": "Teotihuacan, Valley of Mexico",
+  "lat": 19.69,
+  "lon": -98.84,
+  "wk": "Teotihuacan",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-100-teotihuacan"
+  ],
+  "why_selected": "Collapse of central Mexico's great city left a vacuum filled by Tula, then the Aztecs"
+ },
+ {
+  "id": "la-562-calakmul-tikal",
+  "y": 562,
+  "r": "la",
+  "tier": 3,
+  "parent": "la-100-teotihuacan",
+  "h": "Caracol and Calakmul defeat Tikal",
+  "where": "Tikal, Guatemala",
+  "lat": 17.22,
+  "lon": -89.62,
+  "wk": "Tikal–Calakmul wars",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "conflict"
+  ],
+  "causes": [
+   "la-378-teotihuacan-tikal"
+  ],
+  "why_selected": "Began a century of Maya superpower rivalry that preceded the collapse"
+ },
+ {
+  "id": "ea-589-sui",
+  "y": 589,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Sui reunifies China",
+  "where": "Daxing (Chang'an)",
+  "lat": 34.27,
+  "lon": 108.9,
+  "wk": "Sui dynasty",
+  "bt": "topic/Sui-dynasty",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "ea-439-northern-wei"
+  ],
+  "why_selected": "Ended three centuries of division and rebuilt the centralised empire Tang inherited"
+ },
+ {
+  "id": "la-600-wari",
+  "y": 600,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-1438-pachacuti",
+  "h": "Wari builds the first Andean empire",
+  "where": "Huari, Ayacucho, Peru",
+  "lat": -13.06,
+  "lon": -74.2,
+  "wk": "Wari Empire",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "la-100-moche"
+  ],
+  "why_selected": "Roads, administrative centres and khipu accounting the Inca later adopted"
+ },
+ {
+  "id": "me-602-byz-persia",
+  "y": 602,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-636-islam-conquest",
+  "h": "Last Roman-Persian war begins",
+  "where": "Mesopotamia and Syria",
+  "lat": 36.2,
+  "lon": 37.15,
+  "wk": "Byzantine–Sasanian War of 602–628",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "me-224-sasanian",
+   "eu-541-plague-541"
+  ],
+  "why_selected": "A quarter-century of total war left both empires broke just before the Arab conquests"
+ },
+ {
+  "id": "ea-605-grand-canal",
+  "y": 605,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-589-sui",
+  "h": "Sui builds the Grand Canal",
+  "where": "Luoyang to Yangzhou",
+  "lat": 32.39,
+  "lon": 119.42,
+  "wk": "Grand Canal (China)",
+  "c": [
+   "economic",
+   "political"
+  ],
+  "t": [
+   "money"
+  ],
+  "causes": [
+   "ea-589-sui"
+  ],
+  "why_selected": "Joined the rice south to the political north; the spine of China's economy for 1,200 years"
+ },
+ {
+  "id": "ea-605-exams",
+  "y": 605,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-589-sui",
+  "h": "Imperial examinations introduced",
+  "where": "Chang'an (Xi'an)",
+  "lat": 34.27,
+  "lon": 108.9,
+  "wk": "Imperial examination",
+  "c": [
+   "political",
+   "ideas"
+  ],
+  "t": [
+   "law"
+  ],
+  "causes": [
+   "ea-589-sui",
+   "ea-136-han-confucian"
+  ],
+  "why_selected": "Recruitment by written examination in the classics; China's elite system until 1905"
+ },
+ {
+  "id": "ea-618-tang",
+  "y": 618,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-755-an-lushan",
+  "h": "Tang dynasty founded",
+  "where": "Chang'an (Xi'an)",
+  "lat": 34.27,
+  "lon": 108.9,
+  "wk": "Tang dynasty",
+  "bt": "topic/Tang-dynasty",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire",
+   "silk"
+  ],
+  "causes": [
+   "ea-589-sui"
+  ],
+  "why_selected": "A cosmopolitan empire reaching into Central Asia; East Asia's political model"
+ },
+ {
+  "id": "me-622-hijra",
+  "y": 622,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Muhammad's hijra to Medina",
+  "where": "Medina, Arabia",
+  "lat": 24.47,
+  "lon": 39.61,
+  "wk": "Hijrah",
+  "c": [
+   "religion",
+   "political"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [],
+  "why_selected": "Founded the first Muslim polity; Year 1 of the Islamic calendar"
+ },
+ {
+  "id": "sa-628-brahmagupta",
+  "y": 628,
+  "r": "sa",
+  "tier": 2,
+  "parent": "me-750-abbasid",
+  "h": "Brahmagupta sets rules for zero",
+  "where": "Bhillamala (Bhinmal), Rajasthan",
+  "lat": 25.0,
+  "lon": 72.27,
+  "wk": "Brahmagupta",
+  "c": [
+   "science"
+  ],
+  "t": [
+   "science"
+  ],
+  "causes": [
+   "sa-499-aryabhata"
+  ],
+  "why_selected": "Arithmetic with zero and negative numbers; translated into Arabic in Baghdad around 770"
+ },
+ {
+  "id": "me-636-islam-conquest",
+  "y": 636,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Arab armies take Syria and Persia",
+  "where": "Yarmouk River, Syria-Jordan",
+  "lat": 32.8,
+  "lon": 35.95,
+  "wk": "Early Muslim conquests",
+  "bt": "topic/Islamic-world",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "me-622-hijra",
+   "me-602-byz-persia"
+  ],
+  "why_selected": "In a generation the Arabs destroyed Persia, took Rome's richest provinces and created the Islamic world"
+ },
+ {
+  "id": "ea-645-taika",
+  "y": 645,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-589-sui",
+  "h": "Taika reforms model Japan on Tang China",
+  "where": "Asuka, Nara",
+  "lat": 34.47,
+  "lon": 135.82,
+  "wk": "Taika Reform",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "law"
+  ],
+  "causes": [
+   "ea-618-tang",
+   "ea-475-yamato"
+  ],
+  "why_selected": "Imperial court, land registers and Chinese-style law; the Japanese state's founding template"
+ },
+ {
+  "id": "af-652-baqt",
+  "y": 652,
+  "r": "af",
+  "tier": 3,
+  "parent": "me-636-islam-conquest",
+  "h": "Nubia halts the Arabs; the Baqt treaty",
+  "where": "Dongola, Sudan",
+  "lat": 18.22,
+  "lon": 30.75,
+  "wk": "Baqt",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "slavery",
+   "law"
+  ],
+  "causes": [
+   "me-636-islam-conquest"
+  ],
+  "why_selected": "Christian Makuria kept independence for 600 years by paying an annual tribute of enslaved people"
+ },
+ {
+  "id": "me-661-umayyad",
+  "y": 661,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-636-islam-conquest",
+  "h": "Umayyads take the caliphate",
+  "where": "Damascus, Syria",
+  "lat": 33.51,
+  "lon": 36.29,
+  "wk": "Umayyad Caliphate",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "me-636-islam-conquest"
+  ],
+  "why_selected": "Turned the conquests into a dynastic empire from Spain to Sindh"
+ },
+ {
+  "id": "ea-668-silla",
+  "y": 668,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-589-sui",
+  "h": "Silla unifies Korea",
+  "where": "Gyeongju, Korea",
+  "lat": 35.84,
+  "lon": 129.21,
+  "wk": "Unified Silla",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [],
+  "causes": [
+   "ea-618-tang"
+  ],
+  "why_selected": "With Tang help, Silla created the first unified Korean state"
+ },
+ {
+  "id": "me-680-karbala",
+  "y": 680,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-750-abbasid",
+  "h": "Husayn killed at Karbala",
+  "where": "Karbala, Iraq",
+  "lat": 32.62,
+  "lon": 44.03,
+  "wk": "Battle of Karbala",
+  "bt": "event/Battle-of-Karbala",
+  "c": [
+   "religion",
+   "war"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "me-661-umayyad"
+  ],
+  "why_selected": "Martyrdom of the Prophet's grandson defined Shia Islam and its quarrel with Sunni rulers"
+ },
+ {
+  "id": "se-683-srivijaya",
+  "y": 683,
+  "r": "se",
+  "tier": 1,
+  "parent": null,
+  "h": "Srivijaya rises at Palembang",
+  "where": "Palembang, Sumatra",
+  "lat": -2.99,
+  "lon": 104.76,
+  "wk": "Srivijaya",
+  "bt": "place/Srivijaya-empire",
+  "c": [
+   "economic",
+   "political"
+  ],
+  "t": [
+   "silk",
+   "faith"
+  ],
+  "causes": [
+   "se-100-funan"
+  ],
+  "why_selected": "Controlled the Strait of Malacca chokepoint for six centuries; the model for Malacca"
+ },
+ {
+  "id": "af-700-ghana",
+  "y": 700,
+  "approx": true,
+  "r": "af",
+  "tier": 2,
+  "parent": "af-1235-sundiata",
+  "h": "Ghana Empire grows rich on Saharan gold",
+  "where": "Koumbi Saleh, Mauritania",
+  "lat": 15.67,
+  "lon": -7.99,
+  "wk": "Ghana Empire",
+  "bt": "place/Ghana-historical-West-African-empire",
+  "c": [
+   "economic",
+   "political"
+  ],
+  "t": [
+   "money"
+  ],
+  "causes": [
+   "af-250-jenne-jeno"
+  ],
+  "why_selected": "Taxed the gold-for-salt trade carried by camel caravans across the Sahara"
+ },
+ {
+  "id": "eu-711-spain-711",
+  "y": 711,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-636-islam-conquest",
+  "h": "Muslim armies conquer Spain",
+  "where": "Guadalete, Andalusia",
+  "lat": 36.6,
+  "lon": -5.9,
+  "wk": "Umayyad conquest of Hispania",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "me-661-umayyad"
+  ],
+  "why_selected": "Created al-Andalus and began the seven-century Reconquista"
+ },
+ {
+  "id": "sa-712-sindh",
+  "y": 712,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-1206-delhi",
+  "h": "Arabs conquer Sindh",
+  "where": "Debal, near Karachi",
+  "lat": 24.75,
+  "lon": 67.52,
+  "wk": "Umayyad campaigns in India",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "me-661-umayyad"
+  ],
+  "why_selected": "First Muslim rule in South Asia; Indian science reached Baghdad through Sindh"
+ },
+ {
+  "id": "eu-717-constantinople-717",
+  "y": 717,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-636-islam-conquest",
+  "h": "Constantinople repels the Arab siege",
+  "where": "Constantinople (Istanbul)",
+  "lat": 41.01,
+  "lon": 28.98,
+  "wk": "Siege of Constantinople (717–718)",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "me-661-umayyad"
+  ],
+  "why_selected": "Saved the Byzantine state and set the Arab-Byzantine frontier in Anatolia for 350 years"
+ },
+ {
+  "id": "eu-732-tours",
+  "y": 732,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-800-charlemagne",
+  "h": "Franks defeat the Arabs near Tours",
+  "where": "Poitiers / Tours",
+  "lat": 46.8,
+  "lon": 0.5,
+  "wk": "Battle of Tours",
+  "bt": "event/Battle-of-Tours-732",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "conflict",
+   "faith"
+  ],
+  "causes": [
+   "eu-711-spain-711"
+  ],
+  "why_selected": "Ended Arab raiding north of the Pyrenees and made Charles Martel's family the Franks' rulers"
+ },
+ {
+  "id": "me-750-abbasid",
+  "y": 750,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Abbasids overthrow the Umayyads",
+  "where": "Great Zab river, Iraq",
+  "lat": 36.1,
+  "lon": 43.4,
+  "wk": "Abbasid revolution",
+  "bt": "topic/Abbasid-caliphate",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "revolution",
+   "empire"
+  ],
+  "causes": [
+   "me-661-umayyad",
+   "me-680-karbala"
+  ],
+  "why_selected": "Moved the caliphate east to Baghdad, opened it to Persians and began the Islamic golden age"
+ },
+ {
+  "id": "sa-751-talas",
+  "y": 751,
+  "r": "sa",
+  "tier": 2,
+  "parent": "me-750-abbasid",
+  "h": "Arabs defeat Tang China at Talas",
+  "where": "Talas, Kyrgyzstan",
+  "lat": 42.52,
+  "lon": 72.23,
+  "wk": "Battle of Talas",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "silk",
+   "empire"
+  ],
+  "causes": [
+   "me-750-abbasid",
+   "ea-618-tang"
+  ],
+  "why_selected": "Marked the limit of Chinese power in Central Asia, which turned Muslim"
+ },
+ {
+  "id": "ea-755-an-lushan",
+  "y": 755,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "An Lushan Rebellion shatters the Tang",
+  "where": "Fanyang (Beijing) to Chang'an",
+  "lat": 39.9,
+  "lon": 116.4,
+  "wk": "An Lushan rebellion",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "sa-751-talas",
+   "ea-618-tang"
+  ],
+  "why_selected": "Millions died; the Tang lost Central Asia, the economy shifted south and power devolved to generals"
+ },
+ {
+  "id": "eu-793-lindisfarne",
+  "y": 793,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-800-charlemagne",
+  "h": "Vikings raid Lindisfarne",
+  "where": "Lindisfarne, Northumbria",
+  "lat": 55.68,
+  "lon": -1.8,
+  "wk": "Viking Age",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "explore",
+   "conflict"
+  ],
+  "causes": [],
+  "why_selected": "Opened three centuries of Scandinavian raiding, trade and settlement from Dublin to Kyiv"
+ },
+ {
+  "id": "eu-800-charlemagne",
+  "y": 800,
+  "r": "eu",
+  "tier": 1,
+  "parent": null,
+  "h": "Charlemagne crowned emperor in Rome",
+  "where": "Rome (St Peter's)",
+  "lat": 41.9,
+  "lon": 12.45,
+  "wk": "Charlemagne",
+  "bt": "biography/Charlemagne",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "eu-732-tours",
+   "eu-496-clovis"
+  ],
+  "why_selected": "Revived the western empire in alliance with the papacy; the core of later France, Germany and Latin Christendom"
+ },
+ {
+  "id": "la-800-maya-collapse",
+  "y": 800,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-100-teotihuacan",
+  "h": "Classic Maya cities collapse",
+  "where": "Southern lowlands, Petén",
+  "lat": 17.22,
+  "lon": -89.62,
+  "wk": "Classic Maya collapse",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-562-calakmul-tikal"
+  ],
+  "why_selected": "Drought, war and overpopulation emptied the southern lowlands; power shifted north to Yucatán"
+ },
+ {
+  "id": "se-802-angkor",
+  "y": 802,
+  "r": "se",
+  "tier": 2,
+  "parent": "se-683-srivijaya",
+  "h": "Jayavarman II founds the Khmer Empire",
+  "where": "Phnom Kulen, Cambodia",
+  "lat": 13.57,
+  "lon": 104.11,
+  "wk": "Khmer Empire",
+  "bt": "place/Angkor",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "se-100-funan"
+  ],
+  "why_selected": "Hydraulic empire at Angkor that dominated mainland Southeast Asia for 600 years"
+ },
+ {
+  "id": "sa-819-samanids",
+  "y": 819,
+  "r": "sa",
+  "tier": 3,
+  "parent": "me-750-abbasid",
+  "h": "Samanids revive Persian in Bukhara",
+  "where": "Bukhara, Uzbekistan",
+  "lat": 39.77,
+  "lon": 64.42,
+  "wk": "Samanid Empire",
+  "c": [
+   "culture",
+   "political"
+  ],
+  "t": [
+   "silk"
+  ],
+  "causes": [
+   "me-750-abbasid"
+  ],
+  "why_selected": "New Persian became Islam's second language; they also recruited the Turkish slave soldiers who later ruled"
+ },
+ {
+  "id": "me-830-house-of-wisdom",
+  "y": 830,
+  "approx": true,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-750-abbasid",
+  "h": "Baghdad translates Greek and Indian science",
+  "where": "Baghdad, Iraq",
+  "lat": 33.34,
+  "lon": 44.4,
+  "wk": "House of Wisdom",
+  "c": [
+   "science",
+   "ideas"
+  ],
+  "t": [
+   "science"
+  ],
+  "causes": [
+   "me-750-abbasid",
+   "me-300-euclid",
+   "sa-628-brahmagupta"
+  ],
+  "why_selected": "Under al-Ma'mun the House of Wisdom translated Greek and Indian science, later passed into Latin"
+ },
+ {
+  "id": "eu-843-verdun",
+  "y": 843,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-800-charlemagne",
+  "h": "Treaty of Verdun splits the Carolingian Empire",
+  "where": "Verdun",
+  "lat": 49.16,
+  "lon": 5.38,
+  "wk": "Treaty of Verdun",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "eu-800-charlemagne"
+  ],
+  "why_selected": "Divided the empire into West, Middle and East Francia: the outlines of France and Germany"
+ },
+ {
+  "id": "me-869-zanj",
+  "y": 869,
+  "r": "me",
+  "tier": 3,
+  "parent": "me-750-abbasid",
+  "h": "Zanj slave revolt in southern Iraq",
+  "where": "Basra, Iraq",
+  "lat": 30.51,
+  "lon": 47.81,
+  "wk": "Zanj Rebellion",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "slavery",
+   "revolution"
+  ],
+  "causes": [
+   "me-750-abbasid"
+  ],
+  "why_selected": "East African slaves on Iraqi plantations held out for 14 years; shows the scale of the Indian Ocean slave trade"
+ },
+ {
+  "id": "la-900-chimu",
+  "y": 900,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-1438-pachacuti",
+  "h": "Chimú build Chan Chan",
+  "where": "Chan Chan, Trujillo, Peru",
+  "lat": -8.11,
+  "lon": -79.07,
+  "wk": "Chimor",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "cities",
+   "empire"
+  ],
+  "causes": [
+   "la-100-moche"
+  ],
+  "why_selected": "Largest Andean state before the Inca, who conquered it and adopted its methods"
+ },
+ {
+  "id": "la-900-tula",
+  "y": 900,
+  "approx": true,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-1325-tenochtitlan",
+  "h": "Toltecs build Tula",
+  "where": "Tula, Hidalgo",
+  "lat": 20.06,
+  "lon": -99.34,
+  "wk": "Tula (Mesoamerican site)",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-550-teotihuacan-falls"
+  ],
+  "why_selected": "Militarist state the Aztecs claimed as ancestors of their nobility"
+ },
+ {
+  "id": "na-900-chaco",
+  "y": 900,
+  "approx": true,
+  "r": "na",
+  "tier": 2,
+  "parent": "na-1050-cahokia",
+  "h": "Chaco Canyon great houses built",
+  "where": "Chaco Canyon, New Mexico",
+  "lat": 36.06,
+  "lon": -107.96,
+  "wk": "Chaco Culture National Historical Park",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "native",
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "Regional centre of the Ancestral Puebloans, linked by roads; abandoned in the 12th-century drought"
+ },
+ {
+  "id": "ea-907-tang-falls",
+  "y": 907,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-960-song",
+  "h": "Tang dynasty ends",
+  "where": "Kaifeng, Henan",
+  "lat": 34.8,
+  "lon": 114.31,
+  "wk": "Five Dynasties and Ten Kingdoms period",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "ea-755-an-lushan"
+  ],
+  "why_selected": "Half a century of military regimes, out of which the Song built a civilian state"
+ },
+ {
+  "id": "se-938-bach-dang",
+  "y": 938,
+  "r": "se",
+  "tier": 2,
+  "parent": "ea-755-an-lushan",
+  "h": "Vietnam wins independence at Bạch Đằng",
+  "where": "Bạch Đằng River, Quảng Ninh",
+  "lat": 20.92,
+  "lon": 106.78,
+  "wk": "Battle of Bạch Đằng (938)",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "indep"
+  ],
+  "causes": [
+   "ea-907-tang-falls",
+   "se-40-trung"
+  ],
+  "why_selected": "Ended a thousand years of Chinese rule; Vietnam stayed independent and Confucian"
+ },
+ {
+  "id": "oc-950-tonga-empire",
+  "y": 950,
+  "approx": true,
+  "r": "oc",
+  "tier": 3,
+  "parent": "oc-1350-lapita",
+  "h": "Tu'i Tonga maritime chiefdom expands",
+  "where": "Mu'a, Tongatapu",
+  "lat": -21.18,
+  "lon": -175.12,
+  "wk": "Tuʻi Tonga Empire",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "oc-900-lapita-tonga"
+  ],
+  "why_selected": "The Pacific's largest chiefdom, drawing tribute from Samoa and beyond"
+ },
+ {
+  "id": "af-957-kilwa",
+  "y": 957,
+  "approx": true,
+  "r": "af",
+  "tier": 2,
+  "parent": "af-2000-bantu",
+  "h": "Kilwa Sultanate founded on the Swahili coast",
+  "where": "Kilwa Kisiwani, Tanzania",
+  "lat": -8.96,
+  "lon": 39.51,
+  "wk": "Kilwa Sultanate",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "money",
+   "faith"
+  ],
+  "causes": [
+   "af-2000-bantu"
+  ],
+  "causes_forward": [
+   "af15055"
+  ],
+  "why_selected": "Swahili city-states linked African gold and ivory to Arabia, India and China"
+ },
+ {
+  "id": "ea-960-song",
+  "y": 960,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Song dynasty reunifies China",
+  "where": "Kaifeng, Henan",
+  "lat": 34.8,
+  "lon": 114.31,
+  "wk": "Song dynasty",
+  "bt": "topic/Song-dynasty",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "money",
+   "science"
+  ],
+  "causes": [
+   "ea-907-tang-falls"
+  ],
+  "why_selected": "Commercial revolution: paper money, printing, gunpowder and a civil-service state"
+ },
+ {
+  "id": "eu-962-otto",
+  "y": 962,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-800-charlemagne",
+  "h": "Otto I crowned emperor",
+  "where": "Rome",
+  "lat": 41.9,
+  "lon": 12.45,
+  "wk": "Otto the Great",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "eu-843-verdun"
+  ],
+  "why_selected": "Founded the Holy Roman Empire and the emperor-pope rivalry"
+ },
+ {
+  "id": "me-969-fatimids",
+  "y": 969,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-750-abbasid",
+  "h": "Fatimids found Cairo",
+  "where": "Cairo, Egypt",
+  "lat": 30.05,
+  "lon": 31.25,
+  "wk": "Fatimid Caliphate",
+  "bt": "topic/Fatimid-dynasty",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "faith",
+   "cities"
+  ],
+  "causes": [
+   "me-680-karbala",
+   "me-750-abbasid"
+  ],
+  "why_selected": "A Shia rival caliphate split the Islamic world and made Cairo its new centre"
+ },
+ {
+  "id": "na-985-norse-greenland",
+  "y": 985,
+  "approx": true,
+  "r": "na",
+  "tier": 2,
+  "parent": "eu-800-charlemagne",
+  "h": "Norse settle Greenland",
+  "where": "Brattahlíð, Greenland",
+  "lat": 61.15,
+  "lon": -45.52,
+  "wk": "Norse settlement of North America",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "explore"
+  ],
+  "causes": [
+   "eu-793-lindisfarne"
+  ],
+  "why_selected": "Viking expansion reached the edge of North America; the springboard to Vinland"
+ },
+ {
+  "id": "sa-985-rajaraja",
+  "y": 985,
+  "r": "sa",
+  "tier": 3,
+  "parent": "se-683-srivijaya",
+  "h": "Rajaraja I builds Chola naval power",
+  "where": "Thanjavur, Tamil Nadu",
+  "lat": 10.79,
+  "lon": 79.14,
+  "wk": "Rajaraja I",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [],
+  "why_selected": "Chola fleets dominated the Bay of Bengal and Indian Ocean trade"
+ },
+ {
+  "id": "eu-988-vladimir",
+  "y": 988,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-312-constantine",
+  "h": "Vladimir of Kyiv adopts Orthodox Christianity",
+  "where": "Kyiv",
+  "lat": 50.45,
+  "lon": 30.52,
+  "wk": "Christianization of Kievan Rus'",
+  "c": [
+   "religion",
+   "political"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "eu-793-lindisfarne",
+   "eu-330-constantinople"
+  ],
+  "why_selected": "Tied the Rus to Byzantium and Orthodoxy, the root of Moscow's later claim to be the Third Rome"
+ },
+ {
+  "id": "na-1000-thule",
+  "y": 1000,
+  "approx": true,
+  "r": "na",
+  "tier": 2,
+  "parent": "na-1050-cahokia",
+  "h": "Thule people spread across the Arctic",
+  "where": "Nunavut, Canada",
+  "lat": 66.0,
+  "lon": -90.0,
+  "wk": "Thule people",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "native",
+   "explore"
+  ],
+  "causes": [],
+  "why_selected": "Ancestors of the Inuit; displaced the Dorset and met the Norse in Greenland"
+ },
+ {
+  "id": "oc-1000-east-polynesia",
+  "y": 1000,
+  "approx": true,
+  "r": "oc",
+  "tier": 2,
+  "parent": "oc-1350-lapita",
+  "h": "Polynesians settle East Polynesia",
+  "where": "Society Islands, French Polynesia",
+  "lat": -17.53,
+  "lon": -149.57,
+  "wk": "Polynesian navigation",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "explore",
+   "native"
+  ],
+  "causes": [
+   "oc-900-lapita-tonga"
+  ],
+  "why_selected": "Long-distance voyaging resumed after a long pause and reached Hawaii, Rapa Nui and New Zealand within centuries"
+ },
+ {
+  "id": "na-1021-lanse",
+  "y": 1021,
+  "r": "na",
+  "tier": 2,
+  "parent": "eu-800-charlemagne",
+  "h": "Norse settle at L'Anse aux Meadows",
+  "where": "L'Anse aux Meadows, Newfoundland",
+  "lat": 51.6,
+  "lon": -55.53,
+  "wk": "L'Anse aux Meadows",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "explore",
+   "native"
+  ],
+  "causes": [
+   "na-985-norse-greenland"
+  ],
+  "why_selected": "First Europeans in the Americas; the settlement failed and had no lasting effect"
+ },
+ {
+  "id": "ea-1024-jiaozi",
+  "y": 1024,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-960-song",
+  "h": "Song issues the first state paper money",
+  "where": "Chengdu, Sichuan",
+  "lat": 30.66,
+  "lon": 104.06,
+  "wk": "Jiaozi (currency)",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "money"
+  ],
+  "causes": [
+   "ea-960-song"
+  ],
+  "why_selected": "State-backed paper currency; its overissue under the Yuan became the first paper inflation"
+ },
+ {
+  "id": "se-1025-chola-srivijaya",
+  "y": 1025,
+  "r": "se",
+  "tier": 2,
+  "parent": "se-683-srivijaya",
+  "h": "Chola fleet raids Srivijaya",
+  "where": "Kadaram (Kedah), Malaya",
+  "lat": 5.65,
+  "lon": 100.5,
+  "wk": "Chola invasion of Srivijaya",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "silk",
+   "conflict"
+  ],
+  "causes": [
+   "sa-985-rajaraja",
+   "se-683-srivijaya"
+  ],
+  "why_selected": "Broke Srivijaya's monopoly of the Strait; trade spread to new ports"
+ },
+ {
+  "id": "sa-1026-ghazni",
+  "y": 1026,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-1206-delhi",
+  "h": "Mahmud of Ghazni sacks Somnath",
+  "where": "Somnath, Gujarat",
+  "lat": 20.89,
+  "lon": 70.4,
+  "wk": "Mahmud of Ghazni",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "faith",
+   "conflict"
+  ],
+  "causes": [
+   "sa-819-samanids"
+  ],
+  "why_selected": "Turkish raiders opened north India to later Muslim conquest"
+ },
+ {
+  "id": "af-1035-takrur",
+  "y": 1035,
+  "approx": true,
+  "r": "af",
+  "tier": 3,
+  "parent": "af-1235-sundiata",
+  "h": "Takrur's king converts to Islam",
+  "where": "Senegal River valley",
+  "lat": 16.5,
+  "lon": -15.0,
+  "wk": "Takrur",
+  "c": [
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "af-300-trans-saharan"
+  ],
+  "why_selected": "First West African ruler to adopt Islam; the start of Islam's spread through the Sahel"
+ },
+ {
+  "id": "ea-1044-gunpowder",
+  "y": 1044,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-960-song",
+  "h": "Song manual records gunpowder formulas",
+  "where": "Kaifeng, Henan",
+  "lat": 34.8,
+  "lon": 114.31,
+  "wk": "Wujing Zongyao",
+  "c": [
+   "science",
+   "war"
+  ],
+  "t": [
+   "science"
+  ],
+  "causes": [
+   "ea-960-song"
+  ],
+  "why_selected": "Gunpowder weapons spread through Mongol wars to the Islamic world and Europe"
+ },
+ {
+  "id": "se-1044-pagan",
+  "y": 1044,
+  "r": "se",
+  "tier": 2,
+  "parent": "sa-500-buddha",
+  "h": "Anawrahta founds the Pagan Empire",
+  "where": "Bagan, Myanmar",
+  "lat": 21.17,
+  "lon": 94.86,
+  "wk": "Pagan Kingdom",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "sa-250-mahinda"
+  ],
+  "why_selected": "Unified Burma and made Theravada Buddhism its state religion"
+ },
+ {
+  "id": "na-1050-cahokia",
+  "y": 1050,
+  "approx": true,
+  "r": "na",
+  "tier": 1,
+  "parent": null,
+  "h": "Cahokia becomes North America's largest city",
+  "where": "Cahokia, Illinois",
+  "lat": 38.66,
+  "lon": -90.06,
+  "wk": "Cahokia",
+  "bt": "place/Cahokia-Mounds",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "native",
+   "cities"
+  ],
+  "causes": [
+   "na-100-hopewell"
+  ],
+  "why_selected": "Maize-based Mississippian chiefdoms spread from it across the Southeast; Europeans met their successors"
+ },
+ {
+  "id": "eu-1054-schism",
+  "y": 1054,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-1095-crusade",
+  "h": "East-West Schism",
+  "where": "Constantinople (Istanbul)",
+  "lat": 41.01,
+  "lon": 28.98,
+  "wk": "East–West Schism",
+  "bt": "event/Schism-of-1054",
+  "c": [
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "eu-800-charlemagne"
+  ],
+  "why_selected": "Split Latin and Orthodox Christianity; the gap the Fourth Crusade made permanent"
+ },
+ {
+  "id": "me-1055-seljuk-baghdad",
+  "y": 1055,
+  "r": "me",
+  "tier": 2,
+  "parent": "me-1071-manzikert",
+  "h": "Seljuk Turks take Baghdad",
+  "where": "Baghdad, Iraq",
+  "lat": 33.34,
+  "lon": 44.4,
+  "wk": "Seljuk Empire",
+  "bt": "topic/Seljuq",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "faith"
+  ],
+  "causes": [
+   "sa-819-samanids",
+   "sa-1026-ghazni"
+  ],
+  "why_selected": "Turkish nomads became protectors of the Sunni caliph and masters of the Middle East"
+ },
+ {
+  "id": "eu-1066-hastings",
+  "y": 1066,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-800-charlemagne",
+  "h": "Normans conquer England",
+  "where": "Hastings, Sussex",
+  "lat": 50.91,
+  "lon": 0.49,
+  "wk": "Norman Conquest",
+  "bt": "event/Norman-Conquest",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [],
+  "causes": [
+   "eu-793-lindisfarne"
+  ],
+  "why_selected": "Tied England to France for four centuries and built a strong centralised monarchy"
+ },
+ {
+  "id": "me-1070-almoravids",
+  "y": 1070,
+  "approx": true,
+  "r": "me",
+  "tier": 3,
+  "parent": "af-1235-sundiata",
+  "h": "Almoravids found Marrakesh",
+  "where": "Marrakesh, Morocco",
+  "lat": 31.63,
+  "lon": -8.0,
+  "wk": "Almoravid dynasty",
+  "c": [
+   "religion",
+   "war"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "af-700-ghana"
+  ],
+  "why_selected": "Saharan Berber reformers ruled from Senegal to Spain and tied West Africa to Islam"
+ },
+ {
+  "id": "me-1071-manzikert",
+  "y": 1071,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Seljuks rout Byzantium at Manzikert",
+  "where": "Malazgirt, eastern Turkey",
+  "lat": 39.14,
+  "lon": 42.54,
+  "wk": "Battle of Manzikert",
+  "bt": "event/Battle-of-Manzikert",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "conflict"
+  ],
+  "causes": [
+   "me-1055-seljuk-baghdad"
+  ],
+  "why_selected": "Opened Anatolia to Turkish settlement and drove Byzantium to ask the West for help"
+ },
+ {
+  "id": "eu-1077-canossa",
+  "y": 1077,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-1095-crusade",
+  "h": "Emperor Henry IV submits at Canossa",
+  "where": "Canossa, Emilia",
+  "lat": 44.58,
+  "lon": 10.46,
+  "wk": "Road to Canossa",
+  "c": [
+   "religion",
+   "political"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "eu-962-otto",
+   "eu-1054-schism"
+  ],
+  "why_selected": "The Investiture Controversy made the papacy a sovereign power independent of kings"
+ },
+ {
+  "id": "af-1085-kanem",
+  "y": 1085,
+  "approx": true,
+  "r": "af",
+  "tier": 3,
+  "parent": "af-1235-sundiata",
+  "h": "Kanem's king converts to Islam",
+  "where": "Njimi, near Lake Chad",
+  "lat": 14.0,
+  "lon": 15.0,
+  "wk": "Kanem–Bornu Empire",
+  "c": [
+   "religion",
+   "political"
+  ],
+  "t": [
+   "faith",
+   "slavery"
+  ],
+  "causes": [
+   "me-1070-almoravids"
+  ],
+  "why_selected": "Linked Lake Chad to the Saharan trade in slaves and to the Islamic world"
+ },
+ {
+  "id": "eu-1085-toledo",
+  "y": 1085,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-1095-crusade",
+  "h": "Castile takes Toledo",
+  "where": "Toledo, Spain",
+  "lat": 39.86,
+  "lon": -4.02,
+  "wk": "Taifa of Toledo",
+  "c": [
+   "war",
+   "ideas"
+  ],
+  "t": [
+   "faith",
+   "science"
+  ],
+  "causes": [
+   "eu-711-spain-711"
+  ],
+  "why_selected": "Its libraries made Toledo the centre where Arabic science was translated into Latin"
+ },
+ {
+  "id": "eu-1095-crusade",
+  "y": 1095,
+  "r": "eu",
+  "tier": 1,
+  "parent": null,
+  "h": "Pope Urban II launches the First Crusade",
+  "where": "Clermont, France",
+  "lat": 45.78,
+  "lon": 3.08,
+  "wk": "First Crusade",
+  "bt": "event/First-Crusade",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "faith",
+   "conflict"
+  ],
+  "causes": [
+   "me-1071-manzikert",
+   "eu-1077-canossa"
+  ],
+  "why_selected": "Holy war as papal policy; two centuries of crusading reshaped Mediterranean trade and Christian-Muslim relations"
+ },
+ {
+  "id": "me-1099-jerusalem-1099",
+  "y": 1099,
+  "r": "me",
+  "tier": 2,
+  "parent": "eu-1095-crusade",
+  "h": "Crusaders take Jerusalem",
+  "where": "Jerusalem",
+  "lat": 31.78,
+  "lon": 35.23,
+  "wk": "Siege of Jerusalem (1099)",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "faith",
+   "atrocity"
+  ],
+  "causes": [
+   "eu-1095-crusade"
+  ],
+  "why_selected": "Created the Crusader states and a massacre remembered in Muslim and Jewish memory"
+ },
+ {
+  "id": "oc-1100-hawaii",
+  "y": 1100,
+  "approx": true,
+  "r": "oc",
+  "tier": 3,
+  "parent": "oc-1350-lapita",
+  "h": "Polynesians settle Hawaii",
+  "where": "Hawaii",
+  "lat": 19.9,
+  "lon": -155.58,
+  "wk": "History of Hawaii",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "explore",
+   "native"
+  ],
+  "causes": [
+   "oc-1000-east-polynesia"
+  ],
+  "causes_forward": [
+   "oc-kamehameha"
+  ],
+  "why_selected": "Hawaii developed into chiefdoms and later the Kingdom of Hawaii"
+ },
+ {
+  "id": "ea-1127-jingkang",
+  "y": 1127,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-960-song",
+  "h": "Jurchen Jin capture Kaifeng",
+  "where": "Kaifeng, Henan",
+  "lat": 34.8,
+  "lon": 114.31,
+  "wk": "Jingkang incident",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "ea-960-song"
+  ],
+  "why_selected": "North China fell to the Jin; the Song moved south and grew rich on sea trade"
+ },
+ {
+  "id": "la-1150-tula-falls",
+  "y": 1150,
+  "approx": true,
+  "r": "la",
+  "tier": 3,
+  "parent": "la-1325-tenochtitlan",
+  "h": "Tula falls; Chichimecs move south",
+  "where": "Tula, Hidalgo",
+  "lat": 20.06,
+  "lon": -99.34,
+  "wk": "Toltec",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [
+   "la-900-tula"
+  ],
+  "why_selected": "Northern migrants, the Mexica among them, entered the Valley of Mexico"
+ },
+ {
+  "id": "na-1150-moundville",
+  "y": 1150,
+  "approx": true,
+  "r": "na",
+  "tier": 3,
+  "parent": "na-1050-cahokia",
+  "h": "Moundville chiefdom in Alabama",
+  "where": "Moundville, Alabama",
+  "lat": 33.0,
+  "lon": -87.63,
+  "wk": "Moundville Archaeological Site",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [
+   "na-1050-cahokia"
+  ],
+  "why_selected": "Second-largest Mississippian centre; the world de Soto marched through in 1540"
+ },
+ {
+  "id": "oc-1180-nan-madol",
+  "y": 1180,
+  "approx": true,
+  "r": "oc",
+  "tier": 3,
+  "parent": "oc-1350-lapita",
+  "h": "Saudeleur dynasty rules Pohnpei from Nan Madol",
+  "where": "Nan Madol, Pohnpei",
+  "lat": 6.84,
+  "lon": 158.33,
+  "wk": "Nan Madol",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [],
+  "why_selected": "First centralised state in the Pacific islands, built of basalt on a reef"
+ },
+ {
+  "id": "ea-1185-kamakura",
+  "y": 1185,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1206-genghis",
+  "h": "Kamakura shogunate takes power in Japan",
+  "where": "Kamakura, Japan",
+  "lat": 35.32,
+  "lon": 139.55,
+  "wk": "Kamakura shogunate",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [],
+  "causes": [],
+  "why_selected": "Warrior government alongside the emperor; samurai rule lasted to 1868"
+ },
+ {
+  "id": "me-1187-hattin",
+  "y": 1187,
+  "r": "me",
+  "tier": 2,
+  "parent": "eu-1095-crusade",
+  "h": "Saladin wins at Hattin, retakes Jerusalem",
+  "where": "Horns of Hattin, Galilee",
+  "lat": 32.8,
+  "lon": 35.45,
+  "wk": "Battle of Hattin",
+  "bt": "event/Battle-of-Hattin",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "faith",
+   "conflict"
+  ],
+  "causes": [
+   "me-1099-jerusalem-1099",
+   "me-969-fatimids"
+  ],
+  "why_selected": "Destroyed the Crusader field army and provoked the Third Crusade"
+ },
+ {
+  "id": "sa-1192-tarain",
+  "y": 1192,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-1206-delhi",
+  "h": "Ghurids defeat Prithviraj at Tarain",
+  "where": "Taraori, Haryana",
+  "lat": 29.8,
+  "lon": 76.92,
+  "wk": "Second Battle of Tarain",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "faith",
+   "conflict"
+  ],
+  "causes": [
+   "sa-1026-ghazni"
+  ],
+  "why_selected": "Opened the Ganges plain to Turkish rule"
+ },
+ {
+  "id": "la-1200-cusco",
+  "y": 1200,
+  "approx": true,
+  "r": "la",
+  "tier": 3,
+  "parent": "la-1438-pachacuti",
+  "h": "Inca settle in the Cusco valley",
+  "where": "Cusco, Peru",
+  "lat": -13.53,
+  "lon": -71.97,
+  "wk": "Kingdom of Cusco",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [
+   "la-600-wari"
+  ],
+  "why_selected": "Small kingdom from which Pachacuti built the empire"
+ },
+ {
+  "id": "oc-1200-rapa-nui",
+  "y": 1200,
+  "approx": true,
+  "r": "oc",
+  "tier": 3,
+  "parent": "oc-1350-lapita",
+  "h": "Polynesians settle Rapa Nui",
+  "where": "Easter Island",
+  "lat": -27.12,
+  "lon": -109.37,
+  "wk": "Easter Island",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "explore",
+   "native"
+  ],
+  "causes": [
+   "oc-1000-east-polynesia"
+  ],
+  "why_selected": "Most remote inhabited island; its moai and deforestation are the subject of a long debate"
+ },
+ {
+  "id": "eu-1202-fibonacci",
+  "y": 1202,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-750-abbasid",
+  "h": "Fibonacci brings Arabic numerals to Europe",
+  "where": "Pisa",
+  "lat": 43.72,
+  "lon": 10.4,
+  "wk": "Liber Abaci",
+  "c": [
+   "science",
+   "economic"
+  ],
+  "t": [
+   "money",
+   "science"
+  ],
+  "causes": [
+   "me-830-house-of-wisdom"
+  ],
+  "why_selected": "Hindu-Arabic numerals made merchants' accounting and later banking practical"
+ },
+ {
+  "id": "eu-1204-fourth-crusade",
+  "y": 1204,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-1095-crusade",
+  "h": "Crusaders sack Constantinople",
+  "where": "Constantinople (Istanbul)",
+  "lat": 41.01,
+  "lon": 28.98,
+  "wk": "Sack of Constantinople",
+  "bt": "event/Fourth-Crusade",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "faith",
+   "atrocity"
+  ],
+  "causes": [
+   "eu-1095-crusade",
+   "eu-1054-schism"
+  ],
+  "causes_forward": [
+   "eu14531"
+  ],
+  "why_selected": "Broke the Byzantine state beyond full repair; it was too weak to resist the Ottomans"
+ },
+ {
+  "id": "ea-1206-genghis",
+  "y": 1206,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Temüjin proclaimed Genghis Khan",
+  "where": "Onon River, Mongolia",
+  "lat": 48.8,
+  "lon": 110.0,
+  "wk": "Genghis Khan",
+  "bt": "biography/Genghis-Khan",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "steppe",
+   "empire",
+   "silk"
+  ],
+  "causes": [
+   "ea-1127-jingkang"
+  ],
+  "why_selected": "Created the largest land empire in history, joining China, Persia and Russia and spreading trade, technology and plague"
+ },
+ {
+  "id": "sa-1206-delhi",
+  "y": 1206,
+  "r": "sa",
+  "tier": 1,
+  "parent": null,
+  "h": "Delhi Sultanate founded",
+  "where": "Delhi",
+  "lat": 28.61,
+  "lon": 77.21,
+  "wk": "Delhi Sultanate",
+  "bt": "place/Delhi-sultanate",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "sa-1192-tarain"
+  ],
+  "why_selected": "Three centuries of Muslim rule over north India; Persianate courts and a shield against the Mongols"
+ },
+ {
+  "id": "eu-1212-las-navas",
+  "y": 1212,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-1415-ceuta",
+  "h": "Christians win at Las Navas de Tolosa",
+  "where": "Santa Elena, Jaén",
+  "lat": 38.34,
+  "lon": -3.53,
+  "wk": "Battle of Las Navas de Tolosa",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "faith",
+   "conflict"
+  ],
+  "causes": [
+   "eu-1085-toledo",
+   "me-1070-almoravids"
+  ],
+  "why_selected": "Broke Almohad power; Castile and Portugal took most of al-Andalus within 40 years"
+ },
+ {
+  "id": "eu-1215-magna-carta",
+  "y": 1215,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-1095-crusade",
+  "h": "King John seals Magna Carta",
+  "where": "Runnymede, England",
+  "lat": 51.44,
+  "lon": -0.56,
+  "wk": "Magna Carta",
+  "bt": "topic/Magna-Carta",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "rights",
+   "law"
+  ],
+  "causes": [
+   "eu-1066-hastings"
+  ],
+  "why_selected": "The barons bound the king to law; later cited by Parliament and the American colonists"
+ },
+ {
+  "id": "sa-1219-khwarazm",
+  "y": 1219,
+  "r": "sa",
+  "tier": 2,
+  "parent": "ea-1206-genghis",
+  "h": "Mongols destroy Khwarazm",
+  "where": "Samarkand / Urgench",
+  "lat": 39.65,
+  "lon": 66.96,
+  "wk": "Mongol invasion of the Khwarazmian Empire",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "atrocity"
+  ],
+  "causes": [
+   "ea-1206-genghis"
+  ],
+  "why_selected": "Ruined Central Asia's oasis cities and opened Iran to the Mongols"
+ },
+ {
+  "id": "af-1220-mapungubwe",
+  "y": 1220,
+  "approx": true,
+  "r": "af",
+  "tier": 3,
+  "parent": "af-2000-bantu",
+  "h": "Mapungubwe: first southern African state",
+  "where": "Mapungubwe, Limpopo, South Africa",
+  "lat": -22.19,
+  "lon": 29.24,
+  "wk": "Kingdom of Mapungubwe",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "money"
+  ],
+  "causes": [
+   "af-957-kilwa"
+  ],
+  "why_selected": "Gold and ivory exports via the Swahili coast created class division and kingship"
+ },
+ {
+  "id": "la-1220-mayapan",
+  "y": 1220,
+  "approx": true,
+  "r": "la",
+  "tier": 3,
+  "parent": "la-100-teotihuacan",
+  "h": "Mayapan rules northern Yucatán",
+  "where": "Mayapan, Yucatán",
+  "lat": 20.63,
+  "lon": -89.46,
+  "wk": "Mayapan",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "cities"
+  ],
+  "causes": [
+   "la-800-maya-collapse"
+  ],
+  "why_selected": "Last Maya capital; its fall left Yucatán divided when the Spanish arrived"
+ },
+ {
+  "id": "af-1235-sundiata",
+  "y": 1235,
+  "approx": true,
+  "r": "af",
+  "tier": 1,
+  "parent": null,
+  "h": "Sundiata founds the Mali Empire",
+  "where": "Kirina, Mali",
+  "lat": 12.3,
+  "lon": -8.0,
+  "wk": "Mali Empire",
+  "bt": "place/Mali-historical-empire-Africa",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire",
+   "money",
+   "faith"
+  ],
+  "causes": [
+   "af-700-ghana"
+  ],
+  "causes_forward": [
+   "af14641"
+  ],
+  "why_selected": "Controlled West African gold, which minted Mediterranean coinage and drew Portugal south"
+ },
+ {
+  "id": "eu-1240-mongols-kyiv",
+  "y": 1240,
+  "r": "eu",
+  "tier": 2,
+  "parent": "ea-1206-genghis",
+  "h": "Mongols sack Kyiv",
+  "where": "Kyiv",
+  "lat": 50.45,
+  "lon": 30.52,
+  "wk": "Siege of Kiev (1240)",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "atrocity"
+  ],
+  "causes": [
+   "ea-1206-genghis",
+   "eu-988-vladimir"
+  ],
+  "why_selected": "Ended Kievan Rus; the Golden Horde ruled Russia and Moscow rose as its tax collector"
+ },
+ {
+  "id": "me-1243-kose-dag",
+  "y": 1243,
+  "r": "me",
+  "tier": 3,
+  "parent": "me-1299-osman",
+  "h": "Mongols crush the Seljuks at Köse Dağ",
+  "where": "Köse Dağ, Sivas, Turkey",
+  "lat": 40.0,
+  "lon": 38.5,
+  "wk": "Battle of Köse Dağ",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "ea-1206-genghis",
+   "me-1071-manzikert"
+  ],
+  "why_selected": "Broke Seljuk Anatolia into Turkish frontier principalities, one of them Osman's"
+ },
+ {
+  "id": "af-1250-great-zimbabwe",
+  "y": 1250,
+  "approx": true,
+  "r": "af",
+  "tier": 2,
+  "parent": "af-2000-bantu",
+  "h": "Great Zimbabwe rises on the gold trade",
+  "where": "Great Zimbabwe, Masvingo",
+  "lat": -20.27,
+  "lon": 30.93,
+  "wk": "Great Zimbabwe",
+  "bt": "place/Great-Zimbabwe",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "money",
+   "cities"
+  ],
+  "causes": [
+   "af-1220-mapungubwe",
+   "af-957-kilwa"
+  ],
+  "why_selected": "Capital of a Shona state that exported gold through Kilwa and Sofala"
+ },
+ {
+  "id": "me-1250-mamluks",
+  "y": 1250,
+  "r": "me",
+  "tier": 2,
+  "parent": "eu-1095-crusade",
+  "h": "Mamluks seize power in Egypt",
+  "where": "Cairo, Egypt",
+  "lat": 30.05,
+  "lon": 31.25,
+  "wk": "Mamluk Sultanate",
+  "bt": "topic/Mamluk",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "slavery"
+  ],
+  "causes": [
+   "me-1187-hattin"
+  ],
+  "causes_forward": [
+   "af15176"
+  ],
+  "why_selected": "Slave-soldier regime that defeated Crusaders and Mongols and ruled Egypt and Syria until 1517"
+ },
+ {
+  "id": "me-1258-baghdad-1258",
+  "y": 1258,
+  "r": "me",
+  "tier": 2,
+  "parent": "ea-1206-genghis",
+  "h": "Mongols sack Baghdad",
+  "where": "Baghdad, Iraq",
+  "lat": 33.34,
+  "lon": 44.4,
+  "wk": "Siege of Baghdad (1258)",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "atrocity"
+  ],
+  "causes": [
+   "sa-1219-khwarazm"
+  ],
+  "why_selected": "Ended the Abbasid caliphate; Baghdad never recovered its central place"
+ },
+ {
+  "id": "me-1260-ain-jalut",
+  "y": 1260,
+  "r": "me",
+  "tier": 2,
+  "parent": "ea-1206-genghis",
+  "h": "Mamluks stop the Mongols at Ain Jalut",
+  "where": "Ain Jalut, Jezreel Valley",
+  "lat": 32.55,
+  "lon": 35.36,
+  "wk": "Battle of Ain Jalut",
+  "bt": "event/Battle-of-Ayn-Jalut",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "conflict"
+  ],
+  "causes": [
+   "me-1258-baghdad-1258",
+   "me-1250-mamluks"
+  ],
+  "why_selected": "Halted Mongol expansion; Egypt became the Arab world's centre"
+ },
+ {
+  "id": "se-1267-pasai",
+  "y": 1267,
+  "approx": true,
+  "r": "se",
+  "tier": 3,
+  "parent": "se-683-srivijaya",
+  "h": "Samudera Pasai: first Muslim sultanate in Sumatra",
+  "where": "Lhokseumawe, Aceh",
+  "lat": 5.18,
+  "lon": 97.15,
+  "wk": "Samudera Pasai Sultanate",
+  "c": [
+   "religion",
+   "economic"
+  ],
+  "t": [
+   "faith",
+   "silk"
+  ],
+  "causes": [
+   "se-1025-chola-srivijaya"
+  ],
+  "why_selected": "Muslim traders' ports began the Islamisation of the archipelago"
+ },
+ {
+  "id": "af-1270-solomonic",
+  "y": 1270,
+  "r": "af",
+  "tier": 2,
+  "parent": "me-636-islam-conquest",
+  "h": "Solomonic dynasty takes the Ethiopian throne",
+  "where": "Amhara, Ethiopia",
+  "lat": 11.6,
+  "lon": 37.4,
+  "wk": "Solomonic dynasty",
+  "c": [
+   "political",
+   "religion"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "af-330-ezana"
+  ],
+  "causes_forward": [
+   "af15298"
+  ],
+  "why_selected": "Christian highland kingdom that fought the Muslim sultanates of the coast for centuries"
+ },
+ {
+  "id": "ea-1271-yuan",
+  "y": 1271,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1206-genghis",
+  "h": "Kublai Khan proclaims the Yuan dynasty",
+  "where": "Khanbaliq (Beijing)",
+  "lat": 39.9,
+  "lon": 116.4,
+  "wk": "Yuan dynasty",
+  "bt": "topic/Yuan-dynasty",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire",
+   "steppe"
+  ],
+  "causes": [
+   "ea-1206-genghis"
+  ],
+  "why_selected": "Mongols ruled all China, made Beijing the capital and drew Europeans along the Silk Road"
+ },
+ {
+  "id": "eu-1271-marco-polo",
+  "y": 1271,
+  "r": "eu",
+  "tier": 3,
+  "parent": "ea-1206-genghis",
+  "h": "Marco Polo sets out for China",
+  "where": "Venice",
+  "lat": 45.44,
+  "lon": 12.33,
+  "wk": "Marco Polo",
+  "c": [
+   "economic",
+   "culture"
+  ],
+  "t": [
+   "explore",
+   "silk"
+  ],
+  "causes": [
+   "ea-1271-yuan"
+  ],
+  "causes_forward": [
+   "la14920"
+  ],
+  "why_selected": "His book shaped European images of Asian wealth; Columbus carried a copy"
+ },
+ {
+  "id": "ea-1274-mongols-japan",
+  "y": 1274,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1206-genghis",
+  "h": "Mongols invade Japan",
+  "where": "Hakata Bay, Kyushu",
+  "lat": 33.6,
+  "lon": 130.4,
+  "wk": "Mongol invasions of Japan",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "conflict"
+  ],
+  "causes": [
+   "ea-1271-yuan",
+   "ea-1185-kamakura"
+  ],
+  "why_selected": "Two failed invasions; the cost of defence without spoils undermined the Kamakura shogunate"
+ },
+ {
+  "id": "ea-1279-song-falls",
+  "y": 1279,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1206-genghis",
+  "h": "Song falls to the Mongols at Yamen",
+  "where": "Yamen, Guangdong",
+  "lat": 22.25,
+  "lon": 113.1,
+  "wk": "Battle of Yamen",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "ea-1271-yuan"
+  ],
+  "why_selected": "First time all China came under steppe rule"
+ },
+ {
+  "id": "oc-1280-nz",
+  "y": 1280,
+  "approx": true,
+  "r": "oc",
+  "tier": 2,
+  "parent": "oc-1350-lapita",
+  "h": "Polynesians settle New Zealand",
+  "where": "Wairau Bar, Marlborough",
+  "lat": -41.5,
+  "lon": 174.07,
+  "wk": "Wairau Bar",
+  "c": [
+   "culture"
+  ],
+  "t": [
+   "explore",
+   "native"
+  ],
+  "causes": [
+   "oc-1000-east-polynesia"
+  ],
+  "why_selected": "Last major land mass settled by humans; Māori society formed in isolation"
+ },
+ {
+  "id": "na-1285-mesa-verde",
+  "y": 1285,
+  "approx": true,
+  "r": "na",
+  "tier": 2,
+  "parent": "na-1050-cahokia",
+  "h": "Ancestral Puebloans leave Mesa Verde",
+  "where": "Mesa Verde, Colorado",
+  "lat": 37.18,
+  "lon": -108.49,
+  "wk": "Mesa Verde National Park",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "native"
+  ],
+  "causes": [
+   "na-900-chaco"
+  ],
+  "why_selected": "Drought and conflict moved Puebloans south to the Rio Grande pueblos the Spanish met"
+ },
+ {
+  "id": "se-1293-majapahit",
+  "y": 1293,
+  "r": "se",
+  "tier": 2,
+  "parent": "se-683-srivijaya",
+  "h": "Majapahit founded after Mongol invasion of Java",
+  "where": "Trowulan, East Java",
+  "lat": -7.56,
+  "lon": 112.38,
+  "wk": "Majapahit",
+  "bt": "place/Majapahit-empire",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "ea-1271-yuan"
+  ],
+  "why_selected": "Javanese empire that dominated the archipelago until Malacca rose"
+ },
+ {
+  "id": "me-1299-osman",
+  "y": 1299,
+  "approx": true,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Osman founds the Ottoman state",
+  "where": "Söğüt, Bilecik, Turkey",
+  "lat": 40.02,
+  "lon": 30.18,
+  "wk": "Osman I",
+  "bt": "biography/Osman-I",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-1243-kose-dag",
+   "me-1071-manzikert"
+  ],
+  "causes_forward": [
+   "eu14531"
+  ],
+  "why_selected": "A frontier emirate on the Byzantine border that grew into the empire that took Constantinople"
+ },
+ {
+  "id": "la-1300-purepecha",
+  "y": 1300,
+  "approx": true,
+  "r": "la",
+  "tier": 3,
+  "parent": "la-1325-tenochtitlan",
+  "h": "Purépecha build a rival empire",
+  "where": "Tzintzuntzan, Michoacán",
+  "lat": 19.63,
+  "lon": -101.58,
+  "wk": "Purépecha Empire",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire",
+   "native"
+  ],
+  "causes": [],
+  "why_selected": "Bronze-using state that repelled Aztec invasion in the 1470s and stayed independent until the Spanish"
+ },
+ {
+  "id": "af-1324-mansa-musa",
+  "y": 1324,
+  "r": "af",
+  "tier": 2,
+  "parent": "af-1235-sundiata",
+  "h": "Mansa Musa's pilgrimage to Mecca",
+  "where": "Cairo, Egypt (en route)",
+  "lat": 30.05,
+  "lon": 31.25,
+  "wk": "Mansa Musa",
+  "bt": "biography/Musa-I-of-Mali",
+  "c": [
+   "economic",
+   "religion"
+  ],
+  "t": [
+   "money",
+   "faith"
+  ],
+  "causes": [
+   "af-1235-sundiata"
+  ],
+  "why_selected": "His gold spending in Cairo put Mali on European maps and spurred the hunt for its source"
+ },
+ {
+  "id": "la-1325-tenochtitlan",
+  "y": 1325,
+  "approx": true,
+  "r": "la",
+  "tier": 1,
+  "parent": null,
+  "h": "Mexica found Tenochtitlan",
+  "where": "Tenochtitlan (Mexico City)",
+  "lat": 19.43,
+  "lon": -99.13,
+  "wk": "Tenochtitlan",
+  "bt": "place/Tenochtitlan",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "cities",
+   "native"
+  ],
+  "causes": [
+   "la-900-tula"
+  ],
+  "causes_forward": [
+   "la15215"
+  ],
+  "why_selected": "Island city that became the Aztec capital Cortés besieged"
+ },
+ {
+  "id": "af-1332-amda-seyon",
+  "y": 1332,
+  "r": "af",
+  "tier": 3,
+  "parent": "me-636-islam-conquest",
+  "h": "Amda Seyon defeats Ifat",
+  "where": "Ifat, Ethiopia",
+  "lat": 10.0,
+  "lon": 39.8,
+  "wk": "Amda Seyon I",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "faith",
+   "conflict"
+  ],
+  "causes": [
+   "af-1270-solomonic"
+  ],
+  "causes_forward": [
+   "af15298"
+  ],
+  "why_selected": "Made the Christian kingdom dominant over the Muslim sultanates until Adal's revenge"
+ },
+ {
+  "id": "ea-1336-ashikaga",
+  "y": 1336,
+  "r": "ea",
+  "tier": 3,
+  "parent": "ea-1206-genghis",
+  "h": "Ashikaga shogunate founded",
+  "where": "Kyoto",
+  "lat": 35.01,
+  "lon": 135.77,
+  "wk": "Ashikaga shogunate",
+  "c": [
+   "political"
+  ],
+  "t": [],
+  "causes": [
+   "ea-1274-mongols-japan"
+  ],
+  "causes_forward": [
+   "as14673"
+  ],
+  "why_selected": "Weak central control let regional lords grow; its succession crisis caused the Ōnin War"
+ },
+ {
+  "id": "sa-1336-vijayanagara",
+  "y": 1336,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-1206-delhi",
+  "h": "Vijayanagara Empire founded",
+  "where": "Hampi, Karnataka",
+  "lat": 15.33,
+  "lon": 76.46,
+  "wk": "Vijayanagara Empire",
+  "bt": "place/Vijayanagar",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire",
+   "faith"
+  ],
+  "causes": [
+   "sa-1206-delhi"
+  ],
+  "causes_forward": [
+   "sa-talikota"
+  ],
+  "why_selected": "Hindu empire of the south that held off the Deccan sultanates for two centuries"
+ },
+ {
+  "id": "eu-1337-hundred-years",
+  "y": 1337,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-1347-black-death",
+  "h": "Hundred Years' War begins",
+  "where": "Northern France",
+  "lat": 50.0,
+  "lon": 2.0,
+  "wk": "Hundred Years' War",
+  "bt": "event/Hundred-Years-War",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "conflict"
+  ],
+  "causes": [
+   "eu-1066-hastings"
+  ],
+  "causes_forward": [
+   "eu14532"
+  ],
+  "why_selected": "Built English and French national monarchies, standing armies and taxes"
+ },
+ {
+  "id": "eu-1347-black-death",
+  "y": 1347,
+  "r": "eu",
+  "tier": 1,
+  "parent": null,
+  "h": "Black Death reaches Europe",
+  "where": "Messina, Sicily",
+  "lat": 38.19,
+  "lon": 15.55,
+  "wk": "Black Death",
+  "bt": "event/Black-Death",
+  "c": [
+   "economic",
+   "religion"
+  ],
+  "t": [
+   "conflict",
+   "money"
+  ],
+  "causes": [
+   "ea-1206-genghis",
+   "ea-1271-yuan"
+  ],
+  "why_selected": "Killed a third to a half of Europe and the Middle East; labour scarcity raised wages and loosened serfdom in the West"
+ },
+ {
+  "id": "sa-1347-bahmani",
+  "y": 1347,
+  "r": "sa",
+  "tier": 3,
+  "parent": "sa-1206-delhi",
+  "h": "Bahmani Sultanate breaks from Delhi",
+  "where": "Gulbarga, Karnataka",
+  "lat": 17.33,
+  "lon": 76.83,
+  "wk": "Bahmani Kingdom",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "sa-1206-delhi"
+  ],
+  "causes_forward": [
+   "sa-talikota"
+  ],
+  "why_selected": "Its successor sultanates destroyed Vijayanagara at Talikota in 1565"
+ },
+ {
+  "id": "ea-1351-red-turbans",
+  "y": 1351,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1368-ming",
+  "h": "Red Turban rebellions against the Yuan",
+  "where": "Huai River valley",
+  "lat": 32.9,
+  "lon": 117.4,
+  "wk": "Red Turban Rebellions",
+  "c": [
+   "war",
+   "religion"
+  ],
+  "t": [
+   "revolution"
+  ],
+  "causes": [
+   "ea-1271-yuan"
+  ],
+  "why_selected": "Floods, paper-money inflation and plague fed revolts from which Zhu Yuanzhang emerged"
+ },
+ {
+  "id": "se-1351-ayutthaya",
+  "y": 1351,
+  "r": "se",
+  "tier": 2,
+  "parent": "se-683-srivijaya",
+  "h": "Ayutthaya Kingdom founded",
+  "where": "Ayutthaya, Thailand",
+  "lat": 14.35,
+  "lon": 100.57,
+  "wk": "Ayutthaya Kingdom",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "silk"
+  ],
+  "causes": [
+   "se-802-angkor"
+  ],
+  "why_selected": "Thai trading state that replaced Angkor as the mainland's leading power"
+ },
+ {
+  "id": "eu-1354-gallipoli",
+  "y": 1354,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-1299-osman",
+  "h": "Ottomans cross into Europe at Gallipoli",
+  "where": "Gallipoli (Gelibolu)",
+  "lat": 40.41,
+  "lon": 26.67,
+  "wk": "Fall of Gallipoli",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "me-1299-osman"
+  ],
+  "causes_forward": [
+   "eu14531"
+  ],
+  "why_selected": "First Ottoman foothold in Europe; the Balkans became the empire's core"
+ },
+ {
+  "id": "ea-1368-ming",
+  "y": 1368,
+  "r": "ea",
+  "tier": 1,
+  "parent": null,
+  "h": "Ming dynasty expels the Mongols",
+  "where": "Nanjing",
+  "lat": 32.06,
+  "lon": 118.79,
+  "wk": "Ming dynasty",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "ea-1351-red-turbans"
+  ],
+  "causes_forward": [
+   "as14491"
+  ],
+  "why_selected": "Restored Han Chinese rule and an inward-looking, agrarian state that dominated East Asia to 1644"
+ },
+ {
+  "id": "sa-1370-timur",
+  "y": 1370,
+  "r": "sa",
+  "tier": 1,
+  "parent": null,
+  "h": "Timur takes power in Central Asia",
+  "where": "Balkh, Afghanistan",
+  "lat": 36.76,
+  "lon": 66.9,
+  "wk": "Timur",
+  "c": [
+   "war",
+   "political"
+  ],
+  "t": [
+   "steppe",
+   "atrocity"
+  ],
+  "causes": [
+   "ea-1206-genghis"
+  ],
+  "causes_forward": [
+   "as15269"
+  ],
+  "why_selected": "Wrecked the Golden Horde, Delhi and the Ottomans; his dynasty later produced Babur"
+ },
+ {
+  "id": "eu-1380-kulikovo",
+  "y": 1380,
+  "r": "eu",
+  "tier": 2,
+  "parent": "ea-1206-genghis",
+  "h": "Moscow defeats the Golden Horde at Kulikovo",
+  "where": "Kulikovo Field, Tula",
+  "lat": 53.67,
+  "lon": 38.66,
+  "wk": "Battle of Kulikovo",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "steppe",
+   "indep"
+  ],
+  "causes": [
+   "eu-1240-mongols-kyiv"
+  ],
+  "why_selected": "Established Moscow as leader of the Russian lands against the Horde"
+ },
+ {
+  "id": "eu-1381-peasants-revolt",
+  "y": 1381,
+  "r": "eu",
+  "tier": 2,
+  "parent": "eu-1347-black-death",
+  "h": "English Peasants' Revolt",
+  "where": "London",
+  "lat": 51.51,
+  "lon": -0.13,
+  "wk": "Peasants' Revolt",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "revolution",
+   "rights"
+  ],
+  "causes": [
+   "eu-1347-black-death"
+  ],
+  "why_selected": "Labour laws after the plague provoked revolt; serfdom faded in England within a century"
+ },
+ {
+  "id": "eu-1389-kosovo",
+  "y": 1389,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-1299-osman",
+  "h": "Ottomans defeat the Serbs at Kosovo",
+  "where": "Kosovo Polje",
+  "lat": 42.67,
+  "lon": 21.1,
+  "wk": "Battle of Kosovo",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "conflict"
+  ],
+  "causes": [
+   "eu-1354-gallipoli"
+  ],
+  "why_selected": "Made Serbia an Ottoman vassal; central to Serbian national memory"
+ },
+ {
+  "id": "af-1390-kongo",
+  "y": 1390,
+  "approx": true,
+  "r": "af",
+  "tier": 2,
+  "parent": "af-2000-bantu",
+  "h": "Kingdom of Kongo founded",
+  "where": "Mbanza Kongo, Angola",
+  "lat": -6.27,
+  "lon": 14.24,
+  "wk": "Kingdom of Kongo",
+  "bt": "place/Kongo-historical-kingdom-Africa",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "af-2000-bantu"
+  ],
+  "causes_forward": [
+   "af15267"
+  ],
+  "why_selected": "Centralised Central African kingdom that met the Portuguese in 1483"
+ },
+ {
+  "id": "ea-1392-joseon",
+  "y": 1392,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1368-ming",
+  "h": "Yi Seong-gye founds Joseon",
+  "where": "Hanseong (Seoul)",
+  "lat": 37.57,
+  "lon": 126.98,
+  "wk": "Joseon",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "law"
+  ],
+  "causes": [
+   "ea-1368-ming"
+  ],
+  "causes_forward": [
+   "as14430"
+  ],
+  "why_selected": "A Neo-Confucian state allied to Ming that lasted until 1910"
+ },
+ {
+  "id": "sa-1398-delhi-sack",
+  "y": 1398,
+  "r": "sa",
+  "tier": 2,
+  "parent": "sa-1370-timur",
+  "h": "Timur sacks Delhi",
+  "where": "Delhi",
+  "lat": 28.61,
+  "lon": 77.21,
+  "wk": "Sack of Delhi (1398)",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "atrocity"
+  ],
+  "causes": [
+   "sa-1370-timur",
+   "sa-1206-delhi"
+  ],
+  "causes_forward": [
+   "as15269"
+  ],
+  "why_selected": "Broke the Delhi Sultanate into regional states; Babur later cited Timur's conquest as his claim"
+ },
+ {
+  "id": "se-1400-malacca",
+  "y": 1400,
+  "approx": true,
+  "r": "se",
+  "tier": 2,
+  "parent": "se-683-srivijaya",
+  "h": "Malacca Sultanate founded",
+  "where": "Malacca",
+  "lat": 2.19,
+  "lon": 102.25,
+  "wk": "Malacca Sultanate",
+  "c": [
+   "economic",
+   "political"
+  ],
+  "t": [
+   "silk",
+   "faith"
+  ],
+  "causes": [
+   "se-1293-majapahit",
+   "se-1267-pasai"
+  ],
+  "causes_forward": [
+   "as15117"
+  ],
+  "why_selected": "Ming-protected Muslim entrepôt controlling the Strait; Portugal's target in 1511"
+ },
+ {
+  "id": "me-1402-ankara",
+  "y": 1402,
+  "r": "me",
+  "tier": 2,
+  "parent": "sa-1370-timur",
+  "h": "Timur captures Sultan Bayezid at Ankara",
+  "where": "Ankara",
+  "lat": 39.93,
+  "lon": 32.86,
+  "wk": "Battle of Ankara",
+  "bt": "event/Battle-of-Ankara",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire",
+   "steppe"
+  ],
+  "causes": [
+   "sa-1370-timur",
+   "eu-1389-kosovo"
+  ],
+  "causes_forward": [
+   "eu14531"
+  ],
+  "why_selected": "Nearly destroyed the Ottoman state and delayed the fall of Constantinople by half a century"
+ },
+ {
+  "id": "ea-1405-zheng-he",
+  "y": 1405,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1368-ming",
+  "h": "Zheng He's treasure fleets sail",
+  "where": "Nanjing (Liujiagang)",
+  "lat": 31.6,
+  "lon": 121.2,
+  "wk": "Ming treasure voyages",
+  "bt": "biography/Zheng-He",
+  "c": [
+   "political",
+   "economic"
+  ],
+  "t": [
+   "explore",
+   "silk"
+  ],
+  "causes": [
+   "ea-1368-ming"
+  ],
+  "why_selected": "Seven voyages to Arabia and East Africa, then abandoned; China turned away from oceanic power"
+ },
+ {
+  "id": "me-1415-ceuta",
+  "y": 1415,
+  "r": "me",
+  "tier": 1,
+  "parent": null,
+  "h": "Portugal captures Ceuta",
+  "where": "Ceuta, North Africa",
+  "lat": 35.89,
+  "lon": -5.31,
+  "wk": "Portuguese conquest of Ceuta",
+  "c": [
+   "war",
+   "economic"
+  ],
+  "t": [
+   "explore",
+   "empire"
+  ],
+  "causes": [
+   "eu-1212-las-navas"
+  ],
+  "causes_forward": [
+   "af14410"
+  ],
+  "why_selected": "Start of European overseas empire; Portugal turned from crusade to the African coast"
+ },
+ {
+  "id": "ea-1420-yongle-beijing",
+  "y": 1420,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-1368-ming",
+  "h": "Yongle moves the capital to Beijing",
+  "where": "Beijing",
+  "lat": 39.92,
+  "lon": 116.39,
+  "wk": "Forbidden City",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "steppe"
+  ],
+  "causes": [
+   "ea-1368-ming"
+  ],
+  "causes_forward": [
+   "as14491"
+  ],
+  "why_selected": "Put the capital near the steppe frontier; the Tumu crisis of 1449 followed"
+ },
+ {
+  "id": "eu-1420-madeira",
+  "y": 1420,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-1415-ceuta",
+  "h": "Portuguese settle Madeira",
+  "where": "Funchal, Madeira",
+  "lat": 32.65,
+  "lon": -16.91,
+  "wk": "History of Madeira",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "explore",
+   "slavery"
+  ],
+  "causes": [
+   "me-1415-ceuta"
+  ],
+  "causes_forward": [
+   "af14410"
+  ],
+  "why_selected": "Settled from 1420; by the 1450s its sugar estates used enslaved Africans, the model later moved to São Tomé, Brazil and the Caribbean"
+ },
+ {
+  "id": "la-1428-triple-alliance",
+  "y": 1428,
+  "r": "la",
+  "tier": 2,
+  "parent": "la-1325-tenochtitlan",
+  "h": "Aztec Triple Alliance formed",
+  "where": "Tenochtitlan (Mexico City)",
+  "lat": 19.43,
+  "lon": -99.13,
+  "wk": "Aztec Empire",
+  "bt": "topic/Aztec",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire",
+   "native"
+  ],
+  "causes": [
+   "la-1325-tenochtitlan"
+  ],
+  "causes_forward": [
+   "la15194",
+   "la15215"
+  ],
+  "why_selected": "Tribute empire whose subject peoples later joined Cortés"
+ },
+ {
+  "id": "se-1428-le-loi",
+  "y": 1428,
+  "r": "se",
+  "tier": 2,
+  "parent": "ea-1368-ming",
+  "h": "Lê Lợi drives the Ming from Vietnam",
+  "where": "Thăng Long (Hanoi)",
+  "lat": 21.03,
+  "lon": 105.85,
+  "wk": "Lê Lợi",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "indep"
+  ],
+  "causes": [
+   "ea-1405-zheng-he"
+  ],
+  "why_selected": "Ended twenty years of Ming occupation; the Lê dynasty expanded south against Champa"
+ },
+ {
+  "id": "se-1431-angkor-falls",
+  "y": 1431,
+  "r": "se",
+  "tier": 2,
+  "parent": "se-683-srivijaya",
+  "h": "Ayutthaya sacks Angkor",
+  "where": "Angkor, Cambodia",
+  "lat": 13.41,
+  "lon": 103.87,
+  "wk": "Fall of Angkor",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "se-1351-ayutthaya",
+   "se-802-angkor"
+  ],
+  "why_selected": "Khmer moved south to Phnom Penh; the mainland's centre shifted to the Thai"
+ },
+ {
+  "id": "af-1433-timbuktu-tuareg",
+  "y": 1433,
+  "r": "af",
+  "tier": 3,
+  "parent": "af-1235-sundiata",
+  "h": "Tuareg take Timbuktu from Mali",
+  "where": "Timbuktu, Mali",
+  "lat": 16.77,
+  "lon": -3.01,
+  "wk": "Timbuktu",
+  "c": [
+   "war"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [
+   "af-1324-mansa-musa"
+  ],
+  "causes_forward": [
+   "af14641"
+  ],
+  "why_selected": "Mali's decline left the Niger bend for Sonni Ali's Songhai, which took Timbuktu in 1468"
+ },
+ {
+  "id": "me-1434-bojador",
+  "y": 1434,
+  "r": "me",
+  "tier": 3,
+  "parent": "me-1415-ceuta",
+  "h": "Gil Eanes sails past Cape Bojador",
+  "where": "Cape Bojador, Western Sahara",
+  "lat": 26.13,
+  "lon": -14.5,
+  "wk": "Cape Bojador",
+  "c": [
+   "economic"
+  ],
+  "t": [
+   "explore"
+  ],
+  "causes": [
+   "me-1415-ceuta",
+   "eu-1420-madeira"
+  ],
+  "causes_forward": [
+   "af14410"
+  ],
+  "why_selected": "Broke the psychological limit of navigation; Portuguese ships reached the Guinea coast within a decade"
+ },
+ {
+  "id": "la-1438-pachacuti",
+  "y": 1438,
+  "r": "la",
+  "tier": 1,
+  "parent": null,
+  "h": "Pachacuti begins the Inca Empire",
+  "where": "Cusco, Peru",
+  "lat": -13.53,
+  "lon": -71.97,
+  "wk": "Pachacuti",
+  "bt": "biography/Pachacuti-Inca-Yupanqui",
+  "c": [
+   "political",
+   "war"
+  ],
+  "t": [
+   "empire",
+   "native"
+  ],
+  "causes": [
+   "la-1200-cusco",
+   "la-900-chimu"
+  ],
+  "causes_forward": [
+   "d-incacivil",
+   "la15326"
+  ],
+  "why_selected": "Turned Cusco into Tawantinsuyu, the largest empire in the Americas, which Pizarro found divided; 1438 is the conventional accession date"
+ },
+ {
+  "id": "eu-1439-florence-council",
+  "y": 1439,
+  "r": "eu",
+  "tier": 2,
+  "parent": "me-1299-osman",
+  "h": "Council of Florence unites the churches",
+  "where": "Florence",
+  "lat": 43.77,
+  "lon": 11.26,
+  "wk": "Council of Florence",
+  "c": [
+   "religion",
+   "ideas"
+  ],
+  "t": [
+   "faith"
+  ],
+  "causes": [
+   "eu-1054-schism",
+   "me-1402-ankara"
+  ],
+  "causes_forward": [
+   "eu14531"
+  ],
+  "why_selected": "Byzantium traded union with Rome for help against the Ottomans; Greek scholars fed the Renaissance"
+ },
+ {
+  "id": "ea-868-diamond-sutra",
+  "y": 868,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-755-an-lushan",
+  "h": "Diamond Sutra printed at Dunhuang",
+  "where": "Dunhuang, China",
+  "lat": 40.14,
+  "lon": 94.66,
+  "wk": "Diamond Sutra",
+  "bt": "topic/Diamond-Sutra",
+  "c": [
+   "science",
+   "religion"
+  ],
+  "t": [
+   "science",
+   "faith"
+  ],
+  "causes": [],
+  "why_selected": "Oldest dated printed book; woodblock printing spread through Buddhist monasteries centuries before Europe"
+ },
+ {
+  "id": "ea-1040-bi-sheng",
+  "y": 1040,
+  "approx": true,
+  "r": "ea",
+  "tier": 2,
+  "parent": "ea-960-song",
+  "h": "Bi Sheng invents movable type",
+  "where": "Song China",
+  "lat": 30.27,
+  "lon": 120.15,
+  "wk": "Bi Sheng",
+  "c": [
+   "science"
+  ],
+  "t": [
+   "science"
+  ],
+  "causes": [
+   "ea-868-diamond-sutra"
+  ],
+  "causes_forward": [
+   "eu14400"
+  ],
+  "why_selected": "Earliest movable type (ceramic), recorded by Shen Kuo; the Asian ancestor of Gutenberg's press"
+ },
+ {
+  "id": "eu-753-rome-founded",
+  "y": -753,
+  "approx": true,
+  "r": "eu",
+  "tier": 3,
+  "parent": "me-146-rome-carthage",
+  "h": "Traditional founding of Rome",
+  "where": "Rome, Italy",
+  "lat": 41.89,
+  "lon": 12.49,
+  "wk": "Founding of Rome",
+  "c": [
+   "political"
+  ],
+  "t": [
+   "empire"
+  ],
+  "causes": [],
+  "why_selected": "Conventional start of Roman history (21 April 753 BCE); settlement on the Palatine is older"
+ }
+]

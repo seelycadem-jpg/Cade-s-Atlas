@@ -1,0 +1,639 @@
+# Tier hierarchy. Indentation sets the tier: no indent = Tier 1 turning point,
+# 2 spaces = Tier 2 key event inside it, 4 spaces = Tier 3 detail inside that.
+# "~" holds key events that stand on their own (no turning point above them yet).
+
+Gutenberg's printing press
+Fall of Constantinople
+Portuguese begin Atlantic slave trade
+  Portuguese build Elmina Castle
+  Kongo's King Afonso protests slave trade
+  Brazilian gold rush
+Sonni Ali builds the Songhai Empire
+  Askia Muhammad: Songhai's peak
+  Morocco destroys Songhai
+Columbus reaches the Caribbean
+  Ferdinand and Isabella marry
+  Spanish Inquisition
+  Granada falls
+  Jews expelled from Spain
+  Treaty of Tordesillas
+  Cabot reaches Newfoundland
+  Cabral claims Brazil
+  Balboa sees the Pacific
+Vasco da Gama reaches India
+  Dias rounds the Cape of Good Hope
+  Portuguese sack Kilwa
+    Omanis take Mombasa
+  Portugal takes Goa
+  Portugal takes Malacca
+  Adal invades Ethiopia
+Italian Wars begin
+  Mona Lisa painted
+  Michelangelo paints Sistine ceiling
+  Machiavelli's The Prince
+  Charles V becomes Holy Roman Emperor
+Safavid Persia founded
+  Battle of Chaldiran
+  Shah Abbas makes Isfahan his capital
+Luther's 95 Theses
+  Diet of Worms
+  Council of Trent
+  Peace of Augsburg
+  French Wars of Religion
+    St. Bartholomew's Day Massacre
+    Edict of Nantes
+Suleiman the Magnificent
+  Ottomans conquer Egypt
+  Ottomans win at Mohács
+  Ottoman siege of Vienna
+  Battle of Lepanto
+Tenochtitlan falls
+  Cortés lands in Mexico
+Babur founds Mughal Empire
+  Akbar the Great
+  Battle of Talikota
+  Taj Mahal begun
+Pizarro captures Atahualpa
+  Last Inca stronghold falls
+Henry VIII breaks with Rome
+  Hundred Years' War ends
+  Wars of the Roses begin
+  Tudors take the English throne
+  Elizabeth I takes throne
+Copernicus: sun-centered universe
+Potosí silver discovered
+  Manila galleon trade begins
+  Spain founds Manila
+Spanish Armada defeated
+  Dutch Revolt
+English East India Company
+Dutch VOC founded
+  Dutch found Batavia
+Tokugawa shogunate
+  Ōnin War begins
+  Portuguese guns reach Japan
+  Hideyoshi unifies Japan
+  Japan invades Korea
+  Battle of Sekigahara
+  Japan closes to the West
+    Dutch books allowed back in
+    Japan translates a Western anatomy book
+Jamestown founded
+  Roanoke colony founded, then vanishes
+  French found Quebec
+    Cartier explores the St. Lawrence
+  First elected assembly (House of Burgesses)
+  Mayflower lands at Plymouth
+  Massachusetts Bay Colony
+    King Philip's War
+    Salem witch trials
+  English seize New Amsterdam
+  Penn founds Pennsylvania
+Galileo's telescope
+Thirty Years' War begins
+First enslaved Africans arrive in Virginia
+  Bacon's Rebellion
+  Stono Rebellion
+English Civil War
+  Charles I executed
+  Cromwell rules
+  Hobbes' Leviathan
+  English monarchy restored
+    Great Fire of London
+Qing dynasty takes Beijing
+  Tumu Crisis
+  Ming dynasty falls
+  Kangxi Emperor
+  Qing take Taiwan
+Peace of Westphalia
+Dutch found Cape Town
+  Britain takes the Cape
+  Shaka builds the Zulu kingdom
+  Boer Great Trek
+  Anglo-Zulu War
+  Boer War
+Ottomans turned back at Vienna
+Newton's Principia
+Glorious Revolution
+  Locke's Two Treatises of Government
+  English Bill of Rights
+  Bank of England
+  Great Britain formed
+Treaty of Utrecht
+  War of Spanish Succession
+  South Sea Bubble
+Peter the Great proclaimed emperor
+  Battle of Poltava
+  Catherine the Great seizes the throne
+  First Partition of Poland
+Seven Years' War
+  Frederick the Great seizes Silesia
+  French and Indian War begins
+  Treaty of Paris: Britain wins Canada
+Battle of Plassey
+  Shivaji crowned Maratha king
+  Aurangzeb dies
+  Nader Shah sacks Delhi
+  Third Battle of Panipat
+  Tipu Sultan killed at Seringapatam
+  Britain defeats the Marathas
+Watt's steam engine
+  First public steam railway
+  Erie Canal opens
+  Transcontinental railroad
+    Chinese Exclusion Act
+Adam Smith's Wealth of Nations
+Declaration of Independence
+  Stamp Act
+  Boston Massacre
+  Boston Tea Party
+  Battles of Lexington and Concord
+  Victory at Yorktown
+  Independence recognized
+Constitution written
+  Bill of Rights
+First Fleet founds Sydney
+  Duyfken lands in Australia
+  Abel Tasman reaches Tasmania and New Zealand
+  Cook lands at Botany Bay
+  Myall Creek massacre
+  Last convict ship reaches Australia
+French Revolution
+  Rousseau's The Social Contract
+  Louis XVI executed
+  Reign of Terror
+  Napoleon seizes power
+Haitian Revolution begins
+  Haiti independent
+Louisiana Purchase
+  Lewis and Clark expedition
+  Florida acquired
+  Alaska purchased
+Napoleon invades Russia
+  Napoleon crowned emperor
+  Battle of Trafalgar
+  Battle of Austerlitz
+  Holy Roman Empire ends
+  Battle of Waterloo
+Congress of Vienna
+  Greek War of Independence
+  July Revolution in France
+  Belgian Revolution
+Bolívar wins at Boyacá
+  Túpac Amaru II rebellion
+  Portuguese court flees to Brazil
+  Argentina independent
+  Brazil independent
+  Battle of Ayacucho
+  Gran Colombia breaks apart
+Mexico independent
+  Hidalgo's revolt
+  Monroe Doctrine
+Indian Removal Act
+  War of 1812
+  Trail of Tears
+  Little Bighorn
+  Wounded Knee Massacre
+Britain abolishes slavery
+  Britain bans slave trade
+  Atlantic slave imports banned
+  Liberia founded
+First Opium War
+  China rebuffs British trade mission
+  Treaty of Nanjing
+Treaty of Waitangi
+  Musket Wars in New Zealand
+  New Zealand Wars begin
+Mexican-American War
+  Texas annexed
+  Treaty of Guadalupe Hidalgo
+  California Gold Rush
+Revolutions of 1848
+  Irish Famine
+  Italy unified
+The Communist Manifesto
+  Paris Commune
+  Haymarket affair
+    American Federation of Labor founded
+Taiping Rebellion
+  Summer Palace burned
+Perry's 'black ships' reach Japan
+  British warship invades Nagasaki harbor
+  Order to fire on foreign ships
+  Japan softens its anti-foreign edict
+  Treaty of Kanagawa
+  Unequal treaties with the West
+    Chief minister assassinated in the snow
+Crimean War
+  Ottoman Tanzimat reforms
+  Russia frees the serfs
+Indian Rebellion
+  British Raj begins
+    Victoria made Empress of India
+Darwin's Origin of Species
+Civil War begins
+  Whitney's cotton gin
+  Missouri Compromise
+  Compromise of 1850
+  Kansas-Nebraska Act
+  Dred Scott decision
+Emancipation Proclamation
+  Battle of Gettysburg
+  Lee surrenders at Appomattox
+  Lincoln assassinated
+  13th Amendment abolishes slavery
+Meiji Restoration
+  Britain bombards Kagoshima
+  Satsuma and Chōshū unite against the shogun
+    Last shogun hands power to the emperor
+  Boshin War
+  Charter Oath
+  Feudal domains abolished
+    Conscription replaces the samurai
+  Iwakura Mission tours the West
+    Japan's first railway opens
+    The 'invade Korea' debate splits the government
+  Satsuma Rebellion: the last samurai
+Suez Canal opens
+  Napoleon invades Egypt
+  Muhammad Ali takes power in Egypt
+  Britain occupies Egypt
+Franco-Prussian War
+  Austria-Hungary formed
+  German Empire proclaimed
+  Congress of Berlin
+  Triple Alliance
+Reconstruction ends
+  Plessy v. Ferguson
+Berlin Conference
+  Oman moves capital to Zanzibar
+  Zanzibar slave market closed
+    Stanley finds Livingstone at Ujiji
+    Zanzibar abolishes slavery
+  Stanley crosses Africa down the Congo
+  Carl Peters' treaties found German East Africa
+    Britain and Germany divide East Africa
+  Congo Free State founded
+    Belgium takes Congo from Leopold
+  Abushiri revolt on the Swahili coast
+  Heligoland-Zanzibar Treaty
+    Imperial British East Africa Company chartered
+    Anglo-Zanzibar War
+  Uganda Railway: the 'Lunatic Line'
+    Britain makes Uganda a protectorate
+    East Africa Protectorate (future Kenya)
+    Nandi leader killed at a peace meeting
+  Battle of Omdurman
+    Fashoda Incident
+Brazil abolishes slavery
+  Paraguayan War
+  Cuba ends slavery
+  Brazil becomes a republic
+First Sino-Japanese War
+  Japan forces Korea open
+  Meiji Constitution
+    Britain agrees to end extraterritoriality
+  Treaty of Shimonoseki
+  Triple Intervention: Japan forced to give back its prize
+    Korea's Queen Min murdered
+  Japan takes Taiwan
+Ethiopia defeats Italy at Adwa
+  Mkwawa's Hehe destroy a German column at Lugalo
+    Mkwawa dies rather than surrender
+  Herero and Nama genocide
+  Maji Maji Rebellion
+    Germany reforms its colonies after Maji Maji
+Spanish-American War
+  Cuban War of Independence
+  Spain's American empire ends
+  Philippine-American War
+    José Rizal executed
+  Roosevelt Corollary
+  US annexes Hawaii
+    Kamehameha unifies Hawaii
+    Overthrow of the Hawaiian Kingdom
+    Hawaii becomes the 50th state
+Commonwealth of Australia founded
+  Australian gold rushes begin
+    Eureka Stockade
+  Blackbirding: Pacific Islanders brought to Queensland
+  White Australia policy enacted
+    White Australia policy ends
+  Australians vote to include Aboriginal people
+    Mabo decision
+    Australia apologises to the Stolen Generations
+Wright brothers fly
+  Model T
+Japan defeats Russia
+  Anglo-Japanese Alliance
+  Treaty of Portsmouth
+    Hibiya riots
+Japan annexes Korea
+  Korea made a Japanese protectorate
+    Itō Hirobumi assassinated
+Mexican Revolution
+  French invade Mexico
+    Emperor Maximilian executed
+  Porfirio Díaz dictatorship
+  Mexico nationalizes oil
+  Zapatista uprising
+Qing dynasty falls
+  Boxer Rebellion
+    Russia takes Port Arthur
+  May Fourth Movement
+WWI begins
+  Franco-Russian Alliance
+  Germany builds a navy
+  Entente Cordiale
+  Gallipoli: the ANZAC landing
+  WWI East Africa campaign
+    Battle of Tanga: the 'Battle of the Bees'
+    Last German army in WWI surrenders in Africa
+  US enters WWI
+Panama Canal opens
+  Panama splits from Colombia
+  US invades Panama
+Armenian genocide
+  Young Turk Revolution
+    Italy invades Libya
+Sykes-Picot Agreement
+  Oil discovered in Persia
+  Balfour Declaration
+Russian Revolution
+  Russian Revolution of 1905
+  Soviet Union founded
+  Stalin rises
+Treaty of Versailles
+  Wilson's Fourteen Points
+  Armistice ends World War I
+  German East Africa becomes Tanganyika
+  Senate rejects the Treaty of Versailles
+  Mussolini's March on Rome
+Women's suffrage (19th Amendment)
+  Seneca Falls Convention
+  New Zealand gives women the vote
+Atatürk's Turkish Republic
+  Kingdom of Saudi Arabia proclaimed
+    Wahhabi-Saudi alliance
+    Oil struck in Saudi Arabia
+Stock market crash
+  Federal Reserve created
+  Vargas takes power in Brazil
+FDR's New Deal
+  Social Security
+Hitler takes power
+  Enabling Act
+    Reichstag fire
+    Night of the Long Knives
+  Nuremberg Laws
+  Kristallnacht
+Japan invades China
+  Japan seizes Manchuria
+WWII begins
+  Italy invades Ethiopia
+  Germany remilitarizes the Rhineland
+  Spanish Civil War
+  Anschluss: Germany absorbs Austria
+  Munich Agreement
+    Germany seizes the rest of Czechoslovakia
+  Nazi-Soviet Pact
+    Winter War: USSR invades Finland
+Fall of France
+  Germany invades Denmark and Norway
+  Dunkirk evacuation
+  Battle of Britain
+    Lend-Lease: America arms Britain
+Germany invades USSR
+  Siege of Leningrad begins
+  Wannsee Conference
+    Warsaw Ghetto Uprising
+  Battle of Stalingrad
+Japan attacks Pearl Harbor
+  Hitler declares war on the United States
+  Battle of Midway
+    Guadalcanal campaign
+D-Day
+  Battle of Kursk
+    Tehran Conference
+  Allies invade Sicily
+    El Alamein
+    Mussolini overthrown
+  Operation Bagration
+    Warsaw Uprising
+  Battle of the Bulge
+Germany surrenders
+  Auschwitz liberated
+  Nuremberg trials
+Atomic bombs dropped on Japan
+  US nuclear tests at Bikini Atoll
+    Rainbow Warrior bombed
+United Nations founded
+  Yalta Conference
+    Bombing of Dresden
+    Potsdam Conference
+Indonesia declares independence
+  Dutch impose the Cultivation System on Java
+    Java War
+  Japan invades Southeast Asia
+    Japan bombs Darwin
+    Kokoda Track campaign
+  Philippines becomes independent
+  Burma becomes independent
+    Myanmar's military coup
+  Bandung Conference
+  Malaya becomes independent
+  Singapore becomes independent
+    Britain founds Singapore
+  Indonesian mass killings
+  ASEAN founded
+  East Timor becomes independent
+Partition of India
+  Indian National Congress
+    Partition of Bengal
+    All-India Muslim League founded
+  Amritsar massacre
+  Gandhi's Salt March
+  Quit India Movement
+  First Kashmir war
+  Gandhi assassinated
+  India becomes a republic
+Apartheid begins
+  Union of South Africa
+Marshall Plan
+  Truman Doctrine
+Israel founded
+  PLO founded
+  First Intifada
+  Oslo Accords
+  Abraham Accords
+  Hamas attacks Israel (October 7)
+    Israel's war in Gaza
+NATO founded
+  Germany divided into two states
+  Stalin dies
+  Hungarian uprising crushed
+People's Republic of China
+  Chinese Civil War begins
+Korean War
+Algerian War
+  France invades Algeria
+Suez Crisis
+  Egypt nominally independent
+  Egyptian revolution
+Ghana independent
+  Mau Mau uprising
+  Organisation of African Unity founded
+Treaty of Rome (EEC)
+  Death of Franco
+  Maastricht Treaty creates EU
+  Euro enters circulation
+  EU expands east
+  Migrant crisis
+  Brexit vote
+    Brexit takes effect
+Great Leap Forward
+  Cultural Revolution
+Cuban Revolution
+  US-backed coup in Guatemala
+  Brazil military coup
+  Che killed in Bolivia
+  Pinochet coup in Chile
+  Argentina's Dirty War
+  Sandinista revolution
+  Colombia-FARC peace deal
+'Year of Africa'
+  Lumumba assassinated
+  Tanganyika becomes independent
+    Tanzania formed
+  Kenya becomes independent
+  Biafran War
+  Arusha Declaration
+  Haile Selassie overthrown
+    Ethiopian famine
+    Tigray war
+  Tanzania ousts Idi Amin
+  Angola becomes independent
+  Mozambique becomes independent
+  Zimbabwe independent
+Cuban Missile Crisis
+  Bay of Pigs
+Civil Rights Act
+  Brown v. Board of Education
+  Montgomery bus boycott
+  Voting Rights Act
+  Martin Luther King Jr. assassinated
+    Robert F. Kennedy assassinated
+Six-Day War
+  Yom Kippur War
+    Arab oil embargo
+  Camp David Accords
+  Israel invades Lebanon
+Moon landing
+  Sputnik shock
+Bangladesh Liberation War
+  Sino-Indian War
+  India's first nuclear test
+  Indira Gandhi assassinated
+  India and Pakistan test nuclear weapons
+Fall of Saigon
+  French Indochina
+  Ho Chi Minh declares Vietnam independent
+  Battle of Dien Bien Phu
+    Geneva Accords divide Vietnam
+  US escalates the Vietnam War
+  US withdraws from Vietnam
+  Khmer Rouge take Phnom Penh
+  Vietnam invades Cambodia
+Deng's market reforms
+  Tiananmen Square
+Iranian Revolution
+  Coup in Iran
+  Iran hostage crisis
+  Iran-Iraq War
+  Iran nuclear deal
+Soviet Union invades Afghanistan
+Latin American debt crisis
+  Falklands War
+  Chávez in Venezuela
+    Venezuela crisis deepens
+  Argentina defaults
+    Milei elected in Argentina
+  Lula in Brazil
+Gorbachev comes to power
+  INF Treaty with USSR
+Berlin Wall falls
+  Berlin Wall built
+  Prague Spring crushed
+    May 1968 protests in France
+  Helsinki Accords
+  Solidarity in Poland
+  Germany reunified
+Soviet Union dissolves
+  Chernobyl disaster
+  Yugoslav wars begin
+    Srebrenica massacre
+Mandela elected president
+  Mandela freed
+Rwandan genocide
+  Congo wars begin
+  African Union founded
+  Darfur
+    South Sudan becomes independent
+    Sudan civil war
+9/11 attacks
+  Gulf War
+  US invades Afghanistan
+  US-led invasion of Iraq
+  Bin Laden killed
+  Taliban retake Kabul
+China joins the WTO
+  Dollar leaves gold standard
+  NAFTA
+  India opens its economy
+  Hong Kong returned to China
+  Asian financial crisis
+  Xi Jinping takes power
+Global financial crisis
+  Dot-com boom
+  Obama elected president
+    Affordable Care Act
+  Eurozone debt crisis
+Arab Spring
+  Syrian civil war begins
+  ISIS 'caliphate'
+  Sahel coups
+COVID-19 pandemic
+  Ebola outbreak
+Russia invades Ukraine
+  Russia-Georgia war
+  Russia annexes Crimea
+~
+  Korea creates Hangul alphabet
+  Lisbon earthquake
+  Asante Empire rises
+  Sokoto Caliphate founded
+  Chakri dynasty founds Bangkok
+    Burma sacks Ayutthaya
+  First Anglo-Burmese War
+  Chulalongkorn modernises Siam
+    Bowring Treaty opens Siam
+  Theodore Roosevelt becomes president
+    16th Amendment: federal income tax
+  Perón in Argentina
+  JFK assassinated
+  Nixon resigns (Watergate)
+  Reagan presidency
+  Bhopal gas disaster
+  People Power Revolution
+  Papua New Guinea becomes independent
+    Samoa becomes independent
+    Fiji's first military coups
+  Haiti earthquake
+    Haiti's president assassinated
+  Indian Ocean tsunami
+  Fukushima nuclear disaster
+  Trump elected
+  Jan 6 Capitol attack
+  Trump elected again
+  AUKUS pact
+  Australia offers Tuvaluans a climate refuge

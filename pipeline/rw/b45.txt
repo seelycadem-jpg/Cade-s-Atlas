@@ -1,0 +1,272 @@
+## as14430 | 1443 | Korea creates Hangul alphabet | who: King Sejong the Great | where: Joseon Korea
+  bluf: Hangul gave Koreans a phonetic alphabet designed for their own language instead of borrowed Chinese characters. The scholar elite resisted it for four centuries, but it became the foundation of modern Korean identity and near-universal literacy.
+  now: A script anyone could learn in days broke the scholar class's monopoly on writing and gave Korea a literate public and a national identity separate from China; both Koreas write in it today.
+  story: Korea's written language was classical Chinese, which took years to master and did not fit spoken Korean. King Sejong and a group of scholars designed Hangul, completed in 1443 and proclaimed in 1446 as the Hunminjeongeum, 'the correct sounds for instructing the people'. Its letter shapes are based on how the mouth and tongue form each sound.
+  why: Sejong wrote that ordinary people could not express their thoughts in writing because Chinese characters were too hard to learn. A script that fit Korean speech could spread literacy beyond the aristocracy.
+  then: Confucian scholar-officials, whose status rested on mastering Chinese, opposed it, and it survived mainly among women, commoners and in popular literature. It became the official script only in 1894; Japanese colonial rule (1910-45) suppressed Korean, which turned Hangul into a symbol of national resistance.
+  fact: Both Koreas keep a national holiday for the alphabet, the only script in the world with one.
+## as14491 | 1449 | Tumu Crisis | who: Ming Emperor Zhengtong; Oirat Mongols | where: Tumu, near Beijing
+  bluf: The capture of the Ming emperor by Oirat Mongols ended Ming confidence in offensive war on the steppe. China switched to a defensive strategy built on walls and fortified garrisons, a posture that shaped its northern frontier for two centuries.
+  now: Most of the Great Wall seen today is Ming-era. The episode is a classic example of how one defeat can make a state strategically defensive for generations.
+  story: In 1449 the young Zhengtong Emperor, urged on by the powerful eunuch Wang Zhen, led a huge, poorly supplied army against the Oirat Mongols. At Tumu, northwest of Beijing, the Mongols surrounded the exhausted army, slaughtered much of it and captured the emperor himself.
+  why: Steppe peoples wanted regular access to Chinese markets; when the Ming restricted the tribute trade, raids followed. At court, the eunuch Wang Zhen pushed the inexperienced emperor to lead the army in person.
+  trig: An Oirat invasion in 1449, after a quarrel over the size of their tribute-trade missions.
+  then: The court enthroned the emperor's brother, and the minister Yu Qian saved Beijing. The released emperor later took the throne back in a palace coup (1457). The Ming gave up campaigns into Mongolia and in the 1500s rebuilt the Great Wall in brick and stone.
+## as14673 | 1467 | Ōnin War begins | who: Rival samurai clans (Hosokawa vs. Yamana) | where: Kyoto, Japan
+  bluf: A succession dispute in the shogun's court destroyed Kyoto and the shogunate's real authority, opening Japan's century of 'warring states'. Power passed to regional warlords, the daimyo, whose competition eventually produced unification under the Tokugawa.
+  now: The warrior culture of this era shaped Japan's feudal order and explains the rigid central control the Tokugawa imposed to prevent another collapse.
+  story: In 1467 a dispute over who would succeed the shogun pulled Japan's great lords into war, led by the Hosokawa and Yamana clans. Fighting raged in the capital for ten years and burned much of Kyoto; when it ended, the Ashikaga shoguns had lost real control of the country.
+  why: The Ashikaga shoguns depended on powerful provincial governors they could not control. When the shogun Yoshimasa's succession was disputed, the Hosokawa and Yamana factions backed rival candidates.
+  trig: Fighting broke out in Kyoto in 1467 over the shogunal succession and a feud within the Hatakeyama family.
+  then: Central authority collapsed. Lords built domains with their own laws and castles, adopted firearms after 1543, and fought one another until Oda Nobunaga, Toyotomi Hideyoshi and Tokugawa Ieyasu reunified the country (1568-1603).
+## as154310 | 1543 | Portuguese guns reach Japan | who: Portuguese traders | where: Tanegashima, Japan
+  bluf: Firearms transformed Japan's civil wars: within decades massed musketeers decided battles, and the warlords who could afford them unified the country. Japan's speed in copying and mass-producing the weapon shows how fast a society under competitive pressure can absorb foreign technology.
+  now: Japan's rapid adoption of guns in the 1500s, and of Western industry after 1868, contradicts the stereotype of a closed society resistant to change.
+  story: A storm drove a Chinese ship with Portuguese aboard onto Tanegashima island. Japanese smiths reverse-engineered their muskets within a year.
+  why: Japan's warring lords had every incentive to adopt a military advantage, and skilled swordsmiths could copy the guns.
+  then: Gun production spread across Japan, and Oda Nobunaga used massed volleys at Nagashino (1575). Portuguese traders and Jesuit missionaries followed. After unification, the Tokugawa restricted both guns and foreign contact.
+## as159013 | 1590 | Hideyoshi unifies Japan | who: Toyotomi Hideyoshi | where: Japan
+  bluf: Hideyoshi completed the unification of Japan begun by Nobunaga and froze its social order, disarming peasants and separating samurai from farmers. His failed invasions of Korea devastated the peninsula and left lasting bitterness.
+  now: Hideyoshi's sword hunt, land survey and separation of samurai from peasants fixed Japan's social order for 270 years; his invasions of Korea poisoned relations with it for four centuries and ended Japanese expansion until 1894.
+  story: Toyotomi Hideyoshi, who started as a foot soldier, defeated or won over every rival lord. He disarmed peasants and froze the social classes.
+  why: He took over Nobunaga's armies and alliances after Nobunaga's assassination in 1582, and combined force with deals that let defeated lords keep their domains in return for loyalty.
+  then: His 'sword hunt' (1588) disarmed the peasantry, his edicts fixed social status, and a national land survey standardized taxes. He invaded Korea in 1592 and 1597 and failed. After his death in 1598, Tokugawa Ieyasu won the struggle for power.
+  fact: Admiral Yi Sun-sin, who destroyed Hideyoshi's fleets, is Korea's national hero.
+## as159214 | 1592 | Japan invades Korea | who: Hideyoshi; Korean Admiral Yi Sun-sin; Ming China | where: Korea
+  bluf: Hideyoshi's invasions of Korea (1592-98) were East Asia's largest war of the century, drawing in Ming China and devastating Korea. They failed, but they left a lasting Korean memory of Japanese aggression and drained the Ming at a critical moment.
+  now: Admiral Yi and the 'Imjin War' are central to Korean national memory and still colour attitudes toward Japan.
+  story: Hideyoshi's armies took Seoul quickly, but Admiral Yi Sun-sin's armored 'turtle ships' cut Japanese supply lines, and Ming China sent an army.
+  why: Having unified Japan, Hideyoshi needed new conquests to reward his lords and armies, and he aimed to replace China at the centre of the East Asian order.
+  trig: Korea refused to let Japanese armies pass through on their way to attack China.
+  then: Korea was ravaged: cities burned, many thousands killed, and potters and artisans carried off to Japan. The cost of intervening helped empty the Ming treasury, a factor in the dynasty's later collapse. Japan withdrew after Hideyoshi's death, and the Tokugawa later restored relations.
+  fact: Admiral Yi's armored 'turtle ships' helped him win battles against huge odds. He never lost a naval battle.
+## as160015 | 1600 | Battle of Sekigahara | who: Tokugawa Ieyasu vs. rival lords | where: Sekigahara, Japan
+  bluf: Sekigahara decided who would inherit Hideyoshi's unified Japan. Tokugawa Ieyasu's victory led to 250 years of Tokugawa rule, and the line between his allies and his defeated enemies shaped Japanese politics until 1868.
+  now: The long Tokugawa peace built on this victory created a unified market, high literacy and a trained bureaucracy, which made Japan's rapid modernization after 1868 possible.
+  story: On October 21, 1600, about 160,000 samurai met in a foggy valley at Sekigahara. Tokugawa Ieyasu's eastern army faced a western coalition loyal to Hideyoshi's young heir; when key western lords, such as Kobayakawa Hideaki, switched sides mid-battle, the coalition collapsed.
+  why: Hideyoshi's death in 1598 left a child heir, and the regents he appointed fought for power.
+  then: Ieyasu became shogun in 1603, confiscated or cut the lands of the losers, and placed trusted allies in strategic domains. Defeated 'outside' lords, notably Chōshū and Satsuma, nursed their grievances for two and a half centuries and led the overthrow of the shogunate in 1868.
+  fact: Some historians call it the most important battle in Japanese history; it was won partly because a key general switched sides mid-battle.
+## as160316 | 1603 | Tokugawa shogunate | who: Tokugawa Ieyasu | where: Edo (Tokyo)
+  bluf: The Tokugawa shogunate gave Japan 250 years of peace by freezing its political and social order under tight central control. Restricted foreign contact, hereditary classes and forced attendance at Edo kept the lords weak, but also built the urban, literate, commercial society that let Japan modernize so quickly after 1868.
+  now: Much of what is seen as 'traditional' Japan, from kabuki and woodblock prints to castle towns, comes from the Edo period.
+  story: In 1603 the emperor named Tokugawa Ieyasu shogun, and he ruled from his castle town of Edo (Tokyo). His heirs required the great lords to spend alternate years at Edo, leaving their families behind as hostages, which kept them loyal and drained their wealth.
+  why: Victory at Sekigahara left Ieyasu the strongest lord in Japan, and a century of civil war made peace and order the overriding goal.
+  then: Japan's population, cities and commerce grew; Edo became one of the largest cities in the world, and literacy spread. But when Western warships arrived in 1853 the system could not respond, and the shogunate fell in 1868.
+  fact: By 1700 Edo (Tokyo) was probably the largest city in the world, with about a million people.
+## as163918 | 1639 | Japan closes to the West | who: Tokugawa shogunate | where: Japan
+  bluf: The Tokugawa restrictions on foreign contact cut Japan off from Europe for over 200 years, apart from a Dutch post at Nagasaki. They protected the regime from Christian and foreign influence but left Japan unprepared when Western industrial powers arrived.
+  now: It explains why Japan's encounter with Western power was so sudden and why its modernization after 1868 was so rapid and state-driven.
+  story: Fearing Christianity and European influence, the shogunate expelled Portuguese traders, banned Christianity and forbade Japanese from leaving. Only the Dutch could trade, on a tiny island at Nagasaki.
+  why: The shogunate saw Christianity, which had won perhaps 300,000 converts, as a threat to its authority, and wanted to control foreign trade itself.
+  trig: The Shimabara Rebellion (1637-38), a peasant revolt with many Christian participants, convinced the shogunate that Portuguese missionaries were dangerous.
+  then: Japan was never fully sealed: trade continued with China, Korea, the Ryukyu kingdom and the Dutch, and Dutch books fed a school of 'Dutch learning'. Japan developed internally until US warships forced it open in 1853.
+  fact: Dutch traders were confined to Dejima, a tiny artificial fan-shaped island in Nagasaki harbor.
+## as164419 | 1644 | Ming dynasty falls | who: Rebel leader Li Zicheng; the Chongzhen Emperor | where: Beijing
+  bluf: The Ming collapse shows how fiscal crisis, climate shock and rebellion can bring down a great state together. It let the Manchus conquer China and found the Qing, the last imperial dynasty.
+  now: The Ming collapse is a classic case study of how climate stress, debt and rebellion can topple a state.
+  story: Decades of famine, epidemics, unpaid soldiers and an empty treasury fed huge peasant rebellions. In April 1644 Li Zicheng's army entered Beijing, and the Chongzhen Emperor hanged himself on a hill behind the Forbidden City, ending a dynasty that had ruled since 1368.
+  why: The Ming faced decades of cold, drought and famine during the 'Little Ice Age', disruptions to the silver supply its tax system depended on, crushing military costs on the northern frontier, and factional paralysis at court. Unpaid soldiers and starving peasants joined rebel armies.
+  then: Li Zicheng held Beijing for only six weeks: the Ming general Wu Sangui let the Manchus through the Great Wall, and they took the capital.
+  fact: The last Ming emperor hanged himself on Coal Hill (Jingshan) behind the Forbidden City as rebels took Beijing.
+## as164419b | 1644 | Qing dynasty takes Beijing | who: Manchu regent Dorgon; Ming general Wu Sangui | where: Shanhai Pass and Beijing
+  bluf: The Manchu conquest founded the Qing, China's last imperial dynasty. The Qing roughly doubled China's territory, adding Tibet, Xinjiang, Mongolia and Taiwan, and the borders of today's People's Republic largely reflect that expansion.
+  now: Beijing's claims to Tibet, Xinjiang and Taiwan rest largely on Qing-era borders, and the Qing's decline begins the 'century of humiliation' central to the Communist Party's story of itself.
+  story: Facing Li Zicheng's rebels, the Ming general Wu Sangui let the Manchu army through Shanhai Pass, where the Great Wall meets the sea. Together they routed the rebels, and the Manchus occupied Beijing in June 1644, proclaiming the Qing dynasty rulers of all China. Conquering the south took nearly forty more years.
+  why: The Manchus, a state built north of the Wall, saw the Ming collapse as their chance, and the Ming general Wu Sangui wanted revenge on the rebels.
+  then: Qing emperors ruled through Chinese institutions while keeping a separate Manchu identity, and forced Chinese men to wear the Manchu queue. The long reigns of the Kangxi, Yongzheng and Qianlong emperors in the 1700s brought prosperity and expansion, but the dynasty struggled to respond to Western powers in the 1800s.
+## as166120 | 1661 | Kangxi Emperor | who: The Kangxi Emperor; regent Oboi; Jesuit advisers such as Ferdinand Verbiest | where: China
+  bluf: Kangxi consolidated Manchu rule over China, crushing the last internal rebellions, absorbing Taiwan and fixing the Russian border. His 61-year reign made the Qing a stable, expanding empire and won over much of the Chinese scholar elite.
+  now: Kangxi's sixty-one years fixed Qing rule over China, Taiwan, Mongolia and the Russian frontier, and set the pattern of a Manchu dynasty governing through Confucian institutions that held until 1911.
+  story: Kangxi became emperor at seven in 1661 and took personal power at 15 by arresting his overbearing regent, Oboi. Over a 61-year reign he crushed the Revolt of the Three Feudatories, took Taiwan, fixed the border with Russia and studied mathematics and astronomy with Jesuit advisers.
+  why: His father, the Shunzhi Emperor, died of smallpox; Kangxi was chosen partly because he had already survived the disease.
+  then: He patronized Confucian scholarship, keeping Chinese elites invested in the dynasty, and tolerated Jesuits until a dispute with Rome over Chinese rites. Under his grandson Qianlong the empire reached its greatest extent.
+  fact: He is remembered in China as the model ruler of the 'High Qing'.
+## as168321 | 1683 | Qing take Taiwan | who: Qing dynasty | where: Taiwan
+  bluf: The Qing conquest of Taiwan in 1683 brought the island under Chinese imperial rule for the first time. That two-century incorporation is the historical basis of Beijing's claim to Taiwan today.
+  now: Whether Taiwan is part of China is one of the most dangerous flashpoints in world politics, and both sides draw on this history.
+  story: After the Ming fell, the loyalist general Koxinga drove the Dutch out of Taiwan in 1662, and his family ruled the island as a base against the Qing. In 1683 a Qing fleet under Admiral Shi Lang won the Battle of Penghu, and Koxinga's grandson surrendered.
+  why: Koxinga's family used Taiwan as a base for Ming loyalist resistance and maritime trade, and the Qing needed to eliminate it to secure the coast.
+  then: The Qing at first ruled Taiwan reluctantly as part of Fujian province and restricted migration, but Han Chinese settlers came anyway and displaced Indigenous peoples. Taiwan became a province in 1885 and was ceded to Japan in 1895.
+## d-nerchinsk | 1689 | Treaty of Nerchinsk | who: The Kangxi Emperor's envoys; Russian envoy Fyodor Golovin; Jesuit interpreters | where: Nerchinsk, Siberia
+  bluf: Nerchinsk was China's first treaty with a European state, and it was made on equal terms. It fixed the Russia-China border for 170 years, keeping Russia out of the Amur valley and securing the Qing's Manchurian homeland.
+  now: The contrast between Nerchinsk and the later 'unequal treaties' remains part of Chinese historical memory.
+  story: After clashes over Russian forts on the Amur River, Qing and Russian envoys agreed a border along the Argun River and the Stanovoy mountains, and Russia gave up the Amur valley. Jesuits in Qing service translated, so the official text was in Latin.
+  why: The Qing wanted to secure Manchuria and keep Russia away from the Mongols; Russia wanted trade.
+  then: The border held until Russia, taking advantage of Qing weakness, annexed the Amur region and the Pacific coast in 1858-60.
+## jp-rangaku | 1720 | Dutch books allowed back in | who: Shogun Tokugawa Yoshimune | where: Edo (Tokyo)
+  bluf: Allowing in Western books, except Christian ones, let Japanese scholars study European science through Dutch texts for over a century. This 'Dutch learning' gave Japan a base of scientific knowledge and translators that made rapid modernization after 1853 possible.
+  now: It explains why Japan could modernize so fast after 1868: the groundwork was already there.
+  story: Yoshimune wanted better calendars and farming, so he allowed Western books that didn't preach Christianity. Japanese scholars began studying medicine, astronomy and geography through Dutch texts brought to Nagasaki.
+  why: The shogunate needed practical knowledge, especially for astronomy and the calendar.
+  then: Rangaku scholars translated anatomy, chemistry and gunnery books over the next century.
+## jp-kaitai | 1774 | Japan translates a Western anatomy book | who: Sugita Genpaku and Maeno Ryōtaku | where: Edo
+  bluf: The translation of a Dutch anatomy book showed Japanese doctors that Western empirical medicine was more accurate than traditional Chinese models. It turned 'Dutch learning' into a serious scientific movement and laid groundwork for Japan's later modernization.
+  now: It shows Japan's habit of selective borrowing: learning foreign knowledge to strengthen itself while deciding for itself what to adopt.
+  story: In 1771 Sugita Genpaku compared a Dutch anatomy book with the body of an executed criminal and found it accurate. He and colleagues spent three years translating it with almost no dictionary. 'Kaitai Shinsho' (New Book of Anatomy) appeared in 1774.
+  why: Japanese doctors trained in Chinese medicine wanted to test it against Western anatomy, and the shogunate's partial lifting of the book ban had made Dutch texts available.
+  then: Dutch learning spread from medicine to astronomy, chemistry and gunnery, giving Japan a body of Western-trained scholars before Perry arrived.
+## as179325 | 1793 | China rebuffs British trade mission | who: Lord Macartney; Qianlong Emperor | where: Beijing
+  bluf: Qianlong's rejection of the Macartney mission reflected China's confidence in a tribute system with itself at the centre. Britain, wanting trade on equal terms, turned to opium and then to force to open China.
+  now: It is often taught as China's missed chance to engage the industrial age, though historians now argue that view exaggerates Qing ignorance of the outside world.
+  story: Lord Macartney sailed to China with about 700 people and gifts including telescopes, clocks and a planetarium, hoping to open more ports, set up a permanent embassy and fix tariffs. He refused to perform the full kowtow, kneeling on one knee instead. The Qianlong Emperor received him politely but rejected every request, writing to George III that China possessed all things and had no need of British manufactures.
+  why: China saw itself as the centre of civilization, receiving foreigners as tribute-bearers; Britain wanted diplomatic equality, more open ports and a resident ambassador.
+  then: Britain's trade deficit from buying tea kept growing, and it turned to selling Indian opium to China, which led to the Opium Wars.
+## jp-phaeton | 1808 | British warship invades Nagasaki harbor | who: HMS Phaeton; Nagasaki magistrate Matsudaira Yasuhide | where: Nagasaki
+  bluf: The Phaeton incident showed that Japan's coastal defences could not stop a single Western warship. It hardened shogunate policy against foreign ships and foreshadowed the confrontation with Perry in 1853.
+  now: It showed early that isolation could not stop modern navies, a lesson Japan fully absorbed only after Perry arrived in 1853.
+  story: Britain was at war with Napoleon, who controlled the Netherlands, so HMS Phaeton came hunting Dutch ships. It seized Dutch hostages and demanded supplies. Japan's defenses could do nothing.
+  why: Britain was at war with Napoleon, who controlled the Netherlands, so British warships hunted Dutch ships even at Nagasaki, the only port open to the Dutch.
+  then: Japan grew more fearful of Western warships, leading to the 1825 order to fire on them.
+## jp-repel | 1825 | Order to fire on foreign ships | who: Tokugawa shogunate | where: Japanese coast
+  bluf: The order to fire on any foreign ship was the high point of Tokugawa isolation policy. Its failure to deter Western ships showed that isolation could no longer be enforced.
+  now: It shows how isolation was becoming impossible to enforce; within two decades the policy had been abandoned.
+  story: After more Western ships appeared, the shogunate issued the Edict to Repel Foreign Ships. Guards were to fire without warning, even at shipwrecked sailors.
+  why: More Western whalers and warships were appearing off Japan, and the shogunate feared that Christianity and foreign influence would spread.
+  then: In 1837 coastal guns fired on the US merchant ship Morrison, which was trying to return Japanese castaways.
+## as183927 | 1839 | First Opium War | who: Britain vs. Qing China; Commissioner Lin Zexu | where: Chinese coast
+  bluf: Britain went to war to protect its opium trade and force China open to Western commerce. China's defeat ended its ability to set the terms of its foreign relations and began the 'century of humiliation' that drives Chinese nationalism today.
+  now: China calls this the start of its 'century of humiliation', a theme in its politics today.
+  story: The East India Company grew opium in India and smuggled it into China to pay for tea. By the 1830s millions of Chinese were addicted and silver was flowing out. In 1839 Commissioner Lin Zexu seized and destroyed about 20,000 chests of opium at Canton. Britain sent warships that outgunned Chinese forces along the coast and up the Yangtze.
+  why: Britain bought huge amounts of tea while China wanted few British goods, and Britain closed the gap with opium. China tried to suppress the drug trade, and Britain also demanded diplomatic equality and open trade.
+  trig: Lin Zexu's destruction of British opium at Canton in 1839.
+  then: The Treaty of Nanjing (1842) ceded Hong Kong, opened five ports and imposed an indemnity; later treaties exempted foreigners from Chinese law. Opium imports kept growing, and a Second Opium War (1856-60) forced further concessions.
+  fact: Commissioner Lin wrote to Queen Victoria asking how Britain would feel if China sold poison to its people. The letter likely never reached her.
+## as184229 | 1842 | Treaty of Nanjing | who: Britain, Qing China | where: Nanjing
+  bluf: The Treaty of Nanjing was the first of the 'unequal treaties' that forced China to open ports, cede territory and grant foreigners privileges. It set the pattern of Western domination that lasted a century.
+  now: Hong Kong's return in 1997 and the 'century of humiliation' narrative make Nanjing a lasting symbol in Chinese politics.
+  story: Signed aboard a British warship at Nanjing in August 1842, the treaty forced China to pay 21 million silver dollars, open five ports to British trade and residence, and cede Hong Kong Island 'in perpetuity'.
+  why: British warships had reached the Yangtze and threatened Nanjing, forcing the Qing to make peace.
+  then: France and the United States demanded similar treaties, and 'most-favoured nation' clauses meant any concession to one power went to all.
+  fact: Hong Kong was then a barely inhabited rock; a British official called it a barren island.
+## jp-1842 | 1842 | Japan softens its anti-foreign edict | who: Tokugawa shogunate; senior councillor Mizuno Tadakuni | where: Edo
+  bluf: China's defeat in the Opium War convinced Japan's rulers that firing on Western ships invited disaster. Japan softened its policy and began studying Western military technology, an early sign of the pragmatism that would drive its modernization.
+  now: It shows that a neighbour's defeat can change policy faster than one's own experience: China's 'century of humiliation' was Japan's warning.
+  story: News of China's defeat by Britain in the Opium War reached Japan through Dutch and Chinese traders. Worried officials replaced the firing order with one allowing foreign ships to receive food, water and fuel.
+  why: News reached Japan that China, the giant of Asia, had been humbled by a few British warships, and officials feared Japan would be next.
+  then: Japanese reformers began studying Western gunnery and coastal defence, though the shogunate still refused to open the country.
+## as185030 | 1850 | Taiping Rebellion | who: Hong Xiuquan, who claimed to be Jesus's brother | where: Southern China
+  bluf: The Taiping Rebellion, led by a man who claimed to be Jesus's younger brother, was one of the deadliest wars in history, killing perhaps 20 to 30 million people. The Qing survived only by relying on regional armies and Western help, which permanently weakened central authority.
+  now: It is one of the deadliest wars in history yet little known outside China. Both Nationalists and Communists later claimed the Taiping as revolutionary forerunners.
+  story: Hong Xiuquan, after failing the civil service exams, read Christian tracts and came to believe he was the younger brother of Jesus. His movement grew among the poor and the Hakka minority of southern China. In 1853 the Taiping took Nanjing, made it their 'Heavenly Capital' and ruled much of the Yangtze valley until Qing forces retook it in 1864.
+  why: Population pressure, poverty, Qing weakness after the Opium War, ethnic tensions, and a charismatic religious message promising equality.
+  then: The Qing relied on regional armies raised by Chinese officials such as Zeng Guofan and Li Hongzhang, plus Western-officered units; these regional power bases later fed warlordism. The devastation of the Yangtze valley set back China's economy.
+  fact: Its death toll was comparable to all of WWI, yet it is barely taught in the West.
+## as185331 | 1853 | Perry's 'black ships' reach Japan | who: Commodore Matthew Perry | where: Edo Bay
+  bluf: Perry's warships forced Japan to end two centuries of restricted foreign contact. The shock discredited the Tokugawa shogunate and set off the crisis that led to the Meiji Restoration and Japan's rapid transformation into a modern industrial and imperial power.
+  now: Japan's transformation into a modern power begins here, and the 'black ships' remain the standard example of an outside shock forcing a closed society to change.
+  story: In July 1853 Commodore Matthew Perry sailed four ships, two of them steam-powered, into Edo Bay and delivered a letter demanding trade and good treatment for shipwrecked sailors. He promised to return the next year with a bigger fleet. Japan had no navy able to resist.
+  why: The United States wanted coaling stations for steamships on the route to China, protection for its whalers and new markets; China's defeat by Britain had shown how vulnerable Asian states were.
+  then: The Treaty of Kanagawa (1854) and the unequal treaties of 1858 followed. Anger at the shogunate's surrender fed a movement to restore the emperor, and the shogunate fell in 1868.
+  fact: Among Perry's gifts was a working miniature steam train that Japanese officials rode around a track.
+## jp-kanagawa | 1854 | Treaty of Kanagawa | who: Commodore Matthew Perry; Tokugawa shogunate | where: Yokohama
+  bluf: The Treaty of Kanagawa was Japan's first treaty with a Western power, opening two ports and ending over 200 years of restricted contact. It set off the internal crisis that toppled the shogunate.
+  now: It ended over 200 years of isolation and set off the crisis that brought down the shogunate within 15 years, the starting point of Japan's modernization.
+  story: Perry came back with nine ships. The shogunate agreed to open two small ports, Shimoda and Hakodate, help shipwrecked sailors and accept a US consul.
+  why: Japan had no navy that could resist, and its leaders wanted to avoid China's fate in the Opium War.
+  then: US consul Townsend Harris arrived in 1856 and pressed for full trade, which led to the unequal treaties of 1858.
+## jp-harris | 1858 | Unequal treaties with the West | who: US consul Townsend Harris; chief minister Ii Naosuke | where: Edo
+  bluf: The 'unequal treaties' gave Western powers extraterritorial rights and control of Japan's tariffs, and were signed without the emperor's approval. Outrage turned anti-foreign anger against the shogunate and made revising the treaties the central goal of Meiji Japan.
+  now: Undoing these treaties became the central goal of Meiji foreign policy.
+  story: Under pressure, Ii Naosuke signed the Harris Treaty without the emperor's approval. Britain, France, Russia and the Netherlands quickly got the same terms: more open ports, extraterritoriality (foreigners tried in their own courts), and low fixed tariffs.
+  why: Harris warned that Britain and France, fresh from beating China again, would impose worse terms by force.
+  then: Opponents rallied around the emperor; Ii launched the Ansei Purge against them.
+## as186034 | 1860 | Summer Palace burned | who: British and French troops | where: Beijing
+  bluf: The burning of the Summer Palace by British and French troops became the defining symbol of Western humiliation of China. It forced the Qing to accept the Convention of Peking, which legalized opium and opened China further.
+  now: The burning of the palace at the end of the Second Opium War forced the Qing to open Beijing to foreign legations and the interior to trade and missionaries; it is the act China's government cites as the start of its century of humiliation.
+  story: During the Second Opium War, British and French troops reached Beijing in October 1860. After Qing officials tortured and killed members of an Allied negotiating party, the British commander Lord Elgin ordered the vast Yuanmingyuan palace gardens looted and burned.
+  why: Revenge for the torture and killing of envoys, and pressure on the emperor to accept Allied terms.
+  then: China was forced to legalize opium, open more ports and cede Kowloon to Britain, while Russia used the moment to take China's Pacific coast north of Korea.
+  fact: The ruins are a national memorial; China asks for the looted treasures back.
+## jp-sakurada | 1860 | Chief minister assassinated in the snow | who: Ii Naosuke; samurai from Mito domain | where: Sakurada Gate, Edo Castle
+  bluf: The assassination of the shogun's chief minister showed that the shogunate could no longer protect its own leaders or control samurai anger over the treaties. It began a cycle of political violence that ended in the shogunate's fall.
+  now: It is a turning point: the regime's authority visibly cracked, and assassination became a recurring feature of Japanese politics into the 1930s.
+  story: Ii Naosuke had signed the unequal treaties and purged his critics in the Ansei Purge. On a snowy morning, 18 samurai ambushed his procession at the Sakurada Gate and cut off his head.
+  why: Rage at the treaties and the purge, and a belief that the shogun had betrayed the emperor.
+  then: Attacks on foreigners and officials multiplied, and the shogunate's authority visibly crumbled.
+## jp-kagoshima | 1863 | Britain bombards Kagoshima | who: Royal Navy; Satsuma domain | where: Kagoshima
+  bluf: The British bombardment of Kagoshima convinced Satsuma, one of Japan's most anti-foreign domains, that it had to learn from the West rather than fight it. Satsuma and Chōshū went on to lead Meiji modernization.
+  now: Defeat taught Japan's most anti-foreign domains that they had to modernize, not 'expel the barbarians'.
+  story: In 1862 Satsuma samurai killed a British merchant, Charles Richardson, who failed to give way to their lord's procession (the Namamugi Incident). Britain demanded compensation and, when Satsuma refused, bombarded Kagoshima and burned much of the town.
+  why: Britain demanded punishment for Richardson's killing.
+  then: Chōshū learned the same lesson when Western fleets bombarded Shimonoseki in 1863–64.
+## jp-satcho | 1866 | Satsuma and Chōshū unite against the shogun | who: Saigō Takamori (Satsuma), Kido Takayoshi (Chōshū), go-between Sakamoto Ryōma | where: Kyoto
+  bluf: The secret alliance of Satsuma and Chōshū united Japan's two most powerful anti-shogunate domains and made the shogun's overthrow possible. Their leaders went on to run the Meiji government.
+  now: Sakamoto Ryōma, who brokered the alliance, is one of Japan's most popular heroes, a symbol of pragmatic coalition-building for national goals.
+  story: Satsuma and Chōshū had been enemies. Sakamoto Ryōma, a former samurai from Tosa, brokered a secret alliance: Satsuma would help Chōshū get Western weapons and resist the shogun's attacks.
+  why: Both had learned they needed modern weapons and a new government that could stand up to the West.
+  then: Chōshū beat the shogun's punitive expedition in 1866, showing the shogunate's weakness.
+## jp-taisei | 1867 | Last shogun hands power to the emperor | who: Tokugawa Yoshinobu; Emperor Meiji (aged 15) | where: Nijō Castle, Kyoto
+  bluf: The last shogun's return of power to the emperor ended nearly 700 years of rule by military shoguns. Yoshinobu hoped to keep influence in a new council, but his rivals moved to shut the Tokugawa out entirely.
+  now: It ended nearly 700 years of rule by military shoguns and returned formal power to the emperor, the foundation on which the modern Japanese state was built.
+  story: Under pressure from the Satsuma-Chōshū alliance, Yoshinobu formally returned governing authority to the emperor, expecting to lead a council of lords.
+  why: He hoped to avoid civil war and keep the Tokugawa family on top.
+  then: The Satsuma-Chōshū coup of January 3, 1868 proclaimed 'imperial restoration'.
+## as186835 | 1868 | Meiji Restoration | who: Emperor Meiji; reformist samurai | where: Japan
+  bluf: The Meiji Restoration overthrew the shogunate and launched one of history's fastest state-led modernizations. Within a generation Japan became the first non-Western industrial and imperial power, proof that Western dominance could be matched, and the start of a path that led to an aggressive empire.
+  now: Japan became the first non-Western industrial nation, and its state-led development became a model for East Asia's later 'tiger' economies.
+  story: In January 1868 reformist samurai from Satsuma and Chōshū seized the palace in Kyoto and proclaimed the restoration of direct rule by the 15-year-old Emperor Meiji. Over the following decades the new government abolished the feudal domains and the samurai class, built railways, factories and a conscript army, introduced universal schooling, and in 1889 adopted a constitution modelled on Prussia's.
+  why: Fear of being colonized like China, the shogunate's humiliation by the unequal treaties, and ambitious samurai from outer domains who had learned that Western technology was the key to power.
+  then: Japan revised the unequal treaties by 1911, defeated China (1895) and Russia (1905), and annexed Taiwan and Korea. Modernization concentrated power in a small oligarchy and a military answerable only to the emperor, a structure militarists later exploited.
+  fact: In about 40 years Japan went from samurai with swords to a navy that sank Russia's fleet.
+## jp-boshin | 1868 | Boshin War | who: Imperial forces (Satsuma, Chōshū) vs. Tokugawa loyalists | where: Kyoto to Hokkaido
+  bluf: The Boshin War decided that Japan would be ruled by the new imperial government rather than the Tokugawa. It was short and limited, which let the Meiji state consolidate quickly.
+  now: The war destroyed the shogunate and the domains that fought for it, and put the Meiji government in sole control of Japan, which let it abolish the samurai order within a decade.
+  story: Tokugawa forces clashed with imperial troops at Toba-Fushimi near Kyoto and lost. Edo surrendered peacefully, but northern domains fought on, and loyalists made a last stand in Hokkaido in 1869.
+  why: The Tokugawa refused to be shut out of the new government entirely, and northern domains feared the dominance of Satsuma and Chōshū.
+  then: The capital moved to Edo, renamed Tokyo ('eastern capital'), and the new government abolished the domains in 1871.
+  fact: Aizu's defeat is still remembered in Fukushima, where the losers keep their own version of the war.
+## jp-charter | 1868 | Charter Oath | who: Emperor Meiji (written by reformers) | where: Kyoto
+  bluf: The Charter Oath set out the Meiji government's reform principles, including seeking knowledge worldwide and breaking with 'evil customs of the past'. It legitimized sweeping change in the emperor's name.
+  now: After WWII, Emperor Hirohito cited the Charter Oath to argue democracy had Japanese roots.
+  story: The emperor swore five principles: deliberative assemblies, unity of all classes, freedom to pursue careers, abandoning 'evil customs of the past', and seeking knowledge worldwide.
+  why: The new regime, installed by a coup and still fighting the Tokugawa, needed to win over the domains and show that it would rule by consensus and reform.
+  then: The government began dismantling the feudal order: the domains were abolished in 1871, and class restrictions on jobs and marriage were lifted.
+## jp-iwakura | 1871 | Iwakura Mission tours the West | who: Iwakura Tomomi, Ōkubo Toshimichi, Itō Hirobumi and about 100 others | where: San Francisco, Washington, London, Berlin and more
+  bluf: The Iwakura Mission sent half of Japan's leadership abroad to study Western states, and convinced them to put domestic modernization ahead of foreign adventures. It was a systematic effort to learn from rivals.
+  now: It is a model of a country systematically studying others to modernize, an approach later echoed by South Korea, Singapore and China.
+  story: The mission hoped to renegotiate the unequal treaties. Western powers refused, so the delegates studied factories, schools, parliaments and armies instead.
+  why: Japan's leaders wanted to renegotiate the unequal treaties and to understand the West well enough to catch up with it.
+  then: Returning members blocked a plan to invade Korea, splitting the government.
+## jp-prefectures | 1871 | Feudal domains abolished | who: Meiji government (Ōkubo Toshimichi, Kido Takayoshi, Saigō Takamori) | where: Tokyo
+  bluf: Abolishing the feudal domains centralized power in Tokyo and ended rule by hereditary lords in a single decree. It was the decisive step in turning Japan into a modern nation-state.
+  now: It is one of the fastest dismantlings of feudalism anywhere, and Japan's centralized, prefecture-based state still follows its design.
+  story: Feudal lords had already returned their lands to the emperor in 1869. In 1871 the domains were abolished entirely, and lords were pensioned off to Tokyo. Governors appointed from Tokyo took over.
+  why: A modern state needed central control of taxes, armies and law, and many domains were deep in debt; leaders from Satsuma, Chōshū and Tosa backed abolition with troops.
+  then: Conscription and a national land tax (both 1873) and the end of samurai privileges followed, concentrating power in Tokyo.
+## jp-railway | 1872 | Japan's first railway opens | who: Meiji government; British engineer Edmund Morel | where: Shimbashi (Tokyo) to Yokohama
+  bluf: Japan's first railway, built with British engineers and loans, signalled its commitment to Western technology. Within decades Japan had a national rail network that knit its economy together.
+  now: Japan's rail network, from the shinkansen to dense commuter lines, is among the world's best, rooted in this early state commitment.
+  story: Japan's first railway opened in October 1872, running 29 km (18 miles) between Shimbashi in Tokyo and Yokohama, the main port for foreign trade. It was built with a British loan under British engineer Edmund Morel, and the Meiji Emperor rode it on opening day. Some officials had opposed borrowing abroad, fearing that foreign debt would bring foreign control.
+  why: Railways were the symbol and engine of Western power, and Meiji leaders saw them as essential to unify the country and move goods and troops.
+  then: Railways, telegraphs and factories spread fast, built by the state and later sold to private firms close to the government.
+## jp-conscription | 1873 | Conscription replaces the samurai | who: Yamagata Aritomo | where: Tokyo
+  bluf: Conscription replaced the samurai with a national army of commoners, ending a centuries-old warrior privilege. The Imperial Army it created became a pillar of the Meiji state, and later the driving force of Japanese militarism.
+  now: The Imperial Army it created dominated Japan until 1945, one reason post-war Japan's constitution renounced war.
+  story: Inspired by Prussia, Yamagata introduced universal military service for men. Samurai lost their stipends in 1876 and the right to wear swords.
+  why: A modern army needed mass conscripts rather than a hereditary warrior class, and Yamagata Aritomo saw national service as a way to build loyalty to the emperor.
+  then: Angry samurai, and peasants who resented the 'blood tax', rose in revolts that culminated in the Satsuma Rebellion.
+## jp-seikanron | 1873 | The 'invade Korea' debate splits the government | who: Saigō Takamori vs. Ōkubo Toshimichi | where: Tokyo
+  bluf: The 1873 debate over invading Korea split Japan's leaders between those who wanted immediate expansion and those who insisted on reform first. The reformers won, but Korea remained a target of Japanese ambition.
+  now: It shows that Korea was in Japan's sights from the start of the Meiji era; the debate was over timing, not the goal.
+  story: Korea refused to recognize the new Meiji government. Saigō wanted to go as an envoy and provoke a war that would give unemployed samurai a purpose. Returning Iwakura Mission leaders said Japan must reform first.
+  why: Korea refused to recognize the new Meiji government, and samurai who had lost their privileges were looking for a cause.
+  then: Saigō and his allies left the government, and Saigō later led the Satsuma Rebellion; Japan forced Korea open by gunboat diplomacy instead, in 1876.
+## as187636 | 1876 | Japan forces Korea open | who: Japan's Meiji government; Korea's Joseon court | where: Korea
+  bluf: Japan used Western-style gunboat diplomacy to force Korea open, imposing the same kind of unequal treaty it had itself suffered. It began Japan's contest with China and Russia for control of Korea, which ended in annexation in 1910.
+  now: It opened Korea on unequal terms, beginning the Japanese pressure that ended in annexation in 1910 and the grievances that still shape Korea-Japan relations.
+  story: In 1875 the Japanese warship Un'yō provoked a clash with Korean forts on Ganghwa Island. Early the next year Japan sent warships and forced Korea to sign the Treaty of Ganghwa, opening three ports and giving Japanese residents extraterritorial rights.
+  why: Meiji Japan copied Western gunboat diplomacy to win influence in Korea, which China claimed as a tributary.
+  then: Japan competed with China and Russia for control of Korea and fought both of them, in 1894-95 and 1904-05.
+## jp-satsuma | 1877 | Satsuma Rebellion: the last samurai | who: Saigō Takamori vs. the Imperial Army | where: Kyushu
+  bluf: The Satsuma Rebellion was the samurai class's last armed resistance to the Meiji reforms, and its defeat by a conscript army ended the samurai as a political force. Opposition moved into the movement for a constitution and parliament.
+  now: Saigō remains a beloved tragic hero, and the rebellion's memory shapes Japanese ideas of loyalty and sacrifice.
+  story: Samurai in Satsuma, furious at losing their stipends and swords, rose under Saigō. The government's conscript army, with modern rifles and artillery, besieged them for months. Saigō died at Shiroyama in September 1877.
+  why: Samurai resented reforms that took away their stipends, swords and status, and Saigō had left the government after losing the 1873 debate over Korea.
+  then: Opposition turned to politics: a movement for a constitution and parliament.
+## jp-constitution | 1889 | Meiji Constitution | who: Itō Hirobumi; Emperor Meiji | where: Tokyo
+  bluf: The Meiji Constitution made Japan Asia's first constitutional state, with a parliament but a strong emperor. Its key flaw, a military answerable only to the emperor rather than the cabinet, let militarists take control in the 1930s.
+  now: Its weakness, the army answering only to the emperor, helped militarists take over in the 1930s.
+  story: After studying constitutions in Europe, Itō chose Prussia's model, with a strong emperor and limited parliament. The constitution was a 'gift' from the emperor; the Diet first met in 1890.
+  why: To show the West Japan was 'civilized' enough to end the unequal treaties, and to answer demands for a parliament.
+  then: Western powers began agreeing to revise the unequal treaties, starting with Britain in 1894, and the elected Diet slowly gained influence through its power over budgets.

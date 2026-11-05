@@ -1,0 +1,1629 @@
+[
+ {
+  "from": 1400,
+  "to": 2026,
+  "country": "San Marino",
+  "regions": [
+   "*"
+  ],
+  "owner": "Republic of San Marino",
+  "why": "San Marino was an independent republic throughout; map shows it as Papal States, Napoleonic Italian Republic, Sardinia and Italy (only brief occupations 1503, 1739-40, 1944)",
+  "source": "https://en.wikipedia.org/wiki/History_of_San_Marino",
+  "severity": "major"
+ },
+ {
+  "from": 1929,
+  "to": 2026,
+  "country": "Vatican",
+  "regions": [
+   "*"
+  ],
+  "owner": "Vatican City",
+  "why": "Vatican City State created by the Lateran Treaty (1929); map shows it as Italy to the present",
+  "source": "https://en.wikipedia.org/wiki/Lateran_Treaty",
+  "severity": "major"
+ },
+ {
+  "from": 1809,
+  "to": 1814,
+  "country": "Vatican",
+  "regions": [
+   "*"
+  ],
+  "owner": "First French Empire",
+  "why": "Rome and remaining papal lands annexed to the French Empire 17 May 1809 until 1814 (map shows Papal States in 1810 while Roma is French)",
+  "source": "https://en.wikipedia.org/wiki/Papal_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1812,
+  "country": "Andorra",
+  "regions": [
+   "*"
+  ],
+  "owner": "Principality of Andorra",
+  "why": "Andorra has been a co-principality (Count of Foix / Bishop of Urgell) since the 1278 paréage, not part of the County of Urgell",
+  "source": "https://en.wikipedia.org/wiki/History_of_Andorra",
+  "severity": "major"
+ },
+ {
+  "from": 1814,
+  "to": 2026,
+  "country": "Andorra",
+  "regions": [
+   "*"
+  ],
+  "owner": "Principality of Andorra",
+  "why": "Andorra's independence restored 1814 after the 1812-13 French annexation; map wrongly shows it as France from 1890 to the present",
+  "source": "https://en.wikipedia.org/wiki/History_of_Andorra",
+  "severity": "major"
+ },
+ {
+  "from": 1530,
+  "to": 1798,
+  "country": "Malta",
+  "regions": [
+   "Xagħra–Żebbuġ–San Lawrenz–Għasri–Għarb–Munxar–Victoria"
+  ],
+  "owner": "Order of Saint John",
+  "overlord": "Kingdom of Sicily",
+  "why": "Gozo was granted with Malta to the Knights Hospitaller in 1530 and ruled by them until 1798; map shows Gozo as Spain/Iberian Union/Naples",
+  "source": "https://en.wikipedia.org/wiki/Hospitaller_Malta",
+  "severity": "major"
+ },
+ {
+  "from": 1798,
+  "to": 1800,
+  "country": "Malta",
+  "regions": [
+   "*"
+  ],
+  "owner": "French First Republic",
+  "why": "French occupation of Malta and Gozo 1798-1800",
+  "source": "https://en.wikipedia.org/wiki/Hospitaller_Malta",
+  "severity": "minor"
+ },
+ {
+  "from": 1800,
+  "to": 1964,
+  "country": "Malta",
+  "regions": [
+   "*"
+  ],
+  "owner": "Malta",
+  "overlord": "United Kingdom",
+  "why": "British protectorate from 1800 and Crown Colony from 1813 until independence in 1964; map labels it 'Kingdom of Great Britain' (which ended 1801) until 1890",
+  "source": "https://en.wikipedia.org/wiki/Crown_Colony_of_Malta",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1516,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Trapani"
+  ],
+  "owner": "Crown of Aragon",
+  "why": "Lampedusa (Agrigento) and Pantelleria (Trapani) were dependencies of the Kingdom of Sicily, not Hafsid/Ottoman/Tunisian; map shows them (and part of mainland Trapani) as Hafsid, Ottoman, Beylik of Tunis",
+  "source": "https://en.wikipedia.org/wiki/Pantelleria",
+  "severity": "major"
+ },
+ {
+  "from": 1516,
+  "to": 1580,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Trapani"
+  ],
+  "owner": "Kingdom of Spain",
+  "overlord": "Spanish Empire",
+  "why": "Sicily (incl. Lampedusa, Pantelleria) under the Spanish crown",
+  "source": "https://en.wikipedia.org/wiki/Lampedusa",
+  "severity": "major"
+ },
+ {
+  "from": 1580,
+  "to": 1640,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Trapani"
+  ],
+  "owner": "Iberian Union",
+  "overlord": "Spanish Empire",
+  "why": "Sicily under the Spanish crown (map's Iberian Union label for Spanish lands 1580-1640)",
+  "source": "https://en.wikipedia.org/wiki/Lampedusa",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1713,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Trapani"
+  ],
+  "owner": "Kingdom of Spain",
+  "overlord": "Spanish Empire",
+  "why": "Sicily under the Spanish crown until Utrecht 1713; Lampedusa granted to the Tomasi of Palermo by Charles II in 1667",
+  "source": "https://en.wikipedia.org/wiki/Lampedusa",
+  "severity": "major"
+ },
+ {
+  "from": 1816,
+  "to": 1860,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Trapani"
+  ],
+  "owner": "Kingdom of the Two Sicilies",
+  "why": "Part of the Two Sicilies from 1816 (Lampedusa formally annexed by Naples in 1843); map shows Beylik of Tunis / British for these islands",
+  "source": "https://en.wikipedia.org/wiki/Lampedusa",
+  "severity": "major"
+ },
+ {
+  "from": 1860,
+  "to": 1861,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Trapani"
+  ],
+  "owner": "Kingdom of Sardinia",
+  "why": "Annexed with Sicily in 1860",
+  "source": "https://en.wikipedia.org/wiki/Lampedusa",
+  "severity": "minor"
+ },
+ {
+  "from": 1861,
+  "to": 1890,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Trapani"
+  ],
+  "owner": "Kingdom of Italy",
+  "why": "Lampedusa and Pantelleria part of the Kingdom of Italy from 1861; map shows them British/Tunisian",
+  "source": "https://en.wikipedia.org/wiki/Lampedusa",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Trapani"
+  ],
+  "owner": "Italy/Sardinia",
+  "why": "Lampedusa (Agrigento) and Pantelleria (Trapani) are Italian; map shows them as Malta (1890-2025) and Tunisia (1890-2025)",
+  "source": "https://en.wikipedia.org/wiki/Lampedusa",
+  "severity": "major"
+ },
+ {
+  "from": 1713,
+  "to": 1720,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Caltanissetta",
+   "Catania",
+   "Enna",
+   "Messina",
+   "Palermo",
+   "Trapani"
+  ],
+  "owner": "Kingdom of Sicily",
+  "overlord": "House of Savoy",
+  "why": "Sicily ruled by Victor Amadeus II of Savoy 1713-1720; map keeps it Spanish",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily",
+  "severity": "major"
+ },
+ {
+  "from": 1720,
+  "to": 1735,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Caltanissetta",
+   "Catania",
+   "Enna",
+   "Messina",
+   "Palermo",
+   "Trapani"
+  ],
+  "owner": "Kingdom of Sicily",
+  "overlord": "Habsburg Monarchy",
+  "why": "Austrian Habsburg rule of Sicily 1720-1735; map shows only Palermo Habsburg and the rest of Sicily as Spain until 1770",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily",
+  "severity": "major"
+ },
+ {
+  "from": 1735,
+  "to": 1816,
+  "country": "Italy",
+  "regions": [
+   "Agrigento",
+   "Caltanissetta",
+   "Catania",
+   "Enna",
+   "Messina",
+   "Palermo",
+   "Trapani"
+  ],
+  "owner": "Kingdom of Sicily",
+  "why": "Bourbon Kingdom of Sicily 1735-1816; it was never under Napoleonic control (British-protected 1806-14), but map shows most of Sicily as Spain to 1770 and as Napoleonic Naples in 1810",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sicily",
+  "severity": "major"
+ },
+ {
+  "from": 1707,
+  "to": 1735,
+  "country": "Italy",
+  "regions": [
+   "Avellino",
+   "Bari",
+   "Benevento",
+   "Campobasso",
+   "Caserta",
+   "Catanzaro",
+   "Chieti",
+   "Cosenza",
+   "Foggia",
+   "L'Aquila",
+   "Latina",
+   "Lecce",
+   "Matera",
+   "Potenza",
+   "Reggio Calabria",
+   "Salerno",
+   "Taranto"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Austrian viceroyalty of Naples 1707-1734 (confirmed at Rastatt 1714); map shows Spain in 1710",
+  "source": "https://rime.cnr.it/index.php/rime/article/view/175",
+  "severity": "minor"
+ },
+ {
+  "from": 1735,
+  "to": 1806,
+  "country": "Italy",
+  "regions": [
+   "Avellino",
+   "Bari",
+   "Benevento",
+   "Campobasso",
+   "Caserta",
+   "Catanzaro",
+   "Chieti",
+   "Cosenza",
+   "Foggia",
+   "L'Aquila",
+   "Latina",
+   "Lecce",
+   "Matera",
+   "Potenza",
+   "Reggio Calabria",
+   "Salerno",
+   "Taranto"
+  ],
+  "owner": "Kingdom of Naples",
+  "why": "Independent Bourbon Kingdom of Naples from 1735 (Charles of Bourbon, then Ferdinand IV); map shows it as part of Spain/Spanish Empire 1740-1770",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Naples",
+  "severity": "major"
+ },
+ {
+  "from": 1708,
+  "to": 1717,
+  "country": "Italy",
+  "regions": [
+   "Cagliari",
+   "Medio Campidano",
+   "Nuoro",
+   "Olbia-Tempio",
+   "Oristrano",
+   "Sassari"
+  ],
+  "owner": "Kingdom of Sardinia",
+  "overlord": "Habsburg Monarchy",
+  "why": "Austrian Habsburg occupation of Sardinia 1708-1717 (map shows only Cagliari/Oristano)",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia",
+  "severity": "minor"
+ },
+ {
+  "from": 1717,
+  "to": 1720,
+  "country": "Italy",
+  "regions": [
+   "Cagliari",
+   "Medio Campidano",
+   "Nuoro",
+   "Olbia-Tempio",
+   "Oristrano",
+   "Sassari"
+  ],
+  "owner": "Kingdom of Spain",
+  "overlord": "Spanish Empire",
+  "why": "Spanish reconquest of Sardinia 1717-1720",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia",
+  "severity": "minor"
+ },
+ {
+  "from": 1720,
+  "to": 1730,
+  "country": "Italy",
+  "regions": [
+   "Cagliari",
+   "Medio Campidano",
+   "Nuoro",
+   "Olbia-Tempio",
+   "Oristrano",
+   "Sassari"
+  ],
+  "owner": "Kingdom of Sardinia",
+  "why": "Sardinia ceded to Savoy by the Treaty of The Hague 1720; map keeps northern/central Sardinia Spanish until 1730",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sardinia",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1598,
+  "country": "Italy",
+  "regions": [
+   "Ferrara"
+  ],
+  "owner": "Este dominions (Ferrara, Modena and Reggio)",
+  "overlord": "Papal States",
+  "why": "Ferrara was ruled by the Este (as a papal fief) until devolution to the Papal States in 1597/98; map shows direct Papal rule from 1400",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Italy",
+  "regions": [
+   "Modena"
+  ],
+  "owner": "Este dominions (Ferrara, Modena and Reggio)",
+  "why": "Modena was an Este possession from the late 1200s to 1796; map shows it as the Duchy of Mirandola 1400-1600",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara",
+  "severity": "major"
+ },
+ {
+  "from": 1409,
+  "to": 1600,
+  "country": "Italy",
+  "regions": [
+   "Reggio Emilia"
+  ],
+  "owner": "Este dominions (Ferrara, Modena and Reggio)",
+  "why": "Reggio was held by the Este from 1409 to 1796; map shows Duchy of Guastalla (1410-1550) then Parma (1550-1600)",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Ferrara",
+  "severity": "major"
+ },
+ {
+  "from": 1405,
+  "to": 1490,
+  "country": "Italy",
+  "regions": [
+   "Padova"
+  ],
+  "owner": "Republic of Venice",
+  "why": "Padua passed from the Carrara to Venice in 1405 and stayed Venetian to 1797; map shows it as Este dominions until 1490",
+  "source": "https://en.wikipedia.org/wiki/Padua",
+  "severity": "major"
+ },
+ {
+  "from": 1410,
+  "to": 1470,
+  "country": "Italy",
+  "regions": [
+   "Mantova"
+  ],
+  "owner": "Duchy of Mantua",
+  "why": "The Gonzaga ruled Mantua continuously 1328-1708 (marquisate from 1433); map shows it as Milan/Ambrosian Republic 1410-1470",
+  "source": "https://en.wikipedia.org/wiki/House_of_Gonzaga",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1506,
+  "country": "Italy",
+  "regions": [
+   "Bologna"
+  ],
+  "owner": "Papal States",
+  "why": "Bologna was ruled by the Bentivoglio under nominal papal sovereignty (briefly Milanese 1402-03) until Julius II took it in 1506; it was never Florentine, but map shows Republic of Florence 1400-1510",
+  "source": "https://en.wikipedia.org/wiki/Bentivoglio_family",
+  "severity": "major"
+ },
+ {
+  "from": 1405,
+  "to": 1421,
+  "country": "Italy",
+  "regions": [
+   "Livorno"
+  ],
+  "owner": "Republic of Genoa",
+  "why": "Livorno was Genoese 1405-1421",
+  "source": "https://en.wikipedia.org/wiki/Livorno",
+  "severity": "minor"
+ },
+ {
+  "from": 1421,
+  "to": 1490,
+  "country": "Italy",
+  "regions": [
+   "Livorno"
+  ],
+  "owner": "Republic of Florence",
+  "overlord": "Holy Roman Empire",
+  "why": "Florence bought Livorno in 1421; map shows Crown of Aragon 1430-1450 and Genoa 1450-1490",
+  "source": "https://en.wikipedia.org/wiki/Livorno",
+  "severity": "major"
+ },
+ {
+  "from": 1521,
+  "to": 1545,
+  "country": "Italy",
+  "regions": [
+   "Parma",
+   "Piacenza"
+  ],
+  "owner": "Papal States",
+  "why": "Parma and Piacenza were papal 1512-1545 (except French 1515-21) until the Farnese duchy was created; map shows Este dominions (Parma), 'no polity' and Spain (Piacenza)",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Parma_and_Piacenza",
+  "severity": "major"
+ },
+ {
+  "from": 1736,
+  "to": 1748,
+  "country": "Italy",
+  "regions": [
+   "Parma",
+   "Piacenza"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Habsburg rule of Parma and Piacenza from the Treaty of Vienna until Aix-la-Chapelle 1748",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Parma_and_Piacenza",
+  "severity": "minor"
+ },
+ {
+  "from": 1748,
+  "to": 1802,
+  "country": "Italy",
+  "regions": [
+   "Parma",
+   "Piacenza"
+  ],
+  "owner": "Duchy of Parma",
+  "why": "Bourbon-Parma duchy 1748-1802 included Piacenza; map shows Piacenza as Spain 1740-1810",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Parma_and_Piacenza",
+  "severity": "major"
+ },
+ {
+  "from": 1528,
+  "to": 1797,
+  "country": "Italy",
+  "regions": [
+   "Savona"
+  ],
+  "owner": "Republic of Genoa",
+  "why": "Savona was definitively Genoese from 1528 until the Napoleonic era and passed to Sardinia only in 1815; map flips it between Genoa and Savoy every decade 1570-1730 and shows Sardinia from 1730",
+  "source": "https://en.wikipedia.org/wiki/Savona",
+  "severity": "major"
+ },
+ {
+  "from": 1797,
+  "to": 1805,
+  "country": "Italy",
+  "regions": [
+   "Savona"
+  ],
+  "owner": "Ligurian Republic",
+  "why": "Part of the Ligurian Republic",
+  "source": "https://en.wikipedia.org/wiki/Savona",
+  "severity": "minor"
+ },
+ {
+  "from": 1805,
+  "to": 1815,
+  "country": "Italy",
+  "regions": [
+   "Savona"
+  ],
+  "owner": "First French Empire",
+  "why": "Liguria annexed to the French Empire 1805-1814; Savona to Sardinia 1815",
+  "source": "https://en.wikipedia.org/wiki/Savona",
+  "severity": "minor"
+ },
+ {
+  "from": 1680,
+  "to": 1803,
+  "country": "Italy",
+  "regions": [
+   "Trento"
+  ],
+  "owner": "Prince-Bishopric of Trent",
+  "overlord": "County of Tyrol (advocacy)",
+  "why": "The Prince-Bishopric of Trent existed until secularisation in 1803; map shows Habsburg Monarchy from 1680",
+  "source": "https://en.wikipedia.org/wiki/Prince-Bishopric_of_Trent",
+  "severity": "major"
+ },
+ {
+  "from": 1443,
+  "to": 1631,
+  "country": "Italy",
+  "regions": [
+   "Pesaro e Urbino"
+  ],
+  "owner": "Duchy of Urbino",
+  "overlord": "Papal States",
+  "why": "Duchy of Urbino (Montefeltro, then della Rovere; Pesaro capital from 1523) existed 1443-1631 before devolving to the Papal States; map shows direct Papal rule",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Urbino",
+  "severity": "major"
+ },
+ {
+  "from": 1512,
+  "to": 1797,
+  "country": "Italy",
+  "regions": [
+   "Sondrio"
+  ],
+  "owner": "Three Leagues",
+  "why": "Valtellina belonged to the Three Leagues (Grisons), not the Swiss Confederation, through the 16th-18th centuries until 1797",
+  "source": "https://en.wikipedia.org/wiki/Valtellina",
+  "severity": "minor"
+ },
+ {
+  "from": 1416,
+  "to": 1530,
+  "country": "Italy",
+  "regions": [
+   "Aoste",
+   "Cuneo",
+   "Turin",
+   "Vercelli"
+  ],
+  "owner": "House of Savoy",
+  "why": "Savoy was raised to a duchy in 1416; map keeps 'County of Savoy' until 1560",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Savoy",
+  "severity": "minor"
+ },
+ {
+  "from": 1737,
+  "to": 1801,
+  "country": "Italy",
+  "regions": [
+   "Arezzo",
+   "Grosseto",
+   "Livorno",
+   "Pisa",
+   "Siena"
+  ],
+  "owner": "Grand Duchy of Tuscany",
+  "why": "Under Habsburg-Lorraine Tuscany remained a separate Grand Duchy; map splits it, showing these provinces as Habsburg Monarchy while Firenze stays Grand Duchy",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany",
+  "severity": "minor"
+ },
+ {
+  "from": 1801,
+  "to": 1807,
+  "country": "Italy",
+  "regions": [
+   "Arezzo",
+   "Grosseto",
+   "Livorno",
+   "Pisa",
+   "Siena",
+   "Firenze"
+  ],
+  "owner": "Kingdom of Etruria",
+  "why": "Tuscany was the Kingdom of Etruria 1801-1807 before French annexation",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany",
+  "severity": "minor"
+ },
+ {
+  "from": 1814,
+  "to": 1860,
+  "country": "Italy",
+  "regions": [
+   "Arezzo",
+   "Grosseto",
+   "Livorno",
+   "Pisa",
+   "Siena"
+  ],
+  "owner": "Grand Duchy of Tuscany",
+  "why": "Grand Duchy restored 1814 as a separate state until annexation by Sardinia in 1860; map shows these provinces as Austrian Empire 1820-1860",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany",
+  "severity": "major"
+ },
+ {
+  "from": 1815,
+  "to": 1847,
+  "country": "Italy",
+  "regions": [
+   "Lucca"
+  ],
+  "owner": "Duchy of Lucca",
+  "why": "Congress of Vienna created the Duchy of Lucca (1815-1847); map shows Austrian Empire",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Lucca",
+  "severity": "major"
+ },
+ {
+  "from": 1847,
+  "to": 1860,
+  "country": "Italy",
+  "regions": [
+   "Lucca"
+  ],
+  "owner": "Grand Duchy of Tuscany",
+  "why": "Lucca merged into Tuscany in December 1847",
+  "source": "https://en.wikipedia.org/wiki/Duchy_of_Lucca",
+  "severity": "major"
+ },
+ {
+  "from": 1815,
+  "to": 1860,
+  "country": "Italy",
+  "regions": [
+   "Forlì-Cesena"
+  ],
+  "owner": "Papal States",
+  "why": "The Romagna legations were restored to the Pope in 1815 and lost in 1859/60; map shows Austrian Empire",
+  "source": "https://en.wikipedia.org/wiki/Papal_States",
+  "severity": "major"
+ },
+ {
+  "from": 1860,
+  "to": 1861,
+  "country": "Italy",
+  "regions": [
+   "Livorno"
+  ],
+  "owner": "Kingdom of Sardinia",
+  "why": "Tuscany (incl. Elba/Capraia) annexed by Sardinia 1860",
+  "source": "https://en.wikipedia.org/wiki/Grand_Duchy_of_Tuscany",
+  "severity": "minor"
+ },
+ {
+  "from": 1861,
+  "to": 1890,
+  "country": "Italy",
+  "regions": [
+   "Livorno"
+  ],
+  "owner": "Kingdom of Italy",
+  "why": "Part of the Kingdom of Italy; map shows part of Livorno province as French Second Empire/Third Republic",
+  "source": "https://en.wikipedia.org/wiki/Livorno",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "Italy",
+  "regions": [
+   "Livorno"
+  ],
+  "owner": "Italy/Sardinia",
+  "why": "Livorno province (incl. its islands) is Italian; map shows part of it as France from 1820 to the present",
+  "source": "https://en.wikipedia.org/wiki/Livorno",
+  "severity": "major"
+ },
+ {
+  "from": 1805,
+  "to": 1814,
+  "country": "Italy",
+  "regions": [
+   "Bergamo",
+   "Brescia",
+   "Mantova",
+   "Sondrio",
+   "Varese–Lecco",
+   "Milano",
+   "Bologna",
+   "Ferrara",
+   "Modena",
+   "Reggio Emilia",
+   "Forlì-Cesena",
+   "Verbano-Cusio-Ossola"
+  ],
+  "owner": "Kingdom of Italy (1805–1814)",
+  "overlord": "First French Empire",
+  "why": "The Italian Republic became the Napoleonic Kingdom of Italy in March 1805; map still shows 'Italian Republic' (and French Empire for Forlì-Cesena) in 1810",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Italy_(Napoleonic)",
+  "severity": "minor"
+ },
+ {
+  "from": 1806,
+  "to": 1814,
+  "country": "Italy",
+  "regions": [
+   "Padova",
+   "Treviso",
+   "Vicenza",
+   "Verona",
+   "Belluno",
+   "Udine",
+   "Pordenone"
+  ],
+  "owner": "Kingdom of Italy (1805–1814)",
+  "overlord": "First French Empire",
+  "why": "Venetia (incl. Friuli/Udine and Belluno) annexed to the Napoleonic Kingdom of Italy 1806-1814; map shows Udine as Austrian Empire and Belluno as Bavaria in 1810",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Italy_(Napoleonic)",
+  "severity": "major"
+ },
+ {
+  "from": 1808,
+  "to": 1814,
+  "country": "Italy",
+  "regions": [
+   "Macerata",
+   "Pesaro e Urbino"
+  ],
+  "owner": "Kingdom of Italy (1805–1814)",
+  "overlord": "First French Empire",
+  "why": "Marche annexed to the Napoleonic Kingdom of Italy on 2 April 1808; map shows Papal States",
+  "source": "https://en.wikipedia.org/wiki/Papal_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1810,
+  "to": 1814,
+  "country": "Italy",
+  "regions": [
+   "Trento"
+  ],
+  "owner": "Kingdom of Italy (1805–1814)",
+  "overlord": "First French Empire",
+  "why": "Trentino transferred from Bavaria to the Kingdom of Italy in 1810",
+  "source": "https://en.wikipedia.org/wiki/Prince-Bishopric_of_Trent",
+  "severity": "minor"
+ },
+ {
+  "from": 1809,
+  "to": 1814,
+  "country": "Italy",
+  "regions": [
+   "Frosinone",
+   "Rieti",
+   "Viterbo",
+   "Perugia"
+  ],
+  "owner": "First French Empire",
+  "why": "Remaining papal lands (Tibre and Trasimène departments) annexed to the French Empire 17 May 1809; map shows Papal States in 1810",
+  "source": "https://en.wikipedia.org/wiki/Papal_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1918,
+  "to": 1947,
+  "country": "Croatia",
+  "regions": [
+   "Istarska"
+  ],
+  "owner": "Italy/Sardinia",
+  "why": "Istria was occupied by Italy in 1918 and annexed under the Treaty of Rapallo (1920) until the 1947 Paris treaties; map shows it as Yugoslavia from 1920",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Rapallo_(1920)",
+  "severity": "major"
+ },
+ {
+  "from": 1918,
+  "to": 1947,
+  "country": "Slovenia",
+  "regions": [
+   "Bovec–Kobarid–Kanal",
+   "Tolmin–Ajdovščina–Logatec–Gorenja vas-Poljane–Dobrova-Polhov Gradec–Nova Goriška–Sežana–Idrija–Cerknica–Železniki–Cerkno–Vrhnika"
+  ],
+  "owner": "Italy/Sardinia",
+  "why": "The Slovene Littoral (Gorizia area, Tolmin, Idrija, Sežana) was Italian 1918/1920-1947; map shows Yugoslavia",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Rapallo_(1920)",
+  "severity": "major"
+ },
+ {
+  "from": 1440,
+  "to": 1458,
+  "country": "Croatia",
+  "regions": [
+   "Bjelovarsko-bilogorska",
+   "Brodsko-Posavska",
+   "Karlovacka",
+   "Koprivničko-Križevačka–Varaždinska",
+   "Licko-Senjska",
+   "Osjecko-Baranjska",
+   "Primorsko-Goranska",
+   "Sisacko-Moslavacka",
+   "Vukovarsko-Srijemska",
+   "Zagrebacka"
+  ],
+  "owner": "Kingdom of Hungary",
+  "why": "Under Ladislaus the Posthumous (regency of John Hunyadi) these lands remained the Kingdom of Hungary, not Habsburg/HRE lands; map shows 'House of Habsburg [under HRE]' in 1450",
+  "source": "https://en.wikipedia.org/wiki/Ladislaus_the_Posthumous",
+  "severity": "major"
+ },
+ {
+  "from": 1440,
+  "to": 1458,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Južno-Backi",
+   "Južno-Banatski",
+   "Severno-Banatski",
+   "Srednje-Banatski",
+   "Sremski",
+   "Zapadno-Backi"
+  ],
+  "owner": "Kingdom of Hungary",
+  "why": "Vojvodina was Hungarian under Ladislaus the Posthumous; map shows 'House of Habsburg [under HRE]' in 1450",
+  "source": "https://en.wikipedia.org/wiki/Ladislaus_the_Posthumous",
+  "severity": "major"
+ },
+ {
+  "from": 1440,
+  "to": 1458,
+  "country": "Bosnia and Herzegovina",
+  "regions": [
+   "Banja Luka",
+   "Una-Sana"
+  ],
+  "owner": "Kingdom of Hungary",
+  "why": "Hungarian (Croatian) lands, not Habsburg, in 1450",
+  "source": "https://en.wikipedia.org/wiki/Ladislaus_the_Posthumous",
+  "severity": "minor"
+ },
+ {
+  "from": 1527,
+  "to": 1560,
+  "country": "Croatia",
+  "regions": [
+   "Bjelovarsko-bilogorska",
+   "Karlovacka",
+   "Koprivničko-Križevačka–Varaždinska",
+   "Licko-Senjska",
+   "Primorsko-Goranska",
+   "Sisacko-Moslavacka",
+   "Zagrebacka"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Croatia elected Ferdinand I (Austrian Habsburg) king at Cetin on 1 January 1527; map assigns Habsburg Croatia to the Kingdom of Spain 1530-1560",
+  "source": "https://en.wikipedia.org/wiki/Election_in_Cetin",
+  "severity": "major"
+ },
+ {
+  "from": 1522,
+  "to": 1560,
+  "country": "Slovenia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "The Austrian hereditary lands (Carniola, Styria, Gorizia) passed to Ferdinand I in 1521/22, not to Spain; map shows Kingdom of Spain 1530-1560",
+  "source": "https://en.wikipedia.org/wiki/Election_in_Cetin",
+  "severity": "major"
+ },
+ {
+  "from": 1522,
+  "to": 1560,
+  "country": "Italy",
+  "regions": [
+   "Bozen"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Tyrol was an Austrian Habsburg land under Ferdinand I, not Spanish; map shows Kingdom of Spain 1530-1560",
+  "source": "https://en.wikipedia.org/wiki/Election_in_Cetin",
+  "severity": "minor"
+ },
+ {
+  "from": 1463,
+  "to": 1527,
+  "country": "Bosnia and Herzegovina",
+  "regions": [
+   "Banja Luka"
+  ],
+  "owner": "Kingdom of Hungary",
+  "why": "Hungarian Banate of Jajce (1463-1527) held north-west Bosnia; map shows Ottoman from 1470",
+  "source": "https://en.wikipedia.org/wiki/Jajce",
+  "severity": "minor"
+ },
+ {
+  "from": 1527,
+  "to": 1878,
+  "country": "Bosnia and Herzegovina",
+  "regions": [
+   "Banja Luka"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman after the fall of the Jajce banate (1527); map shows Kingdom of Spain in 1530",
+  "source": "https://en.wikipedia.org/wiki/Jajce",
+  "severity": "major"
+ },
+ {
+  "from": 1527,
+  "to": 1592,
+  "country": "Bosnia and Herzegovina",
+  "regions": [
+   "Una-Sana"
+  ],
+  "owner": "Habsburg Monarchy",
+  "why": "Bihać was a Habsburg (Croatian) stronghold until the Ottomans took it in 1592; map shows Kingdom of Spain 1530-1560",
+  "source": "https://en.wikipedia.org/wiki/Bihać",
+  "severity": "major"
+ },
+ {
+  "from": 1420,
+  "to": 1797,
+  "country": "Croatia",
+  "regions": [
+   "Šibensko-Kninska"
+  ],
+  "owner": "Republic of Venice",
+  "why": "Šibenik was Venetian continuously 1412/1420-1797; map flips the region back to Hungary in 1440",
+  "source": "https://en.wikipedia.org/wiki/Venetian_Dalmatia",
+  "severity": "major"
+ },
+ {
+  "from": 1409,
+  "to": 1527,
+  "country": "Croatia",
+  "regions": [
+   "Zadarska"
+  ],
+  "owner": "Republic of Venice",
+  "why": "Venice bought Zadar in 1409 and held it to 1797; map shows Hungary until 1530",
+  "source": "https://en.wikipedia.org/wiki/Zadar",
+  "severity": "major"
+ },
+ {
+  "from": 1699,
+  "to": 1797,
+  "country": "Croatia",
+  "regions": [
+   "Zadarska"
+  ],
+  "owner": "Republic of Venice",
+  "why": "Venetian Zadar and its hinterland (regained 1684-99); map shows Habsburg Monarchy 1700-1800",
+  "source": "https://en.wikipedia.org/wiki/Zadar",
+  "severity": "major"
+ },
+ {
+  "from": 1806,
+  "to": 1814,
+  "country": "Croatia",
+  "regions": [
+   "Zadarska"
+  ],
+  "owner": "First French Empire",
+  "why": "Zadar under the Napoleonic Kingdom of Italy (1806) then the Illyrian Provinces (1809-1813); map shows Austrian Empire in 1810",
+  "source": "https://en.wikipedia.org/wiki/Zadar",
+  "severity": "minor"
+ },
+ {
+  "from": 1809,
+  "to": 1814,
+  "country": "Croatia",
+  "regions": [
+   "Karlovacka",
+   "Licko-Senjska",
+   "Primorsko-Goranska"
+  ],
+  "owner": "First French Empire",
+  "why": "Croatian lands south-west of the Sava (Karlovac, Rijeka) were in the French Illyrian Provinces 1809-1814; map shows Austrian Empire",
+  "source": "https://en.wikipedia.org/wiki/Illyrian_Provinces",
+  "severity": "minor"
+ },
+ {
+  "from": 1809,
+  "to": 1814,
+  "country": "Slovenia",
+  "regions": [
+   "Bovec–Kobarid–Kanal",
+   "Ilirska Bistrica–Pivka–Loška dolina–Loški Potok–Velike Lašče–Bloke",
+   "Tolmin–Ajdovščina–Logatec–Gorenja vas-Poljane–Dobrova-Polhov Gradec–Nova Goriška–Sežana–Idrija–Cerknica–Železniki–Cerkno–Vrhnika"
+  ],
+  "owner": "First French Empire",
+  "why": "Carniola and Gorizia were in the French Illyrian Provinces 1809-1814; map shows Austrian Empire",
+  "source": "https://en.wikipedia.org/wiki/Illyrian_Provinces",
+  "severity": "minor"
+ },
+ {
+  "from": 1941,
+  "to": 1945,
+  "country": "Bosnia and Herzegovina",
+  "regions": [
+   "*"
+  ],
+  "owner": "Independent State of Croatia",
+  "why": "Axis puppet Independent State of Croatia (April 1941-May 1945) encompassed all of Bosnia and Herzegovina; missing from map",
+  "source": "https://en.wikipedia.org/wiki/Independent_State_of_Croatia",
+  "severity": "minor"
+ },
+ {
+  "from": 1941,
+  "to": 1945,
+  "country": "Croatia",
+  "regions": [
+   "Bjelovarsko-bilogorska",
+   "Brodsko-Posavska",
+   "Karlovacka",
+   "Koprivničko-Križevačka–Varaždinska",
+   "Licko-Senjska",
+   "Osjecko-Baranjska",
+   "Sisacko-Moslavacka",
+   "Vukovarsko-Srijemska",
+   "Zagrebacka"
+  ],
+  "owner": "Independent State of Croatia",
+  "why": "Independent State of Croatia 1941-1945 (coastal Dalmatia annexed by Italy left out); missing from map",
+  "source": "https://en.wikipedia.org/wiki/Independent_State_of_Croatia",
+  "severity": "minor"
+ },
+ {
+  "from": 1941,
+  "to": 1945,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Sremski"
+  ],
+  "owner": "Independent State of Croatia",
+  "why": "The NDH included the whole of Syrmia 1941-1945",
+  "source": "https://en.wikipedia.org/wiki/Independent_State_of_Croatia",
+  "severity": "minor"
+ },
+ {
+  "from": 1402,
+  "to": 1439,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Branicevski",
+   "Kolubarski",
+   "Macvanski",
+   "Moravicki",
+   "Pomoravski",
+   "Raški",
+   "Zlatiborski",
+   "Šumadijski"
+  ],
+  "owner": "Serbian Despotate",
+  "why": "The Serbian Empire ended in 1371; 1402-1459 this was the Serbian Despotate (map labels it 'Serbian Empire')",
+  "source": "https://en.wikipedia.org/wiki/Serbian_Despotate",
+  "severity": "major"
+ },
+ {
+  "from": 1439,
+  "to": 1444,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Branicevski",
+   "Kolubarski",
+   "Macvanski",
+   "Moravicki",
+   "Pomoravski",
+   "Raški",
+   "Zlatiborski",
+   "Šumadijski"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Smederevo fell in August 1439 and the Despotate was under Ottoman occupation until restored in 1444",
+  "source": "https://en.wikipedia.org/wiki/Serbian_Despotate",
+  "severity": "minor"
+ },
+ {
+  "from": 1444,
+  "to": 1459,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Branicevski",
+   "Kolubarski",
+   "Macvanski",
+   "Moravicki",
+   "Pomoravski",
+   "Raški",
+   "Zlatiborski",
+   "Šumadijski"
+  ],
+  "owner": "Serbian Despotate",
+  "why": "Restored Serbian Despotate until the fall of Smederevo in 1459 (map labels it 'Serbian Empire')",
+  "source": "https://en.wikipedia.org/wiki/Serbian_Despotate",
+  "severity": "major"
+ },
+ {
+  "from": 1420,
+  "to": 1455,
+  "country": "Kosovo",
+  "regions": [
+   "*"
+  ],
+  "owner": "Serbian Despotate",
+  "why": "Kosovo (Branković lands, Novo Brdo) was part of the Serbian Despotate, not the long-defunct Serbian Empire",
+  "source": "https://en.wikipedia.org/wiki/Serbian_Despotate",
+  "severity": "minor"
+ },
+ {
+  "from": 1739,
+  "to": 1750,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Borski",
+   "Branicevski",
+   "Kolubarski",
+   "Macvanski",
+   "Moravicki",
+   "Pomoravski",
+   "Šumadijski"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Habsburg Kingdom of Serbia ended with the Treaty of Belgrade (18 Sept 1739), which returned all lands south of the Sava and Danube; map keeps these Habsburg until 1750",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Serbia_(1718–1739)",
+  "severity": "major"
+ },
+ {
+  "from": 1739,
+  "to": 1750,
+  "country": "Bosnia and Herzegovina",
+  "regions": [
+   "Doboj",
+   "Vlasenica"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Habsburg lands south of the Sava were returned to the Ottomans in 1739; map keeps them Habsburg until 1750",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Serbia_(1718–1739)",
+  "severity": "minor"
+ },
+ {
+  "from": 1700,
+  "to": 1716,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Severno-Banatski"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Banat remained the Ottoman Eyalet of Temeşvar (1552-1716) after Karlowitz; map shows it Habsburg from 1700",
+  "source": "https://en.wikipedia.org/wiki/Banat_of_Temeswar",
+  "severity": "minor"
+ },
+ {
+  "from": 1526,
+  "to": 1699,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Sremski"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Syrmia was conquered by the Ottomans 1521-1538 and held until Karlowitz 1699; map flips it back to Hungary in 1540",
+  "source": "https://en.wikipedia.org/wiki/Syrmia",
+  "severity": "minor"
+ },
+ {
+  "from": 1849,
+  "to": 1867,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Južno-Banatski",
+   "Severno-Banatski",
+   "Srednje-Banatski",
+   "Zapadno-Backi"
+  ],
+  "owner": "Austrian Empire",
+  "why": "After the 1848-49 revolution the area formed the Austrian crownland Voivodeship of Serbia and Banat of Temeschwar (1849-1860); map shows 'Hungarian Nationalists' in 1850",
+  "source": "https://en.wikipedia.org/wiki/Voivodeship_of_Serbia_and_Banat_of_Temeschwar",
+  "severity": "major"
+ },
+ {
+  "from": 1804,
+  "to": 1878,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Nišavski",
+   "Pirotski"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Niš and Pirot stayed Ottoman until the Serbian army took them in 1877-78 (rebels were defeated at Čegar 1809); map shows Revolutionary Serbia/Principality of Serbia",
+  "source": "https://en.wikipedia.org/wiki/Niš",
+  "severity": "major"
+ },
+ {
+  "from": 1813,
+  "to": 1833,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Zajecarski",
+   "Borski"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Zaječar and the Krajina were retaken by the Ottomans in 1813 and ceded to Serbia only in 1833; map shows the Principality from 1820",
+  "source": "https://en.wikipedia.org/wiki/Zaječar",
+  "severity": "minor"
+ },
+ {
+  "from": 1878,
+  "to": 1890,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Pcinjski"
+  ],
+  "owner": "Kingdom of Serbia",
+  "why": "Vranje was taken by Serbia in 1878 (Preševo area in 1912); map shows Ottoman until 1920",
+  "source": "https://en.wikipedia.org/wiki/Vranje",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Republic of Serbia",
+  "regions": [
+   "Pcinjski"
+  ],
+  "owner": "Serbia",
+  "why": "Vranje district part of Serbia from 1878",
+  "source": "https://en.wikipedia.org/wiki/Vranje",
+  "severity": "major"
+ },
+ {
+  "from": 1913,
+  "to": 1918,
+  "country": "Macedonia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Serbia",
+  "why": "Vardar Macedonia was conquered by Serbia in 1912 and assigned to it by the Treaty of Bucharest (1913); map shows Ottoman until 1920",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1913)",
+  "severity": "major"
+ },
+ {
+  "from": 1913,
+  "to": 1918,
+  "country": "Kosovo",
+  "regions": [
+   "Prizren–Gnjilane–Suva Reka–Vitina–Kačanik",
+   "Priština–Vučitrn–Mališevo–Glogovac"
+  ],
+  "owner": "Serbia",
+  "why": "Kosovo was taken by Serbia in 1912 and assigned in 1913; map shows Ottoman until 1920",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1913)",
+  "severity": "major"
+ },
+ {
+  "from": 1913,
+  "to": 1918,
+  "country": "Kosovo",
+  "regions": [
+   "Peć–Istok–Srbica–Klina"
+  ],
+  "owner": "Montenegro",
+  "why": "Peć (Ipek) and Metohija were awarded to Montenegro in 1913",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1913)",
+  "severity": "major"
+ },
+ {
+  "from": 1913,
+  "to": 1918,
+  "country": "Montenegro",
+  "regions": [
+   "Plužine–Bijelo Polje–Šavnik–Žabljak"
+  ],
+  "owner": "Montenegro",
+  "why": "The western Sanjak of Novi Pazar (Bijelo Polje, Pljevlja) went to Montenegro in 1912-13; map shows Ottoman until 1920",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1913)",
+  "severity": "minor"
+ },
+ {
+  "from": 1878,
+  "to": 1890,
+  "country": "Montenegro",
+  "regions": [
+   "Kolašin"
+  ],
+  "owner": "Montenegro",
+  "why": "Montenegro's 1878 gains (Congress of Berlin) included the Kolašin area; map shows Ottoman in 1880",
+  "source": "https://en.wikipedia.org/wiki/Congress_of_Berlin",
+  "severity": "minor"
+ },
+ {
+  "from": 1912,
+  "to": 1920,
+  "country": "Albania",
+  "regions": [
+   "*"
+  ],
+  "owner": "Albania",
+  "why": "Albania declared independence on 28 November 1912 (recognised 1913); map shows Ottoman rule until 1920",
+  "source": "https://en.wikipedia.org/wiki/Albanian_Declaration_of_Independence",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 1943,
+  "country": "Albania",
+  "regions": [
+   "*"
+  ],
+  "owner": "Albanian Kingdom (1939-1943)",
+  "overlord": "Kingdom of Italy",
+  "why": "Italy occupied all of Albania in April 1939 (personal union/protectorate until 1943); map shows only Lezhë under Italy",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Albania_in_personal_union_with_Italy",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1479,
+  "country": "Albania",
+  "regions": [
+   "Shkodër"
+  ],
+  "owner": "Republic of Venice",
+  "why": "Shkodra was Venetian (Scutari) from 1396 until ceded to the Ottomans by the Treaty of Constantinople, 1479; map shows Serbian rulers then Ottoman from 1460",
+  "source": "https://en.wikipedia.org/wiki/Siege_of_Shkodra",
+  "severity": "major"
+ },
+ {
+  "from": 1479,
+  "to": 1510,
+  "country": "Albania",
+  "regions": [
+   "Lezhë"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Lezhë (Alessio) fell to the Ottomans in 1478-79; map keeps it Venetian until 1510",
+  "source": "https://en.wikipedia.org/wiki/Siege_of_Shkodra",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1510,
+  "country": "Greece",
+  "regions": [
+   "Anatoliki Makedonia kai Thraki"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Eastern Macedonia and Western Thrace were Ottoman from the 1360s-1383 (Komotini c.1362, Serres 1383) with no Byzantine recovery after 1400; map shows Byzantine until 1480 and Genoese 1490-1510",
+  "source": "https://en.wikipedia.org/wiki/Serres",
+  "severity": "major"
+ },
+ {
+  "from": 1424,
+  "to": 1890,
+  "country": "Greece",
+  "regions": [
+   "Ayion Oros"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Mount Athos came under Ottoman control in 1423-24 and stayed so (as an autonomous monastic community) until 1912; map shows Byzantine until 1470 and flips between Ottoman and '(peoples)' every decade",
+  "source": "https://athos.guide/en/athos-charter/historical-introduction",
+  "severity": "major"
+ },
+ {
+  "from": 1566,
+  "to": 1890,
+  "country": "Greece",
+  "regions": [
+   "Voreio Aigaio"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Chios, the last Genoese holding (Maona), was annexed by the Ottomans in 1566; map keeps part Genoese until 1640 and flips between Ottoman and '(peoples)' every decade",
+  "source": "https://en.wikipedia.org/wiki/Maona_of_Chios",
+  "severity": "major"
+ },
+ {
+  "from": 1913,
+  "to": 1920,
+  "country": "Greece",
+  "regions": [
+   "Kentriki Makedonia",
+   "Dytiki Makedonia",
+   "Ipeiros",
+   "Ayion Oros",
+   "Voreio Aigaio"
+  ],
+  "owner": "Greece",
+  "why": "Southern Macedonia (Thessaloniki taken 1912), Epirus and the North Aegean islands became Greek in 1912-13 (Treaty of Bucharest 1913; islands recognised 1914); map shows Ottoman until 1920",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Bucharest_(1913)",
+  "severity": "major"
+ },
+ {
+  "from": 1825,
+  "to": 1840,
+  "country": "Greece",
+  "regions": [
+   "Kriti"
+  ],
+  "owner": "Egypt Eyalet",
+  "overlord": "Ottoman Empire",
+  "why": "Crete was under Egyptian control 1825-1840 and was excluded from independent Greece; map shows it as Greek (First Hellenic Republic) in 1830",
+  "source": "https://en.wikipedia.org/wiki/Ottoman_Crete",
+  "severity": "major"
+ },
+ {
+  "from": 1898,
+  "to": 1913,
+  "country": "Greece",
+  "regions": [
+   "Kriti"
+  ],
+  "owner": "Cretan State",
+  "overlord": "Ottoman Empire",
+  "why": "Autonomous Cretan State 1898-1913 under nominal Ottoman suzerainty; missing from map",
+  "source": "https://en.wikipedia.org/wiki/Cretan_State",
+  "severity": "major"
+ },
+ {
+  "from": 1913,
+  "to": 1920,
+  "country": "Greece",
+  "regions": [
+   "Kriti"
+  ],
+  "owner": "Greece",
+  "why": "Crete formally united with Greece on 1 December 1913; map shows Ottoman until 1920",
+  "source": "https://en.wikipedia.org/wiki/Cretan_State",
+  "severity": "major"
+ },
+ {
+  "from": 1415,
+  "to": 1580,
+  "country": "Spain",
+  "regions": [
+   "Ceuta"
+  ],
+  "owner": "Kingdom of Portugal",
+  "why": "Ceuta was Portuguese from 1415; map flips it between Kingdom of Portugal and Portuguese Africa every decade",
+  "source": "https://en.wikipedia.org/wiki/Ceuta",
+  "severity": "minor"
+ },
+ {
+  "from": 1580,
+  "to": 1640,
+  "country": "Spain",
+  "regions": [
+   "Ceuta"
+  ],
+  "owner": "Iberian Union",
+  "overlord": "Spanish Empire",
+  "why": "Under the Iberian Union 1580-1640",
+  "source": "https://en.wikipedia.org/wiki/Ceuta",
+  "severity": "minor"
+ },
+ {
+  "from": 1640,
+  "to": 1890,
+  "country": "Spain",
+  "regions": [
+   "Ceuta"
+  ],
+  "owner": "Kingdom of Spain",
+  "overlord": "Spanish Empire",
+  "why": "Ceuta stayed with Spain in 1640 (ceded 1668); map flips it between 'Kingdom of Spain' and 'Spanish Empire' every decade",
+  "source": "https://en.wikipedia.org/wiki/Ceuta",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "Spain",
+  "regions": [
+   "Ceuta"
+  ],
+  "owner": "Spain",
+  "why": "Ceuta has been Spanish since 1640/1668; map shows it as Morocco in 1910 and as separately coloured 'Kingdom of Spain'/'Francoist Spain'",
+  "source": "https://en.wikipedia.org/wiki/Ceuta",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "Spain",
+  "regions": [
+   "Melilla"
+  ],
+  "owner": "Spain",
+  "why": "Melilla has been Spanish continuously since 1497; map shows it as Morocco 1890-1920 and from 1960 to the present, and as Spanish Morocco 1920-1960",
+  "source": "https://en.wikipedia.org/wiki/Melilla",
+  "severity": "major"
+ },
+ {
+  "from": 1802,
+  "to": 1890,
+  "country": "Spain",
+  "regions": [
+   "Baleares"
+  ],
+  "owner": "Kingdom of Spain",
+  "overlord": "Spanish Empire",
+  "why": "Menorca returned to Spain for good in 1802 (Treaty of Amiens); map shows it British until 1820",
+  "source": "https://en.wikipedia.org/wiki/Menorca",
+  "severity": "minor"
+ },
+ {
+  "from": 1479,
+  "to": 1512,
+  "country": "Spain",
+  "regions": [
+   "Navarra"
+  ],
+  "owner": "Kingdom of Navarre",
+  "why": "Navarre under Francis Phoebus, then Catherine and John III of Albret, was an independent kingdom until the Castilian conquest of 1512; map shows 'County of Foix [under Kingdom of France]'",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Navarre",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1420,
+  "country": "Portugal",
+  "regions": [
+   "Madeira"
+  ],
+  "owner": "none",
+  "why": "Madeira and the Savage Islands were uninhabited; map shows 'Saharan nomads' and then Castile",
+  "source": "https://en.wikipedia.org/wiki/History_of_Madeira",
+  "severity": "minor"
+ },
+ {
+  "from": 1420,
+  "to": 1510,
+  "country": "Portugal",
+  "regions": [
+   "Madeira"
+  ],
+  "owner": "Kingdom of Portugal",
+  "why": "Madeira was claimed and settled by Portugal from 1420 (Savage Islands found by Portugal 1438); map shows part of it as Crown of Castile",
+  "source": "https://en.wikipedia.org/wiki/History_of_Madeira",
+  "severity": "major"
+ },
+ {
+  "from": 1510,
+  "to": 1580,
+  "country": "Portugal",
+  "regions": [
+   "Madeira"
+  ],
+  "owner": "Kingdom of Portugal",
+  "overlord": "Portuguese Empire",
+  "why": "Portuguese; map shows part of Madeira as Spanish Empire",
+  "source": "https://en.wikipedia.org/wiki/Savage_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1580,
+  "to": 1640,
+  "country": "Portugal",
+  "regions": [
+   "Madeira"
+  ],
+  "owner": "Iberian Union",
+  "overlord": "Spanish Empire",
+  "why": "Iberian Union period, as for mainland Portugal",
+  "source": "https://en.wikipedia.org/wiki/History_of_Madeira",
+  "severity": "minor"
+ },
+ {
+  "from": 1640,
+  "to": 1890,
+  "country": "Portugal",
+  "regions": [
+   "Madeira"
+  ],
+  "owner": "Kingdom of Portugal",
+  "overlord": "Portuguese Empire",
+  "why": "Portuguese; map shows part of Madeira (Savage Islands) as Spanish 1640-1890",
+  "source": "https://en.wikipedia.org/wiki/Savage_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "Portugal",
+  "regions": [
+   "Madeira"
+  ],
+  "owner": "Portugal",
+  "why": "The Savage Islands have always been Portuguese (never held by Spain); map shows part of Madeira as Spain to the present",
+  "source": "https://en.wikipedia.org/wiki/Savage_Islands",
+  "severity": "major"
+ }
+]

@@ -1,0 +1,6143 @@
+{
+ "region": "East and Southern Africa",
+ "places": [
+  {
+   "place": "Mombasa",
+   "lat": -4.06,
+   "lon": 39.67,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1593,
+     "ruler": "Sultanate of Mombasa",
+     "aliases": [
+      "Mombasa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "already independent Swahili city-state by 1400",
+     "source": "https://www.worldstatesmen.org/Kenya_native.html",
+     "confidence": "moderate",
+     "note": "Sacked by Portuguese 1505 and 1528 and taken 1589, but not garrisoned; Ottoman (Ali Bey) suzerainty c.1585-88"
+    },
+    {
+     "from": 1593,
+     "to": 1698,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Kingdom of Portugal",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1593, Fort Jesus built after 1589 recapture",
+     "source": "https://en.wikipedia.org/wiki/Mombasa",
+     "confidence": "high",
+     "note": "Malindi sheikhs installed as rulers under Portuguese captain until 1631-32 revolt; direct rule from 1632"
+    },
+    {
+     "from": 1698,
+     "to": 1728,
+     "ruler": "Omani Empire",
+     "aliases": [
+      "Oman",
+      "Imamate of Oman",
+      "Sultanate of Muscat and Oman",
+      "Ya'rubid / Busaidi Oman"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12/13 December 1698, Fort Jesus captured",
+     "source": "https://en.wikipedia.org/wiki/Mombasa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1728,
+     "to": 1729,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Kingdom of Portugal",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 March 1728 - 21 September (or 26 Nov) 1729, brief Portuguese restoration",
+     "source": "https://en.wikipedia.org/wiki/Mombasa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1729,
+     "to": 1746,
+     "ruler": "Omani Empire",
+     "aliases": [
+      "Oman",
+      "Imamate of Oman",
+      "Sultanate of Muscat and Oman",
+      "Ya'rubid / Busaidi Oman"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1729, Omani liwalis",
+     "source": "https://en.wikipedia.org/wiki/Mombasa",
+     "confidence": "high",
+     "note": "Mazrui governors from c.1735"
+    },
+    {
+     "from": 1746,
+     "to": 1837,
+     "ruler": "Mazrui of Mombasa",
+     "aliases": [
+      "Mazrui Sultanate",
+      "Mazrui dynasty"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1746, Mazrui governors rule independently",
+     "source": "https://en.wikipedia.org/wiki/Mombasa",
+     "confidence": "moderate",
+     "note": "Owen's British protectorate 9 Feb 1824 - 25 Jul 1826 (Mazrui retained local rule); Oman did not recognise independence"
+    },
+    {
+     "from": 1837,
+     "to": 1856,
+     "ruler": "Omani Empire",
+     "aliases": [
+      "Oman",
+      "Imamate of Oman",
+      "Sultanate of Muscat and Oman",
+      "Ya'rubid / Busaidi Oman"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "24 June 1837, annexed by Said bin Sultan",
+     "source": "https://en.wikipedia.org/wiki/Mombasa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1856,
+     "to": 1887,
+     "ruler": "Sultanate of Zanzibar",
+     "aliases": [
+      "Zanzibar Sultanate",
+      "Busaidi Zanzibar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1856, death of Said; Zanzibar separate (formalised 6 April 1861)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1887,
+     "to": 1895,
+     "ruler": "Imperial British East Africa Company",
+     "aliases": [
+      "IBEA Company",
+      "IBEAC",
+      "British East Africa Association"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "25 May 1887, coastal concession to British East Africa Association",
+     "source": "https://en.wikipedia.org/wiki/Mombasa",
+     "confidence": "high",
+     "note": "Leased from Sultan of Zanzibar"
+    },
+    {
+     "from": 1895,
+     "to": 1963,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "East Africa Protectorate",
+      "Kenya Colony",
+      "Kenya Protectorate",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1895, British protectorate administration",
+     "source": "https://en.wikipedia.org/wiki/Mombasa",
+     "confidence": "high",
+     "note": "East Africa Protectorate 1895; Kenya Colony and Protectorate 1920 (coastal strip nominally Zanzibari until 1963)"
+    },
+    {
+     "from": 1963,
+     "to": 2025,
+     "ruler": "Kenya",
+     "aliases": [
+      "Republic of Kenya",
+      "Q114"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 December 1963, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Malindi",
+   "lat": -3.22,
+   "lon": 40.12,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1500,
+     "ruler": "Sultanate of Malindi",
+     "aliases": [
+      "Malindi"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "already a city-state by 1400 (embassy to China 1414)",
+     "source": "https://en.wikipedia.org/wiki/Malindi",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1500,
+     "to": 1593,
+     "ruler": "Sultanate of Malindi",
+     "aliases": [
+      "Malindi"
+     ],
+     "overlord": "Portuguese Empire",
+     "peoples": null,
+     "date": "1500, vassal status offered by Manuel I; Portuguese factory 1502-1593",
+     "source": "https://en.wikipedia.org/wiki/Malindi",
+     "confidence": "moderate",
+     "note": "Willing Portuguese ally/vassal"
+    },
+    {
+     "from": 1593,
+     "to": 1698,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Kingdom of Portugal",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1593, sheikh moved court to Mombasa under Portuguese",
+     "source": "https://en.wikipedia.org/wiki/Malindi",
+     "confidence": "low",
+     "note": "Town declined after the move; Portuguese influence nominal"
+    },
+    {
+     "from": 1698,
+     "to": 1861,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Oromo (Galla) pastoralists; town largely abandoned",
+     "date": "late 17th century decline; 'no vestiges' 1823; uninhabited 1845",
+     "source": "https://en.wikipedia.org/wiki/Malindi",
+     "confidence": "low",
+     "note": "Omani/Mazrui claims to the coast but no settlement to govern"
+    },
+    {
+     "from": 1861,
+     "to": 1890,
+     "ruler": "Sultanate of Zanzibar",
+     "aliases": [
+      "Zanzibar Sultanate",
+      "Busaidi Zanzibar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1861, refounded by Sultan Majid",
+     "source": "https://en.wikipedia.org/wiki/Malindi",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1890,
+     "to": 1895,
+     "ruler": "Imperial British East Africa Company",
+     "aliases": [
+      "IBEA Company",
+      "IBEAC",
+      "British East Africa Association"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1890, British (IBEA) administration",
+     "source": "https://en.wikipedia.org/wiki/Malindi",
+     "confidence": "moderate",
+     "note": "IBEA held the coastal concession from 1887-88; source dates British administration to 1890"
+    },
+    {
+     "from": 1895,
+     "to": 1963,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "East Africa Protectorate",
+      "Kenya Colony",
+      "Kenya Protectorate",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1895, British protectorate administration",
+     "source": "https://en.wikipedia.org/wiki/Malindi",
+     "confidence": "high",
+     "note": "East Africa Protectorate 1895; Kenya Colony and Protectorate 1920 (coastal strip nominally Zanzibari until 1963)"
+    },
+    {
+     "from": 1963,
+     "to": 2025,
+     "ruler": "Kenya",
+     "aliases": [
+      "Republic of Kenya",
+      "Q114"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 December 1963, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Lamu",
+   "lat": -2.27,
+   "lon": 40.9,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1506,
+     "ruler": "Lamu city-state",
+     "aliases": [
+      "Sultanate of Lamu"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "established c.1370",
+     "source": "https://en.wikipedia.org/wiki/Lamu",
+     "confidence": "moderate",
+     "note": "Rivalry with Pate"
+    },
+    {
+     "from": 1506,
+     "to": 1652,
+     "ruler": "Lamu city-state",
+     "aliases": [
+      "Sultanate of Lamu"
+     ],
+     "overlord": "Portuguese Empire",
+     "peoples": null,
+     "date": "1506, Tristão da Cunha forces annual tribute",
+     "source": "https://en.wikipedia.org/wiki/Lamu",
+     "confidence": "moderate",
+     "note": "Revolt in 1580s"
+    },
+    {
+     "from": 1652,
+     "to": 1813,
+     "ruler": "Lamu city-state",
+     "aliases": [
+      "Lamu republic (Yumbe)"
+     ],
+     "overlord": "Omani Empire",
+     "peoples": null,
+     "date": "1652, Omani aid against Portugal; Omani protectorate thereafter",
+     "source": "https://en.wikipedia.org/wiki/Lamu",
+     "confidence": "low",
+     "note": "Governed by Yumbe council; Omani overlordship loose; Pate dominance at times"
+    },
+    {
+     "from": 1813,
+     "to": 1856,
+     "ruler": "Omani Empire",
+     "aliases": [
+      "Oman",
+      "Imamate of Oman",
+      "Sultanate of Muscat and Oman",
+      "Ya'rubid / Busaidi Oman"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "after Battle of Shela (1812/1813) Lamu requested a Busaidi garrison",
+     "source": "https://en.wikipedia.org/wiki/Lamu",
+     "confidence": "moderate",
+     "note": "Shela given as 1812 by Wikipedia, 1813 elsewhere; fort built 1813-21"
+    },
+    {
+     "from": 1856,
+     "to": 1890,
+     "ruler": "Sultanate of Zanzibar",
+     "aliases": [
+      "Zanzibar Sultanate",
+      "Busaidi Zanzibar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1856 Zanzibar separation",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "moderate",
+     "note": "German post office 1888-91 but no German rule; Witu German protectorate (1885-90) on mainland"
+    },
+    {
+     "from": 1890,
+     "to": 1895,
+     "ruler": "Imperial British East Africa Company",
+     "aliases": [
+      "IBEA Company",
+      "IBEAC",
+      "British East Africa Association"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1890, British rule under Heligoland-Zanzibar Treaty",
+     "source": "https://en.wikipedia.org/wiki/Lamu",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1895,
+     "to": 1963,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "East Africa Protectorate",
+      "Kenya Colony",
+      "Kenya Protectorate",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1895, British protectorate administration",
+     "source": "https://en.wikipedia.org/wiki/Lamu",
+     "confidence": "high",
+     "note": "East Africa Protectorate 1895; Kenya Colony and Protectorate 1920 (coastal strip nominally Zanzibari until 1963)"
+    },
+    {
+     "from": 1963,
+     "to": 2025,
+     "ruler": "Kenya",
+     "aliases": [
+      "Republic of Kenya",
+      "Q114"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 December 1963, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Pate",
+   "lat": -2.1,
+   "lon": 40.99,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1506,
+     "ruler": "Pate Sultanate",
+     "aliases": [
+      "Pate",
+      "Nabhani sultanate"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Nabhani sultanate existed from 13th century",
+     "source": "https://en.wikipedia.org/wiki/Pate_Island",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1506,
+     "to": 1698,
+     "ruler": "Pate Sultanate",
+     "aliases": [
+      "Pate",
+      "Nabhani sultanate"
+     ],
+     "overlord": "Portuguese Empire",
+     "peoples": null,
+     "date": "early 16th century, Portuguese tribute imposed on Lamu archipelago towns",
+     "source": "https://en.wikipedia.org/wiki/Lamu",
+     "confidence": "low",
+     "note": "Repeated revolts; Portuguese punitive expeditions (Faza 1587; Pate 1630s, 1678)"
+    },
+    {
+     "from": 1698,
+     "to": 1821,
+     "ruler": "Pate Sultanate",
+     "aliases": [
+      "Pate",
+      "Nabhani sultanate"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1698 fall of Fort Jesus ended Portuguese suzerainty",
+     "source": "https://en.wikipedia.org/wiki/Mombasa",
+     "confidence": "moderate",
+     "note": "Independent, allied at times with Mazrui of Mombasa"
+    },
+    {
+     "from": 1821,
+     "to": 1856,
+     "ruler": "Pate Sultanate",
+     "aliases": [
+      "Pate"
+     ],
+     "overlord": "Omani Empire",
+     "peoples": null,
+     "date": "1821, under Omani suzerainty",
+     "source": "https://www.worldstatesmen.org/Kenya_native.html",
+     "confidence": "moderate",
+     "note": "Sheikh of Pate repudiated Said's sovereignty in 1843"
+    },
+    {
+     "from": 1856,
+     "to": 1870,
+     "ruler": "Pate Sultanate",
+     "aliases": [
+      "Pate"
+     ],
+     "overlord": "Sultanate of Zanzibar",
+     "peoples": null,
+     "date": "1856 Zanzibar separation",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "low",
+     "note": "Nabhani exiles founded Witu on mainland 1858"
+    },
+    {
+     "from": 1870,
+     "to": 1890,
+     "ruler": "Sultanate of Zanzibar",
+     "aliases": [
+      "Zanzibar Sultanate",
+      "Busaidi Zanzibar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1870, Pate state extinguished",
+     "source": "https://www.worldstatesmen.org/Kenya_native.html",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1890,
+     "to": 1895,
+     "ruler": "Imperial British East Africa Company",
+     "aliases": [
+      "IBEA Company",
+      "IBEAC",
+      "British East Africa Association"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1890, Heligoland-Zanzibar Treaty; British protectorate over Witu region 18 June 1890",
+     "source": "https://www.worldstatesmen.org/Kenya_native.html",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1895,
+     "to": 1963,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "East Africa Protectorate",
+      "Kenya Colony",
+      "Kenya Protectorate",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1895, British protectorate administration",
+     "source": "https://en.wikipedia.org/wiki/Lamu",
+     "confidence": "high",
+     "note": "East Africa Protectorate 1895; Kenya Colony and Protectorate 1920 (coastal strip nominally Zanzibari until 1963)"
+    },
+    {
+     "from": 1963,
+     "to": 2025,
+     "ruler": "Kenya",
+     "aliases": [
+      "Republic of Kenya",
+      "Q114"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 December 1963, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Nairobi",
+   "lat": -1.29,
+   "lon": 36.82,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1899,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Maasai pastoralists; Kikuyu and Akamba",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Nairobi",
+     "confidence": "high",
+     "note": "IBEA fort at Dagoretti/Fort Smith nearby from 1890-91"
+    },
+    {
+     "from": 1899,
+     "to": 1963,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "East Africa Protectorate",
+      "Kenya Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "30 May 1899, railway depot founded",
+     "source": "https://en.wikipedia.org/wiki/Nairobi",
+     "confidence": "high",
+     "note": "Capital of East Africa Protectorate from 1907"
+    },
+    {
+     "from": 1963,
+     "to": 2025,
+     "ruler": "Kenya",
+     "aliases": [
+      "Republic of Kenya",
+      "Q114"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 December 1963, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Marsabit",
+   "lat": 2.33,
+   "lon": 37.99,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1909,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Rendille, Borana (Oromo) and Gabra pastoralists",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Northern_Frontier_District",
+     "confidence": "moderate",
+     "note": "Ethiopian raiding and claims in 1890s-1900s"
+    },
+    {
+     "from": 1909,
+     "to": 1963,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Northern Frontier District",
+      "Kenya Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1909, stations established at Marsabit and Moyale (Northern Frontier District)",
+     "source": "https://en.wikipedia.org/wiki/Northern_Frontier_District",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1963,
+     "to": 2025,
+     "ruler": "Kenya",
+     "aliases": [
+      "Republic of Kenya",
+      "Q114"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 December 1963, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": "Shifta War 1963-67 did not end Kenyan control"
+    }
+   ]
+  },
+  {
+   "place": "Mumias",
+   "lat": 0.34,
+   "lon": 34.49,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1550,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Luhya-speaking clans",
+     "date": "pre-kingdom",
+     "source": "https://en.wikipedia.org/wiki/Wanga_Kingdom",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1550,
+     "to": 1890,
+     "ruler": "Wanga Kingdom",
+     "aliases": [
+      "Wanga",
+      "Kingdom of Wanga"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "16th century, founded by Nabongo Wanga",
+     "source": "https://en.wikipedia.org/wiki/Wanga_Kingdom",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1890,
+     "to": 1894,
+     "ruler": "Wanga Kingdom",
+     "aliases": [
+      "Wanga"
+     ],
+     "overlord": "Imperial British East Africa Company",
+     "peoples": null,
+     "date": "c.1890, IBEA station and alliance with Nabongo Mumia",
+     "source": "https://www.worldstatesmen.org/Kenya_native.html",
+     "confidence": "low",
+     "note": "worldstatesmen gives 1888 inclusion in British East Africa"
+    },
+    {
+     "from": 1894,
+     "to": 1926,
+     "ruler": "Wanga Kingdom",
+     "aliases": [
+      "Wanga"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1894, Uganda Protectorate (to 1902), then East Africa Protectorate",
+     "source": "https://en.wikipedia.org/wiki/Wanga_Kingdom",
+     "confidence": "low",
+     "note": "Mumia made paramount chief under British"
+    },
+    {
+     "from": 1926,
+     "to": 1963,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Kenya Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1926, kingdom's territory redefined and Mumia retired; meaningful power ended",
+     "source": "https://en.wikipedia.org/wiki/Wanga_Kingdom",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1963,
+     "to": 2025,
+     "ruler": "Kenya",
+     "aliases": [
+      "Republic of Kenya",
+      "Q114"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 December 1963",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Kilwa Kisiwani",
+   "lat": -8.96,
+   "lon": 39.51,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1505,
+     "ruler": "Kilwa Sultanate",
+     "aliases": [
+      "Sultanate of Kilwa",
+      "Kilwa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "sultanate already established",
+     "source": "https://en.wikipedia.org/wiki/Kilwa_Sultanate",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1505,
+     "to": 1512,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Kingdom of Portugal",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1505, Almeida captured Kilwa, built Fort Santiago, installed vassal sultan",
+     "source": "https://en.wikipedia.org/wiki/Kilwa_Kisiwani",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1512,
+     "to": 1784,
+     "ruler": "Kilwa Sultanate",
+     "aliases": [
+      "Sultanate of Kilwa",
+      "Kilwa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1512, Portuguese abandoned outpost",
+     "source": "https://en.wikipedia.org/wiki/Kilwa_Kisiwani",
+     "confidence": "moderate",
+     "note": "Weak, tributary at times to Portugal and later loosely to Oman; Zimba sack 1587"
+    },
+    {
+     "from": 1784,
+     "to": 1856,
+     "ruler": "Omani Empire",
+     "aliases": [
+      "Oman",
+      "Imamate of Oman",
+      "Sultanate of Muscat and Oman",
+      "Ya'rubid / Busaidi Oman"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1784, Omani rulers of Zanzibar conquered Kilwa",
+     "source": "https://en.wikipedia.org/wiki/Kilwa_Kisiwani",
+     "confidence": "moderate",
+     "note": "Some sources give 1785; local sultan nominal until 1840s"
+    },
+    {
+     "from": 1856,
+     "to": 1890,
+     "ruler": "Sultanate of Zanzibar",
+     "aliases": [
+      "Zanzibar Sultanate",
+      "Busaidi Zanzibar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1856 Zanzibar separation",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "moderate",
+     "note": "German East Africa Company agents arrived Aug 1888 but were killed in the Abushiri revolt"
+    },
+    {
+     "from": 1890,
+     "to": 1916,
+     "ruler": "German Empire",
+     "aliases": [
+      "Germany",
+      "German East Africa",
+      "Q43287"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1890, Wissmann's force retook the southern coast",
+     "source": "https://en.wikipedia.org/wiki/Abushiri_revolt",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1916,
+     "to": 1961,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Tanganyika Territory",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1916, British landing and occupation of Kilwa",
+     "source": "https://en.wikipedia.org/wiki/Tanganyika_Territory",
+     "confidence": "moderate",
+     "note": "Military occupation, then Tanganyika Territory (League mandate 20 July 1922)"
+    },
+    {
+     "from": 1961,
+     "to": 1964,
+     "ruler": "Tanganyika",
+     "aliases": [
+      "Republic of Tanganyika"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 December 1961, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Tanzania",
+     "aliases": [
+      "United Republic of Tanzania",
+      "United Republic of Tanganyika and Zanzibar",
+      "Q924"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 April 1964, union of Tanganyika and Zanzibar",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Zanzibar Town",
+   "lat": -6.16,
+   "lon": 39.19,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1503,
+     "ruler": "Kingdom of Zanzibar (Mwinyi Mkuu)",
+     "aliases": [
+      "Hadimu chiefdom",
+      "Shirazi Zanzibar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "local hereditary rulers",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "low",
+     "note": "Hadimu/Shirazi chiefs; small local polity"
+    },
+    {
+     "from": 1503,
+     "to": 1698,
+     "ruler": "Kingdom of Zanzibar (Mwinyi Mkuu)",
+     "aliases": [
+      "Hadimu chiefdom"
+     ],
+     "overlord": "Portuguese Empire",
+     "peoples": null,
+     "date": "1503/1504, Portuguese tribute imposed",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1698,
+     "to": 1856,
+     "ruler": "Omani Empire",
+     "aliases": [
+      "Oman",
+      "Imamate of Oman",
+      "Sultanate of Muscat and Oman",
+      "Ya'rubid / Busaidi Oman"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1698, Omanis expelled the Portuguese",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": "Said bin Sultan moved his capital to Zanzibar in 1830s-1840"
+    },
+    {
+     "from": 1856,
+     "to": 1890,
+     "ruler": "Sultanate of Zanzibar",
+     "aliases": [
+      "Zanzibar Sultanate",
+      "Busaidi Zanzibar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "October 1856, death of Said; split formalised 6 April 1861 (Canning Award)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1890,
+     "to": 1963,
+     "ruler": "Sultanate of Zanzibar",
+     "aliases": [
+      "Zanzibar Sultanate",
+      "Busaidi Zanzibar"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1890, British protectorate (Heligoland-Zanzibar Treaty)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1963,
+     "to": 1964,
+     "ruler": "Sultanate of Zanzibar",
+     "aliases": [
+      "Zanzibar Sultanate",
+      "Busaidi Zanzibar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "10 December 1963, independence",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": "Overthrown 12 January 1964; People's Republic of Zanzibar Jan-Apr 1964"
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Tanzania",
+     "aliases": [
+      "United Republic of Tanzania",
+      "United Republic of Tanganyika and Zanzibar",
+      "Q924"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 April 1964, union with Tanganyika (after 12 Jan 1964 revolution)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": "Zanzibar is a semi-autonomous part of Tanzania"
+    }
+   ]
+  },
+  {
+   "place": "Dar es Salaam",
+   "lat": -6.82,
+   "lon": 39.28,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1865,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Zaramo and Shomvi (Swahili) villagers of Mzizima",
+     "date": "fishing village, no attested state presence",
+     "source": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+     "confidence": "low",
+     "note": "Coast loosely within Kilwa and later Omani/Zanzibari spheres"
+    },
+    {
+     "from": 1865,
+     "to": 1888,
+     "ruler": "Sultanate of Zanzibar",
+     "aliases": [
+      "Zanzibar Sultanate",
+      "Busaidi Zanzibar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1865/66, city founded by Sultan Majid",
+     "source": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+     "confidence": "high",
+     "note": "German East Africa Company station from 1887"
+    },
+    {
+     "from": 1888,
+     "to": 1891,
+     "ruler": "German East Africa Company",
+     "aliases": [
+      "DOAG",
+      "Deutsch-Ostafrikanische Gesellschaft"
+     ],
+     "overlord": "German Empire",
+     "peoples": null,
+     "date": "August 1888, company took over coastal administration under Zanzibar lease",
+     "source": "https://en.wikipedia.org/wiki/Abushiri_revolt",
+     "confidence": "moderate",
+     "note": "Town stayed in German hands through Abushiri revolt"
+    },
+    {
+     "from": 1891,
+     "to": 1916,
+     "ruler": "German Empire",
+     "aliases": [
+      "Germany",
+      "German East Africa",
+      "Q43287"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1891, Reich took over German East Africa",
+     "source": "https://en.wikipedia.org/wiki/Abushiri_revolt",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1916,
+     "to": 1961,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Tanganyika Territory",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "3 September 1916, German surrender of the city",
+     "source": "https://en.wikipedia.org/wiki/Dar_es_Salaam",
+     "confidence": "high",
+     "note": "Military occupation, then Tanganyika Territory (League mandate 20 July 1922)"
+    },
+    {
+     "from": 1961,
+     "to": 1964,
+     "ruler": "Tanganyika",
+     "aliases": [
+      "Republic of Tanganyika"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 December 1961, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Tanzania",
+     "aliases": [
+      "United Republic of Tanzania",
+      "United Republic of Tanganyika and Zanzibar",
+      "Q924"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 April 1964, union of Tanganyika and Zanzibar",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Tabora",
+   "lat": -5.02,
+   "lon": 32.8,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1891,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Nyamwezi chiefdoms (Unyanyembe); Arab-Swahili traders from 1850s",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Tabora",
+     "confidence": "moderate",
+     "note": "Kazeh founded 1850s; Zanzibar appointed a representative but did not govern; Mirambo sacked town 1871"
+    },
+    {
+     "from": 1891,
+     "to": 1916,
+     "ruler": "German Empire",
+     "aliases": [
+      "Germany",
+      "German East Africa",
+      "Q43287"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1891, German administration gained control",
+     "source": "https://en.wikipedia.org/wiki/Tabora",
+     "confidence": "high",
+     "note": "Chief Isike resisted until 1893"
+    },
+    {
+     "from": 1916,
+     "to": 1961,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Tanganyika Territory",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19 Sep 1916 Belgian capture; handed to Britain 25 February 1917",
+     "source": "https://en.wikipedia.org/wiki/Tabora_offensive",
+     "confidence": "high",
+     "note": "Belgian occupation ~5 months folded into British interval"
+    },
+    {
+     "from": 1961,
+     "to": 1964,
+     "ruler": "Tanganyika",
+     "aliases": [
+      "Republic of Tanganyika"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 December 1961",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Tanzania",
+     "aliases": [
+      "United Republic of Tanzania",
+      "United Republic of Tanganyika and Zanzibar",
+      "Q924"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 April 1964",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Ujiji",
+   "lat": -4.91,
+   "lon": 29.68,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1893,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Jiji (Ha) chiefdoms; Arab-Swahili trading community from c.1840s",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Ujiji",
+     "confidence": "moderate",
+     "note": "Arab-Swahili liwalis nominally under Zanzibar"
+    },
+    {
+     "from": 1893,
+     "to": 1916,
+     "ruler": "German Empire",
+     "aliases": [
+      "Germany",
+      "German East Africa",
+      "Q43287"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "24 July 1893, Germans entered Ujiji",
+     "source": "https://en.wikipedia.org/wiki/Sultanate_of_Ujiji",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1916,
+     "to": 1921,
+     "ruler": "Belgium",
+     "aliases": [
+      "Belgium",
+      "Belgian Congo forces",
+      "Q31"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July-August 1916, Belgian capture of Kigoma/Ujiji",
+     "source": "https://en.wikipedia.org/wiki/Tabora_offensive",
+     "confidence": "high",
+     "note": "Belgian occupation of Kigoma district"
+    },
+    {
+     "from": 1921,
+     "to": 1961,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Tanganyika Territory",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "22 March 1921, Belgium ceded Kigoma District",
+     "source": "https://en.wikipedia.org/wiki/Tanganyika_Territory",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 1964,
+     "ruler": "Tanganyika",
+     "aliases": [
+      "Republic of Tanganyika"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 December 1961",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Tanzania",
+     "aliases": [
+      "United Republic of Tanzania",
+      "United Republic of Tanganyika and Zanzibar",
+      "Q924"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 April 1964",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Dodoma",
+   "lat": -6.17,
+   "lon": 35.74,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1907,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Gogo, Rangi and Sandawe peoples",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Dodoma",
+     "confidence": "low",
+     "note": "German stations in Ugogo (Mpwapwa 1889, Kilimatinde 1890s) mean effective German control may predate 1907"
+    },
+    {
+     "from": 1907,
+     "to": 1916,
+     "ruler": "German Empire",
+     "aliases": [
+      "Germany",
+      "German East Africa",
+      "Q43287"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1907, town founded during central railway construction",
+     "source": "https://en.wikipedia.org/wiki/Dodoma",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1916,
+     "to": 1961,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Tanganyika Territory",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1916, British occupation of central railway",
+     "source": "https://en.wikipedia.org/wiki/Tanganyika_Territory",
+     "confidence": "moderate",
+     "note": "Military occupation, then Tanganyika Territory (League mandate 20 July 1922)"
+    },
+    {
+     "from": 1961,
+     "to": 1964,
+     "ruler": "Tanganyika",
+     "aliases": [
+      "Republic of Tanganyika"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 December 1961, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Tanzania",
+     "aliases": [
+      "United Republic of Tanzania",
+      "United Republic of Tanganyika and Zanzibar",
+      "Q924"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 April 1964, union of Tanganyika and Zanzibar",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": "Designated capital 1974, official capital 1996"
+    }
+   ]
+  },
+  {
+   "place": "Moshi (Kilimanjaro)",
+   "lat": -3.35,
+   "lon": 37.34,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1892,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Chagga chiefdoms (Moshi, Kibosho, Marangu)",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Moshi,_Tanzania",
+     "confidence": "moderate",
+     "note": "Moshi chiefdom under Rindi/Mandara prominent in 19th century"
+    },
+    {
+     "from": 1892,
+     "to": 1916,
+     "ruler": "German Empire",
+     "aliases": [
+      "Germany",
+      "German East Africa",
+      "Q43287"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "August 1892, Battle of Moshi; German camp established",
+     "source": "https://en.wikipedia.org/wiki/Moshi,_Tanzania",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1916,
+     "to": 1961,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Tanganyika Territory",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "March 1916, British capture of Moshi",
+     "source": "https://en.wikipedia.org/wiki/Tanganyika_Territory",
+     "confidence": "moderate",
+     "note": "Military occupation, then Tanganyika Territory (League mandate 20 July 1922)"
+    },
+    {
+     "from": 1961,
+     "to": 1964,
+     "ruler": "Tanganyika",
+     "aliases": [
+      "Republic of Tanganyika"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 December 1961, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Tanzania",
+     "aliases": [
+      "United Republic of Tanzania",
+      "United Republic of Tanganyika and Zanzibar",
+      "Q924"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 April 1964, union of Tanganyika and Zanzibar",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Iringa (Kalenga)",
+   "lat": -7.77,
+   "lon": 35.65,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1860,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Hehe and Bena clans",
+     "date": "pre-unification",
+     "source": "https://en.wikipedia.org/wiki/Mkwawa",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1860,
+     "to": 1894,
+     "ruler": "Hehe Kingdom",
+     "aliases": [
+      "Uhehe",
+      "Hehe chiefdom"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "mid-19th century unification under Munyigumba (d.1879)",
+     "source": "https://en.wikipedia.org/wiki/Mkwawa",
+     "confidence": "low",
+     "note": "Defeated German column at Lugalo 17 Aug 1891"
+    },
+    {
+     "from": 1894,
+     "to": 1916,
+     "ruler": "German Empire",
+     "aliases": [
+      "Germany",
+      "German East Africa",
+      "Q43287"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "28 October 1894, Germans stormed Kalenga",
+     "source": "https://en.wikipedia.org/wiki/Mkwawa",
+     "confidence": "high",
+     "note": "Mkwawa's guerrilla resistance until his death 19 July 1898"
+    },
+    {
+     "from": 1916,
+     "to": 1961,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Tanganyika Territory",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1916, British occupation",
+     "source": "https://en.wikipedia.org/wiki/Tanganyika_Territory",
+     "confidence": "moderate",
+     "note": "Military occupation, then Tanganyika Territory (League mandate 20 July 1922)"
+    },
+    {
+     "from": 1961,
+     "to": 1964,
+     "ruler": "Tanganyika",
+     "aliases": [
+      "Republic of Tanganyika"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 December 1961, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Tanzania",
+     "aliases": [
+      "United Republic of Tanzania",
+      "United Republic of Tanganyika and Zanzibar",
+      "Q924"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 April 1964, union of Tanganyika and Zanzibar",
+     "source": "https://en.wikipedia.org/wiki/History_of_Zanzibar",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Kampala (Mengo)",
+   "lat": 0.31,
+   "lon": 32.58,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1890,
+     "ruler": "Buganda",
+     "aliases": [
+      "Kingdom of Buganda"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "kingdom founded 12th-14th century in Kyadondo/Busiro",
+     "source": "https://en.wikipedia.org/wiki/Buganda",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1890,
+     "to": 1894,
+     "ruler": "Buganda",
+     "aliases": [
+      "Kingdom of Buganda"
+     ],
+     "overlord": "Imperial British East Africa Company",
+     "peoples": null,
+     "date": "December 1890, Lugard's treaty; fort on Old Kampala hill",
+     "source": "https://en.wikipedia.org/wiki/Kampala",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1894,
+     "to": 1962,
+     "ruler": "Buganda",
+     "aliases": [
+      "Kingdom of Buganda"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1894, Uganda Protectorate; Buganda Agreement 1900",
+     "source": "https://en.wikipedia.org/wiki/Buganda",
+     "confidence": "high",
+     "note": "Protectorate capital at Entebbe"
+    },
+    {
+     "from": 1962,
+     "to": 2025,
+     "ruler": "Uganda",
+     "aliases": [
+      "Republic of Uganda",
+      "Q1036"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 October 1962, independence; Kampala national capital",
+     "source": "https://en.wikipedia.org/wiki/Kampala",
+     "confidence": "high",
+     "note": "Buganda federal status ended 1966-67; kingdom restored culturally 1993"
+    }
+   ]
+  },
+  {
+   "place": "Hoima (Bunyoro)",
+   "lat": 1.43,
+   "lon": 31.35,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1500,
+     "ruler": "Empire of Kitara",
+     "aliases": [
+      "Kitara",
+      "Bachwezi"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Chwezi-era Kitara",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Bunyoro",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1500,
+     "to": 1894,
+     "ruler": "Kingdom of Bunyoro-Kitara",
+     "aliases": [
+      "Bunyoro",
+      "Bunyoro-Kitara"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1500 (source: late 16th c.), Babiito dynasty under Rukidi-Mpuga",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Bunyoro",
+     "confidence": "low",
+     "note": "Kabalega's capital at Mparo near Hoima"
+    },
+    {
+     "from": 1894,
+     "to": 1962,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Uganda Protectorate",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1893-94, Colvile's expedition and protectorate; Kabalega captured 1899",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Bunyoro",
+     "confidence": "moderate",
+     "note": "Bunyoro under indirect rule; 1933 agreement"
+    },
+    {
+     "from": 1962,
+     "to": 2025,
+     "ruler": "Uganda",
+     "aliases": [
+      "Republic of Uganda",
+      "Q1036"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 October 1962",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Gulu (Acholi)",
+   "lat": 2.77,
+   "lon": 32.3,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1872,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Luo/Acholi chiefdoms (rwodi)",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Fort_Patiko",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1872,
+     "to": 1888,
+     "ruler": "Khedivate of Egypt",
+     "aliases": [
+      "Egypt",
+      "Egyptian Equatoria"
+     ],
+     "overlord": "Ottoman Empire",
+     "peoples": null,
+     "date": "1872, Baker's Fort Patiko (Equatoria province)",
+     "source": "https://en.wikipedia.org/wiki/Fort_Patiko",
+     "confidence": "low",
+     "note": "Equatoria posts nearby; Emin Pasha withdrew 1888-89"
+    },
+    {
+     "from": 1888,
+     "to": 1911,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Acholi chiefdoms",
+     "date": "Egyptian withdrawal",
+     "source": "https://www.monitor.co.ug/uganda/magazines/people-power/the-coming-of-british-influence-in-northern-uganda-1773938",
+     "confidence": "low",
+     "note": "Scattered British posts from late 1890s"
+    },
+    {
+     "from": 1911,
+     "to": 1962,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Uganda Protectorate",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1911, civil administration extended to Gulu",
+     "source": "https://www.monitor.co.ug/uganda/magazines/people-power/the-coming-of-british-influence-in-northern-uganda-1773938",
+     "confidence": "moderate",
+     "note": "Rest of Acholiland 1913"
+    },
+    {
+     "from": 1962,
+     "to": 2025,
+     "ruler": "Uganda",
+     "aliases": [
+      "Republic of Uganda",
+      "Q1036"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "9 October 1962",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Nyanza (Rwanda)",
+   "lat": -2.35,
+   "lon": 29.75,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1650,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Nduga chiefdoms (Hutu, Tutsi, Twa)",
+     "date": "before Rwandan conquest of Nduga",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1650,
+     "to": 1897,
+     "ruler": "Kingdom of Rwanda",
+     "aliases": [
+      "Rwanda",
+      "Banyiginya kingdom"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1650, kingdom established (Ruganzu II Ndori era)",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1897,
+     "to": 1916,
+     "ruler": "Kingdom of Rwanda",
+     "aliases": [
+      "Rwanda",
+      "Banyiginya kingdom"
+     ],
+     "overlord": "German Empire",
+     "peoples": null,
+     "date": "1897, German protectorate via alliance with Musinga",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1916,
+     "to": 1961,
+     "ruler": "Kingdom of Rwanda",
+     "aliases": [
+      "Rwanda",
+      "Banyiginya kingdom"
+     ],
+     "overlord": "Belgium",
+     "peoples": null,
+     "date": "May 1916, Belgian occupation; Ruanda-Urundi mandate 1922",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 1962,
+     "ruler": "Republic of Rwanda",
+     "aliases": [
+      "Rwanda"
+     ],
+     "overlord": "Belgium",
+     "peoples": null,
+     "date": "28 January 1961, monarchy abolished",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+     "confidence": "high",
+     "note": "UN trusteeship until 1 July 1962"
+    },
+    {
+     "from": 1962,
+     "to": 2025,
+     "ruler": "Rwanda",
+     "aliases": [
+      "Republic of Rwanda",
+      "Q1037"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 July 1962, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Kigali",
+   "lat": -1.95,
+   "lon": 30.06,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1897,
+     "ruler": "Kingdom of Rwanda",
+     "aliases": [
+      "Rwanda",
+      "Banyiginya kingdom"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Gasabo/Lake Muhazi core of the kingdom 14th-16th c.",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1897,
+     "to": 1916,
+     "ruler": "Kingdom of Rwanda",
+     "aliases": [
+      "Rwanda",
+      "Banyiginya kingdom"
+     ],
+     "overlord": "German Empire",
+     "peoples": null,
+     "date": "1897, German protectorate; Kandt's residency at Kigali 1907",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1916,
+     "to": 1961,
+     "ruler": "Kingdom of Rwanda",
+     "aliases": [
+      "Rwanda",
+      "Banyiginya kingdom"
+     ],
+     "overlord": "Belgium",
+     "peoples": null,
+     "date": "May 1916, Belgian occupation",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 1962,
+     "ruler": "Republic of Rwanda",
+     "aliases": [
+      "Rwanda"
+     ],
+     "overlord": "Belgium",
+     "peoples": null,
+     "date": "28 January 1961",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1962,
+     "to": 2025,
+     "ruler": "Rwanda",
+     "aliases": [
+      "Republic of Rwanda",
+      "Q1037"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 July 1962",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": "Capital from 1962"
+    }
+   ]
+  },
+  {
+   "place": "Gitega",
+   "lat": -3.43,
+   "lon": 29.93,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1680,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Pre-kingdom chiefdoms",
+     "date": "before Ntare I",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1680,
+     "to": 1903,
+     "ruler": "Kingdom of Burundi",
+     "aliases": [
+      "Burundi",
+      "Ganwa kingdom"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1680, founded by Ntare I (date disputed)",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1903,
+     "to": 1916,
+     "ruler": "Kingdom of Burundi",
+     "aliases": [
+      "Burundi",
+      "Ganwa kingdom"
+     ],
+     "overlord": "German Empire",
+     "peoples": null,
+     "date": "1903, Treaty of Kiganda after 1902-03 campaign",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "high",
+     "note": "German residency moved to Gitega 1912"
+    },
+    {
+     "from": 1916,
+     "to": 1962,
+     "ruler": "Kingdom of Burundi",
+     "aliases": [
+      "Burundi",
+      "Ganwa kingdom"
+     ],
+     "overlord": "Belgium",
+     "peoples": null,
+     "date": "17 June 1916, Belgian forces occupied Gitega",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1962,
+     "to": 1966,
+     "ruler": "Kingdom of Burundi",
+     "aliases": [
+      "Burundi"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 July 1962, independence",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1966,
+     "to": 2025,
+     "ruler": "Burundi",
+     "aliases": [
+      "Republic of Burundi",
+      "Q967"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "28 November 1966, republic",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "high",
+     "note": "Capital again from 2019"
+    }
+   ]
+  },
+  {
+   "place": "Bujumbura (Usumbura)",
+   "lat": -3.38,
+   "lon": 29.36,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1680,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Imbo plain chiefdoms",
+     "date": "pre-kingdom",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1680,
+     "to": 1896,
+     "ruler": "Kingdom of Burundi",
+     "aliases": [
+      "Burundi",
+      "Ganwa kingdom"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1680 kingdom; Imbo plain loosely held",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1896,
+     "to": 1916,
+     "ruler": "German Empire",
+     "aliases": [
+      "Germany",
+      "German East Africa",
+      "Q43287"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1896, German military post (Usumbura)",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1916,
+     "to": 1962,
+     "ruler": "Belgium",
+     "aliases": [
+      "Ruanda-Urundi",
+      "Q31"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "June 1916, Belgian occupation; capital of Ruanda-Urundi",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1962,
+     "to": 1966,
+     "ruler": "Kingdom of Burundi",
+     "aliases": [
+      "Burundi"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 July 1962",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1966,
+     "to": 2025,
+     "ruler": "Burundi",
+     "aliases": [
+      "Republic of Burundi",
+      "Q967"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "28 November 1966, republic",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Sofala",
+   "lat": -20.15,
+   "lon": 34.73,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1505,
+     "ruler": "Sheikhdom of Sofala",
+     "aliases": [
+      "Sofala"
+     ],
+     "overlord": "Kilwa Sultanate",
+     "peoples": null,
+     "date": "Kilwa control since 1180s",
+     "source": "https://en.wikipedia.org/wiki/Sofala",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1505,
+     "to": 1891,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Portuguese Mozambique",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1505, Fort São Caetano built",
+     "source": "https://en.wikipedia.org/wiki/Sofala",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1891,
+     "to": 1942,
+     "ruler": "Mozambique Company",
+     "aliases": [
+      "Companhia de Moçambique"
+     ],
+     "overlord": "Portuguese Empire",
+     "peoples": null,
+     "date": "11 February 1891 charter for Manica and Sofala",
+     "source": "https://en.wikipedia.org/wiki/Mozambique_Company",
+     "confidence": "moderate",
+     "note": "Charter ended 18 July 1942"
+    },
+    {
+     "from": 1942,
+     "to": 1975,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Portuguese Mozambique",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1942, direct Portuguese administration",
+     "source": "https://en.wikipedia.org/wiki/Mozambique_Company",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1975,
+     "to": 2025,
+     "ruler": "Mozambique",
+     "aliases": [
+      "People's Republic of Mozambique",
+      "Republic of Mozambique",
+      "Q1029"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 June 1975, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Island of Mozambique",
+   "lat": -15.03,
+   "lon": 40.73,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1507,
+     "ruler": "Sheikhdom of Mozambique",
+     "aliases": [
+      "Mozambique sultanate"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Swahili town founded by 14th century",
+     "source": "https://en.wikipedia.org/wiki/Island_of_Mozambique",
+     "confidence": "moderate",
+     "note": "Ties to Kilwa and Angoche"
+    },
+    {
+     "from": 1507,
+     "to": 1975,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Portuguese Mozambique",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1507, Portuguese port and naval base",
+     "source": "https://en.wikipedia.org/wiki/Island_of_Mozambique",
+     "confidence": "high",
+     "note": "Dutch sieges 1607-08 failed; capital of Portuguese East Africa until 1898"
+    },
+    {
+     "from": 1975,
+     "to": 2025,
+     "ruler": "Mozambique",
+     "aliases": [
+      "People's Republic of Mozambique",
+      "Republic of Mozambique",
+      "Q1029"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 June 1975, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Tete",
+   "lat": -16.16,
+   "lon": 33.59,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1531,
+     "ruler": "Mutapa Empire",
+     "aliases": [
+      "Kingdom of Mutapa",
+      "Monomotapa",
+      "Mwenemutapa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Mutapa state formed 14th-15th c.; Tete region within its sphere",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+     "confidence": "low",
+     "note": "Swahili trading post; 1400-c.1430 predates Mutapa (Tonga/Shona chiefdoms)"
+    },
+    {
+     "from": 1531,
+     "to": 1975,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Portuguese Mozambique",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1531, Portuguese settlement founded",
+     "source": "https://en.wikipedia.org/wiki/Tete,_Mozambique",
+     "confidence": "high",
+     "note": "Town charter 1761; Chioko/Mapondera revolt 1897-1902 threatened but did not take Tete"
+    },
+    {
+     "from": 1975,
+     "to": 2025,
+     "ruler": "Mozambique",
+     "aliases": [
+      "People's Republic of Mozambique",
+      "Republic of Mozambique",
+      "Q1029"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 June 1975, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Maputo (Lourenço Marques)",
+   "lat": -25.97,
+   "lon": 32.57,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1721,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Tsonga (Ronga) chiefdoms: Mpfumo, Tembe",
+     "date": "pre-colonial; Portuguese trading visits from 1544",
+     "source": "https://en.wikipedia.org/wiki/Maputo",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1721,
+     "to": 1730,
+     "ruler": "Dutch East India Company",
+     "aliases": [
+      "VOC",
+      "Dutch Republic",
+      "Vereenigde Oostindische Compagnie"
+     ],
+     "overlord": "Dutch Republic",
+     "peoples": null,
+     "date": "April 1721, Dutch fort governed; abandoned December 1730",
+     "source": "https://en.wikipedia.org/wiki/Delagoa_Bay",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1730,
+     "to": 1777,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Tsonga chiefdoms",
+     "date": "Dutch abandonment",
+     "source": "https://en.wikipedia.org/wiki/Delagoa_Bay",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1777,
+     "to": 1781,
+     "ruler": "Habsburg Monarchy",
+     "aliases": [
+      "Austria",
+      "Imperial Asiatic Company of Trieste"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1777/78, Bolts's Austrian factory",
+     "source": "https://en.wikipedia.org/wiki/Delagoa_Bay",
+     "confidence": "moderate",
+     "note": "Trading factory only"
+    },
+    {
+     "from": 1781,
+     "to": 1975,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Portuguese Mozambique",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1781, Portuguese expelled Austrians and built fort",
+     "source": "https://en.wikipedia.org/wiki/Delagoa_Bay",
+     "confidence": "moderate",
+     "note": "Authority long confined to the fort; MacMahon award 1875; capital from 1898"
+    },
+    {
+     "from": 1975,
+     "to": 2025,
+     "ruler": "Mozambique",
+     "aliases": [
+      "People's Republic of Mozambique",
+      "Republic of Mozambique",
+      "Q1029"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 June 1975, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Manjacaze (Gaza)",
+   "lat": -24.71,
+   "lon": 33.88,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1824,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Chopi and Tsonga chiefdoms",
+     "date": "pre-Gaza",
+     "source": "https://en.wikipedia.org/wiki/Gaza_Empire",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1824,
+     "to": 1895,
+     "ruler": "Gaza Empire",
+     "aliases": [
+      "Gaza kingdom"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1824, founded by Soshangane",
+     "source": "https://en.wikipedia.org/wiki/Gaza_Empire",
+     "confidence": "moderate",
+     "note": "Capital Mandlakazi (Manjacaze) from 1884; nominal Portuguese protectorate 1882/85-95 not effective"
+    },
+    {
+     "from": 1895,
+     "to": 1975,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Portuguese Mozambique",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "November-December 1895, Portuguese conquest; Gungunhana captured at Chaimite 28 Dec 1895",
+     "source": "https://en.wikipedia.org/wiki/Gaza_Empire",
+     "confidence": "high",
+     "note": "Final revolt 1897"
+    },
+    {
+     "from": 1975,
+     "to": 2025,
+     "ruler": "Mozambique",
+     "aliases": [
+      "People's Republic of Mozambique",
+      "Republic of Mozambique",
+      "Q1029"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 June 1975, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Lichinga (Niassa highlands)",
+   "lat": -13.31,
+   "lon": 35.24,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1800,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Yao, Makua and Nyanja peoples",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Yao_people_(East_Africa)",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1800,
+     "to": 1912,
+     "ruler": "Mataka chiefdom",
+     "aliases": [
+      "Mataka",
+      "Yao of Mataka"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "19th century Yao chieftaincy centred on Mwembe",
+     "source": "https://en.wikipedia.org/wiki/Yao_people_(East_Africa)",
+     "confidence": "low",
+     "note": "Mataka killed Portuguese Valadim party 1889"
+    },
+    {
+     "from": 1912,
+     "to": 1929,
+     "ruler": "Niassa Company",
+     "aliases": [
+      "Nyassa Company",
+      "Companhia do Niassa"
+     ],
+     "overlord": "Portuguese Empire",
+     "peoples": null,
+     "date": "1909-1912 military campaigns subdued Yao interior",
+     "source": "https://en.wikipedia.org/wiki/Niassa_Company",
+     "confidence": "low",
+     "note": "Company chartered 1891; occupied inland 1900-02 per Wikipedia"
+    },
+    {
+     "from": 1929,
+     "to": 1975,
+     "ruler": "Portuguese Empire",
+     "aliases": [
+      "Portugal",
+      "Portuguese Mozambique",
+      "Q45"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "27 October 1929, charter not renewed",
+     "source": "https://en.wikipedia.org/wiki/Niassa_Company",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1975,
+     "to": 2025,
+     "ruler": "Mozambique",
+     "aliases": [
+      "People's Republic of Mozambique",
+      "Republic of Mozambique",
+      "Q1029"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "25 June 1975, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Great Zimbabwe (Masvingo)",
+   "lat": -20.27,
+   "lon": 30.93,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1450,
+     "ruler": "Kingdom of Zimbabwe",
+     "aliases": [
+      "Great Zimbabwe state"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "capital since 13th century; decline from early 15th century",
+     "source": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1450,
+     "to": 1683,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Karanga Shona chiefdoms",
+     "date": "decline; power shifted north (Mutapa) and west (Butua)",
+     "source": "https://en.wikipedia.org/wiki/Great_Zimbabwe",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1683,
+     "to": 1835,
+     "ruler": "Rozvi Empire",
+     "aliases": [
+      "Changamire state",
+      "Rozwi"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1683, Changamire Dombo's state",
+     "source": "https://en.wikipedia.org/wiki/Rozvi_Empire",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1835,
+     "to": 1890,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Karanga chiefdoms (Mugabe, Nemanwa), raided by the Ndebele",
+     "date": "c.1835 Rozvi collapse",
+     "source": "https://en.wikipedia.org/wiki/Rozvi_Empire",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1890,
+     "to": 1923,
+     "ruler": "British South Africa Company",
+     "aliases": [
+      "BSAC",
+      "Chartered Company"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "August 1890, Pioneer Column encampment at Fort Victoria",
+     "source": "https://en.wikipedia.org/wiki/Masvingo",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1923,
+     "to": 1953,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Southern Rhodesia",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 October 1923, self-governing Crown colony of Southern Rhodesia",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "high",
+     "note": "BSAC rule ended; self-governing colony"
+    },
+    {
+     "from": 1953,
+     "to": 1964,
+     "ruler": "Federation of Rhodesia and Nyasaland",
+     "aliases": [
+      "Central African Federation",
+      "Southern Rhodesia"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1 August 1953, federation formed (dissolved 31 Dec 1963)",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": "Southern Rhodesia a member territory"
+    },
+    {
+     "from": 1964,
+     "to": 1965,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Southern Rhodesia"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1964, Southern Rhodesia after dissolution of federation",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1965,
+     "to": 1979,
+     "ruler": "Rhodesia",
+     "aliases": [
+      "Republic of Rhodesia",
+      "UDI Rhodesia"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 November 1965, Unilateral Declaration of Independence",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "high",
+     "note": "Unrecognised but de facto governing"
+    },
+    {
+     "from": 1979,
+     "to": 1980,
+     "ruler": "Zimbabwe Rhodesia",
+     "aliases": [],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 June 1979",
+     "source": "https://en.wikipedia.org/wiki/Zimbabwe_Rhodesia",
+     "confidence": "high",
+     "note": "British governor resumed control 12 Dec 1979 until independence (Southern Rhodesia under British administration)"
+    },
+    {
+     "from": 1980,
+     "to": 2025,
+     "ruler": "Zimbabwe",
+     "aliases": [
+      "Republic of Zimbabwe",
+      "Q954"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 April 1980, independence",
+     "source": "https://en.wikipedia.org/wiki/Zimbabwe_Rhodesia",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Harare (Salisbury)",
+   "lat": -17.83,
+   "lon": 31.05,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1450,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Shona chiefdoms",
+     "date": "pre-Mutapa",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1450,
+     "to": 1693,
+     "ruler": "Mutapa Empire",
+     "aliases": [
+      "Kingdom of Mutapa",
+      "Monomotapa",
+      "Mwenemutapa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Mutapa expansion over northern plateau",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1693,
+     "to": 1835,
+     "ruler": "Rozvi Empire",
+     "aliases": [
+      "Changamire state",
+      "Rozwi"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1693, Changamire Dombo expelled Portuguese feiras from plateau",
+     "source": "https://en.wikipedia.org/wiki/Rozvi_Empire",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1835,
+     "to": 1890,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Shona chiefdoms (Neharawa, Seke, Chinamhora)",
+     "date": "Rozvi collapse",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1890,
+     "to": 1923,
+     "ruler": "British South Africa Company",
+     "aliases": [
+      "BSAC",
+      "Chartered Company"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "12 September 1890, Fort Salisbury founded",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1923,
+     "to": 1953,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Southern Rhodesia",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 October 1923, self-governing Crown colony of Southern Rhodesia",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "high",
+     "note": "BSAC rule ended; self-governing colony"
+    },
+    {
+     "from": 1953,
+     "to": 1964,
+     "ruler": "Federation of Rhodesia and Nyasaland",
+     "aliases": [
+      "Central African Federation",
+      "Southern Rhodesia"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1 August 1953, federation formed (dissolved 31 Dec 1963)",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": "Southern Rhodesia a member territory"
+    },
+    {
+     "from": 1964,
+     "to": 1965,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Southern Rhodesia"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1964, Southern Rhodesia after dissolution of federation",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1965,
+     "to": 1979,
+     "ruler": "Rhodesia",
+     "aliases": [
+      "Republic of Rhodesia",
+      "UDI Rhodesia"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 November 1965, Unilateral Declaration of Independence",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "high",
+     "note": "Unrecognised but de facto governing"
+    },
+    {
+     "from": 1979,
+     "to": 1980,
+     "ruler": "Zimbabwe Rhodesia",
+     "aliases": [],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 June 1979",
+     "source": "https://en.wikipedia.org/wiki/Zimbabwe_Rhodesia",
+     "confidence": "high",
+     "note": "British governor resumed control 12 Dec 1979 until independence (Southern Rhodesia under British administration)"
+    },
+    {
+     "from": 1980,
+     "to": 2025,
+     "ruler": "Zimbabwe",
+     "aliases": [
+      "Republic of Zimbabwe",
+      "Q954"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 April 1980, independence",
+     "source": "https://en.wikipedia.org/wiki/Zimbabwe_Rhodesia",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Bulawayo",
+   "lat": -20.15,
+   "lon": 28.58,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1425,
+     "ruler": "Kingdom of Zimbabwe",
+     "aliases": [
+      "Great Zimbabwe state"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "before Butua",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Butua",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1425,
+     "to": 1683,
+     "ruler": "Kingdom of Butua",
+     "aliases": [
+      "Torwa state",
+      "Butwa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1425, Torwa kingdom, capital Khami (20 km west)",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Butua",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1683,
+     "to": 1838,
+     "ruler": "Rozvi Empire",
+     "aliases": [
+      "Changamire state",
+      "Rozwi"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1683, Dombo conquered Butua",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Butua",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1838,
+     "to": 1893,
+     "ruler": "Ndebele Kingdom",
+     "aliases": [
+      "Mthwakazi",
+      "Matabeleland"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1838-40, Mzilikazi subdued the area; Bulawayo founded c.1840",
+     "source": "https://en.wikipedia.org/wiki/Bulawayo",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1893,
+     "to": 1923,
+     "ruler": "British South Africa Company",
+     "aliases": [
+      "BSAC",
+      "Chartered Company"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "4 November 1893, Jameson declared BSAC rule",
+     "source": "https://en.wikipedia.org/wiki/Bulawayo",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1923,
+     "to": 1953,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Southern Rhodesia",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 October 1923, self-governing Crown colony of Southern Rhodesia",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "high",
+     "note": "BSAC rule ended; self-governing colony"
+    },
+    {
+     "from": 1953,
+     "to": 1964,
+     "ruler": "Federation of Rhodesia and Nyasaland",
+     "aliases": [
+      "Central African Federation",
+      "Southern Rhodesia"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1 August 1953, federation formed (dissolved 31 Dec 1963)",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": "Southern Rhodesia a member territory"
+    },
+    {
+     "from": 1964,
+     "to": 1965,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Southern Rhodesia"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1964, Southern Rhodesia after dissolution of federation",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1965,
+     "to": 1979,
+     "ruler": "Rhodesia",
+     "aliases": [
+      "Republic of Rhodesia",
+      "UDI Rhodesia"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 November 1965, Unilateral Declaration of Independence",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "high",
+     "note": "Unrecognised but de facto governing"
+    },
+    {
+     "from": 1979,
+     "to": 1980,
+     "ruler": "Zimbabwe Rhodesia",
+     "aliases": [],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 June 1979",
+     "source": "https://en.wikipedia.org/wiki/Zimbabwe_Rhodesia",
+     "confidence": "high",
+     "note": "British governor resumed control 12 Dec 1979 until independence (Southern Rhodesia under British administration)"
+    },
+    {
+     "from": 1980,
+     "to": 2025,
+     "ruler": "Zimbabwe",
+     "aliases": [
+      "Republic of Zimbabwe",
+      "Q954"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 April 1980, independence",
+     "source": "https://en.wikipedia.org/wiki/Zimbabwe_Rhodesia",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Mount Darwin (Mutapa heartland)",
+   "lat": -16.77,
+   "lon": 31.58,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1430,
+     "ruler": "Kingdom of Zimbabwe",
+     "aliases": [
+      "Great Zimbabwe state"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "pre-Mutapa",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1430,
+     "to": 1629,
+     "ruler": "Mutapa Empire",
+     "aliases": [
+      "Kingdom of Mutapa",
+      "Monomotapa",
+      "Mwenemutapa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Mutota founding, early capitals in Dande-Musengezi area",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1629,
+     "to": 1693,
+     "ruler": "Mutapa Empire",
+     "aliases": [
+      "Kingdom of Mutapa",
+      "Monomotapa",
+      "Mwenemutapa"
+     ],
+     "overlord": "Portuguese Empire",
+     "peoples": null,
+     "date": "1629, Mavhura's vassalage treaty with Portugal",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1693,
+     "to": 1723,
+     "ruler": "Mutapa Empire",
+     "aliases": [
+      "Kingdom of Mutapa",
+      "Monomotapa",
+      "Mwenemutapa"
+     ],
+     "overlord": "Rozvi Empire",
+     "peoples": null,
+     "date": "1693, Rozvi attacks ended Portuguese plateau feiras",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+     "confidence": "moderate",
+     "note": "Rozvi vassalage imposed c.1712"
+    },
+    {
+     "from": 1723,
+     "to": 1894,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Korekore Shona chiefdoms",
+     "date": "from 1723 Mutapa capital in Zambezi valley",
+     "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1894,
+     "to": 1923,
+     "ruler": "British South Africa Company",
+     "aliases": [
+      "BSAC",
+      "Chartered Company"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "mid-1890s BSAC administration of northern Mashonaland (exact date not found)",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "low",
+     "note": "Mapondera's resistance c.1894-1903"
+    },
+    {
+     "from": 1923,
+     "to": 1953,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Southern Rhodesia",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 October 1923, self-governing Crown colony of Southern Rhodesia",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "high",
+     "note": "BSAC rule ended; self-governing colony"
+    },
+    {
+     "from": 1953,
+     "to": 1964,
+     "ruler": "Federation of Rhodesia and Nyasaland",
+     "aliases": [
+      "Central African Federation",
+      "Southern Rhodesia"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1 August 1953, federation formed (dissolved 31 Dec 1963)",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": "Southern Rhodesia a member territory"
+    },
+    {
+     "from": 1964,
+     "to": 1965,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Southern Rhodesia"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 January 1964, Southern Rhodesia after dissolution of federation",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1965,
+     "to": 1979,
+     "ruler": "Rhodesia",
+     "aliases": [
+      "Republic of Rhodesia",
+      "UDI Rhodesia"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "11 November 1965, Unilateral Declaration of Independence",
+     "source": "https://en.wikipedia.org/wiki/Harare",
+     "confidence": "high",
+     "note": "Unrecognised but de facto governing"
+    },
+    {
+     "from": 1979,
+     "to": 1980,
+     "ruler": "Zimbabwe Rhodesia",
+     "aliases": [],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 June 1979",
+     "source": "https://en.wikipedia.org/wiki/Zimbabwe_Rhodesia",
+     "confidence": "high",
+     "note": "British governor resumed control 12 Dec 1979 until independence (Southern Rhodesia under British administration)"
+    },
+    {
+     "from": 1980,
+     "to": 2025,
+     "ruler": "Zimbabwe",
+     "aliases": [
+      "Republic of Zimbabwe",
+      "Q954"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 April 1980, independence",
+     "source": "https://en.wikipedia.org/wiki/Zimbabwe_Rhodesia",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Lealui (Barotseland)",
+   "lat": -15.22,
+   "lon": 22.99,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1650,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Luyi (Aluyi) ancestors",
+     "date": "before kingdom",
+     "source": "https://en.wikipedia.org/wiki/Barotseland",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1650,
+     "to": 1840,
+     "ruler": "Barotseland",
+     "aliases": [
+      "Lozi Kingdom",
+      "Bulozi",
+      "Barotse kingdom"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "17th century kingdom founded",
+     "source": "https://en.wikipedia.org/wiki/Barotseland",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1840,
+     "to": 1864,
+     "ruler": "Kololo Kingdom",
+     "aliases": [
+      "Makololo"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1840, Sebitwane's Makololo conquest",
+     "source": "https://en.wikipedia.org/wiki/Barotseland",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1864,
+     "to": 1897,
+     "ruler": "Barotseland",
+     "aliases": [
+      "Lozi Kingdom",
+      "Bulozi",
+      "Barotse kingdom"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1864, Lozi restoration; Lealui built 1878",
+     "source": "https://en.wikipedia.org/wiki/Barotseland",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1897,
+     "to": 1924,
+     "ruler": "Barotseland",
+     "aliases": [
+      "Lozi Kingdom",
+      "Bulozi",
+      "Barotse kingdom"
+     ],
+     "overlord": "British South Africa Company",
+     "peoples": null,
+     "date": "1897 first British resident; Lawley Concession 1898; protectorate 1899",
+     "source": "https://en.wikipedia.org/wiki/Barotseland",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1924,
+     "to": 1964,
+     "ruler": "Barotseland",
+     "aliases": [
+      "Lozi Kingdom",
+      "Bulozi",
+      "Barotse kingdom"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1924, Crown took over Northern Rhodesia",
+     "source": "https://en.wikipedia.org/wiki/Barotseland",
+     "confidence": "high",
+     "note": "Federation 1953-63"
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Zambia",
+     "aliases": [
+      "Republic of Zambia",
+      "Q953"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "24 October 1964; Barotseland Agreement revoked 1969",
+     "source": "https://en.wikipedia.org/wiki/Barotseland",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Mwansabombwe (Kazembe)",
+   "lat": -9.82,
+   "lon": 28.75,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1740,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Shila and Bwile peoples",
+     "date": "before Lunda conquest",
+     "source": "https://en.wikipedia.org/wiki/Kazembe",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1740,
+     "to": 1899,
+     "ruler": "Kazembe Kingdom",
+     "aliases": [
+      "Lunda of Kazembe",
+      "Mwata Kazembe's kingdom"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1740, Lunda migration under first Mwata Kazembe",
+     "source": "https://en.wikipedia.org/wiki/Kazembe",
+     "confidence": "moderate",
+     "note": "Reduced by Msiri 1856-1890"
+    },
+    {
+     "from": 1899,
+     "to": 1924,
+     "ruler": "British South Africa Company",
+     "aliases": [
+      "BSAC",
+      "Chartered Company"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1899, BSAC expedition burned capital; Kazembe submitted",
+     "source": "https://en.wikipedia.org/wiki/Kazembe",
+     "confidence": "high",
+     "note": "North-Eastern Rhodesia; indirect rule"
+    },
+    {
+     "from": 1924,
+     "to": 1953,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Northern Rhodesia",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 April 1924, Crown took over Northern Rhodesia from BSAC",
+     "source": "https://en.wikipedia.org/wiki/Lusaka",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1953,
+     "to": 1964,
+     "ruler": "Federation of Rhodesia and Nyasaland",
+     "aliases": [
+      "Central African Federation",
+      "Northern Rhodesia"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1 August 1953 (dissolved 31 Dec 1963)",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": "Northern Rhodesia a member territory; Jan-Oct 1964 Northern Rhodesia again a British protectorate"
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Zambia",
+     "aliases": [
+      "Republic of Zambia",
+      "Q953"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "24 October 1964, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Lusaka",
+   "lat": -15.42,
+   "lon": 28.28,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1899,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Lenje and Soli peoples",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Lusaka",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1899,
+     "to": 1924,
+     "ruler": "British South Africa Company",
+     "aliases": [
+      "BSAC",
+      "Chartered Company"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1899, Barotziland-North-Western Rhodesia; railway stop 1905",
+     "source": "https://en.wikipedia.org/wiki/Lusaka",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1924,
+     "to": 1953,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Northern Rhodesia",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 April 1924, Crown took over Northern Rhodesia from BSAC",
+     "source": "https://en.wikipedia.org/wiki/Lusaka",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1953,
+     "to": 1964,
+     "ruler": "Federation of Rhodesia and Nyasaland",
+     "aliases": [
+      "Central African Federation",
+      "Northern Rhodesia"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1 August 1953 (dissolved 31 Dec 1963)",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": "Northern Rhodesia a member territory; Jan-Oct 1964 Northern Rhodesia again a British protectorate"
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Zambia",
+     "aliases": [
+      "Republic of Zambia",
+      "Q953"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "24 October 1964, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Zomba",
+   "lat": -15.39,
+   "lon": 35.32,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1480,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Pre-Maravi (Banda) clans",
+     "date": "pre-Maravi",
+     "source": "https://en.wikipedia.org/wiki/Maravi",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1480,
+     "to": 1800,
+     "ruler": "Maravi",
+     "aliases": [
+      "Maravi Confederacy",
+      "Kalonga's kingdom",
+      "Malawi empire"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1480, Kalonga kingship; Lundu's southern branch",
+     "source": "https://en.wikipedia.org/wiki/Maravi",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1800,
+     "to": 1891,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Mang'anja and Yao chiefdoms",
+     "date": "Maravi decline; Yao arrivals 19th c.",
+     "source": "https://en.wikipedia.org/wiki/Maravi",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1891,
+     "to": 1953,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "British Central Africa Protectorate",
+      "Nyasaland",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1891, British Central Africa Protectorate, capital Zomba",
+     "source": "https://en.wikipedia.org/wiki/British_Central_Africa_Protectorate",
+     "confidence": "high",
+     "note": "Nyasaland from 6 July 1907"
+    },
+    {
+     "from": 1953,
+     "to": 1964,
+     "ruler": "Federation of Rhodesia and Nyasaland",
+     "aliases": [
+      "Central African Federation",
+      "Nyasaland"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1 August 1953 (dissolved 31 Dec 1963)",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": "Nyasaland a member territory"
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Malawi",
+     "aliases": [
+      "Republic of Malawi",
+      "Q1020"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "6 July 1964, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Lilongwe",
+   "lat": -13.97,
+   "lon": 33.79,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1450,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Pre-Maravi (Banda) clans",
+     "date": "pre-Maravi",
+     "source": "https://en.wikipedia.org/wiki/Maravi",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1450,
+     "to": 1800,
+     "ruler": "Maravi",
+     "aliases": [
+      "Maravi Confederacy",
+      "Kalonga's kingdom",
+      "Malawi empire"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "before 1450 kingship adopted",
+     "source": "https://en.wikipedia.org/wiki/Maravi",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1800,
+     "to": 1904,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Chewa chiefdoms; Maseko Ngoni raids from c.1837",
+     "date": "Maravi decline",
+     "source": "https://en.wikipedia.org/wiki/Maravi",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1904,
+     "to": 1953,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Nyasaland",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1904, administrative centre",
+     "source": "https://en.wikipedia.org/wiki/Lilongwe",
+     "confidence": "low",
+     "note": "British control of central region may date from 1896-98 Ngoni campaigns"
+    },
+    {
+     "from": 1953,
+     "to": 1964,
+     "ruler": "Federation of Rhodesia and Nyasaland",
+     "aliases": [
+      "Central African Federation",
+      "Nyasaland"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1 August 1953 (dissolved 31 Dec 1963)",
+     "source": "https://en.wikipedia.org/wiki/Federation_of_Rhodesia_and_Nyasaland",
+     "confidence": "high",
+     "note": "Nyasaland a member territory"
+    },
+    {
+     "from": 1964,
+     "to": 2025,
+     "ruler": "Malawi",
+     "aliases": [
+      "Republic of Malawi",
+      "Q1020"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "6 July 1964, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": "Capital from 1975"
+    }
+   ]
+  },
+  {
+   "place": "Gaborone",
+   "lat": -24.65,
+   "lon": 25.91,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1890,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Tswana (Kwena) and, from c.1880, Tlokwa",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Gaborone",
+     "confidence": "moderate",
+     "note": "Bechuanaland Protectorate proclaimed 31 March 1885 over the area"
+    },
+    {
+     "from": 1890,
+     "to": 1966,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Bechuanaland Protectorate",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1890, Gaberones fort",
+     "source": "https://en.wikipedia.org/wiki/Gaborone",
+     "confidence": "moderate",
+     "note": "Protectorate capital Mafeking until 1965"
+    },
+    {
+     "from": 1966,
+     "to": 2025,
+     "ruler": "Botswana",
+     "aliases": [
+      "Republic of Botswana",
+      "Q963"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "30 September 1966",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Ghanzi (Kalahari)",
+   "lat": -21.7,
+   "lon": 21.65,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1898,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "San (Naro and other Khoe-speaking peoples)",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Ghanzi",
+     "confidence": "moderate",
+     "note": "Tawana kingdom claimed the area; Ngamiland in protectorate from 1890 but officials reached Ngamiland only 1894"
+    },
+    {
+     "from": 1898,
+     "to": 1966,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Bechuanaland Protectorate",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1897-98, Boer settlement under protectorate auspices",
+     "source": "https://en.wikipedia.org/wiki/Ghanzi",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1966,
+     "to": 2025,
+     "ruler": "Botswana",
+     "aliases": [
+      "Republic of Botswana",
+      "Q963"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "30 September 1966",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Windhoek",
+   "lat": -22.56,
+   "lon": 17.08,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1840,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Herero, Nama, Damara and San peoples",
+     "date": "pre-1840",
+     "source": "https://en.wikipedia.org/wiki/History_of_Windhoek",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1840,
+     "to": 1880,
+     "ruler": "Orlam Afrikaners",
+     "aliases": [
+      "Jonker Afrikaner's polity"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1840, Jonker Afrikaner settlement",
+     "source": "https://en.wikipedia.org/wiki/History_of_Windhoek",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1880,
+     "to": 1890,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Herero and Nama",
+     "date": "1880s, Herero-Nama wars destroyed settlement",
+     "source": "https://en.wikipedia.org/wiki/History_of_Windhoek",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1890,
+     "to": 1915,
+     "ruler": "German Empire",
+     "aliases": [
+      "Germany",
+      "German South West Africa",
+      "Q43287"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "18 October 1890, von François founded fort",
+     "source": "https://en.wikipedia.org/wiki/History_of_Windhoek",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1915,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "South West Africa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1915, South African capture of Windhoek",
+     "source": "https://en.wikipedia.org/wiki/History_of_Windhoek",
+     "confidence": "high",
+     "note": "Military occupation 1915, then League of Nations C mandate (South West Africa)"
+    },
+    {
+     "from": 1961,
+     "to": 1990,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "South West Africa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961, republic (continued administering South West Africa)",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1990,
+     "to": 2025,
+     "ruler": "Namibia",
+     "aliases": [
+      "Republic of Namibia",
+      "Q1030"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "21 March 1990, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Walvis Bay",
+   "lat": -22.96,
+   "lon": 14.51,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1878,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Topnaar (ǂAonin) Nama",
+     "date": "pre-annexation",
+     "source": "https://en.wikipedia.org/wiki/Walvis_Bay",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1878,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Cape Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 March 1878, British annexation; Cape Colony 1884",
+     "source": "https://en.wikipedia.org/wiki/Walvis_Bay",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910",
+     "source": "https://en.wikipedia.org/wiki/Walvis_Bay",
+     "confidence": "high",
+     "note": "Brief German overrun 1914-15; administered with SWA 1922-77"
+    },
+    {
+     "from": 1961,
+     "to": 1994,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": "Retained by SA after Namibian independence 1990"
+    },
+    {
+     "from": 1994,
+     "to": 2025,
+     "ruler": "Namibia",
+     "aliases": [
+      "Republic of Namibia",
+      "Q1030"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1 March 1994, transfer to Namibia",
+     "source": "https://en.wikipedia.org/wiki/Walvis_Bay",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Lüderitz",
+   "lat": -26.65,
+   "lon": 15.16,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1884,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Nama (ǃAman of Bethanie)",
+     "date": "pre-colonial; Lüderitz land purchase 1883",
+     "source": "https://en.wikipedia.org/wiki/Lüderitz",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1884,
+     "to": 1914,
+     "ruler": "German Empire",
+     "aliases": [
+      "Germany",
+      "German South West Africa",
+      "Q43287"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1884, German protection (24 April telegram; flag 7 August)",
+     "source": "https://en.wikipedia.org/wiki/Lüderitz",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1914,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "South West Africa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1914, South African landing at Lüderitz (administration from 1915)",
+     "source": "https://en.wikipedia.org/wiki/Lüderitz",
+     "confidence": "moderate",
+     "note": "Military occupation 1915, then League of Nations C mandate (South West Africa)"
+    },
+    {
+     "from": 1961,
+     "to": 1990,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "South West Africa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961, republic (continued administering South West Africa)",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1990,
+     "to": 2025,
+     "ruler": "Namibia",
+     "aliases": [
+      "Republic of Namibia",
+      "Q1030"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "21 March 1990, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Ondangwa (Ondonga)",
+   "lat": -17.91,
+   "lon": 15.98,
+   "kind": "interior",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1600,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Pre-Ovambo / early Ovambo settlers",
+     "date": "before kingdom",
+     "source": "https://en.wikipedia.org/wiki/Kambonde_kaMpingana",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1600,
+     "to": 1915,
+     "ruler": "Kingdom of Ondonga",
+     "aliases": [
+      "Ondonga",
+      "Ovamboland"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Ovambo kingdom (17th century origin)",
+     "source": "https://en.wikipedia.org/wiki/Kambonde_kaMpingana",
+     "confidence": "moderate",
+     "note": "Outside German Police Zone; never effectively occupied by Germany"
+    },
+    {
+     "from": 1915,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "South West Africa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1915, Ondangwa made administrative centre after occupation",
+     "source": "https://en.wikipedia.org/wiki/Ondangwa",
+     "confidence": "high",
+     "note": "Military occupation 1915, then League of Nations C mandate (South West Africa)"
+    },
+    {
+     "from": 1961,
+     "to": 1990,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "South West Africa"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961, republic (continued administering South West Africa)",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1990,
+     "to": 2025,
+     "ruler": "Namibia",
+     "aliases": [
+      "Republic of Namibia",
+      "Q1030"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "21 March 1990, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Cape Town",
+   "lat": -33.92,
+   "lon": 18.42,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1652,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Khoekhoe (Goringhaiqua, Gorachouqua) herders",
+     "date": "pre-colonial",
+     "source": "https://en.wikipedia.org/wiki/Cape_Colony",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1652,
+     "to": 1795,
+     "ruler": "Dutch East India Company",
+     "aliases": [
+      "VOC",
+      "Dutch Republic",
+      "Vereenigde Oostindische Compagnie"
+     ],
+     "overlord": "Dutch Republic",
+     "peoples": null,
+     "date": "6 April 1652, VOC station",
+     "source": "https://en.wikipedia.org/wiki/Cape_Colony",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1795,
+     "to": 1803,
+     "ruler": "British Empire",
+     "aliases": [
+      "Kingdom of Great Britain",
+      "Cape Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "September 1795, after Battle of Muizenberg",
+     "source": "https://en.wikipedia.org/wiki/Cape_Colony",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1803,
+     "to": 1806,
+     "ruler": "Batavian Republic",
+     "aliases": [
+      "Bataafse Republiek"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "February 1803, Treaty of Amiens returned Cape",
+     "source": "https://en.wikipedia.org/wiki/Cape_Colony",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1806,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Cape Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January 1806, Battle of Blaauwberg; ceded 1814",
+     "source": "https://en.wikipedia.org/wiki/Cape_Colony",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910, Union formed",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 2025,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961, republic",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": "Same state continues through 1994 democratic transition"
+    }
+   ]
+  },
+  {
+   "place": "Durban",
+   "lat": -29.86,
+   "lon": 31.02,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1820,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Nguni chiefdoms",
+     "date": "pre-Zulu",
+     "source": "https://en.wikipedia.org/wiki/History_of_Durban",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1820,
+     "to": 1839,
+     "ruler": "Zulu Kingdom",
+     "aliases": [
+      "KwaZulu",
+      "Zulu Empire"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1820 Zulu dominance; Shaka granted Port Natal to traders 1824",
+     "source": "https://en.wikipedia.org/wiki/History_of_Durban",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1839,
+     "to": 1842,
+     "ruler": "Natalia Republic",
+     "aliases": [
+      "Republic of Natalia"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1839, Voortrekker republic",
+     "source": "https://en.wikipedia.org/wiki/History_of_Durban",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1842,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Colony of Natal",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May-June 1842, Congella and relief of siege",
+     "source": "https://en.wikipedia.org/wiki/History_of_Durban",
+     "confidence": "high",
+     "note": "Natal annexed 1843-44"
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910, Union formed",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 2025,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961, republic",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": "Same state continues through 1994 democratic transition"
+    }
+   ]
+  },
+  {
+   "place": "Ulundi",
+   "lat": -28.33,
+   "lon": 31.42,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1816,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Nguni chiefdoms (Zulu clan; Mthethwa paramountcy)",
+     "date": "pre-kingdom",
+     "source": "https://en.wikipedia.org/wiki/Zulu_Kingdom",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1816,
+     "to": 1879,
+     "ruler": "Zulu Kingdom",
+     "aliases": [
+      "KwaZulu",
+      "Zulu Empire"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1816, Shaka's accession",
+     "source": "https://en.wikipedia.org/wiki/Zulu_Kingdom",
+     "confidence": "high",
+     "note": "oNdini Cetshwayo's capital"
+    },
+    {
+     "from": 1879,
+     "to": 1887,
+     "ruler": "Zululand chiefdoms",
+     "aliases": [
+      "Zulu kinglets",
+      "Zululand"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "July 1879 Battle of Ulundi; 13 'kinglets'",
+     "source": "https://en.wikipedia.org/wiki/Zulu_Kingdom",
+     "confidence": "moderate",
+     "note": "Cetshwayo restored 1883; civil war; New Republic 1884 to the west"
+    },
+    {
+     "from": 1887,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Colony of Zululand",
+      "Colony of Natal",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1887, British annexation of Zululand; Natal 1897",
+     "source": "https://en.wikipedia.org/wiki/Zulu_Kingdom",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910, Union formed",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 2025,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961, republic",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": "KwaZulu homeland (capital Ulundi, self-governing, not nominally independent) 1977-1994"
+    }
+   ]
+  },
+  {
+   "place": "Bloemfontein",
+   "lat": -29.12,
+   "lon": 26.21,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1846,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "!Orana (Korana), Barolong Tswana, Griqua; Trekboers",
+     "date": "pre-1846",
+     "source": "https://en.wikipedia.org/wiki/Bloemfontein",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1846,
+     "to": 1854,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Orange River Sovereignty",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1846, Warden's fort; Orange River Sovereignty Feb 1848",
+     "source": "https://en.wikipedia.org/wiki/Bloemfontein",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1854,
+     "to": 1900,
+     "ruler": "Orange Free State",
+     "aliases": [
+      "Oranje-Vrijstaat"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "23 February 1854, Bloemfontein Convention",
+     "source": "https://en.wikipedia.org/wiki/Bloemfontein",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1900,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Orange River Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "13 March 1900, British capture",
+     "source": "https://en.wikipedia.org/wiki/Bloemfontein",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910, Union formed",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 2025,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961, republic",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": "Same state continues through 1994 democratic transition"
+    }
+   ]
+  },
+  {
+   "place": "Pretoria",
+   "lat": -25.75,
+   "lon": 28.19,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1827,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Southern Ndebele (Manala) and Tswana chiefdoms",
+     "date": "pre-Mfecane",
+     "source": "https://en.wikipedia.org/wiki/Pretoria",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1827,
+     "to": 1837,
+     "ruler": "Ndebele Kingdom",
+     "aliases": [
+      "Mthwakazi",
+      "Matabeleland"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1820s, Mzilikazi's Ndebele",
+     "source": "https://en.wikipedia.org/wiki/Pretoria",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1837,
+     "to": 1852,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Voortrekker settlements; Tswana/Ndebele",
+     "date": "1837 Ndebele expelled northward",
+     "source": "https://en.wikipedia.org/wiki/Pretoria",
+     "confidence": "low",
+     "note": "Fragmented trekker communities before ZAR recognition"
+    },
+    {
+     "from": 1852,
+     "to": 1877,
+     "ruler": "South African Republic",
+     "aliases": [
+      "ZAR",
+      "Transvaal",
+      "Zuid-Afrikaansche Republiek"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1852, Sand River Convention; Pretoria founded 1855, capital 1860",
+     "source": "https://en.wikipedia.org/wiki/Pretoria",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1877,
+     "to": 1881,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Transvaal Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 April 1877, British annexation",
+     "source": "https://en.wikipedia.org/wiki/Pretoria",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1881,
+     "to": 1900,
+     "ruler": "South African Republic",
+     "aliases": [
+      "ZAR",
+      "Transvaal",
+      "Zuid-Afrikaansche Republiek"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "3 August 1881, Pretoria Convention",
+     "source": "https://en.wikipedia.org/wiki/Pretoria",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1900,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Transvaal Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "5 June 1900, British capture",
+     "source": "https://en.wikipedia.org/wiki/Pretoria",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910, Union formed",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 2025,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961, republic",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": "Same state continues through 1994 democratic transition"
+    }
+   ]
+  },
+  {
+   "place": "Kimberley",
+   "lat": -28.74,
+   "lon": 24.77,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1820,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "San, Khoekhoe (Korana) and Tswana",
+     "date": "pre-Griqua",
+     "source": "https://en.wikipedia.org/wiki/Griqualand_West",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1820,
+     "to": 1871,
+     "ruler": "Griqua (Waterboer)",
+     "aliases": [
+      "Griqualand West",
+      "Griquas"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "early 1800s Griqua settlement",
+     "source": "https://en.wikipedia.org/wiki/Griqualand_West",
+     "confidence": "low",
+     "note": "Orange Free State administered dry diggings 1870-71"
+    },
+    {
+     "from": 1871,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Griqualand West",
+      "Cape Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "27 October 1871, British annexation of Griqualand West; Cape 1880",
+     "source": "https://en.wikipedia.org/wiki/Griqualand_West",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910, Union formed",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 2025,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961, republic",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": "Same state continues through 1994 democratic transition"
+    }
+   ]
+  },
+  {
+   "place": "Bhisho (King William's Town)",
+   "lat": -32.85,
+   "lon": 27.44,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1700,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Khoekhoe (Gonaqua) and Xhosa",
+     "date": "pre-Xhosa consolidation",
+     "source": "https://en.wikipedia.org/wiki/British_Kaffraria",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1700,
+     "to": 1835,
+     "ruler": "Xhosa Kingdom",
+     "aliases": [
+      "Rharhabe Xhosa",
+      "Ngqika"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Xhosa consolidation west of Kei; Rharhabe/Ngqika chiefs from c.1750",
+     "source": "https://en.wikipedia.org/wiki/British_Kaffraria",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1835,
+     "to": 1836,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Queen Adelaide Province",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "May 1835, Queen Adelaide Province",
+     "source": "https://en.wikipedia.org/wiki/British_Kaffraria",
+     "confidence": "high",
+     "note": "Abandoned December 1836"
+    },
+    {
+     "from": 1836,
+     "to": 1847,
+     "ruler": "Xhosa Kingdom",
+     "aliases": [
+      "Rharhabe Xhosa",
+      "Ngqika"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "December 1836, British withdrawal",
+     "source": "https://en.wikipedia.org/wiki/British_Kaffraria",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1847,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "British Kaffraria",
+      "Cape Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "December 1847, British Kaffraria; Cape 1866",
+     "source": "https://en.wikipedia.org/wiki/British_Kaffraria",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 1981,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1981,
+     "to": 1994,
+     "ruler": "Ciskei",
+     "aliases": [
+      "Republic of Ciskei"
+     ],
+     "overlord": "Republic of South Africa",
+     "peoples": null,
+     "date": "4 December 1981, nominal independence (capital Bisho)",
+     "source": "https://en.wikipedia.org/wiki/Ciskei",
+     "confidence": "moderate",
+     "note": "Recognised only by South Africa; King William's Town itself stayed in RSA"
+    },
+    {
+     "from": 1994,
+     "to": 2025,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "22 March 1994 collapse; reincorporated 27 April 1994",
+     "source": "https://en.wikipedia.org/wiki/Ciskei",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Mthatha (Umtata)",
+   "lat": -31.59,
+   "lon": 28.78,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1875,
+     "ruler": "Thembu Kingdom",
+     "aliases": [
+      "abaThembu",
+      "Thembuland"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Thembu paramountcy",
+     "source": "https://en.wikipedia.org/wiki/Mthatha",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1875,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Cape Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1875, magistrate's office; military post 1882",
+     "source": "https://en.wikipedia.org/wiki/Mthatha",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 1976,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1976,
+     "to": 1994,
+     "ruler": "Transkei",
+     "aliases": [
+      "Republic of Transkei"
+     ],
+     "overlord": "Republic of South Africa",
+     "peoples": null,
+     "date": "26 October 1976, nominal independence",
+     "source": "https://en.wikipedia.org/wiki/Transkei",
+     "confidence": "moderate",
+     "note": "Recognised only by South Africa"
+    },
+    {
+     "from": 1994,
+     "to": 2025,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "27 April 1994, reincorporation",
+     "source": "https://en.wikipedia.org/wiki/Transkei",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Tsate (Pedi capital)",
+   "lat": -24.62,
+   "lon": 29.97,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1650,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Sotho-speaking chiefdoms",
+     "date": "pre-Pedi",
+     "source": "https://en.wikipedia.org/wiki/Pedi_people",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1650,
+     "to": 1879,
+     "ruler": "Pedi Kingdom",
+     "aliases": [
+      "Maroteng",
+      "Bapedi"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1650, settled south of Steelpoort River; height under Thulare c.1780-1820",
+     "source": "https://en.wikipedia.org/wiki/Pedi_people",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1879,
+     "to": 1881,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Transvaal Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "November-2 December 1879, Wolseley's conquest",
+     "source": "https://en.wikipedia.org/wiki/Sekhukhune",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1881,
+     "to": 1900,
+     "ruler": "South African Republic",
+     "aliases": [
+      "ZAR",
+      "Transvaal",
+      "Zuid-Afrikaansche Republiek"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "3 August 1881",
+     "source": "https://en.wikipedia.org/wiki/Sekhukhune",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1900,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Transvaal Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1900, British conquest of Transvaal",
+     "source": "https://en.wikipedia.org/wiki/Pretoria",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910, Union formed",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 2025,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961, republic",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": "Lebowa homeland (self-governing, not nominally independent) 1972-1994"
+    }
+   ]
+  },
+  {
+   "place": "Thohoyandou (Venda)",
+   "lat": -22.95,
+   "lon": 30.48,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1690,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Ngona and Mbedzi Venda chiefdoms",
+     "date": "pre-Singo",
+     "source": "https://en.wikipedia.org/wiki/Venda_Kingdom",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1690,
+     "to": 1780,
+     "ruler": "Venda Kingdom",
+     "aliases": [
+      "Singo state"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "late 17th century, Singo dynasty at Dzata",
+     "source": "https://en.wikipedia.org/wiki/Venda_Kingdom",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1780,
+     "to": 1898,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Venda chiefdoms (Tshivhase, Mphaphuli, Ramabulana)",
+     "date": "c.1780 collapse",
+     "source": "https://en.wikipedia.org/wiki/Venda_Kingdom",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1898,
+     "to": 1900,
+     "ruler": "South African Republic",
+     "aliases": [
+      "ZAR",
+      "Transvaal",
+      "Zuid-Afrikaansche Republiek"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1898, ZAR invasion; Mphephu fled",
+     "source": "https://en.wikipedia.org/wiki/Venda_Kingdom",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1900,
+     "to": 1910,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Transvaal Colony",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1900-1902, British conquest of Transvaal",
+     "source": "https://en.wikipedia.org/wiki/Venda_Kingdom",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1910,
+     "to": 1961,
+     "ruler": "Union of South Africa",
+     "aliases": [
+      "South Africa",
+      "Union"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1910",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1961,
+     "to": 1979,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "31 May 1961",
+     "source": "https://en.wikipedia.org/wiki/Union_of_South_Africa",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1979,
+     "to": 1994,
+     "ruler": "Venda",
+     "aliases": [
+      "Republic of Venda"
+     ],
+     "overlord": "Republic of South Africa",
+     "peoples": null,
+     "date": "13 September 1979, nominal independence",
+     "source": "https://en.wikipedia.org/wiki/Venda_(Bantustan)",
+     "confidence": "moderate",
+     "note": "Recognised only by South Africa"
+    },
+    {
+     "from": 1994,
+     "to": 2025,
+     "ruler": "Republic of South Africa",
+     "aliases": [
+      "South Africa",
+      "Q258"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "27 April 1994, reincorporation",
+     "source": "https://en.wikipedia.org/wiki/Venda_(Bantustan)",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Thaba Bosiu",
+   "lat": -29.35,
+   "lon": 27.67,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1824,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Sotho chiefdoms; San",
+     "date": "pre-1824",
+     "source": "https://en.wikipedia.org/wiki/Thaba_Bosiu",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1824,
+     "to": 1868,
+     "ruler": "Basotho Kingdom",
+     "aliases": [
+      "Lesotho (Moshoeshoe's kingdom)",
+      "Basutoland"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "July 1824, Moshoeshoe settled plateau",
+     "source": "https://en.wikipedia.org/wiki/Thaba_Bosiu",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1868,
+     "to": 1966,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "Basutoland",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 March 1868, British protection/annexation",
+     "source": "https://en.wikipedia.org/wiki/Basutoland",
+     "confidence": "high",
+     "note": "Cape Colony 1871-84 (Gun War 1880-81); Crown 18 March 1884"
+    },
+    {
+     "from": 1966,
+     "to": 2025,
+     "ruler": "Lesotho",
+     "aliases": [
+      "Kingdom of Lesotho",
+      "Q1013"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "4 October 1966",
+     "source": "https://en.wikipedia.org/wiki/Basutoland",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Lobamba",
+   "lat": -26.45,
+   "lon": 31.2,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1820,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Nguni and Sotho chiefdoms",
+     "date": "before Swazi expansion north",
+     "source": "https://en.wikipedia.org/wiki/History_of_Eswatini",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1820,
+     "to": 1895,
+     "ruler": "Swazi Kingdom",
+     "aliases": [
+      "Swaziland",
+      "Ngwane",
+      "eSwatini (kingdom)"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1820, Sobhuza I's headquarters moved north",
+     "source": "https://en.wikipedia.org/wiki/Lobamba",
+     "confidence": "moderate",
+     "note": "Swazi state founded mid-1700s by Ngwane III further south"
+    },
+    {
+     "from": 1895,
+     "to": 1899,
+     "ruler": "Swazi Kingdom",
+     "aliases": [
+      "Swaziland",
+      "Ngwane",
+      "eSwatini (kingdom)"
+     ],
+     "overlord": "South African Republic",
+     "peoples": null,
+     "date": "December 1894 convention (effective early 1895), ZAR protection",
+     "source": "https://en.wikipedia.org/wiki/History_of_Eswatini",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1899,
+     "to": 1903,
+     "ruler": "Swazi Kingdom",
+     "aliases": [
+      "Swaziland",
+      "Ngwane",
+      "eSwatini (kingdom)"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "October 1899, ZAR officials withdrew in Boer War",
+     "source": "https://en.wikipedia.org/wiki/History_of_Eswatini",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1903,
+     "to": 1968,
+     "ruler": "Swazi Kingdom",
+     "aliases": [
+      "Swaziland",
+      "Ngwane",
+      "eSwatini (kingdom)"
+     ],
+     "overlord": "British Empire",
+     "peoples": null,
+     "date": "1903, British protectorate",
+     "source": "https://en.wikipedia.org/wiki/History_of_Eswatini",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1968,
+     "to": 2025,
+     "ruler": "Eswatini",
+     "aliases": [
+      "Swaziland",
+      "Kingdom of Eswatini",
+      "Q1050"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "6 September 1968",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Antananarivo",
+   "lat": -18.91,
+   "lon": 47.53,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1610,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Vazimba and early Merina chiefdoms",
+     "date": "before Andrianjaka",
+     "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+     "confidence": "moderate",
+     "note": "Merina kingdom founded c.1540 at Alasora nearby"
+    },
+    {
+     "from": 1610,
+     "to": 1895,
+     "ruler": "Merina Kingdom",
+     "aliases": [
+      "Kingdom of Imerina",
+      "Kingdom of Madagascar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1610, Andrianjaka made it capital",
+     "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+     "confidence": "moderate",
+     "note": "Split c.1710-1787/93; reunified by Andrianampoinimerina"
+    },
+    {
+     "from": 1895,
+     "to": 1897,
+     "ruler": "Merina Kingdom",
+     "aliases": [
+      "Kingdom of Imerina",
+      "Kingdom of Madagascar"
+     ],
+     "overlord": "France",
+     "peoples": null,
+     "date": "30 Sep/1 Oct 1895, French capture; protectorate",
+     "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1897,
+     "to": 1960,
+     "ruler": "France",
+     "aliases": [
+      "French colonial empire",
+      "Colony of Madagascar and Dependencies",
+      "French Madagascar",
+      "Q142"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "28 February 1897, monarchy abolished; colony",
+     "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+     "confidence": "high",
+     "note": "British occupation Sept 1942 - Jan 1943 skipped"
+    },
+    {
+     "from": 1960,
+     "to": 2025,
+     "ruler": "Madagascar",
+     "aliases": [
+      "Malagasy Republic",
+      "Democratic Republic of Madagascar",
+      "Republic of Madagascar",
+      "Q1019"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 June 1960, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": "Malagasy Republic autonomous in French Community from Oct 1958"
+    }
+   ]
+  },
+  {
+   "place": "Mahajanga",
+   "lat": -15.72,
+   "lon": 46.32,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1700,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Antalaotra Muslim traders; Sakalava",
+     "date": "pre-Boina",
+     "source": "https://en.wikipedia.org/wiki/Mahajanga",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1700,
+     "to": 1824,
+     "ruler": "Kingdom of Boina",
+     "aliases": [
+      "Boina",
+      "Sakalava"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "Sakalava Boina; city founded c.1745",
+     "source": "https://en.wikipedia.org/wiki/Mahajanga",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1824,
+     "to": 1895,
+     "ruler": "Merina Kingdom",
+     "aliases": [
+      "Kingdom of Imerina",
+      "Kingdom of Madagascar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1824, Merina conquest",
+     "source": "https://en.wikipedia.org/wiki/Mahajanga",
+     "confidence": "high",
+     "note": "French also briefly occupied 1883"
+    },
+    {
+     "from": 1895,
+     "to": 1960,
+     "ruler": "France",
+     "aliases": [
+      "French colonial empire",
+      "Colony of Madagascar and Dependencies",
+      "French Madagascar",
+      "Q142"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1895, French capture",
+     "source": "https://en.wikipedia.org/wiki/Mahajanga",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1960,
+     "to": 2025,
+     "ruler": "Madagascar",
+     "aliases": [
+      "Malagasy Republic",
+      "Democratic Republic of Madagascar",
+      "Republic of Madagascar",
+      "Q1019"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 June 1960, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": "Malagasy Republic autonomous in French Community from Oct 1958"
+    }
+   ]
+  },
+  {
+   "place": "Fort-Dauphin (Tolagnaro)",
+   "lat": -25.03,
+   "lon": 46.98,
+   "kind": "frontier",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1643,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Antanosy (Zafiraminia) chiefdoms",
+     "date": "pre-French",
+     "source": "https://en.wikipedia.org/wiki/Tolagnaro",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1643,
+     "to": 1674,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "French East India Company"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1643, French East India Company fort",
+     "source": "https://en.wikipedia.org/wiki/Tolagnaro",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1674,
+     "to": 1825,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Antanosy chiefdoms",
+     "date": "1674 evacuation",
+     "source": "https://en.wikipedia.org/wiki/Tolagnaro",
+     "confidence": "moderate",
+     "note": "Pirate Abraham Samuel 1697-1705; short French post 1768-71"
+    },
+    {
+     "from": 1825,
+     "to": 1896,
+     "ruler": "Merina Kingdom",
+     "aliases": [
+      "Kingdom of Imerina",
+      "Kingdom of Madagascar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1825, Radama I's conquest",
+     "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1896,
+     "to": 1960,
+     "ruler": "France",
+     "aliases": [
+      "French colonial empire",
+      "Colony of Madagascar and Dependencies",
+      "French Madagascar",
+      "Q142"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1895-96, French takeover of Merina posts",
+     "source": "https://en.wikipedia.org/wiki/Merina_Kingdom",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1960,
+     "to": 2025,
+     "ruler": "Madagascar",
+     "aliases": [
+      "Malagasy Republic",
+      "Democratic Republic of Madagascar",
+      "Republic of Madagascar",
+      "Q1019"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 June 1960, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": "Malagasy Republic autonomous in French Community from Oct 1958"
+    }
+   ]
+  },
+  {
+   "place": "Toamasina (Tamatave)",
+   "lat": -18.15,
+   "lon": 49.4,
+   "kind": "city",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1712,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Betsimisaraka clans",
+     "date": "pre-confederation",
+     "source": "https://en.wikipedia.org/wiki/Toamasina",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1712,
+     "to": 1791,
+     "ruler": "Betsimisaraka Confederation",
+     "aliases": [],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1712, Ratsimilaho",
+     "source": "https://en.wikipedia.org/wiki/Toamasina",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1791,
+     "to": 1817,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Betsimisaraka chiefdoms (Jean René at Tamatave from 1811)",
+     "date": "confederation dissolved",
+     "source": "https://en.wikipedia.org/wiki/Toamasina",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1817,
+     "to": 1883,
+     "ruler": "Merina Kingdom",
+     "aliases": [
+      "Kingdom of Imerina",
+      "Kingdom of Madagascar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1817, Radama I took Tamatave",
+     "source": "https://en.wikipedia.org/wiki/Toamasina",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1883,
+     "to": 1886,
+     "ruler": "France",
+     "aliases": [
+      "French Third Republic",
+      "Q142"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1883, French occupation in First Franco-Hova War",
+     "source": "https://en.wikipedia.org/wiki/Franco-Hova_War",
+     "confidence": "low",
+     "note": "Evacuation date uncertain"
+    },
+    {
+     "from": 1886,
+     "to": 1894,
+     "ruler": "Merina Kingdom",
+     "aliases": [
+      "Kingdom of Imerina",
+      "Kingdom of Madagascar"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "January 1886, Treaty of Tamatave",
+     "source": "https://en.wikipedia.org/wiki/Franco-Hova_War",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1894,
+     "to": 1960,
+     "ruler": "France",
+     "aliases": [
+      "French colonial empire",
+      "Colony of Madagascar and Dependencies",
+      "French Madagascar",
+      "Q142"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 December 1894, French marines took Tamatave",
+     "source": "https://en.wikipedia.org/wiki/Franco-Hova_War",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1960,
+     "to": 2025,
+     "ruler": "Madagascar",
+     "aliases": [
+      "Malagasy Republic",
+      "Democratic Republic of Madagascar",
+      "Republic of Madagascar",
+      "Q1019"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "26 June 1960, independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": "Malagasy Republic autonomous in French Community from Oct 1958"
+    }
+   ]
+  },
+  {
+   "place": "Moroni",
+   "lat": -11.7,
+   "lon": 43.26,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1886,
+     "ruler": "Sultanate of Bambao",
+     "aliases": [
+      "Bambao",
+      "Ngazidja sultanates"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "town well established by 1427 (Badjanani Mosque)",
+     "source": "https://en.wikipedia.org/wiki/Moroni,_Comoros",
+     "confidence": "moderate",
+     "note": "Ngazidja divided among up to 12 sultanates"
+    },
+    {
+     "from": 1886,
+     "to": 1912,
+     "ruler": "Sultanate of Bambao",
+     "aliases": [],
+     "overlord": "France",
+     "peoples": null,
+     "date": "1886, protectorate treaty with France",
+     "source": "https://en.wikipedia.org/wiki/Moroni,_Comoros",
+     "confidence": "high",
+     "note": "Sultan Said Ali of Ngazidja"
+    },
+    {
+     "from": 1912,
+     "to": 1975,
+     "ruler": "France",
+     "aliases": [
+      "French colonial empire",
+      "Comoros Territory",
+      "Q142"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1912, last sultan abdicated; colony (with Madagascar 1908/1912-1946)",
+     "source": "https://en.wikipedia.org/wiki/History_of_the_Comoros",
+     "confidence": "high",
+     "note": "British occupation 1942-46 noted in source"
+    },
+    {
+     "from": 1975,
+     "to": 2025,
+     "ruler": "Comoros",
+     "aliases": [
+      "Union of the Comoros",
+      "Federal Islamic Republic of the Comoros",
+      "State of the Comoros",
+      "Q970"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "6 July 1975, unilateral independence",
+     "source": "https://en.wikipedia.org/wiki/List_of_national_independence_days",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  },
+  {
+   "place": "Dzaoudzi (Mayotte)",
+   "lat": -12.78,
+   "lon": 45.28,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1500,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "Shirazi chiefdoms (fani)",
+     "date": "pre-sultanate",
+     "source": "https://en.wikipedia.org/wiki/Mayotte",
+     "confidence": "low",
+     "note": ""
+    },
+    {
+     "from": 1500,
+     "to": 1843,
+     "ruler": "Sultanate of Mayotte",
+     "aliases": [
+      "Maore"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "c.1500, sultanate established",
+     "source": "https://en.wikipedia.org/wiki/Mayotte",
+     "confidence": "moderate",
+     "note": "Seized by ex-Boina king Andriantsoly 1832; ceded 1841"
+    },
+    {
+     "from": 1843,
+     "to": 2025,
+     "ruler": "France",
+     "aliases": [
+      "French colonial empire",
+      "Mayotte",
+      "Q142"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1841 cession; French possession taken 1843",
+     "source": "https://en.wikipedia.org/wiki/History_of_the_Comoros",
+     "confidence": "moderate",
+     "note": "Remained French after 1974/76 votes; department 2011"
+    }
+   ]
+  },
+  {
+   "place": "Port Louis",
+   "lat": -20.16,
+   "lon": 57.5,
+   "kind": "capital",
+   "timeline": [
+    {
+     "from": 1400,
+     "to": 1638,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "uninhabited",
+     "date": "uninhabited island",
+     "source": "https://en.wikipedia.org/wiki/History_of_Mauritius",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1638,
+     "to": 1710,
+     "ruler": "Dutch East India Company",
+     "aliases": [
+      "VOC",
+      "Dutch Republic",
+      "Vereenigde Oostindische Compagnie"
+     ],
+     "overlord": "Dutch Republic",
+     "peoples": null,
+     "date": "1638, first permanent Dutch settlement (Grand Port)",
+     "source": "https://en.wikipedia.org/wiki/History_of_Mauritius",
+     "confidence": "high",
+     "note": "Settlement lapsed 1658-64"
+    },
+    {
+     "from": 1710,
+     "to": 1721,
+     "ruler": "none",
+     "aliases": [],
+     "overlord": null,
+     "peoples": "uninhabited",
+     "date": "1710, Dutch abandonment; French claim 1715",
+     "source": "https://en.wikipedia.org/wiki/History_of_Mauritius",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1721,
+     "to": 1792,
+     "ruler": "Kingdom of France",
+     "aliases": [
+      "France",
+      "Isle de France"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1721, settlement (Isle de France); Port Louis 1735",
+     "source": "https://en.wikipedia.org/wiki/History_of_Mauritius",
+     "confidence": "moderate",
+     "note": "French East India Company to 1767"
+    },
+    {
+     "from": 1792,
+     "to": 1804,
+     "ruler": "French First Republic",
+     "aliases": [
+      "France"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1792",
+     "source": "https://en.wikipedia.org/wiki/History_of_Mauritius",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1804,
+     "to": 1810,
+     "ruler": "French Empire",
+     "aliases": [
+      "France",
+      "First French Empire"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "1804",
+     "source": "https://en.wikipedia.org/wiki/History_of_Mauritius",
+     "confidence": "moderate",
+     "note": ""
+    },
+    {
+     "from": 1810,
+     "to": 1968,
+     "ruler": "British Empire",
+     "aliases": [
+      "United Kingdom",
+      "British Mauritius",
+      "Q8680"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "3 December 1810, British capture",
+     "source": "https://en.wikipedia.org/wiki/History_of_Mauritius",
+     "confidence": "high",
+     "note": ""
+    },
+    {
+     "from": 1968,
+     "to": 2025,
+     "ruler": "Mauritius",
+     "aliases": [
+      "Republic of Mauritius",
+      "Q1027"
+     ],
+     "overlord": null,
+     "peoples": null,
+     "date": "12 March 1968, independence; republic 1992",
+     "source": "https://en.wikipedia.org/wiki/History_of_Mauritius",
+     "confidence": "high",
+     "note": ""
+    }
+   ]
+  }
+ ]
+}

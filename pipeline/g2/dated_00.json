@@ -1,0 +1,1208 @@
+[
+{
+"i": 0,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 1,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 2,
+"k": "dated",
+"y": 1467,
+"t": "Ak Koyunlu ruler Uzun Hasan defeats Jahan Shah, takes western Iran"
+},
+{
+"i": 3,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 4,
+"k": "dated",
+"y": 1478,
+"t": "Grand Prince Ivan III of Moscow annexes the Novgorod Republic"
+},
+{
+"i": 5,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 6,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 7,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 8,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 9,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 10,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 11,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 12,
+"k": "dated",
+"y": 1468,
+"t": "Songhai ruler Sonni Ali captures Timbuktu"
+},
+{
+"i": 13,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 14,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 15,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 16,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 17,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 18,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 19,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 20,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 21,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 22,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 23,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 24,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 25,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 26,
+"k": "dated",
+"y": 1475,
+"t": "Ottoman Empire takes Azov; Crimean Khanate becomes Ottoman vassal"
+},
+{
+"i": 27,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 28,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 29,
+"k": "dated",
+"y": 1438,
+"t": "Ayutthaya annexes the Sukhothai Kingdom"
+},
+{
+"i": 30,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 31,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 32,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 33,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 34,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 35,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 36,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 37,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 38,
+"k": "dated",
+"y": 1490,
+"t": "Malik Ahmad Nizam Shah breaks from the Bahmani Sultanate"
+},
+{
+"i": 39,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 40,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 41,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 42,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 43,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 44,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 45,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 46,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 47,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 48,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 49,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 50,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 51,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 52,
+"k": "dated",
+"y": 1472,
+"t": "Wattasid Muhammad al-Shaykh takes Fez, ending Marinid rule in Morocco"
+},
+{
+"i": 53,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 54,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 55,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 56,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 57,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 58,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 59,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 60,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 61,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 62,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 63,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 64,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 65,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 66,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 67,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 68,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 69,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 70,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 71,
+"k": "dated",
+"y": 1490,
+"t": "Yusuf Adil Shah breaks from the Bahmani Sultanate at Bijapur"
+},
+{
+"i": 72,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 73,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 74,
+"k": "dated",
+"y": 1463,
+"t": "Ottoman Sultan Mehmed II conquers the Kingdom of Bosnia"
+},
+{
+"i": 75,
+"k": "dated",
+"y": 1471,
+"t": "Dai Viet Emperor Le Thanh Tong conquers Champa's capital Vijaya"
+},
+{
+"i": 76,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 77,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 78,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 79,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 80,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 81,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 82,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 83,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 84,
+"k": "dated",
+"y": 1425,
+"t": "Ottoman Sultan Murad II annexes the Aydin beylik"
+},
+{
+"i": 85,
+"k": "dated",
+"y": 1453,
+"t": "French King Charles VII takes Gascony from England after Castillon"
+},
+{
+"i": 86,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 133,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 134,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 135,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 136,
+"k": "dated",
+"y": 1517,
+"t": "Ottoman Sultan Selim I conquers Mamluk Egypt"
+},
+{
+"i": 137,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 138,
+"k": "dated",
+"y": 1516,
+"t": "Ottoman Sultan Selim I takes Diyarbakir and the Jazira from Safavid Iran"
+},
+{
+"i": 139,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 140,
+"k": "dated",
+"y": 1510,
+"t": "Safavid Shah Ismail I defeats Muhammad Shaybani at Merv, takes Khorasan"
+},
+{
+"i": 141,
+"k": "dated",
+"y": 1503,
+"t": "Safavid Shah Ismail I defeats the Ak Koyunlu at Hamadan"
+},
+{
+"i": 142,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 143,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 144,
+"k": "dated",
+"y": 1526,
+"t": "Babur defeats Delhi Sultan Ibrahim Lodi at Panipat"
+},
+{
+"i": 145,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 146,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 147,
+"k": "dated",
+"y": 1523,
+"t": "Gustav Vasa becomes King of Sweden, leaving the Kalmar Union"
+},
+{
+"i": 148,
+"k": "dated",
+"y": 1511,
+"t": "Ilbars founds the Khanate of Khiva in Khwarazm"
+},
+{
+"i": 149,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 150,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 151,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 152,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 153,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 154,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 155,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 156,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 157,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 158,
+"k": "dated",
+"y": 1526,
+"t": "Ottoman Sultan Suleiman I defeats Hungary at Mohacs"
+},
+{
+"i": 159,
+"k": "dated",
+"y": 1521,
+"t": "Hernan Cortes conquers the Aztec capital Tenochtitlan for Spain"
+},
+{
+"i": 160,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 161,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 162,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 163,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 164,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 165,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 166,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 167,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 168,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 169,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 170,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 171,
+"k": "dated",
+"y": 1504,
+"t": "Timurid prince Babur seizes Kabul"
+},
+{
+"i": 172,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 173,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 174,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 175,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 176,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 177,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 178,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 179,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 180,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 181,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 182,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 183,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 184,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 185,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 186,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 187,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 188,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 189,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 190,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 191,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 192,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 193,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 194,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 195,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 196,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 197,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 198,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 199,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 200,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 201,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 202,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 203,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 204,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 205,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 206,
+"k": "dated",
+"y": 1502,
+"t": "Crimean Khan Mengli I Giray destroys the Great Horde"
+},
+{
+"i": 207,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 208,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 209,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 210,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 211,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 212,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 213,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 214,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 215,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 216,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 217,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 218,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 219,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 220,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 221,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 222,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 223,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 224,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 225,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 226,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 227,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 228,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 229,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 230,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 231,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 232,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 233,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 234,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 235,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 236,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 237,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 238,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 239,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 240,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 241,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 242,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 243,
+"k": "undated",
+"y": null,
+"t": null
+},
+{
+"i": 244,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 245,
+"k": "artefact",
+"y": null,
+"t": null
+},
+{
+"i": 246,
+"k": "artefact",
+"y": null,
+"t": null
+}
+]

@@ -1,0 +1,355 @@
+## d-trebizond | 1461 | Ottomans take Trebizond | who: Sultan Mehmed II; Emperor David of Trebizond | where: Trabzon, on Turkey's Black Sea coast
+  bluf: Trebizond's fall eliminated the last Greek successor state of Byzantium and completed Mehmed II's absorption of the Byzantine world. It also gave the Ottomans the southern coast of the Black Sea.
+  now: Trabzon is a major Turkish port, and the lost Pontic homeland is still part of Greek diaspora memory.
+  story: The Empire of Trebizond, a Greek state on the Black Sea ruled by the Komnenos family since 1204, surrendered to Mehmed II in August 1461 after a siege. Its last emperor, David, was taken to Constantinople and executed with his sons in 1463.
+  why: Mehmed set out to remove every rival claimant to the Roman inheritance and to secure Black Sea trade. Trebizond had sought an alliance against him with Uzun Hasan, ruler of a rival Turkmen state.
+  then: Within two decades the Black Sea became largely an Ottoman lake; the Crimean Khanate became a vassal in 1475. Greek Orthodox communities remained on the Pontic coast until the expulsions and population exchange of the 1920s.
+## as15015 | 1501 | Safavid Persia founded | who: Shah Ismail I | where: Iran
+  bluf: Shah Ismail founded the Safavid state and imposed Twelver Shi'ism on a mostly Sunni Iran. That gave Iran a religious identity distinct from its Ottoman and Central Asian neighbours, a divide that still shapes Middle Eastern politics.
+  now: Iran remains the leading Shi'a state and backs Shi'a and allied groups across the region; the Saudi-Iranian rivalry is often framed in Sunni-Shi'a terms.
+  story: Ismail, hereditary head of the Safavid Sufi order and backed by Turkmen warriors called the Qizilbash, took Tabriz in 1501 at about 14 and crowned himself shah. He declared Twelver Shi'a Islam the state religion, enforced it at times violently, and brought in Shi'a scholars from Lebanon and Bahrain to build a clerical establishment.
+  why: The collapse of earlier Turkmen states left a power vacuum. Ismail's movement combined charismatic religious authority with tribal military strength, and Shi'ism set the new state apart from the Sunni Ottomans and Uzbeks.
+  then: Iran became the heartland of Shi'a Islam, with a clerical class that later gained independent power. The Ottoman-Safavid wars fixed a frontier through Mesopotamia and the Caucasus.
+## me-chaldiran | 1514 | Battle of Chaldiran | who: Ottoman Sultan Selim I vs. Shah Ismail I of Safavid Iran | where: Chaldiran, northwest Iran
+  bluf: Chaldiran stopped Safavid expansion into Anatolia and fixed the frontier between the Sunni Ottoman and Shi'a Safavid worlds. It also showed the power of gunpowder armies over traditional cavalry.
+  now: Turkey's border with Iran broadly follows the line fixed by the Treaty of Zuhab (1639), which ended the wars this battle began. The Sunni-Shi'a divide between the two states persists.
+  story: Selim I marched east to stop Shah Ismail from winning over the Turkmen tribes of Anatolia to Shi'ism. At Chaldiran his artillery and Janissary musketeers, behind a barrier of chained wagons, destroyed the Safavid cavalry.
+  why: Shah Ismail's Shi'a missionaries were winning followers among Anatolia's Turkmen tribes, threatening Ottoman control of the east; Selim I repressed suspected Safavid sympathizers before marching.
+  then: Selim took eastern Anatolia, then turned south and conquered the Mamluks (1516-17). The Safavids adopted firearms and later moved their capital away from the exposed frontier.
+## af15176 | 1517 | Ottomans conquer Egypt | who: Sultan Selim I; Mamluks | where: Egypt
+  bluf: Selim I's conquest of the Mamluk sultanate doubled Ottoman territory and gave the sultans Cairo, Damascus and guardianship of Mecca and Medina. The Ottomans became the leading Sunni Muslim power and ruled the Arab heartlands for 400 years.
+  now: Arab memory of the 'Ottoman centuries', seen by some as foreign rule and by others as Islamic unity, starts here. Custody of the holy cities still confers legitimacy, as the Saudi king's title 'Custodian of the Two Holy Mosques' shows.
+  story: Sultan Selim I defeated the Mamluk army at Marj Dabiq in Syria in 1516 and at Ridaniya outside Cairo in January 1517. The last Mamluk sultan was hanged at a Cairo gate, and the Ottomans took Egypt, Syria and guardianship of Mecca and Medina.
+  why: The two empires competed for the frontier lands of southeastern Anatolia and Syria. The Mamluks were weakened by Portuguese disruption of Red Sea trade and had been slow to adopt firearms.
+  trig: Fearing a Mamluk-Safavid alliance after Chaldiran, Selim marched south in 1516.
+  then: The sultans took the title 'Servant of the Two Holy Sanctuaries' and later claimed the caliphate. Egypt's grain and taxes funded the empire, while Mamluk households kept real power in Egyptian politics under Ottoman governors.
+## as15208 | 1520 | Suleiman the Magnificent | who: Sultan Suleiman I; his architect Mimar Sinan | where: Ottoman Empire
+  bluf: Suleiman's 46-year reign was the peak of Ottoman power. The empire reached Hungary, Baghdad and North Africa, rivalled the Habsburgs, and built legal and administrative institutions that lasted centuries. It was also the point where expansion hit its geographic limits.
+  now: Suleiman's law code and administration governed the Balkans and the Arab Middle East for three centuries; the provincial boundaries, land law and religious communities he fixed are the raw material of the region's modern states.
+  story: Suleiman took Belgrade (1521), Rhodes (1522) and most of Hungary after Mohács (1526), besieged Vienna (1529), captured Baghdad (1534) and built a navy that dominated the Mediterranean. At home his law codes earned him the title 'the Lawgiver', and his architect Sinan built mosques that still define Istanbul's skyline.
+  why: He inherited a full treasury and an army strengthened by his father's conquest of Egypt and Syria, and a state built to expand: conquest rewarded soldiers and officials with land revenues.
+  then: By his death the empire faced long, costly fronts against the Habsburgs in Hungary, the Safavids in Iraq and Iran, and Portugal in the Indian Ocean. Expansion slowed, and power shifted from sultans to grand viziers and palace factions. He also allied with France against the Habsburgs (1536), an early case of interest overriding religion in European diplomacy.
+  fact: Turkey's television dramas about his reign are exported across the Muslim world.
+## me-abbas | 1598 | Shah Abbas makes Isfahan his capital | who: Shah Abbas I | where: Isfahan, Iran
+  bluf: Shah Abbas rebuilt Safavid Iran into a strong centralized state: he created a standing army loyal to the crown, recovered lost territory and made Isfahan a showcase capital. His reforms let Iran hold its own between the Ottomans and Mughals for another century.
+  now: Abbas rebuilt Persia as a centralised state with a slave army, a capital and a silk export monopoly, which let a Shia Persia survive between Sunni empires; the state he made is the ancestor of modern Iran.
+  story: Abbas I reformed the army with musketeers and artillery, took back land from the Ottomans and the Uzbeks, and in 1598 moved his capital to Isfahan, where he built the vast Naqsh-e Jahan square and its mosques.
+  why: Abbas inherited an empire losing land to the Ottomans and Uzbeks and dominated by Qizilbash tribal chiefs. He needed forces loyal to him alone.
+  then: He built musketeer and artillery corps from converted Caucasian slave-soldiers, retook Tabriz and Baghdad, expelled the Portuguese from Hormuz with English help (1622), and promoted the silk trade. His habit of confining royal princes in the palace produced weak successors.
+  fact: Isfahan's Naqsh-e Jahan square is a World Heritage site.
+## me-diriyah | 1744 | Wahhabi-Saudi alliance | who: Muhammad ibn Abd al-Wahhab; Muhammad bin Saud | where: Diriyah, central Arabia
+  bluf: The pact between Muhammad ibn Abd al-Wahhab and Muhammad bin Saud fused a strict reformist religious movement with a dynasty's political ambitions. It is the founding bargain of the Saudi state: the Al Saud rule, and the Wahhabi clergy legitimize them.
+  now: The partnership remains the foundation of the Saudi state. Oil wealth later funded the spread of Wahhabi-influenced teaching worldwide; since 2017 Crown Prince Mohammed bin Salman has curbed the clergy's power.
+  story: The reformist preacher Muhammad ibn Abd al-Wahhab, who called for a return to a strict reading of Islam, allied with Muhammad bin Saud, ruler of the small town of Diriyah: the Saud family would rule, the preacher's family would guide religion.
+  why: Each side needed the other: the ruler gained religious legitimacy and a cause to expand, the preacher gained protection and power.
+  then: The first Saudi state conquered much of Arabia, including Mecca and Medina, before Ottoman-Egyptian forces destroyed it in 1818. The alliance was revived twice, finally under Ibn Saud in the 20th century.
+## me-napoleonegypt | 1798 | Napoleon invades Egypt | who: Napoleon Bonaparte; the Mamluk beys; Admiral Nelson | where: Cairo and Alexandria
+  bluf: Napoleon's invasion was the first major European military intervention in the Middle East since the Crusades, and it exposed Ottoman weakness. It shattered Mamluk power, opening the way for Muhammad Ali's modernizing state, and launched European scholarly and imperial interest in the region.
+  now: Modern Egyptology began with the expedition's 'Description de l'Égypte'. Edward Said's 'Orientalism' treats the expedition as the start of a European tradition of studying the East in order to dominate it.
+  story: Napoleon defeated the Mamluks at the Battle of the Pyramids in July 1798, but Nelson destroyed his fleet at the Nile weeks later, stranding the army. His scholars surveyed Egypt, and in 1799 soldiers found the Rosetta Stone, the key to deciphering hieroglyphs.
+  why: France wanted to threaten Britain's route to India and its Mediterranean trade, and Napoleon sought glory far from the politics of Paris.
+  then: Napoleon slipped back to France in 1799 and seized power; the stranded army surrendered in 1801.
+## me-muhammadali | 1805 | Muhammad Ali takes power in Egypt | who: Muhammad Ali Pasha | where: Cairo
+  bluf: Muhammad Ali built the Middle East's first modernizing state, with a conscript army, state factories and European-trained officials. His Egypt nearly overthrew the Ottomans until European powers intervened, showing both the promise and the limits of defensive modernization.
+  now: His dynasty ruled Egypt until 1952, and his model of state-led modernization built around the army has recurred across the Middle East.
+  story: After the French left, Muhammad Ali, commander of an Albanian unit in the Ottoman army, won the support of Cairo's notables and became governor in 1805. He massacred the old Mamluk elite in 1811, built a conscript army and factories, and sent students to Europe.
+  why: The French invasion had shattered Mamluk power, leaving a vacuum that a skilled soldier with the backing of Cairo's notables could fill.
+  then: His armies nearly toppled the Ottoman sultan in the 1830s, until the European powers intervened.
+## af183018 | 1830 | France invades Algeria | who: King Charles X's France; the Dey of Algiers, Hussein | where: Algiers
+  bluf: France's conquest of Algeria began its largest settler colony and 132 years of colonial rule. Algeria was made legally part of France and settled by about a million Europeans, which made its eventual war of independence one of the bloodiest of decolonization.
+  now: Algeria's 1954–62 war of independence still shapes French-Algerian relations.
+  story: Using as a pretext a 1827 incident in which the Dey of Algiers struck the French consul with a fly-whisk, France landed troops in June 1830 and took Algiers in July. Conquering the rest of the country took decades, against fierce resistance led by Emir Abd al-Qadir.
+  why: A diplomatic insult provided the pretext; Charles X wanted military prestige to shore up his unpopular regime.
+  then: Conquest took decades against Emir Abd al-Qadir and others, with massacres and land confiscations. Algeria was divided into French departments, and European settlers took the best land.
+## as183928 | 1839 | Ottoman Tanzimat reforms | who: Sultan Abdülmecid I | where: Ottoman Empire
+  bluf: The Tanzimat reforms tried to save the Ottoman Empire by modernizing its army, law and administration along European lines and promising equality to all subjects. They strengthened the central state but could not stop nationalist breakaways or European interference.
+  now: The tension between Westernization and tradition still shapes Turkey, and the Tanzimat is the template for later reform from above across the Middle East.
+  story: In November 1839 the young Sultan Abdülmecid issued the Edict of Gülhane, promising all subjects, Muslim and non-Muslim, security of life, property and fair taxation. Over the next decades the Tanzimat ('reorganisation') reformed the army, courts, schools and administration along European lines.
+  why: Muhammad Ali's Egypt had nearly toppled the sultan, and the Ottomans needed European support and a stronger state to survive.
+  then: The reforms built a modern bureaucracy but angered Muslims who lost their privileged status, and could not stop nationalist breakaways or the empire's growing debts to Europe.
+## af186921 | 1869 | Suez Canal opens | who: Ferdinand de Lesseps; Egyptian laborers | where: Egypt
+  bluf: The Suez Canal cut the sea route between Europe and Asia by thousands of kilometres and made Egypt a vital artery of world trade. Building it plunged Egypt into debt, which led to British occupation, and made the canal a strategic prize fought over for a century.
+  now: About 12% of world trade passes through it. Its nationalization in 1956 set off the Suez Crisis, and the Ever Given blockage of 2021 and Houthi attacks on Red Sea shipping since 2023 show how vulnerable the route remains.
+  story: Built between 1859 and 1869 by Ferdinand de Lesseps's Suez Canal Company, at first largely with forced Egyptian labour, the 164 km canal joined the Mediterranean and the Red Sea. It cut the sea voyage between Europe and India by thousands of kilometres.
+  why: A shorter route between Europe and Asia promised huge profits, and Egypt's ruler Said Pasha granted the concession to his friend de Lesseps.
+  then: Egypt's ruler sold his canal shares to Britain in 1875 and the country went bankrupt; Britain occupied Egypt in 1882 to protect the canal and its investments. The canal sped European trade with Asia and East Africa, and the conquest of both.
+  fact: Egypt's ruler commissioned Verdi's opera Aida around the canal opening; it premiered in Cairo in 1871.
+## d-urabi | 1881 | Urabi revolt | who: Colonel Ahmed Urabi; Khedive Tewfik | where: Cairo
+  bluf: The Urabi movement was Egypt's first nationalist revolt against foreign control of its finances and government. Britain used it as the reason to invade and occupy Egypt.
+  now: The revolt gave Britain its pretext to occupy Egypt in 1882, an occupation that lasted seventy years and made Egyptian nationalism anti-British from its start.
+  story: In September 1881 Urabi led troops to the khedive's palace to demand a constitution and limits on European influence. He became war minister, but Britain and France saw a threat to their loans and to the Suez Canal.
+  why: Egypt's debts had handed Britain and France control of its finances, and Egyptian-born officers resented the Turkish-speaking elite that monopolized senior posts.
+  then: Britain bombarded Alexandria and defeated Urabi at Tel el-Kebir in 1882, then occupied Egypt for over 70 years.
+  fact: Urabi is remembered as an early hero of Egyptian nationalism.
+## af188224 | 1882 | Britain occupies Egypt | who: Britain; Egyptian nationalist Ahmed Urabi | where: Egypt
+  bluf: Britain's occupation of Egypt, to protect the Suez Canal and European creditors, began over 70 years of British control. It drew Britain deeper into Africa, helped set off the Scramble for Africa and made Egypt the base of British power in the Middle East.
+  now: The occupation helped set off the Scramble for Africa and made the Suez Canal a lasting symbol of Egyptian sovereignty.
+  story: After Egypt's bankruptcy put its finances under British and French control, nationalists led by Colonel Ahmed Urabi took power. In July 1882 British warships bombarded Alexandria, and in September Sir Garnet Wolseley's army defeated Urabi at Tel el-Kebir and occupied Cairo.
+  why: To protect the Suez Canal and European bondholders after Egypt's bankruptcy.
+  then: Britain called the occupation temporary but stayed. Egypt was formally independent from 1922, but British troops held the canal zone until 1956.
+## as190845 | 1908 | Young Turk Revolution | who: Young Turk officers | where: Ottoman Empire
+  bluf: The Young Turk Revolution restored the Ottoman constitution and brought reformist officers to power. It turned into a nationalist, centralizing regime that took the empire into World War I and carried out the Armenian genocide.
+  now: Mustafa Kemal (Atatürk) came from this movement, and the Young Turks' turn to Turkish nationalism led both to the Armenian genocide and to the founding of modern Turkey.
+  story: In July 1908 officers of the Committee of Union and Progress, the 'Young Turks', mutinied in Macedonia and forced Sultan Abdulhamid II to restore the constitution of 1876. Elections followed, and in 1909 the Young Turks deposed Abdulhamid after a counter-coup failed.
+  why: Officers wanted to modernize the empire and stop it losing more territory to Balkan nationalists and European powers.
+  then: They led the empire into World War I on Germany's side in 1914, and lost almost all its remaining Arab lands.
+## me-persianoil | 1908 | Oil discovered in Persia | who: William Knox D'Arcy's company (later Anglo-Persian Oil, now BP) | where: Masjed Soleyman, Iran
+  bluf: The discovery of oil in Persia made the Middle East strategically vital, and Britain's control of it tied the region to Western energy security. Iranian resentment of foreign control led to nationalization in 1951, a CIA-backed coup in 1953, and lasting distrust of the West.
+  now: The company became BP; Iranian anger over its terms led to nationalisation in 1951.
+  story: After years of failure and nearly out of money, D'Arcy's drillers struck oil at Masjed Soleyman in May 1908. The Anglo-Persian Oil Company was formed in 1909, and in 1914 the British government bought a controlling stake to fuel the Royal Navy.
+  why: D'Arcy had won a 60-year concession over most of Persia from the Shah in 1901.
+  then: Oil made the region strategically vital, and Britain's need to protect it shaped its Middle East policy for half a century.
+## me-libya | 1911 | Italy invades Libya | who: Italy; the Ottoman Empire; Libyan resistance | where: Tripoli
+  bluf: Italy's seizure of Libya from the Ottomans exposed the empire's weakness and encouraged the Balkan states to attack it. Italy's brutal colonial rule, including concentration camps in the 1930s, left a lasting grievance in Libya.
+  now: Italy's brutal suppression of the resistance, including concentration camps, is a lasting grievance in Libya.
+  story: Italy invaded the Ottoman provinces of Tripolitania and Cyrenaica in 1911 and won them in 1912, though Libyan resistance continued for two decades. On November 1, 1911, an Italian pilot dropped grenades on Ottoman troops: the first aerial bombing in history.
+  why: Italy wanted a colonial empire on the coast opposite it, and the Young Turk government was weak and distracted.
+  then: Ottoman defeat encouraged the Balkan states to attack the empire in 1912, and Libyan resistance under Omar Mukhtar fought on until 1931.
+## me-armenian | 1915 | Armenian genocide | who: The Young Turk government (Committee of Union and Progress); Ottoman Armenians | where: Eastern Anatolia and the Syrian desert
+  bluf: During World War I the Ottoman government deported and killed most of its Armenian population, destroying an ancient community in Anatolia. It is one of the defining genocides of the 20th century, and Turkey's denial of it remains a major issue in its relations with Armenia and the West.
+  now: Turkey denies it was genocide; many countries, including the US in 2021, have formally recognised it.
+  story: Beginning with the arrest of Armenian leaders in Constantinople on April 24, 1915, the government deported Armenians from Anatolia on death marches to the Syrian desert. Massacres, starvation and disease killed most of the deportees; estimates range from about 600,000 to 1.5 million dead.
+  why: Armenians had already suffered massacres in 1894-96. At war with Russia and after heavy defeats, the Young Turk regime branded Armenians a disloyal fifth column and pursued a Turkish-Muslim Anatolia.
+  then: Survivors scattered into a global diaspora in Lebanon, France and the United States, and Anatolia's ethnic map was transformed. The word 'genocide', coined by Raphael Lemkin in 1944, was partly inspired by this case.
+## as191648 | 1916 | Sykes-Picot Agreement | who: Britain (Sykes), France (Picot) | where: Middle East
+  bluf: The secret Sykes-Picot Agreement divided the Ottoman Arab lands into British and French spheres, contradicting promises of Arab independence made to Sharif Hussein of Mecca. The mandates that followed created Iraq, Syria, Lebanon, Jordan and Palestine, and left a lasting sense of Western betrayal.
+  now: It remains a symbol of Western betrayal in the Arab world; ISIS staged the 'end of Sykes-Picot' in 2014 by bulldozing the Iraq-Syria border, though the actual borders came from later deals, not the 1916 lines.
+  story: In May 1916 Mark Sykes and François Georges-Picot secretly agreed how to divide the Ottoman Empire's Arab provinces: France would get Syria and Lebanon, Britain southern Mesopotamia and influence across to the Gulf, with Palestine under international administration. At the same time Britain was promising Sharif Hussein an independent Arab kingdom in return for revolt against the Ottomans, and in 1917 it promised a Jewish national home in Palestine.
+  why: Britain and France, anticipating Ottoman defeat, wanted to secure routes to India, oil and influence, and made overlapping promises to win allies.
+  then: The Bolsheviks published the agreement in 1917, embarrassing Britain. Through the League of Nations mandates of 1920, Britain took Iraq, Palestine and Transjordan and France took Syria and Lebanon, and Arab revolts followed.
+## me-balfour | 1917 | Balfour Declaration | who: British Foreign Secretary Arthur Balfour; Zionist leaders | where: London (about Palestine)
+  bluf: The Balfour Declaration committed Britain to a 'national home for the Jewish people' in Palestine while promising to protect the rights of the Arab majority. Written into Britain's League of Nations mandate, its two promises proved contradictory and lie at the root of the Israeli-Palestinian conflict.
+  now: Israelis see it as international recognition of Zionism; Palestinians, as the root of their dispossession.
+  story: In a letter to Lord Rothschild, Balfour declared British support for 'a national home for the Jewish people' in Palestine, provided nothing was done to prejudice the rights of its 'existing non-Jewish communities', who were about 90% of the population.
+  why: Britain wanted Jewish support for the war effort and a strategic foothold near the Suez Canal.
+  then: Britain ruled Palestine under a League of Nations mandate that incorporated the declaration.
+## af192235 | 1922 | Egypt nominally independent | who: Britain; Egyptian nationalists (Saad Zaghloul) | where: Egypt
+  bluf: Britain's grant of nominal independence to Egypt, while keeping control of defence, Sudan and the Suez Canal, satisfied neither side. Thirty years of frustrated nationalism ended in the 1952 revolution and Nasser's Arab nationalism.
+  now: Egypt's limited independence, with Britain keeping defence and Suez, set up the grievances that led to the 1952 revolution and Nasser's Arab nationalism.
+  story: A nationwide revolution in 1919, led by Saad Zaghloul's Wafd party, forced Britain's hand. Egypt got a king and a parliament, but Britain kept control of defense, Sudan and the Suez Canal.
+  why: The 1919 revolution, led by Saad Zaghloul's Wafd party, made British rule too costly.
+  then: Egyptians resented the half-measure for 30 years until Nasser's 1952 revolution.
+## as192350 | 1923 | Atatürk's Turkish Republic | who: Mustafa Kemal Atatürk | where: Turkey
+  bluf: Atatürk built the Turkish Republic from the ruins of the Ottoman Empire, abolishing the sultanate and caliphate and imposing secularism, Western law and a new alphabet. His top-down secular nationalism made Turkey a model of modernization in the Muslim world, but also suppressed religious and Kurdish identities, tensions that still shape Turkish politics.
+  now: Atatürk's image is still everywhere in Turkey, and its politics since the 2000s under Erdoğan have been partly a contest over his secular legacy.
+  story: After the Ottoman defeat, Mustafa Kemal led a war of independence (1919-22) that drove out Greek, French and Italian forces and overturned the punitive Treaty of Sèvres. He proclaimed the Republic in October 1923, abolished the caliphate (1924), replaced Islamic law with European-style codes, adopted the Latin alphabet (1928) and gave women the vote (1934).
+  why: The Ottoman collapse, the Allied plan to partition Anatolia, and Kemal's conviction that only a secular, Western-style nation-state could survive.
+  then: Turkey was a one-party state until 1950. Religious expression and Kurdish identity were suppressed, and the army cast itself as guardian of secularism, staging coups in 1960, 1971 and 1980.
+  fact: Turkey switched from Arabic script to the Latin alphabet in 1928 and adopted surnames in 1934. 'Atatürk' means 'Father of the Turks'.
+## d-lausanne | 1923 | Treaty of Lausanne | who: Turkey's İsmet İnönü; the Allied powers | where: Lausanne, Switzerland
+  bluf: The Treaty of Lausanne recognized the new Turkey and fixed its borders, replacing the punitive Treaty of Sèvres. It also endorsed a compulsory population exchange between Greece and Turkey, an early case of 'unmixing' peoples by treaty.
+  now: Its borders still largely define modern Turkey, and its lack of any provision for Kurdish self-rule is the root of today's Kurdish question.
+  story: Signed on July 24, 1923, the treaty set Turkey's borders and ended Allied claims in Anatolia. An agreement reached during the talks arranged a population exchange: about 1.2 million Orthodox Christians left Turkey and about 400,000 Muslims left Greece.
+  why: Turkish nationalists under Mustafa Kemal had won their war against Greece.
+  then: Three months later the Republic of Turkey was proclaimed, and the population exchange uprooted communities that had lived together for centuries.
+## d-caliphate | 1924 | Turkey abolishes the caliphate | who: Turkey's Grand National Assembly; the last caliph, Abdulmejid II | where: Ankara
+  bluf: The abolition of the caliphate ended an institution that had claimed leadership of the Muslim world since the 7th century. It left a symbolic vacuum that Islamist movements have tried to fill ever since.
+  now: Islamist movements, including ISIS in 2014, have claimed to restore it.
+  story: On March 3, 1924, the assembly abolished the caliphate and exiled the Ottoman family. Religious courts and schools were closed, and over the next years Turkey adopted European law codes, the Latin alphabet and votes for women.
+  why: Mustafa Kemal saw the caliphate as a rival centre of power and an obstacle to a secular state.
+  then: Attempts to revive the caliphate elsewhere came to nothing, and Turkey's secularization went further, banning religious dress for officials and replacing Arabic script.
+## me-saudi | 1932 | Kingdom of Saudi Arabia proclaimed | who: Abdulaziz ibn Saud | where: Riyadh
+  bluf: Ibn Saud united most of the Arabian Peninsula under his family through conquest and his alliance with Wahhabi clerics. The Saudi state, soon enriched by oil, became a key US ally and the custodian of Islam's holiest sites.
+  now: His sons have ruled the kingdom ever since; the royal family's alliance with Wahhabi clerics and with US security guarantees still defines the Saudi state.
+  story: Starting with the capture of Riyadh in 1902, Abdulaziz ibn Saud conquered central Arabia and, in 1924-25, the holy cities of Mecca and Medina. In 1932 he proclaimed the Kingdom of Saudi Arabia.
+  why: Military skill, Wahhabi religious backing and, at times, British subsidies.
+  then: American geologists struck oil in 1938, and the Saudi state's partnership with the United States began.
+## me-saudioil | 1938 | Oil struck in Saudi Arabia | who: Standard Oil of California geologists | where: Dammam, Saudi Arabia
+  bluf: The discovery of oil in Saudi Arabia, on the edge of the world's largest reserves, made the kingdom central to the global economy. It created the US-Saudi oil-for-security relationship that has shaped Middle East politics ever since.
+  now: Saudi Aramco is one of the world's most valuable companies, and Saudi decisions on output still move world oil prices and shape relations with Washington.
+  story: Well No. 7 at Dammam began producing in commercial quantities in March 1938. It sat on the edge of what proved to be the world's largest oil reserves.
+  why: Ibn Saud needed money after the Depression cut pilgrimage income, and granted a concession in 1933 to an American company, Standard Oil of California.
+  then: The partnership became Aramco; the US and Saudi Arabia formed a lasting oil-for-security relationship.
+## w2-alamein | 1942 | El Alamein | who: Montgomery's Eighth Army vs. Rommel's Afrika Korps | where: El Alamein, Egypt
+  bluf: El Alamein was Britain's first major land victory, saving Egypt, the Suez Canal and Middle Eastern oil from the Axis. With the Allied landings in North Africa days later, it drove the Axis out of Africa.
+  now: It ended the Axis threat to the Suez Canal and Middle Eastern oil, which became central to Western strategy in the region after the war.
+  story: In summer 1942 Rommel's German and Italian army drove deep into Egypt before being stopped at El Alamein. On October 23, Montgomery's Eighth Army, with more than twice as many tanks and guns and helped by intelligence from decoded German messages, attacked. After about twelve days of fighting the Axis lines broke, and Rommel retreated across Libya.
+  why: Control of Egypt, the Suez Canal and Middle Eastern oil; Rommel had advanced to within about 100 km of Alexandria.
+  then: US and British troops landed in Morocco and Algeria days later, and the Axis forces in North Africa surrendered in Tunisia in May 1943.
+## as194858 | 1948 | Israel founded | who: David Ben-Gurion; neighboring Arab states | where: Palestine
+  bluf: The founding of Israel created a Jewish state three years after the Holocaust, and the war that followed displaced about 700,000 Palestinians. Israelis celebrate it as independence; Palestinians mourn it as the Nakba ('catastrophe'). The conflict it began remains unresolved.
+  now: Borders, refugees, Jerusalem and Palestinian statehood remain unresolved and sit at the heart of Middle East politics.
+  story: In November 1947 the UN voted to partition British-ruled Palestine into Jewish and Arab states; Jewish leaders accepted, Arab leaders rejected the plan, and civil war broke out. On May 14, 1948, as the British mandate ended, David Ben-Gurion declared the State of Israel, and Egypt, Jordan, Syria, Iraq and Lebanon invaded. By 1949 Israel held more territory than the UN plan had allotted, while Jordan held the West Bank and Egypt held Gaza.
+  why: Decades of Zionist immigration and state-building under the British mandate, the Holocaust's impact on Jewish refugees and world opinion, and Arab opposition to a Jewish state in a land with an Arab majority.
+  trig: The end of the British mandate on May 14, 1948, after the UN partition vote.
+  then: About 700,000 Palestinians fled or were expelled and were not allowed to return. Over the following years hundreds of thousands of Jews left or were driven out of Arab countries, many settling in Israel. No peace treaties followed, and wars recurred.
+  fact: The US recognized Israel 11 minutes after it declared independence.
+## me-egypt1952 | 1952 | Egyptian revolution | who: The Free Officers (Gamal Abdel Nasser, Muhammad Naguib) | where: Cairo
+  bluf: The Free Officers' coup ended Egypt's monarchy and British dominance and brought Nasser, who became the champion of Arab nationalism. It began the pattern of military rule that has dominated Egypt since.
+  now: Egypt has been led by military men for almost all the time since, apart from 2012-13.
+  story: On July 23, 1952, the Free Officers seized power and forced King Farouk into exile. Nasser emerged as leader in 1954, launched land reform and pushed the British out of the Suez Canal zone.
+  why: Anger at a corrupt monarchy, British influence and defeat in the 1948 war with Israel.
+  then: Nasser nationalized the Suez Canal in 1956 and became the leader of Arab nationalism.
+## me-iran1953 | 1953 | Coup in Iran | who: CIA and MI6; Prime Minister Mohammad Mosaddegh; the Shah | where: Tehran
+  bluf: The CIA- and MI6-backed coup against Mosaddegh restored the Shah's power after Iran nationalized its oil. It entrenched authoritarian rule and planted deep Iranian distrust of the United States, a key grievance behind the 1979 revolution.
+  now: The CIA formally acknowledged its role in 2013; resentment of the coup helped fuel the 1979 revolution.
+  story: Mosaddegh nationalised the Anglo-Iranian Oil Company in 1951. Britain imposed a boycott, and in August 1953 the CIA and MI6 organised a coup with royalist officers that restored the Shah's power.
+  why: Britain wanted its oil back; the US feared Iran would drift toward the Soviet Union.
+  then: The Shah ruled increasingly autocratically for 25 more years, backed by the US and his secret police, SAVAK.
+## af195439 | 1954 | Algerian War | who: FLN vs. France | where: Algeria
+  bluf: Algeria's war of independence was one of the most brutal of decolonization and ended 132 years of French rule. It toppled France's Fourth Republic, brought de Gaulle back to power, and left a legacy of torture, trauma and migration that still shapes French and Algerian politics.
+  now: The war still shapes French politics, immigration debates and French-Algerian relations.
+  story: The FLN began an armed uprising in 1954. France sent 400,000 troops, used torture and mass detention, and fought the FLN inside Algiers itself.
+  why: Over a century of settler domination, land confiscation and denial of equal rights to Algerian Muslims, the example of other independence movements, and France's defeat in Indochina.
+  trig: Coordinated FLN attacks across Algeria on November 1, 1954.
+  then: The war killed hundreds of thousands of Algerians. The crisis brought de Gaulle to power in 1958, and he negotiated independence in the Évian Accords (1962). About a million European settlers, and many Algerians who had fought for France, fled to France.
+## af195640 | 1956 | Suez Crisis | who: Nasser; Britain, France, Israel; US & USSR | where: Egypt
+  bluf: When Britain, France and Israel invaded Egypt after Nasser nationalized the Suez Canal, the United States forced them to withdraw. The crisis ended Britain's and France's ability to act as independent imperial powers and confirmed the United States and Soviet Union as the arbiters of world affairs.
+  now: It marked the moment the United States replaced Britain and France as the dominant Western power in the Middle East.
+  story: In July 1956 Nasser nationalized the British- and French-owned Suez Canal Company. Britain, France and Israel secretly agreed that Israel would invade Sinai and the two European powers would intervene as 'peacekeepers' to seize the canal. When they attacked in October-November, the United States, furious and fearing a Soviet foothold, threatened to sink the British pound, the Soviets threatened rocket attacks, and the invaders withdrew.
+  why: Nasser nationalised the canal to pay for the Aswan Dam after the US and Britain withdrew funding.
+  trig: Nasser's nationalization of the canal in July 1956, after the United States and Britain withdrew funding for the Aswan Dam.
+  then: Nasser became the hero of the Arab world, Britain's prime minister resigned, and the UN sent its first armed peacekeeping force.
+  fact: Eisenhower forced Britain to retreat by threatening to dump US holdings of British pounds.
+## d-algiers | 1957 | Battle of Algiers | who: The FLN; French paratroopers under General Jacques Massu | where: Algiers
+  bluf: French paratroopers destroyed the FLN's network in Algiers using systematic torture, winning the battle but losing the war of opinion. It became the classic case study of counterinsurgency and its moral costs.
+  now: France won the battle with torture and lost the argument: the methods discredited the war at home and abroad, and Algeria was independent five years later.
+  story: In 1956-57 the FLN bombed cafés and called a general strike in Algiers. From January 1957 the 10th Parachute Division took control of the city and arrested thousands; torture and disappearances were widespread. By October the FLN network in the city had been destroyed.
+  why: The FLN brought the war to the capital to win world attention, and France's government handed the army police powers to crush it.
+  then: Revelations of torture turned French and world opinion against the war, and Algeria won independence in 1962.
+  fact: The 1966 film of the battle is still studied by armies.
+## d-evian | 1962 | Évian Accords | who: The French government; the FLN's provisional government | where: Évian-les-Bains, France
+  bluf: The Évian Accords ended the Algerian War and led to independence, but also to the flight of nearly a million settlers and reprisals against Algerians who had served France. Their painful legacy still shapes French-Algerian relations.
+  now: The memory of the Algerian war still shapes relations between France and Algeria, French debates on immigration, and the legitimacy of Algeria's ruling elite.
+  story: Signed on March 18, 1962, the accords led to a referendum on July 1 in which Algerians voted overwhelmingly for independence; Algeria became independent on July 5. Nearly a million European settlers left for France.
+  why: De Gaulle had concluded that Algeria could not be held at an acceptable cost.
+  then: The settler terror group OAS fought on, and Algerians who had served France, the harkis, faced deadly reprisals.
+## me-plo | 1964 | PLO founded | who: Arab League; Palestinian leaders (later Yasser Arafat) | where: Jerusalem
+  bluf: The PLO gave Palestinians a political organization and, under Arafat, an independent national movement. It moved from armed struggle to recognizing Israel in 1993, but has never achieved a state.
+  now: The PLO recognised Israel in 1993; its Fatah faction leads the Palestinian Authority in the West Bank.
+  story: The Arab League set up the Palestine Liberation Organization in 1964. After the 1967 war, guerrilla groups led by Arafat's Fatah took it over and made it an independent Palestinian movement, using armed attacks against Israel.
+  why: Palestinians, scattered across refugee camps and neighbouring states after 1948, lacked a political voice, and Arab states wanted to control their cause.
+  then: After a civil war with Jordan in 1970-71 ('Black September'), the PLO moved its base to Lebanon, where its presence helped trigger civil war.
+## as196764 | 1967 | Six-Day War | who: Israel vs. Egypt, Syria, Jordan | where: Middle East
+  bluf: Israel's victory in the Six-Day War tripled the territory it controlled, taking Sinai, Gaza, the West Bank, East Jerusalem and the Golan Heights. It transformed the conflict: occupation of Palestinian territories, settlements, and 'land for peace' became the central issues.
+  now: Israel still occupies the West Bank and the Golan Heights, and settlements are at the heart of today's disputes.
+  story: In June 1967, after Egypt expelled UN peacekeepers from Sinai and closed the Straits of Tiran to Israeli shipping, Israel struck first, destroying most of Egypt's air force on the ground. In six days it took Sinai and Gaza from Egypt, the West Bank and East Jerusalem from Jordan, and the Golan Heights from Syria.
+  why: Rising tension with Syria, Soviet reports of Israeli troop movements, Egypt's mobilization in Sinai, its expulsion of UN peacekeepers, and its closure of the Straits of Tiran to Israeli shipping.
+  trig: Egypt's closure of the Straits of Tiran in May 1967, which Israel had long said it would treat as an act of war.
+  then: UN Resolution 242 set out the formula of 'land for peace'. Israel began building settlements, and Palestinians in the West Bank and Gaza came under Israeli military rule. Secular Arab nationalism was discredited, and Islamist movements gained ground.
+  fact: It really did last six days.
+## as197365 | 1973 | Yom Kippur War | who: Egypt and Syria vs. Israel | where: Suez Canal and the Golan Heights
+  bluf: Egypt and Syria's surprise attack shattered Israel's sense of invincibility, though Israel recovered and won militarily. The war restored Egyptian pride, triggered the Arab oil embargo and opened the path to peace between Egypt and Israel.
+  now: Israel's intelligence failure is still debated, and was compared to October 7, 2023.
+  story: On October 6, 1973, Egyptian troops crossed the Suez Canal and Syrian forces attacked on the Golan Heights. After heavy early losses, Israel, resupplied by a US airlift, counterattacked and crossed the canal before a ceasefire.
+  why: Egypt and Syria wanted to regain land lost in 1967 and break the diplomatic stalemate; Sadat aimed for limited gains that would force negotiations.
+  then: US diplomacy led to the Camp David Accords and an Egypt-Israel peace treaty in 1979.
+## as197365b | 1973 | Arab oil embargo | who: Arab oil producers, led by Saudi Arabia | where: Riyadh and the Persian Gulf
+  bluf: The Arab oil embargo quadrupled oil prices, causing inflation and recession in the West and shifting wealth to oil producers. It exposed the West's dependence on Middle Eastern oil and made energy security a core strategic concern.
+  now: It showed how much the world depended on Middle Eastern oil, and drove energy-saving rules like fuel-economy standards.
+  story: To punish the US and others for supporting Israel, Arab oil producers cut production and embargoed shipments. With OPEC also raising prices, oil went from about $3 to about $12 a barrel by early 1974.
+  why: To pressure Israel's backers, and to assert producers' control over their own oil.
+  then: Gas lines, inflation and recession hit the West, while oil wealth transformed the Gulf states.
+## me-campdavid | 1978 | Camp David Accords | who: Anwar Sadat; Menachem Begin; Jimmy Carter | where: Camp David, Maryland (about Egypt and Israel)
+  bluf: The Camp David Accords produced the first peace between Israel and an Arab state, returning Sinai to Egypt. The peace has held for over 40 years, but it left the Palestinian question unresolved and isolated Egypt in the Arab world for a decade.
+  now: The peace has held for over 40 years, and Egypt receives large US aid.
+  story: After 13 days of talks hosted by President Carter, Sadat and Begin agreed on a framework for peace; the 1979 treaty returned Sinai to Egypt in exchange for recognition and peace.
+  why: After 1973 Sadat wanted Sinai back, US aid and an end to costly wars; Israel wanted to remove its most powerful Arab enemy from the conflict.
+  then: Egypt was suspended from the Arab League; Sadat was assassinated by Islamist officers in 1981.
+## as197968 | 1979 | Iranian Revolution | who: Ayatollah Ruhollah Khomeini; the Shah | where: Tehran
+  bluf: The Iranian Revolution overthrew a US-backed monarchy and created the world's first modern theocracy. It made political Islam a force across the region, turned Iran into a rival of the United States, Israel and Saudi Arabia, and reshaped Middle Eastern politics.
+  now: Iran's clerical regime and its rivalry with the United States, Israel and Saudi Arabia still shape the region; it faces internal challenges such as the 'Woman, Life, Freedom' protests of 2022, and fought a direct war with Israel in 2025.
+  story: Months of strikes and protests forced the US-backed Shah to flee in January 1979. Khomeini returned from exile in February and established an Islamic Republic led by clerics.
+  why: Anger at the Shah's autocracy and secret police, rapid Westernization and the inequality of the oil boom, plus lingering resentment of the 1953 coup. Shi'a clerics had an organized network independent of the state.
+  trig: The killing of protesters through 1978, including 'Black Friday' in September, and the Shah's departure in January 1979.
+  then: Revolutionary students seized the US embassy in November, and Iraq invaded in 1980. The Islamic Republic suppressed its leftist and liberal allies and exported its revolution, notably by founding Hezbollah in Lebanon.
+  fact: Khomeini's sermons spread through Iran on smuggled cassette tapes while he was in exile in France.
+## na197984 | 1979 | Iran hostage crisis | who: Iranian students; 52 Americans | where: Tehran
+  bluf: Iran's 444-day seizure of American hostages humiliated the United States and helped end Carter's presidency. It cemented US-Iranian hostility, which has shaped the Middle East ever since.
+  now: US-Iran hostility has lasted ever since, through sanctions, proxy wars, the nuclear dispute and, in 2025, US strikes on Iran's nuclear sites.
+  story: After Iran's revolution, students stormed the US embassy, angry that the US had taken in the deposed Shah. A rescue mission failed in the desert.
+  why: Revolutionary students were angry that the United States had admitted the deposed Shah for medical treatment, and feared a repeat of the 1953 coup.
+  then: It helped sink Carter's presidency; the hostages were freed minutes after Reagan was sworn in.
+  fact: The hostages were released minutes after Reagan was sworn in.
+## as198069 | 1980 | Iran-Iraq War | who: Saddam Hussein vs. Iran | where: Persian Gulf
+  bluf: Iraq's invasion of Iran began an eight-year war of attrition that killed about half a million people and ended in stalemate. It entrenched Iran's revolutionary regime, left Iraq deeply indebted and led Saddam to invade Kuwait in 1990.
+  now: It shaped Iran's revolutionary identity and Saddam's later invasion of Kuwait.
+  story: In September 1980 Saddam Hussein invaded Iran, hoping to seize the oil-rich border province of Khuzestan and the Shatt al-Arab waterway from a revolutionary state in chaos. The war became eight years of trench warfare, human-wave attacks and Iraqi chemical weapons.
+  why: Saddam wanted the Shatt al-Arab waterway and oil-rich Khuzestan, and feared Iran's revolution would spread to Iraq's Shi'a majority.
+  then: About half a million people died, the war ended in 1988 in stalemate, and Iraq emerged with huge debts to Kuwait and Saudi Arabia.
+## me-lebanon1982 | 1982 | Israel invades Lebanon | who: Israel; the PLO; Lebanese factions | where: Beirut
+  bluf: Israel's invasion of Lebanon drove the PLO out of Beirut but led to the Sabra and Shatila massacre and an 18-year occupation of south Lebanon. It helped give rise to Hezbollah, which became Lebanon's dominant armed force and a key ally of Iran.
+  now: Hezbollah became the most powerful armed force in Lebanon until Israel's 2024 offensive killed its leader Hassan Nasrallah and much of its command; in 2025 Lebanon's government moved to disarm it.
+  story: Israel invaded in June 1982 and besieged Beirut until the PLO agreed to leave for Tunisia. In September, Lebanese Christian militiamen, allied with Israel, massacred hundreds of Palestinian civilians in the Sabra and Shatila camps.
+  why: Israel wanted to end PLO attacks from southern Lebanon and install a friendly government in Beirut.
+  then: Iran helped create Hezbollah among Lebanon's Shi'a; Israel occupied south Lebanon until 2000.
+## me-intifada | 1987 | First Intifada | who: Palestinians in the West Bank and Gaza; Israeli forces | where: Gaza and the West Bank
+  bluf: The First Intifada was a largely grassroots Palestinian uprising against Israeli occupation. It won Palestinians international attention, gave birth to Hamas, and pushed both sides toward the Oslo negotiations.
+  now: It pushed both sides toward the Oslo talks, and its largely unarmed mass protest contrasts with the far deadlier armed Second Intifada of 2000-05.
+  story: After an Israeli truck killed four Palestinians in Gaza in December 1987, protests spread across the West Bank and Gaza. The uprising, largely organised locally, lasted until 1993; more than 1,000 Palestinians and more than 150 Israelis were killed.
+  why: Twenty years of occupation, Israeli settlement, economic hardship, and a sense that the PLO leadership abroad and Arab states had failed them.
+  then: Hamas was founded in Gaza at the start of the uprising, and in 1988 the PLO moved toward accepting a two-state framework.
+## as199171 | 1991 | Gulf War | who: US-led coalition vs. Iraq | where: Kuwait, Iraq
+  bluf: A US-led coalition expelled Iraq from Kuwait in a short, overwhelming war that demonstrated American military dominance after the Cold War. The continued US military presence in Saudi Arabia fuelled jihadist anger, one of the motives behind 9/11.
+  now: It opened an era of US military dominance in the Gulf, and the unfinished business with Saddam led to the 2003 invasion.
+  story: Saddam Hussein invaded Kuwait in August 1990. President George H. W. Bush built a 35-nation coalition, and in early 1991 it drove Iraq out after 100 hours of ground fighting.
+  why: Saddam invaded Kuwait in August 1990 over oil and debts, threatening Saudi Arabia.
+  then: US troops stayed in Saudi Arabia, angering Osama bin Laden; Saddam survived, crushed Shi'a and Kurdish uprisings, and faced sanctions and no-fly zones.
+  fact: Retreating Iraqi troops set about 600 Kuwaiti oil wells on fire.
+## me-oslo | 1993 | Oslo Accords | who: Yitzhak Rabin; Yasser Arafat; Bill Clinton | where: Washington (about Israel and Palestine)
+  bluf: The Oslo Accords brought mutual recognition between Israel and the PLO and created Palestinian self-government in parts of the West Bank and Gaza. But the hardest issues were deferred, violence and settlement expansion continued, and the process collapsed in 2000.
+  now: The Palestinian Authority it created still exists, but a final peace was never reached.
+  story: After secret talks in Norway, Rabin and Arafat shook hands on the White House lawn in September 1993. Israel recognised the PLO, the PLO recognised Israel, and a Palestinian Authority was to govern parts of the West Bank and Gaza while final issues were negotiated.
+  why: The intifada, the end of the Cold War and the Gulf War pushed both sides to talk.
+  then: Rabin was assassinated by an Israeli extremist in 1995; final-status talks failed in 2000 and the second intifada followed.
+## as200374 | 2003 | US-led invasion of Iraq | who: US-led coalition | where: Iraq
+  bluf: The US-led invasion toppled Saddam Hussein but rested on claims about weapons of mass destruction that proved false. The occupation's failures led to insurgency, sectarian war and the rise of ISIS, increased Iran's influence and damaged US credibility worldwide.
+  now: It damaged trust in US intelligence and leadership, and greatly increased Iran's influence in Iraq.
+  story: The US and its allies invaded in March 2003, saying Iraq had weapons of mass destruction and links to terrorists. Baghdad fell within weeks, but no such weapons were found, and an insurgency and sectarian civil war followed.
+  why: The Bush administration claimed Iraq had weapons of mass destruction and ties to terrorists, and wanted to remove Saddam Hussein after 9/11.
+  then: Well over 100,000 Iraqi civilians died in the years of violence that followed; ISIS later grew out of the chaos.
+## as201175 | 2011 | Arab Spring | who: Protesters across the Arab world | where: Tunisia, Egypt, Libya, Syria, Yemen and Bahrain
+  bluf: The Arab Spring was a wave of protests that toppled long-ruling dictators in Tunisia, Egypt, Libya and Yemen. Apart from Tunisia, at least for a decade, it ended in restored authoritarianism or civil war, but it showed how deep the grievances against Arab regimes ran.
+  now: Tunisia's democracy backslid after 2021; the grievances behind the protests remain.
+  story: After a Tunisian street vendor, Mohamed Bouazizi, set himself on fire in December 2010, protests forced President Ben Ali out in January 2011. Egypt's Mubarak fell in February; Libya's Gaddafi was overthrown with NATO air support and killed in October.
+  why: Corruption, repression, unemployment and food prices, with protest spread by satellite TV and social media.
+  trig: The self-immolation of Tunisian street vendor Mohamed Bouazizi in December 2010.
+  then: Only Tunisia became a democracy; Egypt returned to military rule, and Libya, Syria and Yemen fell into civil wars that drew in outside powers, produced refugee flows to Europe and allowed ISIS to rise.
+## as201175b | 2011 | Syrian civil war begins | who: Bashar al-Assad; protesters and rebel groups | where: Damascus
+  bluf: Syria's civil war, which began with the regime's crackdown on protests, killed about half a million people and displaced half the population. It drew in Russia, Iran, Turkey, the United States and others, created the conditions for ISIS and sent millions of refugees abroad; Assad finally fell in December 2024.
+  now: Assad's regime fell to a rebel offensive led by the Islamist group HTS in December 2024, and its leader Ahmed al-Sharaa now heads Syria's government.
+  story: Peaceful protests in March 2011 were met with gunfire. Armed rebellion followed, and the war drew in Iran, Russia, Turkey, the US and jihadist groups including ISIS. About half of Syria's population was displaced.
+  why: Assad's regime chose force over reform when protests spread in 2011, and sectarian divisions and foreign backers turned the conflict into a long war.
+  then: Millions of refugees fled to Turkey, Lebanon, Jordan and Europe, and the war drew in Russia, Iran, Hezbollah, Turkey and the United States.
+## d-libya2011 | 2011 | Gaddafi overthrown | who: Muammar Gaddafi; Libyan rebels; NATO | where: Sirte, Libya
+  bluf: NATO's intervention helped rebels overthrow Muammar Gaddafi, but Libya then fragmented into rival governments and militias. It made Russia and China wary of future UN-authorized interventions, and turned Libya into a hub for migration and arms.
+  now: Libya remains divided between rival governments, and the intervention's outcome made Russia and China wary of approving UN action to protect civilians.
+  story: Protests in February 2011 became an armed revolt. The UN authorised a no-fly zone to protect civilians, and NATO air strikes helped rebels take Tripoli in August. Gaddafi was captured and killed near Sirte on October 20.
+  why: Gaddafi's violent crackdown on protesters led the UN to authorize a no-fly zone to protect civilians.
+  then: Libya split between rival governments in Tripoli and the east and dozens of militias, and became a hub for arms and for migration to Europe.
+## d-mubarak | 2011 | Mubarak resigns | who: Hosni Mubarak; protesters in Tahrir Square; the Egyptian army | where: Tahrir Square, Cairo
+  bluf: Mubarak's fall after 18 days of mass protest showed the power of a popular uprising, and the army's role as kingmaker. Egypt's brief democratic experiment ended in a military coup in 2013.
+  now: General Abdel Fattah el-Sisi has ruled Egypt since 2014 with tighter repression than Mubarak's, a common end for the Arab Spring revolts.
+  story: Protests began on January 25, 2011. Despite attacks by police and hired thugs the crowds grew, and on February 11 the army pushed Mubarak out.
+  why: Repression, corruption and youth unemployment, with Tunisia as the spark.
+  then: The Muslim Brotherhood's Mohamed Morsi was elected in 2012 and overthrown by the army in 2013.
+## as201477 | 2014 | ISIS 'caliphate' | who: ISIS (Abu Bakr al-Baghdadi) | where: Iraq, Syria
+  bluf: ISIS's self-declared 'caliphate' held territory across Iraq and Syria, committed genocide against the Yazidis and inspired attacks worldwide. Destroying it took a US-led coalition and local forces until 2019, and its offshoots remain active in Africa and Asia.
+  now: ISIS offshoots remain active, especially in Africa's Sahel and in Afghanistan, and thousands of its fighters and their families are still held in camps in Syria.
+  story: In June 2014 ISIS fighters captured Mosul, Iraq's second-largest city, and their leader Abu Bakr al-Baghdadi declared a 'caliphate' across eastern Syria and western Iraq. ISIS massacred and enslaved Yazidis and staged killings for propaganda.
+  why: Syria's civil war, and Iraq's sectarian exclusion of Sunnis, gave ISIS space and recruits.
+  then: A US-led coalition with Iraqi and Kurdish forces destroyed the caliphate by 2019, after battles that ruined Mosul and Raqqa.
+## me-jcpoa | 2015 | Iran nuclear deal | who: Iran; the US, Britain, France, Germany, Russia and China | where: Vienna (about Iran)
+  bluf: The Iran nuclear deal limited Iran's nuclear programme in exchange for sanctions relief, a rare diplomatic success. The US withdrawal in 2018 unravelled it, Iran expanded enrichment, and in 2025 Israel and the United States struck Iran's nuclear sites.
+  now: Iran's nuclear programme remains one of the most dangerous issues in the region.
+  story: After two years of talks, the Joint Comprehensive Plan of Action capped Iran's uranium enrichment and stockpile under international inspection, in exchange for relief from nuclear-related sanctions.
+  why: Western fears that Iran was moving toward a nuclear weapon, and Iran's need for sanctions relief.
+  then: The US withdrew in 2018 and reimposed sanctions; Iran then expanded enrichment.
+## me-abraham | 2020 | Abraham Accords | who: Israel; the United Arab Emirates and Bahrain (later Morocco and Sudan); the Trump administration | where: Washington (about the Gulf)
+  bluf: The Abraham Accords normalized relations between Israel and several Arab states without a Palestinian state, driven by shared concern about Iran and economic interests. They survived the Gaza war, but showed the Palestinian issue could be sidelined, not erased.
+  now: The accords have survived the Gaza war, though relations cooled, and Saudi Arabia says normalization depends on a path to a Palestinian state.
+  story: Brokered by the Trump administration, the accords were the first Arab normalisations with Israel since Jordan in 1994, and did not depend on a Palestinian settlement.
+  why: Shared concern about Iran and the appeal of trade and technology ties.
+  then: Morocco and Sudan also joined; talks on Saudi-Israeli normalization were under way in 2023 when the October 7 attack froze them.
+## as202379 | 2023 | Hamas attacks Israel (October 7) | who: Hamas and allied armed groups; Israeli civilians and soldiers | where: Southern Israel
+  bluf: Hamas's October 7 attack killed about 1,200 people in Israel and took about 250 hostages, the deadliest day for Jews since the Holocaust. It triggered the war in Gaza, drew in Hezbollah, the Houthis and Iran, and transformed Israeli politics and the region's alignments.
+  now: It transformed Israeli politics and the region's alignments; a ceasefire in October 2025 freed the last living hostages, but Gaza's future remains unresolved.
+  story: On October 7, 2023, Hamas-led fighters broke through the Gaza border fence and attacked Israeli towns, army posts and a music festival. It was the deadliest day in Israel's history.
+  why: Hamas, which rejects Israel's existence, called it a response to Israel's occupation and blockade; many analysts also point to its aim of derailing Israel-Saudi normalisation talks.
+  then: About 1,200 people were killed and 251 taken hostage into Gaza. Israel declared war on Hamas the next day, beginning the longest and deadliest war in the conflict's history.
+## as202379b | 2023 | Israel's war in Gaza | who: Israel; Hamas | where: Gaza Strip
+  bluf: Israel's war in Gaza after October 7 killed tens of thousands of Palestinians, according to Gaza's health ministry, devastated the territory and caused a humanitarian catastrophe. It widened into conflict with Hezbollah, the Houthis and Iran and led to cases at international courts; a US-brokered ceasefire in October 2025 freed the last living hostages.
+  now: The war's toll and the humanitarian crisis reshaped Middle East politics and led to cases at international courts.
+  story: Israel's air and ground campaign aimed to destroy Hamas and free the hostages. Most of Gaza's 2.1 million people were displaced, and Gaza's health ministry reported tens of thousands of Palestinians killed. Hostages were freed in exchanges during ceasefires.
+  why: Israel's response to the October 7 attack, aiming to destroy Hamas and free the hostages.
+  then: The fighting spread to Lebanon and Yemen and led to direct exchanges of strikes between Israel and Iran.

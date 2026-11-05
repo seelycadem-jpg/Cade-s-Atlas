@@ -1,0 +1,273 @@
+## af14410 | 1441 | Portuguese begin Atlantic slave trade | who: Portuguese captains under Prince Henry the Navigator | where: West African coast (Mauritania)
+  bluf: Portugal's raids and purchases on the West African coast began the Atlantic slave trade, which over four centuries forcibly moved about 12.5 million Africans. It built the plantation economies of the Americas, enriched European merchants and states, and drained and destabilized much of Atlantic Africa.
+  now: The trade shaped the population of the Americas (Brazil has the largest population of African descent outside Africa), created the racial hierarchies slavery required, and underlies today's debates over reparations and Africa's long-run development.
+  story: Expeditions sent by Prince Henry the Navigator began capturing and buying Africans on the coast of today's Mauritania and selling them in Portugal. Within decades Portugal was buying captives from African states along the coast.
+  why: Portugal was a small, poor kingdom looking for gold and a sea route around Muslim-controlled trade. Slavery already existed in Africa, the Mediterranean and the Islamic world, so Portuguese captains could tap existing markets; within a few years they were buying captives from African rulers rather than raiding.
+  trig: In 1441 an expedition sent by Prince Henry seized Africans on the coast of today's Mauritania; a public sale of captives at Lagos, Portugal, followed in 1444.
+  then: Portugal shipped enslaved Africans to sugar islands such as Madeira and São Tomé, creating the plantation model (one export crop, worked by enslaved labor) later carried to Brazil and the Caribbean. Demand for captives fed warfare between African states that sold prisoners for guns, cloth and metal.
+## af14641 | 1464 | Sonni Ali builds the Songhai Empire | who: Sonni Ali, king of Songhai | where: Niger River, Mali
+  bluf: Sonni Ali turned Songhai from a regional kingdom into West Africa's largest empire, controlling the Niger River cities that dominated the trans-Saharan trade in gold and salt. Songhai's rise shows that West African power was built on long-distance commerce and Islamic learning.
+  now: Songhai set the template for state power in the Sahel: control of the river, the salt and gold routes, and the cities that taxed them. The same corridors are now contested by jihadist groups, smugglers and three juntas.
+  story: Sonni Ali led cavalry and a war fleet on the Niger to seize Timbuktu (1468) and, after a long siege, Djenné, the trading and learning cities of the fading Mali Empire. By his death in 1492 Songhai controlled the great bend of the Niger.
+  why: Mali was weakened by succession disputes and by attacks from the Tuareg and the Mossi. Whoever held the Niger bend controlled the exchange of Saharan salt for gold from the forest zone to the south.
+  then: Songhai dominated the region for a century, until a Moroccan army with firearms defeated it at Tondibi in 1591; the region then fragmented into smaller states.
+  fact: Mali and Niger both claim Songhai as national heritage.
+## af14822 | 1482 | Portuguese build Elmina Castle | who: King João II of Portugal; commander Diogo de Azambuja; Akan rulers | where: Gold Coast (Ghana)
+  bluf: Elmina was the first permanent European fort in sub-Saharan Africa, built to capture the Gold Coast's gold trade. It became the model for the chain of coastal forts through which Europeans traded with, and later shipped captives from, West Africa.
+  now: Elmina and Cape Coast Castle, both in Ghana, are central sites of memory for the slave trade and for African diaspora visitors.
+  story: In 1482 King João II sent Diogo de Azambuja with pre-cut stone to build São Jorge da Mina on the Gold Coast, after negotiating with a reluctant local Akan ruler. The fort gave Portugal a secure base to buy gold directly at the coast. Later it held enslaved Africans awaiting ships to the Americas.
+  why: Gold from the Akan forest had traditionally travelled north across the Sahara. Portugal wanted to divert it to the sea and keep rivals, especially Castile, away.
+  then: Gold flowed to Lisbon and financed Portugal's expansion. The Dutch captured Elmina in 1637 and expanded its role in the slave trade; dozens of European forts followed along the coast.
+  fact: Elmina is the oldest European building south of the Sahara. Captives passed through its 'Door of No Return'.
+## af14883 | 1488 | Dias rounds the Cape of Good Hope | who: Bartolomeu Dias | where: Southern tip of Africa
+  bluf: Dias proved that the Atlantic and Indian Oceans connect, opening a sea route from Europe to Asia that bypassed Mediterranean and Middle Eastern middlemen. Ten years later Vasco da Gama used it to reach India.
+  now: The Cape route still matters: when the Suez Canal or the Red Sea is blocked, as during the Houthi attacks on shipping from 2023, ships reroute around it.
+  story: In 1488 Bartolomeu Dias, sent by King João II, was driven south by storms and found he had rounded the southern tip of Africa. He reached the coast near today's Mossel Bay before his exhausted crew forced him to turn back.
+  why: Portugal had spent decades working down the African coast, funded by gold and slaves, looking for a way into the spice trade.
+  then: The route made Portugal an Indian Ocean power within twenty years. The Cape later became a supply station for Dutch and British shipping and the base of white settlement in South Africa.
+## af14934 | 1493 | Askia Muhammad: Songhai's peak | who: Askia Muhammad I | where: Songhai (Mali/Niger)
+  bluf: Askia Muhammad turned Songhai into a centralized Islamic state with a professional army and provincial governors. Timbuktu's scholarly fame under his rule shows how fully West Africa was part of the wider Muslim world.
+  now: The Timbuktu manuscripts, on law, astronomy and medicine, refute the idea of a pre-colonial Africa without written history. Jihadists tried to burn them in 2013.
+  story: Askia took power in a coup, organized a professional army and administration, and promoted Islamic scholarship. Timbuktu's mosques and libraries drew scholars from across the Muslim world.
+  why: After Sonni Ali died, his general Muhammad Ture overthrew Sonni Ali's son, drawing support from Muslim merchants and scholars who had been uneasy with Sonni Ali's rule.
+  trig: He defeated Sonni Ali's son in 1493 and took the title Askia.
+  then: He made the pilgrimage to Mecca in 1496-97, returned with recognition as caliph of the western Sudan, and expanded the empire. Succession struggles after his reign weakened Songhai, which fell to Morocco in 1591.
+  fact: Timbuktu's scholars produced hundreds of thousands of manuscripts. In 2012 librarians smuggled many out in rice sacks to save them from jihadists.
+## af15055 | 1505 | Portuguese sack Kilwa | who: Francisco de Almeida | where: Kilwa Kisiwani, Tanzania
+  bluf: The sack of Kilwa marked Portugal's violent entry into the trading world of the Swahili coast. Portuguese attempts to control trade by force weakened city-states that had prospered for centuries as links between Africa and the Indian Ocean.
+  now: The sack of Kilwa began three centuries of European naval control of the Indian Ocean trade; the Swahili cities lost their independence and the ocean's commerce was redirected to Lisbon, then Amsterdam, then London.
+  story: Kilwa Kisiwani, an island city in today's Tanzania, had grown rich on gold from the Zimbabwe plateau shipped through Sofala, and had minted its own coins. In 1505 Francisco de Almeida's fleet stormed and plundered it and installed a ruler loyal to Portugal.
+  why: Portugal wanted the gold of Sofala and bases on the route to India, and tried to force Muslim merchant cities to pay tribute and buy trade licences.
+  then: Kilwa declined, and Mombasa was sacked the same year. Portugal held Fort Jesus at Mombasa until Omani Arabs drove it out in 1698; Oman, and later Zanzibar, then dominated the coast.
+  fact: Kilwa's ruins are a World Heritage site; Swahili, with its Arabic and Persian loanwords, records the trade the city lived on.
+## af15267 | 1526 | Kongo's King Afonso protests slave trade | who: King Afonso I (Nzinga Mbemba) of Kongo | where: Kingdom of Kongo (Angola/DRC)
+  bluf: Afonso's letters show an African state that adopted Christianity and dealt with Portugal as a diplomatic equal, yet could not control the slave trade Portuguese merchants drove. They are early evidence that the trade undermined African states from within.
+  now: His letters are among the earliest African written protests against the slave trade. They complicate any story of Africans as either passive victims or willing partners.
+  story: Afonso I (Nzinga Mbemba) made Christianity Kongo's state religion and exchanged envoys with Lisbon and Rome. But Portuguese traders based on São Tomé were buying and seizing his subjects, even nobles, paying with goods that let provincial chiefs bypass the king. In 1526 he wrote to King João III asking him to stop it.
+  why: The trade enriched provincial lords and Portuguese merchants beyond royal control, undermining the king's authority and draining his population.
+  then: Afonso set up royal inspection of slave sales rather than ending them, and Portugal ignored his pleas. Kongo was weakened by slaving and succession wars; Portugal later founded Angola (1575) to the south as a slaving base and defeated Kongo at Mbwila in 1665.
+## af15298 | 1529 | Adal invades Ethiopia | who: Imam Ahmad 'Gragn' of Adal | where: Ethiopian highlands
+  bluf: The war between the Adal Sultanate and Christian Ethiopia nearly destroyed the Ethiopian kingdom and pulled the Ottomans and Portuguese into the Horn of Africa. Local religious and trade rivalries became part of the global Ottoman-Portuguese contest.
+  now: Ethiopia's Christian identity endured. The war still colours memory between Ethiopians and Somalis, many of whom regard Imam Ahmad as a hero.
+  story: From 1529 Imam Ahmad ibn Ibrahim of the Adal Sultanate, nicknamed 'Gragn' (the left-handed), won a series of victories over Ethiopia using Ottoman-supplied muskets. For over a decade his forces held most of the highlands, sacking churches and monasteries, until Ethiopian and Portuguese troops killed him in 1543.
+  why: Adal and Ethiopia had long competed over trade routes to the Red Sea and over highland territory. Ottoman firearms gave Adal a decisive edge.
+  then: With help from about 400 Portuguese musketeers, Ethiopian forces killed Imam Ahmad at Wayna Daga in 1543. Both sides were exhausted, which allowed Oromo pastoralists to migrate into large parts of the highlands and lowlands.
+## af15919 | 1591 | Morocco destroys Songhai | who: Moroccan army with firearms; Sultan al-Mansur | where: Tondibi, Mali
+  bluf: Morocco's invasion across the Sahara destroyed Songhai, the last of the great Sahel empires, with a small army of musketeers. The Niger region broke into smaller states, and West Africa's commercial centre of gravity shifted from the desert routes toward the Atlantic coast, where Europeans traded.
+  now: Timbuktu's decline after the conquest became the symbol of the end of West Africa's imperial age; no single state has controlled the Niger bend since.
+  story: In 1590 Morocco's sultan Ahmad al-Mansur sent about 4,000 soldiers, many armed with muskets, across the Sahara. At Tondibi in March 1591 they routed Songhai's much larger army of cavalry and archers, and took Gao and Timbuktu.
+  why: Sultan Ahmad al-Mansur wanted the gold of the Sahel to fund his state and compete with the Ottomans. A disputed succession had weakened Songhai.
+  then: The Moroccan commanders in Timbuktu soon became independent of Marrakesh, and the region fragmented. Gold never flowed north in the amounts al-Mansur hoped, and leading Timbuktu scholars were deported to Morocco.
+## af165210 | 1652 | Dutch found Cape Town | who: Jan van Riebeeck; Dutch East India Co. | where: Cape of Good Hope
+  bluf: The VOC's supply station at the Cape grew into a settler colony that took Khoikhoi and San land and relied on enslaved labor from Asia and Africa. It was the seed of white settlement in South Africa and of the racial order that ended in apartheid.
+  now: South Africa's racial divisions, the Afrikaans language and the bitter politics of land ownership trace back to this colony.
+  story: In 1652 Jan van Riebeeck landed at Table Bay to build a fort and gardens to supply Dutch ships sailing to Asia. From 1657 the Company released some employees as free farmers, who pushed into Khoikhoi grazing lands, and it imported enslaved people from Madagascar, Mozambique, India and the East Indies.
+  why: The Dutch East India Company needed a station to supply fresh food and water to its ships on the long voyage to Asia.
+  then: Wars and a smallpox epidemic (1713) destroyed Khoikhoi society. Dutch-speaking farmers spread inland and became the Afrikaners. Britain took the Cape in 1795 and for good in 1806, which led the Boers to trek inland in the 1830s.
+## af169811 | 1698 | Omanis take Mombasa | who: Omani Arabs; Portuguese | where: Fort Jesus, Mombasa, Kenya
+  bluf: Oman's capture of Fort Jesus ended Portuguese power on the Swahili coast north of Mozambique and began Omani dominance in East Africa. It tied the coast more closely to Arabia and set up Zanzibar's later rise as a centre of the clove and slave trades.
+  now: Oman's victory replaced Portuguese with Arab control of the Swahili coast and tied East Africa to the Gulf for two centuries, through Zanzibar's clove plantations and the slave caravans into the interior.
+  story: In March 1696 an Omani fleet laid siege to Fort Jesus, Portugal's great fortress at Mombasa. Disease and hunger killed most of the defenders, and in December 1698 the Omanis stormed the fort after a siege of 33 months.
+  why: Oman, having expelled the Portuguese from Muscat in 1650, was building its own Indian Ocean empire.
+  then: Oman controlled the coast and its trade for 150 years, and in 1840 its sultan moved his capital to Zanzibar.
+  fact: Fort Jesus is a World Heritage site; Omani architecture and vocabulary shaped Swahili culture.
+## af170112 | 1701 | Asante Empire rises | who: Osei Tutu; priest Okomfo Anokye | where: Kumasi, Ghana
+  bluf: Osei Tutu united Akan states into the Asante confederacy around the Golden Stool, which gave the new state a sacred, shared identity. Asante became a major West African power whose gold and war captives tied it to the Atlantic economy, and later Britain's toughest opponent on the Gold Coast.
+  now: The Asantehene, the Asante king, still holds great cultural authority in Ghana.
+  story: Osei Tutu, ruler of Kumasi, and his priest Okomfo Anokye bound a group of Akan chiefdoms into a confederation. According to tradition, Anokye summoned the Golden Stool from the sky; it held the soul of the nation, and every chief swore loyalty to it, a sacred bond above local allegiances. In 1701 the alliance crushed Denkyira at the battle of Feyiase.
+  why: The Akan states united under Osei Tutu to throw off the rule of their powerful neighbour, Denkyira.
+  then: Asante defeated Denkyira in 1701 and expanded, selling gold and captives to Europeans on the coast for guns and goods. After Britain abolished the slave trade, the two fought a series of wars, and Britain annexed Asante in 1901 after the War of the Golden Stool.
+  fact: The Golden Stool, said to have descended from the sky, holds the soul of the Asante nation. No one sits on it, not even the king.
+## af179513 | 1795 | Britain takes the Cape | who: A British naval force under Admiral George Elphinstone | where: Cape Colony, South Africa
+  bluf: Britain's seizure of the Cape put a key station on the sea route to India under British control and brought Dutch-speaking settlers under British rule. British policies, including the abolition of slavery, later drove the Boers inland, setting up a century of conflict that shaped South Africa.
+  now: British rule at the Cape began the conflict between Britain and the Afrikaners, through the Great Trek and the Boer Wars, that shaped Afrikaner nationalism and, in time, apartheid.
+  story: In 1795, after France conquered the Netherlands, a British fleet landed troops near Cape Town and took the Dutch colony after a short campaign at Muizenberg. Britain handed it back in 1803, retook it in 1806 and kept it.
+  why: During the wars with revolutionary France, which had overrun the Netherlands, Britain wanted to protect its route to India.
+  then: British rule, and its abolition of slavery in 1834, angered Dutch-speaking settlers, thousands of whom left the colony in the Great Trek.
+## af180414 | 1804 | Sokoto Caliphate founded | who: Usman dan Fodio | where: Northern Nigeria
+  bluf: Usman dan Fodio's jihad built the Sokoto Caliphate, one of Africa's largest 19th-century states, uniting Hausa lands under Fulani-led Islamic rule. Its institutions survived British conquest and still shape northern Nigeria's politics and religious identity.
+  now: The Sultan of Sokoto remains Nigeria's most senior Muslim leader, and Nigeria's north-south divide partly reflects the caliphate's legacy. Boko Haram claims to revive its jihad, though Sokoto's establishment rejects it.
+  story: From 1804 Usman dan Fodio, a Fulani Islamic scholar, led a jihad against the Hausa kings, whom he accused of corruption and impure Islam. By 1809 his followers had built the Sokoto Caliphate, one of the largest states in 19th-century Africa.
+  why: Protest against corrupt Hausa rulers, heavy taxes and what reformers saw as impure Islamic practice; the grievances of Fulani herders fed the movement.
+  then: The caliphate ruled northern Nigeria until British conquest in 1903. Britain then governed through its emirs ('indirect rule'), preserving the old elite.
+## af181816 | 1818 | Shaka builds the Zulu kingdom | who: Shaka kaSenzangakhona, king of the Zulu | where: KwaZulu-Natal, South Africa
+  bluf: Shaka turned the small Zulu chiefdom into southern Africa's most powerful kingdom through military reorganization and conquest. The wars and migrations of this era, the Mfecane, reshaped the region's peoples just before European settlers pushed inland.
+  now: Shaka is a hero of Zulu identity, and the Zulu monarchy remains politically important in KwaZulu-Natal.
+  story: Shaka took power over the small Zulu chiefdom around 1816. He reorganised its men into disciplined regiments armed with short stabbing spears and large shields, and conquered or absorbed neighbouring chiefdoms, building the Zulu kingdom.
+  why: Historians debate the causes: competition among chiefdoms for land, cattle and water during drought, and for trade at Delagoa Bay, combined with Shaka's military talent and ambition.
+  then: Peoples fled or were absorbed, and new states such as the Ndebele, the Sotho under Moshoeshoe and the Swazi took shape. Boer trekkers later found some areas depopulated and used that to justify claims to 'empty' land.
+## af182217 | 1822 | Liberia founded | who: American Colonization Society; freed Black Americans | where: Liberia
+  bluf: Liberia was founded by an American society that combined anti-slavery sentiment with a wish to remove free Black people from the United States. Its Americo-Liberian settlers ruled over Indigenous Africans for over a century, a divide that fed the coups and civil wars of 1980-2003.
+  now: Tensions between settlers' descendants and indigenous Liberians fueled civil wars.
+  story: The American Colonization Society, which united some abolitionists with slaveholders who wanted free Black people out of the country, bought land on the West African coast and sent settlers from 1822. The newcomers, and Africans freed from slave ships, built a colony at Monrovia, often in conflict with the peoples already living there.
+  why: The American Colonization Society united some abolitionists, who believed Black Americans would never be treated equally in the United States, with slaveholders who wanted free Black people removed; most Black Americans rejected the scheme.
+  then: Liberia became Africa's first republic in 1847, ruled by Americo-Liberians.
+  fact: Liberia's capital, Monrovia, is named after US President James Monroe.
+## af183519 | 1835 | Boer Great Trek | who: Boer (Afrikaner) settlers | where: South Africa interior
+  bluf: The Great Trek took thousands of Boers out of British rule into the interior, where they fought African kingdoms and founded independent republics. It became the founding myth of Afrikaner nationalism and set up the conflicts that led to the Boer War and apartheid.
+  now: The Trek is central to Afrikaner nationalism and to the roots of apartheid.
+  story: From 1835 thousands of Boers, Dutch-speaking farmers of the Cape, loaded their families into ox-wagons and moved north and east beyond British rule. They fought the Ndebele and the Zulu, notably at Blood River in 1838, and founded republics in Natal, the Orange Free State and the Transvaal.
+  why: Anger at British rule: the abolition of slavery (1834) with what Boers saw as inadequate compensation, Anglicization, and British frontier policy toward the Xhosa.
+  then: They founded the Transvaal and Orange Free State republics, which Britain recognized in the 1850s and later conquered in the Boer War.
+## af184020 | 1840 | Oman moves capital to Zanzibar | who: Sultan Said bin Sultan | where: Zanzibar, Tanzania
+  bluf: Sultan Said's move to Zanzibar made it the hub of an East African commercial empire built on cloves, ivory and enslaved people. The caravan trade it organized reached deep into central Africa and opened the routes later used by European explorers and colonizers.
+  now: Zanzibar's Stone Town preserves the Swahili-Arab culture of this trading empire, and the islands' Arab-African divide later fuelled the 1964 revolution.
+  story: Sultan Said bin Sultan of Oman moved his court from Muscat to Zanzibar in 1840. He planted cloves across the islands, worked by enslaved Africans, and made Zanzibar the hub of a caravan trade in ivory and captives reaching deep into central Africa.
+  why: Zanzibar's clove plantations, worked by enslaved Africans, and the ivory and slave caravans from the mainland made it far richer than Muscat.
+  then: Zanzibar became the hub of the East African ivory and slave trade, with caravans reaching as far as Congo; their routes later guided European explorers and missionaries.
+  fact: Zanzibar became the world's leading clove producer. Freddie Mercury was born there in 1946.
+## af-livingstone | 1871 | Stanley finds Livingstone at Ujiji | who: Henry Morton Stanley; David Livingstone | where: Ujiji, Lake Tanganyika (Tanzania)
+  bluf: Stanley's 'discovery' of Livingstone was a newspaper sensation that turned Africa's interior into a European obsession. It shows how exploration, missionary causes and mass media prepared public opinion for colonial expansion.
+  now: It shows how exploration, missionaries and media paved the way for empire.
+  story: Livingstone, a Scottish missionary-explorer campaigning against the East African slave trade, had vanished for years. The New York Herald sent Stanley to find him; he did, at Ujiji on Lake Tanganyika.
+  why: A sensational story for newspapers, and Livingstone's fame as an anti-slavery hero.
+  then: Livingstone's death in 1873 boosted British anti-slavery pressure on Zanzibar.
+## af187322 | 1873 | Zanzibar slave market closed | who: Sultan Barghash; British pressure | where: Zanzibar
+  bluf: Britain forced Zanzibar to close East Africa's largest slave market and end the seaborne slave trade. Anti-slavery became a key justification for British intervention and later colonial rule in East Africa.
+  now: An Anglican cathedral now stands on the site of the slave market, a reminder of how anti-slavery and missionary Christianity were bound up with British influence.
+  story: Under the threat of a British naval blockade, Sultan Barghash signed a treaty in June 1873 closing Zanzibar's great slave market and banning the seaborne slave trade. The trade continued by land and smuggling.
+  why: Britain threatened a naval blockade as part of its campaign against the slave trade, and of its growing influence in East Africa.
+  then: Slavery itself was abolished in Zanzibar only in 1897, and Britain's role as enforcer drew the sultanate steadily under British control.
+  fact: The altar of Zanzibar's Anglican cathedral stands where the market's whipping post used to be.
+## af-stanley | 1874 | Stanley crosses Africa down the Congo | who: Henry Morton Stanley; hundreds of African porters | where: Zanzibar to the Congo mouth
+  bluf: Stanley's violent trek down the Congo River revealed a vast waterway into central Africa and caught the interest of King Leopold II. It led directly to Leopold's Congo Free State and one of colonialism's worst atrocities.
+  now: Stanley's violent methods are now seen as part of colonialism's origins.
+  story: Starting from Zanzibar in 1874, Stanley led about 350 people across the continent and down the Congo, fighting his way through. Fewer than half survived.
+  why: Stanley, sponsored by newspapers, wanted to solve the geography of the great lakes and the Congo River, and to win fame.
+  then: Leopold founded his International African Association in 1876 and hired Stanley.
+## af187923 | 1879 | Anglo-Zulu War | who: Britain vs. Zulu (King Cetshwayo) | where: Zululand, South Africa
+  bluf: The Zulu victory at Isandlwana was one of the worst defeats ever inflicted on a colonial army by an African force, but Britain returned with greater force and destroyed the Zulu kingdom. The war was part of Britain's push to bring southern Africa under its control.
+  now: Isandlwana is one of the greatest defeats of a colonial army by an African force.
+  story: In January 1879 British forces invaded Zululand after King Cetshwayo refused an ultimatum to disband his army. At Isandlwana on January 22 a Zulu army killed over 1,300 British and allied soldiers; the same night a small garrison held out at Rorke's Drift. Britain sent reinforcements and burned the royal homestead at Ulundi in July.
+  why: Britain wanted to unite southern Africa in a confederation under its control, and saw the independent Zulu kingdom as an obstacle.
+  then: Britain returned with more troops and destroyed the Zulu kingdom, splitting it into 13 chiefdoms that fought one another; Zululand was annexed in 1887.
+## af-peters | 1884 | Carl Peters' treaties found German East Africa | who: Carl Peters; local chiefs in Usagara | where: Usagara, Tanzania
+  bluf: Carl Peters' dubious treaties became the legal basis for German East Africa. They show how colonial claims rested on documents that African leaders often did not understand or agree to.
+  now: Peters' treaties gave Germany a claim Bismarck used at the Berlin conference, and the colony they founded became Tanganyika, which Britain took in 1919 and which became Tanzania.
+  story: Peters traveled inland from the coast with a few companions and collected 'treaties' in weeks, often by trickery. In February 1885, the Kaiser granted his company an imperial charter.
+  why: Germany's leaders, under pressure from colonial lobbyists, wanted colonies to match Britain and France; Peters wanted fame and a chartered company of his own.
+  then: Germany and Britain divided the East African mainland in 1886, leaving the Sultan of Zanzibar only a coastal strip.
+  fact: Germany dismissed Peters in 1897 for his brutality; he is remembered as 'Mkono wa Damu', the bloody hand.
+## af188425 | 1884 | Berlin Conference | who: 14 European powers and the US; no Africans present | where: Berlin
+  bluf: The Berlin Conference did not itself carve up Africa, but it set the rules for the 'Scramble': claims were valid if backed by 'effective occupation'. That set off a race in which European powers seized almost the entire continent within 30 years, drawing borders with little regard for African societies.
+  now: Most of Africa's borders date from the partition and cut across ethnic and political communities. In 1964 African states agreed to keep them anyway, fearing endless wars if they were reopened.
+  story: Bismarck hosted 14 states, including the United States, in Berlin from November 1884 to February 1885. No Africans were present. They agreed rules for claiming African coastline, declared free trade and navigation on the Congo and Niger rivers, and recognized King Leopold II's claim to the Congo basin. The actual partition was carried out over the next 20 years through bilateral treaties and conquest.
+  why: European rivals wanted to avoid war among themselves while racing for colonies. Industrial demand for raw materials, national prestige and new technologies (quinine against malaria, machine guns, river steamers) made conquest feasible.
+  then: By 1914 European powers controlled about 90% of Africa; only Ethiopia and Liberia stayed independent. Leopold's Congo Free State became notorious for atrocities.
+  fact: No African was invited. Many of Africa's borders are straight lines drawn on maps by people who had never been there.
+## af188526 | 1885 | Congo Free State founded | who: King Leopold II of Belgium | where: Congo basin
+  bluf: Leopold II's Congo Free State was a privately owned colony run as a forced-labor operation for rubber and ivory. Its atrocities, which killed millions, provoked the first great international human rights campaign and left Congo with a legacy of predatory rule.
+  now: It is one of colonialism's worst atrocities, and still shapes Congo's politics and Belgium's memory.
+  story: Leopold had posed as a humanitarian, promising to end the slave trade. Instead his agents forced Congolese to collect rubber and ivory, holding families hostage and cutting off hands as punishment for missed quotas.
+  why: Leopold wanted a colony that Belgium would not give him, and won the other powers' recognition at the Berlin Conference by promising free trade and an end to the slave trade.
+  then: Activists such as E.D. Morel, Roger Casement and George Washington Williams exposed the abuses, and the scandal forced Belgium to annex the colony in 1908. Belgian rule kept extracting resources and left very few Congolese with higher education by independence in 1960.
+  fact: King Leopold II ran Congo as his private property for 23 years and never once visited it.
+## af-1886 | 1886 | Britain and Germany divide East Africa | who: Britain; Germany; Sultan of Zanzibar | where: Kilimanjaro to the coast
+  bluf: The Anglo-German agreement drew the line between future Kenya and Tanzania and split the Sultan of Zanzibar's mainland claims between two European powers. It is a clear example of borders drawn through outsiders' bargaining.
+  now: A popular myth says Queen Victoria 'gave' Kilimanjaro to the Kaiser; the bend in the border actually came from negotiations.
+  story: In 1886 Britain and Germany drew a line from the coast to Lake Victoria, bending to put Kilimanjaro on the German side. Britain took the zone to the north, which became Kenya; Germany took the south, mainland Tanzania. The Sultan of Zanzibar, who claimed the whole coast, was left only his islands and a 10-mile coastal strip, and no African ruler inland was consulted.
+  why: Britain and Germany wanted to avoid conflict over overlapping claims and settled their spheres without consulting Africans.
+  then: Germany leased the Sultan's coastal strip in 1888, sparking the Abushiri revolt, and Britain took over the northern coast.
+## af-abushiri | 1888 | Abushiri revolt on the Swahili coast | who: Abushiri ibn Salim al-Harthi; coastal towns vs. German East Africa Company | where: Pangani, Tanzania
+  bluf: The Abushiri revolt united the Swahili coast against the German East Africa Company and drove it out of almost every town. Germany crushed it with an army and took direct control, showing that company rule was too weak to hold colonies.
+  now: Abushiri is honoured in Tanzania as an early resistance leader, and the revolt is an early example of coastal and inland Africans uniting against colonial rule.
+  story: In August 1888 the company took over the coastal towns, imposing taxes and land registration. Coastal traders, Arab and African leaders, and inland allies drove the Germans out of almost every town. Germany sent Hermann von Wissmann with an army of African mercenaries. Abushiri was captured and hanged in December 1889.
+  why: The company's arrogance threatened coastal elites' trade, land and religion.
+  then: The German state took direct control of German East Africa in 1891, ending company rule.
+## af-ibeac | 1888 | Imperial British East Africa Company chartered | who: William Mackinnon; British government | where: Mombasa
+  bluf: Britain gave a chartered company the job of governing its East African sphere on the cheap. The company's failure forced the British government to take over Uganda and Kenya directly.
+  now: It shows how empire was often run on the cheap through chartered companies, and how often governments had to step in when they failed.
+  story: William Mackinnon's Imperial British East Africa Company received a royal charter in 1888 to trade and govern the British sphere from Mombasa to Uganda, but it never made a profit.
+  why: Britain wanted influence in East Africa without the cost of direct rule, and let a company carry the risk.
+  then: The company went nearly bankrupt, and Britain took over Uganda (1894) and Kenya (1895) directly.
+## af-heligoland | 1890 | Heligoland-Zanzibar Treaty | who: Britain; Germany | where: Zanzibar
+  bluf: Britain and Germany traded African claims for a North Sea island, a deal that gave Britain Zanzibar and the Nile's sources in Uganda. It shows how Africa's borders were set by European bargaining over unrelated interests.
+  now: The Caprivi Strip's odd shape on Namibia's map comes from this treaty.
+  story: Britain got Zanzibar as a protectorate and Germany dropped claims in Uganda and Witu. Germany got the island of Heligoland and the Caprivi Strip in Namibia.
+  why: Britain wanted control of the Nile's sources and Zanzibar; Germany wanted Heligoland to protect its naval coast.
+  then: Britain's grip on Zanzibar led to the 1896 bombardment, and Germany turned Heligoland into a naval fortress.
+## af-lugalo | 1891 | Mkwawa's Hehe destroy a German column at Lugalo | who: Chief Mkwawa's Hehe army vs. Emil von Zelewski's Schutztruppe | where: Lugalo, near Iringa, Tanzania
+  bluf: The Hehe ambush at Lugalo was the heaviest early defeat suffered by colonial forces in German East Africa. It showed African states could fight effectively, though Germany won in the end through a brutal, years-long campaign.
+  now: The defeat forced Germany to fight a seven-year war against the Hehe and to garrison the interior, which made German East Africa a military colony; Mkwawa's resistance became a founding story of Tanzanian nationalism.
+  story: The Hehe were the strongest power in the southern highlands and controlled caravan routes. On August 17, 1891, about 3,000 Hehe warriors ambushed Zelewski's force of about 320 askari plus officers and porters. Zelewski was killed.
+  why: Germany wanted to break Hehe control of the trade routes; Mkwawa refused to submit.
+  then: Germans stormed Mkwawa's fortress at Kalenga in 1894; he fought a guerrilla war until 1898.
+  fact: Lugalo is celebrated in Tanzania as a symbol of resistance.
+## af-uganda | 1894 | Britain makes Uganda a protectorate | who: British government | where: Kampala
+  bluf: Britain declared a protectorate over Uganda mainly to control the source of the Nile and so protect its position in Egypt. Strategic worries about water drove the colonization of a whole region.
+  now: The Nile's waters still shape regional politics, including disputes over Ethiopia's giant dam.
+  story: The Imperial British East Africa Company could not afford to hold Uganda. Fearing another power would control the source of the Nile, and so Egypt's water, the British government declared a protectorate in 1894.
+  why: To control the source of the Nile and protect Britain's position in Egypt.
+  then: Britain built a railway from Mombasa to Lake Victoria to hold it, and ruled largely through the Buganda kingdom's chiefs.
+## af-uganda-b | 1895 | East Africa Protectorate (future Kenya) | who: British government | where: Mombasa
+  bluf: Britain's takeover of the company's coastal territory created the future Kenya, a colony shaped by a railway and by white settlement in the fertile highlands. Land taken for settlers became the central grievance of Kenyan nationalism.
+  now: Land taken for settlers became a central grievance behind the Mau Mau uprising.
+  story: In July 1895 Britain took over the company's territory between the coast and Uganda as the East Africa Protectorate, with its capital at Mombasa. The capital moved to Nairobi in 1905, and the territory became Kenya Colony in 1920.
+  why: Britain wanted to secure the route between the coast and Uganda, and so the headwaters of the Nile.
+  then: The railway and white settlers in the highlands followed, and Africans were pushed into reserves.
+## af-railway | 1896 | Uganda Railway: the 'Lunatic Line' | who: British government; over 30,000 Indian laborers | where: Mombasa to Kisumu, Kenya
+  bluf: The Uganda Railway linked the coast to Lake Victoria, securing British control of the Nile's headwaters and making the colony pay. It shaped Kenya's geography: Nairobi, white settlement in the highlands and the Indian community all grew from it.
+  now: Nairobi exists because of the railway; Kenya's Indian community descends partly from its workers.
+  story: Begun in 1896 at Mombasa, it reached Lake Victoria in 1901. Over 30,000 laborers came from British India; several thousand died. In 1898 two lions at Tsavo killed at least 28 workers. Nairobi grew from a railway camp.
+  why: Britain wanted to secure Uganda and the Nile, end the inland slave caravans and make the colony pay for itself.
+  then: White settlers took fertile highlands along the line, and Indian traders and workers settled in towns along its route.
+  myth: Critics in Parliament mocked it as 'the Lunatic Line' because it seemed to go from nowhere to nowhere.
+## af189627 | 1896 | Ethiopia defeats Italy at Adwa | who: Emperor Menelik II, Empress Taytu | where: Adwa, Ethiopia
+  bluf: Ethiopia's crushing defeat of Italy at Adwa preserved its independence while almost all of Africa was being colonized. It proved an African state could beat a modern European army, and became a lasting symbol of African dignity and pan-Africanism.
+  now: Adwa inspired pan-Africanism, Ethiopia's colours appear on many African flags, and Addis Ababa is home to the African Union.
+  story: On March 1, 1896, Emperor Menelik II's army of around 100,000 men, armed with modern rifles, destroyed an Italian invasion force at Adwa. About 7,000 Italian soldiers were killed. Italy recognised Ethiopia's independence that October.
+  why: Italy claimed a protectorate over Ethiopia under a clause of the 1889 Treaty of Wuchale whose Amharic and Italian versions differed. Menelik had united Ethiopia's regional lords and built a large army with modern rifles, many bought from France and Russia.
+  then: Ethiopia was the only African state to defeat a European power and stay free, apart from Liberia. Italy invaded again under Mussolini in 1935, seeking revenge.
+  fact: Ethiopia's green, yellow and red were later adopted by many newly independent African states as pan-African colors.
+## af189628 | 1896 | Anglo-Zanzibar War | who: Britain vs. Sultan Khalid bin Barghash | where: Zanzibar
+  bluf: The 40-minute bombardment of Zanzibar's palace showed what a British 'protectorate' meant: Britain decided who could rule. It ended any independent authority of the sultanate.
+  now: The bombardment installed a sultan who did as Britain asked, ended Zanzibar's independence and abolished its slave market; British control of the coast and the Swahili interior followed.
+  story: When Sultan Hamad died on August 25, 1896, his cousin Khalid seized the palace without British approval. On August 27 British warships shelled the palace for about 40 minutes until Khalid's flag came down; about 500 of his defenders were killed or wounded.
+  why: Khalid seized the palace without British approval, and Britain, which claimed the right to approve the sultan, chose to make an example.
+  then: A pro-British sultan was installed, and Zanzibar remained a British protectorate until 1963.
+  fact: At about forty minutes, it is the shortest recorded war.
+## af-zanzslavery | 1897 | Zanzibar abolishes slavery | who: Sultan of Zanzibar under British pressure | where: Zanzibar
+  bluf: Zanzibar abolished slavery 24 years after closing the market, and many freed people stayed on plantations as poorly paid workers. Inequalities between Arab landowners and African laborers fed the violent revolution of 1964.
+  now: Zanzibar's 1964 revolution, which overthrew the Arab-dominated government, was rooted partly in the inequalities left by slavery.
+  story: In April 1897 the Sultan, under British pressure, abolished the legal status of slavery on Zanzibar and Pemba. It was a cautious decree: enslaved people had to apply to a court for freedom, owners were compensated, and concubines were excluded until 1909. Relatively few applied at first, because freedom brought no land or income, and many stayed on the clove plantations as low-paid workers or squatters.
+  why: British pressure after the 1896 bombardment, and Britain's need to justify its protectorate as an anti-slavery mission.
+  then: Slavery on the mainland lingered for years: Kenya's coast ended it only in 1907, and German East Africa never fully abolished it.
+## af-mkwawa | 1898 | Mkwawa dies rather than surrender | who: Chief Mkwawa | where: Mlambalasi, near Iringa
+  bluf: Mkwawa's death ended the Hehe resistance, one of the longest against German rule. The return of his skull from Germany in 1954 became an early symbol of colonial restitution.
+  now: Mkwawa is a national hero in Tanzania, and the return of his skull is an early landmark in debates over restitution of colonial-era remains and objects.
+  story: Mkwawa had fought on since his fortress at Kalenga fell in 1894. Surrounded, he took his own life on July 19, 1898. Germans cut off his head as a trophy.
+  why: German forces had hunted Mkwawa for four years after his fortress fell.
+  then: His skull was taken to Germany; it was returned in 1954 and is now in a memorial museum at Kalenga.
+  myth: The Treaty of Versailles (1919) actually ordered Germany to hand over 'the skull of the Sultan Mkwawa'. It was finally returned in 1954.
+## af-omdurman | 1898 | Battle of Omdurman | who: Kitchener's British-Egyptian army vs. the Mahdist state | where: Omdurman, Sudan
+  bluf: Omdurman showed the brutal technology gap behind colonial conquest: machine guns killed about 10,000 Sudanese in a morning for a few dozen British dead. It destroyed the Mahdist state and gave Britain control of the Nile valley.
+  now: It is a stark example of the technology gap behind colonial conquest, and Sudan's divisions between north and south deepened under the Anglo-Egyptian rule that followed.
+  story: Kitchener's army, with Maxim guns and artillery, faced about 50,000 Mahdist troops outside Omdurman on September 2, 1898. About 10,000 Sudanese were killed; fewer than 50 British troops died.
+  why: Britain wanted to control the Nile valley and avenge General Gordon's death at Khartoum in 1885.
+  then: Britain and Egypt ruled Sudan jointly as the Anglo-Egyptian Sudan until 1956.
+## af-omdurman-b | 1898 | Fashoda Incident | who: Kitchener; French Major Jean-Baptiste Marchand | where: Fashoda (Kodok), South Sudan
+  bluf: The Fashoda standoff brought Britain and France close to war over the Upper Nile. France's retreat led the two to settle their colonial disputes and align against Germany in the Entente Cordiale.
+  now: Fashoda settled that France would leave the Nile to Britain, which cleared the way for the Entente Cordiale of 1904 and the alliance that fought Germany ten years later.
+  story: A small French expedition had crossed Africa to plant the flag at Fashoda on the White Nile. Kitchener arrived with a much larger force after Omdurman. After weeks of tension, France, with the weaker navy, backed down.
+  why: France wanted a belt of territory across Africa from west to east; Britain wanted the whole Nile from Cairo to Uganda.
+  then: The two rivals settled their colonial disputes in the Entente Cordiale of 1904.
+  fact: 'Fashoda syndrome' is still used for French wariness of British influence in Africa.
+## af189929 | 1899 | Boer War | who: Britain vs. Boer republics (Transvaal, Orange Free State) | where: South Africa
+  bluf: Britain's war against the Boer republics secured South Africa's gold for the empire at terrible cost, including concentration camps where about 26,000 Boer civilians, most of them children, and at least 14,000 Black Africans died. The peace that followed reconciled whites at the expense of Black South Africans.
+  now: The camps and scorched-earth tactics foreshadowed 20th-century warfare against civilians, and Afrikaner bitterness fed the nationalism behind apartheid.
+  story: Britain wanted the Transvaal's gold fields. Boer guerrillas fought on; Britain burned farms and held about 100,000 civilians in camps where tens of thousands died.
+  why: Control of the Witwatersrand gold fields, British demands for rights for foreign miners in the Transvaal, and imperial ambitions to unite southern Africa under British rule.
+  then: Britain won in 1902, and in 1910 created the Union of South Africa, a white-ruled dominion that excluded Black Africans from power.
+## d-goldenstool | 1900 | War of the Golden Stool | who: Queen Mother Yaa Asantewaa; British colonial forces | where: Kumasi, Ghana
+  bluf: The British demand to sit on the Golden Stool, Asante's sacred symbol, set off the last great Asante revolt. Britain annexed Asante, but the Stool was never surrendered, a sign that conquest could not capture a people's sense of sovereignty.
+  now: Yaa Asantewaa is a national heroine in Ghana and a symbol of women's leadership in anti-colonial resistance.
+  story: In March 1900 Governor Frederick Hodgson demanded the Golden Stool, the symbol of the Asante nation. Led by Yaa Asantewaa, Asante fighters besieged the British fort at Kumasi for months before a relief force broke the revolt.
+  why: Britain had exiled the Asante king in 1896 and wanted complete control.
+  then: Asante was annexed to the Gold Coast colony in 1901, but the British never got the Stool.
+## af190430 | 1904 | Herero and Nama genocide | who: German colonial army under Gen. Lothar von Trotha | where: German South West Africa (Namibia)
+  bluf: Germany's campaign against the Herero and Nama in Namibia is widely recognized as the first genocide of the 20th century. Its methods, from an extermination order to concentration camps and racial science, foreshadowed later atrocities.
+  now: Germany acknowledged it as genocide in 2021 and offered development aid, but many Herero and Nama groups rejected the deal as inadequate.
+  story: After the Herero and Nama rose against land seizures, General von Trotha ordered their extermination. Survivors were driven into the desert or concentration camps.
+  why: German settlers seized Herero and Nama land and cattle, and abuse and debt schemes drove the Herero to revolt in 1904, followed by the Nama.
+  then: Up to 80% of the Herero and about half of the Nama died. Survivors were held in camps, and their land and cattle were confiscated.
+  fact: Germany formally acknowledged it as genocide in 2021.

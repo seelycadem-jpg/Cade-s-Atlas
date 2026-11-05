@@ -1,0 +1,1571 @@
+[
+ {
+  "from": 1923,
+  "to": 2026,
+  "country": "Turkey",
+  "regions": [
+   "*"
+  ],
+  "owner": "Turkey",
+  "except": [
+   "Hatay"
+  ],
+  "why": "Republic of Turkey proclaimed 29 Oct 1923 (sultanate abolished 1922); map keeps the label 'Turkey (Ottoman Empire)' through 2025",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Turkey",
+  "severity": "major"
+ },
+ {
+  "from": 1939,
+  "to": 2026,
+  "country": "Turkey",
+  "regions": [
+   "Hatay"
+  ],
+  "owner": "Turkey",
+  "why": "Hatay annexed by Turkey in July 1939 after the short-lived Hatay State",
+  "source": "https://en.wikipedia.org/wiki/Hatay_State",
+  "severity": "major"
+ },
+ {
+  "from": 1920,
+  "to": 1939,
+  "country": "Turkey",
+  "regions": [
+   "Hatay"
+  ],
+  "owner": "Syria",
+  "overlord": "France",
+  "why": "Sanjak of Alexandretta (Hatay) was part of French Mandate Syria (autonomous sanjak 1921, Hatay State 1938) until annexed by Turkey in 1939; map shows it Turkish from 1920",
+  "source": "https://en.wikipedia.org/wiki/Hatay_State",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Turkey",
+  "regions": [
+   "*"
+  ],
+  "owner": "Ottoman Empire",
+  "except": [
+   "Ardahan",
+   "Artvin",
+   "Kars",
+   "Iğdir"
+  ],
+  "why": "Before 1923 the state is the Ottoman Empire; map switches to the label 'Turkey (Ottoman Empire)' from 1890, breaking continuity with 'Ottoman Empire' (Kars/Ardahan/Artvin/Igdir excluded: Russian)",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Turkey",
+  "severity": "minor"
+ },
+ {
+  "from": 1918,
+  "to": 1923,
+  "country": "Turkey",
+  "regions": [
+   "*"
+  ],
+  "owner": "Ottoman Empire",
+  "except": [
+   "Izmir",
+   "Manisa",
+   "Hatay"
+  ],
+  "why": "Ottoman Empire until abolition of the sultanate (Nov 1922); label continuity",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Turkey",
+  "severity": "minor"
+ },
+ {
+  "from": 1919,
+  "to": 1922,
+  "country": "Turkey",
+  "regions": [
+   "Izmir",
+   "Manisa"
+  ],
+  "owner": "Kingdom of Greece",
+  "why": "Greek occupation of the Smyrna zone 15 May 1919 - 9 Sep 1922 is missing (map shows Greece only in Bursa/Edirne)",
+  "source": "https://en.wikipedia.org/wiki/Occupation_of_Smyrna",
+  "severity": "minor"
+ },
+ {
+  "from": 1878,
+  "to": 1918,
+  "country": "Turkey",
+  "regions": [
+   "Ardahan",
+   "Artvin",
+   "Kars"
+  ],
+  "owner": "Russian Empire",
+  "why": "Kars Oblast/Batum region Russian 1878-1918; map labels it 'Russia (Soviet Union)' from 1890, an anachronism",
+  "source": "https://en.wikipedia.org/wiki/Kars_Oblast",
+  "severity": "major"
+ },
+ {
+  "from": 1828,
+  "to": 1918,
+  "country": "Turkey",
+  "regions": [
+   "Iğdir"
+  ],
+  "owner": "Russian Empire",
+  "why": "Surmalu (Igdir) annexed by Russia under the Treaty of Turkmenchay 1828; map keeps it Ottoman until 1880 and then 'Russia (Soviet Union)'",
+  "source": "https://en.wikipedia.org/wiki/Surmalu_uezd",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Azerbaijan",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "why": "Russian Empire until 1917/18; map uses the anachronistic label 'Russia (Soviet Union)' from 1890",
+  "source": "https://en.wikipedia.org/wiki/Democratic_Republic_of_Georgia",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Armenia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "why": "Russian Empire until 1917/18; map uses the anachronistic label 'Russia (Soviet Union)' from 1890",
+  "source": "https://en.wikipedia.org/wiki/Democratic_Republic_of_Georgia",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Georgia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "why": "Russian Empire until 1917/18; map uses the anachronistic label 'Russia (Soviet Union)' from 1890",
+  "source": "https://en.wikipedia.org/wiki/Democratic_Republic_of_Georgia",
+  "severity": "major"
+ },
+ {
+  "from": 1918,
+  "to": 1920,
+  "country": "Azerbaijan",
+  "regions": [
+   "*"
+  ],
+  "owner": "Azerbaijan Democratic Republic",
+  "why": "Independent Azerbaijan Democratic Republic 28 May 1918 - 28 Apr 1920 (Red Army) is missing",
+  "source": "https://en.wikipedia.org/wiki/Azerbaijan_Democratic_Republic",
+  "severity": "major"
+ },
+ {
+  "from": 1918,
+  "to": 1921,
+  "country": "Armenia",
+  "regions": [
+   "*"
+  ],
+  "owner": "First Republic of Armenia",
+  "why": "Independent First Republic of Armenia 28 May 1918 - 2 Dec 1920 is missing",
+  "source": "https://en.wikipedia.org/wiki/First_Republic_of_Armenia",
+  "severity": "major"
+ },
+ {
+  "from": 1918,
+  "to": 1921,
+  "country": "Georgia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Democratic Republic of Georgia",
+  "why": "Democratic Republic of Georgia 26 May 1918 - Feb/Mar 1921 held all Georgia incl. Abkhazia (Batumi from 1920); map shows it in only 2 regions in 1920",
+  "source": "https://en.wikipedia.org/wiki/Democratic_Republic_of_Georgia",
+  "severity": "major"
+ },
+ {
+  "from": 1991,
+  "to": 2000,
+  "country": "Azerbaijan",
+  "regions": [
+   "*"
+  ],
+  "owner": "Azerbaijan",
+  "except": [
+   "Xocavənd",
+   "Ağdam–Xocalı",
+   "Kəlbəcər",
+   "Cəbrayıl–Zəngilan"
+  ],
+  "why": "Azerbaijan independent from 1991 (declared 30 Aug/18 Oct 1991, USSR dissolved Dec 1991); map shows Soviet rule until 2000",
+  "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
+  "severity": "major"
+ },
+ {
+  "from": 1991,
+  "to": 1993,
+  "country": "Azerbaijan",
+  "regions": [
+   "Kəlbəcər",
+   "Cəbrayıl–Zəngilan"
+  ],
+  "owner": "Azerbaijan",
+  "why": "Azerbaijani until occupied by Armenian/Karabakh forces in 1993",
+  "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
+  "severity": "major"
+ },
+ {
+  "from": 1991,
+  "to": 2000,
+  "country": "Armenia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Armenia",
+  "why": "Armenia independent from Sept 1991; map shows Soviet rule until 2000",
+  "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
+  "severity": "major"
+ },
+ {
+  "from": 1991,
+  "to": 2000,
+  "country": "Georgia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Georgia",
+  "except": [
+   "Abkhazia"
+  ],
+  "why": "Georgia independent from 9 Apr 1991; map shows Soviet rule until 2000",
+  "source": "https://en.wikipedia.org/wiki/Dissolution_of_the_Soviet_Union",
+  "severity": "major"
+ },
+ {
+  "from": 1991,
+  "to": 1993,
+  "country": "Georgia",
+  "regions": [
+   "Abkhazia"
+  ],
+  "owner": "Georgia",
+  "why": "Georgian until the 1992-93 war",
+  "source": "https://en.wikipedia.org/wiki/Abkhazia",
+  "severity": "major"
+ },
+ {
+  "from": 1993,
+  "to": 2026,
+  "country": "Georgia",
+  "regions": [
+   "Abkhazia"
+  ],
+  "owner": "Republic of Abkhazia",
+  "why": "De facto independent since Abkhaz forces took Sukhumi 27 Sep 1993 (recognised by Russia 2008); map shows Georgia",
+  "source": "https://en.wikipedia.org/wiki/Abkhazia",
+  "severity": "major"
+ },
+ {
+  "from": 1992,
+  "to": 2024,
+  "country": "Azerbaijan",
+  "regions": [
+   "Xocavənd",
+   "Ağdam–Xocalı"
+  ],
+  "owner": "Republic of Artsakh",
+  "why": "Nagorno-Karabakh (Republic of Artsakh) controlled these districts from the 1992-94 war until the Sept 2023 offensive (dissolved 1 Jan 2024); map shows Azerbaijan throughout",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Artsakh",
+  "severity": "major"
+ },
+ {
+  "from": 1993,
+  "to": 2021,
+  "country": "Azerbaijan",
+  "regions": [
+   "Kəlbəcər",
+   "Cəbrayıl–Zəngilan"
+  ],
+  "owner": "Republic of Artsakh",
+  "why": "Occupied by Armenian/Artsakh forces 1993 until retaken or handed back in Oct-Nov 2020",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Artsakh",
+  "severity": "major"
+ },
+ {
+  "from": 1878,
+  "to": 1960,
+  "country": "Cyprus",
+  "regions": [
+   "*"
+  ],
+  "owner": "Cyprus",
+  "overlord": "United Kingdom",
+  "why": "British administration from the 1878 Cyprus Convention (annexed 1914, crown colony 1925) until independence 1960; map reverts parts to Ottoman 1890-1910 and leaves Akrotiri as 'no polity'",
+  "source": "https://en.wikipedia.org/wiki/British_Cyprus",
+  "severity": "major"
+ },
+ {
+  "from": 1878,
+  "to": 1960,
+  "country": "Northern Cyprus",
+  "regions": [
+   "*"
+  ],
+  "owner": "Cyprus",
+  "overlord": "United Kingdom",
+  "why": "British administration from the 1878 Cyprus Convention (annexed 1914, crown colony 1925) until independence 1960; map reverts parts to Ottoman 1890-1910 and leaves Akrotiri as 'no polity'",
+  "source": "https://en.wikipedia.org/wiki/British_Cyprus",
+  "severity": "major"
+ },
+ {
+  "from": 1878,
+  "to": 1960,
+  "country": "Dhekelia Sovereign Base Area",
+  "regions": [
+   "*"
+  ],
+  "owner": "Cyprus",
+  "overlord": "United Kingdom",
+  "why": "British administration from the 1878 Cyprus Convention (annexed 1914, crown colony 1925) until independence 1960; map reverts parts to Ottoman 1890-1910 and leaves Akrotiri as 'no polity'",
+  "source": "https://en.wikipedia.org/wiki/British_Cyprus",
+  "severity": "major"
+ },
+ {
+  "from": 1878,
+  "to": 1960,
+  "country": "Akrotiri Sovereign Base Area",
+  "regions": [
+   "*"
+  ],
+  "owner": "Cyprus",
+  "overlord": "United Kingdom",
+  "why": "British administration from the 1878 Cyprus Convention (annexed 1914, crown colony 1925) until independence 1960; map reverts parts to Ottoman 1890-1910 and leaves Akrotiri as 'no polity'",
+  "source": "https://en.wikipedia.org/wiki/British_Cyprus",
+  "severity": "major"
+ },
+ {
+  "from": 1960,
+  "to": 2026,
+  "country": "Dhekelia Sovereign Base Area",
+  "regions": [
+   "*"
+  ],
+  "owner": "United Kingdom",
+  "why": "British Sovereign Base Area retained under the 1960 Treaty of Establishment; map shows Dhekelia as Republic of Cyprus and Akrotiri as 'no polity'",
+  "source": "https://en.wikipedia.org/wiki/Akrotiri_and_Dhekelia",
+  "severity": "major"
+ },
+ {
+  "from": 1960,
+  "to": 2026,
+  "country": "Akrotiri Sovereign Base Area",
+  "regions": [
+   "*"
+  ],
+  "owner": "United Kingdom",
+  "why": "British Sovereign Base Area retained under the 1960 Treaty of Establishment; map shows Dhekelia as Republic of Cyprus and Akrotiri as 'no polity'",
+  "source": "https://en.wikipedia.org/wiki/Akrotiri_and_Dhekelia",
+  "severity": "major"
+ },
+ {
+  "from": 1975,
+  "to": 1983,
+  "country": "Northern Cyprus",
+  "regions": [
+   "*"
+  ],
+  "owner": "Turkish Federated State of Cyprus",
+  "why": "After the 1974 Turkish invasion the north was run separately (TFSC declared 13 Feb 1975); map shows Republic of Cyprus",
+  "source": "https://en.wikipedia.org/wiki/Northern_Cyprus",
+  "severity": "major"
+ },
+ {
+  "from": 1983,
+  "to": 2026,
+  "country": "Northern Cyprus",
+  "regions": [
+   "*"
+  ],
+  "owner": "Turkish Republic of Northern Cyprus",
+  "why": "TRNC declared 15 Nov 1983 (recognised only by Turkey); map shows Republic of Cyprus through 2025",
+  "source": "https://en.wikipedia.org/wiki/Northern_Cyprus",
+  "severity": "major"
+ },
+ {
+  "from": 1490,
+  "to": 1578,
+  "country": "Georgia",
+  "regions": [
+   "Mtskheta-Mtianeti",
+   "Shida Kartli",
+   "Kvemo Kartli"
+  ],
+  "owner": "Kingdom of Kartli",
+  "why": "After the break-up of the Kingdom of Georgia (Kartli established 1478) the Kartli core was the Kingdom of Kartli; map keeps the anachronistic 'Kingdom of Georgia' here (also Lori, Tovuz) and in 1710-1800",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kartli",
+  "severity": "major"
+ },
+ {
+  "from": 1490,
+  "to": 1578,
+  "country": "Armenia",
+  "regions": [
+   "Lori"
+  ],
+  "owner": "Kingdom of Kartli",
+  "why": "Lori (Somkhiti) belonged to Kartli, not a unified 'Kingdom of Georgia'",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kartli",
+  "severity": "minor"
+ },
+ {
+  "from": 1490,
+  "to": 1578,
+  "country": "Azerbaijan",
+  "regions": [
+   "Tovuz–Ağstafa"
+  ],
+  "owner": "Kingdom of Kartli",
+  "why": "Kazakh/Borchali borderland attached to Kartli; 'Kingdom of Georgia' anachronistic",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kartli",
+  "severity": "minor"
+ },
+ {
+  "from": 1604,
+  "to": 1723,
+  "country": "Georgia",
+  "regions": [
+   "Mtskheta-Mtianeti",
+   "Shida Kartli",
+   "Kvemo Kartli"
+  ],
+  "owner": "Kingdom of Kartli",
+  "why": "Kartli survived as a (mostly Safavid-vassal) kingdom; Safavids retook Tiflis 1603-04, so Ottoman rule shown in 1610 is wrong, and 'Kingdom of Georgia' (1710) is anachronistic",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kartli",
+  "severity": "major"
+ },
+ {
+  "from": 1723,
+  "to": 1736,
+  "country": "Georgia",
+  "regions": [
+   "Mtskheta-Mtianeti",
+   "Shida Kartli",
+   "Kvemo Kartli"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman occupation of Kartli 1723-1736; map shows only Kvemo Kartli Ottoman and the rest as 'Kingdom of Georgia'",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kartli",
+  "severity": "minor"
+ },
+ {
+  "from": 1747,
+  "to": 1762,
+  "country": "Georgia",
+  "regions": [
+   "Mtskheta-Mtianeti",
+   "Shida Kartli",
+   "Kvemo Kartli"
+  ],
+  "owner": "Kingdom of Kartli",
+  "why": "Kingdom of Kartli restored under Teimuraz II until union with Kakheti in 1762; map shows 'Kingdom of Georgia'",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kartli",
+  "severity": "major"
+ },
+ {
+  "from": 1762,
+  "to": 1801,
+  "country": "Georgia",
+  "regions": [
+   "Mtskheta-Mtianeti",
+   "Shida Kartli",
+   "Kvemo Kartli",
+   "Kakheti"
+  ],
+  "owner": "Kingdom of Kartli-Kakheti",
+  "why": "Heraclius II united Kartli and Kakheti in 1762; annexed by Russia 1801. Map splits it into 'Kingdom of Georgia' (anachronistic) and a small 'Kingdom of Kartli-Kakheti'",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kartli-Kakheti",
+  "severity": "major"
+ },
+ {
+  "from": 1762,
+  "to": 1801,
+  "country": "Armenia",
+  "regions": [
+   "Lori"
+  ],
+  "owner": "Kingdom of Kartli-Kakheti",
+  "why": "Lori part of Kartli-Kakheti; 'Kingdom of Georgia' anachronistic",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kartli-Kakheti",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1545,
+  "country": "Georgia",
+  "regions": [
+   "Samtskhe-Javakheti"
+  ],
+  "owner": "Samtskhe-Saatabago",
+  "why": "Samtskhe was an autonomous atabegate, not Safavid (1510) or directly Ottoman (1520-1610)",
+  "source": "https://en.wikipedia.org/wiki/Samtskhe-Saatabago",
+  "severity": "major"
+ },
+ {
+  "from": 1545,
+  "to": 1625,
+  "country": "Georgia",
+  "regions": [
+   "Samtskhe-Javakheti"
+  ],
+  "owner": "Samtskhe-Saatabago",
+  "overlord": "Ottoman Empire",
+  "why": "Ottoman vassal from 1545 until absorbed into Childir Eyalet 1625; map shows direct Ottoman rule then 'Kingdom of Kartli' (1620)",
+  "source": "https://en.wikipedia.org/wiki/Samtskhe-Saatabago",
+  "severity": "major"
+ },
+ {
+  "from": 1625,
+  "to": 1829,
+  "country": "Georgia",
+  "regions": [
+   "Samtskhe-Javakheti"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Akhaltsikhe/Childir Eyalet was Ottoman until Russia took it in 1828 (Treaty of Adrianople 1829); map shows it Georgian/Kartli 1620-1730, Afsharid 1740 and 'Kingdom of Georgia' 1750-1800",
+  "source": "https://en.wikipedia.org/wiki/Akhaltsikhe",
+  "severity": "major"
+ },
+ {
+  "from": 1578,
+  "to": 1620,
+  "country": "Georgia",
+  "regions": [
+   "Imereti",
+   "Racha-Lechkhumi-Kvemo Svaneti"
+  ],
+  "owner": "Kingdom of Imereti",
+  "overlord": "Ottoman Empire",
+  "why": "During the 1578-90 war the western Georgian states fought on the Ottoman side as tributaries; they were not annexed (map shows direct Ottoman rule 1580-1610)",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1578–1590)",
+  "severity": "major"
+ },
+ {
+  "from": 1578,
+  "to": 1620,
+  "country": "Georgia",
+  "regions": [
+   "Samegrelo-Zemo Svaneti"
+  ],
+  "owner": "Principality of Mingrelia",
+  "overlord": "Ottoman Empire",
+  "why": "Mingrelia was an Ottoman-aligned tributary, not annexed",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1578–1590)",
+  "severity": "major"
+ },
+ {
+  "from": 1578,
+  "to": 1620,
+  "country": "Georgia",
+  "regions": [
+   "Abkhazia"
+  ],
+  "owner": "Principality of Abkhazia",
+  "overlord": "Ottoman Empire",
+  "why": "Abkhazia remained a local principality, not directly Ottoman",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1578–1590)",
+  "severity": "minor"
+ },
+ {
+  "from": 1578,
+  "to": 1620,
+  "country": "Georgia",
+  "regions": [
+   "Ajaria"
+  ],
+  "owner": "Principality of Guria",
+  "overlord": "Ottoman Empire",
+  "why": "Guria fought as an Ottoman ally/tributary, not annexed",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1578–1590)",
+  "severity": "major"
+ },
+ {
+  "from": 1578,
+  "to": 1604,
+  "country": "Georgia",
+  "regions": [
+   "Mtskheta-Mtianeti",
+   "Shida Kartli",
+   "Kvemo Kartli"
+  ],
+  "owner": "Kingdom of Kartli",
+  "overlord": "Ottoman Empire",
+  "why": "Ottomans took Tiflis (1578) and pressed Kartli to become a tributary vassal; the kingdom was not annexed",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1578–1590)",
+  "severity": "minor"
+ },
+ {
+  "from": 1606,
+  "to": 1620,
+  "country": "Azerbaijan",
+  "regions": [
+   "*"
+  ],
+  "owner": "Safavid Dynasty",
+  "except": [
+   "Qax",
+   "Zaqatala",
+   "Tovuz–Ağstafa"
+  ],
+  "why": "Safavids retook Ganja, Shirvan, Shamakhi and Baku by June 1606; map still shows 92% Ottoman in 1610",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1603–1618)",
+  "severity": "major"
+ },
+ {
+  "from": 1604,
+  "to": 1620,
+  "country": "Armenia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Safavid Dynasty",
+  "except": [
+   "Lori"
+  ],
+  "why": "Safavids took Yerevan in June 1604; map shows Ottoman rule (except Ararat) in 1610",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1603–1618)",
+  "severity": "major"
+ },
+ {
+  "from": 1813,
+  "to": 1830,
+  "country": "Azerbaijan",
+  "regions": [
+   "Neftçala–Lankaran"
+  ],
+  "owner": "Russian Empire",
+  "why": "Lankaran fortress and part of Talysh ceded to Russia by the Treaty of Gulistan 1813; map shows '(peoples: Persia)' in 1820",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Gulistan",
+  "severity": "minor"
+ },
+ {
+  "from": 1750,
+  "to": 1795,
+  "country": "Armenia",
+  "regions": [
+   "Ararat"
+  ],
+  "owner": "Erivan Khanate",
+  "why": "Overlord 'Qajar Iran' is anachronistic before Agha Mohammad Khan founded the Qajar state (1789; Erivan subdued 1795)",
+  "source": "https://en.wikipedia.org/wiki/Qajar_Iran",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1516,
+  "country": "Syria",
+  "regions": [
+   "Aleppo"
+  ],
+  "owner": "Mamluk Sultanate",
+  "why": "Aleppo was a Mamluk province until Marj Dabiq (Aug 1516); map gives it to the Germiyanids (a western-Anatolian beylik) in 1400-10, Aq Qoyunlu 1420-1510",
+  "source": "https://en.wikipedia.org/wiki/Mamluk_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1516,
+  "country": "Syria",
+  "regions": [
+   "Ar Raqqah",
+   "Dayr Az Zawr"
+  ],
+  "owner": "Mamluk Sultanate",
+  "why": "Middle Euphrates (Raqqa, Rahba) was Mamluk frontier land; Germiyanids in Syria are impossible",
+  "source": "https://en.wikipedia.org/wiki/Mamluk_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1516,
+  "to": 1831,
+  "country": "Syria",
+  "regions": [
+   "*"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Syria Ottoman from 1516 until Muhammad Ali's occupation 1831; map shows Safavids in Aleppo/Raqqa/Dayr/Hasaka 1520-1540 and tribes in Homs/Rif Dimashq in 1630 and 1820",
+  "source": "https://en.wikipedia.org/wiki/Mamluk_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1841,
+  "to": 1918,
+  "country": "Syria",
+  "regions": [
+   "*"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman again after Egyptian withdrawal (1840-41) until 1918; map gives Homs to Jabal Shammar/Nejd 1890-1910 and uses the 'Turkey (Ottoman Empire)' label",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Jabal_Shammar",
+  "severity": "major"
+ },
+ {
+  "from": 1516,
+  "to": 1540,
+  "country": "Turkey",
+  "regions": [
+   "Batman",
+   "Mardin",
+   "Sanliurfa",
+   "Siirt",
+   "Bitlis",
+   "Sirnak",
+   "Diyarbakir"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottomans took Diyarbakir (eyalet est. Nov 1515) and Upper Mesopotamia 1515-17; map keeps these Safavid until 1540",
+  "source": "https://en.wikipedia.org/wiki/Diyarbekir_Eyalet",
+  "severity": "major"
+ },
+ {
+  "from": 1548,
+  "to": 1560,
+  "country": "Turkey",
+  "regions": [
+   "Van",
+   "Agri",
+   "Hakkari"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Van fell to the Ottomans 25 Aug 1548; map waits until 1560",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1532–1555)",
+  "severity": "minor"
+ },
+ {
+  "from": 1461,
+  "to": 1510,
+  "country": "Turkey",
+  "regions": [
+   "Rize"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Rize was Trapezuntine land taken with Trebizond in 1461, not Samtskhe",
+  "source": "https://en.wikipedia.org/wiki/Empire_of_Trebizond",
+  "severity": "minor"
+ },
+ {
+  "from": 1516,
+  "to": 1831,
+  "country": "Jordan",
+  "regions": [
+   "Amman",
+   "Zarqa",
+   "Ma`an",
+   "Mafraq"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman (Damascus Eyalet, Hajj route) throughout; map flickers to tribes every other decade and shows 'tribes of Qatar' in 1630 and Shammar in 1820",
+  "source": "https://en.wikipedia.org/wiki/Mamluk_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1841,
+  "to": 1918,
+  "country": "Jordan",
+  "regions": [
+   "Amman",
+   "Zarqa",
+   "Ma`an",
+   "Mafraq"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman until 1918; map gives Amman/Zarqa/Ma'an to Jabal Shammar (1890-1900) and the Emirate of Nejd (1910)",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Jabal_Shammar",
+  "severity": "major"
+ },
+ {
+  "from": 1921,
+  "to": 1946,
+  "country": "Jordan",
+  "regions": [
+   "*"
+  ],
+  "owner": "Jordan",
+  "overlord": "United Kingdom",
+  "why": "Emirate of Transjordan under British mandate from 1921; map gives 56% of Jordan to 'Iraq' in 1920",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Transjordan",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Lebanon",
+  "regions": [
+   "*"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman until 1918; map switches label to 'Turkey (Ottoman Empire)' in 1890, a different polity name",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Turkey",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Israel",
+  "regions": [
+   "*"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman until 1918; map switches label to 'Turkey (Ottoman Empire)' in 1890, a different polity name",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Turkey",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Gaza Strip",
+  "regions": [
+   "*"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman until 1918; map switches label to 'Turkey (Ottoman Empire)' in 1890, a different polity name",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Turkey",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "West Bank",
+  "regions": [
+   "*"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman until 1918; map switches label to 'Turkey (Ottoman Empire)' in 1890, a different polity name",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Turkey",
+  "severity": "minor"
+ },
+ {
+  "from": 2005,
+  "to": 2007,
+  "country": "Gaza Strip",
+  "regions": [
+   "*"
+  ],
+  "owner": "Palestinian Authority",
+  "why": "Israel withdrew from Gaza in Sept 2005 (disengagement); map shows Israel through 2025",
+  "source": "https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007)",
+  "severity": "major"
+ },
+ {
+  "from": 2007,
+  "to": 2026,
+  "country": "Gaza Strip",
+  "regions": [
+   "*"
+  ],
+  "owner": "Hamas",
+  "why": "Hamas has governed Gaza since the June 2007 takeover (Israeli ground operations 2023-25 contested much of it)",
+  "source": "https://en.wikipedia.org/wiki/Battle_of_Gaza_(2007)",
+  "severity": "major"
+ },
+ {
+  "from": 2014,
+  "to": 2018,
+  "country": "Syria",
+  "regions": [
+   "Ar Raqqah",
+   "Dayr Az Zawr"
+  ],
+  "owner": "Islamic State",
+  "why": "Islamic State held Raqqa (its capital) Jan 2014 - Oct 2017 and most of Deir ez-Zor; map shows Syria 100%",
+  "source": "https://en.wikipedia.org/wiki/Territory_of_the_Islamic_State",
+  "severity": "major"
+ },
+ {
+  "from": 2018,
+  "to": 2026,
+  "country": "Syria",
+  "regions": [
+   "Ar Raqqah"
+  ],
+  "owner": "Autonomous Administration of North and East Syria",
+  "why": "After SDF capture of Raqqa (Oct 2017) the area was run by the Kurdish-led administration until handed to Damascus in Jan 2026",
+  "source": "https://en.wikipedia.org/wiki/Autonomous_Administration_of_North_and_East_Syria",
+  "severity": "minor"
+ },
+ {
+  "from": 2014,
+  "to": 2026,
+  "country": "Syria",
+  "regions": [
+   "Hasaka (Al Haksa)"
+  ],
+  "owner": "Autonomous Administration of North and East Syria",
+  "why": "Jazira canton/AANES de facto autonomous from Jan 2014",
+  "source": "https://en.wikipedia.org/wiki/Autonomous_Administration_of_North_and_East_Syria",
+  "severity": "minor"
+ },
+ {
+  "from": 2017,
+  "to": 2025,
+  "country": "Syria",
+  "regions": [
+   "Idlib"
+  ],
+  "owner": "Syrian Salvation Government",
+  "why": "Idlib held by the opposition/HTS Syrian Salvation Government from 2017 until the fall of Assad (Dec 2024)",
+  "source": "https://en.wikipedia.org/wiki/Syrian_Salvation_Government",
+  "severity": "minor"
+ },
+ {
+  "from": 2014,
+  "to": 2017,
+  "country": "Iraq",
+  "regions": [
+   "Ninawa"
+  ],
+  "owner": "Islamic State",
+  "why": "Islamic State held Mosul and most of Nineveh from June 2014 to July 2017",
+  "source": "https://en.wikipedia.org/wiki/Territory_of_the_Islamic_State",
+  "severity": "major"
+ },
+ {
+  "from": 1411,
+  "to": 1432,
+  "country": "Iraq",
+  "regions": [
+   "Babil",
+   "Wasit",
+   "Al-Basrah"
+  ],
+  "owner": "Jalayirid Sultanate",
+  "why": "After losing Baghdad (1410-11) the Jalayirids held Hillah, Wasit and Basra until 1431-32; map shows '(peoples: Timurid Empire)', Bahrani and Qara Qoyunlu",
+  "source": "https://en.wikipedia.org/wiki/Jalayirid_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1470,
+  "to": 1508,
+  "country": "Iraq",
+  "regions": [
+   "Al-Anbar",
+   "An-Najaf",
+   "Al-Muthannia"
+  ],
+  "owner": "Aq Qoyunlu",
+  "why": "Aq Qoyunlu ruled Iraq after Uzun Hasan; the Timurids never held it then - '(peoples: Timurid Empire)' is a mislabel",
+  "source": "https://en.wikipedia.org/wiki/Aq_Qoyunlu",
+  "severity": "major"
+ },
+ {
+  "from": 1508,
+  "to": 1534,
+  "country": "Iraq",
+  "regions": [
+   "Al-Anbar",
+   "An-Najaf",
+   "Al-Muthannia"
+  ],
+  "owner": "Safavid Dynasty",
+  "why": "Safavids conquered Iraq in 1508; '(peoples: Emirate of the White Sheep Turks)' (i.e. Aq Qoyunlu, already gone) is a mislabel",
+  "source": "https://en.wikipedia.org/wiki/Aq_Qoyunlu",
+  "severity": "major"
+ },
+ {
+  "from": 1540,
+  "to": 1624,
+  "country": "Iraq",
+  "regions": [
+   "*"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman from 1534 (Baghdad) until Safavid capture of Baghdad 14 Jan 1624; map shows Safavid rule in 1610 and 'Saharan nomads (Tuareg, Moors, Tubu)' in Anbar/Najaf",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1623–1639)",
+  "severity": "major"
+ },
+ {
+  "from": 1624,
+  "to": 1638,
+  "country": "Iraq",
+  "regions": [
+   "Al-Basrah"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Safavids failed to take Basra (1624), which stayed under its Ottoman pasha; map shows it Safavid in 1630",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1623–1639)",
+  "severity": "minor"
+ },
+ {
+  "from": 1638,
+  "to": 1918,
+  "country": "Iraq",
+  "regions": [
+   "*"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman from Dec 1638 to 1918 (Mamluk pashas 1747-1831 were Ottoman governors). Map flickers Anbar/Najaf/Muthanna/Basra to tribes, '(peoples: Ottoman Empire)' and 'Saharan nomads', gives Basra/Najaf to the Emirate of Diriyah (1810), Basra to tribes (1840) and Anbar/Najaf to Shammar/Nejd 1890-1910",
+  "source": "https://en.wikipedia.org/wiki/Ottoman–Safavid_War_(1623–1639)",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1517,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Makkah",
+   "Al Madinah"
+  ],
+  "owner": "Sharifate of Mecca",
+  "overlord": "Mamluk Sultanate",
+  "why": "Hejaz under the Sharifs of Mecca with Mamluk control; map flickers Mecca/Medina between the Mamluks and '(peoples: Bedouin tribes)' every decade",
+  "source": "https://en.wikipedia.org/wiki/Sharifate_of_Mecca",
+  "severity": "major"
+ },
+ {
+  "from": 1517,
+  "to": 1803,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Makkah",
+   "Al Madinah"
+  ],
+  "owner": "Sharifate of Mecca",
+  "overlord": "Ottoman Empire",
+  "why": "Sharif Barakat accepted Ottoman sovereignty in 1517; Hejaz stayed Ottoman-Sharifian until 1803. Map alternates Ottoman/Bedouin every decade, shows 'tribes of Qatar' in 1630 and Diriyah/'Qatari tribes' in 1800",
+  "source": "https://en.wikipedia.org/wiki/Sharifate_of_Mecca",
+  "severity": "major"
+ },
+ {
+  "from": 1803,
+  "to": 1813,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Makkah",
+   "Al Madinah"
+  ],
+  "owner": "Emirate of Diriyah",
+  "why": "Wahhabi/Saudi control of the holy cities 1803-1813 (Medina retaken 1812, Mecca 1813)",
+  "source": "https://en.wikipedia.org/wiki/Sharifate_of_Mecca",
+  "severity": "minor"
+ },
+ {
+  "from": 1813,
+  "to": 1840,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Makkah",
+   "Al Madinah"
+  ],
+  "owner": "Muhammad Ali dynasty",
+  "overlord": "Ottoman Empire",
+  "why": "Egyptian administration of the Hejaz from 1813 until the 1840 Convention of London; map shows plain Ottoman in 1820 and the Emirate of Nejd in Mecca (1830) and Medina (1840)",
+  "source": "https://en.wikipedia.org/wiki/Sharifate_of_Mecca",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1916,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Makkah",
+   "Tabuk"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman Hejaz (vilayet from 1872) until the Arab Revolt 1916; map gives it to Jabal Shammar (1890-1900) and the Emirate of Nejd (1910), neither of which ever held the Hejaz",
+  "source": "https://en.wikipedia.org/wiki/Hejaz_Vilayet",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1919,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Al Madinah"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman until the Medina garrison surrendered 10 Jan 1919; map gives Medina to Jabal Shammar/Nejd 1890-1920",
+  "source": "https://en.wikipedia.org/wiki/Siege_of_Medina",
+  "severity": "major"
+ },
+ {
+  "from": 1916,
+  "to": 1926,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Makkah",
+   "Tabuk"
+  ],
+  "owner": "Kingdom of Hejaz",
+  "why": "Kingdom of Hejaz 1916 until Saudi conquest (Jeddah fell Dec 1925); map gives Tabuk to 'Iraq' in 1920",
+  "source": "https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia",
+  "severity": "major"
+ },
+ {
+  "from": 1919,
+  "to": 1926,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Al Madinah"
+  ],
+  "owner": "Kingdom of Hejaz",
+  "why": "Hashemite Hejaz after the Ottoman surrender (Jan 1919) until 1925",
+  "source": "https://en.wikipedia.org/wiki/Siege_of_Medina",
+  "severity": "major"
+ },
+ {
+  "from": 1517,
+  "to": 1744,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ar Riyad",
+   "Ha'il",
+   "Al Hudud ash Shamaliyah",
+   "Al Jawf"
+  ],
+  "owner": "none",
+  "why": "Najd stayed outside effective Ottoman rule; map shows the Ottomans in Riyadh/Ha'il/Jawf every other decade 1520-1790",
+  "source": "https://en.wikipedia.org/wiki/Najd",
+  "severity": "major"
+ },
+ {
+  "from": 1744,
+  "to": 1790,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ha'il",
+   "Al Hudud ash Shamaliyah",
+   "Al Jawf"
+  ],
+  "owner": "none",
+  "why": "No Ottoman rule in northern Najd; Ottoman flicker continues on the map",
+  "source": "https://en.wikipedia.org/wiki/Najd",
+  "severity": "minor"
+ },
+ {
+  "from": 1744,
+  "to": 1818,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ar Riyad"
+  ],
+  "owner": "Emirate of Diriyah",
+  "why": "Emirate of Diriyah 1744-1818 (Diriyah lies in Riyadh province); map flickers to Bedouin/Ottoman/Shammar in 1760, 1780 and 1790",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Diriyah",
+  "severity": "major"
+ },
+ {
+  "from": 1800,
+  "to": 1818,
+  "country": "Saudi Arabia",
+  "regions": [
+   "`Asir",
+   "Jizan"
+  ],
+  "owner": "Emirate of Diriyah",
+  "why": "Asir highlands and the Tihama were under the Saudi/Wahhabi state; map shows '(peoples: Qatari tribes)' here in 1800-10",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Diriyah",
+  "severity": "minor"
+ },
+ {
+  "from": 1909,
+  "to": 1930,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Jizan"
+  ],
+  "owner": "Idrisid Emirate of Asir",
+  "why": "Idrisid Emirate of Asir (capital Sabya, govt from 1909) is missing; absorbed by Saudis 1930, annexed 1934",
+  "source": "https://en.wikipedia.org/wiki/Idrisid_Emirate_of_Asir",
+  "severity": "major"
+ },
+ {
+  "from": 1921,
+  "to": 1926,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ha'il",
+   "Al Hudud ash Shamaliyah",
+   "Al Jawf"
+  ],
+  "owner": "Emirate of Nejd and Hasa (Al Saud)",
+  "why": "Ibn Saud took Ha'il 2 Nov 1921; map gives northern Saudi Arabia (and al-Hasa) to British 'Iraq' in 1920-1930",
+  "source": "https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia",
+  "severity": "major"
+ },
+ {
+  "from": 1926,
+  "to": 1932,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ha'il",
+   "Al Hudud ash Shamaliyah",
+   "Al Jawf",
+   "Tabuk"
+  ],
+  "owner": "Kingdom of Hejaz and Nejd (Al Saud)",
+  "why": "Kingdom of Hejaz and Nejd from 1926; never part of Iraq",
+  "source": "https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia",
+  "severity": "major"
+ },
+ {
+  "from": 1440,
+  "to": 1524,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ash Sharqiyah"
+  ],
+  "owner": "Jabrids",
+  "why": "Jabrid state (from 1417, ruled al-Hasa/Qatif) until 1524; map flickers between 'Bahrani Dynasty', Jabrids and '(peoples: Timurid Empire)'",
+  "source": "https://en.wikipedia.org/wiki/Jabrids",
+  "severity": "minor"
+ },
+ {
+  "from": 1552,
+  "to": 1670,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ash Sharqiyah"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman Lahsa Eyalet 1552-1670; map shows Portugal (never held the mainland) and 'Saharan nomads'",
+  "source": "https://en.wikipedia.org/wiki/Lahsa_Eyalet",
+  "severity": "major"
+ },
+ {
+  "from": 1670,
+  "to": 1790,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ash Sharqiyah"
+  ],
+  "owner": "Bani Khalid Emirate",
+  "why": "Bani Khalid expelled the Ottomans 1670 and ruled al-Hasa until Saudi invasion 1789-96; map shows Ottoman, 'Saharan nomads', '(peoples: Ottoman Empire)' and Kuwait",
+  "source": "https://en.wikipedia.org/wiki/Bani_Khalid_Emirate",
+  "severity": "major"
+ },
+ {
+  "from": 1790,
+  "to": 1818,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ash Sharqiyah"
+  ],
+  "owner": "Emirate of Diriyah",
+  "why": "Saudi conquest of al-Hasa 1789-96 until 1818; map shows 'Saharan nomads' and 'Qatari tribes'",
+  "source": "https://en.wikipedia.org/wiki/Bani_Khalid_Emirate",
+  "severity": "minor"
+ },
+ {
+  "from": 1830,
+  "to": 1871,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ash Sharqiyah"
+  ],
+  "owner": "Emirate of Nejd",
+  "why": "Bani Khalid rule ended 1830 with the Second Saudi State taking al-Hasa; map flickers to Bahrain, Shammar tribes, Trucial States and Oman",
+  "source": "https://en.wikipedia.org/wiki/Bani_Khalid_Emirate",
+  "severity": "minor"
+ },
+ {
+  "from": 1871,
+  "to": 1913,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ash Sharqiyah"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman al-Hasa (Najd Sanjak) 1871-1913; map shows Nejd, Oman, Bedouin, Jabal Shammar and 'United Arab Emirates'",
+  "source": "https://en.wikipedia.org/wiki/Najd_Sanjak",
+  "severity": "major"
+ },
+ {
+  "from": 1913,
+  "to": 1926,
+  "country": "Saudi Arabia",
+  "regions": [
+   "Ash Sharqiyah"
+  ],
+  "owner": "Emirate of Nejd and Hasa (Al Saud)",
+  "why": "Ibn Saud took al-Hasa in 1913; map gives parts to Iraq, Trucial States and Muscat in 1920-30",
+  "source": "https://en.wikipedia.org/wiki/Unification_of_Saudi_Arabia",
+  "severity": "major"
+ },
+ {
+  "from": 1760,
+  "to": 1871,
+  "country": "Kuwait",
+  "regions": [
+   "Al Asimah",
+   "Al Jahrah"
+  ],
+  "owner": "Kuwait",
+  "why": "Al Sabah sheikhdom from 1752; map flickers Kuwait City to Ottoman (1770, 1830) and tribes/'Saharan nomads' (1790, 1840)",
+  "source": "https://en.wikipedia.org/wiki/Sheikhdom_of_Kuwait",
+  "severity": "minor"
+ },
+ {
+  "from": 1899,
+  "to": 1961,
+  "country": "Kuwait",
+  "regions": [
+   "*"
+  ],
+  "owner": "Sheikhdom of Kuwait",
+  "overlord": "United Kingdom",
+  "why": "British protectorate from the 1899 Anglo-Kuwaiti Agreement to 1961; map keeps Kuwait City Ottoman to 1910 and gives Kuwait to Iraq 1920-1940",
+  "source": "https://en.wikipedia.org/wiki/Sheikhdom_of_Kuwait",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1971,
+  "country": "United Arab Emirates",
+  "regions": [
+   "*"
+  ],
+  "owner": "Trucial States",
+  "overlord": "British Empire",
+  "why": "Trucial States under British protection (Exclusive Agreement 1892) until the UAE formed 2 Dec 1971; map uses 'United Arab Emirates [under United Kingdom]' from 1900 (anachronistic) and gives Abu Dhabi to Jabal Shammar in 1890",
+  "source": "https://en.wikipedia.org/wiki/Trucial_States",
+  "severity": "major"
+ },
+ {
+  "from": 1550,
+  "to": 1630,
+  "country": "United Arab Emirates",
+  "regions": [
+   "Abu Dhabi",
+   "Dubay",
+   "Sharjah"
+  ],
+  "owner": "none",
+  "why": "The Ottomans never ruled the Trucial coast; map flips it to Ottoman in 1560, 1590 and 1610",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_United_Arab_Emirates",
+  "severity": "minor"
+ },
+ {
+  "from": 1971,
+  "to": 2026,
+  "country": "Oman",
+  "regions": [
+   "Musandam"
+  ],
+  "owner": "Oman",
+  "why": "Musandam is an Omani governorate (effective Omani control from 1970-71); map shows it as UAE through 2025",
+  "source": "https://en.wikipedia.org/wiki/Musandam_Governorate",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 1971,
+  "country": "Oman",
+  "regions": [
+   "Musandam"
+  ],
+  "owner": "Oman",
+  "why": "Claimed by the Sultan (representative at Khasab) with local Shihuh rule; never part of the Trucial States",
+  "source": "https://en.wikipedia.org/wiki/Musandam_Governorate",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1624,
+  "country": "Oman",
+  "regions": [
+   "Ad Dakhliyah"
+  ],
+  "owner": "Nabhani dynasty",
+  "why": "Portuguese held only coastal forts; the interior (Nizwa) was under the Nabhani until the Yaruba imamate (1624)",
+  "source": "https://en.wikipedia.org/wiki/Yaruba_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1624,
+  "to": 1749,
+  "country": "Oman",
+  "regions": [
+   "Ad Dakhliyah",
+   "Al Dhahira",
+   "Ash Sharqiyah South"
+  ],
+  "owner": "Yarubid dynasty",
+  "why": "Yaruba imamate (capital Nizwa/Rustaq) 1624-1749; map shows its heartland as Bedouin tribes in alternate decades",
+  "source": "https://en.wikipedia.org/wiki/Yaruba_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1650,
+  "to": 1749,
+  "country": "Oman",
+  "regions": [
+   "Muscat"
+  ],
+  "owner": "Yarubid dynasty",
+  "why": "Same polity shown under two names ('Imamate of Oman (Ya'ruba dynasty)' / 'Yarubid dynasty') alternating each decade",
+  "source": "https://en.wikipedia.org/wiki/Yaruba_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1920,
+  "to": 1955,
+  "country": "Oman",
+  "regions": [
+   "Ad Dakhliyah",
+   "Al Dhahira",
+   "Ash Sharqiyah North"
+  ],
+  "owner": "Imamate of Oman",
+  "why": "Treaty of Seeb (1920) left the interior to the Imamate of Oman until the Sultan's reoccupation in the 1950s (war ended 1959); map shows the Sultanate",
+  "source": "https://en.wikipedia.org/wiki/Imamate_of_Oman",
+  "severity": "major"
+ },
+ {
+  "from": 1517,
+  "to": 1538,
+  "country": "Yemen",
+  "regions": [
+   "`Adan"
+  ],
+  "owner": "Tahirid Sultanate",
+  "why": "Portuguese attack on Aden failed (1513); Aden stayed Tahirid until Hadim Suleiman Pasha stormed it in 1538. Map shows Portugal 1520-1560",
+  "source": "https://en.wikipedia.org/wiki/Timeline_of_Aden",
+  "severity": "major"
+ },
+ {
+  "from": 1538,
+  "to": 1630,
+  "country": "Yemen",
+  "regions": [
+   "`Adan"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman Aden 1538 until the Ottomans were ousted c.1630",
+  "source": "https://en.wikipedia.org/wiki/Timeline_of_Aden",
+  "severity": "major"
+ },
+ {
+  "from": 1520,
+  "to": 1660,
+  "country": "Yemen",
+  "regions": [
+   "Hadramawt"
+  ],
+  "owner": "Kathiri Sultanate",
+  "why": "Hadramawt was ruled by the (first) Kathiri state (1395-1730), never by the Ottomans; map flips it Ottoman/Bedouin each decade",
+  "source": "https://en.wikipedia.org/wiki/Kathiri",
+  "severity": "minor"
+ },
+ {
+  "from": 1803,
+  "to": 1820,
+  "country": "Yemen",
+  "regions": [
+   "Amanat Al Asimah",
+   "Sana'a",
+   "Amran",
+   "Sa`dah",
+   "Dhamar",
+   "Ibb",
+   "Ta`izz",
+   "Al Bayda'",
+   "Al Mahwit",
+   "Raymah",
+   "Hajjah"
+  ],
+  "owner": "Qasimids",
+  "why": "The Zaydi imamate at Sana'a kept the highlands (it lost only the coast to the Wahhabis after 1803); map gives the highlands to '(peoples: Qatari tribes)' and Ibb/Ta'izz/Dhamar to the Emirate of Diriyah in 1810",
+  "source": "https://en.wikipedia.org/wiki/Qasimid_state",
+  "severity": "major"
+ },
+ {
+  "from": 1839,
+  "to": 1967,
+  "country": "Yemen",
+  "regions": [
+   "`Adan"
+  ],
+  "owner": "Aden",
+  "overlord": "United Kingdom",
+  "why": "British Aden 1839-1967 (Bombay Presidency, colony 1937, FSA 1963); map labels it 'Kingdom of Great Britain' (anachronistic) and gives it to the Ottomans (1890-1910), Yemen (1920) and Hejaz-Nejd (1930)",
+  "source": "https://en.wikipedia.org/wiki/Timeline_of_Aden",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1937,
+  "country": "Yemen",
+  "regions": [
+   "Lahij",
+   "Abyan",
+   "Shabwah",
+   "Hadramawt",
+   "Al Mahrah"
+  ],
+  "owner": "Aden Protectorate",
+  "overlord": "United Kingdom",
+  "why": "Lahej, Fadhli, Aulaqi, Qu'aiti/Kathiri and Mahra states were British-protected (treaties 1872-1888); map gives them to Jabal Shammar (1890-1900), the Emirate of Nejd (1910) and the Imam of Yemen (1920-30)",
+  "source": "https://en.wikipedia.org/wiki/Aden_Protectorate",
+  "severity": "major"
+ },
+ {
+  "from": 1918,
+  "to": 1962,
+  "country": "Yemen",
+  "regions": [
+   "Amanat Al Asimah",
+   "Sana'a",
+   "Amran",
+   "Sa`dah",
+   "Hajjah",
+   "Al Hudaydah",
+   "Al Mahwit",
+   "Raymah",
+   "Dhamar",
+   "Ibb",
+   "Ta`izz",
+   "Al Bayda'",
+   "Ma'rib",
+   "Al Jawf"
+  ],
+  "owner": "Mutawakkilite Kingdom of Yemen",
+  "why": "North Yemen 1918-1962 was the Mutawakkilite Kingdom; the 'Yemen Arab Republic' label is anachronistic before Sept 1962",
+  "source": "https://en.wikipedia.org/wiki/Mutawakkilite_Kingdom_of_Yemen",
+  "severity": "major"
+ },
+ {
+  "from": 1962,
+  "to": 1990,
+  "country": "Yemen",
+  "regions": [
+   "Al Bayda'"
+  ],
+  "owner": "Yemen (Arab Republic of Yemen)",
+  "why": "Al Bayda' belonged to North Yemen; map puts it in the Aden Protectorate 1940-60 and South Yemen 1970-80",
+  "source": "https://en.wikipedia.org/wiki/Mutawakkilite_Kingdom_of_Yemen",
+  "severity": "minor"
+ },
+ {
+  "from": 2015,
+  "to": 2026,
+  "country": "Yemen",
+  "regions": [
+   "Amanat Al Asimah",
+   "Sana'a",
+   "Amran",
+   "Sa`dah",
+   "Hajjah",
+   "Al Hudaydah",
+   "Al Mahwit",
+   "Raymah",
+   "Dhamar",
+   "Ibb",
+   "Al Bayda'"
+  ],
+  "owner": "Houthis",
+  "why": "Houthis took Sana'a Sept 2014/Jan 2015 and have held the north-western governorates since; map shows Houthis only in Sana'a city and only from 2020",
+  "source": "https://en-archive.aawsat.com/2017/01/01/map-control-yemen/",
+  "severity": "major"
+ }
+]

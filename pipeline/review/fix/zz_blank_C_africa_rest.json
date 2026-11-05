@@ -1,0 +1,3218 @@
+[
+ {
+  "from": 1500,
+  "to": 1886,
+  "country": "Niger",
+  "regions": [
+   "Diffa"
+  ],
+  "owner": "Bornu Empire",
+  "why": "Diffa (Lake Chad west shore, N'guigmi, Komadougou valley and the Agadem/Termit route north) was Bornu's home province after the Sefuwa resettled west of Lake Chad and built Ngazargamu in the late 15th c.; northern provinces were drawn as Saharan nomads while Bornu held the rest",
+  "source": "https://en.wikipedia.org/wiki/Bornu_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1450,
+  "to": 1890,
+  "country": "Niger",
+  "regions": [
+   "Agadez"
+  ],
+  "owner": "Sultanate of Agadez",
+  "why": "Aïr, its Ténéré fringes and Kawar routes were the domain of the Sultanate of Agadez (founded 1405, at Agadez from c.1430s-1449) which arbitrated among the Aïr Tuareg confederations; independent again after Songhai's fall in 1591. Desert provinces were left as generic Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Agadez",
+  "severity": "major"
+ },
+ {
+  "from": 1500,
+  "to": 1591,
+  "country": "Niger",
+  "regions": [
+   "Agadez"
+  ],
+  "owner": "Sultanate of Agadez",
+  "overlord": "Songhai Empire",
+  "why": "Agadez conquered by Songhai c.1500 (campaign of Askia Muhammad) and tributary until the Moroccan conquest of Songhai in 1591",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Agadez",
+  "severity": "major"
+ },
+ {
+  "from": 1731,
+  "to": 1890,
+  "country": "Niger",
+  "regions": [
+   "Zinder"
+  ],
+  "owner": "Sultanate of Damagaram",
+  "overlord": "Kanem-Bornu Empire",
+  "why": "Damagaram, founded 1731 near Mirriah as a vassal of Bornu, held the Zinder region (Mirriah, Zinder, Magaria, Gouré marches) until the French took Zinder in 1899; half the region was drawn as unnamed peoples",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Damagaram",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1470,
+  "country": "Niger",
+  "regions": [
+   "Dosso"
+  ],
+  "owner": "peoples:Zarma and Dendi",
+  "why": "Before Sonni Ali's expansion the Dosso region was Zarma and Dendi country; generic labels replaced",
+  "source": "https://en.wikipedia.org/wiki/Zarma_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1470,
+  "to": 1520,
+  "country": "Niger",
+  "regions": [
+   "Dosso"
+  ],
+  "owner": "Songhai Empire",
+  "why": "Dendi (the Niger valley below Tillabéri) was a province of the Songhai Empire from Sonni Ali's conquests (1460s) until Kebbi's rise c.1516",
+  "source": "https://en.wikipedia.org/wiki/Songhai_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1516,
+  "to": 1534,
+  "country": "Nigeria",
+  "regions": [
+   "Oyo"
+  ],
+  "owner": "Oyo Empire",
+  "why": "Oyo heartland: the Alaafin ruled from Oyo-Ile and, after the Nupe sack c.1535, from the exile capital Oyo-Igboho (c.1535-1615) inside present Oyo State; the gap left the core of Oyo as unnamed peoples",
+  "source": "https://en.wikipedia.org/wiki/Oyo_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1610,
+  "to": 1662,
+  "country": "Nigeria",
+  "regions": [
+   "Oyo"
+  ],
+  "owner": "Oyo Empire",
+  "why": "Oyo kings at Igboho and then Abipa's reoccupation of Oyo-Ile (early 17th c.); Oyo State was never stateless in this period",
+  "source": "https://en.wikipedia.org/wiki/Oyo_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1500,
+  "to": 1809,
+  "country": "Nigeria",
+  "regions": [
+   "Yobe"
+  ],
+  "owner": "Bornu Empire",
+  "why": "Yobe holds Birni Ngazargamu, Bornu's capital from the late 15th c. until its sack in 1808; part of the province was drawn as Saharan nomads 1507-1560",
+  "source": "https://en.wikipedia.org/wiki/Ngazargamu",
+  "severity": "major"
+ },
+ {
+  "from": 1809,
+  "to": 1893,
+  "country": "Nigeria",
+  "regions": [
+   "Yobe"
+  ],
+  "owner": "Bornu Empire",
+  "why": "After 1808-09 Bornu under al-Kanemi drove the Fulani back; Yobe (Ngazargamu, Geidam, Fika, Nguru/Machina) stayed Bornu or Bornu-tributary until Rabih's conquest of Bornu in 1893. Sokoto held only the western emirates (Katagum, Hadejia), not Yobe",
+  "source": "https://en.wikipedia.org/wiki/Muhammad_al-Amin_al-Kanemi",
+  "severity": "major"
+ },
+ {
+  "from": 1893,
+  "to": 1899,
+  "country": "Nigeria",
+  "regions": [
+   "Yobe"
+  ],
+  "owner": "Rabih az-Zubayr's state",
+  "why": "Rabih conquered Bornu in 1893 and held it until killed by the French at Kousseri in 1900",
+  "source": "https://en.wikipedia.org/wiki/Rabih_az-Zubayr",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1807,
+  "country": "Nigeria",
+  "regions": [
+   "Adamawa"
+  ],
+  "owner": "peoples:Bata (Bachama), Chamba and Kilba",
+  "why": "Pre-jihad upper Benue/Gongola: Bata-Bachama, Chamba, Kilba, Higi and Mbula chiefdoms; generic 'Central African peoples' replaced",
+  "source": "https://en.wikipedia.org/wiki/Adamawa_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1804,
+  "country": "Nigeria",
+  "regions": [
+   "Gombe"
+  ],
+  "owner": "peoples:Tangale, Waja and Tera",
+  "why": "Pre-jihad Gombe was the land of Tangale, Waja, Tera and Bolewa communities; generic label replaced",
+  "source": "https://en.wikipedia.org/wiki/Gombe_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1690,
+  "country": "Nigeria",
+  "regions": [
+   "Enugu"
+  ],
+  "owner": "peoples:Igbo (northern Igbo village groups)",
+  "why": "Enugu was Igbo village-group country before the Aro network; generic 'West African peoples' replaced",
+  "source": "https://en.wikipedia.org/wiki/Igbo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Nigeria",
+  "regions": [
+   "Cross River"
+  ],
+  "owner": "peoples:Ejagham (Ekoi), Efik and Bekwarra",
+  "why": "Cross River before Old Calabar: Ejagham, Efik, Bekwarra and other Cross River peoples ('Bantu peoples' is wrong for them)",
+  "source": "https://en.wikipedia.org/wiki/Cross_River_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1531,
+  "country": "Nigeria",
+  "regions": [
+   "Federal Capital Territory"
+  ],
+  "owner": "peoples:Gbagyi (Gwari) and Koro",
+  "why": "Abuja area before Nupe and Zazzau tribute: Gbagyi (Gwari) and Koro",
+  "source": "https://en.wikipedia.org/wiki/Gbagyi_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1700,
+  "to": 1805,
+  "country": "Nigeria",
+  "regions": [
+   "Plateau"
+  ],
+  "owner": "peoples:Berom, Ngas and Tarok",
+  "why": "Jos Plateau after Kwararafa's decline: Berom, Ngas (Angas), Tarok, Mwaghavul highland peoples",
+  "source": "https://en.wikipedia.org/wiki/Plateau_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1700,
+  "to": 1807,
+  "country": "Nigeria",
+  "regions": [
+   "Nassarawa"
+  ],
+  "owner": "peoples:Alago, Eggon and Mada",
+  "why": "Nasarawa after Kwararafa's decline: Alago (Doma, Keana), Eggon, Mada and Gwandara",
+  "source": "https://en.wikipedia.org/wiki/Nasarawa_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1500,
+  "country": "Nigeria",
+  "regions": [
+   "Kogi"
+  ],
+  "owner": "peoples:Igala and Ebira",
+  "why": "Kogi before the Igala kingdom appears in the record; area left with no label",
+  "source": "https://en.wikipedia.org/wiki/Igala_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1500,
+  "country": "Nigeria",
+  "regions": [
+   "Niger"
+  ],
+  "owner": "peoples:Nupe, Gbagyi (Gwari) and Kamberi",
+  "why": "Niger State before Bussa and the Nupe kingdom: Nupe, Gbagyi and Kamberi",
+  "source": "https://en.wikipedia.org/wiki/Niger_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1886,
+  "country": "Benin",
+  "regions": [
+   "Atakora"
+  ],
+  "owner": "peoples:Batammariba (Somba) and Waaba",
+  "why": "Atakora mountains were stateless Batammariba (Somba), Waaba and Berba country; generic label replaced",
+  "source": "https://en.wikipedia.org/wiki/Batammariba",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1886,
+  "country": "Benin",
+  "regions": [
+   "Donga"
+  ],
+  "owner": "peoples:Yom, Lokpa and Dendi of Djougou",
+  "why": "Donga (Djougou, Bassila): Yom (Pila-Pila), Lokpa and the Dendi Muslim trading town of Djougou",
+  "source": "https://en.wikipedia.org/wiki/Djougou",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1898,
+  "country": "Togo",
+  "regions": [
+   "Kara"
+  ],
+  "owner": "peoples:Kabye, Lamba and Bassar",
+  "why": "Kara region was Kabye, Lamba and Bassar country until German occupation (1898); the 1846-50 'Kingdom of Wagadugu' and the 1850-98 empty spell are wrong",
+  "source": "https://en.wikipedia.org/wiki/Kabye_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1850,
+  "to": 1890,
+  "country": "Togo",
+  "regions": [
+   "Plateaux"
+  ],
+  "owner": "peoples:Ewe and Akposso",
+  "why": "Togo Plateaux (Kpalimé, Atakpamé) between Dahomey's raids and German annexation: Ewe and Akposso chiefdoms; drawn empty",
+  "source": "https://en.wikipedia.org/wiki/Ewe_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Togo",
+  "regions": [
+   "Plateaux"
+  ],
+  "owner": "peoples:Ewe",
+  "why": "Ewe homeland before the Notsé kingdom is recorded",
+  "source": "https://en.wikipedia.org/wiki/Ewe_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1874,
+  "to": 1889,
+  "country": "Ghana",
+  "regions": [
+   "Volta"
+  ],
+  "owner": "Ghana",
+  "overlord": "United Kingdom",
+  "why": "Anlo (Keta) was brought into the British Gold Coast Colony in 1874 after the Asante war; the area was drawn as unnamed peoples until German Togoland",
+  "source": "https://www.cambridge.org/core/journals/journal-of-african-history/article/extension-of-british-rule-to-anlo-southeast-ghana-18501890/FE64D84B49BEB818369358911B393419",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Ghana",
+  "regions": [
+   "Volta"
+  ],
+  "owner": "peoples:Ewe",
+  "why": "Volta before the Anlo state is recorded: Ewe chiefdoms",
+  "source": "https://en.wikipedia.org/wiki/Ewe_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1626,
+  "country": "Ghana",
+  "regions": [
+   "Upper West"
+  ],
+  "owner": "peoples:Dagaaba and Sissala",
+  "why": "Upper West before the Wala kingdom: Dagaaba and Sissala",
+  "source": "https://en.wikipedia.org/wiki/Upper_West_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Ghana",
+  "regions": [
+   "Eastern"
+  ],
+  "owner": "peoples:Akan (Akyem, Akwamu), Guan and Krobo",
+  "why": "Eastern Region before Akyem Abuakwa: Akan, Guan and Krobo (Dangme) communities; Akwamu's early state formed around the Atewa hills",
+  "source": "https://en.wikipedia.org/wiki/Akwamu",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1550,
+  "country": "Ghana",
+  "regions": [
+   "Ashanti"
+  ],
+  "owner": "peoples:Akan (Adansi and Amansie)",
+  "why": "Akan forest before the Adansi state is recorded",
+  "source": "https://en.wikipedia.org/wiki/Adansi",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1500,
+  "country": "Ghana",
+  "regions": [
+   "Western"
+  ],
+  "owner": "peoples:Akan (Ahanta, Nzema, Wassa)",
+  "why": "Western Region before Ahanta is recorded",
+  "source": "https://en.wikipedia.org/wiki/Ahanta_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1842,
+  "country": "Burkina Faso",
+  "regions": [
+   "Kossi"
+  ],
+  "owner": "peoples:Bwa, Samo and Marka (Dafing)",
+  "why": "Kossi (Nouna) was stateless Bwa, Samo and Marka-Dafing country until French conquest (1897-98); 'Saharan nomads' and the 1850-98 empty spell are wrong",
+  "source": "https://en.wikipedia.org/wiki/Bwa_people",
+  "severity": "major"
+ },
+ {
+  "from": 1850,
+  "to": 1898,
+  "country": "Burkina Faso",
+  "regions": [
+   "Kossi"
+  ],
+  "owner": "peoples:Bwa, Samo and Marka (Dafing)",
+  "why": "Kossi (Nouna) was stateless Bwa, Samo and Marka-Dafing country until French conquest (1897-98); 'Saharan nomads' and the 1850-98 empty spell are wrong",
+  "source": "https://en.wikipedia.org/wiki/Bwa_people",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1710,
+  "country": "Burkina Faso",
+  "regions": [
+   "Mou Houn"
+  ],
+  "owner": "peoples:Bwa and Marka (Dafing)",
+  "why": "Mouhoun (Dédougou) before Gwiriko: stateless Bwa and Marka; drawn empty 1450-1630",
+  "source": "https://en.wikipedia.org/wiki/Bwa_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1810,
+  "to": 1897,
+  "country": "Burkina Faso",
+  "regions": [
+   "Mou Houn"
+  ],
+  "owner": "peoples:Bwa and Marka (Dafing)",
+  "why": "Mouhoun after Gwiriko's retreat until French conquest: Bwa and Marka villages; drawn empty",
+  "source": "https://en.wikipedia.org/wiki/Bwa_people",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1898,
+  "country": "Burkina Faso",
+  "regions": [
+   "Poni"
+  ],
+  "owner": "peoples:Lobi, Dagara and Gan",
+  "why": "Poni (Gaoua, Loropéni) was Lobi, Dagara, Birifor and Gan country (the small Gan kingdom of Obiré) until French conquest; drawn empty 1710-1898",
+  "source": "https://en.wikipedia.org/wiki/Lobi_people",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1898,
+  "country": "Burkina Faso",
+  "regions": [
+   "Balé–Bougouriba"
+  ],
+  "owner": "peoples:Dagara, Bwa and Nuna",
+  "why": "Balé-Bougouriba (Diébougou, Boromo) was stateless Dagara, Bwa, Nuna and Pougouli land; drawn empty for most of 1450-1898",
+  "source": "https://en.wikipedia.org/wiki/Dagaaba_people",
+  "severity": "major"
+ },
+ {
+  "from": 1850,
+  "to": 1898,
+  "country": "Burkina Faso",
+  "regions": [
+   "Komoé"
+  ],
+  "owner": "peoples:Turka, Gouin and Karaboro",
+  "why": "Banfora plain after Kong's and Gwiriko's reach receded: Turka, Gouin, Karaboro and Senufo; drawn empty",
+  "source": "https://en.wikipedia.org/wiki/Comoé_Province",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1710,
+  "country": "Burkina Faso",
+  "regions": [
+   "Komoé"
+  ],
+  "owner": "peoples:Turka, Gouin and Karaboro",
+  "why": "Banfora plain before Kong: Turka, Gouin, Karaboro",
+  "source": "https://en.wikipedia.org/wiki/Comoé_Province",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1710,
+  "country": "Burkina Faso",
+  "regions": [
+   "Houet"
+  ],
+  "owner": "peoples:Bobo, Bolon and Tiéfo",
+  "why": "Bobo-Dioulasso area before Kong/Gwiriko: Bobo, Bolon and Tiéfo with Dyula traders",
+  "source": "https://en.wikipedia.org/wiki/Bobo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1650,
+  "country": "Burkina Faso",
+  "regions": [
+   "Kénédougou"
+  ],
+  "owner": "peoples:Senufo",
+  "why": "Western Kénédougou province before the Kénédougou kingdom: Senufo",
+  "source": "https://en.wikipedia.org/wiki/Senufo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1810,
+  "country": "Burkina Faso",
+  "regions": [
+   "Gnagna"
+  ],
+  "owner": "peoples:Gurma chiefdoms (Bilanga, Bongandini, Piela)",
+  "why": "Gnagna (Bogandé) was Gurma country under the Buricimba dynasty chiefdoms of Bilanga, Bongandini and Piela, kin of Nungu (Fada); 'Saharan nomads' is wrong",
+  "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Gurma_Mossi_state_of_Bilanga",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1516,
+  "country": "Burkina Faso",
+  "regions": [
+   "Gnagna"
+  ],
+  "owner": "peoples:Gurma chiefdoms (Bilanga, Bongandini, Piela)",
+  "why": "Gurma country before Songhai raids; 'Saharan nomads' is wrong",
+  "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Gurma_Mossi_state_of_Bilanga",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1807,
+  "country": "Burkina Faso",
+  "regions": [
+   "Soum"
+  ],
+  "owner": "peoples:Kurumba (Lurum) and Fulbe of Djelgodji",
+  "why": "Soum (Djibo, Aribinda) was the Kurumba (Lurum) chiefdoms and Djelgodji Fulbe before Liptako and Mossi; 'Saharan nomads' is wrong",
+  "source": "https://en.wikipedia.org/wiki/Kurumba_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1810,
+  "country": "Burkina Faso",
+  "regions": [
+   "Oudalan"
+  ],
+  "owner": "peoples:Udalan Tuareg and Songhai of Gorom",
+  "why": "Oudalan (Gorom-Gorom): Udalan Tuareg and the Songhai of Gorom; more specific than the Saharan nomads label",
+  "source": "https://en.wikipedia.org/wiki/Oudalan_Province",
+  "severity": "minor"
+ },
+ {
+  "from": 1905,
+  "to": 1919,
+  "country": "Burkina Faso",
+  "regions": [
+   "*"
+  ],
+  "owner": "Upper Senegal and Niger",
+  "overlord": "France",
+  "why": "WRONG STATE: 1905-1919 shown as 'Mali Empire [France]'. Burkina was part of the colony of Upper Senegal and Niger (created 21 Oct 1904) until Upper Volta was split off in 1919",
+  "source": "https://en.wikipedia.org/wiki/Upper_Senegal_and_Niger",
+  "severity": "major"
+ },
+ {
+  "from": 1905,
+  "to": 1921,
+  "country": "Mali",
+  "regions": [
+   "*"
+  ],
+  "owner": "Upper Senegal and Niger",
+  "overlord": "France",
+  "why": "WRONG STATE: colonial Mali shown as 'Mali Empire [France]'. It was the colony of Upper Senegal and Niger (1904-1920)",
+  "source": "https://en.wikipedia.org/wiki/Upper_Senegal_and_Niger",
+  "severity": "major"
+ },
+ {
+  "from": 1921,
+  "to": 1960,
+  "country": "Mali",
+  "regions": [
+   "*"
+  ],
+  "owner": "French Sudan",
+  "overlord": "France",
+  "why": "WRONG STATE: colonial Mali shown as 'Mali Empire [France]' (and Sikasso as 'Guinea' 1958). Renamed French Sudan on 1 Jan 1921, Sudanese Republic 1958 within the French Community",
+  "source": "https://en.wikipedia.org/wiki/French_Sudan",
+  "severity": "major"
+ },
+ {
+  "from": 1960,
+  "to": 2020,
+  "country": "Mali",
+  "regions": [
+   "*"
+  ],
+  "owner": "Mali",
+  "why": "ANACHRONISM: the independent Republic of Mali (from 1960) is drawn as the medieval 'Mali Empire'; Sikasso already shows 'Mali'",
+  "source": "https://en.wikipedia.org/wiki/Mali",
+  "severity": "major"
+ },
+ {
+  "from": 1430,
+  "to": 1591,
+  "country": "Mali",
+  "regions": [
+   "Gao"
+  ],
+  "owner": "Songhai Empire",
+  "why": "Gao was the Songhai capital; the Gao region (Bourem, Ansongo, Ménaka) was Songhai's core until the Moroccan conquest of 1591, yet five of nine provinces were drawn as Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Songhai_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1433,
+  "to": 1468,
+  "country": "Mali",
+  "regions": [
+   "Timbuktu"
+  ],
+  "owner": "peoples:Tuareg (Maghsharen under Akil)",
+  "why": "The Tuareg took Timbuktu from Mali in the 1430s and held it until Sonni Ali's conquest in 1468; the region was drawn with no polity",
+  "source": "https://en.wikipedia.org/wiki/Timbuktu",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Mali",
+  "regions": [
+   "Kidal"
+  ],
+  "owner": "peoples:Tuareg of Adrar des Ifoghas",
+  "why": "Adrar des Ifoghas before the Kel Adagh confederation is recorded: Tuareg (Ifoghas) herders",
+  "source": "https://en.wikipedia.org/wiki/Adrar_des_Ifoghas",
+  "severity": "minor"
+ },
+ {
+  "from": 1712,
+  "to": 1818,
+  "country": "Mali",
+  "regions": [
+   "Ségou"
+  ],
+  "owner": "Bamana Empire",
+  "why": "Ségou was the capital and core of the Bamana Empire (centralised from 1712); two of three provinces drawn as Saharan nomads 1780-1810",
+  "source": "https://en.wikipedia.org/wiki/Bamana_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1712,
+  "country": "Mali",
+  "regions": [
+   "Ségou"
+  ],
+  "owner": "Bamana Empire",
+  "why": "Kaladian Coulibaly's Bambara kingdom at Ségou (c.1640), forerunner of the Bamana Empire; rest of the region drawn as Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Bamana_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1640,
+  "country": "Mali",
+  "regions": [
+   "Ségou"
+  ],
+  "owner": "peoples:Bambara (Bamana) chiefdoms",
+  "why": "After Songhai's collapse Ségou was Bambara farming chiefdoms, not Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Bambara_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1480,
+  "to": 1520,
+  "country": "Mali",
+  "regions": [
+   "Mopti"
+  ],
+  "owner": "Songhai Empire",
+  "why": "Sonni Ali took Djenné (1473) and the inner Niger delta; Songhai held the Mopti region",
+  "source": "https://en.wikipedia.org/wiki/Songhai_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1776,
+  "country": "Mauritania",
+  "regions": [
+   "Gorgol"
+  ],
+  "owner": "Empire of Great Fulo",
+  "why": "Gorgol (Kaédi, Maghama) is the right bank of the middle Senegal, part of Futa Toro under the Denianke (1512-1776), whose heir administered the right bank",
+  "source": "https://en.wikipedia.org/wiki/Denanke_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1776,
+  "to": 1891,
+  "country": "Mauritania",
+  "regions": [
+   "Gorgol"
+  ],
+  "owner": "Imamate of Futa Toro",
+  "why": "The Imamate of Futa Toro (1776) ruled the same riverine Futa until French annexation c.1891",
+  "source": "https://en.wikipedia.org/wiki/Imamate_of_Futa_Toro",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1886,
+  "country": "Mauritania",
+  "regions": [
+   "Assaba"
+  ],
+  "owner": "Emirate of Tagant",
+  "why": "The Assaba massif and Kiffa were the range of the Idaw Aish, the ruling group of the Tagant emirate; part of the region was drawn as Saharan nomads / West African peoples",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Tagant",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1890,
+  "country": "Mauritania",
+  "regions": [
+   "Hodh ech Chargui"
+  ],
+  "owner": "Hodh Hassani tribes",
+  "why": "Hodh (Néma, Oualata) shown half as Hodh Hassani tribes, half as generic nomads; the Awlad Mbarek and other Hassani of the Hodh held both",
+  "source": "https://en.wikipedia.org/wiki/Hodh_Ech_Chargui_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1760,
+  "to": 1886,
+  "country": "Mauritania",
+  "regions": [
+   "Hodh el Gharbi"
+  ],
+  "owner": "Hodh Hassani tribes",
+  "why": "Same Hassani Hodh polity already holds two of three provinces",
+  "source": "https://en.wikipedia.org/wiki/Hodh_El_Gharbi_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1580,
+  "country": "Mauritania",
+  "regions": [
+   "Tagant"
+  ],
+  "owner": "peoples:Moors (Bidhan tribes)",
+  "why": "Mauritanian Sahara before the Tagant emirate: Moorish (Hassani and Zawaya) tribes; the Tuareg/Tubu lump label is wrong here",
+  "source": "https://en.wikipedia.org/wiki/Moors",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1895,
+  "country": "Mauritania",
+  "regions": [
+   "Inchiri"
+  ],
+  "owner": "peoples:Moors (Bidhan tribes)",
+  "why": "Inchiri (Akjoujt) was Moorish tribal pasture between the Trarza and Adrar emirates",
+  "source": "https://en.wikipedia.org/wiki/Inchiri_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1470,
+  "to": 1640,
+  "country": "Mauritania",
+  "regions": [
+   "Brakna"
+  ],
+  "owner": "peoples:Moors (Bidhan tribes)",
+  "why": "Brakna before the Brakna emirate: Moorish tribes",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Brakna",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Mauritania",
+  "regions": [
+   "Tiris Zemmour"
+  ],
+  "owner": "peoples:Moors (Bidhan tribes)",
+  "why": "Tiris and Zemmour before the Reguibat: Moorish tribes",
+  "source": "https://en.wikipedia.org/wiki/Tiris_Zemmour_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1740,
+  "country": "Mauritania",
+  "regions": [
+   "Adrar"
+  ],
+  "owner": "peoples:Moors (Bidhan tribes)",
+  "why": "Adrar (Chinguetti, Ouadane) before the Adrar emirate: Moorish tribes and oasis towns",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Adrar",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1860,
+  "country": "Mauritania",
+  "regions": [
+   "Guidimaka"
+  ],
+  "owner": "peoples:Soninke of Guidimakha",
+  "why": "Guidimaka (Sélibaby) is Soninke country (Guidimakha chiefdoms), not Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Guidimaka_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1880,
+  "to": 1895,
+  "country": "Mauritania",
+  "regions": [
+   "Guidimaka"
+  ],
+  "owner": "peoples:Soninke of Guidimakha",
+  "why": "As above",
+  "source": "https://en.wikipedia.org/wiki/Guidimaka_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1570,
+  "to": 1885,
+  "country": "Senegal",
+  "regions": [
+   "Kédougou"
+  ],
+  "owner": "peoples:Bassari, Bedik and Malinke (Niokolo)",
+  "why": "Kédougou: Bassari, Bedik and Niokolo Malinke; drawn empty/Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Bassari_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1849,
+  "to": 1891,
+  "country": "Guinea",
+  "regions": [
+   "Dinguiraye"
+  ],
+  "owner": "Toucouleur Empire",
+  "why": "WRONG STATE: Dinguiraye was founded by El Hajj Umar Tall in 1849 on land bought from Tamba and was the Toucouleur base (governed by Aguibou from 1878/79) until French annexation in May 1891; it is drawn as Futa Jallon",
+  "source": "https://en.wikipedia.org/wiki/Dinguiraye",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1730,
+  "country": "Guinea",
+  "regions": [
+   "Dinguiraye"
+  ],
+  "owner": "peoples:Jalonke (Tamba)",
+  "why": "Before the Futa Jallon jihad Dinguiraye was Jalonke land (kingdom of Tamba); 'Saharan nomads' is wrong",
+  "source": "https://en.wikipedia.org/wiki/Dinguiraye",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1866,
+  "country": "Guinea",
+  "regions": [
+   "Boke"
+  ],
+  "owner": "peoples:Nalu, Baga and Landuma",
+  "why": "Rio Nunez coast (Boké): Nalu, Baga and Landuma chiefdoms; drawn empty 1520-1600",
+  "source": "https://en.wikipedia.org/wiki/Nalu_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1866,
+  "to": 1894,
+  "country": "Guinea",
+  "regions": [
+   "Boke"
+  ],
+  "owner": "Rivières du Sud",
+  "overlord": "France",
+  "why": "France built the Boké post on the Rio Nunez in 1866; the coast became the colony of Rivières du Sud (1882), renamed French Guinea (1891-94)",
+  "source": "https://en.wikipedia.org/wiki/French_Guinea",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1720,
+  "country": "Guinea",
+  "regions": [
+   "Forécariah–Dubréka"
+  ],
+  "owner": "peoples:Susu and Baga",
+  "why": "Coast south of Conakry before the Moria state: Susu and Baga; drawn empty 1520-1600",
+  "source": "https://en.wikipedia.org/wiki/Susu_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1420,
+  "to": 1880,
+  "country": "Guinea",
+  "regions": [
+   "Kissidougou"
+  ],
+  "owner": "peoples:Kissi",
+  "why": "Kissidougou is Kissi forest country; the Jalonke/Fula label and the 1520-1600 empty spell are wrong",
+  "source": "https://en.wikipedia.org/wiki/Kissi_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1420,
+  "to": 1880,
+  "country": "Guinea",
+  "regions": [
+   "Beyla"
+  ],
+  "owner": "peoples:Konyanke Malinke, Toma and Kpelle",
+  "why": "Beyla: Konyanké Malinke, Toma and Kpelle; Jalonke/Fula label and 1520-1600 empty spell wrong",
+  "source": "https://en.wikipedia.org/wiki/Beyla",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1880,
+  "country": "Guinea",
+  "regions": [
+   "Macenta"
+  ],
+  "owner": "peoples:Toma (Loma)",
+  "why": "Macenta is Toma (Loma) country",
+  "source": "https://en.wikipedia.org/wiki/Loma_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1885,
+  "country": "Guinea",
+  "regions": [
+   "Yomou–Nzérékoré"
+  ],
+  "owner": "peoples:Kpelle (Guerzé), Mano and Kono",
+  "why": "Forest Guinea: Kpelle, Mano and Kono",
+  "source": "https://en.wikipedia.org/wiki/Kpelle_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1620,
+  "to": 1880,
+  "country": "Guinea",
+  "regions": [
+   "Kouroussa"
+  ],
+  "owner": "peoples:Malinke (Hamana and Sankaran)",
+  "why": "Kouroussa after Mali's retreat: Malinke chiefdoms of Hamana and Sankaran",
+  "source": "https://en.wikipedia.org/wiki/Kouroussa",
+  "severity": "minor"
+ },
+ {
+  "from": 1670,
+  "to": 1880,
+  "country": "Guinea",
+  "regions": [
+   "Siguiri"
+  ],
+  "owner": "peoples:Malinke (Bouré and Djoma)",
+  "why": "Siguiri after Mali's end: Malinke gold chiefdoms of Bouré and Djoma, not Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Siguiri",
+  "severity": "minor"
+ },
+ {
+  "from": 1670,
+  "to": 1880,
+  "country": "Guinea",
+  "regions": [
+   "Mandiana"
+  ],
+  "owner": "peoples:Malinke and Wassoulounké",
+  "why": "Mandiana after Mali's end: Malinke and Wassoulou Fulbe chiefdoms",
+  "source": "https://en.wikipedia.org/wiki/Wassoulou",
+  "severity": "minor"
+ },
+ {
+  "from": 1570,
+  "to": 1730,
+  "country": "Guinea",
+  "regions": [
+   "Mali",
+   "Dalaba–Koubia–Lélouma",
+   "Télimélé",
+   "Mamou"
+  ],
+  "owner": "peoples:Jalonke (Yalunka) and Fula pastoralists",
+  "why": "Futa Jallon highlands before the jihad (1725-30): Jalonke farmers and Fula herders; reuse the map's existing label instead of 'Saharan nomads'/generic",
+  "source": "https://en.wikipedia.org/wiki/Imamate_of_Futa_Jallon",
+  "severity": "minor"
+ },
+ {
+  "from": 1570,
+  "to": 1730,
+  "country": "Guinea",
+  "regions": [
+   "Gaoual"
+  ],
+  "owner": "peoples:Tenda (Coniagui, Bassari) and Badyaranke",
+  "why": "Gaoual: Coniagui, Bassari and Badyaranké, not Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Coniagui_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1420,
+  "to": 1848,
+  "country": "Ivory Coast",
+  "regions": [
+   "Denguélé"
+  ],
+  "owner": "peoples:Malinke and Senufo",
+  "why": "Odienné country before Kabadougou: Malinke and Senufo; Jalonke label and 1520-1600 empty spell wrong",
+  "source": "https://en.wikipedia.org/wiki/Kabadougou_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1848,
+  "to": 1880,
+  "country": "Ivory Coast",
+  "regions": [
+   "Denguélé"
+  ],
+  "owner": "Kabadougou Kingdom",
+  "why": "Vakaba Touré founded the Kabadougou kingdom at Odienné in 1848; it stayed independent (allied to Samori from 1881) until 1898",
+  "source": "https://en.wikipedia.org/wiki/Kabadougou_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1520,
+  "to": 1600,
+  "country": "Sierra Leone",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "Koya Temne",
+  "why": "Empty decades in the record; Koya Temne held the Sierra Leone estuary through the Mane invasions",
+  "source": "https://en.wikipedia.org/wiki/Koya_Temne",
+  "severity": "minor"
+ },
+ {
+  "from": 1822,
+  "to": 1824,
+  "country": "Sierra Leone",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "Koya Temne",
+  "why": "WRONG STATE: 'British Cape Colony' in Sierra Leone",
+  "source": "https://en.wikipedia.org/wiki/Koya_Temne",
+  "severity": "major"
+ },
+ {
+  "from": 1836,
+  "to": 1840,
+  "country": "Sierra Leone",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "Koya Temne",
+  "why": "WRONG STATE: 'British Cape Colony' in Sierra Leone",
+  "source": "https://en.wikipedia.org/wiki/Koya_Temne",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1896,
+  "country": "Sierra Leone",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "peoples:Temne, Limba and Kuranko chiefdoms",
+  "why": "Northern Sierra Leone before the 1896 protectorate: Temne, Limba, Loko, Susu and Kuranko chiefdoms; drawn empty",
+  "source": "https://en.wikipedia.org/wiki/Sierra_Leone_Protectorate",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1896,
+  "country": "Sierra Leone",
+  "regions": [
+   "Eastern"
+  ],
+  "owner": "peoples:Mende, Kono and Kissi",
+  "why": "Eastern Sierra Leone before the 1896 protectorate: Mende (incl. Kailondo's Luawa), Kono and Kissi; drawn empty 1830-96",
+  "source": "https://en.wikipedia.org/wiki/Sierra_Leone_Protectorate",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1892,
+  "country": "Liberia",
+  "regions": [
+   "Grand Gedeh"
+  ],
+  "owner": "peoples:Krahn (Wee)",
+  "why": "Grand Gedeh is Krahn country; drawn empty 1830-1907",
+  "source": "https://en.wikipedia.org/wiki/Krahn_people",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1892,
+  "country": "Liberia",
+  "regions": [
+   "Nimba"
+  ],
+  "owner": "peoples:Mano and Dan (Gio)",
+  "why": "Nimba is Mano and Dan (Gio) country; drawn empty 1830-1907",
+  "source": "https://en.wikipedia.org/wiki/Mano_people",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1892,
+  "country": "Liberia",
+  "regions": [
+   "Lofa"
+  ],
+  "owner": "peoples:Kpelle, Loma, Kissi and Gbandi",
+  "why": "Lofa: Kpelle, Loma, Kissi, Gbandi; drawn empty 1830-1907",
+  "source": "https://en.wikipedia.org/wiki/Lofa_County",
+  "severity": "major"
+ },
+ {
+  "from": 1834,
+  "to": 1840,
+  "country": "Liberia",
+  "regions": [
+   "Gbapolu"
+  ],
+  "owner": "Condo Confederation",
+  "why": "WRONG STATE: 'United States of America' at Bopolu; the Condo (Kondo) confederation centred on Bopolu peaked under King Bosan (r.1775-1836)",
+  "source": "https://www.britannica.com/place/Bopolu",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1892,
+  "country": "Liberia",
+  "regions": [
+   "Gbapolu"
+  ],
+  "owner": "peoples:Gola, Kpelle and Mandingo of Bopolu",
+  "why": "Bopolu hinterland after Bosan's death; drawn empty",
+  "source": "https://www.britannica.com/place/Bopolu",
+  "severity": "minor"
+ },
+ {
+  "from": 1892,
+  "to": 1907,
+  "country": "Liberia",
+  "regions": [
+   "Grand Gedeh",
+   "Nimba",
+   "Lofa",
+   "Gbapolu"
+  ],
+  "owner": "Liberia",
+  "why": "The Franco-Liberian treaty of 8 Dec 1892 fixed Liberia's interior boundary, recognising Liberian sovereignty over this hinterland; drawn empty until 1907",
+  "source": "https://en.wikipedia.org/wiki/Ivory_Coast%E2%80%93Liberia_border",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1830,
+  "country": "Liberia",
+  "regions": [
+   "Grand Bassa"
+  ],
+  "owner": "peoples:Bassa",
+  "why": "Grand Bassa is Bassa country",
+  "source": "https://en.wikipedia.org/wiki/Bassa_people_(Liberia)",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1780,
+  "country": "Liberia",
+  "regions": [
+   "Grand Cape Mount–Margibi–Bomi"
+  ],
+  "owner": "peoples:Vai, Dei and Gola",
+  "why": "Cape Mount coast before the Condo confederation: Vai, Dei and Gola",
+  "source": "https://en.wikipedia.org/wiki/Vai_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Liberia",
+  "regions": [
+   "River Gee–Grand Kru"
+  ],
+  "owner": "peoples:Grebo and Kru",
+  "why": "Grebo and Kru coast before the Grebo confederation is recorded",
+  "source": "https://en.wikipedia.org/wiki/Grebo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1828,
+  "to": 1834,
+  "country": "Liberia",
+  "regions": [
+   "River Gee–Grand Kru"
+  ],
+  "owner": "Grebo confederation",
+  "why": "WRONG STATE/BLANK: 'United States of America' 1828-30 and empty 1830-34 at Cape Palmas before the Maryland colony (1834)",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Maryland",
+  "severity": "major"
+ },
+ {
+  "from": 1814,
+  "to": 1830,
+  "country": "Liberia",
+  "regions": [
+   "Sinoe"
+  ],
+  "owner": "Kru Coast towns",
+  "why": "WRONG STATE/BLANK: Sinoe coast was Kru towns; 'United States of America' 1828-30 is wrong",
+  "source": "https://en.wikipedia.org/wiki/Kru_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1847,
+  "to": 1848,
+  "country": "Liberia",
+  "regions": [
+   "Sinoe"
+  ],
+  "owner": "Republic of Liberia",
+  "why": "WRONG STATE: 'United States of America' in 1847, the year Liberia declared independence",
+  "source": "https://en.wikipedia.org/wiki/Liberia",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1910,
+  "country": "Ivory Coast",
+  "regions": [
+   "Worodougou",
+   "Bas-Sassandra",
+   "Haut-Sassandra",
+   "Dix-Huit Montagnes",
+   "Marahoué",
+   "Cavally"
+  ],
+  "owner": "Cote D'Ivoire",
+  "overlord": "France",
+  "why": "Drawn empty 1890-1910: the French protectorate (1889) and colony of Côte d'Ivoire (10 Mar 1893) claimed these lands, its borders fixed by the 1892 Franco-Liberian and Anglo-French treaties, though the interior was only subdued under Angoulvant from 1908",
+  "source": "https://en.wikipedia.org/wiki/History_of_Ivory_Coast",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1889,
+  "country": "Ivory Coast",
+  "regions": [
+   "Worodougou"
+  ],
+  "owner": "peoples:Malinke (Worodougou) and Koyaka",
+  "why": "Séguéla/Mankono kola country: Malinke and Koyaka",
+  "source": "https://en.wikipedia.org/wiki/Worodougou",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1889,
+  "country": "Ivory Coast",
+  "regions": [
+   "Bas-Sassandra"
+  ],
+  "owner": "peoples:Kru, Bakwe and Neyo",
+  "why": "Sassandra/San-Pédro coast: Kru-speaking Bakwe, Neyo and Kroumen",
+  "source": "https://en.wikipedia.org/wiki/Kru_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1889,
+  "country": "Ivory Coast",
+  "regions": [
+   "Haut-Sassandra"
+  ],
+  "owner": "peoples:Bete and Gouro",
+  "why": "Daloa: Bété and Gouro",
+  "source": "https://en.wikipedia.org/wiki/Bété_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1889,
+  "country": "Ivory Coast",
+  "regions": [
+   "Dix-Huit Montagnes"
+  ],
+  "owner": "peoples:Dan (Yacouba) and Wè (Guéré)",
+  "why": "Man: Dan and Wè",
+  "source": "https://en.wikipedia.org/wiki/Dan_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1889,
+  "country": "Ivory Coast",
+  "regions": [
+   "Sud-Bandama"
+  ],
+  "owner": "peoples:Dida and Godié",
+  "why": "Divo/Lakota: Dida and Godié",
+  "source": "https://en.wikipedia.org/wiki/Dida_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1886,
+  "country": "Ivory Coast",
+  "regions": [
+   "Lagunes"
+  ],
+  "owner": "peoples:Ebrié, Adjoukrou and Alladian (lagoon peoples)",
+  "why": "WRONG STATE 1730-1890: the Abidjan lagoons were Ebrié, Adjoukrou, Alladian and Abidji towns, never Baoulé",
+  "source": "https://en.wikipedia.org/wiki/Ébrié_people",
+  "severity": "major"
+ },
+ {
+  "from": 1750,
+  "to": 1890,
+  "country": "Ivory Coast",
+  "regions": [
+   "Agnéby"
+  ],
+  "owner": "peoples:Abbey and Attié (Akyé)",
+  "why": "Agboville: Abbey and Attié; drawn empty 1750-1890",
+  "source": "https://en.wikipedia.org/wiki/Attié_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Ivory Coast",
+  "regions": [
+   "Comoe"
+  ],
+  "owner": "peoples:Agni (Anyi) and Eotile",
+  "why": "Aboisso/Abengourou before Indénié and Sanwi",
+  "source": "https://en.wikipedia.org/wiki/Anyi_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1710,
+  "country": "Ivory Coast",
+  "regions": [
+   "Savanes"
+  ],
+  "owner": "peoples:Senufo",
+  "why": "Korhogo country before Kong: Senufo",
+  "source": "https://en.wikipedia.org/wiki/Senufo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Ivory Coast",
+  "regions": [
+   "Zanzan"
+  ],
+  "owner": "peoples:Kulango and Nafana",
+  "why": "Bondoukou/Bouna before Bouna and Gyaman",
+  "source": "https://en.wikipedia.org/wiki/Kulango_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1710,
+  "country": "Ivory Coast",
+  "regions": [
+   "Vallée du Bandama"
+  ],
+  "owner": "peoples:Tagbana (Senufo) and Gouro",
+  "why": "Bouaké before the Baoulé migration",
+  "source": "https://en.wikipedia.org/wiki/Tagbana_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1510,
+  "to": 1630,
+  "country": "Chad",
+  "regions": [
+   "Batha"
+  ],
+  "owner": "Bulala Sultanate",
+  "overlord": "Bornu Empire",
+  "why": "Lake Fitri (Yao) was the Bilala seat; after Idris Katakarmabe retook Kanem the Bilala ruled as Bornu's governors; most of Batha was drawn as Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Bulala",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1886,
+  "country": "Chad",
+  "regions": [
+   "Barh El Gazel"
+  ],
+  "owner": "Wadai Empire",
+  "why": "Wadai held two of three Barh el Gazel provinces from c.1640; the third was left as Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Wadai_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Chad",
+  "regions": [
+   "Ennedi"
+  ],
+  "owner": "Daza of Borkou and Ennedi",
+  "why": "Use the map's Daza (Gaeda) / Bideyat Ennedi label for the whole plateau; half was generic Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Ennedi_Plateau",
+  "severity": "minor"
+ },
+ {
+  "from": 1650,
+  "to": 1890,
+  "country": "Chad",
+  "regions": [
+   "Ennedi"
+  ],
+  "owner": "Daza of Borkou and Ennedi",
+  "overlord": "Wadai Sultanate (partial tribute)",
+  "why": "Partial Wadai tribute from c.1650 as already drawn for the other half",
+  "source": "https://en.wikipedia.org/wiki/Ennedi_Plateau",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Chad",
+  "regions": [
+   "Tibesti"
+  ],
+  "owner": "Teda of Tibesti",
+  "why": "Tibesti was Teda country under the Derde; half drawn as generic Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Tibesti_Mountains",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1635,
+  "country": "Chad",
+  "regions": [
+   "Sila"
+  ],
+  "owner": "peoples:Daju",
+  "why": "Sila (Goz Beïda) is Daju country (later Dar Sila), savanna not Sahara",
+  "source": "https://en.wikipedia.org/wiki/Dar_Sila",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1500,
+  "country": "Chad",
+  "regions": [
+   "Guéra"
+  ],
+  "owner": "peoples:Hadjerai (Kenga, Dangaleat)",
+  "why": "Guéra hills: Hadjerai peoples, not Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Hadjerai_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1490,
+  "country": "Chad",
+  "regions": [
+   "Hadjer-Lamis"
+  ],
+  "owner": "peoples:Kotoko, Kanembu and Shuwa Arabs",
+  "why": "Lower Chari before Kotoko and Bagirmi states are recorded",
+  "source": "https://en.wikipedia.org/wiki/Kotoko_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Chad",
+  "regions": [
+   "Moyen-Chari"
+  ],
+  "owner": "Sara chiefdoms",
+  "why": "Moyen-Chari (Sarh) is Sara heartland; the existing 'Sara chiefdoms' label held one province and generic peoples the other",
+  "source": "https://en.wikipedia.org/wiki/Sara_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1580,
+  "to": 1900,
+  "country": "Chad",
+  "regions": [
+   "Mayo-Kebbi Est"
+  ],
+  "owner": "peoples:Massa, Musgum and Tupuri",
+  "why": "Bongor/Fianga floodplain: Massa, Musgum, Tupuri, Marba; drawn empty 1580-1900",
+  "source": "https://en.wikipedia.org/wiki/Massa_people",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1522,
+  "country": "Chad",
+  "regions": [
+   "Mayo-Kebbi Est"
+  ],
+  "owner": "peoples:Massa, Musgum and Tupuri",
+  "why": "As above, before Bagirmi raids",
+  "source": "https://en.wikipedia.org/wiki/Massa_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1640,
+  "country": "Chad",
+  "regions": [
+   "Mayo-Kebbi Ouest"
+  ],
+  "owner": "peoples:Moundang and Tupuri",
+  "why": "Before the Moundang kingdom of Léré",
+  "source": "https://en.wikipedia.org/wiki/Mundang_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1810,
+  "country": "Cameroon",
+  "regions": [
+   "Nord"
+  ],
+  "owner": "peoples:Fali, Bata and Dii (Duru)",
+  "why": "Benue valley of North Cameroon before the Fulani lamidates: Fali, Bata, Dii and Mbum; drawn empty 1640-1810",
+  "source": "https://en.wikipedia.org/wiki/Fali_people",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Cameroon",
+  "regions": [
+   "Sud-Ouest"
+  ],
+  "owner": "peoples:Bakweri, Bakossi and Ejagham",
+  "why": "South-West Cameroon (Mount Cameroon, Kumba, Mamfe): Bakweri, Bakossi, Balong, Ejagham; drawn empty",
+  "source": "https://en.wikipedia.org/wiki/Bakweri_people",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Cameroon",
+  "regions": [
+   "Est"
+  ],
+  "owner": "peoples:Maka, Gbaya and Baka",
+  "why": "East Cameroon forest and savanna before Maka and Gbaya polities: Maka, Gbaya, Baka",
+  "source": "https://en.wikipedia.org/wiki/Maka_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Central African Republic",
+  "regions": [
+   "Ombella-M'Poko"
+  ],
+  "owner": "peoples:Gbaya, Banda and Ngbaka-Mbaka",
+  "why": "Bangui hinterland: Ubangian Gbaya, Banda and Ngbaka-Mbaka, not Bantu",
+  "source": "https://en.wikipedia.org/wiki/Gbaya_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Central African Republic",
+  "regions": [
+   "Lobaye"
+  ],
+  "owner": "peoples:Ngbaka-Mbaka and Aka",
+  "why": "Lobaye forest: Ngbaka-Mbaka (Isongo) and Aka foragers",
+  "source": "https://en.wikipedia.org/wiki/Aka_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Central African Republic",
+  "regions": [
+   "Sangha-Mbaéré"
+  ],
+  "owner": "peoples:Mpiemo, Kaka and BaAka",
+  "why": "Sangha-Mbaéré (Nola, Bayanga): Mpiemo, Kaka and BaAka",
+  "source": "https://en.wikipedia.org/wiki/Aka_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Central African Republic",
+  "regions": [
+   "Ouham"
+  ],
+  "owner": "peoples:Gbaya, Sara-Kaba and Banda",
+  "why": "Ouham (Bossangoa, Batangafo): Gbaya, Sara-Kaba and Banda",
+  "source": "https://en.wikipedia.org/wiki/Ouham",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1879,
+  "country": "Central African Republic",
+  "regions": [
+   "Haute-Kotto"
+  ],
+  "owner": "Banda",
+  "why": "Banda already holds half of Haute-Kotto; the rest (Yulu, Kresh, Banda) was generic peoples",
+  "source": "https://en.wikipedia.org/wiki/Banda_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1830,
+  "country": "Central African Republic",
+  "regions": [
+   "Bamingui-Bangoran"
+  ],
+  "owner": "Banda",
+  "why": "Banda holds two of three provinces; the middle one was generic peoples before Dar al-Kuti",
+  "source": "https://en.wikipedia.org/wiki/Banda_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1830,
+  "country": "Central African Republic",
+  "regions": [
+   "Haut-Mbomou"
+  ],
+  "owner": "peoples:Zande and Nzakara",
+  "why": "Upper Mbomou before the Zemio sultanate",
+  "source": "https://en.wikipedia.org/wiki/Zande_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1830,
+  "to": 1890,
+  "country": "Central African Republic",
+  "regions": [
+   "Haut-Mbomou"
+  ],
+  "owner": "Zemio Sultanate",
+  "why": "Zande sultanate of Zemio already holds two of three provinces",
+  "source": "https://en.wikipedia.org/wiki/Zande_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Central African Republic",
+  "regions": [
+   "Mbomou"
+  ],
+  "owner": "peoples:Nzakara and Zande",
+  "why": "Mbomou before the Bangassou sultanate",
+  "source": "https://en.wikipedia.org/wiki/Nzakara_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1880,
+  "country": "Gabon",
+  "regions": [
+   "Haut-Ogooué"
+  ],
+  "owner": "peoples:Teke, Obamba (Mbede) and Nzebi",
+  "why": "Upper Ogooué: Teke, Obamba and Nzebi",
+  "source": "https://en.wikipedia.org/wiki/Haut-Ogooué_Province",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1886,
+  "country": "Gabon",
+  "regions": [
+   "Ngounié"
+  ],
+  "owner": "peoples:Punu, Eshira and Nzebi",
+  "why": "Ngounié: Punu, Eshira (Gisir) and Nzebi",
+  "source": "https://en.wikipedia.org/wiki/Ngounié_Province",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1550,
+  "country": "Gabon",
+  "regions": [
+   "Nyanga"
+  ],
+  "owner": "peoples:Lumbu, Vili and Punu",
+  "why": "Nyanga before Loango's suzerainty",
+  "source": "https://en.wikipedia.org/wiki/Nyanga_Province",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Gabon",
+  "regions": [
+   "Ogooué-Maritime"
+  ],
+  "owner": "peoples:Orungu and Nkomi (Myene)",
+  "why": "Cape Lopez and Fernan Vaz before the Orungu and Nkomi kingdoms are recorded",
+  "source": "https://en.wikipedia.org/wiki/Orungu",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1886,
+  "country": "Gabon",
+  "regions": [
+   "Ogooué-Lolo"
+  ],
+  "owner": "peoples:Nzebi, Massango and Simba",
+  "why": "Koulamoutou: Nzebi, Massango and Simba",
+  "source": "https://en.wikipedia.org/wiki/Ogooué-Lolo_Province",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1840,
+  "country": "Gabon",
+  "regions": [
+   "Ogooué-Ivindo"
+  ],
+  "owner": "peoples:Kota and Kwele",
+  "why": "Ivindo basin before the Fang arrival: Kota (Bakota) and Kwele",
+  "source": "https://en.wikipedia.org/wiki/Kota_people_(Gabon)",
+  "severity": "minor"
+ },
+ {
+  "from": 1850,
+  "to": 1880,
+  "country": "Republic of the Congo",
+  "regions": [
+   "Plateaux"
+  ],
+  "owner": "Tio Kingdom",
+  "why": "The Batéké plateaux (Djambala, Gamboma) stayed Tio kingdom until Makoko's treaty with Brazza; drawn as Bantu peoples 1850-80",
+  "source": "https://en.wikipedia.org/wiki/Anziku_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1880,
+  "to": 1885,
+  "country": "Republic of the Congo",
+  "regions": [
+   "Pool"
+  ],
+  "owner": "Tio Kingdom",
+  "why": "Mbé, seat of the Makoko of the Tio, is in Pool; the kingdom persisted under the Brazza-Makoko treaty",
+  "source": "https://en.wikipedia.org/wiki/Anziku_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1885,
+  "country": "Republic of the Congo",
+  "regions": [
+   "Bouenza"
+  ],
+  "owner": "peoples:Beembe, Kamba and Dondo (Kongo)",
+  "why": "Bouenza (Niari valley copper zone): Kongo-speaking Beembe, Kamba and Dondo",
+  "source": "https://en.wikipedia.org/wiki/Bouenza_Department",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1886,
+  "country": "Republic of the Congo",
+  "regions": [
+   "Niari"
+  ],
+  "owner": "peoples:Kunyi, Punu and Nzebi",
+  "why": "Niari: Kunyi, Punu, Lumbu, Nzebi",
+  "source": "https://en.wikipedia.org/wiki/Niari_Department",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1886,
+  "country": "Republic of the Congo",
+  "regions": [
+   "Lékoumou"
+  ],
+  "owner": "peoples:Teke (Tsaayi and Laali)",
+  "why": "Lékoumou (Sibiti): Tsaayi and Laali Teke, outside the Makoko's realm",
+  "source": "https://en.wikipedia.org/wiki/Lékoumou_Department",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1750,
+  "country": "Republic of the Congo",
+  "regions": [
+   "Cuvette"
+  ],
+  "owner": "peoples:Mbochi and Kouyou",
+  "why": "Cuvette: Mbochi and Kouyou",
+  "source": "https://en.wikipedia.org/wiki/Mbochi_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1886,
+  "country": "Republic of the Congo",
+  "regions": [
+   "Sangha"
+  ],
+  "owner": "peoples:Kwele, Djem and Baka",
+  "why": "Sangha (Ouesso): Kwele, Djem, Bekwil and Baka",
+  "source": "https://en.wikipedia.org/wiki/Sangha_Department_(Republic_of_the_Congo)",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1885,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Nord-Kivu"
+  ],
+  "owner": "peoples:Nande, Hunde and Nyanga",
+  "why": "North Kivu: Nande (Yira), Hunde and Nyanga chiefdoms",
+  "source": "https://en.wikipedia.org/wiki/Nande_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Sud-Kivu"
+  ],
+  "owner": "peoples:Shi, Fuliiru and Lega",
+  "why": "South Kivu before the Bushi kingdoms: Shi, Fuliiru and Lega",
+  "source": "https://en.wikipedia.org/wiki/Shi_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1875,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Maniema"
+  ],
+  "owner": "peoples:Lega, Kusu and Songola",
+  "why": "Maniema before the Swahili-Arab traders: Lega, Kusu, Songola, Bangubangu",
+  "source": "https://en.wikipedia.org/wiki/Lega_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1750,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Équateur"
+  ],
+  "owner": "peoples:Mongo, Ngombe and Ngbandi",
+  "why": "Équateur: Mongo, Ngombe, Ngbandi and Ubangi peoples",
+  "source": "https://en.wikipedia.org/wiki/Mongo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1885,
+  "to": 1894,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Nord-Kivu",
+   "Sud-Kivu"
+  ],
+  "owner": "Congo Free State",
+  "why": "Drawn empty 1885-94: the Congo Free State, recognised at Berlin in 1885, claimed Kivu up to the lakes (its eastern line declared in 1885 and confirmed against German East Africa later)",
+  "source": "https://en.wikipedia.org/wiki/Congo_Free_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1470,
+  "to": 1670,
+  "country": "Angola",
+  "regions": [
+   "Uíge"
+  ],
+  "owner": "Kingdom of Kongo",
+  "why": "Uíge (Mbata, Nsundi, Zombo, Mpangu) was the eastern part of the Kingdom of Kongo; one province was left as Bantu peoples 1470-1560 and 1580-1710",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1840,
+  "country": "Angola",
+  "regions": [
+   "Namibe"
+  ],
+  "owner": "peoples:Kuvale (Mucubal) and Kwisi",
+  "why": "Namibe coast and desert before Moçâmedes (1840): Kuvale herders and Kwisi; drawn empty",
+  "source": "https://en.wikipedia.org/wiki/Namibe_Province",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1500,
+  "country": "Angola",
+  "regions": [
+   "Cuanza Norte"
+  ],
+  "owner": "peoples:Mbundu (Ambundu)",
+  "why": "Mbundu country before the Ndongo kingdom",
+  "source": "https://en.wikipedia.org/wiki/Ambundu",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Angola",
+  "regions": [
+   "Huambo"
+  ],
+  "owner": "peoples:Ovimbundu",
+  "why": "Central Highlands before Bailundo and Wambu kingdoms",
+  "source": "https://en.wikipedia.org/wiki/Ovimbundu",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1750,
+  "country": "Angola",
+  "regions": [
+   "Bié"
+  ],
+  "owner": "peoples:Ovimbundu",
+  "why": "Bié before the Viye kingdom",
+  "source": "https://en.wikipedia.org/wiki/Ovimbundu",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1850,
+  "country": "Angola",
+  "regions": [
+   "Cuando Cubango"
+  ],
+  "owner": "peoples:Ngangela (Nyemba) and !Kung San",
+  "why": "Cuando Cubango: Ngangela (Nyemba), Mbunda and !Kung San; drawn empty",
+  "source": "https://en.wikipedia.org/wiki/Cuando_Cubango_Province",
+  "severity": "major"
+ },
+ {
+  "from": 1864,
+  "to": 1891,
+  "country": "Angola",
+  "regions": [
+   "Cuando Cubango"
+  ],
+  "owner": "peoples:Ngangela (Nyemba) and !Kung San",
+  "why": "As above; drawn empty 1864-90 until the 1891 Anglo-Portuguese treaty placed it in Angola",
+  "source": "https://en.wikipedia.org/wiki/Cuando_Cubango_Province",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Angola",
+  "regions": [
+   "Cunene"
+  ],
+  "owner": "peoples:Ovambo (Kwanyama) and Nyaneka-Nkhumbi",
+  "why": "Cunene before the Kwanyama kingdom; drawn empty",
+  "source": "https://en.wikipedia.org/wiki/Cunene_Province",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1650,
+  "country": "Namibia",
+  "regions": [
+   "Omusati",
+   "Oshikoto"
+  ],
+  "owner": "peoples:Ovambo (Aawambo)",
+  "why": "Ovamboland before the Ondonga/Ongandjera kingdoms",
+  "source": "https://en.wikipedia.org/wiki/Ovambo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1750,
+  "country": "Namibia",
+  "regions": [
+   "Kavango"
+  ],
+  "owner": "peoples:Kavango (Kwangali, Mbunza, Gciriku)",
+  "why": "Kavango river peoples",
+  "source": "https://en.wikipedia.org/wiki/Kavango_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1750,
+  "country": "Namibia",
+  "regions": [
+   "Caprivi"
+  ],
+  "owner": "peoples:Subiya, Mafwe and Mbukushu",
+  "why": "Caprivi (Zambezi) peoples",
+  "source": "https://en.wikipedia.org/wiki/Zambezi_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1820,
+  "country": "Namibia",
+  "regions": [
+   "Kunene"
+  ],
+  "owner": "peoples:Himba (Herero) and Damara",
+  "why": "Kaokoland: Himba and Damara",
+  "source": "https://en.wikipedia.org/wiki/Himba_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1820,
+  "country": "Namibia",
+  "regions": [
+   "Erongo"
+  ],
+  "owner": "peoples:Damara and Topnaar Nama (ǂAonin)",
+  "why": "Erongo and Walvis Bay coast: Damara and Topnaar",
+  "source": "https://en.wikipedia.org/wiki/Topnaar",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1820,
+  "country": "Namibia",
+  "regions": [
+   "Otjozondjupa"
+  ],
+  "owner": "peoples:Damara, Herero and Ju/'hoansi San",
+  "why": "Otjozondjupa before the Herero chiefdoms",
+  "source": "https://en.wikipedia.org/wiki/Otjozondjupa_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1820,
+  "country": "Namibia",
+  "regions": [
+   "Omaheke"
+  ],
+  "owner": "peoples:Ju/'hoansi and Naro San",
+  "why": "Omaheke (Kalahari) San",
+  "source": "https://en.wikipedia.org/wiki/Juǀʼhoansi",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1885,
+  "country": "Botswana",
+  "regions": [
+   "Kgalagadi"
+  ],
+  "owner": "peoples:Bakgalagadi and !Xóõ San",
+  "why": "Southern Kalahari: Bakgalagadi and !Xóõ San",
+  "source": "https://en.wikipedia.org/wiki/Kgalagadi_District",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1795,
+  "country": "Botswana",
+  "regions": [
+   "Ghanzi"
+  ],
+  "owner": "peoples:Naro and G|ui San",
+  "why": "Central Kalahari: Naro and G|ui San",
+  "source": "https://en.wikipedia.org/wiki/Ghanzi_District",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "Botswana",
+  "regions": [
+   "Kweneng"
+  ],
+  "owner": "peoples:Bakgalagadi and San",
+  "why": "Kweneng before the Bakwena",
+  "source": "https://en.wikipedia.org/wiki/Kweneng_District",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1885,
+  "country": "Botswana",
+  "regions": [
+   "Kweneng"
+  ],
+  "owner": "Bakwena",
+  "why": "Kweneng is named for the Bakwena, whose capitals (Dithubaruba, Molepolole) stand there; half the district was drawn as Khoisan",
+  "source": "https://en.wikipedia.org/wiki/Bakwena",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1795,
+  "country": "Botswana",
+  "regions": [
+   "North-West"
+  ],
+  "owner": "peoples:Bayei, Hambukushu and San",
+  "why": "Okavango before the Batawana",
+  "source": "https://en.wikipedia.org/wiki/Bayei",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1450,
+  "country": "Botswana",
+  "regions": [
+   "Central"
+  ],
+  "owner": "peoples:Kalanga and Khwe San",
+  "why": "Central District: Kalanga in the east, Khwe San in the Kalahari",
+  "source": "https://en.wikipedia.org/wiki/Kalanga_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1690,
+  "to": 1795,
+  "country": "Botswana",
+  "regions": [
+   "Central"
+  ],
+  "owner": "peoples:Kalanga and Khwe San",
+  "why": "As above, after Torwa and before the Bangwato",
+  "source": "https://en.wikipedia.org/wiki/Kalanga_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1824,
+  "country": "Lesotho",
+  "regions": [
+   "Thaba-Tseka"
+  ],
+  "owner": "peoples:Maloti San",
+  "why": "Maloti highlands before Moshoeshoe's Basotho kingdom: San",
+  "source": "https://en.wikipedia.org/wiki/San_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1824,
+  "country": "Lesotho",
+  "regions": [
+   "Maseru–Mohale's Hoek"
+  ],
+  "owner": "peoples:Sotho (Bafokeng, Bakoena) and San",
+  "why": "Caledon valley before Moshoeshoe: Sotho chiefdoms and San",
+  "source": "https://en.wikipedia.org/wiki/Basotho",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "South Africa",
+  "regions": [
+   "KwaZulu-Natal"
+  ],
+  "owner": "peoples:Nguni chiefdoms (Mthethwa, Ndwandwe, Qwabe)",
+  "why": "KwaZulu-Natal has been Nguni-speaking farming chiefdoms since well before 1400; 'Khoisan' is wrong",
+  "source": "https://en.wikipedia.org/wiki/Nguni_people",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "South Africa",
+  "regions": [
+   "Limpopo"
+  ],
+  "owner": "peoples:Sotho, Venda and Tsonga",
+  "why": "Limpopo: Sotho, Venda and Tsonga chiefdoms; 'Khoisan', the 1450-1520 empty spell and 'Zimbabwe (Rhodesia)' (an anachronism for 1400-1450) are wrong",
+  "source": "https://en.wikipedia.org/wiki/Limpopo",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1600,
+  "country": "South Africa",
+  "regions": [
+   "Mpumalanga"
+  ],
+  "owner": "peoples:Sotho (Pai, Pulana) and Nguni",
+  "why": "Mpumalanga: Sotho (Pai, Pulana, Kutswe) and Nguni chiefdoms; 'Khoisan' and the empty spell are wrong",
+  "source": "https://en.wikipedia.org/wiki/Mpumalanga",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1823,
+  "country": "South Africa",
+  "regions": [
+   "Gauteng"
+  ],
+  "owner": "peoples:Tswana (Bakwena, Bapo, Bafokeng)",
+  "why": "Gauteng highveld was Tswana chiefdom country before Mzilikazi; 'Khoisan' is wrong",
+  "source": "https://en.wikipedia.org/wiki/Bakwena",
+  "severity": "minor"
+ },
+ {
+  "from": 1838,
+  "to": 1852,
+  "country": "South Africa",
+  "regions": [
+   "Gauteng"
+  ],
+  "owner": "peoples:Tswana (Bakwena, Bapo, Bafokeng)",
+  "why": "After Mzilikazi left and before the South African Republic (1852)",
+  "source": "https://en.wikipedia.org/wiki/South_African_Republic",
+  "severity": "minor"
+ },
+ {
+  "from": 1852,
+  "to": 1860,
+  "country": "South Africa",
+  "regions": [
+   "Gauteng"
+  ],
+  "owner": "South African Republic",
+  "why": "Sand River Convention (1852) recognised the Transvaal Boer republic, which included the Magaliesberg/Pretoria area",
+  "source": "https://en.wikipedia.org/wiki/South_African_Republic",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "South Africa",
+  "regions": [
+   "Free State"
+  ],
+  "owner": "peoples:Sotho (Bafokeng, Bataung), Korana and San",
+  "why": "Free State highveld: Sotho chiefdoms, Korana and San; 'Khoisan' alone is wrong",
+  "source": "https://en.wikipedia.org/wiki/Free_State_(province)",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1500,
+  "country": "South Africa",
+  "regions": [
+   "North West"
+  ],
+  "owner": "peoples:Tswana (Barolong, Bahurutshe, Bakwena)",
+  "why": "North West is the Tswana heartland; 'Khoisan' is wrong",
+  "source": "https://en.wikipedia.org/wiki/Tswana_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1591,
+  "country": "Niger",
+  "regions": [
+   "Tillabéri"
+  ],
+  "owner": "Songhai Empire",
+  "only_open": true,
+  "why": "Zarmaganda/Ouallam lies between Gao and the Dendi province; Songhai held the whole Tillabéri stretch of the Niger and its Zarma hinterland until 1591",
+  "source": "https://en.wikipedia.org/wiki/Songhai_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1591,
+  "to": 1890,
+  "country": "Niger",
+  "regions": [
+   "Tillabéri"
+  ],
+  "owner": "peoples:Zarma and Songhai chiefdoms (Zarmaganda, Anzourou)",
+  "only_open": true,
+  "why": "Open provinces of Tillabéri after 1591 (Zarmaganda, Anzourou) were Zarma and Songhai chiefdoms, not Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Zarma_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1650,
+  "to": 1770,
+  "country": "Niger",
+  "regions": [
+   "Tahoua"
+  ],
+  "owner": "Iwellemmeden Kel Ataram",
+  "only_open": true,
+  "why": "The Azawagh (northern Tahoua) was the range of the Iwellemmeden confederation from the mid-17th c.",
+  "source": "https://en.wikipedia.org/wiki/Iwellemmedan",
+  "severity": "minor"
+ },
+ {
+  "from": 1770,
+  "to": 1890,
+  "country": "Niger",
+  "regions": [
+   "Tahoua"
+  ],
+  "owner": "Iwellemmeden Kel Dinnik",
+  "only_open": true,
+  "why": "After the Iwellemmeden split (later 18th c.) the eastern Kel Dinnik held the Azawagh around Tahoua",
+  "source": "https://en.wikipedia.org/wiki/Iwellemmedan",
+  "severity": "minor"
+ },
+ {
+  "from": 1690,
+  "to": 1830,
+  "country": "Niger",
+  "regions": [
+   "Maradi"
+  ],
+  "owner": "Gobir",
+  "only_open": true,
+  "why": "Gobir Tudu (the Maradi/Tibiri area) remained Gobir land while its capital moved south to Alkalawa; drawn as peoples",
+  "source": "https://en.wikipedia.org/wiki/Gobir",
+  "severity": "minor"
+ },
+ {
+  "from": 1570,
+  "to": 1731,
+  "country": "Niger",
+  "regions": [
+   "Zinder"
+  ],
+  "owner": "Bornu Empire",
+  "only_open": true,
+  "why": "Before Damagaram the Zinder area (Mirriah, Sosebaki chiefdoms, Mounio) consisted of Bornu's western vassal chiefdoms, from Idris Alooma's time",
+  "source": "https://en.wikipedia.org/wiki/Bornu_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1810,
+  "to": 1850,
+  "country": "Angola",
+  "regions": [
+   "Lunda Norte",
+   "Lunda Sul"
+  ],
+  "owner": "Lunda Empire",
+  "only_open": true,
+  "why": "The Mwata Yamvo's Lunda Empire still claimed its western Lunda chiefdoms until the Chokwe expansion (mid/late 19th c.); drawn as peoples 1810-50 between two Lunda spells",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Lunda",
+  "severity": "minor"
+ },
+ {
+  "from": 1880,
+  "to": 1900,
+  "country": "Angola",
+  "regions": [
+   "Huíla"
+  ],
+  "owner": "Angola",
+  "only_open": true,
+  "overlord": "Portugal",
+  "why": "Portuguese Huíla highlands: Boer settlers at Humpata (1881) and Madeiran colonists at Lubango (1885) under the Huíla presidio",
+  "source": "https://en.wikipedia.org/wiki/Lubango",
+  "severity": "minor"
+ },
+ {
+  "from": 1740,
+  "to": 1890,
+  "country": "Mauritania",
+  "regions": [
+   "Adrar"
+  ],
+  "owner": "Emirate of Adrar",
+  "only_open": true,
+  "why": "The Adrar emirate (Atar) ruled Chinguetti and Ouadane and the Adrar plateau; two of three provinces were generic nomads",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Adrar",
+  "severity": "minor"
+ },
+ {
+  "from": 1700,
+  "to": 1890,
+  "country": "Mauritania",
+  "regions": [
+   "Tiris Zemmour"
+  ],
+  "owner": "Reguibat",
+  "only_open": true,
+  "why": "Tiris and Zemmour were Reguibat range, already drawn for one province",
+  "source": "https://en.wikipedia.org/wiki/Reguibat",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1760,
+  "country": "Mauritania",
+  "regions": [
+   "Hodh el Gharbi"
+  ],
+  "owner": "Hodh Hassani tribes",
+  "only_open": true,
+  "why": "Same Hassani Hodh polity as the rest of the region",
+  "source": "https://en.wikipedia.org/wiki/Hodh_El_Gharbi_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1880,
+  "to": 1890,
+  "country": "Gabon",
+  "regions": [
+   "Moyen-Ogooué"
+  ],
+  "owner": "Galoa",
+  "only_open": true,
+  "why": "Lambaréné (Galoa/Enenga) between the Galoa spell and French Gabon; drawn as peoples",
+  "source": "https://en.wikipedia.org/wiki/Lambaréné",
+  "severity": "minor"
+ },
+ {
+  "from": 1870,
+  "to": 1880,
+  "country": "Senegal",
+  "regions": [
+   "Matam"
+  ],
+  "owner": "Imamate of Futa Toro",
+  "only_open": true,
+  "why": "Matam is Futa Toro; one province drawn as Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Imamate_of_Futa_Toro",
+  "severity": "minor"
+ },
+ {
+  "from": 1830,
+  "to": 1862,
+  "country": "Mali",
+  "regions": [
+   "Mopti"
+  ],
+  "owner": "Massina Empire",
+  "why": "WRONG STATE: the Douentza/Boni province was drawn as 'Kingdom of Wagadugu' (Mossi) 1810-1850; the Fulbe of Boni/Gandamia recognised Hamdullahi, and the rest of Mopti is already Massina",
+  "source": "https://en.wikipedia.org/wiki/Massina_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1862,
+  "to": 1890,
+  "country": "Mali",
+  "regions": [
+   "Mopti"
+  ],
+  "owner": "Toucouleur Empire",
+  "only_open": true,
+  "why": "After Umar's conquest of Massina (1862) Tijani Tall ruled from Bandiagara; the Douentza province was left as peoples",
+  "source": "https://en.wikipedia.org/wiki/Tukulor_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1933,
+  "to": 1947,
+  "country": "Burkina Faso",
+  "regions": [
+   "Kossi",
+   "Nayala–Passoré",
+   "Soum",
+   "Yatenga–Bam"
+  ],
+  "owner": "French Sudan",
+  "overlord": "France",
+  "why": "WRONG STATE: during the 1932-47 partition of Upper Volta these cercles went to French Sudan, drawn as 'Mali Empire [France]'",
+  "source": "https://en.wikipedia.org/wiki/French_Upper_Volta",
+  "severity": "major"
+ },
+ {
+  "from": 1846,
+  "to": 1867,
+  "country": "Burkina Faso",
+  "regions": [
+   "Gnagna"
+  ],
+  "owner": "peoples:Gurma chiefdoms (Bilanga, Bongandini, Piela)",
+  "why": "WRONG STATE: Gnagna is Gurma country, drawn as Mossi 'Kingdom of Wagadugu'",
+  "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Gurma_Mossi_state_of_Bilanga",
+  "severity": "major"
+ },
+ {
+  "from": 1873,
+  "to": 1886,
+  "country": "Burkina Faso",
+  "regions": [
+   "Gnagna"
+  ],
+  "owner": "peoples:Gurma chiefdoms (Bilanga, Bongandini, Piela)",
+  "why": "WRONG STATE: as above",
+  "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Gurma_Mossi_state_of_Bilanga",
+  "severity": "major"
+ },
+ {
+  "from": 1626,
+  "to": 1630,
+  "country": "Ghana",
+  "regions": [
+   "Upper West"
+  ],
+  "owner": "peoples:Dagaaba and Sissala",
+  "why": "WRONG STATE: four-year 'Kingdom of Wagadugu' blip before the Wala kingdom",
+  "source": "https://en.wikipedia.org/wiki/Upper_West_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Nigeria",
+  "regions": [
+   "Benue"
+  ],
+  "owner": "peoples:Tiv",
+  "only_open": true,
+  "why": "Benue west of Jukun country is Tiv land, never under a state before colonial rule",
+  "source": "https://en.wikipedia.org/wiki/Tiv_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Nigeria",
+  "regions": [
+   "Taraba"
+  ],
+  "owner": "peoples:Mumuye, Chamba and Mambila",
+  "only_open": true,
+  "why": "Open Taraba highlands",
+  "source": "https://en.wikipedia.org/wiki/Taraba_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1810,
+  "country": "Nigeria",
+  "regions": [
+   "Bauchi"
+  ],
+  "owner": "peoples:Jarawa, Sayawa and Gerawa",
+  "only_open": true,
+  "why": "Pre-jihad Bauchi plains and hills",
+  "source": "https://en.wikipedia.org/wiki/Bauchi_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1500,
+  "country": "Nigeria",
+  "regions": [
+   "Borno"
+  ],
+  "owner": "peoples:Sao-Kotoko, Margi and Babur",
+  "only_open": true,
+  "why": "South of Lake Chad before Bornu absorbed it",
+  "source": "https://en.wikipedia.org/wiki/Kotoko_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1520,
+  "country": "Nigeria",
+  "regions": [
+   "Kebbi"
+  ],
+  "owner": "peoples:Kebbawa Hausa",
+  "only_open": true,
+  "why": "Kebbi before Kanta's kingdom",
+  "source": "https://en.wikipedia.org/wiki/Kebbi_Emirate",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1810,
+  "country": "Nigeria",
+  "regions": [
+   "Niger"
+  ],
+  "owner": "peoples:Gbagyi (Gwari)",
+  "only_open": true,
+  "why": "Gbagyi country between Nupe and Zazzau",
+  "source": "https://en.wikipedia.org/wiki/Gbagyi_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1885,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Sud-Kivu"
+  ],
+  "owner": "peoples:Shi, Fuliiru and Lega",
+  "only_open": true,
+  "why": "Open South Kivu",
+  "source": "https://en.wikipedia.org/wiki/Shi_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1885,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Bandundu"
+  ],
+  "owner": "peoples:Mbuun, Lele and Ndengese",
+  "only_open": true,
+  "why": "Open Kwilu-Kasai interfluve",
+  "source": "https://en.wikipedia.org/wiki/Mbuun_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1885,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Katanga"
+  ],
+  "owner": "peoples:Hemba, Tabwa, Sanga and Kaonde",
+  "only_open": true,
+  "why": "Open Katanga outside the Luba, Lunda, Kazembe and Yeke states",
+  "source": "https://en.wikipedia.org/wiki/Hemba_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1885,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Kasaï-Occidental"
+  ],
+  "owner": "peoples:Kete, Lele and Pende",
+  "only_open": true,
+  "why": "Open West Kasai outside Kuba",
+  "source": "https://en.wikipedia.org/wiki/Kete_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1885,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Kasaï-Oriental"
+  ],
+  "owner": "peoples:Tetela and Kusu",
+  "only_open": true,
+  "why": "Sankuru forest north of the Songye",
+  "source": "https://en.wikipedia.org/wiki/Tetela_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1885,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Orientale"
+  ],
+  "owner": "peoples:Uele and Ituri peoples (Bua, Lese, Mbuti, Lendu)",
+  "only_open": true,
+  "why": "Open Uele and Ituri forest",
+  "source": "https://en.wikipedia.org/wiki/Ituri_Rainforest",
+  "severity": "minor"
+ },
+ {
+  "from": 1750,
+  "to": 1885,
+  "country": "Democratic Republic of the Congo",
+  "regions": [
+   "Équateur"
+  ],
+  "owner": "peoples:Mongo, Ngombe and Ngbandi",
+  "only_open": true,
+  "why": "Open Équateur outside the Bobangi towns",
+  "source": "https://en.wikipedia.org/wiki/Mongo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Angola",
+  "regions": [
+   "Cuanza Sul"
+  ],
+  "owner": "peoples:Mbundu (Kibala) and Ovimbundu (Seles, Amboim)",
+  "only_open": true,
+  "why": "Open Cuanza Sul outside Libolo",
+  "source": "https://en.wikipedia.org/wiki/Cuanza_Sul_Province",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1900,
+  "country": "Angola",
+  "regions": [
+   "Malanje"
+  ],
+  "owner": "peoples:Songo and Minungu",
+  "only_open": true,
+  "why": "Upper Cuango south of Kasanje",
+  "source": "https://en.wikipedia.org/wiki/Songo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1900,
+  "country": "Angola",
+  "regions": [
+   "Moxico"
+  ],
+  "owner": "peoples:Luchazi and Ngangela",
+  "only_open": true,
+  "why": "Open western Moxico",
+  "source": "https://en.wikipedia.org/wiki/Luchazi_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1750,
+  "to": 1900,
+  "country": "Angola",
+  "regions": [
+   "Bié"
+  ],
+  "owner": "peoples:Ngangela and Songo",
+  "only_open": true,
+  "why": "Open eastern Bié",
+  "source": "https://en.wikipedia.org/wiki/Nganguela_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1890,
+  "country": "Angola",
+  "regions": [
+   "Cunene"
+  ],
+  "owner": "peoples:Nyaneka-Nkhumbi and Ovambo (Evale, Kafima)",
+  "only_open": true,
+  "why": "Open Cunene",
+  "source": "https://en.wikipedia.org/wiki/Nyaneka-Nkhumbi",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1885,
+  "country": "South Africa",
+  "regions": [
+   "Northern Cape"
+  ],
+  "owner": "peoples:ǀXam San, Korana and Tswana (Batlhaping)",
+  "only_open": true,
+  "why": "Open Northern Cape (Bushmanland, Kalahari, Kuruman)",
+  "source": "https://en.wikipedia.org/wiki/ǀXam_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1830,
+  "country": "South Africa",
+  "regions": [
+   "Eastern Cape"
+  ],
+  "owner": "peoples:San and Khoikhoi (Karoo)",
+  "only_open": true,
+  "why": "Open Karoo provinces",
+  "source": "https://en.wikipedia.org/wiki/San_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1860,
+  "country": "South Africa",
+  "regions": [
+   "Limpopo"
+  ],
+  "owner": "peoples:Northern Sotho (Birwa, Tlokwa) and Langa Ndebele",
+  "only_open": true,
+  "why": "Open Limpopo: 'Khoisan' is wrong",
+  "source": "https://en.wikipedia.org/wiki/Pedi_people",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1860,
+  "country": "South Africa",
+  "regions": [
+   "Mpumalanga"
+  ],
+  "owner": "peoples:Sotho (Pai, Pulana, Kutswe) and Swazi",
+  "only_open": true,
+  "why": "Open Mpumalanga: 'Khoisan' is wrong",
+  "source": "https://en.wikipedia.org/wiki/Mpumalanga",
+  "severity": "major"
+ },
+ {
+  "from": 1700,
+  "to": 1820,
+  "country": "South Africa",
+  "regions": [
+   "KwaZulu-Natal"
+  ],
+  "owner": "peoples:Nguni chiefdoms (Mthethwa, Ndwandwe, Qwabe)",
+  "only_open": true,
+  "why": "Open KwaZulu-Natal before Shaka: 'Khoisan' is wrong",
+  "source": "https://en.wikipedia.org/wiki/Mthethwa_Paramountcy",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1890,
+  "country": "South Africa",
+  "regions": [
+   "KwaZulu-Natal"
+  ],
+  "owner": "peoples:Tembe-Thonga (Maputaland)",
+  "only_open": true,
+  "why": "Maputaland",
+  "source": "https://en.wikipedia.org/wiki/Maputaland",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1885,
+  "country": "South Africa",
+  "regions": [
+   "North West"
+  ],
+  "owner": "peoples:Tswana chiefdoms (Barolong, Bafokeng, Bakgatla, Bakwena)",
+  "only_open": true,
+  "why": "Open North West: 'Khoisan' is wrong",
+  "source": "https://en.wikipedia.org/wiki/Tswana_people",
+  "severity": "major"
+ },
+ {
+  "from": 1700,
+  "to": 1848,
+  "country": "South Africa",
+  "regions": [
+   "Free State"
+  ],
+  "owner": "peoples:Sotho (Bafokeng, Bataung), Korana and San",
+  "only_open": true,
+  "why": "Open Free State: 'Khoisan' alone is wrong",
+  "source": "https://en.wikipedia.org/wiki/Free_State_(province)",
+  "severity": "minor"
+ },
+ {
+  "from": 1820,
+  "to": 1890,
+  "country": "Namibia",
+  "regions": [
+   "Kunene"
+  ],
+  "owner": "peoples:Himba (Herero) and Damara",
+  "only_open": true,
+  "why": "Open Kaokoland",
+  "source": "https://en.wikipedia.org/wiki/Himba_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1820,
+  "to": 1890,
+  "country": "Namibia",
+  "regions": [
+   "Otjozondjupa"
+  ],
+  "owner": "peoples:Heiǁom San and Damara",
+  "only_open": true,
+  "why": "Open Otjozondjupa",
+  "source": "https://en.wikipedia.org/wiki/Haiǁom",
+  "severity": "minor"
+ },
+ {
+  "from": 1820,
+  "to": 1890,
+  "country": "Namibia",
+  "regions": [
+   "Omaheke"
+  ],
+  "owner": "peoples:Ju/'hoansi and Naro San",
+  "only_open": true,
+  "why": "Open Omaheke",
+  "source": "https://en.wikipedia.org/wiki/Juǀʼhoansi",
+  "severity": "minor"
+ },
+ {
+  "from": 1650,
+  "to": 1890,
+  "country": "Namibia",
+  "regions": [
+   "Oshikoto"
+  ],
+  "owner": "peoples:Heiǁom San",
+  "only_open": true,
+  "why": "Etosha",
+  "source": "https://en.wikipedia.org/wiki/Haiǁom",
+  "severity": "minor"
+ },
+ {
+  "from": 1795,
+  "to": 1890,
+  "country": "Botswana",
+  "regions": [
+   "Central"
+  ],
+  "owner": "peoples:Kalanga and Khwe San",
+  "only_open": true,
+  "why": "Open Central District",
+  "source": "https://en.wikipedia.org/wiki/Kalanga_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1820,
+  "country": "Mali",
+  "regions": [
+   "Koulikoro"
+  ],
+  "owner": "peoples:Bambara (Bamana) chiefdoms",
+  "only_open": true,
+  "why": "Open Koulikoro (Beledougou, Kaarta fringe), not Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Bambara_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1880,
+  "country": "Mali",
+  "regions": [
+   "Kayes"
+  ],
+  "owner": "peoples:Malinke (Bambouk, Kita, Fuladugu)",
+  "only_open": true,
+  "why": "Open Kayes (Kéniéba, Kita), not Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Mandinka_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1650,
+  "country": "Mali",
+  "regions": [
+   "Sikasso"
+  ],
+  "owner": "peoples:Senufo and Minianka",
+  "only_open": true,
+  "why": "Open Sikasso before Kénédougou, not Saharan nomads",
+  "source": "https://en.wikipedia.org/wiki/Senufo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1650,
+  "to": 1880,
+  "country": "Mali",
+  "regions": [
+   "Sikasso"
+  ],
+  "owner": "peoples:Wassoulounke and Bambara (Bougouni)",
+  "only_open": true,
+  "why": "Open Bougouni/Wassoulou",
+  "source": "https://en.wikipedia.org/wiki/Wassoulou",
+  "severity": "minor"
+ },
+ {
+  "from": 1470,
+  "to": 1890,
+  "country": "Mali",
+  "regions": [
+   "Timbuktu"
+  ],
+  "owner": "peoples:Moors (Berabich, Kunta) and Tuareg (Kel Ansar)",
+  "only_open": true,
+  "why": "Azawad and Taoudenni",
+  "source": "https://en.wikipedia.org/wiki/Azawad",
+  "severity": "minor"
+ },
+ {
+  "from": 1591,
+  "to": 1890,
+  "country": "Mali",
+  "regions": [
+   "Gao"
+  ],
+  "owner": "peoples:Songhai and Tuareg (Iwellemmeden)",
+  "only_open": true,
+  "why": "Open Gao region after Songhai's fall",
+  "source": "https://en.wikipedia.org/wiki/Songhai_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1640,
+  "country": "Chad",
+  "regions": [
+   "Guéra"
+  ],
+  "owner": "peoples:Hadjerai (Kenga, Dangaleat)",
+  "only_open": true,
+  "why": "Open Guéra hills",
+  "source": "https://en.wikipedia.org/wiki/Hadjerai_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1700,
+  "country": "Chad",
+  "regions": [
+   "Salamat"
+  ],
+  "owner": "peoples:Runga, Goula and Salamat Arabs",
+  "only_open": true,
+  "why": "Open Salamat",
+  "source": "https://en.wikipedia.org/wiki/Salamat_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1880,
+  "country": "Central African Republic",
+  "regions": [
+   "Vakaga"
+  ],
+  "owner": "peoples:Kara, Yulu and Runga",
+  "only_open": true,
+  "why": "Open Vakaga",
+  "source": "https://en.wikipedia.org/wiki/Vakaga",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1900,
+  "country": "Central African Republic",
+  "regions": [
+   "Ouham-Pendé"
+  ],
+  "owner": "peoples:Gbaya, Karre and Mbum",
+  "only_open": true,
+  "why": "Open Ouham-Pendé",
+  "source": "https://en.wikipedia.org/wiki/Gbaya_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Cameroon",
+  "regions": [
+   "Centre"
+  ],
+  "owner": "peoples:Beti, Bafia and Vute",
+  "only_open": true,
+  "why": "Open Centre",
+  "source": "https://en.wikipedia.org/wiki/Beti-Pahuin_peoples",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1810,
+  "country": "Cameroon",
+  "regions": [
+   "Adamaoua"
+  ],
+  "owner": "peoples:Mbum, Vute and Gbaya",
+  "only_open": true,
+  "why": "Open Adamawa plateau before the lamidates",
+  "source": "https://en.wikipedia.org/wiki/Mbum_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1700,
+  "to": 1890,
+  "country": "Cameroon",
+  "regions": [
+   "Est"
+  ],
+  "owner": "peoples:Maka, Gbaya and Baka",
+  "only_open": true,
+  "why": "Open East Cameroon",
+  "source": "https://en.wikipedia.org/wiki/Maka_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1550,
+  "country": "Ghana",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "peoples:Guan and Gur peoples (Vagla, Mo)",
+  "only_open": true,
+  "why": "Gonja area before Gonja",
+  "source": "https://en.wikipedia.org/wiki/Gonja",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1550,
+  "country": "Ghana",
+  "regions": [
+   "Brong Ahafo"
+  ],
+  "owner": "peoples:Akan (Bono) and Guan",
+  "only_open": true,
+  "why": "Open Brong Ahafo",
+  "source": "https://en.wikipedia.org/wiki/Bono_state",
+  "severity": "minor"
+ },
+ {
+  "from": 1710,
+  "to": 1890,
+  "country": "Ivory Coast",
+  "regions": [
+   "Savanes"
+  ],
+  "owner": "peoples:Senufo",
+  "only_open": true,
+  "why": "Korhogo Senufo",
+  "source": "https://en.wikipedia.org/wiki/Senufo_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1690,
+  "country": "Ivory Coast",
+  "regions": [
+   "Zanzan"
+  ],
+  "owner": "peoples:Kulango and Nafana",
+  "only_open": true,
+  "why": "Open Zanzan",
+  "source": "https://en.wikipedia.org/wiki/Kulango_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1840,
+  "to": 1890,
+  "country": "Gabon",
+  "regions": [
+   "Ogooué-Ivindo"
+  ],
+  "owner": "peoples:Kota and Kwele",
+  "only_open": true,
+  "why": "Open Ivindo",
+  "source": "https://en.wikipedia.org/wiki/Kota_people_(Gabon)",
+  "severity": "minor"
+ },
+ {
+  "from": 1750,
+  "to": 1890,
+  "country": "Republic of the Congo",
+  "regions": [
+   "Cuvette"
+  ],
+  "owner": "peoples:Mbochi and Kouyou",
+  "only_open": true,
+  "why": "Open Cuvette",
+  "source": "https://en.wikipedia.org/wiki/Mbochi_people",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Republic of the Congo",
+  "regions": [
+   "Likouala"
+  ],
+  "owner": "peoples:Bomitaba, Enyele and Aka",
+  "only_open": true,
+  "why": "Likouala swamps",
+  "source": "https://en.wikipedia.org/wiki/Likouala_Department",
+  "severity": "minor"
+ },
+ {
+  "from": 1620,
+  "to": 1700,
+  "country": "Guinea",
+  "regions": [
+   "Kankan"
+  ],
+  "owner": "peoples:Malinke (Baté)",
+  "only_open": true,
+  "why": "Kankan before the Baté state",
+  "source": "https://en.wikipedia.org/wiki/Kankan",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1730,
+  "country": "Guinea",
+  "regions": [
+   "Faranah"
+  ],
+  "owner": "peoples:Jalonke (Yalunka), Kuranko and Kissi",
+  "only_open": true,
+  "why": "Faranah (upper Niger sources)",
+  "source": "https://en.wikipedia.org/wiki/Faranah",
+  "severity": "minor"
+ }
+]

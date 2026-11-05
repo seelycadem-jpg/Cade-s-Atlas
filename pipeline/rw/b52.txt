@@ -1,0 +1,226 @@
+## oc-duyfken | 1606 | Duyfken lands in Australia | who: Willem Janszoon and the Dutch ship Duyfken | where: Cape York Peninsula, Australia
+  bluf: The Duyfken's landing was the first recorded European contact with Australia. The Dutch found nothing worth trading and never settled, which left the continent to its Aboriginal peoples for another 180 years until British colonization.
+  now: Aboriginal Australians had lived on the continent for at least 50,000 years before any European arrived; first-contact stories are now part of debates over how Australia tells its history.
+  story: Sent by the Dutch East India Company to look for trade beyond New Guinea, Willem Janszoon charted about 300 km of Cape York's west coast in early 1606. Clashes with Aboriginal people left several of his crew dead, and he reported nothing of value.
+  why: The VOC was searching for new trade and the rumoured 'Great South Land'.
+  then: Dutch ships charted much of Australia's west and north coasts over the next 40 years and called it New Holland, but the VOC saw no profit in it.
+## oc-tasman | 1642 | Abel Tasman reaches Tasmania and New Zealand | who: Abel Tasman (Dutch East India Company); Ngāti Tūmatakōkiri | where: Golden Bay, New Zealand
+  bluf: Tasman's voyage put Tasmania and New Zealand on European maps but produced no contact beyond a violent clash with Māori. Europe's lack of interest left New Zealand to the Māori for another 127 years.
+  now: New Zealand was later colonized by Britain, not the Netherlands, because the Dutch saw nothing worth trading there; empires followed profit rather than discovery.
+  story: Sailing from Batavia, Tasman sighted Tasmania in November 1642 and New Zealand's South Island in December. At Golden Bay, Māori in war canoes attacked a ship's boat and killed four sailors; Tasman sailed on without landing.
+  why: The VOC wanted to find the Great South Land and a route to South America.
+  then: No European returned to New Zealand until James Cook in 1769.
+## oc-cook | 1770 | Cook lands at Botany Bay | who: Lieutenant James Cook; botanist Joseph Banks; the Gweagal people | where: Botany Bay, near Sydney
+  bluf: Cook's voyage charted Australia's east coast and New Zealand and led directly to British colonization of both. It began the dispossession of Aboriginal and Torres Strait Islander peoples, who were treated as having no legal claim to their land.
+  now: Cook's charts gave Britain its claim to eastern Australia; the convict colony of 1788 and the dispossession of the Aboriginal nations followed from the voyage.
+  story: On his first Pacific voyage, Cook mapped New Zealand's coasts in 1769-70, then reached Australia's east coast, landing at Botany Bay in April 1770, where Gweagal men tried to drive his party away. In August he claimed the whole east coast for Britain.
+  why: The Royal Society sent Cook to observe the transit of Venus from Tahiti; secret Admiralty orders told him to look for the southern continent.
+  then: Joseph Banks later recommended Botany Bay to Parliament as a site for a penal colony.
+  fact: Cook is remembered as a great navigator and, by many Indigenous people, as the beginning of dispossession.
+## oc-firstfleet | 1788 | First Fleet founds Sydney | who: Captain Arthur Phillip; about 750 convicts; the Eora people | where: Sydney Cove
+  bluf: The First Fleet founded British Australia as a penal colony on Aboriginal land that British law treated as belonging to no one. It began the dispossession of Indigenous Australians and the building of the settler society that became modern Australia.
+  now: January 26 is Australia Day, and to many Aboriginal Australians 'Invasion Day'. The legal doctrine that the land had belonged to no one was overturned only by the Mabo decision in 1992.
+  story: After an eight-month voyage, Arthur Phillip raised the British flag at Sydney Cove on January 26, 1788. The colony nearly starved in its first years. Smallpox, which broke out in 1789, killed a large share of the local Eora people.
+  why: After American independence, Britain could no longer ship convicts to America and needed somewhere new; the colony also gave Britain a foothold in the Pacific.
+  then: Settlement spread across the continent, and frontier violence and disease devastated Aboriginal societies. About 162,000 convicts were transported by 1868.
+## oc-kamehameha | 1810 | Kamehameha unifies Hawaii | who: Kamehameha I | where: Hawaiian Islands
+  bluf: Kamehameha used Western guns and advisers to unify the Hawaiian Islands into one kingdom. The kingdom won international recognition but was later overthrown by American settlers and annexed by the United States.
+  now: The Hawaiian Kingdom he founded is central to Native Hawaiian claims of sovereignty today.
+  story: Kamehameha, a chief from the island of Hawaiʻi, conquered Maui and Oʻahu by 1795 with the help of Western muskets, cannon and sailors. In 1810 Kauaʻi's ruler accepted his authority, completing the unification.
+  why: Rivalry among Hawaii's chiefdoms, and new Western weapons that gave one chief a decisive edge.
+  then: The Kingdom of Hawaii traded with the world and was recognised by the great powers.
+## oc-musket | 1818 | Musket Wars in New Zealand | who: Ngāpuhi chief Hongi Hika and other Māori iwi | where: Bay of Islands and across the North Island
+  bluf: The Musket Wars show how a new weapon spread through trade can turn old rivalries into a catastrophic arms race. The devastation helped lead some Māori chiefs to accept British protection in 1840.
+  now: Many tribal boundaries in New Zealand today reflect the migrations of the Musket Wars.
+  story: Northern iwi who traded for muskets first, led by Hongi Hika, raided their rivals from 1818; other iwi rushed to arm themselves. In two decades of fighting, perhaps 20,000 Māori died, and many people were displaced or enslaved.
+  why: Northern iwi in contact with European ships traded flax and food for muskets, giving them a sudden advantage over rivals with whom they had old scores to settle.
+  then: The chaos, depopulation and lawless traders led some chiefs to seek British protection, a path that led to the Treaty of Waitangi in 1840.
+  fact: Hongi Hika visited England in 1820, met King George IV, and traded many of his gifts for muskets in Sydney on the way home.
+## oc-myall | 1838 | Myall Creek massacre | who: Stockmen led by John Fleming; the Wirrayaraay people | where: Myall Creek, New South Wales
+  bluf: Myall Creek was the first time colonial authorities hanged white men for massacring Aboriginal people. The backlash among colonists helped ensure later frontier killings went unpunished and unrecorded.
+  now: Myall Creek was the one frontier massacre for which white men were hanged; it established that Aboriginal people were protected by law in principle, while hundreds of unpunished massacres followed in practice.
+  story: On June 10, 1838, a group of stockmen tied up and killed at least 28 Wirrayaraay people, mostly women, children and old men, at Myall Creek station. Seven of the killers were convicted and hanged; the ringleader escaped.
+  why: Frontier violence spread as settlers took Aboriginal land for sheep and cattle.
+  then: Many colonists were outraged by the hangings, and later massacres were often covered up.
+  fact: A memorial was built in 2000 by descendants of both victims and perpetrators.
+## oc-waitangi | 1840 | Treaty of Waitangi | who: Lieutenant-Governor William Hobson; more than 500 Māori chiefs | where: Waitangi, Bay of Islands
+  bluf: The Treaty of Waitangi was New Zealand's founding agreement between the British Crown and Māori chiefs, but its English and Māori texts said different things about sovereignty. That gap justified British rule and land seizures, and since 1975 has been the basis for redress, making the treaty central to New Zealand politics.
+  now: Since 1975 the Waitangi Tribunal has investigated breaches of the treaty, leading to settlements with many iwi; the treaty's meaning is still debated in politics.
+  story: On February 6, 1840, Hobson and dozens of chiefs signed at Waitangi; over 500 chiefs eventually signed copies. In the English text the chiefs ceded 'sovereignty'; in the Māori text they granted 'kāwanatanga' (governorship) while keeping 'tino rangatiratanga', full chieftainship over their lands and treasures.
+  why: Britain wanted to control a lawless settler frontier and forestall French claims; chiefs sought protection and trade.
+  then: Settler demand for land led to the New Zealand Wars (1845-72) and huge confiscations; by 1900 Māori held only a small fraction of their land.
+  fact: Waitangi Day, February 6, is New Zealand's national day.
+## oc-nzwars | 1845 | New Zealand Wars begin | who: Hōne Heke and other Māori leaders; British and colonial forces | where: Kororāreka (Russell), Bay of Islands
+  bluf: The New Zealand Wars were fought over land and sovereignty, and ended with the colonial government confiscating millions of acres of Māori land. They decided that settlers, not Māori, would control New Zealand.
+  now: Government settlements since the 1990s have apologised and paid compensation for the confiscations.
+  story: In 1845 the Ngāpuhi chief Hōne Heke cut down the British flagstaff at Kororāreka four times, starting the Northern War. Larger wars followed in Taranaki and the Waikato in the 1860s. They ended by 1872, after the government confiscated millions of acres of Māori land.
+  why: Settlers' demand for land, disputed land sales and conflict over who held authority under the Treaty of Waitangi.
+  then: Confiscated land opened the North Island to settlement, and Māori were impoverished.
+## oc-gold | 1851 | Australian gold rushes begin | who: Prospectors from around the world | where: Bathurst, New South Wales, and Ballarat, Victoria
+  bluf: The gold rushes turned Australia from a penal colony into a booming immigrant society, quadrupling its population in twenty years. Hostility to Chinese miners also produced the first laws of what became the White Australia policy.
+  now: Many Australian towns, and the multicultural mix of the colonies, date from the gold rush.
+  story: Gold was found near Bathurst in February 1851 and around Ballarat and Bendigo in Victoria months later. Australia's population roughly quadrupled in twenty years, from about 430,000 in 1851 to 1.7 million in 1871, and Melbourne became one of the world's richest cities.
+  why: Prospectors who had been to the California gold rush recognised the signs.
+  then: Hostility to Chinese diggers produced Australia's first anti-Chinese immigration laws in the 1850s.
+## oc-eureka | 1854 | Eureka Stockade | who: Gold miners led by Peter Lalor; colonial soldiers and police | where: Ballarat, Victoria
+  bluf: The Eureka rebellion was a miners' revolt against taxation without representation that, though crushed, quickly won its demands. It is remembered as a founding moment of Australian democracy.
+  now: The Eureka flag remains a symbol of protest and democratic rights in Australia.
+  story: Miners angry at expensive licences, brutal enforcement and having no vote built a stockade under the Southern Cross flag. Troops stormed it at dawn on December 3, 1854. A Melbourne jury later acquitted all 13 miners charged with treason.
+  why: Miners paid heavy licence fees enforced by brutal police raids but had no vote, and the acquittal of a hotel keeper for killing a miner set off protests.
+  then: Within a year the licence was replaced, and Victoria gave adult men the vote in 1857.
+## oc-blackbird | 1863 | Blackbirding: Pacific Islanders brought to Queensland | who: Labour recruiters; Pacific Islanders; Queensland sugar planters | where: Mackay, Queensland
+  bluf: Blackbirding brought tens of thousands of Pacific Islanders to Queensland, many by deception or force, to work its sugar plantations. Their deportation under the White Australia policy showed how labor exploitation and racial exclusion went together.
+  now: Australian South Sea Islanders, descendants of those who stayed, were formally recognised as a distinct community in 1994.
+  story: From 1863 to 1904, recruiters brought workers from Vanuatu, the Solomon Islands and other islands to Queensland on fixed contracts. Many were tricked or kidnapped, a practice called 'blackbirding', and thousands died from disease and harsh conditions.
+  why: Queensland sugar planters wanted cheap labour for tropical plantations and believed white workers would not do the work.
+  then: Under the White Australia policy, most Islanders were deported from 1906, and the sugar industry was reserved for white labour.
+## oc-lastconvicts | 1868 | Last convict ship reaches Australia | who: The convict ship Hougoumont | where: Fremantle, Western Australia
+  bluf: The end of transportation closed Australia's penal era after 80 years and about 162,000 convicts. Colonists had long campaigned against it, seeing free immigration and self-government as Australia's future.
+  now: The end of transportation closed the penal colony and made Australia a settler society that governed itself; the colonies had refused convicts for a generation before London stopped sending them.
+  story: The Hougoumont reached Fremantle in January 1868 with 280 convicts, among them Irish Fenian rebels. About 162,000 convicts had been transported to Australia since 1788.
+  why: The eastern colonies had refused convicts for years, and transportation was costly and controversial in Britain.
+  then: Six Fenians later escaped from Fremantle on an American whaling ship in 1876.
+  fact: Perhaps one in five Australians descends from a convict.
+## oc-hawaii1893 | 1893 | Overthrow of the Hawaiian Kingdom | who: Queen Liliʻuokalani; American and European planters; US Minister John Stevens | where: Honolulu
+  bluf: American planters, backed by US Marines, overthrew Hawaii's monarchy to secure annexation and access to US markets. Congress later acknowledged the overthrow as illegal, but it was never reversed.
+  now: In 1993 Congress formally apologized for the US role, and the overthrow underpins Native Hawaiian sovereignty claims today.
+  story: When Queen Liliʻuokalani tried to restore royal power and Hawaiian voting rights, a 'Committee of Safety' of mostly American businessmen seized power on January 17, 1893. US Minister John Stevens had Marines landed from USS Boston to support them.
+  why: Sugar planters wanted annexation to the US to secure duty-free access to the American market.
+  then: President Cleveland called the overthrow an 'act of war' but did not restore the queen; Congress annexed Hawaii in 1898.
+## oc-nzsuffrage | 1893 | New Zealand gives women the vote | who: Kate Sheppard and the Women's Christian Temperance Union | where: Wellington
+  bluf: New Zealand became the first self-governing country to give women the national vote, Māori women included. It showed that small settler democracies could be laboratories for reform.
+  now: Early women's suffrage is part of New Zealand's identity as a pioneer of social reform; Kate Sheppard appears on its $10 note.
+  story: Kate Sheppard's campaign gathered three petitions, the last signed by about a quarter of New Zealand's adult women. The Electoral Act became law on September 19, 1893, for both Māori and Pākehā (European) women.
+  why: A determined campaign led by Kate Sheppard and linked to the temperance movement, and an upper house that passed the bill narrowly despite the premier's opposition.
+  then: Other countries followed, from Australia (1902) and Finland (1906) to Britain and the United States after World War I. New Zealand women could not stand for Parliament until 1919.
+## na189856b | 1898 | US annexes Hawaii | who: US Congress; the Republic of Hawaii (set up by the 1893 coup) | where: Honolulu
+  bluf: Annexation turned Hawaii, whose monarchy US-backed planters had overthrown, into a US territory, and Pearl Harbor into a key Pacific naval base. It marked American expansion into the Pacific.
+  now: In 1993 Congress formally apologised for the US role in overthrowing the Hawaiian Kingdom.
+  story: In 1893 American sugar planters, backed by US Marines, overthrew Queen Liliʻuokalani. Congress annexed Hawaii by joint resolution in July 1898, during the war with Spain, valuing it as a Pacific naval base.
+  why: Sugar interests, and the navy's need for a mid-Pacific base at Pearl Harbor.
+  then: Hawaii became a US territory, and Pearl Harbor became the Pacific Fleet's main base, the target of Japan's attack in 1941.
+## oc-federation | 1901 | Commonwealth of Australia founded | who: Six British colonies; Prime Minister Edmund Barton | where: Sydney (proclamation in Centennial Park)
+  bluf: Federation united six British colonies into the Commonwealth of Australia, a self-governing democracy within the empire. It was a pioneering democracy for white men and women, but founded on racial exclusion: White Australia and the denial of rights to Aboriginal people.
+  now: Australia's constitution still governs it, and the British monarch is still head of state: a 1999 referendum on a republic failed, as did a 2023 referendum on an Indigenous Voice to Parliament.
+  story: After a decade of conventions and referendums, the colonies of New South Wales, Victoria, Queensland, South Australia, Western Australia and Tasmania united on January 1, 1901, as a self-governing federation within the British Empire.
+  why: Defence, trade without internal tariffs, and a growing sense of Australian identity.
+  then: One of the new parliament's first laws created the White Australia policy. Women won the federal vote in 1902, though most Aboriginal people were excluded.
+## oc-whiteaus | 1901 | White Australia policy enacted | who: Federal Parliament | where: Melbourne (then the federal capital)
+  bluf: The White Australia policy restricted non-European immigration for 70 years, defining the new nation in racial terms. Its dismantling in the 1960s and 70s turned Australia into one of the world's most diverse societies.
+  now: It was dismantled in the 1960s and 70s; today about 30% of Australians were born overseas.
+  story: The Immigration Restriction Act let officials give a dictation test in any European language, which they used to exclude Asian and other non-white migrants. A separate law provided for deporting Pacific Islander workers.
+  why: Fear of cheap Asian labour and a belief in keeping Australia 'white', shared across the main parties.
+  then: The policy shaped Australia's population and its relations with Asia for 70 years, until it was dismantled from 1966 and formally ended in 1973.
+## oc-gallipoli | 1915 | Gallipoli: the ANZAC landing | who: Australian and New Zealand Army Corps (ANZAC), British and French forces; Ottoman army (Mustafa Kemal) | where: Gallipoli Peninsula, Ottoman Empire
+  bluf: Gallipoli was a costly Allied failure, but for Australia and New Zealand it became a founding national story of courage and sacrifice. For Turkey it made Mustafa Kemal's reputation and became part of the story of the Turkish Republic.
+  now: April 25, ANZAC Day, is a national day of remembrance in Australia and New Zealand.
+  story: Britain and France tried to force the Dardanelles and knock the Ottomans out of the war. ANZAC troops landed at what became Anzac Cove on April 25, 1915. After eight months of trench warfare the Allies withdrew. About 8,700 Australians and 2,700 New Zealanders died, along with far larger numbers of British, French and Ottoman soldiers.
+  why: Churchill's plan to open a sea route to Russia and take Constantinople.
+  then: Mustafa Kemal's defence of the peninsula made his reputation, and Churchill lost his post at the Admiralty; the Allies switched their efforts to the Western Front and Mesopotamia.
+## na194167 | 1941 | Japan attacks Pearl Harbor | who: Admiral Isoroku Yamamoto's carrier fleet; US Pacific Fleet | where: Hawaii
+  bluf: Japan's surprise attack on Pearl Harbor brought the United States fully into World War II and merged the European and Asian wars into one global war. It sank battleships but missed the US carriers and fuel stores, and united American opinion behind total war.
+  now: 'Remember Pearl Harbor' still shapes how Americans think about surprise attacks.
+  story: Japan, cut off from US oil, struck the Pacific Fleet in Hawaii to buy time to seize Southeast Asia's resources. About 2,400 Americans died. Germany declared war on the US four days later.
+  why: Japan, at war in China and cut off from US oil by an embargo in July 1941, decided to seize Southeast Asia's oil and resources, and struck the Pacific Fleet to stop the United States interfering.
+  trig: The US oil embargo and the failure of negotiations in November 1941, when Washington demanded Japan withdraw from China.
+  then: Germany declared war on the United States four days later. America's industrial power, which out-produced all the Axis powers combined, tipped the war on both fronts.
+  fact: The sunken USS Arizona still leaks a few drops of oil every day, more than 80 years later.
+## oc-darwin | 1942 | Japan bombs Darwin | who: Japanese carrier and land-based aircraft | where: Darwin, Northern Territory
+  bluf: Japan's bombing of Darwin was the largest attack ever on Australian soil and drove Australia to turn from Britain to the United States for its security. The US alliance has defined Australian strategy ever since.
+  now: Australia's alliance with the United States, born in this moment, remains the core of its defence policy.
+  story: On February 19, 1942, four days after Singapore fell, 242 Japanese aircraft attacked Darwin's harbour and airfields, killing at least 235 people. Raids on northern Australia continued until late 1943.
+  why: Japan wanted to stop Darwin being used as a base against its invasion of the Dutch East Indies.
+  then: Australia, whose prime minister had declared weeks earlier that it 'looks to America', became the main US base in the South Pacific.
+## oc-guadalcanal | 1942 | Guadalcanal campaign | who: US Marines and Navy vs. Japan | where: Guadalcanal, Solomon Islands
+  bluf: Guadalcanal was the first major Allied offensive in the Pacific, and its long attrition drained Japan's aircraft, ships and pilots. It shifted the war's momentum decisively to the Allies.
+  now: Guadalcanal showed that the Pacific War would be decided by industrial output and endurance, and Solomon Islanders who served as scouts were crucial to the campaign.
+  story: US Marines landed in August 1942 to seize a Japanese airfield. Months of jungle fighting and night naval battles followed until Japan evacuated in February 1943.
+  why: Japan was building an airfield that could threaten the sea lanes between the US and Australia, and the US wanted to seize it before it was finished.
+  then: The Allies went on the offensive across the Pacific, 'island-hopping' toward Japan.
+## oc-kokoda | 1942 | Kokoda Track campaign | who: Australian troops vs. the Japanese South Seas Force | where: Owen Stanley Range, Papua
+  bluf: The Kokoda campaign stopped Japan's overland advance on Port Moresby and removed the threat of Japanese bases within range of Australia. It became a founding story of Australian identity, alongside Gallipoli.
+  now: Kokoda holds a place in Australian memory alongside Gallipoli, and it marks Australia's shift from relying on Britain to relying on the United States.
+  story: Japanese forces landed on Papua's north coast in July 1942 and pushed along the Kokoda Track across the mountains toward Port Moresby. Outnumbered Australian units fought a fighting retreat, then drove them back by November. Papuan carriers, the 'Fuzzy Wuzzy Angels', carried supplies and the wounded.
+  why: Port Moresby would have given Japan a base within bombing range of northern Australia.
+  then: Along with Milne Bay and Guadalcanal, it ended Japan's advance in the South Pacific.
+## oc-midway | 1942 | Battle of Midway | who: US Navy (Chester Nimitz) vs. the Japanese navy (Yamamoto) | where: Midway Atoll, central Pacific
+  bluf: Midway sank four Japanese carriers and ended Japan's offensive power in the Pacific six months after Pearl Harbor. US code-breaking made the ambush possible.
+  now: Midway destroyed four Japanese carriers and ended Japan's offensive in the Pacific six months after Pearl Harbor; from then the United States chose where to fight.
+  story: US code-breakers learned Japan's plan to seize Midway. On June 4, 1942, American dive bombers caught Japan's carriers refuelling and rearming planes, and sank four of them; the US lost one carrier.
+  why: Yamamoto hoped to lure the remaining US carriers into a decisive battle.
+  then: Japan never regained the initiative in the Pacific, and the US, with its far greater industry, soon outbuilt Japan in carriers and aircraft.
+  fact: American code-breaking told the fleet where Japan would strike, the classic case of intelligence deciding a battle.
+## oc-bikini | 1946 | US nuclear tests at Bikini Atoll | who: US military; the people of Bikini | where: Bikini Atoll, Marshall Islands
+  bluf: US nuclear testing in the Marshall Islands displaced whole communities and exposed Pacific peoples to radioactive fallout. It made the Pacific a nuclear testing ground and fuelled a regional anti-nuclear movement.
+  now: Bikini remains uninhabited because of contamination; Pacific nations signed a nuclear-free zone treaty in 1985.
+  story: In 1946 the US relocated Bikini's 167 inhabitants and tested two atomic bombs on a fleet of target ships. It carried out 67 nuclear tests in the Marshall Islands by 1958. The 1954 'Castle Bravo' hydrogen bomb spread fallout over inhabited islands and a Japanese fishing boat.
+  why: The US wanted to test its new weapons, and their effect on warships, far from its own population, on islands it controlled after taking them from Japan.
+  then: Britain and France also tested in the Pacific; France continued at Moruroa until 1996.
+  fact: The bikini swimsuit, launched in Paris days after the first test, was named after the atoll.
+## oc-hawaii1959 | 1959 | Hawaii becomes the 50th state | who: Hawaii's voters; US Congress | where: Honolulu
+  bluf: Statehood made Hawaii fully part of the United States and fuelled a tourism boom. Native Hawaiians, never offered the option of independence, still contest the legitimacy of the annexation that preceded it.
+  now: Native Hawaiian sovereignty movements still contest the legitimacy of annexation.
+  story: Hawaii had been a US territory since 1898, five years after American businessmen overthrew its queen. Southern Democrats in Congress long blocked statehood, partly because most of the islands' people were not white. After Alaska was admitted in early 1959, Congress approved Hawaii; in a June referendum over 90% voted yes, and it became the 50th state on August 21, 1959.
+  why: Hawaii's strategic importance and its growing population of US citizens.
+  then: Statehood brought full representation in Congress and a boom in jet-age tourism and migration from the mainland.
+## oc-samoa | 1962 | Samoa becomes independent | who: Samoan leaders; New Zealand | where: Apia
+  bluf: Samoa's independence, after a long nonviolent campaign by the Mau movement, opened a wave of decolonization in the Pacific. It showed that small island nations could win sovereignty.
+  now: New Zealand formally apologised in 2002 for its colonial-era injustices in Samoa.
+  story: Western Samoa, ruled by New Zealand since 1914, became independent on January 1, 1962, after decades of pressure from the Mau, a nonviolent independence movement.
+  why: The Mau movement's long campaign, and the UN's push for decolonisation.
+  then: A wave of Pacific independence followed, including Fiji (1970) and Papua New Guinea (1975).
+## oc-1967 | 1967 | Australians vote to include Aboriginal people | who: Australian voters; Aboriginal and non-Aboriginal campaigners | where: Canberra
+  bluf: The 1967 referendum let Australia's federal government make laws for Aboriginal people and count them in the census, with over 90% voting yes. It became a landmark of Indigenous rights, though it did not, as often assumed, grant citizenship or the vote.
+  now: It remains a landmark of Indigenous rights; in 2023 Australians rejected a proposal for an Indigenous 'Voice' to Parliament in another referendum.
+  story: The May 1967 referendum removed two clauses: one excluding Aboriginal people from the census and one barring the federal government from making laws for them. It passed with 90.77% of the vote, the largest 'yes' in Australian history.
+  why: A decade of campaigning by Aboriginal and non-Aboriginal activists, and a wider mood of change as Australia dismantled the White Australia policy.
+  then: The federal government could now legislate for Aboriginal people, leading to land-rights laws such as the Northern Territory act of 1976.
+  myth: The referendum did not give Aboriginal people citizenship or the vote; they were already citizens and could vote in federal elections from 1962.
+## oc-endwhite | 1973 | White Australia policy ends | who: Gough Whitlam's government | where: Canberra
+  bluf: The end of the White Australia policy removed race from immigration law and opened Australia to large-scale Asian migration. It turned Australia into one of the world's most multicultural nations.
+  now: About 30% of Australians today were born overseas, one of the highest shares in the world.
+  story: After gradual relaxation from the 1960s, the Whitlam government in 1973 ended the last racial criteria for immigration; the Racial Discrimination Act followed in 1975.
+  why: Changing attitudes, growing trade with Asia, Britain's turn toward Europe, and criticism from Asian neighbours.
+  then: Large-scale migration from Asia followed, beginning with Vietnamese refugees in the late 1970s.
+## oc-png | 1975 | Papua New Guinea becomes independent | who: Michael Somare; Australia | where: Port Moresby
+  bluf: Papua New Guinea's independence ended Australian rule over one of the world's most culturally diverse nations, with hundreds of languages. Building a national state across that diversity remains a challenge.
+  now: Bougainville voted overwhelmingly for independence from PNG in 2019; negotiations continue.
+  story: Australia had ruled Papua since 1906 and German New Guinea since World War I. Under Chief Minister Michael Somare, the combined territory became independent on September 16, 1975.
+  why: Decolonisation pressure from the UN, and Australia's wish to leave peacefully.
+  then: PNG faced a secessionist war on Bougainville, sparked by a giant copper mine, from 1988 to 1998, which killed thousands.
+## oc-rainbow | 1985 | Rainbow Warrior bombed | who: French intelligence agents; Greenpeace | where: Auckland harbour
+  bluf: French agents' bombing of the Rainbow Warrior in Auckland was an act of state terrorism against an anti-nuclear group. It hardened New Zealand's nuclear-free policy, strained its US alliance and came to define its independent foreign policy.
+  now: New Zealand's nuclear-free stance remains part of its national identity.
+  story: The ship was preparing to protest French nuclear tests at Moruroa. On July 10, 1985, agents of France's DGSE intelligence service sank it with two bombs, killing photographer Fernando Pereira. Two agents were caught and convicted in New Zealand.
+  why: France wanted to stop protests against its nuclear testing in French Polynesia.
+  then: New Zealand passed a law making the country nuclear-free in 1987, straining its alliance with the US.
+## oc-fiji | 1987 | Fiji's first military coups | who: Lieutenant Colonel Sitiveni Rabuka | where: Suva, Fiji
+  bluf: Fiji's 1987 coups overthrew an elected government to preserve Indigenous Fijian political dominance over Indo-Fijians. They began a cycle of coups and emigration rooted in colonial-era labor migration.
+  now: Rabuka was elected prime minister democratically in 1992, and again in 2022.
+  story: In May 1987 Rabuka seized power from a government backed mainly by Indo-Fijians, descendants of indentured labourers brought by Britain. A second coup followed in September.
+  why: Indigenous Fijian nationalists feared losing political power to Indo-Fijians.
+  then: Tens of thousands of Indo-Fijians emigrated; further coups followed in 2000 and 2006.
+## oc-mabo | 1992 | Mabo decision | who: Eddie Koiki Mabo and other Meriam people; the High Court of Australia | where: Mer (Murray Island), Torres Strait
+  bluf: The Mabo decision overturned the legal fiction that Australia belonged to no one when Britain arrived, and recognized Indigenous native title. It transformed Australian land law and the politics of reconciliation.
+  now: Native title has since been recognised over a large share of Australia's land.
+  story: After a ten-year case brought by Eddie Mabo and other Meriam people, the High Court ruled on June 3, 1992, that 'terra nullius' was wrong and that Indigenous native title to land could survive. Mabo had died months earlier.
+  why: Indigenous campaigners challenged the legal basis of British possession.
+  then: Parliament passed the Native Title Act in 1993, and Indigenous groups have since won recognition of native title over a large share of Australia's land, much of it remote.
+## oc-apology | 2008 | Australia apologises to the Stolen Generations | who: Prime Minister Kevin Rudd | where: Canberra
+  bluf: Australia's formal apology to the Stolen Generations acknowledged a policy of removing Aboriginal children from their families. It was a milestone of reconciliation, though gaps in health, education and incarceration remain wide.
+  now: In 2023 Australians rejected a proposal for a constitutional Indigenous 'Voice to Parliament'.
+  story: From about 1910 to the 1970s, governments and missions removed many thousands of Aboriginal and Torres Strait Islander children from their families. The 1997 'Bringing Them Home' report documented the harm. On February 13, 2008, Rudd apologised in Parliament.
+  why: Years of campaigning after the 1997 'Bringing Them Home' report documented the removals.
+  then: The government set 'Closing the Gap' targets for Indigenous health and education.
+## oc-aukus | 2021 | AUKUS pact | who: Australia, Britain and the United States | where: Canberra
+  bluf: AUKUS commits the United States and Britain to help Australia acquire nuclear-powered submarines, a major step in balancing China's military rise. It tied Australia's defence even more closely to the United States and angered France and China.
+  now: It is the largest defence project in Australia's history, and in 2025, after a Pentagon review, President Trump said it was going 'full steam ahead'.
+  story: Announced on September 15, 2021, AUKUS committed the three countries to build nuclear-powered (not nuclear-armed) submarines for Australia and to share advanced military technology. Australia cancelled a French submarine deal, angering Paris.
+  why: Concern about China's growing military power and its trade pressure on Australia.
+  then: Australia is buying US submarines from the 2030s and building a new class with Britain.
+## oc-falepili | 2023 | Australia offers Tuvaluans a climate refuge | who: Australia; Tuvalu | where: Funafuti, Tuvalu
+  bluf: The Falepili Union gives Tuvaluans a pathway to live in Australia as rising seas threaten their islands, alongside Australian security guarantees. It is the first treaty to create a migration route specifically because of climate change.
+  now: Demand in the first visa ballot in 2025 far exceeded the 280 places, a sign of how real the prospect of leaving has become.
+  story: Under the Falepili Union treaty, signed in November 2023, Australia offers up to 280 Tuvaluans a year the right to live, work and study in Australia, and a security guarantee.
+  why: Tuvalu's islands are mostly less than 5 metres above sea level, and Australia wanted to counter China's growing influence in the Pacific.
+  then: It was the first treaty to create a migration pathway specifically because of climate change.

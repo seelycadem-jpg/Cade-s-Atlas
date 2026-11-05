@@ -1,0 +1,268 @@
+## eu176954 | 1769 | Watt's steam engine | who: James Watt; his business partner Matthew Boulton | where: Scotland
+  bluf: Watt's separate condenser made steam engines efficient enough to power industry anywhere, not just at coal mines. Steam broke the limits of human, animal and water power, the core of the Industrial Revolution, and began large-scale burning of fossil fuels.
+  now: Fossil-fuel-powered growth created modern prosperity and began the carbon emissions behind climate change; today's energy transition is an attempt to replace what Watt's engine started.
+  story: In 1765, repairing a model of Thomas Newcomen's steam engine, James Watt realized it wasted most of its fuel reheating the cylinder. His separate condenser, patented in 1769, cut coal use by about three-quarters. With Matthew Boulton he manufactured engines from 1775 and later adapted them to turn wheels, driving mills and factories.
+  why: Britain had cheap coal, high wages that rewarded labor-saving machines, skilled instrument makers, and patent laws that protected inventors; its mines needed better pumps.
+  then: Rotary steam engines powered textile mills, ironworks and later railways and steamships, freeing factories from rivers. British output and productivity grew, and industrialization spread to Europe and North America.
+  fact: Watt coined the term 'horsepower' to sell engines; the unit 'watt' is named after him.
+## d-cromford | 1771 | Arkwright's Cromford Mill | who: Richard Arkwright | where: Cromford, Derbyshire
+  bluf: Arkwright's Cromford Mill created the factory system: machines in one building, workers on fixed shifts and wages, and continuous production. It reorganized work and family life and became the model for industrial production worldwide.
+  now: Cromford was the first factory in the modern sense, a water-powered mill with hundreds of workers on shifts; the factory system of discipline, wage labour and mass production spread from it across Britain and the world.
+  story: Using his water frame, Arkwright opened a mill at Cromford in 1771 that ran day and night in shifts. He built houses for his workers, many of them children.
+  why: Rising demand for cotton cloth, and a water-powered machine that could spin strong yarn.
+  then: Hundreds of similar mills spread across Britain; Samuel Slater, a former Arkwright apprentice, carried the design to the United States in 1790.
+  fact: Cromford is part of the Derwent Valley Mills World Heritage site.
+## eu177255 | 1772 | First Partition of Poland | who: Russia, Prussia, Austria | where: Poland
+  bluf: Russia, Prussia and Austria began dismembering Poland-Lithuania, once one of Europe's largest states, without fighting a war. By 1795 Poland had vanished, showing how a weak state between stronger neighbours could be erased by agreement among them.
+  now: Poles still remember being squeezed between Russia and Germany, which shapes Poland's strong support for NATO and Ukraine.
+  story: In 1772 Russia, Prussia and Austria agreed to annex about a third of Poland-Lithuania's territory. Further partitions in 1793 and 1795 divided the rest, and Poland vanished from the map until 1918.
+  why: Poland-Lithuania's weak elected kings and paralysed parliament, where any one member could veto legislation, left it unable to reform or resist.
+  then: Poland's reforming constitution of 1791 provoked the second and third partitions (1793, 1795), and Poland did not exist as a state for 123 years.
+## eu177656 | 1776 | Adam Smith's Wealth of Nations | who: Adam Smith, Scottish philosopher | where: Scotland
+  bluf: Adam Smith argued that wealth comes from productive labour, specialization and free exchange, not from hoarding gold. His case against monopolies and trade barriers founded modern economics and became the intellectual basis of free-market capitalism.
+  now: Modern economics starts here. Today's renewed fights over tariffs, industrial policy and free trade are still argued in Smith's terms.
+  story: Smith argued that dividing labour into specialized tasks multiplies productivity, and that when individuals pursue their own interest in competitive markets, an 'invisible hand' tends to benefit society. He attacked mercantilism, monopolies such as the East India Company and trade barriers, while insisting that governments must provide defence, justice and public works.
+  why: Smith set out to explain how nations grow rich, and to refute mercantilism, the doctrine that wealth means hoarding gold through trade surpluses.
+  then: Britain moved toward free trade in the 1800s, culminating in the repeal of the Corn Laws (1846). Smith shaped classical economists such as Ricardo and Malthus, and critics such as Marx.
+  fact: Published in 1776, the same year as the Declaration of Independence.
+## d-france1778 | 1778 | France allies with the United States | who: Benjamin Franklin; Louis XVI's foreign minister Vergennes | where: Paris
+  bluf: The French alliance gave the Americans money, troops and above all a navy, making victory possible. For France, revenge on Britain came at the price of debts that helped bring on its own revolution.
+  now: The cost of the war deepened France's debts and helped bring on the French Revolution.
+  story: Franklin's diplomacy and the victory at Saratoga persuaded France to sign treaties of commerce and alliance on February 6, 1778. French money, soldiers and above all its navy proved decisive.
+  why: France wanted revenge for losing Canada in the Seven Years' War and to weaken Britain, and Saratoga showed that the Americans could win.
+  then: A French fleet trapped Cornwallis at Yorktown in 1781.
+## d-abolsociety | 1787 | Abolition society founded in London | who: Thomas Clarkson, Granville Sharp and Quaker campaigners; later William Wilberforce | where: London
+  bluf: The London abolition society invented the modern pressure campaign, using evidence, mass petitions, consumer boycotts and visual propaganda to turn public opinion against the slave trade. Within 20 years it had won abolition of the British trade.
+  now: Its methods, from petitions and boycotts to a campaign logo, became the model for later movements.
+  story: The Society for Effecting the Abolition of the Slave Trade was founded on May 22, 1787 by nine Quakers and three Anglicans. It gathered evidence, printed the famous diagram of the slave ship Brookes, and organised petitions and a sugar boycott, while Wilberforce led the cause in Parliament.
+  why: Quaker opposition to slavery, and growing evangelical and Enlightenment criticism.
+  then: After 20 years of campaigning, Parliament banned the slave trade in 1807.
+  fact: Josiah Wedgwood made the campaign's emblem, a kneeling man asking 'Am I Not a Man and a Brother?'
+## d-rightsofman | 1789 | Declaration of the Rights of Man | who: The National Assembly; the Marquis de Lafayette | where: Versailles
+  bluf: The Declaration set out natural, universal rights and the sovereignty of the nation, replacing privilege and divine-right monarchy as the basis of French law. It became a model for human rights declarations worldwide, while its exclusion of women and the enslaved showed the limits of 'universal' rights.
+  now: It is part of France's constitution today and inspired the 1948 Universal Declaration of Human Rights.
+  story: Adopted on August 26, 1789, the Declaration listed natural rights to liberty, property, security and resistance to oppression, along with free expression, religious tolerance and equality before the law. Lafayette drafted it with advice from Thomas Jefferson.
+  why: The Assembly wanted to set out principles before writing a constitution.
+  then: Olympe de Gouges answered in 1791 with a Declaration of the Rights of Woman; she was guillotined in 1793.
+## d-womensmarch | 1789 | Women's March on Versailles | who: Parisian market women; Louis XVI; Marie Antoinette | where: Versailles
+  bluf: The women's march forced the royal family to move to Paris, putting the king under the control of the revolutionary crowd. It showed the power of popular mobilization, and of bread prices, in driving the Revolution.
+  now: The march moved the king from Versailles to Paris and put him under the crowd's control, the step from which the Revolution's radical phase followed; it also showed that women's collective action could change politics, a fact the Revolution's leaders then suppressed.
+  story: On October 5, 1789, a crowd of women angry at bread shortages marched 20 km to Versailles, followed by National Guards. The next day the royal family was forced to move to the Tuileries Palace in Paris.
+  why: Bread prices, and rumours that the court was plotting against the Revolution.
+  then: The king was now in effect a prisoner of the Paris crowd, and the National Assembly also moved to Paris, where radical clubs and crowds could pressure it.
+## eu178957 | 1789 | French Revolution | who: Third Estate; Paris crowds; Louis XVI | where: France
+  bluf: The French Revolution destroyed absolute monarchy and aristocratic privilege in Europe's most powerful country and proclaimed universal rights, popular sovereignty and the nation. Its ideals and its violence, from the Terror to revolutionary war, defined modern politics.
+  now: Liberty, equality and nationalism, the language of 'left' and 'right', declarations of human rights, the secular state, and the argument over whether revolutions must turn violent all trace back here.
+  story: With the state bankrupt and bread prices soaring, Louis XVI called the Estates-General in 1789. The Third Estate declared itself a National Assembly, Parisians stormed the Bastille on July 14, and the Assembly abolished feudal privileges and issued the Declaration of the Rights of Man. Over the next decade France became a republic, executed the king, fought most of Europe and lived through the Terror.
+  why: A state bankrupted by wars, including its aid to the Americans, that could not tax its privileged nobles and clergy; an educated middle class shut out of power; Enlightenment ideas; and failed harvests in 1788.
+  trig: Louis XVI summoned the Estates-General to approve new taxes, during the bread crisis of 1788-89.
+  then: France abolished feudalism, seized church lands, became a republic and executed Louis XVI (1793). War with Europe's monarchies and internal revolts brought the Terror (1793-94). Napoleon took power in 1799 and spread revolutionary legal reforms across Europe.
+  fact: When the Bastille was stormed it held only seven prisoners.
+## d-varennes | 1791 | Flight to Varennes | who: Louis XVI and Marie Antoinette | where: Varennes-en-Argonne, France
+  bluf: The royal family's failed escape destroyed public trust in Louis XVI and made a republic thinkable. It turned the king from a symbol of national unity into a suspected traitor.
+  now: The flight proved the king would undo the Revolution if he could; the republican movement, a fringe before, became a force within months, and the monarchy fell fourteen months later.
+  story: On the night of June 20, 1791, the family slipped out of Paris disguised as servants, heading for royalist troops near the border. A postmaster recognised the king, and they were stopped at Varennes and brought back under guard.
+  why: Louis no longer accepted the Revolution and hoped to recover his power from outside Paris.
+  then: Calls for a republic grew, a petition against the king ended in the Champ de Mars massacre, and the monarchy was abolished in September 1792.
+## eu179358 | 1793 | Louis XVI executed | who: National Convention; King Louis XVI | where: Paris (Place de la Révolution)
+  bluf: Executing the king made the Revolution irreversible and turned it into a war against Europe's monarchies. It marked France's definitive break with divine-right monarchy.
+  now: It made putting a head of state on trial thinkable, and France's split between republicans and royalists ran through its politics for another century.
+  story: After the monarchy was overthrown in August 1792, the new National Convention put 'Citizen Louis Capet' on trial for treason. Deputies voted almost unanimously that he was guilty; the death sentence passed by a narrow majority, and he was guillotined in the Place de la Révolution on January 21, 1793. Marie Antoinette followed in October, as the Terror began.
+  why: The king's attempted flight in 1791 and suspected collusion with France's enemies destroyed trust in him.
+  then: Britain, Spain and the Dutch Republic joined the war against France, and the Revolution, now at war with much of Europe and facing revolt at home, turned to the Terror.
+## eu179358b | 1793 | Reign of Terror | who: Robespierre; the Committee of Public Safety | where: Paris and the provinces
+  bluf: The Terror showed how a revolution claiming to defend liberty could become government by fear, justified by war and internal enemies. It became the archetype of revolutionary violence, cited by critics of revolution ever since.
+  now: 'Terror' entered politics as a word for government by fear, and conservative thought from Edmund Burke onward drew on it as a warning against revolutionary utopias.
+  story: With France at war abroad and in revolt at home, the Committee of Public Safety ruled by emergency decree. About 17,000 people were officially executed, and many more died in prison or in the crushing of revolts such as the Vendée. It ended when Robespierre himself was guillotined in July 1794.
+  why: War, fear of invasion and revolt in the provinces, combined with radical Jacobin ideology.
+  then: Exhausted France turned to more conservative governments, and then to Napoleon.
+## d-thermidor | 1794 | Robespierre overthrown | who: Maximilien Robespierre; members of the National Convention | where: Paris
+  bluf: Robespierre's fall ended the Terror and began the Revolution's retreat from radicalism. 'Thermidor' became the name for the moment a revolution turns back toward order.
+  now: 'Thermidor' became shorthand for the moment a revolution turns back toward moderation.
+  story: On 9 Thermidor (July 27, 1794), fearing they would be next, members of the Convention ordered Robespierre's arrest. He and about 20 followers were guillotined the next day.
+  why: The Terror had grown even after France's military crisis eased, and no one felt safe.
+  then: The Terror ended, and a more conservative regime, the Directory, took power in 1795.
+## eu179959 | 1799 | Napoleon seizes power | who: Napoleon Bonaparte | where: Paris
+  bluf: The coup of 18 Brumaire ended the Revolution's experiments with parliamentary government and began Napoleon's personal rule. He kept the Revolution's civil reforms while ending its political freedom, a template for modern authoritarianism with popular backing.
+  now: His legal code still underpins law in France and dozens of other countries.
+  story: On November 9-10, 1799 (18 Brumaire), Napoleon Bonaparte, famous for his victories in Italy, joined a plot to overthrow the weak Directory. When parliament resisted, his soldiers cleared the chamber. A new constitution made him First Consul.
+  why: The Directory was corrupt, unpopular and losing the war, and plotters wanted a strong general.
+  then: He crowned himself emperor in 1804, and his wars redrew the map of Europe until his defeat in 1815.
+## d-civilcode | 1804 | Napoleonic Code | who: Napoleon Bonaparte; jurists led by Jean-Étienne-Marie Portalis | where: Paris
+  bluf: The Napoleonic Code gave France one uniform civil law based on equality before the law and secure property, ending feudal privilege. Spread by conquest and imitation, it became the basis of civil law in much of Europe, Latin America and beyond, though it also entrenched male authority over women.
+  now: Civil law in countries from Belgium to much of Latin America still rests on it.
+  story: Enacted on March 21, 1804, the Civil Code replaced a patchwork of local laws with one code for the whole country. It confirmed equality before the law and secure property, but strengthened the power of fathers and husbands over women and children.
+  why: Revolutionary France had abolished feudal privilege but still had hundreds of local legal customs, and Napoleon wanted one law for one nation.
+  then: Napoleon's conquests carried the code to Italy, the Low Countries and western Germany.
+## eu180460 | 1804 | Napoleon crowned emperor | who: Napoleon Bonaparte; Pope Pius VII | where: Notre-Dame, Paris
+  bluf: Napoleon's self-coronation turned the Revolution's republic into a hereditary empire while keeping its legal reforms. It signalled power based on merit and force rather than Church or tradition.
+  now: Napoleon is the model of a ruler who uses plebiscites and popular appeal to justify concentrated power, which political scientists call 'Bonapartism'.
+  story: At Notre-Dame, Napoleon crowned himself to show his power came from himself, not the Church. His Napoleonic Code made all men equal before the law.
+  why: Napoleon wanted a hereditary throne to secure his rule and his reforms.
+  then: His armies spread the Civil Code and the abolition of feudal privilege across Europe, while his wars provoked nationalist resistance in Spain, Germany and Russia.
+  fact: Napoleon wasn't short; he was about average height. British cartoons made him tiny.
+## eu180561 | 1805 | Battle of Trafalgar | who: Admiral Horatio Nelson vs. a French-Spanish fleet | where: Off Cape Trafalgar, southern Spain
+  bluf: Trafalgar destroyed the French and Spanish fleets and secured British command of the sea for a century. It ended Napoleon's hopes of invading Britain and made economic blockade his main weapon against it.
+  now: Britain's century of naval dominance after Trafalgar underpinned its global empire and the free-trade order it built.
+  story: Nelson's 27 ships attacked the combined French-Spanish fleet of 33 in two columns, breaking its line. No British ship was lost; 22 enemy ships were. Nelson was shot by a French marksman and died during the battle.
+  why: Napoleon needed control of the Channel to invade Britain, and ordered his combined fleet out of Cádiz to fight.
+  then: Napoleon gave up invading Britain and turned to economic warfare, the Continental System.
+  fact: Nelson's body was brought home preserved in a cask of brandy.
+## eu180561b | 1805 | Battle of Austerlitz | who: Napoleon vs. Austria and Russia | where: Austerlitz (Slavkov), Moravia
+  bluf: Austerlitz destroyed the Third Coalition and made Napoleon master of Central Europe. It led directly to the end of the Holy Roman Empire and the reorganization of Germany.
+  now: The end of the 1,000-year Holy Roman Empire started the reorganization of the German states that led to unification in 1871.
+  story: On December 2, 1805, a year to the day after his coronation, Napoleon lured the Austro-Russian army into attacking his deliberately weakened right flank, then smashed its centre from the Pratzen Heights.
+  why: Britain, Austria and Russia had formed a Third Coalition, and the Austrians and Russians attacked before Prussia could join them.
+  then: Austria made peace and lost territory, Russia retreated, and Napoleon reorganized western Germany into the Confederation of the Rhine; the Holy Roman Empire was dissolved in 1806.
+## eu180662 | 1806 | Holy Roman Empire ends | who: Francis II; Napoleon | where: Germany
+  bluf: The end of the Holy Roman Empire removed the thousand-year-old framework of German politics. Napoleon's consolidation of hundreds of German states into a few dozen paved the way for German nationalism and eventual unification under Prussia.
+  now: Voltaire's quip that it was 'neither holy, nor Roman, nor an empire' captures how hollow it had become. Historians sometimes compare the EU to it as a loose, many-layered union.
+  story: After Austerlitz, Napoleon grouped 16 German states into the Confederation of the Rhine under his protection. On August 6, 1806, Francis II gave up the title of Holy Roman Emperor, ending an empire that had lasted about a thousand years.
+  why: Napoleon had reorganised western Germany, leaving the empire meaningless.
+  then: German states merged into fewer, bigger ones, preparing the way for unification.
+  fact: Voltaire joked it was neither holy, nor Roman, nor an empire.
+## eu180763 | 1807 | Britain bans slave trade | who: Wilberforce; Parliament | where: Britain
+  bluf: Britain, then the largest slave-trading nation, banned the Atlantic trade and used its navy and diplomacy to suppress other countries' trade. It was a turning point in the global end of slavery, though slavery itself continued for decades in the Americas.
+  now: It began the global end of the slave trade, though slavery itself lasted decades more. Freetown's Krio people descend from the liberated Africans.
+  story: After 20 years of campaigning by abolitionists like William Wilberforce and formerly enslaved writers like Olaudah Equiano, Parliament banned the trade in 1807. The Royal Navy's West Africa Squadron then patrolled the coast from Senegal to Angola; liberated captives were landed at Freetown in Sierra Leone.
+  why: Twenty years of campaigning by abolitionists, and a political moment when the trade seemed less vital to the war economy.
+  then: The Royal Navy's West Africa Squadron freed about 150,000 people from slave ships.
+## d-luddites | 1811 | Luddites smash machines | who: Textile workers of the English Midlands and North | where: Nottingham
+  bluf: The Luddites were skilled workers resisting machines that cut their wages and status, not simply opponents of technology. The state's harsh repression showed that industrialization's costs would fall on workers who had no political voice.
+  now: 'Luddite' now means anyone opposed to new technology, and debates over automation and AI revive their question of who bears the costs of change.
+  story: From 1811, framework knitters in Nottinghamshire, then weavers and croppers in Lancashire and Yorkshire, smashed machines at night, signing letters from a mythical 'General Ludd'. The government sent over 12,000 troops and made machine-breaking a capital crime.
+  why: Falling wages, high food prices during the Napoleonic Wars, and machines that let unskilled workers replace them.
+  then: Dozens were hanged or transported to Australia by 1813; the machines spread anyway, and wages in the hand trades kept falling.
+## d-borodino | 1812 | Battle of Borodino | who: Napoleon; Russian commander Mikhail Kutuzov | where: Borodino, west of Moscow
+  bluf: Borodino was the bloodiest day of the Napoleonic Wars, and it opened the road to Moscow without destroying the Russian army. Napoleon won the field but not the war.
+  now: Russia remembers Borodino as a symbol of national resistance to invaders, invoked again in 1941 and in today's politics.
+  story: On September 7, 1812, about 250,000 men fought west of Moscow, and some 70,000 were killed or wounded. Kutuzov withdrew in good order, and Napoleon entered Moscow a week later.
+  why: Under pressure to defend Moscow, Kutuzov made a stand on prepared ground instead of continuing to retreat.
+  then: Moscow burned, the tsar refused to negotiate, and in October the French began their disastrous retreat.
+## eu181264 | 1812 | Napoleon invades Russia | who: Napoleon; Tsar Alexander I | where: Russia
+  bluf: Napoleon's invasion of Russia destroyed his Grande Armée and broke his aura of invincibility. It triggered the coalition that toppled him and made Russia the dominant land power in Europe for the next generation.
+  now: Russia's strategy of trading space for time, and the role of winter, became part of its national memory, and Hitler's 1941 invasion repeated Napoleon's mistakes.
+  story: In June 1812 Napoleon crossed into Russia with about 600,000 men. The Russians retreated, burning crops and villages. After the bloody battle of Borodino he took Moscow in September, but the city burned and the tsar refused to negotiate. The winter retreat, harried by Cossacks, destroyed the army; fewer than 100,000 came out.
+  why: Russia had broken Napoleon's Continental System, his blockade of British trade, and Napoleon wanted to force the tsar back into line.
+  then: Prussia and Austria joined Russia and Britain, and Napoleon was beaten at Leipzig (1813) and exiled in 1814.
+  fact: About 600,000 men went in. Fewer than 100,000 came out.
+## d-leipzig | 1813 | Battle of Leipzig | who: Napoleon; the armies of Russia, Prussia, Austria and Sweden | where: Leipzig, Germany
+  bluf: Leipzig, the 'Battle of the Nations', drove Napoleon out of Germany and set up the allied invasion of France. It became a founding myth of German national awakening.
+  now: Leipzig broke Napoleon's hold on Germany and made German national feeling a political force; the states that fought him under Prussian and Austrian command were reorganised at Vienna into the Confederation that held until 1866.
+  story: Over four days in October 1813, about half a million soldiers fought around Leipzig, the largest battle in Europe before World War I. Napoleon was beaten and fell back to France.
+  why: After the Russian disaster, Prussia and Austria joined Russia against Napoleon.
+  then: The allies invaded France and Napoleon abdicated in April 1814; his German allies changed sides, and the Confederation of the Rhine collapsed.
+  fact: The giant monument unveiled for its centenary in 1913 shows how the memory was mobilised.
+## d-elba | 1814 | Napoleon exiled to Elba | who: Napoleon; the allied powers; Louis XVIII | where: Elba, Italy
+  bluf: Napoleon's first abdication ended his empire and restored the Bourbon monarchy. Exiling him so close to France proved a mistake: he escaped within a year.
+  now: Napoleon's 'Hundred Days' comeback is a reminder that a defeated leader with popular support can return if not fully neutralized.
+  story: With Paris in allied hands, Napoleon abdicated on April 6, 1814. The Treaty of Fontainebleau gave him the island of Elba to rule, and Louis XVIII took the French throne.
+  why: The allies had captured Paris, and Napoleon's marshals refused to fight on.
+  then: In February 1815 he escaped, landed in France and ruled again for a hundred days until Waterloo.
+## eu181565 | 1815 | Battle of Waterloo | who: Wellington and Blücher vs. Napoleon | where: Waterloo, Belgium
+  bluf: Waterloo ended Napoleon's return and 23 years of war between France and the rest of Europe. It confirmed the Vienna settlement and opened a century without a general European war.
+  now: The order built after Waterloo kept great-power peace in Europe for a century, and 'meeting your Waterloo' still means final defeat.
+  story: Napoleon escaped exile on Elba and retook France for a 'Hundred Days'. On June 18, 1815, Wellington's British, Dutch and German army held him off until Blücher's Prussians arrived, and the French army broke.
+  why: Europe's powers declared Napoleon an outlaw and raised new armies; he struck first in Belgium, hoping to beat the British and Prussians before the Austrians and Russians arrived.
+  then: Napoleon was exiled to remote St Helena, where he died in 1821. The Bourbons returned, and France had to pay an indemnity and accept an allied occupation army.
+  fact: Most of the fighting was nearer Mont-Saint-Jean; Wellington named the battle after the village where he spent the night.
+## eu181565b | 1815 | Congress of Vienna | who: Metternich, Castlereagh, Talleyrand, Tsar Alexander I | where: Vienna
+  bluf: The Congress of Vienna redrew Europe after Napoleon on the principle of balance among the great powers and created the 'Concert of Europe' to manage crises together. It prevented a general European war for a century, but by suppressing nationalism and liberal revolutions it stored up conflicts for later.
+  now: It is still studied as a model of how rivals can build a lasting peace; Henry Kissinger's study of it shaped his Cold War diplomacy.
+  story: From late 1814 the great powers negotiated a settlement that balanced their power: France kept roughly its old borders, Prussia gained the Rhineland, Russia most of Poland, and Belgium was joined to the Netherlands. The 'Concert of Europe' that followed held congresses to manage crises together.
+  why: To restore order and stop any single power from dominating Europe again.
+  then: Conservative powers cooperated to crush liberal and nationalist revolts in the 1820s. The settlement eroded with the revolutions of 1848 and the unification of Italy and Germany, but no general war broke out until 1914.
+## d-ricardo | 1817 | Ricardo explains comparative advantage | who: David Ricardo | where: London
+  bluf: Ricardo's theory of comparative advantage showed that even a country better at producing everything gains by specializing and trading. It became the core intellectual case for free trade.
+  now: Comparative advantage is still the core argument for free trade, and today's tariff debates turn on how its gains and losses are shared within countries.
+  story: In On the Principles of Political Economy and Taxation (1817), Ricardo used English cloth and Portuguese wine to show that each country gains by specialising in what it produces relatively best.
+  why: Britain was debating the Corn Laws, tariffs on grain that protected landowners and raised the price of bread, and Ricardo set out to show why free trade benefited the nation.
+  then: His ideas armed the campaign to repeal the Corn Laws in 1846, and free trade became British policy for 80 years.
+## eu182166 | 1821 | Greek War of Independence | who: Greek rebels; Ottomans; Britain, France, Russia | where: Greece
+  bluf: Greece's war of independence was the first successful nationalist breakaway from the Ottoman Empire, won with the intervention of Britain, France and Russia. It set the pattern by which Balkan nationalism plus great-power interference dismantled Ottoman Europe over the next century.
+  now: Its mix of nationalist revolt and great-power intervention became the pattern for Serbia, Romania and Bulgaria, and the Greek-Turkish rivalry it began still shapes the eastern Mediterranean.
+  story: Greek rebels rose against Ottoman rule in March 1821. Both sides massacred civilians, notably the Greek slaughter of Muslims at Tripolitsa and the Ottoman massacre on Chios in 1822. By 1825 Egyptian troops sent by the sultan were crushing the revolt, but European volunteers such as Lord Byron and public sympathy pushed Britain, France and Russia to intervene; their fleet destroyed the Ottoman-Egyptian navy at Navarino in 1827.
+  why: Greek nationalism, inspired by the French Revolution and classical heritage, against Ottoman rule.
+  then: Greece became independent in 1830, the first new nation from the Ottoman Empire.
+## d-decembrist | 1825 | Decembrist revolt | who: Reform-minded Russian army officers; Tsar Nicholas I | where: Senate Square, Saint Petersburg
+  bluf: The Decembrist revolt was the first attempt by Russian elites to force constitutional government. Its failure led Nicholas I to rule as a strict autocrat, and the Decembrists became martyrs for later Russian revolutionaries.
+  now: The Decembrists became heroes to later generations of Russian revolutionaries.
+  story: On December 26, 1825 (December 14 in Russia's calendar), about 3,000 soldiers led by reformist officers refused to swear loyalty to Nicholas I. Cannon fire scattered them; five leaders were hanged and more than 100 exiled to Siberia.
+  why: Officers who had seen Western Europe in the Napoleonic Wars wanted a constitution and an end to serfdom.
+  then: Nicholas I ruled as a strict autocrat for 30 years, with censorship and a secret police.
+## eu182567 | 1825 | First public steam railway | who: George Stephenson | where: Stockton–Darlington, England
+  bluf: The Stockton and Darlington Railway proved that steam locomotives could haul freight and passengers commercially. Railways slashed transport costs and became the backbone of industrial economies and of national integration.
+  now: Railways created standard time and national markets, and rail remains central to moving freight and people, from Chinese high-speed lines to European freight corridors.
+  story: On September 27, 1825, George Stephenson drove Locomotion No. 1 along the Stockton and Darlington Railway, pulling wagons of coal and passengers. It was the first public railway to use steam locomotives.
+  why: Mine owners wanted a cheap way to move coal from the Durham pits to the River Tees.
+  then: Within 25 years Britain had over 6,000 miles of track, and railway building spread across Europe and North America.
+## d-liverpool | 1830 | Liverpool and Manchester Railway | who: George and Robert Stephenson | where: Liverpool
+  bluf: The Liverpool and Manchester Railway was the first modern intercity line, with timetabled steam trains carrying both passengers and freight. It proved railways' commercial potential and set off a global railway boom.
+  now: Stephenson's track gauge of 4 ft 8½ in became the world standard, a classic case of an early technical choice locking in for centuries.
+  story: The line opened on September 15, 1830; at the ceremony, the MP William Huskisson was struck and killed by Stephenson's Rocket, one of the first railway deaths. Within months it was carrying hundreds of thousands of passengers a year.
+  why: Manchester's cotton mills needed fast, cheap links to the port of Liverpool.
+  then: Britain's 'railway mania' of the 1840s followed, as investors poured money into thousands of miles of track.
+## eu183068 | 1830 | July Revolution in France | who: Parisian crowds; King Charles X; Louis-Philippe | where: Paris
+  bluf: The July Revolution overthrew the restored Bourbon monarchy and replaced it with a liberal constitutional king. It showed the Vienna settlement could not freeze Europe and inspired revolts in Belgium, Poland and Italy.
+  now: It showed a revolution could change a regime without ending monarchy; Delacroix's 'Liberty Leading the People' became an emblem of democratic revolution.
+  story: When Charles X dissolved parliament, restricted the vote and muzzled the press, Parisians built barricades. After the 'Three Glorious Days' of July 1830 he fled, and the liberal Louis-Philippe became 'King of the French'.
+  why: Charles X tried to restore royal absolutism, dissolving parliament, restricting the vote and muzzling the press.
+  then: It inspired uprisings in Belgium, Poland and Italy, and France's new regime was dominated by wealthy bankers and businessmen, the only people with the vote.
+## eu183068b | 1830 | Belgian Revolution | who: Belgian liberals and Catholics; the Dutch King William I | where: Brussels
+  bluf: Belgium's revolt broke up the United Kingdom of the Netherlands created at Vienna and produced a new state whose neutrality the great powers guaranteed. That guarantee brought Britain into war in 1914.
+  now: Belgium's divide between Dutch and French speakers still shapes its politics.
+  story: Belgians resented Dutch rule imposed by the Congress of Vienna. After a performance of a patriotic opera in August 1830, crowds rioted and the revolt spread. The great powers recognised Belgian independence and, in 1839, guaranteed its neutrality.
+  why: Catholic, largely French-speaking Belgians resented the Protestant Dutch king, rules favouring the Dutch language, and taxes and policies that seemed to serve the north.
+  then: Britain's 1839 guarantee of Belgian neutrality was the 'scrap of paper' that brought Britain into war in 1914.
+## d-factoryact | 1833 | Factory Act limits child labour | who: Parliament; reformers including Lord Ashley | where: London
+  bluf: The 1833 Factory Act began state regulation of industrial working conditions, banning young children from mills and creating inspectors to enforce it. It marked a shift: the state would intervene in markets to protect the vulnerable.
+  now: Factory inspection became a model for workplace regulation around the world.
+  story: The 1833 Act banned children under 9 from textile mills, limited 9- to 13-year-olds to 9 hours a day and 13- to 18-year-olds to 12, and created the first factory inspectors.
+  why: Parliamentary inquiries exposed children working 12 to 16 hours a day in mills, and evangelical reformers and factory workers campaigned for limits.
+  then: Further laws, such as the Ten Hours Act of 1847, extended protections, and factory regulation spread to other industrial countries.
+## eu183369 | 1833 | Britain abolishes slavery | who: Parliament; Prime Minister Earl Grey; abolitionists including Thomas Fowell Buxton | where: British Empire
+  bluf: Britain's abolition of slavery freed about 800,000 people across its empire and turned the world's leading power into an opponent of slavery. It compensated the slave owners, not the enslaved, and kept freed people in years of unpaid 'apprenticeship'.
+  now: British taxpayers finished repaying the loan for that compensation only in 2015, and Caribbean governments cite this history in their demands for reparations.
+  story: After huge slave revolts like Jamaica's in 1831 and years of campaigning, Parliament abolished slavery. It paid £20 million, about 40% of the national budget, to slave owners, not to the enslaved.
+  why: Decades of abolitionist campaigning, the Jamaican revolt of 1831, and a reformed Parliament elected in 1832.
+  then: Protests ended apprenticeship early, in 1838, and Caribbean sugar declined. Britain used its navy and diplomacy to press other countries to end slavery, while the owners' compensation was invested in Britain.
+## d-zollverein | 1834 | Zollverein founded | who: Prussian finance minister Friedrich von Motz (d. 1830); the governments of Prussia, Bavaria, Württemberg, Saxony and the Thuringian states | where: Berlin
+  bluf: The Zollverein united the German economy under Prussia thirty-seven years before Prussia united the German state, and it decided which of the two German powers would do the uniting.
+  now: It is the standard case for economic integration preceding political union, cited in accounts of the EEC's founding and in arguments about whether a currency union needs a state.
+  story: On January 1, 1834 the Zollverein came into force, abolishing internal tariffs among eighteen states with about 23 million people. Prussia had built it by absorbing the small states inside its borders after 1818 and then outbidding Austria, which stayed out. Goods moved on one tariff; railways, which began in Germany the following year, followed the customs lines.
+  why: Prussia's lands after 1815 lay in two blocks with small states between them, so its 1818 tariff needed neighbours inside it; Austria's protected industries could not survive a common tariff, so Vienna stayed out.
+  trig: The treaty took effect on January 1, 1834, joining eighteen states and about 23 million people under one external tariff.
+  then: Austria's attempts to join in 1849-53 failed; by the 1860s the member states traded mainly with Prussia, and the union survived the Austro-Prussian war of 1866 intact.
+## eu184570 | 1845 | Irish Famine | who: Irish tenant farmers; British government | where: Ireland
+  bluf: The Great Famine killed about a million people and drove another million to emigrate, cutting Ireland's population by a quarter. British policies that kept food exports flowing and limited relief turned a crop failure into a catastrophe, fuelling Irish nationalism and building a global Irish diaspora.
+  now: Over 30 million Americans claim Irish ancestry; the famine still shapes Irish identity and nationalism.
+  story: Blight destroyed the potato, the main food of Irish peasants, year after year. Meanwhile Ireland kept exporting grain and cattle to England, and relief was slow and stingy.
+  why: Over a third of the population depended almost entirely on the potato, grown on tiny plots rented from often absentee landlords, and blight destroyed the crop repeatedly from 1845. The British government, committed to free-market principles, limited relief and let food exports continue.
+  then: Ireland's population fell by about a quarter and kept shrinking until the 20th century, as mass emigration to the United States, Britain and Australia continued. Bitterness toward British rule strengthened nationalist movements.
+  fact: In 1847 the Choctaw Nation, only recently forced down the Trail of Tears, sent money to help starving Irish families.
+## d-cornlaws | 1846 | Corn Laws repealed | who: Prime Minister Robert Peel; Richard Cobden and the Anti-Corn Law League | where: London
+  bluf: Repealing the Corn Laws marked Britain's shift from protecting landowners to free trade serving industry and urban consumers. It made Britain the champion of free trade for 80 years and split the Conservative Party.
+  now: It remains the textbook case of trade politics as a contest between interests, and today's tariff debates repeat its arguments about who gains and who pays.
+  story: The Corn Laws protected landowners by taxing imported grain. After years of campaigning by Richard Cobden and John Bright's Anti-Corn Law League, and with famine in Ireland, Peel repealed them in 1846, splitting his Conservative Party.
+  why: Industrial towns wanted cheap bread, and free-trade ideas had spread since Adam Smith.
+  then: Britain led an era of free trade; cheap grain imports later hit British farming.
+## d-frankfurt | 1848 | Frankfurt Parliament | who: Elected delegates from across the German states | where: St. Paul's Church, Frankfurt
+  bluf: The Frankfurt Parliament was Germany's first attempt at unification through a liberal, elected assembly. Its failure meant Germany would be united by Prussian military power instead, with lasting consequences for German democracy.
+  now: Germany's black-red-gold flag and its post-war Basic Law draw on the Frankfurt Parliament.
+  story: Opening in May 1848, the assembly wrote a liberal constitution with a list of basic rights. In 1849 it offered the crown of a united Germany to King Frederick William IV of Prussia, who refused 'a crown from the gutter', and troops later dispersed the remnant.
+  why: Revolutions across Europe had forced the German princes to allow elections.
+  then: Germany was united instead by Prussian force under Bismarck in 1871, under an emperor with a parliament of limited power; many liberals emigrated, some to the United States.
+## eu184871 | 1848 | Revolutions of 1848 | who: Liberals, nationalists and workers | where: Paris, Vienna, Berlin, Milan, Budapest
+  bluf: The revolutions of 1848 were Europe's first continent-wide wave of revolt, demanding constitutions, national unity and social reform. Most were crushed within a year, but they ended serfdom in Central Europe, made nationalism the dominant political force, and showed that liberal revolution alone could not unify Germany or Italy.
+  now: '1848' is the template for sudden waves of revolt, such as 1989 or the Arab Spring.
+  story: After bad harvests and an economic slump, uprisings broke out in Paris, Vienna, Berlin, Milan, Budapest and dozens of other cities, demanding constitutions, press freedom and national unity. Most were crushed within a year.
+  why: Bad harvests, including potato blight, an economic slump and unemployment, on top of decades of liberal and nationalist frustration with the conservative order set up in 1815.
+  trig: The February revolution in Paris, which overthrew King Louis-Philippe.
+  then: Austria abolished serfdom, Prussia got a constitution, and France got universal male suffrage, then elected Louis-Napoleon, who made himself emperor. Conservative forces regrouped, and unification came later through Prussian and Piedmontese power politics rather than liberal parliaments.
+  fact: 1848 is called the 'Springtime of Peoples'; uprisings hit more than 50 places in a few months.
+## eu184871b | 1848 | The Communist Manifesto | who: Karl Marx and Friedrich Engels | where: London (first published)
+  bluf: The Communist Manifesto framed history as class struggle and predicted that industrial workers would overthrow capitalism. Marx's ideas became the doctrine of mass socialist parties and, in the 20th century, of revolutionary states that ruled a third of humanity.
+  now: Regimes claiming Marx's inspiration once ruled a third of humanity, and the Manifesto remains one of the most widely read political texts ever written.
+  story: Commissioned by a small group of radical workers, the Communist League, the pamphlet argued that history is a story of class struggle and predicted that the industrial working class would overthrow capitalism. Published in German in London in February 1848, it had little impact at first.
+  why: Industrialization had created a new urban working class in harsh conditions, capitalism's booms and busts were plain to see, and the revolutionary climate of 1848 made radical change seem possible.
+  then: Marx's later work, above all Das Kapital (1867), shaped socialist and labour movements. The Russian Revolution of 1917 put Marxists in power, while reformist socialists turned to democratic politics and the welfare state.

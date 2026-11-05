@@ -1,0 +1,1663 @@
+[
+ {
+  "from": 1906,
+  "to": 1949,
+  "country": "Papua New Guinea",
+  "regions": [
+   "Central",
+   "Gulf",
+   "Milne Bay",
+   "National Capital District",
+   "Northern",
+   "Western"
+  ],
+  "owner": "Papua",
+  "overlord": "Australia",
+  "why": "British New Guinea placed under Australian authority 1902 and constituted as the Territory of Papua on 1 Sep 1906; map keeps it under the UK until 1930",
+  "source": "https://en.wikipedia.org/wiki/Territory_of_Papua",
+  "severity": "major"
+ },
+ {
+  "from": 1914,
+  "to": 1949,
+  "country": "Papua New Guinea",
+  "regions": [
+   "East New Britain",
+   "East Sepik",
+   "Madang",
+   "Manus",
+   "Morobe",
+   "New Ireland",
+   "Sandaun",
+   "West New Britain"
+  ],
+  "owner": "New Guinea (German New Guinea) (Kaiser Wilhelmsland)",
+  "overlord": "Australia",
+  "why": "Australian forces occupied German New Guinea in Sep 1914 (mandate from 1920); map keeps German rule until 1920",
+  "source": "https://en.wikipedia.org/wiki/Territory_of_New_Guinea",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1905,
+  "country": "Papua New Guinea",
+  "regions": [
+   "North Solomons"
+  ],
+  "owner": "Bougainville and Buka",
+  "why": "Bougainville was only a paper German claim (1886) until the first government station at Kieta in Sep 1905",
+  "source": "https://en.wikipedia.org/wiki/Kieta",
+  "severity": "minor"
+ },
+ {
+  "from": 1905,
+  "to": 1914,
+  "country": "Papua New Guinea",
+  "regions": [
+   "North Solomons"
+  ],
+  "owner": "New Guinea (German New Guinea) (Kaiser Wilhelmsland)",
+  "overlord": "Germany (Prussia)",
+  "why": "Bougainville/Buka stayed German after the 1899 Tripartite Convention (only islands east/south-east of Bougainville went to Britain); Kieta station 1905. Map shows it as stateless 'Island peoples' 1900-1920",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1914,
+  "to": 1949,
+  "country": "Papua New Guinea",
+  "regions": [
+   "North Solomons"
+  ],
+  "owner": "New Guinea (German New Guinea) (Kaiser Wilhelmsland)",
+  "overlord": "Australia",
+  "why": "Bougainville occupied by Australia in 1914 with the rest of German New Guinea; mandate from 1920",
+  "source": "https://en.wikipedia.org/wiki/Territory_of_New_Guinea",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1933,
+  "country": "Papua New Guinea",
+  "regions": [
+   "Eastern Highlands"
+  ],
+  "owner": "Eastern Highlands peoples",
+  "why": "Effective control: the Highlands (over a million people) were unknown to outsiders until prospectors' entries in the 1930s and mostly uncontrolled until after WWII; not under German/Australian administration before the 1930s",
+  "source": "https://en.wikipedia.org/wiki/History_of_Papua_New_Guinea",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1933,
+  "country": "Papua New Guinea",
+  "regions": [
+   "Western Highlands"
+  ],
+  "owner": "none",
+  "why": "Effective control: Mount Hagen area first contacted by the Leahy brothers and Jim Taylor in 1933, station 1934; no colonial presence before",
+  "source": "https://en.wikipedia.org/wiki/Mount_Hagen",
+  "severity": "major"
+ },
+ {
+  "from": 1933,
+  "to": 1949,
+  "country": "Papua New Guinea",
+  "regions": [
+   "Eastern Highlands",
+   "Western Highlands"
+  ],
+  "owner": "New Guinea (German New Guinea) (Kaiser Wilhelmsland)",
+  "overlord": "Australia",
+  "why": "Australian patrol posts/airstrips in the Eastern and Wahgi/Hagen highlands from 1933-34",
+  "source": "https://en.wikipedia.org/wiki/Mount_Hagen",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1945,
+  "country": "Papua New Guinea",
+  "regions": [
+   "Enga"
+  ],
+  "owner": "Enga",
+  "why": "Effective control: first European visit to the Wabag site 1938-39 (radio camp/airstrip); highlands mostly uncontrolled until after WWII",
+  "source": "https://en.wikipedia.org/wiki/Wabag",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1950,
+  "country": "Papua New Guinea",
+  "regions": [
+   "Southern Highlands"
+  ],
+  "owner": "Huli",
+  "why": "Effective control: Southern Highlands first patrolled in the mid-1930s; regular administration (Mendi patrol post, patrol reports from 1950) only from c.1950",
+  "source": "https://en.wikipedia.org/wiki/History_of_Papua_New_Guinea",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1890,
+  "country": "Papua New Guinea",
+  "regions": [
+   "New Ireland"
+  ],
+  "owner": "New Ireland (Malagan societies)",
+  "why": "Flow fix: New Ireland flips between 'Malagan societies' and 'Island peoples' in 1460/1540/1550/1560 without any historical cause",
+  "source": "https://en.wikipedia.org/wiki/New_Ireland_(island)",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1896,
+  "country": "Solomon Islands",
+  "regions": [
+   "Guadalcanal"
+  ],
+  "owner": "Guadalcanal peoples",
+  "why": "Southern Solomons were never German: Germany's 1886 sphere covered only the northern Solomons (Bougainville, Choiseul, Isabel, Shortlands); the south became a British protectorate in 1893 (administration at Tulagi 1896)",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1896,
+  "country": "Solomon Islands",
+  "regions": [
+   "Makira"
+  ],
+  "owner": "Makira (San Cristobal)",
+  "why": "Makira was never German; British protectorate 1893, Tulagi administration 1896",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1896,
+  "country": "Solomon Islands",
+  "regions": [
+   "Malaita"
+  ],
+  "owner": "Malaita",
+  "why": "Malaita was never German; British protectorate 1893, Tulagi administration 1896",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1896,
+  "country": "Solomon Islands",
+  "regions": [
+   "Western"
+  ],
+  "owner": "Roviana",
+  "why": "New Georgia group was never German; British protectorate 1893, Tulagi administration 1896",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1896,
+  "country": "Solomon Islands",
+  "regions": [
+   "Central"
+  ],
+  "owner": "none",
+  "why": "Nggela/Central islands were never German; British protectorate 1893, Tulagi purchased as capital 1896",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1897,
+  "country": "Solomon Islands",
+  "regions": [
+   "Rennell and Bellona"
+  ],
+  "owner": "none",
+  "why": "Rennell and Bellona were never German; added to the British protectorate in 1897",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1898,
+  "country": "Solomon Islands",
+  "regions": [
+   "Temotu"
+  ],
+  "owner": "none",
+  "why": "Santa Cruz/Temotu were never German; added to the British protectorate in 1898",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1900,
+  "country": "Solomon Islands",
+  "regions": [
+   "Choiseul"
+  ],
+  "owner": "Choiseul",
+  "why": "Effective control: German claim over Choiseul was never administered; transferred to Britain 1899-1900",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1900,
+  "country": "Solomon Islands",
+  "regions": [
+   "Isabel"
+  ],
+  "owner": "Santa Isabel (Bughotu)",
+  "why": "Effective control: German claim over Isabel was never administered; transferred to Britain 1899-1900",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1896,
+  "to": 1900,
+  "country": "Solomon Islands",
+  "regions": [
+   "Guadalcanal",
+   "Makira",
+   "Malaita",
+   "Western",
+   "Central"
+  ],
+  "owner": "Solomon Islands",
+  "overlord": "United Kingdom",
+  "why": "British Solomon Islands Protectorate (declared 1893; Woodford's administration at Tulagi from 1896)",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1897,
+  "to": 1900,
+  "country": "Solomon Islands",
+  "regions": [
+   "Rennell and Bellona"
+  ],
+  "owner": "Solomon Islands",
+  "overlord": "United Kingdom",
+  "why": "Rennell and Bellona added to the protectorate 1897",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1898,
+  "to": 1900,
+  "country": "Solomon Islands",
+  "regions": [
+   "Temotu"
+  ],
+  "owner": "Solomon Islands",
+  "overlord": "United Kingdom",
+  "why": "Santa Cruz group added to the protectorate 1898",
+  "source": "https://en.wikipedia.org/wiki/British_Solomon_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1906,
+  "country": "Vanuatu",
+  "regions": [
+   "Malampa"
+  ],
+  "owner": "Central-north Vanuatu (Ambae, Pentecost, Maewo, Ambrym)",
+  "why": "Implausible ~est extent: the Fijian chiefdom of Cakaudrove is shown ruling Malakula/Ambrym/Paama (and parts of Shefa) 1400-1880; it never reached Vanuatu",
+  "source": "https://en.wikipedia.org/wiki/Cakaudrove_Province",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1906,
+  "country": "Vanuatu",
+  "regions": [
+   "Penama"
+  ],
+  "owner": "Central-north Vanuatu (Ambae, Pentecost, Maewo, Ambrym)",
+  "why": "Flow fix: Penama flips between this chiefdom group and no polity in 1830/1840/1870/1880/1890 with no cause",
+  "source": "https://en.wikipedia.org/wiki/New_Hebrides",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1906,
+  "country": "Vanuatu",
+  "regions": [
+   "Sanma"
+  ],
+  "owner": "Espiritu Santo",
+  "why": "Flow fix: Santo drops to no polity in 1900 before the condominium",
+  "source": "https://en.wikipedia.org/wiki/New_Hebrides",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1906,
+  "country": "Vanuatu",
+  "regions": [
+   "Shefa"
+  ],
+  "owner": "Efate and Shepherd chiefdoms",
+  "why": "Removes Cakaudrove and the anachronistic 'French Indochina' (1860-1890); Efate was not French before the 1906 condominium",
+  "source": "https://en.wikipedia.org/wiki/New_Hebrides",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1906,
+  "country": "Vanuatu",
+  "regions": [
+   "Tafea"
+  ],
+  "owner": "Southern Vanuatu islands",
+  "why": "Removes 'French Indochina'/'New Caledonia' rule 1860-1906; southern Vanuatu was under no colonial government before the 1906 condominium",
+  "source": "https://en.wikipedia.org/wiki/New_Hebrides",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1906,
+  "country": "Vanuatu",
+  "regions": [
+   "Torba"
+  ],
+  "owner": "none",
+  "why": "Banks/Torres Islands were never part of the British Solomon Islands (map shows this from 1900)",
+  "source": "https://en.wikipedia.org/wiki/New_Hebrides",
+  "severity": "major"
+ },
+ {
+  "from": 1906,
+  "to": 1980,
+  "country": "Vanuatu",
+  "regions": [
+   "*"
+  ],
+  "owner": "New Hebrides (Anglo-French condominium)",
+  "why": "Anglo-French condominium from 1906 to independence in 1980; map shows it only in the 1940s and otherwise has 'New Caledonia', 'Solomon Islands' or no polity",
+  "source": "https://en.wikipedia.org/wiki/New_Hebrides",
+  "severity": "major"
+ },
+ {
+  "from": 1980,
+  "to": 2025,
+  "country": "Vanuatu",
+  "regions": [
+   "*"
+  ],
+  "owner": "Vanuatu",
+  "why": "Independent Vanuatu from 30 July 1980; map leaves most of it to Solomon Islands, New Caledonia or no polity",
+  "source": "https://en.wikipedia.org/wiki/New_Hebrides",
+  "severity": "major"
+ },
+ {
+  "from": 1853,
+  "to": 2025,
+  "country": "New Caledonia",
+  "regions": [
+   "Nord",
+   "Sud"
+  ],
+  "owner": "New Caledonia and Dependencies",
+  "overlord": "France",
+  "why": "France took possession of New Caledonia on 24 Sep 1853 (Nouméa founded 1854). Map shows nothing until 1860, then labels it 'French Indochina' (a different colony) until 1890",
+  "source": "https://en.wikipedia.org/wiki/History_of_New_Caledonia",
+  "severity": "major"
+ },
+ {
+  "from": 1864,
+  "to": 2025,
+  "country": "New Caledonia",
+  "regions": [
+   "Îles Loyauté"
+  ],
+  "owner": "New Caledonia and Dependencies",
+  "overlord": "France",
+  "why": "France annexed Lifou and the Loyalty Islands in 1864; map labels them 'French Indochina' 1860-1890",
+  "source": "https://en.wikipedia.org/wiki/Lifou_Island",
+  "severity": "major"
+ },
+ {
+  "from": 1887,
+  "to": 2025,
+  "country": "Wallis and Futuna",
+  "regions": [
+   "`Uvea"
+  ],
+  "owner": "Wallis and Futuna",
+  "overlord": "France",
+  "why": "French protectorate over Wallis from 5 Apr 1887 (overseas territory 1961); map shows no polity from 1890 to today",
+  "source": "https://en.wikipedia.org/wiki/Wallis_and_Futuna",
+  "severity": "major"
+ },
+ {
+  "from": 1888,
+  "to": 2025,
+  "country": "Wallis and Futuna",
+  "regions": [
+   "Alo"
+  ],
+  "owner": "Wallis and Futuna",
+  "overlord": "France",
+  "why": "Futuna (Alo and Sigave) became a French protectorate on 16 Feb 1888; it was never part of Fiji (map shows Fiji 1890-2025)",
+  "source": "https://en.wikipedia.org/wiki/Wallis_and_Futuna",
+  "severity": "major"
+ },
+ {
+  "from": 1874,
+  "to": 1970,
+  "country": "Fiji",
+  "regions": [
+   "Eastern",
+   "Northern",
+   "Western"
+  ],
+  "owner": "Fiji",
+  "overlord": "United Kingdom",
+  "why": "British rule began 10 Oct 1874; map shows half of Fiji as no polity in the 1880 snapshot",
+  "source": "https://en.wikipedia.org/wiki/Colony_of_Fiji",
+  "severity": "major"
+ },
+ {
+  "from": 1970,
+  "to": 2025,
+  "country": "Fiji",
+  "regions": [
+   "Eastern",
+   "Northern",
+   "Western",
+   "Rotuma"
+  ],
+  "owner": "Fiji",
+  "why": "Independent from 10 Oct 1970",
+  "source": "https://en.wikipedia.org/wiki/Colony_of_Fiji",
+  "severity": "minor"
+ },
+ {
+  "from": 1881,
+  "to": 1970,
+  "country": "Fiji",
+  "regions": [
+   "Rotuma"
+  ],
+  "owner": "Fiji",
+  "overlord": "United Kingdom",
+  "why": "Rotuma ceded to Britain 13 May 1881 and governed as part of the Colony of Fiji; map shows no polity from 1890 to today",
+  "source": "https://en.wikipedia.org/wiki/Rotuma",
+  "severity": "major"
+ },
+ {
+  "from": 1820,
+  "to": 1900,
+  "country": "Tonga",
+  "regions": [
+   "Ha'apai"
+  ],
+  "owner": "Kingdom of Tonga",
+  "why": "Tāufaʻāhau (George Tupou I) ruled Haʻapai from 1820; map returns Haʻapai to the Tuʻi Tonga 1850-1870",
+  "source": "https://en.wikipedia.org/wiki/George_Tupou_I",
+  "severity": "minor"
+ },
+ {
+  "from": 1833,
+  "to": 1900,
+  "country": "Tonga",
+  "regions": [
+   "Vava'u"
+  ],
+  "owner": "Kingdom of Tonga",
+  "why": "Tāufaʻāhau gained Vavaʻu in 1833; map returns it to the Tuʻi Tonga 1840-1850",
+  "source": "https://en.wikipedia.org/wiki/George_Tupou_I",
+  "severity": "minor"
+ },
+ {
+  "from": 1845,
+  "to": 1900,
+  "country": "Tonga",
+  "regions": [
+   "Tongatapu",
+   "Eua",
+   "Niuas"
+  ],
+  "owner": "Kingdom of Tonga",
+  "why": "Tāufaʻāhau became Tuʻi Kanokupolu and united Tonga in 1845; map keeps ʻEua under the Tuʻi Tonga until 1870",
+  "source": "https://en.wikipedia.org/wiki/History_of_Tonga",
+  "severity": "minor"
+ },
+ {
+  "from": 1900,
+  "to": 1970,
+  "country": "Tonga",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Tonga",
+  "overlord": "United Kingdom",
+  "why": "British protected state from the 1900 Treaty of Friendship until 4 June 1970",
+  "source": "https://en.wikipedia.org/wiki/History_of_Tonga",
+  "severity": "minor"
+ },
+ {
+  "from": 1970,
+  "to": 2025,
+  "country": "Tonga",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Tonga",
+  "why": "Map shows 89% of Tonga (all but Tongatapu) as no polity from 1970 to today; the kingdom covers the whole archipelago",
+  "source": "https://en.wikipedia.org/wiki/History_of_Tonga",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 1914,
+  "country": "Samoa",
+  "regions": [
+   "*"
+  ],
+  "owner": "German Empire",
+  "why": "German Samoa (1 Mar 1900) covered Upolu and Savaiʻi; map shows Savaiʻi as no polity from 1900 to today",
+  "source": "https://en.wikipedia.org/wiki/German_Samoa",
+  "severity": "major"
+ },
+ {
+  "from": 1914,
+  "to": 1962,
+  "country": "Samoa",
+  "regions": [
+   "*"
+  ],
+  "owner": "Western Samoa",
+  "overlord": "New Zealand",
+  "why": "New Zealand occupied German Samoa in Aug 1914 and held it as a League mandate/UN trust territory (not part of NZ) until 1962; map has Savaiʻi as no polity and Upolu as 'New Zealand' only from 1920",
+  "source": "https://en.wikipedia.org/wiki/German_Samoa",
+  "severity": "major"
+ },
+ {
+  "from": 1962,
+  "to": 2025,
+  "country": "Samoa",
+  "regions": [
+   "*"
+  ],
+  "owner": "Samoa",
+  "why": "Independent from 1962; map leaves Savaiʻi as no polity",
+  "source": "https://en.wikipedia.org/wiki/German_Samoa",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 2025,
+  "country": "American Samoa",
+  "regions": [
+   "Western",
+   "Rose Atoll"
+  ],
+  "owner": "American Samoa",
+  "overlord": "United States of America",
+  "why": "Tutuila ceded to the US in 1900 under the 1899 Tripartite partition; map shows no polity",
+  "source": "https://en.wikipedia.org/wiki/American_Samoa",
+  "severity": "major"
+ },
+ {
+  "from": 1904,
+  "to": 2025,
+  "country": "American Samoa",
+  "regions": [
+   "Manu's"
+  ],
+  "owner": "American Samoa",
+  "overlord": "United States of America",
+  "why": "Manuʻa ceded to the US by the Tui Manuʻa in 1904",
+  "source": "https://en.wikipedia.org/wiki/American_Samoa",
+  "severity": "major"
+ },
+ {
+  "from": 1925,
+  "to": 2025,
+  "country": "American Samoa",
+  "regions": [
+   "Swain's Island"
+  ],
+  "owner": "American Samoa",
+  "overlord": "United States of America",
+  "why": "Swains Island annexed to American Samoa in 1925",
+  "source": "https://en.wikipedia.org/wiki/American_Samoa",
+  "severity": "major"
+ },
+ {
+  "from": 1888,
+  "to": 1901,
+  "country": "Cook Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Cook Islands",
+  "overlord": "United Kingdom",
+  "why": "British protectorate from 1888; map shows no polity from 1910 to today",
+  "source": "https://en.wikipedia.org/wiki/Cook_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1901,
+  "to": 2025,
+  "country": "Cook Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Cook Islands",
+  "overlord": "New Zealand",
+  "why": "Part of New Zealand from 11 June 1901; self-governing in free association with NZ since 1965",
+  "source": "https://en.wikipedia.org/wiki/Cook_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 2025,
+  "country": "Niue",
+  "regions": [
+   "Niue"
+  ],
+  "owner": "Niue",
+  "overlord": "New Zealand",
+  "why": "Brief British protectorate 1900, within New Zealand from 11 June 1901, self-governing in free association since 1974; map shows no polity from 1900",
+  "source": "https://en.wikipedia.org/wiki/Niue",
+  "severity": "major"
+ },
+ {
+  "from": 1916,
+  "to": 1926,
+  "country": "New Zealand",
+  "regions": [
+   "Tokelau"
+  ],
+  "owner": "Gilbert and Ellice Islands",
+  "overlord": "United Kingdom",
+  "why": "Tokelau annexed into the Gilbert and Ellice Islands Colony from 29 Feb 1916",
+  "source": "https://en.wikipedia.org/wiki/Tokelau",
+  "severity": "minor"
+ },
+ {
+  "from": 1926,
+  "to": 2025,
+  "country": "New Zealand",
+  "regions": [
+   "Tokelau"
+  ],
+  "owner": "Tokelau",
+  "overlord": "New Zealand",
+  "why": "Administered by New Zealand from 11 Feb 1926, formally part of NZ from 1949; map shows no polity throughout",
+  "source": "https://en.wikipedia.org/wiki/Tokelau",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1840,
+  "country": "New Zealand",
+  "regions": [
+   "Northland"
+  ],
+  "owner": "Ngāpuhi",
+  "why": "No British sovereignty before 1840 (Busby had no powers; 1835 Declaration of Independence asserted Māori sovereignty); map shows British rule from 1830",
+  "source": "https://en.wikipedia.org/wiki/History_of_New_Zealand",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1840,
+  "country": "New Zealand",
+  "regions": [
+   "Auckland"
+  ],
+  "owner": "Hauraki iwi (Marutūahu)",
+  "why": "No British sovereignty before 1840; map shows British rule in 1830 then back to Hauraki iwi in 1840",
+  "source": "https://en.wikipedia.org/wiki/History_of_New_Zealand",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1840,
+  "country": "New Zealand",
+  "regions": [
+   "Three Kings Islands"
+  ],
+  "owner": "none",
+  "why": "No British sovereignty before 1840",
+  "source": "https://en.wikipedia.org/wiki/History_of_New_Zealand",
+  "severity": "minor"
+ },
+ {
+  "from": 1840,
+  "to": 1907,
+  "country": "New Zealand",
+  "regions": [
+   "Northland",
+   "Auckland",
+   "Wellington",
+   "Three Kings Islands"
+  ],
+  "owner": "New Zealand",
+  "overlord": "United Kingdom",
+  "why": "British sovereignty proclaimed 21 May 1840 (separate colony 1841); unifies the map's flip between 'United Kingdom', 'Colony of New Zealand', 'British Colonial Empire' and iwi in 1840-1890",
+  "source": "https://en.wikipedia.org/wiki/History_of_New_Zealand",
+  "severity": "minor"
+ },
+ {
+  "from": 1842,
+  "to": 1907,
+  "country": "New Zealand",
+  "regions": [
+   "Tasman District"
+  ],
+  "owner": "New Zealand",
+  "overlord": "United Kingdom",
+  "why": "Nelson settlement established 1841-42; map keeps Ngāti Toa until 1860",
+  "source": "https://en.wikipedia.org/wiki/New_Zealand_Company",
+  "severity": "minor"
+ },
+ {
+  "from": 1842,
+  "to": 1907,
+  "country": "New Zealand",
+  "regions": [
+   "Chatham Islands Territory"
+  ],
+  "owner": "New Zealand",
+  "overlord": "United Kingdom",
+  "why": "Chathams included in the Colony of New Zealand in 1842 (after the 1835 Ngāti Mutunga/Ngāti Tama invasion); map shows no polity 1840-1890",
+  "source": "https://en.wikipedia.org/wiki/Chatham_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1700,
+  "to": 1850,
+  "country": "New Zealand",
+  "regions": [
+   "Canterbury"
+  ],
+  "owner": "Ngāi Tahu",
+  "why": "Ngāi Tahu settled Canterbury by the 1690s; map shows only generic Māori peoples until 1840",
+  "source": "https://en.wikipedia.org/wiki/Ng%C4%81i_Tahu",
+  "severity": "minor"
+ },
+ {
+  "from": 1750,
+  "to": 1848,
+  "country": "New Zealand",
+  "regions": [
+   "Otago"
+  ],
+  "owner": "Ngāi Tahu",
+  "why": "Ngāi Tahu pushed south to Ōtākou in the 18th century, displacing Ngāti Māmoe",
+  "source": "https://en.wikipedia.org/wiki/Ng%C4%81i_Tahu",
+  "severity": "minor"
+ },
+ {
+  "from": 1800,
+  "to": 1860,
+  "country": "New Zealand",
+  "regions": [
+   "West Coast",
+   "Southland"
+  ],
+  "owner": "Ngāi Tahu",
+  "why": "Poutini Ngāi Tahu took the West Coast around 1800; Ngāi Tahu held Murihiku (Southland) in the early 19th century (Tuturau 1836)",
+  "source": "https://en.wikipedia.org/wiki/Ng%C4%81i_Tahu",
+  "severity": "minor"
+ },
+ {
+  "from": 1848,
+  "to": 1907,
+  "country": "New Zealand",
+  "regions": [
+   "Otago"
+  ],
+  "owner": "New Zealand",
+  "overlord": "United Kingdom",
+  "why": "Otago settlement: first settlers sailed Nov 1847, Dunedin founded 1848; map keeps Ngāi Tahu until 1860",
+  "source": "https://en.wikipedia.org/wiki/New_Zealand_Company",
+  "severity": "minor"
+ },
+ {
+  "from": 1850,
+  "to": 1907,
+  "country": "New Zealand",
+  "regions": [
+   "Canterbury"
+  ],
+  "owner": "New Zealand",
+  "overlord": "United Kingdom",
+  "why": "Canterbury settlement 1850 (land bought 1848); map keeps Ngāi Tahu until 1860",
+  "source": "https://en.wikipedia.org/wiki/New_Zealand_Company",
+  "severity": "minor"
+ },
+ {
+  "from": 1860,
+  "to": 1864,
+  "country": "New Zealand",
+  "regions": [
+   "Waikato"
+  ],
+  "owner": "Waikato-Tainui",
+  "why": "Waikato remained under the Kīngitanga until the invasion of July 1863-April 1864",
+  "source": "https://en.wikipedia.org/wiki/Invasion_of_the_Waikato",
+  "severity": "minor"
+ },
+ {
+  "from": 1864,
+  "to": 1907,
+  "country": "New Zealand",
+  "regions": [
+   "Waikato"
+  ],
+  "owner": "New Zealand",
+  "overlord": "United Kingdom",
+  "why": "Waikato conquered by April 1864",
+  "source": "https://en.wikipedia.org/wiki/Invasion_of_the_Waikato",
+  "severity": "minor"
+ },
+ {
+  "from": 1860,
+  "to": 1907,
+  "country": "New Zealand",
+  "regions": [
+   "Taranaki",
+   "Bay of Plenty",
+   "Hawke's Bay",
+   "Manawatu-Wanganui",
+   "Marlborough District",
+   "Southland",
+   "West Coast"
+  ],
+  "owner": "New Zealand",
+  "overlord": "United Kingdom",
+  "why": "Label/flow fix: map switches these from 'British Colonial Empire' to 'New Zealand' in 1890 without cause; New Zealand was a separate colony from 1841",
+  "source": "https://en.wikipedia.org/wiki/History_of_New_Zealand",
+  "severity": "minor"
+ },
+ {
+  "from": 1863,
+  "to": 1907,
+  "country": "New Zealand",
+  "regions": [
+   "Auckland Islands",
+   "Campbell Islands",
+   "Antipodes Islands",
+   "The Snares"
+  ],
+  "owner": "New Zealand",
+  "overlord": "United Kingdom",
+  "why": "New Zealand Boundaries Act 1863 placed the sub-Antarctic islands in the colony; map never assigns the Antipodes",
+  "source": "https://legislation.govt.nz/act/imperial/1863/23/en/latest/",
+  "severity": "minor"
+ },
+ {
+  "from": 1887,
+  "to": 1907,
+  "country": "New Zealand",
+  "regions": [
+   "Kermadec Islands"
+  ],
+  "owner": "New Zealand",
+  "overlord": "United Kingdom",
+  "why": "Kermadecs annexed 1886 and placed under the colony of New Zealand in 1887; map shows no polity throughout",
+  "source": "https://en.wikipedia.org/wiki/Kermadec_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1907,
+  "to": 2025,
+  "country": "New Zealand",
+  "regions": [
+   "Kermadec Islands",
+   "Antipodes Islands"
+  ],
+  "owner": "New Zealand",
+  "why": "Part of New Zealand (Dominion from 1907)",
+  "source": "https://en.wikipedia.org/wiki/Kermadec_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1842,
+  "to": 2025,
+  "country": "French Polynesia",
+  "regions": [
+   "Marquesas Islands"
+  ],
+  "owner": "French Polynesia",
+  "overlord": "France",
+  "why": "Marquesas annexed by France in 1842; map shows no polity 1850-1910",
+  "source": "https://en.wikipedia.org/wiki/History_of_French_Polynesia",
+  "severity": "major"
+ },
+ {
+  "from": 1880,
+  "to": 2025,
+  "country": "French Polynesia",
+  "regions": [
+   "Windward Islands",
+   "Tuamotu-Gambier"
+  ],
+  "owner": "French Polynesia",
+  "overlord": "France",
+  "why": "Tahiti annexed as a colony in 1880 and the Tuamotus/Gambier taken in the 1880s; map shows no polity for Tuamotu 1880-1910 and a bare 'French Third Republic' for Tahiti",
+  "source": "https://en.wikipedia.org/wiki/History_of_French_Polynesia",
+  "severity": "major"
+ },
+ {
+  "from": 1888,
+  "to": 2025,
+  "country": "French Polynesia",
+  "regions": [
+   "Leeward Islands"
+  ],
+  "owner": "French Polynesia",
+  "overlord": "France",
+  "why": "Leeward Islands annexed 1888 (Raiatea resistance ended 1897); map shows no polity 1880-1910",
+  "source": "https://en.wikipedia.org/wiki/History_of_French_Polynesia",
+  "severity": "major"
+ },
+ {
+  "from": 1889,
+  "to": 2025,
+  "country": "French Polynesia",
+  "regions": [
+   "Austral Islands"
+  ],
+  "owner": "French Polynesia",
+  "overlord": "France",
+  "why": "Rurutu and Rimatara annexed 1889 (Tubuai, Raivavae under France earlier); map shows the Austral Islands as no polity from 1890 to today",
+  "source": "https://en.wikipedia.org/wiki/History_of_French_Polynesia",
+  "severity": "major"
+ },
+ {
+  "from": 1892,
+  "to": 1979,
+  "country": "Kiribati",
+  "regions": [
+   "*"
+  ],
+  "owner": "Gilbert and Ellice Islands",
+  "overlord": "United Kingdom",
+  "why": "British protectorate over the Gilberts from 1892 (colony 1916); map shows no polity from 1900 to today",
+  "source": "https://en.wikipedia.org/wiki/Gilbert_and_Ellice_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1979,
+  "to": 2025,
+  "country": "Kiribati",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kiribati",
+  "why": "Independent as Kiribati from 12 July 1979",
+  "source": "https://en.wikipedia.org/wiki/Gilbert_and_Ellice_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1892,
+  "to": 1976,
+  "country": "Tuvalu",
+  "regions": [
+   "*"
+  ],
+  "owner": "Gilbert and Ellice Islands",
+  "overlord": "United Kingdom",
+  "why": "Ellice Islands British protectorate from Oct 1892, part of the colony from 1916 until separation 1975-76; map shows no polity throughout",
+  "source": "https://en.wikipedia.org/wiki/Gilbert_and_Ellice_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1976,
+  "to": 1978,
+  "country": "Tuvalu",
+  "regions": [
+   "*"
+  ],
+  "owner": "Tuvalu",
+  "overlord": "United Kingdom",
+  "why": "Separate British dependency 1975/76-1978",
+  "source": "https://en.wikipedia.org/wiki/Gilbert_and_Ellice_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1978,
+  "to": 2025,
+  "country": "Tuvalu",
+  "regions": [
+   "*"
+  ],
+  "owner": "Tuvalu",
+  "why": "Independent from 1 Oct 1978",
+  "source": "https://en.wikipedia.org/wiki/Gilbert_and_Ellice_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1888,
+  "to": 1914,
+  "country": "Nauru",
+  "regions": [
+   "*"
+  ],
+  "owner": "New Guinea (German New Guinea) (Kaiser Wilhelmsland)",
+  "overlord": "Germany (Prussia)",
+  "why": "Germany annexed Nauru in 1888 and added it to the German New Guinea protectorate; map shows no polity throughout",
+  "source": "https://en.wikipedia.org/wiki/History_of_Nauru",
+  "severity": "major"
+ },
+ {
+  "from": 1914,
+  "to": 1968,
+  "country": "Nauru",
+  "regions": [
+   "*"
+  ],
+  "owner": "Nauru",
+  "overlord": "Australia",
+  "why": "Australian occupation from 1914, League mandate and UN trusteeship administered by Australia (Japanese occupation 1942-45 omitted)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Nauru",
+  "severity": "major"
+ },
+ {
+  "from": 1968,
+  "to": 2025,
+  "country": "Nauru",
+  "regions": [
+   "*"
+  ],
+  "owner": "Nauru",
+  "why": "Independent republic from 31 Jan 1968",
+  "source": "https://en.wikipedia.org/wiki/History_of_Nauru",
+  "severity": "major"
+ },
+ {
+  "from": 1885,
+  "to": 1914,
+  "country": "Marshall Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "New Guinea (German New Guinea) (Kaiser Wilhelmsland)",
+  "overlord": "Germany (Prussia)",
+  "why": "German protectorate from 1885 (Jaluit Company, part of German New Guinea from 1906); map shows the Ralik/Ratak chiefdoms until 1900 and then no polity to today",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Marshall_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1914,
+  "to": 1944,
+  "country": "Marshall Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "South Seas Mandate",
+  "overlord": "Japan",
+  "why": "Japanese occupation from Sep 1914, League mandate from 1919-20",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Marshall_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1944,
+  "to": 1986,
+  "country": "Marshall Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Trust Territory of the Pacific Islands",
+  "overlord": "United States of America",
+  "why": "US captured Majuro/Kwajalein in 1944; UN Trust Territory under the US from 1947 until the Compact of 1986",
+  "source": "https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1986,
+  "to": 2025,
+  "country": "Marshall Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Marshall Islands",
+  "why": "Sovereign under the Compact of Free Association from 21 Oct 1986",
+  "source": "https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1899,
+  "country": "Federated States of Micronesia",
+  "regions": [
+   "Pohnpei",
+   "Yap"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Spain appointed district officers for the Eastern (Pohnpei) and Western (Yap) Carolines from June 1886 and founded Santiago de la Ascensión (Kolonia); map shows Spain on Pohnpei only in 1880 and none on Yap",
+  "source": "https://en.wikipedia.org/wiki/Caroline_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1899,
+  "to": 1914,
+  "country": "Federated States of Micronesia",
+  "regions": [
+   "*"
+  ],
+  "owner": "New Guinea (German New Guinea) (Kaiser Wilhelmsland)",
+  "overlord": "Germany (Prussia)",
+  "why": "Spain sold the Carolines to Germany in 1899; administered under German New Guinea; map shows no polity",
+  "source": "https://en.wikipedia.org/wiki/German%E2%80%93Spanish_Treaty_(1899)",
+  "severity": "major"
+ },
+ {
+  "from": 1914,
+  "to": 1945,
+  "country": "Federated States of Micronesia",
+  "regions": [
+   "*"
+  ],
+  "owner": "South Seas Mandate",
+  "overlord": "Japan",
+  "why": "Japanese occupation 1914, mandate 1920 (Truk was a main base until 1945)",
+  "source": "https://en.wikipedia.org/wiki/Caroline_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1945,
+  "to": 1986,
+  "country": "Federated States of Micronesia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Trust Territory of the Pacific Islands",
+  "overlord": "United States of America",
+  "why": "US administration after 1945; UN Trust Territory 1947 until the Compact of 3 Nov 1986",
+  "source": "https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1986,
+  "to": 2025,
+  "country": "Federated States of Micronesia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Federated States of Micronesia",
+  "why": "Sovereign under the Compact of Free Association from 3 Nov 1986; map shows no polity to today",
+  "source": "https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1899,
+  "country": "Palau",
+  "regions": [
+   "Hatobohei"
+  ],
+  "owner": "none",
+  "why": "Hatohobei (Tobi) is a state of Palau and was never part of the Dutch East Indies or Indonesia (map shows Dutch/Indonesian rule 1830-2025)",
+  "source": "https://en.wikipedia.org/wiki/Hatohobei",
+  "severity": "major"
+ },
+ {
+  "from": 1899,
+  "to": 1914,
+  "country": "Palau",
+  "regions": [
+   "*"
+  ],
+  "owner": "New Guinea (German New Guinea) (Kaiser Wilhelmsland)",
+  "overlord": "Germany (Prussia)",
+  "why": "Palau included in the 1899 Spanish sale of the Carolines to Germany; map shows no polity from 1900",
+  "source": "https://en.wikipedia.org/wiki/German%E2%80%93Spanish_Treaty_(1899)",
+  "severity": "major"
+ },
+ {
+  "from": 1914,
+  "to": 1945,
+  "country": "Palau",
+  "regions": [
+   "*"
+  ],
+  "owner": "South Seas Mandate",
+  "overlord": "Japan",
+  "why": "Japanese occupation 1914; Koror was the mandate capital from 1921",
+  "source": "https://en.wikipedia.org/wiki/South_Seas_Mandate",
+  "severity": "major"
+ },
+ {
+  "from": 1945,
+  "to": 1994,
+  "country": "Palau",
+  "regions": [
+   "*"
+  ],
+  "owner": "Trust Territory of the Pacific Islands",
+  "overlord": "United States of America",
+  "why": "US-administered Trust Territory until Palau's independence in free association on 1 Oct 1994",
+  "source": "https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1994,
+  "to": 2025,
+  "country": "Palau",
+  "regions": [
+   "*"
+  ],
+  "owner": "Palau",
+  "why": "Independent from 1 Oct 1994; map shows no polity (and Indonesia for Hatohobei)",
+  "source": "https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1670,
+  "to": 1682,
+  "country": "Northern Mariana Islands",
+  "regions": [
+   "Rota"
+  ],
+  "owner": "Chamorro chiefdoms (Mariana Islands)",
+  "why": "Effective control: Spanish conquest of Rota 1680-82",
+  "source": "https://en.wikipedia.org/wiki/Spanish%E2%80%93Chamorro_Wars",
+  "severity": "minor"
+ },
+ {
+  "from": 1670,
+  "to": 1695,
+  "country": "Northern Mariana Islands",
+  "regions": [
+   "Saipan",
+   "Tinian"
+  ],
+  "owner": "Chamorro chiefdoms (Mariana Islands)",
+  "why": "Effective control: Saipan resisted in 1683-84 and was subdued with Tinian only in the 1694-96 campaigns",
+  "source": "https://en.wikipedia.org/wiki/Spanish%E2%80%93Chamorro_Wars",
+  "severity": "major"
+ },
+ {
+  "from": 1670,
+  "to": 1698,
+  "country": "Northern Mariana Islands",
+  "regions": [
+   "Northern Islands"
+  ],
+  "owner": "Chamorro chiefdoms (Mariana Islands)",
+  "why": "Effective control: the Gani (northern) islands were reached only in 1698, when ~1,900 inhabitants were deported to Guam",
+  "source": "https://en.wikipedia.org/wiki/Spanish%E2%80%93Chamorro_Wars",
+  "severity": "major"
+ },
+ {
+  "from": 1880,
+  "to": 1899,
+  "country": "Northern Mariana Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Spain kept the Northern Marianas until the 1899 sale; map drops them to no polity in 1890 (and flips the label to 'Kingdom of Spain' in 1880)",
+  "source": "https://en.wikipedia.org/wiki/German%E2%80%93Spanish_Treaty_(1899)",
+  "severity": "major"
+ },
+ {
+  "from": 1899,
+  "to": 1914,
+  "country": "Northern Mariana Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "New Guinea (German New Guinea) (Kaiser Wilhelmsland)",
+  "overlord": "Germany (Prussia)",
+  "why": "Sold to Germany in 1899 and administered under German New Guinea; map shows no polity from 1890 to today",
+  "source": "https://en.wikipedia.org/wiki/German%E2%80%93Spanish_Treaty_(1899)",
+  "severity": "major"
+ },
+ {
+  "from": 1914,
+  "to": 1944,
+  "country": "Northern Mariana Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "South Seas Mandate",
+  "overlord": "Japan",
+  "why": "Japanese occupation 1914, mandate 1920 (Saipan a main centre) until the US invasion of 1944",
+  "source": "https://en.wikipedia.org/wiki/South_Seas_Mandate",
+  "severity": "major"
+ },
+ {
+  "from": 1944,
+  "to": 1978,
+  "country": "Northern Mariana Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Trust Territory of the Pacific Islands",
+  "overlord": "United States of America",
+  "why": "US control from 1944; Trust Territory 1947 until the Commonwealth constitution took effect 1 Jan 1978",
+  "source": "https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1978,
+  "to": 2025,
+  "country": "Northern Mariana Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Northern Mariana Islands",
+  "overlord": "United States of America",
+  "why": "US Commonwealth (constitution partly in force 1978, fully 1986)",
+  "source": "https://en.wikipedia.org/wiki/Trust_Territory_of_the_Pacific_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1880,
+  "to": 1898,
+  "country": "Guam",
+  "regions": [
+   "Guam"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Flow fix: map flips Guam to 'Kingdom of Spain' in 1880 and back in 1890; Spanish until 1898",
+  "source": "https://en.wikipedia.org/wiki/History_of_Guam",
+  "severity": "minor"
+ },
+ {
+  "from": 1898,
+  "to": 2025,
+  "country": "Guam",
+  "regions": [
+   "Guam"
+  ],
+  "owner": "Guam",
+  "overlord": "United States of America",
+  "why": "US territory since 1898; map labels it bare 'United States' (a different name from the 'United States of America' used elsewhere, e.g. Hawaii, Puerto Rico)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Guam",
+  "severity": "minor"
+ },
+ {
+  "from": 1840,
+  "to": 1851,
+  "country": "Australia",
+  "regions": [
+   "Victoria"
+  ],
+  "owner": "New South Wales",
+  "overlord": "United Kingdom",
+  "why": "Port Phillip District of NSW from 1836; map reverts much of Victoria to Aboriginal nations in the 1850 snapshot after showing it colonised in 1840",
+  "source": "https://en.wikipedia.org/wiki/Port_Phillip_District",
+  "severity": "major"
+ },
+ {
+  "from": 1851,
+  "to": 1901,
+  "country": "Australia",
+  "regions": [
+   "Victoria"
+  ],
+  "owner": "Victoria",
+  "overlord": "United Kingdom",
+  "why": "Colony of Victoria from 1 July 1851 (map shows 'British Colonial Empire' 1860-1890)",
+  "source": "https://en.wikipedia.org/wiki/Colony_of_Victoria",
+  "severity": "minor"
+ },
+ {
+  "from": 1832,
+  "to": 1901,
+  "country": "Australia",
+  "regions": [
+   "Tasmania"
+  ],
+  "owner": "Tasmania",
+  "overlord": "United Kingdom",
+  "why": "Black War ended 1832 and Aboriginal Tasmanians removed 1832-35; unifies the map's flip between 'Van Diemen's Land', 'United Kingdom', 'British Colonial Empire' and 'Tasmania'",
+  "source": "https://en.wikipedia.org/wiki/Black_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1850,
+  "to": 1901,
+  "country": "Australia",
+  "regions": [
+   "New South Wales"
+  ],
+  "owner": "New South Wales",
+  "overlord": "United Kingdom",
+  "why": "Flow fix: one colour for the colony instead of flipping 'Colony of New South Wales'/'British Colonial Empire'/'New South Wales' in 1840-1890",
+  "source": "https://en.wikipedia.org/wiki/Colony_of_New_South_Wales",
+  "severity": "minor"
+ },
+ {
+  "from": 1830,
+  "to": 1901,
+  "country": "Australia",
+  "regions": [
+   "Australian Capital Territory",
+   "Jervis Bay Territory"
+  ],
+  "owner": "New South Wales",
+  "overlord": "United Kingdom",
+  "why": "Limestone Plains and Jervis Bay settled within NSW from the 1820s; map flips them between British labels and (Jervis Bay) back to Yuin in 1880",
+  "source": "https://en.wikipedia.org/wiki/History_of_Canberra",
+  "severity": "minor"
+ },
+ {
+  "from": 1880,
+  "to": 1901,
+  "country": "Australia",
+  "regions": [
+   "Queensland"
+  ],
+  "owner": "Queensland",
+  "overlord": "United Kingdom",
+  "why": "Torres Strait annexed by Queensland 1879; map shows the Torres Strait Islanders independent again in 1880 after British rule in 1870",
+  "source": "https://en.wikipedia.org/wiki/Torres_Strait_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1901,
+  "to": 2025,
+  "country": "Australia",
+  "regions": [
+   "Queensland"
+  ],
+  "owner": "Australia",
+  "why": "A Queensland province is shown under Papua/Papua New Guinea from 1890 to today (Australia 0% → PNG); all of Queensland has been Australian since federation",
+  "source": "https://en.wikipedia.org/wiki/Torres_Strait_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1870,
+  "to": 1911,
+  "country": "Australia",
+  "regions": [
+   "Northern Territory"
+  ],
+  "owner": "South Australia",
+  "overlord": "United Kingdom",
+  "why": "Northern Territory annexed to South Australia 1863 until transfer to the Commonwealth 1911; map uses generic 'British Colonial Empire' 1870-1890",
+  "source": "https://en.wikipedia.org/wiki/Northern_Territory",
+  "severity": "minor"
+ },
+ {
+  "from": 1870,
+  "to": 1901,
+  "country": "Australia",
+  "regions": [
+   "South Australia"
+  ],
+  "owner": "South Australia",
+  "overlord": "United Kingdom",
+  "why": "Flow fix: one colour for the colony instead of 'British Colonial Empire' 1860-1890",
+  "source": "https://en.wikipedia.org/wiki/Northern_Territory",
+  "severity": "minor"
+ },
+ {
+  "from": 1834,
+  "to": 1901,
+  "country": "Australia",
+  "regions": [
+   "Lord Howe Island"
+  ],
+  "owner": "New South Wales",
+  "overlord": "United Kingdom",
+  "why": "Settled 1834, formally part of NSW (1855 Constitution); map shows no polity throughout",
+  "source": "https://en.wikipedia.org/wiki/Lord_Howe_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1901,
+  "to": 2025,
+  "country": "Australia",
+  "regions": [
+   "Lord Howe Island"
+  ],
+  "owner": "Australia",
+  "why": "Part of NSW within Australia",
+  "source": "https://en.wikipedia.org/wiki/Lord_Howe_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1880,
+  "to": 1901,
+  "country": "Australia",
+  "regions": [
+   "Macquarie Island"
+  ],
+  "owner": "Tasmania",
+  "overlord": "United Kingdom",
+  "why": "Made part of Tasmania by Letters Patent 17 June 1880; map shows no polity throughout",
+  "source": "https://en.wikipedia.org/wiki/Macquarie_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1901,
+  "to": 2025,
+  "country": "Australia",
+  "regions": [
+   "Macquarie Island"
+  ],
+  "owner": "Australia",
+  "why": "Part of Tasmania within Australia",
+  "source": "https://en.wikipedia.org/wiki/Macquarie_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1788,
+  "to": 1814,
+  "country": "Norfolk Island",
+  "regions": [
+   "Norfolk Island"
+  ],
+  "owner": "Colony of New South Wales",
+  "why": "First penal settlement 1788-1814; map shows nothing on Norfolk Island in any period",
+  "source": "https://en.wikipedia.org/wiki/History_of_Norfolk_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1825,
+  "to": 1856,
+  "country": "Norfolk Island",
+  "regions": [
+   "Norfolk Island"
+  ],
+  "owner": "Colony of New South Wales",
+  "why": "Second penal settlement 1825-1855",
+  "source": "https://en.wikipedia.org/wiki/History_of_Norfolk_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1856,
+  "to": 1914,
+  "country": "Norfolk Island",
+  "regions": [
+   "Norfolk Island"
+  ],
+  "owner": "Norfolk Island",
+  "overlord": "United Kingdom",
+  "why": "Separate settlement of the Pitcairners from 1856 under the NSW governor",
+  "source": "https://en.wikipedia.org/wiki/History_of_Norfolk_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1914,
+  "to": 2025,
+  "country": "Norfolk Island",
+  "regions": [
+   "Norfolk Island"
+  ],
+  "owner": "Norfolk Island",
+  "overlord": "Australia",
+  "why": "Australian external territory under the Norfolk Island Act 1913 (in force 1914)",
+  "source": "https://aph.gov.au/Parliamentary_Business/Committees/Joint/National_Capital_and_External_Territories/LocalgovernanceNorfolk/Final_Report/Chapter_2_-_Background",
+  "severity": "major"
+ },
+ {
+  "from": 1838,
+  "to": 2025,
+  "country": "Pitcairn Islands",
+  "regions": [
+   "Pitcairn Islands"
+  ],
+  "owner": "Pitcairn Islands",
+  "overlord": "United Kingdom",
+  "why": "British colony since 30 Nov 1838 (settled 1790); map shows no polity throughout",
+  "source": "https://en.wikipedia.org/wiki/Pitcairn_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1878,
+  "country": "Ashmore and Cartier Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "none",
+  "why": "Uninhabited reefs never held by Majapahit, Portugal, Spain or the Dutch (a Dutch claim c.1878 was never pressed); map flips through all of these",
+  "source": "https://en.wikipedia.org/wiki/Ashmore_and_Cartier_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1878,
+  "to": 1934,
+  "country": "Ashmore and Cartier Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "United Kingdom",
+  "why": "Britain took possession of Ashmore Reef in 1878 and Cartier Island in 1909",
+  "source": "https://en.wikipedia.org/wiki/Ashmore_and_Cartier_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1934,
+  "to": 2025,
+  "country": "Ashmore and Cartier Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Australia",
+  "why": "Part of Australia from 10 May 1934; map shows Dutch East Indies/Indonesia to today",
+  "source": "https://en.wikipedia.org/wiki/Ashmore_and_Cartier_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1860,
+  "country": "Coral Sea Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "none",
+  "why": "Uninhabited reefs: the Fijian chiefdom Cakaudrove (38%) and Aboriginal peoples never held them",
+  "source": "https://en.wikipedia.org/wiki/Coral_Sea_Islands",
+  "severity": "major"
+ }
+]

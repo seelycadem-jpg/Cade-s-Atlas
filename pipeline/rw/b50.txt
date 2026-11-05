@@ -1,0 +1,278 @@
+## as14984 | 1498 | Vasco da Gama reaches India | who: Vasco da Gama, for Portugal | where: Calicut, India
+  bluf: Da Gama's voyage created the first direct sea link between Europe and Asia and began European armed intervention in Indian Ocean trade. It was the start of European empire in Asia.
+  now: The sea route was the foundation of European colonialism in Asia. The Indian Ocean is again a zone of naval competition, now among India, China and the United States.
+  story: Vasco da Gama sailed from Lisbon in July 1497, rounded the Cape and, with a pilot hired in Malindi, crossed the Indian Ocean to Calicut in May 1498. The ruler of Calicut was unimpressed by his gifts, but the pepper and spices he brought home were worth many times the cost of the voyage.
+  why: Portugal wanted direct access to Asian spices, which reached Europe through Muslim and Venetian middlemen at high markups. Decades of African voyages had built the necessary navigational knowledge.
+  then: Portugal used naval guns to impose licensed trade, seizing Goa, Malacca and Hormuz. Indian Ocean commerce had been open to many merchant communities, with no single power controlling the sea; Portugal tried to tax and control it by force, a model the Dutch and English later expanded.
+  fact: The ruler of Calicut was unimpressed by his gifts: hats, washbasins and honey.
+## as15106 | 1510 | Portugal takes Goa | who: Afonso de Albuquerque | where: Goa, India
+  bluf: The capture of Goa gave Portugal a permanent base and capital in Asia, the hub of a network of fortified ports meant to control the spice trade. Goa stayed Portuguese for 451 years, one of the longest-lasting European colonies in Asia.
+  now: Goa gave Portugal the capital of an Asian empire and the Church a base for missions from Africa to Japan; it also set the pattern of fortified enclaves rather than conquest that European powers used in Asia for two centuries.
+  story: In 1510 Afonso de Albuquerque captured Goa from the Sultanate of Bijapur, lost it, and retook it that November with a larger force. He made it the capital of Portugal's Asian empire, the Estado da Índia.
+  why: Albuquerque wanted naval bases rather than large territories. Goa had a good harbour and controlled the lucrative trade in war horses to southern Indian kingdoms.
+  then: Goa became the seat of Portugal's viceroy, a centre of Catholic missions (with an Inquisition from 1560) and a mixed Indo-Portuguese society.
+  fact: India took Goa by force in 1961 after Portugal refused to leave; its Catholic culture still sets it apart.
+## as15269 | 1526 | Babur founds Mughal Empire | who: Babur, descendant of Timur and Genghis Khan | where: Panipat, India
+  bluf: Babur's victory at Panipat founded the Mughal Empire, which unified most of South Asia and became one of the richest states in the world. Its blend of Persian, Central Asian and Indian culture shaped the subcontinent's languages, architecture and politics.
+  now: Urdu, Mughal architecture such as the Taj Mahal, and much of North Indian cuisine come from this era. How to remember Muslim rulers is a live issue in Indian politics today.
+  story: Babur, a Timurid prince descended from Timur and Genghis Khan, lost his Central Asian homeland to the Uzbeks and turned south from Kabul. At Panipat in 1526 his field guns and mounted archers defeated the far larger army of Ibrahim Lodi, sultan of Delhi; a year later he beat a Rajput confederacy at Khanwa.
+  why: Driven out of Central Asia, Babur needed a new kingdom. The Delhi Sultanate was split by feuds among its Afghan nobles, some of whom invited him in.
+  then: His son Humayun lost the throne to Sher Shah Suri and regained it only in 1555; his grandson Akbar built the lasting empire. Mughal rule integrated North India's administration, tax system and court culture.
+  fact: Babur wrote a frank memoir, the Baburnama, in which he complains that India has no good melons.
+## as155611 | 1556 | Akbar the Great | who: Emperor Akbar; his regent Bairam Khan | where: Mughal India
+  bluf: Akbar turned the Mughal conquest into a durable empire by bringing Hindu Rajput elites into government, building a centralized tax system and practising religious tolerance. His model of accommodation kept the Mughals dominant in South Asia for 150 years.
+  now: Akbar is a symbol of pluralism in India's debates between secularists and Hindu nationalists.
+  story: Akbar expanded the Mughal empire, abolished the tax on non-Muslims, married a Hindu princess and hosted debates between Muslim, Hindu, Christian and Jain scholars.
+  why: The Mughals were a small Muslim ruling group over a mostly Hindu population. Lasting rule required local allies and a reliable tax base.
+  then: He abolished the jizya tax on non-Muslims (1564), made Rajput rulers his generals and in-laws, created a ranked imperial nobility, and surveyed land to set taxes. Aurangzeb later reversed much of this, which helped provoke revolts that weakened the empire.
+  fact: Akbar is thought to have been unable to read, yet built one of the greatest libraries of his age and had books read aloud to him.
+## sa-talikota | 1565 | Battle of Talikota | who: The Deccan sultanates vs. the Vijayanagara Empire | where: Talikota, Deccan, India
+  bluf: Talikota destroyed Vijayanagara, the last great Hindu empire of South India, and its capital Hampi. The power vacuum fragmented the Deccan and later opened it to Mughal and then European expansion.
+  now: The destruction of Vijayanagara removed the last large Hindu state in the south and opened the Deccan to the Mughals a century later; the sultanates that won fell to Aurangzeb in turn.
+  story: Four Deccan sultanates united against Vijayanagara's regent Rama Raya, who was killed in the battle. The victors sacked the capital at Hampi, then one of the largest cities in the world, for months.
+  why: The Deccan sultanates and Vijayanagara competed over the fertile Raichur Doab. Rama Raya's habit of playing the sultanates off against one another finally united them against him.
+  then: A smaller Vijayanagara state survived further south while its local governors (nayakas) became independent. The sultanates fought each other and were conquered by the Mughals in the late 1600s.
+  fact: Hampi's ruins are a World Heritage site; the empire's armies included Muslim soldiers, a fact its use as a symbol of Hindu resistance leaves out.
+## d-akbar-ibadat | 1575 | Akbar opens his House of Worship to all faiths | who: Emperor Akbar; Muslim, Hindu, Jain, Zoroastrian and Christian scholars | where: Fatehpur Sikri, India
+  bluf: Akbar's House of Worship turned religious debate into imperial policy: the ruler of a diverse empire set himself above any single faith. The 'peace with all' that followed underpinned Mughal rule over a Hindu-majority population.
+  now: His court is cited as a model of pluralism in South Asia's debates over secularism.
+  story: In 1575 Akbar built the Ibadat Khana at his new capital, Fatehpur Sikri. Debates began among Muslim scholars, but within a few years Hindus, Jains, Zoroastrians and Jesuit priests from Goa took part.
+  why: Akbar ruled a mostly non-Muslim empire, wanted to curb orthodox clerics' influence over the throne, and was personally curious about faith.
+  then: In 1579 he claimed the authority to rule on religious disputes, and his policy of sulh-i kul ('peace with all') guided appointments and law. Orthodox clerics resented it, and later emperors moved back toward Islamic orthodoxy.
+## d-swally | 1612 | English beat the Portuguese at Swally | who: Captain Thomas Best (East India Company); a Portuguese fleet | where: Suvali, near Surat, India
+  bluf: A small naval victory over the Portuguese earned the English East India Company permission from the Mughals to trade at Surat, its first foothold in India. It showed Mughal officials that the English could challenge Portugal at sea.
+  now: Britain's 335-year presence in India began not with conquest but with a trading licence from the Mughal emperor.
+  story: In November 1612 two East India Company ships under Thomas Best fought off a larger Portuguese force at Swally Hole, near Surat. Impressed, Mughal officials let the English open a trading post (a 'factory') at Surat, and in 1615 Sir Thomas Roe arrived as ambassador to Emperor Jahangir.
+  why: Portugal had controlled India's sea trade for a century and tried to keep rivals out.
+  then: Surat became the Company's main base in India until Bombay replaced it later in the century, and Sir Thomas Roe arrived as ambassador to Emperor Jahangir in 1615.
+## as163217 | 1632 | Taj Mahal begun | who: Emperor Shah Jahan; thousands of craftsmen; chief architect Ustad Ahmad Lahauri | where: Agra, India
+  bluf: The Taj Mahal shows the Mughal Empire at its wealthiest, able to fund monumental architecture blending Persian, Islamic and Indian traditions. Its cost also reflects the heavy taxation on which Mughal splendour rested.
+  now: The Taj records the Mughal state at its richest, when it could spend a province's revenue on a tomb; the treasury strain of such building and of Aurangzeb's wars is part of why the empire broke within a century.
+  story: After his wife Mumtaz Mahal died in childbirth in 1631, Shah Jahan began a vast white marble tomb for her at Agra. About 20,000 workers built it over some 20 years, inlaying the marble with semi-precious stones.
+  why: Shah Jahan's grief for his wife Mumtaz Mahal, and the Mughals' wish to display their wealth and piety.
+  then: Shah Jahan's building and wars strained the treasury. His son Aurangzeb seized power in 1658 after a war of succession and confined him in Agra Fort.
+  fact: It is India's most visited monument and a focus of arguments over how India presents its Mughal past.
+## d-madras | 1639 | East India Company founds Madras | who: Francis Day and Andrew Cogan of the East India Company; a local Nayak ruler | where: Chennai (Madras), India
+  bluf: Fort St George was the East India Company's first fortified base in India, the start of a shift from trading as guests of Indian rulers to holding territory of its own. Madras became one of the Company's three centres of power in India.
+  now: Chennai, as Madras is now called, is one of India's largest cities, and Fort St George still houses the Tamil Nadu state legislature.
+  story: In 1639 Francis Day obtained a grant of coastal land from a local Nayak ruler, and the Company built Fort St George, finished in 1644. Weavers, dyers and merchants settled around it, and the town of Madras grew up.
+  why: The Company wanted cheap Coromandel cotton cloth and a fortified base of its own.
+  then: Madras became the first of the Company's three great 'presidencies', later joined by Bombay and Calcutta.
+## sa-shivaji | 1674 | Shivaji crowned Maratha king | who: Shivaji Bhonsle | where: Raigad Fort, near Pune
+  bluf: Shivaji built a Maratha kingdom in western India that challenged the Mughal Empire at its height. The Maratha wars drained Aurangzeb's resources and hastened Mughal decline, and the Marathas became India's strongest power in the 18th century.
+  now: Shivaji is a hero of Marathi and Hindu nationalist politics, and Mumbai's main airport and railway station bear his name.
+  story: Shivaji built a state in the Western Ghats through guerrilla warfare and hill forts, famously escaping Mughal captivity in Agra in 1666. In 1674 he was crowned Chhatrapati, sovereign king, at Raigad.
+  why: Resistance to Mughal and Deccan sultanate rule, and the ambitions of Maratha warrior families.
+  then: Aurangzeb spent his last 25 years fighting the Marathas in the Deccan. After his death the Marathas expanded across much of India, until defeated by the Afghans at Panipat (1761) and finally by the British (1818).
+## d-calcutta | 1690 | Job Charnock founds Calcutta | who: Job Charnock of the East India Company | where: Kolkata (Calcutta), India
+  bluf: Calcutta gave the East India Company a fortified base in Bengal, the richest province of Mughal India. From there the Company won Bengal in 1757 and began its conquest of India, and Calcutta became the capital of British India.
+  now: Kolkata is one of India's largest cities; whether Charnock should be called its founder is still debated.
+  story: After clashes with the Mughal governor of Bengal, Job Charnock returned in August 1690 and settled at Sutanuti on the Hooghly. In 1698 the Company bought the rights to three villages, and Fort William was built nearby.
+  why: Bengal produced silk, cotton cloth and saltpetre for gunpowder, and the Company needed a secure port there.
+  then: Calcutta became the base from which Clive won Bengal in 1757, and the capital of British India until 1911.
+## as170722 | 1707 | Aurangzeb dies | who: Emperor Aurangzeb; his feuding sons | where: India
+  bluf: Aurangzeb's death began the Mughal Empire's rapid fragmentation. Overstretched by decades of war in the Deccan and having alienated many Hindu nobles with his religious policies, the empire broke into regional states that the British later exploited.
+  now: Aurangzeb is one of the most fiercely debated figures in Indian politics today.
+  story: Aurangzeb pushed the Mughal Empire to its greatest size, but spent his last 25 years campaigning against the Marathas in the Deccan. He reimposed the tax on non-Muslims and lost the loyalty of many Hindu nobles. He died in 1707 aged 88, and his sons fought over the throne.
+  why: He died at 88 after decades of costly campaigns and religious policies that cost him the loyalty of many nobles.
+  then: His sons fought over the throne. Regional powers, from the Marathas to the nawabs of Bengal and Hyderabad, became independent in practice, and the East India Company exploited the divisions.
+## as173923 | 1739 | Nader Shah sacks Delhi | who: Nader Shah of Persia | where: Delhi
+  bluf: Nader Shah's sack of Delhi exposed the Mughal Empire's military weakness and emptied its treasury. It sped the empire's collapse into regional powers and showed European companies how vulnerable India had become.
+  now: The Koh-i-Noor diamond, taken in the sack, is now in the British Crown Jewels, and India still asks for it back.
+  story: In 1739 Nader Shah of Persia crushed the Mughal army at Karnal. In Delhi, after some of his soldiers were killed, he ordered a massacre in which perhaps 20,000 or more people died. He left with the Peacock Throne and the Koh-i-Noor diamond.
+  why: Nader Shah was drawn by Mughal wealth and a weak emperor, and Mughal border defences had collapsed.
+  then: Mughal weakness was laid bare; regional rulers and the British and French companies drew their own conclusions.
+## as175724 | 1757 | Battle of Plassey | who: Robert Clive (East India Co.) vs. Nawab of Bengal | where: Bengal, India
+  bluf: Plassey gave the East India Company control of Bengal, India's richest province, through bribery and betrayal more than battle. It turned a trading company into a territorial power and began nearly two centuries of British rule in India.
+  now: Plassey is often called the start of the British Empire in India, and Indian historians cite the 'drain' of Bengal's wealth as the start of colonial impoverishment.
+  story: After Nawab Siraj ud-Daulah captured Calcutta in 1756, Robert Clive marched against him. Before the battle Clive secretly promised the throne to the Nawab's commander, Mir Jafar, who held his troops back. On June 23, 1757 Clive's small army won at Plassey.
+  why: The Nawab resented the Company's fortifications and its abuse of trade privileges, and Clive plotted with discontented Bengali nobles and bankers.
+  trig: The Nawab's capture of Calcutta in 1756, and the deaths of British prisoners in the 'Black Hole', which the Company used to justify war.
+  then: The Company installed Mir Jafar as a puppet Nawab and extracted huge payments; after Buxar (1764) it won the right to collect Bengal's land revenue. Bengal's taxes then paid for further conquest, and Company misrule contributed to the devastating Bengal famine of 1770.
+  fact: Clive's ~3,000 troops beat ~50,000 because he bribed the Nawab's commander, Mir Jafar, to stand aside.
+## sa-panipat | 1761 | Third Battle of Panipat | who: Ahmad Shah Durrani of Afghanistan vs. the Maratha Empire | where: Panipat, north of Delhi
+  bluf: The Afghan victory at Panipat broke the Marathas, the strongest Indian power of the day, just as the East India Company was taking Bengal. With no Indian power able to unite the north, the British faced weaker, divided opponents.
+  now: Panipat shows how a contest between two Indian powers left a vacuum the East India Company filled; India's divisions, not British strength alone, made the conquest possible.
+  story: The Marathas had expanded to the Punjab, challenging Ahmad Shah Durrani, founder of modern Afghanistan. On January 14, 1761, his army destroyed the Maratha force; tens of thousands of soldiers and camp followers were killed or massacred.
+  why: Rivalry for control of the decaying Mughal Empire's northern lands.
+  then: Maratha power in the north was broken for a decade, and the Afghans withdrew, leaving a vacuum that gave the East India Company room to expand.
+## sa-tipu | 1799 | Tipu Sultan killed at Seringapatam | who: Tipu Sultan of Mysore; East India Company forces | where: Seringapatam (Srirangapatna), Mysore
+  bluf: Tipu Sultan's death removed the East India Company's most determined Indian enemy and secured southern India for Britain. It showed that even modernizing Indian states could not match the Company's resources.
+  now: Tipu is a divisive figure in India today: an anti-colonial hero to some, a persecutor of Hindus and Christians to others. Mysore's iron-cased rockets inspired Britain's Congreve rockets.
+  story: Mysore, under Tipu, 'the Tiger of Mysore', and his father Hyder Ali, fought the Company in four wars, used iron-cased war rockets and sought French help. In May 1799 Company troops stormed Seringapatam and Tipu died defending it.
+  why: The Company feared Tipu's alliance with Napoleon's France, whose army was then in Egypt, and saw a chance to destroy its strongest rival in the south.
+  then: The Company restored a puppet dynasty in Mysore and turned to the Marathas.
+## sa-maratha1818 | 1818 | Britain defeats the Marathas | who: East India Company; Peshwa Baji Rao II | where: Pune
+  bluf: The defeat of the Maratha confederacy removed the last Indian power able to challenge the East India Company. From 1818 the Company was the paramount power in India, ruling directly or through dependent princes.
+  now: Over 500 princely states had to be absorbed into India and Pakistan in 1947, a legacy of this system; Nana Sahib, the last Peshwa's adopted heir, became a leader of the 1857 rebellion.
+  story: In the Third Anglo-Maratha War of 1817-18, Company armies defeated the Peshwa and the other Maratha chiefs. The Peshwa was pensioned off near Kanpur.
+  why: Governor-General Hastings set out to eliminate rival Indian powers and end raiding by Pindari bands.
+  then: Much of India was now ruled through 'princely states' bound by treaty to the Company.
+## as185732 | 1857 | Indian Rebellion | who: Indian soldiers (sepoys), princes, peasants | where: Northern India
+  bluf: The rebellion of 1857 was the largest challenge to British rule in India, combining a soldiers' mutiny with uprisings by princes, landlords and peasants. Its suppression ended East India Company rule and the Mughal dynasty, and hardened British and Indian attitudes for the rest of the Raj.
+  now: The rebellion ended Company rule and the policy of reform; the Crown governed India after 1858 through the princes and landlords, kept Indians out of the army's command and treated Hindus and Muslims as separate blocs, a structure that shaped partition ninety years later.
+  story: In May 1857 Indian soldiers (sepoys) at Meerut mutinied over new rifle cartridges rumoured to be greased with cow and pig fat, offensive to Hindus and Muslims alike. They marched to Delhi and proclaimed the aged Mughal emperor Bahadur Shah II their leader. Revolt spread across northern India, both sides committed atrocities, and British forces retook Delhi and Lucknow by 1858.
+  why: Annexations of Indian states such as Awadh (1856), lost status for landed elites, heavy land taxes, fears of forced Christianization and Westernization, and grievances among sepoys over pay and service overseas.
+  trig: The cartridge controversy and the harsh punishment of sepoys at Meerut who refused to use them.
+  then: Britain abolished the Company and ruled India directly through a viceroy; the last Mughal emperor was exiled to Burma. Britain stopped annexing princely states, recruited soldiers from groups it considered loyal, and kept itself more segregated from Indian society.
+  fact: Indian nationalists call it the First War of Independence.
+## as185833 | 1858 | British Raj begins | who: British Crown | where: India
+  bluf: The British Crown took direct control of India, replacing Company rule with a bureaucratic empire under a viceroy. The Raj built railways, courts and an English-educated elite while extracting revenue and presiding over devastating famines, a mixed legacy still fiercely debated.
+  now: India's railways, legal system, civil service and use of English are Raj legacies, and how to weigh them against its famines and extraction is fiercely debated in India and Britain.
+  story: The Government of India Act of 1858 transferred power from the East India Company to the British Crown. Queen Victoria's proclamation promised religious tolerance, and a viceroy ruled from Calcutta (from 1911, New Delhi).
+  why: The 1857 rebellion convinced Parliament that a trading company could not govern India.
+  then: British rule lasted 89 years. The English-educated middle class it created founded the Indian National Congress in 1885, which led the independence movement.
+## as187737 | 1877 | Victoria made Empress of India | who: PM Benjamin Disraeli; Queen Victoria | where: India
+  bluf: Making Victoria Empress of India tied India's princes to the British Crown and projected imperial grandeur. Celebrating it during a famine highlighted the gap between imperial pageantry and Indian suffering.
+  now: Imperial pageants such as the Delhi Durbars shaped how the Raj presented itself, and the title lasted until 1947.
+  story: Under the Royal Titles Act of 1876, Prime Minister Benjamin Disraeli made Queen Victoria 'Empress of India'. The title was proclaimed at a grand Delhi Durbar on January 1, 1877, while famine was spreading across southern India.
+  why: Disraeli wanted to tie India's princes to the Crown and match the prestige of the German and Russian emperors.
+  then: Famine killed millions in 1876-78 while the celebrations went on, and Indian critics began to argue that British rule was draining India's wealth.
+## as188538 | 1885 | Indian National Congress | who: Educated Indian elites (later Gandhi, Nehru) | where: Bombay
+  bluf: The Indian National Congress gave Western-educated Indians a national political organization, at first seeking reform within British rule. Under Gandhi it became the mass movement that won independence, and it dominated independent India's politics for decades.
+  now: It ruled India for most of its first 50 years, and its decline since the 1990s has reshaped Indian politics around the Hindu-nationalist BJP.
+  story: In December 1885, 72 delegates, mostly lawyers, teachers and journalists, met in Bombay to found the Indian National Congress, helped by a retired British official, Allan Octavian Hume. At first it asked politely for a larger Indian role in government.
+  why: Western-educated Indians wanted a voice in how India was governed, and racial discrimination, such as the backlash against the Ilbert Bill that let Indian judges try Europeans, gave them a cause.
+  then: Under Gandhi and Nehru, Congress became a mass movement and led India to independence in 1947.
+## sa-bengal | 1905 | Partition of Bengal | who: Viceroy Lord Curzon; Bengali nationalists | where: Calcutta
+  bluf: Curzon's partition of Bengal provoked India's first mass nationalist campaign, the Swadeshi boycott of British goods. Its reversal in 1911 showed that mass protest could change British policy, while the Hindu-Muslim divide it exposed foreshadowed 1947.
+  now: The line of 1905 roughly anticipated the borders of East Pakistan and Bangladesh.
+  story: Curzon divided the huge province, creating a Muslim-majority east. Bengali Hindus saw it as divide-and-rule and launched the Swadeshi movement, boycotting British goods.
+  why: Officially administrative efficiency; nationalists saw an attempt to weaken Bengal's politics.
+  then: Britain reversed the partition in 1911 and moved the capital to Delhi, but separate Muslim electorates, granted in 1909, kept the communal divide alive.
+## sa-muslimleague | 1906 | All-India Muslim League founded | who: Muslim notables including Aga Khan III | where: Dhaka
+  bluf: The Muslim League gave India's Muslim elites a political vehicle separate from Congress and won separate electorates in 1909. Under Jinnah it demanded, and won, Pakistan.
+  now: Its argument that India's Muslims formed a separate nation led to Pakistan's creation in 1947, and the 'two-nation' idea still divides India and Pakistan.
+  story: Founded in Dhaka to protect Muslim interests in British India, the League won separate Muslim electorates in 1909. Under Muhammad Ali Jinnah, from 1940 it demanded a separate Muslim homeland.
+  why: Muslim elites feared domination by the Hindu-majority Congress, and the backlash against the 1905 partition of Bengal, which had created a Muslim-majority province, alarmed them.
+  then: The League's 1940 Lahore Resolution demanded separate Muslim states, which became Pakistan in 1947.
+## sa-amritsar | 1919 | Amritsar massacre | who: Brigadier-General Reginald Dyer; Punjabi civilians | where: Jallianwala Bagh, Amritsar
+  bluf: The Amritsar massacre turned many moderate Indians against British rule and gave Gandhi's mass movement its moral force. Support for Dyer among some in Britain exposed the gap between the empire's claims and its practice.
+  now: Britain has expressed 'regret' but never formally apologized, and the massacre remains a central reference in debates over how Britain remembers its empire.
+  story: On April 13, 1919, Dyer marched troops into a walled garden where thousands had gathered and ordered them to fire without warning. Officially 379 people were killed; Indian estimates were around 1,000.
+  why: Unrest over the Rowlatt Acts, which extended wartime detention without trial.
+  then: Gandhi launched the Non-Cooperation Movement in 1920, and moderates who had trusted British promises turned to demanding independence.
+## as193052 | 1930 | Gandhi's Salt March | who: Mahatma Gandhi | where: Gujarat, India
+  bluf: Gandhi's Salt March turned a simple tax into a symbol of British injustice and drew millions into nonviolent civil disobedience. It made Indian independence a mass movement and gave the world a model of nonviolent resistance.
+  now: His nonviolent methods inspired Martin Luther King Jr., Nelson Mandela and many later movements, and studies of civil resistance still use the Salt March as a model.
+  story: On March 12, 1930, Gandhi set out from his ashram near Ahmedabad with 78 followers and walked about 385 km (240 miles) to the sea at Dandi. On April 6 he picked up a lump of natural salt, breaking the law that made salt a government monopoly. Millions followed by making or buying illegal salt, boycotting British cloth and refusing taxes; at the Dharasana salt works police beat unresisting marchers, and the reports reached newspapers worldwide.
+  why: Gandhi chose the salt tax as a simple injustice that every Indian understood.
+  then: Over 60,000 people were arrested, and Britain was forced to negotiate with Gandhi as an equal at the Round Table Conference of 1931.
+  fact: He walked 240 miles in 24 days, then picked up a lump of natural salt, breaking British law.
+## sa-quitindia | 1942 | Quit India Movement | who: Gandhi; the Indian National Congress | where: Bombay
+  bluf: The Quit India movement demanded immediate independence in the middle of the war and led to the jailing of the Congress leadership. With Congress jailed, the Muslim League strengthened its position, making partition more likely.
+  now: The movement showed that Britain could hold India only by force, which it would not have after the war; independence and partition followed within five years.
+  story: With Japan on India's border, Congress launched a mass campaign on August 8, 1942, demanding immediate independence. Within hours Gandhi, Nehru and the leadership were arrested; tens of thousands followed, and protests were crushed.
+  why: Britain had declared India at war without consulting Indians, and the Cripps mission offered too little.
+  then: With Congress jailed until 1945, the Muslim League grew stronger and won Muslim seats in the 1946 elections, strengthening its demand for Pakistan.
+## as194757 | 1947 | Partition of India | who: Britain; Nehru, Jinnah | where: South Asia
+  bluf: Partition divided British India into Hindu-majority India and Muslim-majority Pakistan, triggering one of history's largest migrations and terrible communal massacres. It created two nations whose rivalry, over Kashmir and identity, has led to wars and a nuclear standoff.
+  now: India and Pakistan are nuclear-armed rivals, and the memory of Partition feeds nationalist narratives and communal tensions in both countries.
+  story: Britain, exhausted after the war, decided to leave India quickly. With Congress and the Muslim League unable to agree on a united India, the last viceroy, Lord Mountbatten, brought the handover forward to August 1947. A British lawyer, Cyril Radcliffe, drew the borders through Punjab and Bengal in five weeks, and they were published two days after independence. About 15 million people crossed the new borders, and estimates of the dead range from about 200,000 to two million.
+  why: Decades of growing Hindu-Muslim political division, hardened by separate electorates; the Muslim League's demand for Pakistan; Britain's weakness and haste to leave; and escalating violence such as the Calcutta killings of 1946.
+  trig: Britain's decision to leave by August 1947 and the collapse of plans for a united federation.
+  then: India and Pakistan went to war over Kashmir within months, and Pakistan itself split in 1971 when Bangladesh won independence. Millions of refugees reshaped cities such as Delhi, Lahore and Karachi.
+  fact: The border was drawn in about five weeks by a British lawyer, Cyril Radcliffe, who had never been to India.
+## sa-kashmir | 1947 | First Kashmir war | who: India; Pakistan; Maharaja Hari Singh | where: Kashmir
+  bluf: The first Kashmir war left the territory divided between India and Pakistan along a ceasefire line that still exists. Kashmir became the core of their rivalry and one of the world's most dangerous flashpoints.
+  now: Kashmir remains the most dangerous dispute between two nuclear-armed states.
+  story: When Pakistani tribal fighters invaded in October 1947, Kashmir's Hindu ruler acceded to India, which sent troops. A UN ceasefire on January 1, 1949, left the state divided along what became the Line of Control.
+  why: The Muslim-majority princely state's Hindu ruler hesitated to choose between India and Pakistan.
+  then: India and Pakistan fought again over Kashmir in 1965 and 1999, and an insurgency in Indian-held Kashmir began in 1989.
+## sa-gandhi | 1948 | Gandhi assassinated | who: Nathuram Godse; Mahatma Gandhi | where: New Delhi
+  bluf: Gandhi was killed by a Hindu nationalist who opposed his efforts to reconcile Hindus and Muslims after Partition. The assassination discredited Hindu nationalism for decades and made Gandhi a global martyr of nonviolence.
+  now: Gandhi's methods inspired Martin Luther King Jr., Nelson Mandela and movements worldwide.
+  story: On January 30, 1948, Nathuram Godse shot Gandhi at a prayer meeting. Godse blamed him for partition and for being too conciliatory to Muslims and Pakistan.
+  why: Gandhi had fasted to stop communal violence and to make India pay Pakistan its share of assets.
+  then: The government banned the RSS, the Hindu nationalist group Godse had once belonged to, for over a year.
+## sa-constitution | 1950 | India becomes a republic | who: B. R. Ambedkar; the Constituent Assembly | where: New Delhi
+  bluf: India's constitution created a secular, democratic republic with universal adult suffrage in a poor, diverse and largely illiterate society. Its survival made India the world's largest democracy.
+  now: India is the world's largest democracy, and arguments over its secular character and the reach of its courts are at the centre of its politics today.
+  story: Drafted by a committee chaired by B. R. Ambedkar, a jurist from the 'untouchable' Dalit community, the constitution took effect on January 26, 1950. It guaranteed equal rights, abolished untouchability and gave every adult the vote.
+  why: Independence required a new constitutional order for a vast, diverse country.
+  then: The first general election, in 1951-52, had over 170 million eligible voters, the largest ever held at the time.
+## sa-sinoindian | 1962 | Sino-Indian War | who: China; India | where: Himalayan border (Aksai Chin and Arunachal Pradesh)
+  bluf: China's swift defeat of India in 1962 settled the border war in China's favour and humiliated India's leadership. The unresolved Himalayan border remains a source of tension between Asia's two giants.
+  now: The border is still disputed; troops clashed in the Galwan valley in 2020.
+  story: After years of disputes over Aksai Chin and the McMahon Line, and India's sheltering of the Dalai Lama after 1959, China attacked in October 1962, routed Indian forces and declared a ceasefire a month later, keeping Aksai Chin.
+  why: Colonial-era borders that China never accepted, Indian patrols pushing into contested areas under a 'forward policy', and tension over Tibet.
+  then: India rearmed and moved closer to the Soviet Union; China tested a nuclear bomb in 1964.
+## sa-bangladesh | 1971 | Bangladesh Liberation War | who: Bengali nationalists (Sheikh Mujibur Rahman); Pakistan's army; India | where: Dhaka
+  bluf: Bangladesh's war of independence split Pakistan in two after a brutal military crackdown and Indian intervention. It showed that religion alone could not hold a nation together across linguistic and cultural divides, and it made India the dominant power in South Asia.
+  now: Bangladesh is one of the world's most populous countries and a major garment exporter, and the war's memory, including trials of collaborators, remains politically charged there.
+  story: When Mujib's Awami League won the 1970 election, West Pakistan's leaders refused to let him govern. In March 1971 the army launched a crackdown that killed hundreds of thousands, by most estimates, and drove about 10 million refugees into India. India intervened in December, and Pakistan's forces surrendered within two weeks.
+  why: West Pakistan dominated politics, the army and the economy, and attempts to impose Urdu had provoked Bengali resistance since the Language Movement of 1952. The two wings were 1,600 km apart.
+  trig: The army's crackdown ('Operation Searchlight') from March 25, 1971, after Pakistan's leaders refused to let the election winners govern.
+  then: Bangladesh became independent and Pakistan lost more than half its population. The United States and China backed Pakistan while the Soviet Union backed India, and the defeat deepened Pakistan's rivalry with India.
+## sa-pokhran1974 | 1974 | India's first nuclear test | who: Indian Atomic Energy Commission | where: Pokhran, Rajasthan
+  bluf: India's first nuclear test made it the first country outside the five recognized nuclear powers to explode a device. It led to tighter global controls on nuclear exports and set South Asia on the path to an open nuclear rivalry.
+  now: India and Pakistan both openly tested weapons in 1998, and South Asia now has two nuclear-armed rivals that have fought limited wars since.
+  story: Code-named 'Smiling Buddha', the test of May 18, 1974, made India the first nation outside the five permanent Security Council members to explode a nuclear device.
+  why: China's nuclear weapons, tested in 1964, two years after it defeated India.
+  then: The test led to the creation of the Nuclear Suppliers Group to control nuclear exports.
+## d-saur | 1978 | Saur Revolution | who: The communist People's Democratic Party of Afghanistan; President Mohammed Daoud Khan | where: Kabul
+  bluf: The Saur Revolution brought Afghan communists to power in a coup, and their violent reforms provoked a rebellion that drew in the Soviet Union. It began more than four decades of war in Afghanistan.
+  now: It began more than four decades of war in Afghanistan, which ended with the Taliban back in power in 2021.
+  story: On April 27, 1978, army officers loyal to the communist party stormed the palace and killed President Daoud and his family. The new government pushed land reform and secular education by force and arrested thousands of opponents.
+  why: Daoud had cracked down on the communists after one of their leaders was assassinated.
+  then: Revolt spread, and the regime's infighting led the USSR to invade in December 1979.
+## as197968b | 1979 | Soviet Union invades Afghanistan | who: Soviet army; Afghan mujahideen | where: Kabul
+  bluf: The Soviet invasion of Afghanistan began a ten-year war that drained the USSR and helped bring about its collapse. The US- and Saudi-backed resistance built networks of Islamist militants, including Osama bin Laden, that shaped global terrorism.
+  now: Afghanistan has seen almost continuous war since 1979, and the Soviet defeat was a warning about occupying the country that the US later relearned.
+  story: In December 1979 Soviet forces entered Afghanistan, killed its communist leader and installed a more pliable one. Afghan mujahideen, armed by the US, Saudi Arabia and Pakistan, fought them for nearly ten years. About 15,000 Soviet soldiers and perhaps a million or more Afghans died.
+  why: Moscow feared losing a communist neighbour to rebellion and infighting.
+  then: The war drew foreign Islamist volunteers, among them Osama bin Laden. Soviet troops left in 1989; Afghanistan fell into civil war, and the Taliban took power in 1996.
+## sa-bhopal | 1984 | Bhopal gas disaster | who: Union Carbide India Limited | where: Bhopal, India
+  bluf: The Bhopal gas leak, the world's worst industrial disaster, killed thousands and injured hundreds of thousands. It became the symbol of corporate negligence in developing countries and of how hard it is to hold multinationals accountable.
+  now: The site was still contaminated decades later; it changed how the world regulates hazardous industry.
+  story: On the night of December 2-3, 1984, about 40 tonnes of methyl isocyanate gas escaped from Union Carbide's pesticide plant and spread over sleeping neighbourhoods. The official immediate death toll was about 3,800; later estimates of total deaths are far higher, and hundreds of thousands were injured.
+  why: Safety systems at a loss-making plant had been neglected, and a dense neighbourhood had grown up around it.
+  then: Union Carbide paid $470 million in a 1989 settlement that victims called inadequate.
+## sa-indira | 1984 | Indira Gandhi assassinated | who: Indira Gandhi; her Sikh bodyguards | where: New Delhi
+  bluf: Indira Gandhi's assassination by her Sikh bodyguards, after she sent the army into the Golden Temple, was followed by the massacre of about 3,000 Sikhs. It exposed the dangers of religious polarization and state violence in India's democracy.
+  now: Justice for the 1984 killings of Sikhs remains a political issue in India, and Sikh separatism is still a source of tension, including in India's relations with Canada.
+  story: In June 1984 Indira Gandhi ordered troops into the Golden Temple in Amritsar to remove armed Sikh militants; hundreds died. On October 31 two of her Sikh bodyguards shot her. In the days after, mobs killed about 3,000 Sikhs in Delhi.
+  why: Two of her Sikh bodyguards sought revenge for her order to send the army into the Golden Temple, Sikhism's holiest shrine, to remove armed militants.
+  then: Her son Rajiv became prime minister; the Punjab insurgency continued into the 1990s, and Rajiv was himself assassinated in 1991 by a Tamil Tiger suicide bomber.
+## d-stinger | 1986 | Stinger missiles reach the mujahideen | who: The CIA; Pakistan's intelligence service; Afghan mujahideen | where: Near Jalalabad, Afghanistan
+  bluf: US-supplied Stinger missiles helped make the Soviet war in Afghanistan unwinnable. But the flood of weapons and foreign fighters shaped decades of conflict and terrorism after the Soviets left.
+  now: The flood of weapons and foreign volunteers shaped the Afghan wars that followed.
+  story: Through Operation Cyclone, the CIA channelled billions of dollars of weapons through Pakistan to Afghan rebels. In September 1986 mujahideen fired the first Stingers near Jalalabad, bringing down Soviet helicopters.
+  why: The US wanted to make Afghanistan the Soviet Union's Vietnam, and Congress pushed a reluctant CIA to supply advanced missiles.
+  then: Soviet helicopter losses mounted and Gorbachev decided to pull out; many Stingers were never recovered.
+## d-sovwithdraw | 1989 | Soviet troops leave Afghanistan | who: General Boris Gromov and the Soviet 40th Army | where: Termez, on the Afghan-Soviet border
+  bluf: The Soviet withdrawal from Afghanistan ended a costly, failed war and weakened the Soviet Union in its final years. Afghanistan fell into civil war, which led to Taliban rule.
+  now: The defeat weakened the Soviet Union in its final years, and the bitterness of its veterans echoed in Russia's later wars.
+  story: Under the 1988 Geneva Accords, Soviet forces withdrew in stages. On February 15, 1989 their commander, General Gromov, was the last to walk across the bridge over the Amu Darya.
+  why: Gorbachev called the war a 'bleeding wound' and wanted to end its costs.
+  then: Afghanistan's communist government fell in 1992, and civil war led to Taliban rule in 1996.
+## sa-reforms1991 | 1991 | India opens its economy | who: Prime Minister P. V. Narasimha Rao; Finance Minister Manmohan Singh | where: New Delhi
+  bluf: Facing bankruptcy, India dismantled its 'licence raj' and opened its economy, ending decades of state-led self-sufficiency. Growth accelerated and India became one of the world's largest and fastest-growing economies.
+  now: India is now one of the world's largest economies, and its rise makes it a key swing power between the United States and China.
+  story: With foreign reserves enough for only a few weeks of imports, India pledged its gold and turned to the IMF. Manmohan Singh's 1991 budget cut tariffs, devalued the rupee and scrapped most industrial licensing.
+  why: A balance-of-payments crisis, worsened by the Gulf War oil shock and the collapse of trade with the Soviet Union.
+  then: Growth accelerated, India's IT and services industries boomed, and hundreds of millions rose out of extreme poverty.
+## sa-pokhran1998 | 1998 | India and Pakistan test nuclear weapons | who: India (Atal Bihari Vajpayee); Pakistan (Nawaz Sharif) | where: Pokhran, India, and Chagai, Pakistan
+  bluf: India's and Pakistan's nuclear tests made South Asia openly nuclear-armed, turning their rivalry into one of the world's most dangerous. Mutual deterrence has since coexisted with repeated crises, from the Kargil war of 1999 to the strikes of 2019 and 2025.
+  now: South Asia is one of the regions where nuclear war is considered most plausible.
+  story: On May 11 and 13, 1998, India set off five nuclear devices at Pokhran in the Rajasthan desert, its first tests since 1974, under a new BJP-led government. Pakistan answered within three weeks with six tests in the Chagai Hills of Balochistan. Both declared themselves nuclear-weapon states; neither had signed the Non-Proliferation Treaty.
+  why: Rivalry with Pakistan over Kashmir, India's concern about China's nuclear arsenal, and a new BJP-led government that saw nuclear status as a mark of great-power standing.
+  then: Both faced sanctions, soon lifted, and in 1999 they fought a limited war at Kargil.
+## as200173b | 2001 | US invades Afghanistan | who: US and allies; the Afghan Northern Alliance; the Taliban | where: Afghanistan
+  bluf: The US-led invasion toppled the Taliban within weeks, but the 20-year effort to build a stable Afghan state failed. The Taliban's return in 2021 made it a lesson in the limits of nation-building by outside powers.
+  now: The Taliban returned to power in 2021 and have barred girls from secondary school and women from most work, while the chaotic US exit damaged American credibility.
+  story: When the Taliban refused to hand over Osama bin Laden, US bombing and special forces backing the Northern Alliance drove the Taliban from Kabul by November 2001. Bin Laden escaped into Pakistan.
+  why: The Taliban refused to hand over Osama bin Laden after the 9/11 attacks, and the US wanted to destroy al-Qaeda's bases.
+  then: The war lasted 20 years, NATO's longest, as a Taliban insurgency regrouped.
+## na201194 | 2011 | Bin Laden killed | who: US Navy SEALs | where: Abbottabad, Pakistan
+  bluf: The killing of Osama bin Laden removed al-Qaeda's founder and symbol ten years after 9/11. That he had lived for years near Pakistan's main military academy strained US-Pakistan relations.
+  now: It closed a chapter of the post-9/11 era, and US attention shifted from counterterrorism toward rivalry with China and Russia.
+  story: On May 2, 2011, US Navy SEALs flew from Afghanistan into Pakistan and raided a compound in Abbottabad, near Pakistan's main military academy, killing Osama bin Laden. His body was buried at sea.
+  why: CIA analysts tracked one of bin Laden's couriers to a large compound in Abbottabad, and Obama chose a risky raid over an air strike so that the death could be confirmed.
+  then: Al-Qaeda's central leadership weakened, though its regional branches and its rival ISIS survived. The raid on Pakistani soil, carried out without Pakistan's knowledge, deepened mistrust between the two countries.
+## as202178 | 2021 | Taliban retake Kabul | who: The Taliban; US forces (Joe Biden) | where: Afghanistan
+  bluf: The Taliban's swift capture of Kabul as US forces withdrew ended America's longest war. The Afghan army's collapse showed how dependent it had been on US support, and the Taliban restored strict rule, barring girls from education beyond primary school.
+  now: Afghanistan is the only country that bars girls from education beyond primary school.
+  story: Under a 2020 deal with the Taliban, US forces left after 20 years. The Afghan government and army collapsed in days, and the Taliban entered Kabul on August 15, 2021; a chaotic airlift evacuated over 120,000 people.
+  why: The US withdrew under a 2020 deal with the Taliban, and the Afghan army, dependent on US support, collapsed.
+  then: The Taliban restored their rule and banned girls from secondary school and university.

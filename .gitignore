@@ -24,3 +24,6 @@ desktop.ini
 test-results/
 playwright-report/
 *.log
+
+# Pipeline scratch
+work/

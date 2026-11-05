@@ -1,0 +1,1390 @@
+[
+ {
+  "from": 1410,
+  "to": 1438,
+  "country": "Iran",
+  "regions": [
+   "Ardebil",
+   "East Azarbaijan",
+   "Gilan",
+   "Kermanshah",
+   "Kordestan",
+   "West Azarbaijan",
+   "Zanjan"
+  ],
+  "owner": "Qara Qoyunlu",
+  "why": "Qara Yusuf retook Tabriz and was independent of the Timurids from c.1408-1410; map wrongly shows Qara Qoyunlu under Timurid overlordship 1410-1430",
+  "source": "https://en.wikipedia.org/wiki/Qara_Qoyunlu",
+  "severity": "minor"
+ },
+ {
+  "from": 1438,
+  "to": 1447,
+  "country": "Iran",
+  "regions": [
+   "Ardebil",
+   "East Azarbaijan",
+   "Gilan",
+   "Kermanshah",
+   "Kordestan",
+   "West Azarbaijan",
+   "Zanjan"
+  ],
+  "owner": "Qara Qoyunlu",
+  "overlord": "Timurid Empire",
+  "why": "Jahan Shah ruled as a Timurid vassal until Shah Rukh's death in 1447; map shows him independent in 1440",
+  "source": "https://en.wikipedia.org/wiki/Qara_Qoyunlu",
+  "severity": "minor"
+ },
+ {
+  "from": 1448,
+  "to": 1468,
+  "country": "Iran",
+  "regions": [
+   "Zanjan",
+   "Qazvin",
+   "Alborz",
+   "Tehran",
+   "Hamadan",
+   "Markazi",
+   "Qom"
+  ],
+  "owner": "Qara Qoyunlu",
+  "why": "After 1447 Jahan Shah took Sultaniya, Qazvin, Rey and Hamadan; map keeps these Timurid until 1460/1470",
+  "source": "https://en.wikipedia.org/wiki/Qara_Qoyunlu",
+  "severity": "major"
+ },
+ {
+  "from": 1453,
+  "to": 1468,
+  "country": "Iran",
+  "regions": [
+   "Esfahan",
+   "Fars",
+   "Yazd",
+   "Chahar Mahall and Bakhtiari",
+   "Kohgiluyeh and Buyer Ahmad",
+   "Lorestan",
+   "Bushehr"
+  ],
+  "owner": "Qara Qoyunlu",
+  "why": "Jahan Shah conquered Isfahan, Shiraz (Fars) and Yazd in the 1450s; map shows Timurids holding most of Iran (85-88%) in 1460-1470",
+  "source": "https://en.wikipedia.org/wiki/Qara_Qoyunlu",
+  "severity": "major"
+ },
+ {
+  "from": 1468,
+  "to": 1480,
+  "country": "Iran",
+  "regions": [
+   "Ardebil",
+   "East Azarbaijan",
+   "West Azarbaijan",
+   "Zanjan",
+   "Qazvin",
+   "Alborz",
+   "Tehran",
+   "Hamadan",
+   "Markazi",
+   "Qom",
+   "Esfahan",
+   "Fars",
+   "Yazd",
+   "Chahar Mahall and Bakhtiari",
+   "Kohgiluyeh and Buyer Ahmad",
+   "Lorestan",
+   "Bushehr",
+   "Kermanshah",
+   "Kordestan"
+  ],
+  "owner": "Aq Qoyunlu",
+  "why": "Uzun Hasan destroyed the Qara Qoyunlu (1467-68) and defeated Timurid Abu Sa'id in 1469, taking western and central Iran; map shows Timurids still holding 88% of Iran in 1470",
+  "source": "https://en.wikipedia.org/wiki/Aq_Qoyunlu",
+  "severity": "major"
+ },
+ {
+  "from": 1590,
+  "to": 1603,
+  "country": "Iran",
+  "regions": [
+   "Ardebil",
+   "Gilan",
+   "Qazvin"
+  ],
+  "owner": "Safavid Dynasty",
+  "why": "Treaty of Constantinople (1590) ceded Azerbaijan, Luristan, Kurdistan and Khuzestan but explicitly not Ardabil; Qazvin was the Safavid capital and Gilan was Safavid. Map gives all three to the Ottomans 1590-1600",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Constantinople_(1590)",
+  "severity": "major"
+ },
+ {
+  "from": 1730,
+  "to": 1736,
+  "country": "Iran",
+  "regions": [
+   "*"
+  ],
+  "owner": "Safavid Dynasty",
+  "except": [
+   "Ardebil",
+   "East Azarbaijan",
+   "West Azarbaijan",
+   "Hamadan",
+   "Ilam",
+   "Kermanshah",
+   "Kordestan",
+   "Lorestan",
+   "Zanjan",
+   "Gilan",
+   "Mazandaran",
+   "Golestan",
+   "Sistan and Baluchestan"
+  ],
+  "why": "Hotaki Afghans were expelled from Persia by Nader (Battle of Damghan, Sept/Oct 1729) and Tahmasp II restored; map still shows Hotaki holding 82% of Iran in 1730",
+  "source": "https://en.wikipedia.org/wiki/Hotak_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1480,
+  "to": 1504,
+  "country": "Afghanistan",
+  "regions": [
+   "Kabul",
+   "Wardak",
+   "Parwan",
+   "Logar",
+   "Laghman",
+   "Nangarhar",
+   "Kunar",
+   "Nuristan",
+   "Paktya",
+   "Khost",
+   "Bamyan",
+   "Baghlan",
+   "Takhar"
+  ],
+  "owner": "Timurid Empire",
+  "why": "Kabul was the Timurid appanage of Ulugh Beg Mirza II (1461-1502) until Babur took it in 1504; map labels it with the anachronistic modern province name 'Kapisa'",
+  "source": "https://en.wikipedia.org/wiki/Ulugh_Beg_II",
+  "severity": "major"
+ },
+ {
+  "from": 1750,
+  "to": 1760,
+  "country": "Afghanistan",
+  "regions": [
+   "*"
+  ],
+  "owner": "Durrani Empire",
+  "why": "Afsharid authority in Afghanistan ended with Nader's death in 1747; Ahmad Shah Durrani held Kandahar and Kabul from 1747 and Herat from 1750. Map shows Afsharid Iran holding 77% of Afghanistan in 1750",
+  "source": "https://en.wikipedia.org/wiki/Ahmad_Shah_Durrani",
+  "severity": "major"
+ },
+ {
+  "from": 1750,
+  "to": 1760,
+  "country": "Pakistan",
+  "regions": [
+   "K.P.",
+   "F.A.T.A."
+  ],
+  "owner": "Durrani Empire",
+  "why": "Peshawar and the trans-Indus lands passed to Ahmad Shah Durrani after 1747; map shows Afsharid Iran in 1750",
+  "source": "https://en.wikipedia.org/wiki/Ahmad_Shah_Durrani",
+  "severity": "major"
+ },
+ {
+  "from": 1750,
+  "to": 1752,
+  "country": "Pakistan",
+  "regions": [
+   "Punjab",
+   "F.C.T.",
+   "Azad Kashmir"
+  ],
+  "owner": "Mughal Empire",
+  "why": "Lahore/Multan and Kashmir remained Mughal provinces until ceded to Ahmad Shah Durrani in 1752; map shows Afsharid Iran (Nader died 1747)",
+  "source": "https://en.wikipedia.org/wiki/Battle_of_Lahore_(1752)",
+  "severity": "major"
+ },
+ {
+  "from": 1750,
+  "to": 1752,
+  "country": "India",
+  "regions": [
+   "Punjab",
+   "Haryana",
+   "Jammu and Kashmir"
+  ],
+  "owner": "Mughal Empire",
+  "why": "Punjab and Kashmir were Mughal until the 1752 cession to Durrani; Haryana was never Afsharid. Map shows Afsharid Iran in 1750",
+  "source": "https://en.wikipedia.org/wiki/Battle_of_Lahore_(1752)",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1834,
+  "country": "India",
+  "regions": [
+   "Ladakh"
+  ],
+  "owner": "Kingdom of Ladakh",
+  "why": "Ladakh was ruled by the Namgyal dynasty until the Dogra invasion of 1834; map flips it to Mughal (several decades), Afsharid Iran (1750), Durrani (1770) and Emirate of Afghanistan/Qing (1830)",
+  "source": "https://en.wikipedia.org/wiki/Namgyal_dynasty_of_Ladakh",
+  "severity": "major"
+ },
+ {
+  "from": 1846,
+  "to": 1890,
+  "country": "India",
+  "regions": [
+   "Ladakh"
+  ],
+  "owner": "Kashmir and Jammu",
+  "why": "Ladakh was conquered by the Dogras (1834-1842) and formed part of the Dogra state of Jammu and Kashmir from 1846; map shows stateless peoples (1850-60, 1880) and Qing (1870)",
+  "source": "https://en.wikipedia.org/wiki/Namgyal_dynasty_of_Ladakh",
+  "severity": "major"
+ },
+ {
+  "from": 1819,
+  "to": 1846,
+  "country": "India",
+  "regions": [
+   "Jammu and Kashmir"
+  ],
+  "owner": "Sikh Empire",
+  "why": "Ranjit Singh took Kashmir from the Durranis in 1819 and held it until 1846; map shows Emirate of Afghanistan in 1830",
+  "source": "https://en.wikipedia.org/wiki/Sikh_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1765,
+  "to": 1800,
+  "country": "India",
+  "regions": [
+   "Punjab",
+   "Chandigarh"
+  ],
+  "owner": "Sikh Confederacy",
+  "why": "After 1765 the Sikh misls controlled the Punjab; map shows the Durrani Empire (1770) and the Mughal Empire (1780-90) there",
+  "source": "https://en.wikipedia.org/wiki/Sikh_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1765,
+  "to": 1799,
+  "country": "Pakistan",
+  "regions": [
+   "Punjab"
+  ],
+  "owner": "Sikh Confederacy",
+  "why": "Sikh misls held Lahore and central Punjab from 1765 until Ranjit Singh's takeover in 1799 (Multan stayed Durrani except 1772-80); map shows Durrani 1770 and Mughal Empire 1780-90",
+  "source": "https://en.wikipedia.org/wiki/Sikh_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1770,
+  "to": 1780,
+  "country": "India",
+  "regions": [
+   "Haryana"
+  ],
+  "owner": "Mughal Empire",
+  "why": "Durrani never held Haryana in 1770; the Delhi region remained under the Mughal court (later Maratha protection)",
+  "source": "https://en.wikipedia.org/wiki/Durrani_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1818,
+  "to": 1849,
+  "country": "Pakistan",
+  "regions": [
+   "Punjab",
+   "F.C.T."
+  ],
+  "owner": "Sikh Empire",
+  "why": "Sikh Empire held Lahore from 1799 and Multan from 1818 until British annexation in 1849; map shows Talpur (1820), Emirate of Afghanistan (1830) and Mughal remnants there",
+  "source": "https://en.wikipedia.org/wiki/Sikh_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1834,
+  "to": 1849,
+  "country": "Pakistan",
+  "regions": [
+   "K.P."
+  ],
+  "owner": "Sikh Empire",
+  "why": "Peshawar was annexed by the Sikh Empire in 1834; map shows Durrani dynasty in 1840",
+  "source": "https://en.wikipedia.org/wiki/Sikh_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1849,
+  "to": 1860,
+  "country": "Pakistan",
+  "regions": [
+   "K.P."
+  ],
+  "owner": "British Empire",
+  "why": "British annexed the Punjab including Peshawar in 1849; map shows the Talpur dynasty of Sind in Khyber Pakhtunkhwa in 1850",
+  "source": "https://en.wikipedia.org/wiki/Sikh_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1860,
+  "to": 1890,
+  "country": "Pakistan",
+  "regions": [
+   "K.P."
+  ],
+  "owner": "British Raj",
+  "overlord": "British Empire",
+  "why": "Peshawar region was British India 1849-1947; map shows the Talpur dynasty in parts of K.P. until 1880",
+  "source": "https://en.wikipedia.org/wiki/Sikh_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1850,
+  "to": 1890,
+  "country": "Pakistan",
+  "regions": [
+   "Northern Areas"
+  ],
+  "owner": "Kashmir and Jammu",
+  "why": "Gilgit, Astore and Chilas were administered by Dogra Kashmir after the 1846 Treaty of Amritsar (Hunza and Nagar accepted Kashmiri suzerainty in the 1860s); map shows the Talpur dynasty of Sind here 1850-1880",
+  "source": "https://en.wikipedia.org/wiki/Gilgit_Agency",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1900,
+  "country": "Pakistan",
+  "regions": [
+   "Baluchistan",
+   "F.A.T.A.",
+   "K.P.",
+   "Punjab",
+   "Northern Areas"
+  ],
+  "owner": "India",
+  "overlord": "United Kingdom",
+  "why": "These areas were British India (Gilgit Agency 1889, Kalat in subsidiary alliance 1876); map shows them under Afghanistan in 1890",
+  "source": "https://en.wikipedia.org/wiki/Gilgit_Agency",
+  "severity": "major"
+ },
+ {
+  "from": 1783,
+  "to": 1843,
+  "country": "Pakistan",
+  "regions": [
+   "Sind"
+  ],
+  "owner": "Talpur Dynasty",
+  "why": "Talpur Mirs ruled Sindh from 1783 until the British conquest of 1843; map shows Durrani Empire 1790-1810 and Sikh Empire in parts in 1840",
+  "source": "https://en.wikipedia.org/wiki/Talpur_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1750,
+  "to": 1876,
+  "country": "Pakistan",
+  "regions": [
+   "Baluchistan"
+  ],
+  "owner": "Khanate of Kalat",
+  "why": "Khanate of Kalat ruled most of Baluchistan (peak under Nasir Khan I 1749-94) until the 1876 Treaty of Kalat; map shows Afsharid Iran (1750), Talpur dynasty (1830) and British Empire (1850)",
+  "source": "https://en.wikipedia.org/wiki/Khanate_of_Kalat",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1961,
+  "country": "India",
+  "regions": [
+   "Goa"
+  ],
+  "owner": "Portuguese India",
+  "why": "Goa remained Portuguese until India annexed it on 19 December 1961; map shows British India from 1890 and India from 1950",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_India",
+  "severity": "major"
+ },
+ {
+  "from": 1540,
+  "to": 1961,
+  "country": "India",
+  "regions": [
+   "Dadra and Nagar Haveli and Daman and Diu"
+  ],
+  "owner": "Portuguese India",
+  "why": "Diu (1535) and Daman were Portuguese continuously until December 1961 (Dadra and Nagar Haveli 1783-1954); map flips the region to Gujarat (1550), Mughal (1580-1720), Maratha (1730-1810) and British (1820+)",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_India",
+  "severity": "major"
+ },
+ {
+  "from": 1816,
+  "to": 1954,
+  "country": "India",
+  "regions": [
+   "Puducherry"
+  ],
+  "owner": "French India",
+  "why": "Pondicherry, Karikal, Mahe and Yanam were French from 1816 until de facto transfer on 1 November 1954; map mislabels them 'French Indochina' (1860-80) and British India (1890-1950)",
+  "source": "https://en.wikipedia.org/wiki/French_India",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1947,
+  "country": "India",
+  "regions": [
+   "Lakshadweep"
+  ],
+  "owner": "India",
+  "overlord": "United Kingdom",
+  "why": "The Laccadive/Amindivi islands were under British India (Madras Presidency), never the Maldives; map shows them as Maldives from 1890",
+  "source": "https://en.wikipedia.org/wiki/Lakshadweep",
+  "severity": "major"
+ },
+ {
+  "from": 1947,
+  "to": 2026,
+  "country": "India",
+  "regions": [
+   "Lakshadweep"
+  ],
+  "owner": "India",
+  "why": "Lakshadweep joined India in 1947 and became a union territory in 1956; map shows it as part of the Maldives to 2025",
+  "source": "https://en.wikipedia.org/wiki/Lakshadweep",
+  "severity": "major"
+ },
+ {
+  "from": 1887,
+  "to": 1965,
+  "country": "Maldives",
+  "regions": [
+   "Addu",
+   "Dhaalu",
+   "Gaafu Alifu",
+   "Gaafu Dhaalu",
+   "Gnaviyani",
+   "Laamu",
+   "Thaa"
+  ],
+  "owner": "Maldives",
+  "overlord": "United Kingdom",
+  "why": "These atolls were part of the Maldives sultanate, a British protected state 1887-1965; map shows them as 'no polity' from 1890 onward",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Maldives",
+  "severity": "major"
+ },
+ {
+  "from": 1965,
+  "to": 2026,
+  "country": "Maldives",
+  "regions": [
+   "Addu",
+   "Dhaalu",
+   "Gaafu Alifu",
+   "Gaafu Dhaalu",
+   "Gnaviyani",
+   "Laamu",
+   "Thaa"
+  ],
+  "owner": "Maldives",
+  "why": "Independent Maldives from 26 July 1965; map leaves these southern atolls as 'no polity' to 2025",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Maldives",
+  "severity": "major"
+ },
+ {
+  "from": 1959,
+  "to": 1963,
+  "country": "Maldives",
+  "regions": [
+   "Addu",
+   "Gaafu Alifu",
+   "Gaafu Dhaalu",
+   "Gnaviyani"
+  ],
+  "owner": "United Suvadive Republic",
+  "why": "Breakaway United Suvadive Republic in Addu, Huvadhu and Fuvahmulah 1959-1963 (apply after the protectorate row)",
+  "source": "https://en.wikipedia.org/wiki/United_Suvadive_Republic",
+  "severity": "minor"
+ },
+ {
+  "from": 1984,
+  "to": 2026,
+  "country": "Siachen Glacier",
+  "regions": [
+   "Kashmir"
+  ],
+  "owner": "India",
+  "why": "India has controlled the Siachen Glacier since Operation Meghdoot in April 1984; map shows Pakistan to 2025",
+  "source": "https://en.wikipedia.org/wiki/Siachen_conflict",
+  "severity": "major"
+ },
+ {
+  "from": 1590,
+  "to": 1642,
+  "country": "India",
+  "regions": [
+   "Sikkim"
+  ],
+  "owner": "none",
+  "why": "No Sikkim state before Phuntsog Namgyal's consecration in 1642; map alternates a Gorkha Kingdom (1590, 1610, 1640) and Bhutan (1630) there",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sikkim",
+  "severity": "minor"
+ },
+ {
+  "from": 1861,
+  "to": 1947,
+  "country": "India",
+  "regions": [
+   "Sikkim"
+  ],
+  "owner": "Kingdom of Sikkim",
+  "overlord": "United Kingdom",
+  "why": "Sikkim was a British protectorate (Treaty of Tumlong 1861), not part of British India; map shows Tibet/Qing (1880) and British India (1890-1940)",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sikkim",
+  "severity": "minor"
+ },
+ {
+  "from": 1947,
+  "to": 1975,
+  "country": "India",
+  "regions": [
+   "Sikkim"
+  ],
+  "owner": "Kingdom of Sikkim",
+  "overlord": "India",
+  "why": "Sikkim was an Indian protectorate from 1950 and merged into India only on 16 May 1975; map shows it as part of India from 1950",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sikkim",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1907,
+  "country": "Bhutan",
+  "regions": [
+   "*"
+  ],
+  "owner": "Bhutan (Zhabdrung theocracy)",
+  "why": "Bhutan was the Zhabdrung/Druk Desi dual-system state until Ugyen Wangchuck was elected monarch in December 1907; map uses the anachronistic 'Kingdom of Bhutan' from 1640 and puts Bhutan under the UK from 1890 (British control of foreign affairs began only with the 1910 Treaty of Punakha)",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Punakha",
+  "severity": "minor"
+ },
+ {
+  "from": 1907,
+  "to": 1910,
+  "country": "Bhutan",
+  "regions": [
+   "*"
+  ],
+  "owner": "Bhutan",
+  "why": "Wangchuck monarchy from 1907; British control of foreign relations only from the Treaty of Punakha (January 1910)",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Punakha",
+  "severity": "minor"
+ },
+ {
+  "from": 1570,
+  "to": 1580,
+  "country": "India",
+  "regions": [
+   "Assam"
+  ],
+  "owner": "Ahom Kingdom",
+  "why": "The Ahom kingdom was never part of the Toungoo empire; map gives Assam, Nagaland, Meghalaya and Arunachal to the First Toungoo Empire in 1570",
+  "source": "https://en.wikipedia.org/wiki/Ahom_kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1682,
+  "to": 1817,
+  "country": "India",
+  "regions": [
+   "Assam"
+  ],
+  "owner": "Ahom Kingdom",
+  "why": "After Itakhuli (1682) the Ahoms held the Brahmaputra valley up to the Manas until the Burmese invasions (1817) and British annexation (1826); map repeatedly gives Assam to Bhutan (1690, 1750, 1770, 1800-10) and the British (1770, 1810)",
+  "source": "https://en.wikipedia.org/wiki/Ahom_kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1751,
+  "country": "India",
+  "regions": [
+   "Manipur"
+  ],
+  "owner": "Manipur Kingdom",
+  "why": "Manipur was an independent Meitei kingdom (zenith under Khagemba 1597-1652) until the Burmese invasions after 1751; map flips it to the 'First Toungoo Empire' (dynasty ended 1599) in 1610-20, 1640-60, 1690",
+  "source": "https://en.wikipedia.org/wiki/Manipur_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1560,
+  "to": 1878,
+  "country": "India",
+  "regions": [
+   "Nagaland"
+  ],
+  "owner": "Naga tribes",
+  "why": "The Naga hills were independent village polities until British consolidation from 1866 (HQ at Kohima 1878); map gives them to Toungoo (1570-1760), Konbaung (1770-80, 1810), Ahom (1820) and the British from 1830",
+  "source": "https://en.wikipedia.org/wiki/History_of_Nagaland",
+  "severity": "major"
+ },
+ {
+  "from": 1560,
+  "to": 1890,
+  "country": "India",
+  "regions": [
+   "Mizoram"
+  ],
+  "owner": "Lushai and Kuki chiefdoms",
+  "why": "The Lushai hills were ruled by Mizo chiefs until the British conquest of 1889-90; map gives them to Toungoo (1570-1760), Konbaung (1770) and the British from 1830",
+  "source": "https://en.wikipedia.org/wiki/History_of_Mizoram",
+  "severity": "major"
+ },
+ {
+  "from": 1570,
+  "to": 1914,
+  "country": "India",
+  "regions": [
+   "Arunachal Pradesh"
+  ],
+  "owner": "none",
+  "why": "The tribal areas (Adi, Mishmi, Nyishi, etc.) were 'for all practical purposes independent' until the McMahon Line (1914); map assigns them to Toungoo, Bhutan, Konbaung, Qing (1800-80) and 'China' (1890-1910)",
+  "source": "https://en.wikipedia.org/wiki/McMahon_Line",
+  "severity": "major"
+ },
+ {
+  "from": 1540,
+  "to": 1833,
+  "country": "India",
+  "regions": [
+   "Meghalaya"
+  ],
+  "owner": "Khasi Hill States",
+  "why": "The Khasi/Jaintia hills were independent until the Anglo-Khasi War (1829-1833); map gives them to the Sur Empire, Toungoo, the Mughals (1590-1690), the Nawabs of Bengal (1750) and the British (1770-80, 1810)",
+  "source": "https://en.wikipedia.org/wiki/Anglo-Khasi_War",
+  "severity": "major"
+ },
+ {
+  "from": 1555,
+  "to": 1576,
+  "country": "Bangladesh",
+  "regions": [
+   "Barisal",
+   "Dhaka",
+   "Khulna",
+   "Rajshahi",
+   "Rangpur"
+  ],
+  "owner": "Sultanate of Bengal",
+  "why": "Bengal broke away from the Sur Empire c.1553-55 (Muhammad Shahi dynasty) and was ruled by the Karrani dynasty 1564-1576 until the Mughal victory at Rajmahal; map keeps the Sur Empire to 1570",
+  "source": "https://en.wikipedia.org/wiki/Karrani_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1555,
+  "to": 1576,
+  "country": "India",
+  "regions": [
+   "West Bengal"
+  ],
+  "owner": "Sultanate of Bengal",
+  "why": "Independent Bengal sultanate (Muhammad Shahi then Karrani) 1553/55-1576; map shows Sur Empire 1560-1570",
+  "source": "https://en.wikipedia.org/wiki/Bengal_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1564,
+  "to": 1574,
+  "country": "India",
+  "regions": [
+   "Bihar"
+  ],
+  "owner": "Sultanate of Bengal",
+  "why": "Karrani sultans held Bihar until the Mughal campaign of 1574 (ceded by Treaty of Katak); map shows Sur Empire 1560 and Mughal Empire 1570",
+  "source": "https://en.wikipedia.org/wiki/Karrani_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1450,
+  "to": 1467,
+  "country": "Sri Lanka",
+  "regions": [
+   "Yāpanaya"
+  ],
+  "owner": "Kingdom of Kotte",
+  "why": "Kotte (Prince Sapumal) conquered the Jaffna kingdom c.1450 and held it until 1467; map keeps Jaffna independent",
+  "source": "https://en.wikipedia.org/wiki/Jaffna_kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1510,
+  "to": 1521,
+  "country": "Sri Lanka",
+  "regions": [
+   "Kægalla–Gampaha",
+   "Gālla",
+   "Hambantŏṭa",
+   "Puttalama",
+   "Ratnapura",
+   "Kuruṇægala"
+  ],
+  "owner": "Kingdom of Kotte",
+  "why": "Portuguese arrived 1505 seeking trade only; Kotte ruled the lowlands until its 1521 partition. Map shows Portuguese Ceylon/Portuguese Empire over most of the island from 1510",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_Ceylon",
+  "severity": "major"
+ },
+ {
+  "from": 1521,
+  "to": 1551,
+  "country": "Sri Lanka",
+  "regions": [
+   "Kægalla–Gampaha",
+   "Gālla",
+   "Kuruṇægala",
+   "Puttalama"
+  ],
+  "owner": "Kingdom of Kotte",
+  "why": "After the 1521 partition Kotte (Bhuvanekabahu VII) kept the western lowlands; no Portuguese territorial rule before 1597",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sitawaka",
+  "severity": "major"
+ },
+ {
+  "from": 1551,
+  "to": 1597,
+  "country": "Sri Lanka",
+  "regions": [
+   "Kægalla–Gampaha",
+   "Gālla"
+  ],
+  "owner": "Kingdom of Kotte",
+  "overlord": "Portuguese Empire",
+  "why": "Dharmapala's Kotte (Colombo and the Negombo-Galle coast) was a Portuguese client until his death in 1597, when direct Portuguese rule began",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_Ceylon",
+  "severity": "major"
+ },
+ {
+  "from": 1521,
+  "to": 1594,
+  "country": "Sri Lanka",
+  "regions": [
+   "Ratnapura",
+   "Hambantŏṭa"
+  ],
+  "owner": "Kingdom of Sitawaka",
+  "why": "Sitawaka (1521-1594), based around Ratnapura/Ruwanwella, absorbed Raigama in 1538 and dominated the lowlands; absent from the map",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sitawaka",
+  "severity": "major"
+ },
+ {
+  "from": 1551,
+  "to": 1594,
+  "country": "Sri Lanka",
+  "regions": [
+   "Kuruṇægala",
+   "Puttalama"
+  ],
+  "owner": "Kingdom of Sitawaka",
+  "why": "Under Mayadunne and Rajasinha I Sitawaka held most of the island except Jaffna and the Portuguese coastal strip Negombo-Galle",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sitawaka",
+  "severity": "major"
+ },
+ {
+  "from": 1582,
+  "to": 1592,
+  "country": "Sri Lanka",
+  "regions": [
+   "Mahanuvara",
+   "Badulla",
+   "Mŏṇarāgala",
+   "Pŏḷŏnnaruva"
+  ],
+  "owner": "Kingdom of Sitawaka",
+  "why": "Rajasinha I of Sitawaka conquered and held Kandy 1581/82-1591/92",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kandy",
+  "severity": "minor"
+ },
+ {
+  "from": 1510,
+  "to": 1582,
+  "country": "Sri Lanka",
+  "regions": [
+   "Badulla",
+   "Mŏṇarāgala",
+   "Pŏḷŏnnaruva",
+   "Ampāra",
+   "Maḍakalapuva",
+   "Trikuṇāmalaya"
+  ],
+  "owner": "Kingdom of Kandy",
+  "why": "Uva, Tamankaduwa, Vellassa/Batticaloa and Trincomalee were Kandyan, never Portuguese territory; map shows Portuguese Ceylon here from 1510",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kandy",
+  "severity": "major"
+ },
+ {
+  "from": 1592,
+  "to": 1815,
+  "country": "Sri Lanka",
+  "regions": [
+   "Badulla",
+   "Mŏṇarāgala",
+   "Pŏḷŏnnaruva",
+   "Ampāra",
+   "Anurādhapura"
+  ],
+  "owner": "Kingdom of Kandy",
+  "why": "Uva, Tamankaduwa, Vellassa and Nuwarakalaviya were Kandyan provinces until the Kandyan Convention (1815); map gives them to Portuguese Ceylon, then Dutch Ceylon (1690-1790), then British Ceylon (1800-10)",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kandy",
+  "severity": "major"
+ },
+ {
+  "from": 1592,
+  "to": 1639,
+  "country": "Sri Lanka",
+  "regions": [
+   "Maḍakalapuva",
+   "Trikuṇāmalaya"
+  ],
+  "owner": "Kingdom of Kandy",
+  "why": "East coast hinterland belonged to Kandy; Portuguese held only small forts here before the Dutch took Batticaloa (1638) and Trincomalee",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kandy",
+  "severity": "major"
+ },
+ {
+  "from": 1639,
+  "to": 1796,
+  "country": "Sri Lanka",
+  "regions": [
+   "Maḍakalapuva",
+   "Trikuṇāmalaya"
+  ],
+  "owner": "Dutch Ceylon",
+  "overlord": "Dutch Republic",
+  "why": "Dutch captured Batticaloa (May 1638) and Trincomalee from the Portuguese; map keeps Portuguese Ceylon here to 1680",
+  "source": "https://en.wikipedia.org/wiki/Dutch_Ceylon",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1815,
+  "country": "Sri Lanka",
+  "regions": [
+   "Ratnapura",
+   "Kuruṇægala"
+  ],
+  "owner": "Kingdom of Kandy",
+  "why": "Sabaragamuwa and the Seven Korales were Kandyan provinces until 1815; map gives them to Portuguese, Dutch and British Ceylon",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kandy",
+  "severity": "major"
+ },
+ {
+  "from": 1510,
+  "to": 1592,
+  "country": "Sri Lanka",
+  "regions": [
+   "Anurādhapura",
+   "Mulativ"
+  ],
+  "owner": "Vanni chieftaincies",
+  "why": "The Vanni chiefdoms (tributary to Jaffna) held the north-central dry zone; map shows Portuguese Ceylon here from 1510",
+  "source": "https://en.wikipedia.org/wiki/Jaffna_kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1592,
+  "to": 1658,
+  "country": "Sri Lanka",
+  "regions": [
+   "Mulativ"
+  ],
+  "owner": "Vanni chieftaincies",
+  "why": "Vanni chiefdoms remained autonomous through the Portuguese period; map shows Portuguese/Spanish rule from 1600",
+  "source": "https://en.wikipedia.org/wiki/Jaffna_kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1619,
+  "country": "Sri Lanka",
+  "regions": [
+   "Yāpanaya",
+   "Mannārama–Kilinŏchchi"
+  ],
+  "owner": "Jaffna kingdom",
+  "overlord": "Portuguese Empire",
+  "why": "The Jaffna kingdom survived as a Portuguese client from 1591 until annexation in 1619; map shows Portuguese Ceylon from 1600",
+  "source": "https://en.wikipedia.org/wiki/Jaffna_kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1619,
+  "to": 1658,
+  "country": "Sri Lanka",
+  "regions": [
+   "Yāpanaya",
+   "Mannārama–Kilinŏchchi"
+  ],
+  "owner": "Portuguese Ceylon",
+  "overlord": "Portuguese Empire",
+  "why": "Portugal annexed Jaffna in 1619 and lost it in June 1658; map labels it 'Spanish Empire' (1620-30) and 'Portuguese India'",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_Ceylon",
+  "severity": "major"
+ },
+ {
+  "from": 1658,
+  "to": 1796,
+  "country": "Sri Lanka",
+  "regions": [
+   "Yāpanaya",
+   "Mannārama–Kilinŏchchi",
+   "Mulativ"
+  ],
+  "owner": "Dutch Ceylon",
+  "overlord": "Dutch Republic",
+  "why": "Jaffna and Mannar fell to the Dutch in 1658 and stayed Dutch until 1796; map shows Portuguese Ceylon in 1660",
+  "source": "https://en.wikipedia.org/wiki/Dutch_Ceylon",
+  "severity": "major"
+ },
+ {
+  "from": 1597,
+  "to": 1640,
+  "country": "Sri Lanka",
+  "regions": [
+   "Gālla",
+   "Hambantŏṭa",
+   "Puttalama",
+   "Ratnapura",
+   "Kuruṇægala"
+  ],
+  "owner": "Portuguese Ceylon",
+  "overlord": "Portuguese Empire",
+  "why": "Direct Portuguese rule of the former Kotte lands from 1597; map labels this 'Spanish Empire' (1590-1630) — Portugal's colonies stayed Portuguese-administered under the Iberian Union",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_Ceylon",
+  "severity": "minor"
+ },
+ {
+  "from": 1597,
+  "to": 1656,
+  "country": "Sri Lanka",
+  "regions": [
+   "Kægalla–Gampaha"
+  ],
+  "owner": "Portuguese Ceylon",
+  "overlord": "Portuguese Empire",
+  "why": "Portuguese direct rule of Colombo and the western lowlands 1597-1656",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_Ceylon",
+  "severity": "minor"
+ },
+ {
+  "from": 1640,
+  "to": 1796,
+  "country": "Sri Lanka",
+  "regions": [
+   "Gālla",
+   "Hambantŏṭa"
+  ],
+  "owner": "Dutch Ceylon",
+  "overlord": "Dutch Republic",
+  "why": "Galle was stormed by the Dutch on 13 March 1640 and the south coast remained Dutch until 1796; map shows Portuguese rule here until 1670",
+  "source": "https://en.wikipedia.org/wiki/Dutch_Ceylon",
+  "severity": "major"
+ },
+ {
+  "from": 1656,
+  "to": 1796,
+  "country": "Sri Lanka",
+  "regions": [
+   "Kægalla–Gampaha"
+  ],
+  "owner": "Dutch Ceylon",
+  "overlord": "Dutch Republic",
+  "why": "Colombo fell to the Dutch in 1656 and became their capital (1658); map shows Portuguese Ceylon in 1660",
+  "source": "https://en.wikipedia.org/wiki/Dutch_Ceylon",
+  "severity": "major"
+ },
+ {
+  "from": 1815,
+  "to": 1890,
+  "country": "Sri Lanka",
+  "regions": [
+   "*"
+  ],
+  "owner": "British Ceylon",
+  "overlord": "British Empire",
+  "why": "Ceylon was a separate Crown colony, never part of British India (Crown colony from 1802); map labels it 'British Raj' 1860-1880",
+  "source": "https://en.wikipedia.org/wiki/British_Ceylon",
+  "severity": "minor"
+ },
+ {
+  "from": 1948,
+  "to": 1972,
+  "country": "Sri Lanka",
+  "regions": [
+   "*"
+  ],
+  "owner": "Sri Lanka (Ceylon)",
+  "why": "One state (Dominion of Ceylon 1948-72) is split across two names ('Sri Lanka (Ceylon)' and 'Dominion of Ceylon') in 1950-1970",
+  "source": "https://en.wikipedia.org/wiki/British_Ceylon",
+  "severity": "minor"
+ },
+ {
+  "from": 1990,
+  "to": 2009,
+  "country": "Sri Lanka",
+  "regions": [
+   "Mannārama–Kilinŏchchi",
+   "Mulativ"
+  ],
+  "owner": "Liberation Tigers of Tamil Eelam",
+  "why": "LTTE held the Vanni (Kilinochchi, Mullaitivu) as a de facto state for most of 1990-2009 (lost Kilinochchi Jan 2009, last territory 18 May 2009); map shows it only in 1990",
+  "source": "https://en.wikipedia.org/wiki/Tamil_Eelam",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1774,
+  "country": "Nepal",
+  "regions": [
+   "Mechi",
+   "Bhojpur"
+  ],
+  "owner": "Limbuwan",
+  "why": "Limbuwan (eastern Kirat hills) stayed independent until the Gorkha campaigns of 1772-1774; map gives it to the Sultanate of Bengal (1410-60, 1480, 1500-20), the Sur Empire (1540, 1560-70) and the Gorkha Kingdom from 1590",
+  "source": "https://en.wikipedia.org/wiki/Unification_of_Nepal",
+  "severity": "major"
+ },
+ {
+  "from": 1540,
+  "to": 1762,
+  "country": "Nepal",
+  "regions": [
+   "Janakpur",
+   "Narayani"
+  ],
+  "owner": "Makwanpur",
+  "why": "Makwanpur (Sen dynasty) held these hills until conquered by Prithvi Narayan Shah in 1762; map shows the Sur Empire (1540, 1560-70) and a Gorkha Kingdom from 1590",
+  "source": "https://en.wikipedia.org/wiki/Senas_of_Makwanpur",
+  "severity": "major"
+ },
+ {
+  "from": 1590,
+  "to": 1786,
+  "country": "Nepal",
+  "regions": [
+   "Dhawalagiri"
+  ],
+  "owner": "Parbat (Malebum)",
+  "why": "Kingdom of Parbat (founded 1436) was independent until the Nepalese invasion of 1786; map gives it to the Gorkha Kingdom from 1590",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Parbat",
+  "severity": "major"
+ },
+ {
+  "from": 1510,
+  "to": 1806,
+  "country": "Nepal",
+  "regions": [
+   "Lumbini"
+  ],
+  "owner": "Palpa",
+  "why": "Sen kingdom of Palpa remained outside Nepal until Prithvi Pal Sen's death in 1806; map shows Delhi Sultanate (1510), Sur Empire (1540), Mughals (1560-70) and Gorkha from 1590",
+  "source": "https://en.wikipedia.org/wiki/Prithvi_Pal_Sen",
+  "severity": "major"
+ },
+ {
+  "from": 1410,
+  "to": 1786,
+  "country": "Nepal",
+  "regions": [
+   "Bheri",
+   "Rapti"
+  ],
+  "owner": "Baise Rajya",
+  "why": "The Baise Rajya petty kingdoms (Salyan, Dang, Jajarkot, etc.) ruled the Bheri-Rapti hills until Gorkha annexation (Salyan and Dang 1786); map shows Jaunpur, Delhi, Sur, Mughal and a Gorkha Kingdom from 1590",
+  "source": "https://en.wikipedia.org/wiki/Baise_Rajya",
+  "severity": "major"
+ },
+ {
+  "from": 1590,
+  "to": 1789,
+  "country": "Nepal",
+  "regions": [
+   "Karnali"
+  ],
+  "owner": "Kingdom of Jumla",
+  "why": "Jumla, leading Baise state, was annexed by Gorkha in 1788-89; map gives it to the Gorkha Kingdom from 1590",
+  "source": "https://en.wikipedia.org/wiki/Baise_Rajya",
+  "severity": "major"
+ },
+ {
+  "from": 1410,
+  "to": 1790,
+  "country": "Nepal",
+  "regions": [
+   "Seti",
+   "Mahakali"
+  ],
+  "owner": "Doti",
+  "why": "Doti (Raika dynasty) ruled the far-west from the 13th century until its defeat by Gorkha in 1790 (Mughal action was only a raid); map shows Jaunpur, Delhi, Sur, Mughals and the Gorkha Kingdom from 1590",
+  "source": "https://en.wikipedia.org/wiki/Doti_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1430,
+  "to": 1468,
+  "country": "Kazakhstan",
+  "regions": [
+   "Aqmola",
+   "Astana",
+   "Qaraghandy",
+   "Qostanay",
+   "Aqtöbe",
+   "North Kazakhstan"
+  ],
+  "owner": "Uzbek Khanate (Abu'l-Khayr)",
+  "why": "Abu'l-Khayr Khan (1428-1468) deposed the Sibir khan and ruled the steppe from Tyumen to the Syr Darya; map gives most of it to the Khanate of Sibir 1440-1480",
+  "source": "https://en.wikipedia.org/wiki/Abu%27l-Khayr_Khan",
+  "severity": "major"
+ },
+ {
+  "from": 1480,
+  "to": 1500,
+  "country": "Uzbekistan",
+  "regions": [
+   "Kashkadarya"
+  ],
+  "owner": "Timurid Empire",
+  "why": "Kesh/Karshi belonged to the Timurid kingdom of Samarkand until Shaybani's conquest (1500-01); the Kazakh Khanate never ruled it",
+  "source": "https://en.wikipedia.org/wiki/Sultan_Ahmed_Mirza",
+  "severity": "major"
+ },
+ {
+  "from": 1480,
+  "to": 1500,
+  "country": "Tajikistan",
+  "regions": [
+   "Khatlon"
+  ],
+  "owner": "Timurid Empire",
+  "why": "Khatlon/Hisar was Timurid (Sultan Mahmud Mirza, Khusrau Shah) in 1480-1500; map shows the Kazakh Khanate",
+  "source": "https://en.wikipedia.org/wiki/Sultan_Mahmud_Mirza",
+  "severity": "major"
+ },
+ {
+  "from": 1500,
+  "to": 1520,
+  "country": "Uzbekistan",
+  "regions": [
+   "Bukhoro",
+   "Jizzakh",
+   "Kashkadarya",
+   "Navoi"
+  ],
+  "owner": "Khanate of Bukhara",
+  "why": "Muhammad Shaybani took Bukhara and Samarkand in 1500-01; map splits his state among 'Shaybanids', 'Shaybanid Khanate of Bukhara', 'Khanate of Bukhara' and still shows the Kazakh Khanate in Kashkadarya to 1510",
+  "source": "https://en.wikipedia.org/wiki/Abu%27l-Khayr_Khan",
+  "severity": "minor"
+ },
+ {
+  "from": 1825,
+  "to": 1837,
+  "country": "Kazakhstan",
+  "regions": [
+   "Aqmola",
+   "Astana",
+   "Qaraghandy",
+   "North Kazakhstan",
+   "Pavlodar",
+   "East Kazakhstan",
+   "Qostanay",
+   "Aqtöbe"
+  ],
+  "owner": "Russian Empire",
+  "why": "Russia replaced khanal rule with okrug administration in the Middle (1822) and Junior (1824) jüz; map shows an independent Kazakh Khanate over 65% of Kazakhstan in 1830",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "minor"
+ },
+ {
+  "from": 1870,
+  "to": 1876,
+  "country": "Kyrgyzstan",
+  "regions": [
+   "Osh",
+   "Jalal-Abad"
+  ],
+  "owner": "Khanate of Kokand",
+  "overlord": "Russian Empire",
+  "why": "Fergana valley remained the Khanate of Kokand (Russian vassal) until abolished in 1876; map shows Russian Empire from 1870",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1868,
+  "to": 1918,
+  "country": "Uzbekistan",
+  "regions": [
+   "Bukhoro",
+   "Kashkadarya"
+  ],
+  "owner": "Emirate of Bukhara",
+  "overlord": "Russian Empire",
+  "why": "Bukhara became a semi-independent Russian vassal in 1868 and remained so until the revolution; map shows direct Russian rule 1870-1880 and 'Russia (Soviet Union)' as overlord from 1890",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1868,
+  "to": 1918,
+  "country": "Tajikistan",
+  "regions": [
+   "Khatlon"
+  ],
+  "owner": "Emirate of Bukhara",
+  "overlord": "Russian Empire",
+  "why": "Eastern Bukhara (Khatlon) stayed under the Emir as a Russian protectorate; map shows direct Russian rule 1870-80",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1868,
+  "to": 1918,
+  "country": "Turkmenistan",
+  "regions": [
+   "Chardzhou"
+  ],
+  "owner": "Emirate of Bukhara",
+  "overlord": "Russian Empire",
+  "why": "Chardzhou was a Bukharan bekdom; map gives it to Khiva (to 1870, 1890-1910) and direct Russian rule (1880)",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1873,
+  "to": 1918,
+  "country": "Uzbekistan",
+  "regions": [
+   "Khorezm"
+  ],
+  "owner": "Khanate of Khiva",
+  "overlord": "Russian Empire",
+  "why": "Khiva became a Russian protectorate in 1873 and remained one until the revolution; map shows direct Russian rule in 1880",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1873,
+  "to": 1918,
+  "country": "Turkmenistan",
+  "regions": [
+   "Tashauz"
+  ],
+  "owner": "Khanate of Khiva",
+  "overlord": "Russian Empire",
+  "why": "Dashoguz was Khivan territory under the 1873 protectorate; map shows direct Russian rule in 1880",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1881,
+  "country": "Turkmenistan",
+  "regions": [
+   "Ahal"
+  ],
+  "owner": "Tekke Turkmen",
+  "why": "Akhal Teke were independent until Skobelev took Geok Tepe (Dec 1880/Jan 1881) and Transcaspia was annexed in May 1881; map gives Ahal to Khiva 1830-70 and Russia in 1880",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "minor"
+ },
+ {
+  "from": 1880,
+  "to": 1884,
+  "country": "Turkmenistan",
+  "regions": [
+   "Mary"
+  ],
+  "owner": "Tekke Turkmen",
+  "why": "Merv was occupied by Russia only on 16 March 1884",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Kazakhstan",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "why": "Map labels Tsarist Central Asia 'Russia (Soviet Union)' from 1890; the USSR was founded only in 1922 and the Russian Empire ruled until 1917",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Baykonur Cosmodrome",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "why": "Map labels Tsarist Central Asia 'Russia (Soviet Union)' from 1890; the USSR was founded only in 1922 and the Russian Empire ruled until 1917",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Kyrgyzstan",
+  "regions": [
+   "*"
+  ],
+  "owner": "Russian Empire",
+  "why": "Map labels Tsarist Central Asia 'Russia (Soviet Union)' from 1890; the USSR was founded only in 1922 and the Russian Empire ruled until 1917",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Turkmenistan",
+  "regions": [
+   "Ahal",
+   "Balkan",
+   "Mary"
+  ],
+  "owner": "Russian Empire",
+  "why": "Map labels Tsarist Central Asia 'Russia (Soviet Union)' from 1890; the USSR was founded only in 1922 and the Russian Empire ruled until 1917",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Uzbekistan",
+  "regions": [
+   "Jizzakh",
+   "Karakalpakstan",
+   "Navoi",
+   "Tashkent"
+  ],
+  "owner": "Russian Empire",
+  "why": "Map labels Tsarist Central Asia 'Russia (Soviet Union)' from 1890; the USSR was founded only in 1922 and the Russian Empire ruled until 1917",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1918,
+  "country": "Tajikistan",
+  "regions": [
+   "Gorno-Badakhshan",
+   "Tadzhikistan Territories"
+  ],
+  "owner": "Russian Empire",
+  "why": "Map labels Tsarist Central Asia 'Russia (Soviet Union)' from 1890; the USSR was founded only in 1922 and the Russian Empire ruled until 1917",
+  "source": "https://en.wikipedia.org/wiki/Russian_conquest_of_Central_Asia",
+  "severity": "major"
+ }
+]

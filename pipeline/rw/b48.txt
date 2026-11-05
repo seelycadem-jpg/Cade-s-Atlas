@@ -1,0 +1,228 @@
+## la188828 | 1888 | Brazil abolishes slavery | who: Princess Isabel (Golden Law) | where: Brazil
+  bluf: Brazil was the last country in the Americas to abolish slavery, having received more enslaved Africans than any other. Abolition without compensation for owners or land for the freed alienated planters, who helped topple the monarchy a year later, and left Black Brazilians at the bottom of a deeply unequal society.
+  now: Brazil has the largest population of African descent outside Africa, and racial inequality in income, education and policing remains deep.
+  story: On May 13, 1888, Princess Isabel, acting as regent, signed the Lei Áurea ('Golden Law'), freeing about 700,000 people who were still enslaved, without compensation for owners. Brazil was the last country in the Americas to abolish slavery.
+  why: A growing abolitionist movement, mass escapes from plantations, the army's refusal to hunt runaways, and earlier laws freeing children of the enslaved (1871) and the elderly (1885) that made slavery's end inevitable.
+  then: Planters helped overthrow Emperor Pedro II in 1889. Freed people received no land, and the state encouraged European immigration to replace them, sometimes with the explicit aim of 'whitening' the population.
+  fact: Brazil received about 4.9 million enslaved Africans, more than any other country and roughly 40% of the whole trade.
+## la188929 | 1889 | Brazil becomes a republic | who: Marshal Manuel Deodoro da Fonseca; Emperor Pedro II | where: Brazil
+  bluf: Brazil's army overthrew the monarchy in a nearly bloodless coup, partly in reaction to abolition. It began a tradition of military intervention in Brazilian politics that lasted through the dictatorship of 1964-85.
+  now: Brazil's flag motto, 'Order and Progress', reflects the positivist ideas of the officers who founded the republic and would intervene in politics again and again.
+  story: Planters angry about abolition without compensation, and officers who wanted more power, backed a nearly bloodless coup. The emperor sailed into exile.
+  why: Planters angry at abolition without compensation, army officers seeking more power, and spreading republican ideas.
+  then: The military became a powerful player in Brazilian politics for the next century.
+## la189530 | 1895 | Cuban War of Independence | who: José Martí, Antonio Maceo | where: Cuba
+  bluf: The Cuban War of Independence brought Spanish rule to the brink of collapse and drew in the United States. Cuba won independence but under US tutelage, which shaped Cuban nationalism all the way to the 1959 revolution.
+  now: Martí is Cuba's national hero, honored by both Castro's government and Cuban exiles.
+  story: Martí, who had spent years in exile in New York, returned to fight and was killed in one of the first battles. Spain herded civilians into camps where many died.
+  why: Cubans wanted independence after the failed Ten Years' War, and an economic crisis deepened discontent.
+  then: News of Spanish brutality, hyped by US newspapers, pulled the US into the war in 1898.
+## d-maine | 1898 | USS Maine explodes in Havana | who: US Navy; Spanish authorities in Cuba | where: Havana harbour
+  bluf: The Maine's explosion, blamed on Spain by US newspapers without evidence, became the trigger for war. It is a classic case of a misattributed incident and sensational media pushing a country into war.
+  now: A 1976 US Navy study concluded the cause was probably a fire in a coal bunker, not a mine.
+  story: On February 15, 1898, the Maine exploded, killing 266 of its crew. A naval inquiry blamed a mine; 'Remember the Maine!' became a rallying cry, and Congress declared war in April.
+  why: The ship had been sent to protect Americans during Cuba's war of independence.
+  then: The United States defeated Spain within four months and took its colonies, launching it as an overseas power.
+## la189831 | 1898 | Spain's American empire ends | who: United States; Spain | where: Caribbean
+  bluf: The Treaty of Paris ended Spain's American empire and made the United States an overseas colonial power. Cuba became nominally independent under US control, while Puerto Rico, Guam and the Philippines became US possessions.
+  now: Puerto Rico is still a US territory whose residents can't vote for president.
+  story: By the Treaty of Paris in December 1898, Spain gave up Cuba and ceded Puerto Rico, Guam and the Philippines to the United States. Cuba became independent in 1902, but the Platt Amendment let the US intervene and lease Guantánamo Bay.
+  why: Spain had lost the Spanish-American War and could not defend its remaining colonies.
+  then: The US kept the right to intervene in Cuba and built the Guantánamo Bay naval base.
+## na189856 | 1898 | Spanish-American War | who: US (McKinley, Theodore Roosevelt) vs. Spain | where: Cuba and the Philippines
+  bluf: The Spanish-American War made the United States an overseas empire and a Pacific power in four months. It ended Spain's empire in the Americas and began a US role in Asia, starting with a brutal war in the Philippines.
+  now: Puerto Rico and Guam remain US territories, and America's role as a global power, and its long debate over intervention abroad, began here.
+  story: After the battleship USS Maine exploded in Havana harbour, the US declared war on Spain. It destroyed Spanish fleets at Manila Bay and Santiago de Cuba and won within four months.
+  why: Sympathy for Cuban rebels, sensational 'yellow' journalism, business interests in Cuba, ambitions for naval bases, and the Maine explosion.
+  trig: The explosion of USS Maine in Havana harbour in February 1898.
+  then: The United States took Puerto Rico, Guam and the Philippines and made Cuba a protectorate; it annexed Hawaii the same year. Filipinos who had fought Spain then fought the United States (1899-1902).
+## la190332 | 1903 | Panama splits from Colombia | who: Panamanian rebels; Theodore Roosevelt | where: Panama
+  bluf: The United States backed Panama's secession from Colombia to secure land for a canal. It was a stark case of US intervention to create a client state, and sovereignty over the canal was disputed for most of the century.
+  now: Panama took full control of the canal in 1999, and in 2025 US pressure over the canal and China's role in nearby ports showed that it remains a strategic flashpoint.
+  story: When Colombia's senate rejected a canal treaty, Theodore Roosevelt sent warships to stop Colombian troops from crushing a Panamanian revolt. Panama quickly signed the deal Colombia had refused.
+  why: The US wanted to build a canal across Panama, and Colombia's senate rejected its terms.
+  then: The US controlled the Canal Zone for most of the 20th century, and in 1921 paid Colombia $25 million in what amounted to compensation.
+## la190433 | 1904 | Roosevelt Corollary | who: Theodore Roosevelt | where: Caribbean
+  bluf: The Roosevelt Corollary claimed a US right to intervene in Latin American countries to forestall European involvement. It justified decades of US military occupations in the Caribbean and Central America.
+  now: It still shapes Latin American suspicion of US power, revived whenever Washington threatens military action in the region, as against Venezuela in 2025.
+  story: After European navies blockaded Venezuela in 1902-03 over unpaid debts, Theodore Roosevelt told Congress in December 1904 that 'chronic wrongdoing' in the Americas might force the US to act as an 'international police power'. The US soon took over customs collection in the Dominican Republic.
+  why: European navies had blockaded Venezuela over unpaid debts in 1902-03, and Roosevelt wanted to pre-empt European intervention in the Americas.
+  then: US Marines occupied Haiti, the Dominican Republic and Nicaragua for years at a time.
+## la191034 | 1910 | Mexican Revolution | who: Madero, Villa, Zapata | where: Mexico
+  bluf: The Mexican Revolution overthrew the Díaz dictatorship and became the first great social revolution of the 20th century, with peasant armies demanding land. Its 1917 constitution promised land reform, labor rights and national control of resources, and the party it produced ruled Mexico for 71 years.
+  now: Mexico's oil nationalism and its communal landholdings (ejidos) trace back to the revolution.
+  story: It began as a revolt against Porfirio Díaz's 35-year rule and became a decade of civil war among leaders like Emiliano Zapata, who demanded 'land and liberty', and Pancho Villa. About 1–2 million died.
+  why: Díaz's 35-year rule, stolen elections and huge inequality, especially landlessness among peasants.
+  trig: Díaz's fraudulent re-election in 1910 and Francisco Madero's call to revolt.
+  then: The 1917 constitution promised land reform and national ownership of oil and minerals; President Lázaro Cárdenas redistributed land and nationalized oil in 1938. The ruling party (later the PRI) held power until 2000.
+  fact: Pancho Villa signed a contract with a Hollywood film company to film his battles.
+## la191435 | 1914 | Panama Canal opens | who: United States | where: Panama
+  bluf: The Panama Canal joined the Atlantic and Pacific, cutting thousands of miles from sea routes and making the United States a two-ocean naval power. Built after Washington engineered Panama's independence, it was a symbol of US dominance in Latin America until its handover in 1999.
+  now: About 5% of world seaborne trade passes through the canal; droughts now threaten its water supply, and in 2025 Washington pressed Panama over Chinese influence around the canal, reviving old questions of control.
+  story: France had failed after about 22,000 workers died of disease. The US controlled mosquitoes that spread malaria and yellow fever and built huge locks that lift ships 26 meters.
+  why: The US wanted faster shipping between its coasts and a quicker way to move its navy.
+  then: A voyage from New York to San Francisco was cut by about 8,000 miles. The United States ruled a 'Canal Zone' through Panama; protests, including deadly riots in 1964, led to the 1977 treaties that returned the canal to Panama.
+  fact: About 22,000 workers died in France's failed attempt before the US took over.
+## d-constitution1917 | 1917 | Mexico's 1917 Constitution | who: Venustiano Carranza; the Constitutional Congress | where: Querétaro, Mexico
+  bluf: Mexico's 1917 Constitution was among the first in the world to guarantee social rights, including land reform and labor protections, and to declare national ownership of resources. It became the legal basis for land redistribution and oil nationalization.
+  now: It is still Mexico's constitution, much amended; its claim of national ownership of land and minerals underpinned the oil nationalization of 1938.
+  story: Drafted at Querétaro and proclaimed on February 5, 1917, it gave the nation ownership of land and subsoil resources (Article 27), allowed land reform, guaranteed an eight-hour day and the right to strike (Article 123), and limited the Church.
+  why: The revolution's winning faction under Carranza needed to satisfy the peasants and workers who had fought, and its radicals pushed for land and labour rights.
+  then: Article 27 became the legal basis for land redistribution, which peaked under Lázaro Cárdenas in the 1930s, and for nationalizing oil in 1938.
+## la193036 | 1930 | Vargas takes power in Brazil | who: Getúlio Vargas | where: Brazil
+  bluf: Getúlio Vargas took power after the Depression destroyed Brazil's coffee economy, and built a centralized state that promoted industry and labor rights. His model of state-led development and populism shaped Brazilian politics for decades.
+  now: Vargas built the Brazilian state that still exists: labour law, state industry, a centralised bureaucracy and a politics of the urban poor; his model governed Brazil through dictatorship and democracy alike.
+  story: Vargas led a revolt in 1930 and ruled as president and dictator. He built steel mills, created labor laws and a minimum wage, and later founded the oil company Petrobras.
+  why: The Depression wrecked coffee prices, and a disputed election let Vargas lead a revolt from the south.
+  then: Overthrown in 1945, he was elected again in 1950 and killed himself in office in 1954.
+  fact: He is remembered as 'the father of the poor'.
+## la193837 | 1938 | Mexico nationalizes oil | who: Lázaro Cárdenas | where: Mexico
+  bluf: Mexico's nationalization of foreign oil companies asserted national control over natural resources and became a model for resource nationalism worldwide. Pemex became a symbol of Mexican sovereignty.
+  now: Resource nationalism, from Iran to Venezuela to Bolivia, followed Mexico's example.
+  story: After US and British companies refused to obey a court ruling on workers' wages, President Lázaro Cárdenas nationalized them. Mexicans donated jewelry and chickens to help pay compensation.
+  why: US and British oil companies defied a Mexican Supreme Court ruling on workers' wages.
+  then: Mexico and Britain broke off relations, foreign companies boycotted Mexican oil, but the US, wanting Mexican goodwill as war loomed, accepted compensation; Pemex controlled Mexican oil for decades.
+## la194638 | 1946 | Perón in Argentina | who: Juan and Eva Perón | where: Argentina
+  bluf: Juan Perón built a mass movement of workers around wages, welfare and nationalism, creating Peronism, Argentina's dominant political force. His economic nationalism and populism shaped Argentina's cycles of boom, crisis and polarization.
+  now: Peronism, hard to label left or right, is still Argentina's biggest political force.
+  story: An army colonel, Perón won workers' loyalty with higher wages, pensions and union rights. His wife Eva, 'Evita', became an icon of the poor.
+  why: As labour minister in a military government, Perón had won workers' loyalty with wage rises and union rights; mass protests freed him from arrest in 1945.
+  then: He was overthrown in 1955, returned in 1973, and died in office a year later.
+## la195439 | 1954 | US-backed coup in Guatemala | who: CIA; Jacobo Árbenz; United Fruit | where: Guatemala
+  bluf: The CIA's overthrow of Guatemala's elected government, to protect United Fruit and fight perceived communism, ended a democratic experiment. It led to decades of military rule and civil war, and convinced many Latin American leftists that only armed revolution could bring change.
+  now: Che Guevara, then in Guatemala, drew exactly that lesson, and the coup remains a reference point for Latin American suspicion of US intervention.
+  story: President Jacobo Árbenz's land reform took unused land from the United Fruit Company. The US branded him communist and backed an invasion by exiles.
+  why: Árbenz's land reform took unused land from the US-owned United Fruit Company, and Washington feared communist influence.
+  then: Guatemala fell into a 36-year civil war that killed about 200,000, mostly Indigenous Maya.
+## d-granma | 1956 | Castro lands on the Granma | who: Fidel Castro, Raúl Castro, Che Guevara and 79 other rebels | where: Playa Las Coloradas, Cuba
+  bluf: The Granma landing began Castro's guerrilla war in the Sierra Maestra; a near-catastrophic start grew into a revolution that toppled Batista within three years.
+  now: The landing began the guerrilla war that took Havana in two years and put a Soviet ally ninety miles from Florida; the Cuban revolution's method was copied across Latin America for three decades.
+  story: The overcrowded yacht Granma landed on December 2, 1956, two days late. Batista's army ambushed the rebels days later at Alegría de Pío; the survivors, including Fidel, Raúl and Che, regrouped in the Sierra Maestra mountains.
+  why: Castro had sworn to overthrow Batista after a failed attack on an army barracks in 1953.
+  then: The guerrillas grew into an army as Batista's repression alienated Cubans, and Batista fled on January 1, 1959.
+  fact: The Communist Party's newspaper is named Granma.
+## la195940 | 1959 | Cuban Revolution | who: Fidel Castro, Che Guevara | where: Cuba
+  bluf: Castro's revolution overthrew a US-backed dictatorship and created a communist state 90 miles from Florida. It made Cuba a Soviet ally and a Cold War flashpoint, inspired guerrilla movements across Latin America, and triggered a US embargo still in force.
+  now: Cuba remains a one-party state in deep economic crisis, with mass emigration; its gains in health and education and its political repression both define the revolution's legacy.
+  story: After a failed attack on the Moncada barracks in 1953 and a near-disastrous landing in 1956, Fidel Castro, his brother Raúl and Che Guevara built a guerrilla army in the Sierra Maestra mountains. Batista's demoralized army lost ground, the US stopped selling him arms in 1958, and the dictator fled on New Year's Day 1959. Castro, who had promised elections, never held them.
+  why: Batista's corrupt dictatorship, deep inequality and US domination of Cuba's economy.
+  then: Castro nationalized US businesses and allied with the Soviet Union, which led to the 1962 missile crisis. Cuba exported revolution to Latin America and sent troops to Africa, and over a million Cubans eventually emigrated.
+  fact: Cuban intelligence claims there were over 600 plots to kill Castro. He died of old age in 2016.
+## la196141 | 1961 | Bay of Pigs | who: CIA-backed exiles | where: Cuba
+  bluf: The failed CIA-backed invasion of Cuba humiliated the United States, strengthened Castro and pushed Cuba into the Soviet camp. It led directly to the Cuban Missile Crisis.
+  now: It is a classic case study in 'groupthink', and in how a covert action can push its target into the arms of a rival.
+  story: About 1,400 Cuban exiles trained by the CIA landed at the Bay of Pigs. Kennedy refused to send air support, and Castro's forces captured most of them.
+  why: The US wanted to overthrow Castro and planned the invasion under Eisenhower; Kennedy approved it.
+  then: Castro declared Cuba socialist and moved closer to Moscow, which led to the missile crisis.
+## la196242 | 1962 | Cuban Missile Crisis | who: Kennedy, Khrushchev, Castro | where: Cuba
+  bluf: The Cuban Missile Crisis brought the United States and Soviet Union closer to nuclear war than ever before. Its peaceful resolution, through a public pledge and a secret trade, led both sides to build tools for managing the nuclear rivalry and opened the way to détente.
+  now: It's the textbook example of crisis diplomacy, invoked in confrontations from Ukraine to Taiwan.
+  story: In October 1962 American spy planes found Soviet nuclear missile sites under construction in Cuba. Kennedy declared a naval 'quarantine' of the island, and for 13 days the world waited; a US spy plane was shot down over Cuba and a Soviet submarine came close to firing a nuclear torpedo. Khrushchev agreed to remove the missiles in exchange for a US pledge not to invade Cuba and a secret promise to remove US missiles from Turkey.
+  why: Khrushchev placed nuclear missiles in Cuba to protect Castro and offset US missiles in Turkey and Italy.
+  trig: US U-2 photographs of the missile sites, taken on October 14, 1962.
+  then: Both sides set up a hotline and signed a test-ban treaty; the humiliated Soviets launched a huge nuclear build-up, and Khrushchev was ousted in 1964.
+  fact: It led to the Moscow–Washington 'hotline', which was actually a teletype machine, not a red phone.
+## la196443 | 1964 | Brazil military coup | who: Brazilian military | where: Brazil
+  bluf: Brazil's military, with US support, overthrew an elected leftist president and ruled for 21 years. The coup became a model for military regimes across South America in the 1960s and 70s.
+  now: A 1979 amnesty shielded the regime's torturers. Jair Bolsonaro, who praised the dictatorship, was convicted in 2025 of plotting a coup after losing the 2022 election.
+  story: Fearing leftist reforms, the military, with US support, ousted João Goulart. The regime used torture and censorship but also oversaw an economic boom.
+  why: Brazil's military, business elites and the US feared President João Goulart's leftist reforms.
+  then: The regime used torture and censorship, presided over an economic boom, and returned power to civilians in 1985.
+## la196744 | 1967 | Che killed in Bolivia | who: Bolivian army, CIA | where: Bolivia
+  bluf: Che Guevara's capture and execution in Bolivia ended his attempt to export the Cuban revolution. His death made him a global icon of rebellion, even though his strategy had failed.
+  now: His image became one of the most reproduced in the world, often detached from his actual record.
+  story: Che left Cuba to spread revolution and tried to start a guerrilla war in Bolivia. Peasants didn't join him, and Bolivian troops with CIA help caught him.
+  why: Che's attempt to start a guerrilla war in Bolivia failed to win peasant support, and the Bolivian army, advised by the CIA, tracked him down.
+  then: His death turned him into a global icon of rebellion, and Cuba shifted to supporting revolutions with its own troops abroad, especially in Africa.
+## la197345 | 1973 | Pinochet coup in Chile | who: Augusto Pinochet | where: Chile
+  bluf: Pinochet's coup overthrew Chile's elected socialist government with US encouragement and began 17 years of dictatorship. His regime killed or disappeared over 3,000 people and made Chile a laboratory for free-market economics, a mixed legacy still fiercely debated.
+  now: Chile's debates over its constitution still revolve around the Pinochet legacy.
+  story: Allende's government nationalized copper and faced shortages and US-backed pressure. General Augusto Pinochet bombed the presidential palace; Allende died inside.
+  why: Allende's socialist reforms, economic crisis and Cold War fears; the US had worked to undermine his government.
+  then: Pinochet's regime killed or disappeared over 3,000 people and turned Chile into a free-market laboratory.
+  fact: It happened on September 11, 1973. Chileans call it their own 9/11.
+## la197646 | 1976 | Argentina's Dirty War | who: Military junta | where: Argentina
+  bluf: Argentina's military junta 'disappeared' up to 30,000 people in a campaign against leftists and anyone it deemed subversive. The search for justice led by the Mothers of the Plaza de Mayo made Argentina a pioneer in prosecuting crimes against humanity.
+  now: Trials of officers continue, and grandmothers are still finding stolen grandchildren through DNA.
+  story: The junta kidnapped students, unionists and suspected leftists, torturing many in secret centers. Some were thrown alive from planes into the sea.
+  why: The junta set out to destroy left-wing guerrillas and anyone it considered 'subversive'.
+  then: The Mothers of the Plaza de Mayo marched every week demanding answers; the junta fell after the Falklands War.
+## la197947 | 1979 | Sandinista revolution | who: The Sandinista National Liberation Front (FSLN); dictator Anastasio Somoza Debayle | where: Nicaragua
+  bluf: The Sandinista revolution overthrew the US-backed Somoza dictatorship, and the United States answered by funding the Contra rebels. Nicaragua became a Cold War battleground, and its revolutionary leader Daniel Ortega has since become an authoritarian ruler himself.
+  now: Sandinista leader Daniel Ortega has ruled Nicaragua again since 2007, increasingly as an authoritarian.
+  story: The Somoza family had ruled Nicaragua since the 1930s with US support. After the 1978 murder of opposition editor Pedro Joaquín Chamorro, a popular uprising led by the Sandinista guerrillas spread, and Somoza fled on July 17, 1979.
+  why: Decades of corrupt dictatorship and the regime's brutality, including its theft of earthquake aid after 1972.
+  then: The US backed the Contra rebels in a war that killed about 30,000; the Iran-Contra scandal followed.
+## la198248 | 1982 | Falklands War | who: Argentina's military junta; Britain (Margaret Thatcher) | where: Falkland Islands
+  bluf: Argentina's junta invaded the Falklands to win popularity, and Britain's recapture of the islands brought the junta down. The war restored democracy in Argentina and strengthened Thatcher's government.
+  now: Argentina still claims the islands, which it calls the Malvinas, and the war remains a defining memory in both countries.
+  story: Facing economic crisis and protest, Argentina's military government seized the British-ruled islands in April 1982. Britain sent a task force 13,000 km and retook them by mid-June. About 650 Argentines and 255 British servicemen died.
+  why: Argentina's military government, facing economic crisis and protests, hoped a patriotic victory over islands it had long claimed would rescue its popularity, and wrongly expected Britain not to fight.
+  then: Defeat brought down the junta, and Argentina returned to democracy in 1983.
+## la198248b | 1982 | Latin American debt crisis | who: Mexico; international banks; the IMF | where: Mexico City
+  bluf: Mexico's default set off a debt crisis across Latin America that brought a 'lost decade' of stagnation and IMF-imposed austerity. It ended the region's state-led development model and ushered in the market reforms of the 'Washington Consensus', which still shape debates about globalization.
+  now: Argentina's repeated defaults and IMF programmes show the pattern continues, and arguments about austerity still echo this crisis.
+  story: In August 1982 Mexico announced it could not service its foreign debt. Banks stopped lending across the region, and country after country turned to the IMF for bailouts conditioned on austerity.
+  why: Oil exporters' 'petrodollars' had been lent heavily to Latin America in the 1970s; when US interest rates soared to fight inflation, the debts became unpayable.
+  trig: Mexico's announcement in August 1982 that it could not service its debts, after the US Federal Reserve had pushed interest rates to record highs to fight inflation.
+  then: The 1980s became Latin America's 'lost decade'. Debt write-downs under the Brady Plan (1989) eventually ended the crisis, as privatization and trade liberalization spread across the region.
+## la198949 | 1989 | US invades Panama | who: US; Manuel Noriega | where: Panama
+  bluf: The US invasion of Panama removed Manuel Noriega, a former CIA ally turned drug trafficker. It was the last large-scale US invasion in Latin America and a sign of Washington's freedom to act as the Cold War ended.
+  now: It was the last large-scale US invasion in Latin America, and is cited in debates over US military action against governments accused of drug trafficking.
+  story: Manuel Noriega, Panama's military ruler, had worked with the CIA but was indicted in the US for drug trafficking. In December 1989, after a US Marine was killed at a checkpoint, 26,000 US troops invaded; Noriega surrendered in January and was taken to Miami for trial.
+  why: The US cited drug trafficking, the killing of a Marine and the safety of the canal.
+  then: Hundreds of Panamanian civilians were killed, and Noriega was tried and jailed in the United States.
+## la199450 | 1994 | Zapatista uprising | who: Mexico; Subcomandante Marcos | where: Chiapas, Mexico
+  bluf: The Zapatista uprising, timed for NAFTA's first day, highlighted the plight of Mexico's Indigenous poor in the face of globalization. Its media savvy made it a model for the global anti-globalization movement.
+  now: Their masked spokesman Subcomandante Marcos inspired global anti-globalization movements.
+  story: On January 1, 1994, the day NAFTA took effect, the masked Zapatista Army of National Liberation seized towns in Chiapas, Mexico's poorest state. After 12 days of fighting the government declared a ceasefire, and talks followed.
+  why: Indigenous poverty, land loss and fear that NAFTA would ruin small maize farmers.
+  then: After a ceasefire the Zapatistas ran self-governing communities in Chiapas, and Mexico passed limited Indigenous-rights reforms in 2001.
+## la199951 | 1999 | Chávez in Venezuela | who: Hugo Chávez, a former army officer | where: Venezuela
+  bluf: Hugo Chávez's election began a 'Bolivarian revolution' that spent oil wealth on social programmes while concentrating power, and it helped launch Latin America's 'pink tide' of leftist governments. Oil dependence and the erosion of institutions set up Venezuela's later collapse.
+  now: Venezuela's later collapse under his successor Maduro is often blamed on his policies.
+  story: Hugo Chávez, a former army officer who had led a failed coup in 1992, won Venezuela's presidential election in December 1998, promising to sweep away a corrupt two-party system. In office from 1999 he wrote a new constitution and, as oil prices rose, spent heavily on programmes for the poor, while taking control of the courts, the state oil company and much of the media. He won repeated elections until his death in 2013.
+  why: Anger at corruption, poverty and the two old parties that had shared power for 40 years.
+  then: Leftist leaders won across the region in the 2000s, from Bolivia and Ecuador to Brazil and Argentina, a 'pink tide' financed partly by the commodity boom.
+## la200152 | 2001 | Argentina defaults | who: President Fernando de la Rúa; the IMF; Argentine savers | where: Argentina
+  bluf: Argentina's 2001 default, then the largest sovereign default in history, ended a decade of pegging the peso to the dollar and plunged half the population into poverty. It is a defining case of how a fixed exchange rate and foreign debt can collapse together.
+  now: Argentina has defaulted nine times in its history, and the 2001 crisis still shapes its politics, from the Kirchners to Milei.
+  story: Argentina had pegged its peso to the dollar. When the peg broke, banks froze accounts, riots broke out and the country had five presidents in two weeks.
+  why: A peso pegged to the dollar made exports uncompetitive, while foreign debt and a long recession grew.
+  then: Poverty soared above 50%, and Argentina went through five presidents in about two weeks.
+## la200353 | 2003 | Lula in Brazil | who: Luiz Inácio Lula da Silva | where: Brazil
+  bluf: Lula's election brought a former union leader to power in Brazil, combining social programmes such as Bolsa Família with market-friendly policies. Tens of millions rose out of poverty, though corruption scandals later engulfed his party.
+  now: Lula won the presidency again in 2022, after a corruption conviction that was later annulled; his career reflects Brazil's deep left-right polarization.
+  story: Luiz Inácio Lula da Silva's Bolsa Família program paid poor families to keep children in school, lifting millions from poverty during a commodity boom.
+  why: Disappointment with the 1990s market reforms, deep inequality, and the appeal of a former metalworker and union leader.
+  then: He was later jailed for corruption, freed when the conviction was annulled, and re-elected in 2022.
+## la201054 | 2010 | Haiti earthquake | who: Haitians; the UN and international aid agencies | where: Port-au-Prince
+  bluf: The 2010 earthquake killed well over 100,000 people, by some estimates more than 200,000, in the poorest country in the Americas. Despite billions in pledged aid, reconstruction largely failed, and UN peacekeepers introduced cholera.
+  now: Haiti never recovered, and the collapse of its state after 2021, with gangs controlling most of the capital, has roots in the failures of reconstruction.
+  story: On January 12, 2010, a magnitude 7.0 earthquake struck near Port-au-Prince. Poorly built concrete buildings collapsed, including the presidential palace; estimates of the dead range from about 100,000 to over 200,000.
+  why: Haiti lies on a major fault, and poverty meant few buildings were built to resist earthquakes.
+  then: Billions in aid poured in, but much never reached Haitians; UN peacekeepers brought cholera.
+## la201455 | 2014 | Venezuela crisis deepens | who: Nicolás Maduro | where: Venezuela
+  bluf: Venezuela's economic collapse, driven by oil dependence, mismanagement and corruption and deepened by sanctions, shrank the economy by about three-quarters. Nearly 8 million people, about a quarter of the population, have left, one of the world's largest displacement crises.
+  now: It is one of the world's largest displacement crises, and in 2025 Venezuela became the focus of a US military build-up in the Caribbean.
+  story: Oil supplied about 95% of Venezuela's export earnings. When prices fell from over $100 a barrel in mid-2014 to under $30 in early 2016, the government kept spending, printed money and tightened price controls. The economy shrank by roughly three-quarters over the following years, hyperinflation wiped out wages and savings, and food and medicine ran short.
+  why: Oil provided almost all of Venezuela's export earnings, and price controls, expropriations and corruption had crippled production.
+  then: Nearly 8 million Venezuelans have left; Maduro claimed victory in disputed elections in 2018 and 2024, and the US imposed sweeping sanctions.
+## la201656 | 2016 | Colombia-FARC peace deal | who: Juan Manuel Santos; FARC | where: Colombia
+  bluf: The peace deal with the FARC ended Latin America's longest-running insurgency after 52 years. Narrowly rejected in a referendum, it was revised and approved by Congress, and its implementation has been uneven as other armed groups expanded.
+  now: Santos won the Nobel Peace Prize; violence by other armed groups continues.
+  story: After four years of talks in Havana, President Juan Manuel Santos and the FARC guerrillas signed a peace deal in 2016 to end a war that had lasted since 1964. Voters narrowly rejected it in an October referendum; a revised deal was approved by Congress in November.
+  why: Military pressure had weakened the FARC, and both sides saw no path to victory.
+  then: About 13,000 FARC members disarmed and the group became a political party, but hundreds of former fighters and social leaders were later killed, and dissident factions rearmed.
+## la202157 | 2021 | Haiti's president assassinated | who: Jovenel Moïse | where: Haiti
+  bluf: The assassination of President Jovenel Moïse deepened Haiti's political collapse and left a vacuum that armed gangs filled. Gangs now control most of the capital, and an international security mission has struggled to restore order.
+  now: Haiti's political and security crisis continues, with over a million people displaced by gang violence and half the population facing hunger.
+  story: On July 7, 2021, a commando unit that included more than 20 former Colombian soldiers stormed President Jovenel Moïse's home in Port-au-Prince and shot him dead.
+  why: Haiti was in deep political crisis: Moïse had been ruling by decree, and the end of his term was disputed. Who ordered the killing remains unclear.
+  then: Haiti was left without a single elected national official. Gangs took over most of Port-au-Prince; a Kenyan-led international mission arrived in 2024, and in 2025 the UN authorized a larger force to fight the gangs.
+## la202358 | 2023 | Milei elected in Argentina | who: Javier Milei | where: Argentina
+  bluf: Javier Milei's election brought a libertarian 'chainsaw' programme to Argentina, cutting spending sharply to end chronic inflation. It is a test of whether radical austerity can break Argentina's cycle of crises while keeping public support.
+  now: His party won the October 2025 midterm elections, after a US-backed financial rescue, strengthening his hand for further reforms.
+  story: Javier Milei, a libertarian economist and TV commentator who campaigned with a chainsaw as a symbol of cutting the state, won Argentina's presidential run-off in November 2023 with about 56% of the vote, as annual inflation topped 140%.
+  why: Runaway inflation, rising poverty and anger at the established parties.
+  then: He cut spending sharply, ran Argentina's first budget surpluses in years and brought monthly inflation down, while poverty rose at first.

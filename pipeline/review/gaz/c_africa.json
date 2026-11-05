@@ -1,0 +1,6483 @@
+{
+ "region": "Central Africa (southern Cameroon, Gabon, Equatorial Guinea, both Congos, CAR, southern Chad, Angola, western Zambia, northern Namibia fringe)",
+ "polities": [
+  {
+   "name": "Kingdom of Kongo",
+   "aliases": [
+    "Kongo dia Ntotila",
+    "Manikongo",
+    "São Salvador"
+   ],
+   "from": 1390,
+   "to": 1914,
+   "seat": {
+    "name": "Mbanza Kongo (São Salvador)",
+    "lat": -6.27,
+    "lon": 14.25
+   },
+   "extent": [
+    [
+     -5.9,
+     12.3
+    ],
+    [
+     -4.8,
+     13.8
+    ],
+    [
+     -4.4,
+     15.2
+    ],
+    [
+     -5.4,
+     16.4
+    ],
+    [
+     -7.2,
+     16.0
+    ],
+    [
+     -8.4,
+     14.5
+    ],
+    [
+     -8.3,
+     13.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1888,
+     "to": 1914,
+     "name": "Portugal"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1390,
+     "to": 1665,
+     "extent": [
+      [
+       -5.9,
+       12.3
+      ],
+      [
+       -4.8,
+       13.8
+      ],
+      [
+       -4.4,
+       15.2
+      ],
+      [
+       -5.4,
+       16.4
+      ],
+      [
+       -7.2,
+       16.0
+      ],
+      [
+       -8.4,
+       14.5
+      ],
+      [
+       -8.3,
+       13.3
+      ]
+     ]
+    },
+    {
+     "from": 1665,
+     "to": 1709,
+     "seat": {
+      "name": "Mbanza Kongo (abandoned 1678-1705; court at Kibangu)",
+      "lat": -6.27,
+      "lon": 14.25
+     },
+     "extent": [
+      [
+       -5.8,
+       13.8
+      ],
+      [
+       -5.6,
+       14.8
+      ],
+      [
+       -6.4,
+       15.1
+      ],
+      [
+       -6.9,
+       14.5
+      ],
+      [
+       -6.6,
+       13.8
+      ]
+     ]
+    },
+    {
+     "from": 1709,
+     "to": 1914,
+     "extent": [
+      [
+       -5.6,
+       13.4
+      ],
+      [
+       -5.4,
+       15.0
+      ],
+      [
+       -6.4,
+       15.6
+      ],
+      [
+       -7.4,
+       15.0
+      ],
+      [
+       -7.4,
+       13.7
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+   "confidence": "high",
+   "note": "Height c.1500-1665 from the Congo river to the Dande/Loje and east to the Kwango marches; battle of Mbwila 1665 began a civil war (1665-1709) that left provinces autonomous; restored by Pedro IV 1709 but much smaller and decentralised; Portuguese vassal/protectorate from 1857/1888; kingship ended 1914."
+  },
+  {
+   "name": "Soyo",
+   "aliases": [
+    "County of Soyo",
+    "Mbanza Soyo",
+    "Sonyo",
+    "Principality of Soyo"
+   ],
+   "from": 1400,
+   "to": 1880,
+   "seat": {
+    "name": "Mbanza Soyo",
+    "lat": -6.13,
+    "lon": 12.37
+   },
+   "extent": [
+    [
+     -5.95,
+     12.25
+    ],
+    [
+     -5.85,
+     13.0
+    ],
+    [
+     -6.4,
+     13.5
+    ],
+    [
+     -7.25,
+     13.2
+    ],
+    [
+     -7.25,
+     12.85
+    ],
+    [
+     -6.6,
+     12.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1641,
+     "name": "Kingdom of Kongo"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Soyo",
+   "confidence": "moderate",
+   "note": "Coastal province of Kongo at the Congo mouth; effectively independent from c.1641 under Count Daniel da Silva, defeated Portuguese at Kitombo 1670; remained autonomous until absorbed into Portuguese Angola in the 1880s."
+  },
+  {
+   "name": "Mbata (Kongo province)",
+   "aliases": [
+    "Mbanza Mbata",
+    "Duchy of Mbata"
+   ],
+   "from": 1400,
+   "to": 1709,
+   "seat": {
+    "name": "Mbanza Mbata",
+    "lat": -5.55,
+    "lon": 15.05
+   },
+   "extent": [
+    [
+     -4.9,
+     14.9
+    ],
+    [
+     -5.1,
+     15.8
+    ],
+    [
+     -6.0,
+     16.1
+    ],
+    [
+     -6.3,
+     15.3
+    ],
+    [
+     -5.7,
+     14.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1665,
+     "name": "Kingdom of Kongo"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+   "confidence": "low",
+   "note": "Eastern Kongo province ruled by its own hereditary-elective dukes; acted independently during the civil war 1665-1709; later re-absorbed. Extent approximate (Inkisi to Kwango marches)."
+  },
+  {
+   "name": "Nsundi (Kongo province)",
+   "aliases": [
+    "Mbanza Nsundi",
+    "Duchy of Nsundi"
+   ],
+   "from": 1400,
+   "to": 1709,
+   "seat": {
+    "name": "Mbanza Nsundi",
+    "lat": -5.15,
+    "lon": 14.4
+   },
+   "extent": [
+    [
+     -4.6,
+     13.8
+    ],
+    [
+     -4.4,
+     15.1
+    ],
+    [
+     -5.2,
+     15.0
+    ],
+    [
+     -5.5,
+     14.2
+    ],
+    [
+     -5.1,
+     13.7
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1665,
+     "name": "Kingdom of Kongo"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+   "confidence": "low",
+   "note": "Northern Kongo province between the lower Congo and the Inkisi, traditionally held by the heir; autonomous in the civil war. Extent approximate."
+  },
+  {
+   "name": "Mbamba (Kongo province)",
+   "aliases": [
+    "Mbanza Mbamba",
+    "Mbamba Lovata"
+   ],
+   "from": 1400,
+   "to": 1709,
+   "seat": {
+    "name": "Mbanza Mbamba",
+    "lat": -7.35,
+    "lon": 13.8
+   },
+   "extent": [
+    [
+     -7.25,
+     12.9
+    ],
+    [
+     -7.0,
+     14.3
+    ],
+    [
+     -7.9,
+     14.6
+    ],
+    [
+     -8.0,
+     13.1
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1665,
+     "name": "Kingdom of Kongo"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kongo",
+   "confidence": "low",
+   "note": "Southwestern march of Kongo between the Mbridge and Loje rivers facing Portuguese Angola; Kimpanzu faction base during the civil war. Extent approximate."
+  },
+  {
+   "name": "Kibangu (Kongo court in exile)",
+   "aliases": [
+    "Mount Kibangu",
+    "Kinlaza/Água Rosada faction"
+   ],
+   "from": 1666,
+   "to": 1709,
+   "seat": {
+    "name": "Kibangu",
+    "lat": -5.95,
+    "lon": 14.62
+   },
+   "reach_km": 50,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kongo_Civil_War",
+   "confidence": "moderate",
+   "note": "Mountain stronghold from which rival Kongo kings ruled after Mbanza Kongo was abandoned (Manuel I overthrown 1688, Álvaro X to 1695, then Pedro IV); Pedro IV reoccupied São Salvador 1709 and his descendants kept Kibangu as princes after 1718."
+  },
+  {
+   "name": "Kingdom of Loango",
+   "aliases": [
+    "Lwangu",
+    "Loango",
+    "Maloango",
+    "Buali"
+   ],
+   "from": 1550,
+   "to": 1883,
+   "seat": {
+    "name": "Buali (Diosso)",
+    "lat": -4.66,
+    "lon": 11.83
+   },
+   "extent": [
+    [
+     -2.6,
+     9.9
+    ],
+    [
+     -2.6,
+     10.9
+    ],
+    [
+     -4.0,
+     12.6
+    ],
+    [
+     -4.8,
+     12.4
+    ],
+    [
+     -4.95,
+     12.0
+    ],
+    [
+     -3.9,
+     11.05
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1883,
+     "to": 1900,
+     "name": "France"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Loango",
+   "confidence": "high",
+   "note": "Vili kingdom on the coast north of the Chiloango; separated from Kongo by c.1550; at height ruled from Mayumba to the Chiloango and inland to the Mayombe; French protectorate 1883."
+  },
+  {
+   "name": "Kingdom of Kakongo",
+   "aliases": [
+    "Cacongo",
+    "Kinguele"
+   ],
+   "from": 1250,
+   "to": 1885,
+   "seat": {
+    "name": "Kinguele",
+    "lat": -5.25,
+    "lon": 12.35
+   },
+   "extent": [
+    [
+     -5.0,
+     12.0
+    ],
+    [
+     -4.95,
+     12.6
+    ],
+    [
+     -5.3,
+     12.75
+    ],
+    [
+     -5.4,
+     12.15
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1900,
+     "name": "Portugal"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kakongo",
+   "confidence": "moderate",
+   "note": "Origins before the 13th c. per Wikipedia. Small coastal kingdom between Loango and Ngoyo (ports Malemba, Cabinda shore); claimed as tributary by Kongo; Portuguese protectorate by Treaty of Simulambuco 1885."
+  },
+  {
+   "name": "Kingdom of Ngoyo",
+   "aliases": [
+    "Ngoio",
+    "Mbanza Ngoyo",
+    "Cabinda"
+   ],
+   "from": 1250,
+   "to": 1885,
+   "seat": {
+    "name": "Mbanza Ngoyo",
+    "lat": -5.6,
+    "lon": 12.3
+   },
+   "extent": [
+    [
+     -5.4,
+     12.15
+    ],
+    [
+     -5.3,
+     12.8
+    ],
+    [
+     -5.8,
+     13.0
+    ],
+    [
+     -6.05,
+     12.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1900,
+     "name": "Portugal"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ngoyo",
+   "confidence": "moderate",
+   "note": "Origins before the 13th c. per Wikipedia. Woyo kingdom around Cabinda bay north of the Congo mouth; Portuguese protectorate (Simulambuco) 1885; ruling Mambuku title survived to 20th c."
+  },
+  {
+   "name": "Tio Kingdom",
+   "aliases": [
+    "Anziku",
+    "Anzico",
+    "Teke Kingdom",
+    "Makoko",
+    "Great Makoko"
+   ],
+   "from": 1400,
+   "to": 1880,
+   "seat": {
+    "name": "Mbe",
+    "lat": -3.28,
+    "lon": 15.83
+   },
+   "extent": [
+    [
+     -1.9,
+     14.6
+    ],
+    [
+     -2.0,
+     16.0
+    ],
+    [
+     -3.0,
+     16.6
+    ],
+    [
+     -4.3,
+     15.6
+    ],
+    [
+     -4.4,
+     14.9
+    ],
+    [
+     -3.3,
+     14.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1880,
+     "to": 1900,
+     "name": "France"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Tio",
+   "confidence": "moderate",
+   "note": "Teke kingdom on the Batéké plateaux north and west of Pool Malebo; c.320 x 240 km; capital at Mbe (later moved to Ngõ mid-19th c.); Makoko Iloo's treaty with de Brazza 10 Sep 1879, French protectorate 1880."
+  },
+  {
+   "name": "Mwene Muji",
+   "aliases": [
+    "Monemugi",
+    "Mwene Muji kingdom"
+   ],
+   "from": 1400,
+   "to": 1640,
+   "seat": {
+    "name": "Mushie",
+    "lat": -3.02,
+    "lon": 16.92
+   },
+   "extent": [
+    [
+     -2.0,
+     17.0
+    ],
+    [
+     -2.6,
+     19.0
+    ],
+    [
+     -4.6,
+     19.8
+    ],
+    [
+     -5.0,
+     18.6
+    ],
+    [
+     -4.0,
+     17.2
+    ],
+    [
+     -3.2,
+     16.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1640,
+     "extent": [
+      [
+       -2.0,
+       17.0
+      ],
+      [
+       -2.6,
+       19.0
+      ],
+      [
+       -4.6,
+       19.8
+      ],
+      [
+       -5.0,
+       18.6
+      ],
+      [
+       -4.0,
+       17.2
+      ],
+      [
+       -3.2,
+       16.5
+      ]
+     ]
+    },
+    {
+     "from": 1640,
+     "to": 1900
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mwene_Muji",
+   "confidence": "low",
+   "note": "Riverine kingdom of the lower Kasai with navy and trade dominance, around Lake Mai-Ndombe and south toward Idiofa, along the Kasai, Kwilu, Kamtsha, Lukenie; unity broke in the early 17th century (Boma broke away); remnant polity to c.1900. Extent highly uncertain."
+  },
+  {
+   "name": "Boma Kingdom",
+   "aliases": [
+    "Mbali"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Mbali",
+    "lat": -2.6,
+    "lon": 17.4
+   },
+   "reach_km": 110,
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1900,
+     "name": "Congo Free State"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Boma_Kingdom",
+   "confidence": "low",
+   "note": "Broke from Mwene Muji in the early 17th c. and took its northern territories near Lake Mai-Ndombe and the lower Kwa; described as controlling fifteen 'kings' in the 1640s; close to Tio; ended under Congo Free State c.1900. Seat location approximate."
+  },
+  {
+   "name": "Bolia Kingdom",
+   "aliases": [
+    "Bolia",
+    "Nkumu of Bolia"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Bolia",
+    "lat": -1.6,
+    "lon": 18.4
+   },
+   "reach_km": 90,
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1900,
+     "name": "Congo Free State"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bolia_people",
+   "confidence": "low",
+   "note": "Sacred kingship (nkumu) east and northeast of Lake Mai-Ndombe; controlled the lake after defeating Bozanga; in 1767 reported as three subordinate territories under a Bolia king; Congo Free State from 1880s-1890s. Founding date disputed (12th to 18th c.)."
+  },
+  {
+   "name": "Kingdom of Ndongo",
+   "aliases": [
+    "Ngola a Kiluanje",
+    "Ndongo",
+    "Pungo Andongo"
+   ],
+   "from": 1515,
+   "to": 1671,
+   "seat": {
+    "name": "Kabasa",
+    "lat": -9.5,
+    "lon": 15.2
+   },
+   "extent": [
+    [
+     -8.5,
+     13.6
+    ],
+    [
+     -8.6,
+     15.3
+    ],
+    [
+     -9.0,
+     16.0
+    ],
+    [
+     -9.9,
+     15.8
+    ],
+    [
+     -9.8,
+     14.4
+    ],
+    [
+     -9.3,
+     13.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1515,
+     "to": 1556,
+     "name": "Kingdom of Kongo"
+    },
+    {
+     "from": 1626,
+     "to": 1671,
+     "name": "Portuguese Angola"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1515,
+     "to": 1580,
+     "extent": [
+      [
+       -8.5,
+       13.6
+      ],
+      [
+       -8.6,
+       15.3
+      ],
+      [
+       -9.0,
+       16.0
+      ],
+      [
+       -9.9,
+       15.8
+      ],
+      [
+       -9.8,
+       14.4
+      ],
+      [
+       -9.3,
+       13.4
+      ]
+     ]
+    },
+    {
+     "from": 1580,
+     "to": 1626,
+     "extent": [
+      [
+       -8.6,
+       14.6
+      ],
+      [
+       -8.7,
+       15.6
+      ],
+      [
+       -9.2,
+       16.1
+      ],
+      [
+       -9.9,
+       15.8
+      ],
+      [
+       -9.7,
+       14.8
+      ]
+     ]
+    },
+    {
+     "from": 1626,
+     "to": 1671,
+     "seat": {
+      "name": "Pungo Andongo",
+      "lat": -9.67,
+      "lon": 15.58
+     },
+     "extent": [
+      [
+       -9.3,
+       15.2
+      ],
+      [
+       -9.3,
+       16.0
+      ],
+      [
+       -9.95,
+       16.0
+      ],
+      [
+       -9.95,
+       15.2
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ndongo",
+   "confidence": "moderate",
+   "note": "Mbundu kingdom between the Lukala/Bengo and the Kwanza; tributary of Kongo until c.1556; Portuguese war from 1579 stripped the west; Njinga moved east to Matamba 1631; a Portuguese-backed vassal king held Pungo Andongo 1626-1671, extinguished 1671."
+  },
+  {
+   "name": "Kingdom of Matamba",
+   "aliases": [
+    "Matamba",
+    "Ndongo-Matamba",
+    "Kingdom of Njinga"
+   ],
+   "from": 1530,
+   "to": 1909,
+   "seat": {
+    "name": "Santa Maria de Matamba",
+    "lat": -8.9,
+    "lon": 16.6
+   },
+   "extent": [
+    [
+     -7.9,
+     15.8
+    ],
+    [
+     -7.9,
+     17.2
+    ],
+    [
+     -8.6,
+     17.6
+    ],
+    [
+     -9.2,
+     16.9
+    ],
+    [
+     -9.3,
+     16.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1530,
+     "to": 1631,
+     "name": "Kingdom of Kongo"
+    },
+    {
+     "from": 1744,
+     "to": 1909,
+     "name": "Portuguese Angola"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Matamba",
+   "confidence": "moderate",
+   "note": "Mbundu kingdom east of Ndongo along the upper Lukala to the Kwango; tributary to Kongo in the 16th c.; conquered by Njinga 1631 and made the base of Ndongo-Matamba; peace with Portugal 1656; Portuguese vassal from 1744; finally annexed 1909."
+  },
+  {
+   "name": "Kasanje Kingdom",
+   "aliases": [
+    "Kasanje",
+    "Cassange",
+    "Kasanzi",
+    "Imbangala state"
+   ],
+   "from": 1620,
+   "to": 1912,
+   "seat": {
+    "name": "Kasanje",
+    "lat": -9.4,
+    "lon": 17.3
+   },
+   "extent": [
+    [
+     -9.0,
+     16.9
+    ],
+    [
+     -8.7,
+     17.7
+    ],
+    [
+     -9.5,
+     18.2
+    ],
+    [
+     -10.2,
+     17.6
+    ],
+    [
+     -9.9,
+     16.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1850,
+     "to": 1912,
+     "name": "Portuguese Angola"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kasanje_Kingdom",
+   "confidence": "moderate",
+   "note": "Imbangala kingdom in the Baixa de Cassange on the middle Kwango; middleman between Lunda and Luanda slave trade; extinguished by Portugal 1912 (Portuguese occupation 1850s, revolts)."
+  },
+  {
+   "name": "Holo Kingdom",
+   "aliases": [
+    "Holo",
+    "Kiamvo of Holo"
+   ],
+   "from": 1700,
+   "to": 1910,
+   "seat": {
+    "name": "Holo",
+    "lat": -8.2,
+    "lon": 17.9
+   },
+   "reach_km": 60,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Imbangala",
+   "confidence": "low",
+   "note": "Small Imbangala-influenced kingdom on the Kwango north of Kasanje (Kwango river crossing on the Lunda trade route); tributary to Lunda/Yaka sphere."
+  },
+  {
+   "name": "Shinje",
+   "aliases": [
+    "Xinje",
+    "Mwa Shinje"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Shinje",
+    "lat": -9.3,
+    "lon": 18.6
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1700,
+     "to": 1850,
+     "name": "Lunda Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kasanje_Kingdom",
+   "confidence": "low",
+   "note": "Lunda-derived chiefdom east of the Kwango opposite Kasanje, controlling the trade route to Musumba; occupied by Chokwe expansion late 19th c."
+  },
+  {
+   "name": "Kisama",
+   "aliases": [
+    "Quiçama",
+    "Kissama chiefdoms"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Kisama",
+    "lat": -9.75,
+    "lon": 13.7
+   },
+   "extent": [
+    [
+     -9.25,
+     13.25
+    ],
+    [
+     -9.5,
+     14.3
+    ],
+    [
+     -10.3,
+     14.2
+    ],
+    [
+     -10.3,
+     13.6
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Kissama_National_Park",
+   "confidence": "low",
+   "note": "Loose group of salt-producing sobas south of the lower Kwanza that resisted Portugal and sheltered runaways for three centuries; conquered piecemeal in the 19th c."
+  },
+  {
+   "name": "Libolo",
+   "aliases": [
+    "Kingdom of Libolo",
+    "Haku"
+   ],
+   "from": 1500,
+   "to": 1900,
+   "seat": {
+    "name": "Libolo",
+    "lat": -10.0,
+    "lon": 14.8
+   },
+   "reach_km": 70,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Libolo",
+   "confidence": "low",
+   "note": "Mbundu kingdom south of the middle Kwanza, east of Kisama; source of Imbangala alliances; under Portuguese influence 18th-19th c."
+  },
+  {
+   "name": "Dembos (Ndembu chiefdoms)",
+   "aliases": [
+    "Dembos",
+    "Ndembu",
+    "Mbwila",
+    "Nambu a Ngongo",
+    "Kakulu ka Henda"
+   ],
+   "from": 1500,
+   "to": 1919,
+   "seat": {
+    "name": "Kakulu ka Henda",
+    "lat": -8.45,
+    "lon": 14.55
+   },
+   "extent": [
+    [
+     -7.9,
+     14.0
+    ],
+    [
+     -7.9,
+     14.9
+    ],
+    [
+     -8.8,
+     15.0
+    ],
+    [
+     -8.8,
+     14.1
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1500,
+     "to": 1665,
+     "name": "Kingdom of Kongo"
+    },
+    {
+     "from": 1665,
+     "to": 1919,
+     "name": "Portuguese Angola"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Dembos",
+   "confidence": "moderate",
+   "note": "Cluster of Mbundu/Kongo chiefdoms in the hills between Kongo and Ndongo (including Mbwila of the 1665 battle); nominal vassals of Kongo then Portugal; finally conquered in the Dembos campaigns 1907-1919."
+  },
+  {
+   "name": "Portuguese Angola",
+   "aliases": [
+    "Reino de Angola",
+    "Colony of Angola",
+    "Luanda"
+   ],
+   "from": 1575,
+   "to": 1975,
+   "seat": {
+    "name": "Luanda",
+    "lat": -8.84,
+    "lon": 13.23
+   },
+   "extent": [
+    [
+     -8.0,
+     13.1
+    ],
+    [
+     -8.4,
+     14.6
+    ],
+    [
+     -9.7,
+     15.7
+    ],
+    [
+     -10.0,
+     14.3
+    ],
+    [
+     -12.6,
+     13.5
+    ],
+    [
+     -12.6,
+     13.2
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1575,
+     "to": 1617,
+     "extent": [
+      [
+       -8.6,
+       13.2
+      ],
+      [
+       -8.9,
+       14.4
+      ],
+      [
+       -9.7,
+       14.6
+      ],
+      [
+       -9.3,
+       13.2
+      ]
+     ]
+    },
+    {
+     "from": 1617,
+     "to": 1840,
+     "extent": [
+      [
+       -8.0,
+       13.1
+      ],
+      [
+       -8.4,
+       14.6
+      ],
+      [
+       -9.7,
+       15.7
+      ],
+      [
+       -10.0,
+       14.3
+      ],
+      [
+       -12.6,
+       13.5
+      ],
+      [
+       -12.6,
+       13.2
+      ]
+     ]
+    },
+    {
+     "from": 1840,
+     "to": 1885,
+     "extent": [
+      [
+       -7.6,
+       12.9
+      ],
+      [
+       -8.3,
+       15.4
+      ],
+      [
+       -9.7,
+       16.0
+      ],
+      [
+       -12.3,
+       14.5
+      ],
+      [
+       -15.2,
+       13.6
+      ],
+      [
+       -15.2,
+       12.1
+      ]
+     ]
+    },
+    {
+     "from": 1885,
+     "to": 1900,
+     "extent": [
+      [
+       -6.0,
+       12.3
+      ],
+      [
+       -7.3,
+       16.0
+      ],
+      [
+       -9.7,
+       17.5
+      ],
+      [
+       -12.5,
+       16.5
+      ],
+      [
+       -16.5,
+       14.8
+      ],
+      [
+       -16.5,
+       11.8
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Portuguese_Angola",
+   "confidence": "high",
+   "note": "Colony founded at Luanda 1575 with Benguela from 1617; effective control limited to Luanda-Kwanza corridor (Massangano, Ambaca, Pungo Andongo), Benguela coast and Caconda until the late 19th c.; Moçâmedes 1840; Huíla plateau 1850s-80s; full interior conquest 1890-1920."
+  },
+  {
+   "name": "Portuguese São Tomé and Príncipe",
+   "aliases": [
+    "São Tomé",
+    "Ilha de São Tomé",
+    "Príncipe"
+   ],
+   "from": 1485,
+   "to": 1975,
+   "seat": {
+    "name": "São Tomé",
+    "lat": 0.34,
+    "lon": 6.73
+   },
+   "extent": [
+    [
+     0.42,
+     6.58
+    ],
+    [
+     0.36,
+     6.77
+    ],
+    [
+     0.12,
+     6.7
+    ],
+    [
+     0.0,
+     6.52
+    ],
+    [
+     0.22,
+     6.46
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Portuguese_São_Tomé_and_Príncipe",
+   "confidence": "high",
+   "note": "Portuguese plantation colony settled from 1485/1493; Dutch occupation 1641-1648; seat moved to Santo António (Príncipe) 1753-1852."
+  },
+  {
+   "name": "Angolares",
+   "aliases": [
+    "Angolar kingdom",
+    "Angolar maroons"
+   ],
+   "from": 1550,
+   "to": 1693,
+   "seat": {
+    "name": "Sul de São Tomé (Angolar lands)",
+    "lat": 0.12,
+    "lon": 6.58
+   },
+   "reach_km": 15,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/History_of_São_Tomé_and_Príncipe",
+   "confidence": "low",
+   "note": "Maroon community in the forested south of São Tomé, with its own king; raided Portuguese plantations (notably 1574, and with Amador's revolt 1595); submitted to Portugal by treaty c.1693 but kept autonomy."
+  },
+  {
+   "name": "Yaka Kingdom",
+   "aliases": [
+    "Kiamfu of Kasongo Lunda",
+    "Mwene Putu Kasongo",
+    "Yaka"
+   ],
+   "from": 1700,
+   "to": 1906,
+   "seat": {
+    "name": "Kasongo Lunda",
+    "lat": -6.47,
+    "lon": 16.82
+   },
+   "extent": [
+    [
+     -5.4,
+     16.4
+    ],
+    [
+     -5.6,
+     17.8
+    ],
+    [
+     -7.0,
+     17.9
+    ],
+    [
+     -7.4,
+     17.2
+    ],
+    [
+     -6.6,
+     16.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1700,
+     "to": 1850,
+     "name": "Lunda Empire"
+    },
+    {
+     "from": 1895,
+     "to": 1906,
+     "name": "Congo Free State"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Yaka_people",
+   "confidence": "moderate",
+   "note": "Lunda-founded kingdom (Kiamfu) on the middle Kwango ruling Yaka and Suku populations; paid tribute to the Mwant Yav; resisted Congo Free State until 1906."
+  },
+  {
+   "name": "Suku Kingdom",
+   "aliases": [
+    "Meni Kongo",
+    "Suku"
+   ],
+   "from": 1700,
+   "to": 1906,
+   "seat": {
+    "name": "Feshi area (Suku)",
+    "lat": -6.12,
+    "lon": 18.17
+   },
+   "reach_km": 70,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Suku_people",
+   "confidence": "low",
+   "note": "Kingdom of the Meni Kongo east of the Yaka between the Wamba and Inzia rivers; rival of Yaka; subdued by Congo Free State c.1906."
+  },
+  {
+   "name": "Bailundo",
+   "aliases": [
+    "Mbailundu",
+    "Bailundu",
+    "Kingdom of Bailundo",
+    "Halavala"
+   ],
+   "from": 1700,
+   "to": 1903,
+   "seat": {
+    "name": "Halavala (Bailundo)",
+    "lat": -12.17,
+    "lon": 15.87
+   },
+   "extent": [
+    [
+     -11.6,
+     15.4
+    ],
+    [
+     -11.7,
+     16.4
+    ],
+    [
+     -12.5,
+     16.3
+    ],
+    [
+     -12.6,
+     15.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1890,
+     "to": 1903,
+     "name": "Portuguese Angola"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bailundo_(kingdom)",
+   "confidence": "moderate",
+   "note": "Largest Ovimbundu kingdom on the Benguela highlands; caravan-trade power in the 19th c.; Portuguese fort 1896; Bailundo revolt 1902 crushed 1903."
+  },
+  {
+   "name": "Bié",
+   "aliases": [
+    "Viye",
+    "Kingdom of Bié",
+    "Kingdom of Viye"
+   ],
+   "from": 1750,
+   "to": 1890,
+   "seat": {
+    "name": "Kuito (Ekovongo)",
+    "lat": -12.38,
+    "lon": 16.93
+   },
+   "extent": [
+    [
+     -11.7,
+     16.5
+    ],
+    [
+     -11.8,
+     17.6
+    ],
+    [
+     -12.9,
+     17.7
+    ],
+    [
+     -13.0,
+     16.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Angola_native.html",
+   "confidence": "moderate",
+   "note": "Eastern Ovimbundu kingdom on the Kwanza headwaters, base of long-distance caravans (Silva Porto); conquered by Portugal 1890 after Ndunduma's war. Worldstatesmen dates ruler list from 1795."
+  },
+  {
+   "name": "Wambu",
+   "aliases": [
+    "Huambo",
+    "Kingdom of Wambu"
+   ],
+   "from": 1700,
+   "to": 1902,
+   "seat": {
+    "name": "Wambu (Huambo)",
+    "lat": -12.78,
+    "lon": 15.73
+   },
+   "extent": [
+    [
+     -12.5,
+     15.3
+    ],
+    [
+     -12.5,
+     16.2
+    ],
+    [
+     -13.2,
+     16.1
+    ],
+    [
+     -13.2,
+     15.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1890,
+     "to": 1903,
+     "name": "Portuguese Angola"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Angola_native.html",
+   "confidence": "moderate",
+   "note": "Central Ovimbundu kingdom; extinguished by Portugal 1902."
+  },
+  {
+   "name": "Ciyaka",
+   "aliases": [
+    "Chiyaka",
+    "Kingdom of Ciyaka"
+   ],
+   "from": 1700,
+   "to": 1903,
+   "seat": {
+    "name": "Ciyaka",
+    "lat": -13.1,
+    "lon": 15.05
+   },
+   "reach_km": 55,
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Angola_native.html",
+   "confidence": "low",
+   "note": "Southwestern Ovimbundu kingdom between Wambu and Kalukembe; ruler list from c.1810; under Portuguese rule after 1903 (kingship continued to 1940)."
+  },
+  {
+   "name": "Ngalangi",
+   "aliases": [
+    "Galangue",
+    "Kingdom of Ngalangi"
+   ],
+   "from": 1700,
+   "to": 1903,
+   "seat": {
+    "name": "Ngalangi (Galangue)",
+    "lat": -13.75,
+    "lon": 16.0
+   },
+   "reach_km": 50,
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Angola_native.html",
+   "confidence": "low",
+   "note": "Southern Ovimbundu kingdom on the upper Kunene/Kubango divide."
+  },
+  {
+   "name": "Ndulu",
+   "aliases": [
+    "Andulo",
+    "Kingdom of Ndulu"
+   ],
+   "from": 1750,
+   "to": 1903,
+   "seat": {
+    "name": "Andulo",
+    "lat": -11.49,
+    "lon": 16.71
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1750,
+     "to": 1890,
+     "name": "Bié"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Angola_native.html",
+   "confidence": "low",
+   "note": "Northern Ovimbundu kingdom, often tributary to Bailundo or Bié."
+  },
+  {
+   "name": "Kalukembe",
+   "aliases": [
+    "Caluquembe",
+    "Kingdom of Kalukembe"
+   ],
+   "from": 1750,
+   "to": 1903,
+   "seat": {
+    "name": "Caluquembe",
+    "lat": -13.79,
+    "lon": 14.68
+   },
+   "reach_km": 40,
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Angola_native.html",
+   "confidence": "low",
+   "note": "Southwestern Ovimbundu kingdom near the Portuguese presidio of Caconda."
+  },
+  {
+   "name": "Cingolo",
+   "aliases": [
+    "Kingolo",
+    "Chingolo"
+   ],
+   "from": 1750,
+   "to": 1903,
+   "seat": {
+    "name": "Cingolo",
+    "lat": -12.55,
+    "lon": 16.33
+   },
+   "reach_km": 35,
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Angola_native.html",
+   "confidence": "low",
+   "note": "Minor Ovimbundu kingdom between Bailundo, Wambu and Bié."
+  },
+  {
+   "name": "Sambu",
+   "aliases": [
+    "Sambo",
+    "Kingdom of Sambu"
+   ],
+   "from": 1750,
+   "to": 1903,
+   "seat": {
+    "name": "Sambu",
+    "lat": -13.12,
+    "lon": 16.13
+   },
+   "reach_km": 35,
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Angola_native.html",
+   "confidence": "low",
+   "note": "Minor Ovimbundu kingdom south-east of Wambu."
+  },
+  {
+   "name": "Humbe",
+   "aliases": [
+    "Nkhumbi",
+    "Kingdom of Humbe",
+    "Mwene Humbe"
+   ],
+   "from": 1650,
+   "to": 1898,
+   "seat": {
+    "name": "Humbe",
+    "lat": -16.68,
+    "lon": 14.9
+   },
+   "reach_km": 60,
+   "kind": "kingdom",
+   "source": "https://countrystudies.us/angola/10.htm",
+   "confidence": "low",
+   "note": "Nkhumbi kingdom on the middle Kunene; Portuguese fort 1859, revolts, final conquest 1898."
+  },
+  {
+   "name": "Mulondo",
+   "aliases": [
+    "Kingdom of Mulondo"
+   ],
+   "from": 1700,
+   "to": 1890,
+   "seat": {
+    "name": "Mulondo",
+    "lat": -15.64,
+    "lon": 15.2
+   },
+   "reach_km": 40,
+   "kind": "kingdom",
+   "source": "https://countrystudies.us/angola/10.htm",
+   "confidence": "low",
+   "note": "Nyaneka-Nkhumbi kingdom on the Kunene above Humbe."
+  },
+  {
+   "name": "Huíla",
+   "aliases": [
+    "Mwila",
+    "Kingdom of Huíla"
+   ],
+   "from": 1700,
+   "to": 1880,
+   "seat": {
+    "name": "Huíla",
+    "lat": -15.06,
+    "lon": 13.55
+   },
+   "reach_km": 40,
+   "kind": "kingdom",
+   "source": "https://countrystudies.us/angola/10.htm",
+   "confidence": "low",
+   "note": "Nyaneka (Mwila) kingdom of the Huíla plateau; Portuguese post 1769, colonised from the 1850s (Boer settlers at Humpata 1881)."
+  },
+  {
+   "name": "Ombandja",
+   "aliases": [
+    "Kwamato",
+    "Mbandja",
+    "Kingdom of Ombandja"
+   ],
+   "from": 1700,
+   "to": 1907,
+   "seat": {
+    "name": "Ombandja",
+    "lat": -16.95,
+    "lon": 15.25
+   },
+   "reach_km": 40,
+   "kind": "kingdom",
+   "source": "https://countrystudies.us/angola/10.htm",
+   "confidence": "low",
+   "note": "Ovambo kingdom west of Evale between the Kunene and Kwanyama; defeated by Portugal 1904-1907."
+  },
+  {
+   "name": "Evale",
+   "aliases": [
+    "Kingdom of Evale",
+    "Ehanda"
+   ],
+   "from": 1700,
+   "to": 1907,
+   "seat": {
+    "name": "Evale",
+    "lat": -16.53,
+    "lon": 15.78
+   },
+   "reach_km": 40,
+   "kind": "kingdom",
+   "source": "https://countrystudies.us/angola/10.htm",
+   "confidence": "low",
+   "note": "Northernmost Ovambo kingdom on the Cuvelai; occupied by Portugal 1907."
+  },
+  {
+   "name": "Uukwanyama",
+   "aliases": [
+    "Oukwanyama",
+    "Kwanyama",
+    "Kwanhama",
+    "Kanhama"
+   ],
+   "from": 1600,
+   "to": 1917,
+   "seat": {
+    "name": "Ondjiva (N'giva)",
+    "lat": -17.07,
+    "lon": 15.73
+   },
+   "extent": [
+    [
+     -16.6,
+     15.2
+    ],
+    [
+     -16.6,
+     16.3
+    ],
+    [
+     -17.5,
+     16.4
+    ],
+    [
+     -17.7,
+     15.6
+    ],
+    [
+     -17.4,
+     15.2
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Oukwanyama",
+   "confidence": "moderate",
+   "note": "Largest Ovambo kingdom straddling the modern Angola-Namibia border on the Cuvelai floodplain; last independent king Mandume ya Ndemufayo fought Portugal (1915) and died fighting South Africa 1917."
+  },
+  {
+   "name": "Ondonga",
+   "aliases": [
+    "Ndonga",
+    "Kingdom of Ondonga"
+   ],
+   "from": 1650,
+   "to": 1915,
+   "seat": {
+    "name": "Olukonda / Ondangwa",
+    "lat": -17.95,
+    "lon": 16.02
+   },
+   "extent": [
+    [
+     -17.6,
+     15.7
+    ],
+    [
+     -17.6,
+     16.6
+    ],
+    [
+     -18.4,
+     16.7
+    ],
+    [
+     -18.5,
+     15.9
+    ],
+    [
+     -18.1,
+     15.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ondonga",
+   "confidence": "moderate",
+   "note": "Southeasternmost Ovambo kingdom reaching toward Etosha; Finnish mission at Olukonda 1870; under German then South African protection (South African rule 1915); kingship continues."
+  },
+  {
+   "name": "Uukwambi",
+   "aliases": [
+    "Ukwambi",
+    "Kingdom of Uukwambi"
+   ],
+   "from": 1650,
+   "to": 1915,
+   "seat": {
+    "name": "Elim (Uukwambi)",
+    "lat": -17.85,
+    "lon": 15.55
+   },
+   "reach_km": 30,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Uukwambi",
+   "confidence": "moderate",
+   "note": "Ovambo kingdom west of Ondonga; king Iipumbu deposed by South Africa 1932."
+  },
+  {
+   "name": "Ongandjera",
+   "aliases": [
+    "Uukwandjera",
+    "Kingdom of Ongandjera"
+   ],
+   "from": 1650,
+   "to": 1915,
+   "seat": {
+    "name": "Okahao",
+    "lat": -17.88,
+    "lon": 15.07
+   },
+   "reach_km": 25,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ongandjera",
+   "confidence": "low",
+   "note": "Western Ovambo kingdom."
+  },
+  {
+   "name": "Uukwaluudhi",
+   "aliases": [
+    "Ukwaludhi",
+    "Kingdom of Uukwaluudhi"
+   ],
+   "from": 1650,
+   "to": 1915,
+   "seat": {
+    "name": "Tsandi",
+    "lat": -17.75,
+    "lon": 14.89
+   },
+   "reach_km": 25,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Uukwaluudhi",
+   "confidence": "low",
+   "note": "Western Ovambo kingdom."
+  },
+  {
+   "name": "Ombalantu",
+   "aliases": [
+    "Mbalantu",
+    "Uumbalantu"
+   ],
+   "from": 1650,
+   "to": 1915,
+   "seat": {
+    "name": "Outapi",
+    "lat": -17.5,
+    "lon": 14.98
+   },
+   "reach_km": 25,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Outapi",
+   "confidence": "low",
+   "note": "Western Ovambo group which abolished its kingship (traditionally in the 18th/early 19th c.) and was ruled by a council of headmen."
+  },
+  {
+   "name": "Kwangali",
+   "aliases": [
+    "Uukwangali",
+    "Kwangali kingdom"
+   ],
+   "from": 1750,
+   "to": 1910,
+   "seat": {
+    "name": "Nkurenkuru",
+    "lat": -17.62,
+    "lon": 18.6
+   },
+   "reach_km": 60,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kavango_people",
+   "confidence": "low",
+   "note": "Westernmost Kavango kingdom on the Okavango river (both banks, Angola/Namibia); German protection from 1909-1910."
+  },
+  {
+   "name": "Mbukushu",
+   "aliases": [
+    "Hambukushu",
+    "Kingdom of Andara"
+   ],
+   "from": 1750,
+   "to": 1910,
+   "seat": {
+    "name": "Andara",
+    "lat": -18.06,
+    "lon": 21.45
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1800,
+     "to": 1890,
+     "name": "Barotseland"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kavango_people",
+   "confidence": "low",
+   "note": "Kavango kingdom on the Okavango around the Popa falls and Andara; rainmaker kings; paid tribute to the Lozi in the 19th c."
+  },
+  {
+   "name": "Mbunda Kingdom",
+   "aliases": [
+    "Mbunda",
+    "Mwene Mbandu"
+   ],
+   "from": 1600,
+   "to": 1914,
+   "seat": {
+    "name": "Lumbala N'guimbo",
+    "lat": -14.1,
+    "lon": 21.43
+   },
+   "extent": [
+    [
+     -13.0,
+     20.4
+    ],
+    [
+     -13.2,
+     22.2
+    ],
+    [
+     -14.8,
+     22.5
+    ],
+    [
+     -15.3,
+     21.0
+    ],
+    [
+     -14.3,
+     20.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mbunda_people",
+   "confidence": "low",
+   "note": "Mbunda kingdom in southeastern Angola (Moxico/Cuando Cubango); part of the population migrated to Barotseland c.1800; Portuguese conquest 1914 (death of Mwene Mbandu Kapova)."
+  },
+  {
+   "name": "Luvale",
+   "aliases": [
+    "Lovale",
+    "Lwena",
+    "Mwangana Ndungu",
+    "Kakenge"
+   ],
+   "from": 1700,
+   "to": 1905,
+   "seat": {
+    "name": "Ndungu (near Cazombo)",
+    "lat": -11.95,
+    "lon": 22.6
+   },
+   "extent": [
+    [
+     -11.0,
+     21.5
+    ],
+    [
+     -11.0,
+     23.6
+    ],
+    [
+     -13.0,
+     23.8
+    ],
+    [
+     -13.5,
+     22.5
+    ],
+    [
+     -12.5,
+     21.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1700,
+     "to": 1850,
+     "name": "Lunda Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Luvale_people",
+   "confidence": "low",
+   "note": "Lunda-derived chiefdoms (senior title Ndungu, also Kakenge) on the upper Zambezi in eastern Moxico and northwestern Zambia; slave-raiding traders in the 19th c.; partitioned Portugal/Britain 1905."
+  },
+  {
+   "name": "Chokwe chiefdoms",
+   "aliases": [
+    "Chokwe",
+    "Cokwe",
+    "Tshokwe",
+    "Mwa Chisenge",
+    "Quioco"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Mwa Chisenge (upper Kasai)",
+    "lat": -11.2,
+    "lon": 20.2
+   },
+   "extent": [
+    [
+     -10.5,
+     19.0
+    ],
+    [
+     -10.5,
+     21.0
+    ],
+    [
+     -12.0,
+     21.0
+    ],
+    [
+     -12.2,
+     19.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1850,
+     "name": "Lunda Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1600,
+     "to": 1850,
+     "extent": [
+      [
+       -10.5,
+       19.0
+      ],
+      [
+       -10.5,
+       21.0
+      ],
+      [
+       -12.0,
+       21.0
+      ],
+      [
+       -12.2,
+       19.0
+      ]
+     ]
+    },
+    {
+     "from": 1850,
+     "to": 1900,
+     "extent": [
+      [
+       -7.0,
+       18.5
+      ],
+      [
+       -7.5,
+       22.5
+      ],
+      [
+       -10.0,
+       23.0
+      ],
+      [
+       -12.2,
+       21.0
+      ],
+      [
+       -12.2,
+       18.8
+      ],
+      [
+       -9.0,
+       18.0
+      ]
+     ]
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Chokwe_people",
+   "confidence": "moderate",
+   "note": "Decentralised chiefdoms under Lunda-derived titles (Mwa Chisenge, Ndumba Tembo) at the headwaters of the Kwango, Kasai and Kwanza; from the 1850s Chokwe hunters and traders expanded north, sacking the Lunda capital 1887; checked by Lunda/Congo Free State and Portugal c.1898-1900."
+  },
+  {
+   "name": "Barotseland",
+   "aliases": [
+    "Lozi Kingdom",
+    "Bulozi",
+    "Litunga",
+    "Luyi",
+    "Barotse"
+   ],
+   "from": 1600,
+   "to": 1964,
+   "seat": {
+    "name": "Lealui",
+    "lat": -15.22,
+    "lon": 23.02
+   },
+   "extent": [
+    [
+     -13.5,
+     22.3
+    ],
+    [
+     -13.8,
+     24.2
+    ],
+    [
+     -15.5,
+     25.0
+    ],
+    [
+     -17.5,
+     25.2
+    ],
+    [
+     -17.8,
+     23.2
+    ],
+    [
+     -16.0,
+     22.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1891,
+     "to": 1964,
+     "name": "British South Africa Company / Britain"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1600,
+     "to": 1780,
+     "seat": {
+      "name": "Naliele",
+      "lat": -14.95,
+      "lon": 23.05
+     },
+     "extent": [
+      [
+       -14.0,
+       22.6
+      ],
+      [
+       -14.2,
+       23.8
+      ],
+      [
+       -16.2,
+       23.9
+      ],
+      [
+       -16.4,
+       22.8
+      ]
+     ]
+    },
+    {
+     "from": 1780,
+     "to": 1838,
+     "seat": {
+      "name": "Naliele",
+      "lat": -14.95,
+      "lon": 23.05
+     },
+     "extent": [
+      [
+       -13.5,
+       22.3
+      ],
+      [
+       -13.8,
+       24.2
+      ],
+      [
+       -15.5,
+       25.0
+      ],
+      [
+       -17.5,
+       25.2
+      ],
+      [
+       -17.8,
+       23.2
+      ],
+      [
+       -16.0,
+       22.0
+      ]
+     ]
+    },
+    {
+     "from": 1864,
+     "to": 1964,
+     "seat": {
+      "name": "Lealui",
+      "lat": -15.22,
+      "lon": 23.02
+     },
+     "extent": [
+      [
+       -13.5,
+       22.3
+      ],
+      [
+       -13.8,
+       24.5
+      ],
+      [
+       -15.5,
+       25.6
+      ],
+      [
+       -17.8,
+       25.6
+      ],
+      [
+       -17.9,
+       23.2
+      ],
+      [
+       -16.0,
+       22.0
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Barotseland",
+   "confidence": "moderate",
+   "note": "Luyi/Lozi kingdom of the upper Zambezi floodplain under the Litunga; expanded under Mulambwa (c.1780-1830) over Nkoya, Mbunda, Toka, Subiya, Mbukushu; overrun by the Kololo 1838/1840-1864; restored 1864; Lewanika's BSAC concessions 1890/1900, protectorate within Northern Rhodesia."
+  },
+  {
+   "name": "Kololo Kingdom",
+   "aliases": [
+    "Makololo",
+    "Kololo state",
+    "Sebetwane's kingdom"
+   ],
+   "from": 1840,
+   "to": 1864,
+   "seat": {
+    "name": "Linyanti",
+    "lat": -18.07,
+    "lon": 23.84
+   },
+   "extent": [
+    [
+     -14.0,
+     22.5
+    ],
+    [
+     -14.5,
+     24.5
+    ],
+    [
+     -17.6,
+     25.4
+    ],
+    [
+     -18.3,
+     23.5
+    ],
+    [
+     -16.5,
+     22.2
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Makololo",
+   "confidence": "moderate",
+   "note": "Sotho-speaking Kololo under Sebetwane conquered Barotseland c.1838-1840 and ruled from Linyanti (Chobe) and Naliele; collapsed in a Lozi rising 1864."
+  },
+  {
+   "name": "Mutondo (Nkoya)",
+   "aliases": [
+    "Nkoya",
+    "Mutondo",
+    "Lukena"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Lukena (Mutondo)",
+    "lat": -14.8,
+    "lon": 24.8
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1800,
+     "to": 1900,
+     "name": "Barotseland"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Nkoya_people",
+   "confidence": "low",
+   "note": "Senior Nkoya kingship east of the Barotse floodplain on the Kafue-Luena watershed; tributary to the Lozi from the early 19th c."
+  },
+  {
+   "name": "Kahare (Nkoya)",
+   "aliases": [
+    "Kahare",
+    "Mashasha Nkoya"
+   ],
+   "from": 1750,
+   "to": 1900,
+   "seat": {
+    "name": "Kahare",
+    "lat": -15.4,
+    "lon": 25.4
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1800,
+     "to": 1900,
+     "name": "Barotseland"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://worldstatesmen.org/Zambia_native.html",
+   "confidence": "low",
+   "note": "Nkoya/Mashasha chieftainship south of Mutondo toward the Kafue; Lozi tributary."
+  },
+  {
+   "name": "Kasempa (Kaonde)",
+   "aliases": [
+    "Kaonde chiefdoms",
+    "Jipumpu",
+    "Kasempa"
+   ],
+   "from": 1800,
+   "to": 1900,
+   "seat": {
+    "name": "Kasempa",
+    "lat": -13.46,
+    "lon": 25.83
+   },
+   "reach_km": 80,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kaonde_language",
+   "confidence": "low",
+   "note": "Kaonde chiefdoms between the upper Kafue and Lunga; Kasempa (Jipumpu) became paramount in the later 19th c. raiding neighbours; BSAC administration from 1901."
+  },
+  {
+   "name": "Kanongesha (Ndembu Lunda)",
+   "aliases": [
+    "Ndembu",
+    "Kanongesha",
+    "Mwinilunga Lunda"
+   ],
+   "from": 1740,
+   "to": 1900,
+   "seat": {
+    "name": "Kanongesha",
+    "lat": -11.4,
+    "lon": 24.3
+   },
+   "reach_km": 80,
+   "overlord": [
+    {
+     "from": 1740,
+     "to": 1880,
+     "name": "Lunda Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Lunda_Empire",
+   "confidence": "low",
+   "note": "Senior Ndembu (southern Lunda) title on the Zambezi-Kasai watershed (Mwinilunga), founded by Lunda emigrants; nominal tribute to the Mwant Yav."
+  },
+  {
+   "name": "Ishinde (Lunda)",
+   "aliases": [
+    "Ishinde",
+    "Southern Lunda of Zambezi"
+   ],
+   "from": 1750,
+   "to": 1900,
+   "seat": {
+    "name": "Ishinde (near Zambezi town)",
+    "lat": -13.5,
+    "lon": 23.15
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1750,
+     "to": 1880,
+     "name": "Lunda Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Lunda_Empire",
+   "confidence": "low",
+   "note": "Southern Lunda chiefdom on the upper Zambezi east bank; Lozi pressure in the 19th c."
+  },
+  {
+   "name": "Lunda Empire",
+   "aliases": [
+    "Ruund",
+    "Mwant Yav",
+    "Mwata Yamvo",
+    "Musumba",
+    "Lunda Kingdom"
+   ],
+   "from": 1600,
+   "to": 1887,
+   "seat": {
+    "name": "Musumba (near Kapanga)",
+    "lat": -8.35,
+    "lon": 22.58
+   },
+   "extent": [
+    [
+     -6.5,
+     20.3
+    ],
+    [
+     -6.8,
+     23.7
+    ],
+    [
+     -8.8,
+     25.0
+    ],
+    [
+     -10.8,
+     25.0
+    ],
+    [
+     -11.5,
+     23.0
+    ],
+    [
+     -10.5,
+     20.5
+    ],
+    [
+     -8.5,
+     19.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1891,
+     "to": 1900,
+     "name": "Congo Free State"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1600,
+     "to": 1700,
+     "extent": [
+      [
+       -7.4,
+       21.6
+      ],
+      [
+       -7.5,
+       23.6
+      ],
+      [
+       -9.2,
+       23.8
+      ],
+      [
+       -9.6,
+       22.0
+      ],
+      [
+       -8.6,
+       21.3
+      ]
+     ]
+    },
+    {
+     "from": 1700,
+     "to": 1850,
+     "extent": [
+      [
+       -6.5,
+       20.3
+      ],
+      [
+       -6.8,
+       23.7
+      ],
+      [
+       -8.8,
+       25.0
+      ],
+      [
+       -10.8,
+       25.0
+      ],
+      [
+       -11.5,
+       23.0
+      ],
+      [
+       -10.5,
+       20.5
+      ],
+      [
+       -8.5,
+       19.5
+      ]
+     ]
+    },
+    {
+     "from": 1850,
+     "to": 1887,
+     "extent": [
+      [
+       -6.8,
+       21.0
+      ],
+      [
+       -7.0,
+       23.6
+      ],
+      [
+       -8.9,
+       24.6
+      ],
+      [
+       -10.2,
+       24.2
+      ],
+      [
+       -10.0,
+       21.6
+      ],
+      [
+       -8.6,
+       20.6
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Lunda_Empire",
+   "confidence": "moderate",
+   "note": "Ruund kingship on the Kalanyi/Mbuji-Mayi headwaters; Mwant Yav title consolidated c.1665 (Yav a Nawej); tribute zone at height (c.1750-1850) from the Kwango to the Luapula via Kazembe; Musumba sacked by the Chokwe 1887; Congo Free State/Portuguese partition 1890s. Capital (Musumba) moved with each reign around the Kalanyi valley."
+  },
+  {
+   "name": "Luba Empire",
+   "aliases": [
+    "Kingdom of Luba",
+    "Mulopwe",
+    "Balopwe"
+   ],
+   "from": 1585,
+   "to": 1889,
+   "seat": {
+    "name": "Kabongo (royal capitals near Lake Boya)",
+    "lat": -7.33,
+    "lon": 25.58
+   },
+   "extent": [
+    [
+     -5.5,
+     24.5
+    ],
+    [
+     -5.8,
+     26.5
+    ],
+    [
+     -7.0,
+     28.0
+    ],
+    [
+     -8.6,
+     27.5
+    ],
+    [
+     -9.2,
+     26.0
+    ],
+    [
+     -8.6,
+     24.3
+    ],
+    [
+     -7.0,
+     23.8
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1585,
+     "to": 1780,
+     "extent": [
+      [
+       -6.5,
+       25.0
+      ],
+      [
+       -6.8,
+       26.5
+      ],
+      [
+       -8.5,
+       26.6
+      ],
+      [
+       -8.6,
+       25.2
+      ]
+     ]
+    },
+    {
+     "from": 1780,
+     "to": 1870,
+     "extent": [
+      [
+       -5.5,
+       24.5
+      ],
+      [
+       -5.8,
+       26.5
+      ],
+      [
+       -7.0,
+       28.0
+      ],
+      [
+       -8.6,
+       27.5
+      ],
+      [
+       -9.2,
+       26.0
+      ],
+      [
+       -8.6,
+       24.3
+      ],
+      [
+       -7.0,
+       23.8
+      ]
+     ]
+    },
+    {
+     "from": 1870,
+     "to": 1889,
+     "extent": [
+      [
+       -6.3,
+       24.8
+      ],
+      [
+       -6.5,
+       26.8
+      ],
+      [
+       -8.5,
+       27.0
+      ],
+      [
+       -8.8,
+       25.3
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Luba_Empire",
+   "confidence": "moderate",
+   "note": "Luba kingship centred on the Upemba depression and Lomami-Lualaba interfluve; expanded greatly under Ilunga Sungu, Kumwimba Ngombe and Ilunga Kabale (c.1780-1870) to Lake Tanganyika and the Lomami; succession war after 1870s, Yeke and Swahili raids; split into two lineages 1889; Congo Free State."
+  },
+  {
+   "name": "Kanyok Kingdom",
+   "aliases": [
+    "Kanyok",
+    "Bena Kanyok",
+    "Mwen a Kanyok"
+   ],
+   "from": 1700,
+   "to": 1895,
+   "seat": {
+    "name": "Kanyok royal village (near Mwene Ditu)",
+    "lat": -7.1,
+    "lon": 23.6
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1650,
+     "to": 1710,
+     "name": "Kalundwe"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kanyok_Kingdom",
+   "confidence": "low",
+   "note": "Luba-speaking kingdom on the upper Lubilash/Mbuji-Mayi between Luba and Lunda; threw off Kalundwe tribute in the early 18th c. and raided Lunda; under Congo Free State from the 1890s."
+  },
+  {
+   "name": "Kalundwe",
+   "aliases": [
+    "Kulundwe",
+    "Kalundwe kingdom"
+   ],
+   "from": 1600,
+   "to": 1895,
+   "seat": {
+    "name": "Kalundwe",
+    "lat": -7.9,
+    "lon": 24.4
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1780,
+     "to": 1870,
+     "name": "Luba Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Luba_Empire",
+   "confidence": "low",
+   "note": "Luba-related kingdom west of the Luba heartland between the Lubilash and the Lomami; held tribute over Kanyok until the early 18th c.; generally within the Luba orbit."
+  },
+  {
+   "name": "Kazembe",
+   "aliases": [
+    "Mwata Kazembe",
+    "Kingdom of Kazembe",
+    "Eastern Lunda"
+   ],
+   "from": 1740,
+   "to": 1899,
+   "seat": {
+    "name": "Mwansabombwe (Kanyembo's capital)",
+    "lat": -9.82,
+    "lon": 28.75
+   },
+   "extent": [
+    [
+     -8.6,
+     28.4
+    ],
+    [
+     -9.0,
+     29.5
+    ],
+    [
+     -10.8,
+     29.0
+    ],
+    [
+     -11.5,
+     28.4
+    ],
+    [
+     -10.8,
+     27.0
+    ],
+    [
+     -9.6,
+     27.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1740,
+     "to": 1850,
+     "name": "Lunda Empire"
+    },
+    {
+     "from": 1899,
+     "to": 1964,
+     "name": "British South Africa Company / Britain"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1740,
+     "to": 1856,
+     "extent": [
+      [
+       -8.6,
+       28.4
+      ],
+      [
+       -9.0,
+       29.5
+      ],
+      [
+       -10.8,
+       29.0
+      ],
+      [
+       -11.5,
+       28.4
+      ],
+      [
+       -10.8,
+       27.0
+      ],
+      [
+       -9.6,
+       27.4
+      ]
+     ]
+    },
+    {
+     "from": 1856,
+     "to": 1899,
+     "extent": [
+      [
+       -8.6,
+       28.5
+      ],
+      [
+       -9.0,
+       29.4
+      ],
+      [
+       -10.6,
+       29.0
+      ],
+      [
+       -11.0,
+       28.5
+      ],
+      [
+       -9.8,
+       28.3
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kazembe",
+   "confidence": "high",
+   "note": "Eastern Lunda kingdom founded by Lunda generals who settled on the Luapula c.1740-1750; controlled copper and the trade to Tete/Zanzibar; lost lands west of the Luapula to Msiri's Yeke after 1856; BSAC occupied 1899, kingdom continues in Zambia."
+  },
+  {
+   "name": "Yeke Kingdom",
+   "aliases": [
+    "Garanganze",
+    "Garenganze",
+    "Msiri's kingdom",
+    "Katanga"
+   ],
+   "from": 1856,
+   "to": 1891,
+   "seat": {
+    "name": "Bunkeya",
+    "lat": -10.4,
+    "lon": 26.97
+   },
+   "extent": [
+    [
+     -9.6,
+     25.6
+    ],
+    [
+     -9.8,
+     27.5
+    ],
+    [
+     -11.2,
+     28.0
+    ],
+    [
+     -12.0,
+     27.5
+    ],
+    [
+     -11.2,
+     25.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1891,
+     "to": 1900,
+     "name": "Congo Free State"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Yeke_Kingdom",
+   "confidence": "high",
+   "note": "Founded by the Nyamwezi trader Msiri in Katanga, taking the western provinces of Kazembe and Luba borderlands; controlled copper and the ivory/slave trade; Msiri killed by the Stairs expedition Dec 1891, Congo Free State took over."
+  },
+  {
+   "name": "Musokantanda (Lunda)",
+   "aliases": [
+    "Mussokantanda",
+    "Kanongesha-Musokantanda"
+   ],
+   "from": 1720,
+   "to": 1900,
+   "seat": {
+    "name": "Musokantanda (near Mutshatsha)",
+    "lat": -10.7,
+    "lon": 25.5
+   },
+   "reach_km": 80,
+   "overlord": [
+    {
+     "from": 1720,
+     "to": 1880,
+     "name": "Lunda Empire"
+    },
+    {
+     "from": 1860,
+     "to": 1891,
+     "name": "Yeke Kingdom"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Lunda_Empire",
+   "confidence": "low",
+   "note": "Lunda (Ruund) satellite chiefdom on the upper Lualaba-Lufira watershed (modern Kolwezi-Mutshatsha); pressed by Yeke after 1856."
+  },
+  {
+   "name": "Kuba Kingdom",
+   "aliases": [
+    "Bakuba",
+    "Bushongo",
+    "Nyim",
+    "Nsheng"
+   ],
+   "from": 1625,
+   "to": 1900,
+   "seat": {
+    "name": "Nsheng (Mushenge)",
+    "lat": -4.7,
+    "lon": 21.45
+   },
+   "extent": [
+    [
+     -4.3,
+     20.8
+    ],
+    [
+     -4.4,
+     22.6
+    ],
+    [
+     -5.1,
+     22.6
+    ],
+    [
+     -5.4,
+     21.4
+    ],
+    [
+     -5.0,
+     20.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1960,
+     "name": "Congo Free State / Belgian Congo"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kuba_Kingdom",
+   "confidence": "high",
+   "note": "Bushong-led federation founded by Shyaam a-Mbul c.1625 between the Sankuru, Kasai and Lulua; conquered by Congo Free State forces 1899-1900, kingship continues."
+  },
+  {
+   "name": "Luluwa (Kalamba Mukenge)",
+   "aliases": [
+    "Bena Lulua",
+    "Kalamba Mukenge's chiefdom",
+    "Lulua"
+   ],
+   "from": 1870,
+   "to": 1899,
+   "seat": {
+    "name": "Mukenge (near Kananga)",
+    "lat": -5.9,
+    "lon": 22.4
+   },
+   "reach_km": 80,
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1899,
+     "name": "Congo Free State"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kananga",
+   "confidence": "low",
+   "note": "Luluwa paramountcy built by Kalamba Mukenge on the ivory/rubber trade with Chokwe and Ovimbundu caravans; allied with Wissmann's Luluabourg station (1884); absorbed by Congo Free State by the late 1890s."
+  },
+  {
+   "name": "Songye chiefdoms",
+   "aliases": [
+    "Songye",
+    "Basongye",
+    "Kalebwe",
+    "Eki"
+   ],
+   "from": 1500,
+   "to": 1890,
+   "seat": {
+    "name": "Kabinda",
+    "lat": -6.13,
+    "lon": 24.48
+   },
+   "extent": [
+    [
+     -5.0,
+     23.4
+    ],
+    [
+     -4.9,
+     25.2
+    ],
+    [
+     -6.4,
+     25.4
+    ],
+    [
+     -6.8,
+     24.0
+    ],
+    [
+     -6.0,
+     23.2
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Songye_people",
+   "confidence": "low",
+   "note": "Fortified town-chiefdoms (Kalebwe, Eki, Bena Kibeshi) between the Sankuru and Lomami north of Luba; raided by Swahili-Arab and Tetela forces (Ngongo Leteta) in the 1880s."
+  },
+  {
+   "name": "Pende chiefdoms",
+   "aliases": [
+    "Pende",
+    "Bapende"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Gungu",
+    "lat": -5.73,
+    "lon": 19.32
+   },
+   "reach_km": 100,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Pende_people",
+   "confidence": "low",
+   "note": "Pende chiefdoms on the Kwilu and Loange after migration from the Angolan Kwango in the 17th c.; under Lunda/Chokwe pressure."
+  },
+  {
+   "name": "Bobangi trading towns",
+   "aliases": [
+    "Bobangi",
+    "Irebu",
+    "Bangala river traders"
+   ],
+   "from": 1750,
+   "to": 1890,
+   "seat": {
+    "name": "Irebu",
+    "lat": -0.62,
+    "lon": 17.73
+   },
+   "extent": [
+    [
+     0.5,
+     17.4
+    ],
+    [
+     0.4,
+     18.4
+    ],
+    [
+     -1.0,
+     17.9
+    ],
+    [
+     -2.6,
+     16.6
+    ],
+    [
+     -2.4,
+     16.0
+    ],
+    [
+     -0.7,
+     17.3
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Bobangi_language",
+   "confidence": "low",
+   "note": "Riverine Bobangi trading towns controlling canoe trade on the Congo and lower Ubangi between Pool Malebo and the equator; no single ruler; superseded by Congo Free State steamers."
+  },
+  {
+   "name": "Tippu Tip's Manyema state",
+   "aliases": [
+    "Zanzibari Congo",
+    "Kasongo",
+    "Nyangwe",
+    "Arab Manyema"
+   ],
+   "from": 1875,
+   "to": 1894,
+   "seat": {
+    "name": "Kasongo",
+    "lat": -4.45,
+    "lon": 26.66
+   },
+   "extent": [
+    [
+     -2.5,
+     25.2
+    ],
+    [
+     -2.6,
+     27.0
+    ],
+    [
+     -4.8,
+     27.4
+    ],
+    [
+     -5.5,
+     26.4
+    ],
+    [
+     -4.8,
+     25.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1875,
+     "to": 1887,
+     "name": "Sultanate of Zanzibar"
+    },
+    {
+     "from": 1887,
+     "to": 1892,
+     "name": "Congo Free State"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Tippu_Tip",
+   "confidence": "moderate",
+   "note": "Swahili-Arab trading and raiding state in Manyema around Kasongo and Nyangwe built by Tippu Tip; he was CFS governor of Stanley Falls 1887-1890; destroyed in the Congo Arab war 1892-1894."
+  },
+  {
+   "name": "Nsama (Tabwa)",
+   "aliases": [
+    "Nsama",
+    "Tabwa chiefdom",
+    "Itabwa"
+   ],
+   "from": 1750,
+   "to": 1890,
+   "seat": {
+    "name": "Nsama's village",
+    "lat": -8.9,
+    "lon": 29.6
+   },
+   "reach_km": 70,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Tippu_Tip",
+   "confidence": "low",
+   "note": "Tabwa paramountcy between Lake Mweru and Lake Tanganyika; Nsama Chipili defeated by Tippu Tip 1867; fragmented thereafter."
+  },
+  {
+   "name": "Kabare (Bushi)",
+   "aliases": [
+    "Kabare",
+    "Shi kingdom of Kabare",
+    "Bushi"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Kabare",
+    "lat": -2.37,
+    "lon": 28.85
+   },
+   "reach_km": 35,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bushi_(region)",
+   "confidence": "low",
+   "note": "Principal Shi kingdom (Mwami Kabare) west of Lake Kivu; rival of Ngweshe and Rwanda; Congo Free State posts from 1900."
+  },
+  {
+   "name": "Ngweshe (Bushi)",
+   "aliases": [
+    "Ngweshe",
+    "Shi kingdom of Ngweshe"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Walungu",
+    "lat": -2.63,
+    "lon": 28.66
+   },
+   "reach_km": 30,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bushi_(region)",
+   "confidence": "low",
+   "note": "Southern Shi kingdom southwest of Lake Kivu."
+  },
+  {
+   "name": "Havu Kingdom (Idjwi)",
+   "aliases": [
+    "Havu",
+    "Buhavu",
+    "Idjwi"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Idjwi island",
+    "lat": -2.1,
+    "lon": 29.05
+   },
+   "reach_km": 30,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Idjwi",
+   "confidence": "low",
+   "note": "Havu kingdom on Idjwi island and the western Kivu shore; often contested with Rwanda."
+  },
+  {
+   "name": "Mangbetu Kingdom",
+   "aliases": [
+    "Mangbetu",
+    "Nabiembali's kingdom",
+    "Munza's kingdom",
+    "Mabiti"
+   ],
+   "from": 1780,
+   "to": 1873,
+   "seat": {
+    "name": "Nangazizi (Munza's court)",
+    "lat": 3.55,
+    "lon": 27.85
+   },
+   "extent": [
+    [
+     4.0,
+     27.0
+    ],
+    [
+     4.0,
+     28.4
+    ],
+    [
+     3.0,
+     28.6
+    ],
+    [
+     2.7,
+     27.4
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mangbetu_people",
+   "confidence": "moderate",
+   "note": "Mabiti-clan elites unified Mangbetu clans in the late 18th c.; Nabiembali extended rule over Bangba, Mayogo, Barambo etc. on the Uele and its southern tributaries; he was killed 1859 by his sons; Munza (visited by Schweinfurth 1870) killed 1873, after which the kingdom split into rival branches (Niangara, Yangala, Mbunza) under Egyptian/Sudanese pressure; Congo Free State 1892."
+  },
+  {
+   "name": "Mangbetu successor kingdoms",
+   "aliases": [
+    "Niangara",
+    "Yangala",
+    "Mbunza"
+   ],
+   "from": 1873,
+   "to": 1895,
+   "seat": {
+    "name": "Niangara",
+    "lat": 3.69,
+    "lon": 27.87
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1878,
+     "to": 1883,
+     "name": "Egyptian Sudan (Equatoria)"
+    },
+    {
+     "from": 1892,
+     "to": 1895,
+     "name": "Congo Free State"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://rulers.org/cngktrad.html",
+   "confidence": "low",
+   "note": "Rival Mangbetu branches after Munza's death; Niangara's branch separate 1873-1895; Egyptian Equatoria influence 1870s-1883, Congo Free State from 1892."
+  },
+  {
+   "name": "Gbudwe's Zande kingdom",
+   "aliases": [
+    "Gbudwe",
+    "Yambio",
+    "Azande Kingdom"
+   ],
+   "from": 1870,
+   "to": 1905,
+   "seat": {
+    "name": "Yambio",
+    "lat": 4.57,
+    "lon": 28.4
+   },
+   "reach_km": 90,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Azande_Kingdom",
+   "confidence": "moderate",
+   "note": "Avungara Zande kingdom of Gbudwe (r. 1870-1905) on the Nile-Congo watershed (Western Equatoria, extending into Uele); Gbudwe killed resisting a British patrol 1905."
+  },
+  {
+   "name": "Tambura's Zande kingdom",
+   "aliases": [
+    "Tambura",
+    "Tombo"
+   ],
+   "from": 1875,
+   "to": 1914,
+   "seat": {
+    "name": "Tambura",
+    "lat": 5.6,
+    "lon": 27.47
+   },
+   "reach_km": 70,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Azande_Kingdom",
+   "confidence": "low",
+   "note": "Northwestern Avungara Zande kingdom on the upper Mbomu-Sue watershed; came to terms with the Anglo-Egyptian Sudan."
+  },
+  {
+   "name": "Ndoruma's Zande kingdom",
+   "aliases": [
+    "Ndoruma"
+   ],
+   "from": 1860,
+   "to": 1895,
+   "seat": {
+    "name": "Ndoruma's court (upper Mbomu-Uele)",
+    "lat": 4.5,
+    "lon": 27.3
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1892,
+     "to": 1895,
+     "name": "Congo Free State"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Azande_Kingdom",
+   "confidence": "low",
+   "note": "Avungara Zande king between the Mbomu and the Uele; fought Egyptian-backed traders in the 1870s-80s; under Congo Free State by the mid-1890s. Location approximate."
+  },
+  {
+   "name": "Wando's Zande kingdom",
+   "aliases": [
+    "Wando",
+    "Ukwe",
+    "Renzi"
+   ],
+   "from": 1850,
+   "to": 1895,
+   "seat": {
+    "name": "Wando's court (upper Uele, near Dungu)",
+    "lat": 3.7,
+    "lon": 28.6
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1892,
+     "to": 1895,
+     "name": "Congo Free State"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Azande_Kingdom",
+   "confidence": "low",
+   "note": "Avungara Zande kingdom of Wando and his sons (Ukwe, Renzi, Mbitima) south of the Nile-Congo divide on the upper Uele; Congo Free State posts at Dungu from 1890s. Location approximate."
+  },
+  {
+   "name": "Bakangai's Zande kingdom",
+   "aliases": [
+    "Bakangai",
+    "Kanna"
+   ],
+   "from": 1860,
+   "to": 1895,
+   "seat": {
+    "name": "Bakangai's court (south of the Uele)",
+    "lat": 3.3,
+    "lon": 26.6
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1892,
+     "to": 1895,
+     "name": "Congo Free State"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Azande_Kingdom",
+   "confidence": "low",
+   "note": "Avungara Zande kingdom south of the Uele near the Bomokandi; Congo Free State from 1890s. Location approximate."
+  },
+  {
+   "name": "Congo Free State",
+   "aliases": [
+    "État indépendant du Congo",
+    "Belgian Congo (from 1908)"
+   ],
+   "from": 1885,
+   "to": 1908,
+   "seat": {
+    "name": "Boma",
+    "lat": -5.85,
+    "lon": 13.05
+   },
+   "extent": [
+    [
+     5.1,
+     27.4
+    ],
+    [
+     3.6,
+     30.8
+    ],
+    [
+     -1.2,
+     29.6
+    ],
+    [
+     -8.5,
+     30.6
+    ],
+    [
+     -13.0,
+     28.5
+    ],
+    [
+     -11.0,
+     22.3
+    ],
+    [
+     -6.0,
+     12.3
+    ],
+    [
+     4.3,
+     18.6
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Congo_Free_State",
+   "confidence": "high",
+   "note": "Personal state of Leopold II recognised 1885; effective occupation spread from the river network 1885-1900 (Katanga 1891-92, Arab war 1892-94, Kwango 1890s, Uele 1890s); annexed by Belgium 1908."
+  },
+  {
+   "name": "Bamum Kingdom",
+   "aliases": [
+    "Bamoun",
+    "Mfon of Bamum",
+    "Foumban"
+   ],
+   "from": 1394,
+   "to": 1923,
+   "seat": {
+    "name": "Foumban",
+    "lat": 5.73,
+    "lon": 10.9
+   },
+   "extent": [
+    [
+     6.0,
+     10.6
+    ],
+    [
+     6.05,
+     11.2
+    ],
+    [
+     5.4,
+     11.4
+    ],
+    [
+     5.2,
+     10.9
+    ],
+    [
+     5.5,
+     10.55
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1902,
+     "to": 1916,
+     "name": "German Kamerun"
+    },
+    {
+     "from": 1916,
+     "to": 1923,
+     "name": "French Cameroun"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1394,
+     "to": 1800,
+     "extent": [
+      [
+       5.85,
+       10.75
+      ],
+      [
+       5.85,
+       11.05
+      ],
+      [
+       5.55,
+       11.05
+      ],
+      [
+       5.55,
+       10.75
+      ]
+     ]
+    },
+    {
+     "from": 1800,
+     "to": 1923,
+     "extent": [
+      [
+       6.0,
+       10.6
+      ],
+      [
+       6.05,
+       11.2
+      ],
+      [
+       5.4,
+       11.4
+      ],
+      [
+       5.2,
+       10.9
+      ],
+      [
+       5.5,
+       10.55
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bamum_Kingdom",
+   "confidence": "high",
+   "note": "Founded by Nchare Yen 1394; expanded greatly under Mbuembue (early 19th c.) between the Mbam and Noun rivers; Sultan Njoya (r. 1887-1933) accepted German protection 1902; French administration dismantled royal power 1923-1931."
+  },
+  {
+   "name": "Nso Kingdom",
+   "aliases": [
+    "Nsaw",
+    "Banso",
+    "Fon of Nso"
+   ],
+   "from": 1400,
+   "to": 1906,
+   "seat": {
+    "name": "Kumbo",
+    "lat": 6.2,
+    "lon": 10.68
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1906,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Nso_people",
+   "confidence": "moderate",
+   "note": "Tikar-derived kingdom founded by Ngonnso (14th c.); largest Grassfields fondom on the Bui plateau; fought Bamum; German conquest 1906."
+  },
+  {
+   "name": "Kom Kingdom",
+   "aliases": [
+    "Kom",
+    "Laikom",
+    "Fon of Kom"
+   ],
+   "from": 1755,
+   "to": 1904,
+   "seat": {
+    "name": "Laikom",
+    "lat": 6.24,
+    "lon": 10.33
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Cameroon_native.html",
+   "confidence": "moderate",
+   "note": "Grassfields kingdom north of Bamenda (Boyo), established c.1755; German protectorate 1900-1904."
+  },
+  {
+   "name": "Bafut",
+   "aliases": [
+    "Fondom of Bafut",
+    "Fon of Bafut"
+   ],
+   "from": 1700,
+   "to": 1907,
+   "seat": {
+    "name": "Bafut",
+    "lat": 6.08,
+    "lon": 10.1
+   },
+   "reach_km": 20,
+   "overlord": [
+    {
+     "from": 1907,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bafut_Wars",
+   "confidence": "moderate",
+   "note": "Tikar-derived fondom north of Bamenda; resisted the Germans in the Bafut wars 1901-1907."
+  },
+  {
+   "name": "Bali-Nyonga",
+   "aliases": [
+    "Bali Nyonga",
+    "Bali",
+    "Chamba of Bali"
+   ],
+   "from": 1835,
+   "to": 1916,
+   "seat": {
+    "name": "Bali",
+    "lat": 5.89,
+    "lon": 10.01
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1889,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bali_Nyonga",
+   "confidence": "moderate",
+   "note": "Chamba (Bali) warrior state that settled south of Bamenda c.1835 after raiding south from the Adamawa; German ally from 1889 (Zintgraff), favoured sub-imperial power over neighbours."
+  },
+  {
+   "name": "Mankon",
+   "aliases": [
+    "Fondom of Mankon"
+   ],
+   "from": 1400,
+   "to": 1901,
+   "seat": {
+    "name": "Mankon",
+    "lat": 5.98,
+    "lon": 10.15
+   },
+   "reach_km": 15,
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://worldstatesmen.org/Cameroon_native.html",
+   "confidence": "low",
+   "note": "Grassfields fondom (Bamenda); fought Zintgraff's expedition 1891."
+  },
+  {
+   "name": "Bandjoun",
+   "aliases": [
+    "Fondom of Bandjoun",
+    "Jo"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Bandjoun",
+    "lat": 5.36,
+    "lon": 10.41
+   },
+   "reach_km": 15,
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bandjoun",
+   "confidence": "low",
+   "note": "One of the largest Bamileke chiefdoms; Bamileke chiefdom (fondom) of the western Grassfields; German control c.1900-1916."
+  },
+  {
+   "name": "Bafoussam",
+   "aliases": [
+    "Fe'fe' of Bafoussam"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Bafoussam",
+    "lat": 5.48,
+    "lon": 10.42
+   },
+   "reach_km": 12,
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bamileke_people",
+   "confidence": "low",
+   "note": "Bafoussam chiefdom; frequently at war with Bamum to the east. Bamileke chiefdom (fondom) of the western Grassfields; German control c.1900-1916, chiefdom continues."
+  },
+  {
+   "name": "Bangangté",
+   "aliases": [
+    "Bangangte",
+    "Medumba"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Bangangté",
+    "lat": 5.15,
+    "lon": 10.52
+   },
+   "reach_km": 15,
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bamileke_people",
+   "confidence": "low",
+   "note": "Medumba-speaking southern Bamileke chiefdom on the Ndé plateau. Bamileke chiefdom (fondom) of the western Grassfields; German control c.1900-1916, chiefdom continues."
+  },
+  {
+   "name": "Baham",
+   "aliases": [
+    "Fondom of Baham"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Baham",
+    "lat": 5.33,
+    "lon": 10.35
+   },
+   "reach_km": 10,
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bamileke_people",
+   "confidence": "low",
+   "note": "Central Bamileke chiefdom. Bamileke chiefdom (fondom) of the western Grassfields; German control c.1900-1916, chiefdom continues."
+  },
+  {
+   "name": "Foréké-Dschang",
+   "aliases": [
+    "Foreke",
+    "Dschang"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Foréké-Dschang",
+    "lat": 5.45,
+    "lon": 10.05
+   },
+   "reach_km": 12,
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bamileke_people",
+   "confidence": "low",
+   "note": "Western Bamileke chiefdom on the Menoua plateau. Bamileke chiefdom (fondom) of the western Grassfields; German control c.1900-1916, chiefdom continues."
+  },
+  {
+   "name": "Bana",
+   "aliases": [
+    "Fondom of Bana"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Bana",
+    "lat": 5.14,
+    "lon": 10.27
+   },
+   "reach_km": 10,
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bamileke_people",
+   "confidence": "low",
+   "note": "Southern Bamileke chiefdom (Haut-Nkam). Bamileke chiefdom (fondom) of the western Grassfields; German control c.1900-1916, chiefdom continues."
+  },
+  {
+   "name": "Bafang",
+   "aliases": [
+    "Fondom of Bafang"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Bafang",
+    "lat": 5.16,
+    "lon": 10.18
+   },
+   "reach_km": 12,
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bamileke_people",
+   "confidence": "low",
+   "note": "Southwestern Bamileke chiefdom (Haut-Nkam). Bamileke chiefdom (fondom) of the western Grassfields; German control c.1900-1916, chiefdom continues."
+  },
+  {
+   "name": "Batcham",
+   "aliases": [
+    "Fondom of Batcham"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Batcham",
+    "lat": 5.62,
+    "lon": 10.17
+   },
+   "reach_km": 12,
+   "overlord": [
+    {
+     "from": 1900,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bamileke_people",
+   "confidence": "low",
+   "note": "Northern Bamileke chiefdom (Bamboutos). Bamileke chiefdom (fondom) of the western Grassfields; German control c.1900-1916, chiefdom continues."
+  },
+  {
+   "name": "Tikar Kingdom of Bankim",
+   "aliases": [
+    "Tikar",
+    "Bankim",
+    "Nkom"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Bankim",
+    "lat": 6.08,
+    "lon": 11.49
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1840,
+     "to": 1900,
+     "name": "Banyo Lamidate"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Tikar_people",
+   "confidence": "low",
+   "note": "Senior Tikar kingdom on the upper Mbam plain, ancestral to Bamum and Nso royal lines; raided by Fulbe (Banyo, Tibati) in the 19th c."
+  },
+  {
+   "name": "Nditam",
+   "aliases": [
+    "Tikar of Nditam"
+   ],
+   "from": 1394,
+   "to": 1900,
+   "seat": {
+    "name": "Nditam",
+    "lat": 5.38,
+    "lon": 11.24
+   },
+   "reach_km": 25,
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Cameroon_native.html",
+   "confidence": "low",
+   "note": "Southern Tikar kingdom on the Mbam."
+  },
+  {
+   "name": "Ngambe-Tikar",
+   "aliases": [
+    "Ngambe",
+    "Tikar of Ngambe"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Ngambe-Tikar",
+    "lat": 5.77,
+    "lon": 11.42
+   },
+   "reach_km": 25,
+   "kind": "kingdom",
+   "source": "https://worldstatesmen.org/Cameroon_native.html",
+   "confidence": "low",
+   "note": "Tikar kingdom between Bankim and Nditam."
+  },
+  {
+   "name": "Bell (Duala)",
+   "aliases": [
+    "Bonanjo",
+    "King Bell",
+    "Ndumb'a Lobe",
+    "Duala Manga Bell"
+   ],
+   "from": 1792,
+   "to": 1884,
+   "seat": {
+    "name": "Bonanjo (Douala)",
+    "lat": 4.04,
+    "lon": 9.69
+   },
+   "reach_km": 15,
+   "overlord": [
+    {
+     "from": 1884,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Duala_people",
+   "confidence": "moderate",
+   "note": "Senior Duala trading chieftaincy on the Wouri estuary; King Bell and King Akwa signed the German protectorate treaty 12 July 1884."
+  },
+  {
+   "name": "Akwa (Duala)",
+   "aliases": [
+    "Bonaku",
+    "King Akwa",
+    "Ngando Mpondo"
+   ],
+   "from": 1700,
+   "to": 1884,
+   "seat": {
+    "name": "Akwa (Douala)",
+    "lat": 4.05,
+    "lon": 9.7
+   },
+   "reach_km": 12,
+   "overlord": [
+    {
+     "from": 1884,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Duala_people",
+   "confidence": "moderate",
+   "note": "Rival Duala trading chieftaincy (Bonaku/Akwa town, with Deido offshoot 1794) on the Wouri; signed the 1884 German treaty."
+  },
+  {
+   "name": "Bimbia",
+   "aliases": [
+    "Isubu",
+    "King William's Town",
+    "Subu"
+   ],
+   "from": 1700,
+   "to": 1884,
+   "seat": {
+    "name": "Bimbia",
+    "lat": 3.98,
+    "lon": 9.27
+   },
+   "reach_km": 20,
+   "overlord": [
+    {
+     "from": 1884,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bimbia",
+   "confidence": "moderate",
+   "note": "Isubu trading kingdom south of Mount Cameroon; King William I signed anti-slave-trade treaties with Britain 1844-1855 and sold land for Victoria 1858; annexed to German Kamerun 1884."
+  },
+  {
+   "name": "Buea (Bakweri)",
+   "aliases": [
+    "Bakweri",
+    "Kuva Likenye",
+    "Gbea"
+   ],
+   "from": 1700,
+   "to": 1894,
+   "seat": {
+    "name": "Buea",
+    "lat": 4.15,
+    "lon": 9.24
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1894,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kwe_people",
+   "confidence": "low",
+   "note": "Bakweri chiefdoms on the slopes of Mount Cameroon; Kuva Likenye defeated a German column 1891, conquered 1894."
+  },
+  {
+   "name": "Basaa",
+   "aliases": [
+    "Bassa",
+    "Mbog Liaa"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Edéa",
+    "lat": 3.8,
+    "lon": 10.13
+   },
+   "extent": [
+    [
+     4.3,
+     9.9
+    ],
+    [
+     4.4,
+     10.8
+    ],
+    [
+     3.4,
+     11.0
+    ],
+    [
+     3.3,
+     10.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1895,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Bassa_people_(Cameroon)",
+   "confidence": "low",
+   "note": "Segmentary Basaa lineages between the lower Sanaga and the Nyong without a central ruler; German conquest 1890s."
+  },
+  {
+   "name": "Ewondo (Beti)",
+   "aliases": [
+    "Ewondo",
+    "Beti",
+    "Yaunde",
+    "Atangana"
+   ],
+   "from": 1750,
+   "to": 1900,
+   "seat": {
+    "name": "Yaoundé (Ongola)",
+    "lat": 3.87,
+    "lon": 11.52
+   },
+   "extent": [
+    [
+     4.6,
+     11.0
+    ],
+    [
+     4.4,
+     12.2
+    ],
+    [
+     3.5,
+     12.4
+    ],
+    [
+     3.4,
+     11.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1889,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Beti-Pahuin_peoples",
+   "confidence": "low",
+   "note": "Beti-Pahuin clans who crossed the Sanaga in the 18th c. and settled around Yaoundé between the Sanaga and Nyong; Germans founded Jaunde station 1889 and installed Atangana as paramount chief."
+  },
+  {
+   "name": "Bulu",
+   "aliases": [
+    "Boulou",
+    "Bulu Beti-Pahuin"
+   ],
+   "from": 1800,
+   "to": 1900,
+   "seat": {
+    "name": "Ebolowa",
+    "lat": 2.9,
+    "lon": 11.15
+   },
+   "extent": [
+    [
+     3.3,
+     10.6
+    ],
+    [
+     3.2,
+     12.6
+    ],
+    [
+     2.4,
+     12.8
+    ],
+    [
+     2.3,
+     10.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1899,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Beti-Pahuin_peoples",
+   "confidence": "low",
+   "note": "Beti-Pahuin clans between the Nyong and the Ntem; controlled the hinterland rubber/ivory trade to Kribi; rising against Germany 1899-1901."
+  },
+  {
+   "name": "Fang",
+   "aliases": [
+    "Pahouin",
+    "Pangwe",
+    "Fan",
+    "Ntumu",
+    "Okak",
+    "Make"
+   ],
+   "from": 1750,
+   "to": 1900,
+   "seat": {
+    "name": "Oyem (Woleu-Ntem)",
+    "lat": 1.6,
+    "lon": 11.58
+   },
+   "extent": [
+    [
+     2.3,
+     10.0
+    ],
+    [
+     2.2,
+     13.0
+    ],
+    [
+     0.5,
+     13.2
+    ],
+    [
+     -0.3,
+     11.0
+    ],
+    [
+     0.6,
+     9.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1750,
+     "to": 1840,
+     "extent": [
+      [
+       2.9,
+       10.8
+      ],
+      [
+       2.8,
+       13.0
+      ],
+      [
+       1.2,
+       13.2
+      ],
+      [
+       1.0,
+       11.0
+      ]
+     ]
+    },
+    {
+     "from": 1840,
+     "to": 1900,
+     "extent": [
+      [
+       2.3,
+       10.0
+      ],
+      [
+       2.2,
+       13.0
+      ],
+      [
+       0.5,
+       13.2
+      ],
+      [
+       -0.3,
+       11.0
+      ],
+      [
+       0.6,
+       9.6
+      ]
+     ]
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Fang_people",
+   "confidence": "moderate",
+   "note": "Fang clans migrating south-west from southern Cameroon through the Woleu-Ntem and Rio Muni toward the Gabon estuary and the Ogooué in the 18th-19th c.; no central ruler; divided between France, Germany and Spain 1885-1900."
+  },
+  {
+   "name": "Maka",
+   "aliases": [
+    "Makaa",
+    "Mekae"
+   ],
+   "from": 1700,
+   "to": 1905,
+   "seat": {
+    "name": "Abong-Mbang",
+    "lat": 3.98,
+    "lon": 13.18
+   },
+   "extent": [
+    [
+     4.2,
+     12.6
+    ],
+    [
+     4.0,
+     13.8
+    ],
+    [
+     3.0,
+     13.8
+    ],
+    [
+     3.2,
+     12.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1905,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Makaa_people",
+   "confidence": "low",
+   "note": "Segmentary Maka clans of the upper Nyong forest; conquered by Germany 1905-1910."
+  },
+  {
+   "name": "Gbaya",
+   "aliases": [
+    "Baya",
+    "Gbeya"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Bertoua",
+    "lat": 4.58,
+    "lon": 13.68
+   },
+   "extent": [
+    [
+     6.5,
+     13.6
+    ],
+    [
+     6.8,
+     16.5
+    ],
+    [
+     4.5,
+     17.0
+    ],
+    [
+     3.8,
+     15.5
+    ],
+    [
+     4.4,
+     13.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1840,
+     "to": 1900,
+     "name": "Ngaoundéré Lamidate"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Gbaya",
+   "confidence": "low",
+   "note": "Gbaya clans of the savanna of eastern Cameroon and western CAR (Bertoua to Bouar/Carnot); partly tributary to Fulbe Ngaoundéré in the 19th c.; Kongo-Wara rising 1928."
+  },
+  {
+   "name": "Vute chiefdoms",
+   "aliases": [
+    "Vute",
+    "Bute",
+    "Wute",
+    "Ngila"
+   ],
+   "from": 1800,
+   "to": 1899,
+   "seat": {
+    "name": "Linté (Ngila)",
+    "lat": 5.3,
+    "lon": 12.1
+   },
+   "extent": [
+    [
+     6.2,
+     11.8
+    ],
+    [
+     6.0,
+     13.0
+    ],
+    [
+     4.9,
+     12.8
+    ],
+    [
+     5.0,
+     11.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1830,
+     "to": 1899,
+     "name": "Tibati Lamidate"
+    },
+    {
+     "from": 1899,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Vute_language",
+   "confidence": "low",
+   "note": "Vute chiefdoms on the Sanaga-Mbam (Ngila of Linté, Ngutte) that raided for slaves and ivory under Fulbe influence; conquered by Germany 1899."
+  },
+  {
+   "name": "Ngaoundéré Lamidate",
+   "aliases": [
+    "Ngaoundéré",
+    "Lamidat de Ngaoundéré"
+   ],
+   "from": 1835,
+   "to": 1901,
+   "seat": {
+    "name": "Ngaoundéré",
+    "lat": 7.32,
+    "lon": 13.58
+   },
+   "extent": [
+    [
+     7.9,
+     13.0
+    ],
+    [
+     8.0,
+     15.0
+    ],
+    [
+     6.5,
+     15.0
+    ],
+    [
+     6.5,
+     13.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1835,
+     "to": 1901,
+     "name": "Adamawa Emirate (Sokoto Caliphate)"
+    },
+    {
+     "from": 1901,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://worldstatesmen.org/Cameroon_native.html",
+   "confidence": "moderate",
+   "note": "Fulbe lamidate on the Adamawa plateau founded c.1835 under the Adamawa (Yola) emirate of the Sokoto Caliphate; raided Gbaya and Mbum; German occupation 1901."
+  },
+  {
+   "name": "Tibati Lamidate",
+   "aliases": [
+    "Tibati",
+    "Lamidat de Tibati"
+   ],
+   "from": 1830,
+   "to": 1899,
+   "seat": {
+    "name": "Tibati",
+    "lat": 6.47,
+    "lon": 12.63
+   },
+   "reach_km": 100,
+   "overlord": [
+    {
+     "from": 1830,
+     "to": 1899,
+     "name": "Adamawa Emirate (Sokoto Caliphate)"
+    },
+    {
+     "from": 1899,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://worldstatesmen.org/Cameroon_native.html",
+   "confidence": "low",
+   "note": "Fulbe lamidate on the southern Adamawa plateau (founding traditions c.1808-1830); vassal of Yola; German conquest 1899."
+  },
+  {
+   "name": "Banyo Lamidate",
+   "aliases": [
+    "Banyo",
+    "Lamidat de Banyo"
+   ],
+   "from": 1830,
+   "to": 1902,
+   "seat": {
+    "name": "Banyo",
+    "lat": 6.75,
+    "lon": 11.82
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1830,
+     "to": 1902,
+     "name": "Adamawa Emirate (Sokoto Caliphate)"
+    },
+    {
+     "from": 1902,
+     "to": 1916,
+     "name": "German Kamerun"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://worldstatesmen.org/Cameroon_native.html",
+   "confidence": "low",
+   "note": "Fulbe lamidate on the western Adamawa plateau above the Tikar plain; vassal of Yola; German occupation 1902."
+  },
+  {
+   "name": "German Kamerun",
+   "aliases": [
+    "Kamerun",
+    "Schutzgebiet Kamerun"
+   ],
+   "from": 1884,
+   "to": 1916,
+   "seat": {
+    "name": "Duala (Kamerunstadt)",
+    "lat": 4.05,
+    "lon": 9.7
+   },
+   "extent": [
+    [
+     13.0,
+     14.3
+    ],
+    [
+     10.0,
+     15.6
+    ],
+    [
+     7.5,
+     15.5
+    ],
+    [
+     2.2,
+     16.2
+    ],
+    [
+     2.2,
+     9.8
+    ],
+    [
+     4.0,
+     8.6
+    ],
+    [
+     6.5,
+     10.5
+    ],
+    [
+     10.5,
+     13.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1884,
+     "to": 1889,
+     "extent": [
+      [
+       4.3,
+       8.9
+      ],
+      [
+       4.3,
+       10.0
+      ],
+      [
+       2.9,
+       10.2
+      ],
+      [
+       2.3,
+       9.8
+      ]
+     ]
+    },
+    {
+     "from": 1889,
+     "to": 1901,
+     "extent": [
+      [
+       6.5,
+       9.5
+      ],
+      [
+       6.2,
+       11.2
+      ],
+      [
+       4.0,
+       12.6
+      ],
+      [
+       2.2,
+       12.5
+      ],
+      [
+       2.2,
+       9.8
+      ],
+      [
+       4.0,
+       8.6
+      ]
+     ]
+    },
+    {
+     "from": 1901,
+     "to": 1916,
+     "seat": {
+      "name": "Buea",
+      "lat": 4.15,
+      "lon": 9.24
+     },
+     "extent": [
+      [
+       13.0,
+       14.3
+      ],
+      [
+       10.0,
+       15.6
+      ],
+      [
+       7.5,
+       15.5
+      ],
+      [
+       2.2,
+       16.2
+      ],
+      [
+       2.2,
+       9.8
+      ],
+      [
+       4.0,
+       8.6
+      ],
+      [
+       6.5,
+       10.5
+      ],
+      [
+       10.5,
+       13.5
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Kamerun",
+   "confidence": "high",
+   "note": "German protectorate from the Duala treaty of 12 July 1884; capital Buea 1901-1909; inland conquest 1889-1907 (Yaoundé 1889, Bafut 1907, Adamawa 1901-02); expanded by Neukamerun 1911; conquered by Allies 1914-1916."
+  },
+  {
+   "name": "Kingdom of Orungu",
+   "aliases": [
+    "Orungu",
+    "Cape Lopez kingdom",
+    "Sangatanga"
+   ],
+   "from": 1700,
+   "to": 1927,
+   "seat": {
+    "name": "Sangatanga",
+    "lat": -0.9,
+    "lon": 8.95
+   },
+   "extent": [
+    [
+     -0.55,
+     8.7
+    ],
+    [
+     -0.6,
+     9.4
+    ],
+    [
+     -1.3,
+     9.6
+    ],
+    [
+     -1.5,
+     9.2
+    ],
+    [
+     -0.95,
+     8.85
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1862,
+     "to": 1927,
+     "name": "French Gabon"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Orungu",
+   "confidence": "moderate",
+   "note": "Myene-speaking kingdom on the Cape Lopez peninsula and lower Ogooué delta; slaving port at Sangatanga; commercial influence up the Ogooué and to Fernan Vaz; French cession treaty 1862; monarchy abolished 1927."
+  },
+  {
+   "name": "Mpongwe chiefdoms",
+   "aliases": [
+    "Mpongwe",
+    "King Denis (Antchouwé Kowe Rapontchombo)",
+    "King Glass",
+    "King Louis (Dowe)",
+    "Gabon estuary kingdoms"
+   ],
+   "from": 1600,
+   "to": 1880,
+   "seat": {
+    "name": "Gabon estuary (Glass/Libreville)",
+    "lat": 0.39,
+    "lon": 9.45
+   },
+   "extent": [
+    [
+     0.65,
+     9.3
+    ],
+    [
+     0.6,
+     9.9
+    ],
+    [
+     0.15,
+     9.95
+    ],
+    [
+     0.1,
+     9.35
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1839,
+     "to": 1880,
+     "name": "French Gabon"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Mpongwe_people",
+   "confidence": "moderate",
+   "note": "Myene-speaking Mpongwe clan chiefdoms around the Gabon (Komo) estuary trading with Europeans; King Denis ceded land to France 1839, King Louis 1842 (Fort d'Aumale/Libreville 1843); absorbed into French Gabon."
+  },
+  {
+   "name": "Nkomi",
+   "aliases": [
+    "Nkomi kingdom",
+    "Fernan Vaz",
+    "Rengondo"
+   ],
+   "from": 1700,
+   "to": 1880,
+   "seat": {
+    "name": "Fernan Vaz lagoon",
+    "lat": -1.55,
+    "lon": 9.3
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1868,
+     "to": 1880,
+     "name": "French Gabon"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Myene_people",
+   "confidence": "low",
+   "note": "Myene-speaking Nkomi chieftaincy around Fernan Vaz lagoon south of Orungu; French treaties 1860s; absorbed into French Gabon."
+  },
+  {
+   "name": "Galoa",
+   "aliases": [
+    "Galwa",
+    "Lambaréné chiefs"
+   ],
+   "from": 1700,
+   "to": 1880,
+   "seat": {
+    "name": "Lambaréné",
+    "lat": -0.7,
+    "lon": 10.23
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1876,
+     "to": 1880,
+     "name": "French Gabon"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Myene_people",
+   "confidence": "low",
+   "note": "Myene-speaking Galoa chieftaincies on the middle Ogooué lakes around Lambaréné; trade intermediaries; French posts from 1870s."
+  },
+  {
+   "name": "Benga (Cabo San Juan / Corisco)",
+   "aliases": [
+    "Benga",
+    "Corisco",
+    "Cabo San Juan",
+    "Bonkoro"
+   ],
+   "from": 1750,
+   "to": 1910,
+   "seat": {
+    "name": "Corisco island",
+    "lat": 0.92,
+    "lon": 9.33
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1843,
+     "to": 1910,
+     "name": "Spanish Guinea"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://worldstatesmen.org/Equatorial_Guinea_native.html",
+   "confidence": "low",
+   "note": "Benga kingship at Cabo San Juan (Rio Muni coast) with seat moved to Corisco c.1840; split 1858; Corisco line extinguished 1910 under Spain."
+  },
+  {
+   "name": "Bubi of Bioko",
+   "aliases": [
+    "Bubi",
+    "Moka kingdom",
+    "Fernando Po Bubi",
+    "Malabo Lopelo Melaka"
+   ],
+   "from": 1700,
+   "to": 1904,
+   "seat": {
+    "name": "Moka",
+    "lat": 3.35,
+    "lon": 8.67
+   },
+   "extent": [
+    [
+     3.79,
+     8.62
+    ],
+    [
+     3.8,
+     8.8
+    ],
+    [
+     3.62,
+     8.97
+    ],
+    [
+     3.22,
+     8.76
+    ],
+    [
+     3.24,
+     8.45
+    ],
+    [
+     3.5,
+     8.43
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1904,
+     "to": 1968,
+     "name": "Spanish Guinea"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Malabo_Lopelo_Melaka",
+   "confidence": "low",
+   "note": "Bubi clans of Bioko united under a paramount (Moka, from c.1840s; Malabo Lopelo Melaka 1899-1904) based in the southern highlands; Spanish control of the interior from 1904."
+  },
+  {
+   "name": "Spanish Guinea",
+   "aliases": [
+    "Fernando Po",
+    "Santa Isabel",
+    "Guinea Española",
+    "Río Muni (from 1900)"
+   ],
+   "from": 1778,
+   "to": 1968,
+   "seat": {
+    "name": "Santa Isabel (Malabo)",
+    "lat": 3.75,
+    "lon": 8.78
+   },
+   "extent": [
+    [
+     3.79,
+     8.62
+    ],
+    [
+     3.8,
+     8.8
+    ],
+    [
+     3.62,
+     8.97
+    ],
+    [
+     3.22,
+     8.76
+    ],
+    [
+     3.24,
+     8.45
+    ],
+    [
+     3.5,
+     8.43
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1778,
+     "to": 1858,
+     "extent": [
+      [
+       3.8,
+       8.68
+      ],
+      [
+       3.79,
+       8.9
+      ],
+      [
+       3.62,
+       8.86
+      ],
+      [
+       3.66,
+       8.62
+      ]
+     ]
+    },
+    {
+     "from": 1858,
+     "to": 1900,
+     "extent": [
+      [
+       3.79,
+       8.62
+      ],
+      [
+       3.8,
+       8.8
+      ],
+      [
+       3.62,
+       8.97
+      ],
+      [
+       3.22,
+       8.76
+      ],
+      [
+       3.24,
+       8.45
+      ],
+      [
+       3.5,
+       8.43
+      ]
+     ]
+    },
+    {
+     "from": 1900,
+     "to": 1968,
+     "extent": [
+      [
+       2.2,
+       9.8
+      ],
+      [
+       2.17,
+       11.33
+      ],
+      [
+       1.0,
+       11.33
+      ],
+      [
+       1.0,
+       9.35
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Spanish_Guinea",
+   "confidence": "moderate",
+   "note": "Bioko and Annobón ceded by Portugal 1778 (Treaty of El Pardo); British naval base at Clarence 1827-1843; effective Spanish rule from 1843/1858, coastal Bioko and Corisco; Rio Muni recognised 1900. The 1900-1968 phase extent is the mainland Rio Muni block only (seat stays on Bioko, whose outline is the main extent); Corisco/Elobey/Annobón islets omitted."
+  },
+  {
+   "name": "French Gabon and Congo",
+   "aliases": [
+    "French Congo",
+    "Gabon colony",
+    "Congo français",
+    "Fort d'Aumale"
+   ],
+   "from": 1839,
+   "to": 1910,
+   "seat": {
+    "name": "Libreville",
+    "lat": 0.39,
+    "lon": 9.45
+   },
+   "extent": [
+    [
+     2.3,
+     9.8
+    ],
+    [
+     2.2,
+     13.3
+    ],
+    [
+     5.0,
+     15.5
+    ],
+    [
+     5.0,
+     23.0
+    ],
+    [
+     -0.5,
+     17.7
+    ],
+    [
+     -4.3,
+     15.3
+    ],
+    [
+     -5.0,
+     12.0
+    ],
+    [
+     -1.0,
+     8.8
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1839,
+     "to": 1875,
+     "extent": [
+      [
+       0.7,
+       9.3
+      ],
+      [
+       0.6,
+       10.0
+      ],
+      [
+       -0.9,
+       9.4
+      ],
+      [
+       -0.6,
+       8.7
+      ]
+     ]
+    },
+    {
+     "from": 1875,
+     "to": 1885,
+     "extent": [
+      [
+       1.0,
+       9.4
+      ],
+      [
+       0.6,
+       11.0
+      ],
+      [
+       -1.0,
+       13.3
+      ],
+      [
+       -2.0,
+       14.6
+      ],
+      [
+       -4.3,
+       15.3
+      ],
+      [
+       -1.6,
+       9.2
+      ]
+     ]
+    },
+    {
+     "from": 1885,
+     "to": 1900,
+     "extent": [
+      [
+       2.3,
+       9.8
+      ],
+      [
+       2.2,
+       13.3
+      ],
+      [
+       3.7,
+       16.2
+      ],
+      [
+       4.4,
+       18.6
+      ],
+      [
+       -0.5,
+       17.7
+      ],
+      [
+       -4.3,
+       15.3
+      ],
+      [
+       -5.0,
+       12.0
+      ],
+      [
+       -1.0,
+       8.8
+      ]
+     ]
+    },
+    {
+     "from": 1900,
+     "to": 1910,
+     "seat": {
+      "name": "Brazzaville",
+      "lat": -4.27,
+      "lon": 15.28
+     },
+     "extent": [
+      [
+       2.3,
+       9.8
+      ],
+      [
+       2.2,
+       13.3
+      ],
+      [
+       5.0,
+       15.5
+      ],
+      [
+       5.0,
+       23.0
+      ],
+      [
+       -0.5,
+       17.7
+      ],
+      [
+       -4.3,
+       15.3
+      ],
+      [
+       -5.0,
+       12.0
+      ],
+      [
+       -1.0,
+       8.8
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/French_Congo",
+   "confidence": "moderate",
+   "note": "French Gabon estuary posts from the 1839/1842 treaties (Libreville 1849); Ogooué exploration 1870s; de Brazza's Tio treaty 1880 and Brazzaville; French Congo constituted 1882-1891, including Ubangi-Shari from 1894; capital moved to Brazzaville 1904; became French Equatorial Africa 1910."
+  },
+  {
+   "name": "Kingdom of Baguirmi",
+   "aliases": [
+    "Bagirmi",
+    "Baghirmi",
+    "Mbang of Bagirmi",
+    "Massenya"
+   ],
+   "from": 1522,
+   "to": 1897,
+   "seat": {
+    "name": "Massenya",
+    "lat": 11.4,
+    "lon": 16.17
+   },
+   "extent": [
+    [
+     12.4,
+     15.0
+    ],
+    [
+     12.3,
+     17.3
+    ],
+    [
+     10.8,
+     18.2
+    ],
+    [
+     9.5,
+     17.6
+    ],
+    [
+     10.0,
+     15.6
+    ],
+    [
+     11.5,
+     14.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1580,
+     "to": 1751,
+     "name": "Bornu Empire"
+    },
+    {
+     "from": 1805,
+     "to": 1897,
+     "name": "Wadai Sultanate"
+    },
+    {
+     "from": 1897,
+     "to": 1960,
+     "name": "France"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1522,
+     "to": 1635,
+     "extent": [
+      [
+       12.0,
+       15.6
+      ],
+      [
+       11.9,
+       17.0
+      ],
+      [
+       10.6,
+       17.4
+      ],
+      [
+       10.4,
+       16.0
+      ]
+     ]
+    },
+    {
+     "from": 1635,
+     "to": 1897,
+     "extent": [
+      [
+       12.4,
+       15.0
+      ],
+      [
+       12.3,
+       17.3
+      ],
+      [
+       10.8,
+       18.2
+      ],
+      [
+       9.5,
+       17.6
+      ],
+      [
+       10.0,
+       15.6
+      ],
+      [
+       11.5,
+       14.9
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Baguirmi",
+   "confidence": "high",
+   "note": "Barma kingdom on the lower Chari southeast of Lake Chad (traditional founding 1522; alternative 1480s); tributary of Bornu from Idris Alooma's time to c.1750; expanded under Burkumanda (1635-1665) to Lake Chad and along the Chari; conquered by Wadai 1805 (tributary thereafter, sacked 1870); burned by Rabih 1893; French protectorate 1897."
+  },
+  {
+   "name": "Wadai Sultanate",
+   "aliases": [
+    "Ouaddai",
+    "Wadai",
+    "Dar Maba",
+    "Kolak of Wadai"
+   ],
+   "from": 1635,
+   "to": 1912,
+   "seat": {
+    "name": "Ouara (Wara)",
+    "lat": 14.12,
+    "lon": 20.7
+   },
+   "extent": [
+    [
+     16.5,
+     18.5
+    ],
+    [
+     15.6,
+     22.5
+    ],
+    [
+     12.0,
+     22.5
+    ],
+    [
+     9.5,
+     21.0
+    ],
+    [
+     10.0,
+     19.0
+    ],
+    [
+     13.0,
+     17.5
+    ],
+    [
+     14.5,
+     15.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1909,
+     "to": 1912,
+     "name": "France"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1635,
+     "to": 1800,
+     "seat": {
+      "name": "Ouara (Wara)",
+      "lat": 14.12,
+      "lon": 20.7
+     },
+     "extent": [
+      [
+       15.3,
+       19.6
+      ],
+      [
+       15.2,
+       22.4
+      ],
+      [
+       13.0,
+       22.5
+      ],
+      [
+       12.0,
+       21.0
+      ],
+      [
+       12.6,
+       19.5
+      ]
+     ]
+    },
+    {
+     "from": 1800,
+     "to": 1850,
+     "seat": {
+      "name": "Ouara (Wara)",
+      "lat": 14.12,
+      "lon": 20.7
+     },
+     "extent": [
+      [
+       16.0,
+       18.5
+      ],
+      [
+       15.6,
+       22.5
+      ],
+      [
+       12.0,
+       22.5
+      ],
+      [
+       10.0,
+       21.0
+      ],
+      [
+       10.5,
+       19.0
+      ],
+      [
+       13.0,
+       17.8
+      ]
+     ]
+    },
+    {
+     "from": 1850,
+     "to": 1912,
+     "seat": {
+      "name": "Abéché",
+      "lat": 13.83,
+      "lon": 20.83
+     },
+     "extent": [
+      [
+       16.5,
+       18.5
+      ],
+      [
+       15.6,
+       22.5
+      ],
+      [
+       12.0,
+       22.5
+      ],
+      [
+       9.5,
+       21.0
+      ],
+      [
+       10.0,
+       19.0
+      ],
+      [
+       13.0,
+       17.5
+      ],
+      [
+       14.5,
+       15.5
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Ouaddai_Empire",
+   "confidence": "high",
+   "note": "Maba sultanate founded by Abd al-Karim overthrowing the Tunjur (1635); capital Wara, moved to Abéché under Sharif (r. 1835-1858); conquered Bagirmi 1805 and extended rule to Dar Sila, Dar Runga, Salamat and (late 19th c.) Dar al-Kuti, Kanem and Borku; French took Abéché 1909, conquest complete 1912."
+  },
+  {
+   "name": "Tunjur Kingdom (Wadai)",
+   "aliases": [
+    "Tunjur",
+    "Birgu state",
+    "Kingdom of Wadai before 1635"
+   ],
+   "from": 1400,
+   "to": 1635,
+   "seat": {
+    "name": "Kadama",
+    "lat": 13.95,
+    "lon": 20.85
+   },
+   "extent": [
+    [
+     15.0,
+     19.8
+    ],
+    [
+     15.0,
+     22.2
+    ],
+    [
+     13.2,
+     22.3
+    ],
+    [
+     12.8,
+     20.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Tunjur_people",
+   "confidence": "low",
+   "note": "Tunjur dynasty ruling the Wadai highlands (and earlier Darfur) from roughly the 15th c. until overthrown by Abd al-Karim in 1635; seat location approximate."
+  },
+  {
+   "name": "Bulala Sultanate",
+   "aliases": [
+    "Bilala",
+    "Bulala of Kanem",
+    "Yao Sultanate",
+    "Lake Fitri"
+   ],
+   "from": 1380,
+   "to": 1909,
+   "seat": {
+    "name": "Yao",
+    "lat": 12.85,
+    "lon": 17.56
+   },
+   "extent": [
+    [
+     15.0,
+     14.3
+    ],
+    [
+     15.4,
+     16.5
+    ],
+    [
+     13.5,
+     18.2
+    ],
+    [
+     12.6,
+     17.9
+    ],
+    [
+     13.3,
+     14.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1507,
+     "to": 1630,
+     "name": "Bornu Empire"
+    },
+    {
+     "from": 1630,
+     "to": 1909,
+     "name": "Wadai Sultanate"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1380,
+     "to": 1630,
+     "seat": {
+      "name": "Njimi (approx.)",
+      "lat": 14.2,
+      "lon": 15.8
+     },
+     "extent": [
+      [
+       15.0,
+       14.3
+      ],
+      [
+       15.4,
+       16.5
+      ],
+      [
+       13.5,
+       18.2
+      ],
+      [
+       12.6,
+       17.9
+      ],
+      [
+       13.3,
+       14.8
+      ]
+     ]
+    },
+    {
+     "from": 1630,
+     "to": 1909,
+     "seat": {
+      "name": "Yao",
+      "lat": 12.85,
+      "lon": 17.56
+     },
+     "extent": [
+      [
+       13.4,
+       17.0
+      ],
+      [
+       13.3,
+       18.1
+      ],
+      [
+       12.5,
+       18.1
+      ],
+      [
+       12.5,
+       17.0
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Bulala",
+   "confidence": "moderate",
+   "note": "Bulala captured Kanem from the Sayfawa in the late 14th c. (Njimi taken); Idris Katagarmabe retook Kanem c.1507 and the Bulala governed it as a Bornu province, rebelling until Idris Alooma; driven from Kanem by Wadai c.1630; small sultanate at Yao by Lake Fitri until French occupation May 1909."
+  },
+  {
+   "name": "Kanem (Alifate of Mao)",
+   "aliases": [
+    "Alifa of Mao",
+    "Kanem",
+    "Dalatoa"
+   ],
+   "from": 1630,
+   "to": 1900,
+   "seat": {
+    "name": "Mao",
+    "lat": 14.12,
+    "lon": 15.31
+   },
+   "extent": [
+    [
+     14.9,
+     14.3
+    ],
+    [
+     15.3,
+     15.8
+    ],
+    [
+     14.0,
+     16.5
+    ],
+    [
+     13.3,
+     15.5
+    ],
+    [
+     13.6,
+     14.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1630,
+     "to": 1810,
+     "name": "Bornu Empire"
+    },
+    {
+     "from": 1810,
+     "to": 1900,
+     "name": "Wadai Sultanate"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Mao,_Chad",
+   "confidence": "low",
+   "note": "After the Bulala were driven out, Kanem was governed by the Dalatoa line of alifas at Mao as vassals of Bornu, later of Wadai; under heavy Awlad Sulayman and Tuareg pressure in the 19th c.; French occupation c.1900-1903."
+  },
+  {
+   "name": "Dar Sila",
+   "aliases": [
+    "Sila Sultanate",
+    "Daju of Sila"
+   ],
+   "from": 1700,
+   "to": 1916,
+   "seat": {
+    "name": "Goz Beïda",
+    "lat": 12.22,
+    "lon": 21.41
+   },
+   "reach_km": 80,
+   "overlord": [
+    {
+     "from": 1810,
+     "to": 1912,
+     "name": "Wadai Sultanate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Dar_Sila",
+   "confidence": "low",
+   "note": "Daju sultanate in southeastern Chad tracing its dynasty to Daju rule in Darfur; brought under Wadai influence by Muhammad Sabun (early 19th c.); last independent sultanate conquered by France 1916. Founding date approximate."
+  },
+  {
+   "name": "Dar Tama",
+   "aliases": [
+    "Tama Sultanate",
+    "Tama"
+   ],
+   "from": 1650,
+   "to": 1910,
+   "seat": {
+    "name": "Guéréda",
+    "lat": 14.51,
+    "lon": 22.08
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1750,
+     "to": 1910,
+     "name": "Wadai Sultanate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Tama_people",
+   "confidence": "low",
+   "note": "Tama sultanate in the hills between Wadai and Darfur, contested tributary of both; French occupation c.1910. Founding date approximate."
+  },
+  {
+   "name": "Dar Runga",
+   "aliases": [
+    "Runga",
+    "Rounga",
+    "Dar Rounga"
+   ],
+   "from": 1700,
+   "to": 1890,
+   "seat": {
+    "name": "Dar Runga (Aouk-Salamat)",
+    "lat": 10.2,
+    "lon": 21.2
+   },
+   "reach_km": 110,
+   "overlord": [
+    {
+     "from": 1750,
+     "to": 1890,
+     "name": "Wadai Sultanate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Dar_Runga",
+   "confidence": "low",
+   "note": "Runga sultanate south of Wadai in the Aouk/Salamat border zone; Wadai tributary; Dar al-Kuti was its frontier dependency from c.1830; conquered by Rabih 1890 and merged into Dar al-Kuti. Founding date and seat approximate."
+  },
+  {
+   "name": "Dar al-Kuti",
+   "aliases": [
+    "Dar el Kouti",
+    "Sultanate of Dar al-Kuti",
+    "Senoussi's sultanate"
+   ],
+   "from": 1830,
+   "to": 1912,
+   "seat": {
+    "name": "N'Délé",
+    "lat": 8.41,
+    "lon": 20.65
+   },
+   "extent": [
+    [
+     10.0,
+     19.5
+    ],
+    [
+     10.0,
+     22.5
+    ],
+    [
+     8.5,
+     23.5
+    ],
+    [
+     7.0,
+     22.0
+    ],
+    [
+     7.2,
+     19.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1830,
+     "to": 1890,
+     "name": "Dar Runga / Wadai Sultanate"
+    },
+    {
+     "from": 1890,
+     "to": 1897,
+     "name": "Rabih az-Zubayr"
+    },
+    {
+     "from": 1897,
+     "to": 1912,
+     "name": "France"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1830,
+     "to": 1890,
+     "seat": {
+      "name": "Chá (Diangara river)",
+      "lat": 8.9,
+      "lon": 21.1
+     },
+     "extent": [
+      [
+       9.4,
+       20.5
+      ],
+      [
+       9.4,
+       21.7
+      ],
+      [
+       8.6,
+       21.7
+      ],
+      [
+       8.6,
+       20.5
+      ]
+     ]
+    },
+    {
+     "from": 1890,
+     "to": 1912,
+     "seat": {
+      "name": "N'Délé",
+      "lat": 8.41,
+      "lon": 20.65
+     },
+     "extent": [
+      [
+       10.0,
+       19.5
+      ],
+      [
+       10.0,
+       22.5
+      ],
+      [
+       8.5,
+       23.5
+      ],
+      [
+       7.0,
+       22.0
+      ],
+      [
+       7.2,
+       19.5
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Dar_al_Kuti",
+   "confidence": "moderate",
+   "note": "Frontier slave-raiding state founded c.1830 under Dar Runga/Wadai; Rabih installed Muhammad al-Sanussi 1890, who built a fortified capital at N'Délé (1894) and raided across central CAR; French protectorate 1897; Sanussi killed 1911, Ouanda Djallé fell Dec 1912."
+  },
+  {
+   "name": "Rabih az-Zubayr's state",
+   "aliases": [
+    "Rabih's empire",
+    "Rabeh",
+    "Dikwa"
+   ],
+   "from": 1879,
+   "to": 1900,
+   "seat": {
+    "name": "Dikwa",
+    "lat": 12.03,
+    "lon": 13.92
+   },
+   "extent": [
+    [
+     13.5,
+     12.0
+    ],
+    [
+     13.2,
+     15.0
+    ],
+    [
+     11.5,
+     16.5
+    ],
+    [
+     10.5,
+     15.5
+    ],
+    [
+     11.0,
+     12.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1879,
+     "to": 1890,
+     "seat": {
+      "name": "Dar Banda (mobile camps)",
+      "lat": 8.3,
+      "lon": 22.3
+     },
+     "extent": [
+      [
+       9.5,
+       20.5
+      ],
+      [
+       9.5,
+       24.0
+      ],
+      [
+       7.0,
+       24.0
+      ],
+      [
+       7.0,
+       20.5
+      ]
+     ]
+    },
+    {
+     "from": 1890,
+     "to": 1893,
+     "seat": {
+      "name": "Bagirmi/Chari camps",
+      "lat": 10.5,
+      "lon": 17.0
+     },
+     "extent": [
+      [
+       11.8,
+       15.5
+      ],
+      [
+       11.5,
+       18.5
+      ],
+      [
+       8.5,
+       22.5
+      ],
+      [
+       7.5,
+       20.0
+      ],
+      [
+       9.8,
+       16.0
+      ]
+     ]
+    },
+    {
+     "from": 1893,
+     "to": 1900,
+     "seat": {
+      "name": "Dikwa",
+      "lat": 12.03,
+      "lon": 13.92
+     },
+     "extent": [
+      [
+       13.5,
+       12.0
+      ],
+      [
+       13.2,
+       15.0
+      ],
+      [
+       11.5,
+       16.5
+      ],
+      [
+       10.5,
+       15.5
+      ],
+      [
+       11.0,
+       12.5
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Rabih_az-Zubayr",
+   "confidence": "moderate",
+   "note": "Sudanese warlord's slave-raiding state: operated from the Banda/Kreish country and Dar al-Kuti (1879-1890), conquered Dar Runga and Bagirmi (1890-1893), took Bornu and ruled from Dikwa 1893-1900; killed by the French at Kousseri 22 April 1900. Probably also listed by the West Africa (Bornu) gazetteer."
+  },
+  {
+   "name": "Kenga",
+   "aliases": [
+    "Kingdom of Kenga",
+    "Dar Kenga",
+    "Hadjerai Kenga"
+   ],
+   "from": 1500,
+   "to": 1900,
+   "seat": {
+    "name": "Bitkine",
+    "lat": 12.0,
+    "lon": 18.2
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1550,
+     "to": 1805,
+     "name": "Kingdom of Baguirmi"
+    },
+    {
+     "from": 1805,
+     "to": 1900,
+     "name": "Wadai Sultanate"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Hadjarai_peoples",
+   "confidence": "low",
+   "note": "Kenga chiefdom of the Guéra hills (Hadjerai), tributary of Bagirmi and raided by Wadai; tradition makes it the origin of the Bagirmi dynasty. Dates approximate."
+  },
+  {
+   "name": "Léré (Moundang)",
+   "aliases": [
+    "Gong of Léré",
+    "Moundang kingdom",
+    "Mundang"
+   ],
+   "from": 1750,
+   "to": 1900,
+   "seat": {
+    "name": "Léré",
+    "lat": 9.65,
+    "lon": 14.22
+   },
+   "reach_km": 50,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mundang_people",
+   "confidence": "low",
+   "note": "Moundang kingdom under the Gong of Léré in southwestern Chad, resisting Fulbe raids from Adamawa; French from 1900s."
+  },
+  {
+   "name": "Logone-Birni",
+   "aliases": [
+    "Lagwan",
+    "Kotoko of Logone",
+    "Mbang of Logone"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Logone-Birni",
+    "lat": 11.78,
+    "lon": 15.1
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1893,
+     "name": "Bornu Empire"
+    },
+    {
+     "from": 1893,
+     "to": 1900,
+     "name": "Rabih az-Zubayr"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Logone-Birni",
+   "confidence": "low",
+   "note": "Walled Kotoko city-kingdom (town traditionally founded c.1700 by Prince Bruha per Wikipedia; Lagwan polity older) on the Logone south of Lake Chad, tributary of Bornu (and at times Bagirmi); sultanate title from 1805; occupied by Rabih 1893, then partitioned. Probably also covered by the West Africa/Bornu gazetteer."
+  },
+  {
+   "name": "Sara chiefdoms",
+   "aliases": [
+    "Sara",
+    "Mbang of Bédaya",
+    "Sara Madjingaye"
+   ],
+   "from": 1500,
+   "to": 1900,
+   "seat": {
+    "name": "Bédaya",
+    "lat": 8.95,
+    "lon": 17.6
+   },
+   "extent": [
+    [
+     9.8,
+     16.0
+    ],
+    [
+     9.6,
+     18.5
+    ],
+    [
+     8.0,
+     19.0
+    ],
+    [
+     7.6,
+     16.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Sara_people",
+   "confidence": "low",
+   "note": "Sara peoples of the Chari-Logone valleys of southern Chad, organised in lineage villages with ritual chiefs (Mbang of Bédaya); targeted by Bagirmi, Wadai and Dar al-Kuti slave raids."
+  },
+  {
+   "name": "Banda",
+   "aliases": [
+    "Banda peoples",
+    "Dar Banda"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Banda heartland (Ouaka-Kotto)",
+    "lat": 6.8,
+    "lon": 21.0
+   },
+   "extent": [
+    [
+     8.5,
+     19.5
+    ],
+    [
+     8.0,
+     23.0
+    ],
+    [
+     5.5,
+     22.5
+    ],
+    [
+     5.0,
+     20.0
+    ],
+    [
+     6.5,
+     18.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Banda_people",
+   "confidence": "low",
+   "note": "Banda clans of central CAR (Ouaka, Kotto, Haute-Kotto), decentralised and heavily raided by Dar al-Kuti, Rabih and Zande/Bandia states in the 19th c."
+  },
+  {
+   "name": "Bangassou Sultanate",
+   "aliases": [
+    "Nzakara",
+    "Bangassou",
+    "Kingdom of Bangassou"
+   ],
+   "from": 1700,
+   "to": 1917,
+   "seat": {
+    "name": "Bangassou",
+    "lat": 4.74,
+    "lon": 22.82
+   },
+   "extent": [
+    [
+     6.3,
+     22.0
+    ],
+    [
+     6.3,
+     23.6
+    ],
+    [
+     4.6,
+     23.6
+    ],
+    [
+     4.7,
+     22.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1890,
+     "to": 1894,
+     "name": "Congo Free State"
+    },
+    {
+     "from": 1894,
+     "to": 1917,
+     "name": "France"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://worldstatesmen.org/Central_African_Rep_native.html",
+   "confidence": "moderate",
+   "note": "Bandia-ruled Nzakara kingdom on the Mbomu (sultanate c.1876); Congo Free State protectorate 1890-1894, French suzerainty 1894, protectorate 1909, suppressed 1917."
+  },
+  {
+   "name": "Rafai Sultanate",
+   "aliases": [
+    "Rafai",
+    "Rafaï"
+   ],
+   "from": 1800,
+   "to": 1909,
+   "seat": {
+    "name": "Rafaï",
+    "lat": 4.97,
+    "lon": 23.92
+   },
+   "extent": [
+    [
+     6.5,
+     23.4
+    ],
+    [
+     6.3,
+     24.8
+    ],
+    [
+     4.8,
+     24.8
+    ],
+    [
+     5.0,
+     23.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1892,
+     "to": 1909,
+     "name": "Congo Free State"
+    },
+    {
+     "from": 1909,
+     "to": 1939,
+     "name": "France"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://worldstatesmen.org/Central_African_Rep_native.html",
+   "confidence": "moderate",
+   "note": "Bandia-Zande kingdom on the middle Mbomu (sultanate c.1875); Congo Free State protectorate 1892-1909, French protectorate 1909, suppressed 1939."
+  },
+  {
+   "name": "Zemio Sultanate",
+   "aliases": [
+    "Zemio",
+    "Zémio"
+   ],
+   "from": 1830,
+   "to": 1923,
+   "seat": {
+    "name": "Zémio",
+    "lat": 5.03,
+    "lon": 25.14
+   },
+   "extent": [
+    [
+     6.0,
+     24.8
+    ],
+    [
+     6.0,
+     26.4
+    ],
+    [
+     4.9,
+     26.6
+    ],
+    [
+     4.9,
+     24.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1894,
+     "to": 1909,
+     "name": "Congo Free State"
+    },
+    {
+     "from": 1909,
+     "to": 1923,
+     "name": "France"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://worldstatesmen.org/Central_African_Rep_native.html",
+   "confidence": "moderate",
+   "note": "Avungara Zande kingdom on the upper Mbomu (sultanate c.1872); Congo Free State protectorate 1894-1909, French protectorate 1909, suppressed 1923."
+  }
+ ],
+ "gaps": [
+  {
+   "area": "Central Congo basin rainforest (Cuvette centrale: Tshuapa, Lomami, Lulonga, Lopori, Ikelemba, Maringa basins; Mongo, Ekonda, Ngombe, Lokele, Topoke, Mbole peoples)",
+   "from": 1400,
+   "to": 1890,
+   "note": "Densely forested and inhabited by village- and lineage-level societies without kingdoms (Mongo big-men, Ekonda/Nkundo chiefs). Not empty land but no polity with a recognised seat; Congo Free State posts from 1883-1895."
+  },
+  {
+   "area": "Ituri forest and northeastern Congo (Lese, Mbuti, Bira, Budu, Mamvu)",
+   "from": 1400,
+   "to": 1890,
+   "note": "Forest foragers and segmentary farming societies; partial Mangbetu and Zande influence on the northern fringe; Swahili-Arab raiding 1880s; Congo Free State late 1890s."
+  },
+  {
+   "area": "Interior Gabon and Congo-Brazzaville forests (Nzebi, Punu, Eshira, Kota, Mbede/Obamba, Kwele, Mbochi, Makaa, Bakota; Chaillu and Du Chaillu massifs, Sangha-Likouala)",
+   "from": 1400,
+   "to": 1890,
+   "note": "Clan and village chiefdoms without large states; Punu and Eshira chiefs traded with the coast; Mbochi/Likouala riverine chiefs. Could be filled as low-confidence tribal nations; French occupation 1880s-1900s."
+  },
+  {
+   "area": "Southeastern Cameroon and southwestern CAR forest (Dja, Boumba, Sangha headwaters; Baka foragers, Kako, Mpiemu, Bangando)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Sparse forest population without polities; Gbaya and Maka edges itemised."
+  },
+  {
+   "area": "Northeastern CAR and Chad-Sudan borderlands (Dar Fertit: Kreish, Gula, Yulu, Sara Kaba; Vakaga, Bamingui)",
+   "from": 1400,
+   "to": 1890,
+   "note": "Small-scale societies repeatedly depopulated by slave raids from Darfur, Wadai, Zubayr's Bahr al-Ghazal and Dar al-Kuti; nominal tribute zones of Dar Runga/Wadai."
+  },
+  {
+   "area": "Southern Chad central plain (Salamat, Guéra outside Kenga, Mayo-Kebbi Massa/Musgum, Tupuri, Nielim, Bua)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Small chiefdoms (Niellim, Bua, Massa, Musgum) tributary to Bagirmi or Wadai; Salamat was a Wadai province. Partly covered by Bagirmi/Wadai extents."
+  },
+  {
+   "area": "Angolan southeast and Kalahari fringe (Cuando-Cubango east of the Kavango kingdoms: Luchazi, Nyemba, Nganguela, !Kung San)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Thinly settled; Nganguela/Luchazi village chiefs and San foragers; Lozi and Mbunda tribute reached parts."
+  },
+  {
+   "area": "Namib/Kaokoveld edge of southwestern Angola (Moçâmedes desert, Kuvale/Herero, Himba)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Pastoral Kuvale and Herero groups without states; Portuguese Moçâmedes from 1840. Herero/Himba south of the Kunene belong to the southern Africa gazetteer."
+  },
+  {
+   "area": "Southern Zambia and Kafue (Tonga, Ila, Lenje, Toka-Leya, Subiya)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Mostly acephalous Tonga/Ila societies; Subiya and Toka paid tribute to Barotseland. Bemba, Ngoni and eastern Zambia kingdoms are outside this region (East/Southern Africa gazetteer)."
+  },
+  {
+   "area": "Lower Kasai-Kwilu between Pende, Yaka and Kuba (Mbala, Mbun, Dinga, Lele, Wongo, Sakata, Yansi)",
+   "from": 1400,
+   "to": 1890,
+   "note": "Small chiefdoms; partly within the uncertain Mwene Muji sphere (to c.1640) and later the Boma/Lunda/Kuba margins."
+  },
+  {
+   "area": "Southern savanna before c.1600 (Katanga/Upemba, Lunda plateau, upper Zambezi, Benguela highlands, Kwango)",
+   "from": 1400,
+   "to": 1600,
+   "note": "Precursor polities are known only from oral tradition and archaeology (Kongolo's Luba state before 1585, Ruund chiefdoms before the Mwant Yav, Luyana before the Litunga, pre-Ovimbundu highland chiefdoms). Extents for 1400-1600 here are guesswork; the atlas may leave these areas blank or use low-confidence Luba/Lunda core polygons."
+  },
+  {
+   "area": "Cameroon western Grassfields and Bamileke plateau",
+   "from": 1600,
+   "to": 1900,
+   "note": "Not empty: about 100 Bamileke chiefdoms and dozens of Grassfields fondoms (Bambui, Bambalang, Babungo, Oku, Ndu, Bum, Aghem, Batibo, Mbot, Nkar...) existed; only the largest are itemised, each with a small reach_km. worldstatesmen Cameroon_native lists many more."
+  },
+  {
+   "area": "Cross River / Manyu and Mamfe forest (Ejagham, Banyang, Bakossi, Balong) in southwestern Cameroon",
+   "from": 1400,
+   "to": 1900,
+   "note": "Village-group and clan chiefdoms without large states; Ekpe/Ngbe society authority. Bakossi and Balong paramountcies are later colonial-era creations."
+  }
+ ]
+}

@@ -1,0 +1,1996 @@
+[
+ {
+  "from": 1890,
+  "to": 1981,
+  "country": "Antigua and Barbuda",
+  "regions": [
+   "*"
+  ],
+  "owner": "Antigua and Barbuda",
+  "overlord": "United Kingdom",
+  "why": "British colony (English from 1632) until independence 1 Nov 1981; map shows Guadeloupe [under France] 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
+  "severity": "major"
+ },
+ {
+  "from": 1981,
+  "to": 2026,
+  "country": "Antigua and Barbuda",
+  "regions": [
+   "*"
+  ],
+  "owner": "Antigua and Barbuda",
+  "why": "Independent since 1 Nov 1981; map shows Guadeloupe [under France]",
+  "source": "https://en.wikipedia.org/wiki/Antigua_and_Barbuda",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "Montserrat",
+  "regions": [
+   "*"
+  ],
+  "owner": "Montserrat",
+  "overlord": "United Kingdom",
+  "why": "English/British since 1632, now a British Overseas Territory; map shows Guadeloupe [under France] 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/Montserrat",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1978,
+  "country": "Dominica",
+  "regions": [
+   "*"
+  ],
+  "owner": "Dominica",
+  "overlord": "United Kingdom",
+  "why": "British from 1763/1783 until independence 3 Nov 1978; map shows Guadeloupe [under France] 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/History_of_Dominica",
+  "severity": "major"
+ },
+ {
+  "from": 1978,
+  "to": 2026,
+  "country": "Dominica",
+  "regions": [
+   "*"
+  ],
+  "owner": "Dominica",
+  "why": "Independent Commonwealth of Dominica since 3 Nov 1978; map shows Guadeloupe [under France]",
+  "source": "https://en.wikipedia.org/wiki/History_of_Dominica",
+  "severity": "major"
+ },
+ {
+  "from": 1803,
+  "to": 1890,
+  "country": "Saint Lucia",
+  "regions": [
+   "*"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "Final British takeover 1803, formal cession 1814; map keeps New France until 1890",
+  "source": "https://en.wikipedia.org/wiki/History_of_Saint_Lucia",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1979,
+  "country": "Saint Lucia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Saint Lucia",
+  "overlord": "United Kingdom",
+  "why": "British colony until independence 22 Feb 1979; map shows Martinique [under France] 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/History_of_Saint_Lucia",
+  "severity": "major"
+ },
+ {
+  "from": 1979,
+  "to": 2026,
+  "country": "Saint Lucia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Saint Lucia",
+  "why": "Independent since 22 Feb 1979; map shows Martinique [under France]",
+  "source": "https://en.wikipedia.org/wiki/History_of_Saint_Lucia",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1979,
+  "country": "Saint Vincent and the Grenadines",
+  "regions": [
+   "*"
+  ],
+  "owner": "Saint Vincent and the Grenadines",
+  "overlord": "United Kingdom",
+  "why": "British colony until independence 27 Oct 1979; map splits it between Martinique [under France], Barbados and Trinidad and Tobago 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/History_of_Saint_Vincent_and_the_Grenadines",
+  "severity": "major"
+ },
+ {
+  "from": 1979,
+  "to": 2026,
+  "country": "Saint Vincent and the Grenadines",
+  "regions": [
+   "*"
+  ],
+  "owner": "Saint Vincent and the Grenadines",
+  "why": "Independent since 27 Oct 1979; map shows Martinique/Barbados/Trinidad and Tobago",
+  "source": "https://en.wikipedia.org/wiki/History_of_Saint_Vincent_and_the_Grenadines",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1974,
+  "country": "Grenada",
+  "regions": [
+   "*"
+  ],
+  "owner": "Grenada",
+  "overlord": "United Kingdom",
+  "why": "British colony until independence 7 Feb 1974; map shows Trinidad and Tobago 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/History_of_Grenada",
+  "severity": "major"
+ },
+ {
+  "from": 1974,
+  "to": 2026,
+  "country": "Grenada",
+  "regions": [
+   "*"
+  ],
+  "owner": "Grenada",
+  "why": "Independent since 7 Feb 1974; map shows Trinidad and Tobago",
+  "source": "https://en.wikipedia.org/wiki/History_of_Grenada",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1983,
+  "country": "Saint Kitts and Nevis",
+  "regions": [
+   "Saint James Windward–Saint Thomas Lowland–Saint John Figtree–Saint George Gingerland"
+  ],
+  "owner": "United Kingdom",
+  "why": "Nevis English from 1628, part of the British St Kitts-Nevis colony (federated 1882) until independence 1983; map shows Guadeloupe [under France] 1890-2025 (same label as St Kitts half)",
+  "source": "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis",
+  "severity": "major"
+ },
+ {
+  "from": 1983,
+  "to": 2026,
+  "country": "Saint Kitts and Nevis",
+  "regions": [
+   "Saint James Windward–Saint Thomas Lowland–Saint John Figtree–Saint George Gingerland"
+  ],
+  "owner": "Saint Kitts and Nevis",
+  "why": "Nevis is part of independent Saint Kitts and Nevis since 19 Sep 1983; map shows Guadeloupe [under France]",
+  "source": "https://en.wikipedia.org/wiki/Saint_Kitts_and_Nevis",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1650,
+  "country": "Anguilla",
+  "regions": [
+   "*"
+  ],
+  "owner": "none",
+  "why": "No European settlement before the English arrived from St Kitts in 1650; map shows New France",
+  "source": "https://en.wikipedia.org/wiki/History_of_Anguilla",
+  "severity": "minor"
+ },
+ {
+  "from": 1650,
+  "to": 1707,
+  "country": "Anguilla",
+  "regions": [
+   "*"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "English settlement from 1650 (French raids 1666, 1688 only temporary); map shows New France/New Netherland",
+  "source": "https://en.wikipedia.org/wiki/History_of_Anguilla",
+  "severity": "major"
+ },
+ {
+  "from": 1707,
+  "to": 1890,
+  "country": "Anguilla",
+  "regions": [
+   "*"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British throughout; map cycles through New Netherland, New France, French Louisiana, Portuguese Empire, Bourbon France, Netherlands Antilles, Second French Empire",
+  "source": "https://en.wikipedia.org/wiki/History_of_Anguilla",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1980,
+  "country": "Anguilla",
+  "regions": [
+   "*"
+  ],
+  "owner": "United Kingdom",
+  "why": "Part of the British St Kitts-Nevis-Anguilla federation (1871/1882) until formal separation 19 Dec 1980; map shows Guadeloupe [under France] and Puerto Rico",
+  "source": "https://en.wikipedia.org/wiki/History_of_Anguilla",
+  "severity": "major"
+ },
+ {
+  "from": 1980,
+  "to": 2026,
+  "country": "Anguilla",
+  "regions": [
+   "*"
+  ],
+  "owner": "Anguilla",
+  "overlord": "United Kingdom",
+  "why": "Separate British dependency since 19 Dec 1980, now a British overseas territory; map shows Guadeloupe [under France]/Puerto Rico",
+  "source": "https://en.wikipedia.org/wiki/History_of_Anguilla",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1672,
+  "country": "British Virgin Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Dutch Republic",
+  "why": "Dutch (Joost van Dyk, Dutch West India Company) settlements on Tortola from c.1615 until the English capture of 1672; map shows New France",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_British_Virgin_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1672,
+  "to": 1710,
+  "country": "British Virgin Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "English control from 1672; map shows New France until 1700",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_British_Virgin_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "British Virgin Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "British Virgin Islands",
+  "overlord": "United Kingdom",
+  "why": "Under British control continuously since 1672, never part of Puerto Rico; map shows Puerto Rico [under Spain/USA] 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_British_Virgin_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1672,
+  "country": "United States Virgin Islands",
+  "regions": [
+   "Saint Thomas"
+  ],
+  "owner": "none",
+  "why": "Not settled by any power before Denmark took possession in 1672; map shows New France",
+  "source": "https://en.wikipedia.org/wiki/Danish_West_Indies",
+  "severity": "minor"
+ },
+ {
+  "from": 1672,
+  "to": 1917,
+  "country": "United States Virgin Islands",
+  "regions": [
+   "Saint Thomas"
+  ],
+  "owner": "Danish West Indies",
+  "overlord": "Denmark",
+  "why": "Danish from 1672 until sale to the US in 1917 (British occupations 1801-02, 1807-15); map shows New France/British then Puerto Rico - Denmark is absent",
+  "source": "https://en.wikipedia.org/wiki/Danish_West_Indies",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1718,
+  "country": "United States Virgin Islands",
+  "regions": [
+   "Saint John"
+  ],
+  "owner": "none",
+  "why": "Danish settlement only established 1718; map shows New France/British",
+  "source": "https://en.wikipedia.org/wiki/Danish_West_Indies",
+  "severity": "minor"
+ },
+ {
+  "from": 1718,
+  "to": 1917,
+  "country": "United States Virgin Islands",
+  "regions": [
+   "Saint John"
+  ],
+  "owner": "Danish West Indies",
+  "overlord": "Denmark",
+  "why": "Danish from 1718 until 1917; map shows British then Puerto Rico",
+  "source": "https://en.wikipedia.org/wiki/Danish_West_Indies",
+  "severity": "major"
+ },
+ {
+  "from": 1733,
+  "to": 1917,
+  "country": "United States Virgin Islands",
+  "regions": [
+   "Saint Croix"
+  ],
+  "owner": "Danish West Indies",
+  "overlord": "Denmark",
+  "why": "Bought by Denmark from the French West India Company in 1733, sold to the US 1917; map shows British then Puerto Rico",
+  "source": "https://en.wikipedia.org/wiki/Danish_West_Indies",
+  "severity": "major"
+ },
+ {
+  "from": 1917,
+  "to": 2026,
+  "country": "United States Virgin Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "United States Virgin Islands",
+  "overlord": "United States of America",
+  "why": "US possession since 31 Mar 1917; map shows Puerto Rico [under United States of America] (and Puerto Rico [under Spain] 1890-1898)",
+  "source": "https://en.wikipedia.org/wiki/Danish_West_Indies",
+  "severity": "major"
+ },
+ {
+  "from": 1670,
+  "to": 1707,
+  "country": "Cayman Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "Ceded to England by the Treaty of Madrid 1670 (dependency of Jamaica); map shows Spanish Empire",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Cayman_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1707,
+  "to": 1890,
+  "country": "Cayman Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British dependency of Jamaica, permanently settled from 1734; map shows Spanish Empire",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Cayman_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "Cayman Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Cayman Islands",
+  "overlord": "United Kingdom",
+  "why": "British (Jamaican dependency to 1962, then direct Crown territory); map shows Cuba [under Spain/USA] and independent Cuba 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Cayman_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1520,
+  "to": 1681,
+  "country": "Turks and Caicos Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "none",
+  "why": "Uninhabited after the Lucayan depopulation until Bermudian salt rakers settled Grand Turk in 1681; map shows Crown of Castile/Spanish Empire and New France",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Turks_and_Caicos_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1962,
+  "country": "Turks and Caicos Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Jamaica",
+  "overlord": "United Kingdom",
+  "why": "Dependency of Jamaica 1873-1959/62 (separate from the Bahamas since 1848); map shows Bahamas [under United Kingdom]",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Turks_and_Caicos_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1962,
+  "to": 2026,
+  "country": "Turks and Caicos Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Turks and Caicos Islands",
+  "overlord": "United Kingdom",
+  "why": "Separate British crown colony from 1962, now a British Overseas Territory; never part of independent Bahamas, which the map shows 1980-2025",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Turks_and_Caicos_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1720,
+  "to": 1890,
+  "country": "The Bahamas",
+  "regions": [
+   "Bimini",
+   "Ragged Island"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "Part of the British Bahamas colony (crown colony 1718); map shows Spanish Empire",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Bahamas",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1973,
+  "country": "The Bahamas",
+  "regions": [
+   "Bimini",
+   "Ragged Island"
+  ],
+  "owner": "Bahamas",
+  "overlord": "United Kingdom",
+  "why": "Part of the British Bahamas colony; map shows Cuba [under Spain/USA] and Cuba",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Bahamas",
+  "severity": "major"
+ },
+ {
+  "from": 1973,
+  "to": 2026,
+  "country": "The Bahamas",
+  "regions": [
+   "Bimini",
+   "Ragged Island"
+  ],
+  "owner": "Bahamas",
+  "why": "Part of the independent Bahamas since 10 Jul 1973; map shows Cuba",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Bahamas",
+  "severity": "major"
+ },
+ {
+  "from": 1510,
+  "to": 1520,
+  "country": "The Bahamas",
+  "regions": [
+   "*"
+  ],
+  "owner": "Lucayan",
+  "why": "The Calusa chiefdom was in Florida, not the Bahamas; the islands were Lucayan until their removal by the Spanish (only 11 left by 1520)",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Bahamas",
+  "severity": "minor"
+ },
+ {
+  "from": 1520,
+  "to": 1680,
+  "country": "The Bahamas",
+  "regions": [
+   "*"
+  ],
+  "owner": "none",
+  "except": [
+   "South Eleuthera–North Eleuthera",
+   "Spanish Wells",
+   "New Providence"
+  ],
+  "why": "Spain never settled the depopulated islands (nominal claim only); Calusa/Caloosahatchee peoples never lived there; map shows Spanish Empire/Caloosahatchee culture and a 1650-1680 English-Spanish flip-flop",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Bahamas",
+  "severity": "major"
+ },
+ {
+  "from": 1520,
+  "to": 1648,
+  "country": "The Bahamas",
+  "regions": [
+   "South Eleuthera–North Eleuthera",
+   "Spanish Wells",
+   "New Providence"
+  ],
+  "owner": "none",
+  "why": "Uninhabited until the Eleutheran Adventurers (1648) and New Providence settlement (1666)",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Bahamas",
+  "severity": "minor"
+ },
+ {
+  "from": 1648,
+  "to": 1680,
+  "country": "The Bahamas",
+  "regions": [
+   "South Eleuthera–North Eleuthera",
+   "Spanish Wells"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "Eleuthera settled by the Eleutheran Adventurers from Bermuda in 1648; map flips English/Spanish/peoples 1650-1680",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Bahamas",
+  "severity": "minor"
+ },
+ {
+  "from": 1666,
+  "to": 1680,
+  "country": "The Bahamas",
+  "regions": [
+   "New Providence"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "New Providence settled from Bermuda in 1666",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Bahamas",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "Aruba",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of the Netherlands",
+  "why": "Dutch since 1636 (Netherlands Antilles 1954-86, constituent country from 1986); map shows Venezuela 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/Aruba",
+  "severity": "major"
+ },
+ {
+  "from": 1636,
+  "to": 1800,
+  "country": "Aruba",
+  "regions": [
+   "*"
+  ],
+  "owner": "Dutch Republic",
+  "why": "Dutch WIC colony from 1636; map labels it New Netherland (the North American colony, gone after 1674)",
+  "source": "https://en.wikipedia.org/wiki/Aruba",
+  "severity": "minor"
+ },
+ {
+  "from": 1816,
+  "to": 1890,
+  "country": "Aruba",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of the Netherlands",
+  "why": "Returned to the Dutch 1816 (Colony of Curaçao and Dependencies); \"Netherlands Antilles\" only created 1954",
+  "source": "https://en.wikipedia.org/wiki/Aruba",
+  "severity": "minor"
+ },
+ {
+  "from": 1634,
+  "to": 1800,
+  "country": "Curaçao",
+  "regions": [
+   "*"
+  ],
+  "owner": "Dutch Republic",
+  "why": "Captured by the Dutch WIC 1634; map labels it New Netherland",
+  "source": "https://en.wikipedia.org/wiki/Aruba",
+  "severity": "minor"
+ },
+ {
+  "from": 1816,
+  "to": 1890,
+  "country": "Curaçao",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of the Netherlands",
+  "why": "\"Netherlands Antilles\" is a 1954 creation; 1816-1954 it was the Dutch Colony of Curaçao and Dependencies",
+  "source": "https://en.wikipedia.org/wiki/Aruba",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "Sint Maarten",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of the Netherlands",
+  "why": "Dutch side since the 1648 Treaty of Concordia (constituent country since 2010); map shows no polity 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "major"
+ },
+ {
+  "from": 1633,
+  "to": 1648,
+  "country": "Sint Maarten",
+  "regions": [
+   "*"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Spanish occupation 1633-1648 drove out the Dutch; map shows New Netherland",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "minor"
+ },
+ {
+  "from": 1648,
+  "to": 1795,
+  "country": "Sint Maarten",
+  "regions": [
+   "*"
+  ],
+  "owner": "Dutch Republic",
+  "why": "Dutch south half from 1648; map shows New Netherland and a French interlude around 1700",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "minor"
+ },
+ {
+  "from": 1816,
+  "to": 1890,
+  "country": "Sint Maarten",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of the Netherlands",
+  "why": "Dutch colony; \"Netherlands Antilles\" label is a 20th-century name",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "minor"
+ },
+ {
+  "from": 1633,
+  "to": 1648,
+  "country": "Saint Martin",
+  "regions": [
+   "*"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Spanish occupation 1633-1648; map shows New Netherland",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "minor"
+ },
+ {
+  "from": 1648,
+  "to": 1795,
+  "country": "Saint Martin",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of France",
+  "why": "North half French since the 1648 Treaty of Concordia; map shows New Netherland (Dutch) on the French side 1630-1800",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "major"
+ },
+ {
+  "from": 1795,
+  "to": 1815,
+  "country": "Saint Martin",
+  "regions": [
+   "*"
+  ],
+  "owner": "French First Republic",
+  "why": "Whole island under French control 1795-1815; map shows New Netherland / Dutch East Indies",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "minor"
+ },
+ {
+  "from": 1815,
+  "to": 1848,
+  "country": "Saint Martin",
+  "regions": [
+   "*"
+  ],
+  "owner": "Bourbon Kingdom of France",
+  "why": "French side of the island; map shows Netherlands Antilles",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "major"
+ },
+ {
+  "from": 1848,
+  "to": 1870,
+  "country": "Saint Martin",
+  "regions": [
+   "*"
+  ],
+  "owner": "Second French Empire",
+  "why": "French side (Second Republic 1848-52, then Second Empire); map shows Netherlands Antilles",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "major"
+ },
+ {
+  "from": 1870,
+  "to": 1890,
+  "country": "Saint Martin",
+  "regions": [
+   "*"
+  ],
+  "owner": "French Third Republic",
+  "why": "French side; map shows Netherlands Antilles",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 2026,
+  "country": "Saint Martin",
+  "regions": [
+   "*"
+  ],
+  "owner": "Guadeloupe",
+  "overlord": "France",
+  "why": "French side, part of Guadeloupe until it became a separate collectivity in 2007; map shows no polity 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/Sint_Maarten",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1648,
+  "country": "Saint Barthelemy",
+  "regions": [
+   "*"
+  ],
+  "owner": "none",
+  "why": "No European settlement until the French in 1648; map shows New Netherland",
+  "source": "https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy",
+  "severity": "minor"
+ },
+ {
+  "from": 1648,
+  "to": 1784,
+  "country": "Saint Barthelemy",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of France",
+  "why": "French from 1648 (Knights of Malta proprietorship c.1651-65); map shows New Netherland",
+  "source": "https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy",
+  "severity": "major"
+ },
+ {
+  "from": 1784,
+  "to": 1878,
+  "country": "Saint Barthelemy",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kingdom of Sweden",
+  "why": "Swedish possession 1 Jul 1784 - 16 Mar 1878; Sweden is absent, map shows New Netherland / Dutch East Indies / Netherlands Antilles",
+  "source": "https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy",
+  "severity": "major"
+ },
+ {
+  "from": 1878,
+  "to": 1890,
+  "country": "Saint Barthelemy",
+  "regions": [
+   "*"
+  ],
+  "owner": "French Third Republic",
+  "why": "Returned to France 1878; map shows Netherlands Antilles",
+  "source": "https://en.wikipedia.org/wiki/Saint_Barth%C3%A9lemy",
+  "severity": "minor"
+ },
+ {
+  "from": 1540,
+  "to": 1719,
+  "country": "Saint Vincent and the Grenadines",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalinago",
+  "why": "Carib-held island: Spain never settled, the English 1627 claim was not occupied, first French settlement at Barrouallie c.1719; map shows Spanish 1540-1620, English 1630, French 1640-1760",
+  "source": "https://en.wikipedia.org/wiki/History_of_Saint_Vincent_and_the_Grenadines",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1690,
+  "country": "Dominica",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalinago",
+  "why": "Kalinago island, declared neutral and left to the Caribs by the 1660 Anglo-French agreement; first permanent French settlements 1690; map shows English 1630 and French from 1640",
+  "source": "https://en.wikipedia.org/wiki/History_of_Dominica",
+  "severity": "major"
+ },
+ {
+  "from": 1540,
+  "to": 1650,
+  "country": "Saint Lucia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalinago",
+  "why": "English attempts of 1605 and 1640 were driven off by the Caribs; effective French settlement began June 1650; map shows English 1630 and French from 1640",
+  "source": "https://en.wikipedia.org/wiki/History_of_Saint_Lucia",
+  "severity": "major"
+ },
+ {
+  "from": 1540,
+  "to": 1649,
+  "country": "Grenada",
+  "regions": [
+   "*"
+  ],
+  "owner": "Kalinago",
+  "why": "Carib island until the French founded Fort Annunciation 17 Mar 1649 (English 1609 attempt failed); map shows Spanish, New Netherland and the Polish-Lithuanian Commonwealth (Courland never colonised Grenada)",
+  "source": "https://en.wikipedia.org/wiki/History_of_Grenada",
+  "severity": "major"
+ },
+ {
+  "from": 1693,
+  "to": 1763,
+  "country": "Trinidad and Tobago",
+  "regions": [
+   "Eastern Tobago"
+  ],
+  "owner": "none",
+  "why": "After the last Courlander attempt (1693) Tobago was left to its indigenous inhabitants and declared neutral in 1748; British from 1763; map shows Spanish Empire 1700-1760",
+  "source": "https://en.wikipedia.org/wiki/History_of_Tobago",
+  "severity": "major"
+ },
+ {
+  "from": 1670,
+  "to": 1792,
+  "country": "Haiti",
+  "regions": [
+   "*"
+  ],
+  "owner": "Saint-Domingue",
+  "overlord": "Kingdom of France",
+  "why": "French colony of Saint-Domingue (formally ceded 1697); map labels it New France, the North American colony",
+  "source": "https://en.wikipedia.org/wiki/History_of_Haiti",
+  "severity": "minor"
+ },
+ {
+  "from": 1806,
+  "to": 1820,
+  "country": "Haiti",
+  "regions": [
+   "Centre–Nord-Ouest–Nord"
+  ],
+  "owner": "Kingdom of Haiti",
+  "why": "After Dessalines' death (1806) the north was Christophe's State (1806) / Kingdom (1811-1820) of Haiti; map shows Empire of Haiti, which ended 1806",
+  "source": "https://en.wikipedia.org/wiki/History_of_Haiti",
+  "severity": "major"
+ },
+ {
+  "from": 1806,
+  "to": 1820,
+  "country": "Haiti",
+  "regions": [
+   "Ouest–Sud–Sud-Est–Grand'Anse"
+  ],
+  "owner": "Haiti",
+  "why": "The south was Pétion's Republic of Haiti 1806-1820; map shows Empire of Haiti",
+  "source": "https://en.wikipedia.org/wiki/History_of_Haiti",
+  "severity": "major"
+ },
+ {
+  "from": 1820,
+  "to": 1849,
+  "country": "Haiti",
+  "regions": [
+   "*"
+  ],
+  "owner": "Haiti",
+  "why": "Republic of Haiti reunified by Boyer in 1820; the Empire (1804-06) had ended; map shows Empire of Haiti",
+  "source": "https://en.wikipedia.org/wiki/History_of_Haiti",
+  "severity": "major"
+ },
+ {
+  "from": 1859,
+  "to": 1890,
+  "country": "Haiti",
+  "regions": [
+   "*"
+  ],
+  "owner": "Haiti",
+  "why": "Soulouque's Second Empire ended 1859, Republic restored; map shows Empire of Haiti until 1880s",
+  "source": "https://en.wikipedia.org/wiki/History_of_Haiti",
+  "severity": "major"
+ },
+ {
+  "from": 1822,
+  "to": 1844,
+  "country": "Dominican Republic",
+  "regions": [
+   "*"
+  ],
+  "owner": "Haiti",
+  "why": "Haitian unification of Hispaniola under the Republic of Haiti (Boyer) 1822-1844; map labels the occupier Empire of Haiti",
+  "source": "https://en.wikipedia.org/wiki/History_of_Haiti",
+  "severity": "major"
+ },
+ {
+  "from": 1801,
+  "to": 1809,
+  "country": "Dominican Republic",
+  "regions": [
+   "*"
+  ],
+  "owner": "French First Republic",
+  "why": "Spanish Santo Domingo ceded to France (Treaty of Basel 1795) and under French control until Spanish reconquest 9 Jul 1809; map shows Spanish Empire (Napoleonic Empire from 1804)",
+  "source": "https://en.wikipedia.org/wiki/Captaincy_General_of_Santo_Domingo",
+  "severity": "minor"
+ },
+ {
+  "from": 1861,
+  "to": 1865,
+  "country": "Dominican Republic",
+  "regions": [
+   "*"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Re-annexed by Spain 18 Mar 1861 - 15 Jul 1865; missing from map",
+  "source": "https://en.wikipedia.org/wiki/Captaincy_General_of_Santo_Domingo",
+  "severity": "major"
+ },
+ {
+  "from": 1916,
+  "to": 1924,
+  "country": "Dominican Republic",
+  "regions": [
+   "*"
+  ],
+  "owner": "Dominican Republic",
+  "overlord": "United States of America",
+  "why": "US occupation of the whole country 1916-1924 (cf. Haiti, which the map shows under US); map shows only one region as United States in 1920",
+  "source": "https://en.wikipedia.org/wiki/United_States_occupation_of_the_Dominican_Republic_(1916%E2%80%931924)",
+  "severity": "minor"
+ },
+ {
+  "from": 1630,
+  "to": 1890,
+  "country": "Puerto Rico",
+  "regions": [
+   "*"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Puerto Rico (including its offshore islands) stayed Spanish until 1898; map gives one Puerto Rico province (likely Vieques) to New France 1630-1700 and British Colonial Empire 1710-1880s; Spain repulsed French/English/Danish attempts and annexed Vieques formally by 1854",
+  "source": "https://en.wikipedia.org/wiki/Vieques,_Puerto_Rico",
+  "severity": "minor"
+ },
+ {
+  "from": 1841,
+  "to": 1848,
+  "country": "Mexico",
+  "regions": [
+   "Yucatán",
+   "Campeche",
+   "Quintana Roo"
+  ],
+  "owner": "Republic of Yucatán",
+  "why": "Second Republic of Yucatán independent 16 Mar 1841 - 17 Aug 1848; missing from map",
+  "source": "https://en.wikipedia.org/wiki/Republic_of_Yucat%C3%A1n",
+  "severity": "major"
+ },
+ {
+  "from": 1849,
+  "to": 1901,
+  "country": "Mexico",
+  "regions": [
+   "Quintana Roo"
+  ],
+  "owner": "Chan Santa Cruz",
+  "why": "Cruzob Maya state of Chan Santa Cruz, de facto independent (recognised by Britain until 1893) over central/southern Quintana Roo until Mexican occupation in 1901; missing from map",
+  "source": "https://en.wikipedia.org/wiki/Chan_Santa_Cruz",
+  "severity": "major"
+ },
+ {
+  "from": 1864,
+  "to": 1867,
+  "country": "Mexico",
+  "regions": [
+   "*"
+  ],
+  "owner": "Second Mexican Empire",
+  "except": [
+   "Quintana Roo"
+  ],
+  "why": "Maximilian's Second Mexican Empire 10 Apr 1864 - 19 Jun 1867; missing from map",
+  "source": "https://en.wikipedia.org/wiki/Second_Mexican_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1630,
+  "to": 1697,
+  "country": "Mexico",
+  "regions": [
+   "Baja California"
+  ],
+  "owner": "Cochimí",
+  "why": "No Spanish settlement in Baja California until Loreto (25 Oct 1697); San Bruno (1683) was abandoned; map shows Spanish Empire 1630-1680",
+  "source": "https://en.wikipedia.org/wiki/Loreto,_Baja_California_Sur",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1697,
+  "country": "Mexico",
+  "regions": [
+   "Baja California Sur"
+  ],
+  "owner": "Guaycura and Pericú",
+  "why": "No Spanish settlement on the peninsula until Loreto 1697; map shows Spanish Empire 1630-1680",
+  "source": "https://en.wikipedia.org/wiki/Loreto,_Baja_California_Sur",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1524,
+  "country": "Guatemala",
+  "regions": [
+   "San Marcos–Suchitepéquez–Retalhuleu–Quezaltenango–Totonicapán"
+  ],
+  "owner": "Kʼicheʼ Kingdom",
+  "why": "The dominant highland state, the Kʼicheʼ kingdom of Qʼumarkaj (Quetzaltenango, Totonicapán, Pacific piedmont), is missing; map gives this region to the Tzʼutujil, a Kʼicheʼ subject. Conquered by Alvarado 1524",
+  "source": "https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_kingdom_of_Q%CA%BCumarkaj",
+  "severity": "major"
+ },
+ {
+  "from": 1470,
+  "to": 1524,
+  "country": "Guatemala",
+  "regions": [
+   "Escuintla–Baja Verapaz–Guatemala–Chimaltenango"
+  ],
+  "owner": "Kaqchikel kingdom",
+  "why": "The Kaqchikel broke from the Kʼicheʼ c.1470 and ruled from Iximche (Chimaltenango) until 1524; map shows Poqomam",
+  "source": "https://en.wikipedia.org/wiki/K%CA%BCiche%CA%BC_kingdom_of_Q%CA%BCumarkaj",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1524,
+  "country": "Guatemala",
+  "regions": [
+   "Santa Rosa–Zacapa–Chiquimula–Jalapa"
+  ],
+  "owner": "none",
+  "why": "Map shows \"(peoples: Amazonian peoples)\" then \"(peoples: Viceroyalty of New Spain)\" (created 1535) here; eastern Guatemala was Chʼortiʼ/Xinca country",
+  "source": "https://en.wikipedia.org/wiki/Viceroyalty_of_New_Spain",
+  "severity": "minor"
+ },
+ {
+  "from": 1550,
+  "to": 1640,
+  "country": "Belize",
+  "regions": [
+   "Belize",
+   "Orange Walk–Belize"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Chetumal/Dzuluinicob were under Spanish (Bacalar) control until pirates sacked Bacalar 1642/1648; the Itza never ruled Belize; map shows Itza Mayans",
+  "source": "https://en.wikipedia.org/wiki/History_of_Belize",
+  "severity": "major"
+ },
+ {
+  "from": 1550,
+  "to": 1697,
+  "country": "Belize",
+  "regions": [
+   "Cayo–Toledo"
+  ],
+  "owner": "none",
+  "why": "Tipu/Manche Chʼol Maya areas autonomous (Tipu 1638-1695), not Itza; map flips Itza Mayans / Manche Chʼol every decade 1560-1640",
+  "source": "https://en.wikipedia.org/wiki/History_of_Belize",
+  "severity": "major"
+ },
+ {
+  "from": 1670,
+  "to": 1798,
+  "country": "Belize",
+  "regions": [
+   "Cayo–Toledo"
+  ],
+  "owner": "none",
+  "why": "British logwood settlement was confined to the north/coast under Spanish sovereignty (1763/1786 treaties) and only extended south to the Sarstoon after 1798; map shows English/British from 1670",
+  "source": "https://en.wikipedia.org/wiki/History_of_Belize",
+  "severity": "major"
+ },
+ {
+  "from": 1530,
+  "to": 1563,
+  "country": "Costa Rica",
+  "regions": [
+   "Alajuela",
+   "San José"
+  ],
+  "owner": "Huetar Kingdoms",
+  "why": "Central Valley conquered only in the 1560s (Cartago founded 1563 by Vázquez de Coronado); map shows Spanish from 1530",
+  "source": "https://en.wikipedia.org/wiki/Cartago,_Costa_Rica",
+  "severity": "major"
+ },
+ {
+  "from": 1530,
+  "to": 1821,
+  "country": "Costa Rica",
+  "regions": [
+   "Limón"
+  ],
+  "owner": "Talamanca",
+  "why": "Bribri/Cabécar resistance destroyed missions and halted Spanish power in Talamanca throughout the colonial period; map shows Spanish from 1530",
+  "source": "https://en.wikipedia.org/wiki/Bribri_people",
+  "severity": "major"
+ },
+ {
+  "from": 1500,
+  "to": 1530,
+  "country": "Honduras",
+  "regions": [
+   "Gracias a Dios",
+   "Islas de la Bahía"
+  ],
+  "owner": "none",
+  "why": "Map labels these \"(peoples: Amazonian peoples)\" and \"(peoples: Viceroyalty of New Spain)\" (anachronistic; viceroyalty created 1535)",
+  "source": "https://en.wikipedia.org/wiki/Viceroyalty_of_New_Spain",
+  "severity": "minor"
+ },
+ {
+  "from": 1640,
+  "to": 1859,
+  "country": "Honduras",
+  "regions": [
+   "Gracias a Dios"
+  ],
+  "owner": "Miskito Kingdom",
+  "why": "Miskito Kingdom under English/British protection (1638-1787, 1844-60); Britain ceded the Honduran part in 1859; map shows Spanish Empire",
+  "source": "https://en.wikipedia.org/wiki/Mosquito_Coast",
+  "severity": "major"
+ },
+ {
+  "from": 1852,
+  "to": 1860,
+  "country": "Honduras",
+  "regions": [
+   "Islas de la Bahía"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British Colony of the Bay Islands constituted 1852 until the islands passed to Honduras (Wyke-Cruz treaty); map shows Honduras",
+  "source": "https://en.wikipedia.org/wiki/Bay_Islands_Department",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1530,
+  "country": "Nicaragua",
+  "regions": [
+   "Atlántico Norte",
+   "Atlántico Sur",
+   "Jinotega",
+   "Rio San Juan"
+  ],
+  "owner": "none",
+  "why": "Map labels these \"(peoples: Amazonian peoples)\" and \"(peoples: Viceroyalty of New Spain)\" (anachronistic)",
+  "source": "https://en.wikipedia.org/wiki/Viceroyalty_of_New_Spain",
+  "severity": "minor"
+ },
+ {
+  "from": 1530,
+  "to": 1640,
+  "country": "Nicaragua",
+  "regions": [
+   "Atlántico Norte",
+   "Atlántico Sur"
+  ],
+  "owner": "none",
+  "why": "Spain never controlled the Caribbean (Mosquito) coast; map flips Spanish Empire / peoples every decade 1540-1630",
+  "source": "https://en.wikipedia.org/wiki/Mosquito_Coast",
+  "severity": "major"
+ },
+ {
+  "from": 1640,
+  "to": 1860,
+  "country": "Nicaragua",
+  "regions": [
+   "Atlántico Norte",
+   "Atlántico Sur"
+  ],
+  "owner": "Miskito Kingdom",
+  "why": "Miskito Kingdom (British protectorate 1638-1787 and 1844-1860) held the coast until the 1860 Treaty of Managua; missing from map (shows Spanish Empire / Central America / Nicaragua)",
+  "source": "https://en.wikipedia.org/wiki/Mosquito_Coast",
+  "severity": "major"
+ },
+ {
+  "from": 1860,
+  "to": 1894,
+  "country": "Nicaragua",
+  "regions": [
+   "Atlántico Sur"
+  ],
+  "owner": "Mosquito Reserve",
+  "overlord": "Republic of Nicaragua",
+  "why": "Autonomous Mosquito Reserve 1860-1894 under Nicaraguan suzerainty, incorporated 20 Nov 1894",
+  "source": "https://en.wikipedia.org/wiki/Mosquito_Coast",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1520,
+  "country": "Panama",
+  "regions": [
+   "Veraguas"
+  ],
+  "owner": "Urracá",
+  "why": "Map labels Veraguas \"(peoples: Amazonian peoples)\"/\"(peoples: Viceroyalty of New Spain)\" (anachronistic)",
+  "source": "https://en.wikipedia.org/wiki/Viceroyalty_of_New_Spain",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1530,
+  "country": "Mexico",
+  "regions": [
+   "Tabasco"
+  ],
+  "owner": "none",
+  "why": "Map labels Tabasco \"(peoples: Amazonian peoples)\" then \"(peoples: Viceroyalty of New Spain)\" before the viceroyalty existed (1535); Chontal Maya country",
+  "source": "https://en.wikipedia.org/wiki/Viceroyalty_of_New_Spain",
+  "severity": "minor"
+ },
+ {
+  "from": 1819,
+  "to": 1831,
+  "country": "Colombia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Gran Colombia",
+  "except": [
+   "San Andrés y Providencia"
+  ],
+  "why": "Gran Colombia proclaimed at Angostura 17 Dec 1819 (dissolved 1831); map shows \"New Granada\" for the 1820s and Gran Colombia only from 1830",
+  "source": "https://en.wikipedia.org/wiki/Gran_Colombia",
+  "severity": "major"
+ },
+ {
+  "from": 1822,
+  "to": 1831,
+  "country": "Colombia",
+  "regions": [
+   "San Andrés y Providencia"
+  ],
+  "owner": "Gran Colombia",
+  "why": "The archipelago adhered to Gran Colombia in 1822; map shows Spanish Empire then United Provinces of Central America",
+  "source": "https://en.wikipedia.org/wiki/Archipelago_of_San_Andr%C3%A9s,_Providencia_and_Santa_Catalina",
+  "severity": "major"
+ },
+ {
+  "from": 1831,
+  "to": 1858,
+  "country": "Colombia",
+  "regions": [
+   "San Andrés y Providencia"
+  ],
+  "owner": "Republic of New Granada",
+  "why": "Colombian (New Granadan) territory; never under Nicaraguan control (Esguerra-Bárcenas 1928, ICJ 2007); map shows Republic of Nicaragua",
+  "source": "https://en.wikipedia.org/wiki/Archipelago_of_San_Andr%C3%A9s,_Providencia_and_Santa_Catalina",
+  "severity": "major"
+ },
+ {
+  "from": 1858,
+  "to": 1863,
+  "country": "Colombia",
+  "regions": [
+   "San Andrés y Providencia"
+  ],
+  "owner": "Granadine Confederation",
+  "why": "Colombian territory; map shows Republic of Nicaragua",
+  "source": "https://en.wikipedia.org/wiki/Archipelago_of_San_Andr%C3%A9s,_Providencia_and_Santa_Catalina",
+  "severity": "major"
+ },
+ {
+  "from": 1863,
+  "to": 1886,
+  "country": "Colombia",
+  "regions": [
+   "San Andrés y Providencia"
+  ],
+  "owner": "Republic of Colombia",
+  "why": "Colombian territory; map shows Republic of Nicaragua",
+  "source": "https://en.wikipedia.org/wiki/Archipelago_of_San_Andr%C3%A9s,_Providencia_and_Santa_Catalina",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 2026,
+  "country": "Colombia",
+  "regions": [
+   "San Andrés y Providencia"
+  ],
+  "owner": "Colombia",
+  "why": "Colombian since 1822, confirmed by the 1928 treaty and the 2007 ICJ ruling; map shows Nicaragua 1890-2025",
+  "source": "https://en.wikipedia.org/wiki/Archipelago_of_San_Andr%C3%A9s,_Providencia_and_Santa_Catalina",
+  "severity": "major"
+ },
+ {
+  "from": 1630,
+  "to": 1641,
+  "country": "Colombia",
+  "regions": [
+   "San Andrés y Providencia"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "English Puritan Providence Island colony 1630 - May 1641; map flips Spanish Empire / peoples every decade 1550-1640",
+  "source": "https://en.wikipedia.org/wiki/Archipelago_of_San_Andr%C3%A9s,_Providencia_and_Santa_Catalina",
+  "severity": "minor"
+ },
+ {
+  "from": 1810,
+  "to": 1816,
+  "country": "Colombia",
+  "regions": [
+   "Antioquia",
+   "Casanare",
+   "Córdoba",
+   "Santander",
+   "Huila"
+  ],
+  "owner": "United Provinces of New Granada",
+  "why": "Patria Boba: Antioquia, Cartagena, Neiva, Pamplona, Tunja formed the United Provinces 1810/11-1816 until the Spanish reconquest; map shows \"(peoples: Amazonian peoples)\" and puts the State of Cundinamarca in Huila",
+  "source": "https://en.wikipedia.org/wiki/United_Provinces_of_New_Granada",
+  "severity": "minor"
+ },
+ {
+  "from": 1790,
+  "to": 1796,
+  "country": "Guyana",
+  "regions": [
+   "Mahaica-Berbice"
+  ],
+  "owner": "Dutch Republic",
+  "why": "Dutch colony of Berbice (1627-1796) existed continuously; map shows the colony collapsing to Lokono/Amazonian peoples 1790-1800",
+  "source": "https://en.wikipedia.org/wiki/Berbice",
+  "severity": "major"
+ },
+ {
+  "from": 1796,
+  "to": 1831,
+  "country": "Guyana",
+  "regions": [
+   "Mahaica-Berbice"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British from 1796 (Batavian interlude 1802-03), ceded 1814/15, merged into British Guiana 1831",
+  "source": "https://en.wikipedia.org/wiki/Berbice",
+  "severity": "minor"
+ },
+ {
+  "from": 1831,
+  "to": 1890,
+  "country": "Guyana",
+  "regions": [
+   "Pomeroon-Supenaam",
+   "Potaro-Siparuni",
+   "Upper Demerara-Berbice"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British Guiana formed 1831; map flips these between British, peoples, Gran Colombia/Venezuela and Empire of Brazil (1830/1840/1870)",
+  "source": "https://en.wikipedia.org/wiki/Berbice",
+  "severity": "minor"
+ },
+ {
+  "from": 1816,
+  "to": 1890,
+  "country": "Suriname",
+  "regions": [
+   "*"
+  ],
+  "owner": "Surinam",
+  "overlord": "Netherlands",
+  "why": "Dutch colony of Surinam; \"Netherlands Antilles\" (map 1820-1880) is a 1954 name and never included Suriname",
+  "source": "https://en.wikipedia.org/wiki/Suriname",
+  "severity": "minor"
+ },
+ {
+  "from": 1975,
+  "to": 2026,
+  "country": "Suriname",
+  "regions": [
+   "*"
+  ],
+  "owner": "Suriname",
+  "why": "One independent state since 1975; map splits it between two polities \"Surinam\" and \"Suriname\" (two colours)",
+  "source": "https://en.wikipedia.org/wiki/Suriname",
+  "severity": "minor"
+ },
+ {
+  "from": 1410,
+  "to": 1470,
+  "country": "Ecuador",
+  "regions": [
+   "Azuay"
+  ],
+  "owner": "Cañari",
+  "why": "Chimor was a coastal Peruvian state (Jequetepeque to Carabayllo) that never reached highland Ecuador; Azuay was Cañari until the Inca conquest; map shows Chimu Empire",
+  "source": "https://en.wikipedia.org/wiki/Chimor",
+  "severity": "major"
+ },
+ {
+  "from": 1410,
+  "to": 1470,
+  "country": "Ecuador",
+  "regions": [
+   "Loja"
+  ],
+  "owner": "none",
+  "why": "Chimor never reached Loja (Palta country); map shows Chimu Empire",
+  "source": "https://en.wikipedia.org/wiki/Chimor",
+  "severity": "major"
+ },
+ {
+  "from": 1410,
+  "to": 1470,
+  "country": "Peru",
+  "regions": [
+   "Cajamarca"
+  ],
+  "owner": "Cuismancu",
+  "why": "Chimor held the coast, not the Cajamarca highlands; map turns Cuismancu into Chimu Empire 1410",
+  "source": "https://en.wikipedia.org/wiki/Chimor",
+  "severity": "minor"
+ },
+ {
+  "from": 1480,
+  "to": 1830,
+  "country": "Ecuador",
+  "regions": [
+   "Pastaza"
+  ],
+  "owner": "Shuar",
+  "why": "The Inca never conquered the Shuar (Huayna Capac repulsed 1527) and the Shuar expelled the Spanish in 1599, staying autonomous until late-19th-century missions; map flips Inca/Spanish and Shuar every decade",
+  "source": "https://en.wikipedia.org/wiki/Shuar",
+  "severity": "major"
+ },
+ {
+  "from": 1480,
+  "to": 1540,
+  "country": "Ecuador",
+  "regions": [
+   "Morona Santiago",
+   "Zamora Chinchipe"
+  ],
+  "owner": "Shuar",
+  "why": "Inca never conquered the Shuar lowlands (defeat of 1527); map shows Inca Empire",
+  "source": "https://en.wikipedia.org/wiki/Shuar",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1830,
+  "country": "Ecuador",
+  "regions": [
+   "Morona Santiago",
+   "Zamora Chinchipe"
+  ],
+  "owner": "Shuar",
+  "why": "Shuar drove the Spanish out in 1599 and remained autonomous through the colonial period; map shows Spanish Empire",
+  "source": "https://en.wikipedia.org/wiki/Shuar",
+  "severity": "major"
+ },
+ {
+  "from": 1450,
+  "to": 1533,
+  "country": "Peru",
+  "regions": [
+   "Apurímac",
+   "Arequipa",
+   "Ayacucho",
+   "Huancavelica",
+   "Puno"
+  ],
+  "owner": "Inca Empire",
+  "why": "Inca core conquered under Pachacuti (from 1438); map flips these to \"(peoples)\" in 1470 and 1490 and back the next decade",
+  "source": "https://en.wikipedia.org/wiki/Inca_Empire",
+  "severity": "major"
+ },
+ {
+  "from": 1470,
+  "to": 1533,
+  "country": "Peru",
+  "regions": [
+   "Lima"
+  ],
+  "owner": "Inca Empire",
+  "why": "Inca from Topa Inca's coastal campaigns (Chimor conquest 1470s); map flips Lima between Inca and peoples",
+  "source": "https://en.wikipedia.org/wiki/Inca_Empire",
+  "severity": "minor"
+ },
+ {
+  "from": 1821,
+  "to": 1840,
+  "country": "Peru",
+  "regions": [
+   "Amazonas",
+   "Cajamarca",
+   "Loreto"
+  ],
+  "owner": "Republic of Peru",
+  "why": "Jaén and Maynas were held by Peru; the 1829 Armistice of Piura / Larrea-Gual treaty restored the status quo recognising them as Peruvian; map gives them to Gran Colombia in 1830",
+  "source": "https://en.wikipedia.org/wiki/Gran_Colombia%E2%80%93Peru_War",
+  "severity": "major"
+ },
+ {
+  "from": 1880,
+  "to": 1929,
+  "country": "Peru",
+  "regions": [
+   "Tacna"
+  ],
+  "owner": "Chile",
+  "why": "Chile governed Tacna from 1880 until its handover 28 Aug 1929 (Treaty of Lima); map returns it to Peru by 1890",
+  "source": "https://en.wikipedia.org/wiki/Handover_of_Tacna",
+  "severity": "major"
+ },
+ {
+  "from": 1836,
+  "to": 1839,
+  "country": "Peru",
+  "regions": [
+   "*"
+  ],
+  "owner": "Peru–Bolivian Confederation",
+  "why": "Peru-Bolivian Confederation 28 Oct 1836 - 1839 (Yungay, 20 Jan 1839); missing from map",
+  "source": "https://en.wikipedia.org/wiki/Peru%E2%80%93Bolivian_Confederation",
+  "severity": "minor"
+ },
+ {
+  "from": 1836,
+  "to": 1839,
+  "country": "Bolivia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Peru–Bolivian Confederation",
+  "why": "Peru-Bolivian Confederation 1836-1839; missing from map",
+  "source": "https://en.wikipedia.org/wiki/Peru%E2%80%93Bolivian_Confederation",
+  "severity": "minor"
+ },
+ {
+  "from": 1500,
+  "to": 1682,
+  "country": "Bolivia",
+  "regions": [
+   "El Beni"
+  ],
+  "owner": "Mojeño chiefdoms",
+  "why": "The Llanos de Moxos were outside Inca and Spanish rule until the Jesuit missions (Loreto 1682); map flips Inca/Spanish and Mojeño every decade 1500-1690",
+  "source": "https://en.wikipedia.org/wiki/Jesuit_Missions_of_Moxos",
+  "severity": "major"
+ },
+ {
+  "from": 1682,
+  "to": 1767,
+  "country": "Bolivia",
+  "regions": [
+   "El Beni"
+  ],
+  "owner": "Moxos Missions",
+  "overlord": "Spanish Crown",
+  "why": "Jesuit Moxos missions from 1682 until the 1767 expulsion; map flips Spanish/Mojeño and shows Portuguese in 1750",
+  "source": "https://en.wikipedia.org/wiki/Jesuit_Missions_of_Moxos",
+  "severity": "minor"
+ },
+ {
+  "from": 1574,
+  "to": 1825,
+  "country": "Bolivia",
+  "regions": [
+   "Tarija"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Spanish city of Tarija founded 1574; map flips Tarija between Spanish Empire and Wichí every decade 1540-1750",
+  "source": "https://en.wikipedia.org/wiki/Tarija",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1883,
+  "country": "Chile",
+  "regions": [
+   "La Araucanía"
+  ],
+  "owner": "Mapuche of Araucanía",
+  "why": "Araucanía stayed de facto independent through the colonial era and until the Chilean occupation 1861-1883 (Villarrica refounded 1 Jan 1883); map flips Spanish/Chile and Mapuche (1780/1790, 1830/1840/1870/1880)",
+  "source": "https://en.wikipedia.org/wiki/Occupation_of_Araucan%C3%ADa",
+  "severity": "major"
+ },
+ {
+  "from": 1645,
+  "to": 1820,
+  "country": "Chile",
+  "regions": [
+   "Los Ríos"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Valdivia re-established Feb 1645 and held by Spain until Cochrane captured it in 1820; map flips Spanish/Huilliche every decade 1640-1790",
+  "source": "https://en.wikipedia.org/wiki/Valdivian_Fort_System",
+  "severity": "minor"
+ },
+ {
+  "from": 1879,
+  "to": 1890,
+  "country": "Chile",
+  "regions": [
+   "Antofagasta"
+  ],
+  "owner": "Republic of Chile",
+  "why": "Chile occupied Antofagasta 14 Feb 1879 and Bolivia lost its coast (truce 1884); map keeps Bolivia until the 1880s",
+  "source": "https://en.wikipedia.org/wiki/War_of_the_Pacific",
+  "severity": "major"
+ },
+ {
+  "from": 1590,
+  "to": 1870,
+  "country": "Argentina",
+  "regions": [
+   "Chaco",
+   "Formosa"
+  ],
+  "owner": "Qom",
+  "why": "The Gran Chaco stayed in Indigenous (Guaycuru) hands until Argentine expeditions from 1870 (conquest completed 1917); map shows Spanish Empire (flip-flopping), United Provinces and Paraguay",
+  "source": "https://es.wikipedia.org/wiki/Conquista_del_Chaco",
+  "severity": "major"
+ },
+ {
+  "from": 1553,
+  "to": 1810,
+  "country": "Argentina",
+  "regions": [
+   "Santiago del Estero"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Santiago del Estero founded 1553 and held continuously; map flips it between Spanish Empire and peoples every decade 1590-1750",
+  "source": "https://en.wikipedia.org/wiki/Santiago_del_Estero",
+  "severity": "minor"
+ },
+ {
+  "from": 1573,
+  "to": 1810,
+  "country": "Argentina",
+  "regions": [
+   "Córdoba"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Córdoba founded 1573; map flips Spanish/Pampas peoples every decade 1590-1770",
+  "source": "https://en.wikipedia.org/wiki/C%C3%B3rdoba,_Argentina",
+  "severity": "minor"
+ },
+ {
+  "from": 1561,
+  "to": 1810,
+  "country": "Argentina",
+  "regions": [
+   "Mendoza"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Mendoza founded 1561; map flips Spanish/peoples every decade 1560-1770",
+  "source": "https://en.wikipedia.org/wiki/Mendoza,_Argentina",
+  "severity": "minor"
+ },
+ {
+  "from": 1582,
+  "to": 1810,
+  "country": "Argentina",
+  "regions": [
+   "Salta"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Salta founded 1582; map flips Spanish/Wichí every decade 1590-1760",
+  "source": "https://en.wikipedia.org/wiki/Salta",
+  "severity": "minor"
+ },
+ {
+  "from": 1588,
+  "to": 1810,
+  "country": "Argentina",
+  "regions": [
+   "Corrientes"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Corrientes founded 1588; map flips Spanish/peoples/Jesuit every decade 1590-1720",
+  "source": "https://en.wikipedia.org/wiki/Corrientes",
+  "severity": "minor"
+ },
+ {
+  "from": 1774,
+  "to": 1811,
+  "country": "Falkland Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Britain withdrew 1774/76; Spain held Puerto Soledad until 1811; map shows British Colonial Empire on most of the islands 1780-1810",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Falkland_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1764,
+  "country": "Falkland Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "none",
+  "why": "Uninhabited before the French settlement of 1764; map labels them \"(peoples: Pampas and Patagonian peoples)\"",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Falkland_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1811,
+  "to": 1829,
+  "country": "Falkland Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "none",
+  "why": "Abandoned after the Spanish garrison left in 1811; map labels them \"(peoples: Pampas and Patagonian peoples)\"",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Falkland_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1829,
+  "to": 1833,
+  "country": "Falkland Islands",
+  "regions": [
+   "*"
+  ],
+  "owner": "Río de la Plata",
+  "why": "Vernet named commandant by Buenos Aires in 1829; British rule re-established Jan 1833",
+  "source": "https://en.wikipedia.org/wiki/History_of_the_Falkland_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1897,
+  "to": 1917,
+  "country": "Clipperton Island",
+  "regions": [
+   "*"
+  ],
+  "owner": "Mexico",
+  "why": "Mexican flag raised Dec 1897, garrison from 1906, abandoned 1917",
+  "source": "https://en.wikipedia.org/wiki/Clipperton_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1931,
+  "to": 2026,
+  "country": "Clipperton Island",
+  "regions": [
+   "*"
+  ],
+  "owner": "France",
+  "why": "Awarded to France by arbitration in 1931 (possession taken 1935); French overseas state property",
+  "source": "https://en.wikipedia.org/wiki/Clipperton_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1810,
+  "to": 1811,
+  "country": "Paraguay",
+  "regions": [
+   "Alto Paraná",
+   "Amambay",
+   "Canindeyú",
+   "Concepción",
+   "Caaguazú",
+   "Caazapá",
+   "Itapúa",
+   "Paraguarí",
+   "San Pedro"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Spanish Intendancy of Paraguay until May 1811; map shows \"(peoples: Pampas and Patagonian peoples)\" and Portuguese Empire for most of eastern Paraguay in 1810",
+  "source": "https://en.wikipedia.org/wiki/History_of_Paraguay",
+  "severity": "major"
+ },
+ {
+  "from": 1811,
+  "to": 1820,
+  "country": "Paraguay",
+  "regions": [
+   "Alto Paraná",
+   "Amambay",
+   "Canindeyú",
+   "Concepción",
+   "Caaguazú",
+   "Caazapá",
+   "Itapúa",
+   "Paraguarí",
+   "San Pedro",
+   "Ñeembucú"
+  ],
+  "owner": "Paraguay",
+  "why": "Independent Paraguay from 14-17 May 1811; map shows Pampas peoples / Portuguese Empire / Spanish Empire until 1820",
+  "source": "https://en.wikipedia.org/wiki/History_of_Paraguay",
+  "severity": "major"
+ },
+ {
+  "from": 1869,
+  "to": 1876,
+  "country": "Paraguay",
+  "regions": [
+   "Alto Paraná",
+   "Amambay",
+   "Canindeyú",
+   "Concepción",
+   "Caaguazú",
+   "Caazapá",
+   "Itapúa",
+   "Paraguarí",
+   "San Pedro",
+   "Ñeembucú"
+  ],
+  "owner": "Paraguay",
+  "overlord": "Empire of Brazil",
+  "why": "Paraguay survived under Allied (mainly Brazilian) occupation from 1869 to 1876; map annexes it outright to the Empire of Brazil",
+  "source": "https://en.wikipedia.org/wiki/History_of_Paraguay",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1767,
+  "country": "Paraguay",
+  "regions": [
+   "Alto Paraná",
+   "Amambay",
+   "Canindeyú"
+  ],
+  "owner": "Guaraní chiefdoms",
+  "why": "Jesuit reductions began only in 1609 and lay in the south (three-border region); the north-east was never under them; map (~est) gives it to Jesuit Reducciones from 1600",
+  "source": "https://en.wikipedia.org/wiki/History_of_Paraguay",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1746,
+  "country": "Paraguay",
+  "regions": [
+   "San Pedro",
+   "Caaguazú"
+  ],
+  "owner": "Guaraní chiefdoms",
+  "why": "No Jesuit reductions here before the Tarumá missions of the 1740s; map shows Jesuit Reducciones from 1600",
+  "source": "https://en.wikipedia.org/wiki/History_of_Paraguay",
+  "severity": "minor"
+ },
+ {
+  "from": 1600,
+  "to": 1767,
+  "country": "Paraguay",
+  "regions": [
+   "Concepción"
+  ],
+  "owner": "Mbayá-Guaicurú",
+  "why": "Northern Paraguay (Concepción founded 1773) was Mbayá country, not Jesuit missions; map shows Jesuit Reducciones from 1600",
+  "source": "https://en.wikipedia.org/wiki/History_of_Paraguay",
+  "severity": "minor"
+ },
+ {
+  "from": 1540,
+  "to": 1767,
+  "country": "Paraguay",
+  "regions": [
+   "Paraguarí"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Asunción hinterland under Spanish settlement from 1537, not a Jesuit reduction area; map shows Guaraní chiefdoms then Jesuit Reducciones",
+  "source": "https://en.wikipedia.org/wiki/History_of_Paraguay",
+  "severity": "minor"
+ },
+ {
+  "from": 1760,
+  "to": 1890,
+  "country": "Paraguay",
+  "regions": [
+   "Alto Paraguay",
+   "Boquerón"
+  ],
+  "owner": "none",
+  "why": "The Chaco Boreal remained in Indigenous hands (Guaycuru resisted Spanish control into the 20th century); map gives it to Spanish Empire 1760 and Bolivia 1830-1880",
+  "source": "https://en.wikipedia.org/wiki/Gran_Chaco",
+  "severity": "major"
+ },
+ {
+  "from": 1540,
+  "to": 1811,
+  "country": "Paraguay",
+  "regions": [
+   "Presidente Hayes"
+  ],
+  "owner": "none",
+  "why": "Chaco side of the Paraguay river, never under effective Spanish/Jesuit control; map flips Spanish/Payaguá/Jesuit every decade 1540-1750",
+  "source": "https://en.wikipedia.org/wiki/Gran_Chaco",
+  "severity": "minor"
+ },
+ {
+  "from": 1811,
+  "to": 1870,
+  "country": "Paraguay",
+  "regions": [
+   "Presidente Hayes"
+  ],
+  "owner": "Paraguay",
+  "why": "Paraguayan claim (Villa Occidental under C. A. López); map gives it to Bolivia from 1830",
+  "source": "https://en.wikipedia.org/wiki/Villa_Hayes",
+  "severity": "minor"
+ },
+ {
+  "from": 1870,
+  "to": 1879,
+  "country": "Paraguay",
+  "regions": [
+   "Presidente Hayes"
+  ],
+  "owner": "Argentine Confederation",
+  "why": "Occupied by Argentina after the Paraguayan War until the 1878 Hayes award to Paraguay (renamed Villa Hayes 1879); map shows Bolivia",
+  "source": "https://en.wikipedia.org/wiki/Villa_Hayes",
+  "severity": "minor"
+ },
+ {
+  "from": 1879,
+  "to": 1890,
+  "country": "Paraguay",
+  "regions": [
+   "Presidente Hayes"
+  ],
+  "owner": "Paraguay",
+  "why": "Hayes award (1878) gave the Chaco south of the Pilcomayo-Verde to Paraguay; map shows Bolivia until 1890",
+  "source": "https://en.wikipedia.org/wiki/Villa_Hayes",
+  "severity": "major"
+ },
+ {
+  "from": 1580,
+  "to": 1640,
+  "country": "Brazil",
+  "regions": [
+   "Bahia",
+   "Rio de Janeiro",
+   "Espírito Santo"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "Iberian Union was a personal union; Portuguese institutions in Brazil stayed separate. Map recolours coastal Brazil as Spanish Empire 1590-1630 and mixes in Kingdom of Portugal",
+  "source": "https://en.wikipedia.org/wiki/Colonial_Brazil",
+  "severity": "minor"
+ },
+ {
+  "from": 1580,
+  "to": 1630,
+  "country": "Brazil",
+  "regions": [
+   "Pernambuco"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "Portuguese captaincy (Dutch from 1630); map shows Spanish Empire / Kingdom of Portugal / peoples",
+  "source": "https://en.wikipedia.org/wiki/Colonial_Brazil",
+  "severity": "minor"
+ },
+ {
+  "from": 1549,
+  "to": 1580,
+  "country": "Brazil",
+  "regions": [
+   "Bahia"
+  ],
+  "owner": "Portuguese Empire",
+  "why": "Salvador founded as seat of the Governorate-General 1549; map flips Bahia Portuguese/Tupinambá/Kingdom of Portugal every decade 1520-1560",
+  "source": "https://en.wikipedia.org/wiki/Colonial_Brazil",
+  "severity": "minor"
+ }
+]

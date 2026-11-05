@@ -1,0 +1,1482 @@
+[
+ {
+  "from": 1400,
+  "to": 1517,
+  "country": "Egypt",
+  "regions": [
+   "Aswan",
+   "Al Bahr al Ahmar",
+   "Al Wadi at Jadid"
+  ],
+  "owner": "Mamluk Sultanate",
+  "why": "Aswan, the Eastern Desert/Red Sea coast and the Kharga-Dakhla oases were Mamluk; map gives them to 'Makuria Kingdom' 1420-1510 and flips them to nomads every other decade. Makuria never regained Aswan after the Banu Kanz were expelled in 1412/13 and the kingdom collapsed in the late 15th c.",
+  "source": "https://en.wikipedia.org/wiki/Makuria",
+  "severity": "major"
+ },
+ {
+  "from": 1517,
+  "to": 1805,
+  "country": "Egypt",
+  "regions": [
+   "Al Bahr al Ahmar",
+   "Al Wadi at Jadid"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman Egypt (1517-1805) included the Red Sea coast and the New Valley oases; map flickers them between Ottoman and 'Saharan nomads' every decade",
+  "source": "https://en.wikipedia.org/wiki/Egypt_Eyalet",
+  "severity": "major"
+ },
+ {
+  "from": 1517,
+  "to": 1798,
+  "country": "Egypt",
+  "regions": [
+   "Al Jizah"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Giza is core Nile-valley Egypt; map shows it as 'Saharan nomads' in 1720-1740, 1760, 1790 (flicker)",
+  "source": "https://en.wikipedia.org/wiki/Egypt_Eyalet",
+  "severity": "major"
+ },
+ {
+  "from": 1801,
+  "to": 1805,
+  "country": "Egypt",
+  "regions": [
+   "Al Jizah"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Giza back under Ottoman rule after the French evacuation (1801) until Muhammad Ali's takeover (1805)",
+  "source": "https://en.wikipedia.org/wiki/Egypt_Eyalet",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1517,
+  "country": "Egypt",
+  "regions": [
+   "Matruh"
+  ],
+  "owner": "Mamluk Sultanate",
+  "why": "Western Desert coast and Siwa: Bedouin and self-governing, nominally within Mamluk Egypt (Siwa paid tribute); shown as Egypt's ruler",
+  "source": "https://en.wikipedia.org/wiki/Siwa_Oasis",
+  "severity": "minor"
+ },
+ {
+  "from": 1798,
+  "to": 1801,
+  "country": "Egypt",
+  "regions": [
+   "Ad Daqahliyah",
+   "Al Buhayrah",
+   "Al Fayyum",
+   "Al Iskandariyah",
+   "Al Jizah",
+   "Al Minufiyah",
+   "Al Minya",
+   "Ash Sharqiyah",
+   "Asyut",
+   "Kafr ash Shaykh",
+   "Al Qahirah",
+   "Bani Suwayf",
+   "Suhaj",
+   "Qina"
+  ],
+  "owner": "French First Republic",
+  "why": "French occupation of Egypt 1798-1801; map splits it into two labels ('French Consulate' and 'French First Republic' for Cairo) and leaves Upper Egypt (conquered by Desaix 1798-99) Ottoman",
+  "source": "https://en.wikipedia.org/wiki/French_campaign_in_Egypt_and_Syria",
+  "severity": "minor"
+ },
+ {
+  "from": 1805,
+  "to": 1867,
+  "country": "Egypt",
+  "regions": [
+   "*"
+  ],
+  "owner": "Muhammad Ali dynasty",
+  "overlord": "Ottoman Empire",
+  "except": [
+   "Matruh"
+  ],
+  "why": "Muhammad Ali seized power in 1805 (map keeps 'Ottoman Empire' through 1810). 1820-1860 the map splits Egypt among 'Muhammad Ali dynasty', 'Egypt Eyalet (Muhammad Ali dynasty)', 'Ottoman Empire', Bedouin/Saharan 'peoples' (Giza, New Valley, Red Sea coast) and even 'Turco-Egyptian Sudan' (Red Sea, New Valley, 1840)",
+  "source": "https://en.wikipedia.org/wiki/Egypt_Eyalet",
+  "severity": "major"
+ },
+ {
+  "from": 1820,
+  "to": 1867,
+  "country": "Egypt",
+  "regions": [
+   "Matruh"
+  ],
+  "owner": "Muhammad Ali dynasty",
+  "overlord": "Ottoman Empire",
+  "why": "Siwa and the western desert annexed by Muhammad Ali in 1820",
+  "source": "https://en.wikipedia.org/wiki/Siwa_Oasis",
+  "severity": "minor"
+ },
+ {
+  "from": 1867,
+  "to": 1882,
+  "country": "Egypt",
+  "regions": [
+   "*"
+  ],
+  "owner": "Khedivate of Egypt",
+  "why": "Khedivate from 1867; map splits Egypt 1870-1880 into two differently-labelled Khedivate polities (Giza, New Valley, Matruh vs. the rest)",
+  "source": "https://en.wikipedia.org/wiki/Khedivate_of_Egypt",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1821,
+  "country": "Sudan",
+  "regions": [
+   "Red Sea"
+  ],
+  "owner": "Beja tribes",
+  "why": "Sudanese Red Sea hills were Beja country (Suakin port Ottoman from the 16th c.); map flips the region every decade among Makuria, Alodia, Ottoman Empire, Funj, Bedouin and 'Saharan nomads'. Makuria never ruled the Red Sea hills in the 15th c.",
+  "source": "https://en.wikipedia.org/wiki/Beja_people",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1840,
+  "country": "Sudan",
+  "regions": [
+   "Kassala"
+  ],
+  "owner": "Beja tribes",
+  "why": "Taka/Kassala (Hadendoa Beja) was independent until added to Egyptian domains in 1840; map flips it among Alodia, Beja, Funj and even 'Nuba and Kordofan' peoples",
+  "source": "https://en.wikipedia.org/wiki/Turkish_Sudan",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1504,
+  "country": "Sudan",
+  "regions": [
+   "Khartoum",
+   "Gezira",
+   "Sennar",
+   "White Nile",
+   "Gedarif"
+  ],
+  "owner": "Alodia",
+  "why": "Alodia (capital Soba) survived until c.1504; map uses two labels ('Alodia' and 'Kingdom of Alodia') and drops the core to 'East African peoples' in 1450-1470 and 1490",
+  "source": "https://en.wikipedia.org/wiki/Alodia",
+  "severity": "minor"
+ },
+ {
+  "from": 1504,
+  "to": 1821,
+  "country": "Sudan",
+  "regions": [
+   "Sennar",
+   "Gezira",
+   "Gedarif",
+   "White Nile"
+  ],
+  "owner": "Funj Sultanate",
+  "why": "Funj Sultanate core (capital Sennar) 1504-1821; map shows Sennar/Gezira/Gedarif as '(peoples: Nuba and Kordofan ...)' in 1520 and flickers these regions",
+  "source": "https://en.wikipedia.org/wiki/Funj_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1504,
+  "to": 1821,
+  "country": "Sudan",
+  "regions": [
+   "Khartoum",
+   "River Nile"
+  ],
+  "owner": "Abdallab",
+  "overlord": "Funj Sultanate",
+  "why": "Abdallab ruled the land north of the Nile confluence as vassal kings of Sennar (formalised 1611/12). Map flickers River Nile between Funj, Abdallab, Ja'aliyin, nomads and 'Ottoman Empire'; the Ottomans never got past Hannik (just south of the Third Cataract, 1585)",
+  "source": "https://en.wikipedia.org/wiki/Funj_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1504,
+  "to": 1821,
+  "country": "Sudan",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "Kingdom of Dongola",
+  "overlord": "Funj Sultanate",
+  "why": "Dongola annexed by Funj in the early 16th c. Map rotates Northern among Ottoman Empire, Funj, Dongola, Abdallab, Shaigiya and nomads every decade. (Ottoman Lower Nubia reached only to the Third Cataract; Shaigiya independent from the mid-17th c. - region-level choice.)",
+  "source": "https://en.wikipedia.org/wiki/Funj_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1504,
+  "to": 1685,
+  "country": "Sudan",
+  "regions": [
+   "Blue Nile"
+  ],
+  "owner": "Fazughli",
+  "why": "Kingdom of Fazughli independent until Funj conquest (1665 or 1685 per sources); map flickers Blue Nile among Fazughli, Funj, nomads, 'Nuba and Kordofan' and 'East African peoples'",
+  "source": "https://en.wikipedia.org/wiki/Funj_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1685,
+  "to": 1821,
+  "country": "Sudan",
+  "regions": [
+   "Blue Nile"
+  ],
+  "owner": "Fazughli",
+  "overlord": "Funj Sultanate",
+  "why": "Fazughli tributary to Funj after its conquest; stops decade flicker",
+  "source": "https://en.wikipedia.org/wiki/Funj_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1734,
+  "to": 1755,
+  "country": "Sudan",
+  "regions": [
+   "North Kordufan"
+  ],
+  "owner": "Musabba'at",
+  "why": "1734 the Musabba'at (exiled Fur royals) expelled the Funj administration of Kordofan; Abu Likaylik retook it c.1755. Map shows Funj from 1700",
+  "source": "https://en.wikipedia.org/wiki/Kordofan",
+  "severity": "minor"
+ },
+ {
+  "from": 1772,
+  "to": 1780,
+  "country": "Sudan",
+  "regions": [
+   "North Kordufan"
+  ],
+  "owner": "Musabba'at",
+  "why": "Hashim of the Musabba'at retook Kordofan c.1772 until the Funj ousted him in 1780",
+  "source": "https://en.wikipedia.org/wiki/Kordofan",
+  "severity": "minor"
+ },
+ {
+  "from": 1785,
+  "to": 1821,
+  "country": "Sudan",
+  "regions": [
+   "North Kordufan"
+  ],
+  "owner": "Sultanate of Darfur",
+  "why": "Darfur conquered Kordofan c.1785 and held it until the Turco-Egyptian invasion of 1821; map keeps it Funj 1700-1820",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Darfur",
+  "severity": "major"
+ },
+ {
+  "from": 1600,
+  "to": 1874,
+  "country": "Sudan",
+  "regions": [
+   "North Darfur",
+   "Central Darfur",
+   "Western Darfur"
+  ],
+  "owner": "Sultanate of Darfur",
+  "why": "Keira sultanate of Darfur until al-Zubayr's conquest in 1874; map flickers North Darfur among Darfur, Funj, nomads and in 1840-1860 'Turco-Egyptian Sudan'/nomads although Darfur was independent",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Darfur",
+  "severity": "major"
+ },
+ {
+  "from": 1650,
+  "to": 1874,
+  "country": "Sudan",
+  "regions": [
+   "Southern Darfur",
+   "Eastern Darfur"
+  ],
+  "owner": "Sultanate of Darfur",
+  "why": "Darfur absorbed the southern/eastern groups under Sulayman (17th c.); map flips these regions between Darfur and 'Central African peoples' every decade",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Darfur",
+  "severity": "minor"
+ },
+ {
+  "from": 1821,
+  "to": 1867,
+  "country": "Sudan",
+  "regions": [
+   "Northern",
+   "River Nile",
+   "Khartoum",
+   "Gezira",
+   "Sennar",
+   "White Nile",
+   "Blue Nile",
+   "Gedarif",
+   "North Kordufan"
+  ],
+  "owner": "Muhammad Ali dynasty",
+  "overlord": "Ottoman Empire",
+  "why": "Turco-Egyptian conquest 1820-21 (Sennar surrendered June 1821); map mixes 'Muhammad Ali dynasty', 'Turco-Egyptian Sudan [under Khedivate of Egypt]' (anachronistic before 1867), 'Egypt Eyalet', and nomads for Northern/River Nile in 1840-1850",
+  "source": "https://en.wikipedia.org/wiki/Turkish_Sudan",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1867,
+  "country": "Sudan",
+  "regions": [
+   "Kassala"
+  ],
+  "owner": "Muhammad Ali dynasty",
+  "overlord": "Ottoman Empire",
+  "why": "Kassala and Taka added to Egyptian domains in 1840",
+  "source": "https://en.wikipedia.org/wiki/Turkish_Sudan",
+  "severity": "minor"
+ },
+ {
+  "from": 1865,
+  "to": 1867,
+  "country": "Sudan",
+  "regions": [
+   "Red Sea"
+  ],
+  "owner": "Muhammad Ali dynasty",
+  "overlord": "Ottoman Empire",
+  "why": "Ottomans ceded Suakin and the Red Sea coast to Egypt in 1865",
+  "source": "https://en.wikipedia.org/wiki/Turkish_Sudan",
+  "severity": "minor"
+ },
+ {
+  "from": 1821,
+  "to": 1865,
+  "country": "Sudan",
+  "regions": [
+   "Red Sea"
+  ],
+  "owner": "Beja tribes",
+  "why": "Red Sea hills stayed Beja (Suakin under the Ottoman Hejaz) until the 1865 transfer to Egypt; map flickers Beja/Muhammad Ali/Turco-Egyptian",
+  "source": "https://en.wikipedia.org/wiki/Turkish_Sudan",
+  "severity": "minor"
+ },
+ {
+  "from": 1867,
+  "to": 1883,
+  "country": "Sudan",
+  "regions": [
+   "North Kordufan"
+  ],
+  "owner": "Khedivate of Egypt",
+  "why": "Khedivate rule of Kordofan until El Obeid fell to the Mahdi (1883)",
+  "source": "https://en.wikipedia.org/wiki/Mahdist_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1867,
+  "to": 1885,
+  "country": "Sudan",
+  "regions": [
+   "Northern",
+   "River Nile",
+   "Khartoum",
+   "Gezira",
+   "Sennar",
+   "White Nile",
+   "Blue Nile",
+   "Gedarif",
+   "Kassala",
+   "Red Sea"
+  ],
+  "owner": "Khedivate of Egypt",
+  "why": "Khedivate rule of the Sudan 1867-1885 (Khartoum fell 26 Jan 1885)",
+  "source": "https://en.wikipedia.org/wiki/Turkish_Sudan",
+  "severity": "minor"
+ },
+ {
+  "from": 1883,
+  "to": 1898,
+  "country": "Sudan",
+  "regions": [
+   "North Kordufan"
+  ],
+  "owner": "Mahdist State",
+  "why": "El Obeid fell to the Mahdi after a four-month siege (1882-83); Kordofan Mahdist until 1898",
+  "source": "https://en.wikipedia.org/wiki/Mahdist_State",
+  "severity": "major"
+ },
+ {
+  "from": 1884,
+  "to": 1898,
+  "country": "Sudan",
+  "regions": [
+   "South Kordufan"
+  ],
+  "owner": "Mahdist State",
+  "why": "Mahdists conquered Taqali/Nuba Mountains 1883-84",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Taqali",
+  "severity": "major"
+ },
+ {
+  "from": 1885,
+  "to": 1898,
+  "country": "Sudan",
+  "regions": [
+   "River Nile",
+   "Khartoum",
+   "Gezira",
+   "Sennar",
+   "White Nile",
+   "Blue Nile",
+   "Gedarif"
+  ],
+  "owner": "Mahdist State",
+  "why": "Mahdist State ruled the Nile valley from the fall of Khartoum (Jan 1885) to Omdurman (Sept 1898). Map shows 'Egypt [under United Kingdom]' over 55% of Sudan in 1890, Gedarif/Sennar as 'Ethiopia' and Blue Nile/Gedarif/Kassala as 'East African peoples'; Ethiopia lost at Gallabat (1889) and held no Sudanese territory",
+  "source": "https://en.wikipedia.org/wiki/Mahdist_State",
+  "severity": "major"
+ },
+ {
+  "from": 1885,
+  "to": 1896,
+  "country": "Sudan",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "Mahdist State",
+  "why": "Northern Sudan (Dongola) Mahdist until Kitchener's Dongola campaign (Mar-Sep 1896); map shows Egypt[UK]/nomads in 1890",
+  "source": "https://en.wikipedia.org/wiki/Mahdist_State",
+  "severity": "major"
+ },
+ {
+  "from": 1896,
+  "to": 1898,
+  "country": "Sudan",
+  "regions": [
+   "Northern"
+  ],
+  "owner": "Egypt",
+  "overlord": "United Kingdom",
+  "why": "Dongola province reconquered by Anglo-Egyptian forces in 1896",
+  "source": "https://en.wikipedia.org/wiki/Mahdist_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1885,
+  "to": 1894,
+  "country": "Sudan",
+  "regions": [
+   "Kassala"
+  ],
+  "owner": "Mahdist State",
+  "why": "Kassala fell to the Mahdists in 1885",
+  "source": "https://en.wikipedia.org/wiki/Mahdist_State",
+  "severity": "major"
+ },
+ {
+  "from": 1894,
+  "to": 1897,
+  "country": "Sudan",
+  "regions": [
+   "Kassala"
+  ],
+  "owner": "Kingdom of Italy",
+  "why": "Italians took Kassala on 17 July 1894 and handed it to the British in 1897",
+  "source": "https://en.wikipedia.org/wiki/Battle_of_Kassala",
+  "severity": "minor"
+ },
+ {
+  "from": 1885,
+  "to": 1891,
+  "country": "Sudan",
+  "regions": [
+   "Red Sea"
+  ],
+  "owner": "Mahdist State",
+  "why": "Beja hinterland under Osman Digna (Mahdist) while only Suakin stayed Anglo-Egyptian",
+  "source": "https://en.wikipedia.org/wiki/Mahdist_State",
+  "severity": "minor"
+ },
+ {
+  "from": 1884,
+  "to": 1898,
+  "country": "Sudan",
+  "regions": [
+   "North Darfur",
+   "Central Darfur",
+   "Western Darfur",
+   "Southern Darfur",
+   "Eastern Darfur"
+  ],
+  "owner": "Mahdist State",
+  "why": "Slatin surrendered Darfur (1883) and the Mahdists held it, despite revolts, until 1898. Map shows Darfur as 'Wadai Empire', nomads, Central African peoples and 'Rabih az-Zubayr' in 1890",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Darfur",
+  "severity": "major"
+ },
+ {
+  "from": 1898,
+  "to": 1916,
+  "country": "Sudan",
+  "regions": [
+   "North Darfur",
+   "Central Darfur",
+   "Western Darfur",
+   "Southern Darfur",
+   "Eastern Darfur"
+  ],
+  "owner": "Sultanate of Darfur",
+  "why": "Ali Dinar restored the Sultanate of Darfur in 1898; it stayed independent until the British conquest of 1916. Map shows 'Sudan [under United Kingdom]' in 1900 and 1910",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Darfur",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1865,
+  "country": "S. Sudan",
+  "regions": [
+   "Upper Nile"
+  ],
+  "owner": "Shilluk Kingdom",
+  "why": "Egyptian post at Fashoda only established 1865; map shows Egypt Eyalet over the Shilluk kingdom from 1850",
+  "source": "https://en.wikipedia.org/wiki/Kodok",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1870,
+  "country": "S. Sudan",
+  "regions": [
+   "Jonglei",
+   "Unity"
+  ],
+  "owner": "Nuer",
+  "why": "No Egyptian administration in the south before the 1865-1870 garrisons (Equatoria province founded by Baker 1870); map shows Egypt Eyalet over Jonglei/Unity from 1850",
+  "source": "https://en.wikipedia.org/wiki/Turkish_Sudan",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1870,
+  "country": "S. Sudan",
+  "regions": [
+   "Lakes"
+  ],
+  "owner": "Dinka",
+  "why": "Same: Egyptian provinces in the south organised only after 1865; map shows Egypt Eyalet from 1850",
+  "source": "https://en.wikipedia.org/wiki/Turkish_Sudan",
+  "severity": "major"
+ },
+ {
+  "from": 1840,
+  "to": 1870,
+  "country": "S. Sudan",
+  "regions": [
+   "Central Equatoria"
+  ],
+  "owner": "none",
+  "why": "Equatoria province established by Baker in 1870; before that only private trading stations (Gondokoro). Map shows Egypt Eyalet from 1850",
+  "source": "https://en.wikipedia.org/wiki/Equatoria",
+  "severity": "major"
+ },
+ {
+  "from": 1884,
+  "to": 1898,
+  "country": "S. Sudan",
+  "regions": [
+   "Upper Nile"
+  ],
+  "owner": "Mahdist State",
+  "why": "Fashoda fell to the Mahdists 1883-84; held until 1898. Map shows 'Egypt [under United Kingdom]' in 1890",
+  "source": "https://en.wikipedia.org/wiki/Kodok",
+  "severity": "major"
+ },
+ {
+  "from": 1885,
+  "to": 1898,
+  "country": "S. Sudan",
+  "regions": [
+   "Jonglei",
+   "Unity"
+  ],
+  "owner": "Nuer",
+  "why": "Egyptian rule in the south ended with the Mahdist revolt; map shows Egypt[UK] over Jonglei/Unity in 1890",
+  "source": "https://en.wikipedia.org/wiki/Equatoria",
+  "severity": "major"
+ },
+ {
+  "from": 1885,
+  "to": 1898,
+  "country": "S. Sudan",
+  "regions": [
+   "Lakes"
+  ],
+  "owner": "Dinka",
+  "why": "Egyptian rule in the south ended with the Mahdist revolt; map shows Egypt[UK] over Lakes in 1890",
+  "source": "https://en.wikipedia.org/wiki/Equatoria",
+  "severity": "major"
+ },
+ {
+  "from": 1885,
+  "to": 1888,
+  "country": "S. Sudan",
+  "regions": [
+   "Central Equatoria"
+  ],
+  "owner": "Khedivate of Egypt",
+  "why": "Emin Pasha held Equatoria (HQ Lado) cut off from Egypt until deposed Aug 1887; Mahdists controlled Equatoria by end of 1887",
+  "source": "https://en.wikipedia.org/wiki/Equatoria",
+  "severity": "minor"
+ },
+ {
+  "from": 1888,
+  "to": 1897,
+  "country": "S. Sudan",
+  "regions": [
+   "Central Equatoria"
+  ],
+  "owner": "Mahdist State",
+  "why": "Mahdists held Rejaf until defeated by Chaltin's Congo Free State force (Feb 1897); map shows Egypt[UK] in 1890",
+  "source": "https://en.wikipedia.org/wiki/Lado_Enclave",
+  "severity": "major"
+ },
+ {
+  "from": 1897,
+  "to": 1908,
+  "country": "S. Sudan",
+  "regions": [
+   "Central Equatoria"
+  ],
+  "owner": "Congo Free State",
+  "why": "Lado Enclave leased to Leopold II's Congo Free State (1894), occupied 1897. Map labels it 'Congo, Democratic Republic of (Zaire) [under Belgium]' in 1900 - anachronistic name, and the Free State was Leopold's personal possession, not Belgian",
+  "source": "https://en.wikipedia.org/wiki/Lado_Enclave",
+  "severity": "major"
+ },
+ {
+  "from": 1908,
+  "to": 1910,
+  "country": "S. Sudan",
+  "regions": [
+   "Central Equatoria"
+  ],
+  "owner": "Belgian Congo",
+  "overlord": "Belgium",
+  "why": "Lado Enclave administered as part of the Belgian Congo 1908 to 10 June 1910",
+  "source": "https://en.wikipedia.org/wiki/Lado_Enclave",
+  "severity": "minor"
+ },
+ {
+  "from": 1885,
+  "to": 1898,
+  "country": "S. Sudan",
+  "regions": [
+   "Western Bahr el Ghazal"
+  ],
+  "owner": "none",
+  "why": "Map shows 'Rabih az-Zubayr' here in 1890; Rabih had left the Bahr el Ghazal for the Chad basin. No state held the region after Egyptian rule collapsed",
+  "source": "https://en.wikipedia.org/wiki/Rabih_az-Zubayr",
+  "severity": "minor"
+ },
+ {
+  "from": 1580,
+  "to": 1812,
+  "country": "Libya",
+  "regions": [
+   "Murzuq"
+  ],
+  "owner": "Awlad Muhammad of Fezzan",
+  "overlord": "Ottoman Tripolitania (tribute)",
+  "why": "Awlad Muhammad ruled Fezzan from Murzuq (16th c. to c.1812), paying tribute to Tripoli after the 1574/77 Ottoman invasion; map flips Murzuq between them and 'Ottoman Empire' every decade 1580-1710",
+  "source": "https://en.wikipedia.org/wiki/Fezzan",
+  "severity": "minor"
+ },
+ {
+  "from": 1711,
+  "to": 1835,
+  "country": "Libya",
+  "regions": [
+   "An Nuqat al Khams–Az Zawiyah–Tajura' wa an Nawahi al Arba",
+   "Benghazi",
+   "Al Marj",
+   "Al Qubbah",
+   "Misratah",
+   "Surt"
+  ],
+  "owner": "Karamanli Dynasty",
+  "why": "Karamanli dynasty 1711-1835 over Tripolitania and Cyrenaica; map alternates two labels ('Karamanli Dynasty' / 'Karamanli Tripolitania [under Ottoman Empire]') and flips Al Marj, Misratah, Surt to nomads/Awlad Sulayman every other decade",
+  "source": "https://en.wikipedia.org/wiki/Karamanli_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1812,
+  "to": 1835,
+  "country": "Libya",
+  "regions": [
+   "Ash Shati'",
+   "Murzuq",
+   "Wadi al Hayaa"
+  ],
+  "owner": "Karamanli Dynasty",
+  "why": "Yusuf Karamanli brought Fezzan under direct control (by 1807-1812); map shows Fezzan as nomads in 1820-1830",
+  "source": "https://en.wikipedia.org/wiki/Karamanli_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1912,
+  "country": "Libya",
+  "regions": [
+   "Ajdabiya",
+   "Murzuq",
+   "Ghat"
+  ],
+  "owner": "Turkey (Ottoman Empire)",
+  "why": "Ottoman Tripolitania until the 1911-12 Italian conquest. Map gives Ajdabiya and Murzuq (Fezzan) to 'Egypt [under United Kingdom]' in 1900-1910, Murzuq to a second 'Ottoman Empire' label, and Ghat to 'French West Africa' (1900) and 'Algeria [under France]' (1910)",
+  "source": "https://en.wikipedia.org/wiki/Ottoman_Tripolitania",
+  "severity": "major"
+ },
+ {
+  "from": 1895,
+  "to": 1931,
+  "country": "Libya",
+  "regions": [
+   "Al Kufrah"
+  ],
+  "owner": "Senussi Order",
+  "why": "Senussi made Kufra their main centre in 1895; Graziani conquered it in 1931. Map shows Kufra as Egyptian/Anglo-Egyptian Sudanese 1900-1930",
+  "source": "https://en.wikipedia.org/wiki/Kufra",
+  "severity": "major"
+ },
+ {
+  "from": 1912,
+  "to": 1943,
+  "country": "Libya",
+  "regions": [
+   "*"
+  ],
+  "owner": "Libya",
+  "overlord": "Kingdom of Italy",
+  "except": [
+   "Al Kufrah"
+  ],
+  "why": "Italian Libya: overlord shown as 'Italy/Sardinia' (Kingdom of Sardinia ended 1861). Map also keeps Ajdabiya/Murzuq Egyptian in 1920",
+  "source": "https://en.wikipedia.org/wiki/Italian_Libya",
+  "severity": "minor"
+ },
+ {
+  "from": 1931,
+  "to": 1943,
+  "country": "Libya",
+  "regions": [
+   "Al Kufrah"
+  ],
+  "owner": "Libya",
+  "overlord": "Kingdom of Italy",
+  "why": "Kufra taken by Italy in 1931",
+  "source": "https://en.wikipedia.org/wiki/Kufra",
+  "severity": "minor"
+ },
+ {
+  "from": 1943,
+  "to": 1951,
+  "country": "Libya",
+  "regions": [
+   "Ash Shati'",
+   "Wadi al Hayaa",
+   "Ghat"
+  ],
+  "owner": "French Fourth Republic",
+  "why": "Free French occupied Fezzan in 1943 and governed it from Sabha until 1951; map gives France only Murzuq",
+  "source": "https://en.wikipedia.org/wiki/Fezzan",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1574,
+  "country": "Tunisia",
+  "regions": [
+   "Nabeul",
+   "Kebili",
+   "Tozeur"
+  ],
+  "owner": "Hafsid Dynasty",
+  "why": "Cap Bon and the Jerid/Nefzaoua oases were Hafsid; map shows Nabeul as nomads in 1550 and Kebili/Tozeur as nomads or '(peoples: Hafsid Caliphate)' in alternating decades",
+  "source": "https://en.wikipedia.org/wiki/Hafsid_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1705,
+  "to": 1881,
+  "country": "Tunisia",
+  "regions": [
+   "Nabeul",
+   "Kebili",
+   "Tozeur",
+   "Tataouine"
+  ],
+  "owner": "Beylik of Tunis",
+  "why": "Husainid Beylik of Tunis 1705-1881 (Bardo Treaty). Map shows Nabeul/Kebili/Tozeur as '(peoples: Beylik of Tunis)' every other decade 1720-1840, Kebili/Tozeur/Tataouine as 'Ottoman Empire' 1850-1880 (17% of Tunisia) and Tozeur as 'French Africa' in 1870, a decade before the protectorate",
+  "source": "https://en.wikipedia.org/wiki/Beylik_of_Tunis",
+  "severity": "major"
+ },
+ {
+  "from": 1509,
+  "to": 1708,
+  "country": "Algeria",
+  "regions": [
+   "Oran"
+  ],
+  "owner": "Kingdom of Spain",
+  "why": "Spanish Oran 1509-1708 (missing from map, which shows Zayyanid then Ottoman)",
+  "source": "https://en.wikipedia.org/wiki/Spanish_Oran",
+  "severity": "major"
+ },
+ {
+  "from": 1732,
+  "to": 1792,
+  "country": "Algeria",
+  "regions": [
+   "Oran"
+  ],
+  "owner": "Kingdom of Spain",
+  "why": "Spain retook Oran in 1732 and withdrew in 1792",
+  "source": "https://en.wikipedia.org/wiki/Spanish_Oran",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1556,
+  "country": "Algeria",
+  "regions": [
+   "Saïda",
+   "Tiaret"
+  ],
+  "owner": "Zayyanid dynasty",
+  "why": "Kingdom of Tlemcen to its Ottoman annexation (1551-1556); map flips these between Zayyanid, nomads and '(peoples: Zayyanid Caliphate)'",
+  "source": "https://en.wikipedia.org/wiki/Kingdom_of_Tlemcen",
+  "severity": "minor"
+ },
+ {
+  "from": 1556,
+  "to": 1710,
+  "country": "Algeria",
+  "regions": [
+   "Biskra",
+   "Djelfa",
+   "Naâma",
+   "Saïda",
+   "Tiaret",
+   "Tébessa"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Ottoman Regency territory; map flips these six regions between Ottoman Empire and nomads every decade",
+  "source": "https://en.wikipedia.org/wiki/Regency_of_Algiers",
+  "severity": "minor"
+ },
+ {
+  "from": 1710,
+  "to": 1830,
+  "country": "Algeria",
+  "regions": [
+   "Biskra",
+   "Djelfa",
+   "Naâma",
+   "Saïda",
+   "Tiaret",
+   "Tébessa"
+  ],
+  "owner": "Regency of Algiers",
+  "why": "Regency of Algiers (beyliks of Oran, Titteri, Constantine); map flips these between 'Regency of Algiers' and an artefact label '(peoples: Regency of Algiers)' every decade",
+  "source": "https://en.wikipedia.org/wiki/Regency_of_Algiers",
+  "severity": "minor"
+ },
+ {
+  "from": 1830,
+  "to": 1848,
+  "country": "Algeria",
+  "regions": [
+   "Blida"
+  ],
+  "owner": "French Algeria",
+  "overlord": "July Monarchy",
+  "why": "French Algeria under the July Monarchy (from Aug 1830), not the Bourbon kingdom as the 1840 overlord label says",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "minor"
+ },
+ {
+  "from": 1831,
+  "to": 1848,
+  "country": "Algeria",
+  "regions": [
+   "Oran"
+  ],
+  "owner": "French Algeria",
+  "overlord": "July Monarchy",
+  "why": "Oran occupied by the French 1831-33; map keeps it Regency of Algiers in 1840",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "major"
+ },
+ {
+  "from": 1832,
+  "to": 1848,
+  "country": "Algeria",
+  "regions": [
+   "El Tarf"
+  ],
+  "owner": "French Algeria",
+  "overlord": "July Monarchy",
+  "why": "Bône (Annaba) area held by France from 1832",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "major"
+ },
+ {
+  "from": 1833,
+  "to": 1848,
+  "country": "Algeria",
+  "regions": [
+   "Béjaïa"
+  ],
+  "owner": "French Algeria",
+  "overlord": "July Monarchy",
+  "why": "Bougie captured 1833",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "minor"
+ },
+ {
+  "from": 1830,
+  "to": 1837,
+  "country": "Algeria",
+  "regions": [
+   "Mila",
+   "Guelma",
+   "Skikda",
+   "Jijel",
+   "Sétif",
+   "Bordj Bou Arréridj",
+   "M'Sila",
+   "Batna",
+   "Khenchela",
+   "Oum el Bouaghi",
+   "Souk Ahras",
+   "Tébessa"
+  ],
+  "owner": "Beylik of Constantine",
+  "why": "After 1830 Ahmed Bey ruled the eastern beylik independently, rejecting the capitulation, until Constantine fell in 1837; the Regency itself ended in 1830",
+  "source": "https://en.wikipedia.org/wiki/Ahmed_Bey_ben_Mohamed_Chérif",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1838,
+  "country": "Algeria",
+  "regions": [
+   "Biskra"
+  ],
+  "owner": "Beylik of Constantine",
+  "why": "Ziban under Ahmed Bey's Constantine after the fall of Algiers",
+  "source": "https://en.wikipedia.org/wiki/Ahmed_Bey_ben_Mohamed_Chérif",
+  "severity": "minor"
+ },
+ {
+  "from": 1837,
+  "to": 1848,
+  "country": "Algeria",
+  "regions": [
+   "Mila",
+   "Guelma"
+  ],
+  "owner": "French Algeria",
+  "overlord": "July Monarchy",
+  "why": "Constantine and its surroundings French from 1837",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "major"
+ },
+ {
+  "from": 1837,
+  "to": 1844,
+  "country": "Algeria",
+  "regions": [
+   "Batna",
+   "Khenchela",
+   "Oum el Bouaghi",
+   "Souk Ahras",
+   "Tébessa"
+  ],
+  "owner": "Beylik of Constantine",
+  "why": "Ahmed Bey kept resisting from the Aurès with loyal tribes after 1837 (defeated at Djebel Bou Taleb 1842, surrendered 1848); the Regency of Algiers shown here in 1840 no longer existed",
+  "source": "https://en.wikipedia.org/wiki/Ahmed_Bey_ben_Mohamed_Chérif",
+  "severity": "major"
+ },
+ {
+  "from": 1838,
+  "to": 1848,
+  "country": "Algeria",
+  "regions": [
+   "Skikda"
+  ],
+  "owner": "French Algeria",
+  "overlord": "July Monarchy",
+  "why": "Philippeville founded/occupied 1838",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "minor"
+ },
+ {
+  "from": 1839,
+  "to": 1848,
+  "country": "Algeria",
+  "regions": [
+   "Jijel",
+   "Sétif",
+   "Bordj Bou Arréridj",
+   "M'Sila"
+  ],
+  "owner": "French Algeria",
+  "overlord": "July Monarchy",
+  "why": "Eastern Tell occupied by 1839 (Iron Gates expedition)",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "minor"
+ },
+ {
+  "from": 1838,
+  "to": 1844,
+  "country": "Algeria",
+  "regions": [
+   "Biskra"
+  ],
+  "owner": "Emirate of Abdelkader",
+  "why": "Biskra was the capital of Abdelkader's Ziban province until the French Saharan expedition of March 1844",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Abdelkader",
+  "severity": "major"
+ },
+ {
+  "from": 1844,
+  "to": 1848,
+  "country": "Algeria",
+  "regions": [
+   "Biskra",
+   "Batna",
+   "Khenchela",
+   "Oum el Bouaghi",
+   "Souk Ahras",
+   "Tébessa"
+  ],
+  "owner": "French Algeria",
+  "overlord": "July Monarchy",
+  "why": "French Saharan expedition took Biskra in 1844; Aurès and the eastern plateaux occupied 1842-44",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "minor"
+ },
+ {
+  "from": 1832,
+  "to": 1843,
+  "country": "Algeria",
+  "regions": [
+   "Mascara",
+   "Sidi Bel Abbès",
+   "Relizane",
+   "Chlef",
+   "Tiaret",
+   "Saïda",
+   "Tissemsilt"
+  ],
+  "owner": "Emirate of Abdelkader",
+  "why": "Emirate of Abdelkader (founded Nov 1832, capitals Mascara then Tagdemt near Tiaret) ruled the western interior, recognised by the Treaty of Tafna (1837), until the fall of Tagdemt and the Smala (1841-43). Map shows only Tlemcen for the emirate and the defunct Regency of Algiers elsewhere in 1840",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Abdelkader",
+  "severity": "major"
+ },
+ {
+  "from": 1837,
+  "to": 1842,
+  "country": "Algeria",
+  "regions": [
+   "Tlemcen"
+  ],
+  "owner": "Emirate of Abdelkader",
+  "why": "Tlemcen ceded to Abdelkader by the Treaty of Tafna (1837)",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Abdelkader",
+  "severity": "minor"
+ },
+ {
+  "from": 1835,
+  "to": 1840,
+  "country": "Algeria",
+  "regions": [
+   "Médéa",
+   "Aïn Defla"
+  ],
+  "owner": "Emirate of Abdelkader",
+  "why": "Titteri (Médéa, Miliana) under Abdelkader's khalifas, confirmed at Tafna 1837, until French reoccupation in 1840",
+  "source": "https://en.wikipedia.org/wiki/Emirate_of_Abdelkader",
+  "severity": "minor"
+ },
+ {
+  "from": 1840,
+  "to": 1848,
+  "country": "Algeria",
+  "regions": [
+   "Médéa",
+   "Aïn Defla"
+  ],
+  "owner": "French Algeria",
+  "overlord": "July Monarchy",
+  "why": "French reoccupied Médéa and Miliana in 1840",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "minor"
+ },
+ {
+  "from": 1843,
+  "to": 1848,
+  "country": "Algeria",
+  "regions": [
+   "Mascara",
+   "Sidi Bel Abbès",
+   "Relizane",
+   "Chlef",
+   "Tiaret",
+   "Saïda",
+   "Tissemsilt",
+   "Tlemcen"
+  ],
+  "owner": "French Algeria",
+  "overlord": "July Monarchy",
+  "why": "Western interior occupied by France 1841-43 (Abdelkader surrendered Dec 1847)",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "minor"
+ },
+ {
+  "from": 1848,
+  "to": 1852,
+  "country": "Algeria",
+  "regions": [
+   "Biskra",
+   "Saïda",
+   "Tiaret",
+   "Tébessa"
+  ],
+  "owner": "French Africa",
+  "overlord": "French Second Republic",
+  "why": "French territory; map keeps the defunct '(peoples: Regency of Algiers)' here through 1860",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "major"
+ },
+ {
+  "from": 1852,
+  "to": 1870,
+  "country": "Algeria",
+  "regions": [
+   "Biskra",
+   "Saïda",
+   "Tiaret",
+   "Tébessa",
+   "Djelfa",
+   "Laghouat",
+   "Naâma"
+  ],
+  "owner": "French Africa",
+  "overlord": "Second French Empire",
+  "why": "French territory (Laghouat taken Dec 1852); map keeps '(peoples: Regency of Algiers)' 1850-1860, two decades after the Regency fell",
+  "source": "https://en.wikipedia.org/wiki/Laghouat",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1852,
+  "country": "Algeria",
+  "regions": [
+   "Djelfa",
+   "Laghouat",
+   "El Bayadh",
+   "Naâma"
+  ],
+  "owner": "none",
+  "why": "Regency of Algiers collapsed in 1830; the steppe (Laghouat a centre of resistance from 1831) was outside any state until the French took Laghouat in Dec 1852",
+  "source": "https://en.wikipedia.org/wiki/Laghouat",
+  "severity": "minor"
+ },
+ {
+  "from": 1830,
+  "to": 1857,
+  "country": "Algeria",
+  "regions": [
+   "Tizi Ouzou"
+  ],
+  "owner": "none",
+  "why": "Greater Kabylia stayed independent until fully conquered by France in 1857; map shows it French already in 1840",
+  "source": "https://en.wikipedia.org/wiki/Kabylia",
+  "severity": "major"
+ },
+ {
+  "from": 1854,
+  "to": 1870,
+  "country": "Algeria",
+  "regions": [
+   "El Oued"
+  ],
+  "owner": "French Africa",
+  "overlord": "Second French Empire",
+  "why": "Sultanate of Touggourt abolished by French authorities in 1854; map labels the area '(peoples: Regency of Algiers)' in 1860",
+  "source": "https://en.wikipedia.org/wiki/Touggourt",
+  "severity": "minor"
+ },
+ {
+  "from": 1882,
+  "to": 1890,
+  "country": "Algeria",
+  "regions": [
+   "Ghardaïa"
+  ],
+  "owner": "French Africa",
+  "overlord": "French Third Republic",
+  "why": "M'zab annexed by France in 1882",
+  "source": "https://en.wikipedia.org/wiki/Ghardaïa",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1912,
+  "country": "Algeria",
+  "regions": [
+   "Ghardaïa",
+   "Ouargla"
+  ],
+  "owner": "Algeria",
+  "overlord": "France",
+  "why": "Part of French Algeria; map shows these as 'French West Africa [under France]' in 1900 (wrong colony)",
+  "source": "https://en.wikipedia.org/wiki/Ghardaïa",
+  "severity": "major"
+ },
+ {
+  "from": 1892,
+  "to": 1900,
+  "country": "Algeria",
+  "regions": [
+   "Adrar"
+  ],
+  "owner": "Tuat-Gourara-Tidikelt oases",
+  "overlord": "Morocco",
+  "why": "Sultan Moulay Hassan revived Moroccan administration of Tuat in 1889-92 (taxes from 1891)",
+  "source": "https://en.wikipedia.org/wiki/Touat",
+  "severity": "minor"
+ },
+ {
+  "from": 1900,
+  "to": 1912,
+  "country": "Algeria",
+  "regions": [
+   "Adrar"
+  ],
+  "owner": "Algeria",
+  "overlord": "France",
+  "why": "Tuat-Gourara-Tidikelt taken from end 1899 and annexed to Algeria in 1901; map uses 'French West Africa'",
+  "source": "https://en.wikipedia.org/wiki/Touat",
+  "severity": "major"
+ },
+ {
+  "from": 1902,
+  "to": 1912,
+  "country": "Algeria",
+  "regions": [
+   "Tamanghasset"
+  ],
+  "owner": "Algeria",
+  "overlord": "France",
+  "why": "Hoggar conquered 1902-03; map uses 'French West Africa' in 1900 (before the conquest)",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1902,
+  "country": "Algeria",
+  "regions": [
+   "Tamanghasset"
+  ],
+  "owner": "Kel Ahaggar",
+  "why": "Kel Ahaggar independent until defeated in 1902",
+  "source": "https://en.wikipedia.org/wiki/French_conquest_of_Algeria",
+  "severity": "minor"
+ },
+ {
+  "from": 1890,
+  "to": 1934,
+  "country": "Algeria",
+  "regions": [
+   "Tindouf"
+  ],
+  "owner": "none",
+  "why": "Tindouf sacked by the Reguibat in 1895 and deserted until French troops arrived in 1934; map shows it as French West Africa (1900) and French Algeria (1910-1930)",
+  "source": "https://en.wikipedia.org/wiki/Tindouf",
+  "severity": "major"
+ },
+ {
+  "from": 1700,
+  "to": 1903,
+  "country": "Algeria",
+  "regions": [
+   "Béchar"
+  ],
+  "owner": "Morocco",
+  "why": "Béchar was Moroccan until Lyautey occupied it in 1903 ('a clear breach of the 1840s treaties'); map flips it between 'Alaouite Sultanate' and nomads every decade, then shows 'French West Africa' in 1900",
+  "source": "https://en.wikipedia.org/wiki/Hubert_Lyautey",
+  "severity": "major"
+ },
+ {
+  "from": 1903,
+  "to": 1912,
+  "country": "Algeria",
+  "regions": [
+   "Béchar"
+  ],
+  "owner": "Algeria",
+  "overlord": "France",
+  "why": "Occupied by France from Algeria in 1903",
+  "source": "https://en.wikipedia.org/wiki/Hubert_Lyautey",
+  "severity": "minor"
+ },
+ {
+  "from": 1410,
+  "to": 1450,
+  "country": "Morocco",
+  "regions": [
+   "Guelmim - Es-Semara",
+   "Souss - Massa - Draâ"
+  ],
+  "owner": "none",
+  "why": "Map labels these '(peoples: Tajakant and Reguibat Sahrawi tribes)'; the Tajakant founded Tindouf only in 1852 and the Reguibat are a later confederation - anachronistic name for 15th-c. Sous",
+  "source": "https://en.wikipedia.org/wiki/Tindouf",
+  "severity": "minor"
+ },
+ {
+  "from": 1430,
+  "to": 1525,
+  "country": "Morocco",
+  "regions": [
+   "Marrakech - Tensift - Al Haouz"
+  ],
+  "owner": "Hintata emirate of Marrakesh",
+  "why": "Hintata emirs ruled Marrakesh and its surroundings independently in the 15th and early 16th c. until the Saadians took the city (c.1525); map shows much of the region as Masmuda tribes or Wattasid",
+  "source": "https://en.wikipedia.org/wiki/Hintata",
+  "severity": "minor"
+ },
+ {
+  "from": 1472,
+  "to": 1550,
+  "country": "Morocco",
+  "regions": [
+   "Oriental"
+  ],
+  "owner": "Wattasid dynasty",
+  "why": "Map alternates 'Wattasid dynasty' and 'Wattasid Sultanate' (two colours for one state)",
+  "source": "https://en.wikipedia.org/wiki/Wattasid_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1614,
+  "to": 1670,
+  "country": "Morocco",
+  "regions": [
+   "Souss - Massa - Draâ"
+  ],
+  "owner": "Kingdom of Tazeroualt",
+  "why": "Abu Hassun al-Simlali controlled the Sous from 1614 (Iligh/Tazeroualt principality, also took the Dra'a and reached Tafilalt 1631) until the Alawites took the Sous after 1668; map shows Saadi rule",
+  "source": "https://en.wikipedia.org/wiki/Saadi_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1641,
+  "to": 1662,
+  "country": "Morocco",
+  "regions": [
+   "Gharb - Chrarda - Béni Hssen",
+   "Tanger - Tétouan",
+   "Taza - Al Hoceima - Taounate"
+  ],
+  "owner": "Zawiya Dila'iya",
+  "why": "Dila'iya took Meknes, Fez and Salé in 1641 and held Tétouan, Ksar el-Kebir, the northwestern plains and the Taza corridor; Fez lost 1662. Map keeps these Saadi (Saadi Morocco 84-88% in 1650-1660)",
+  "source": "https://en.wikipedia.org/wiki/Zawiya_Dila%27iya",
+  "severity": "major"
+ },
+ {
+  "from": 1641,
+  "to": 1666,
+  "country": "Morocco",
+  "regions": [
+   "Meknès - Tafilalet"
+  ],
+  "owner": "Alaouite Sultanate",
+  "why": "Alawites ruled Tafilalt from 1631/1641 (Sidi Mohammed proclaimed sultan after expelling Abu Hassun c.1640-41) until Al-Rashid took Fez in 1666; map shows Saadi. (Meknes city itself was Dila'i - region-level choice.)",
+  "source": "https://en.wikipedia.org/wiki/Alaouite_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1666,
+  "to": 1912,
+  "country": "Morocco",
+  "regions": [
+   "Oriental"
+  ],
+  "owner": "Morocco",
+  "why": "Map flips Oriental between 'Morocco' and 'Alaouite Sultanate' every decade 1700-1890 (same state, two colours)",
+  "source": "https://en.wikipedia.org/wiki/Alaouite_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1879,
+  "to": 1912,
+  "country": "Morocco",
+  "regions": [
+   "Laâyoune - Boujdour - Sakia El Hamra"
+  ],
+  "owner": "none",
+  "why": "Map gives this region to 'United Kingdom' in 1880 (a private company's trading post at Cape Juby, 1879-1895, sold to the Sultan in 1895) and to Spain from 1890; Spain's Saguia el-Hamra borders were set only by the 1900-1912 treaties and Cape Juby occupied in 1916",
+  "source": "https://en.wikipedia.org/wiki/Cape_Juby",
+  "severity": "major"
+ },
+ {
+  "from": 1900,
+  "to": 1912,
+  "country": "Morocco",
+  "regions": [
+   "*"
+  ],
+  "owner": "Morocco",
+  "except": [
+   "Laâyoune - Boujdour - Sakia El Hamra",
+   "Oued el Dahab"
+  ],
+  "why": "Map shows a spurious 'Morocco [under Morocco]' label in 1910",
+  "source": "https://en.wikipedia.org/wiki/Alaouite_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1976,
+  "to": 1979,
+  "country": "Morocco",
+  "regions": [
+   "Oued el Dahab"
+  ],
+  "owner": "Mauritania",
+  "why": "Mauritania held the southern part of the former Spanish Sahara (Tiris al-Gharbiyya) 1976-1979",
+  "source": "https://en.wikipedia.org/wiki/Spanish_Sahara",
+  "severity": "minor"
+ },
+ {
+  "from": 1517,
+  "to": 1805,
+  "country": "Egypt",
+  "regions": [
+   "Matruh"
+  ],
+  "owner": "Ottoman Empire",
+  "why": "Western Desert nominally within Ottoman Egypt; Bedouin and Siwa self-governing",
+  "source": "https://en.wikipedia.org/wiki/Siwa_Oasis",
+  "severity": "minor"
+ },
+ {
+  "from": 1805,
+  "to": 1820,
+  "country": "Egypt",
+  "regions": [
+   "Matruh"
+  ],
+  "owner": "Muhammad Ali dynasty",
+  "why": "Nominally Egyptian until Muhammad Ali annexed Siwa in 1820",
+  "source": "https://en.wikipedia.org/wiki/Siwa_Oasis",
+  "severity": "minor"
+ }
+]

@@ -1,0 +1,267 @@
+## d-berlinairlift | 1948 | Berlin Airlift | who: US and British air forces; Joseph Stalin | where: Berlin
+  bluf: The Berlin Airlift defeated Stalin's blockade without a shot fired, keeping West Berlin free and demonstrating Western resolve. It led directly to NATO and the division of Germany into two states.
+  now: The airlift won West Berlin without a shot, turned West Germans from enemies into allies, and produced NATO and the Federal Republic within a year; it fixed the rule that the West would hold its positions in Europe.
+  story: In June 1948 the Soviets cut the road and rail links to West Berlin after the West introduced a new currency. US and British planes flew in food and coal, at the peak landing every few minutes at Tempelhof. Stalin lifted the blockade in May 1949.
+  why: The Western powers introduced a new currency, the Deutsche Mark, in their zones, a step toward a separate West German state, and Stalin tried to force them out of Berlin.
+  then: NATO was founded in April 1949, and Germany split into two states, the Federal Republic in the west and the German Democratic Republic in the east.
+  fact: Tempelhof airport is now a public park.
+## na194870 | 1948 | Marshall Plan | who: Secretary of State George Marshall | where: Western Europe
+  bluf: The Marshall Plan's $13 billion in US aid rebuilt Western Europe's economies, tied them to the United States and encouraged European economic cooperation. It helped defeat communist parties in the West and divided Europe economically, since the Soviet bloc refused it.
+  now: It is the model cited whenever someone calls for a 'Marshall Plan' for anything.
+  story: Europe was in ruins and communists were gaining ground. The US gave about $13 billion (well over $150 billion today) to rebuild factories, farms and trade.
+  why: To revive European economies, block communism and create markets for American goods.
+  then: Western Europe boomed, and the Soviets kept their bloc out. Because aid required recipients to coordinate, it laid groundwork for European integration.
+  fact: George Marshall won the Nobel Peace Prize for it, the first professional soldier to do so.
+## eu194999 | 1949 | NATO founded | who: US, Canada and ten Western European states | where: Signed in Washington; headquartered today in Brussels
+  bluf: NATO bound the United States to defend Western Europe, making an attack on one member an attack on all. It deterred Soviet expansion through the Cold War and, after 1991, expanded east, an expansion Russia cites as a grievance and its neighbours see as protection.
+  now: NATO has 32 members; Finland and Sweden joined after Russia's 2022 invasion of Ukraine. Article 5 has been invoked once, after 9/11, and arguments over burden-sharing are perennial.
+  story: After the Soviet blockade of Berlin, twelve countries signed the North Atlantic Treaty in Washington on April 4, 1949. Its Article 5 committed members to treat an armed attack on one as an attack on all. It was the first peacetime US alliance since 1778.
+  why: Fear of Soviet expansion after the 1948 communist coup in Czechoslovakia and the Berlin Blockade.
+  then: West Germany joined in 1955, and the Soviets answered with the Warsaw Pact. After the Cold War NATO expanded to former Soviet-bloc countries and intervened in the Balkans and Afghanistan.
+## eu194999b | 1949 | Germany divided into two states | who: Western Allies and the USSR; Konrad Adenauer; Walter Ulbricht | where: Bonn and East Berlin
+  bluf: Germany's division into a Western democracy and a Soviet-backed communist state made it the front line of the Cold War. The two Germanys became showcases for their rival systems until reunification in 1990.
+  now: Germany reunified in 1990, but gaps between east and west in wages and politics remain.
+  story: The Federal Republic of Germany was founded in the Western zones in May 1949, with Bonn as its capital and Konrad Adenauer as chancellor. In October the Soviet zone became the German Democratic Republic.
+  why: The wartime Allies could not agree on Germany's future, and the Berlin Blockade ended hopes of a deal.
+  then: Millions of East Germans fled west until the Berlin Wall closed the border in 1961.
+## eu1953100 | 1953 | Stalin dies | who: Stalin; Khrushchev | where: USSR
+  bluf: Stalin's death opened a 'thaw': Khrushchev denounced his crimes, released millions from the Gulag and eased the terror. It showed the Soviet system could reform, but only within limits, as Hungary learned in 1956.
+  now: Russians are still divided over Stalin's legacy, and his partial rehabilitation under Putin is part of a wider rewriting of Soviet history.
+  story: Stalin suffered a stroke at his dacha outside Moscow on March 1, 1953 and died four days later; his terrified guards had delayed calling doctors. After a power struggle, Nikita Khrushchev emerged as leader, and in 1956 he denounced Stalin's crimes in a 'secret speech'.
+  why: Stalin died of a stroke at 74 without a designated successor, and his guards' fear of disturbing him delayed medical help.
+  then: Millions were released from the Gulag, the secret police chief Beria was executed, and Khrushchev opened a cautious 'thaw'.
+## eu1956101 | 1956 | Hungarian uprising crushed | who: Hungarian protesters; Soviet army | where: Budapest
+  bluf: Hungary's 1956 uprising showed the depth of opposition to Soviet rule, and its brutal suppression showed Moscow would use force to keep its bloc. Western inaction confirmed the division of Europe.
+  now: The crushing of the uprising showed that the West would not intervene behind the Iron Curtain and that Moscow would use force to hold its bloc; the rule held until 1989.
+  story: On October 23, 1956, a student demonstration in Budapest grew into a nationwide uprising. Reform communist Imre Nagy became prime minister, promised free elections and, on November 1, announced that Hungary would leave the Warsaw Pact and become neutral. On November 4 Soviet tanks crushed the revolt; about 2,500 Hungarians were killed and 200,000 fled. Nagy was tried in secret and hanged in 1958.
+  why: Demands for freedom from Soviet control, encouraged by Khrushchev's denunciation of Stalin and by Poland's partial success earlier that year.
+  then: The West, distracted by the Suez crisis, did nothing; Moscow installed János Kádár, who later allowed a softer 'goulash communism'.
+  fact: Hungary marks October 23 as a national holiday.
+## eu1957102 | 1957 | Treaty of Rome (EEC) | who: France, W. Germany, Italy, Benelux | where: Rome
+  bluf: The Treaty of Rome created the European Economic Community, binding six former enemies in a common market designed to make war between them impossible. It grew into the European Union, the world's most ambitious experiment in shared sovereignty.
+  now: Countries that fought three wars in 70 years have not fought each other since; Brexit and the euro crisis show the strains of shared sovereignty.
+  story: France, West Germany, Italy and the Benelux countries created the European Economic Community. The idea: link economies so war between them becomes impossible.
+  why: To make war impossible through economic ties, building on the European Coal and Steel Community of 1951, and to rebuild Europe's weight between the superpowers.
+  then: It grew into the EU with 27 members: Britain joined in 1973, and the Maastricht Treaty (1992) created the EU and the path to a single currency.
+## na195774 | 1957 | Sputnik shock | who: The Soviet space programme, led by chief designer Sergei Korolev | where: Space
+  bluf: Sputnik showed that the Soviet Union had rockets able to reach the United States with nuclear warheads, and set off the space race. America answered with NASA, science education and military research that eventually produced the internet.
+  now: GPS, satellite TV and weather forecasting all grew from the space race.
+  story: On October 4, 1957, the USSR launched Sputnik 1, a 58 cm metal sphere that beeped radio signals as it circled the Earth every 96 minutes. Americans realised that a rocket able to launch a satellite could also carry a nuclear warhead across the world.
+  why: The Soviets had built the R-7, the world's first intercontinental missile, and used it to beat the US into space.
+  then: The US created NASA and poured money into science education; DARPA's work later led to the internet.
+  fact: Sputnik was a polished ball that just beeped, but amateur radio operators around the world could hear it pass overhead.
+## d-gagarin | 1961 | Gagarin: first human in space | who: Yuri Gagarin | where: Baikonur Cosmodrome
+  bluf: Gagarin's orbit made the Soviet Union first to put a human in space, a major Cold War propaganda victory. It pushed the United States to commit to landing on the Moon.
+  now: Space is again an arena of national prestige, now with China as a major player.
+  story: On April 12, 1961, Gagarin's Vostok 1 lifted off from Baikonur and circled the Earth in 108 minutes. He ejected during the descent and parachuted down near Saratov.
+  why: The Soviets had a lead in rocket technology from their missile programme and sought Cold War prestige.
+  then: Six weeks later Kennedy committed the US to landing on the Moon, and the space race became a central front of the Cold War.
+## eu1961103 | 1961 | Berlin Wall built | who: East German government | where: Berlin
+  bluf: East Germany built the Berlin Wall to stop a mass exodus to the West that threatened its survival. It stabilized the communist state but became the ultimate symbol of a regime that had to imprison its own people.
+  now: It became the symbol of the Cold War and of a state that had to wall in its own people; its fall in 1989 marked the Cold War's end.
+  story: About 3 million East Germans had fled West through Berlin. On August 13, 1961, the government strung barbed wire, then built a concrete wall.
+  why: About 3 million East Germans had fled west, many of them young and skilled, threatening the state's survival.
+  then: At least 140 people died trying to cross it, and Berlin became the front line of the Cold War.
+  fact: It went up overnight on August 13, 1961, first as barbed wire.
+## d-testban | 1963 | Partial Nuclear Test Ban Treaty | who: The United States, the Soviet Union and the United Kingdom | where: Moscow
+  bluf: The Partial Test Ban Treaty ended atmospheric nuclear testing by the United States, Soviet Union and Britain, reducing global fallout. It was the first major arms control agreement and a step toward managing the nuclear rivalry.
+  now: More than 120 countries are parties to it, and it began the arms-control process that keeps nuclear testing rare today.
+  story: Signed in Moscow on August 5, 1963, the treaty banned all but underground tests. Fallout from hundreds of atmospheric tests had spread radioactive strontium-90 around the world.
+  why: Public fear of radioactive fallout in milk and food, and the shock of the missile crisis, which made both leaders want a step back.
+  then: France and China, which did not sign, kept testing in the atmosphere for years.
+## eu1968104 | 1968 | Prague Spring crushed | who: Alexander Dubček; Warsaw Pact armies | where: Prague
+  bluf: The Soviet-led invasion of Czechoslovakia crushed 'socialism with a human face' and asserted Moscow's right to intervene in any socialist country. It showed that reform in the Soviet bloc had strict limits, until Gorbachev abandoned that doctrine in 1989.
+  now: Many Western communists broke with Moscow after the invasion, and its logic, that Moscow will not let a neighbour drift west, resurfaced in Georgia and Ukraine.
+  story: From January 1968 the Communist leader Alexander Dubček eased censorship and allowed open debate. On August 20-21, about 250,000 Warsaw Pact troops invaded to stop the reforms.
+  why: Moscow feared the reforms would spread and pull Czechoslovakia out of the Soviet bloc.
+  then: The 'Brezhnev Doctrine' declared a Soviet right to intervene in any socialist country.
+## eu1968104b | 1968 | May 1968 protests in France | who: Students and workers; President Charles de Gaulle | where: Paris
+  bluf: May 1968 turned student protests into France's largest general strike and shook de Gaulle's government. It changed French culture and society more than its institutions, and symbolized the global youth revolt of 1968.
+  now: The protests brought France to a general strike and de Gaulle's departure within a year; the social liberalisation they demanded arrived in the following decade, in law and in custom.
+  story: Clashes between students and police in the Latin Quarter in May 1968 grew into a general strike of perhaps 10 million workers, the largest in French history. De Gaulle called elections in June and won a landslide.
+  why: Frustration with an authoritarian university system and a conservative society, and the global student mood of 1968.
+  then: Wages rose sharply and universities were reformed; de Gaulle won the June election but resigned in 1969 after losing a referendum.
+  fact: 'May 68' still stands for youth rebellion in France.
+## eu1975105 | 1975 | Helsinki Accords | who: 35 nations including the US, USSR and Canada | where: Helsinki
+  bluf: The Helsinki Accords recognized Europe's postwar borders, a Soviet goal, but also committed the Soviet bloc to respect human rights. Dissidents used those commitments to challenge their governments, helping to erode communist legitimacy.
+  now: The OSCE, which grew out of Helsinki, still monitors elections and conflicts in Europe.
+  story: The USSR won recognition of its post-war borders; in return it signed commitments to human rights and freedom of movement. Dissident groups like Charter 77 in Czechoslovakia and the Moscow Helsinki Group used the promises to challenge their governments.
+  why: Détente: the USSR wanted Western recognition of its post-war borders, and the West wanted to ease tensions and won human-rights commitments in return.
+  then: Human-rights monitoring groups formed across the Soviet bloc, and violations were publicly aired at follow-up conferences.
+## eu1975105b | 1975 | Death of Franco | who: Francisco Franco; King Juan Carlos I | where: Madrid
+  bluf: Franco's death opened Spain's peaceful transition to democracy, guided by King Juan Carlos and negotiated among former enemies. Spain's model of reform by agreement inspired other democratic transitions.
+  now: Spain's negotiated transition became a model for other dictatorships, though its 'pact of forgetting' about civil-war crimes is still debated.
+  story: Franco had ruled since winning the civil war in 1939. He named Juan Carlos as his successor, but the young king backed reformers who legalised parties and held free elections in 1977; a democratic constitution followed in 1978.
+  why: Franco's death, economic modernisation and a society ready for change.
+  then: An attempted military coup in 1981 failed when the king stood firm, and Spain joined NATO in 1982 and the European Community in 1986.
+## eu1980106 | 1980 | Solidarity in Poland | who: Lech Wałęsa; shipyard workers | where: Gdańsk
+  bluf: Solidarity was the first independent trade union in the Soviet bloc, a mass movement of about 10 million workers. Crushed by martial law, it survived underground and won Poland's semi-free elections in 1989, setting off the collapse of communism across Eastern Europe.
+  now: Its success showed that workers could defeat a 'workers' state', and Poland's negotiated transition became a model.
+  story: In August 1980 strikes at the Lenin Shipyard in Gdańsk, led by electrician Lech Wałęsa, spread across Poland. The government agreed to recognise Solidarity, the first independent trade union in the Soviet bloc; it grew to about 10 million members.
+  why: Rising food prices, a failing economy, the election of a Polish pope in 1978 that emboldened society, and long-standing anger at the communist government.
+  then: Martial law crushed it in 1981, but it returned to win elections in 1989.
+## eu1985107 | 1985 | Gorbachev comes to power | who: Mikhail Gorbachev | where: USSR
+  bluf: Gorbachev's reforms, openness (glasnost) and restructuring (perestroika), were meant to save the Soviet system but unleashed forces that destroyed it. His refusal to use force in Eastern Europe allowed the Cold War to end peacefully and communism in Europe to collapse.
+  now: He is admired in the West and widely blamed in Russia, where Putin's view of the Soviet collapse as a catastrophe shapes policy toward its neighbours.
+  story: Mikhail Gorbachev introduced glasnost and perestroika to revive a stagnant economy and society. He withdrew from Afghanistan, signed arms deals with Reagan and, crucially, refused to use force to hold Eastern Europe.
+  why: The Soviet economy was stagnating and the old leaders had died one after another; the Politburo chose a younger man.
+  then: Within six years communism collapsed in Eastern Europe, Germany reunified and the Soviet Union dissolved.
+## d-reykjavik | 1986 | Reykjavík summit | who: Ronald Reagan; Mikhail Gorbachev | where: Höfði House, Reykjavík
+  bluf: At Reykjavík, Reagan and Gorbachev nearly agreed to abolish nuclear weapons; the talks collapsed, but they built the trust that led to the INF Treaty. It marked a turning point toward the end of the Cold War.
+  now: Both men later called it a turning point in the Cold War, and missile defence is still a major obstacle in arms talks with Russia.
+  story: Meeting on October 11-12, 1986, the two leaders discussed eliminating their nuclear arsenals. The talks collapsed over Reagan's refusal to limit his Strategic Defense Initiative, the 'Star Wars' missile shield.
+  why: Gorbachev wanted to cut military spending; Reagan wanted to end the nuclear threat.
+  then: The ground it covered led to the INF Treaty in 1987 and the START treaty cutting long-range weapons in 1991.
+## eu1986108 | 1986 | Chernobyl disaster | who: Soviet reactor operators | where: Ukraine (USSR)
+  bluf: Chernobyl was the world's worst nuclear accident, and its cover-up exposed the Soviet system's secrecy and incompetence. Gorbachev later called it a turning point that pushed glasnost forward, and it shaped nuclear power debates worldwide.
+  now: It still shapes debates about nuclear power, and Russian forces briefly occupied the site in 2022.
+  story: In the early hours of April 26, 1986, operators running a safety test on Reactor 4 at Chernobyl, in Soviet Ukraine, triggered a power surge that blew the reactor apart and set its graphite core on fire. Two workers died in the blast and about 30 firefighters and staff within months from radiation. Authorities evacuated nearby Pripyat only the next day, and admitted the accident only after Swedish monitors detected the fallout.
+  why: The RBMK reactor had a design flaw that made it unstable at low power, and operators running a safety test disabled safety systems and broke rules.
+  then: About 350,000 people were evacuated, a 30-km exclusion zone remains, and fallout spread across Belarus, Ukraine and much of Europe.
+  fact: The 30 km exclusion zone has become an accidental wildlife refuge with wolves, bison and wild horses.
+## d-romania1989 | 1989 | Ceaușescu overthrown | who: Nicolae Ceaușescu; Romanian protesters and soldiers | where: Bucharest
+  bluf: Romania's revolution was the only violent overthrow of a communist regime in 1989, ending with Ceaușescu's execution. Former communists seized control of the transition, which slowed Romania's reforms.
+  now: About 1,100 people died; it was the only violent overthrow of a communist regime in Eastern Europe in 1989.
+  story: Protests began in Timișoara on December 16. On December 21 crowds jeered Ceaușescu during a speech in Bucharest; the next day he fled by helicopter as the army joined the revolt. He and his wife were tried by a hasty military court and shot on December 25.
+  why: Years of hunger and repression, and the collapse of communism next door.
+  then: Former communists led by Ion Iliescu took power and held it until 1996, bringing in miners to crush opposition protests in 1990.
+## d-velvet | 1989 | Velvet Revolution | who: Václav Havel; Czechoslovak students and citizens | where: Prague
+  bluf: The Velvet Revolution ended communist rule in Czechoslovakia peacefully in six weeks. It showed the power of nonviolent mass protest once Soviet backing was gone.
+  now: Václav Havel's moral leadership made the Velvet Revolution a model of peaceful transition.
+  story: Police beat student marchers in Prague on November 17, 1989. Protests grew to hundreds of thousands, and a general strike followed. The communist government resigned, and playwright Václav Havel became president on December 29.
+  why: The fall of the Berlin Wall, Gorbachev's refusal to intervene, and police violence against students on November 17, which outraged the public.
+  then: Czechoslovakia split peacefully into the Czech Republic and Slovakia in 1993.
+## eu1989109 | 1989 | Berlin Wall falls | who: East German citizens | where: Berlin
+  bluf: The fall of the Berlin Wall ended Germany's division in practice and became the symbol of communism's collapse in Eastern Europe. Within two years Germany was reunified and the Soviet Union had dissolved, ending the Cold War.
+  now: November 9 became a symbol of peaceful revolution; the argument over whether the West promised not to expand NATO eastward, and Russia's resentment of the post-1989 order, trace back to this moment.
+  story: Through 1989 East Germans fled west via Hungary and marched every week in Leipzig. On November 9 the government loosened travel rules, and at a press conference a spokesman mistakenly said they applied 'immediately'. Crowds gathered at the checkpoints, and overwhelmed border guards opened the gates.
+  why: Economic stagnation, mass emigration and protest, and above all Gorbachev's refusal to send Soviet troops to prop up the regime.
+  trig: The botched announcement of new travel rules on the evening of November 9, 1989.
+  then: Communist governments fell across Eastern Europe within weeks; Germany reunified in October 1990, and the Soviet Union dissolved in December 1991.
+  fact: It opened partly by mistake: spokesman Günter Schabowski misread a note and said the new travel rules applied 'immediately'.
+## eu1990110 | 1990 | Germany reunified | who: Chancellor Helmut Kohl; the four wartime Allies; East Germany's last government | where: Germany
+  bluf: German reunification merged a collapsing East Germany into the West, creating Europe's largest economy and most powerful state. It was achieved peacefully, with the consent of the four wartime Allies, but left economic and political gaps between East and West.
+  now: Gaps in wages and politics between East and West persist; the far-right AfD's strength in the East reflects those divides.
+  story: After the Berlin Wall fell, East Germans voted in March 1990 for parties promising quick unity, and a monetary union in July brought them the West German mark. Chancellor Helmut Kohl negotiated the 'Two Plus Four' treaty with the four wartime victors: united Germany would stay in NATO, accept its border with Poland and cap its army, and Gorbachev agreed in return for German money. East Germany joined the Federal Republic on October 3, 1990.
+  why: East Germany's government collapsed after the Wall fell, and East Germans voted for rapid unity.
+  then: Germany became Europe's largest economy and leading power, but rebuilding the East cost well over a trillion euros, and unemployment there soared.
+## d-coup1991 | 1991 | Hardliners' coup against Gorbachev | who: Soviet hardliners; Boris Yeltsin; Mikhail Gorbachev | where: Moscow
+  bluf: The failed coup against Gorbachev destroyed the Soviet hardliners, and Gorbachev's own authority with them, making Yeltsin the dominant figure. Within months the Soviet Union had dissolved.
+  now: It showed the Soviet system could no longer command obedience, and Yeltsin's victory began a decade of chaotic reform in Russia that shaped the rise of Putin.
+  story: On August 19, 1991, communist hardliners declared a state of emergency to stop a treaty that would have loosened the Soviet Union. Crowds defended Russia's parliament, Yeltsin defied the plotters from atop a tank, and troops refused to attack.
+  why: The planned Union Treaty would have handed the republics far more power.
+  then: Republics declared independence one after another, and the USSR dissolved in December.
+## eu1991111 | 1991 | Soviet Union dissolves | who: Gorbachev; Boris Yeltsin; leaders of the republics | where: Moscow
+  bluf: The dissolution of the Soviet Union ended the Cold War and created 15 independent states, as Russia lost its empire. It left the United States the sole superpower, and Russia's sense of humiliation and loss still shapes its politics, up to the war in Ukraine.
+  now: Ukraine, the Baltic states and the Central Asian states became independent. Putin has called the collapse 'the greatest geopolitical catastrophe' of the century, and his war on Ukraine is partly a struggle over its legacy.
+  story: A failed hard-line coup in August 1991 destroyed Gorbachev's authority. Republic after republic declared independence; in December the leaders of Russia, Ukraine and Belarus dissolved the Union, and on December 25 Gorbachev resigned.
+  why: A failing economy, nationalism in the republics, the loss of Eastern Europe in 1989, and Gorbachev's reforms, which loosened the controls that held the system together.
+  trig: The failed hardliners' coup of August 1991.
+  then: Russia's economy collapsed in the 1990s amid 'shock therapy', hyperinflation and the rise of oligarchs, and Vladimir Putin rose to power in 1999-2000.
+## eu1991111b | 1991 | Yugoslav wars begin | who: Slobodan Milošević; Slovenian, Croatian and Bosnian leaders | where: Slovenia and Croatia
+  bluf: The breakup of Yugoslavia brought Europe's worst wars since 1945, with ethnic cleansing and the Srebrenica genocide. It showed how nationalist leaders could mobilize ethnic fears after communism, and prompted NATO's first combat operations.
+  now: The UN tribunal at The Hague convicted leaders of war crimes and genocide; tensions in Bosnia and Kosovo remain.
+  story: Slovenia and Croatia declared independence in June 1991. Serb-dominated Yugoslav forces fought a short war in Slovenia and a long one in Croatia; Bosnia's war from 1992 brought sieges, 'ethnic cleansing' and genocide.
+  why: Communism's collapse let nationalist leaders, above all Serbia's Milošević, mobilise ethnic fears.
+  then: About 130,000-140,000 people died and millions were displaced; NATO bombing helped end the wars in Bosnia (1995) and Kosovo (1999).
+## eu1992112 | 1992 | Maastricht Treaty creates EU | who: European Community members | where: Maastricht, Netherlands
+  bluf: The Maastricht Treaty turned the European Community into the European Union, with common citizenship, foreign-policy cooperation and a path to a single currency. It deepened integration but also sparked lasting arguments over sovereignty, from close referendums in Denmark and France to Brexit.
+  now: The EU is one of the world's largest economies, and the euro the second most widely held reserve currency.
+  story: Signed in February 1992 and in force from November 1993, the Maastricht Treaty turned the European Community into the European Union. It created EU citizenship, cooperation on foreign policy and justice, and a timetable and rules for a single currency.
+  why: European leaders wanted to deepen integration after the Cold War and anchor a reunified Germany in Europe.
+  then: The euro launched in 1999, and the EU expanded east in 2004.
+## eu1995113 | 1995 | Srebrenica massacre | who: Bosnian Serb forces (Ratko Mladić) | where: Bosnia
+  bluf: The Srebrenica massacre, Europe's worst atrocity since World War II, exposed the failure of UN peacekeeping and Western policy in Bosnia. It led to NATO intervention and the Dayton Accords, and was ruled genocide by international courts.
+  now: International courts ruled it genocide, and Mladić and the Bosnian Serb leader Karadžić were jailed for life; denial remains common in Serb nationalist politics.
+  story: In July 1995 Bosnian Serb forces under General Ratko Mladić overran the UN 'safe area' of Srebrenica, defended by lightly armed Dutch peacekeepers. Over the following days they separated Bosniak men and boys from the women and killed more than 8,000 of them.
+  why: Mladić's forces aimed to remove Bosniaks from eastern Bosnia to create an ethnically Serb territory, and the UN peacekeepers were too few and too lightly armed to stop them.
+  then: NATO bombing and the Dayton Accords ended the war that year, dividing Bosnia into two largely self-governing entities.
+## eu2002114 | 2002 | Euro enters circulation | who: Eurozone countries | where: Europe
+  bluf: The euro gave twelve countries one currency and one monetary policy run by the European Central Bank. It eased trade and symbolized unity, but locked very different economies together without a shared budget, a flaw exposed by the debt crisis of 2010.
+  now: About 350 million people use the euro, in 21 countries since Bulgaria joined in 2026.
+  story: On January 1, 2002, euro notes and coins entered circulation in 12 countries, replacing currencies such as the mark, franc and lira; the euro had existed for banks and markets since 1999.
+  why: Europe's leaders wanted a single market with one money, and a symbol of political unity.
+  then: The shared currency made trade easier but locked weak and strong economies together.
+  fact: The bridges and windows on euro notes are imaginary, so no country is favored.
+## eu2004115 | 2004 | EU expands east | who: 10 new members incl. Poland, Baltics | where: Europe
+  bluf: The EU's eastern enlargement anchored ten countries, mostly former Soviet-bloc states, in the West's political and economic system. It boosted their growth and democracy, set off large migration westward, and was seen by Russia as encroachment.
+  now: It is the biggest enlargement in EU history, and the new members' fear of Russia now shapes EU and NATO policy on Ukraine.
+  story: On May 1, 2004, ten countries joined the European Union: Poland, the Czech Republic, Slovakia, Hungary, Slovenia, Estonia, Latvia, Lithuania, Cyprus and Malta. Most had been in the Soviet bloc 15 years earlier.
+  why: To anchor former Soviet-bloc states in the West and reunite Europe after the Cold War.
+  then: Millions moved west for work, especially to Britain, Ireland and Germany, which later fed the Brexit debate; Russia saw the expansion as encroachment.
+## eu2008116 | 2008 | Russia-Georgia war | who: Russia, Georgia | where: South Ossetia, Georgia
+  bluf: Russia's five-day war with Georgia halted Georgia's NATO ambitions and established Russian control over two breakaway regions. The West's mild response is widely seen as having encouraged Russia's later moves in Ukraine.
+  now: Many see it as the first sign of Russia's willingness to redraw borders by force.
+  story: After skirmishes, Georgia shelled Tskhinvali, capital of the breakaway region of South Ossetia, on August 7-8, 2008. Russia invaded in force, pushed deep into Georgia within five days, and then recognised South Ossetia and Abkhazia as independent.
+  why: Tension over Georgia's push to join NATO and its breakaway regions, and Russia's determination to stop it.
+  then: The West's response was mild, and Russia recognized South Ossetia and Abkhazia as independent.
+## eu2010117 | 2010 | Eurozone debt crisis | who: Greece, EU, IMF | where: Southern Europe
+  bluf: The eurozone debt crisis exposed the flaw of a single currency without shared budgets: Greece and others faced bankruptcy and harsh austerity in return for bailouts. It nearly broke the euro and fuelled anti-EU populism across Europe.
+  now: Anti-EU populism surged across Europe, and the eurozone built new tools, such as a permanent rescue fund and banking union, to prevent a repeat.
+  story: Greece revealed huge hidden deficits; bond markets panicked about Portugal, Ireland, Spain and Italy too. The EU and IMF offered bailouts in exchange for harsh austerity.
+  why: A shared currency without a shared budget left weak economies unable to devalue, and Greece had hidden the true size of its deficits.
+  then: Greek unemployment passed 25% and the economy shrank by about a quarter; the European Central Bank's 2012 pledge to do 'whatever it takes' finally calmed markets.
+## d-euromaidan | 2014 | Euromaidan revolution | who: Ukrainian protesters; President Viktor Yanukovych | where: Maidan Nezalezhnosti, Kyiv
+  bluf: The Euromaidan revolution drove out Ukraine's pro-Russian president after months of protest against corruption and the turn away from Europe. Russia responded by seizing Crimea and backing separatists, starting the war that escalated in 2022.
+  now: Ukrainians call it the Revolution of Dignity; Russia's response, seizing Crimea and backing separatists, began the war that escalated in 2022.
+  story: Protests began in November 2013 when Yanukovych dropped an agreement with the European Union. In February 2014 security forces killed more than 100 protesters, and Yanukovych fled to Russia on February 22.
+  why: Anger at corruption, and at President Yanukovych's sudden decision, under Russian pressure, to drop an association agreement with the EU.
+  then: Russia seized Crimea weeks later and backed separatists in the Donbas, and Ukraine's new government signed the EU agreement.
+## d-mh17 | 2014 | MH17 shot down | who: Russian-backed forces in eastern Ukraine; Malaysia Airlines Flight 17 | where: Hrabove, eastern Ukraine
+  bluf: The downing of MH17 by a Russian-made missile killed all 298 aboard and brought the war in eastern Ukraine to the world's attention. It hardened Western sanctions, and a Dutch court later established the role of Russian-backed forces.
+  now: Most of the victims were Dutch, and the case made the Netherlands one of Europe's firmest supporters of Ukraine.
+  story: On July 17, 2014, a Buk missile hit the Amsterdam to Kuala Lumpur flight over territory held by Russian-backed separatists. Dutch-led investigators found that the launcher came from a Russian army brigade.
+  why: War in the Donbas, where Russian-backed separatists had received heavy anti-aircraft weapons from Russia and had been shooting down Ukrainian military planes.
+  then: In 2022 a Dutch court convicted three men of murder in their absence, and in 2025 the UN's aviation agency held Russia responsible.
+## eu2014118 | 2014 | Russia annexes Crimea | who: Vladimir Putin | where: Ukraine
+  bluf: Russia's annexation of Crimea was the first forcible annexation of territory in Europe since World War II. The West's limited sanctions and Russia's backing of separatists in the Donbas set the stage for the full-scale invasion of 2022.
+  now: It was the prelude to the full-scale invasion of 2022, and Crimea's status is central to any peace settlement.
+  story: After Ukraine's pro-EU protests ousted its president, Russian troops took Crimea and held a disputed referendum. War broke out in the Donbas.
+  why: Putin feared Ukraine's turn to the West after the Euromaidan revolution, and the loss of Russia's naval base at Sevastopol.
+  then: The West imposed sanctions, and Russia backed separatists in eastern Ukraine.
+## eu2015119 | 2015 | Migrant crisis | who: Refugees from Syria and elsewhere; EU | where: Mediterranean, Balkans
+  bluf: The 2015 refugee crisis brought over a million people to Europe in one year and overwhelmed EU asylum rules. It transformed European politics: anti-immigration parties rose, and the EU shifted to tighter borders and deals with transit countries such as Turkey.
+  now: Migration became the most divisive issue in European politics, and the EU adopted a new pact on migration and asylum in 2024.
+  story: In 2015 more than a million refugees and migrants reached Europe, most crossing from Turkey to Greek islands and walking north through the Balkans. Most were fleeing wars in Syria, Afghanistan and Iraq; Germany took in about 890,000 asylum seekers that year.
+  why: The Syrian civil war, and worsening conditions in refugee camps in neighbouring countries.
+  then: Border fences went up, the EU paid Turkey to stop crossings, and Germany's welcome gave way to tighter asylum rules.
+## eu2016120 | 2016 | Brexit vote | who: UK voters; Prime Minister David Cameron; Leave campaigners such as Boris Johnson and Nigel Farage | where: United Kingdom
+  bluf: Britain's vote to leave the EU was the first time a member chose to exit, driven by concerns over sovereignty and immigration. It reshaped British politics, strained the union with Scotland and Northern Ireland, and became a symbol of the populist backlash against globalization.
+  now: Britain is the only country ever to leave the EU; polls since have shown many voters regret it, and relations are slowly being rebuilt.
+  story: In a referendum on June 23, 2016, called by Prime Minister David Cameron, 52% of voters chose to leave the European Union. Cameron resigned the next day.
+  why: Concerns over sovereignty and immigration, long-standing British ambivalence about Europe, and discontent in regions that felt left behind.
+  then: Four years of political turmoil followed, two prime ministers fell, and Britain left the EU in 2020.
+  fact: The result was 52% to 48%.
+## d-vaccine | 2020 | First COVID-19 vaccines approved | who: BioNTech and Pfizer; Moderna; Britain's medicines regulator | where: London
+  bluf: The first COVID-19 vaccines, developed in under a year with mRNA technology, sharply reduced deaths. Their unequal distribution between rich and poor countries exposed global inequities.
+  now: mRNA technology now promises vaccines and treatments for other diseases, and its pioneers won the 2023 Nobel Prize in medicine.
+  story: On December 2, 2020, Britain became the first country to approve the Pfizer-BioNTech mRNA vaccine, and 90-year-old Margaret Keenan received the first shot on December 8. Billions of doses followed worldwide.
+  why: Decades of mRNA research, massive public funding and advance purchases, and regulators running trials and reviews in parallel.
+  then: Vaccines cut deaths sharply, though rich countries got them far sooner than poor ones.
+## eu2020121 | 2020 | Brexit takes effect | who: Prime Minister Boris Johnson's government; the European Union | where: United Kingdom
+  bluf: Brexit took effect as Britain left the EU's single market and customs union, creating new trade barriers and a complex arrangement for Northern Ireland. The UK and EU are still working out their relationship.
+  now: The UK and EU are still adjusting their relationship, and in 2025 they agreed a new partnership on defence and trade.
+  story: After years of deadlock in Parliament, Boris Johnson won a large majority in December 2019 promising to 'get Brexit done'. The UK left the EU on January 31, 2020, and a transition period ended on December 31, 2020, with a last-minute trade deal.
+  why: The 2016 referendum result, and the 2019 election that broke the deadlock in Parliament.
+  then: New customs checks hit trade with Europe, and a special arrangement kept Northern Ireland inside EU goods rules, creating a trade border in the Irish Sea.
+## d-zeitenwende | 2022 | Germany's Zeitenwende | who: Chancellor Olaf Scholz; the Bundestag; from 2025 Chancellor Friedrich Merz | where: Berlin
+  bluf: Russia's invasion of Ukraine ended the settlement under which reunified Germany had traded with Russia, exported to China and left defence to the United States, and Germany answered by rearming on a scale with no precedent since 1945.
+  now: Every neighbour is recalculating: Poland and the Baltic states want a stronger Germany, France wants it inside European structures, and the German public is divided about whether it wants it at all.
+  story: On February 27, 2022 Scholz told the Bundestag that Russia's invasion was a Zeitenwende, a turning of the times, and announced a 100 billion euro special fund for the Bundeswehr, a commitment to spend 2 per cent of output on defence, and the end of Nord Stream 2. Germany reached the 2 per cent mark in 2024. In March 2025 the Bundestag amended the constitutional debt brake to exempt defence spending above 1 per cent of output and created a 500 billion euro infrastructure fund, and in June 2025 Germany accepted NATO's new target of 3.5 per cent for core defence by 2035.
+  why: Thirty years of the peace dividend had cut the Bundeswehr to a force short of ammunition and left German industry dependent on Russian gas; the invasion made both facts into liabilities within a week, and American pressure to carry Europe's defence had been rising since 2016.
+  trig: Scholz's Bundestag speech of February 27, 2022 announced the 100 billion euro fund and the 2 per cent commitment; the debt brake was amended for defence in March 2025.
+  then: Germany met the 2 per cent target in 2024, committed to 3.5 per cent by 2035, began building the largest army in western Europe, and reopened the question of German power that 1990 had been meant to close.
+## eu2022122 | 2022 | Russia invades Ukraine | who: Putin; Zelensky | where: Ukraine
+  bluf: Russia's full-scale invasion of Ukraine began the largest war in Europe since 1945. It ended the post-Cold War European order, pushed Finland and Sweden into NATO, triggered European rearmament and a shift away from Russian energy, and drew Russia closer to China, Iran and North Korea.
+  now: It reshaped European security, energy and defence spending; its outcome will shape the credibility of borders and the future of US alliances.
+  story: Putin's forces invaded from three sides, expecting to take Kyiv in days. Ukraine held, then pushed Russia back from the north and around Kherson. The war turned into grinding battles in the east.
+  why: Putin rejects Ukraine's independent, Western-oriented path, claims Russians and Ukrainians are 'one people', and portrays NATO's eastward expansion as a threat.
+  trig: The invasion of February 24, 2022, after months of military build-up and Russian demands that NATO pledge never to admit Ukraine.
+  then: Ukraine repelled the assault on Kyiv, and the war became a grinding conflict of drones, artillery and trenches. Hundreds of thousands have been killed or wounded, and Finland and Sweden joined NATO.
+  fact: Kyiv was expected to fall within days. It didn't, which reshaped European security.
+## d-wagner | 2023 | Wagner mutiny | who: Yevgeny Prigozhin and the Wagner Group | where: Rostov-on-Don, Russia
+  bluf: The Wagner mutiny, a march on Moscow by Russia's largest mercenary army, was the most serious challenge to Putin's rule in two decades. Its collapse, and Prigozhin's death in a plane crash two months later, showed both the regime's fragility and its ruthlessness.
+  now: It was the most serious challenge to Putin's rule in more than two decades.
+  story: On June 23-24, 2023, Prigozhin's fighters seized Rostov-on-Don and advanced to within about 200 km of Moscow before a deal brokered by Belarus. Two months later Prigozhin died when his plane crashed.
+  why: A feud with Russia's defence ministry over the conduct of the war in Ukraine.
+  then: Wagner was broken up and its African operations brought under defence-ministry control, and Prigozhin died in a plane crash two months later.

@@ -1,0 +1,2146 @@
+{
+ "arc": {
+  "id": "roman-empire",
+  "size": "arc",
+  "title": "Who Pays the Legions",
+  "sub": "the Roman Empire from Augustus to the Arab conquests, 27 BCE to 641 CE",
+  "span": [
+   -27,
+   641
+  ],
+  "themes": {
+   "primary": "power",
+   "secondary": [
+    "war",
+    "scarcity"
+   ]
+  },
+  "thesis": "The Roman Empire was a system for turning Mediterranean taxes into frontier armies, and it survived civil war, plague and a change of religion for as long as that loop held; it broke where the tax base was cut away, in the West when the Vandals took Africa in 439 and in the East when the Arabs took Syria and Egypt between 636 and 641.",
+  "assumptions": [
+   "Assumes the army was the state's largest cost and the emperors' real electorate, which is clear for the first three centuries and less so once the civil bureaucracy grew after Diocletian.",
+   "Assumes fiscal capacity can be read from fragmentary evidence: coin fineness, pay scales and the handful of budget figures the sources give.",
+   "Assumes the state that survived in Constantinople after 641 was a successor that had to rebuild the loop on a smaller base."
+  ],
+  "disconfirm": "If the thesis were wrong, the West should have fallen while its revenue base was intact, or survived after losing it. The test is 406 to 476: a western government that kept raising and paying field armies at the old scale after 439, or one that collapsed from an internal cause before the provinces went, would break the fiscal reading.",
+  "awkward": "The worst crisis before 400 came with the tax base largely intact. Between 235 and 284 the empire lost no core revenue province for good and still came closer to breaking than at any time before the fifth century, because its armies made and unmade emperors faster than any treasury could settle them. The loop can fail from the army's end as well as the taxpayers'.",
+  "shelf": [
+   {
+    "a": "Keith Hopkins",
+    "t": "Taxes and Trade in the Roman Empire (200 B.C.-A.D. 400)",
+    "y": 1980
+   },
+   {
+    "a": "Edward N. Luttwak",
+    "t": "The Grand Strategy of the Roman Empire",
+    "y": 1976
+   },
+   {
+    "a": "Peter Heather",
+    "t": "The Fall of the Roman Empire: A New History",
+    "y": 2005
+   },
+   {
+    "a": "Chris Wickham",
+    "t": "Framing the Early Middle Ages: Europe and the Mediterranean, 400-800",
+    "y": 2005
+   },
+   {
+    "a": "Kyle Harper",
+    "t": "The Fate of Rome: Climate, Disease, and the End of an Empire",
+    "y": 2017
+   },
+   {
+    "a": "James Howard-Johnston",
+    "t": "Witnesses to a World Crisis: Historians and Histories of the Middle East in the Seventh Century",
+    "y": 2010
+   }
+  ],
+  "stories": [
+   "augustan-bargain",
+   "soldiers-throne",
+   "western-collapse",
+   "spent-surplus"
+  ]
+ },
+ "stories": [
+  {
+   "id": "augustan-bargain",
+   "size": "story",
+   "title": "The Augustan Bargain",
+   "sub": "the principate and its army, 31 BCE to 192 CE",
+   "span": [
+    -31,
+    192
+   ],
+   "parent": "roman-empire",
+   "thesis": "Augustus's settlement held for two centuries because it made the emperor the legions' paymaster and stopped the frontier where the taxes could carry it; each time it was reopened, in 69 and after 165, the army or the frontier had outgrown the money.",
+   "assumptions": [
+    "Assumes the legions' loyalty was bought more than believed, which undervalues the oath, the standards and the imperial cult in the camps.",
+    "Assumes the halts at the Rhine in 16 and the Euphrates in 117 were fiscal choices; both also had strategic and personal motives."
+   ],
+   "disconfirm": "If the thesis were wrong, the civil war of 69 should have been settled by the Senate or a dynastic claim. It was settled by which provincial army reached Italy first; a principate in which the Senate chose emperors against the armies and made it stick would refute the reading.",
+   "awkward": "The longest stable stretch, 96 to 180, came under emperors chosen by adoption rather than by soldiers, and the armies accepted every one of them. Something besides pay held the legions in that century, perhaps only the habit of an orderly succession.",
+   "shelf": [
+    {
+     "a": "Ronald Syme",
+     "t": "The Roman Revolution",
+     "y": 1939
+    },
+    {
+     "a": "Fergus Millar",
+     "t": "The Emperor in the Roman World",
+     "y": 1977
+    },
+    {
+     "a": "J. B. Campbell",
+     "t": "The Emperor and the Roman Army, 31 BC-AD 235",
+     "y": 1984
+    },
+    {
+     "a": "Richard Duncan-Jones",
+     "t": "Money and Government in the Roman Empire",
+     "y": 1994
+    },
+    {
+     "a": "Edward N. Luttwak",
+     "t": "The Grand Strategy of the Roman Empire",
+     "y": 1976
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The bargain",
+     "hinge": "eu-27-augustus",
+     "conn": null,
+     "s1": "Augustus turned the armies of the civil wars into a standing force paid by the state through himself, and that arrangement was the empire's working constitution whatever forms the Senate kept.",
+     "s2": "Octavian came out of Actium in 31 BCE with some sixty legions and no rival; he cut them to twenty-eight and settled the discharged men on land bought largely with Egyptian treasure. In 27 BCE he took as his own command the provinces that held most of the legions, leaving the Senate the unarmed ones. The military treasury of 6 CE, opened with 170 million sesterces of his own money and fed by a 5 per cent tax on citizens' inheritances, moved veterans' pensions from generals' promises to a state fund. Roman citizens had paid no direct tax since 167 BCE, and the Senate fought the levy for years. When Augustus died in 14 CE the Rhine and Pannonian legions mutinied within weeks over pay and length of service.",
+     "support": [
+      "eu-31-actium",
+      "eu-6-aerarium-militare",
+      "eu-14-legions-mutiny"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The limit",
+     "hinge": "eu-9-teutoburg",
+     "conn": "but",
+     "s1": "The loss of three legions in Germany in 9 CE fixed the northern frontier at the Rhine, because the empire could not replace them without taxes its citizens would not pay.",
+     "s2": "Publius Quinctilius Varus, governor of the new province between Rhine and Elbe, was led into the Teutoburg forest by Arminius, a Cheruscan prince who held Roman citizenship and equestrian rank, and the Seventeenth, Eighteenth and Nineteenth legions died there. Their numbers were never issued again. Augustus had just spent three years putting down the Pannonian revolt and had already enrolled freed slaves to fill the ranks; there was no reserve. Germanicus's campaigns of 14-16 recovered two of the lost eagles, and Tiberius recalled him in 16 with the province unrestored, since Germany had no cities to tax. Britain, invaded by Claudius in 43 for a new emperor's prestige, needed four legions, about an eighth of the army, and on most reckonings never covered their cost.",
+     "support": [
+      "eu-16-germanicus-recalled",
+      "eu-43-britain-invasion"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "The secret",
+     "hinge": "eu-69-four-emperors",
+     "conn": "but",
+     "s1": "Nero's fall in 68 showed that an emperor could be made by a provincial army, and the civil war of 69 went to whichever legions reached Italy first.",
+     "s2": "The Praetorian Guard had already chosen an emperor in 41, when it murdered Caligula and installed Claudius, who paid each guardsman 15,000 sesterces and set the price of later accessions. Nero cut the denarius to 1/96 of a pound of silver in 64 to stretch his revenue after the Great Fire. When the governors of Gaul and Spain turned on him in 68 the Senate followed, and Galba, Otho and Vitellius each fell within the next twelve months. Vespasian, proclaimed at Alexandria on 1 July 69 with the eastern legions and Egypt's grain in hand, won because the Danube legions declared for him and marched first. He paid for the war by raising and in places doubling provincial tribute, and the treasure taken from Jerusalem in 70 helped build the Colosseum.",
+     "support": [
+      "eu-41-claudius-praetorians",
+      "eu-64-nero-denarius",
+      "me-70-temple-70"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "The dividend",
+     "hinge": "eu-122-hadrians-wall",
+     "conn": "therefore",
+     "s1": "The second century was the bargain at its most profitable, a fixed frontier, a paid army and a taxable trading economy, and Hadrian chose to hold it rather than enlarge it.",
+     "s2": "Emperor Domitian raised legionary pay by a third in the mid-80s, to 300 denarii a year, and the army already took most of what the state spent. Trajan's conquest of Dacia in 106 paid for itself in royal gold and mines; his march to the Persian Gulf in 116 did not, as Mesopotamia revolted behind him and the Jewish diaspora rose in Cyrenaica, Egypt and Cyprus. Hadrian gave up the new eastern provinces in 117 and in 122 began an 80-mile wall across northern Britain. Inside the line, Indian goods landed at the Red Sea ports paid a 25 per cent import duty, and the count of dated Mediterranean shipwrecks and the lead from Roman silver smelting preserved in Greenland ice both reach their ancient peak between the first century BCE and the second century CE. Adoption delivered four successions without civil war between 98 and 161.",
+     "support": [
+      "eu-84-domitian-pay",
+      "eu-97-nerva-adopts-trajan",
+      "eu-106-dacia-annexed",
+      "me-116-trajan-mesopotamia",
+      "eu-117-hadrian",
+      "sa-25-indo-roman"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The shock",
+     "hinge": "eu-165-antonine-plague",
+     "conn": "but",
+     "s1": "The epidemic that soldiers carried home from Mesopotamia in 165 struck the empire at its fiscal peak, and two decades of war on the Danube followed while the tax base shrank.",
+     "s2": "Co-emperor Lucius Verus's army brought the disease back from the sack of Seleucia on the Tigris; it reached Rome in 166 and recurred into the 180s, and most modern estimates put deaths near a tenth of a population of about 75 million. The Greenland lead record falls sharply in the same decades, as mining and smelting contracted. Marcomanni and Quadi crossed the Danube and besieged Aquileia in 170, the first enemy army in Italy in nearly three centuries. Emperor Marcus Aurelius sold palace treasures at auction in Trajan's Forum to fund the war, enlisted slaves and gladiators, and spent most of his last decade on the Danube. His son Commodus made peace in 180, and his murder on the last day of 192 left no heir and no rule of succession.",
+     "support": [
+      "eu-166-marcomannic-wars",
+      "eu-180-commodus-peace"
+     ]
+    }
+   ],
+   "today": "Hadrian's Wall has been a UNESCO World Heritage Site since 1987, and the Lower German Limes and the western Danube Limes were added in 2021 as Frontiers of the Roman Empire. Romanian, a Romance language spoken across the former province, is the main claimed legacy of the 165 years Rome held Dacia; whether its speakers descend from the provincials or from Latin speakers who later crossed the Danube is still disputed."
+  },
+  {
+   "id": "soldiers-throne",
+   "size": "story",
+   "title": "The Soldiers' Throne",
+   "sub": "from Septimius Severus to Constantine, 193 to 337",
+   "span": [
+    193,
+    337
+   ],
+   "parent": "roman-empire",
+   "thesis": "In the third century the armies' claims on the throne and the treasury outran the silver that paid them, and the empire was saved by soldier-emperors from the Danube who built a heavier state that taxed in kind and paid in gold.",
+   "assumptions": [
+    "Assumes debasement was a symptom of fiscal strain; several emperors used it as a deliberate policy that worked for a time.",
+    "Assumes the Sasanian revival was the larger new cost; the German and Gothic pressure arrived in the same decades and the two are hard to separate.",
+    "Assumes the reforms of Diocletian and Constantine were a solution; the larger and costlier state they built may be one cause of the West's later weakness."
+   ],
+   "disconfirm": "If the thesis were wrong, the usurpations of 235 to 284 should track something other than pay and frontier defeats: dynastic accident, senatorial politics or regional separatism alone. The Gallic and Palmyrene breakaways argue for regionalism; both formed to defend frontiers the centre could not reach, which keeps them inside the thesis, but a breakaway that formed without a military emergency would count against it.",
+   "awkward": "Military recovery and monetary collapse ran in opposite directions. The steepest price rises in the Egyptian papyri follow Aurelian's restoration of 274 and come again under Diocletian, the emperors who ended the crisis, so restoring the army's loop did not restore the coin.",
+   "shelf": [
+    {
+     "a": "Clifford Ando",
+     "t": "Imperial Rome AD 193 to 284: The Critical Century",
+     "y": 2012
+    },
+    {
+     "a": "David S. Potter",
+     "t": "The Roman Empire at Bay, AD 180-395",
+     "y": 2004
+    },
+    {
+     "a": "Stephen Williams",
+     "t": "Diocletian and the Roman Recovery",
+     "y": 1985
+    },
+    {
+     "a": "A. H. M. Jones",
+     "t": "The Later Roman Empire, 284-602",
+     "y": 1964
+    },
+    {
+     "a": "Kyle Harper",
+     "t": "The Fate of Rome: Climate, Disease, and the End of an Empire",
+     "y": 2017
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The pay rise",
+     "hinge": "eu-193-severus",
+     "conn": null,
+     "s1": "Septimius Severus took the throne in 193 with the Danube legions and kept it by paying the army more than the silver supply could carry.",
+     "s2": "After the Praetorian Guard killed Emperor Pertinax and sold the throne to the senator Didius Julianus, Septimius Severus, governor of Upper Pannonia, marched on Rome, dismissed the Guard and refilled it from his own Danube legions. Around 197 he raised legionary pay from 300 to 400 denarii, let serving soldiers live with their wives, and added three new legions; to pay for it the denarius fell from about 78 to 54 per cent silver by 196. His son Caracalla raised pay again by half and in 212 made nearly every free inhabitant a citizen, bringing millions under the inheritance tax that funded veterans' pensions, whose rate he doubled to 10 per cent. His antoninianus of 215 passed for two denarii and held the silver of about one and a half. Severus's reported deathbed advice to his sons, to enrich the soldiers and scorn everyone else, is the dynasty's own summary.",
+     "support": [
+      "eu-197-severus-army-pay",
+      "eu-212-constitutio-antoniniana",
+      "eu-215-antoninianus"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Two fronts",
+     "hinge": "eu-235-crisis-235",
+     "conn": "but",
+     "s1": "A reformed Persian monarchy in the east and new Germanic and Gothic coalitions in the north arrived together, and the army Severus had bought began killing emperors who could not win on both fronts.",
+     "s2": "Ardashir I overthrew the last Parthian king in 224, claimed the lands of the Achaemenids, and took Nisibis and Carrhae from Rome in the late 230s. Emperor Severus Alexander, who tried to buy peace from the Alamanni on the Rhine in 235, was murdered by his own troops near Mainz, and his successor Maximinus, a Thracian officer, never set foot in Rome. At least twenty-six men claimed the throne in the next fifty years, and most died at their soldiers' hands. In 251 the Goths killed Emperor Decius and his son at Abritus in Moesia, the first emperor to die fighting a foreign enemy. An epidemic recorded at Alexandria in 249 reached Rome by 251 and reportedly killed 5,000 a day there at its height, cutting recruits and taxpayers at the same time.",
+     "support": [
+      "me-224-sasanian",
+      "me-249-plague-cyprian",
+      "eu-251-abritus"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "The breaking",
+     "hinge": "me-260-valerian-captured",
+     "conn": "therefore",
+     "s1": "Shapur I's capture of Emperor Valerian in 260 split the empire in three, as frontier armies that the centre could not protect made emperors of their own.",
+     "s2": "Shah Shapur I had destroyed a Roman army at Barbalissos and sacked Antioch in the 250s; at Edessa in 260 he took Valerian prisoner, the first Roman emperor captured by a foreign enemy, and his rock reliefs at Naqsh-e Rostam and Bishapur still show Roman emperors submitting to him. Valerian's son Gallienus kept Italy, Africa and the Danube. On the Rhine the general Postumus was proclaimed by his troops after a quarrel over booty, and his Gallic Empire held Gaul, Britain and for a time Spain until 274. In the east Odaenathus of Palmyra drove Shapur back under a Roman title, and in 270 his widow Zenobia took Egypt and its grain. By then the antoninianus was a bronze coin with a silver wash, and the mints of Gaul and Italy were striking against each other.",
+     "support": [
+      "eu-260-gallic-empire",
+      "me-270-palmyra-egypt"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "The restoration",
+     "hinge": "eu-274-aurelian-reunites",
+     "conn": "but",
+     "s1": "Aurelian, a Danubian officer, reunited the three parts between 272 and 274 and paid for it by giving up Dacia and walling Rome.",
+     "s2": "Proclaimed by the legions at Sirmium in 270, Aurelian drove Alamanni and Juthungi out of Italy and in 271 began a brick wall 19 kilometres round the capital, Rome's first new circuit since the fourth century BCE. He withdrew the army and administration from Dacia, the province Trajan had taken for its gold, and resettled them south of the Danube. He took Palmyra in 272 and razed it after a second revolt in 273, and the Gallic emperor Tetricus surrendered at Châlons in 274. His coin reform of about 274 retariffed the antoninianus at a stated 5 per cent silver, and prices in Egypt rose several-fold within a few years. His own officers murdered him in Thrace in 275.",
+     "support": [
+      "eu-271-aurelian-walls",
+      "eu-271-dacia-abandoned"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The rebuild",
+     "hinge": "eu-284-diocletian",
+     "conn": "therefore",
+     "s1": "Diocletian rebuilt the bargain on a new base: more emperors to stop usurpers, a larger army, and a tax assessed in kind on land and labour that no longer depended on the coin.",
+     "s2": "Diocletian, another Danubian officer, was acclaimed by the army at Nicomedia in 284 and ruled for twenty-one years, the longest reign since Antoninus Pius. From 1 March 293 four rulers, two senior Augusti and two Caesars, each had an army and a court, so that no frontier lay far from an emperor who could stop a local usurper. The army grew to perhaps 400,000 or more, the provinces were cut into about a hundred under twelve dioceses, and from at least 297 the state assessed land and labour in fixed units and collected much of the tax as grain, meat and cloth for the troops. The price edict of 301 fixed maximum prices for more than a thousand goods and services on pain of death and was dead within a few years; a currency edict the same year doubled the face value of the coinage.",
+     "support": [
+      "eu-293-tetrarchy",
+      "me-297-diocletian-tax",
+      "me-301-prices-edict"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "The new centre",
+     "hinge": "eu-330-constantinople",
+     "conn": "but",
+     "s1": "Constantine broke the tetrarchy he inherited and kept its fiscal machine, adding a gold coin that held its value for seven centuries and a capital at the junction of the frontiers that mattered.",
+     "s2": "The army at York proclaimed Constantine on his father's death in July 306 in breach of the tetrarchic rules, and eighteen years of war among the successors ended at Chrysopolis in 324, where he defeated Licinius and became sole emperor. His solidus, struck at 72 to the pound of gold from about 309, became the coin in which the state paid salaries and demanded taxes; gold taken from temple treasuries after 324 helped supply it, while the silver and bronze coins kept losing value beneath it. He dedicated Constantinople on 11 May 330 on the strait between the Danube and Euphrates fronts, gave it a Senate, and from 332 fed it with a free grain ration shipped from Egypt. The eastern half of the empire, with the richer cities and the larger tax base, now had its own centre.",
+     "support": [
+      "eu-306-constantine-york",
+      "eu-309-solidus",
+      "me-324-chrysopolis"
+     ]
+    }
+   ],
+   "today": "The solidus lives on in the 's' of the old British pounds, shillings and pence, in the Italian 'soldo' and, through the French 'solde' for pay, in the word 'soldier'. Istanbul, the city dedicated in 330, had about 15.7 million people at the end of 2024."
+  },
+  {
+   "id": "western-collapse",
+   "size": "story",
+   "title": "The Western Collapse",
+   "sub": "from Adrianople to the Ostrogothic kingdom, 376 to 493",
+   "span": [
+    376,
+    493
+   ],
+   "parent": "roman-empire",
+   "thesis": "The western empire fell because armed peoples settled inside it carved away its tax base province by province faster than it could raise armies to recover them, and the loss of Africa in 439 was the point after which recovery was out of reach.",
+   "assumptions": [
+    "Assumes outside pressure mattered more than internal decay; a long tradition holds that the West had hollowed out before 376.",
+    "Assumes the East could not have saved the West; it tried in 468 and failed, but one failure is a thin sample.",
+    "Assumes 476 marks something real; in Italy the Senate, the law and the tax collectors carried on under Odoacer and Theodoric."
+   ],
+   "disconfirm": "If the thesis were wrong, the western government should have been bankrupt before the provinces went, or should have kept paying field armies after 439. The laws of 444, in which Valentinian III's government admitted it could not feed new recruits, come five years after Carthage fell; a comparable admission from before 406 would weaken the claim.",
+   "awkward": "The East faced the same Goths and Huns, lost the larger army at Adrianople, paid Attila thousands of pounds of gold, and survived intact. Geography did much of the work: the Theodosian Walls and the Bosporus kept invaders out of Anatolia, Syria and Egypt, where the East's taxes came from, and nothing comparable stood in front of Gaul, Spain or Africa.",
+   "shelf": [
+    {
+     "a": "Peter Heather",
+     "t": "The Fall of the Roman Empire: A New History",
+     "y": 2005
+    },
+    {
+     "a": "Bryan Ward-Perkins",
+     "t": "The Fall of Rome and the End of Civilization",
+     "y": 2005
+    },
+    {
+     "a": "Guy Halsall",
+     "t": "Barbarian Migrations and the Roman West, 376-568",
+     "y": 2007
+    },
+    {
+     "a": "Walter Goffart",
+     "t": "Barbarians and Romans, A.D. 418-584: The Techniques of Accommodation",
+     "y": 1980
+    },
+    {
+     "a": "Michael Kulikowski",
+     "t": "Rome's Gothic Wars: From the Third Century to Alaric",
+     "y": 2007
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The breach",
+     "hinge": "eu-378-adrianople",
+     "conn": null,
+     "s1": "The defeat at Adrianople in 378 put an armed Gothic people permanently inside the empire, on terms that let it keep its own leaders and its own army.",
+     "s2": "Tervingi and Greuthungi Goths, pushed by the Huns north of the Black Sea, were admitted across the Danube in 376 as recruits and settlers, and Roman officers' profiteering on their food supply drove them to revolt. Emperor Valens attacked them at Adrianople on 9 August 378 without waiting for his nephew Gratian's western army, and about two-thirds of the eastern field army died with him. Theodosius I could not rebuild fast enough to expel the Goths, and the treaty of 3 October 382 settled them on the lower Danube as a federated people under their own chiefs, owing soldiers rather than taxes. Every later settlement in the West followed that precedent: an armed group that served Rome for pay or land and could withhold its service to raise the price.",
+     "support": [
+      "eu-376-goths-cross",
+      "eu-382-gothic-treaty"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The division",
+     "hinge": "eu-395-division",
+     "conn": "therefore",
+     "s1": "Theodosius's death in 395 left the empire to two boy emperors whose courts treated each other as rivals, and the Gothic army in the Balkans learned to sell its service to each in turn.",
+     "s2": "Theodosius I beat the western usurper Eugenius at the Frigidus in September 394 with Gothic federates in the front line, where they took the heaviest losses, and died at Milan in January 395. His sons Arcadius, 17 or 18, in Constantinople and Honorius, 10, in the West were run by regents, the half-Vandal general Stilicho in the West and the prefect Rufinus in the East, who disputed control of the Balkan provinces of Illyricum. Alaric, leading the Balkan Goths from 395, extracted commands and pay from each court in turn. The East used the respite to build: the land walls of Constantinople, begun around 404 and finished by 413, held against every assault until 1453 and kept the East's tax base in Anatolia, Syria and Egypt behind them.",
+     "support": [
+      "eu-394-frigidus",
+      "eu-413-theodosian-walls"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "The unravelling",
+     "hinge": "eu-406-rhine-crossing",
+     "conn": "therefore",
+     "s1": "The crossing of the Rhine at the end of 406 began the dismemberment of the western tax base, and within twelve years Britain was gone, Spain overrun and Rome sacked.",
+     "s2": "Vandals, Alans and Suebi crossed the Rhine near Mainz on 31 December 406, while Stilicho's army was in Italy after defeating the Gothic invasion of Radagaisus. Britain's garrison raised its own emperor, Constantine III, who took the remaining troops to Gaul in 407; the island never returned, and in 410 Emperor Honorius told its cities to see to their own defence. Stilicho was executed in August 408, Roman troops then killed the families of federate soldiers across Italy, and perhaps 30,000 of those men joined Alaric. Alaric's Goths sacked Rome on 24 August 410 after Honorius, safe in Ravenna, refused them land and pay. In 418 the government settled the Goths in Aquitaine to fight the invaders in Spain, buying an army with a province whose taxes it would no longer fully collect.",
+     "support": [
+      "eu-408-stilicho-killed",
+      "eu-410-britain-rescript",
+      "eu-410-sack-410",
+      "eu-418-visigoths-aquitaine"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "The revenue",
+     "hinge": "me-439-vandals-carthage",
+     "conn": "but",
+     "s1": "The Vandal capture of Carthage in 439 took the West's richest surviving province, and after it the western government could not pay for the army it needed.",
+     "s2": "By the 430s the general Flavius Aetius had steadied Gaul with Hunnic auxiliaries, and Africa, which supplied Rome's grain and a large share of western revenue, was still intact. King Gaiseric took some 80,000 Vandals and Alans across from Spain in 429, besieged Hippo Regius, where its bishop Augustine died in 430, and seized Carthage with its harbour and shipping on 19 October 439. A treaty of 442 accepted the loss. In 444 Emperor Valentinian III's laws conceded that revenue could not feed new recruits or clothe the existing army, added a sales tax of one twenty-fourth, and ended the officials' exemption from the recruit levy. A Vandal fleet now sat astride the sea lanes to Sicily and Italy.",
+     "support": [
+      "me-429-vandals-africa",
+      "eu-444-western-tax-laws"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The Huns",
+     "hinge": "eu-451-catalaunian-plains",
+     "conn": "but",
+     "s1": "Attila's empire drained the East's gold and pinned the West's army in Gaul when it was needed for Africa, and its sudden end in 453 released the peoples it had held.",
+     "s2": "From the 440s Attila ran a confederation from the Hungarian plain that took tribute in gold from Constantinople; after he destroyed an eastern army on the Utus in 447, the peace of 448 raised the annual payment to 2,100 pounds. In 451 he turned west, and Aetius stopped him on the Catalaunian Plains in Champagne with an army whose core was Visigothic. Attila invaded Italy in 452 and withdrew with disease in his army, and he died in 453. His sons lost the subject Germanic peoples at the Nedao in 454, the year Valentinian III killed Aetius with his own hand in the palace. Valentinian was murdered in March 455, and that June a Vandal fleet from Carthage plundered Rome for two weeks.",
+     "support": [
+      "eu-447-attila-balkans",
+      "eu-453-attila-dies",
+      "eu-455-vandal-sack"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "The last throw",
+     "hinge": "eu-476-west-rome",
+     "conn": "therefore",
+     "s1": "The joint expedition against Carthage in 468 was the last attempt to recover the West's revenue, and its failure left the western throne a prize for generals until one of them stopped filling it in 476.",
+     "s2": "Eastern Emperor Leo I sent more than a thousand ships under his brother-in-law Basiliscus, at a cost that ancient writers put at about 64,000 pounds of gold and 700,000 of silver, and Gaiseric's fire-ships wrecked the fleet off Cape Bon. Without Africa the western emperors were creatures of their generals, and the general Ricimer made or broke five of them between 456 and 472. In 476 the army in Italy demanded land, the general Odoacer gave it to them, deposed the boy emperor Romulus Augustulus, and sent the imperial regalia to Constantinople. The Roman tax system carried on in Italy under Odoacer and then under the Ostrogothic king Theodoric, whom Emperor Zeno sent west and who killed Odoacer at a banquet in Ravenna in 493.",
+     "support": [
+      "me-468-cape-bon",
+      "eu-493-theodoric-italy"
+     ]
+    }
+   ],
+   "today": "The kingdoms that replaced the western empire are the ancestors of France, named after Clovis's Franks, and England, named after the Angles. Italy was not again governed from Rome as a single state until 1871."
+  },
+  {
+   "id": "spent-surplus",
+   "size": "story",
+   "title": "The Spent Surplus",
+   "sub": "the eastern empire from Anastasius to the Arab conquests, 491 to 641",
+   "span": [
+    491,
+    641
+   ],
+   "parent": "roman-empire",
+   "thesis": "The eastern empire spent its sixth-century surplus reconquering the West, lost a large share of its taxpayers to plague, and then fought Persia to mutual exhaustion, so that the Arab armies of the 630s found the provinces that paid for the Roman army held by forces the state could no longer pay.",
+   "assumptions": [
+    "Assumes Justinian's wars drained the East, although the reconquest of Africa probably repaid its cost in tax.",
+    "Assumes the plague's mortality was severe and lasting; recent work on papyri, coin finds and pollen argues for a smaller demographic effect.",
+    "Assumes Arab success owed much to Roman and Persian exhaustion; the conquerors' cohesion and command would have counted against stronger opponents too."
+   ],
+   "disconfirm": "If the thesis were wrong, Rome should have lost Syria and Egypt with a full treasury and a paid, rested army. Heraclius halved officials' salaries and melted church plate to fund the Persian war; if the army that broke at the Yarmuk had been well funded and at full strength, the cause lies with the conquerors rather than with Roman exhaustion.",
+   "awkward": "Rome won the war that is supposed to have exhausted it. Heraclius destroyed the Persian army at Nineveh in 627 and recovered every lost province by 630, while Persia fell into civil war and was conquered outright. Exhaustion explains why both lost provinces; Constantinople's walls and the distance of Anatolia explain why one of them survived.",
+   "shelf": [
+    {
+     "a": "James Howard-Johnston",
+     "t": "Witnesses to a World Crisis: Historians and Histories of the Middle East in the Seventh Century",
+     "y": 2010
+    },
+    {
+     "a": "Walter E. Kaegi",
+     "t": "Heraclius, Emperor of Byzantium",
+     "y": 2003
+    },
+    {
+     "a": "Peter Sarris",
+     "t": "Empires of Faith: The Fall of Rome to the Rise of Islam, 500-700",
+     "y": 2011
+    },
+    {
+     "a": "Fred M. Donner",
+     "t": "The Early Islamic Conquests",
+     "y": 1981
+    },
+    {
+     "a": "Michael Maas (ed.)",
+     "t": "The Cambridge Companion to the Age of Justinian",
+     "y": 2005
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "The surplus",
+     "hinge": "eu-533-justinian-war",
+     "conn": null,
+     "s1": "Justinian inherited the largest reserve in the empire's history and spent it recovering Africa and Italy, buying peace from Persia to free the army.",
+     "s2": "Emperor Anastasius I restored a sound bronze coinage in 498, converted much tax in kind into gold payments, and left 320,000 pounds of gold at his death in 518. Justinian I, emperor from 527, bought the Perpetual Peace of 532 from Khosrow I of Persia for 11,000 pounds of gold. The Nika riot of January 532, aimed at his tax ministers, nearly drove him from the city, and his general Belisarius ended it by killing some 30,000 people in the Hippodrome. In 533 Belisarius took Vandal Africa with about 15,000 men in a single campaign, and in 535 began the war for Italy, where the Ostrogothic kings still collected Roman taxes through Roman officials. Africa repaid its conquest; Italy took twenty years.",
+     "support": [
+      "eu-498-anastasius-reform",
+      "me-532-perpetual-peace",
+      "eu-532-nika-riots"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The plague",
+     "hinge": "eu-541-plague-541",
+     "conn": "but",
+     "s1": "Bubonic plague reached the empire in 541, a year after Persia broke the peace, and struck the taxpayers and recruits that a two-front war required.",
+     "s2": "Khosrow I invaded Syria in 540 while the army was in Italy, sacked Antioch, and deported its people to a new city he built near Ctesiphon. The plague appeared at Pelusium in Egypt in 541 and reached Constantinople in spring 542, where one eyewitness put deaths at up to 10,000 a day; DNA from sixth-century graves in Bavaria has since confirmed Yersinia pestis as the agent. In 544 Justinian legislated against the higher wages and prices that the labour shortage had produced. The Italian war, close to won in 540, dragged on until 554, when the Pragmatic Sanction restored the landowners of an Italy wrecked by two decades of campaigning.",
+     "support": [
+      "me-540-antioch-sacked",
+      "eu-554-pragmatic-sanction"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "The mutiny",
+     "hinge": "me-602-byz-persia",
+     "conn": "therefore",
+     "s1": "Holding Italy, the Danube and the east at once with a plague-thinned treasury pushed Emperor Maurice to economise on the army, and the army's revolt in 602 gave Persia the pretext for the last great war.",
+     "s2": "The Lombards entered Italy in 568, three years after Justinian's death, and within a decade held most of the interior. The Avars, steppe horsemen who had taken the Huns' place on the Hungarian plain, took Sirmium in 582 after a two-year siege and opened the Balkans to Slav settlement. Maurice restored the deposed Khosrow II to the Persian throne in 591, gaining much of Armenia, and used the eastern peace to fight on the Danube. He had cut army pay by a quarter in 588, provoking a mutiny in the east, and in 602 he ordered the Balkan army to winter north of the river in Slav country, sparing the treasury the cost of winter quarters. The army marched on Constantinople under the junior officer Phocas and killed Maurice and his sons, and Khosrow invaded in 603 claiming to avenge his patron.",
+     "support": [
+      "eu-568-lombards",
+      "eu-582-sirmium"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "The near-death",
+     "hinge": "me-619-persians-egypt",
+     "conn": "therefore",
+     "s1": "The Persian conquest of Syria, Palestine and Egypt between 611 and 619 took away the provinces that fed and paid the empire, and in 626 Constantinople itself was under siege.",
+     "s2": "Heraclius, son of the exarch of Africa, sailed from Carthage and overthrew Phocas in October 610, then lost a battle outside Antioch in 613 that cut the empire's land route to the south. Jerusalem fell in 614 after a three-week siege, and the relic of the True Cross went to Ctesiphon. Shahrbaraz's army entered Egypt in 618 and took Alexandria in June 619; Constantinople's free bread ration, fed by Egyptian grain since 332, was abolished in 618. Heraclius considered moving the capital to Carthage, melted church plate into coin and cut salaries. In summer 626 an Avar and Slav army besieged the city from the European side while a Persian army waited across the Bosporus at Chalcedon, and the Roman fleet kept them apart until the siege failed.",
+     "support": [
+      "eu-610-heraclius",
+      "me-614-jerusalem-persians",
+      "eu-626-constantinople-siege"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The victory",
+     "hinge": "me-627-nineveh",
+     "conn": "but",
+     "s1": "Heraclius won the war by marching around the Persian armies into Mesopotamia, and by 630 Rome had its provinces back and Persia was in civil war.",
+     "s2": "From 624 Heraclius campaigned through Armenia and Azerbaijan, won an alliance with the Western Turkic khagan Tong Yabghu, whose horsemen joined him at the siege of Tiflis in 627, and late that year marched south into the Sasanian heartland. On 12 December 627 he destroyed the last Persian field army near the ruins of Nineveh. Khosrow II was overthrown and killed by his own nobles in 628, his son Kavad II made peace and died within months, and Persia went through a run of short-lived rulers until Yazdegerd III in 632. Heraclius returned the True Cross to Jerusalem in 629 or 630. The provinces he recovered had been under Persian rule for up to fifteen years, and their garrisons and tax registers had to be rebuilt by a treasury emptied by the war.",
+     "support": [
+      "me-627-turkic-alliance",
+      "me-628-khosrow-overthrown"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "The collapse",
+     "hinge": "me-636-islam-conquest",
+     "conn": "but",
+     "s1": "Arab armies united by Islam destroyed the Roman field army at the Yarmuk in 636 and took Egypt by 641, removing in six years the provinces that had paid for the army, and what remained was a Greek state of Anatolia and the Aegean.",
+     "s2": "Arab forces raided Palestine from 634 and beat a Roman army at Ajnadayn; at the Yarmuk in August 636 they destroyed the field army Heraclius had rebuilt, and he withdrew from Syria. Patriarch Sophronius surrendered Jerusalem to Caliph Umar in person in 637 or 638. Amr ibn al-As entered Egypt in December 639 with about 4,000 men, the fortress of Babylon fell in April 641, two months after Heraclius died, and the last Roman troops left Alexandria in September 642. The conquerors kept the Roman tax registers, written in Greek, and the Greek-speaking clerks who ran them until the turn of the eighth century. The surviving empire began to settle its armies on Anatolian land in the districts later called themes, replacing much of the cash pay that its revenue could no longer cover.",
+     "support": [
+      "me-636-yarmuk",
+      "me-637-jerusalem-surrender",
+      "me-641-egypt-arabs"
+     ]
+    }
+   ],
+   "today": "The Greek Orthodox Patriarchates of Antioch, seated in Damascus since the fourteenth century, and of Alexandria are the main institutional survivors of Roman rule in the provinces lost between 636 and 642. The Theodosian land walls are part of the Historic Areas of Istanbul, a UNESCO World Heritage Site since 1985."
+  }
+ ],
+ "new_events": [
+  {
+   "id": "eu-6-aerarium-militare",
+   "y": 6,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Augustus founds the military treasury",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Aerarium militare",
+   "c": [
+    "economic",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "eu-27-augustus"
+   ],
+   "why_selected": "Veterans' pensions moved from generals' promises to a state fund fed by the first direct tax on citizens since 167 BCE"
+  },
+  {
+   "id": "eu-14-legions-mutiny",
+   "y": 14,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Rhine and Danube legions mutiny",
+   "where": "Rhine camps and Pannonia",
+   "lat": 50.94,
+   "lon": 6.96,
+   "wk": "Germanicus",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "eu-6-aerarium-militare"
+   ],
+   "why_selected": "At the first succession the legions struck over pay and length of service; the price of the bargain made visible"
+  },
+  {
+   "id": "eu-16-germanicus-recalled",
+   "y": 16,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Tiberius halts conquest beyond the Rhine",
+   "where": "Lower Rhine (Vetera)",
+   "lat": 51.66,
+   "lon": 6.45,
+   "wk": "Tiberius",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-9-teutoburg",
+    "eu-14-legions-mutiny"
+   ],
+   "why_selected": "Recall of Germanicus after three costly campaigns fixed the Rhine as the frontier for four centuries"
+  },
+  {
+   "id": "eu-41-claudius-praetorians",
+   "y": 41,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Praetorians make Claudius emperor",
+   "where": "Palatine, Rome",
+   "lat": 41.889,
+   "lon": 12.487,
+   "wk": "Claudius",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "eu-27-augustus"
+   ],
+   "why_selected": "First emperor chosen by soldiers; his donative of 15,000 sesterces a man set the price of later accessions"
+  },
+  {
+   "id": "eu-43-britain-invasion",
+   "y": 43,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Claudius invades Britain",
+   "where": "Richborough, Kent",
+   "lat": 51.29,
+   "lon": 1.33,
+   "wk": "Roman conquest of Britain",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-41-claudius-praetorians"
+   ],
+   "why_selected": "A conquest for prestige that tied down four legions, about an eighth of the army, on a province that never paid for them"
+  },
+  {
+   "id": "eu-64-nero-denarius",
+   "y": 64,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Nero cuts the silver denarius",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Denarius",
+   "c": [
+    "economic"
+   ],
+   "t": [
+    "money",
+    "empire"
+   ],
+   "causes": [
+    "eu-27-augustus"
+   ],
+   "why_selected": "First reduction of the imperial silver coin, to 1/96 of a pound; the start of the long debasement that paid the army"
+  },
+  {
+   "id": "eu-69-four-emperors",
+   "y": 69,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Four emperors in one year",
+   "where": "Rome and Bedriacum",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Year of the Four Emperors",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-41-claudius-praetorians",
+    "eu-64-nero-denarius"
+   ],
+   "why_selected": "First civil war of the empire, decided by provincial armies; showed an emperor could be made away from Rome"
+  },
+  {
+   "id": "eu-84-domitian-pay",
+   "y": 84,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Domitian raises army pay by a third",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Domitian",
+   "c": [
+    "economic",
+    "war"
+   ],
+   "t": [
+    "money",
+    "empire"
+   ],
+   "causes": [
+    "eu-69-four-emperors"
+   ],
+   "why_selected": "First rise in legionary pay since Augustus, to 300 denarii; the army's claim on revenue ratcheted upward from here"
+  },
+  {
+   "id": "eu-97-nerva-adopts-trajan",
+   "y": 97,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Nerva adopts Trajan as heir",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Nerva–Antonine dynasty",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-84-domitian-pay"
+   ],
+   "why_selected": "Adoption of a frontier general gave four successions without civil war from 98 to 161"
+  },
+  {
+   "id": "eu-106-dacia-annexed",
+   "y": 106,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Trajan annexes Dacia",
+   "where": "Sarmizegetusa Regia, Romania",
+   "lat": 45.62,
+   "lon": 23.31,
+   "wk": "Trajan's Dacian Wars",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "eu-97-nerva-adopts-trajan"
+   ],
+   "why_selected": "Last large conquest that paid for itself, in Dacian royal gold and the mines of Alburnus Maior"
+  },
+  {
+   "id": "me-116-trajan-mesopotamia",
+   "y": 116,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-27-augustus",
+   "h": "Trajan reaches the Persian Gulf",
+   "where": "Ctesiphon, Iraq",
+   "lat": 33.09,
+   "lon": 44.58,
+   "wk": "Trajan's Parthian campaign",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-106-dacia-annexed"
+   ],
+   "why_selected": "High-water mark of the empire; the new provinces revolted at once and were given up within a year"
+  },
+  {
+   "id": "eu-122-hadrians-wall",
+   "y": 122,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-27-augustus",
+   "h": "Hadrian begins his wall in Britain",
+   "where": "Housesteads, Northumberland",
+   "lat": 55.01,
+   "lon": -2.33,
+   "wk": "Hadrian's Wall",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-117-hadrian",
+    "me-116-trajan-mesopotamia"
+   ],
+   "why_selected": "The plainest statement of the fixed-frontier policy: the empire defended what its taxes could pay for"
+  },
+  {
+   "id": "eu-166-marcomannic-wars",
+   "y": 166,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-476-west-rome",
+   "h": "Marcomannic Wars break the Danube line",
+   "where": "Aquileia, Italy",
+   "lat": 45.77,
+   "lon": 13.37,
+   "wk": "Marcomannic Wars",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-165-antonine-plague"
+   ],
+   "why_selected": "Germanic coalitions crossed the Danube and besieged Aquileia in 170, the first invasion of Italy in nearly three centuries"
+  },
+  {
+   "id": "eu-180-commodus-peace",
+   "y": 180,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Commodus makes peace on the Danube",
+   "where": "Vindobona (Vienna)",
+   "lat": 48.21,
+   "lon": 16.37,
+   "wk": "Commodus",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-166-marcomannic-wars"
+   ],
+   "why_selected": "End of the adoptive succession; his murder in 192 left no heir and opened the throne to the armies"
+  },
+  {
+   "id": "eu-193-severus",
+   "y": 193,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-476-west-rome",
+   "h": "Severus seizes Rome with the Danube legions",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Year of the Five Emperors",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-180-commodus-peace",
+    "eu-69-four-emperors"
+   ],
+   "why_selected": "After the Guard sold the throne, a frontier army took it; founded a dynasty that rested openly on the soldiers"
+  },
+  {
+   "id": "eu-197-severus-army-pay",
+   "y": 197,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Severus raises pay and lets soldiers marry",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Septimius Severus",
+   "bt": "biography/Septimius-Severus",
+   "c": [
+    "economic",
+    "war"
+   ],
+   "t": [
+    "money",
+    "empire"
+   ],
+   "causes": [
+    "eu-193-severus"
+   ],
+   "why_selected": "Pay rose from 300 to 400 denarii while the denarius fell to about half silver; the army's cost outran the mines"
+  },
+  {
+   "id": "eu-212-constitutio-antoniniana",
+   "y": 212,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-476-west-rome",
+   "h": "Caracalla makes free provincials citizens",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Constitutio Antoniniana",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "law",
+    "rights"
+   ],
+   "causes": [
+    "eu-197-severus-army-pay"
+   ],
+   "why_selected": "Citizenship for nearly all free inhabitants, which widened the base of the inheritance tax that paid veterans"
+  },
+  {
+   "id": "eu-215-antoninianus",
+   "y": 215,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Caracalla issues the antoninianus",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Antoninianus",
+   "c": [
+    "economic"
+   ],
+   "t": [
+    "money"
+   ],
+   "causes": [
+    "eu-212-constitutio-antoniniana"
+   ],
+   "why_selected": "A 'double denarius' with about 1.5 denarii of silver; the coin whose collapse marks the third-century crisis"
+  },
+  {
+   "id": "me-249-plague-cyprian",
+   "y": 249,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Plague of Cyprian spreads from Egypt",
+   "where": "Alexandria, Egypt",
+   "lat": 31.2,
+   "lon": 29.92,
+   "wk": "Plague of Cyprian",
+   "c": [
+    "science",
+    "economic"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-165-antonine-plague"
+   ],
+   "why_selected": "A second pandemic that cut recruits and taxpayers in the worst decades of the crisis"
+  },
+  {
+   "id": "eu-251-abritus",
+   "y": 251,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Goths kill Emperor Decius at Abritus",
+   "where": "Abritus (Razgrad), Bulgaria",
+   "lat": 43.53,
+   "lon": 26.52,
+   "wk": "Battle of Abritus",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-235-crisis-235"
+   ],
+   "why_selected": "First Roman emperor killed in battle by a foreign enemy; the Danube line no longer held"
+  },
+  {
+   "id": "me-260-valerian-captured",
+   "y": 260,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-476-west-rome",
+   "h": "Shapur I captures Emperor Valerian",
+   "where": "Edessa (Şanlıurfa), Turkey",
+   "lat": 37.16,
+   "lon": 38.79,
+   "wk": "Battle of Edessa",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-224-sasanian",
+    "eu-251-abritus"
+   ],
+   "why_selected": "First Roman emperor taken prisoner by a foreign enemy; the shock split the empire into three"
+  },
+  {
+   "id": "eu-260-gallic-empire",
+   "y": 260,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Postumus founds the Gallic Empire",
+   "where": "Cologne, Germany",
+   "lat": 50.94,
+   "lon": 6.96,
+   "wk": "Gallic Empire",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-260-valerian-captured"
+   ],
+   "why_selected": "The Rhine army made its own emperor to defend a frontier the centre could not reach; held Gaul and Britain until 274"
+  },
+  {
+   "id": "me-270-palmyra-egypt",
+   "y": 270,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Zenobia's Palmyra seizes Egypt",
+   "where": "Palmyra, Syria",
+   "lat": 34.55,
+   "lon": 38.27,
+   "wk": "Palmyrene Empire",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-260-valerian-captured"
+   ],
+   "why_selected": "An eastern client state turned rival took the empire's granary; Aurelian destroyed it in 272-273"
+  },
+  {
+   "id": "eu-271-aurelian-walls",
+   "y": 271,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Aurelian walls the city of Rome",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Aurelian Walls",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-251-abritus"
+   ],
+   "why_selected": "Rome's first new circuit wall since the fourth century BCE; the frontier no longer protected the core"
+  },
+  {
+   "id": "eu-271-dacia-abandoned",
+   "y": 271,
+   "approx": true,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Rome abandons Dacia",
+   "where": "Ulpia Traiana Sarmizegetusa, Romania",
+   "lat": 45.51,
+   "lon": 22.79,
+   "wk": "Roman Dacia",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-251-abritus"
+   ],
+   "why_selected": "First permanent surrender of a province; shortened the Danube line to free troops"
+  },
+  {
+   "id": "eu-274-aurelian-reunites",
+   "y": 274,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Aurelian reunites the empire",
+   "where": "Châlons-en-Champagne, France",
+   "lat": 48.96,
+   "lon": 4.36,
+   "wk": "Aurelian",
+   "c": [
+    "war",
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "eu-260-gallic-empire",
+    "me-270-palmyra-egypt"
+   ],
+   "why_selected": "Danubian soldier-emperor ended the Gallic and Palmyrene breakaways and tried to restore the coin"
+  },
+  {
+   "id": "eu-293-tetrarchy",
+   "y": 293,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Diocletian creates the Tetrarchy",
+   "where": "Milan, Italy",
+   "lat": 45.46,
+   "lon": 9.19,
+   "wk": "Tetrarchy",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-284-diocletian"
+   ],
+   "why_selected": "Four rulers with four armies, so that every frontier had an emperor near enough to stop a usurper"
+  },
+  {
+   "id": "me-297-diocletian-tax",
+   "y": 297,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Diocletian reforms the land tax",
+   "where": "Nicomedia (İzmit), Turkey",
+   "lat": 40.77,
+   "lon": 29.92,
+   "wk": "Diocletian",
+   "c": [
+    "economic",
+    "political"
+   ],
+   "t": [
+    "money",
+    "empire",
+    "law"
+   ],
+   "causes": [
+    "eu-284-diocletian"
+   ],
+   "why_selected": "Tax assessed on fixed units of land and labour and collected largely in kind; freed the army's supply from the failed coin"
+  },
+  {
+   "id": "me-301-prices-edict",
+   "y": 301,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Diocletian fixes maximum prices",
+   "where": "Nicomedia (İzmit), Turkey",
+   "lat": 40.77,
+   "lon": 29.92,
+   "wk": "Edict on Maximum Prices",
+   "c": [
+    "economic"
+   ],
+   "t": [
+    "money",
+    "law"
+   ],
+   "causes": [
+    "me-297-diocletian-tax"
+   ],
+   "why_selected": "Price caps on over a thousand goods, on pain of death, ignored within years; evidence of inflation the reforms could not stop"
+  },
+  {
+   "id": "eu-306-constantine-york",
+   "y": 306,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Army at York proclaims Constantine",
+   "where": "York, England",
+   "lat": 53.96,
+   "lon": -1.08,
+   "wk": "Constantine the Great",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-293-tetrarchy"
+   ],
+   "why_selected": "Soldiers' choice of a dead emperor's son broke the tetrarchic succession and began 18 years of civil war"
+  },
+  {
+   "id": "eu-309-solidus",
+   "y": 309,
+   "approx": true,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Constantine strikes the gold solidus",
+   "where": "Trier, Germany",
+   "lat": 49.75,
+   "lon": 6.64,
+   "wk": "Solidus (coin)",
+   "c": [
+    "economic"
+   ],
+   "t": [
+    "money",
+    "empire"
+   ],
+   "causes": [
+    "eu-306-constantine-york",
+    "eu-274-aurelian-reunites"
+   ],
+   "why_selected": "Gold coin at 72 to the pound that held its standard for seven centuries; the late empire paid and taxed in it"
+  },
+  {
+   "id": "me-324-chrysopolis",
+   "y": 324,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Constantine defeats Licinius at Chrysopolis",
+   "where": "Chrysopolis (Üsküdar), Turkey",
+   "lat": 41.02,
+   "lon": 29.02,
+   "wk": "Battle of Chrysopolis",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-306-constantine-york"
+   ],
+   "why_selected": "Ended the tetrarchy's civil wars with one emperor, who chose the site across the strait for his new capital"
+  },
+  {
+   "id": "eu-382-gothic-treaty",
+   "y": 382,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-476-west-rome",
+   "h": "Theodosius settles the Goths as federates",
+   "where": "Lower Danube (Moesia)",
+   "lat": 43.22,
+   "lon": 25.61,
+   "wk": "Gothic War (376–382)",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "eu-378-adrianople"
+   ],
+   "why_selected": "First settlement of an autonomous armed people inside the empire under its own leaders; the model for the West's dismemberment"
+  },
+  {
+   "id": "eu-394-frigidus",
+   "y": 394,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Theodosius wins at the Frigidus",
+   "where": "Vipava valley, Slovenia",
+   "lat": 45.89,
+   "lon": 13.91,
+   "wk": "Battle of the Frigidus",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-382-gothic-treaty"
+   ],
+   "why_selected": "Last reunification of the whole empire under one ruler, won with Gothic federates who took the heaviest losses"
+  },
+  {
+   "id": "eu-395-division",
+   "y": 395,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-476-west-rome",
+   "h": "Empire divided between Theodosius's sons",
+   "where": "Milan, Italy",
+   "lat": 45.46,
+   "lon": 9.19,
+   "wk": "Theodosius I",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-394-frigidus"
+   ],
+   "why_selected": "Permanent split into eastern and western courts that competed for the Balkans and for the Goths' service"
+  },
+  {
+   "id": "eu-406-rhine-crossing",
+   "y": 406,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-476-west-rome",
+   "h": "Vandals, Alans and Suebi cross the Rhine",
+   "where": "Mainz, Germany",
+   "lat": 50.0,
+   "lon": 8.27,
+   "wk": "Crossing of the Rhine",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "eu-395-division",
+    "eu-376-goths-cross"
+   ],
+   "why_selected": "Began the loss of the western provinces' taxes: Gaul plundered, Britain cut off, Spain overrun by 409"
+  },
+  {
+   "id": "eu-408-stilicho-killed",
+   "y": 408,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Honorius executes Stilicho",
+   "where": "Ravenna, Italy",
+   "lat": 44.42,
+   "lon": 12.2,
+   "wk": "Stilicho",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-406-rhine-crossing"
+   ],
+   "why_selected": "Purge of the West's commander and massacre of federate soldiers' families sent perhaps 30,000 men to Alaric"
+  },
+  {
+   "id": "eu-410-britain-rescript",
+   "y": 410,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Rome leaves Britain to its own defence",
+   "where": "Londinium (London)",
+   "lat": 51.51,
+   "lon": -0.13,
+   "wk": "Rescript of Honorius",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-406-rhine-crossing"
+   ],
+   "why_selected": "First western diocese given up; its garrison had already left with the usurper Constantine III in 407"
+  },
+  {
+   "id": "eu-413-theodosian-walls",
+   "y": 413,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Land walls of Constantinople completed",
+   "where": "Constantinople (Istanbul)",
+   "lat": 41.02,
+   "lon": 28.92,
+   "wk": "Walls of Constantinople",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-395-division"
+   ],
+   "why_selected": "The barrier that kept invaders out of the East's tax base in Anatolia, Syria and Egypt; never breached until 1453"
+  },
+  {
+   "id": "eu-418-visigoths-aquitaine",
+   "y": 418,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Visigoths settled in Aquitaine",
+   "where": "Toulouse, France",
+   "lat": 43.6,
+   "lon": 1.44,
+   "wk": "Visigothic Kingdom",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-410-sack-410"
+   ],
+   "why_selected": "An army bought with a province: the first of the barbarian kingdoms carved from western taxpaying land"
+  },
+  {
+   "id": "me-429-vandals-africa",
+   "y": 429,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Vandals cross into Africa",
+   "where": "Hippo Regius (Annaba), Algeria",
+   "lat": 36.88,
+   "lon": 7.75,
+   "wk": "Vandal Kingdom",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-406-rhine-crossing",
+    "eu-418-visigoths-aquitaine"
+   ],
+   "why_selected": "About 80,000 Vandals and Alans crossed from Spain to the one western region still untouched and paying"
+  },
+  {
+   "id": "eu-444-western-tax-laws",
+   "y": 444,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "West admits it cannot pay its army",
+   "where": "Ravenna, Italy",
+   "lat": 44.42,
+   "lon": 12.2,
+   "wk": "Valentinian III",
+   "bt": "biography/Valentinian-III",
+   "c": [
+    "economic",
+    "political"
+   ],
+   "t": [
+    "money",
+    "empire"
+   ],
+   "causes": [
+    "me-439-vandals-carthage"
+   ],
+   "why_selected": "Laws of Valentinian III conceding there was not enough revenue to feed new recruits; new sales tax and an end to exemptions"
+  },
+  {
+   "id": "eu-447-attila-balkans",
+   "y": 447,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Attila crushes an eastern army",
+   "where": "Utus (Vit) river, Bulgaria",
+   "lat": 43.4,
+   "lon": 24.6,
+   "wk": "Battle of the Utus",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "eu-376-goths-cross"
+   ],
+   "why_selected": "Forced the peace of 448 and a tribute of 2,100 pounds of gold a year; the Huns drained the East's surplus"
+  },
+  {
+   "id": "eu-451-catalaunian-plains",
+   "y": 451,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-476-west-rome",
+   "h": "Aetius halts Attila in Gaul",
+   "where": "Catalaunian Plains, Champagne",
+   "lat": 48.96,
+   "lon": 4.36,
+   "wk": "Battle of the Catalaunian Plains",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "eu-447-attila-balkans"
+   ],
+   "why_selected": "The West's last great field victory, won with Visigothic allies while Africa stayed lost"
+  },
+  {
+   "id": "eu-453-attila-dies",
+   "y": 453,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Attila dies and his empire breaks up",
+   "where": "Hungarian plain",
+   "lat": 47.2,
+   "lon": 19.5,
+   "wk": "Attila",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "steppe",
+    "empire"
+   ],
+   "causes": [
+    "eu-451-catalaunian-plains"
+   ],
+   "why_selected": "Release of the subject Germanic peoples after Nedao (454) and the end of the Hun auxiliaries the West had relied on"
+  },
+  {
+   "id": "eu-455-vandal-sack",
+   "y": 455,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-476-west-rome",
+   "h": "Vandals sack Rome",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Sack of Rome (455)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-439-vandals-carthage",
+    "eu-453-attila-dies"
+   ],
+   "why_selected": "Gaiseric's fleet from Carthage plundered Rome for two weeks after Valentinian III's murder ended the Theodosian line in the West"
+  },
+  {
+   "id": "me-468-cape-bon",
+   "y": 468,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-476-west-rome",
+   "h": "Roman armada against the Vandals destroyed",
+   "where": "Cape Bon, Tunisia",
+   "lat": 37.08,
+   "lon": 11.04,
+   "wk": "Battle of Cape Bon (468)",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "money"
+   ],
+   "causes": [
+    "me-439-vandals-carthage",
+    "eu-455-vandal-sack"
+   ],
+   "why_selected": "Last joint East-West attempt to recover Africa's revenue; its failure left the West without a fiscal base"
+  },
+  {
+   "id": "eu-493-theodoric-italy",
+   "y": 493,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-800-charlemagne",
+   "h": "Theodoric takes Italy from Odoacer",
+   "where": "Ravenna, Italy",
+   "lat": 44.42,
+   "lon": 12.2,
+   "wk": "Theodoric the Great",
+   "c": [
+    "political",
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-476-west-rome"
+   ],
+   "why_selected": "Ostrogothic kingdom that kept the Roman tax system and Senate running in Italy under a Gothic army"
+  },
+  {
+   "id": "eu-498-anastasius-reform",
+   "y": 498,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Anastasius reforms coinage and taxes",
+   "where": "Constantinople (Istanbul)",
+   "lat": 41.01,
+   "lon": 28.96,
+   "wk": "Anastasius I Dicorus",
+   "c": [
+    "economic"
+   ],
+   "t": [
+    "money",
+    "empire"
+   ],
+   "causes": [
+    "eu-309-solidus"
+   ],
+   "why_selected": "Sound bronze coinage and taxes commuted to gold; left a treasury of 320,000 pounds of gold in 518"
+  },
+  {
+   "id": "eu-532-nika-riots",
+   "y": 532,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Nika riots nearly topple Justinian",
+   "where": "Hippodrome, Constantinople",
+   "lat": 41.006,
+   "lon": 28.975,
+   "wk": "Nika riots",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-498-anastasius-reform"
+   ],
+   "why_selected": "Riot against Justinian's tax ministers ended with some 30,000 killed; the regime came out free to spend on war"
+  },
+  {
+   "id": "me-532-perpetual-peace",
+   "y": 532,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Justinian buys peace from Persia",
+   "where": "Dara, Turkey",
+   "lat": 37.18,
+   "lon": 40.95,
+   "wk": "Perpetual Peace (532)",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-224-sasanian"
+   ],
+   "why_selected": "11,000 pounds of gold to Khosrow I bought the eastern quiet that freed the army for Africa and Italy"
+  },
+  {
+   "id": "me-540-antioch-sacked",
+   "y": 540,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Khosrow I sacks Antioch",
+   "where": "Antioch (Antakya), Turkey",
+   "lat": 36.2,
+   "lon": 36.16,
+   "wk": "Khosrow I",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-532-perpetual-peace",
+    "eu-533-justinian-war"
+   ],
+   "why_selected": "Persia broke the peace while Rome's army was in Italy; Antioch's people were deported to a new city near Ctesiphon"
+  },
+  {
+   "id": "eu-554-pragmatic-sanction",
+   "y": 554,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Justinian settles a ruined Italy",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Pragmatic Sanction of 554",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "law"
+   ],
+   "causes": [
+    "eu-533-justinian-war",
+    "eu-541-plague-541"
+   ],
+   "why_selected": "Close of a twenty-year war that left Italy poorer than the Goths had found it and too weak to hold"
+  },
+  {
+   "id": "eu-568-lombards",
+   "y": 568,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Lombards invade Italy",
+   "where": "Forum Iulii (Cividale), Italy",
+   "lat": 46.09,
+   "lon": 13.43,
+   "wk": "Kingdom of the Lombards",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "eu-554-pragmatic-sanction"
+   ],
+   "why_selected": "Within a decade most of Justinian's Italy was lost; Rome and Ravenna became outposts"
+  },
+  {
+   "id": "eu-582-sirmium",
+   "y": 582,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Avars take Sirmium",
+   "where": "Sirmium (Sremska Mitrovica), Serbia",
+   "lat": 44.97,
+   "lon": 19.61,
+   "wk": "Sirmium",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "eu-568-lombards"
+   ],
+   "why_selected": "Fall of the key Danube fortress opened the Balkans to Avar raids and Slav settlement"
+  },
+  {
+   "id": "eu-610-heraclius",
+   "y": 610,
+   "approx": false,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Heraclius overthrows Phocas",
+   "where": "Constantinople (Istanbul)",
+   "lat": 41.01,
+   "lon": 28.96,
+   "wk": "Heraclius",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-602-byz-persia"
+   ],
+   "why_selected": "Coup from Carthage that put in power the emperor who would lose the east twice and win it back once"
+  },
+  {
+   "id": "me-614-jerusalem-persians",
+   "y": 614,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Persians take Jerusalem",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Sasanian conquest of Jerusalem",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "empire",
+    "faith",
+    "atrocity"
+   ],
+   "causes": [
+    "me-602-byz-persia"
+   ],
+   "why_selected": "Sack, deportation and the loss of the True Cross; Roman rule in Palestine broken for fifteen years"
+  },
+  {
+   "id": "me-619-persians-egypt",
+   "y": 619,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Persians conquer Egypt",
+   "where": "Alexandria, Egypt",
+   "lat": 31.2,
+   "lon": 29.92,
+   "wk": "Sasanian conquest of Egypt",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-614-jerusalem-persians"
+   ],
+   "why_selected": "Loss of the empire's granary and richest tax province; Constantinople's free bread ration ended in 618"
+  },
+  {
+   "id": "eu-626-constantinople-siege",
+   "y": 626,
+   "approx": false,
+   "r": "eu",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Avars and Persians besiege Constantinople",
+   "where": "Constantinople (Istanbul)",
+   "lat": 41.01,
+   "lon": 28.96,
+   "wk": "Siege of Constantinople (626)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "me-619-persians-egypt",
+    "eu-582-sirmium"
+   ],
+   "why_selected": "Walls and fleet kept the Avar and Persian armies apart; the capital's survival made the counter-offensive possible"
+  },
+  {
+   "id": "me-627-turkic-alliance",
+   "y": 627,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Western Turks join Heraclius at Tiflis",
+   "where": "Tiflis (Tbilisi), Georgia",
+   "lat": 41.69,
+   "lon": 44.8,
+   "wk": "Third Perso-Turkic War",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "steppe"
+   ],
+   "causes": [
+    "eu-626-constantinople-siege"
+   ],
+   "why_selected": "Steppe alliance arranged in 625 that opened a second front in the Caucasus and freed Heraclius to strike south"
+  },
+  {
+   "id": "me-627-nineveh",
+   "y": 627,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Heraclius destroys the Persian army at Nineveh",
+   "where": "Nineveh, near Mosul, Iraq",
+   "lat": 36.36,
+   "lon": 43.15,
+   "wk": "Battle of Nineveh (627)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "eu-626-constantinople-siege",
+    "me-627-turkic-alliance"
+   ],
+   "why_selected": "Decisive Roman victory of the last Roman-Persian war; Persia's collapse into civil war followed within weeks"
+  },
+  {
+   "id": "me-628-khosrow-overthrown",
+   "y": 628,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Khosrow II overthrown; Persia sues for peace",
+   "where": "Ctesiphon, Iraq",
+   "lat": 33.09,
+   "lon": 44.58,
+   "wk": "Khosrow II",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-627-nineveh"
+   ],
+   "why_selected": "Restored the old frontier and began four years of Persian succession struggles just before the Arab attack"
+  },
+  {
+   "id": "me-636-yarmuk",
+   "y": 636,
+   "approx": false,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Arabs destroy the Roman army at Yarmuk",
+   "where": "Yarmuk river, Syria-Jordan",
+   "lat": 32.8,
+   "lon": 35.95,
+   "wk": "Battle of the Yarmuk",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "faith"
+   ],
+   "causes": [
+    "me-628-khosrow-overthrown",
+    "me-622-hijra"
+   ],
+   "why_selected": "Loss of the eastern field army Heraclius had rebuilt; Syria abandoned"
+  },
+  {
+   "id": "me-637-jerusalem-surrender",
+   "y": 637,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Jerusalem surrenders to Caliph Umar",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Siege of Jerusalem (636–637)",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "empire",
+    "faith"
+   ],
+   "causes": [
+    "me-636-yarmuk"
+   ],
+   "why_selected": "Patriarch Sophronius gave the city to Umar in person; Palestine passed to the caliphate"
+  },
+  {
+   "id": "me-641-egypt-arabs",
+   "y": 641,
+   "approx": false,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Arabs take Egypt from Rome",
+   "where": "Babylon fortress (Old Cairo), Egypt",
+   "lat": 30.006,
+   "lon": 31.23,
+   "wk": "Muslim conquest of Egypt",
+   "c": [
+    "war",
+    "economic"
+   ],
+   "t": [
+    "empire",
+    "faith"
+   ],
+   "causes": [
+    "me-636-yarmuk"
+   ],
+   "why_selected": "Loss of the richest province and its grain; what remained of the empire had to rebuild its army on Anatolian land"
+  }
+ ]
+}

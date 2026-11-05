@@ -1,0 +1,2161 @@
+{
+ "arc": {
+  "id": "one-god",
+  "size": "arc",
+  "title": "Faith Follows Power",
+  "sub": "Judaism, Christianity and Islam as political events, c. 925 BCE to 750 CE",
+  "span": [
+   -925,
+   750
+  ],
+  "themes": {
+   "primary": "god",
+   "secondary": [
+    "power",
+    "war"
+   ]
+  },
+  "thesis": "Each of the three monotheisms took its lasting form from a political turn, Judaism from the loss of its state, Christianity from its capture of the Roman one and Islam from building its own, so that each faith's defining texts and divisions date from those turns more than from its founding teaching.",
+  "assumptions": [
+   "Assumes the forms that lasted (rabbinic Judaism, Nicene and Chalcedonian Christianity, Sunni and Shia Islam) are the right end-points; believers measure each faith by fidelity to revelation, which history cannot test.",
+   "Assumes political and religious motives can be separated for analysis; the Maccabees, the martyrs and the first caliphs drew no such line.",
+   "Assumes the narrative sources, most written by the winning party and often generations after the events, report the political sequence well enough to be tested against inscriptions, papyri, coins and outside chronicles."
+  ],
+  "disconfirm": "If the thesis were wrong, the defining texts and doctrines would be fixed before the political turns: a Torah complete under the kings, a Nicene consensus that held without emperors, a Sunni-Shia division over doctrine from its first day. Christianity's growth is the strongest test, since it went from a few thousand followers to perhaps a tenth of the Roman population by 300 with no state behind it.",
+  "awkward": "The Church of the East kept a Nicene creed with no Christian state behind it, organised in 410 under a Zoroastrian shah, and its missionary Alopen reached the Tang capital Chang'an in 635; the widest missionary reach of the period belonged to the one major church that never held power.",
+  "shelf": [
+   {
+    "a": "Garth Fowden",
+    "t": "Empire to Commonwealth: Consequences of Monotheism in Late Antiquity",
+    "y": 1993
+   },
+   {
+    "a": "Israel Finkelstein and Neil Asher Silberman",
+    "t": "The Bible Unearthed",
+    "y": 2001
+   },
+   {
+    "a": "Seth Schwartz",
+    "t": "Imperialism and Jewish Society, 200 B.C.E. to 640 C.E.",
+    "y": 2001
+   },
+   {
+    "a": "Peter Brown",
+    "t": "The Rise of Western Christendom",
+    "y": 1996
+   },
+   {
+    "a": "Fred M. Donner",
+    "t": "Muhammad and the Believers: At the Origins of Islam",
+    "y": 2010
+   }
+  ],
+  "stories": [
+   "law-without-state",
+   "imperial-church",
+   "who-should-rule"
+  ]
+ },
+ "stories": [
+  {
+   "id": "law-without-state",
+   "size": "story",
+   "title": "Law Without a State",
+   "sub": "Israel, Judah and the making of rabbinic Judaism, c. 925 BCE to 500 CE",
+   "span": [
+    -925,
+    500
+   ],
+   "parent": "one-god",
+   "thesis": "Judaism became a religion able to outlive its state because each destruction, by Assyria in 722 BCE, Babylon in 587 BCE and Rome in 70 and 135 CE, moved authority from king and Temple toward a written law and the scholars who interpreted it.",
+   "assumptions": [
+    "Assumes the biblical histories, written largely in Judah from the late seventh century BCE and revised in exile, give their authors' views, checkable against Assyrian, Babylonian and Persian records where they overlap.",
+    "Assumes the rabbinic line is the one to follow; the Samaritans, the Elephantine garrison and the Qumran community were also Israelite answers, and only the Samaritans survive, in small numbers."
+   ],
+   "disconfirm": "If the thesis were wrong, the text-centred religion would be visible before the losses: a complete Torah under the monarchy, or scholars governing Jewish life while kings and Temple stood. Josiah's reform of about 622 BCE is the test, since it put a book at the centre of worship 35 years before the first Temple fell.",
+   "awkward": "A century after the return from Babylon, the Jewish garrison at Elephantine on the Nile kept its own temple to Yahu, invoked Anat-Yahu and other gods beside him, and in 407 BCE petitioned the Persian governor of Judah and the sons of Samaria's governor for help rebuilding it; exile had produced no single law observed everywhere.",
+   "shelf": [
+    {
+     "a": "Israel Finkelstein and Neil Asher Silberman",
+     "t": "The Bible Unearthed",
+     "y": 2001
+    },
+    {
+     "a": "Mark S. Smith",
+     "t": "The Early History of God",
+     "y": 1990
+    },
+    {
+     "a": "Shaye J. D. Cohen",
+     "t": "From the Maccabees to the Mishnah",
+     "y": 1987
+    },
+    {
+     "a": "Martin Goodman",
+     "t": "Rome and Jerusalem: The Clash of Ancient Civilizations",
+     "y": 2007
+    },
+    {
+     "a": "Seth Schwartz",
+     "t": "Imperialism and Jewish Society, 200 B.C.E. to 640 C.E.",
+     "y": 2001
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "Judah alone",
+     "hinge": "me-722-samaria",
+     "conn": null,
+     "s1": "Assyria's destruction of the northern kingdom of Israel in 722 BCE left Judah, the smaller and poorer of two Yahweh-worshipping states, as the sole heir of their traditions.",
+     "s2": "Israel was the stronger kingdom for two centuries: its King Ahab fielded 2,000 chariots against the Assyrian King Shalmaneser III at Qarqar in 853 BCE, and King Mesha of Moab named its King Omri and its god Yahweh on a stele around 840 BCE, the earliest certain reference to Yahweh outside the Bible. The outside evidence for Judah is thinner: Pharaoh Shoshenq I's list of towns raided around 925 BCE names Megiddo and omits Jerusalem, and the only near-contemporary trace of David is the phrase read as 'House of David' on an Aramaean stele from Tel Dan. Assyria under Tiglath-Pileser III turned tribute into annexation, and Shalmaneser V and Sargon II took Samaria after a three-year siege, Sargon recording 27,290 deportees. Refugees went south, and Jerusalem's walled area expanded sharply in the late eighth century, the material basis for Judah's later claim to speak for all Israel. The Assyrian King Sennacherib took Lachish and, by his own count, 46 Judean towns in 701 BCE, but left Jerusalem standing under King Hezekiah for 30 talents of gold and 800 of silver.",
+     "support": [
+      "me-925-shoshenq",
+      "me-853-qarqar",
+      "me-840-mesha-stele",
+      "me-840-tel-dan-stele",
+      "me-745-tiglath-pileser",
+      "me-701-sennacherib"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The book in the Temple",
+     "hinge": "me-622-josiah",
+     "conn": "therefore",
+     "s1": "With Assyria in retreat, King Josiah of Judah centralised worship in Jerusalem around a written law, the first time a book was made the authority over Israelite religion.",
+     "s2": "The scroll the priest Hilkiah reported finding in the Temple around 622 BCE is identified by most scholars with a core of Deuteronomy, and the reform it licensed served the crown: rural shrines were closed, the old northern sanctuary at Bethel was desecrated, and sacrifice was confined to the capital the king controlled. Assyria's collapse made the programme possible, and the Medes and Babylonians sacked Nineveh in 612 BCE, leaving the Levant without a master. Josiah's freedom of action lasted thirteen years. Pharaoh Necho II, marching north to join the last Assyrian forces, killed him at Megiddo in 609 BCE, and the Babylonian Crown Prince Nebuchadnezzar destroyed the Egyptian army at Carchemish in 605 BCE, making Judah a Babylonian vassal. The reform's lasting product was a history: the books from Joshua to Kings judge every king by whether he centralised worship, and their first edition is widely dated to Josiah's court.",
+     "support": [
+      "me-612-nineveh-falls",
+      "me-609-megiddo",
+      "me-605-carchemish"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Exile",
+     "hinge": "me-587-jerusalem-587",
+     "conn": "but",
+     "s1": "Babylon destroyed Jerusalem and its Temple in 587 BCE and deported its elite, and the deportees, rather than those left in Judah, wrote the version of the religion that survived.",
+     "s2": "King Nebuchadnezzar II first took Jerusalem in March 597 BCE, deporting King Jehoiachin with the court and craftsmen, and returned in 587 BCE after the vassal King Zedekiah rebelled. Babylonian ration tablets list Jehoiachin, 'king of Judah', drawing oil at the Babylonian court, a rare outside confirmation of the biblical account. The exiles kept their identity through practices that needed no Temple, circumcision, the Sabbath and food rules, and through editing the texts of the prophets and the law. The Persian King Cyrus II took Babylon in 539 BCE and let the deportees return, a policy he applied to other peoples' cults as well, which is why the book of Isaiah calls him the Lord's anointed. Most exiles stayed, and Babylonia remained a centre of Jewish learning until the eleventh century CE.",
+     "support": [
+      "me-597-jerusalem-597",
+      "me-539-babylon-falls"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Temple and Torah",
+     "hinge": "me-516-second-temple",
+     "conn": "therefore",
+     "s1": "Under Persian rule Judah became a small temple-province governed by priests and Persian appointees, and in that setting the Torah was assembled and made the province's law.",
+     "s2": "The Second Temple was dedicated in 516 BCE under King Darius I, in a province of Yehud whose population is estimated in the tens of thousands at most, around a Jerusalem far smaller than the city Babylon had burned. Nehemiah, a Jewish official at the court of Artaxerxes I, came as governor in 445 BCE and rebuilt the walls in 52 days against the opposition of Sanballat, governor of Samaria. The scribe Ezra, dated either to 458 or to 398 BCE, is credited in the biblical account with reading the law of Moses to an assembly that bound itself to keep it; most scholars place the final compilation of the five books in this period, and Persian authorisation of local law codes is one plausible spur. The Elephantine papyri show how incomplete the process was at the edges, with a Jewish garrison on the Nile keeping its own temple to Yahu until 410 BCE.",
+     "support": [
+      "me-458-ezra",
+      "me-445-nehemiah",
+      "me-407-elephantine"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The Maccabees",
+     "hinge": "me-141-hasmonean",
+     "conn": "but",
+     "s1": "Greek rule split Judea over assimilation, and the revolt it provoked restored a Jewish state that used its power to impose Judaism on its neighbours.",
+     "s2": "The Torah was translated into Greek at Alexandria in the third century BCE for a diaspora that no longer read Hebrew, the version later adopted as the church's Old Testament. The Seleucid King Antiochus III won Judea from the Ptolemies at Panium in 200 BCE; his son Antiochus IV, backing a Hellenising party in Jerusalem, banned circumcision and the Sabbath and set a pagan altar in the Temple in 167 BCE. The revolt led by the priest Mattathias and his son Judah Maccabee retook the Temple in 164 BCE, and in 141 BCE an assembly in Jerusalem made Judah's brother Simon high priest and ruler, with Seleucid dynastic wars doing as much as Jewish arms to make independence hold. The Hasmonean state then expanded by conquest: John Hyrcanus I made the Idumeans convert and destroyed the Samaritan temple on Mount Gerizim, which excavation dates to about 111 BCE. The Pharisees, Sadducees and Essenes appear in the sources in these Hasmonean decades as rival answers to who should interpret the law under a priest-king.",
+     "support": [
+      "me-250-septuagint",
+      "me-200-panium",
+      "me-167-maccabees",
+      "me-111-gerizim"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "Rome",
+     "hinge": "me-70-temple-70",
+     "conn": "therefore",
+     "s1": "A Hasmonean succession war invited Rome in, and Roman rule, first through clients and then directly, ended in a revolt that destroyed the Second Temple in 70 CE.",
+     "s2": "The Roman general Pompey took Jerusalem in 63 BCE after the brothers Hyrcanus II and Aristobulus II both appealed to him, and entered the Holy of Holies. The Senate made Herod, an Idumean from a family converted under the Hasmoneans, king of Judea; he took Jerusalem in 37 BCE and from about 20 BCE rebuilt the Temple as one of the largest sanctuaries in the Roman world. Rome annexed Judea as a province in 6 CE, and the census that followed provoked the first armed rejection of Roman taxation. The war of 66 began after the governor Gessius Florus took 17 talents from the Temple treasury and Greeks and Jews clashed at Caesarea; rebels then destroyed a Syrian legionary column at the Beth Horon pass, which committed Rome to full reconquest. Titus took Jerusalem in the summer of 70, and Rome diverted the tax every Jew had paid to the Temple to the temple of Jupiter Capitolinus in Rome.",
+     "support": [
+      "me-63-pompey",
+      "me-37-herod",
+      "me-6-judaea-province",
+      "me-66-jewish-revolt"
+     ]
+    },
+    {
+     "id": "c7",
+     "title": "The rabbis",
+     "hinge": "me-200-mishnah",
+     "conn": "therefore",
+     "s1": "With the Temple gone and a second revolt crushed, authority passed to rabbis who codified the law in the Mishnah around 200 CE, and Judaism became a religion of study that needed no state.",
+     "s2": "Rabbinic tradition has the sage Yohanan ben Zakkai smuggled out of besieged Jerusalem in a coffin to obtain from the general Vespasian leave to teach at Yavneh, which became the centre where the calendar and liturgy were rebuilt without sacrifice. Simon bar Kokhba's revolt of 132 to 136, provoked by Emperor Hadrian's refounding of Jerusalem as the colony Aelia Capitolina, ended with Judea depopulated, Jews barred from the city and the province renamed Syria Palaestina. The rabbinic movement moved north to Galilee, where the patriarch Judah ha-Nasi compiled the Mishnah's six orders, a code that legislates in detail for Temple sacrifice more than a century after the last one. The Christian empire let the patriarchate lapse after Gamaliel VI died in 425 and diverted its revenues to the treasury. The centre of gravity moved to Babylonia under Persian rule, where the academies of Sura and Pumbedita brought the Babylonian Talmud to its final form by the sixth century.",
+     "support": [
+      "me-70-yavneh",
+      "me-132-bar-kokhba",
+      "me-425-patriarchate",
+      "me-500-talmud"
+     ]
+    }
+   ],
+   "today": "About 15.7 million people identified as Jewish in 2024, nearly half of them in Israel, the first Jewish state since the Hasmoneans. Jewish law is still taught from the Mishnah and the Babylonian Talmud, and the fast of the Ninth of Av still mourns the Temple's destructions in 587 BCE and 70 CE."
+  },
+  {
+   "id": "imperial-church",
+   "size": "story",
+   "title": "The Imperial Church",
+   "sub": "from Jewish sect to state religion and schism, c. 30 to 635 CE",
+   "span": [
+    30,
+    635
+   ],
+   "parent": "one-god",
+   "thesis": "Christianity grew to a tenth of the Roman Empire without state support, but it became a single, enforced orthodoxy only when emperors took up its disputes, and the same imperial machinery that defined the faith at Nicaea and Chalcedon broke it apart in the provinces that refused the definitions.",
+   "assumptions": [
+    "Assumes the doctrinal disputes were real disagreements that politics adjudicated, and more than cover for regional and personal rivalries.",
+    "Assumes the councils' decisions mattered more than what ordinary believers held, about which the evidence is thin before the fifth century.",
+    "Assumes the population estimates, about a tenth of the empire Christian by 300, are roughly right; they rest on extrapolation from scattered evidence."
+   ],
+   "disconfirm": "If the thesis were wrong, Nicene orthodoxy should have prevailed without imperial backing. The test is 337 to 378, when Emperors Constantius II and Valens backed bishops who rejected Nicaea's formula: Nicene Christianity survived those decades in Egypt and the West, but it became the empire's single creed only through Theodosius I's law of 380 and his council of 381.",
+   "awkward": "The growth that made Constantine's choice worth making owed nothing to the state: after three centuries of intermittent persecution, Christians were perhaps a tenth of the empire's population by 300, concentrated in the cities and the Greek-speaking East.",
+   "shelf": [
+    {
+     "a": "Peter Brown",
+     "t": "The Rise of Western Christendom",
+     "y": 1996
+    },
+    {
+     "a": "Timothy D. Barnes",
+     "t": "Constantine and Eusebius",
+     "y": 1981
+    },
+    {
+     "a": "Rodney Stark",
+     "t": "The Rise of Christianity",
+     "y": 1996
+    },
+    {
+     "a": "Diarmaid MacCulloch",
+     "t": "A History of Christianity: The First Three Thousand Years",
+     "y": 2009
+    },
+    {
+     "a": "Garth Fowden",
+     "t": "Empire to Commonwealth: Consequences of Monotheism in Late Antiquity",
+     "y": 1993
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "A Jewish sect",
+     "hinge": "me-30-jesus",
+     "conn": null,
+     "s1": "The Roman prefect Pontius Pilate crucified Jesus of Nazareth around 30 CE as a threat to order, and his followers' claim that he had risen kept a Jewish messianic movement alive after its leader's death.",
+     "s2": "Jesus preached in Galilee, ruled by Herod's son Antipas, and was executed in Judea, under direct Roman rule since 6 CE, on a charge the Gospels give as claiming to be king of the Jews; crucifixion was Rome's penalty for rebels and slaves. A stone found at Caesarea in 1961 names Pilate as prefect of Judea, the only inscription of his rule. His first followers were Jews who kept the Temple and the law in Jerusalem under his brother James and expected his return within their lifetimes. The earliest written evidence is the letters of Paul of Tarsus, a Pharisee who had persecuted the movement and joined it a few years after the crucifixion following a vision near Damascus; the letters predate every Gospel.",
+     "support": [
+      "me-6-judaea-province",
+      "me-34-paul-conversion"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "The gentile mission",
+     "hinge": "me-49-council-jerusalem",
+     "conn": "but",
+     "s1": "Paul's mission admitted gentiles without circumcision, terms the Jerusalem leaders accepted around 49 CE, and it turned a Jewish sect into a religion open to the whole Roman world.",
+     "s2": "The meeting of Paul and Barnabas with James, Peter and John set the terms: gentile converts kept a short list of food and sexual rules and were spared circumcision and the rest of the law. Paul then founded churches in the Greek cities of Asia Minor, Macedonia and Greece and wrote the letters that are the oldest Christian documents. The Roman state first noticed the movement as a Jewish disturbance: Emperor Claudius expelled Jews from Rome, in 49 CE by one later account, after riots a Roman biographer attributed to one 'Chrestus'. Emperor Nero blamed Rome's Christians for the fire of July 64, by which time they were distinct enough from the Jews to be singled out. The Temple's destruction in 70 removed the Jerusalem church's base, and by the end of the century the movement's centre of gravity was gentile and urban.",
+     "support": [
+      "eu-49-claudius-jews",
+      "eu-64-nero-fire",
+      "me-70-temple-70"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Persecution",
+     "hinge": "eu-250-decius",
+     "conn": "therefore",
+     "s1": "For two centuries persecution was local and sporadic; it became imperial policy when emperors facing military and fiscal crisis demanded proof of loyalty to the gods, and the church came through it larger.",
+     "s2": "Emperor Trajan's reply to Pliny, governor of Bithynia, around 112 set the early rule: Christians were not to be sought out and anonymous accusations were to be ignored, but those who confessed and refused to sacrifice were executed. Emperor Decius, after sacrificing to Jupiter on 3 January 250, ordered every inhabitant to sacrifice and obtain a signed certificate, a libellus, of which dozens survive on papyrus from Egypt; Bishop Fabian of Rome was among those killed. The edict lapsed with Decius' death in 251, but the quarrel over readmitting the many who had complied divided the church, and the same question returned after the next persecution as the Donatist schism in North Africa. Emperor Gallienus restored church property in 260, a tacit recognition that the church could own it. The Great Persecution opened on 24 February 303 with the razing of the church at Nicomedia and ended in the East with Emperor Galerius' edict of toleration in April 311, an admission that coercion had failed.",
+     "support": [
+      "me-112-pliny-christians",
+      "eu-235-crisis-235",
+      "me-303-great-persecution"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "Constantine",
+     "hinge": "eu-312-constantine",
+     "conn": "but",
+     "s1": "Emperor Constantine I adopted Christianity after his victory at the Milvian Bridge in 312 and at once made himself arbiter of its disputes, the origin of state-defined orthodoxy.",
+     "s2": "Constantine and his co-emperor Licinius agreed at Milan in February 313 to tolerate all cults and return confiscated church property; Constantine went further, exempting clergy from civic duties and funding churches, among them the Lateran basilica in Rome. Within two years he was adjudicating the Donatist dispute in Africa, referring it to the Council of Arles in 314 and enforcing the verdict with confiscations. He summoned the Council of Nicaea in 325 to settle the dispute over the Alexandrian priest Arius, and the bishops' creed, with its term homoousios, 'of one substance', came with imperial exile for those who refused it. He dedicated Constantinople as a second capital in 330, and King Ezana of Aksum adopted Christianity in the same decade. Constantine was baptised only on his deathbed in 337, by Bishop Eusebius of Nicomedia, a sympathiser of Arius.",
+     "support": [
+      "eu-313-milan",
+      "me-325-nicaea",
+      "eu-330-constantinople",
+      "af-330-ezana"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "One lawful faith",
+     "hinge": "eu-380-thessalonica",
+     "conn": "therefore",
+     "s1": "Fifty years of imperial wavering between Nicene and anti-Nicene bishops ended when Emperor Theodosius I made Nicene Christianity the only lawful faith in 380 and enforced it against heretics and pagans.",
+     "s2": "Constantine's son Constantius II and later Emperor Valens backed bishops who rejected Nicaea's formula, and Ulfilas, made bishop of the Goths around 341 by that party, gave the Goths a Gothic Bible and an anti-Nicene Christianity they kept for two centuries. Emperor Julian, sole ruler from 361 to 363, reopened the temples, barred Christians from teaching the classics and authorised the rebuilding of the Jerusalem Temple, which stopped when fire broke out at the foundations; his death on campaign in Persia ended the last pagan reign. Theodosius' edict of February 380 defined the lawful faith as that of the bishops of Rome and Alexandria, and his council at Constantinople in 381, with no Western bishops present, extended the Nicene creed to the form churches recite today and ranked Constantinople second after Rome. Laws of 391 closed the temples, and in Alexandria soldiers and Christians destroyed the Serapeum, the city's great temple of Serapis.",
+     "support": [
+      "eu-341-ulfilas",
+      "eu-361-julian",
+      "eu-381-constantinople-council",
+      "me-391-serapeum"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "Two cities",
+     "hinge": "me-413-city-of-god",
+     "conn": "but",
+     "s1": "As the Western empire failed, Bishop Augustine of Hippo gave the Latin church a theology that detached Christianity's fate from Rome's while keeping the state's coercive power at the church's service.",
+     "s2": "Alaric's Visigoths sacked Rome in August 410, and pagans blamed the abandonment of the old gods; Augustine answered in the City of God, written from 413 to 426, which treats every earthly state, Rome included, as passing and the community of the saved as the only lasting city. In the same years he argued for coercing the Donatists, the North African church that had refused bishops tainted by the Great Persecution, and at the Carthage hearing of 411 the imperial commissioner Marcellinus ruled against them and the state took their churches. Augustine's reading of the parable's 'compel them to come in' became the Latin church's standing justification for using state force against heretics. The Vandals were besieging Hippo when he died in 430, and the Western empire was gone by 476. The Frankish King Clovis' Catholic baptism around 496, when most Germanic kings were anti-Nicene, gave the Roman church its chief lay protector in the West.",
+     "support": [
+      "eu-410-sack-410",
+      "me-411-carthage-conference",
+      "eu-496-clovis"
+     ]
+    },
+    {
+     "id": "c7",
+     "title": "The broken church",
+     "hinge": "me-451-chalcedon",
+     "conn": "but",
+     "s1": "In the East the emperors' councils defined Christ's nature at Ephesus in 431 and Chalcedon in 451, and the provinces that rejected the definitions built their own churches, which emperors could neither persuade nor coerce back.",
+     "s2": "The church in Persia, organised at Seleucia-Ctesiphon in 410 under Shah Yazdegerd I, followed the theology Ephesus condemned, and the Church of the East it became sent the missionary Alopen to the Tang capital Chang'an in 635. Chalcedon's formula of one person in two natures held in Rome and Constantinople and was rejected by most Christians in Egypt and much of Syria and Armenia, who confessed one incarnate nature. Emperor Zeno's Henotikon of 482, a compromise issued without a council, failed in the East and split Constantinople from Rome until 519. Empress Theodora's protection allowed Jacob Baradaeus to be consecrated bishop of Edessa in 543 or 544 and to ordain a separate hierarchy across Syria, Anatolia and Egypt, and the Syriac Orthodox church was long called Jacobite after him. When the Arabs reached Egypt in 639, the Coptic Patriarch Benjamin had spent most of a decade in hiding from Cyrus, the Chalcedonian patriarch the emperor had also made governor, and the Arab commander Amr ibn al-As restored him.",
+     "support": [
+      "me-410-seleucia-synod",
+      "me-431-ephesus",
+      "eu-482-henotikon",
+      "me-543-jacob-baradaeus",
+      "ea-635-alopen"
+     ]
+    }
+   ],
+   "today": "About 2.3 billion people were Christian in 2020. The creed as extended at Constantinople in 381 is recited by Catholic, Orthodox and most Protestant churches, while the Coptic, Syriac, Armenian and Ethiopian churches that rejected Chalcedon in 451, and the Assyrian Church of the East, remain separate communions."
+  },
+  {
+   "id": "who-should-rule",
+   "size": "story",
+   "title": "Who Should Rule",
+   "sub": "Arabia, Muhammad and the caliphate, c. 570 to 750 CE",
+   "span": [
+    570,
+    750
+   ],
+   "parent": "one-god",
+   "thesis": "Islam was a state as well as a faith from Muhammad's arrival at Medina in 622, and its lasting divisions began as disputes over who should rule that state, with the doctrines that now separate Sunni and Shia elaborated afterwards to justify the political sides.",
+   "assumptions": [
+    "Assumes the outline of Muhammad's life in the biographies, the earliest surviving in a ninth-century edition, is broadly reliable where it agrees with the Quran, the Medina agreement and non-Muslim sources from the 630s.",
+    "Assumes the conquests were driven by the new state's need to direct tribal manpower and pay it from tribute, with religion as the bond; the sources allow a more devotional reading.",
+    "Assumes Sunni and Shia are the right end-points; both took settled doctrinal form only in the eighth and ninth centuries."
+   ],
+   "disconfirm": "If the thesis were wrong, the Sunni-Shia division would rest on a doctrinal difference visible from the start, or the conquests would have sought converts. The conversion evidence points one way: the conquerors settled in garrison cities, taxed non-Muslims and, under the Umayyads, kept taxing many converts. The designation of Ali at Ghadir Khumm is the harder case, since Shia tradition holds that the dispute was doctrinal from the Prophet's death.",
+   "awkward": "Shi'ism drew its strength from losing: Husayn's small force was destroyed at Karbala in 680, the movement grew for seventy years in opposition, and the Abbasids who used Karbala's memory to take power in 750 then kept the caliphate from Ali's descendants.",
+   "shelf": [
+    {
+     "a": "Fred M. Donner",
+     "t": "Muhammad and the Believers: At the Origins of Islam",
+     "y": 2010
+    },
+    {
+     "a": "Hugh Kennedy",
+     "t": "The Great Arab Conquests",
+     "y": 2007
+    },
+    {
+     "a": "Wilferd Madelung",
+     "t": "The Succession to Muhammad: A Study of the Early Caliphate",
+     "y": 1997
+    },
+    {
+     "a": "Patricia Crone",
+     "t": "God's Rule: Government and Islam",
+     "y": 2004
+    },
+    {
+     "a": "James Howard-Johnston",
+     "t": "Witnesses to a World Crisis",
+     "y": 2010
+    }
+   ],
+   "chapters": [
+    {
+     "id": "c1",
+     "title": "Arabia between empires",
+     "hinge": "me-602-byz-persia",
+     "conn": null,
+     "s1": "The last war between Rome and Persia, fought from 602 to 628, exhausted both empires and dismantled the Arab client system that had kept the peninsula's frontiers in order.",
+     "s2": "Persia had taken Yemen from Aksum's proxies in the 570s, so that in Muhammad's youth the great powers held both ends of Arabia's caravan trade. Shah Khosrow II executed the Lakhmid King al-Nu'man III in 602 and ruled the desert frontier directly, and Arab tribes soon defeated a Persian force at Dhi Qar; Rome had broken up its own Ghassanid client federation in the 580s. Persian armies took Jerusalem in 614, carried the True Cross to Ctesiphon and occupied Egypt, until Emperor Heraclius invaded Mesopotamia and destroyed the Persian field army near Nineveh in December 627. Khosrow was overthrown and killed, and Persia fell into a succession crisis. The Quran's thirtieth sura opens with the Romans defeated 'in the nearest land' and foretells their victory within a few years, evidence that Muhammad's hearers followed the war closely.",
+     "support": [
+      "me-570-persia-yemen",
+      "me-602-lakhmids",
+      "me-614-jerusalem-persians",
+      "me-627-nineveh"
+     ]
+    },
+    {
+     "id": "c2",
+     "title": "Medina",
+     "hinge": "me-622-hijra",
+     "conn": "therefore",
+     "s1": "Muhammad's move from Mecca to Medina in 622 turned a persecuted preacher into the arbiter of a town, and the community he led there was a polity with its own law, alliances and wars from its first years.",
+     "s2": "Muhammad, a Meccan merchant of the Quraysh tribe's Hashim clan, preached from the revelations Muslims date to 610; Mecca's leaders resisted a message that condemned the gods whose shrine drew pilgrims and trade. The feuding clans of Medina invited him as arbiter, and the agreement known as the Constitution of Medina made the emigrants, the Medinans and named Jewish groups one community, an umma, with disputes referred to God and Muhammad. The Muslim calendar counts from the hijra, a choice made under Caliph Umar I around 638, which dates the faith from the founding of the polity rather than from the first revelation. At Badr in March 624 some 313 Muslims defeated a larger Meccan force and killed its leader Abu Jahl, and raids on Meccan caravans became both the polity's economy and its proof of divine favour. Medina's three main Jewish clans were expelled or, in the case of the Qurayza after the siege of 627, put to death by the biographers' account.",
+     "support": [
+      "me-610-revelation",
+      "me-622-medina-charter",
+      "me-624-badr"
+     ]
+    },
+    {
+     "id": "c3",
+     "title": "Mecca and the succession",
+     "hinge": "me-630-mecca",
+     "conn": "therefore",
+     "s1": "Muhammad took Mecca in 630 by negotiation backed by force, and when he died two years later the community's first decision was political: who would lead the state he had built.",
+     "s2": "The truce of Hudaybiyya in March 628 treated Medina as Mecca's equal, and when Mecca's allies broke it Muhammad marched with some 10,000 men and entered the city in January 630 with little fighting. He cleared the Kaaba's idols and kept the shrine, making Mecca's sanctuary Islam's centre and its leading clans, the Umayyads among them, part of the new order. Muhammad died in June 632 without a settled succession; at the Saqifa hall the Medinans proposed a leader of their own, and Abu Bakr was chosen while Ali, the Prophet's cousin and son-in-law, was preparing the body for burial. Shia tradition holds that Muhammad had designated Ali at Ghadir Khumm months earlier, and Sunni tradition that he left the choice to the community. Abu Bakr's first act was war against tribes that had stopped paying alms to Medina and against rival prophets such as Musaylima, killed at Yamama in December 632; by March 633 Arabia was united under one authority for the first time.",
+     "support": [
+      "me-628-hudaybiyya",
+      "me-632-saqifa",
+      "me-632-ridda"
+     ]
+    },
+    {
+     "id": "c4",
+     "title": "The conquests",
+     "hinge": "me-636-islam-conquest",
+     "conn": "therefore",
+     "s1": "The state Abu Bakr had united by force turned outward, and within fifteen years Arab armies took Syria, Iraq, Egypt and most of Iran from two empires that had just fought each other to exhaustion.",
+     "s2": "Arab forces destroyed the Roman army of Syria at the Yarmuk in 636 and a Persian army at Qadisiyya soon after, and Caliph Umar received Jerusalem's surrender in person from the Patriarch Sophronius and let Jews live in the city again. Amr ibn al-As took Egypt between 639 and 642 among a population mostly hostile to the Chalcedonian church of Constantinople, and founded Fustat as a garrison town. Nahavand in 642 ended organised Persian resistance, and the last shah, Yazdegerd III, was killed near Merv in 651. The conquerors settled in garrison cities such as Kufa, Basra and Fustat, paid from registers of tribute, and made little effort to convert subjects, who remained the majority in most provinces for two centuries or more. Caliph Uthman's standard text of the Quran, copied around 650 and sent to the garrison cities with orders to burn variant codices, was an act of state that fixed the scripture of a dispersed army.",
+     "support": [
+      "me-637-jerusalem-arabs",
+      "me-642-egypt",
+      "me-642-nahavand",
+      "me-650-uthman-codex"
+     ]
+    },
+    {
+     "id": "c5",
+     "title": "The first civil war",
+     "hinge": "me-656-first-fitna",
+     "conn": "but",
+     "s1": "The conquests' spoils turned the succession question into civil war, and Caliph Uthman's murder in 656 began a five-year struggle that fixed the lines of Islam's lasting divisions.",
+     "s2": "Uthman, of the Umayyad clan, was accused of favouring kinsmen with governorships and conquered land, and rebels from Egypt and Iraq killed him in Medina in June 656. Ali became caliph and defeated the Prophet's widow Aisha and the companions Talha and Zubayr near Basra in December 656, the first battle between Muslim armies. Mu'awiya, Uthman's kinsman and governor of Syria, refused allegiance; at Siffin in July 657 his troops raised pages of the Quran on their lances and Ali accepted arbitration. Some of Ali's soldiers rejected arbitration by men, seceded as the Kharijites, and one of them killed Ali at Kufa in January 661. Mu'awiya took the caliphate and ruled from Damascus; Ali's partisans, the shi'at Ali, became the party from which Shia Islam descends, and the Kharijite view that any pious Muslim could rule was a third answer to the same question.",
+     "support": [
+      "me-656-camel",
+      "me-657-siffin",
+      "me-661-umayyad"
+     ]
+    },
+    {
+     "id": "c6",
+     "title": "The Umayyad answer",
+     "hinge": "me-691-dome-of-rock",
+     "conn": "therefore",
+     "s1": "A second civil war from 680 to 692 nearly ended the Umayyads, and Caliph Abd al-Malik answered it by giving the state an explicitly Islamic face: the Dome of the Rock, Quranic coinage and an Arabic administration.",
+     "s2": "Mu'awiya's designation of his son Yazid in 680 made the caliphate hereditary; Husayn, Ali's son and the Prophet's grandson, rose against it and was killed with most of his small following at Karbala in October 680. Abd Allah ibn al-Zubayr then ruled as caliph from Mecca from 683 to 692, and in Kufa al-Mukhtar led a revolt from 685 to 687 in Husayn's name that recruited non-Arab converts, the mawali, on equal terms with Arabs. Abd al-Malik completed the Dome of the Rock in Jerusalem in 691-92, with inscriptions addressed to Christians: God has no partner, and the Messiah Jesus was a messenger of God. In 696-97 he replaced Byzantine-style gold coins with dinars bearing only Quranic text, and around 700 Arabic replaced Greek in the Syrian registers, after Persian had given way in Iraq. The inscriptions and coins are among the earliest dated public statements of Islamic doctrine, issued by the state in the middle of a war over who should rule it.",
+     "support": [
+      "me-680-karbala",
+      "me-683-ibn-zubayr",
+      "me-685-mukhtar",
+      "me-696-dinar"
+     ]
+    },
+    {
+     "id": "c7",
+     "title": "Revolution",
+     "hinge": "me-750-abbasid",
+     "conn": "but",
+     "s1": "Expansion to Spain and Sindh carried the Arab state to its limits and filled it with converts it still taxed as subjects, and a coalition of converts, settlers and the Prophet's kin overthrew the Umayyads in 750.",
+     "s2": "The commander Tariq ibn Ziyad crossed to Spain in 711 and Muhammad ibn al-Qasim took Sindh in 712, but the siege of Constantinople in 717-718 failed and the frontiers stopped moving. Governors short of revenue kept collecting the poll tax from converts and treated Berber Muslims as a conquered people, and the Berbers rose in 740 under Kharijite preachers, destroyed the Arab cavalry of Ifriqiya at the Battle of the Nobles and took the western Maghreb out of the caliphate for good. In Khurasan, Abu Muslim raised the black banners at Merv in June 747 for an unnamed member of the Prophet's family, drawing Arab settlers, Persian converts and Shia partisans who expected a descendant of Ali. The rebels took Kufa in 749 and proclaimed Abu al-Abbas al-Saffah, descended from the Prophet's uncle Abbas, and Caliph Marwan II's army was destroyed at the Zab in January 750. The Abbasids massacred the Umayyad family, invoking Karbala, and then set aside the Alid hopes they had used, which kept Shi'ism a movement of opposition.",
+     "support": [
+      "eu-711-spain-711",
+      "sa-712-sindh",
+      "eu-717-constantinople-717",
+      "me-740-berber-revolt",
+      "me-747-abu-muslim"
+     ]
+    }
+   ],
+   "today": "About two billion people are Muslim, roughly 85 to 90 per cent Sunni and 10 to 15 per cent Shia. Iran's 1979 constitution vests authority in a senior jurist acting for the hidden twelfth imam of Ali's line, and the Ashura commemoration of Karbala is still the central Shia ritual."
+  }
+ ],
+ "new_events": [
+  {
+   "id": "me-925-shoshenq",
+   "y": -925,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Pharaoh Shoshenq I raids Canaan",
+   "where": "Megiddo (list carved at Karnak)",
+   "lat": 32.585,
+   "lon": 35.185,
+   "wk": "Shoshenq I",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [],
+   "why_selected": "First datable outside record of the Iron Age kingdoms; its town list names Megiddo and omits Jerusalem"
+  },
+  {
+   "id": "me-853-qarqar",
+   "y": -853,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Ahab of Israel fights Assyria at Qarqar",
+   "where": "Qarqar, Orontes valley, Syria",
+   "lat": 35.79,
+   "lon": 36.32,
+   "wk": "Battle of Qarqar",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "conflict"
+   ],
+   "causes": [
+    "me-911-neo-assyria"
+   ],
+   "why_selected": "Assyrian record shows Israel as a major power with 2,000 chariots, the stronger of the two Hebrew kingdoms"
+  },
+  {
+   "id": "me-840-mesha-stele",
+   "y": -840,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Mesha Stele names Yahweh and Omri",
+   "where": "Dibon (Dhiban), Jordan",
+   "lat": 31.5,
+   "lon": 35.78,
+   "wk": "Mesha Stele",
+   "bt": "topic/Moabite-Stone",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [],
+   "why_selected": "Earliest certain reference to Yahweh outside the Bible; confirms the Omride kingdom of Israel"
+  },
+  {
+   "id": "me-840-tel-dan-stele",
+   "y": -840,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Aramaean stele names the House of David",
+   "where": "Tel Dan, northern Israel",
+   "lat": 33.25,
+   "lon": 35.65,
+   "wk": "Tel Dan stele",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [],
+   "why_selected": "Only near-contemporary evidence for a Davidic dynasty in Judah; read by most scholars as 'House of David'"
+  },
+  {
+   "id": "me-722-samaria",
+   "y": -722,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-911-neo-assyria",
+   "h": "Assyria destroys the kingdom of Israel",
+   "where": "Samaria (Sebastia), West Bank",
+   "lat": 32.28,
+   "lon": 35.19,
+   "wk": "Assyrian captivity",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "atrocity"
+   ],
+   "causes": [
+    "me-745-tiglath-pileser"
+   ],
+   "why_selected": "Left Judah the sole heir of Israelite tradition; refugees swelled Jerusalem"
+  },
+  {
+   "id": "me-701-sennacherib",
+   "y": -701,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-911-neo-assyria",
+   "h": "Sennacherib besieges Lachish, spares Jerusalem",
+   "where": "Lachish, Judah",
+   "lat": 31.565,
+   "lon": 34.849,
+   "wk": "Sennacherib's campaign in the Levant",
+   "bt": "biography/Sennacherib",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-722-samaria"
+   ],
+   "why_selected": "Judah survived as a tribute-paying vassal; Jerusalem's escape fed the belief in its divine protection"
+  },
+  {
+   "id": "me-622-josiah",
+   "y": -622,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-587-jerusalem-587",
+   "h": "Josiah's reform centres worship in Jerusalem",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Josiah",
+   "bt": "event/Deuteronomic-Reform",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "law"
+   ],
+   "causes": [
+    "me-722-samaria",
+    "me-701-sennacherib"
+   ],
+   "why_selected": "First time a written law was made the authority over Israelite worship; core of Deuteronomy"
+  },
+  {
+   "id": "me-609-megiddo",
+   "y": -609,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Pharaoh Necho II kills Josiah at Megiddo",
+   "where": "Megiddo, northern Israel",
+   "lat": 32.585,
+   "lon": 35.185,
+   "wk": "Battle of Megiddo (609 BC)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-612-nineveh-falls",
+    "me-622-josiah"
+   ],
+   "why_selected": "Ended Judah's brief independence and Josiah's reform programme; Judah became an Egyptian vassal"
+  },
+  {
+   "id": "me-605-carchemish",
+   "y": -605,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Babylon defeats Egypt at Carchemish",
+   "where": "Carchemish, Turkey-Syria border",
+   "lat": 36.83,
+   "lon": 38.02,
+   "wk": "Battle of Carchemish",
+   "bt": "topic/Battle-of-Carchemish",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-612-nineveh-falls",
+    "me-609-megiddo"
+   ],
+   "why_selected": "Gave Babylon the Levant and made Judah its vassal"
+  },
+  {
+   "id": "me-597-jerusalem-597",
+   "y": -597,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Nebuchadnezzar deports Judah's king and elite",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Siege of Jerusalem (597 BC)",
+   "bt": "event/Babylonian-Captivity",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire",
+    "faith"
+   ],
+   "causes": [
+    "me-605-carchemish"
+   ],
+   "why_selected": "First deportation to Babylon; the exiled court and scribes became the core of the diaspora"
+  },
+  {
+   "id": "me-516-second-temple",
+   "y": -516,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-587-jerusalem-587",
+   "h": "Second Temple dedicated in Jerusalem",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.235,
+   "wk": "Second Temple",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "empire"
+   ],
+   "causes": [
+    "me-539-babylon-falls",
+    "me-522-darius"
+   ],
+   "why_selected": "Restored the cult as a Persian-licensed temple-province run by priests"
+  },
+  {
+   "id": "me-458-ezra",
+   "y": -458,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Ezra brings the Torah to Jerusalem",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Ezra",
+   "c": [
+    "religion",
+    "ideas"
+   ],
+   "t": [
+    "faith",
+    "law"
+   ],
+   "causes": [
+    "me-516-second-temple"
+   ],
+   "why_selected": "Tradition's marker for the Torah becoming the binding law of Judea; date disputed (458 or 398 BCE)"
+  },
+  {
+   "id": "me-445-nehemiah",
+   "y": -445,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Nehemiah rebuilds Jerusalem's walls",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Nehemiah",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "faith",
+    "empire"
+   ],
+   "causes": [
+    "me-516-second-temple"
+   ],
+   "why_selected": "A Persian court official made governor; Judea's separation from Samaria hardened"
+  },
+  {
+   "id": "me-407-elephantine",
+   "y": -407,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Elephantine Jews petition to rebuild Yahu's temple",
+   "where": "Elephantine, Aswan, Egypt",
+   "lat": 24.09,
+   "lon": 32.89,
+   "wk": "Elephantine papyri and ostraca",
+   "c": [
+    "religion"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [],
+   "why_selected": "Shows a Jewish community outside Judea with its own temple and other gods a century after the return"
+  },
+  {
+   "id": "me-250-septuagint",
+   "y": -250,
+   "approx": true,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Torah translated into Greek at Alexandria",
+   "where": "Alexandria, Egypt",
+   "lat": 31.2,
+   "lon": 29.92,
+   "wk": "Septuagint",
+   "c": [
+    "religion",
+    "ideas",
+    "culture"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-331-alexandria",
+    "me-458-ezra"
+   ],
+   "why_selected": "Made scripture portable for a Greek-speaking diaspora; later the Old Testament of the church"
+  },
+  {
+   "id": "me-200-panium",
+   "y": -200,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-334-alexander",
+   "h": "Seleucids take Judea from the Ptolemies",
+   "where": "Panium (Banias), Golan",
+   "lat": 33.25,
+   "lon": 35.69,
+   "wk": "Battle of Panium",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-323-diadochi"
+   ],
+   "why_selected": "Put Judea under the Seleucid kings whose intervention provoked the Maccabean revolt"
+  },
+  {
+   "id": "me-141-hasmonean",
+   "y": -141,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-587-jerusalem-587",
+   "h": "Simon founds the Hasmonean state",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Hasmonean dynasty",
+   "bt": "topic/Maccabees",
+   "c": [
+    "political",
+    "religion"
+   ],
+   "t": [
+    "indep",
+    "faith"
+   ],
+   "causes": [
+    "me-167-maccabees"
+   ],
+   "why_selected": "First independent Jewish state since 587 BCE, ruled by priest-kings"
+  },
+  {
+   "id": "me-111-gerizim",
+   "y": -111,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "John Hyrcanus destroys the Samaritan temple",
+   "where": "Mount Gerizim, Nablus",
+   "lat": 32.2,
+   "lon": 35.27,
+   "wk": "Mount Gerizim",
+   "c": [
+    "religion",
+    "war"
+   ],
+   "t": [
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-141-hasmonean"
+   ],
+   "why_selected": "The restored Jewish state used force on rival Israelites and converted Idumeans; the Samaritan breach became permanent"
+  },
+  {
+   "id": "me-63-pompey",
+   "y": -63,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-587-jerusalem-587",
+   "h": "Pompey takes Jerusalem for Rome",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Siege of Jerusalem (63 BC)",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-141-hasmonean"
+   ],
+   "why_selected": "A Hasmonean succession war invited Rome in; Judea became a tributary client"
+  },
+  {
+   "id": "me-37-herod",
+   "y": -37,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-587-jerusalem-587",
+   "h": "Herod takes Jerusalem as Rome's king",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Herod the Great",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-63-pompey"
+   ],
+   "why_selected": "Ended the Hasmoneans; Herod's rebuilt Temple and Roman clientage framed the world of Jesus"
+  },
+  {
+   "id": "me-6-judaea-province",
+   "y": 6,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Rome annexes Judea as a province",
+   "where": "Caesarea Maritima",
+   "lat": 32.5,
+   "lon": 34.89,
+   "wk": "Judaea (Roman province)",
+   "c": [
+    "political",
+    "economic"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-37-herod",
+    "eu-27-augustus"
+   ],
+   "why_selected": "Direct Roman taxation began, and with it armed rejection of Roman rule"
+  },
+  {
+   "id": "me-66-jewish-revolt",
+   "y": 66,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-587-jerusalem-587",
+   "h": "Judea revolts against Rome",
+   "where": "Jerusalem and Caesarea",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "First Jewish–Roman War",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "indep",
+    "conflict"
+   ],
+   "causes": [
+    "me-6-judaea-province"
+   ],
+   "why_selected": "Rebels destroyed a Roman column at Beth Horon, committing Rome to a war that ended with the Temple's destruction"
+  },
+  {
+   "id": "me-70-yavneh",
+   "y": 70,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Rabbis regroup at Yavneh",
+   "where": "Yavneh, coastal plain",
+   "lat": 31.88,
+   "lon": 34.74,
+   "wk": "Yohanan ben Zakkai",
+   "c": [
+    "religion",
+    "ideas"
+   ],
+   "t": [
+    "faith",
+    "law"
+   ],
+   "causes": [
+    "me-66-jewish-revolt"
+   ],
+   "why_selected": "Tradition's founding moment of rabbinic Judaism: law and liturgy rebuilt without the Temple"
+  },
+  {
+   "id": "me-132-bar-kokhba",
+   "y": 132,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-587-jerusalem-587",
+   "h": "Bar Kokhba revolt against Hadrian",
+   "where": "Betar, Judean hills",
+   "lat": 31.73,
+   "lon": 35.14,
+   "wk": "Bar Kokhba revolt",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "indep",
+    "atrocity"
+   ],
+   "causes": [
+    "me-70-temple-70",
+    "eu-117-hadrian"
+   ],
+   "why_selected": "Its defeat depopulated Judea, barred Jews from Jerusalem and ended hopes of a restored Temple-state"
+  },
+  {
+   "id": "me-200-mishnah",
+   "y": 200,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-587-jerusalem-587",
+   "h": "Judah ha-Nasi compiles the Mishnah",
+   "where": "Sepphoris, Galilee",
+   "lat": 32.75,
+   "lon": 35.28,
+   "wk": "Mishnah",
+   "c": [
+    "religion",
+    "ideas"
+   ],
+   "t": [
+    "faith",
+    "law"
+   ],
+   "causes": [
+    "me-70-yavneh",
+    "me-132-bar-kokhba"
+   ],
+   "why_selected": "First code of rabbinic law; the basis of both Talmuds and of Judaism without a state"
+  },
+  {
+   "id": "me-425-patriarchate",
+   "y": 425,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-587-jerusalem-587",
+   "h": "Jewish patriarchate ends under Christian Rome",
+   "where": "Tiberias, Galilee",
+   "lat": 32.79,
+   "lon": 35.53,
+   "wk": "Nasi (Hebrew title)",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "empire"
+   ],
+   "causes": [
+    "eu-380-thessalonica",
+    "me-200-mishnah"
+   ],
+   "why_selected": "The Christian empire let the last Jewish office in Palestine lapse; leadership shifted to Babylonia"
+  },
+  {
+   "id": "me-500-talmud",
+   "y": 500,
+   "approx": true,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-587-jerusalem-587",
+   "h": "Babylonian Talmud takes final form",
+   "where": "Sura, Babylonia (Iraq)",
+   "lat": 32.1,
+   "lon": 44.4,
+   "wk": "Talmud",
+   "bt": "topic/Bavli",
+   "c": [
+    "religion",
+    "ideas"
+   ],
+   "t": [
+    "faith",
+    "law"
+   ],
+   "causes": [
+    "me-200-mishnah",
+    "me-224-sasanian"
+   ],
+   "why_selected": "The authoritative body of Jewish law, compiled under Persian rule outside the Roman world"
+  },
+  {
+   "id": "me-34-paul-conversion",
+   "y": 34,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Paul joins the Jesus movement",
+   "where": "Road to Damascus, Syria",
+   "lat": 33.51,
+   "lon": 36.29,
+   "wk": "Conversion of Paul the Apostle",
+   "c": [
+    "religion"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-30-jesus"
+   ],
+   "why_selected": "A former persecutor became the movement's chief missionary and the author of its oldest texts"
+  },
+  {
+   "id": "me-49-council-jerusalem",
+   "y": 49,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Jerusalem council admits gentiles uncircumcised",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Council of Jerusalem",
+   "c": [
+    "religion"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-34-paul-conversion"
+   ],
+   "why_selected": "Opened a Jewish sect to the whole gentile world without the Mosaic law"
+  },
+  {
+   "id": "eu-49-claudius-jews",
+   "y": 49,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Claudius expels Jews from Rome",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Claudius' expulsion of Jews from Rome",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-30-jesus"
+   ],
+   "why_selected": "Probably the state's first brush with Christianity, recorded as riots over one 'Chrestus'"
+  },
+  {
+   "id": "eu-64-nero-fire",
+   "y": 64,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Nero blames Christians for Rome's fire",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Great Fire of Rome",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "atrocity"
+   ],
+   "causes": [
+    "me-49-council-jerusalem"
+   ],
+   "why_selected": "First Roman persecution; shows Christians already distinct from Jews in the capital"
+  },
+  {
+   "id": "me-112-pliny-christians",
+   "y": 112,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Trajan sets rules for trying Christians",
+   "where": "Bithynia and Pontus, Anatolia",
+   "lat": 40.77,
+   "lon": 29.92,
+   "wk": "Pliny the Younger on Christians",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "law"
+   ],
+   "causes": [
+    "eu-64-nero-fire"
+   ],
+   "why_selected": "Fixed the policy for a century and a half: not sought out, but executed if they refused to sacrifice"
+  },
+  {
+   "id": "eu-250-decius",
+   "y": 250,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Decius orders all subjects to sacrifice",
+   "where": "Rome",
+   "lat": 41.89,
+   "lon": 12.49,
+   "wk": "Decian persecution",
+   "bt": "biography/Decius",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-235-crisis-235",
+    "me-112-pliny-christians"
+   ],
+   "why_selected": "First empire-wide demand for religious conformity; its lapsed Christians split the church"
+  },
+  {
+   "id": "me-303-great-persecution",
+   "y": 303,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Diocletian's Great Persecution begins",
+   "where": "Nicomedia (Izmit), Turkey",
+   "lat": 40.77,
+   "lon": 29.92,
+   "wk": "Diocletianic Persecution",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-284-diocletian",
+    "eu-250-decius"
+   ],
+   "why_selected": "The last and most systematic persecution; its failure, admitted in 311, preceded Constantine's turn"
+  },
+  {
+   "id": "eu-313-milan",
+   "y": 313,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Constantine and Licinius agree toleration at Milan",
+   "where": "Milan",
+   "lat": 45.46,
+   "lon": 9.19,
+   "wk": "Edict of Milan",
+   "bt": "topic/Edict-of-Milan",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "rights"
+   ],
+   "causes": [
+    "eu-312-constantine",
+    "me-303-great-persecution"
+   ],
+   "why_selected": "Legal toleration and return of church property across the empire"
+  },
+  {
+   "id": "eu-341-ulfilas",
+   "y": 341,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Ulfilas made bishop of the Goths",
+   "where": "Lower Danube, Gothia",
+   "lat": 43.22,
+   "lon": 25.61,
+   "wk": "Ulfilas",
+   "c": [
+    "religion",
+    "culture"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-325-nicaea"
+   ],
+   "why_selected": "Gave the Goths a Gothic Bible and the anti-Nicene creed they kept for two centuries"
+  },
+  {
+   "id": "eu-361-julian",
+   "y": 361,
+   "r": "eu",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Julian restores the pagan cults",
+   "where": "Constantinople",
+   "lat": 41.01,
+   "lon": 28.98,
+   "wk": "Julian (emperor)",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "eu-312-constantine"
+   ],
+   "why_selected": "The last pagan emperor's reversal failed with his death in 363 and showed how far conversion depended on the throne"
+  },
+  {
+   "id": "eu-381-constantinople-council",
+   "y": 381,
+   "r": "eu",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Council of Constantinople completes the creed",
+   "where": "Constantinople",
+   "lat": 41.01,
+   "lon": 28.98,
+   "wk": "First Council of Constantinople",
+   "bt": "event/First-Council-of-Constantinople-381",
+   "c": [
+    "religion"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "eu-380-thessalonica",
+    "me-325-nicaea"
+   ],
+   "why_selected": "Fixed the Nicene creed in its lasting form and ranked Constantinople second to Rome"
+  },
+  {
+   "id": "me-391-serapeum",
+   "y": 391,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Christians destroy Alexandria's Serapeum",
+   "where": "Alexandria, Egypt",
+   "lat": 31.18,
+   "lon": 29.9,
+   "wk": "Serapeum of Alexandria",
+   "c": [
+    "religion",
+    "culture"
+   ],
+   "t": [
+    "faith",
+    "atrocity"
+   ],
+   "causes": [
+    "eu-380-thessalonica"
+   ],
+   "why_selected": "Imperial law closing the temples carried out by force in the empire's second city"
+  },
+  {
+   "id": "me-411-carthage-conference",
+   "y": 411,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Carthage hearing condemns the Donatists",
+   "where": "Carthage, Tunisia",
+   "lat": 36.85,
+   "lon": 10.32,
+   "wk": "Donatism",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "law"
+   ],
+   "causes": [
+    "me-303-great-persecution",
+    "eu-380-thessalonica"
+   ],
+   "why_selected": "The state settled a church schism by decree and confiscation, with Augustine arguing for coercion"
+  },
+  {
+   "id": "me-413-city-of-god",
+   "y": 413,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Augustine begins the City of God",
+   "where": "Hippo Regius (Annaba), Algeria",
+   "lat": 36.88,
+   "lon": 7.75,
+   "wk": "The City of God",
+   "c": [
+    "religion",
+    "ideas"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "eu-410-sack-410"
+   ],
+   "why_selected": "Detached the church's fate from Rome's and set the Latin West's political theology"
+  },
+  {
+   "id": "me-410-seleucia-synod",
+   "y": 410,
+   "r": "me",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Persia's Christians organise at Seleucia-Ctesiphon",
+   "where": "Seleucia-Ctesiphon, Iraq",
+   "lat": 33.09,
+   "lon": 44.58,
+   "wk": "Council of Seleucia-Ctesiphon",
+   "c": [
+    "religion"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-325-nicaea",
+    "me-224-sasanian"
+   ],
+   "why_selected": "Founded the Church of the East as a church under a non-Christian state"
+  },
+  {
+   "id": "me-431-ephesus",
+   "y": 431,
+   "r": "me",
+   "tier": 2,
+   "parent": "eu-312-constantine",
+   "h": "Council of Ephesus condemns Nestorius",
+   "where": "Ephesus, Turkey",
+   "lat": 37.94,
+   "lon": 27.34,
+   "wk": "Council of Ephesus",
+   "bt": "event/councils-of-Ephesus",
+   "c": [
+    "religion"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-325-nicaea"
+   ],
+   "why_selected": "First council to split off a whole church: Persia's Christians kept the condemned theology"
+  },
+  {
+   "id": "eu-482-henotikon",
+   "y": 482,
+   "r": "eu",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Zeno's Henotikon fails to heal Chalcedon",
+   "where": "Constantinople",
+   "lat": 41.01,
+   "lon": 28.98,
+   "wk": "Henotikon",
+   "bt": "event/Acacian-Schism",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-451-chalcedon"
+   ],
+   "why_selected": "An emperor's compromise that satisfied neither side and split Rome from Constantinople until 519"
+  },
+  {
+   "id": "me-543-jacob-baradaeus",
+   "y": 543,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Jacob Baradaeus builds a rival church hierarchy",
+   "where": "Edessa (Urfa), Turkey",
+   "lat": 37.16,
+   "lon": 38.79,
+   "wk": "Jacob Baradaeus",
+   "c": [
+    "religion"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-451-chalcedon",
+    "eu-482-henotikon"
+   ],
+   "why_selected": "Made the anti-Chalcedonian Syrian church permanent and independent of Constantinople"
+  },
+  {
+   "id": "ea-635-alopen",
+   "y": 635,
+   "r": "ea",
+   "tier": 3,
+   "parent": "eu-312-constantine",
+   "h": "Church of the East reaches Chang'an",
+   "where": "Chang'an (Xi'an), China",
+   "lat": 34.26,
+   "lon": 108.94,
+   "wk": "Xi'an Stele",
+   "c": [
+    "religion"
+   ],
+   "t": [
+    "faith",
+    "silk"
+   ],
+   "causes": [
+    "me-410-seleucia-synod",
+    "me-431-ephesus",
+    "ea-618-tang"
+   ],
+   "why_selected": "Christianity's widest reach in the period came from a church with no state behind it"
+  },
+  {
+   "id": "me-570-persia-yemen",
+   "y": 570,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Persia takes Yemen from Aksum's proxies",
+   "where": "Sanaa, Yemen",
+   "lat": 15.35,
+   "lon": 44.21,
+   "wk": "Aksumite–Persian wars",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "af-100-aksum",
+    "me-224-sasanian"
+   ],
+   "why_selected": "Put both ends of Arabia's trade under the great powers in Muhammad's youth"
+  },
+  {
+   "id": "me-602-lakhmids",
+   "y": 602,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Khosrow II abolishes the Lakhmid kingdom",
+   "where": "al-Hira, Iraq",
+   "lat": 31.89,
+   "lon": 44.45,
+   "wk": "Lakhmid kingdom",
+   "c": [
+    "political"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-224-sasanian"
+   ],
+   "why_selected": "Removed Persia's Arab buffer; tribes soon beat a Persian force at Dhi Qar"
+  },
+  {
+   "id": "me-614-jerusalem-persians",
+   "y": 614,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Persians take Jerusalem and the True Cross",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Sasanian conquest of Jerusalem",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "empire",
+    "faith"
+   ],
+   "causes": [
+    "me-602-byz-persia"
+   ],
+   "why_selected": "The low point of Roman fortunes, noticed in the Quran's sura of the Romans"
+  },
+  {
+   "id": "me-627-nineveh",
+   "y": 627,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Heraclius destroys the Persian army at Nineveh",
+   "where": "Nineveh, near Mosul, Iraq",
+   "lat": 36.36,
+   "lon": 43.15,
+   "wk": "Battle of Nineveh (627)",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-614-jerusalem-persians"
+   ],
+   "why_selected": "Brought down Khosrow II and left both empires exhausted on the eve of the Arab conquests"
+  },
+  {
+   "id": "me-610-revelation",
+   "y": 610,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-622-hijra",
+   "h": "Muhammad's first revelation at Hira",
+   "where": "Mount Hira, Mecca",
+   "lat": 21.46,
+   "lon": 39.86,
+   "wk": "Muhammad's first revelation",
+   "c": [
+    "religion"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [],
+   "why_selected": "Muslims date the beginning of the Quran's revelation to this year"
+  },
+  {
+   "id": "me-622-medina-charter",
+   "y": 622,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-622-hijra",
+   "h": "Constitution of Medina forms one community",
+   "where": "Medina",
+   "lat": 24.47,
+   "lon": 39.61,
+   "wk": "Constitution of Medina",
+   "c": [
+    "political",
+    "religion"
+   ],
+   "t": [
+    "faith",
+    "law"
+   ],
+   "causes": [
+    "me-622-hijra"
+   ],
+   "why_selected": "Founding document of the Medinan polity: an umma of emigrants, Medinans and named Jewish groups under Muhammad's arbitration"
+  },
+  {
+   "id": "me-624-badr",
+   "y": 624,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-622-hijra",
+   "h": "Muslims defeat the Meccans at Badr",
+   "where": "Badr, Hejaz",
+   "lat": 23.73,
+   "lon": 38.77,
+   "wk": "Battle of Badr",
+   "bt": "event/Battle-of-Badr",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-622-hijra"
+   ],
+   "why_selected": "Secured the Medinan state and was read as proof of divine favour"
+  },
+  {
+   "id": "me-628-hudaybiyya",
+   "y": 628,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-622-hijra",
+   "h": "Truce of Hudaybiyya with Mecca",
+   "where": "al-Hudaybiyya, near Mecca",
+   "lat": 21.44,
+   "lon": 39.62,
+   "wk": "Treaty of Hudaybiyyah",
+   "bt": "event/Pact-of-Al-Hudaybiyah",
+   "c": [
+    "political",
+    "religion"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-624-badr"
+   ],
+   "why_selected": "Mecca recognised Medina as an equal power; its breach led to Mecca's fall"
+  },
+  {
+   "id": "me-630-mecca",
+   "y": 630,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Muhammad takes Mecca",
+   "where": "Mecca",
+   "lat": 21.42,
+   "lon": 39.83,
+   "wk": "Conquest of Mecca",
+   "c": [
+    "political",
+    "religion"
+   ],
+   "t": [
+    "faith",
+    "empire"
+   ],
+   "causes": [
+    "me-628-hudaybiyya"
+   ],
+   "why_selected": "Made Mecca's shrine Islam's centre and brought the Quraysh elite, Umayyads included, into the new state"
+  },
+  {
+   "id": "me-632-saqifa",
+   "y": 632,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-622-hijra",
+   "h": "Abu Bakr chosen to succeed Muhammad",
+   "where": "Medina",
+   "lat": 24.47,
+   "lon": 39.61,
+   "wk": "Saqifa",
+   "c": [
+    "political",
+    "religion"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-630-mecca"
+   ],
+   "why_selected": "The succession choice that Sunni and Shia later read in opposite ways"
+  },
+  {
+   "id": "me-632-ridda",
+   "y": 632,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Ridda wars unite Arabia under Medina",
+   "where": "Yamama, central Arabia",
+   "lat": 24.9,
+   "lon": 46.45,
+   "wk": "Ridda wars",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "empire"
+   ],
+   "causes": [
+    "me-632-saqifa"
+   ],
+   "why_selected": "Turned Medina's alliances into a peninsular state with an army ready for conquest"
+  },
+  {
+   "id": "me-637-jerusalem-arabs",
+   "y": 637,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Caliph Umar takes Jerusalem",
+   "where": "Jerusalem",
+   "lat": 31.78,
+   "lon": 35.23,
+   "wk": "Siege of Jerusalem (636–637)",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "empire",
+    "faith"
+   ],
+   "causes": [
+    "me-636-islam-conquest"
+   ],
+   "why_selected": "Ended Roman rule of the holy city and let Jews live there again"
+  },
+  {
+   "id": "me-642-egypt",
+   "y": 642,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Arabs complete the conquest of Egypt",
+   "where": "Alexandria, Egypt",
+   "lat": 31.2,
+   "lon": 29.92,
+   "wk": "Arab conquest of Egypt",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire",
+    "faith"
+   ],
+   "causes": [
+    "me-636-islam-conquest",
+    "me-451-chalcedon"
+   ],
+   "why_selected": "Took Constantinople's grain province, whose anti-Chalcedonian church had little reason to resist"
+  },
+  {
+   "id": "me-642-nahavand",
+   "y": 642,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Nahavand ends organised Persian resistance",
+   "where": "Nahavand, Iran",
+   "lat": 34.19,
+   "lon": 48.37,
+   "wk": "Battle of Nahavand",
+   "bt": "event/Battle-of-Nahavand",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "empire"
+   ],
+   "causes": [
+    "me-636-islam-conquest"
+   ],
+   "why_selected": "Opened the Iranian plateau; the last Sasanian shah was killed near Merv in 651"
+  },
+  {
+   "id": "me-650-uthman-codex",
+   "y": 650,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Caliph Uthman issues a standard Quran",
+   "where": "Medina",
+   "lat": 24.47,
+   "lon": 39.61,
+   "wk": "Uthmanic codex",
+   "c": [
+    "religion",
+    "political"
+   ],
+   "t": [
+    "faith"
+   ],
+   "causes": [
+    "me-636-islam-conquest"
+   ],
+   "why_selected": "The state fixed the scripture's text and ordered variant codices burned"
+  },
+  {
+   "id": "me-656-first-fitna",
+   "y": 656,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-750-abbasid",
+   "h": "Uthman murdered; first civil war begins",
+   "where": "Medina",
+   "lat": 24.47,
+   "lon": 39.61,
+   "wk": "First Fitna",
+   "bt": "topic/fitnah",
+   "c": [
+    "war",
+    "political",
+    "religion"
+   ],
+   "t": [
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-636-islam-conquest",
+    "me-632-saqifa"
+   ],
+   "why_selected": "The war over the caliphate that set Sunni, Shia and Kharijite on separate paths"
+  },
+  {
+   "id": "me-656-camel",
+   "y": 656,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-750-abbasid",
+   "h": "Ali defeats Aisha at the Camel",
+   "where": "near Basra, Iraq",
+   "lat": 30.5,
+   "lon": 47.8,
+   "wk": "Battle of the Camel",
+   "bt": "topic/Battle-of-the-Camel",
+   "c": [
+    "war"
+   ],
+   "t": [
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-656-first-fitna"
+   ],
+   "why_selected": "The first battle between Muslim armies"
+  },
+  {
+   "id": "me-657-siffin",
+   "y": 657,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-750-abbasid",
+   "h": "Siffin ends in arbitration; Kharijites secede",
+   "where": "Siffin, near Raqqa, Syria",
+   "lat": 35.95,
+   "lon": 38.9,
+   "wk": "Battle of Siffin",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-656-first-fitna"
+   ],
+   "why_selected": "Arbitration saved Mu'awiya and produced the Kharijites, the first sect defined by a political doctrine"
+  },
+  {
+   "id": "me-683-ibn-zubayr",
+   "y": 683,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Ibn al-Zubayr rules as caliph from Mecca",
+   "where": "Mecca",
+   "lat": 21.42,
+   "lon": 39.83,
+   "wk": "Second Fitna",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-680-karbala"
+   ],
+   "why_selected": "A rival caliphate held the holy cities for nine years and nearly ended the Umayyads"
+  },
+  {
+   "id": "me-685-mukhtar",
+   "y": 685,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-750-abbasid",
+   "h": "Mukhtar's revolt in Kufa for Husayn's blood",
+   "where": "Kufa, Iraq",
+   "lat": 32.03,
+   "lon": 44.4,
+   "wk": "Mukhtar al-Thaqafi",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "faith",
+    "conflict"
+   ],
+   "causes": [
+    "me-680-karbala"
+   ],
+   "why_selected": "First revolt to recruit non-Arab converts as equals; a model for the Abbasid movement"
+  },
+  {
+   "id": "me-691-dome-of-rock",
+   "y": 691,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-636-islam-conquest",
+   "h": "Dome of the Rock completed",
+   "where": "Jerusalem",
+   "lat": 31.778,
+   "lon": 35.235,
+   "wk": "Dome of the Rock",
+   "bt": "topic/Dome-of-the-Rock",
+   "c": [
+    "religion",
+    "political",
+    "culture"
+   ],
+   "t": [
+    "faith",
+    "empire"
+   ],
+   "causes": [
+    "me-683-ibn-zubayr"
+   ],
+   "why_selected": "Among the earliest dated public statements of Islamic doctrine, issued by the state during a civil war"
+  },
+  {
+   "id": "me-696-dinar",
+   "y": 696,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-636-islam-conquest",
+   "h": "Abd al-Malik issues Quranic-text coins",
+   "where": "Damascus, Syria",
+   "lat": 33.51,
+   "lon": 36.29,
+   "wk": "Abd al-Malik ibn Marwan",
+   "c": [
+    "economic",
+    "religion"
+   ],
+   "t": [
+    "money",
+    "faith"
+   ],
+   "causes": [
+    "me-683-ibn-zubayr"
+   ],
+   "why_selected": "Replaced Byzantine and Persian coin types with an Islamic currency; Arabic administration followed around 700"
+  },
+  {
+   "id": "me-740-berber-revolt",
+   "y": 740,
+   "r": "me",
+   "tier": 3,
+   "parent": "me-750-abbasid",
+   "h": "Berber Muslims revolt against Umayyad rule",
+   "where": "Tangier, Morocco",
+   "lat": 35.77,
+   "lon": -5.8,
+   "wk": "Berber Revolt",
+   "c": [
+    "war",
+    "religion"
+   ],
+   "t": [
+    "faith",
+    "indep"
+   ],
+   "causes": [
+    "eu-711-spain-711"
+   ],
+   "why_selected": "First successful secession from the caliphate, driven by taxing converts as subjects"
+  },
+  {
+   "id": "me-747-abu-muslim",
+   "y": 747,
+   "r": "me",
+   "tier": 2,
+   "parent": "me-750-abbasid",
+   "h": "Abu Muslim raises black banners at Merv",
+   "where": "Merv, Turkmenistan",
+   "lat": 37.66,
+   "lon": 62.19,
+   "wk": "Abu Muslim",
+   "c": [
+    "war",
+    "political"
+   ],
+   "t": [
+    "revolution",
+    "faith"
+   ],
+   "causes": [
+    "me-680-karbala",
+    "me-740-berber-revolt"
+   ],
+   "why_selected": "Launched the Khurasani revolution that brought the Abbasids to power"
+  }
+ ]
+}

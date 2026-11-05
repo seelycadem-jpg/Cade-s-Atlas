@@ -1,0 +1,270 @@
+## as189440 | 1894 | First Sino-Japanese War | who: Japan vs. Qing China | where: Korea and Manchuria
+  bluf: Japan's decisive victory over China overturned the East Asian order: China, the traditional centre, was humiliated, and Japan became the region's leading power. Japan gained Taiwan and dominance in Korea, and China's exposed weakness set off a European scramble for concessions.
+  now: The war moved leadership in East Asia from China to Japan, gave Japan Taiwan and a free hand in Korea, and exposed the Qing to the scramble for concessions that followed; it began fifty years of Japanese expansion.
+  story: The war began in 1894 over influence in Korea, where a peasant rebellion had drawn in both Chinese and Japanese troops. Japan's modern army and navy beat China's forces on land and at the Battle of the Yalu, then took Port Arthur and Weihaiwei.
+  why: Rivalry over Korea, which China treated as a tributary and Japan saw as a dagger pointed at its heart. Japan's modernization had outpaced China's half-hearted reforms.
+  trig: The Donghak peasant rebellion in Korea, which led both China and Japan to send troops in 1894.
+  then: China ceded Taiwan and paid a huge indemnity. European powers forced Japan to return the Liaodong Peninsula and then grabbed concessions in China for themselves, and Chinese reformers concluded the Qing system had failed.
+  fact: It was the first time an Asian state defeated China with Western methods.
+## as189541 | 1895 | Japan takes Taiwan | who: Japan; the short-lived Republic of Formosa | where: Taiwan
+  bluf: Taiwan became Japan's first colony, ruled for 50 years with modern infrastructure and harsh repression. The experience set Taiwan's development apart from mainland China's and shapes its distinct identity today.
+  now: Taiwan's relatively warm view of Japan contrasts with Korea's, and its separate colonial experience is one root of a Taiwanese identity distinct from China's.
+  story: Under the Treaty of Shimonoseki, China ceded Taiwan to Japan in 1895. Local officials declared a Republic of Formosa to resist; Japanese troops crushed it within months, and armed resistance continued for years.
+  why: Japan demanded Taiwan as a prize for beating China, wanting a southern base and a colony to prove it was a great power.
+  then: Japan ruled for 50 years, crushing armed resistance, then building railways, schools and sugar plantations to make Taiwan a model colony.
+## jp-queenmin | 1895 | Korea's Queen Min murdered | who: Japanese agents and Korean allies; Queen Min (Empress Myeongseong) | where: Gyeongbok Palace, Seoul
+  bluf: The murder of Queen Min by Japanese agents showed how far Japan would go to keep Korea in its sphere. It pushed Korea toward Russia, escalating the rivalry that led to the Russo-Japanese War.
+  now: She is a national heroine in Korea, and her murder remains a grievance in Korea-Japan relations.
+  story: After the Triple Intervention, Queen Min leaned on Russia to resist Japan. The Japanese minister in Seoul organized the attack. Her body was burned.
+  why: After Russia, France and Germany forced Japan to hand back the Liaodong Peninsula in 1895, Queen Min turned to Russia to resist Japan, and Japan's minister in Seoul, Miura Gorō, feared losing Korea altogether.
+  then: King Gojong fled to the Russian legation for a year, Russia's influence in Korea grew, and the rivalry between Japan and Russia sharpened.
+## jp-shimonoseki | 1895 | Treaty of Shimonoseki | who: Itō Hirobumi; Li Hongzhang | where: Shimonoseki
+  bluf: The Treaty of Shimonoseki ended China's influence in Korea and gave Japan Taiwan and a huge indemnity. It made Japan an imperial power and pushed China into a crisis over reform.
+  now: The indemnity funded Japan's military and its move to the gold standard.
+  story: China recognized Korea's 'independence' (ending China's influence there), ceded Taiwan, the Pescadores and the Liaodong Peninsula, opened ports, and paid 200 million taels of silver.
+  why: China had been decisively beaten on land and at sea and needed peace to protect Beijing.
+  then: Within six days, Russia, France and Germany demanded Japan give back Liaodong.
+## jp-triple | 1895 | Triple Intervention: Japan forced to give back its prize | who: Russia, France and Germany vs. Japan | where: Liaodong Peninsula
+  bluf: The Triple Intervention forced Japan to hand back its war prize under European pressure. The humiliation drove Japan to build up its military for revenge on Russia and taught it that only power would bring respect.
+  now: It's a textbook example of humiliation driving a nation's foreign policy.
+  story: On April 23, 1895, Russia, France and Germany 'advised' Japan to give up Liaodong, which included Port Arthur. Britain refused to join. Facing three great powers, Japan gave it back for an extra 30 million taels.
+  why: Russia wanted a warm-water port in Manchuria; France was Russia's ally; Germany wanted Russia focused on Asia.
+  then: Japan adopted the slogan 'gashin shōtan', enduring hardship for revenge, and built up its navy.
+  myth: It wasn't Britain and France, and it wasn't Korea: it was Russia, France and Germany, over the Liaodong Peninsula. Britain stayed out and became Japan's ally.
+## jp-portarthur | 1898 | Russia takes Port Arthur | who: Russia; Qing China | where: Port Arthur (Lüshun)
+  bluf: Russia's lease of Port Arthur, the very base it had forced Japan to give up, turned Japanese resentment into direct strategic rivalry. It made war between Japan and Russia increasingly likely.
+  now: It's the moment the Triple Intervention turned from insult to direct threat.
+  story: In March 1898 Russia forced China to lease it the tip of the Liaodong Peninsula, with Port Arthur (Lüshun) and Dalian, for 25 years, and began a railway linking them to its Trans-Siberian line across Manchuria. It was the same territory Russia, France and Germany had made Japan hand back three years earlier. Germany had just taken Qingdao, and Britain answered by taking Weihaiwei.
+  why: Russia wanted a warm-water Pacific port and was extending its railway across Manchuria.
+  then: Russian troops stayed in Manchuria after the Boxer Rebellion, and Japan formed an alliance with Britain to prepare for war.
+## as190043 | 1900 | Boxer Rebellion | who: Boxers; Empress Dowager Cixi; 8-nation alliance | where: Northern China
+  bluf: The Boxer uprising was a violent anti-foreign and anti-Christian movement backed by the Qing court and crushed by an eight-nation army. The defeat imposed huge reparations and discredited the dynasty, making revolution likely.
+  now: The Boxer War belongs to China's 'century of humiliation', a story of foreign invasion that is central to Chinese nationalism and the Communist Party's claim to legitimacy.
+  story: The Boxers, a militia movement in north China practising martial arts they believed made them immune to bullets, killed missionaries and thousands of Chinese Christians in 1899-1900. In June 1900 Empress Dowager Cixi backed them and declared war on the foreign powers, and Boxers and Qing troops besieged the foreign legations in Beijing for 55 days. An eight-nation force, mostly Japanese and Russian, relieved the siege in August and looted the capital; the court fled to Xi'an.
+  why: Resentment of missionaries, foreign concessions and the legal privileges of Chinese Christians, sharpened by drought and hardship in north China.
+  then: The Boxer Protocol (1901) imposed an indemnity of 450 million taels of silver and stationed foreign troops in Beijing. The Qing fell 11 years later.
+  fact: 'Boxers' was a Western nickname for the martial-arts rituals the rebels believed made them bulletproof.
+## jp-alliance | 1902 | Anglo-Japanese Alliance | who: Britain; Japan | where: London
+  bluf: The Anglo-Japanese Alliance gave Japan the backing of the world's leading naval power and marked its acceptance as a great power. It freed Japan to fight Russia without fear that another European power would join in.
+  now: It showed Japan had been accepted as a major power, and it is a model for alliances in which a global power partners with a regional one to balance a common rival.
+  story: Signed in London on January 30, 1902, the treaty committed each side to stay neutral if the other went to war with one power, and to join in if a second power entered. It was Britain's first formal alliance in decades, ending its 'splendid isolation', and the first alliance on equal terms between a Western power and an Asian state.
+  why: Both feared Russian expansion in East Asia; Britain also wanted to end its isolation and share the naval burden in the Pacific.
+  then: Two years later Japan attacked Russia, confident no European power would intervene.
+## as190544 | 1905 | Japan defeats Russia | who: Japan, Russia | where: Manchuria; Tsushima Strait
+  bluf: Japan's victory over Russia was the first time in modern history an Asian power defeated a European great power in a major war. It made Japan a world power, gave it Korea and a foothold in Manchuria, set off revolution in Russia, and inspired anti-colonial nationalists across Asia and Africa.
+  now: It inspired anti-colonial leaders from India to Egypt, and its opening surprise attack prefigured Pearl Harbor.
+  story: In February 1904 Japan attacked the Russian fleet at Port Arthur before declaring war. After a costly siege it took the port, won the great land battle of Mukden, and at Tsushima in May 1905 Admiral Tōgō destroyed Russia's Baltic Fleet, which had sailed halfway around the world.
+  why: Rivalry over Korea and Manchuria: Russia's lease of Port Arthur and its railways threatened Japan's ambitions, and the Anglo-Japanese Alliance kept other powers out.
+  trig: The breakdown of talks over spheres of influence in Korea and Manchuria.
+  then: The Treaty of Portsmouth gave Japan Port Arthur and southern Sakhalin. Japan made Korea a protectorate (1905) and annexed it (1910), and Russia's defeat sparked the Revolution of 1905.
+  fact: Russia's Baltic Fleet sailed 18,000 miles around Africa just to be sunk in one afternoon at Tsushima. On the way it fired on British fishing boats, thinking they were Japanese torpedo boats.
+## jp-eulsa | 1905 | Korea made a Japanese protectorate | who: Itō Hirobumi; Korean ministers | where: Seoul
+  bluf: The Eulsa Treaty made Korea a Japanese protectorate under military pressure, ending its control of foreign policy. It was the step before full annexation in 1910 and remains a symbol of national betrayal in Korea.
+  now: Koreans call the ministers who signed it the 'Five Traitors of Eulsa'.
+  story: In November 1905, with Japanese troops surrounding the palace, Itō Hirobumi pressed Korea's cabinet to sign a treaty handing control of its foreign affairs to Japan. Emperor Gojong refused to approve it, but five ministers signed; Koreans still call them the 'Eulsa traitors'. The United States and Britain had already accepted Japan's control of Korea. Itō became Resident-General.
+  why: Japan wanted Korea as a secure base on the mainland, and its victory over Russia removed the last power able to stop it.
+  then: Korean 'righteous armies' rose against Japan, and Emperor Gojong was forced to abdicate in 1907 after appealing to the Hague peace conference.
+## jp-portsmouth | 1905 | Treaty of Portsmouth | who: Theodore Roosevelt; Japan; Russia | where: Portsmouth, New Hampshire
+  bluf: The Treaty of Portsmouth confirmed Japan's victory and its dominance in Korea and southern Manchuria, with the United States as mediator. Japanese anger at the lack of an indemnity fed resentment of America.
+  now: The treaty confirmed Japan as a great power with Korea and southern Manchuria in its hands, and left Japan's public convinced it had been cheated of an indemnity, a grievance that fed militarism.
+  story: President Theodore Roosevelt brought the two sides together at Portsmouth, New Hampshire. Under the treaty signed on September 5, 1905, Russia recognized Japan's dominance in Korea and handed over the Port Arthur lease, the southern Manchurian railway and the southern half of Sakhalin, but paid no indemnity. Roosevelt won the Nobel Peace Prize for his mediation.
+  why: Both sides were exhausted: Russia faced revolution at home, and Japan, though victorious, was close to bankruptcy and out of reserves.
+  then: Months later Japan made Korea a protectorate, while Japanese crowds rioted over the lack of an indemnity.
+  fact: It was the first time a US president mediated a peace between great powers.
+## jp-portsmouth-b | 1905 | Hibiya riots | who: Tokyo crowds | where: Hibiya Park, Tokyo
+  bluf: The Hibiya riots showed that Japanese public opinion, inflamed by wartime propaganda, could turn against its own government when victory felt incomplete. Popular nationalism became a force that pushed later governments toward harder lines.
+  now: Japanese resentment that the US had short-changed Japan fed later rivalry between the two countries.
+  story: Told for months of great victories, Tokyo crowds were furious that the treaty brought no indemnity. Riots on September 5-7 killed 17 people and burned police stations and churches; martial law was declared.
+  why: The government had hidden how close Japan was to bankruptcy, so the public expected a huge indemnity and new territory.
+  then: Popular nationalism became a force Japanese governments had to reckon with.
+## jp-ito | 1909 | Itō Hirobumi assassinated | who: An Jung-geun; Itō Hirobumi | where: Harbin, Manchuria
+  bluf: An Jung-geun's assassination of Itō Hirobumi sped Japan's annexation of Korea. Its memory still divides the two countries: a patriot to one, the murderer of a founding statesman to the other.
+  now: An Jung-geun is a national hero in Korea and has been called a terrorist by some in Japan, a divide that still strains relations.
+  story: Itō Hirobumi, four times prime minister and chief drafter of the Meiji constitution, had served as Korea's first Resident-General until mid-1909. On October 26, 1909, as he arrived at Harbin station in Manchuria to meet Russia's finance minister, the Korean independence fighter An Jung-geun shot him dead. An was executed in March 1910. Itō had been among the more cautious Japanese leaders on outright annexation, though he had accepted it by then.
+  why: An Jung-geun sought revenge for Japan's takeover of Korea, of which Itō had been the chief architect.
+  then: Japan annexed Korea in August 1910, ten months later, and ruled it until 1945.
+## as191046 | 1910 | Japan annexes Korea | who: Japan's government; Korean Emperor Sunjong and Prime Minister Ye Wanyong | where: Korea
+  bluf: Japan's annexation of Korea began 35 years of colonial rule that developed Korea for Japan's benefit, confiscated land and later tried to erase Korean identity. Its legacy, including forced labor and the 'comfort women' system, still poisons Japan-Korea relations.
+  now: It still poisons Japan-Korea relations through disputes over forced labour, 'comfort women' and how history is taught.
+  story: Under a treaty signed on August 22, 1910 by Prime Minister Ye Wanyong, Korea was annexed to Japan. A Japanese governor-general ruled with the army and police; Koreans' land was surveyed and much taken, and later Korean was banned in schools and Koreans pressed to adopt Japanese names.
+  why: Japan wanted to secure Korea as a strategic buffer and colony after defeating Russia.
+  then: Korean protests such as the March 1st Movement (1919) were crushed. In the 1930s and 40s Japan mobilized Koreans for its wars through forced labor, conscription and the sexual slavery of 'comfort women'. Korea was liberated in 1945, then divided by the United States and the Soviet Union.
+## as191147 | 1911 | Qing dynasty falls | who: Sun Yat-sen; revolutionaries | where: China
+  bluf: The fall of the Qing ended over 2,000 years of imperial rule in China. The new republic was weak and soon fragmented among warlords, opening decades of civil war, Japanese invasion and eventually Communist victory.
+  now: Both mainland China and Taiwan honour Sun Yat-sen as the founder of modern China.
+  story: On October 10, 1911, an army mutiny in Wuchang spread as province after province declared independence from the Qing. Sun Yat-sen became provisional president, and in February 1912 the six-year-old emperor Puyi abdicated, ending over 2,000 years of imperial rule.
+  why: Defeats by foreign powers, the crushing Boxer indemnity, failed reforms, provincial elites' anger at a plan to nationalize railways, and revolutionary nationalism led by Sun Yat-sen.
+  trig: An army mutiny in Wuchang on October 10, 1911, after a bomb exploded by accident at a revolutionaries' hideout.
+  then: General Yuan Shikai arranged the abdication and became president, then tried to make himself emperor (1915). After his death China split among warlords, and Nationalists and Communists competed to reunify it.
+  fact: The last emperor, Puyi, ended his life working as a gardener and archivist in Communist Beijing.
+## d-yuan | 1915 | Yuan Shikai declares himself emperor | who: Yuan Shikai | where: Beijing
+  bluf: Yuan Shikai's attempt to restore the monarchy collapsed within months, and his death opened China's warlord era. It showed the republic had no central authority strong enough to hold China together.
+  now: The warlord era lasted until the Nationalists reunified most of China in 1928.
+  story: Having pushed Sun Yat-sen aside and dissolved parliament, Yuan accepted the throne in December 1915 as the Hongxian Emperor. Provinces rebelled, and he abandoned the monarchy in March 1916; he died that June.
+  why: Yuan wanted to secure his personal power, believed China needed a monarch to hold it together, and was encouraged by flatterers and fake petitions.
+  then: China broke apart among regional warlords, and Japan used the chaos to extend its influence.
+## as191949 | 1919 | May Fourth Movement | who: Chinese students and intellectuals | where: Beijing
+  bluf: The May Fourth protests against the Versailles decision to hand Germany's rights in China to Japan launched modern Chinese nationalism. The movement's call for science and democracy, and its disillusion with the West, helped give birth to the Chinese Communist Party.
+  now: China celebrates May 4 as Youth Day, and nationalists, communists and liberals all claim the movement's legacy.
+  story: On May 4, 1919, about 3,000 students marched in Beijing against the decision at Versailles to hand Germany's rights in Shandong province to Japan. Strikes and boycotts of Japanese goods spread to other cities, and the movement became a wider call for science, democracy and a new culture.
+  why: The Versailles conference handed Germany's rights in Shandong to Japan rather than back to China, which had joined the Allies.
+  then: The movement spread new ideas of science, democracy and writing in everyday Chinese, and veterans of it founded the Chinese Communist Party in 1921.
+## as192751 | 1927 | Chinese Civil War begins | who: Chiang Kai-shek's Nationalists vs. Mao's Communists | where: China
+  bluf: Chiang Kai-shek's break with the Communists began a civil war that, paused by the Japanese invasion, decided China's future. The Communist victory in 1949 created the People's Republic, while the Nationalists retreated to Taiwan.
+  now: It is why there are two Chinese governments today, in Beijing and Taipei, and the unfinished civil war is the root of the Taiwan question.
+  story: In April 1927 Chiang Kai-shek, leader of the Nationalists, turned on his Communist allies and massacred thousands in Shanghai. The Communists retreated to the countryside, and civil war broke out between the two parties.
+  why: The Nationalists and Communists, allied against the warlords, fought over who would rule China.
+  then: The war paused in 1937 for an uneasy alliance against Japan, resumed in 1946, and ended with Communist victory in 1949.
+## as193153 | 1931 | Japan seizes Manchuria | who: Japanese army | where: Manchuria
+  bluf: Japan's army staged a pretext to seize Manchuria without government approval, then set up a puppet state. The League of Nations' failure to stop it showed that aggression could pay, and Japan's military took control of its foreign policy.
+  now: It showed the League could not stop aggression by a great power, the first step on the road to World War II.
+  story: On September 18, 1931, Japanese officers set off a small bomb on a railway near Mukden and blamed Chinese troops. The Japanese army then occupied all of Manchuria and in 1932 set up the puppet state of Manchukuo with the last Qing emperor, Puyi, as its head.
+  why: Army officers wanted Manchuria's land and resources and acted without the government's approval.
+  then: The League of Nations condemned the invasion, and Japan simply left the League in 1933; the army's success emboldened militarists at home.
+## d-longmarch | 1934 | Long March | who: Mao Zedong, Zhou Enlai and the Red Army | where: Zunyi, Guizhou, where Mao took charge
+  bluf: The Long March was a disastrous retreat that the Communists turned into a founding legend. It made Mao the party's leader and moved the Communists to a base where they grew during the war with Japan.
+  now: The retreat saved the Communist Party from destruction, made Mao its leader, and moved it to a northern base from which it fought Japan and won the civil war; its survivors ruled China until the 1990s.
+  story: In October 1934 about 86,000 communists broke out of their base in Jiangxi. Over a year they crossed mountains and rivers to Shaanxi in the north-west, where perhaps 8,000 arrived. At Zunyi in January 1935 Mao gained control of military strategy.
+  why: Chiang Kai-shek's encirclement campaigns had made the Communists' base in Jiangxi untenable.
+  then: From Yan'an the Communists rebuilt their forces, organized peasants and gained support as the most determined fighters against Japan.
+  fact: It is the Party's founding legend.
+## as193754 | 1937 | Japan invades China | who: Japan, China | where: China
+  bluf: Japan's full-scale invasion of China began World War II in Asia, two years before Europe. The war killed 15-20 million Chinese, exhausted the Nationalist government and helped the Communists win power.
+  now: The Nanjing Massacre and the war's memory shape Chinese nationalism and relations with Japan.
+  story: On July 7, 1937, a night-time clash between Japanese and Chinese troops at the Marco Polo Bridge near Beijing escalated into all-out war. Japan took Beijing and Tianjin, fought a three-month battle for Shanghai, and in December captured the capital, Nanjing.
+  why: Japan's militarists sought resources and a sphere of control in China, and rising Chinese nationalism made further concessions politically impossible for Chiang Kai-shek.
+  trig: A night-time clash at the Marco Polo Bridge near Beijing on July 7, 1937.
+  then: China fought on, often alone, for eight years. Japan's war in China led to US sanctions and, in 1941, to Pearl Harbor; the Nationalists were drained while the Communists grew.
+## d-nanjing | 1937 | Nanjing Massacre | who: The Japanese Imperial Army; Chinese soldiers and civilians | where: Nanjing, China
+  bluf: The Nanjing Massacre was one of the worst atrocities of World War II, and its memory remains a major source of tension between China and Japan.
+  now: It remains a source of tension between China and Japan, where some nationalists deny or play it down.
+  story: Japanese troops took Nanjing on December 13, 1937. Over the following weeks they killed surrendered soldiers and civilians and committed tens of thousands of rapes. Estimates of the dead range from tens of thousands to 300,000; the post-war Tokyo tribunal put it at over 200,000.
+  why: Japan expected China to collapse quickly after Shanghai, and commanders let exhausted, poorly supplied troops loose on the city to terrorize China into surrender.
+  then: China's government moved inland, first to Wuhan and then to Chongqing, and fought on.
+## as194556 | 1945 | Atomic bombs dropped on Japan | who: United States | where: Japan
+  bluf: The atomic bombings of Hiroshima and Nagasaki killed over 100,000 people instantly and, together with the Soviet declaration of war, ended World War II. They opened the nuclear age: weapons capable of destroying civilization, held in check ever since by the threat of retaliation.
+  now: Nuclear weapons have not been used in war since, and nine countries now have them; Russian nuclear threats during the Ukraine war and North Korea's growing arsenal test that taboo.
+  story: On August 6 and 9, 1945, US bombers dropped atomic bombs on Hiroshima and Nagasaki, killing over 100,000 people immediately and many more from injuries and radiation by the end of the year. Japan surrendered on August 15, after the Soviet Union had also declared war.
+  why: To force Japan's surrender without an invasion; historians still debate whether it was necessary.
+  then: The Soviet Union tested its own bomb in 1949, and nuclear deterrence shaped the Cold War.
+  fact: Kokura was the primary target for the second bomb, but clouds covered it, so the plane turned to Nagasaki.
+## d-japansurrender | 1945 | Japan surrenders | who: Emperor Hirohito; General Douglas MacArthur | where: Tokyo
+  bluf: Japan's surrender ended World War II and began a US occupation that remade Japan into a pacifist democracy and American ally. Keeping the emperor on the throne eased the occupation.
+  now: Japan remains a close US ally under the security treaty that followed the occupation, and debates over revising its pacifist constitution continue.
+  story: After the atomic bombs and the Soviet declaration of war, Hirohito broke a deadlock in his cabinet. On August 15, 1945 his recorded broadcast told the nation to 'endure the unendurable'. The formal surrender was signed aboard the USS Missouri on September 2.
+  why: Atomic bombs, Soviet entry into the war, and the collapse of Japan's defences.
+  then: The US occupied Japan until 1952, oversaw a new pacifist constitution, broke up big business groups and carried out land reform.
+## as194959 | 1949 | People's Republic of China | who: Mao Zedong; the Chinese Communist Party | where: China
+  bluf: Mao's victory brought the world's most populous country under Communist rule and ended a century of civil war and foreign invasion. Mao's campaigns killed tens of millions, but after 1978 the People's Republic became the fastest-growing economy in history and a superpower rival of the United States.
+  now: The PRC is now the world's second-largest economy, the Communist Party still rules, and its claim to Taiwan and its rivalry with the United States define 21st-century geopolitics.
+  story: After defeating Chiang Kai-shek's Nationalists in the civil war, Mao Zedong stood on Tiananmen Gate in Beijing on October 1, 1949 and proclaimed the People's Republic of China. Chiang's government fled to Taiwan.
+  why: Nationalist corruption and economic chaos, Communist land reform that won peasant support, the Nationalists' exhaustion from fighting Japan, and Soviet help to the Communists in Manchuria.
+  then: Land reform killed many landlords; the Great Leap Forward (1958-62) caused a famine that killed tens of millions; the Cultural Revolution (1966-76) brought chaos. After Mao's death, Deng Xiaoping's reforms opened the economy.
+## d-taiwan1949 | 1949 | Nationalists retreat to Taiwan | who: Chiang Kai-shek; one to two million soldiers and civilians | where: Taipei
+  bluf: The Nationalists' retreat to Taiwan left two rival Chinese governments, each claiming to be China's legitimate ruler. US protection after the Korean War preserved Taiwan, which later became a democracy and the most dangerous flashpoint between the United States and China.
+  now: Taiwan is a democracy that Beijing claims as part of China and has not ruled out taking by force; its fate is the most dangerous flashpoint between the US and China.
+  story: As the communists won the civil war, the Nationalist government moved to Taipei in December 1949, followed by one to two million soldiers and civilians. Chiang imposed martial law, which lasted until 1987.
+  why: The Nationalists had lost the mainland civil war, and Taiwan, returned by Japan in 1945, was the one province beyond the Communists' reach across the strait.
+  then: The Korean War led the United States to protect Taiwan with its navy; Taiwan grew rich and, from the late 1980s, became a democracy.
+## as195060 | 1950 | Korean War | who: North Korea, China vs. South Korea, US/UN | where: Korea
+  bluf: The Korean War was the Cold War's first major hot war, drawing in the United States, China and the Soviet Union. It ended in stalemate along the 38th parallel, cemented Korea's division, militarized the Cold War, and made China a military power the United States had to respect.
+  now: The war never officially ended, US troops remain in South Korea, and North Korea's nuclear weapons keep the peninsula a flashpoint.
+  story: North Korea, backed by Stalin, invaded the South in June 1950. A US-led UN force pushed it back almost to China; then Chinese armies entered and drove the UN south again. The war ended in 1953 near where it began.
+  why: Korea had been divided at the 38th parallel by the United States and the USSR in 1945. Kim Il Sung wanted to unify it by force, and Stalin and Mao agreed to back him.
+  trig: North Korea's invasion of the South on June 25, 1950.
+  then: About 3 million people died. The United States tripled its defence budget and committed to defending Taiwan and Japan, while North Korea became a militarized family dictatorship.
+  fact: The war never officially ended. The 1953 armistice was a ceasefire, not a peace treaty.
+## d-chosin | 1950 | Battle of Chosin Reservoir | who: Chinese People's Volunteers under Peng Dehuai; US Marines and UN forces | where: Chosin Reservoir, North Korea
+  bluf: China's massive intervention drove UN forces back from the Yalu and turned the war into a stalemate. It established Communist China as a military power willing to fight the United States.
+  now: China calls it the War to Resist America and Aid Korea, and it remains central to Beijing's story of standing up to American power.
+  story: As UN troops neared the Yalu River, Chinese 'volunteers' attacked in late October 1950. At the Chosin Reservoir, from late November into December, US Marines fought their way out of encirclement in temperatures far below freezing; by January 1951 Seoul had fallen again.
+  why: Mao would not accept a US-allied Korea on China's border, and he wanted to show that the new People's Republic would stand up to the United States.
+  then: The front stabilized near the 38th parallel by mid-1951, and two more years of fighting changed little.
+## d-inchon | 1950 | Inchon landing | who: General Douglas MacArthur; UN forces | where: Incheon, South Korea
+  bluf: MacArthur's landing at Inchon reversed the Korean War in weeks, but his push toward the Chinese border provoked China's entry. It shows how a brilliant success can lead to overreach.
+  now: It is studied as one of history's boldest amphibious operations, and its aftermath as a classic case of victory leading to overreach.
+  story: With UN forces trapped in the Pusan Perimeter, MacArthur landed troops at Inchon on September 15, 1950, despite dangerous tides. Seoul was retaken by late September, and North Korea's army collapsed.
+  why: MacArthur wanted to cut North Korean supply lines and relieve the trapped Pusan Perimeter with a landing far behind enemy lines.
+  then: UN forces pushed north toward the Chinese border, provoking China's entry into the war.
+## d-koreaarmistice | 1953 | Korean Armistice signed | who: UN Command; North Korea; China | where: Panmunjom, Korea
+  bluf: The Korean Armistice stopped the fighting but produced no peace treaty, leaving the peninsula divided and technically still at war. The DMZ became one of the Cold War's most durable front lines.
+  now: The DMZ is one of the most heavily fortified borders on Earth, and North Korea's nuclear weapons have raised the stakes of the unfinished war.
+  story: After two years of talks, stalled mostly over prisoners who did not want to go home, the armistice was signed on July 27, 1953. It created a demilitarised zone roughly along the front line.
+  why: Two years of stalemate, Stalin's death, and US pressure, including hints of nuclear escalation.
+  then: South Korea did not sign, and the two Koreas remain technically at war; the US signed a defence treaty with the South in 1953.
+## as195862 | 1958 | Great Leap Forward | who: Mao Zedong; provincial party officials | where: China
+  bluf: Mao's Great Leap Forward forced peasants into communes and backyard steel-making to industrialize overnight, and caused the deadliest famine in history. It killed tens of millions, damaged Mao's standing and set the stage for the Cultural Revolution, his bid to reclaim power.
+  now: It was hidden for decades and remains politically sensitive in China; the party's official verdict speaks of 'mistakes' while protecting Mao's legacy.
+  story: In 1958 Mao launched a campaign to overtake Britain's industrial output within 15 years. Peasants were herded into vast communes with communal kitchens and ordered to make steel in backyard furnaces, often melting down their own tools. Local officials, afraid of punishment, reported impossible harvests, and the state took grain on the basis of those false figures, even exporting it, while villages starved.
+  why: Mao's utopian belief that mass mobilization could leap past economic limits, rivalry with the Soviet Union, and a political system in which no one dared report failure.
+  then: The famine of 1959-61 killed tens of millions; most estimates range from 15 to 45 million. Mao stepped back from day-to-day management, and pragmatists such as Liu Shaoqi and Deng Xiaoping restored some private farming.
+  fact: Villagers melted pots and tools in backyard furnaces to meet steel quotas, producing mostly useless iron.
+## d-lushan | 1959 | Lushan Conference | who: Mao Zedong; Marshal Peng Dehuai | where: Lushan, Jiangxi
+  bluf: Mao's purge of Peng Dehuai for criticizing the Great Leap silenced dissent within the party, making the famine far worse. It shows how punishing truth-tellers in authoritarian systems turns mistakes into disasters.
+  now: Peng was cleared after Mao's death, but the purge shows how one-man rule silences warnings; the Great Leap famine went on to kill tens of millions.
+  story: At a party meeting at the mountain resort of Lushan in July 1959, Peng wrote Mao a letter about the Great Leap's failures. Mao denounced him as anti-party; officials stopped reporting bad news, and grain was still taken from starving villages.
+  why: Mao treated criticism of the Great Leap as an attack on his authority, and no one in the leadership dared defend Peng.
+  then: Officials, terrified of being labelled 'rightists', kept inflating harvest figures, and the famine of 1959-61 killed an estimated 15 to 45 million people.
+## as196663 | 1966 | Cultural Revolution | who: Mao; Red Guards | where: China
+  bluf: Mao's Cultural Revolution mobilized students to purge the party and attack 'old' culture, plunging China into a decade of chaos and violence. It destroyed cultural heritage, education and many lives, and shaped the generation that rules China today.
+  now: Xi Jinping and many of China's current leaders were 'sent down' to the countryside during it, and the party discourages open discussion of the period.
+  story: In 1966 Mao launched the Great Proletarian Cultural Revolution to purge 'capitalist roaders' from the party. Millions of teenage Red Guards humiliated and beat teachers and officials, destroyed temples and relics, and fought one another; schools closed and millions of young people were sent to the countryside.
+  why: Mao, sidelined after the Great Leap's failure, wanted to reassert control and revive revolutionary zeal.
+  then: Schools and universities closed for years, hundreds of thousands to millions died, and Mao used the turmoil to purge rivals including Liu Shaoqi and Deng Xiaoping.
+## as197867 | 1978 | Deng's market reforms | who: Deng Xiaoping | where: China
+  bluf: Deng Xiaoping's reforms opened China's economy to markets and foreign investment while keeping Communist Party rule. They launched the greatest economic boom in history, lifting hundreds of millions out of poverty and making China the world's factory and America's main rival.
+  now: China became the 'world's factory'; under Xi Jinping the party has reasserted control over the economy, raising questions about the reform model's future.
+  story: At a party meeting in December 1978, Deng Xiaoping's reformers set China on a path of 'reform and opening'. Farmers were allowed to lease land and sell surplus crops, private businesses reappeared, and from 1980 special economic zones such as Shenzhen welcomed foreign investment.
+  why: Mao's campaigns had left China poor, and Deng believed growth mattered more than ideology.
+  then: Hundreds of millions escaped poverty over the next 40 years, but growth brought inequality, corruption and pollution, and the party crushed demands for political reform in 1989.
+  fact: Deng's line: 'It doesn't matter if a cat is black or white, as long as it catches mice.'
+## d-shenzhen | 1980 | Shenzhen special economic zone | who: Deng Xiaoping; the National People's Congress | where: Shenzhen, China
+  bluf: Shenzhen's special economic zone tested market reforms and foreign investment in one corner of China before they spread nationwide. It grew from a small town into a megacity and tech hub, the model for China's development.
+  now: Shenzhen is home to Huawei, Tencent and BYD, and is at the centre of China's drive for technological self-reliance in its rivalry with the United States.
+  story: In August 1980 China created special economic zones at Shenzhen and three other southern cities, with low taxes and freedom for foreign firms. Shenzhen grew from a town of a few tens of thousands into a city of over 17 million.
+  why: Deng wanted foreign capital and technology without opening the whole country at once.
+  then: The model spread to 14 coastal cities in 1984 and then across China, drawing in foreign factories and making China the world's workshop.
+## as198970 | 1989 | Tiananmen Square | who: Students; Chinese Communist Party | where: Beijing
+  bluf: The army's crushing of the Tiananmen protests ended hopes for political reform in China. The Communist Party chose economic growth without political liberalization, the model it has followed ever since.
+  now: The event is censored inside China, and the party's choice of force over reform set its course: economic opening without political liberalization.
+  story: In spring 1989, after the death of reformist leader Hu Yaobang, students occupied Tiananmen Square calling for reform and an end to corruption; workers joined them. On the night of June 3-4, the army cleared the square and surrounding streets, killing hundreds, possibly thousands.
+  why: Students demanded political reform and an end to corruption amid rising inflation.
+  then: The party purged reformers, tightened control of the press and universities and, after a pause, pushed economic growth harder.
+  fact: The identity of 'Tank Man', who stood in front of the column of tanks, has never been confirmed.
+## d-southerntour | 1992 | Deng's Southern Tour | who: Deng Xiaoping | where: Shenzhen and Shanghai
+  bluf: Deng's Southern Tour restarted market reforms after Tiananmen and fixed China on the course of market economics under one-party rule. It defeated the hardliners and led to two decades of explosive growth.
+  now: It fixed China's path of market economics under one-party rule, which made it the world's second-largest economy.
+  story: In January and February 1992, 87-year-old Deng visited Shenzhen, Zhuhai and Shanghai, urging officials to be bolder and saying markets were not only for capitalism. His remarks spread through the press and pushed conservatives aside.
+  why: After Tiananmen, hardliners had slowed reform, and Deng feared stagnation would threaten the party's hold on power.
+  then: Growth surged, and later in 1992 the party adopted the goal of a 'socialist market economy'.
+## as199772 | 1997 | Hong Kong returned to China | who: Britain; China | where: Hong Kong
+  bluf: Britain's handover of Hong Kong to China under 'one country, two systems' tested whether a liberal enclave could survive under Communist rule. Beijing's 2020 national security law effectively ended that experiment.
+  now: Beijing's 2020 national security law ended much of Hong Kong's autonomy.
+  story: At midnight on June 30, 1997, Hong Kong became a Special Administrative Region of China under 'one country, two systems', with promises of a high degree of autonomy for 50 years.
+  why: Most of Hong Kong was held on a 99-year lease signed in 1898, which made 1997 the deadline.
+  then: Hong Kong kept its own laws, currency and freedoms at first, but Beijing resisted full democracy, sparking mass protests in 2003, 2014 and 2019.
+  fact: Most of Hong Kong was on a 99-year lease signed in 1898, which is why 1997 was the date.
+## as200173 | 2001 | China joins the WTO | who: China; the World Trade Organization | where: Beijing
+  bluf: China's entry into the World Trade Organization tied the world's most populous country into global trade and made it the 'workshop of the world'. It raised Chinese living standards and lowered prices worldwide, but hit manufacturing towns in the West, the 'China shock' that feeds today's trade wars.
+  now: Trade tensions grew into US-China tariff wars from 2018, and the bet that trade would liberalize China's politics is widely judged to have failed.
+  story: After 15 years of negotiation, China joined the World Trade Organization in December 2001, cutting tariffs and opening to foreign investment in return for access to world markets.
+  why: Deng's heirs saw global markets as the path to growth, and Western governments hoped trade would encourage political liberalization in China.
+  then: Chinese exports grew roughly sevenfold in a decade; economists call the job losses in some Western factory towns the 'China shock'.
+## as201175c | 2011 | Fukushima nuclear disaster | who: Japan; the Tokyo Electric Power Company | where: Fukushima, Japan
+  bluf: The Fukushima meltdowns, caused by an earthquake and tsunami, were the worst nuclear accident since Chernobyl. They led Germany to phase out nuclear power and Japan to shut its reactors for years, shaping the global debate on nuclear energy and climate.
+  now: Debates over nuclear power's safety versus its role against climate change still cite Fukushima.
+  story: On March 11, 2011, a magnitude 9.0 earthquake triggered a tsunami that killed about 18,000 people and flooded the Fukushima Daiichi plant, causing three reactor meltdowns.
+  why: The plant's sea wall and backup power were not designed for a tsunami that large.
+  then: Germany decided to phase out nuclear power, and Japan shut down its reactors for years.
+## as201276 | 2012 | Xi Jinping takes power | who: Xi Jinping; the Chinese Communist Party | where: China
+  bluf: Xi Jinping became China's most powerful leader since Mao, centralizing control, cracking down on corruption and dissent, and scrapping presidential term limits. His more assertive foreign policy and tighter control at home have defined the US-China rivalry.
+  now: China grew more assertive abroad and tighter at home, and Xi began a third term in 2023 with no clear successor.
+  story: In November 2012 Xi Jinping became General Secretary of the Communist Party, and president in March 2013. His sweeping anti-corruption campaign punished more than a million officials and removed rivals; in 2018 the constitution's two-term limit on the presidency was scrapped.
+  why: He was chosen by the party leadership in a planned succession from Hu Jintao.
+  then: His anti-corruption campaign removed rivals, and in 2018 presidential term limits were scrapped.
+## d-wuhan | 2019 | COVID-19 identified in Wuhan | who: Wuhan health authorities; Chinese scientists; the World Health Organization | where: Wuhan, China
+  bluf: The identification of a new coronavirus in Wuhan began the COVID-19 pandemic. Early delays in disclosure and the unresolved question of the virus's origin became flashpoints in US-China relations.
+  now: Whether it came from animals at a market or from a laboratory accident remains unresolved.
+  story: On December 31, 2019, Wuhan officials reported unexplained pneumonia cases. Scientists identified a new coronavirus within days and published its genome on January 11, 2020. On January 23 Wuhan, a city of 11 million, was locked down.
+  why: A new virus spreading between people; exactly how it first reached humans is still debated.
+  then: The WHO declared a pandemic on March 11, 2020. About 7 million deaths were officially reported by 2023, and estimates of excess deaths are several times higher.

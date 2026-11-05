@@ -1,0 +1,1228 @@
+[
+ {
+  "from": 1886,
+  "to": 2026,
+  "country": "Bermuda",
+  "regions": [
+   "*"
+  ],
+  "owner": "Bermuda",
+  "overlord": "United Kingdom",
+  "why": "Bermuda shown with no polity from 1886; it has been a British colony (now British Overseas Territory) continuously since English settlement in 1612",
+  "source": "https://en.wikipedia.org/wiki/Bermuda",
+  "severity": "major"
+ },
+ {
+  "from": 1713,
+  "to": 1763,
+  "country": "Saint Pierre and Miquelon",
+  "regions": [
+   "Miquelon-Langlade"
+  ],
+  "owner": "Kingdom of Great Britain",
+  "why": "Peace of Utrecht ceded the islands to Britain 1713; returned to France 1763 (map has Saint-Pierre right, Miquelon left French)",
+  "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+  "severity": "minor"
+ },
+ {
+  "from": 1778,
+  "to": 1783,
+  "country": "Saint Pierre and Miquelon",
+  "regions": [
+   "Miquelon-Langlade"
+  ],
+  "owner": "Kingdom of Great Britain",
+  "why": "British occupation 1778-1783, as already shown for Saint-Pierre",
+  "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+  "severity": "minor"
+ },
+ {
+  "from": 1793,
+  "to": 1801,
+  "country": "Saint Pierre and Miquelon",
+  "regions": [
+   "Miquelon-Langlade"
+  ],
+  "owner": "Kingdom of Great Britain",
+  "why": "British occupation from 1793 (as for Saint-Pierre); removes the absurd 'French Louisiana' label on Miquelon",
+  "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+  "severity": "minor"
+ },
+ {
+  "from": 1801,
+  "to": 1816,
+  "country": "Saint Pierre and Miquelon",
+  "regions": [
+   "Miquelon-Langlade"
+  ],
+  "owner": "United Kingdom",
+  "why": "British occupation until the islands were returned to France in 1814/1816 (as for Saint-Pierre); 'French Louisiana' 1800-1805 on Miquelon is wrong",
+  "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1940,
+  "country": "Saint Pierre and Miquelon",
+  "regions": [
+   "Miquelon-Langlade"
+  ],
+  "owner": "French Third Republic",
+  "why": "Miquelon-Langlade shown as Newfoundland (1886) and Canada (1949-) - it has always remained French with Saint-Pierre",
+  "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+  "severity": "major"
+ },
+ {
+  "from": 1940,
+  "to": 1941,
+  "country": "Saint Pierre and Miquelon",
+  "regions": [
+   "Miquelon-Langlade"
+  ],
+  "owner": "Vichy France",
+  "why": "Under Vichy administration until the Free French seizure of 24 Dec 1941",
+  "source": "https://en.wikipedia.org/wiki/Free_French_takeover_of_Saint_Pierre_and_Miquelon",
+  "severity": "major"
+ },
+ {
+  "from": 1941,
+  "to": 1946,
+  "country": "Saint Pierre and Miquelon",
+  "regions": [
+   "Miquelon-Langlade"
+  ],
+  "owner": "Free France",
+  "why": "Free French seized the islands 24 Dec 1941",
+  "source": "https://en.wikipedia.org/wiki/Free_French_takeover_of_Saint_Pierre_and_Miquelon",
+  "severity": "major"
+ },
+ {
+  "from": 1946,
+  "to": 1958,
+  "country": "Saint Pierre and Miquelon",
+  "regions": [
+   "Miquelon-Langlade"
+  ],
+  "owner": "French Fourth Republic",
+  "why": "French territory, not Canadian; map shows Canada from 1949",
+  "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+  "severity": "major"
+ },
+ {
+  "from": 1958,
+  "to": 2026,
+  "country": "Saint Pierre and Miquelon",
+  "regions": [
+   "Miquelon-Langlade"
+  ],
+  "owner": "French Fifth Republic",
+  "why": "French overseas collectivity, not Canadian; map shows Canada from 1949",
+  "source": "https://en.wikipedia.org/wiki/Saint_Pierre_and_Miquelon",
+  "severity": "major"
+ },
+ {
+  "from": 1810,
+  "to": 1893,
+  "country": "United States of America",
+  "regions": [
+   "Hawaii"
+  ],
+  "owner": "Kingdom of Hawaii",
+  "why": "Kauai and Niihau joined in 1810, completing unification; map leaves Kauai/Niihau and the northwestern islands empty and drops Kauai again 1886-1893",
+  "source": "https://en.wikipedia.org/wiki/Hawaiian_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1893,
+  "to": 1898,
+  "country": "United States of America",
+  "regions": [
+   "Hawaii"
+  ],
+  "owner": "Republic of Hawaii",
+  "why": "Monarchy overthrown Jan 1893 (Provisional Government, Republic of Hawaii from 1894); map keeps the Kingdom until 1898",
+  "source": "https://en.wikipedia.org/wiki/Hawaiian_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1898,
+  "to": 1959,
+  "country": "United States of America",
+  "regions": [
+   "Hawaii"
+  ],
+  "owner": "Hawaii",
+  "overlord": "United States of America",
+  "why": "Annexed by the US 7 July 1898 (Territory from 1900); map leaves 5 of 9 provinces (northwestern islands) with no polity 1898-2019",
+  "source": "https://en.wikipedia.org/wiki/Hawaiian_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1959,
+  "to": 2026,
+  "country": "United States of America",
+  "regions": [
+   "Hawaii"
+  ],
+  "owner": "United States of America",
+  "why": "US state from 1959; northwestern Hawaiian Islands shown with no polity",
+  "source": "https://en.wikipedia.org/wiki/Hawaiian_Kingdom",
+  "severity": "minor"
+ },
+ {
+  "from": 1867,
+  "to": 1959,
+  "country": "United States of America",
+  "regions": [
+   "Alaska"
+  ],
+  "owner": "Alaska",
+  "overlord": "United States of America",
+  "why": "US possession from Oct 1867 (Department 1867, District 1884, Territory 1912). Map switches label from 'United States of America' (1867-1885) to 'Alaska [under USA]' (1886-) and leaves the Near Islands (Attu etc.) as no polity or 'Russia (Soviet Union)' from 1886 to 2019; Attu was part of the purchase",
+  "source": "https://en.wikipedia.org/wiki/Department_of_Alaska",
+  "severity": "major"
+ },
+ {
+  "from": 1959,
+  "to": 2026,
+  "country": "United States of America",
+  "regions": [
+   "Alaska"
+  ],
+  "owner": "United States of America",
+  "why": "State from 1959; westernmost Aleutians (Attu etc.) shown as no polity / Russia",
+  "source": "https://en.wikipedia.org/wiki/Attu_Island",
+  "severity": "major"
+ },
+ {
+  "from": 1867,
+  "to": 1931,
+  "country": "Canada",
+  "regions": [
+   "Ontario",
+   "Québec",
+   "Nova Scotia",
+   "New Brunswick"
+  ],
+  "owner": "Canada",
+  "overlord": "United Kingdom",
+  "why": "Confederation 1 July 1867: Ontario, Quebec, Nova Scotia and New Brunswick form the Dominion. Map shows them British colonies until 1870 (Ont./Qué., half of them until 1886) and Nova Scotia/New Brunswick until 1886; New Brunswick's Grand Manan is shown as US 1776-2019",
+  "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+  "severity": "major"
+ },
+ {
+  "from": 1870,
+  "to": 1931,
+  "country": "Canada",
+  "regions": [
+   "Manitoba",
+   "Saskatchewan",
+   "Alberta",
+   "Northwest Territories",
+   "Nunavut",
+   "Yukon"
+  ],
+  "owner": "Canada",
+  "overlord": "United Kingdom",
+  "why": "Rupert's Land and the North-Western Territory passed to Canada 15 July 1870 (Arctic islands 1880); map keeps 1-18 provinces per region as British Colonial Empire until 1886",
+  "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+  "severity": "major"
+ },
+ {
+  "from": 1871,
+  "to": 1931,
+  "country": "Canada",
+  "regions": [
+   "British Columbia"
+  ],
+  "owner": "Canada",
+  "overlord": "United Kingdom",
+  "why": "British Columbia joined Confederation 20 July 1871; map shows it a British colony (41-45 of 57 provinces) until 1886, with one island as US 1867-1886",
+  "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+  "severity": "major"
+ },
+ {
+  "from": 1873,
+  "to": 1931,
+  "country": "Canada",
+  "regions": [
+   "Prince Edward Island"
+  ],
+  "owner": "Canada",
+  "overlord": "United Kingdom",
+  "why": "PEI joined Confederation 1 July 1873; map shows it a British colony until 1886",
+  "source": "https://en.wikipedia.org/wiki/Canadian_Confederation",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1931,
+  "country": "Canada",
+  "regions": [
+   "*"
+  ],
+  "owner": "Canada",
+  "overlord": "United Kingdom",
+  "except": [
+   "Newfoundland and Labrador"
+  ],
+  "why": "Map drops the overlord in 1886, an arbitrary date that breaks the colour; Canada was a self-governing Dominion under the Crown until the Statute of Westminster (Dec 1931)",
+  "source": "https://en.wikipedia.org/wiki/Statute_of_Westminster_1931",
+  "severity": "minor"
+ },
+ {
+  "from": 1931,
+  "to": 2026,
+  "country": "Canada",
+  "regions": [
+   "*"
+  ],
+  "owner": "Canada",
+  "except": [
+   "Newfoundland and Labrador"
+  ],
+  "why": "Fixes provinces wrongly held by others in the modern era: Grand Manan (New Brunswick) shown as USA and Pim Island (Nunavut) shown as Denmark",
+  "source": "https://en.wikipedia.org/wiki/Grand_Manan",
+  "severity": "minor"
+ },
+ {
+  "from": 1763,
+  "to": 1867,
+  "country": "Canada",
+  "regions": [
+   "New Brunswick"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British after 1763 (Nova Scotia, separate colony 1784); Grand Manan shown as US from 1776 though British title was confirmed in 1817; Passamaquoddy flicker in 1775",
+  "source": "https://en.wikipedia.org/wiki/Grand_Manan",
+  "severity": "minor"
+ },
+ {
+  "from": 1718,
+  "to": 1758,
+  "country": "Canada",
+  "regions": [
+   "Prince Edward Island"
+  ],
+  "owner": "New France",
+  "overlord": "Kingdom of France",
+  "why": "Ile Saint-Jean stayed French under the 1713 Treaty of Utrecht (settled 1719-20, Port-La-Joye) until captured by Britain in 1758; map shows it British 1718-1721 and French until 1760",
+  "source": "https://en.wikipedia.org/wiki/History_of_Prince_Edward_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1758,
+  "to": 1873,
+  "country": "Canada",
+  "regions": [
+   "Prince Edward Island"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British from the 1758 Ile Saint-Jean campaign (colony 1769, renamed PEI 1798) until Confederation 1873",
+  "source": "https://en.wikipedia.org/wiki/History_of_Prince_Edward_Island",
+  "severity": "minor"
+ },
+ {
+  "from": 1872,
+  "to": 2026,
+  "country": "United States of America",
+  "regions": [
+   "Washington"
+  ],
+  "owner": "United States of America",
+  "why": "San Juan Islands awarded to the US by the 1872 arbitration (Pig War); map shows them British until 1886 and Canadian 1886-2019",
+  "source": "https://en.wikipedia.org/wiki/Pig_War_(1859)",
+  "severity": "major"
+ },
+ {
+  "from": 1620,
+  "to": 1713,
+  "country": "United States of America",
+  "regions": [
+   "Massachusetts"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "Plymouth Colony 1620 and Massachusetts Bay 1628/30; map shows Massachusetts partly Dutch (New Netherland) 1634-1640 and 1662-1667, and English only from 1630",
+  "source": "https://en.wikipedia.org/wiki/Plymouth_Colony",
+  "severity": "major"
+ },
+ {
+  "from": 1636,
+  "to": 1713,
+  "country": "United States of America",
+  "regions": [
+   "Connecticut"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "Connecticut Colony founded 1636 (Hartford, Windsor, Wethersfield), Pequot land taken 1638; the Dutch had only the Fort Good Hope trading post. Map shows Connecticut (incl. Rhode Island) as New Netherland 1634-1667",
+  "source": "https://en.wikipedia.org/wiki/Connecticut_Colony",
+  "severity": "major"
+ },
+ {
+  "from": 1623,
+  "to": 1713,
+  "country": "United States of America",
+  "regions": [
+   "New Hampshire"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "First permanent English settlements (Dover, Rye) 1623; under Massachusetts 1641-79; royal Province of New Hampshire 1679. Map shows no English presence until 1744 and flips back to Abenaki 1758-63",
+  "source": "https://en.wikipedia.org/wiki/Province_of_New_Hampshire",
+  "severity": "major"
+ },
+ {
+  "from": 1713,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "New Hampshire"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "Province of New Hampshire was continuously British; map flips it to Western Abenaki 1758-1763 and 1775",
+  "source": "https://en.wikipedia.org/wiki/Province_of_New_Hampshire",
+  "severity": "minor"
+ },
+ {
+  "from": 1634,
+  "to": 1713,
+  "country": "United States of America",
+  "regions": [
+   "Maryland"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "Province of Maryland settled at St Mary's City in March 1634; map shows Piscataway until 1662 and uses 'Kingdom of England' vs 'English Colonial Empire' alternately",
+  "source": "https://en.wikipedia.org/wiki/Province_of_Maryland",
+  "severity": "major"
+ },
+ {
+  "from": 1713,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "Maryland"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "Province of Maryland; map switches to 'Kingdom of Great Britain' for 1775 only",
+  "source": "https://en.wikipedia.org/wiki/Province_of_Maryland",
+  "severity": "minor"
+ },
+ {
+  "from": 1655,
+  "to": 1664,
+  "country": "United States of America",
+  "regions": [
+   "New Jersey"
+  ],
+  "owner": "New Netherland",
+  "why": "New Sweden on the Delaware (this province includes Delaware) was taken by New Netherland in 1655; map alternates 'New Netherland' and 'Dutch Republic'",
+  "source": "https://en.wikipedia.org/wiki/New_Sweden",
+  "severity": "minor"
+ },
+ {
+  "from": 1664,
+  "to": 1673,
+  "country": "United States of America",
+  "regions": [
+   "New Jersey"
+  ],
+  "owner": "English Colonial Empire",
+  "overlord": "Kingdom of England",
+  "why": "English conquest of New Netherland 1664; map uses 'Kingdom of England' then 'English Colonial Empire'",
+  "source": "https://en.wikipedia.org/wiki/New_Netherland",
+  "severity": "minor"
+ },
+ {
+  "from": 1713,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "New Jersey"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "Province of New Jersey; map switches to 'Kingdom of Great Britain' for 1775 only",
+  "source": "https://en.wikipedia.org/wiki/Province_of_New_Jersey",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "Virginia"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "One-year glitch in 1775: the whole colony flips to Indigenous peoples / 'Kingdom of Great Britain' between British rule (to 1774) and the US (1776)",
+  "source": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "North Carolina"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "One-year glitch in 1775: the whole colony flips to Indigenous peoples / 'Kingdom of Great Britain' between British rule (to 1774) and the US (1776)",
+  "source": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "South Carolina"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "One-year glitch in 1775: the whole colony flips to Indigenous peoples / 'Kingdom of Great Britain' between British rule (to 1774) and the US (1776)",
+  "source": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "Georgia"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "One-year glitch in 1775: the whole colony flips to Indigenous peoples / 'Kingdom of Great Britain' between British rule (to 1774) and the US (1776)",
+  "source": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "Pennsylvania"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "One-year glitch in 1775: the whole colony flips to Indigenous peoples / 'Kingdom of Great Britain' between British rule (to 1774) and the US (1776)",
+  "source": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "Connecticut"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "One-year glitch in 1775: the whole colony flips to Indigenous peoples / 'Kingdom of Great Britain' between British rule (to 1774) and the US (1776)",
+  "source": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "Massachusetts"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "One-year glitch in 1775: the whole colony flips to Indigenous peoples / 'Kingdom of Great Britain' between British rule (to 1774) and the US (1776)",
+  "source": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "Maine"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "One-year glitch in 1775: the whole colony flips to Indigenous peoples / 'Kingdom of Great Britain' between British rule (to 1774) and the US (1776)",
+  "source": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "Vermont"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "One-year glitch in 1775: the whole colony flips to Indigenous peoples / 'Kingdom of Great Britain' between British rule (to 1774) and the US (1776)",
+  "source": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1776,
+  "country": "United States of America",
+  "regions": [
+   "West Virginia"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "One-year glitch in 1775: the whole colony flips to Indigenous peoples / 'Kingdom of Great Britain' between British rule (to 1774) and the US (1776)",
+  "source": "https://en.wikipedia.org/wiki/Thirteen_Colonies",
+  "severity": "minor"
+ },
+ {
+  "from": 1777,
+  "to": 1791,
+  "country": "United States of America",
+  "regions": [
+   "Vermont"
+  ],
+  "owner": "Vermont Republic",
+  "why": "Vermont Republic declared 15 Jan 1777, admitted as 14th state 4 Mar 1791; map shows it as the USA 1776-1783",
+  "source": "https://en.wikipedia.org/wiki/Vermont_Republic",
+  "severity": "major"
+ },
+ {
+  "from": 1718,
+  "to": 1769,
+  "country": "United States of America",
+  "regions": [
+   "Louisiana"
+  ],
+  "owner": "New France",
+  "overlord": "Kingdom of France",
+  "why": "French Louisiana: New Orleans founded 1718 (Natchitoches 1714); France kept administering until Spain took effective control in 1769. Map shows only 1-5 of 7 provinces, flickering, with 'Kingdom of France' and peoples alternating",
+  "source": "https://en.wikipedia.org/wiki/Louisiana_(New_France)",
+  "severity": "major"
+ },
+ {
+  "from": 1769,
+  "to": 1803,
+  "country": "United States of America",
+  "regions": [
+   "Louisiana"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Spanish Louisiana: ceded 1762, O'Reilly imposed Spanish rule 1769, held until the 1803 transfer. Map shows Spain in only 1-4 provinces, with New France lingering to 1775 and Tunica/Caddo filling the rest",
+  "source": "https://en.wikipedia.org/wiki/Spanish_Louisiana",
+  "severity": "major"
+ },
+ {
+  "from": 1803,
+  "to": 1861,
+  "country": "United States of America",
+  "regions": [
+   "Louisiana"
+  ],
+  "owner": "United States of America",
+  "why": "Louisiana Purchase transferred 20 Dec 1803 (Florida parishes annexed 1810); map keeps Spain and peoples in parts until 1812 and alternates 'United States'/'United States of America'",
+  "source": "https://en.wikipedia.org/wiki/Spanish_Louisiana",
+  "severity": "major"
+ },
+ {
+  "from": 1861,
+  "to": 1866,
+  "country": "United States of America",
+  "regions": [
+   "Texas"
+  ],
+  "owner": "Confederate States of America",
+  "why": "Texas seceded as a whole in 1861 and stayed Confederate until mid-1865; map leaves 12-17 of 35 provinces as 'United States'",
+  "source": "https://en.wikipedia.org/wiki/Texas_in_the_American_Civil_War",
+  "severity": "major"
+ },
+ {
+  "from": 1861,
+  "to": 1865,
+  "country": "United States of America",
+  "regions": [
+   "Arkansas"
+  ],
+  "owner": "Confederate States of America",
+  "why": "Arkansas seceded 6 May 1861; its Confederate government held out (Washington, AR) until 1865. Map never shows Arkansas in the Confederacy",
+  "source": "https://en.wikipedia.org/wiki/Arkansas_in_the_American_Civil_War",
+  "severity": "major"
+ },
+ {
+  "from": 1861,
+  "to": 1863,
+  "country": "United States of America",
+  "regions": [
+   "Tennessee"
+  ],
+  "owner": "Confederate States of America",
+  "why": "Tennessee joined the Confederacy 2 July 1861; Union control of the west/middle came in 1862 and of East Tennessee in 1863. Map shows only 1 of 5 provinces Confederate",
+  "source": "https://en.wikipedia.org/wiki/Tennessee_in_the_American_Civil_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1861,
+  "to": 1865,
+  "country": "United States of America",
+  "regions": [
+   "Mississippi"
+  ],
+  "owner": "Confederate States of America",
+  "why": "Mississippi seceded 9 Jan 1861 and its Confederate government functioned until May 1865; map shows half the state as USA from 1861",
+  "source": "https://en.wikipedia.org/wiki/Mississippi_in_the_American_Civil_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1848,
+  "to": 1861,
+  "country": "United States of America",
+  "regions": [
+   "Texas"
+  ],
+  "owner": "United States of America",
+  "why": "Texas annexed 1845, boundary confirmed 1848; map alternates two US labels across half the state",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Guadalupe_Hidalgo",
+  "severity": "minor"
+ },
+ {
+  "from": 1866,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Texas"
+  ],
+  "owner": "United States of America",
+  "why": "After 1865 all of Texas is US; map shows one province as 'Second Mexican Empire' (1867) and 'Mexico' (1868-1872) and uses two US labels",
+  "source": "https://en.wikipedia.org/wiki/Texas",
+  "severity": "major"
+ },
+ {
+  "from": 1854,
+  "to": 1861,
+  "country": "United States of America",
+  "regions": [
+   "Arizona",
+   "New Mexico"
+  ],
+  "owner": "United States of America",
+  "why": "Gadsden Purchase took effect June 1854; map shows 1-6 Arizona provinces as Mexico until 1873 (6 in 1855) and two US labels",
+  "source": "https://en.wikipedia.org/wiki/Gadsden_Purchase",
+  "severity": "major"
+ },
+ {
+  "from": 1862,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Arizona",
+   "New Mexico"
+  ],
+  "owner": "United States of America",
+  "why": "After the Confederate Arizona episode (1861-62) the region is US; map shows one province each as 'Second Mexican Empire' (1867) and 'Mexico' (1868-1873)",
+  "source": "https://en.wikipedia.org/wiki/Gadsden_Purchase",
+  "severity": "major"
+ },
+ {
+  "from": 1851,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Utah"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1851 (Utah Territory 1850); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1861,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Nevada"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1861 (Nevada Territory 1861); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1861,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Colorado"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1861 (Colorado Territory 1861); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1854,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Kansas",
+   "Nebraska"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1854 (Kansas and Nebraska Territories 1854); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1861,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "North Dakota",
+   "South Dakota"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1861 (Dakota Territory 1861); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1864,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Montana"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1864 (Montana Territory 1864); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1868,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Wyoming"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1868 (Wyoming Territory 1868); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1863,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Idaho"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1863 (Idaho Territory 1863); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1848,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Oregon"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1848 (Oregon Territory 1848); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1849,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Minnesota"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1849 (Minnesota Territory 1849); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1848,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Wisconsin"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1848 (statehood 1848); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1842,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Michigan"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1842 (Michigan state 1837, Upper Peninsula ceded 1842); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1821,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Missouri"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1821 (statehood 1821); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1818,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Illinois"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1818 (statehood 1818); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1816,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Indiana"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1816 (statehood 1816); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1803,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Ohio"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1803 (statehood 1803); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1817,
+  "to": 1861,
+  "country": "United States of America",
+  "regions": [
+   "Mississippi"
+  ],
+  "owner": "United States of America",
+  "why": "Organized US land from 1817 (statehood 1817); map flips whole provinces back and forth between the US and Indigenous nations from one base year to the next and splits the US into two labels ('United States' / 'United States of America')",
+  "source": "https://en.wikipedia.org/wiki/Historic_regions_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1814,
+  "country": "Greenland",
+  "regions": [
+   "Kommune Kujalleq"
+  ],
+  "owner": "Greenland",
+  "overlord": "Denmark-Norway",
+  "why": "Julianehåb (Qaqortoq) colony founded 1775; map flips between 'Kalaallit' and 'Greenland' labels",
+  "source": "https://en.wikipedia.org/wiki/Qaqortoq",
+  "severity": "minor"
+ },
+ {
+  "from": 1814,
+  "to": 1886,
+  "country": "Greenland",
+  "regions": [
+   "Kommune Kujalleq"
+  ],
+  "owner": "Greenland",
+  "overlord": "Kingdom of Denmark",
+  "why": "After the 1814 Treaty of Kiel Greenland stayed with Denmark; map flickers every few years between 'Kalaallit [Kingdom of Denmark]' and 'Greenland [under Denmark-Norway / Kingdom of Denmark]' (Denmark-Norway is anachronistic after 1814)",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Kiel",
+  "severity": "minor"
+ },
+ {
+  "from": 1815,
+  "to": 1819,
+  "country": "United States of America",
+  "regions": [
+   "Alabama"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1820,
+  "to": 1822,
+  "country": "United States of America",
+  "regions": [
+   "Arkansas"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1848,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "California"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1821,
+  "to": 1861,
+  "country": "United States of America",
+  "regions": [
+   "Florida"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1783,
+  "to": 1788,
+  "country": "United States of America",
+  "regions": [
+   "Georgia"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1798,
+  "to": 1813,
+  "country": "United States of America",
+  "regions": [
+   "Georgia"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1814,
+  "to": 1861,
+  "country": "United States of America",
+  "regions": [
+   "Georgia"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1815,
+  "to": 1818,
+  "country": "United States of America",
+  "regions": [
+   "Illinois"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1815,
+  "to": 1816,
+  "country": "United States of America",
+  "regions": [
+   "Indiana"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1776,
+  "to": 1788,
+  "country": "United States of America",
+  "regions": [
+   "Maine"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1798,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Maine"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1815,
+  "to": 1817,
+  "country": "United States of America",
+  "regions": [
+   "Mississippi"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1815,
+  "to": 1821,
+  "country": "United States of America",
+  "regions": [
+   "Missouri"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1673,
+  "to": 1674,
+  "country": "United States of America",
+  "regions": [
+   "New Jersey"
+  ],
+  "owner": "New Netherland",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (Dutch Republic), so the colour changes without any change of ruler; use 'New Netherland' throughout",
+  "source": "https://en.wikipedia.org/wiki/New_Netherland",
+  "severity": "minor"
+ },
+ {
+  "from": 1850,
+  "to": 1854,
+  "country": "United States of America",
+  "regions": [
+   "New Mexico"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1784,
+  "to": 1788,
+  "country": "United States of America",
+  "regions": [
+   "New York"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1787,
+  "to": 1788,
+  "country": "United States of America",
+  "regions": [
+   "Ohio"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1801,
+  "to": 1803,
+  "country": "United States of America",
+  "regions": [
+   "Ohio"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1848,
+  "to": 1861,
+  "country": "United States of America",
+  "regions": [
+   "Oklahoma"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1862,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Oklahoma"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1780,
+  "to": 1886,
+  "country": "United States of America",
+  "regions": [
+   "Pennsylvania"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1805,
+  "to": 1861,
+  "country": "United States of America",
+  "regions": [
+   "Tennessee"
+  ],
+  "owner": "United States of America",
+  "why": "Label flicker: the whole region is held by one state but the map alternates its names (United States, United States of America), so the colour changes without any change of ruler; use 'United States of America' throughout",
+  "source": "https://en.wikipedia.org/wiki/Territorial_evolution_of_the_United_States",
+  "severity": "minor"
+ }
+]

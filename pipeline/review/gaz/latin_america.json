@@ -1,0 +1,8932 @@
+{
+ "region": "Mexico south of 23N, Central America, the Caribbean and South America: Native, maroon and mission polities 1400-1900",
+ "polities": [
+  {
+   "name": "Aztec Triple Alliance",
+   "aliases": [
+    "Aztec Empire",
+    "Excan Tlatoloyan",
+    "Mexica",
+    "Tenochtitlan"
+   ],
+   "from": 1428,
+   "to": 1521,
+   "seat": {
+    "name": "Tenochtitlan",
+    "lat": 19.43,
+    "lon": -99.13
+   },
+   "extent": [
+    [
+     21.0,
+     -97.4
+    ],
+    [
+     19.1,
+     -96.1
+    ],
+    [
+     17.9,
+     -95.8
+    ],
+    [
+     17.0,
+     -96.7
+    ],
+    [
+     16.6,
+     -99.0
+    ],
+    [
+     17.9,
+     -101.6
+    ],
+    [
+     19.4,
+     -100.3
+    ],
+    [
+     20.4,
+     -99.4
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1428,
+     "to": 1440,
+     "extent": [
+      [
+       20.0,
+       -99.3
+      ],
+      [
+       19.9,
+       -98.7
+      ],
+      [
+       19.3,
+       -98.6
+      ],
+      [
+       18.7,
+       -98.9
+      ],
+      [
+       18.7,
+       -99.4
+      ],
+      [
+       19.4,
+       -99.5
+      ]
+     ]
+    },
+    {
+     "from": 1440,
+     "to": 1481,
+     "extent": [
+      [
+       21.0,
+       -97.6
+      ],
+      [
+       19.1,
+       -96.2
+      ],
+      [
+       18.1,
+       -97.0
+      ],
+      [
+       18.0,
+       -99.5
+      ],
+      [
+       19.3,
+       -100.0
+      ],
+      [
+       20.3,
+       -99.4
+      ]
+     ]
+    },
+    {
+     "from": 1481,
+     "to": 1521,
+     "extent": [
+      [
+       21.0,
+       -97.4
+      ],
+      [
+       19.1,
+       -96.1
+      ],
+      [
+       17.9,
+       -95.8
+      ],
+      [
+       17.0,
+       -96.7
+      ],
+      [
+       16.6,
+       -99.0
+      ],
+      [
+       17.9,
+       -101.6
+      ],
+      [
+       19.4,
+       -100.3
+      ],
+      [
+       20.4,
+       -99.4
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Aztec_Empire",
+   "confidence": "moderate",
+   "note": "Hegemonic tributary empire of Tenochtitlan, Texcoco and Tlacopan; extent = contiguous tributary provinces c.1519. Detached province of Xoconochco (Soconusco) listed separately. Enclaves not ruled: Tlaxcala, Huexotzinco, Metztitlan, Yopitzinco, Tututepec. Fell to Cortés 1521."
+  },
+  {
+   "name": "Tepanec Empire",
+   "aliases": [
+    "Tepaneca",
+    "Azcapotzalco"
+   ],
+   "from": 1367,
+   "to": 1428,
+   "seat": {
+    "name": "Azcapotzalco",
+    "lat": 19.48,
+    "lon": -99.18
+   },
+   "extent": [
+    [
+     20.0,
+     -99.4
+    ],
+    [
+     19.85,
+     -98.9
+    ],
+    [
+     19.3,
+     -98.9
+    ],
+    [
+     18.9,
+     -99.2
+    ],
+    [
+     19.2,
+     -99.8
+    ],
+    [
+     19.8,
+     -99.8
+    ]
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Azcapotzalco_(altepetl)",
+   "confidence": "moderate",
+   "note": "Dominant power of the Basin of Mexico under Tezozomoc (d.1426); Mexica Tenochtitlan was its tributary until the 1428 war that created the Triple Alliance."
+  },
+  {
+   "name": "Acolhua Texcoco",
+   "aliases": [
+    "Texcoco",
+    "Acolhuacan"
+   ],
+   "from": 1300,
+   "to": 1521,
+   "seat": {
+    "name": "Texcoco",
+    "lat": 19.51,
+    "lon": -98.88
+   },
+   "extent": [
+    [
+     20.0,
+     -98.9
+    ],
+    [
+     19.85,
+     -98.4
+    ],
+    [
+     19.45,
+     -98.6
+    ],
+    [
+     19.35,
+     -98.85
+    ],
+    [
+     19.6,
+     -98.95
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1418,
+     "to": 1428,
+     "name": "Tepanec Empire"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Texcoco_(altepetl)",
+   "confidence": "moderate",
+   "note": "Acolhua capital; subject to the Tepanecs 1418-1428, then partner in the Triple Alliance (draw under the Alliance 1428-1521 if needed)."
+  },
+  {
+   "name": "Chalco Confederation",
+   "aliases": [
+    "Chalco",
+    "Chalco-Amaquemecan"
+   ],
+   "from": 1250,
+   "to": 1465,
+   "seat": {
+    "name": "Chalco",
+    "lat": 19.26,
+    "lon": -98.9
+   },
+   "extent": [
+    [
+     19.35,
+     -98.95
+    ],
+    [
+     19.3,
+     -98.6
+    ],
+    [
+     19.0,
+     -98.6
+    ],
+    [
+     18.95,
+     -98.9
+    ],
+    [
+     19.15,
+     -99.05
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Chalco_(altépetl)",
+   "confidence": "moderate",
+   "note": "Independent altepetl confederation of the SE Basin of Mexico; conquered by the Mexica after a long war, 1465."
+  },
+  {
+   "name": "Tlaxcala",
+   "aliases": [
+    "Tlaxcallan",
+    "Republic of Tlaxcala"
+   ],
+   "from": 1348,
+   "to": 1521,
+   "seat": {
+    "name": "Tlaxcallan (Ocotelolco)",
+    "lat": 19.32,
+    "lon": -98.23
+   },
+   "extent": [
+    [
+     19.7,
+     -98.3
+    ],
+    [
+     19.55,
+     -97.9
+    ],
+    [
+     19.2,
+     -98.0
+    ],
+    [
+     19.15,
+     -98.35
+    ],
+    [
+     19.45,
+     -98.55
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Tlaxcaltec",
+   "confidence": "high",
+   "note": "Confederation of four altepetl (Tepeticpac, Ocotelolco, Tizatlan, Quiahuiztlan) never conquered by the Aztecs; allied with Cortés 1519 and kept privileged self-government inside New Spain afterwards."
+  },
+  {
+   "name": "Huexotzinco",
+   "aliases": [
+    "Huejotzingo",
+    "Huexotzinca"
+   ],
+   "from": 1200,
+   "to": 1521,
+   "seat": {
+    "name": "Huexotzinco",
+    "lat": 19.16,
+    "lon": -98.41
+   },
+   "extent": [
+    [
+     19.35,
+     -98.6
+    ],
+    [
+     19.3,
+     -98.3
+    ],
+    [
+     19.05,
+     -98.3
+    ],
+    [
+     19.0,
+     -98.6
+    ]
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Huejotzingo",
+   "confidence": "moderate",
+   "note": "Independent Nahua altepetl east of the volcanoes; flower-war enemy of the Aztecs, allied with Spain 1519."
+  },
+  {
+   "name": "Cholula",
+   "aliases": [
+    "Cholollan"
+   ],
+   "from": 1200,
+   "to": 1519,
+   "seat": {
+    "name": "Cholula",
+    "lat": 19.06,
+    "lon": -98.3
+   },
+   "reach_km": 15,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Cholula,_Puebla",
+   "confidence": "moderate",
+   "note": "Sacred Nahua city-state; oscillated between Tlaxcalan and Aztec alignment; massacre by Cortés 1519."
+  },
+  {
+   "name": "Metztitlan",
+   "aliases": [
+    "Señorío de Metztitlán",
+    "Meztitlán"
+   ],
+   "from": 1300,
+   "to": 1522,
+   "seat": {
+    "name": "Metztitlan",
+    "lat": 20.6,
+    "lon": -98.76
+   },
+   "extent": [
+    [
+     21.1,
+     -98.9
+    ],
+    [
+     20.9,
+     -98.4
+    ],
+    [
+     20.4,
+     -98.5
+    ],
+    [
+     20.4,
+     -98.9
+    ],
+    [
+     20.8,
+     -99.1
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Metztitlán",
+   "confidence": "moderate",
+   "note": "Otomi/Nahua lordship in the Sierra of Hidalgo that resisted the Aztecs; submitted to the Spanish 1522-1530s."
+  },
+  {
+   "name": "Yopitzinco",
+   "aliases": [
+    "Yopes",
+    "Tlapanec of Yopitzinco"
+   ],
+   "from": 1300,
+   "to": 1521,
+   "seat": {
+    "name": "Yopitzinco",
+    "lat": 16.95,
+    "lon": -99.1
+   },
+   "reach_km": 50,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Tlapanec_people",
+   "confidence": "low",
+   "note": "Independent Yope/Tlapanec enclave on the Guerrero coast east of Acapulco, never conquered by the Aztecs."
+  },
+  {
+   "name": "Matlatzinca",
+   "aliases": [
+    "Toluca valley",
+    "Tollocan",
+    "Calixtlahuaca"
+   ],
+   "from": 1300,
+   "to": 1474,
+   "seat": {
+    "name": "Calixtlahuaca",
+    "lat": 19.33,
+    "lon": -99.69
+   },
+   "extent": [
+    [
+     19.75,
+     -99.9
+    ],
+    [
+     19.6,
+     -99.45
+    ],
+    [
+     19.05,
+     -99.5
+    ],
+    [
+     19.0,
+     -99.9
+    ],
+    [
+     19.35,
+     -100.1
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Matlatzinca",
+   "confidence": "low",
+   "note": "Matlatzinca lordships of the Toluca valley conquered by Axayacatl c.1474-1478."
+  },
+  {
+   "name": "Tarascan State",
+   "aliases": [
+    "Purépecha Empire",
+    "Irechecua Tzintzuntzani",
+    "Michoacán"
+   ],
+   "from": 1350,
+   "to": 1530,
+   "seat": {
+    "name": "Tzintzuntzan",
+    "lat": 19.63,
+    "lon": -101.58
+   },
+   "extent": [
+    [
+     20.4,
+     -102.6
+    ],
+    [
+     20.3,
+     -100.6
+    ],
+    [
+     19.3,
+     -100.3
+    ],
+    [
+     18.3,
+     -100.8
+    ],
+    [
+     18.0,
+     -102.2
+    ],
+    [
+     18.9,
+     -103.5
+    ],
+    [
+     19.8,
+     -103.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1350,
+     "to": 1440,
+     "seat": {
+      "name": "Pátzcuaro",
+      "lat": 19.51,
+      "lon": -101.61
+     },
+     "extent": [
+      [
+       19.9,
+       -102.0
+      ],
+      [
+       19.95,
+       -101.2
+      ],
+      [
+       19.3,
+       -101.0
+      ],
+      [
+       19.2,
+       -101.9
+      ]
+     ]
+    },
+    {
+     "from": 1440,
+     "to": 1530,
+     "seat": {
+      "name": "Tzintzuntzan",
+      "lat": 19.63,
+      "lon": -101.58
+     },
+     "extent": [
+      [
+       20.4,
+       -102.6
+      ],
+      [
+       20.3,
+       -100.6
+      ],
+      [
+       19.3,
+       -100.3
+      ],
+      [
+       18.3,
+       -100.8
+      ],
+      [
+       18.0,
+       -102.2
+      ],
+      [
+       18.9,
+       -103.5
+      ],
+      [
+       19.8,
+       -103.0
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Tarascan_state",
+   "confidence": "high",
+   "note": "Capital first Pátzcuaro, then Ihuatzio, then Tzintzuntzan (from c.1440s). Held the Aztec frontier on the Lerma/Balsas; submitted peacefully to Spain 1522, Cazonci Tangaxuan II executed 1530."
+  },
+  {
+   "name": "Colima chiefdom",
+   "aliases": [
+    "Colimotl",
+    "Coliman"
+   ],
+   "from": 1300,
+   "to": 1523,
+   "seat": {
+    "name": "Caxitlán (Colima)",
+    "lat": 19.24,
+    "lon": -103.72
+   },
+   "extent": [
+    [
+     19.6,
+     -104.4
+    ],
+    [
+     19.5,
+     -103.4
+    ],
+    [
+     18.9,
+     -103.3
+    ],
+    [
+     18.7,
+     -103.9
+    ],
+    [
+     19.1,
+     -104.5
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Colima_(city)",
+   "confidence": "low",
+   "note": "Coliman lordship that fought the Tarascans in the Salitre war; conquered by Gonzalo de Sandoval 1523."
+  },
+  {
+   "name": "Tonallan",
+   "aliases": [
+    "Tonalá",
+    "Señorío de Tonalá",
+    "Cihuapilli"
+   ],
+   "from": 1300,
+   "to": 1530,
+   "seat": {
+    "name": "Tonallan",
+    "lat": 20.62,
+    "lon": -103.24
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Tonalá,_Jalisco",
+   "confidence": "low",
+   "note": "Lordship of central Jalisco ruled by a cihuapilli (queen) at the Spanish arrival; submitted to Nuño de Guzmán 1530."
+  },
+  {
+   "name": "Caxcan",
+   "aliases": [
+    "Caxcanes",
+    "Teul",
+    "Nochistlán"
+   ],
+   "from": 1300,
+   "to": 1542,
+   "seat": {
+    "name": "Nochistlán",
+    "lat": 21.36,
+    "lon": -102.85
+   },
+   "extent": [
+    [
+     22.2,
+     -103.3
+    ],
+    [
+     21.9,
+     -102.6
+    ],
+    [
+     21.2,
+     -102.6
+    ],
+    [
+     21.0,
+     -103.1
+    ],
+    [
+     21.6,
+     -103.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Caxcan",
+   "confidence": "moderate",
+   "note": "Uto-Aztecan people of southern Zacatecas/northern Jalisco; led the Mixtón War 1540-1542, defeated at Nochistlán and Mixtón."
+  },
+  {
+   "name": "Cora of Nayarit",
+   "aliases": [
+    "Kingdom of Nayarit",
+    "Náayerite",
+    "Mesa del Nayar",
+    "Cora"
+   ],
+   "from": 1400,
+   "to": 1722,
+   "seat": {
+    "name": "Mesa del Nayar",
+    "lat": 22.22,
+    "lon": -104.67
+   },
+   "extent": [
+    [
+     22.75,
+     -105.0
+    ],
+    [
+     22.6,
+     -104.3
+    ],
+    [
+     21.9,
+     -104.2
+    ],
+    [
+     21.8,
+     -104.8
+    ],
+    [
+     22.3,
+     -105.2
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Cora_people",
+   "confidence": "moderate",
+   "note": "Independent Cora polity under the Nayarit lineage in the Sierra del Nayar until the Spanish conquest of the Mesa del Nayar in 1722; the Huichol held adjacent sierra land to the east."
+  },
+  {
+   "name": "Wixárika (Huichol)",
+   "aliases": [
+    "Huichol",
+    "Wixáritari"
+   ],
+   "from": 1400,
+   "to": 1722,
+   "seat": {
+    "name": "San Andrés Cohamiata",
+    "lat": 22.18,
+    "lon": -104.25
+   },
+   "extent": [
+    [
+     22.6,
+     -104.3
+    ],
+    [
+     22.5,
+     -103.8
+    ],
+    [
+     21.8,
+     -103.8
+    ],
+    [
+     21.9,
+     -104.25
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Huichol_people",
+   "confidence": "low",
+   "note": "Autonomous mountain communities east of the Cora; nominally under Spain after 1722 but largely self-governing into the 20th century."
+  },
+  {
+   "name": "Guachichil",
+   "aliases": [
+    "Cuachichil",
+    "Guachichiles"
+   ],
+   "from": 1400,
+   "to": 1600,
+   "seat": {
+    "name": "Guachichil heartland (Tunal Grande)",
+    "lat": 22.15,
+    "lon": -100.98
+   },
+   "extent": [
+    [
+     23.0,
+     -102.0
+    ],
+    [
+     23.0,
+     -100.2
+    ],
+    [
+     21.8,
+     -100.3
+    ],
+    [
+     21.6,
+     -101.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Guachichil",
+   "confidence": "low",
+   "note": "Mobile Chichimec nation of the Tunal Grande (San Luis Potosí); fought the Chichimeca War 1550-1590, settled in missions after c.1590-1600. Extent clipped at 23N."
+  },
+  {
+   "name": "Guamare and Pame",
+   "aliases": [
+    "Guamares",
+    "Pames",
+    "Chichimeca of the Bajío"
+   ],
+   "from": 1400,
+   "to": 1600,
+   "seat": {
+    "name": "Bajío",
+    "lat": 21.0,
+    "lon": -100.7
+   },
+   "extent": [
+    [
+     21.8,
+     -101.3
+    ],
+    [
+     21.9,
+     -99.9
+    ],
+    [
+     20.8,
+     -99.8
+    ],
+    [
+     20.6,
+     -101.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Chichimeca_War",
+   "confidence": "low",
+   "note": "Chichimec peoples of the Bajío and western Sierra Gorda, warring in the Chichimeca War 1550-1590."
+  },
+  {
+   "name": "Sierra Gorda Jonaz",
+   "aliases": [
+    "Chichimeca Jonaz",
+    "Pames of Sierra Gorda"
+   ],
+   "from": 1400,
+   "to": 1748,
+   "seat": {
+    "name": "Sierra Gorda",
+    "lat": 21.15,
+    "lon": -99.6
+   },
+   "extent": [
+    [
+     21.8,
+     -100.0
+    ],
+    [
+     21.7,
+     -99.2
+    ],
+    [
+     20.9,
+     -99.2
+    ],
+    [
+     20.9,
+     -99.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Sierra_Gorda",
+   "confidence": "low",
+   "note": "Jonaz and Pame bands kept the Sierra Gorda independent until the campaigns of José de Escandón (Media Luna 1748)."
+  },
+  {
+   "name": "Huaxtec chiefdoms",
+   "aliases": [
+    "Huasteca",
+    "Teenek",
+    "Cuextlan"
+   ],
+   "from": 1000,
+   "to": 1522,
+   "seat": {
+    "name": "Tamuín (Tamohi)",
+    "lat": 22.0,
+    "lon": -98.75
+   },
+   "extent": [
+    [
+     22.9,
+     -98.2
+    ],
+    [
+     22.2,
+     -97.75
+    ],
+    [
+     21.5,
+     -97.5
+    ],
+    [
+     21.0,
+     -98.2
+    ],
+    [
+     21.3,
+     -99.1
+    ],
+    [
+     22.4,
+     -99.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1480,
+     "to": 1521,
+     "name": "Aztec Triple Alliance (southern towns only)"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Huastec_people",
+   "confidence": "moderate",
+   "note": "Many small Teenek lordships; southern towns (Tuxpan, Tziuhcoac) paid tribute to the Aztecs after c.1450-1480; conquered by Cortés 1522. Extent clipped at 23N."
+  },
+  {
+   "name": "Totonacapan",
+   "aliases": [
+    "Cempoala",
+    "Totonac",
+    "Zempoala"
+   ],
+   "from": 1200,
+   "to": 1519,
+   "seat": {
+    "name": "Cempoala",
+    "lat": 19.45,
+    "lon": -96.4
+   },
+   "extent": [
+    [
+     20.6,
+     -97.4
+    ],
+    [
+     20.0,
+     -96.7
+    ],
+    [
+     19.3,
+     -96.3
+    ],
+    [
+     19.4,
+     -96.8
+    ],
+    [
+     20.0,
+     -97.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1463,
+     "to": 1519,
+     "name": "Aztec Triple Alliance"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Totonacapan",
+   "confidence": "moderate",
+   "note": "Totonac lordships headed by Cempoala; Aztec tributaries from the 1460s; allied with Cortés 1519."
+  },
+  {
+   "name": "Tututepec",
+   "aliases": [
+    "Yucu Dzaa",
+    "Mixtec Kingdom of Tututepec"
+   ],
+   "from": 1083,
+   "to": 1522,
+   "seat": {
+    "name": "Tututepec",
+    "lat": 16.13,
+    "lon": -97.61
+   },
+   "extent": [
+    [
+     16.55,
+     -98.6
+    ],
+    [
+     16.5,
+     -97.3
+    ],
+    [
+     16.05,
+     -96.2
+    ],
+    [
+     15.75,
+     -96.2
+    ],
+    [
+     15.95,
+     -97.5
+    ],
+    [
+     16.3,
+     -98.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Tututepec",
+   "confidence": "high",
+   "note": "Largest Mixtec kingdom, on the Oaxaca coast from the Guerrero border to Huatulco; never subjected by the Aztecs; conquered by Pedro de Alvarado 1522."
+  },
+  {
+   "name": "Coixtlahuaca",
+   "aliases": [
+    "Coixtlahuaca kingdom",
+    "Chocho-Mixtec"
+   ],
+   "from": 1300,
+   "to": 1458,
+   "seat": {
+    "name": "Coixtlahuaca",
+    "lat": 17.71,
+    "lon": -97.32
+   },
+   "extent": [
+    [
+     17.95,
+     -97.5
+    ],
+    [
+     17.9,
+     -97.1
+    ],
+    [
+     17.55,
+     -97.1
+    ],
+    [
+     17.5,
+     -97.45
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/San_Juan_Bautista_Coixtlahuaca",
+   "confidence": "low",
+   "note": "Chocho-Mixtec trading kingdom conquered by Moctezuma I in 1458 and made an Aztec tributary province."
+  },
+  {
+   "name": "Tilantongo",
+   "aliases": [
+    "Ñuu Tnoo"
+   ],
+   "from": 1000,
+   "to": 1521,
+   "seat": {
+    "name": "Tilantongo",
+    "lat": 17.25,
+    "lon": -97.29
+   },
+   "reach_km": 20,
+   "overlord": [
+    {
+     "from": 1500,
+     "to": 1521,
+     "name": "Aztec Triple Alliance"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Santiago_Tilantongo",
+   "confidence": "low",
+   "note": "Senior Mixteca Alta dynasty of the codices; Aztec tributary in its last decades."
+  },
+  {
+   "name": "Yanhuitlán",
+   "aliases": [
+    "Yodzocahi",
+    "Yanhuitlan"
+   ],
+   "from": 1300,
+   "to": 1525,
+   "seat": {
+    "name": "Yanhuitlán",
+    "lat": 17.53,
+    "lon": -97.35
+   },
+   "reach_km": 20,
+   "overlord": [
+    {
+     "from": 1495,
+     "to": 1521,
+     "name": "Aztec Triple Alliance"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Santo_Domingo_Yanhuitlán",
+   "confidence": "low",
+   "note": "Mixteca Alta lordship; Aztec tributary from the reign of Ahuitzotl; submitted to Spain c.1525."
+  },
+  {
+   "name": "Tlaxiaco",
+   "aliases": [
+    "Ndisi Nuu",
+    "Tlaxiaco"
+   ],
+   "from": 1300,
+   "to": 1525,
+   "seat": {
+    "name": "Tlaxiaco",
+    "lat": 17.27,
+    "lon": -97.68
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1511,
+     "to": 1521,
+     "name": "Aztec Triple Alliance"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Heroica_Ciudad_de_Tlaxiaco",
+   "confidence": "low",
+   "note": "Mixteca Alta lordship (with Achiutla) conquered by Moctezuma II c.1511."
+  },
+  {
+   "name": "Zaachila",
+   "aliases": [
+    "Zapotec Kingdom of Zaachila",
+    "Zaachila-Yoo"
+   ],
+   "from": 1300,
+   "to": 1521,
+   "seat": {
+    "name": "Zaachila",
+    "lat": 16.95,
+    "lon": -96.75
+   },
+   "extent": [
+    [
+     17.25,
+     -96.95
+    ],
+    [
+     17.1,
+     -96.4
+    ],
+    [
+     16.75,
+     -96.5
+    ],
+    [
+     16.6,
+     -96.85
+    ],
+    [
+     16.9,
+     -97.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Zaachila",
+   "confidence": "moderate",
+   "note": "Main Zapotec royal seat of the Valley of Oaxaca; ruling house moved to Tehuantepec c.1490s; Aztec garrison at Huaxyacac from 1486; Mixtec Cuilapan inside the valley."
+  },
+  {
+   "name": "Tehuantepec",
+   "aliases": [
+    "Zapotec Kingdom of Tehuantepec",
+    "Guisii"
+   ],
+   "from": 1490,
+   "to": 1563,
+   "seat": {
+    "name": "Tehuantepec",
+    "lat": 16.32,
+    "lon": -95.24
+   },
+   "extent": [
+    [
+     16.75,
+     -95.8
+    ],
+    [
+     16.6,
+     -94.7
+    ],
+    [
+     16.2,
+     -94.4
+    ],
+    [
+     16.1,
+     -95.2
+    ],
+    [
+     16.0,
+     -95.8
+    ],
+    [
+     16.3,
+     -96.2
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Cosijoeza",
+   "confidence": "moderate",
+   "note": "Zapotec kingdom of the Isthmus under Cocijoeza (resisted the Aztecs at Guiengola 1496) and Cocijopii, who submitted to Spain 1521 and ruled as cacique until 1563."
+  },
+  {
+   "name": "Mixe",
+   "aliases": [
+    "Ayuuk",
+    "Mixes"
+   ],
+   "from": 1300,
+   "to": 1570,
+   "seat": {
+    "name": "Ayutla Mixe",
+    "lat": 17.03,
+    "lon": -96.08
+   },
+   "extent": [
+    [
+     17.35,
+     -96.1
+    ],
+    [
+     17.2,
+     -95.4
+    ],
+    [
+     16.9,
+     -95.3
+    ],
+    [
+     16.8,
+     -95.9
+    ],
+    [
+     17.05,
+     -96.3
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Mixe_people",
+   "confidence": "low",
+   "note": "Mountain people around Zempoaltépetl never subdued by the Aztecs; resisted Spanish campaigns until c.1570."
+  },
+  {
+   "name": "Xoconochco",
+   "aliases": [
+    "Soconusco",
+    "Xoconocho"
+   ],
+   "from": 1300,
+   "to": 1524,
+   "seat": {
+    "name": "Huehuetán",
+    "lat": 15.02,
+    "lon": -92.4
+   },
+   "extent": [
+    [
+     15.6,
+     -93.0
+    ],
+    [
+     15.3,
+     -92.2
+    ],
+    [
+     14.6,
+     -92.2
+    ],
+    [
+     14.9,
+     -92.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1486,
+     "to": 1521,
+     "name": "Aztec Triple Alliance"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Soconusco",
+   "confidence": "moderate",
+   "note": "Cacao-rich Pacific coast lordships; conquered by Ahuitzotl 1486 as a detached Aztec province; taken by Alvarado 1524."
+  },
+  {
+   "name": "League of Mayapan",
+   "aliases": [
+    "Mayapán",
+    "Mayapan confederacy"
+   ],
+   "from": 1220,
+   "to": 1441,
+   "seat": {
+    "name": "Mayapán",
+    "lat": 20.63,
+    "lon": -89.46
+   },
+   "extent": [
+    [
+     21.4,
+     -90.4
+    ],
+    [
+     21.5,
+     -88.0
+    ],
+    [
+     20.4,
+     -87.4
+    ],
+    [
+     19.6,
+     -88.0
+    ],
+    [
+     19.8,
+     -90.4
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/League_of_Mayapan",
+   "confidence": "moderate",
+   "note": "Cocom-led confederation dominating northern Yucatán; destroyed in a Xiu-led revolt c.1441, after which some 16-17 provinces (kuchkabalob) emerged."
+  },
+  {
+   "name": "Ah Canul",
+   "aliases": [
+    "Canul province"
+   ],
+   "from": 1441,
+   "to": 1541,
+   "seat": {
+    "name": "Calkiní",
+    "lat": 20.37,
+    "lon": -90.05
+   },
+   "extent": [
+    [
+     20.95,
+     -90.4
+    ],
+    [
+     20.8,
+     -90.0
+    ],
+    [
+     20.2,
+     -89.95
+    ],
+    [
+     20.1,
+     -90.45
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Ah_Canul",
+   "confidence": "moderate",
+   "note": "Post-Mayapán province on the NW Yucatán coast; submitted to the Montejos 1541."
+  },
+  {
+   "name": "Chakan",
+   "aliases": [
+    "Chakan province",
+    "Ichcaansihó (Tiho)"
+   ],
+   "from": 1441,
+   "to": 1542,
+   "seat": {
+    "name": "Tiho",
+    "lat": 20.97,
+    "lon": -89.62
+   },
+   "extent": [
+    [
+     21.3,
+     -89.9
+    ],
+    [
+     21.2,
+     -89.55
+    ],
+    [
+     20.75,
+     -89.45
+    ],
+    [
+     20.65,
+     -89.8
+    ],
+    [
+     20.9,
+     -90.1
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chakan_(Maya_province)",
+   "confidence": "moderate",
+   "note": "Province without a single ruler (governed by Canche batabob); Mérida founded on Tiho 1542."
+  },
+  {
+   "name": "Ceh Pech",
+   "aliases": [
+    "Cehpech"
+   ],
+   "from": 1441,
+   "to": 1542,
+   "seat": {
+    "name": "Motul",
+    "lat": 21.1,
+    "lon": -89.28
+   },
+   "extent": [
+    [
+     21.35,
+     -89.55
+    ],
+    [
+     21.35,
+     -89.05
+    ],
+    [
+     20.95,
+     -89.05
+    ],
+    [
+     20.95,
+     -89.45
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kuchkabal",
+   "confidence": "moderate",
+   "note": "Pech lineage province on the north coast; allied with the Spanish."
+  },
+  {
+   "name": "Ah Kin Chel",
+   "aliases": [
+    "Chel province"
+   ],
+   "from": 1441,
+   "to": 1543,
+   "seat": {
+    "name": "Tecoh (near Izamal)",
+    "lat": 20.96,
+    "lon": -89.02
+   },
+   "extent": [
+    [
+     21.35,
+     -89.05
+    ],
+    [
+     21.35,
+     -88.55
+    ],
+    [
+     20.85,
+     -88.6
+    ],
+    [
+     20.85,
+     -89.05
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Ah_Kin_Chel",
+   "confidence": "moderate",
+   "note": "Founded by Mo-Chel after Mayapán's fall; last ruler Namux Chel; conquered 1540s."
+  },
+  {
+   "name": "Hocabá",
+   "aliases": [
+    "Hocaba-Homún"
+   ],
+   "from": 1441,
+   "to": 1543,
+   "seat": {
+    "name": "Hocabá",
+    "lat": 20.81,
+    "lon": -89.25
+   },
+   "extent": [
+    [
+     20.95,
+     -89.45
+    ],
+    [
+     20.95,
+     -89.05
+    ],
+    [
+     20.6,
+     -89.1
+    ],
+    [
+     20.65,
+     -89.45
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kuchkabal",
+   "confidence": "low",
+   "note": "Small inland province between Chakan and Sotuta."
+  },
+  {
+   "name": "Maní",
+   "aliases": [
+    "Tutul Xiu province",
+    "Xiu"
+   ],
+   "from": 1441,
+   "to": 1542,
+   "seat": {
+    "name": "Maní",
+    "lat": 20.39,
+    "lon": -89.39
+   },
+   "extent": [
+    [
+     20.7,
+     -89.7
+    ],
+    [
+     20.6,
+     -89.3
+    ],
+    [
+     20.1,
+     -89.3
+    ],
+    [
+     19.9,
+     -89.6
+    ],
+    [
+     20.2,
+     -89.9
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Tutul_Xiu",
+   "confidence": "moderate",
+   "note": "Xiu province; ruler Ah Kukum Xiu allied with Montejo the Younger 1541-1542."
+  },
+  {
+   "name": "Sotuta",
+   "aliases": [
+    "Cocom province"
+   ],
+   "from": 1441,
+   "to": 1547,
+   "seat": {
+    "name": "Sotuta",
+    "lat": 20.6,
+    "lon": -89.01
+   },
+   "extent": [
+    [
+     20.8,
+     -89.2
+    ],
+    [
+     20.8,
+     -88.8
+    ],
+    [
+     20.4,
+     -88.8
+    ],
+    [
+     20.35,
+     -89.15
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kuchkabal",
+   "confidence": "moderate",
+   "note": "Cocom province led by Nachi Cocom; central to the 1546-1547 Great Maya Revolt."
+  },
+  {
+   "name": "Cupul",
+   "aliases": [
+    "Kupul"
+   ],
+   "from": 1441,
+   "to": 1547,
+   "seat": {
+    "name": "Saci (Valladolid)",
+    "lat": 20.69,
+    "lon": -88.2
+   },
+   "extent": [
+    [
+     21.2,
+     -88.5
+    ],
+    [
+     21.1,
+     -87.9
+    ],
+    [
+     20.5,
+     -87.9
+    ],
+    [
+     20.4,
+     -88.4
+    ],
+    [
+     20.8,
+     -88.8
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kuchkabal",
+   "confidence": "moderate",
+   "note": "Large eastern province including Chichén Itzá; rose in 1546-1547 revolt."
+  },
+  {
+   "name": "Tases",
+   "aliases": [
+    "Tazes"
+   ],
+   "from": 1441,
+   "to": 1544,
+   "seat": {
+    "name": "Chancenote",
+    "lat": 20.98,
+    "lon": -87.83
+   },
+   "extent": [
+    [
+     21.25,
+     -87.9
+    ],
+    [
+     21.1,
+     -87.6
+    ],
+    [
+     20.75,
+     -87.7
+    ],
+    [
+     20.85,
+     -88.0
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Tases",
+   "confidence": "low",
+   "note": "Small NE province between Cupul and Ecab."
+  },
+  {
+   "name": "Chikinchel",
+   "aliases": [
+    "Chikinchel province"
+   ],
+   "from": 1441,
+   "to": 1544,
+   "seat": {
+    "name": "Chauac Ha",
+    "lat": 21.2,
+    "lon": -88.35
+   },
+   "extent": [
+    [
+     21.55,
+     -88.6
+    ],
+    [
+     21.6,
+     -87.75
+    ],
+    [
+     21.2,
+     -87.8
+    ],
+    [
+     21.15,
+     -88.6
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chikinchel",
+   "confidence": "low",
+   "note": "Salt-producing north coast province; seat location approximate."
+  },
+  {
+   "name": "Ecab",
+   "aliases": [
+    "Ekab",
+    "Ecab province"
+   ],
+   "from": 1441,
+   "to": 1544,
+   "seat": {
+    "name": "Ecab",
+    "lat": 21.45,
+    "lon": -87.25
+   },
+   "extent": [
+    [
+     21.6,
+     -87.5
+    ],
+    [
+     21.6,
+     -86.8
+    ],
+    [
+     20.8,
+     -86.9
+    ],
+    [
+     20.9,
+     -87.5
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Ekab",
+   "confidence": "moderate",
+   "note": "NE tip of Yucatán with several powerful batabob; first province seen by Spaniards (1517)."
+  },
+  {
+   "name": "Cozumel",
+   "aliases": [
+    "Cuzamil"
+   ],
+   "from": 1441,
+   "to": 1527,
+   "seat": {
+    "name": "San Gervasio",
+    "lat": 20.5,
+    "lon": -86.85
+   },
+   "extent": [
+    [
+     20.6,
+     -87.0
+    ],
+    [
+     20.35,
+     -86.75
+    ],
+    [
+     20.27,
+     -86.98
+    ],
+    [
+     20.48,
+     -87.05
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Cozumel",
+   "confidence": "low",
+   "note": "Island pilgrimage centre (Ix Chel) and province."
+  },
+  {
+   "name": "Cochuah",
+   "aliases": [
+    "Cochua"
+   ],
+   "from": 1441,
+   "to": 1544,
+   "seat": {
+    "name": "Tihosuco",
+    "lat": 20.19,
+    "lon": -88.37
+   },
+   "extent": [
+    [
+     20.45,
+     -88.6
+    ],
+    [
+     20.4,
+     -87.9
+    ],
+    [
+     19.7,
+     -87.8
+    ],
+    [
+     19.6,
+     -88.5
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kuchkabal",
+   "confidence": "moderate",
+   "note": "Eastern interior province; later the core of the 19th-century Caste War rebels."
+  },
+  {
+   "name": "Uaymil",
+   "aliases": [
+    "Waymil"
+   ],
+   "from": 1441,
+   "to": 1544,
+   "seat": {
+    "name": "Uaymil",
+    "lat": 19.05,
+    "lon": -88.0
+   },
+   "reach_km": 50,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kuchkabal",
+   "confidence": "low",
+   "note": "Sparsely documented coastal province between Cochuah and Chetumal."
+  },
+  {
+   "name": "Chetumal",
+   "aliases": [
+    "Chactemal",
+    "Chetumal province"
+   ],
+   "from": 1441,
+   "to": 1544,
+   "seat": {
+    "name": "Chactemal (Santa Rita Corozal)",
+    "lat": 18.4,
+    "lon": -88.38
+   },
+   "extent": [
+    [
+     18.9,
+     -88.6
+    ],
+    [
+     18.8,
+     -87.8
+    ],
+    [
+     17.9,
+     -88.0
+    ],
+    [
+     17.6,
+     -88.7
+    ],
+    [
+     18.2,
+     -89.0
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kuchkabal",
+   "confidence": "moderate",
+   "note": "Cacao-rich province around Chetumal Bay where Gonzalo Guerrero lived; resisted Dávila 1531, subdued 1544."
+  },
+  {
+   "name": "Chakan Putum",
+   "aliases": [
+    "Champotón",
+    "Chakanputun"
+   ],
+   "from": 1441,
+   "to": 1540,
+   "seat": {
+    "name": "Champotón",
+    "lat": 19.35,
+    "lon": -90.72
+   },
+   "extent": [
+    [
+     19.9,
+     -90.5
+    ],
+    [
+     19.6,
+     -90.1
+    ],
+    [
+     18.9,
+     -90.4
+    ],
+    [
+     19.0,
+     -91.0
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chakan_Putum",
+   "confidence": "low",
+   "note": "Couoh lordship that defeated Hernández de Córdoba 1517; includes Canpech (Campeche) province to the north."
+  },
+  {
+   "name": "Acalan",
+   "aliases": [
+    "Acalan-Tixchel",
+    "Chontal Maya of Acalan"
+   ],
+   "from": 1300,
+   "to": 1557,
+   "seat": {
+    "name": "Itzamkanac",
+    "lat": 18.25,
+    "lon": -91.25
+   },
+   "extent": [
+    [
+     18.7,
+     -91.6
+    ],
+    [
+     18.6,
+     -90.9
+    ],
+    [
+     17.9,
+     -90.8
+    ],
+    [
+     17.9,
+     -91.5
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Acalan",
+   "confidence": "moderate",
+   "note": "Chontal (Putun) trading kingdom on the Candelaria river; ruler Paxbolonacha received Cortés 1525; moved to Tixchel 1557."
+  },
+  {
+   "name": "Itza Kingdom",
+   "aliases": [
+    "Petén Itzá",
+    "Kan Ekʼ",
+    "Nojpetén"
+   ],
+   "from": 1440,
+   "to": 1697,
+   "seat": {
+    "name": "Nojpetén",
+    "lat": 16.93,
+    "lon": -89.89
+   },
+   "extent": [
+    [
+     17.4,
+     -90.2
+    ],
+    [
+     17.2,
+     -89.4
+    ],
+    [
+     16.6,
+     -89.4
+    ],
+    [
+     16.5,
+     -90.1
+    ],
+    [
+     16.9,
+     -90.5
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Peten_Itza_kingdom",
+   "confidence": "high",
+   "note": "Last independent Maya kingdom, ruled by the Kan Ekʼ dynasty from the island capital Nojpetén on Lake Petén Itzá; conquered by Martín de Ursúa 13 March 1697."
+  },
+  {
+   "name": "Kowoj",
+   "aliases": [
+    "Couoh",
+    "Ko'woj"
+   ],
+   "from": 1450,
+   "to": 1697,
+   "seat": {
+    "name": "Zacpetén",
+    "lat": 16.99,
+    "lon": -89.69
+   },
+   "extent": [
+    [
+     17.15,
+     -89.75
+    ],
+    [
+     17.1,
+     -89.3
+    ],
+    [
+     16.8,
+     -89.35
+    ],
+    [
+     16.85,
+     -89.7
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kowoj",
+   "confidence": "moderate",
+   "note": "Rival of the Itza in the eastern Petén lakes; conquered 1697."
+  },
+  {
+   "name": "Yalain",
+   "aliases": [
+    "Yalain province"
+   ],
+   "from": 1450,
+   "to": 1697,
+   "seat": {
+    "name": "Yalain (Macanché)",
+    "lat": 16.97,
+    "lon": -89.63
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1697,
+     "name": "Itza Kingdom"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Petén",
+   "confidence": "low",
+   "note": "Eastern Petén province, intermittently subject to the Itza."
+  },
+  {
+   "name": "Kejache",
+   "aliases": [
+    "Kejach",
+    "Quejache"
+   ],
+   "from": 1400,
+   "to": 1696,
+   "seat": {
+    "name": "Kejache territory",
+    "lat": 17.75,
+    "lon": -90.25
+   },
+   "extent": [
+    [
+     18.1,
+     -90.6
+    ],
+    [
+     18.1,
+     -89.8
+    ],
+    [
+     17.4,
+     -89.9
+    ],
+    [
+     17.4,
+     -90.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kejache",
+   "confidence": "low",
+   "note": "Maya people in the forest between Petén and Campeche; reduced in the 1695-1696 road campaign."
+  },
+  {
+   "name": "Chʼol Lacandon",
+   "aliases": [
+    "Lakam Tun",
+    "Sakbʼajlan",
+    "Lacandon Ch'ol"
+   ],
+   "from": 1400,
+   "to": 1695,
+   "seat": {
+    "name": "Lakam Tun (Lake Miramar)",
+    "lat": 16.4,
+    "lon": -91.28
+   },
+   "extent": [
+    [
+     16.8,
+     -91.6
+    ],
+    [
+     16.6,
+     -90.8
+    ],
+    [
+     16.1,
+     -90.9
+    ],
+    [
+     16.0,
+     -91.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1586,
+     "seat": {
+      "name": "Lakam Tun",
+      "lat": 16.4,
+      "lon": -91.28
+     }
+    },
+    {
+     "from": 1586,
+     "to": 1695,
+     "seat": {
+      "name": "Sakbʼajlan",
+      "lat": 16.55,
+      "lon": -90.95
+     }
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Lacandon_people",
+   "confidence": "moderate",
+   "note": "Chʼol-speaking Lacandon of the Lacandon forest; island fortress of Lakam Tun destroyed 1586; later centre Sakbʼajlan taken 1695."
+  },
+  {
+   "name": "Manche Chʼol",
+   "aliases": [
+    "Manché Chol",
+    "Mopan"
+   ],
+   "from": 1400,
+   "to": 1697,
+   "seat": {
+    "name": "Manché",
+    "lat": 16.2,
+    "lon": -89.3
+   },
+   "extent": [
+    [
+     16.6,
+     -89.6
+    ],
+    [
+     16.6,
+     -88.9
+    ],
+    [
+     15.7,
+     -88.8
+    ],
+    [
+     15.7,
+     -89.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Manche_Chʼol",
+   "confidence": "low",
+   "note": "Chʼol and Mopan communities of southern Belize/SE Petén; Dominican missions 1600s, deported to Verapaz c.1700."
+  },
+  {
+   "name": "Kʼicheʼ Kingdom",
+   "aliases": [
+    "Quiché",
+    "Qʼumarkaj",
+    "Utatlán"
+   ],
+   "from": 1225,
+   "to": 1524,
+   "seat": {
+    "name": "Qʼumarkaj",
+    "lat": 15.02,
+    "lon": -91.17
+   },
+   "extent": [
+    [
+     15.4,
+     -91.6
+    ],
+    [
+     15.35,
+     -90.8
+    ],
+    [
+     14.8,
+     -90.75
+    ],
+    [
+     14.3,
+     -91.3
+    ],
+    [
+     14.6,
+     -91.9
+    ],
+    [
+     15.1,
+     -91.9
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1475,
+     "extent": [
+      [
+       15.5,
+       -91.8
+      ],
+      [
+       15.35,
+       -90.6
+      ],
+      [
+       14.7,
+       -90.6
+      ],
+      [
+       14.0,
+       -91.2
+      ],
+      [
+       14.5,
+       -92.2
+      ],
+      [
+       15.2,
+       -92.1
+      ]
+     ]
+    },
+    {
+     "from": 1475,
+     "to": 1524,
+     "extent": [
+      [
+       15.4,
+       -91.6
+      ],
+      [
+       15.35,
+       -90.8
+      ],
+      [
+       14.8,
+       -90.75
+      ],
+      [
+       14.3,
+       -91.3
+      ],
+      [
+       14.6,
+       -91.9
+      ],
+      [
+       15.1,
+       -91.9
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kʼicheʼ_kingdom_of_Qʼumarkaj",
+   "confidence": "high",
+   "note": "Dominant highland Maya kingdom; peaked under Kʼiqʼabʼ (d. c.1475) with conquests to the Pacific coast and Quetzaltenango; burnt by Alvarado 1524."
+  },
+  {
+   "name": "Kaqchikel Kingdom",
+   "aliases": [
+    "Cakchiquel",
+    "Iximche"
+   ],
+   "from": 1470,
+   "to": 1530,
+   "seat": {
+    "name": "Iximche",
+    "lat": 14.735,
+    "lon": -90.996
+   },
+   "extent": [
+    [
+     15.0,
+     -91.1
+    ],
+    [
+     14.9,
+     -90.6
+    ],
+    [
+     14.45,
+     -90.65
+    ],
+    [
+     14.4,
+     -91.0
+    ],
+    [
+     14.7,
+     -91.25
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Iximche",
+   "confidence": "high",
+   "note": "Broke from the Kʼicheʼ c.1470; capital Iximche; allied with Alvarado 1524, revolted 1524-1530."
+  },
+  {
+   "name": "Tzʼutujil Kingdom",
+   "aliases": [
+    "Tzutuhil",
+    "Chuitinamit"
+   ],
+   "from": 1300,
+   "to": 1524,
+   "seat": {
+    "name": "Chuitinamit",
+    "lat": 14.63,
+    "lon": -91.23
+   },
+   "extent": [
+    [
+     14.75,
+     -91.35
+    ],
+    [
+     14.65,
+     -91.1
+    ],
+    [
+     14.2,
+     -91.15
+    ],
+    [
+     14.25,
+     -91.5
+    ],
+    [
+     14.55,
+     -91.45
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Tzʼutujil_people",
+   "confidence": "moderate",
+   "note": "Lake Atitlán kingdom with cacao lands on the Pacific piedmont; defeated by Alvarado 1524."
+  },
+  {
+   "name": "Mam Kingdom",
+   "aliases": [
+    "Zaculeu",
+    "Mam"
+   ],
+   "from": 1300,
+   "to": 1525,
+   "seat": {
+    "name": "Zaculeu",
+    "lat": 15.335,
+    "lon": -91.49
+   },
+   "extent": [
+    [
+     15.6,
+     -92.0
+    ],
+    [
+     15.6,
+     -91.3
+    ],
+    [
+     15.1,
+     -91.35
+    ],
+    [
+     14.9,
+     -91.9
+    ],
+    [
+     15.2,
+     -92.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1440,
+     "to": 1475,
+     "name": "Kʼicheʼ Kingdom"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Zaculeu",
+   "confidence": "moderate",
+   "note": "Mam capital Zaculeu fell to Gonzalo de Alvarado after a siege in 1525; subject to the Kʼicheʼ in the 15th century."
+  },
+  {
+   "name": "Poqomam",
+   "aliases": [
+    "Mixco Viejo",
+    "Chinautla Viejo",
+    "Jilotepeque"
+   ],
+   "from": 1300,
+   "to": 1525,
+   "seat": {
+    "name": "Mixco Viejo",
+    "lat": 14.87,
+    "lon": -90.66
+   },
+   "extent": [
+    [
+     15.05,
+     -90.75
+    ],
+    [
+     15.0,
+     -90.35
+    ],
+    [
+     14.6,
+     -90.3
+    ],
+    [
+     14.6,
+     -90.7
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mixco_Viejo",
+   "confidence": "moderate",
+   "note": "Poqomam (or Chajoma Kaqchikel) fortress-capital conquered 1525."
+  },
+  {
+   "name": "Rabinal Achi",
+   "aliases": [
+    "Achi",
+    "Rabinal"
+   ],
+   "from": 1300,
+   "to": 1537,
+   "seat": {
+    "name": "Kajyub (Rabinal)",
+    "lat": 15.09,
+    "lon": -90.46
+   },
+   "extent": [
+    [
+     15.25,
+     -90.7
+    ],
+    [
+     15.25,
+     -90.2
+    ],
+    [
+     14.95,
+     -90.25
+    ],
+    [
+     15.0,
+     -90.7
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Achi_people",
+   "confidence": "low",
+   "note": "Achi kingdom of the Rabinal basin, sometime Kʼicheʼ rival; absorbed into Dominican Verapaz from 1537."
+  },
+  {
+   "name": "Tezulutlán",
+   "aliases": [
+    "Qʼeqchiʼ",
+    "Land of War",
+    "Verapaz"
+   ],
+   "from": 1300,
+   "to": 1550,
+   "seat": {
+    "name": "Chamelco (Cobán)",
+    "lat": 15.47,
+    "lon": -90.37
+   },
+   "extent": [
+    [
+     16.0,
+     -90.6
+    ],
+    [
+     15.9,
+     -89.6
+    ],
+    [
+     15.3,
+     -89.6
+    ],
+    [
+     15.2,
+     -90.4
+    ],
+    [
+     15.6,
+     -90.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Qʼeqchiʼ_people",
+   "confidence": "moderate",
+   "note": "Qʼeqchiʼ lordships that repelled Spanish conquest; brought under Spain by Dominican peaceful conversion 1537-1550 (renamed Verapaz)."
+  },
+  {
+   "name": "Uspantán",
+   "aliases": [
+    "Uspantek",
+    "Ixil-Uspantek"
+   ],
+   "from": 1300,
+   "to": 1530,
+   "seat": {
+    "name": "Uspantán",
+    "lat": 15.35,
+    "lon": -90.87
+   },
+   "extent": [
+    [
+     15.6,
+     -91.25
+    ],
+    [
+     15.6,
+     -90.75
+    ],
+    [
+     15.25,
+     -90.7
+    ],
+    [
+     15.25,
+     -91.2
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Guatemala",
+   "confidence": "low",
+   "note": "Uspantek and Ixil polity that defeated a Spanish expedition 1529 before falling 1530."
+  },
+  {
+   "name": "Zinacantan",
+   "aliases": [
+    "Tzotzil of Zinacantan",
+    "Tzinacantlan"
+   ],
+   "from": 1300,
+   "to": 1524,
+   "seat": {
+    "name": "Zinacantán",
+    "lat": 16.76,
+    "lon": -92.72
+   },
+   "extent": [
+    [
+     17.0,
+     -92.95
+    ],
+    [
+     16.95,
+     -92.45
+    ],
+    [
+     16.55,
+     -92.5
+    ],
+    [
+     16.6,
+     -92.95
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Zinacantán",
+   "confidence": "low",
+   "note": "Tzotzil trading lordship of the Chiapas highlands; aided Spanish against Chiapa 1524."
+  },
+  {
+   "name": "Chiapa",
+   "aliases": [
+    "Chiapanec",
+    "Nandaburé"
+   ],
+   "from": 1300,
+   "to": 1528,
+   "seat": {
+    "name": "Chiapa (Chiapa de Corzo)",
+    "lat": 16.71,
+    "lon": -93.01
+   },
+   "extent": [
+    [
+     16.95,
+     -93.4
+    ],
+    [
+     16.9,
+     -92.9
+    ],
+    [
+     16.4,
+     -92.8
+    ],
+    [
+     16.3,
+     -93.3
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Chiapa_de_Corzo_(Mesoamerican_site)",
+   "confidence": "moderate",
+   "note": "Warlike Otomanguean kingdom of the central Grijalva depression; never subdued by the Aztecs; conquered by Diego de Mazariegos 1528."
+  },
+  {
+   "name": "Chan Santa Cruz",
+   "aliases": [
+    "Cruzoob",
+    "Santa Cruz Maya",
+    "Noj Kaj Santa Cruz Xbʼalam Naʼ"
+   ],
+   "from": 1850,
+   "to": 1901,
+   "seat": {
+    "name": "Chan Santa Cruz",
+    "lat": 19.58,
+    "lon": -88.05
+   },
+   "extent": [
+    [
+     20.4,
+     -87.4
+    ],
+    [
+     20.2,
+     -88.2
+    ],
+    [
+     19.4,
+     -88.6
+    ],
+    [
+     18.5,
+     -88.6
+    ],
+    [
+     18.6,
+     -87.8
+    ],
+    [
+     19.8,
+     -87.4
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1850,
+     "to": 1858,
+     "extent": [
+      [
+       20.4,
+       -87.4
+      ],
+      [
+       20.3,
+       -88.4
+      ],
+      [
+       19.4,
+       -88.6
+      ],
+      [
+       19.0,
+       -88.0
+      ],
+      [
+       19.8,
+       -87.4
+      ]
+     ]
+    },
+    {
+     "from": 1858,
+     "to": 1901,
+     "extent": [
+      [
+       20.4,
+       -87.4
+      ],
+      [
+       20.2,
+       -88.2
+      ],
+      [
+       19.4,
+       -88.6
+      ],
+      [
+       18.5,
+       -88.6
+      ],
+      [
+       18.6,
+       -87.8
+      ],
+      [
+       19.8,
+       -87.4
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Chan_Santa_Cruz",
+   "confidence": "high",
+   "note": "Independent Maya theocratic state of the Caste War rebels (Talking Cross); held eastern Yucatán from Tulum to Bacalar (taken 1858); traded with British Honduras; capital occupied by Mexico 1901."
+  },
+  {
+   "name": "Icaiché",
+   "aliases": [
+    "Pacíficos del Sur",
+    "Ixcanhá"
+   ],
+   "from": 1853,
+   "to": 1901,
+   "seat": {
+    "name": "Icaiché",
+    "lat": 18.05,
+    "lon": -89.05
+   },
+   "extent": [
+    [
+     18.6,
+     -89.6
+    ],
+    [
+     18.6,
+     -88.9
+    ],
+    [
+     17.8,
+     -88.9
+    ],
+    [
+     17.8,
+     -89.6
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Battle_of_Orange_Walk",
+   "confidence": "low",
+   "note": "Southern Maya group that made peace with Mexico 1853 but ran its own affairs, raiding British Honduras (Marcos Canul) 1866-1872; absorbed after 1901."
+  },
+  {
+   "name": "Cuzcatlan",
+   "aliases": [
+    "Pipil",
+    "Kuskatan",
+    "Señorío de Cuzcatlán"
+   ],
+   "from": 1200,
+   "to": 1528,
+   "seat": {
+    "name": "Cuzcatlán",
+    "lat": 13.67,
+    "lon": -89.25
+   },
+   "extent": [
+    [
+     14.2,
+     -89.6
+    ],
+    [
+     14.1,
+     -88.8
+    ],
+    [
+     13.4,
+     -88.7
+    ],
+    [
+     13.4,
+     -89.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Cuzcatlan",
+   "confidence": "moderate",
+   "note": "Nahua-speaking Pipil lordship of central El Salvador; resisted Alvarado 1524-1525 (Atlácatl); subdued by 1528, revolts to 1539."
+  },
+  {
+   "name": "Izalco",
+   "aliases": [
+    "Itzcalco",
+    "Pipil of Izalco",
+    "Nonualco"
+   ],
+   "from": 1200,
+   "to": 1528,
+   "seat": {
+    "name": "Izalco",
+    "lat": 13.75,
+    "lon": -89.67
+   },
+   "extent": [
+    [
+     14.0,
+     -90.1
+    ],
+    [
+     14.0,
+     -89.55
+    ],
+    [
+     13.5,
+     -89.55
+    ],
+    [
+     13.55,
+     -90.1
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Izalco",
+   "confidence": "low",
+   "note": "Western Pipil cacao lordship (Itzcalco), separate from Cuzcatlan."
+  },
+  {
+   "name": "Copán Chʼortiʼ",
+   "aliases": [
+    "Copan Galel",
+    "Chʼortiʼ chiefdoms"
+   ],
+   "from": 1400,
+   "to": 1530,
+   "seat": {
+    "name": "Copán",
+    "lat": 14.84,
+    "lon": -89.14
+   },
+   "reach_km": 50,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chʼortiʼ_people",
+   "confidence": "low",
+   "note": "Chʼortiʼ Maya chiefdoms of the Copán valley; Copan Galel resisted the Spanish 1530."
+  },
+  {
+   "name": "Lenca chiefdoms",
+   "aliases": [
+    "Lenca",
+    "Care",
+    "Cerquín",
+    "Potón",
+    "Lempira confederacy"
+   ],
+   "from": 1400,
+   "to": 1539,
+   "seat": {
+    "name": "Peñol de Cerquín",
+    "lat": 14.48,
+    "lon": -88.55
+   },
+   "extent": [
+    [
+     14.9,
+     -88.9
+    ],
+    [
+     14.6,
+     -87.3
+    ],
+    [
+     13.8,
+     -87.5
+    ],
+    [
+     13.4,
+     -88.3
+    ],
+    [
+     13.9,
+     -88.9
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Lenca_people",
+   "confidence": "moderate",
+   "note": "Lenca groups (Care, Cerquín, Potón, Guaquí) of western Honduras and eastern El Salvador; Lempira's confederacy fought the Spanish 1537-1539."
+  },
+  {
+   "name": "Tolupan",
+   "aliases": [
+    "Jicaque",
+    "Xicaque"
+   ],
+   "from": 1400,
+   "to": 1860,
+   "seat": {
+    "name": "Montaña de la Flor",
+    "lat": 14.65,
+    "lon": -87.0
+   },
+   "extent": [
+    [
+     15.6,
+     -87.9
+    ],
+    [
+     15.6,
+     -86.6
+    ],
+    [
+     14.7,
+     -86.6
+    ],
+    [
+     14.6,
+     -87.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Tolupan",
+   "confidence": "low",
+   "note": "Unconquered forest people of Yoro and Olancho; outside colonial control until 19th-century reductions."
+  },
+  {
+   "name": "Pech",
+   "aliases": [
+    "Paya",
+    "Payas"
+   ],
+   "from": 1400,
+   "to": 1860,
+   "seat": {
+    "name": "Pech heartland (upper Patuca)",
+    "lat": 15.4,
+    "lon": -85.4
+   },
+   "extent": [
+    [
+     15.95,
+     -86.2
+    ],
+    [
+     15.95,
+     -84.8
+    ],
+    [
+     15.1,
+     -84.8
+    ],
+    [
+     15.0,
+     -86.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1700,
+     "to": 1790,
+     "name": "Miskito Kingdom"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Pech_people",
+   "confidence": "low",
+   "note": "Chibchan people of NE Honduras; raided and tributary to the Miskito Kingdom in the 18th century."
+  },
+  {
+   "name": "Nicarao",
+   "aliases": [
+    "Nicaragua (chiefdom)",
+    "Quauhcapolca"
+   ],
+   "from": 1200,
+   "to": 1524,
+   "seat": {
+    "name": "Quauhcapolca (Rivas)",
+    "lat": 11.44,
+    "lon": -85.83
+   },
+   "extent": [
+    [
+     11.75,
+     -86.1
+    ],
+    [
+     11.6,
+     -85.6
+    ],
+    [
+     11.05,
+     -85.6
+    ],
+    [
+     11.1,
+     -85.85
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Spanish_conquest_of_Nicaragua",
+   "confidence": "moderate",
+   "note": "Nahua chiefdom on the Isthmus of Rivas whose cacique Nicarao met Gil González Dávila 1522; conquered 1524."
+  },
+  {
+   "name": "Chorotega Mangue",
+   "aliases": [
+    "Mangue",
+    "Chorotega of Masaya",
+    "Nindirí"
+   ],
+   "from": 1200,
+   "to": 1525,
+   "seat": {
+    "name": "Masaya",
+    "lat": 11.97,
+    "lon": -86.09
+   },
+   "extent": [
+    [
+     12.4,
+     -86.6
+    ],
+    [
+     12.3,
+     -86.0
+    ],
+    [
+     11.75,
+     -85.95
+    ],
+    [
+     11.8,
+     -86.5
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Mangue_people",
+   "confidence": "low",
+   "note": "Chorotega chiefdoms of the Pacific Nicaraguan lakes (Managua, Masaya, Diriangén of Diriamba)."
+  },
+  {
+   "name": "Nicoya",
+   "aliases": [
+    "Chorotega of Nicoya",
+    "Cacicazgo de Nicoya"
+   ],
+   "from": 1200,
+   "to": 1554,
+   "seat": {
+    "name": "Nicoya",
+    "lat": 10.15,
+    "lon": -85.45
+   },
+   "extent": [
+    [
+     10.9,
+     -85.9
+    ],
+    [
+     10.7,
+     -85.2
+    ],
+    [
+     9.8,
+     -85.0
+    ],
+    [
+     9.85,
+     -85.8
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Nicoya",
+   "confidence": "moderate",
+   "note": "Chorotega chiefdom of the Nicoya peninsula; allied with Spain 1523, absorbed into a Spanish corregimiento 1554."
+  },
+  {
+   "name": "Matagalpa",
+   "aliases": [
+    "Cacaopera",
+    "Matagalpa chiefdoms"
+   ],
+   "from": 1400,
+   "to": 1600,
+   "seat": {
+    "name": "Matagalpa",
+    "lat": 12.92,
+    "lon": -85.92
+   },
+   "extent": [
+    [
+     13.5,
+     -86.4
+    ],
+    [
+     13.4,
+     -85.4
+    ],
+    [
+     12.4,
+     -85.3
+    ],
+    [
+     12.5,
+     -86.2
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Cacaopera_people",
+   "confidence": "low",
+   "note": "Misumalpan chiefdoms of the central Nicaraguan highlands."
+  },
+  {
+   "name": "Huetar Kingdoms",
+   "aliases": [
+    "Garabito",
+    "El Guarco",
+    "Huetar Occidental",
+    "Huetar Oriental"
+   ],
+   "from": 1400,
+   "to": 1569,
+   "seat": {
+    "name": "El Guarco",
+    "lat": 9.86,
+    "lon": -83.92
+   },
+   "extent": [
+    [
+     10.3,
+     -84.9
+    ],
+    [
+     10.2,
+     -84.1
+    ],
+    [
+     9.6,
+     -83.6
+    ],
+    [
+     9.5,
+     -84.5
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Indigenous_peoples_of_Costa_Rica",
+   "confidence": "moderate",
+   "note": "Two Huetar paramount chiefdoms of central Costa Rica (Garabito in the west, El Guarco under Correque in the east); conquered by Vázquez de Coronado 1561-1569."
+  },
+  {
+   "name": "Talamanca",
+   "aliases": [
+    "Bribri and Cabécar",
+    "Kingdom of Talamanca",
+    "Viceita"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Talamanca (Sipurio)",
+    "lat": 9.6,
+    "lon": -82.9
+   },
+   "extent": [
+    [
+     10.0,
+     -83.4
+    ],
+    [
+     9.7,
+     -82.6
+    ],
+    [
+     9.1,
+     -82.85
+    ],
+    [
+     9.3,
+     -83.6
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bribri_people",
+   "confidence": "moderate",
+   "note": "Bribri and Cabécar chiefdoms that expelled Spanish missions (1610, 1709 Pablo Presbere revolt) and stayed independent; 19th-century 'kings of Talamanca' (Santiago Mayas, Antonio Saldaña to 1910)."
+  },
+  {
+   "name": "Ngäbe",
+   "aliases": [
+    "Guaymí",
+    "Ngöbe",
+    "Ngäbe-Buglé"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Ngäbe highlands",
+    "lat": 8.5,
+    "lon": -81.8
+   },
+   "extent": [
+    [
+     9.1,
+     -82.5
+    ],
+    [
+     9.1,
+     -81.0
+    ],
+    [
+     8.3,
+     -80.9
+    ],
+    [
+     8.2,
+     -82.3
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Ngäbe",
+   "confidence": "low",
+   "note": "Largely unconquered mountain and Caribbean-slope people of western Panama."
+  },
+  {
+   "name": "Coclé chiefdoms",
+   "aliases": [
+    "Natá",
+    "Parita (Paris)",
+    "Escoria"
+   ],
+   "from": 1300,
+   "to": 1522,
+   "seat": {
+    "name": "Natá",
+    "lat": 8.33,
+    "lon": -80.52
+   },
+   "extent": [
+    [
+     8.7,
+     -81.0
+    ],
+    [
+     8.6,
+     -80.1
+    ],
+    [
+     7.7,
+     -80.2
+    ],
+    [
+     7.8,
+     -80.9
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Natá",
+   "confidence": "moderate",
+   "note": "Gold-working chiefdoms of Coclé and Azuero (Natá, Parita/Paris, Escoria, Chirú); conquered by Espinosa 1516-1522."
+  },
+  {
+   "name": "Urracá",
+   "aliases": [
+    "Veraguas chiefdoms",
+    "Urraca"
+   ],
+   "from": 1400,
+   "to": 1531,
+   "seat": {
+    "name": "Veraguas highlands",
+    "lat": 8.4,
+    "lon": -81.1
+   },
+   "extent": [
+    [
+     8.95,
+     -81.5
+    ],
+    [
+     8.9,
+     -80.7
+    ],
+    [
+     8.2,
+     -80.7
+    ],
+    [
+     8.2,
+     -81.5
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Urracá",
+   "confidence": "low",
+   "note": "Veraguas cacique who fought the Spanish for nine years until his death c.1531."
+  },
+  {
+   "name": "Cueva chiefdoms",
+   "aliases": [
+    "Cueva",
+    "Comogre",
+    "Careta",
+    "Pocorosa",
+    "Darién"
+   ],
+   "from": 1400,
+   "to": 1530,
+   "seat": {
+    "name": "Comogre",
+    "lat": 8.9,
+    "lon": -78.6
+   },
+   "extent": [
+    [
+     9.6,
+     -79.6
+    ],
+    [
+     9.0,
+     -77.8
+    ],
+    [
+     8.1,
+     -77.8
+    ],
+    [
+     8.4,
+     -79.5
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Cueva_people",
+   "confidence": "moderate",
+   "note": "Chiefdoms of eastern Panama (Comogre, Careta, Pocorosa, Chepo) encountered by Balboa; destroyed by 1530."
+  },
+  {
+   "name": "Guna",
+   "aliases": [
+    "Kuna",
+    "Cuna",
+    "Tule"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "San Blas coast",
+    "lat": 9.4,
+    "lon": -78.6
+   },
+   "extent": [
+    [
+     9.6,
+     -79.0
+    ],
+    [
+     9.2,
+     -77.8
+    ],
+    [
+     8.4,
+     -77.6
+    ],
+    [
+     8.6,
+     -78.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Guna_people",
+   "confidence": "moderate",
+   "note": "Darién and San Blas people, allied with French/Scots/English against Spain; effectively independent through 1900 (1925 Tule Revolution)."
+  },
+  {
+   "name": "Bayano Maroons",
+   "aliases": [
+    "Palenque of Bayano",
+    "Cimarrones de Panamá"
+   ],
+   "from": 1549,
+   "to": 1582,
+   "seat": {
+    "name": "Ronconcholon (Bayano river)",
+    "lat": 9.1,
+    "lon": -78.8
+   },
+   "extent": [
+    [
+     9.4,
+     -79.1
+    ],
+    [
+     9.4,
+     -78.4
+    ],
+    [
+     8.8,
+     -78.4
+    ],
+    [
+     8.85,
+     -79.1
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bayano",
+   "confidence": "low",
+   "note": "Maroon kingdom under King Bayano in eastern Panama; Bayano captured 1558, maroons allied with Drake 1572-73, peace settlements 1579-1582."
+  },
+  {
+   "name": "Miskito Kingdom",
+   "aliases": [
+    "Mosquito Kingdom",
+    "Mosquitia",
+    "Mosquito Reserve"
+   ],
+   "from": 1638,
+   "to": 1894,
+   "seat": {
+    "name": "Sandy Bay",
+    "lat": 14.95,
+    "lon": -83.4
+   },
+   "extent": [
+    [
+     16.0,
+     -85.5
+    ],
+    [
+     15.0,
+     -83.15
+    ],
+    [
+     12.0,
+     -83.6
+    ],
+    [
+     11.0,
+     -83.7
+    ],
+    [
+     11.9,
+     -84.3
+    ],
+    [
+     14.8,
+     -84.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1655,
+     "to": 1787,
+     "name": "British protectorate"
+    },
+    {
+     "from": 1844,
+     "to": 1860,
+     "name": "British protectorate"
+    },
+    {
+     "from": 1860,
+     "to": 1894,
+     "name": "Nicaragua (autonomous reserve)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1638,
+     "to": 1860,
+     "seat": {
+      "name": "Sandy Bay",
+      "lat": 14.95,
+      "lon": -83.4
+     },
+     "extent": [
+      [
+       16.0,
+       -85.5
+      ],
+      [
+       15.0,
+       -83.15
+      ],
+      [
+       12.0,
+       -83.6
+      ],
+      [
+       11.0,
+       -83.7
+      ],
+      [
+       11.9,
+       -84.3
+      ],
+      [
+       14.8,
+       -84.8
+      ]
+     ]
+    },
+    {
+     "from": 1860,
+     "to": 1894,
+     "seat": {
+      "name": "Bluefields",
+      "lat": 12.01,
+      "lon": -83.76
+     },
+     "extent": [
+      [
+       14.0,
+       -83.4
+      ],
+      [
+       14.0,
+       -84.2
+      ],
+      [
+       11.9,
+       -84.1
+      ],
+      [
+       11.9,
+       -83.65
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mosquito_Coast",
+   "confidence": "high",
+   "note": "Miskito kingship allied with England (protectorate 1655-1787, 1844-1860); raided and took tribute from Spanish Central America; reduced to the Mosquito Reserve (Bluefields) 1860, annexed by Nicaragua 1894."
+  },
+  {
+   "name": "Taíno cacicazgo of Marién",
+   "aliases": [
+    "Marién",
+    "Guacanagarí"
+   ],
+   "from": 1400,
+   "to": 1500,
+   "seat": {
+    "name": "Guarico",
+    "lat": 19.76,
+    "lon": -72.2
+   },
+   "extent": [
+    [
+     19.95,
+     -73.3
+    ],
+    [
+     19.85,
+     -71.7
+    ],
+    [
+     19.5,
+     -71.7
+    ],
+    [
+     19.35,
+     -72.8
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chiefdoms_of_Hispaniola",
+   "confidence": "moderate",
+   "note": "NW Hispaniola cacicazgo of Guacanagarí, who hosted Columbus (La Navidad) 1492."
+  },
+  {
+   "name": "Taíno cacicazgo of Maguá",
+   "aliases": [
+    "Maguá",
+    "Guarionex",
+    "Vega Real"
+   ],
+   "from": 1400,
+   "to": 1497,
+   "seat": {
+    "name": "Guarionex's yucayeque (La Vega)",
+    "lat": 19.22,
+    "lon": -70.53
+   },
+   "extent": [
+    [
+     19.9,
+     -71.6
+    ],
+    [
+     19.7,
+     -69.8
+    ],
+    [
+     19.1,
+     -69.5
+    ],
+    [
+     18.9,
+     -70.6
+    ],
+    [
+     19.4,
+     -71.6
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chiefdoms_of_Hispaniola",
+   "confidence": "moderate",
+   "note": "NE Hispaniola cacicazgo of Guarionex; subdued 1497."
+  },
+  {
+   "name": "Taíno cacicazgo of Maguana",
+   "aliases": [
+    "Maguana",
+    "Caonabo"
+   ],
+   "from": 1400,
+   "to": 1496,
+   "seat": {
+    "name": "Corral de los Indios",
+    "lat": 18.84,
+    "lon": -71.2
+   },
+   "extent": [
+    [
+     19.4,
+     -71.9
+    ],
+    [
+     19.0,
+     -70.6
+    ],
+    [
+     18.4,
+     -70.5
+    ],
+    [
+     18.4,
+     -71.5
+    ],
+    [
+     18.9,
+     -72.0
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chiefdoms_of_Hispaniola",
+   "confidence": "moderate",
+   "note": "Central Hispaniola cacicazgo of Caonabo, captured 1495."
+  },
+  {
+   "name": "Taíno cacicazgo of Jaragua",
+   "aliases": [
+    "Xaragua",
+    "Bohechío",
+    "Anacaona"
+   ],
+   "from": 1400,
+   "to": 1503,
+   "seat": {
+    "name": "Yaguana (Léogâne)",
+    "lat": 18.51,
+    "lon": -72.63
+   },
+   "extent": [
+    [
+     19.0,
+     -74.4
+    ],
+    [
+     18.8,
+     -72.1
+    ],
+    [
+     18.2,
+     -71.6
+    ],
+    [
+     17.9,
+     -71.6
+    ],
+    [
+     18.2,
+     -74.3
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chiefdoms_of_Hispaniola",
+   "confidence": "moderate",
+   "note": "Largest cacicazgo, in SW Hispaniola; Anacaona executed after the Jaragua massacre 1503."
+  },
+  {
+   "name": "Taíno cacicazgo of Higüey",
+   "aliases": [
+    "Higüey",
+    "Cayacoa",
+    "Cotubanamá"
+   ],
+   "from": 1400,
+   "to": 1504,
+   "seat": {
+    "name": "Higüey",
+    "lat": 18.62,
+    "lon": -68.71
+   },
+   "extent": [
+    [
+     19.0,
+     -69.6
+    ],
+    [
+     18.85,
+     -68.4
+    ],
+    [
+     18.3,
+     -68.4
+    ],
+    [
+     18.4,
+     -69.6
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chiefdoms_of_Hispaniola",
+   "confidence": "moderate",
+   "note": "Eastern Hispaniola cacicazgo; war of 1503-1504, Cotubanamá executed."
+  },
+  {
+   "name": "Bahoruco (Enriquillo)",
+   "aliases": [
+    "Enriquillo's revolt",
+    "Sierra de Bahoruco"
+   ],
+   "from": 1519,
+   "to": 1533,
+   "seat": {
+    "name": "Sierra de Bahoruco",
+    "lat": 18.17,
+    "lon": -71.55
+   },
+   "extent": [
+    [
+     18.4,
+     -71.9
+    ],
+    [
+     18.35,
+     -71.2
+    ],
+    [
+     17.9,
+     -71.2
+    ],
+    [
+     17.95,
+     -71.8
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Enriquillo",
+   "confidence": "moderate",
+   "note": "Taíno cacique Enriquillo held the Bahoruco mountains for 14 years; peace treaty with Spain 1533."
+  },
+  {
+   "name": "Le Maniel",
+   "aliases": [
+    "Maniel maroons",
+    "Bahoruco maroons"
+   ],
+   "from": 1660,
+   "to": 1785,
+   "seat": {
+    "name": "Le Maniel",
+    "lat": 18.2,
+    "lon": -71.65
+   },
+   "reach_km": 30,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Maroons",
+   "confidence": "low",
+   "note": "Maroon community of the Bahoruco/Neiba border mountains; negotiated with French and Spanish authorities 1782-1785."
+  },
+  {
+   "name": "Borikén",
+   "aliases": [
+    "Taíno Puerto Rico",
+    "Agüeybaná"
+   ],
+   "from": 1400,
+   "to": 1511,
+   "seat": {
+    "name": "Guaynía (Guayanilla)",
+    "lat": 18.02,
+    "lon": -66.79
+   },
+   "extent": [
+    [
+     18.5,
+     -67.2
+    ],
+    [
+     18.45,
+     -65.6
+    ],
+    [
+     17.95,
+     -65.7
+    ],
+    [
+     17.95,
+     -67.2
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Agüeybaná",
+   "confidence": "moderate",
+   "note": "Taíno cacicazgos of Puerto Rico under the paramount cacique Agüeybaná; revolt of 1511 crushed."
+  },
+  {
+   "name": "Taíno cacicazgos of Cuba",
+   "aliases": [
+    "Cuban Taíno",
+    "Hatuey",
+    "Bayatiquirí"
+   ],
+   "from": 1400,
+   "to": 1514,
+   "seat": {
+    "name": "Maisí",
+    "lat": 20.24,
+    "lon": -74.15
+   },
+   "extent": [
+    [
+     23.0,
+     -81.5
+    ],
+    [
+     22.5,
+     -77.0
+    ],
+    [
+     20.2,
+     -74.1
+    ],
+    [
+     19.85,
+     -77.7
+    ],
+    [
+     21.8,
+     -81.0
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Taíno",
+   "confidence": "low",
+   "note": "Some 29 cacicazgos of central and eastern Cuba (Baracoa, Bayamo, Camagüey, Sabaneque...); Hatuey burnt 1512, conquest by Velázquez complete 1514. Far western Cuba held Guanahatabey bands."
+  },
+  {
+   "name": "Taíno Jamaica",
+   "aliases": [
+    "Xaymaca",
+    "Jamaican Taíno"
+   ],
+   "from": 1400,
+   "to": 1520,
+   "seat": {
+    "name": "Maima (Sevilla la Nueva)",
+    "lat": 18.45,
+    "lon": -77.22
+   },
+   "extent": [
+    [
+     18.5,
+     -78.35
+    ],
+    [
+     18.5,
+     -76.3
+    ],
+    [
+     17.85,
+     -76.2
+    ],
+    [
+     18.2,
+     -78.35
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Taíno",
+   "confidence": "low",
+   "note": "Taíno cacicazgos of Jamaica; Spanish settlement from 1509, population collapse by c.1520."
+  },
+  {
+   "name": "Lucayan",
+   "aliases": [
+    "Lucayans",
+    "Bahamas Taíno"
+   ],
+   "from": 1400,
+   "to": 1513,
+   "seat": {
+    "name": "Guanahani",
+    "lat": 24.05,
+    "lon": -74.5
+   },
+   "extent": [
+    [
+     27.0,
+     -78.9
+    ],
+    [
+     26.0,
+     -76.9
+    ],
+    [
+     22.4,
+     -73.0
+    ],
+    [
+     21.0,
+     -71.6
+    ],
+    [
+     22.4,
+     -74.4
+    ],
+    [
+     24.0,
+     -77.9
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Lucayan_people",
+   "confidence": "moderate",
+   "note": "Taíno people of the Bahamas and Turks-Caicos; deported as slaves 1500-1513, islands depopulated."
+  },
+  {
+   "name": "Kalinago",
+   "aliases": [
+    "Island Caribs",
+    "Caribs",
+    "Kalinago of Dominica"
+   ],
+   "from": 1400,
+   "to": 1763,
+   "seat": {
+    "name": "Dominica (Salybia)",
+    "lat": 15.49,
+    "lon": -61.26
+   },
+   "extent": [
+    [
+     17.2,
+     -61.9
+    ],
+    [
+     16.4,
+     -60.9
+    ],
+    [
+     13.9,
+     -60.8
+    ],
+    [
+     12.0,
+     -61.6
+    ],
+    [
+     12.1,
+     -61.9
+    ],
+    [
+     15.4,
+     -61.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1650,
+     "extent": [
+      [
+       17.2,
+       -61.9
+      ],
+      [
+       16.4,
+       -60.9
+      ],
+      [
+       13.9,
+       -60.8
+      ],
+      [
+       12.0,
+       -61.6
+      ],
+      [
+       12.1,
+       -61.9
+      ],
+      [
+       15.4,
+       -61.6
+      ]
+     ]
+    },
+    {
+     "from": 1650,
+     "to": 1763,
+     "extent": [
+      [
+       15.65,
+       -61.48
+      ],
+      [
+       15.55,
+       -61.25
+      ],
+      [
+       15.2,
+       -61.25
+      ],
+      [
+       15.2,
+       -61.38
+      ]
+     ]
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kalinago",
+   "confidence": "high",
+   "note": "Held the Lesser Antilles from Guadeloupe to Grenada; lost St Kitts, Guadeloupe, Martinique, Grenada, St Lucia to France/England 1625-1660; 1660 treaty left them Dominica and St Vincent; Dominica ceded to Britain 1763."
+  },
+  {
+   "name": "Black Caribs of St Vincent",
+   "aliases": [
+    "Garifuna",
+    "Garinagu",
+    "Yurumein"
+   ],
+   "from": 1675,
+   "to": 1797,
+   "seat": {
+    "name": "Windward St Vincent",
+    "lat": 13.3,
+    "lon": -61.13
+   },
+   "extent": [
+    [
+     13.38,
+     -61.22
+    ],
+    [
+     13.32,
+     -61.12
+    ],
+    [
+     13.15,
+     -61.13
+    ],
+    [
+     13.22,
+     -61.22
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Garifuna",
+   "confidence": "moderate",
+   "note": "Afro-Kalinago people of windward St Vincent under paramount chiefs (Joseph Chatoyer); fought Britain 1772-73 and 1795-96; deported to Roatán 1797."
+  },
+  {
+   "name": "Leeward Maroons",
+   "aliases": [
+    "Trelawny Town",
+    "Cudjoe's Town",
+    "Accompong"
+   ],
+   "from": 1690,
+   "to": 1796,
+   "seat": {
+    "name": "Cudjoe's Town (Trelawny Town)",
+    "lat": 18.33,
+    "lon": -77.75
+   },
+   "extent": [
+    [
+     18.45,
+     -77.9
+    ],
+    [
+     18.4,
+     -77.55
+    ],
+    [
+     18.15,
+     -77.55
+    ],
+    [
+     18.15,
+     -77.9
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Jamaican_Maroons",
+   "confidence": "moderate",
+   "note": "Cockpit Country maroons under Cudjoe; treaty with Britain 1739; Trelawny Town deported after the Second Maroon War 1796, Accompong remained."
+  },
+  {
+   "name": "Windward Maroons",
+   "aliases": [
+    "Nanny Town",
+    "Moore Town"
+   ],
+   "from": 1655,
+   "to": 1900,
+   "seat": {
+    "name": "Nanny Town / Moore Town",
+    "lat": 18.07,
+    "lon": -76.43
+   },
+   "extent": [
+    [
+     18.2,
+     -76.7
+    ],
+    [
+     18.15,
+     -76.3
+    ],
+    [
+     17.95,
+     -76.3
+    ],
+    [
+     18.0,
+     -76.7
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Jamaican_Maroons",
+   "confidence": "moderate",
+   "note": "Blue Mountains maroons led by Queen Nanny and Quao; treaty 1740; autonomous Moore Town and Charles Town persisted."
+  },
+  {
+   "name": "Zipazgo of Bacatá",
+   "aliases": [
+    "Bacatá",
+    "Zipa",
+    "Southern Muisca Confederation"
+   ],
+   "from": 1450,
+   "to": 1538,
+   "seat": {
+    "name": "Bacatá (Funza)",
+    "lat": 4.72,
+    "lon": -74.21
+   },
+   "extent": [
+    [
+     5.3,
+     -74.3
+    ],
+    [
+     5.1,
+     -73.7
+    ],
+    [
+     4.6,
+     -73.7
+    ],
+    [
+     4.2,
+     -74.1
+    ],
+    [
+     4.5,
+     -74.6
+    ],
+    [
+     5.1,
+     -74.55
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Muisca_Confederation",
+   "confidence": "high",
+   "note": "Southern Muisca confederation of the zipa (Saguamanchica, Nemequene, Tisquesusa); conquered by Jiménez de Quesada 1537-1538. Seat Bacatá/Funza; Muequetá."
+  },
+  {
+   "name": "Zacazgo of Hunza",
+   "aliases": [
+    "Hunza",
+    "Zaque",
+    "Northern Muisca Confederation"
+   ],
+   "from": 1450,
+   "to": 1537,
+   "seat": {
+    "name": "Hunza (Tunja)",
+    "lat": 5.53,
+    "lon": -73.36
+   },
+   "extent": [
+    [
+     5.95,
+     -73.65
+    ],
+    [
+     5.75,
+     -73.1
+    ],
+    [
+     5.3,
+     -73.15
+    ],
+    [
+     5.2,
+     -73.55
+    ],
+    [
+     5.6,
+     -73.8
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Muisca_Confederation",
+   "confidence": "high",
+   "note": "Northern Muisca confederation of the zaque (Quemuenchatocha, Aquiminzaque); taken 1537."
+  },
+  {
+   "name": "Iraca",
+   "aliases": [
+    "Sugamuxi",
+    "Sogamoso"
+   ],
+   "from": 1450,
+   "to": 1537,
+   "seat": {
+    "name": "Sugamuxi (Sogamoso)",
+    "lat": 5.72,
+    "lon": -72.93
+   },
+   "extent": [
+    [
+     5.9,
+     -72.95
+    ],
+    [
+     5.75,
+     -72.65
+    ],
+    [
+     5.45,
+     -72.75
+    ],
+    [
+     5.55,
+     -73.05
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Muisca_Confederation",
+   "confidence": "moderate",
+   "note": "Independent Muisca sacred province with the Sun Temple; burnt 1537."
+  },
+  {
+   "name": "Tundama",
+   "aliases": [
+    "Duitama"
+   ],
+   "from": 1450,
+   "to": 1539,
+   "seat": {
+    "name": "Tundama (Duitama)",
+    "lat": 5.83,
+    "lon": -73.03
+   },
+   "extent": [
+    [
+     6.15,
+     -73.1
+    ],
+    [
+     6.05,
+     -72.75
+    ],
+    [
+     5.8,
+     -72.9
+    ],
+    [
+     5.85,
+     -73.2
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Tundama",
+   "confidence": "moderate",
+   "note": "Northernmost independent Muisca chiefdom; cacique Tundama resisted until 1539."
+  },
+  {
+   "name": "Guane",
+   "aliases": [
+    "Guanes",
+    "Guanentá"
+   ],
+   "from": 1300,
+   "to": 1541,
+   "seat": {
+    "name": "Guane",
+    "lat": 6.69,
+    "lon": -73.26
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Guane_people",
+   "confidence": "low",
+   "note": "Chibchan chiefdoms of the Mesa de los Santos (Santander); conquered by Martín Galeano 1540-1541."
+  },
+  {
+   "name": "Chitarero",
+   "aliases": [
+    "Chitareros"
+   ],
+   "from": 1300,
+   "to": 1550,
+   "seat": {
+    "name": "Pamplona valley",
+    "lat": 7.38,
+    "lon": -72.65
+   },
+   "reach_km": 40,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Chitarero",
+   "confidence": "low",
+   "note": "Chibchan people around Pamplona; conquered 1549-1550."
+  },
+  {
+   "name": "Lache",
+   "aliases": [
+    "Laches",
+    "El Cocuy"
+   ],
+   "from": 1300,
+   "to": 1541,
+   "seat": {
+    "name": "Güicán",
+    "lat": 6.46,
+    "lon": -72.41
+   },
+   "reach_km": 30,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Lache_people",
+   "confidence": "low",
+   "note": "Chibchan people of the Sierra Nevada del Cocuy."
+  },
+  {
+   "name": "Muzo",
+   "aliases": [
+    "Muzos"
+   ],
+   "from": 1300,
+   "to": 1560,
+   "seat": {
+    "name": "Muzo",
+    "lat": 5.53,
+    "lon": -74.1
+   },
+   "extent": [
+    [
+     5.9,
+     -74.4
+    ],
+    [
+     5.85,
+     -74.0
+    ],
+    [
+     5.3,
+     -73.95
+    ],
+    [
+     5.3,
+     -74.35
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Muzo_people",
+   "confidence": "low",
+   "note": "Carib-speaking emerald-country people west of the Muisca; resisted until c.1560."
+  },
+  {
+   "name": "Panche",
+   "aliases": [
+    "Panches"
+   ],
+   "from": 1300,
+   "to": 1575,
+   "seat": {
+    "name": "Tocaima",
+    "lat": 4.46,
+    "lon": -74.64
+   },
+   "extent": [
+    [
+     5.2,
+     -74.9
+    ],
+    [
+     5.0,
+     -74.4
+    ],
+    [
+     4.2,
+     -74.4
+    ],
+    [
+     4.1,
+     -74.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Panche",
+   "confidence": "low",
+   "note": "Carib-speaking warriors of the Magdalena slope, enemies of the zipa; subdued by c.1575."
+  },
+  {
+   "name": "Pijao",
+   "aliases": [
+    "Pijaos"
+   ],
+   "from": 1300,
+   "to": 1612,
+   "seat": {
+    "name": "Chaparral",
+    "lat": 3.72,
+    "lon": -75.48
+   },
+   "extent": [
+    [
+     4.6,
+     -75.4
+    ],
+    [
+     4.2,
+     -74.9
+    ],
+    [
+     2.7,
+     -75.3
+    ],
+    [
+     2.8,
+     -75.9
+    ],
+    [
+     3.8,
+     -76.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Pijao_people",
+   "confidence": "moderate",
+   "note": "Unconquered Central Cordillera people who raided Spanish settlements; defeated in Borja's war 1605-1612."
+  },
+  {
+   "name": "Tairona",
+   "aliases": [
+    "Tayrona",
+    "Bonda",
+    "Pocigüeyca"
+   ],
+   "from": 1000,
+   "to": 1600,
+   "seat": {
+    "name": "Bonda",
+    "lat": 11.24,
+    "lon": -74.13
+   },
+   "extent": [
+    [
+     11.35,
+     -74.2
+    ],
+    [
+     11.25,
+     -73.3
+    ],
+    [
+     10.6,
+     -73.2
+    ],
+    [
+     10.4,
+     -73.8
+    ],
+    [
+     10.9,
+     -74.15
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Tairona",
+   "confidence": "high",
+   "note": "Federation of towns of the Sierra Nevada de Santa Marta (Bonda, Pocigüeyca, Taironaka, Teyuna); resisted Santa Marta until the revolt of 1599-1600 was crushed; descendants Kogi, Arhuaco."
+  },
+  {
+   "name": "Zenú",
+   "aliases": [
+    "Sinú",
+    "Finzenú",
+    "Panzenú",
+    "Zenúfana"
+   ],
+   "from": 1000,
+   "to": 1536,
+   "seat": {
+    "name": "Finzenú",
+    "lat": 9.15,
+    "lon": -75.5
+   },
+   "extent": [
+    [
+     9.6,
+     -76.0
+    ],
+    [
+     9.4,
+     -74.9
+    ],
+    [
+     8.0,
+     -74.9
+    ],
+    [
+     8.3,
+     -76.1
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Zenú",
+   "confidence": "moderate",
+   "note": "Three-part Zenú realm (Finzenú, Panzenú, Zenúfana) of the Sinú and San Jorge basins; looted by Pedro de Heredia 1534-1536."
+  },
+  {
+   "name": "Quimbaya",
+   "aliases": [
+    "Quimbayas"
+   ],
+   "from": 1000,
+   "to": 1542,
+   "seat": {
+    "name": "Quindío",
+    "lat": 4.6,
+    "lon": -75.75
+   },
+   "reach_km": 50,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Quimbaya_civilization",
+   "confidence": "moderate",
+   "note": "Goldworking chiefdoms of the middle Cauca; conquered by Jorge Robledo 1539-1542."
+  },
+  {
+   "name": "Pubenza",
+   "aliases": [
+    "Popayán chiefdoms",
+    "Pubenense"
+   ],
+   "from": 1300,
+   "to": 1537,
+   "seat": {
+    "name": "Pubenza (Popayán)",
+    "lat": 2.44,
+    "lon": -76.61
+   },
+   "reach_km": 50,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Popayán",
+   "confidence": "low",
+   "note": "Chiefdoms of the upper Cauca around Popayán; taken by Belalcázar 1536-1537."
+  },
+  {
+   "name": "Pasto",
+   "aliases": [
+    "Pastos",
+    "Quillacinga"
+   ],
+   "from": 1000,
+   "to": 1540,
+   "seat": {
+    "name": "Ipiales",
+    "lat": 0.83,
+    "lon": -77.64
+   },
+   "extent": [
+    [
+     1.4,
+     -77.9
+    ],
+    [
+     1.3,
+     -77.1
+    ],
+    [
+     0.5,
+     -77.4
+    ],
+    [
+     0.6,
+     -78.1
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Pre-Columbian_Ecuador",
+   "confidence": "low",
+   "note": "Andean chiefdoms of Nariño and Carchi on the Inca northern frontier; southern Pastos tributary to Huayna Capac c.1500."
+  },
+  {
+   "name": "Wayuu",
+   "aliases": [
+    "Guajiro",
+    "Wayúu"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Guajira peninsula",
+    "lat": 11.5,
+    "lon": -72.3
+   },
+   "extent": [
+    [
+     12.45,
+     -71.7
+    ],
+    [
+     11.8,
+     -71.2
+    ],
+    [
+     11.0,
+     -72.0
+    ],
+    [
+     10.9,
+     -72.8
+    ],
+    [
+     11.6,
+     -72.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Wayuu_people",
+   "confidence": "high",
+   "note": "Clan-based pastoral nation of the Guajira peninsula; adopted horses and cattle, traded with Dutch/English; defeated the 1769 Spanish campaign and remained self-governing through 1900."
+  },
+  {
+   "name": "Barí",
+   "aliases": [
+    "Motilones",
+    "Motilón"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Serranía de Perijá",
+    "lat": 9.5,
+    "lon": -72.9
+   },
+   "extent": [
+    [
+     10.3,
+     -73.0
+    ],
+    [
+     10.3,
+     -72.5
+    ],
+    [
+     8.6,
+     -72.4
+    ],
+    [
+     8.5,
+     -73.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Barí_people",
+   "confidence": "moderate",
+   "note": "Forest people of the Perijá range and Catatumbo who resisted colonisation into the 20th century."
+  },
+  {
+   "name": "Caquetío",
+   "aliases": [
+    "Caquetíos",
+    "Manaure"
+   ],
+   "from": 1300,
+   "to": 1529,
+   "seat": {
+    "name": "Coro",
+    "lat": 11.4,
+    "lon": -69.67
+   },
+   "extent": [
+    [
+     12.0,
+     -70.3
+    ],
+    [
+     11.6,
+     -68.7
+    ],
+    [
+     10.8,
+     -68.6
+    ],
+    [
+     10.5,
+     -69.8
+    ],
+    [
+     11.2,
+     -70.8
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Caquetio",
+   "confidence": "moderate",
+   "note": "Arawakan paramountcy of Falcón and the ABC islands under the diao Manaure; submitted to Ampíes 1527, then Welser rule from 1529."
+  },
+  {
+   "name": "Timoto-Cuica",
+   "aliases": [
+    "Timotes",
+    "Cuicas"
+   ],
+   "from": 1300,
+   "to": 1560,
+   "seat": {
+    "name": "Mucuchíes",
+    "lat": 8.75,
+    "lon": -70.92
+   },
+   "extent": [
+    [
+     9.6,
+     -70.6
+    ],
+    [
+     9.3,
+     -70.2
+    ],
+    [
+     8.3,
+     -71.3
+    ],
+    [
+     8.55,
+     -71.7
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Timoto–Cuica_people",
+   "confidence": "low",
+   "note": "Andean terrace-farming peoples of Mérida and Trujillo; conquered 1550s-1560."
+  },
+  {
+   "name": "Cumanagoto",
+   "aliases": [
+    "Cumanagotos",
+    "Palenque"
+   ],
+   "from": 1400,
+   "to": 1680,
+   "seat": {
+    "name": "Cumanagoto coast",
+    "lat": 10.2,
+    "lon": -64.6
+   },
+   "extent": [
+    [
+     10.5,
+     -65.6
+    ],
+    [
+     10.6,
+     -64.0
+    ],
+    [
+     9.6,
+     -63.8
+    ],
+    [
+     9.4,
+     -65.4
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Cumanagoto_people",
+   "confidence": "low",
+   "note": "Carib-speaking coastal people of NE Venezuela; Franciscan missions from the 1650s."
+  },
+  {
+   "name": "Kariña",
+   "aliases": [
+    "Orinoco Caribs",
+    "Caribes del Orinoco"
+   ],
+   "from": 1400,
+   "to": 1740,
+   "seat": {
+    "name": "Mesa de Guanipa",
+    "lat": 8.6,
+    "lon": -64.2
+   },
+   "extent": [
+    [
+     9.8,
+     -65.0
+    ],
+    [
+     9.6,
+     -62.5
+    ],
+    [
+     8.0,
+     -62.0
+    ],
+    [
+     7.8,
+     -64.5
+    ],
+    [
+     8.5,
+     -66.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kalina_people",
+   "confidence": "low",
+   "note": "Carib nation of the eastern llanos and lower Orinoco, allied to the Dutch slave trade; reduced by Catalan Capuchin and Franciscan missions 1720s-1740s."
+  },
+  {
+   "name": "Warao",
+   "aliases": [
+    "Guarao",
+    "Orinoco Delta Warao"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Orinoco Delta",
+    "lat": 9.0,
+    "lon": -61.5
+   },
+   "extent": [
+    [
+     9.9,
+     -62.4
+    ],
+    [
+     9.8,
+     -61.0
+    ],
+    [
+     8.5,
+     -60.0
+    ],
+    [
+     8.3,
+     -61.5
+    ],
+    [
+     9.0,
+     -62.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Warao_people",
+   "confidence": "moderate",
+   "note": "Delta canoe people, largely outside colonial control."
+  },
+  {
+   "name": "Achagua",
+   "aliases": [
+    "Achaguas"
+   ],
+   "from": 1400,
+   "to": 1700,
+   "seat": {
+    "name": "Meta river llanos",
+    "lat": 5.0,
+    "lon": -70.8
+   },
+   "extent": [
+    [
+     6.5,
+     -72.0
+    ],
+    [
+     6.5,
+     -69.5
+    ],
+    [
+     4.3,
+     -69.5
+    ],
+    [
+     4.0,
+     -72.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Achagua_language",
+   "confidence": "low",
+   "note": "Arawakan llanos people; Jesuit Casanare/Meta missions from the 1660s."
+  },
+  {
+   "name": "Kalina of the Guianas",
+   "aliases": [
+    "Galibi",
+    "Carib of the Guianas",
+    "Karinya"
+   ],
+   "from": 1400,
+   "to": 1800,
+   "seat": {
+    "name": "Coastal Suriname",
+    "lat": 5.8,
+    "lon": -55.2
+   },
+   "extent": [
+    [
+     8.4,
+     -59.9
+    ],
+    [
+     6.0,
+     -57.0
+    ],
+    [
+     5.8,
+     -54.0
+    ],
+    [
+     5.0,
+     -52.2
+    ],
+    [
+     4.3,
+     -52.5
+    ],
+    [
+     5.1,
+     -56.0
+    ],
+    [
+     6.6,
+     -59.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kalina_people",
+   "confidence": "moderate",
+   "note": "Carib coast nation from the Essequibo to Cayenne; fought the Dutch (1678-1686 Suriname war) and allied with them; leading Native power until c.1800."
+  },
+  {
+   "name": "Lokono",
+   "aliases": [
+    "Arawak of the Guianas",
+    "Arowak"
+   ],
+   "from": 1400,
+   "to": 1850,
+   "seat": {
+    "name": "Berbice coast",
+    "lat": 6.25,
+    "lon": -57.5
+   },
+   "extent": [
+    [
+     7.5,
+     -58.8
+    ],
+    [
+     6.4,
+     -56.8
+    ],
+    [
+     5.6,
+     -55.3
+    ],
+    [
+     5.4,
+     -56.0
+    ],
+    [
+     6.4,
+     -58.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Lokono",
+   "confidence": "low",
+   "note": "Arawakan people of the lower Guiana rivers (Berbice, Demerara, Suriname); Dutch allies and slave-catchers."
+  },
+  {
+   "name": "Pemon-Makushi",
+   "aliases": [
+    "Makushi",
+    "Pemon",
+    "Kapon",
+    "Wapishana"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Gran Sabana / Rupununi",
+    "lat": 4.5,
+    "lon": -61.0
+   },
+   "extent": [
+    [
+     6.0,
+     -62.5
+    ],
+    [
+     5.8,
+     -60.0
+    ],
+    [
+     2.5,
+     -59.3
+    ],
+    [
+     2.6,
+     -61.2
+    ],
+    [
+     4.5,
+     -62.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Macushi",
+   "confidence": "low",
+   "note": "Carib-speaking savanna peoples of the Guiana Highlands; outside colonial rule until the late 19th century."
+  },
+  {
+   "name": "Yanomami",
+   "aliases": [
+    "Yanomamö",
+    "Guaharibo"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Parima highlands",
+    "lat": 3.0,
+    "lon": -64.0
+   },
+   "extent": [
+    [
+     4.3,
+     -65.5
+    ],
+    [
+     4.0,
+     -62.8
+    ],
+    [
+     1.5,
+     -62.5
+    ],
+    [
+     0.5,
+     -64.0
+    ],
+    [
+     1.6,
+     -66.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Yanomami",
+   "confidence": "low",
+   "note": "Uncontacted interfluvial people of the Parima/Siapa highlands throughout the period; no centralised polity."
+  },
+  {
+   "name": "Saramaka",
+   "aliases": [
+    "Saramacca maroons",
+    "Saamaka"
+   ],
+   "from": 1690,
+   "to": 1900,
+   "seat": {
+    "name": "Upper Suriname river (Asindoopo)",
+    "lat": 4.05,
+    "lon": -55.48
+   },
+   "extent": [
+    [
+     4.8,
+     -55.3
+    ],
+    [
+     4.6,
+     -55.0
+    ],
+    [
+     3.6,
+     -55.5
+    ],
+    [
+     3.8,
+     -55.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Saramaka",
+   "confidence": "high",
+   "note": "Maroon nation formed from plantation escapees from c.1690; peace treaty with the Dutch 1762 recognising autonomy under a paramount chief (gaama)."
+  },
+  {
+   "name": "Ndyuka",
+   "aliases": [
+    "Okanisi",
+    "Aukan",
+    "Djuka"
+   ],
+   "from": 1712,
+   "to": 1900,
+   "seat": {
+    "name": "Diitabiki (Tapanahony)",
+    "lat": 4.0,
+    "lon": -54.65
+   },
+   "extent": [
+    [
+     5.4,
+     -54.4
+    ],
+    [
+     4.5,
+     -54.1
+    ],
+    [
+     3.6,
+     -54.6
+    ],
+    [
+     3.9,
+     -55.0
+    ],
+    [
+     5.0,
+     -54.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Ndyuka_people",
+   "confidence": "high",
+   "note": "Maroon nation of the Cottica, Marowijne and Tapanahony rivers; treaty with the Dutch 1760; gaama seat at Diitabiki."
+  },
+  {
+   "name": "Matawai",
+   "aliases": [
+    "Matawai maroons"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Saramacca river",
+    "lat": 4.6,
+    "lon": -56.0
+   },
+   "reach_km": 40,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Matawai_people",
+   "confidence": "moderate",
+   "note": "Maroon group that split from the Saramaka; treaty with the Dutch 1767."
+  },
+  {
+   "name": "Aluku",
+   "aliases": [
+    "Boni maroons",
+    "Boni"
+   ],
+   "from": 1760,
+   "to": 1900,
+   "seat": {
+    "name": "Lawa river (Papaïchton)",
+    "lat": 3.8,
+    "lon": -54.15
+   },
+   "extent": [
+    [
+     4.0,
+     -54.45
+    ],
+    [
+     4.0,
+     -54.0
+    ],
+    [
+     3.3,
+     -54.0
+    ],
+    [
+     3.3,
+     -54.4
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Aluku",
+   "confidence": "moderate",
+   "note": "Maroons under Boni who fought the Dutch (Boni Wars 1765-1793) then settled on the Lawa; status settled by Franco-Dutch accord 1860."
+  },
+  {
+   "name": "Palenque de San Basilio",
+   "aliases": [
+    "San Basilio de Palenque",
+    "Benkos Biohó palenque"
+   ],
+   "from": 1599,
+   "to": 1900,
+   "seat": {
+    "name": "San Basilio de Palenque",
+    "lat": 10.1,
+    "lon": -75.2
+   },
+   "reach_km": 15,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/San_Basilio_de_Palenque",
+   "confidence": "moderate",
+   "note": "Maroon town in the Montes de María founded by Benkos Biohó's followers; royal decree of freedom 1691/1713; self-governing."
+  },
+  {
+   "name": "Esmeraldas Zambos",
+   "aliases": [
+    "Republic of Zambos",
+    "Alonso de Illescas"
+   ],
+   "from": 1553,
+   "to": 1600,
+   "seat": {
+    "name": "Esmeraldas coast",
+    "lat": 0.95,
+    "lon": -79.65
+   },
+   "extent": [
+    [
+     1.4,
+     -79.9
+    ],
+    [
+     1.2,
+     -78.9
+    ],
+    [
+     0.3,
+     -79.3
+    ],
+    [
+     0.5,
+     -80.1
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Alonso_de_Illescas",
+   "confidence": "moderate",
+   "note": "Afro-indigenous polity founded by shipwrecked Africans under Alonso de Illescas; recognised by Quito as governors 1599-1600."
+  },
+  {
+   "name": "Inca Empire",
+   "aliases": [
+    "Tawantinsuyu",
+    "Kingdom of Cusco",
+    "Inca"
+   ],
+   "from": 1200,
+   "to": 1533,
+   "seat": {
+    "name": "Cusco",
+    "lat": -13.52,
+    "lon": -71.97
+   },
+   "extent": [
+    [
+     0.9,
+     -77.6
+    ],
+    [
+     -6.5,
+     -77.0
+    ],
+    [
+     -14.5,
+     -68.8
+    ],
+    [
+     -18.0,
+     -63.2
+    ],
+    [
+     -34.3,
+     -69.9
+    ],
+    [
+     -30.0,
+     -71.5
+    ],
+    [
+     -12.0,
+     -77.2
+    ],
+    [
+     -3.0,
+     -80.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1200,
+     "to": 1438,
+     "extent": [
+      [
+       -13.0,
+       -72.3
+      ],
+      [
+       -13.1,
+       -71.5
+      ],
+      [
+       -13.8,
+       -71.6
+      ],
+      [
+       -13.8,
+       -72.3
+      ]
+     ]
+    },
+    {
+     "from": 1438,
+     "to": 1463,
+     "extent": [
+      [
+       -11.5,
+       -76.2
+      ],
+      [
+       -12.5,
+       -73.5
+      ],
+      [
+       -14.4,
+       -69.8
+      ],
+      [
+       -16.6,
+       -68.8
+      ],
+      [
+       -16.6,
+       -70.3
+      ],
+      [
+       -14.5,
+       -72.5
+      ],
+      [
+       -13.8,
+       -76.2
+      ]
+     ]
+    },
+    {
+     "from": 1463,
+     "to": 1493,
+     "extent": [
+      [
+       -0.2,
+       -78.3
+      ],
+      [
+       -6.5,
+       -77.0
+      ],
+      [
+       -14.5,
+       -68.8
+      ],
+      [
+       -18.0,
+       -63.2
+      ],
+      [
+       -34.3,
+       -69.9
+      ],
+      [
+       -30.0,
+       -71.5
+      ],
+      [
+       -12.0,
+       -77.2
+      ],
+      [
+       -3.0,
+       -80.6
+      ]
+     ]
+    },
+    {
+     "from": 1493,
+     "to": 1533,
+     "extent": [
+      [
+       0.9,
+       -77.6
+      ],
+      [
+       -6.5,
+       -77.0
+      ],
+      [
+       -14.5,
+       -68.8
+      ],
+      [
+       -18.0,
+       -63.2
+      ],
+      [
+       -34.3,
+       -69.9
+      ],
+      [
+       -30.0,
+       -71.5
+      ],
+      [
+       -12.0,
+       -77.2
+      ],
+      [
+       -3.0,
+       -80.6
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Inca_Empire",
+   "confidence": "high",
+   "note": "Kingdom of Cusco (small valley state) until 1438 (first phase); expansion under Pachacuti (1438), Topa Inca (1471-1493) and Huayna Capac (1493-1527); civil war 1529-1532; Atahualpa captured at Cajamarca 1532, Cusco taken 1533. Eastern edge = Andean foothills; did not rule the Amazon lowlands."
+  },
+  {
+   "name": "Neo-Inca State",
+   "aliases": [
+    "Vilcabamba",
+    "Inca of Vilcabamba"
+   ],
+   "from": 1537,
+   "to": 1572,
+   "seat": {
+    "name": "Vilcabamba (Espíritu Pampa)",
+    "lat": -12.92,
+    "lon": -73.2
+   },
+   "extent": [
+    [
+     -12.5,
+     -73.6
+    ],
+    [
+     -12.6,
+     -72.7
+    ],
+    [
+     -13.3,
+     -72.8
+    ],
+    [
+     -13.3,
+     -73.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1537,
+     "to": 1544,
+     "seat": {
+      "name": "Vitcos",
+      "lat": -13.1,
+      "lon": -72.89
+     }
+    },
+    {
+     "from": 1544,
+     "to": 1572,
+     "seat": {
+      "name": "Vilcabamba",
+      "lat": -12.92,
+      "lon": -73.2
+     }
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Neo-Inca_State",
+   "confidence": "high",
+   "note": "Rump Inca state founded by Manco Inca; seat Vitcos then Vilcabamba; ended with capture of Túpac Amaru 1572."
+  },
+  {
+   "name": "Chimú",
+   "aliases": [
+    "Chimor",
+    "Kingdom of Chimor"
+   ],
+   "from": 900,
+   "to": 1470,
+   "seat": {
+    "name": "Chan Chan",
+    "lat": -8.106,
+    "lon": -79.075
+   },
+   "extent": [
+    [
+     -3.6,
+     -80.4
+    ],
+    [
+     -5.0,
+     -79.5
+    ],
+    [
+     -9.0,
+     -77.8
+    ],
+    [
+     -11.0,
+     -77.2
+    ],
+    [
+     -10.9,
+     -77.7
+    ],
+    [
+     -6.5,
+     -80.0
+    ],
+    [
+     -4.5,
+     -81.3
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Chimor",
+   "confidence": "high",
+   "note": "North coast kingdom from Tumbes to the Chillón valley at its peak under Minchancaman; conquered by Topa Inca c.1470."
+  },
+  {
+   "name": "Chincha Kingdom",
+   "aliases": [
+    "Chincha",
+    "Señorío de Chincha"
+   ],
+   "from": 1000,
+   "to": 1476,
+   "seat": {
+    "name": "La Centinela",
+    "lat": -13.45,
+    "lon": -76.17
+   },
+   "extent": [
+    [
+     -13.0,
+     -76.4
+    ],
+    [
+     -13.0,
+     -75.9
+    ],
+    [
+     -13.8,
+     -75.8
+    ],
+    [
+     -13.75,
+     -76.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1476,
+     "to": 1533,
+     "name": "Inca Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Chincha_culture",
+   "confidence": "moderate",
+   "note": "Maritime trading lordship; joined the Inca peacefully c.1476 and kept a privileged lord (the Lord of Chincha at Cajamarca 1532)."
+  },
+  {
+   "name": "Chanka Confederation",
+   "aliases": [
+    "Chanka",
+    "Chanca"
+   ],
+   "from": 1100,
+   "to": 1438,
+   "seat": {
+    "name": "Andahuaylas",
+    "lat": -13.66,
+    "lon": -73.38
+   },
+   "extent": [
+    [
+     -12.9,
+     -74.3
+    ],
+    [
+     -13.4,
+     -73.0
+    ],
+    [
+     -14.2,
+     -73.1
+    ],
+    [
+     -14.0,
+     -74.3
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Chanka",
+   "confidence": "moderate",
+   "note": "Rivals of Cusco whose attack (c.1438) was repelled by Pachacuti, launching Inca expansion."
+  },
+  {
+   "name": "Ychsma",
+   "aliases": [
+    "Pachacamac lordship",
+    "Ichma"
+   ],
+   "from": 1100,
+   "to": 1470,
+   "seat": {
+    "name": "Pachacamac",
+    "lat": -12.26,
+    "lon": -76.9
+   },
+   "extent": [
+    [
+     -11.85,
+     -77.2
+    ],
+    [
+     -11.9,
+     -76.8
+    ],
+    [
+     -12.4,
+     -76.7
+    ],
+    [
+     -12.3,
+     -77.0
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Ychsma",
+   "confidence": "moderate",
+   "note": "Lordship of the Rímac and Lurín valleys around the oracle of Pachacamac; absorbed by the Inca c.1470."
+  },
+  {
+   "name": "Cuismancu",
+   "aliases": [
+    "Cajamarca kingdom",
+    "Guzmango"
+   ],
+   "from": 1200,
+   "to": 1463,
+   "seat": {
+    "name": "Cajamarca",
+    "lat": -7.16,
+    "lon": -78.51
+   },
+   "reach_km": 70,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Cajamarca_culture",
+   "confidence": "low",
+   "note": "Northern highland kingdom allied with Chimor; conquered by Topa Inca c.1463."
+  },
+  {
+   "name": "Huanca Confederation",
+   "aliases": [
+    "Wanka",
+    "Xauxa"
+   ],
+   "from": 1200,
+   "to": 1460,
+   "seat": {
+    "name": "Hatun Xauxa",
+    "lat": -11.78,
+    "lon": -75.5
+   },
+   "extent": [
+    [
+     -11.4,
+     -75.7
+    ],
+    [
+     -11.4,
+     -75.1
+    ],
+    [
+     -12.2,
+     -75.0
+    ],
+    [
+     -12.3,
+     -75.4
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Huanca_people",
+   "confidence": "moderate",
+   "note": "Mantaro valley chiefdoms (Hatun Xauxa, Lurinhuanca, Ananhuanca); conquered c.1460, later Spanish allies."
+  },
+  {
+   "name": "Chachapoya",
+   "aliases": [
+    "Chachapoyas",
+    "Warriors of the Clouds"
+   ],
+   "from": 900,
+   "to": 1475,
+   "seat": {
+    "name": "Kuélap",
+    "lat": -6.42,
+    "lon": -77.92
+   },
+   "extent": [
+    [
+     -5.6,
+     -78.2
+    ],
+    [
+     -5.9,
+     -77.4
+    ],
+    [
+     -7.0,
+     -77.3
+    ],
+    [
+     -7.0,
+     -78.2
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Chachapoya_culture",
+   "confidence": "moderate",
+   "note": "Cloud-forest confederation subdued by Topa Inca c.1475; repeatedly rebelled, sided with Spain."
+  },
+  {
+   "name": "Colla Kingdom",
+   "aliases": [
+    "Qolla",
+    "Hatun Colla"
+   ],
+   "from": 1100,
+   "to": 1460,
+   "seat": {
+    "name": "Hatuncolla",
+    "lat": -15.62,
+    "lon": -70.1
+   },
+   "extent": [
+    [
+     -14.2,
+     -70.9
+    ],
+    [
+     -14.5,
+     -69.4
+    ],
+    [
+     -15.5,
+     -69.7
+    ],
+    [
+     -15.9,
+     -70.1
+    ],
+    [
+     -15.6,
+     -71.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Colla_Kingdom",
+   "confidence": "moderate",
+   "note": "Aymara kingdom NW of Lake Titicaca; defeated by Pachacuti c.1450-1460."
+  },
+  {
+   "name": "Lupaca Kingdom",
+   "aliases": [
+    "Lupaqa",
+    "Chucuito"
+   ],
+   "from": 1100,
+   "to": 1533,
+   "seat": {
+    "name": "Chucuito",
+    "lat": -15.89,
+    "lon": -69.89
+   },
+   "extent": [
+    [
+     -15.8,
+     -70.0
+    ],
+    [
+     -16.0,
+     -69.4
+    ],
+    [
+     -16.6,
+     -69.0
+    ],
+    [
+     -17.0,
+     -69.6
+    ],
+    [
+     -16.4,
+     -70.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1460,
+     "to": 1533,
+     "name": "Inca Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Lupaca",
+   "confidence": "moderate",
+   "note": "Aymara kingdom on the SW Titicaca shore with Pacific coast colonies; Inca vassal after c.1460, retained its lords."
+  },
+  {
+   "name": "Pacajes",
+   "aliases": [
+    "Pakasa"
+   ],
+   "from": 1100,
+   "to": 1533,
+   "seat": {
+    "name": "Caquiaviri",
+    "lat": -17.02,
+    "lon": -68.61
+   },
+   "extent": [
+    [
+     -16.4,
+     -68.8
+    ],
+    [
+     -16.5,
+     -68.0
+    ],
+    [
+     -17.5,
+     -67.8
+    ],
+    [
+     -17.6,
+     -68.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1460,
+     "to": 1533,
+     "name": "Inca Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Aymara_kingdoms",
+   "confidence": "low",
+   "note": "Aymara lordship south of Lake Titicaca; Inca vassal after c.1460."
+  },
+  {
+   "name": "Charcas Confederation",
+   "aliases": [
+    "Qaraqara-Charka",
+    "Charka",
+    "Qaraqara"
+   ],
+   "from": 1100,
+   "to": 1533,
+   "seat": {
+    "name": "Macha",
+    "lat": -18.82,
+    "lon": -66.03
+   },
+   "extent": [
+    [
+     -17.5,
+     -66.5
+    ],
+    [
+     -17.8,
+     -64.8
+    ],
+    [
+     -21.5,
+     -64.8
+    ],
+    [
+     -21.5,
+     -66.4
+    ],
+    [
+     -19.5,
+     -67.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1470,
+     "to": 1533,
+     "name": "Inca Empire"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Aymara_kingdoms",
+   "confidence": "moderate",
+   "note": "Aymara federation (Qaraqara, Charka, Chuy, Chicha) of north Potosí; Inca allies/vassals from the 1470s."
+  },
+  {
+   "name": "Cañari",
+   "aliases": [
+    "Cañaris",
+    "Tomebamba"
+   ],
+   "from": 1000,
+   "to": 1470,
+   "seat": {
+    "name": "Tomebamba / Guapondelig",
+    "lat": -2.9,
+    "lon": -79.0
+   },
+   "extent": [
+    [
+     -2.2,
+     -79.3
+    ],
+    [
+     -2.3,
+     -78.6
+    ],
+    [
+     -3.3,
+     -78.8
+    ],
+    [
+     -3.3,
+     -79.4
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Cañari",
+   "confidence": "moderate",
+   "note": "Highland Ecuador confederation conquered by Topa Inca c.1470; Tomebamba became an Inca capital; Cañari later allied with Spain."
+  },
+  {
+   "name": "Puruhá",
+   "aliases": [
+    "Puruhaes"
+   ],
+   "from": 1000,
+   "to": 1475,
+   "seat": {
+    "name": "Liribamba (Riobamba)",
+    "lat": -1.67,
+    "lon": -78.65
+   },
+   "reach_km": 50,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Pre-Columbian_Ecuador",
+   "confidence": "low",
+   "note": "Chiefdoms of Chimborazo province, annexed by the Inca."
+  },
+  {
+   "name": "Caranqui-Cayambe Confederation",
+   "aliases": [
+    "Caranqui",
+    "Cayambe",
+    "Quito",
+    "Kingdom of Quito",
+    "Quitu"
+   ],
+   "from": 1000,
+   "to": 1500,
+   "seat": {
+    "name": "Caranqui",
+    "lat": 0.33,
+    "lon": -78.11
+   },
+   "extent": [
+    [
+     0.85,
+     -78.4
+    ],
+    [
+     0.6,
+     -77.8
+    ],
+    [
+     -0.1,
+     -78.0
+    ],
+    [
+     -0.3,
+     -78.6
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Cara_people",
+   "confidence": "moderate",
+   "note": "Northern Ecuador chiefdoms (Caranqui, Cayambe, Otavalo, Cochasquí, with the Quitu) that resisted Huayna Capac until the Yahuarcocha massacre c.1495-1500. The 'Kingdom of Quito' of Velasco is legendary."
+  },
+  {
+   "name": "Manteño-Huancavilca",
+   "aliases": [
+    "Manta",
+    "Salangome",
+    "Huancavilca",
+    "Puná"
+   ],
+   "from": 800,
+   "to": 1535,
+   "seat": {
+    "name": "Jocay (Manta)",
+    "lat": -0.95,
+    "lon": -80.72
+   },
+   "extent": [
+    [
+     0.0,
+     -80.1
+    ],
+    [
+     -0.5,
+     -79.9
+    ],
+    [
+     -2.3,
+     -79.7
+    ],
+    [
+     -2.9,
+     -80.1
+    ],
+    [
+     -2.7,
+     -80.4
+    ],
+    [
+     -1.0,
+     -80.9
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Manteño-Huancavilca_culture",
+   "confidence": "moderate",
+   "note": "Seafaring merchant league of coastal Ecuador with the island lordship of Puná; never fully conquered by the Inca."
+  },
+  {
+   "name": "Omaguaca",
+   "aliases": [
+    "Humahuaca",
+    "Omaguacas"
+   ],
+   "from": 1100,
+   "to": 1595,
+   "seat": {
+    "name": "Humahuaca",
+    "lat": -23.2,
+    "lon": -65.35
+   },
+   "extent": [
+    [
+     -22.6,
+     -65.7
+    ],
+    [
+     -22.6,
+     -65.1
+    ],
+    [
+     -23.9,
+     -65.2
+    ],
+    [
+     -23.9,
+     -65.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1480,
+     "to": 1533,
+     "name": "Inca Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Omaguaca",
+   "confidence": "moderate",
+   "note": "Quebrada de Humahuaca chiefdoms; Inca subjects c.1480-1533; resisted Spain under Viltipoco until 1594-1595."
+  },
+  {
+   "name": "Atacameño",
+   "aliases": [
+    "Lickanantay",
+    "Atacama"
+   ],
+   "from": 1000,
+   "to": 1557,
+   "seat": {
+    "name": "San Pedro de Atacama",
+    "lat": -22.91,
+    "lon": -68.2
+   },
+   "extent": [
+    [
+     -21.5,
+     -68.6
+    ],
+    [
+     -21.8,
+     -67.6
+    ],
+    [
+     -24.0,
+     -67.6
+    ],
+    [
+     -23.8,
+     -68.7
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1470,
+     "to": 1533,
+     "name": "Inca Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Atacameño",
+   "confidence": "low",
+   "note": "Oasis communities of the Atacama puna; Inca-ruled from c.1470, fortress of Quitor taken by Spain 1540, final submission 1557."
+  },
+  {
+   "name": "Diaguita-Calchaquí",
+   "aliases": [
+    "Calchaquí",
+    "Diaguita",
+    "Cacán"
+   ],
+   "from": 1000,
+   "to": 1667,
+   "seat": {
+    "name": "Tolombón",
+    "lat": -26.2,
+    "lon": -65.95
+   },
+   "extent": [
+    [
+     -24.6,
+     -66.4
+    ],
+    [
+     -25.0,
+     -65.8
+    ],
+    [
+     -27.0,
+     -65.9
+    ],
+    [
+     -28.6,
+     -67.0
+    ],
+    [
+     -27.0,
+     -67.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1480,
+     "to": 1533,
+     "name": "Inca Empire"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Calchaquí_Wars",
+   "confidence": "moderate",
+   "note": "Diaguita chiefdoms of the Calchaquí valleys; Inca vassals c.1480-1533; fought Spain in the Calchaquí Wars (1560-1563, 1630-1643, 1658-1667) before deportation."
+  },
+  {
+   "name": "Quilmes",
+   "aliases": [
+    "Kilmes",
+    "Pueblo de Quilmes"
+   ],
+   "from": 1000,
+   "to": 1667,
+   "seat": {
+    "name": "Quilmes",
+    "lat": -26.47,
+    "lon": -66.03
+   },
+   "reach_km": 20,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Quilmes_(tribe)",
+   "confidence": "moderate",
+   "note": "Fortified Diaguita town of c.5,000 people; last to fall in the third Calchaquí war; deported to Buenos Aires 1667."
+  },
+  {
+   "name": "Chilean Diaguita",
+   "aliases": [
+    "Diaguitas of Copiapó-Choapa"
+   ],
+   "from": 1000,
+   "to": 1550,
+   "seat": {
+    "name": "Coquimbo valley",
+    "lat": -29.95,
+    "lon": -71.0
+   },
+   "extent": [
+    [
+     -27.0,
+     -70.9
+    ],
+    [
+     -27.2,
+     -69.8
+    ],
+    [
+     -32.0,
+     -70.3
+    ],
+    [
+     -32.0,
+     -71.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1470,
+     "to": 1536,
+     "name": "Inca Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Diaguita",
+   "confidence": "low",
+   "note": "Valley chiefdoms of Copiapó, Huasco, Elqui, Limarí and Choapa under Inca rule c.1470-1536, then Spain."
+  },
+  {
+   "name": "Picunche",
+   "aliases": [
+    "Promaucae",
+    "Mapocho chiefdoms"
+   ],
+   "from": 1000,
+   "to": 1550,
+   "seat": {
+    "name": "Mapocho (Santiago)",
+    "lat": -33.44,
+    "lon": -70.65
+   },
+   "extent": [
+    [
+     -32.0,
+     -71.5
+    ],
+    [
+     -32.2,
+     -70.3
+    ],
+    [
+     -35.5,
+     -70.8
+    ],
+    [
+     -35.5,
+     -72.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1470,
+     "to": 1536,
+     "name": "Inca Empire"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Picunche",
+   "confidence": "low",
+   "note": "Northern Mapudungun-speakers of central Chile; Inca-ruled to the Maipo/Maule c.1470-1536; Michimalonco attacked Santiago 1541."
+  },
+  {
+   "name": "Huarpe",
+   "aliases": [
+    "Huarpes",
+    "Cuyo"
+   ],
+   "from": 1000,
+   "to": 1600,
+   "seat": {
+    "name": "Güentata (Mendoza)",
+    "lat": -32.89,
+    "lon": -68.84
+   },
+   "extent": [
+    [
+     -31.0,
+     -69.0
+    ],
+    [
+     -31.0,
+     -67.5
+    ],
+    [
+     -34.5,
+     -68.0
+    ],
+    [
+     -34.5,
+     -69.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Huarpe",
+   "confidence": "low",
+   "note": "Lagoon-farming people of Cuyo; Inca influence to c.1533; encomienda after the founding of Mendoza 1561 and San Juan 1562."
+  },
+  {
+   "name": "Comechingón",
+   "aliases": [
+    "Comechingones",
+    "Sanavirón"
+   ],
+   "from": 1000,
+   "to": 1600,
+   "seat": {
+    "name": "Sierras de Córdoba",
+    "lat": -31.4,
+    "lon": -64.6
+   },
+   "extent": [
+    [
+     -30.0,
+     -65.0
+    ],
+    [
+     -30.2,
+     -63.6
+    ],
+    [
+     -32.6,
+     -63.8
+    ],
+    [
+     -32.4,
+     -65.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Comechingones",
+   "confidence": "low",
+   "note": "Hill peoples of Córdoba (with the Sanavirón to the NE); subjected after the founding of Córdoba 1573."
+  },
+  {
+   "name": "Mapuche of Araucanía",
+   "aliases": [
+    "Araucanía",
+    "Wallmapu",
+    "Ngulumapu",
+    "Reche",
+    "Araucanians"
+   ],
+   "from": 1400,
+   "to": 1883,
+   "seat": {
+    "name": "Purén",
+    "lat": -38.03,
+    "lon": -73.07
+   },
+   "extent": [
+    [
+     -37.0,
+     -73.3
+    ],
+    [
+     -37.2,
+     -71.4
+    ],
+    [
+     -39.5,
+     -71.3
+    ],
+    [
+     -39.9,
+     -73.4
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1550,
+     "extent": [
+      [
+       -35.8,
+       -72.8
+      ],
+      [
+       -36.2,
+       -71.2
+      ],
+      [
+       -39.5,
+       -71.3
+      ],
+      [
+       -39.9,
+       -73.4
+      ]
+     ]
+    },
+    {
+     "from": 1550,
+     "to": 1598,
+     "extent": [
+      [
+       -37.0,
+       -73.3
+      ],
+      [
+       -37.4,
+       -72.0
+      ],
+      [
+       -38.5,
+       -71.5
+      ],
+      [
+       -38.6,
+       -73.5
+      ]
+     ]
+    },
+    {
+     "from": 1598,
+     "to": 1861,
+     "extent": [
+      [
+       -37.0,
+       -73.3
+      ],
+      [
+       -37.2,
+       -71.4
+      ],
+      [
+       -39.5,
+       -71.3
+      ],
+      [
+       -39.9,
+       -73.4
+      ]
+     ]
+    },
+    {
+     "from": 1861,
+     "to": 1883,
+     "extent": [
+      [
+       -38.0,
+       -73.3
+      ],
+      [
+       -38.0,
+       -71.4
+      ],
+      [
+       -39.5,
+       -71.3
+      ],
+      [
+       -39.6,
+       -73.3
+      ]
+     ]
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Occupation_of_Araucanía",
+   "confidence": "high",
+   "note": "Lof and ayllarewe alliances grouped into four butalmapus; destroyed the Spanish southern cities after Curalaba (1598); Biobío frontier recognised at the parlamentos of Quilín (1641) onward; independent until the Chilean Occupation of Araucanía 1861-1883 (Villarrica 1883). No permanent capital (Purén/Angol are emblematic). The Kingdom of Araucanía and Patagonia (1860-62) was a French adventurer's claim, not a governing polity."
+  },
+  {
+   "name": "Huilliche",
+   "aliases": [
+    "Futahuillimapu",
+    "Cuncos",
+    "Juntas de Osorno"
+   ],
+   "from": 1400,
+   "to": 1793,
+   "seat": {
+    "name": "Osorno plains (Rahue)",
+    "lat": -40.57,
+    "lon": -73.13
+   },
+   "extent": [
+    [
+     -39.9,
+     -73.6
+    ],
+    [
+     -39.9,
+     -72.0
+    ],
+    [
+     -41.6,
+     -72.4
+    ],
+    [
+     -41.6,
+     -73.9
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Huilliche_people",
+   "confidence": "moderate",
+   "note": "Southern Mapuche (with the Cunco) who destroyed Osorno 1600 and stayed independent between Valdivia (refounded 1645) and Chiloé; ceded land by the Parliament of Las Canoas 1793, Osorno refounded 1796."
+  },
+  {
+   "name": "Pehuenche",
+   "aliases": [
+    "Pehuenches"
+   ],
+   "from": 1400,
+   "to": 1883,
+   "seat": {
+    "name": "Upper Biobío",
+    "lat": -37.8,
+    "lon": -71.0
+   },
+   "extent": [
+    [
+     -36.0,
+     -71.0
+    ],
+    [
+     -35.8,
+     -69.8
+    ],
+    [
+     -39.0,
+     -70.2
+    ],
+    [
+     -39.0,
+     -71.4
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Pehuenche",
+   "confidence": "moderate",
+   "note": "Araucaria-gathering mountain people on both sides of the Andes; Spanish allies from 1760s parlamentos; subdued 1880s."
+  },
+  {
+   "name": "Salinas Grandes Confederation",
+   "aliases": [
+    "Calfucurá's confederation",
+    "Salineros",
+    "Confederación de Salinas Grandes"
+   ],
+   "from": 1835,
+   "to": 1884,
+   "seat": {
+    "name": "Chilihué (Salinas Grandes)",
+    "lat": -37.25,
+    "lon": -63.3
+   },
+   "extent": [
+    [
+     -35.8,
+     -64.8
+    ],
+    [
+     -35.6,
+     -62.3
+    ],
+    [
+     -37.6,
+     -61.5
+    ],
+    [
+     -39.2,
+     -62.8
+    ],
+    [
+     -38.9,
+     -65.0
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Calfucurá",
+   "confidence": "moderate",
+   "note": "Mapuche-led Pampas confederation founded by Calfucurá after the Masallé massacre (1834); controlled the salt-and-cattle trade, raided Bahía Blanca (1859) and received Argentine rations; under Namuncurá from 1873; broken by the Conquest of the Desert 1879, Namuncurá surrendered 1884."
+  },
+  {
+   "name": "Ranquel Ulmanate",
+   "aliases": [
+    "Ranqueles",
+    "Rankülche",
+    "Mamuel Mapu",
+    "Leubucó"
+   ],
+   "from": 1770,
+   "to": 1879,
+   "seat": {
+    "name": "Leubucó",
+    "lat": -36.05,
+    "lon": -65.25
+   },
+   "extent": [
+    [
+     -34.4,
+     -66.5
+    ],
+    [
+     -34.3,
+     -64.0
+    ],
+    [
+     -35.4,
+     -62.8
+    ],
+    [
+     -36.9,
+     -63.4
+    ],
+    [
+     -37.2,
+     -65.8
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Ranquel_Ulmanate",
+   "confidence": "moderate",
+   "note": "Ranquel confederation of the Mamuel Mapu (caldén forest) between the Desaguadero-Salado and western Buenos Aires province, north to the Quinto river; leaders Yanquetruz, Painé, Mariano Rosas (Panguitruz Güer), Baigorrita; conquered 1879."
+  },
+  {
+   "name": "Boroganos",
+   "aliases": [
+    "Voroganos",
+    "Boroa Mapuche of the Pampas"
+   ],
+   "from": 1818,
+   "to": 1834,
+   "seat": {
+    "name": "Masallé",
+    "lat": -37.3,
+    "lon": -63.2
+   },
+   "reach_km": 120,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Boroano_people",
+   "confidence": "low",
+   "note": "Mapuche migrants from Boroa who settled at Salinas Grandes; destroyed by Calfucurá at Masallé 1834."
+  },
+  {
+   "name": "Manzaneros",
+   "aliases": [
+    "País de las Manzanas",
+    "Gobernación indígena de las Manzanas",
+    "Sayhueque"
+   ],
+   "from": 1840,
+   "to": 1885,
+   "seat": {
+    "name": "Caleufú",
+    "lat": -40.45,
+    "lon": -70.85
+   },
+   "extent": [
+    [
+     -39.2,
+     -71.6
+    ],
+    [
+     -39.6,
+     -69.8
+    ],
+    [
+     -41.5,
+     -69.5
+    ],
+    [
+     -41.8,
+     -71.6
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Valentín_Sayhueque",
+   "confidence": "moderate",
+   "note": "Mapuche-Tehuelche lordship of the Neuquén-Limay apple country led by Valentín Sayhueque, who styled it a government; surrendered 1885."
+  },
+  {
+   "name": "Querandí",
+   "aliases": [
+    "Querandíes"
+   ],
+   "from": 1400,
+   "to": 1585,
+   "seat": {
+    "name": "Paraná delta plains",
+    "lat": -34.6,
+    "lon": -58.7
+   },
+   "extent": [
+    [
+     -33.8,
+     -60.0
+    ],
+    [
+     -34.0,
+     -58.4
+    ],
+    [
+     -35.6,
+     -57.3
+    ],
+    [
+     -36.2,
+     -59.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Querandí",
+   "confidence": "moderate",
+   "note": "Pampas hunters who besieged first Buenos Aires (1536-1541); dispersed after the second founding 1580."
+  },
+  {
+   "name": "Pampas Tehuelche",
+   "aliases": [
+    "Puelche",
+    "Gününa küna",
+    "Tehuelches septentrionales"
+   ],
+   "from": 1400,
+   "to": 1880,
+   "seat": {
+    "name": "Sierra de la Ventana",
+    "lat": -38.1,
+    "lon": -62.0
+   },
+   "extent": [
+    [
+     -35.6,
+     -61.0
+    ],
+    [
+     -36.4,
+     -57.5
+    ],
+    [
+     -38.8,
+     -59.0
+    ],
+    [
+     -41.0,
+     -63.0
+    ],
+    [
+     -40.5,
+     -68.0
+    ],
+    [
+     -37.5,
+     -66.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Puelche_people",
+   "confidence": "low",
+   "note": "Hunting bands of the southern Pampas and northern Patagonia (Río Negro), progressively Mapuchised after 1700; defeated 1879-1880."
+  },
+  {
+   "name": "Aónikenk",
+   "aliases": [
+    "Southern Tehuelche",
+    "Patagones",
+    "Tehuelche"
+   ],
+   "from": 1400,
+   "to": 1885,
+   "seat": {
+    "name": "Senguerr-Chico country",
+    "lat": -46.0,
+    "lon": -69.5
+   },
+   "extent": [
+    [
+     -41.5,
+     -71.5
+    ],
+    [
+     -41.5,
+     -65.0
+    ],
+    [
+     -46.0,
+     -67.2
+    ],
+    [
+     -50.0,
+     -68.5
+    ],
+    [
+     -52.2,
+     -69.5
+    ],
+    [
+     -51.0,
+     -72.5
+    ],
+    [
+     -46.0,
+     -71.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Tehuelche_people",
+   "confidence": "moderate",
+   "note": "Horse-riding hunting nation of Patagonia between the Chubut and the Strait of Magellan; caciques such as Casimiro Biguá dealt with Chile and Argentina; overrun by Argentine campaigns 1883-1885."
+  },
+  {
+   "name": "Selkʼnam",
+   "aliases": [
+    "Ona",
+    "Shelknam"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Northern Isla Grande",
+    "lat": -53.8,
+    "lon": -68.5
+   },
+   "extent": [
+    [
+     -52.6,
+     -69.4
+    ],
+    [
+     -52.7,
+     -68.3
+    ],
+    [
+     -54.0,
+     -66.8
+    ],
+    [
+     -54.6,
+     -67.5
+    ],
+    [
+     -54.4,
+     -69.8
+    ],
+    [
+     -53.5,
+     -70.4
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Selkʼnam_people",
+   "confidence": "moderate",
+   "note": "Hunter nation of Isla Grande de Tierra del Fuego organised in haruwen territories; destroyed by ranchers and gold-seekers 1880s-1900s."
+  },
+  {
+   "name": "Yaghan",
+   "aliases": [
+    "Yámana"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Beagle Channel",
+    "lat": -54.9,
+    "lon": -68.2
+   },
+   "extent": [
+    [
+     -54.7,
+     -70.5
+    ],
+    [
+     -54.8,
+     -66.9
+    ],
+    [
+     -55.4,
+     -66.8
+    ],
+    [
+     -55.9,
+     -67.6
+    ],
+    [
+     -55.3,
+     -70.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Yaghan_people",
+   "confidence": "moderate",
+   "note": "Canoe people of the Beagle Channel and Cape Horn islands."
+  },
+  {
+   "name": "Kawésqar",
+   "aliases": [
+    "Alacalufe",
+    "Halakwulup"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Western Strait of Magellan",
+    "lat": -52.0,
+    "lon": -74.0
+   },
+   "extent": [
+    [
+     -47.0,
+     -75.6
+    ],
+    [
+     -47.0,
+     -74.0
+    ],
+    [
+     -52.5,
+     -72.5
+    ],
+    [
+     -54.5,
+     -72.0
+    ],
+    [
+     -54.3,
+     -74.5
+    ],
+    [
+     -50.0,
+     -76.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kawésqar",
+   "confidence": "low",
+   "note": "Canoe nomads of the western Patagonian channels."
+  },
+  {
+   "name": "Chono",
+   "aliases": [
+    "Chonos"
+   ],
+   "from": 1400,
+   "to": 1780,
+   "seat": {
+    "name": "Chonos Archipelago",
+    "lat": -45.0,
+    "lon": -74.0
+   },
+   "extent": [
+    [
+     -43.5,
+     -74.5
+    ],
+    [
+     -43.5,
+     -73.0
+    ],
+    [
+     -47.0,
+     -74.0
+    ],
+    [
+     -47.0,
+     -75.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Chono",
+   "confidence": "low",
+   "note": "Canoe people between Chiloé and the Taitao peninsula; removed to Chiloé missions by the late 18th century."
+  },
+  {
+   "name": "Charrúa",
+   "aliases": [
+    "Charrúas",
+    "Minuán",
+    "Guenoa"
+   ],
+   "from": 1400,
+   "to": 1831,
+   "seat": {
+    "name": "Arapey-Queguay country",
+    "lat": -31.5,
+    "lon": -57.0
+   },
+   "extent": [
+    [
+     -30.2,
+     -57.8
+    ],
+    [
+     -30.8,
+     -55.0
+    ],
+    [
+     -33.5,
+     -53.6
+    ],
+    [
+     -34.8,
+     -56.0
+    ],
+    [
+     -33.8,
+     -58.4
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Charrúa",
+   "confidence": "high",
+   "note": "Horse nation of the Banda Oriental and Entre Ríos (with Minuán/Guenoa); resisted Spain and Portugal, allied with Artigas; massacred at Salsipuedes by the Uruguayan state 1831."
+  },
+  {
+   "name": "Chaná",
+   "aliases": [
+    "Chaná-Timbú",
+    "Timbú"
+   ],
+   "from": 1400,
+   "to": 1650,
+   "seat": {
+    "name": "Paraná islands",
+    "lat": -32.5,
+    "lon": -60.4
+   },
+   "reach_km": 80,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Chaná_people",
+   "confidence": "low",
+   "note": "Fishing peoples of the lower Paraná and Uruguay islands."
+  },
+  {
+   "name": "Guaraní chiefdoms",
+   "aliases": [
+    "Carió",
+    "Itatín",
+    "Guairá Guaraní",
+    "Tape",
+    "Avá"
+   ],
+   "from": 1400,
+   "to": 1610,
+   "seat": {
+    "name": "Lambaré (Asunción)",
+    "lat": -25.3,
+    "lon": -57.6
+   },
+   "extent": [
+    [
+     -22.0,
+     -57.8
+    ],
+    [
+     -22.5,
+     -53.5
+    ],
+    [
+     -25.0,
+     -52.0
+    ],
+    [
+     -29.5,
+     -53.5
+    ],
+    [
+     -28.5,
+     -56.0
+    ],
+    [
+     -27.3,
+     -58.4
+    ],
+    [
+     -25.0,
+     -58.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Guarani_people",
+   "confidence": "moderate",
+   "note": "Village federations (tekoha/guará) of the Paraguay, Paraná and Uruguay basins; Carió allied with Spain at Asunción 1537 under the encomienda; remaining groups gathered into Jesuit reductions from 1609."
+  },
+  {
+   "name": "Jesuit Reductions of the Guaraní",
+   "aliases": [
+    "Misiones",
+    "Thirty Peoples",
+    "Reducciones jesuíticas"
+   ],
+   "from": 1609,
+   "to": 1768,
+   "seat": {
+    "name": "Candelaria",
+    "lat": -27.45,
+    "lon": -55.75
+   },
+   "extent": [
+    [
+     -26.5,
+     -56.9
+    ],
+    [
+     -26.5,
+     -55.0
+    ],
+    [
+     -28.1,
+     -53.7
+    ],
+    [
+     -29.4,
+     -54.8
+    ],
+    [
+     -29.4,
+     -56.6
+    ],
+    [
+     -27.5,
+     -57.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1609,
+     "to": 1768,
+     "name": "Spanish Crown"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1609,
+     "to": 1631,
+     "seat": {
+      "name": "San Ignacio Guazú",
+      "lat": -26.89,
+      "lon": -57.03
+     },
+     "extent": [
+      [
+       -22.8,
+       -54.0
+      ],
+      [
+       -23.5,
+       -51.8
+      ],
+      [
+       -25.5,
+       -51.8
+      ],
+      [
+       -26.5,
+       -55.0
+      ],
+      [
+       -27.5,
+       -56.5
+      ],
+      [
+       -26.0,
+       -57.0
+      ]
+     ]
+    },
+    {
+     "from": 1631,
+     "to": 1768,
+     "seat": {
+      "name": "Candelaria",
+      "lat": -27.45,
+      "lon": -55.75
+     },
+     "extent": [
+      [
+       -26.5,
+       -56.9
+      ],
+      [
+       -26.5,
+       -55.0
+      ],
+      [
+       -28.1,
+       -53.7
+      ],
+      [
+       -29.4,
+       -54.8
+      ],
+      [
+       -29.4,
+       -56.6
+      ],
+      [
+       -27.5,
+       -57.6
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Jesuit_reductions",
+   "confidence": "high",
+   "note": "Self-governing Guaraní mission towns under Jesuit administration and their own militia; Guairá and Itatín missions abandoned after bandeirante raids (1628-1631) and concentrated on the Paraná-Uruguay; seven eastern towns ceded to Portugal 1750 (Guaraní War 1754-56); Jesuits expelled 1767-68."
+  },
+  {
+   "name": "Chiquitos Missions",
+   "aliases": [
+    "Misiones de Chiquitos",
+    "Chiquitano"
+   ],
+   "from": 1691,
+   "to": 1767,
+   "seat": {
+    "name": "San José de Chiquitos",
+    "lat": -17.85,
+    "lon": -60.78
+   },
+   "extent": [
+    [
+     -15.8,
+     -62.8
+    ],
+    [
+     -15.8,
+     -59.8
+    ],
+    [
+     -18.8,
+     -58.2
+    ],
+    [
+     -19.0,
+     -60.5
+    ],
+    [
+     -17.8,
+     -62.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1691,
+     "to": 1767,
+     "name": "Spanish Crown"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Jesuit_Missions_of_Chiquitos",
+   "confidence": "high",
+   "note": "Ten Jesuit mission towns of the Chiquitano lowlands, autonomous under the Audiencia of Charcas; before 1691 independent Chiquitano villages occupied the same area."
+  },
+  {
+   "name": "Mojeño chiefdoms",
+   "aliases": [
+    "Moxos",
+    "Mojos",
+    "Llanos de Moxos"
+   ],
+   "from": 1400,
+   "to": 1682,
+   "seat": {
+    "name": "Llanos de Moxos",
+    "lat": -14.8,
+    "lon": -64.9
+   },
+   "extent": [
+    [
+     -12.0,
+     -66.5
+    ],
+    [
+     -12.0,
+     -63.3
+    ],
+    [
+     -16.0,
+     -63.8
+    ],
+    [
+     -15.5,
+     -66.5
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Mojeños",
+   "confidence": "low",
+   "note": "Arawakan raised-field and mound-building chiefdoms (Mojo, Baure) of the Beni savannas; reorganised as missions from 1682."
+  },
+  {
+   "name": "Moxos Missions",
+   "aliases": [
+    "Misiones de Moxos",
+    "Mojos missions"
+   ],
+   "from": 1682,
+   "to": 1767,
+   "seat": {
+    "name": "Loreto / Trinidad",
+    "lat": -14.83,
+    "lon": -64.9
+   },
+   "extent": [
+    [
+     -11.8,
+     -66.5
+    ],
+    [
+     -12.0,
+     -63.3
+    ],
+    [
+     -14.0,
+     -62.0
+    ],
+    [
+     -16.0,
+     -63.8
+    ],
+    [
+     -15.5,
+     -66.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1682,
+     "to": 1767,
+     "name": "Spanish Crown"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Jesuit_Missions_of_Moxos",
+   "confidence": "moderate",
+   "note": "Some 24 Jesuit mission towns of the Beni; Jesuits expelled 1767."
+  },
+  {
+   "name": "Maynas Missions",
+   "aliases": [
+    "Misiones de Maynas",
+    "Mainas"
+   ],
+   "from": 1638,
+   "to": 1768,
+   "seat": {
+    "name": "Santiago de la Laguna",
+    "lat": -5.2,
+    "lon": -75.6
+   },
+   "extent": [
+    [
+     -2.0,
+     -77.5
+    ],
+    [
+     -2.5,
+     -71.5
+    ],
+    [
+     -4.5,
+     -70.0
+    ],
+    [
+     -7.0,
+     -75.5
+    ],
+    [
+     -5.5,
+     -77.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1638,
+     "to": 1768,
+     "name": "Spanish Crown"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Mainas_missions",
+   "confidence": "moderate",
+   "note": "Jesuit mission province of the upper Amazon, Marañón, Huallaga and Napo among Mainas, Cocama, Omagua and others; contested with Portuguese Carmelites; Jesuits expelled 1768."
+  },
+  {
+   "name": "Chiriguano",
+   "aliases": [
+    "Ava Guaraní",
+    "Chiriguanos",
+    "Chiriguanaes"
+   ],
+   "from": 1400,
+   "to": 1892,
+   "seat": {
+    "name": "Cordillera chiriguana",
+    "lat": -19.8,
+    "lon": -63.5
+   },
+   "extent": [
+    [
+     -18.0,
+     -64.0
+    ],
+    [
+     -18.5,
+     -62.7
+    ],
+    [
+     -22.0,
+     -63.0
+    ],
+    [
+     -22.0,
+     -64.2
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Ava_Guarani_people",
+   "confidence": "moderate",
+   "note": "Guaraní-speaking nation of the Andean piedmont that held off the Inca and Spain (defeated Viceroy Toledo 1574); Franciscan missions from the 1760s; independence ended at Kuruyuki 1892."
+  },
+  {
+   "name": "Qom",
+   "aliases": [
+    "Toba",
+    "Tobas",
+    "Qom-lik"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Central Chaco (Pilcomayo-Bermejo)",
+    "lat": -25.0,
+    "lon": -60.0
+   },
+   "extent": [
+    [
+     -22.5,
+     -62.0
+    ],
+    [
+     -23.2,
+     -58.8
+    ],
+    [
+     -26.8,
+     -59.0
+    ],
+    [
+     -27.0,
+     -61.0
+    ],
+    [
+     -24.0,
+     -62.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Qom_people",
+   "confidence": "moderate",
+   "note": "Horse-raiding Guaycuruan nation of the central Chaco between the Pilcomayo and Bermejo; independent until the Argentine Chaco campaigns of 1884 and 1911."
+  },
+  {
+   "name": "Wichí",
+   "aliases": [
+    "Mataco",
+    "Mataguayos"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Middle Bermejo",
+    "lat": -23.4,
+    "lon": -62.6
+   },
+   "extent": [
+    [
+     -21.8,
+     -64.0
+    ],
+    [
+     -22.0,
+     -62.0
+    ],
+    [
+     -24.5,
+     -61.5
+    ],
+    [
+     -24.8,
+     -63.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Wichí",
+   "confidence": "moderate",
+   "note": "Mataco-Mataguayan fishing and foraging bands of the western Chaco rivers; outside colonial rule."
+  },
+  {
+   "name": "Mocoví",
+   "aliases": [
+    "Mocobí",
+    "Moqoit"
+   ],
+   "from": 1400,
+   "to": 1884,
+   "seat": {
+    "name": "Southern Chaco",
+    "lat": -28.5,
+    "lon": -60.5
+   },
+   "extent": [
+    [
+     -26.8,
+     -61.5
+    ],
+    [
+     -27.0,
+     -59.5
+    ],
+    [
+     -30.0,
+     -59.8
+    ],
+    [
+     -30.0,
+     -61.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Mocoví",
+   "confidence": "moderate",
+   "note": "Guaycuruan horse nation raiding Santa Fe and Santiago del Estero; Jesuit reduction of San Javier 1743; last revolt 1904."
+  },
+  {
+   "name": "Abipón",
+   "aliases": [
+    "Abipones"
+   ],
+   "from": 1400,
+   "to": 1800,
+   "seat": {
+    "name": "Lower Bermejo",
+    "lat": -27.2,
+    "lon": -59.7
+   },
+   "extent": [
+    [
+     -25.8,
+     -60.8
+    ],
+    [
+     -26.0,
+     -58.8
+    ],
+    [
+     -28.5,
+     -59.0
+    ],
+    [
+     -28.5,
+     -60.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Abipón_people",
+   "confidence": "moderate",
+   "note": "Guaycuruan horse people described by Dobrizhoffer; missions San Jerónimo 1748 and others; dispersed by c.1800."
+  },
+  {
+   "name": "Mbayá-Guaicurú",
+   "aliases": [
+    "Mbayá",
+    "Guaicurú",
+    "Kadiwéu",
+    "Eyiguayegi"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Upper Paraguay (Fecho dos Morros)",
+    "lat": -21.0,
+    "lon": -57.7
+   },
+   "extent": [
+    [
+     -19.0,
+     -58.5
+    ],
+    [
+     -19.0,
+     -56.5
+    ],
+    [
+     -22.5,
+     -56.5
+    ],
+    [
+     -23.5,
+     -57.8
+    ],
+    [
+     -21.0,
+     -58.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Mbayá",
+   "confidence": "moderate",
+   "note": "Equestrian Guaycuruan nobility ruling Guaná (Chané) serfs on both banks of the upper Paraguay; peace treaty with Portugal 1791; descendants Kadiwéu."
+  },
+  {
+   "name": "Payaguá",
+   "aliases": [
+    "Payaguás",
+    "Evueví"
+   ],
+   "from": 1400,
+   "to": 1790,
+   "seat": {
+    "name": "Paraguay river",
+    "lat": -24.0,
+    "lon": -57.4
+   },
+   "extent": [
+    [
+     -19.0,
+     -57.9
+    ],
+    [
+     -19.0,
+     -57.4
+    ],
+    [
+     -25.5,
+     -57.4
+    ],
+    [
+     -25.5,
+     -57.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Payaguá",
+   "confidence": "moderate",
+   "note": "Canoe-warrior nation controlling the Paraguay river; attacked Portuguese monsoon convoys 1720s-1730s; settled at Asunción from 1740."
+  },
+  {
+   "name": "Nivaclé and Chorote",
+   "aliases": [
+    "Chulupí",
+    "Nivaclé",
+    "Manjui"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Middle Pilcomayo",
+    "lat": -22.5,
+    "lon": -61.5
+   },
+   "extent": [
+    [
+     -21.3,
+     -62.6
+    ],
+    [
+     -21.5,
+     -60.8
+    ],
+    [
+     -23.0,
+     -60.4
+    ],
+    [
+     -23.0,
+     -62.4
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Nivaclé",
+   "confidence": "low",
+   "note": "Mataco-Mataguayan peoples of the middle Pilcomayo, unconquered through 1900."
+  },
+  {
+   "name": "Ayoreo",
+   "aliases": [
+    "Moro",
+    "Zamuco"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Northern Chaco",
+    "lat": -20.0,
+    "lon": -60.5
+   },
+   "extent": [
+    [
+     -18.8,
+     -62.0
+    ],
+    [
+     -18.8,
+     -59.0
+    ],
+    [
+     -21.0,
+     -59.0
+    ],
+    [
+     -21.0,
+     -61.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Ayoreo",
+   "confidence": "low",
+   "note": "Zamucoan forest people of the northern Chaco, briefly in Chiquitos missions (1720s) but otherwise uncontacted until the 20th century."
+  },
+  {
+   "name": "Kaingang",
+   "aliases": [
+    "Coroado",
+    "Kaingáng"
+   ],
+   "from": 1400,
+   "to": 1880,
+   "seat": {
+    "name": "Guarapuava plains",
+    "lat": -25.4,
+    "lon": -51.46
+   },
+   "extent": [
+    [
+     -23.0,
+     -52.5
+    ],
+    [
+     -23.5,
+     -49.5
+    ],
+    [
+     -27.5,
+     -50.5
+    ],
+    [
+     -29.0,
+     -52.0
+    ],
+    [
+     -27.0,
+     -53.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kaingang",
+   "confidence": "moderate",
+   "note": "Jê people of the southern Brazilian plateau; resisted Portuguese expansion (Guarapuava 1810, Palmas 1840s) until settled in aldeamentos."
+  },
+  {
+   "name": "Xokleng",
+   "aliases": [
+    "Laklãnõ",
+    "Botocudos of Santa Catarina"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Itajaí highlands",
+    "lat": -26.9,
+    "lon": -49.7
+   },
+   "extent": [
+    [
+     -26.0,
+     -50.3
+    ],
+    [
+     -26.0,
+     -49.0
+    ],
+    [
+     -28.0,
+     -49.3
+    ],
+    [
+     -28.0,
+     -50.3
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Xokleng",
+   "confidence": "low",
+   "note": "Jê forest people of the Santa Catarina escarpment, attacked by bugreiros in the late 19th century."
+  },
+  {
+   "name": "Carijó",
+   "aliases": [
+    "Carijós",
+    "Coastal Guaraní of Santa Catarina"
+   ],
+   "from": 1400,
+   "to": 1640,
+   "seat": {
+    "name": "Ilha de Santa Catarina",
+    "lat": -27.6,
+    "lon": -48.55
+   },
+   "extent": [
+    [
+     -25.3,
+     -48.3
+    ],
+    [
+     -28.6,
+     -48.7
+    ],
+    [
+     -31.0,
+     -50.8
+    ],
+    [
+     -30.0,
+     -51.5
+    ],
+    [
+     -27.0,
+     -49.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Carijó",
+   "confidence": "low",
+   "note": "Guaraní coastal people from Cananéia to the Lagoa dos Patos; depopulated by São Paulo slave raids by the 1640s."
+  },
+  {
+   "name": "Tamoio Confederation",
+   "aliases": [
+    "Confederação dos Tamoios",
+    "Tupinambá of Rio de Janeiro"
+   ],
+   "from": 1554,
+   "to": 1567,
+   "seat": {
+    "name": "Iperoig (Ubatuba)",
+    "lat": -23.43,
+    "lon": -45.07
+   },
+   "extent": [
+    [
+     -22.6,
+     -44.9
+    ],
+    [
+     -22.7,
+     -42.0
+    ],
+    [
+     -23.0,
+     -42.0
+    ],
+    [
+     -23.6,
+     -45.1
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/War_of_the_Tamoio_Confederation",
+   "confidence": "high",
+   "note": "Tupinambá alliance from Cabo Frio to Bertioga led by Cunhambebe and Aimberê, allied with France Antarctique; truce of Iperoig 1563; defeated with the fall of Uruçumirim 1567."
+  },
+  {
+   "name": "Tupinambá of Rio and Cabo Frio",
+   "aliases": [
+    "Tupinambá",
+    "Tamoio"
+   ],
+   "from": 1400,
+   "to": 1575,
+   "seat": {
+    "name": "Guanabara Bay",
+    "lat": -22.85,
+    "lon": -43.2
+   },
+   "extent": [
+    [
+     -22.4,
+     -44.6
+    ],
+    [
+     -22.5,
+     -41.9
+    ],
+    [
+     -23.0,
+     -42.0
+    ],
+    [
+     -23.4,
+     -44.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Tamoios",
+   "confidence": "moderate",
+   "note": "Tupinambá villages of Guanabara and Cabo Frio before and after the Tamoio Confederation; Cabo Frio Tupinambá destroyed 1575."
+  },
+  {
+   "name": "Tupinambá of Bahia",
+   "aliases": [
+    "Tupinambá da Bahia"
+   ],
+   "from": 1400,
+   "to": 1565,
+   "seat": {
+    "name": "Recôncavo",
+    "lat": -12.9,
+    "lon": -38.6
+   },
+   "extent": [
+    [
+     -11.0,
+     -37.2
+    ],
+    [
+     -11.3,
+     -38.9
+    ],
+    [
+     -14.0,
+     -39.5
+    ],
+    [
+     -14.0,
+     -38.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Tupinambá_people",
+   "confidence": "moderate",
+   "note": "Tupinambá of the Bay of All Saints and Recôncavo; defeated by Governor Mem de Sá 1558-1560s."
+  },
+  {
+   "name": "Tupinambá of Maranhão",
+   "aliases": [
+    "Tupinambá of Maranhão and Pará",
+    "Upaon-Açu"
+   ],
+   "from": 1400,
+   "to": 1620,
+   "seat": {
+    "name": "Upaon-Açu (São Luís)",
+    "lat": -2.53,
+    "lon": -44.3
+   },
+   "extent": [
+    [
+     -0.6,
+     -48.0
+    ],
+    [
+     -1.4,
+     -45.0
+    ],
+    [
+     -2.0,
+     -43.5
+    ],
+    [
+     -3.0,
+     -44.0
+    ],
+    [
+     -2.0,
+     -48.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Tupinambá_people",
+   "confidence": "moderate",
+   "note": "Tupinambá migrants of Maranhão and eastern Pará; allied with France Équinoxiale 1612-1615; subdued after the Portuguese founding of Belém 1616 and the 1617-1619 revolts."
+  },
+  {
+   "name": "Tupiniquim",
+   "aliases": [
+    "Tupiniquins",
+    "Tupinikin"
+   ],
+   "from": 1400,
+   "to": 1570,
+   "seat": {
+    "name": "Porto Seguro",
+    "lat": -16.45,
+    "lon": -39.06
+   },
+   "extent": [
+    [
+     -14.5,
+     -39.0
+    ],
+    [
+     -15.0,
+     -39.8
+    ],
+    [
+     -20.0,
+     -40.6
+    ],
+    [
+     -20.0,
+     -40.2
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Tupiniquim",
+   "confidence": "moderate",
+   "note": "Tupi coast people of Porto Seguro-Espírito Santo (and separately São Vicente), early Portuguese allies; absorbed into Jesuit aldeias."
+  },
+  {
+   "name": "Caeté",
+   "aliases": [
+    "Caetés"
+   ],
+   "from": 1400,
+   "to": 1562,
+   "seat": {
+    "name": "Lower São Francisco",
+    "lat": -9.7,
+    "lon": -36.0
+   },
+   "extent": [
+    [
+     -7.9,
+     -34.9
+    ],
+    [
+     -8.3,
+     -35.8
+    ],
+    [
+     -10.4,
+     -36.8
+    ],
+    [
+     -10.6,
+     -36.4
+    ],
+    [
+     -9.0,
+     -35.1
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Caeté_people",
+   "confidence": "moderate",
+   "note": "Tupi people of southern Pernambuco and Alagoas who killed Bishop Sardinha 1556; declared enemies and enslaved 1562."
+  },
+  {
+   "name": "Potiguara",
+   "aliases": [
+    "Potiguaras",
+    "Pitiguara"
+   ],
+   "from": 1400,
+   "to": 1599,
+   "seat": {
+    "name": "Paraíba coast",
+    "lat": -6.8,
+    "lon": -35.1
+   },
+   "extent": [
+    [
+     -4.8,
+     -37.5
+    ],
+    [
+     -5.1,
+     -35.2
+    ],
+    [
+     -7.2,
+     -34.8
+    ],
+    [
+     -7.3,
+     -36.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Potiguara",
+   "confidence": "moderate",
+   "note": "Tupi nation of Paraíba and Rio Grande do Norte allied with French traders; peace with Portugal 1599; later split during the Dutch war (Poti/Camarão vs Pedro Poti)."
+  },
+  {
+   "name": "Tabajara",
+   "aliases": [
+    "Tobajara",
+    "Ibiapaba"
+   ],
+   "from": 1400,
+   "to": 1660,
+   "seat": {
+    "name": "Serra da Ibiapaba",
+    "lat": -3.9,
+    "lon": -40.9
+   },
+   "reach_km": 120,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Tabajara",
+   "confidence": "low",
+   "note": "Tupi people of the Ibiapaba range and Ceará; Jesuit mission of Ibiapaba 1656."
+  },
+  {
+   "name": "Tarairiú",
+   "aliases": [
+    "Janduí",
+    "Tapuia",
+    "Confederação dos Cariris"
+   ],
+   "from": 1400,
+   "to": 1713,
+   "seat": {
+    "name": "Açu valley",
+    "lat": -5.58,
+    "lon": -36.9
+   },
+   "extent": [
+    [
+     -4.8,
+     -38.5
+    ],
+    [
+     -5.0,
+     -36.0
+    ],
+    [
+     -7.0,
+     -36.0
+    ],
+    [
+     -7.0,
+     -38.5
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Confederation_of_the_Cariris",
+   "confidence": "low",
+   "note": "Non-Tupi (Tapuia) nations of the sertão under King Janduí, allies of Dutch Brazil (1630-1654); fought the Guerra dos Bárbaros 1683-1713."
+  },
+  {
+   "name": "Goitacá",
+   "aliases": [
+    "Waitaká",
+    "Goitacases"
+   ],
+   "from": 1400,
+   "to": 1630,
+   "seat": {
+    "name": "Campos dos Goytacazes",
+    "lat": -21.75,
+    "lon": -41.3
+   },
+   "reach_km": 70,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Goitacá",
+   "confidence": "low",
+   "note": "Feared non-Tupi people of the Paraíba do Sul delta; defeated the donatary of São Tomé (1546); dispersed by the 1630s."
+  },
+  {
+   "name": "Aimoré-Botocudo",
+   "aliases": [
+    "Aimoré",
+    "Botocudo",
+    "Borum",
+    "Krenak"
+   ],
+   "from": 1400,
+   "to": 1880,
+   "seat": {
+    "name": "Rio Doce",
+    "lat": -19.3,
+    "lon": -41.0
+   },
+   "extent": [
+    [
+     -14.5,
+     -40.5
+    ],
+    [
+     -15.0,
+     -39.3
+    ],
+    [
+     -21.0,
+     -41.0
+    ],
+    [
+     -20.0,
+     -43.0
+    ],
+    [
+     -17.0,
+     -43.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Botocudo",
+   "confidence": "moderate",
+   "note": "Macro-Jê forest nation of the Atlantic hinterland between Bahia and Minas; blocked the coast in the 16th century; target of the 1808 'just war'; subdued by the 1880s."
+  },
+  {
+   "name": "Kayapó",
+   "aliases": [
+    "Mebêngôkre",
+    "Southern Kayapó"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Xingu-Araguaia interfluve",
+    "lat": -8.0,
+    "lon": -51.5
+   },
+   "extent": [
+    [
+     -5.0,
+     -53.0
+    ],
+    [
+     -5.5,
+     -49.5
+    ],
+    [
+     -10.5,
+     -50.5
+    ],
+    [
+     -10.0,
+     -54.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kayapo_people",
+   "confidence": "moderate",
+   "note": "Northern Kayapó of the Xingu-Araguaia; Southern Kayapó of Goiás/Triângulo fought Portuguese miners in the 18th century and were nearly extinct by 1900."
+  },
+  {
+   "name": "Akwẽ (Xavante-Xerente)",
+   "aliases": [
+    "Xavante",
+    "Xerente",
+    "Akwẽ"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Middle Tocantins / Rio das Mortes",
+    "lat": -12.5,
+    "lon": -50.0
+   },
+   "extent": [
+    [
+     -9.5,
+     -48.8
+    ],
+    [
+     -9.5,
+     -47.5
+    ],
+    [
+     -14.0,
+     -50.5
+    ],
+    [
+     -15.0,
+     -52.5
+    ],
+    [
+     -12.5,
+     -52.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Xavante",
+   "confidence": "low",
+   "note": "Jê nations of Goiás and Tocantins; part settled in aldeias (Carretão) 1788, Xavante migrated west to the Rio das Mortes c.1820s-1860s and stayed independent."
+  },
+  {
+   "name": "Bororo",
+   "aliases": [
+    "Boe",
+    "Coroados of Mato Grosso"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "São Lourenço river",
+    "lat": -16.0,
+    "lon": -55.0
+   },
+   "extent": [
+    [
+     -14.5,
+     -57.0
+    ],
+    [
+     -14.5,
+     -53.5
+    ],
+    [
+     -18.0,
+     -53.0
+    ],
+    [
+     -18.0,
+     -57.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Bororo",
+   "confidence": "low",
+   "note": "Jê people of the Mato Grosso plateau; Western Bororo allied to Portuguese, Eastern Bororo fought settlers until 1880s."
+  },
+  {
+   "name": "Mundurukú",
+   "aliases": [
+    "Munduruku",
+    "Mundurucu"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Upper Tapajós",
+    "lat": -6.5,
+    "lon": -57.5
+   },
+   "extent": [
+    [
+     -4.0,
+     -58.5
+    ],
+    [
+     -4.0,
+     -56.0
+    ],
+    [
+     -9.0,
+     -56.5
+    ],
+    [
+     -9.0,
+     -58.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Munduruku",
+   "confidence": "moderate",
+   "note": "Warrior nation of the Tapajós that expanded in the 1770s; peace with Portugal 1795, then auxiliaries; largely autonomous through 1900."
+  },
+  {
+   "name": "Mura",
+   "aliases": [
+    "Muras"
+   ],
+   "from": 1400,
+   "to": 1786,
+   "seat": {
+    "name": "Lower Madeira",
+    "lat": -4.0,
+    "lon": -59.5
+   },
+   "extent": [
+    [
+     -3.0,
+     -61.0
+    ],
+    [
+     -3.0,
+     -58.5
+    ],
+    [
+     -6.0,
+     -60.0
+    ],
+    [
+     -5.5,
+     -62.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Mura_people",
+   "confidence": "low",
+   "note": "Riverine raiders of the Madeira and lower Purus who attacked Portuguese traffic until their peace of 1784-1786."
+  },
+  {
+   "name": "Omagua",
+   "aliases": [
+    "Omaguas",
+    "Aparia",
+    "Cambeba"
+   ],
+   "from": 1200,
+   "to": 1710,
+   "seat": {
+    "name": "Aparia / São Paulo de Olivença",
+    "lat": -3.4,
+    "lon": -68.9
+   },
+   "extent": [
+    [
+     -3.0,
+     -73.2
+    ],
+    [
+     -2.6,
+     -67.5
+    ],
+    [
+     -3.2,
+     -65.0
+    ],
+    [
+     -3.7,
+     -67.5
+    ],
+    [
+     -3.7,
+     -73.0
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Omagua_people",
+   "confidence": "moderate",
+   "note": "Tupi-Guaraní riverine chiefdoms along 700 km of the Amazon (Solimões) seen by Orellana 1542 and Ursúa 1560; reduced by Jesuit Samuel Fritz's missions and Portuguese slaving by c.1710."
+  },
+  {
+   "name": "Machiparo",
+   "aliases": [
+    "Machiparo province"
+   ],
+   "from": 1300,
+   "to": 1600,
+   "seat": {
+    "name": "Middle Solimões",
+    "lat": -3.6,
+    "lon": -64.8
+   },
+   "reach_km": 150,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Francisco_de_Orellana",
+   "confidence": "low",
+   "note": "Populous riverine chiefdom met by Orellana's expedition 1542 below the Omagua; vanished by the 17th century."
+  },
+  {
+   "name": "Tapajó",
+   "aliases": [
+    "Tapajós",
+    "Tupaiu",
+    "Santarém culture"
+   ],
+   "from": 1000,
+   "to": 1661,
+   "seat": {
+    "name": "Santarém (Tapajó aldeia)",
+    "lat": -2.42,
+    "lon": -54.71
+   },
+   "extent": [
+    [
+     -1.9,
+     -55.4
+    ],
+    [
+     -2.0,
+     -54.0
+    ],
+    [
+     -3.3,
+     -54.6
+    ],
+    [
+     -3.2,
+     -55.4
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Tapajó_people",
+   "confidence": "moderate",
+   "note": "Paramount chiefdom at the Tapajós-Amazon confluence (Santarém culture); Jesuit mission 1661, population wiped out by slaving and epidemics."
+  },
+  {
+   "name": "Manao",
+   "aliases": [
+    "Manaós",
+    "Ajuricaba"
+   ],
+   "from": 1400,
+   "to": 1730,
+   "seat": {
+    "name": "Middle Rio Negro",
+    "lat": -0.6,
+    "lon": -63.5
+   },
+   "extent": [
+    [
+     0.5,
+     -65.0
+    ],
+    [
+     0.3,
+     -62.5
+    ],
+    [
+     -1.8,
+     -61.5
+    ],
+    [
+     -1.5,
+     -64.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Ajuricaba_(chief)",
+   "confidence": "moderate",
+   "note": "Arawakan trading nation of the Rio Negro; under Ajuricaba allied with the Dutch and fought Portugal 1723-1728."
+  },
+  {
+   "name": "Nheengaíba",
+   "aliases": [
+    "Aruã",
+    "Marajó nations"
+   ],
+   "from": 1400,
+   "to": 1659,
+   "seat": {
+    "name": "Marajó island",
+    "lat": -1.0,
+    "lon": -49.5
+   },
+   "extent": [
+    [
+     -0.0,
+     -50.5
+    ],
+    [
+     0.1,
+     -49.0
+    ],
+    [
+     -1.2,
+     -48.5
+    ],
+    [
+     -1.8,
+     -49.5
+    ],
+    [
+     -1.3,
+     -50.8
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Marajó",
+   "confidence": "low",
+   "note": "Aruã and other 'Nheengaíba' nations of Marajó and the Amazon mouth who fought the Portuguese until the peace brokered by António Vieira 1659."
+  },
+  {
+   "name": "Shuar",
+   "aliases": [
+    "Jívaro",
+    "Xíbaro",
+    "Achuar",
+    "Awajún",
+    "Huambisa"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Upano valley",
+    "lat": -2.8,
+    "lon": -78.0
+   },
+   "extent": [
+    [
+     -1.5,
+     -78.3
+    ],
+    [
+     -2.0,
+     -77.0
+    ],
+    [
+     -4.5,
+     -77.3
+    ],
+    [
+     -5.2,
+     -78.2
+    ],
+    [
+     -4.0,
+     -78.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Shuar",
+   "confidence": "high",
+   "note": "Jivaroan nations who repelled the Inca and destroyed Spanish Logroño and Sevilla del Oro in the 1599 revolt; independent through 1900."
+  },
+  {
+   "name": "Asháninka",
+   "aliases": [
+    "Campa",
+    "Gran Pajonal",
+    "Juan Santos Atahualpa"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Gran Pajonal (Quisopango)",
+    "lat": -10.65,
+    "lon": -74.4
+   },
+   "extent": [
+    [
+     -10.2,
+     -75.4
+    ],
+    [
+     -10.0,
+     -74.0
+    ],
+    [
+     -12.0,
+     -73.4
+    ],
+    [
+     -12.0,
+     -74.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Asháninka",
+   "confidence": "moderate",
+   "note": "Arawakan nation of the central selva; Franciscan missions expelled by the Juan Santos Atahualpa rising 1742-1756, after which the Gran Pajonal stayed outside Spanish/Peruvian rule until the 1847 refounding of San Ramón and the Perené colony (1890s)."
+  },
+  {
+   "name": "Shipibo-Conibo",
+   "aliases": [
+    "Conibo",
+    "Shipibo",
+    "Setebo"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Middle Ucayali",
+    "lat": -8.4,
+    "lon": -74.6
+   },
+   "extent": [
+    [
+     -6.5,
+     -75.2
+    ],
+    [
+     -6.5,
+     -74.0
+    ],
+    [
+     -10.0,
+     -73.8
+    ],
+    [
+     -10.0,
+     -74.8
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Shipibo-Conibo_people",
+   "confidence": "low",
+   "note": "Panoan river nations of the Ucayali; killed missionaries in 1698 and 1766 revolts; autonomous through most of the period."
+  },
+  {
+   "name": "Palmares",
+   "aliases": [
+    "Quilombo dos Palmares",
+    "Angola Janga"
+   ],
+   "from": 1605,
+   "to": 1694,
+   "seat": {
+    "name": "Macaco (Serra da Barriga)",
+    "lat": -9.16,
+    "lon": -36.04
+   },
+   "extent": [
+    [
+     -8.6,
+     -36.6
+    ],
+    [
+     -8.8,
+     -35.6
+    ],
+    [
+     -9.6,
+     -35.9
+    ],
+    [
+     -9.5,
+     -36.7
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Palmares_(quilombo)",
+   "confidence": "high",
+   "note": "Maroon kingdom in the hills of Alagoas/Pernambuco under Ganga Zumba and Zumbi; resisted Dutch and Portuguese expeditions; capital Macaco fell 1694, Zumbi killed 1695."
+  },
+  {
+   "name": "Quilombo do Quariterê",
+   "aliases": [
+    "Quilombo do Piolho",
+    "Tereza de Benguela"
+   ],
+   "from": 1730,
+   "to": 1795,
+   "seat": {
+    "name": "Quariterê (Guaporé)",
+    "lat": -15.2,
+    "lon": -59.7
+   },
+   "reach_km": 40,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Tereza_de_Benguela",
+   "confidence": "low",
+   "note": "Maroon community near Vila Bela in Mato Grosso ruled by Queen Tereza de Benguela; destroyed 1770, re-formed and destroyed again 1795."
+  },
+  {
+   "name": "Quilombo do Campo Grande",
+   "aliases": [
+    "Quilombo do Ambrósio",
+    "Campo Grande quilombos"
+   ],
+   "from": 1726,
+   "to": 1759,
+   "seat": {
+    "name": "Quilombo do Ambrósio (Ibiá)",
+    "lat": -19.48,
+    "lon": -46.54
+   },
+   "extent": [
+    [
+     -19.0,
+     -47.0
+    ],
+    [
+     -19.0,
+     -45.6
+    ],
+    [
+     -20.6,
+     -45.6
+    ],
+    [
+     -20.6,
+     -47.0
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Quilombo",
+   "confidence": "low",
+   "note": "Large federation of maroon settlements in western Minas Gerais; destroyed by expeditions 1746 and 1759."
+  }
+ ],
+ "gaps": [
+  {
+   "area": "Colonial lands generally (New Spain, Guatemala, New Granada, Peru, Río de la Plata, Brazil, Caribbean colonies) and post-1810 republics",
+   "from": 1492,
+   "to": 1900,
+   "note": "Deliberately not listed: this file covers Native, maroon and mission polities only. Once a Native entry ends (to-year), its land passes to the colonial/republican state already in the base dataset."
+  },
+  {
+   "area": "Western Cuba (Pinar del Río, Guanahatabey)",
+   "from": 1400,
+   "to": 1515,
+   "note": "Foraging Guanahatabey bands with no known chiefdom; no polity."
+  },
+  {
+   "area": "Atacama desert core and high puna salt flats",
+   "from": 1400,
+   "to": 1900,
+   "note": "Effectively uninhabited between oases; only Atacameño oasis lordships."
+  },
+  {
+   "area": "Upper Rio Negro, Vaupés and Caquetá-Putumayo interfluves (Tukanoan and Arawakan groups)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Many small clan-based peoples (Tukano, Baniwa, Witoto); none mapped individually. Thin coverage."
+  },
+  {
+   "area": "Juruá-Purus and upper Madeira basins (Kashinawa, Apurinã, Paumari, Tupi-Kawahib)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Village-level peoples outside any state until the rubber boom (1870s-1900); not listed individually."
+  },
+  {
+   "area": "Upper Xingu and western Mato Grosso (Xinguano chiefdoms, Paresí, Nambikwara)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Xinguano regional chiefdoms (Kuikuro) and Paresí existed but lack datable territorial records; not listed."
+  },
+  {
+   "area": "Central Brazilian sertão of Bahia/Minas (Kiriri, Kamakã, Pataxó, Akroá)",
+   "from": 1400,
+   "to": 1800,
+   "note": "Tapuia peoples between the coast and the São Francisco; only Aimoré-Botocudo and Tarairiú are listed."
+  },
+  {
+   "area": "Orinoco llanos interior (Guahibo/Sikuani, Otomaco, Yaruro)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Mobile groups; only Achagua listed. Jesuit/Capuchin Orinoco missions (1680s-1767) not listed separately."
+  },
+  {
+   "area": "Interior Guiana forests south of the maroon belt (Trio, Wayana, Waiwai)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Small Carib-speaking groups without recorded polities."
+  },
+  {
+   "area": "Northern Mexican fringe 21-23N east of the Sierra Madre Occidental (Zacatecos)",
+   "from": 1400,
+   "to": 1600,
+   "note": "Zacateco bands not listed; partly covered by Guachichil and Caxcan."
+  }
+ ]
+}

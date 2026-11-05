@@ -1,0 +1,11130 @@
+{
+ "region": "East and Southern Africa, Horn interior, Madagascar and Comoros",
+ "polities": [
+  {
+   "name": "Ethiopian Empire",
+   "aliases": [
+    "Abyssinia",
+    "Solomonic Ethiopia",
+    "Mangista Ityopp'ya"
+   ],
+   "from": 1270,
+   "to": 1974,
+   "seat": {
+    "name": "Gondar",
+    "lat": 12.61,
+    "lon": 37.47
+   },
+   "extent": [
+    [
+     15.6,
+     38.9
+    ],
+    [
+     13.0,
+     39.9
+    ],
+    [
+     9.5,
+     40.0
+    ],
+    [
+     8.0,
+     38.5
+    ],
+    [
+     9.5,
+     35.5
+    ],
+    [
+     12.5,
+     36.4
+    ],
+    [
+     14.5,
+     37.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1529,
+     "seat": {
+      "name": "Debre Berhan (royal camps)",
+      "lat": 9.68,
+      "lon": 39.53
+     },
+     "extent": [
+      [
+       15.6,
+       38.9
+      ],
+      [
+       13.0,
+       39.9
+      ],
+      [
+       9.5,
+       40.0
+      ],
+      [
+       8.0,
+       38.5
+      ],
+      [
+       9.5,
+       35.5
+      ],
+      [
+       12.5,
+       36.4
+      ],
+      [
+       14.5,
+       37.0
+      ]
+     ]
+    },
+    {
+     "from": 1543,
+     "to": 1636,
+     "seat": {
+      "name": "royal camps (Lake Tana region)",
+      "lat": 12.2,
+      "lon": 37.7
+     },
+     "extent": [
+      [
+       15.3,
+       38.5
+      ],
+      [
+       14.0,
+       39.8
+      ],
+      [
+       11.8,
+       39.6
+      ],
+      [
+       10.2,
+       38.8
+      ],
+      [
+       10.0,
+       36.8
+      ],
+      [
+       12.4,
+       36.3
+      ],
+      [
+       14.2,
+       37.0
+      ]
+     ]
+    },
+    {
+     "from": 1636,
+     "to": 1855,
+     "seat": {
+      "name": "Gondar",
+      "lat": 12.61,
+      "lon": 37.47
+     },
+     "extent": [
+      [
+       15.0,
+       38.0
+      ],
+      [
+       14.3,
+       39.5
+      ],
+      [
+       12.0,
+       39.7
+      ],
+      [
+       10.5,
+       39.0
+      ],
+      [
+       10.0,
+       37.0
+      ],
+      [
+       11.0,
+       35.5
+      ],
+      [
+       13.0,
+       36.4
+      ]
+     ]
+    },
+    {
+     "from": 1855,
+     "to": 1886,
+     "seat": {
+      "name": "Debre Tabor / Mekelle",
+      "lat": 11.86,
+      "lon": 38.02
+     },
+     "extent": [
+      [
+       15.0,
+       38.0
+      ],
+      [
+       14.3,
+       39.5
+      ],
+      [
+       12.0,
+       39.9
+      ],
+      [
+       9.0,
+       40.0
+      ],
+      [
+       8.6,
+       38.5
+      ],
+      [
+       10.0,
+       36.8
+      ],
+      [
+       12.5,
+       36.3
+      ]
+     ]
+    },
+    {
+     "from": 1886,
+     "to": 1900,
+     "seat": {
+      "name": "Addis Ababa",
+      "lat": 9.03,
+      "lon": 38.74
+     },
+     "extent": [
+      [
+       14.6,
+       37.0
+      ],
+      [
+       12.5,
+       41.5
+      ],
+      [
+       9.6,
+       42.8
+      ],
+      [
+       6.5,
+       45.0
+      ],
+      [
+       4.0,
+       41.5
+      ],
+      [
+       4.5,
+       36.0
+      ],
+      [
+       8.5,
+       34.2
+      ],
+      [
+       12.0,
+       35.6
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Ethiopian_Empire",
+   "confidence": "high",
+   "note": "Highland Christian core. Itinerant royal camps before 1636; Gondar 1636-1855; Debre Tabor/Magdala/Mekelle under Tewodros/Yohannes; Addis Ababa from 1886. 1529-1543 largely overrun by Adal. 1769-1855 Zemene Mesafint: emperor nominal, regional lords (listed separately) ruled. Tributary margins (Hadiya, Bale, Dawaro, Ennarea) listed separately. Menelik's conquests 1880-1900 roughly doubled the area."
+  },
+  {
+   "name": "Adal Sultanate",
+   "aliases": [
+    "Adal",
+    "Bar Sa'ad ad-Din",
+    "Sultanate of Adel"
+   ],
+   "from": 1415,
+   "to": 1577,
+   "seat": {
+    "name": "Harar",
+    "lat": 9.31,
+    "lon": 42.12
+   },
+   "extent": [
+    [
+     11.4,
+     43.4
+    ],
+    [
+     10.4,
+     44.6
+    ],
+    [
+     9.0,
+     44.0
+    ],
+    [
+     8.6,
+     42.0
+    ],
+    [
+     9.0,
+     40.5
+    ],
+    [
+     10.5,
+     40.6
+    ],
+    [
+     11.6,
+     41.8
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1415,
+     "to": 1520,
+     "seat": {
+      "name": "Dakkar",
+      "lat": 9.35,
+      "lon": 42.35
+     }
+    },
+    {
+     "from": 1520,
+     "to": 1577,
+     "seat": {
+      "name": "Harar",
+      "lat": 9.31,
+      "lon": 42.12
+     }
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Adal_Sultanate",
+   "confidence": "high",
+   "note": "Walashma successor of Ifat. Seat Dakkar until 1520, then Harar. Under Imam Ahmad ibn Ibrahim (Gragn) 1529-1543 it occupied most of the Ethiopian highlands. Weakened by Oromo migrations; court moved to Aussa 1577 (see Imamate of Aussa)."
+  },
+  {
+   "name": "Ifat Sultanate",
+   "aliases": [
+    "Ifat",
+    "Awfat",
+    "Walashma"
+   ],
+   "from": 1285,
+   "to": 1415,
+   "seat": {
+    "name": "Walalah (Ifat)",
+    "lat": 9.65,
+    "lon": 39.95
+   },
+   "extent": [
+    [
+     10.5,
+     39.8
+    ],
+    [
+     10.2,
+     41.0
+    ],
+    [
+     9.2,
+     41.0
+    ],
+    [
+     8.8,
+     40.0
+    ],
+    [
+     9.6,
+     39.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1332,
+     "to": 1415,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Ifat",
+   "confidence": "moderate",
+   "note": "Tributary to Ethiopia from 1332; destroyed by Yeshaq I in 1415, heirs fled to found Adal."
+  },
+  {
+   "name": "Hadiya Sultanate",
+   "aliases": [
+    "Hadiya",
+    "Hadiyya"
+   ],
+   "from": 1200,
+   "to": 1570,
+   "seat": {
+    "name": "Hadiya (near Hosaena)",
+    "lat": 7.55,
+    "lon": 37.85
+   },
+   "extent": [
+    [
+     8.3,
+     37.5
+    ],
+    [
+     8.1,
+     38.5
+    ],
+    [
+     7.0,
+     38.5
+    ],
+    [
+     7.0,
+     37.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1332,
+     "to": 1529,
+     "name": "Ethiopian Empire"
+    },
+    {
+     "from": 1529,
+     "to": 1543,
+     "name": "Adal Sultanate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Hadiya_Sultanate",
+   "confidence": "low",
+   "note": "Muslim tributary state of the Ethiopian Empire south of the Awash; overrun in the Oromo migrations c.1560-1570."
+  },
+  {
+   "name": "Sultanate of Bale",
+   "aliases": [
+    "Bale"
+   ],
+   "from": 1200,
+   "to": 1560,
+   "seat": {
+    "name": "Bale",
+    "lat": 7.05,
+    "lon": 39.95
+   },
+   "extent": [
+    [
+     7.7,
+     39.4
+    ],
+    [
+     7.6,
+     41.0
+    ],
+    [
+     6.2,
+     41.0
+    ],
+    [
+     6.4,
+     39.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1332,
+     "to": 1529,
+     "name": "Ethiopian Empire"
+    },
+    {
+     "from": 1529,
+     "to": 1543,
+     "name": "Adal Sultanate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Bale",
+   "confidence": "low",
+   "note": "Muslim tributary of Ethiopia; occupied by Arsi Oromo c.1560."
+  },
+  {
+   "name": "Sultanate of Dawaro",
+   "aliases": [
+    "Dawaro"
+   ],
+   "from": 1200,
+   "to": 1560,
+   "seat": {
+    "name": "Sabboch (Dawaro)",
+    "lat": 8.3,
+    "lon": 40.3
+   },
+   "extent": [
+    [
+     8.9,
+     39.8
+    ],
+    [
+     8.8,
+     41.2
+    ],
+    [
+     7.8,
+     41.2
+    ],
+    [
+     7.9,
+     39.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1332,
+     "to": 1529,
+     "name": "Ethiopian Empire"
+    },
+    {
+     "from": 1529,
+     "to": 1543,
+     "name": "Adal Sultanate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Dawaro",
+   "confidence": "low",
+   "note": "Between Hararghe and Bale; Ethiopian tributary, absorbed by Oromo migrations."
+  },
+  {
+   "name": "Kingdom of Ennarea",
+   "aliases": [
+    "Enarya",
+    "Hinnario",
+    "Bosha"
+   ],
+   "from": 1300,
+   "to": 1710,
+   "seat": {
+    "name": "Ennarea (Gibe valley)",
+    "lat": 8.1,
+    "lon": 36.6
+   },
+   "extent": [
+    [
+     8.6,
+     35.8
+    ],
+    [
+     8.6,
+     37.0
+    ],
+    [
+     7.6,
+     37.1
+    ],
+    [
+     7.5,
+     35.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1710,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Ennarea",
+   "confidence": "moderate",
+   "note": "Gonga kingdom, gold trade; Ethiopian tributary. Overrun by Macha Oromo c.1700-1710; successor Oromo state Limmu-Ennarea."
+  },
+  {
+   "name": "Kingdom of Kaffa",
+   "aliases": [
+    "Kafa",
+    "Kaffa"
+   ],
+   "from": 1390,
+   "to": 1897,
+   "seat": {
+    "name": "Andiracha",
+    "lat": 7.38,
+    "lon": 36.18
+   },
+   "extent": [
+    [
+     7.9,
+     35.6
+    ],
+    [
+     7.8,
+     36.6
+    ],
+    [
+     7.2,
+     36.9
+    ],
+    [
+     6.6,
+     36.4
+    ],
+    [
+     6.7,
+     35.5
+    ],
+    [
+     7.3,
+     35.2
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kaffa",
+   "confidence": "high",
+   "note": "Gonga highland kingdom; Bonga later main town. Conquered by Menelik II 1897."
+  },
+  {
+   "name": "Kingdom of Jimma",
+   "aliases": [
+    "Jimma Abba Jifar",
+    "Jimma-Kakka"
+   ],
+   "from": 1790,
+   "to": 1932,
+   "seat": {
+    "name": "Jiren",
+    "lat": 7.68,
+    "lon": 36.83
+   },
+   "extent": [
+    [
+     8.1,
+     36.4
+    ],
+    [
+     8.0,
+     37.3
+    ],
+    [
+     7.4,
+     37.3
+    ],
+    [
+     7.4,
+     36.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1884,
+     "to": 1932,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Jimma",
+   "confidence": "high",
+   "note": "Largest of the Gibe Oromo kingdoms; autonomous tributary of Ethiopia 1884-1932."
+  },
+  {
+   "name": "Kingdom of Limmu-Ennarea",
+   "aliases": [
+    "Limmu",
+    "Limmu-Ennarea"
+   ],
+   "from": 1801,
+   "to": 1891,
+   "seat": {
+    "name": "Saqqa",
+    "lat": 8.12,
+    "lon": 36.95
+   },
+   "extent": [
+    [
+     8.6,
+     36.3
+    ],
+    [
+     8.5,
+     37.3
+    ],
+    [
+     8.0,
+     37.3
+    ],
+    [
+     8.0,
+     36.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1882,
+     "to": 1891,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Limmu-Ennarea",
+   "confidence": "moderate",
+   "note": "Gibe Oromo kingdom (Abba Bagibo); tributary to Shewa/Ethiopia 1880s, annexed 1891."
+  },
+  {
+   "name": "Kingdom of Gera",
+   "aliases": [
+    "Gera"
+   ],
+   "from": 1835,
+   "to": 1887,
+   "seat": {
+    "name": "Chala",
+    "lat": 7.6,
+    "lon": 36.25
+   },
+   "extent": [
+    [
+     7.8,
+     35.9
+    ],
+    [
+     7.8,
+     36.5
+    ],
+    [
+     7.3,
+     36.5
+    ],
+    [
+     7.3,
+     35.9
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Gera",
+   "confidence": "moderate",
+   "note": "Gibe Oromo kingdom; annexed by Ethiopia 1887."
+  },
+  {
+   "name": "Kingdom of Gomma",
+   "aliases": [
+    "Gomma"
+   ],
+   "from": 1780,
+   "to": 1886,
+   "seat": {
+    "name": "Gomma (near Agaro)",
+    "lat": 7.85,
+    "lon": 36.58
+   },
+   "extent": [
+    [
+     8.0,
+     36.3
+    ],
+    [
+     8.05,
+     36.75
+    ],
+    [
+     7.75,
+     36.75
+    ],
+    [
+     7.7,
+     36.3
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Gomma",
+   "confidence": "moderate",
+   "note": "Gibe Oromo kingdom, early Islamized; annexed by Ethiopia 1886."
+  },
+  {
+   "name": "Kingdom of Guma",
+   "aliases": [
+    "Guma",
+    "Gumma"
+   ],
+   "from": 1770,
+   "to": 1885,
+   "seat": {
+    "name": "Guma",
+    "lat": 8.05,
+    "lon": 36.05
+   },
+   "extent": [
+    [
+     8.3,
+     35.8
+    ],
+    [
+     8.3,
+     36.3
+    ],
+    [
+     7.85,
+     36.3
+    ],
+    [
+     7.85,
+     35.8
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Guma",
+   "confidence": "moderate",
+   "note": "Gibe Oromo kingdom (Wikipedia: c.1770); conquered by Menelik II 1885; resistance under Firisa until 1901/02."
+  },
+  {
+   "name": "Kingdom of Welayta",
+   "aliases": [
+    "Wolaita",
+    "Wolaitta",
+    "Kingdom of Wolaita"
+   ],
+   "from": 1250,
+   "to": 1894,
+   "seat": {
+    "name": "Dalbo (near Sodo)",
+    "lat": 6.86,
+    "lon": 37.76
+   },
+   "extent": [
+    [
+     7.2,
+     37.4
+    ],
+    [
+     7.2,
+     38.0
+    ],
+    [
+     6.5,
+     38.0
+    ],
+    [
+     6.6,
+     37.4
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Wolaita",
+   "confidence": "moderate",
+   "note": "Omotic kingdom (Tigre dynasty from c.1700); conquered by Menelik 1894 (King Tona)."
+  },
+  {
+   "name": "Kingdom of Janjero",
+   "aliases": [
+    "Yem",
+    "Yamma",
+    "Janjero"
+   ],
+   "from": 1500,
+   "to": 1894,
+   "seat": {
+    "name": "Fofa",
+    "lat": 7.8,
+    "lon": 37.45
+   },
+   "extent": [
+    [
+     8.0,
+     37.3
+    ],
+    [
+     8.0,
+     37.8
+    ],
+    [
+     7.5,
+     37.8
+    ],
+    [
+     7.5,
+     37.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1880,
+     "to": 1894,
+     "name": "Kingdom of Jimma"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Yem_people",
+   "confidence": "low",
+   "note": "Small Omotic kingdom on the Omo/Gibe; tributary to Jimma, annexed by Ethiopia 1894."
+  },
+  {
+   "name": "Kingdom of Dawro",
+   "aliases": [
+    "Kullo",
+    "Dawuro",
+    "Konta"
+   ],
+   "from": 1500,
+   "to": 1891,
+   "seat": {
+    "name": "Tarcha",
+    "lat": 7.15,
+    "lon": 37.18
+   },
+   "extent": [
+    [
+     7.5,
+     36.9
+    ],
+    [
+     7.4,
+     37.5
+    ],
+    [
+     6.8,
+     37.5
+    ],
+    [
+     6.8,
+     36.9
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Dawro_Zone",
+   "confidence": "low",
+   "note": "Omotic kingdom of Kullo west of the Omo; famous stone walls (Halala Kella); conquered by Menelik 1891."
+  },
+  {
+   "name": "Kambaata kingdom",
+   "aliases": [
+    "Kembata",
+    "Kambaata"
+   ],
+   "from": 1550,
+   "to": 1893,
+   "seat": {
+    "name": "Hadero",
+    "lat": 7.3,
+    "lon": 37.9
+   },
+   "reach_km": 35,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kambaata_people",
+   "confidence": "low",
+   "note": "Small Cushitic monarchy on Mount Hambaricho; annexed by Ethiopia 1890s."
+  },
+  {
+   "name": "Sidama clans",
+   "aliases": [
+    "Sidamo",
+    "Sidaamaa"
+   ],
+   "from": 1500,
+   "to": 1893,
+   "seat": {
+    "name": "Hawassa area",
+    "lat": 6.95,
+    "lon": 38.45
+   },
+   "extent": [
+    [
+     7.1,
+     38.2
+    ],
+    [
+     7.0,
+     38.9
+    ],
+    [
+     6.4,
+     39.0
+    ],
+    [
+     6.1,
+     38.5
+    ],
+    [
+     6.6,
+     38.1
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Sidama_people",
+   "confidence": "low",
+   "note": "Clan-based Sidama polities with mote (chiefs) east of Lake Awasa; conquered by Menelik 1893."
+  },
+  {
+   "name": "Gurage (Sebat Bet)",
+   "aliases": [
+    "Gurage",
+    "Sebat Bet Gurage"
+   ],
+   "from": 1500,
+   "to": 1889,
+   "seat": {
+    "name": "Gurage highlands",
+    "lat": 8.15,
+    "lon": 38.1
+   },
+   "extent": [
+    [
+     8.5,
+     37.7
+    ],
+    [
+     8.4,
+     38.5
+    ],
+    [
+     7.9,
+     38.6
+    ],
+    [
+     7.9,
+     37.8
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Gurage_people",
+   "confidence": "low",
+   "note": "Loose confederation of seven Gurage houses; overrun by Shewa 1875-1889."
+  },
+  {
+   "name": "Medri Bahri",
+   "aliases": [
+    "Bahr Negash",
+    "Mereb Melash",
+    "Kingdom of the Sea"
+   ],
+   "from": 1137,
+   "to": 1879,
+   "seat": {
+    "name": "Debarwa",
+    "lat": 15.1,
+    "lon": 38.83
+   },
+   "extent": [
+    [
+     16.0,
+     38.4
+    ],
+    [
+     15.6,
+     39.3
+    ],
+    [
+     14.8,
+     39.5
+    ],
+    [
+     14.6,
+     38.6
+    ],
+    [
+     15.1,
+     37.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1557,
+     "name": "Ethiopian Empire"
+    },
+    {
+     "from": 1557,
+     "to": 1589,
+     "name": "Ottoman Empire (Habesh Eyalet)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Medri_Bahri",
+   "confidence": "moderate",
+   "note": "Eritrean highland realm under the Bahr Negash; Ethiopian vassal, at times Ottoman-allied; absorbed by Yohannes IV / Egypt-Italy struggles by 1879-1890."
+  },
+  {
+   "name": "Habesh Eyalet",
+   "aliases": [
+    "Ottoman Habesh",
+    "Massawa Naibate",
+    "Naib of Arkiko"
+   ],
+   "from": 1557,
+   "to": 1872,
+   "seat": {
+    "name": "Massawa",
+    "lat": 15.61,
+    "lon": 39.45
+   },
+   "extent": [
+    [
+     16.8,
+     38.3
+    ],
+    [
+     16.6,
+     38.9
+    ],
+    [
+     15.7,
+     39.7
+    ],
+    [
+     14.8,
+     40.9
+    ],
+    [
+     14.5,
+     40.6
+    ],
+    [
+     15.4,
+     39.3
+    ],
+    [
+     16.2,
+     38.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1557,
+     "to": 1865,
+     "name": "Ottoman Empire"
+    },
+    {
+     "from": 1865,
+     "to": 1885,
+     "name": "Khedivate of Egypt"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Habesh_Eyalet",
+   "confidence": "moderate",
+   "note": "Ottoman Red Sea littoral (Massawa, Arkiko, Suakin); in practice run by the Balaw Naibs of Arkiko; passed to Egypt 1865-1872, Italian Massawa 1885."
+  },
+  {
+   "name": "Kingdom of Shewa",
+   "aliases": [
+    "Shoa",
+    "Shewa"
+   ],
+   "from": 1682,
+   "to": 1889,
+   "seat": {
+    "name": "Ankober",
+    "lat": 9.58,
+    "lon": 39.73
+   },
+   "extent": [
+    [
+     10.4,
+     39.0
+    ],
+    [
+     10.2,
+     40.0
+    ],
+    [
+     9.3,
+     40.2
+    ],
+    [
+     8.6,
+     39.5
+    ],
+    [
+     8.8,
+     38.5
+    ],
+    [
+     9.8,
+     38.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1855,
+     "to": 1878,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1682,
+     "to": 1813,
+     "extent": [
+      [
+       10.3,
+       39.2
+      ],
+      [
+       10.1,
+       39.9
+      ],
+      [
+       9.4,
+       39.9
+      ],
+      [
+       9.3,
+       39.3
+      ]
+     ]
+    },
+    {
+     "from": 1813,
+     "to": 1870,
+     "extent": [
+      [
+       10.4,
+       39.0
+      ],
+      [
+       10.2,
+       40.0
+      ],
+      [
+       9.3,
+       40.2
+      ],
+      [
+       8.6,
+       39.5
+      ],
+      [
+       8.8,
+       38.5
+      ],
+      [
+       9.8,
+       38.3
+      ]
+     ]
+    },
+    {
+     "from": 1870,
+     "to": 1889,
+     "seat": {
+      "name": "Entoto",
+      "lat": 9.08,
+      "lon": 38.77
+     },
+     "extent": [
+      [
+       10.8,
+       38.5
+      ],
+      [
+       10.5,
+       40.2
+      ],
+      [
+       9.0,
+       41.0
+      ],
+      [
+       7.8,
+       39.5
+      ],
+      [
+       8.0,
+       37.5
+      ],
+      [
+       9.6,
+       37.3
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Shewa",
+   "confidence": "high",
+   "note": "Autonomous Amhara kingdom (Negasi Krestos to Menelik); seats Doqaqit, Ankober, Angolalla, Entoto. Expanded south from 1870s; merged into empire when Menelik became emperor 1889."
+  },
+  {
+   "name": "Yejju dynasty of Begemder",
+   "aliases": [
+    "Era of the Princes",
+    "Zemene Mesafint regency",
+    "Wara Sheh"
+   ],
+   "from": 1786,
+   "to": 1853,
+   "seat": {
+    "name": "Debre Tabor",
+    "lat": 11.86,
+    "lon": 38.02
+   },
+   "extent": [
+    [
+     13.0,
+     37.5
+    ],
+    [
+     12.6,
+     38.6
+    ],
+    [
+     11.5,
+     39.3
+    ],
+    [
+     11.0,
+     38.5
+    ],
+    [
+     11.6,
+     37.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1786,
+     "to": 1853,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Zemene_Mesafint",
+   "confidence": "moderate",
+   "note": "Yejju Oromo Ras-regents (Ali I, Gugsa, Ali II) dominating the emperor at Gondar from Debre Tabor; ended by Tewodros at Ayshal 1853."
+  },
+  {
+   "name": "Gojjam",
+   "aliases": [
+    "Kingdom of Gojjam"
+   ],
+   "from": 1700,
+   "to": 1932,
+   "seat": {
+    "name": "Debre Markos",
+    "lat": 10.33,
+    "lon": 37.72
+   },
+   "extent": [
+    [
+     11.6,
+     36.9
+    ],
+    [
+     11.2,
+     38.0
+    ],
+    [
+     10.0,
+     38.4
+    ],
+    [
+     10.0,
+     37.0
+    ],
+    [
+     10.9,
+     36.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1700,
+     "to": 1932,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Gojjam",
+   "confidence": "moderate",
+   "note": "Autonomous province/kingdom within the Ethiopian Empire (Ras/Negus Tekle Haymanot 1881). Draw on top of Ethiopia in 1769-1855 and 1881-1901."
+  },
+  {
+   "name": "Tigray (principality)",
+   "aliases": [
+    "Tigre",
+    "Tigray"
+   ],
+   "from": 1700,
+   "to": 1889,
+   "seat": {
+    "name": "Adwa",
+    "lat": 14.16,
+    "lon": 38.9
+   },
+   "extent": [
+    [
+     14.8,
+     37.8
+    ],
+    [
+     14.6,
+     39.7
+    ],
+    [
+     13.0,
+     39.9
+    ],
+    [
+     12.7,
+     39.3
+    ],
+    [
+     13.4,
+     38.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1700,
+     "to": 1889,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Tigray_Province",
+   "confidence": "moderate",
+   "note": "Autonomous northern province under Ras Mikael Sehul, Wolde Selassie, Sabagadis, Wube; seat Adwa, Antalo; Yohannes IV ruled from Mekelle 1872-1889."
+  },
+  {
+   "name": "Wollo (Wara Himano)",
+   "aliases": [
+    "Wollo",
+    "Wara Himano",
+    "Mammadoch"
+   ],
+   "from": 1700,
+   "to": 1876,
+   "seat": {
+    "name": "Wollo (near Dessie)",
+    "lat": 11.13,
+    "lon": 39.63
+   },
+   "extent": [
+    [
+     12.0,
+     38.8
+    ],
+    [
+     12.0,
+     39.9
+    ],
+    [
+     10.8,
+     40.0
+    ],
+    [
+     10.6,
+     39.2
+    ],
+    [
+     11.2,
+     38.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1855,
+     "to": 1876,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Wollo_Province",
+   "confidence": "low",
+   "note": "Muslim Oromo dynasty ruling Wollo highlands; brought under Shewa/empire by 1876."
+  },
+  {
+   "name": "Borana Oromo",
+   "aliases": [
+    "Boran",
+    "Borana"
+   ],
+   "from": 1500,
+   "to": 1897,
+   "seat": {
+    "name": "Dirre (gada assembly)",
+    "lat": 4.6,
+    "lon": 38.3
+   },
+   "extent": [
+    [
+     5.8,
+     37.5
+    ],
+    [
+     5.6,
+     39.5
+    ],
+    [
+     4.5,
+     41.2
+    ],
+    [
+     3.0,
+     40.8
+    ],
+    [
+     3.5,
+     38.5
+    ],
+    [
+     4.5,
+     37.4
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Borana_Oromo_people",
+   "confidence": "moderate",
+   "note": "Gada-governed pastoral confederation of the southern plateau; assembly at Gumi Gayo. Incorporated by Ethiopia 1890s."
+  },
+  {
+   "name": "Tulama Oromo",
+   "aliases": [
+    "Tulama",
+    "Shewa Oromo"
+   ],
+   "from": 1550,
+   "to": 1886,
+   "seat": {
+    "name": "Odaa Nabee",
+    "lat": 8.88,
+    "lon": 38.85
+   },
+   "extent": [
+    [
+     10.0,
+     37.8
+    ],
+    [
+     9.9,
+     39.2
+    ],
+    [
+     8.5,
+     39.6
+    ],
+    [
+     8.4,
+     38.2
+    ],
+    [
+     9.2,
+     37.6
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Tulama",
+   "confidence": "moderate",
+   "note": "Borana-branch Oromo confederation of central Shewa; gada centre at Odaa Nabee; subdued by Shewa 1840s-1886."
+  },
+  {
+   "name": "Macha Oromo",
+   "aliases": [
+    "Mecha",
+    "Maccaa"
+   ],
+   "from": 1570,
+   "to": 1886,
+   "seat": {
+    "name": "Odaa Bisil",
+    "lat": 8.95,
+    "lon": 37.35
+   },
+   "extent": [
+    [
+     10.2,
+     35.0
+    ],
+    [
+     10.3,
+     37.5
+    ],
+    [
+     8.6,
+     37.8
+    ],
+    [
+     8.0,
+     36.5
+    ],
+    [
+     8.6,
+     34.6
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Oromo_people",
+   "confidence": "low",
+   "note": "Western Oromo; from c.1800 crystallized into Gibe kingdoms (listed separately) and Leqa Nekemte/Qellem states. Subdued by Shewa 1880s."
+  },
+  {
+   "name": "Leqa Nekemte",
+   "aliases": [
+    "Wollega",
+    "Leqa"
+   ],
+   "from": 1840,
+   "to": 1882,
+   "seat": {
+    "name": "Nekemte",
+    "lat": 9.09,
+    "lon": 36.55
+   },
+   "extent": [
+    [
+     9.8,
+     35.9
+    ],
+    [
+     9.7,
+     37.0
+    ],
+    [
+     8.6,
+     37.0
+    ],
+    [
+     8.6,
+     35.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1882,
+     "to": 1932,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Nekemte",
+   "confidence": "low",
+   "note": "Oromo state of Moroda Bakare; submitted peacefully to Menelik 1882, autonomous to 1930s."
+  },
+  {
+   "name": "Arsi Oromo",
+   "aliases": [
+    "Arsi",
+    "Arussi"
+   ],
+   "from": 1560,
+   "to": 1886,
+   "seat": {
+    "name": "Odaa Roba",
+    "lat": 7.6,
+    "lon": 39.6
+   },
+   "extent": [
+    [
+     8.4,
+     38.8
+    ],
+    [
+     8.5,
+     40.1
+    ],
+    [
+     7.2,
+     40.6
+    ],
+    [
+     6.8,
+     39.0
+    ],
+    [
+     7.6,
+     38.6
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Arsi_Oromo",
+   "confidence": "moderate",
+   "note": "Barentu-branch Oromo of the Arsi-Bale plateau; conquered by Shewa 1882-1886."
+  },
+  {
+   "name": "Afran Qallo Oromo",
+   "aliases": [
+    "Ittu",
+    "Hararghe Oromo",
+    "Barentu"
+   ],
+   "from": 1570,
+   "to": 1887,
+   "seat": {
+    "name": "Odaa Bultum",
+    "lat": 8.85,
+    "lon": 40.85
+   },
+   "extent": [
+    [
+     9.6,
+     40.4
+    ],
+    [
+     9.6,
+     42.5
+    ],
+    [
+     8.6,
+     42.8
+    ],
+    [
+     8.2,
+     41.0
+    ],
+    [
+     8.8,
+     40.2
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Oromo_people",
+   "confidence": "low",
+   "note": "Eastern Oromo (Ittu, Anniya, Nole, Ala, Jarso, Babile) of the Harar highlands around the city of Harar; Ethiopian conquest 1887."
+  },
+  {
+   "name": "Raya and Azebo Oromo",
+   "aliases": [
+    "Raya",
+    "Azebo"
+   ],
+   "from": 1580,
+   "to": 1890,
+   "seat": {
+    "name": "Raya (Kobo area)",
+    "lat": 12.15,
+    "lon": 39.63
+   },
+   "extent": [
+    [
+     13.0,
+     39.4
+    ],
+    [
+     12.9,
+     40.0
+    ],
+    [
+     11.9,
+     40.0
+    ],
+    [
+     11.9,
+     39.4
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Oromo_people",
+   "confidence": "low",
+   "note": "Northernmost Oromo on the Tigray-Wollo escarpment; autonomous until Yohannes/Menelik."
+  },
+  {
+   "name": "Guji Oromo",
+   "aliases": [
+    "Guji"
+   ],
+   "from": 1550,
+   "to": 1895,
+   "seat": {
+    "name": "Guji lands (Adola)",
+    "lat": 5.85,
+    "lon": 38.98
+   },
+   "extent": [
+    [
+     6.4,
+     38.4
+    ],
+    [
+     6.4,
+     39.6
+    ],
+    [
+     5.0,
+     39.6
+    ],
+    [
+     5.0,
+     38.3
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Oromo_people",
+   "confidence": "low",
+   "note": "Gada-governed Oromo south of Sidama; conquered 1895."
+  },
+  {
+   "name": "Emirate of Harar",
+   "aliases": [
+    "Harar",
+    "Harrar"
+   ],
+   "from": 1647,
+   "to": 1887,
+   "seat": {
+    "name": "Harar",
+    "lat": 9.31,
+    "lon": 42.12
+   },
+   "extent": [
+    [
+     9.6,
+     41.8
+    ],
+    [
+     9.6,
+     42.5
+    ],
+    [
+     9.1,
+     42.5
+    ],
+    [
+     9.0,
+     41.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1875,
+     "to": 1885,
+     "name": "Khedivate of Egypt"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Harar",
+   "confidence": "high",
+   "note": "City-state emirate (Ali ibn Daud dynasty) surrounded by Oromo; Egyptian occupation 1875-1885; taken by Menelik at Chelenqo 1887."
+  },
+  {
+   "name": "Imamate of Aussa",
+   "aliases": [
+    "Aussa Imamate"
+   ],
+   "from": 1577,
+   "to": 1672,
+   "seat": {
+    "name": "Furzi (Aussa)",
+    "lat": 11.6,
+    "lon": 41.45
+   },
+   "extent": [
+    [
+     12.2,
+     40.8
+    ],
+    [
+     12.0,
+     42.0
+    ],
+    [
+     11.2,
+     42.3
+    ],
+    [
+     10.6,
+     41.2
+    ],
+    [
+     11.2,
+     40.5
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Imamate_of_Aussa",
+   "confidence": "moderate",
+   "note": "Rump of Adal moved to the Aussa oasis by Imam Muhammad Jasa 1577; collapsed 1672 under Afar pressure."
+  },
+  {
+   "name": "Sultanate of Aussa",
+   "aliases": [
+    "Aussa",
+    "Awsa",
+    "Mudaito Sultanate"
+   ],
+   "from": 1734,
+   "to": 1936,
+   "seat": {
+    "name": "Aysaita",
+    "lat": 11.57,
+    "lon": 41.44
+   },
+   "extent": [
+    [
+     12.2,
+     40.8
+    ],
+    [
+     12.0,
+     42.0
+    ],
+    [
+     11.2,
+     42.3
+    ],
+    [
+     10.6,
+     41.2
+    ],
+    [
+     11.2,
+     40.5
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Aussa",
+   "confidence": "high",
+   "note": "Leading Afar sultanate on the lower Awash (Mudaito dynasty, Kedafu). Nominal Ethiopian suzerainty from 1890s."
+  },
+  {
+   "name": "Sultanate of Tadjoura",
+   "aliases": [
+    "Tadjourah",
+    "Tajura"
+   ],
+   "from": 1600,
+   "to": 1884,
+   "seat": {
+    "name": "Tadjoura",
+    "lat": 11.79,
+    "lon": 42.88
+   },
+   "extent": [
+    [
+     12.4,
+     42.4
+    ],
+    [
+     12.0,
+     43.3
+    ],
+    [
+     11.6,
+     43.2
+    ],
+    [
+     11.5,
+     42.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1884,
+     "to": 1977,
+     "name": "France"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Tadjoura",
+   "confidence": "moderate",
+   "note": "Afar coastal sultanate; French protectorate 1884, part of French Somaliland (still exists ceremonially)."
+  },
+  {
+   "name": "Sultanate of Rahayta",
+   "aliases": [
+    "Raheita",
+    "Rahaita"
+   ],
+   "from": 1600,
+   "to": 1885,
+   "seat": {
+    "name": "Raheita",
+    "lat": 12.74,
+    "lon": 43.08
+   },
+   "extent": [
+    [
+     13.4,
+     42.3
+    ],
+    [
+     12.75,
+     43.25
+    ],
+    [
+     12.4,
+     42.9
+    ],
+    [
+     12.9,
+     42.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1941,
+     "name": "Italy"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Afar_people",
+   "confidence": "low",
+   "note": "Afar sultanate at Bab el-Mandeb (Dankali coast); Italian protectorate 1880s, Eritrea."
+  },
+  {
+   "name": "Sultanate of Gobaad",
+   "aliases": [
+    "Gobad"
+   ],
+   "from": 1750,
+   "to": 1884,
+   "seat": {
+    "name": "Gobaad plain",
+    "lat": 11.05,
+    "lon": 42.3
+   },
+   "reach_km": 40,
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Afar_people",
+   "confidence": "low",
+   "note": "Small Afar sultanate (Dardar/Adaali) in southwest Djibouti; under French protection from 1884. Dates poorly documented."
+  },
+  {
+   "name": "Ajuran Sultanate",
+   "aliases": [
+    "Ajuuraan",
+    "Ajuran Empire",
+    "Garen dynasty"
+   ],
+   "from": 1250,
+   "to": 1690,
+   "seat": {
+    "name": "Mareeg",
+    "lat": 3.77,
+    "lon": 47.3
+   },
+   "extent": [
+    [
+     6.5,
+     45.5
+    ],
+    [
+     5.0,
+     48.2
+    ],
+    [
+     3.6,
+     47.45
+    ],
+    [
+     2.0,
+     45.7
+    ],
+    [
+     -0.3,
+     42.6
+    ],
+    [
+     2.0,
+     41.5
+    ],
+    [
+     4.5,
+     42.0
+    ],
+    [
+     6.8,
+     43.5
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Ajuran_Sultanate",
+   "confidence": "moderate",
+   "note": "Hydraulic state of the Shabelle-Juba interior and Benadir hinterland; Mogadishu, Merca, Barawa as tributary ports. Collapsed late 17th c.; successors Geledi and Hiraab."
+  },
+  {
+   "name": "Sultanate of Mogadishu",
+   "aliases": [
+    "Mogadishu",
+    "Muzaffar dynasty",
+    "Hamar"
+   ],
+   "from": 900,
+   "to": 1624,
+   "seat": {
+    "name": "Mogadishu",
+    "lat": 2.04,
+    "lon": 45.34
+   },
+   "extent": [
+    [
+     2.45,
+     45.55
+    ],
+    [
+     2.2,
+     45.75
+    ],
+    [
+     1.8,
+     45.1
+    ],
+    [
+     2.0,
+     44.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1550,
+     "to": 1624,
+     "name": "Ajuran Sultanate"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Mogadishu",
+   "confidence": "moderate",
+   "note": "Benadir port sultanate (Fakhr ad-Din then Muzaffar dynasty); Ajuran vassal from 16th c.; later under Geledi/Hiraab influence and Omani/Zanzibari suzerainty (Zanzibar 1840s-1892, Italian lease 1892)."
+  },
+  {
+   "name": "Geledi Sultanate",
+   "aliases": [
+    "Gobroon dynasty",
+    "Geledi"
+   ],
+   "from": 1690,
+   "to": 1910,
+   "seat": {
+    "name": "Afgooye",
+    "lat": 2.14,
+    "lon": 45.12
+   },
+   "extent": [
+    [
+     3.0,
+     44.8
+    ],
+    [
+     2.6,
+     45.8
+    ],
+    [
+     1.6,
+     45.0
+    ],
+    [
+     1.2,
+     43.8
+    ],
+    [
+     2.0,
+     43.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1889,
+     "to": 1910,
+     "name": "Italy"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Geledi_Sultanate",
+   "confidence": "moderate",
+   "note": "Successor of Ajuran in the lower Shabelle; at its height (Yusuf Mahamud Ibrahim, 1840s) controlled Benadir trade routes. Italian protectorate 1908/1910."
+  },
+  {
+   "name": "Hiraab Imamate",
+   "aliases": [
+    "Hiraab",
+    "Imamate of Hiraab"
+   ],
+   "from": 1690,
+   "to": 1889,
+   "seat": {
+    "name": "Mogadishu",
+    "lat": 2.04,
+    "lon": 45.34
+   },
+   "extent": [
+    [
+     5.8,
+     46.4
+    ],
+    [
+     5.4,
+     48.5
+    ],
+    [
+     3.3,
+     47.4
+    ],
+    [
+     1.9,
+     45.6
+    ],
+    [
+     1.9,
+     45.1
+    ],
+    [
+     2.4,
+     44.9
+    ],
+    [
+     3.8,
+     45.7
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Hiraab_Imamate",
+   "confidence": "low",
+   "note": "Hawiye (Hiraab) imamate that threw off Ajuran rule in the late 17th c.; Wikipedia gives Mogadishu as capital, with the Harardhere/El Dhere coast as its northern sphere. Ended 1889 (Italian treaties). Overlaps Sultanate of Mogadishu and Geledi spheres."
+  },
+  {
+   "name": "Majeerteen Sultanate",
+   "aliases": [
+    "Migiurtinia",
+    "Majerteen",
+    "Sultanate of Majeerteenia"
+   ],
+   "from": 1750,
+   "to": 1927,
+   "seat": {
+    "name": "Alula",
+    "lat": 11.96,
+    "lon": 50.75
+   },
+   "extent": [
+    [
+     11.3,
+     48.9
+    ],
+    [
+     12.05,
+     50.6
+    ],
+    [
+     11.9,
+     51.3
+    ],
+    [
+     9.5,
+     50.9
+    ],
+    [
+     8.0,
+     49.8
+    ],
+    [
+     9.0,
+     48.6
+    ],
+    [
+     10.5,
+     48.7
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1889,
+     "to": 1927,
+     "name": "Italy"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Majeerteen_Sultanate",
+   "confidence": "moderate",
+   "note": "Northeast horn (Bari); Boqor Osman Mahamuud; seat Bargal/Alula. Italian protectorate 1889, conquered 1927."
+  },
+  {
+   "name": "Sultanate of Hobyo",
+   "aliases": [
+    "Hobyo",
+    "Obbia"
+   ],
+   "from": 1878,
+   "to": 1925,
+   "seat": {
+    "name": "Hobyo",
+    "lat": 5.35,
+    "lon": 48.53
+   },
+   "extent": [
+    [
+     7.5,
+     47.5
+    ],
+    [
+     7.0,
+     49.4
+    ],
+    [
+     5.0,
+     48.6
+    ],
+    [
+     4.6,
+     47.0
+    ],
+    [
+     6.0,
+     46.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1888,
+     "to": 1925,
+     "name": "Italy"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Hobyo",
+   "confidence": "high",
+   "note": "Founded by Yusuf Ali Kenadid; Italian protectorate 1888; annexed 1925."
+  },
+  {
+   "name": "Warsangali Sultanate",
+   "aliases": [
+    "Maakhir",
+    "Warsangeli"
+   ],
+   "from": 1613,
+   "to": 1920,
+   "seat": {
+    "name": "Las Khorey",
+    "lat": 11.16,
+    "lon": 48.2
+   },
+   "extent": [
+    [
+     11.3,
+     47.6
+    ],
+    [
+     11.25,
+     49.0
+    ],
+    [
+     10.0,
+     48.9
+    ],
+    [
+     9.8,
+     47.7
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1886,
+     "to": 1920,
+     "name": "British Somaliland"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1613,
+     "to": 1740,
+     "seat": {
+      "name": "Durduri",
+      "lat": 10.9,
+      "lon": 47.95
+     }
+    },
+    {
+     "from": 1740,
+     "to": 1920,
+     "seat": {
+      "name": "Las Khorey",
+      "lat": 11.16,
+      "lon": 48.2
+     }
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Warsangali_Sultanate",
+   "confidence": "moderate",
+   "note": "Maakhir coast and Cal Madow; seat Durduri then Las Khorey (c.1740). British protectorate 1886."
+  },
+  {
+   "name": "Isaaq Sultanate",
+   "aliases": [
+    "Isaaq",
+    "Sultanate of Isaaq"
+   ],
+   "from": 1749,
+   "to": 1884,
+   "seat": {
+    "name": "Toon",
+    "lat": 9.55,
+    "lon": 44.2
+   },
+   "extent": [
+    [
+     10.6,
+     43.3
+    ],
+    [
+     10.9,
+     45.6
+    ],
+    [
+     10.4,
+     46.5
+    ],
+    [
+     9.0,
+     46.5
+    ],
+    [
+     8.5,
+     44.5
+    ],
+    [
+     9.6,
+     43.5
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Isaaq_Sultanate",
+   "confidence": "moderate",
+   "note": "Clan sultanate of the Isaaq (Guled dynasty) in northwest Somalia, controlling Berbera trade; Habr Yunis split off 1769. British Somaliland protectorate 1884-87."
+  },
+  {
+   "name": "Habr Yunis Sultanate",
+   "aliases": [
+    "Habr Yunis"
+   ],
+   "from": 1769,
+   "to": 1917,
+   "seat": {
+    "name": "Burao",
+    "lat": 9.52,
+    "lon": 45.53
+   },
+   "extent": [
+    [
+     10.4,
+     44.6
+    ],
+    [
+     10.6,
+     45.6
+    ],
+    [
+     9.0,
+     46.2
+    ],
+    [
+     8.6,
+     45.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1886,
+     "to": 1917,
+     "name": "British Somaliland"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Habr_Yunis_Sultanate",
+   "confidence": "low",
+   "note": "Isaaq branch sultanate around Burao and the Haud (first seat Toyo); British protectorate from 1884/86."
+  },
+  {
+   "name": "Gadabuursi Ugaasate",
+   "aliases": [
+    "Gadabursi",
+    "Samaroon"
+   ],
+   "from": 1600,
+   "to": 1890,
+   "seat": {
+    "name": "Dila",
+    "lat": 9.95,
+    "lon": 43.3
+   },
+   "reach_km": 70,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Gadabuursi",
+   "confidence": "low",
+   "note": "Ugaas-led Dir clan polity west of the Isaaq, toward Zeila and Harar."
+  },
+  {
+   "name": "Ogaden clans",
+   "aliases": [
+    "Ogaden",
+    "Ogaadeen"
+   ],
+   "from": 1500,
+   "to": 1897,
+   "seat": {
+    "name": "Ogaden (Shilabo area)",
+    "lat": 6.1,
+    "lon": 44.75
+   },
+   "extent": [
+    [
+     8.8,
+     43.0
+    ],
+    [
+     8.0,
+     46.5
+    ],
+    [
+     5.0,
+     46.0
+    ],
+    [
+     4.5,
+     43.0
+    ],
+    [
+     6.5,
+     42.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Ogaden_(clan)",
+   "confidence": "low",
+   "note": "Darod pastoral clans of the Ogaden plateau without a single state; partly tributary to Harar/Adal; Ethiopian raids from 1890s."
+  },
+  {
+   "name": "Dervish State",
+   "aliases": [
+    "Daraawiish",
+    "Dervish movement"
+   ],
+   "from": 1896,
+   "to": 1920,
+   "seat": {
+    "name": "Taleh",
+    "lat": 9.15,
+    "lon": 48.42
+   },
+   "extent": [
+    [
+     10.0,
+     46.5
+    ],
+    [
+     9.8,
+     49.5
+    ],
+    [
+     7.5,
+     49.0
+    ],
+    [
+     6.8,
+     46.5
+    ],
+    [
+     8.4,
+     45.5
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Dervish_State",
+   "confidence": "moderate",
+   "note": "Mohammed Abdullah Hassan's state in the Nugaal and Haud; forts at Taleh from 1913; destroyed by British air campaign 1920."
+  },
+  {
+   "name": "Funj Sultanate",
+   "aliases": [
+    "Sultanate of Sennar",
+    "Blue Sultanate",
+    "Sinnar"
+   ],
+   "from": 1504,
+   "to": 1821,
+   "seat": {
+    "name": "Sennar",
+    "lat": 13.55,
+    "lon": 33.62
+   },
+   "extent": [
+    [
+     19.5,
+     31.0
+    ],
+    [
+     18.0,
+     34.0
+    ],
+    [
+     15.0,
+     36.5
+    ],
+    [
+     11.0,
+     35.0
+    ],
+    [
+     10.5,
+     33.0
+    ],
+    [
+     12.5,
+     30.5
+    ],
+    [
+     16.0,
+     30.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1504,
+     "to": 1700,
+     "extent": [
+      [
+       19.5,
+       31.0
+      ],
+      [
+       18.0,
+       34.0
+      ],
+      [
+       15.0,
+       36.5
+      ],
+      [
+       11.0,
+       35.0
+      ],
+      [
+       10.5,
+       33.0
+      ],
+      [
+       12.5,
+       30.5
+      ],
+      [
+       16.0,
+       30.5
+      ]
+     ]
+    },
+    {
+     "from": 1700,
+     "to": 1821,
+     "extent": [
+      [
+       17.0,
+       32.3
+      ],
+      [
+       16.0,
+       34.5
+      ],
+      [
+       14.5,
+       36.0
+      ],
+      [
+       11.0,
+       35.0
+      ],
+      [
+       10.8,
+       33.2
+      ],
+      [
+       13.0,
+       32.0
+      ],
+      [
+       15.2,
+       32.2
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Funj_Sultanate",
+   "confidence": "high",
+   "note": "Gezira core with vassal meks along the Nile (Abdallab, Ja'aliyin, Dongola, Fazughli). Kordofan contested with Darfur. Effective power under Hamaj regents after 1762. Conquered by Egypt 1821."
+  },
+  {
+   "name": "Abdallab",
+   "aliases": [
+    "Abdallabi sheikhdom",
+    "Manjil of Qarri"
+   ],
+   "from": 1500,
+   "to": 1821,
+   "seat": {
+    "name": "Halfaya",
+    "lat": 15.71,
+    "lon": 32.55
+   },
+   "extent": [
+    [
+     19.0,
+     32.0
+    ],
+    [
+     17.5,
+     34.5
+    ],
+    [
+     15.2,
+     33.8
+    ],
+    [
+     15.3,
+     32.3
+    ],
+    [
+     17.0,
+     31.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1504,
+     "to": 1821,
+     "name": "Funj Sultanate"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Abdallab",
+   "confidence": "moderate",
+   "note": "Arab dynasty ruling the northern Funj realm as viceroys (manjil); seat Qarri then Halfaya."
+  },
+  {
+   "name": "Kingdom of Alodia",
+   "aliases": [
+    "Alwa",
+    "Aloa"
+   ],
+   "from": 600,
+   "to": 1504,
+   "seat": {
+    "name": "Soba",
+    "lat": 15.52,
+    "lon": 32.68
+   },
+   "extent": [
+    [
+     16.5,
+     32.0
+    ],
+    [
+     16.0,
+     35.0
+    ],
+    [
+     13.0,
+     35.5
+    ],
+    [
+     12.0,
+     33.5
+    ],
+    [
+     14.0,
+     32.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Alodia",
+   "confidence": "low",
+   "note": "Last Christian Nubian kingdom; by 1400 fragmented and in decline; destroyed by Funj/Abdallab c.1504."
+  },
+  {
+   "name": "Kingdom of Dotawo",
+   "aliases": [
+    "Dotawo",
+    "Lower Nubia"
+   ],
+   "from": 1300,
+   "to": 1500,
+   "seat": {
+    "name": "Gebel Adda",
+    "lat": 22.3,
+    "lon": 31.62
+   },
+   "extent": [
+    [
+     22.6,
+     31.3
+    ],
+    [
+     22.4,
+     31.9
+    ],
+    [
+     21.5,
+     31.0
+    ],
+    [
+     21.8,
+     30.7
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Dotawo",
+   "confidence": "low",
+   "note": "Rump Christian Nubian kingdom of Lower Nubia after Makuria's collapse; last attested 1484."
+  },
+  {
+   "name": "Kingdom of Dongola",
+   "aliases": [
+    "Dongola meks",
+    "Dunqula"
+   ],
+   "from": 1500,
+   "to": 1820,
+   "seat": {
+    "name": "Old Dongola",
+    "lat": 18.22,
+    "lon": 30.74
+   },
+   "extent": [
+    [
+     19.6,
+     30.2
+    ],
+    [
+     19.2,
+     31.0
+    ],
+    [
+     17.8,
+     30.9
+    ],
+    [
+     17.9,
+     30.1
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1504,
+     "to": 1700,
+     "name": "Funj Sultanate"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Old_Dongola",
+   "confidence": "low",
+   "note": "Funj vassal kingdom of the Dongola reach; Shaigiya pressure from late 17th c.; Mamluk refugees 1812; Egyptian conquest 1820."
+  },
+  {
+   "name": "Shaigiya confederation",
+   "aliases": [
+    "Shaigiya",
+    "Shayqiyya"
+   ],
+   "from": 1690,
+   "to": 1820,
+   "seat": {
+    "name": "Kurti",
+    "lat": 18.12,
+    "lon": 31.6
+   },
+   "extent": [
+    [
+     18.9,
+     31.5
+    ],
+    [
+     18.6,
+     32.2
+    ],
+    [
+     18.0,
+     32.0
+    ],
+    [
+     18.2,
+     31.2
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Funj_Sultanate",
+   "confidence": "low",
+   "note": "Arab tribal confederation that broke away from the Funj c.1690 and dominated the Nile bend; defeated by Egypt at Korti 1820."
+  },
+  {
+   "name": "Ja'aliyin of Shendi",
+   "aliases": [
+    "Ja'alin",
+    "Mek of Shendi",
+    "Ja'aliyyin"
+   ],
+   "from": 1550,
+   "to": 1822,
+   "seat": {
+    "name": "Shendi",
+    "lat": 16.69,
+    "lon": 33.43
+   },
+   "extent": [
+    [
+     17.6,
+     33.4
+    ],
+    [
+     17.0,
+     34.2
+    ],
+    [
+     16.2,
+     33.6
+    ],
+    [
+     16.6,
+     32.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1550,
+     "to": 1800,
+     "name": "Funj Sultanate"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Ja%27alin",
+   "confidence": "low",
+   "note": "Ja'aliyin meks of Shendi and Metemma, Funj vassals; Mek Nimr burned Ismail Pasha 1822."
+  },
+  {
+   "name": "Fazughli",
+   "aliases": [
+    "Fazogli",
+    "Fazughli meks"
+   ],
+   "from": 1500,
+   "to": 1821,
+   "seat": {
+    "name": "Fazughli",
+    "lat": 11.3,
+    "lon": 34.75
+   },
+   "reach_km": 80,
+   "overlord": [
+    {
+     "from": 1685,
+     "to": 1821,
+     "name": "Funj Sultanate"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Funj_Sultanate",
+   "confidence": "low",
+   "note": "Funj vassal on the upper Blue Nile gold district (Bertha lands)."
+  },
+  {
+   "name": "Bela Shangul",
+   "aliases": [
+    "Beni Shangul sheikhdom",
+    "Asosa"
+   ],
+   "from": 1825,
+   "to": 1898,
+   "seat": {
+    "name": "Asosa",
+    "lat": 10.07,
+    "lon": 34.53
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1825,
+     "to": 1885,
+     "name": "Turco-Egyptian Sudan"
+    },
+    {
+     "from": 1885,
+     "to": 1898,
+     "name": "Mahdist State"
+    },
+    {
+     "from": 1898,
+     "to": 1938,
+     "name": "Ethiopian Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Benishangul-Gumuz_Region",
+   "confidence": "low",
+   "note": "Watawit Arab-Bertha sheikhdoms (Khojali al-Hasan) on the Sudan-Ethiopia border; Egyptian, Mahdist then Ethiopian (1898) overlordship."
+  },
+  {
+   "name": "Sultanate of Darfur",
+   "aliases": [
+    "Darfur",
+    "Keira Sultanate",
+    "Dar Fur"
+   ],
+   "from": 1603,
+   "to": 1874,
+   "seat": {
+    "name": "El Fasher",
+    "lat": 13.63,
+    "lon": 25.35
+   },
+   "extent": [
+    [
+     16.0,
+     23.0
+    ],
+    [
+     16.0,
+     27.5
+    ],
+    [
+     13.0,
+     30.0
+    ],
+    [
+     10.0,
+     27.0
+    ],
+    [
+     9.5,
+     24.5
+    ],
+    [
+     12.5,
+     22.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1603,
+     "to": 1785,
+     "seat": {
+      "name": "Turra (Jebel Marra)",
+      "lat": 13.15,
+      "lon": 24.35
+     },
+     "extent": [
+      [
+       15.5,
+       23.0
+      ],
+      [
+       15.3,
+       26.5
+      ],
+      [
+       12.0,
+       27.0
+      ],
+      [
+       10.5,
+       25.0
+      ],
+      [
+       12.5,
+       22.3
+      ]
+     ]
+    },
+    {
+     "from": 1785,
+     "to": 1821,
+     "seat": {
+      "name": "El Fasher",
+      "lat": 13.63,
+      "lon": 25.35
+     },
+     "extent": [
+      [
+       16.0,
+       23.0
+      ],
+      [
+       16.0,
+       31.0
+      ],
+      [
+       12.0,
+       31.5
+      ],
+      [
+       10.0,
+       27.0
+      ],
+      [
+       9.5,
+       24.5
+      ],
+      [
+       12.5,
+       22.0
+      ]
+     ]
+    },
+    {
+     "from": 1821,
+     "to": 1874,
+     "seat": {
+      "name": "El Fasher",
+      "lat": 13.63,
+      "lon": 25.35
+     },
+     "extent": [
+      [
+       16.0,
+       23.0
+      ],
+      [
+       16.0,
+       27.5
+      ],
+      [
+       13.0,
+       28.0
+      ],
+      [
+       10.0,
+       27.0
+      ],
+      [
+       9.5,
+       24.5
+      ],
+      [
+       12.5,
+       22.0
+      ]
+     ]
+    },
+    {
+     "from": 1898,
+     "to": 1916,
+     "seat": {
+      "name": "El Fasher",
+      "lat": 13.63,
+      "lon": 25.35
+     },
+     "extent": [
+      [
+       16.0,
+       23.0
+      ],
+      [
+       15.5,
+       27.5
+      ],
+      [
+       12.5,
+       27.5
+      ],
+      [
+       10.5,
+       25.5
+      ],
+      [
+       12.5,
+       22.5
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Darfur",
+   "confidence": "high",
+   "note": "Keira Fur dynasty; Jebel Marra origin, El Fasher fixed capital 1791. Held Kordofan 1785-1821. Conquered by Zubayr/Egypt 1874; restored under Ali Dinar 1898-1916."
+  },
+  {
+   "name": "Musabba'at Sultanate",
+   "aliases": [
+    "Musabba'at",
+    "Sultanate of Kordofan"
+   ],
+   "from": 1700,
+   "to": 1785,
+   "seat": {
+    "name": "Bara",
+    "lat": 13.7,
+    "lon": 30.37
+   },
+   "extent": [
+    [
+     15.0,
+     28.5
+    ],
+    [
+     14.6,
+     31.5
+    ],
+    [
+     12.0,
+     31.5
+    ],
+    [
+     11.8,
+     29.0
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Kordofan",
+   "confidence": "low",
+   "note": "Fur-related dynasty ruling Kordofan between Funj and Darfur; conquered by Darfur 1785."
+  },
+  {
+   "name": "Kingdom of Taqali",
+   "aliases": [
+    "Tegali",
+    "Taqali"
+   ],
+   "from": 1750,
+   "to": 1884,
+   "seat": {
+    "name": "Taqali massif",
+    "lat": 11.9,
+    "lon": 31.2
+   },
+   "extent": [
+    [
+     12.3,
+     30.9
+    ],
+    [
+     12.2,
+     31.6
+    ],
+    [
+     11.5,
+     31.6
+    ],
+    [
+     11.5,
+     30.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1821,
+     "to": 1884,
+     "name": "Turco-Egyptian Sudan"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Taqali",
+   "confidence": "moderate",
+   "note": "Muslim kingdom in the northeastern Nuba Mountains (oral tradition dates founding to the 16th c.). Tributary to Funj/Darfur/Egypt; later a native administration until 1969. 'to' marks end of real independence (Mahdist period)."
+  },
+  {
+   "name": "Shilluk Kingdom",
+   "aliases": [
+    "Chollo",
+    "Shilluk reth"
+   ],
+   "from": 1490,
+   "to": 1861,
+   "seat": {
+    "name": "Fashoda (Kodok)",
+    "lat": 9.88,
+    "lon": 32.11
+   },
+   "extent": [
+    [
+     12.0,
+     32.4
+    ],
+    [
+     11.5,
+     32.75
+    ],
+    [
+     10.0,
+     32.3
+    ],
+    [
+     9.4,
+     32.2
+    ],
+    [
+     9.4,
+     31.4
+    ],
+    [
+     10.5,
+     31.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Shilluk_Kingdom",
+   "confidence": "moderate",
+   "note": "Reth-led Luo kingdom on the west bank of the White Nile; raided as far north as Aba Island in the 17th c.; seat at Fashoda from c.1700. Egyptian rule from 1861 (kingship continues)."
+  },
+  {
+   "name": "Dinka",
+   "aliases": [
+    "Jieng",
+    "Muonyjang"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Dinka lands (Bor-Rek)",
+    "lat": 8.0,
+    "lon": 29.0
+   },
+   "extent": [
+    [
+     11.0,
+     28.0
+    ],
+    [
+     10.5,
+     33.0
+    ],
+    [
+     8.0,
+     33.0
+    ],
+    [
+     6.0,
+     31.0
+    ],
+    [
+     6.5,
+     28.5
+    ],
+    [
+     9.0,
+     26.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Dinka_people",
+   "confidence": "low",
+   "note": "Acephalous pastoral nation of numerous sections (Rek, Agar, Bor, Padang, Ngok); no central ruler. Fills Bahr el Ghazal and Upper Nile floodplains."
+  },
+  {
+   "name": "Nuer",
+   "aliases": [
+    "Naath"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Nuer lands (Bentiu)",
+    "lat": 9.23,
+    "lon": 29.8
+   },
+   "extent": [
+    [
+     9.7,
+     29.4
+    ],
+    [
+     9.8,
+     32.5
+    ],
+    [
+     8.3,
+     34.0
+    ],
+    [
+     7.6,
+     32.0
+    ],
+    [
+     8.0,
+     29.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Nuer_people",
+   "confidence": "low",
+   "note": "Acephalous pastoral nation; expanded east across the Sobat toward Ethiopia in the 19th c. (extent shown is 19th-c.)."
+  },
+  {
+   "name": "Anuak kingdom",
+   "aliases": [
+    "Anywaa",
+    "Anuak nobles"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Otalo",
+    "lat": 7.6,
+    "lon": 33.9
+   },
+   "extent": [
+    [
+     8.4,
+     33.5
+    ],
+    [
+     8.3,
+     34.7
+    ],
+    [
+     7.2,
+     34.6
+    ],
+    [
+     7.3,
+     33.5
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Anuak_people",
+   "confidence": "low",
+   "note": "Luo-speaking villages with a rotating noble kingship (emblem-holder at Otalo) on the Baro/Pibor rivers."
+  },
+  {
+   "name": "Masalit Sultanate",
+   "aliases": [
+    "Dar Masalit"
+   ],
+   "from": 1874,
+   "to": 1922,
+   "seat": {
+    "name": "Geneina",
+    "lat": 13.45,
+    "lon": 22.45
+   },
+   "extent": [
+    [
+     14.1,
+     22.0
+    ],
+    [
+     14.0,
+     22.9
+    ],
+    [
+     12.7,
+     23.0
+    ],
+    [
+     12.5,
+     21.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1895,
+     "to": 1898,
+     "name": "Mahdist State"
+    },
+    {
+     "from": 1908,
+     "to": 1916,
+     "name": "Sultanate of Darfur"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Masalit_people",
+   "confidence": "low",
+   "note": "Unified under Hajjam Hasab Allah 1874 between Wadai and Darfur; Mahdist invasion 1895; defeated by Ali Dinar 1903, Darfuri vassal from 1908 under Taj al-Din; independent again 1916-1922 under Bahr al-Din; joined Anglo-Egyptian Sudan 1922."
+  },
+  {
+   "name": "Beja tribes",
+   "aliases": [
+    "Hadendoa",
+    "Bisharin",
+    "Amarar",
+    "Beni Amer"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Sinkat",
+    "lat": 18.83,
+    "lon": 36.83
+   },
+   "extent": [
+    [
+     21.0,
+     35.5
+    ],
+    [
+     20.0,
+     37.5
+    ],
+    [
+     17.0,
+     38.5
+    ],
+    [
+     15.5,
+     36.6
+    ],
+    [
+     17.0,
+     35.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Beja_people",
+   "confidence": "low",
+   "note": "Pastoral Beja confederacies of the Red Sea Hills; Beni Amer under Funj diglal; Suakin port Ottoman. Osman Digna's Mahdist base 1883-1891."
+  },
+  {
+   "name": "Turco-Egyptian Sudan",
+   "aliases": [
+    "Egyptian Sudan",
+    "Turkiyya"
+   ],
+   "from": 1821,
+   "to": 1885,
+   "seat": {
+    "name": "Khartoum",
+    "lat": 15.6,
+    "lon": 32.53
+   },
+   "extent": [
+    [
+     22.0,
+     25.0
+    ],
+    [
+     22.0,
+     36.8
+    ],
+    [
+     18.0,
+     38.5
+    ],
+    [
+     12.0,
+     36.0
+    ],
+    [
+     4.0,
+     32.0
+    ],
+    [
+     5.0,
+     26.0
+    ],
+    [
+     10.0,
+     23.5
+    ],
+    [
+     14.0,
+     22.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1821,
+     "to": 1885,
+     "name": "Khedivate of Egypt"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1821,
+     "to": 1840,
+     "extent": [
+      [
+       22.0,
+       29.5
+      ],
+      [
+       21.5,
+       34.5
+      ],
+      [
+       16.0,
+       36.0
+      ],
+      [
+       11.5,
+       34.8
+      ],
+      [
+       11.0,
+       30.0
+      ],
+      [
+       14.0,
+       28.5
+      ]
+     ]
+    },
+    {
+     "from": 1840,
+     "to": 1869,
+     "extent": [
+      [
+       22.0,
+       27.0
+      ],
+      [
+       22.0,
+       36.8
+      ],
+      [
+       18.0,
+       38.5
+      ],
+      [
+       15.0,
+       36.5
+      ],
+      [
+       10.0,
+       35.0
+      ],
+      [
+       9.5,
+       31.0
+      ],
+      [
+       12.0,
+       27.5
+      ]
+     ]
+    },
+    {
+     "from": 1869,
+     "to": 1885,
+     "extent": [
+      [
+       22.0,
+       25.0
+      ],
+      [
+       22.0,
+       36.8
+      ],
+      [
+       18.0,
+       38.5
+      ],
+      [
+       12.0,
+       36.0
+      ],
+      [
+       4.0,
+       32.0
+      ],
+      [
+       5.0,
+       26.0
+      ],
+      [
+       10.0,
+       23.5
+      ],
+      [
+       14.0,
+       22.5
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Turkiyya",
+   "confidence": "high",
+   "note": "Khedivate of Egypt's Sudan provinces; seat Wad Madani then Khartoum (1830s). Expanded into Equatoria (1869-) and Darfur (1874). Fell to the Mahdi 1885."
+  },
+  {
+   "name": "Mahdist State",
+   "aliases": [
+    "Mahdiyya",
+    "Mahdist Sudan"
+   ],
+   "from": 1885,
+   "to": 1898,
+   "seat": {
+    "name": "Omdurman",
+    "lat": 15.64,
+    "lon": 32.48
+   },
+   "extent": [
+    [
+     22.0,
+     25.0
+    ],
+    [
+     22.0,
+     36.5
+    ],
+    [
+     18.0,
+     38.0
+    ],
+    [
+     14.5,
+     36.4
+    ],
+    [
+     10.0,
+     34.5
+    ],
+    [
+     6.0,
+     30.0
+    ],
+    [
+     10.0,
+     23.5
+    ],
+    [
+     14.0,
+     22.5
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Mahdist_State",
+   "confidence": "high",
+   "note": "Muhammad Ahmad al-Mahdi and the Khalifa Abdallahi; destroyed at Omdurman 1898 (Anglo-Egyptian Sudan)."
+  },
+  {
+   "name": "Kingdom of Buganda",
+   "aliases": [
+    "Buganda",
+    "Baganda"
+   ],
+   "from": 1350,
+   "to": 1966,
+   "seat": {
+    "name": "Mengo (Kampala)",
+    "lat": 0.3,
+    "lon": 32.56
+   },
+   "extent": [
+    [
+     1.2,
+     31.8
+    ],
+    [
+     1.0,
+     33.1
+    ],
+    [
+     0.4,
+     33.2
+    ],
+    [
+     -0.4,
+     32.0
+    ],
+    [
+     -0.6,
+     31.5
+    ],
+    [
+     0.2,
+     31.3
+    ],
+    [
+     0.9,
+     31.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1894,
+     "to": 1962,
+     "name": "British Uganda Protectorate"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1350,
+     "to": 1650,
+     "extent": [
+      [
+       0.65,
+       32.15
+      ],
+      [
+       0.6,
+       32.85
+      ],
+      [
+       0.1,
+       32.85
+      ],
+      [
+       0.0,
+       32.2
+      ],
+      [
+       0.3,
+       32.0
+      ]
+     ]
+    },
+    {
+     "from": 1650,
+     "to": 1800,
+     "extent": [
+      [
+       0.95,
+       31.9
+      ],
+      [
+       0.8,
+       33.0
+      ],
+      [
+       0.3,
+       33.1
+      ],
+      [
+       -0.1,
+       32.0
+      ],
+      [
+       0.3,
+       31.7
+      ]
+     ]
+    },
+    {
+     "from": 1800,
+     "to": 1966,
+     "extent": [
+      [
+       1.2,
+       31.8
+      ],
+      [
+       1.0,
+       33.1
+      ],
+      [
+       0.4,
+       33.2
+      ],
+      [
+       -0.4,
+       32.0
+      ],
+      [
+       -0.6,
+       31.5
+      ],
+      [
+       0.2,
+       31.3
+      ],
+      [
+       0.9,
+       31.5
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Buganda",
+   "confidence": "high",
+   "note": "Kabaka capitals moved each reign within Kyadondo/Busiro; expanded from 3 core counties at Bunyoro's expense 17th-19th c. British protectorate 1894."
+  },
+  {
+   "name": "Kingdom of Bunyoro",
+   "aliases": [
+    "Bunyoro-Kitara",
+    "Kitara",
+    "Babito kingdom"
+   ],
+   "from": 1500,
+   "to": 1899,
+   "seat": {
+    "name": "Mparo (Hoima)",
+    "lat": 1.43,
+    "lon": 31.35
+   },
+   "extent": [
+    [
+     2.3,
+     31.3
+    ],
+    [
+     2.0,
+     32.4
+    ],
+    [
+     1.3,
+     32.4
+    ],
+    [
+     0.8,
+     31.6
+    ],
+    [
+     0.7,
+     30.6
+    ],
+    [
+     1.4,
+     30.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1500,
+     "to": 1700,
+     "extent": [
+      [
+       2.4,
+       31.3
+      ],
+      [
+       2.0,
+       32.8
+      ],
+      [
+       1.0,
+       33.0
+      ],
+      [
+       0.3,
+       32.0
+      ],
+      [
+       -0.4,
+       30.8
+      ],
+      [
+       0.6,
+       30.2
+      ],
+      [
+       1.6,
+       30.8
+      ]
+     ]
+    },
+    {
+     "from": 1700,
+     "to": 1830,
+     "extent": [
+      [
+       2.4,
+       31.3
+      ],
+      [
+       2.0,
+       32.6
+      ],
+      [
+       1.1,
+       32.5
+      ],
+      [
+       0.5,
+       31.5
+      ],
+      [
+       0.0,
+       30.2
+      ],
+      [
+       1.4,
+       30.4
+      ]
+     ]
+    },
+    {
+     "from": 1830,
+     "to": 1899,
+     "extent": [
+      [
+       2.3,
+       31.3
+      ],
+      [
+       2.0,
+       32.4
+      ],
+      [
+       1.3,
+       32.4
+      ],
+      [
+       0.8,
+       31.6
+      ],
+      [
+       0.7,
+       30.6
+      ],
+      [
+       1.4,
+       30.6
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bunyoro",
+   "confidence": "high",
+   "note": "Babito Luo dynasty succeeding the legendary Chwezi Kitara c.1500; the dominant lakes power in the 16th-17th c., later lost Toro (1830), Kooki and counties to Buganda. Kabalega resisted British until 1899."
+  },
+  {
+   "name": "Kingdom of Ankole",
+   "aliases": [
+    "Nkore",
+    "Ankole"
+   ],
+   "from": 1450,
+   "to": 1967,
+   "seat": {
+    "name": "Kamukuzi (Mbarara)",
+    "lat": -0.61,
+    "lon": 30.65
+   },
+   "extent": [
+    [
+     -0.2,
+     30.3
+    ],
+    [
+     -0.2,
+     31.0
+    ],
+    [
+     -0.8,
+     31.2
+    ],
+    [
+     -1.0,
+     30.5
+    ],
+    [
+     -0.6,
+     30.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1901,
+     "to": 1962,
+     "name": "British Uganda Protectorate"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ankole",
+   "confidence": "high",
+   "note": "Hinda dynasty Bahima kingdom; core Isingiro-Rwampara, absorbed Mpororo, Igara, Buhweju fragments in the 19th c. British 1901 (Ankole Agreement)."
+  },
+  {
+   "name": "Kingdom of Toro",
+   "aliases": [
+    "Tooro",
+    "Toro"
+   ],
+   "from": 1830,
+   "to": 1967,
+   "seat": {
+    "name": "Kabarole (Fort Portal)",
+    "lat": 0.66,
+    "lon": 30.27
+   },
+   "extent": [
+    [
+     1.0,
+     29.9
+    ],
+    [
+     1.0,
+     30.8
+    ],
+    [
+     0.2,
+     30.8
+    ],
+    [
+     0.0,
+     30.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1876,
+     "to": 1891,
+     "name": "Kingdom of Bunyoro"
+    },
+    {
+     "from": 1894,
+     "to": 1962,
+     "name": "British Uganda Protectorate"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Tooro_Kingdom",
+   "confidence": "high",
+   "note": "Broke from Bunyoro under Kaboyo Olimi I c.1830; reconquered by Kabalega 1876-1891, restored by the British."
+  },
+  {
+   "name": "Kingdom of Karagwe",
+   "aliases": [
+    "Karagwe",
+    "Karagwe Kingdom"
+   ],
+   "from": 1450,
+   "to": 1890,
+   "seat": {
+    "name": "Bweranyange",
+    "lat": -1.6,
+    "lon": 31.1
+   },
+   "extent": [
+    [
+     -0.95,
+     30.75
+    ],
+    [
+     -1.0,
+     31.5
+    ],
+    [
+     -2.1,
+     31.4
+    ],
+    [
+     -2.2,
+     30.8
+    ],
+    [
+     -1.4,
+     30.5
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Karagwe_Kingdom",
+   "confidence": "moderate",
+   "note": "Hinda kingdom west of Lake Victoria; height under Rumanyika (1855-1878); German East Africa from 1890."
+  },
+  {
+   "name": "Kingdom of Rwanda",
+   "aliases": [
+    "Rwanda",
+    "Nyiginya kingdom",
+    "Ruanda"
+   ],
+   "from": 1400,
+   "to": 1962,
+   "seat": {
+    "name": "Nyanza",
+    "lat": -2.35,
+    "lon": 29.75
+   },
+   "extent": [
+    [
+     -1.1,
+     29.7
+    ],
+    [
+     -1.3,
+     30.5
+    ],
+    [
+     -2.0,
+     30.9
+    ],
+    [
+     -2.8,
+     30.5
+    ],
+    [
+     -2.6,
+     29.0
+    ],
+    [
+     -1.5,
+     29.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1897,
+     "to": 1916,
+     "name": "German East Africa"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1650,
+     "seat": {
+      "name": "Gasabo (Lake Muhazi)",
+      "lat": -1.85,
+      "lon": 30.25
+     },
+     "extent": [
+      [
+       -1.8,
+       29.9
+      ],
+      [
+       -1.8,
+       30.4
+      ],
+      [
+       -2.2,
+       30.4
+      ],
+      [
+       -2.3,
+       29.9
+      ]
+     ]
+    },
+    {
+     "from": 1650,
+     "to": 1800,
+     "extent": [
+      [
+       -1.5,
+       29.6
+      ],
+      [
+       -1.6,
+       30.4
+      ],
+      [
+       -2.3,
+       30.5
+      ],
+      [
+       -2.5,
+       29.7
+      ]
+     ]
+    },
+    {
+     "from": 1800,
+     "to": 1962,
+     "extent": [
+      [
+       -1.1,
+       29.7
+      ],
+      [
+       -1.3,
+       30.5
+      ],
+      [
+       -2.0,
+       30.9
+      ],
+      [
+       -2.8,
+       30.5
+      ],
+      [
+       -2.6,
+       29.0
+      ],
+      [
+       -1.5,
+       29.3
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+   "confidence": "high",
+   "note": "Nyiginya dynasty; royal residences itinerant until Nyanza (1899). Small core in Nduga/Buganza until 17th-18th c.; Kigeli IV Rwabugiri (1853-1895) reached near-modern borders. German protectorate 1897."
+  },
+  {
+   "name": "Kingdom of Burundi",
+   "aliases": [
+    "Burundi",
+    "Urundi",
+    "Ganwa kingdom"
+   ],
+   "from": 1680,
+   "to": 1966,
+   "seat": {
+    "name": "Muramvya",
+    "lat": -3.27,
+    "lon": 29.61
+   },
+   "extent": [
+    [
+     -2.35,
+     29.0
+    ],
+    [
+     -2.4,
+     30.4
+    ],
+    [
+     -3.0,
+     30.8
+    ],
+    [
+     -4.4,
+     29.9
+    ],
+    [
+     -3.3,
+     29.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1903,
+     "to": 1916,
+     "name": "German East Africa"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1680,
+     "to": 1795,
+     "extent": [
+      [
+       -2.7,
+       29.8
+      ],
+      [
+       -2.9,
+       30.3
+      ],
+      [
+       -3.4,
+       30.1
+      ],
+      [
+       -3.4,
+       29.5
+      ],
+      [
+       -3.0,
+       29.4
+      ]
+     ]
+    },
+    {
+     "from": 1795,
+     "to": 1966,
+     "extent": [
+      [
+       -2.35,
+       29.0
+      ],
+      [
+       -2.4,
+       30.4
+      ],
+      [
+       -3.0,
+       30.8
+      ],
+      [
+       -4.4,
+       29.9
+      ],
+      [
+       -3.3,
+       29.2
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Burundi",
+   "confidence": "high",
+   "note": "Founded by Ntare I Rushatsi c.1680; expanded greatly under Ntare IV Rugamba (c.1795-1850). Mwami Mwezi Gisabo resisted Germany until 1903."
+  },
+  {
+   "name": "Busoga principalities",
+   "aliases": [
+    "Busoga",
+    "Basoga kingdoms"
+   ],
+   "from": 1500,
+   "to": 1906,
+   "seat": {
+    "name": "Kamuli (Bugabula)",
+    "lat": 0.95,
+    "lon": 33.12
+   },
+   "extent": [
+    [
+     1.5,
+     33.0
+    ],
+    [
+     1.4,
+     33.9
+    ],
+    [
+     0.4,
+     34.0
+    ],
+    [
+     0.3,
+     33.1
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1780,
+     "to": 1894,
+     "name": "Kingdom of Buganda"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Busoga",
+   "confidence": "moderate",
+   "note": "About a dozen small Lwo-derived principalities (Bugabula, Bulamogi, Luuka, Bugweri, Bukooli, Kigulu, Busiki etc.), tributary to Buganda in the 19th c.; united under a Kyabazinga 1906."
+  },
+  {
+   "name": "Bugabula",
+   "aliases": [
+    "Bugabula principality"
+   ],
+   "from": 1600,
+   "to": 1906,
+   "seat": {
+    "name": "Kamuli",
+    "lat": 0.95,
+    "lon": 33.12
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1780,
+     "to": 1894,
+     "name": "Kingdom of Buganda"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Busoga",
+   "confidence": "low",
+   "note": "Largest Busoga principality (Gabula dynasty)."
+  },
+  {
+   "name": "Bulamogi",
+   "aliases": [
+    "Bulamogi principality"
+   ],
+   "from": 1600,
+   "to": 1906,
+   "seat": {
+    "name": "Gadumire",
+    "lat": 1.07,
+    "lon": 33.42
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1780,
+     "to": 1894,
+     "name": "Kingdom of Buganda"
+    }
+   ],
+   "kind": "principality",
+   "source": "https://en.wikipedia.org/wiki/Busoga",
+   "confidence": "low",
+   "note": "Northern Busoga principality (Zibondo dynasty)."
+  },
+  {
+   "name": "Kingdom of Mpororo",
+   "aliases": [
+    "Mpororo",
+    "Ndorwa-Mpororo"
+   ],
+   "from": 1650,
+   "to": 1750,
+   "seat": {
+    "name": "Mpororo (Ntungamo)",
+    "lat": -0.9,
+    "lon": 30.25
+   },
+   "extent": [
+    [
+     -0.6,
+     29.7
+    ],
+    [
+     -0.6,
+     30.4
+    ],
+    [
+     -1.3,
+     30.4
+    ],
+    [
+     -1.4,
+     29.8
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ankole",
+   "confidence": "low",
+   "note": "Short-lived Bahima kingdom between Ankole and Rwanda; fragmented into Igara, Rujumbura, Kajara etc."
+  },
+  {
+   "name": "Kingdom of Ndorwa",
+   "aliases": [
+    "Ndorwa"
+   ],
+   "from": 1600,
+   "to": 1780,
+   "seat": {
+    "name": "Ndorwa",
+    "lat": -1.2,
+    "lon": 30.0
+   },
+   "reach_km": 30,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+   "confidence": "low",
+   "note": "Hima kingdom on the Rwanda-Uganda border; destroyed by Rwanda in the 18th c."
+  },
+  {
+   "name": "Kooki",
+   "aliases": [
+    "Kingdom of Kooki",
+    "Koki"
+   ],
+   "from": 1740,
+   "to": 1896,
+   "seat": {
+    "name": "Rakai",
+    "lat": -0.72,
+    "lon": 31.4
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1820,
+     "to": 1896,
+     "name": "Kingdom of Buganda"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kooki",
+   "confidence": "low",
+   "note": "Small Babito offshoot kingdom west of Lake Victoria; tributary to Buganda from early 19th c., annexed 1896."
+  },
+  {
+   "name": "Buhweju",
+   "aliases": [
+    "Kingdom of Buhweju"
+   ],
+   "from": 1600,
+   "to": 1901,
+   "seat": {
+    "name": "Buhweju",
+    "lat": -0.35,
+    "lon": 30.35
+   },
+   "reach_km": 25,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Buhweju",
+   "confidence": "low",
+   "note": "Small highland kingdom absorbed into Ankole 1901."
+  },
+  {
+   "name": "Kiziba",
+   "aliases": [
+    "Kingdom of Kiziba"
+   ],
+   "from": 1500,
+   "to": 1963,
+   "seat": {
+    "name": "Kiziba",
+    "lat": -1.15,
+    "lon": 31.6
+   },
+   "extent": [
+    [
+     -0.98,
+     31.4
+    ],
+    [
+     -1.0,
+     31.75
+    ],
+    [
+     -1.3,
+     31.75
+    ],
+    [
+     -1.3,
+     31.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1890,
+     "to": 1916,
+     "name": "German East Africa"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Haya_people",
+   "confidence": "low",
+   "note": "Bito-dynasty Haya kingdom north of Bukoba; German East Africa 1890."
+  },
+  {
+   "name": "Kyamutwara",
+   "aliases": [
+    "Kyamtwara",
+    "Kianja"
+   ],
+   "from": 1600,
+   "to": 1963,
+   "seat": {
+    "name": "Kyamutwara",
+    "lat": -1.5,
+    "lon": 31.7
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1890,
+     "to": 1916,
+     "name": "German East Africa"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Haya_people",
+   "confidence": "low",
+   "note": "Hinda Haya kingdom (split into Kyamutwara and Kianja/Maruku in the 19th c.)."
+  },
+  {
+   "name": "Ihangiro",
+   "aliases": [
+    "Kingdom of Ihangiro"
+   ],
+   "from": 1600,
+   "to": 1963,
+   "seat": {
+    "name": "Ihangiro",
+    "lat": -1.9,
+    "lon": 31.55
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1890,
+     "to": 1916,
+     "name": "German East Africa"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Haya_people",
+   "confidence": "low",
+   "note": "Southern Haya kingdom."
+  },
+  {
+   "name": "Buzinza",
+   "aliases": [
+    "Rusubi",
+    "Zinza kingdoms"
+   ],
+   "from": 1600,
+   "to": 1890,
+   "seat": {
+    "name": "Rusubi (Biharamulo)",
+    "lat": -2.63,
+    "lon": 31.31
+   },
+   "reach_km": 50,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Zinza_people",
+   "confidence": "low",
+   "note": "Hinda kingdoms (Rusubi, Busindi) southwest of Lake Victoria."
+  },
+  {
+   "name": "Kingdom of Gisaka",
+   "aliases": [
+    "Gisaka",
+    "Migongo"
+   ],
+   "from": 1500,
+   "to": 1852,
+   "seat": {
+    "name": "Gisaka",
+    "lat": -2.15,
+    "lon": 30.6
+   },
+   "reach_km": 30,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Rwanda",
+   "confidence": "low",
+   "note": "Eastern Rwandan kingdom, annexed by Rwanda under Mutara II c.1852."
+  },
+  {
+   "name": "Kingdom of Bugesera",
+   "aliases": [
+    "Bugesera"
+   ],
+   "from": 1500,
+   "to": 1795,
+   "seat": {
+    "name": "Bugesera",
+    "lat": -2.35,
+    "lon": 30.15
+   },
+   "reach_km": 30,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bugesera",
+   "confidence": "low",
+   "note": "Hima kingdom around Lakes Cyohoha; partitioned by Rwanda and Burundi c.1795."
+  },
+  {
+   "name": "Buha kingdoms",
+   "aliases": [
+    "Ha kingdoms",
+    "Heru",
+    "Buyungu",
+    "Muhambwe"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Heru (Kasulu)",
+    "lat": -4.58,
+    "lon": 30.1
+   },
+   "extent": [
+    [
+     -3.0,
+     30.5
+    ],
+    [
+     -3.4,
+     31.0
+    ],
+    [
+     -5.0,
+     30.6
+    ],
+    [
+     -4.8,
+     29.8
+    ],
+    [
+     -3.8,
+     29.7
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1890,
+     "to": 1916,
+     "name": "German East Africa"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ha_people",
+   "confidence": "low",
+   "note": "Six small Ha kingdoms (Heru, Buyungu, Muhambwe, Ruguru, Bushingo, Ujiji-Buhinga) east of Lake Tanganyika."
+  },
+  {
+   "name": "Kingdom of Ukerewe",
+   "aliases": [
+    "Ukerewe",
+    "Bukerebe"
+   ],
+   "from": 1600,
+   "to": 1963,
+   "seat": {
+    "name": "Ukerewe island",
+    "lat": -2.05,
+    "lon": 33.0
+   },
+   "reach_km": 20,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ukerewe_Island",
+   "confidence": "low",
+   "note": "Island kingdom of the Kerebe (Silanga dynasty) in Lake Victoria."
+  },
+  {
+   "name": "Acholi chiefdoms",
+   "aliases": [
+    "Acholi",
+    "Payira",
+    "Padibe",
+    "Patiko"
+   ],
+   "from": 1680,
+   "to": 1900,
+   "seat": {
+    "name": "Payira (Gulu)",
+    "lat": 2.85,
+    "lon": 32.3
+   },
+   "extent": [
+    [
+     3.7,
+     31.9
+    ],
+    [
+     3.6,
+     33.6
+    ],
+    [
+     2.6,
+     33.8
+    ],
+    [
+     2.2,
+     32.2
+    ],
+    [
+     3.0,
+     31.6
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Acholi_people",
+   "confidence": "low",
+   "note": "Some 60 small Luo rwot-led chiefdoms (Payira the largest); British 1890s-1910s."
+  },
+  {
+   "name": "Alur chiefdoms",
+   "aliases": [
+    "Alur",
+    "Okoro",
+    "Panyimur"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Panyimur",
+    "lat": 2.27,
+    "lon": 31.43
+   },
+   "reach_km": 60,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Alur_people",
+   "confidence": "low",
+   "note": "Luo chiefdoms northwest of Lake Albert, spanning the Uganda-Congo border."
+  },
+  {
+   "name": "Lango",
+   "aliases": [
+    "Langi"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Lango (Lira)",
+    "lat": 2.25,
+    "lon": 32.9
+   },
+   "extent": [
+    [
+     2.6,
+     32.4
+    ],
+    [
+     2.6,
+     33.5
+    ],
+    [
+     1.7,
+     33.6
+    ],
+    [
+     1.6,
+     32.5
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Lango_people",
+   "confidence": "low",
+   "note": "Acephalous Lango clans north of Lake Kyoga."
+  },
+  {
+   "name": "Iteso",
+   "aliases": [
+    "Teso",
+    "Itesot"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Soroti",
+    "lat": 1.71,
+    "lon": 33.61
+   },
+   "extent": [
+    [
+     2.3,
+     33.4
+    ],
+    [
+     2.2,
+     34.4
+    ],
+    [
+     1.2,
+     34.2
+    ],
+    [
+     1.2,
+     33.4
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Iteso_people",
+   "confidence": "low",
+   "note": "Ateker pastoral-agricultural people of Teso; conquered by Kakungulu for the British 1899-1904."
+  },
+  {
+   "name": "Karamojong",
+   "aliases": [
+    "Karimojong",
+    "Karamoja"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Moroto",
+    "lat": 2.53,
+    "lon": 34.66
+   },
+   "extent": [
+    [
+     3.6,
+     33.9
+    ],
+    [
+     3.4,
+     34.9
+    ],
+    [
+     1.8,
+     34.9
+    ],
+    [
+     1.6,
+     34.0
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Karamojong_people",
+   "confidence": "low",
+   "note": "Ateker pastoral nation of northeast Uganda."
+  },
+  {
+   "name": "Turkana",
+   "aliases": [
+    "Turkana people"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Lodwar",
+    "lat": 3.12,
+    "lon": 35.6
+   },
+   "extent": [
+    [
+     4.6,
+     34.6
+    ],
+    [
+     4.4,
+     36.2
+    ],
+    [
+     2.0,
+     36.2
+    ],
+    [
+     1.9,
+     35.2
+    ],
+    [
+     3.0,
+     34.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Turkana_people",
+   "confidence": "low",
+   "note": "Ateker pastoral nation west of Lake Turkana; expanded east in the 19th c."
+  },
+  {
+   "name": "Wanga Kingdom",
+   "aliases": [
+    "Wanga",
+    "Nabongo"
+   ],
+   "from": 1600,
+   "to": 1926,
+   "seat": {
+    "name": "Mumias",
+    "lat": 0.33,
+    "lon": 34.49
+   },
+   "extent": [
+    [
+     0.6,
+     34.2
+    ],
+    [
+     0.6,
+     34.8
+    ],
+    [
+     0.1,
+     34.8
+    ],
+    [
+     0.1,
+     34.2
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Wanga_Kingdom",
+   "confidence": "moderate",
+   "note": "Luhya kingdom under the Nabongo (Shiundu, Mumia); British ally from 1883, absorbed into Kenya Colony."
+  },
+  {
+   "name": "Kenya Luo",
+   "aliases": [
+    "Joluo",
+    "Luo of Nyanza"
+   ],
+   "from": 1550,
+   "to": 1900,
+   "seat": {
+    "name": "Kisumu area",
+    "lat": -0.1,
+    "lon": 34.75
+   },
+   "extent": [
+    [
+     0.3,
+     33.9
+    ],
+    [
+     0.3,
+     34.9
+    ],
+    [
+     -0.3,
+     35.0
+    ],
+    [
+     -1.2,
+     34.8
+    ],
+    [
+     -1.1,
+     33.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Luo_people_of_Kenya_and_Tanzania",
+   "confidence": "low",
+   "note": "Clan-territories (oganda) of the Nilotic Luo around the Winam Gulf."
+  },
+  {
+   "name": "Nandi",
+   "aliases": [
+    "Nandi people",
+    "Kalenjin"
+   ],
+   "from": 1650,
+   "to": 1905,
+   "seat": {
+    "name": "Nandi Hills",
+    "lat": 0.1,
+    "lon": 35.18
+   },
+   "extent": [
+    [
+     0.6,
+     34.9
+    ],
+    [
+     0.5,
+     35.4
+    ],
+    [
+     -0.1,
+     35.4
+    ],
+    [
+     -0.1,
+     34.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Nandi_people",
+   "confidence": "moderate",
+   "note": "Kalenjin nation led by the Orkoiyot (Koitalel arap Samoei), resisted British until 1905."
+  },
+  {
+   "name": "Kipsigis",
+   "aliases": [
+    "Kipsigis people"
+   ],
+   "from": 1700,
+   "to": 1905,
+   "seat": {
+    "name": "Kericho",
+    "lat": -0.37,
+    "lon": 35.28
+   },
+   "extent": [
+    [
+     -0.1,
+     35.0
+    ],
+    [
+     -0.1,
+     35.6
+    ],
+    [
+     -0.9,
+     35.6
+    ],
+    [
+     -0.9,
+     34.9
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kipsigis_people",
+   "confidence": "low",
+   "note": "Kalenjin nation south of the Nandi."
+  },
+  {
+   "name": "Maasai",
+   "aliases": [
+    "Masai",
+    "Maa-speaking sections (Purko, Kisongo, Loita)"
+   ],
+   "from": 1600,
+   "to": 1904,
+   "seat": {
+    "name": "Ngong / Laibon seat",
+    "lat": -1.36,
+    "lon": 36.65
+   },
+   "extent": [
+    [
+     0.5,
+     35.8
+    ],
+    [
+     0.0,
+     37.2
+    ],
+    [
+     -2.5,
+     37.6
+    ],
+    [
+     -5.5,
+     37.0
+    ],
+    [
+     -5.0,
+     35.8
+    ],
+    [
+     -2.0,
+     34.8
+    ],
+    [
+     -0.5,
+     35.4
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Maasai_people",
+   "confidence": "moderate",
+   "note": "Pastoral sections (iloshon) of the Rift Valley under laibon ritual leaders; height mid-19th c.; weakened by rinderpest 1890s and British treaties 1904/1911."
+  },
+  {
+   "name": "Samburu",
+   "aliases": [
+    "Samburu people"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Maralal",
+    "lat": 1.1,
+    "lon": 36.7
+   },
+   "reach_km": 90,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Samburu_people",
+   "confidence": "low",
+   "note": "Maa-speaking pastoralists north of Laikipia."
+  },
+  {
+   "name": "Kikuyu",
+   "aliases": [
+    "Gikuyu",
+    "Agikuyu"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Murang'a",
+    "lat": -0.72,
+    "lon": 37.15
+   },
+   "extent": [
+    [
+     0.1,
+     36.7
+    ],
+    [
+     0.0,
+     37.4
+    ],
+    [
+     -1.25,
+     37.0
+    ],
+    [
+     -1.1,
+     36.6
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kikuyu_people",
+   "confidence": "moderate",
+   "note": "Acephalous ridge-based clans governed by age-grade councils (kiama) on the slopes of Mount Kenya and the Aberdares."
+  },
+  {
+   "name": "Kamba",
+   "aliases": [
+    "Akamba",
+    "Wakamba"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Machakos",
+    "lat": -1.52,
+    "lon": 37.26
+   },
+   "extent": [
+    [
+     -0.8,
+     37.2
+    ],
+    [
+     -1.0,
+     38.6
+    ],
+    [
+     -2.4,
+     38.4
+    ],
+    [
+     -2.2,
+     37.1
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kamba_people",
+   "confidence": "moderate",
+   "note": "Caravan-trading people of Ukambani; dominated ivory trade to Mombasa in the 18th-19th c."
+  },
+  {
+   "name": "Meru",
+   "aliases": [
+    "Ameru"
+   ],
+   "from": 1700,
+   "to": 1900,
+   "seat": {
+    "name": "Meru",
+    "lat": 0.05,
+    "lon": 37.65
+   },
+   "reach_km": 40,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Meru_people",
+   "confidence": "low",
+   "note": "Njuri Ncheke-governed sections northeast of Mount Kenya."
+  },
+  {
+   "name": "Mijikenda",
+   "aliases": [
+    "Nyika",
+    "Nine Kaya"
+   ],
+   "from": 1500,
+   "to": 1900,
+   "seat": {
+    "name": "Kaya Fungo",
+    "lat": -3.67,
+    "lon": 39.67
+   },
+   "extent": [
+    [
+     -3.0,
+     39.4
+    ],
+    [
+     -3.3,
+     40.0
+    ],
+    [
+     -4.6,
+     39.4
+    ],
+    [
+     -4.4,
+     39.1
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Mijikenda_peoples",
+   "confidence": "moderate",
+   "note": "Nine peoples living in fortified kaya settlements behind the Kenya coast; allied with Mombasa (Mazrui)."
+  },
+  {
+   "name": "Kilwa Sultanate",
+   "aliases": [
+    "Kilwa Kisiwani",
+    "Shirazi sultanate of Kilwa"
+   ],
+   "from": 957,
+   "to": 1784,
+   "seat": {
+    "name": "Kilwa Kisiwani",
+    "lat": -8.96,
+    "lon": 39.51
+   },
+   "extent": [
+    [
+     -8.5,
+     39.3
+    ],
+    [
+     -8.6,
+     39.7
+    ],
+    [
+     -9.6,
+     39.8
+    ],
+    [
+     -9.6,
+     39.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1505,
+     "to": 1512,
+     "name": "Portuguese Empire"
+    },
+    {
+     "from": 1784,
+     "to": 1843,
+     "name": "Sultanate of Zanzibar"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Kilwa_Sultanate",
+   "confidence": "high",
+   "note": "Mahdali dynasty; dominated the southern Swahili coast and the Sofala gold trade in the 14th-15th c. Sacked by Portugal 1505 (fort until 1512); declining; Omani overlordship from 1784/85."
+  },
+  {
+   "name": "Sofala sheikhdom",
+   "aliases": [
+    "Sofala"
+   ],
+   "from": 1100,
+   "to": 1505,
+   "seat": {
+    "name": "Sofala",
+    "lat": -20.15,
+    "lon": 34.72
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1300,
+     "to": 1505,
+     "name": "Kilwa Sultanate"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Sofala",
+   "confidence": "moderate",
+   "note": "Gold port at the end of the Zimbabwe-plateau trade, tributary to Kilwa; Portuguese fort 1505."
+  },
+  {
+   "name": "Mombasa",
+   "aliases": [
+    "Sultanate of Mombasa",
+    "Mvita",
+    "Mazrui Mombasa"
+   ],
+   "from": 1300,
+   "to": 1837,
+   "seat": {
+    "name": "Mombasa",
+    "lat": -4.06,
+    "lon": 39.67
+   },
+   "extent": [
+    [
+     -3.8,
+     39.5
+    ],
+    [
+     -3.9,
+     39.9
+    ],
+    [
+     -4.5,
+     39.6
+    ],
+    [
+     -4.4,
+     39.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1593,
+     "to": 1698,
+     "name": "Portuguese Empire"
+    },
+    {
+     "from": 1698,
+     "to": 1741,
+     "name": "Oman"
+    },
+    {
+     "from": 1824,
+     "to": 1826,
+     "name": "British protectorate (Owen)"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Mombasa",
+   "confidence": "moderate",
+   "note": "Shirazi sultans to 1593 (sacked 1505, 1528, 1589); Portuguese Fort Jesus 1593-1698 with Malindi dynasty as puppet sheikhs; Omani governors from 1698, autonomous under the Mazrui 1741-1837 (incl. Pemba); taken by Zanzibar 1837."
+  },
+  {
+   "name": "Malindi",
+   "aliases": [
+    "Sultanate of Malindi",
+    "Melinde"
+   ],
+   "from": 1300,
+   "to": 1593,
+   "seat": {
+    "name": "Malindi",
+    "lat": -3.22,
+    "lon": 40.12
+   },
+   "reach_km": 30,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Malindi",
+   "confidence": "moderate",
+   "note": "Rival of Mombasa and Portuguese ally (Vasco da Gama 1498); its ruling house moved to Mombasa in 1593; later a Zanzibari town."
+  },
+  {
+   "name": "Pate Sultanate",
+   "aliases": [
+    "Pate",
+    "Nabahani sultanate"
+   ],
+   "from": 1200,
+   "to": 1895,
+   "seat": {
+    "name": "Pate",
+    "lat": -2.1,
+    "lon": 41.0
+   },
+   "extent": [
+    [
+     -1.7,
+     40.8
+    ],
+    [
+     -1.8,
+     41.4
+    ],
+    [
+     -2.4,
+     41.0
+    ],
+    [
+     -2.4,
+     40.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1698,
+     "name": "Portuguese Empire"
+    },
+    {
+     "from": 1866,
+     "to": 1890,
+     "name": "Sultanate of Zanzibar"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Pate_Island",
+   "confidence": "moderate",
+   "note": "Nabahani sultanate of the Lamu archipelago (Pate, Siyu, Faza); regional power in the 17th-18th c.; lost Lamu at Shela 1813; Nabahani retreated to Witu 1858; Zanzibari control from 1860s."
+  },
+  {
+   "name": "Lamu",
+   "aliases": [
+    "Lamu city-state",
+    "Amu"
+   ],
+   "from": 1300,
+   "to": 1813,
+   "seat": {
+    "name": "Lamu",
+    "lat": -2.27,
+    "lon": 40.9
+   },
+   "reach_km": 20,
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1813,
+     "name": "Pate Sultanate"
+    },
+    {
+     "from": 1813,
+     "to": 1890,
+     "name": "Oman / Sultanate of Zanzibar"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Lamu",
+   "confidence": "moderate",
+   "note": "Swahili city-state, often tributary to Pate; sought Omani protection after the Battle of Shela 1813."
+  },
+  {
+   "name": "Witu Sultanate",
+   "aliases": [
+    "Wituland",
+    "Swahililand"
+   ],
+   "from": 1858,
+   "to": 1890,
+   "seat": {
+    "name": "Witu",
+    "lat": -2.39,
+    "lon": 40.43
+   },
+   "extent": [
+    [
+     -2.0,
+     40.1
+    ],
+    [
+     -2.1,
+     40.8
+    ],
+    [
+     -2.7,
+     40.6
+    ],
+    [
+     -2.6,
+     40.1
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1890,
+     "name": "German Empire"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Wituland",
+   "confidence": "high",
+   "note": "Founded by exiled Nabahani of Pate; German protectorate 1885-1890, British (IBEA) 1890."
+  },
+  {
+   "name": "Barawa",
+   "aliases": [
+    "Brava",
+    "Baraawe"
+   ],
+   "from": 1200,
+   "to": 1890,
+   "seat": {
+    "name": "Barawa",
+    "lat": 1.11,
+    "lon": 44.03
+   },
+   "reach_km": 20,
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1690,
+     "name": "Ajuran Sultanate"
+    },
+    {
+     "from": 1837,
+     "to": 1892,
+     "name": "Sultanate of Zanzibar"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Barawa",
+   "confidence": "low",
+   "note": "Benadir port city-state; tributary to Ajuran, sacked by Portugal 1506, later Geledi/Omani-Zanzibari influence; Italian 1892."
+  },
+  {
+   "name": "Vumba Kuu",
+   "aliases": [
+    "Vumba",
+    "Diwani of Vumba"
+   ],
+   "from": 1700,
+   "to": 1850,
+   "seat": {
+    "name": "Vumba Kuu",
+    "lat": -4.6,
+    "lon": 39.22
+   },
+   "reach_km": 20,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Swahili_coast",
+   "confidence": "low",
+   "note": "Small Swahili-Segeju diwanate on the southern Kenya coast."
+  },
+  {
+   "name": "Sultanate of Zanzibar",
+   "aliases": [
+    "Zanzibar",
+    "Omani East Africa",
+    "Busaidi Zanzibar"
+   ],
+   "from": 1698,
+   "to": 1964,
+   "seat": {
+    "name": "Zanzibar Stone Town",
+    "lat": -6.16,
+    "lon": 39.19
+   },
+   "extent": [
+    [
+     -1.6,
+     41.4
+    ],
+    [
+     -4.7,
+     39.7
+    ],
+    [
+     -10.5,
+     40.5
+    ],
+    [
+     -10.4,
+     39.9
+    ],
+    [
+     -6.0,
+     38.7
+    ],
+    [
+     -1.9,
+     40.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1698,
+     "to": 1856,
+     "name": "Oman"
+    },
+    {
+     "from": 1890,
+     "to": 1963,
+     "name": "British Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1698,
+     "to": 1830,
+     "extent": [
+      [
+       -5.0,
+       39.5
+      ],
+      [
+       -5.6,
+       39.95
+      ],
+      [
+       -6.5,
+       39.6
+      ],
+      [
+       -6.3,
+       39.1
+      ],
+      [
+       -5.4,
+       39.4
+      ]
+     ]
+    },
+    {
+     "from": 1830,
+     "to": 1886,
+     "extent": [
+      [
+       -1.6,
+       41.4
+      ],
+      [
+       -4.7,
+       39.7
+      ],
+      [
+       -10.5,
+       40.5
+      ],
+      [
+       -10.4,
+       39.9
+      ],
+      [
+       -6.0,
+       38.7
+      ],
+      [
+       -1.9,
+       40.6
+      ]
+     ]
+    },
+    {
+     "from": 1886,
+     "to": 1964,
+     "extent": [
+      [
+       -4.85,
+       39.6
+      ],
+      [
+       -5.5,
+       40.0
+      ],
+      [
+       -6.5,
+       39.6
+      ],
+      [
+       -6.4,
+       39.1
+      ],
+      [
+       -5.2,
+       39.5
+      ]
+     ]
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Zanzibar",
+   "confidence": "high",
+   "note": "Omani governorate of the East African coast from the fall of Fort Jesus (1698); Sayyid Said moved his court to Zanzibar 1840; separate sultanate 1856. Extent = islands plus a ~20 km coastal strip from Lamu to the Rovuma (1840-1886), with caravan influence inland. British protectorate 1890."
+  },
+  {
+   "name": "Portuguese Mozambique",
+   "aliases": [
+    "Mozambique",
+    "Moçambique",
+    "Captaincy of Mozambique"
+   ],
+   "from": 1505,
+   "to": 1975,
+   "seat": {
+    "name": "Ilha de Moçambique",
+    "lat": -15.03,
+    "lon": 40.73
+   },
+   "extent": [
+    [
+     -10.5,
+     40.6
+    ],
+    [
+     -15.0,
+     40.9
+    ],
+    [
+     -26.85,
+     32.95
+    ],
+    [
+     -22.4,
+     31.3
+    ],
+    [
+     -15.6,
+     30.4
+    ],
+    [
+     -14.4,
+     33.2
+    ],
+    [
+     -17.1,
+     35.3
+    ],
+    [
+     -11.5,
+     35.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1505,
+     "to": 1890,
+     "extent": [
+      [
+       -15.0,
+       40.8
+      ],
+      [
+       -17.9,
+       36.9
+      ],
+      [
+       -16.1,
+       33.6
+      ],
+      [
+       -15.6,
+       30.5
+      ],
+      [
+       -16.4,
+       33.9
+      ],
+      [
+       -18.0,
+       36.3
+      ],
+      [
+       -20.2,
+       34.6
+      ],
+      [
+       -15.3,
+       40.5
+      ]
+     ]
+    },
+    {
+     "from": 1891,
+     "to": 1975,
+     "extent": [
+      [
+       -10.5,
+       40.6
+      ],
+      [
+       -15.0,
+       40.9
+      ],
+      [
+       -26.85,
+       32.95
+      ],
+      [
+       -22.4,
+       31.3
+      ],
+      [
+       -15.6,
+       30.4
+      ],
+      [
+       -14.4,
+       33.2
+      ],
+      [
+       -17.1,
+       35.3
+      ],
+      [
+       -11.5,
+       35.0
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Portuguese_Mozambique",
+   "confidence": "high",
+   "note": "Before 1890 only coastal forts (Sofala, Mozambique Island, Quelimane, Inhambane, Lourenço Marques) and the Zambezi corridor (Sena, Tete, Zumbo) with prazo estates; interior held by African states. Colony borders fixed 1891; capital Lourenço Marques 1898. Pre-1890 phase polygon is the Zambezi corridor plus Sofala coast; Mozambique Island, Quelimane, Inhambane and Lourenço Marques are point stations outside it."
+  },
+  {
+   "name": "Angoche Sultanate",
+   "aliases": [
+    "Angoche",
+    "Angoxe"
+   ],
+   "from": 1485,
+   "to": 1910,
+   "seat": {
+    "name": "Angoche",
+    "lat": -16.24,
+    "lon": 39.91
+   },
+   "extent": [
+    [
+     -15.8,
+     39.6
+    ],
+    [
+     -16.0,
+     40.2
+    ],
+    [
+     -16.6,
+     39.9
+    ],
+    [
+     -16.4,
+     39.3
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Angoche_Sultanate",
+   "confidence": "moderate",
+   "note": "Swahili-Makua sultanate; slave-trade power in the 19th c. under Musa Mohamad Sahib (Mussa Quanto) with Makua alliances; conquered by Portugal 1910."
+  },
+  {
+   "name": "Sancul",
+   "aliases": [
+    "Sangage",
+    "Xeicado de Sancul"
+   ],
+   "from": 1600,
+   "to": 1910,
+   "seat": {
+    "name": "Sancul",
+    "lat": -15.33,
+    "lon": 40.58
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1910,
+     "name": "Portuguese Mozambique"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Island_of_Mozambique",
+   "confidence": "low",
+   "note": "Swahili sheikhdom on the mainland south of Mozambique Island, nominal Portuguese vassal."
+  },
+  {
+   "name": "Quitangonha",
+   "aliases": [
+    "Xeicado de Quitangonha",
+    "Matibane"
+   ],
+   "from": 1700,
+   "to": 1910,
+   "seat": {
+    "name": "Quitangonha",
+    "lat": -14.85,
+    "lon": 40.75
+   },
+   "reach_km": 25,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Island_of_Mozambique",
+   "confidence": "low",
+   "note": "Swahili sheikhdom north of Mozambique Island; slave-trading."
+  },
+  {
+   "name": "Makua chiefdoms",
+   "aliases": [
+    "Makua",
+    "Macua",
+    "Imbamela",
+    "Mauruça",
+    "Uticulo"
+   ],
+   "from": 1500,
+   "to": 1910,
+   "seat": {
+    "name": "Makua heartland (Nampula)",
+    "lat": -15.12,
+    "lon": 39.27
+   },
+   "extent": [
+    [
+     -12.0,
+     38.5
+    ],
+    [
+     -13.0,
+     40.5
+    ],
+    [
+     -16.5,
+     40.0
+    ],
+    [
+     -16.5,
+     37.5
+    ],
+    [
+     -14.0,
+     37.0
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Makua_people",
+   "confidence": "low",
+   "note": "Many Makua-Lomwe chiefdoms (mwene) of northern Mozambique with shifting paramountcies; allied with or raiding the coastal sheikhdoms; pacified by Portugal 1896-1913."
+  },
+  {
+   "name": "Makonde",
+   "aliases": [
+    "Makonde plateau"
+   ],
+   "from": 1600,
+   "to": 1910,
+   "seat": {
+    "name": "Mueda plateau",
+    "lat": -11.66,
+    "lon": 39.55
+   },
+   "reach_km": 60,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Makonde_people",
+   "confidence": "low",
+   "note": "Acephalous plateau villages on both sides of the Rovuma."
+  },
+  {
+   "name": "Sultanate of Ndzuwani",
+   "aliases": [
+    "Anjouan",
+    "Johanna"
+   ],
+   "from": 1500,
+   "to": 1912,
+   "seat": {
+    "name": "Mutsamudu",
+    "lat": -12.17,
+    "lon": 44.4
+   },
+   "extent": [
+    [
+     -12.07,
+     44.45
+    ],
+    [
+     -12.2,
+     44.53
+    ],
+    [
+     -12.37,
+     44.45
+    ],
+    [
+     -12.25,
+     44.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1886,
+     "to": 1912,
+     "name": "France"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Ndzuwani",
+   "confidence": "moderate",
+   "note": "Shirazi sultanate (capital Domoni, then Mutsamudu); often claimed overlordship of Mayotte and Mohéli; French protectorate 1886, annexed 1912."
+  },
+  {
+   "name": "Sultanate of Mwali",
+   "aliases": [
+    "Mohéli",
+    "Moheli"
+   ],
+   "from": 1830,
+   "to": 1909,
+   "seat": {
+    "name": "Fomboni",
+    "lat": -12.28,
+    "lon": 43.74
+   },
+   "extent": [
+    [
+     -12.25,
+     43.63
+    ],
+    [
+     -12.27,
+     43.86
+    ],
+    [
+     -12.38,
+     43.85
+    ],
+    [
+     -12.35,
+     43.65
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1500,
+     "to": 1830,
+     "name": "Sultanate of Ndzuwani"
+    },
+    {
+     "from": 1886,
+     "to": 1909,
+     "name": "France"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Mohéli",
+   "confidence": "moderate",
+   "note": "Established by the Merina exile Ramanetaka (Abderremane) c.1830; earlier under Anjouan. French protectorate 1886."
+  },
+  {
+   "name": "Ngazidja sultanates",
+   "aliases": [
+    "Grande Comore sultanates",
+    "Bambao",
+    "Itsandra",
+    "Mbude",
+    "Washili",
+    "Hamahame",
+    "Mitsamiouli",
+    "Badjini",
+    "Domba",
+    "Hambou"
+   ],
+   "from": 1500,
+   "to": 1886,
+   "seat": {
+    "name": "Moroni (Bambao)",
+    "lat": -11.7,
+    "lon": 43.25
+   },
+   "extent": [
+    [
+     -11.36,
+     43.3
+    ],
+    [
+     -11.6,
+     43.45
+    ],
+    [
+     -11.95,
+     43.5
+    ],
+    [
+     -11.9,
+     43.25
+    ],
+    [
+     -11.5,
+     43.22
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Grande_Comore",
+   "confidence": "moderate",
+   "note": "Seven to eleven rival sultanates on Grande Comore; a Sultan Tibe (paramount) title passed between Bambao and Itsandra. Unified under Said Ali of Bambao with French protection 1886."
+  },
+  {
+   "name": "Sultanate of Maore",
+   "aliases": [
+    "Mayotte",
+    "Maore"
+   ],
+   "from": 1500,
+   "to": 1841,
+   "seat": {
+    "name": "Tsingoni / Dzaoudzi",
+    "lat": -12.78,
+    "lon": 45.23
+   },
+   "extent": [
+    [
+     -12.65,
+     45.08
+    ],
+    [
+     -12.68,
+     45.27
+    ],
+    [
+     -12.98,
+     45.2
+    ],
+    [
+     -12.96,
+     45.1
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1790,
+     "to": 1832,
+     "name": "Sultanate of Ndzuwani"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/History_of_Mayotte",
+   "confidence": "moderate",
+   "note": "Shirazi sultanate (capital Tsingoni); seized by the Sakalava Andriantsoly 1832; ceded to France 1841."
+  },
+  {
+   "name": "Unyanyembe",
+   "aliases": [
+    "Nyamwezi chiefdom of Unyanyembe",
+    "Tabora chiefdom"
+   ],
+   "from": 1700,
+   "to": 1893,
+   "seat": {
+    "name": "Itetemia (Tabora)",
+    "lat": -5.02,
+    "lon": 32.8
+   },
+   "extent": [
+    [
+     -4.6,
+     32.4
+    ],
+    [
+     -4.7,
+     33.2
+    ],
+    [
+     -5.4,
+     33.2
+    ],
+    [
+     -5.4,
+     32.4
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Nyamwezi_people",
+   "confidence": "moderate",
+   "note": "Leading Nyamwezi ntemi chiefdom, host of the Arab caravan base at Tabora; Isike resisted Germany until 1893."
+  },
+  {
+   "name": "Urambo",
+   "aliases": [
+    "Mirambo's state",
+    "Ufyomi-Uliankulu"
+   ],
+   "from": 1860,
+   "to": 1890,
+   "seat": {
+    "name": "Urambo (Iselamagazi)",
+    "lat": -5.07,
+    "lon": 32.08
+   },
+   "extent": [
+    [
+     -3.5,
+     31.3
+    ],
+    [
+     -3.8,
+     33.0
+    ],
+    [
+     -5.2,
+     32.5
+    ],
+    [
+     -5.9,
+     31.6
+    ],
+    [
+     -5.0,
+     30.9
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mirambo",
+   "confidence": "moderate",
+   "note": "Mirambo's ruga-ruga state controlling the Tabora-Ujiji route (height 1871-1884); fragmented after his death 1884."
+  },
+  {
+   "name": "Nyamwezi chiefdoms",
+   "aliases": [
+    "Unyamwezi",
+    "Nyamwezi"
+   ],
+   "from": 1600,
+   "to": 1893,
+   "seat": {
+    "name": "Tabora",
+    "lat": -5.02,
+    "lon": 32.8
+   },
+   "extent": [
+    [
+     -3.6,
+     31.0
+    ],
+    [
+     -3.8,
+     34.0
+    ],
+    [
+     -6.2,
+     34.0
+    ],
+    [
+     -6.3,
+     31.0
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Nyamwezi_people",
+   "confidence": "moderate",
+   "note": "Some 150 ntemi chiefdoms of western Tanzania; Unyanyembe and Urambo listed separately and should draw on top."
+  },
+  {
+   "name": "Sukuma chiefdoms",
+   "aliases": [
+    "Usukuma",
+    "Sukuma"
+   ],
+   "from": 1600,
+   "to": 1890,
+   "seat": {
+    "name": "Usukuma (Kwimba)",
+    "lat": -2.9,
+    "lon": 33.4
+   },
+   "extent": [
+    [
+     -1.8,
+     32.5
+    ],
+    [
+     -2.0,
+     34.3
+    ],
+    [
+     -3.8,
+     34.3
+    ],
+    [
+     -3.6,
+     32.3
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Sukuma_people",
+   "confidence": "low",
+   "note": "Many ntemi chiefdoms south of Lake Victoria."
+  },
+  {
+   "name": "Kimbu chiefdoms",
+   "aliases": [
+    "Ukimbu"
+   ],
+   "from": 1700,
+   "to": 1890,
+   "seat": {
+    "name": "Ukimbu",
+    "lat": -6.6,
+    "lon": 33.5
+   },
+   "reach_km": 80,
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Kimbu_people",
+   "confidence": "low",
+   "note": "Small chiefdoms in the miombo woodland between Nyamwezi and Hehe; overrun by Nyungu ya Mawe (1870s-1884)."
+  },
+  {
+   "name": "Hehe Kingdom",
+   "aliases": [
+    "Uhehe",
+    "Hehe"
+   ],
+   "from": 1855,
+   "to": 1898,
+   "seat": {
+    "name": "Kalenga",
+    "lat": -7.83,
+    "lon": 35.6
+   },
+   "extent": [
+    [
+     -6.8,
+     34.9
+    ],
+    [
+     -7.0,
+     36.4
+    ],
+    [
+     -8.5,
+     36.5
+    ],
+    [
+     -8.9,
+     35.0
+    ],
+    [
+     -7.6,
+     34.4
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Hehe_people",
+   "confidence": "high",
+   "note": "Unified by Munyigumba, expanded by Mkwawa (r.1879-1898), who defeated the Germans at Lugalo 1891; Kalenga fell 1894."
+  },
+  {
+   "name": "Sangu chiefdom",
+   "aliases": [
+    "Usangu",
+    "Sangu"
+   ],
+   "from": 1830,
+   "to": 1893,
+   "seat": {
+    "name": "Utengule (Usangu)",
+    "lat": -8.65,
+    "lon": 34.1
+   },
+   "reach_km": 70,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Hehe_people",
+   "confidence": "low",
+   "note": "Merere's chiefdom on the Usangu plains, Hehe rival."
+  },
+  {
+   "name": "Bena chiefdoms",
+   "aliases": [
+    "Ubena",
+    "Bena"
+   ],
+   "from": 1700,
+   "to": 1890,
+   "seat": {
+    "name": "Ubena (Njombe)",
+    "lat": -9.33,
+    "lon": 34.77
+   },
+   "reach_km": 60,
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Bena_people",
+   "confidence": "low",
+   "note": "Southern highland chiefdoms, partly under Hehe 1870s-1890s."
+  },
+  {
+   "name": "Gogo chiefdoms",
+   "aliases": [
+    "Ugogo",
+    "Gogo"
+   ],
+   "from": 1700,
+   "to": 1890,
+   "seat": {
+    "name": "Ugogo (Dodoma)",
+    "lat": -6.17,
+    "lon": 35.74
+   },
+   "extent": [
+    [
+     -5.4,
+     35.0
+    ],
+    [
+     -5.5,
+     36.4
+    ],
+    [
+     -6.9,
+     36.6
+    ],
+    [
+     -7.0,
+     35.2
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Gogo_people",
+   "confidence": "low",
+   "note": "Small pastoral chiefdoms that levied hongo tolls on the central caravan route."
+  },
+  {
+   "name": "Chagga states",
+   "aliases": [
+    "Chagga chiefdoms",
+    "Kilimanjaro chiefdoms",
+    "Kibosho",
+    "Machame",
+    "Moshi",
+    "Marangu",
+    "Kilema"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Kibosho",
+    "lat": -3.27,
+    "lon": 37.27
+   },
+   "extent": [
+    [
+     -3.0,
+     37.0
+    ],
+    [
+     -3.0,
+     37.7
+    ],
+    [
+     -3.4,
+     37.7
+    ],
+    [
+     -3.4,
+     37.0
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Chaga_people",
+   "confidence": "moderate",
+   "note": "Some 30 mangi chiefdoms on Kilimanjaro's southern slopes; hegemony rotated (Machame 18th c., Kibosho/Sina and Moshi/Rindi-Mandara in the 19th c.); German control 1890s."
+  },
+  {
+   "name": "Kibosho",
+   "aliases": [
+    "Kibosho chiefdom"
+   ],
+   "from": 1700,
+   "to": 1891,
+   "seat": {
+    "name": "Kibosho",
+    "lat": -3.27,
+    "lon": 37.27
+   },
+   "reach_km": 15,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chaga_people",
+   "confidence": "low",
+   "note": "Strongest Chagga state under Mangi Sina (c.1870-1891)."
+  },
+  {
+   "name": "Moshi chiefdom",
+   "aliases": [
+    "Mandara's Moshi",
+    "Old Moshi"
+   ],
+   "from": 1750,
+   "to": 1900,
+   "seat": {
+    "name": "Old Moshi",
+    "lat": -3.3,
+    "lon": 37.4
+   },
+   "reach_km": 15,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Chaga_people",
+   "confidence": "low",
+   "note": "Mangi Rindi (Mandara)'s chiefdom, diplomatically prominent 1860s-1891."
+  },
+  {
+   "name": "Shambaa Kingdom",
+   "aliases": [
+    "Usambara",
+    "Kilindi kingdom",
+    "Shambaai"
+   ],
+   "from": 1720,
+   "to": 1895,
+   "seat": {
+    "name": "Vugha",
+    "lat": -4.85,
+    "lon": 38.32
+   },
+   "extent": [
+    [
+     -4.3,
+     38.1
+    ],
+    [
+     -4.5,
+     38.9
+    ],
+    [
+     -5.3,
+     38.9
+    ],
+    [
+     -5.2,
+     38.2
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Shambaa_people",
+   "confidence": "moderate",
+   "note": "Kilindi dynasty in the Usambara mountains; height under Kimweri ye Nyumbai (c.1815-1862, reaching the coast at Tanga), then civil war; German rule 1890s."
+  },
+  {
+   "name": "Ugweno",
+   "aliases": [
+    "Pare kingdom",
+    "Ugweno"
+   ],
+   "from": 1500,
+   "to": 1880,
+   "seat": {
+    "name": "Ugweno",
+    "lat": -3.68,
+    "lon": 37.68
+   },
+   "reach_km": 35,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Pare_people",
+   "confidence": "low",
+   "note": "Shana dynasty state in the North Pare mountains, fragmented in the 18th-19th c."
+  },
+  {
+   "name": "Zigua",
+   "aliases": [
+    "Zigula",
+    "Uzigua"
+   ],
+   "from": 1600,
+   "to": 1890,
+   "seat": {
+    "name": "Uzigua",
+    "lat": -5.6,
+    "lon": 38.5
+   },
+   "reach_km": 70,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Zigula_people",
+   "confidence": "low",
+   "note": "Chiefdoms of the coastal hinterland behind Pangani; Bwana Heri's Saadani resisted Germany 1889."
+  },
+  {
+   "name": "Zaramo",
+   "aliases": [
+    "Uzaramo"
+   ],
+   "from": 1700,
+   "to": 1890,
+   "seat": {
+    "name": "Uzaramo",
+    "lat": -6.95,
+    "lon": 39.05
+   },
+   "reach_km": 60,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Zaramo_people",
+   "confidence": "low",
+   "note": "Hinterland of Dar es Salaam/Bagamoyo; pazi chiefs controlled caravan tolls."
+  },
+  {
+   "name": "Nyakyusa chiefdoms",
+   "aliases": [
+    "Nyakyusa",
+    "Ngonde"
+   ],
+   "from": 1600,
+   "to": 1890,
+   "seat": {
+    "name": "Nyakyusa (Tukuyu)",
+    "lat": -9.25,
+    "lon": 33.65
+   },
+   "reach_km": 55,
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Nyakyusa_people",
+   "confidence": "low",
+   "note": "Small age-village chiefdoms north of Lake Nyasa; includes the Kyungu kingdom of Ngonde (Karonga)."
+  },
+  {
+   "name": "Fipa kingdoms",
+   "aliases": [
+    "Milansi",
+    "Nkansi",
+    "Ufipa"
+   ],
+   "from": 1600,
+   "to": 1890,
+   "seat": {
+    "name": "Milansi",
+    "lat": -7.95,
+    "lon": 31.65
+   },
+   "reach_km": 70,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Fipa_people",
+   "confidence": "low",
+   "note": "Twa/Milansi and Nkansi dynasties on the Fipa plateau."
+  },
+  {
+   "name": "Songea Ngoni",
+   "aliases": [
+    "Njelu Ngoni",
+    "Mshope Ngoni",
+    "Gwangwara"
+   ],
+   "from": 1858,
+   "to": 1906,
+   "seat": {
+    "name": "Songea",
+    "lat": -10.68,
+    "lon": 35.65
+   },
+   "extent": [
+    [
+     -9.8,
+     34.8
+    ],
+    [
+     -9.8,
+     36.4
+    ],
+    [
+     -11.3,
+     36.4
+    ],
+    [
+     -11.3,
+     34.8
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ngoni_people",
+   "confidence": "moderate",
+   "note": "Two Ngoni (Maseko/Gwangwara) states around Songea founded after migrations from the south; crushed after Maji Maji 1905-06."
+  },
+  {
+   "name": "Maravi (Kalonga)",
+   "aliases": [
+    "Maravi Empire",
+    "Kalonga",
+    "Malawi kingdom"
+   ],
+   "from": 1480,
+   "to": 1720,
+   "seat": {
+    "name": "Mankhamba",
+    "lat": -14.18,
+    "lon": 34.53
+   },
+   "extent": [
+    [
+     -13.6,
+     34.0
+    ],
+    [
+     -13.8,
+     34.8
+    ],
+    [
+     -14.6,
+     35.0
+    ],
+    [
+     -15.0,
+     34.4
+    ],
+    [
+     -14.4,
+     33.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1480,
+     "to": 1590,
+     "extent": [
+      [
+       -13.6,
+       34.0
+      ],
+      [
+       -13.8,
+       34.8
+      ],
+      [
+       -14.6,
+       35.0
+      ],
+      [
+       -15.0,
+       34.4
+      ],
+      [
+       -14.4,
+       33.6
+      ]
+     ]
+    },
+    {
+     "from": 1590,
+     "to": 1660,
+     "extent": [
+      [
+       -12.5,
+       33.0
+      ],
+      [
+       -13.0,
+       35.5
+      ],
+      [
+       -15.0,
+       38.5
+      ],
+      [
+       -16.8,
+       36.0
+      ],
+      [
+       -16.0,
+       33.6
+      ],
+      [
+       -14.5,
+       32.0
+      ]
+     ]
+    },
+    {
+     "from": 1660,
+     "to": 1720,
+     "extent": [
+      [
+       -13.6,
+       34.0
+      ],
+      [
+       -13.8,
+       34.8
+      ],
+      [
+       -14.6,
+       35.0
+      ],
+      [
+       -15.0,
+       34.4
+      ],
+      [
+       -14.4,
+       33.6
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Maravi",
+   "confidence": "moderate",
+   "note": "Phiri-clan paramountcy southwest of Lake Malawi; at its height under Kalonga Masula (c.1600-1650) Maravi influence reached the Zambezi and the Mozambique coast. Declined to a local chieftaincy in the 18th c."
+  },
+  {
+   "name": "Undi kingdom",
+   "aliases": [
+    "Undi",
+    "Chewa kingdom of Undi"
+   ],
+   "from": 1600,
+   "to": 1890,
+   "seat": {
+    "name": "Mano (Mkaika)",
+    "lat": -14.15,
+    "lon": 32.25
+   },
+   "extent": [
+    [
+     -13.4,
+     31.6
+    ],
+    [
+     -13.4,
+     33.0
+    ],
+    [
+     -15.0,
+     33.2
+    ],
+    [
+     -15.2,
+     31.8
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Chewa_people",
+   "confidence": "moderate",
+   "note": "Western Maravi offshoot (Chewa) in eastern Zambia/Tete; gold trade with the Portuguese; weakened by Ngoni (Mpezeni) after 1870."
+  },
+  {
+   "name": "Lundu kingdom",
+   "aliases": [
+    "Lundu",
+    "Manganja kingdom"
+   ],
+   "from": 1590,
+   "to": 1860,
+   "seat": {
+    "name": "Mbewe ya Mitengo (lower Shire)",
+    "lat": -16.35,
+    "lon": 35.1
+   },
+   "extent": [
+    [
+     -15.3,
+     34.7
+    ],
+    [
+     -15.4,
+     35.6
+    ],
+    [
+     -17.5,
+     36.0
+    ],
+    [
+     -17.6,
+     35.1
+    ],
+    [
+     -16.4,
+     34.5
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Maravi",
+   "confidence": "moderate",
+   "note": "Southern Maravi (Manganja) kingdom of the Shire valley; launched the Zimba invasions of the 1590s; fragmented by Kololo and Yao in the 19th c."
+  },
+  {
+   "name": "Kasungu (Mwase)",
+   "aliases": [
+    "Mwase Kasungu",
+    "Kasungu Chewa"
+   ],
+   "from": 1700,
+   "to": 1895,
+   "seat": {
+    "name": "Kasungu",
+    "lat": -13.03,
+    "lon": 33.48
+   },
+   "reach_km": 50,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Kasungu",
+   "confidence": "low",
+   "note": "Chewa chiefdom that resisted Ngoni raids."
+  },
+  {
+   "name": "Chikulamayembe",
+   "aliases": [
+    "Tumbuka kingdom",
+    "Chikulamayembe dynasty"
+   ],
+   "from": 1720,
+   "to": 1855,
+   "seat": {
+    "name": "Bolero",
+    "lat": -11.0,
+    "lon": 33.75
+   },
+   "reach_km": 60,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Tumbuka_people",
+   "confidence": "low",
+   "note": "Trader-founded Tumbuka state in northern Malawi; overrun by Mbelwa's Ngoni c.1855."
+  },
+  {
+   "name": "Mbelwa's Ngoni",
+   "aliases": [
+    "Northern Ngoni",
+    "Jere Ngoni",
+    "Mzimba Ngoni"
+   ],
+   "from": 1855,
+   "to": 1904,
+   "seat": {
+    "name": "Ekwendeni",
+    "lat": -11.36,
+    "lon": 33.88
+   },
+   "extent": [
+    [
+     -10.8,
+     33.4
+    ],
+    [
+     -10.9,
+     34.2
+    ],
+    [
+     -12.2,
+     34.2
+    ],
+    [
+     -12.1,
+     33.3
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ngoni_people",
+   "confidence": "moderate",
+   "note": "Zwangendaba's successor state on the Mzimba plateau; accepted British rule 1904."
+  },
+  {
+   "name": "Mpezeni's Ngoni",
+   "aliases": [
+    "Fort Jameson Ngoni",
+    "Mpezeni"
+   ],
+   "from": 1865,
+   "to": 1898,
+   "seat": {
+    "name": "Mpezeni's capital (near Chipata)",
+    "lat": -13.65,
+    "lon": 32.65
+   },
+   "extent": [
+    [
+     -13.0,
+     32.0
+    ],
+    [
+     -13.0,
+     33.0
+    ],
+    [
+     -14.3,
+     33.0
+    ],
+    [
+     -14.3,
+     32.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ngoni_people",
+   "confidence": "moderate",
+   "note": "Jere Ngoni state in eastern Zambia, conquered by the BSAC 1898."
+  },
+  {
+   "name": "Maseko Ngoni",
+   "aliases": [
+    "Gomani Ngoni",
+    "Ntcheu Ngoni"
+   ],
+   "from": 1870,
+   "to": 1896,
+   "seat": {
+    "name": "Lizulu (Ntcheu)",
+    "lat": -14.6,
+    "lon": 34.6
+   },
+   "reach_km": 50,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ngoni_people",
+   "confidence": "low",
+   "note": "Maseko Ngoni kingdom of Chikusi/Gomani in the Kirk Range; British 1896."
+  },
+  {
+   "name": "Yao chiefdoms",
+   "aliases": [
+    "Yao",
+    "Wayao"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "Mwembe (Mataka)",
+    "lat": -12.65,
+    "lon": 36.6
+   },
+   "extent": [
+    [
+     -11.0,
+     35.0
+    ],
+    [
+     -11.3,
+     37.5
+    ],
+    [
+     -13.5,
+     37.5
+    ],
+    [
+     -15.0,
+     35.5
+    ],
+    [
+     -14.2,
+     34.8
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Yao_people",
+   "confidence": "moderate",
+   "note": "Ivory and slave-trading Yao chiefdoms of the Niassa highlands; migrated into southern Malawi 1850-1870. Larger chiefdoms listed separately."
+  },
+  {
+   "name": "Mataka chiefdom",
+   "aliases": [
+    "Mataka"
+   ],
+   "from": 1820,
+   "to": 1912,
+   "seat": {
+    "name": "Mwembe",
+    "lat": -12.65,
+    "lon": 36.6
+   },
+   "reach_km": 80,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Yao_people",
+   "confidence": "low",
+   "note": "Largest Yao chiefdom (Mataka I Nyambi), Niassa province; Portuguese conquest 1912."
+  },
+  {
+   "name": "Mponda chiefdom",
+   "aliases": [
+    "Mponda"
+   ],
+   "from": 1860,
+   "to": 1891,
+   "seat": {
+    "name": "Mponda's (Mangochi)",
+    "lat": -14.48,
+    "lon": 35.26
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Mangochi",
+   "confidence": "low",
+   "note": "Yao chiefdom at the southern end of Lake Malawi; British 1891."
+  },
+  {
+   "name": "Makanjila chiefdom",
+   "aliases": [
+    "Makanjila"
+   ],
+   "from": 1850,
+   "to": 1895,
+   "seat": {
+    "name": "Makanjila",
+    "lat": -13.75,
+    "lon": 35.05
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Yao_people",
+   "confidence": "low",
+   "note": "Yao lakeshore slave-trading chiefdom with dhow fleet."
+  },
+  {
+   "name": "Massangano",
+   "aliases": [
+    "Da Cruz state",
+    "Bonga's state"
+   ],
+   "from": 1849,
+   "to": 1888,
+   "seat": {
+    "name": "Massangano",
+    "lat": -16.47,
+    "lon": 33.9
+   },
+   "reach_km": 60,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Prazo",
+   "confidence": "low",
+   "note": "Afro-Portuguese aringa state of the Da Cruz family (Bonga) at the Luenha-Zambezi confluence; repulsed several Portuguese expeditions until 1888."
+  },
+  {
+   "name": "Makanga",
+   "aliases": [
+    "Pereira state",
+    "Chicucuru"
+   ],
+   "from": 1840,
+   "to": 1902,
+   "seat": {
+    "name": "Makanga",
+    "lat": -15.75,
+    "lon": 33.45
+   },
+   "reach_km": 60,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Prazo",
+   "confidence": "low",
+   "note": "Pereira family prazo-state north of Tete."
+  },
+  {
+   "name": "Massingire",
+   "aliases": [
+    "Massingir"
+   ],
+   "from": 1860,
+   "to": 1884,
+   "seat": {
+    "name": "Massingire (lower Shire)",
+    "lat": -17.3,
+    "lon": 35.3
+   },
+   "reach_km": 40,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Prazo",
+   "confidence": "low",
+   "note": "Afro-Portuguese chikunda state on the lower Shire; rising 1884."
+  },
+  {
+   "name": "Gorongosa (Sousa)",
+   "aliases": [
+    "Manica e Sofala domain of Manuel António de Sousa",
+    "Gouveia"
+   ],
+   "from": 1863,
+   "to": 1892,
+   "seat": {
+    "name": "Gorongosa",
+    "lat": -18.68,
+    "lon": 34.07
+   },
+   "reach_km": 80,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Manuel_Ant%C3%B3nio_de_Sousa",
+   "confidence": "low",
+   "note": "Goan-Portuguese warlord domain controlling Gorongosa and Barwe."
+  },
+  {
+   "name": "Kingdom of Zimbabwe",
+   "aliases": [
+    "Great Zimbabwe state"
+   ],
+   "from": 1220,
+   "to": 1450,
+   "seat": {
+    "name": "Great Zimbabwe",
+    "lat": -20.27,
+    "lon": 30.93
+   },
+   "extent": [
+    [
+     -19.2,
+     30.0
+    ],
+    [
+     -19.3,
+     32.0
+    ],
+    [
+     -21.0,
+     32.2
+    ],
+    [
+     -21.4,
+     30.2
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Zimbabwe",
+   "confidence": "moderate",
+   "note": "Plateau state centred on Great Zimbabwe; abandoned c.1450, succeeded by Mutapa (north) and Torwa (southwest)."
+  },
+  {
+   "name": "Kingdom of Mutapa",
+   "aliases": [
+    "Mwenemutapa",
+    "Monomotapa",
+    "Munhumutapa"
+   ],
+   "from": 1430,
+   "to": 1760,
+   "seat": {
+    "name": "Zvongombe / Mount Fura",
+    "lat": -16.8,
+    "lon": 31.6
+   },
+   "extent": [
+    [
+     -15.6,
+     30.4
+    ],
+    [
+     -15.8,
+     33.5
+    ],
+    [
+     -17.5,
+     34.7
+    ],
+    [
+     -18.6,
+     32.8
+    ],
+    [
+     -18.0,
+     30.5
+    ],
+    [
+     -16.7,
+     29.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1629,
+     "to": 1690,
+     "name": "Portuguese Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1430,
+     "to": 1690,
+     "seat": {
+      "name": "Zvongombe / Mount Fura",
+      "lat": -16.8,
+      "lon": 31.6
+     },
+     "extent": [
+      [
+       -15.6,
+       30.4
+      ],
+      [
+       -15.8,
+       33.5
+      ],
+      [
+       -17.5,
+       34.7
+      ],
+      [
+       -18.6,
+       32.8
+      ],
+      [
+       -18.0,
+       30.5
+      ],
+      [
+       -16.7,
+       29.8
+      ]
+     ]
+    },
+    {
+     "from": 1690,
+     "to": 1760,
+     "seat": {
+      "name": "Chidima",
+      "lat": -15.95,
+      "lon": 31.2
+     },
+     "extent": [
+      [
+       -15.6,
+       30.4
+      ],
+      [
+       -15.7,
+       32.3
+      ],
+      [
+       -16.6,
+       32.5
+      ],
+      [
+       -16.8,
+       30.6
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+   "confidence": "high",
+   "note": "Northern Shona state on the Zambezi escarpment; at height c.1480-1500 claimed lands to the coast (Uteve, Manyika, Barwe as tributaries). Portuguese vassalage 1629; lost the plateau to the Rozvi 1690s. A rump in Chidima/Dande survived to 1917."
+  },
+  {
+   "name": "Chidima Mutapa",
+   "aliases": [
+    "Mutapa rump",
+    "Dande Mutapa"
+   ],
+   "from": 1760,
+   "to": 1917,
+   "seat": {
+    "name": "Chidima",
+    "lat": -15.95,
+    "lon": 31.2
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1760,
+     "to": 1917,
+     "name": "Portuguese Mozambique"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+   "confidence": "low",
+   "note": "Successor Mutapa line in the Zambezi valley under Portuguese influence; last ruler Chioco killed 1917."
+  },
+  {
+   "name": "Torwa dynasty",
+   "aliases": [
+    "Butua",
+    "Kingdom of Butua",
+    "Torwa"
+   ],
+   "from": 1450,
+   "to": 1683,
+   "seat": {
+    "name": "Khami",
+    "lat": -20.15,
+    "lon": 28.43
+   },
+   "extent": [
+    [
+     -18.5,
+     27.0
+    ],
+    [
+     -18.7,
+     29.5
+    ],
+    [
+     -20.3,
+     30.5
+    ],
+    [
+     -21.8,
+     29.3
+    ],
+    [
+     -21.0,
+     27.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Butua",
+   "confidence": "high",
+   "note": "Southwestern Shona successor of Great Zimbabwe; capital Khami, later Danangombe; overthrown by Changamire Dombo 1683."
+  },
+  {
+   "name": "Rozvi Empire",
+   "aliases": [
+    "Changamire",
+    "Rozwi",
+    "Changamire dynasty"
+   ],
+   "from": 1684,
+   "to": 1866,
+   "seat": {
+    "name": "Danangombe (Dhlo-Dhlo)",
+    "lat": -19.9,
+    "lon": 29.38
+   },
+   "extent": [
+    [
+     -17.6,
+     28.5
+    ],
+    [
+     -17.8,
+     31.3
+    ],
+    [
+     -19.6,
+     32.8
+    ],
+    [
+     -21.6,
+     31.3
+    ],
+    [
+     -21.6,
+     28.3
+    ],
+    [
+     -19.8,
+     27.3
+    ]
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Rozvi_Empire",
+   "confidence": "high",
+   "note": "Changamire Dombo expelled the Portuguese from the plateau 1693-95; capitals Danangombe and Naletale. Shattered by Nguni invasions 1830s; remnants absorbed by Ndebele (last Mambo killed 1866)."
+  },
+  {
+   "name": "Kingdom of Manyika",
+   "aliases": [
+    "Manyika",
+    "Mutasa"
+   ],
+   "from": 1450,
+   "to": 1891,
+   "seat": {
+    "name": "Mutasa's capital (Bonda)",
+    "lat": -18.55,
+    "lon": 32.7
+   },
+   "extent": [
+    [
+     -18.0,
+     32.3
+    ],
+    [
+     -18.0,
+     33.2
+    ],
+    [
+     -19.2,
+     33.2
+    ],
+    [
+     -19.1,
+     32.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1450,
+     "to": 1550,
+     "name": "Kingdom of Mutapa"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Manyika_people",
+   "confidence": "moderate",
+   "note": "Eastern Shona gold kingdom under the Mutasa dynasty; partitioned between British and Portuguese 1891."
+  },
+  {
+   "name": "Kingdom of Barwe",
+   "aliases": [
+    "Barue",
+    "Makombe"
+   ],
+   "from": 1500,
+   "to": 1902,
+   "seat": {
+    "name": "Barwe (Makombe's)",
+    "lat": -17.5,
+    "lon": 33.4
+   },
+   "extent": [
+    [
+     -17.0,
+     32.9
+    ],
+    [
+     -17.0,
+     33.9
+    ],
+    [
+     -18.3,
+     33.9
+    ],
+    [
+     -18.2,
+     32.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1500,
+     "to": 1600,
+     "name": "Kingdom of Mutapa"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+   "confidence": "moderate",
+   "note": "Shona Tonga kingdom ruled by the Makombe; Sousa occupied it 1880-1891; finally conquered by Portugal 1902 (revolt 1917)."
+  },
+  {
+   "name": "Kingdom of Uteve",
+   "aliases": [
+    "Kiteve",
+    "Quiteve",
+    "Teve"
+   ],
+   "from": 1500,
+   "to": 1890,
+   "seat": {
+    "name": "Uteve (Chimoio area)",
+    "lat": -19.4,
+    "lon": 33.6
+   },
+   "extent": [
+    [
+     -18.6,
+     33.1
+    ],
+    [
+     -18.6,
+     34.8
+    ],
+    [
+     -20.2,
+     34.7
+    ],
+    [
+     -20.2,
+     33.1
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1500,
+     "to": 1550,
+     "name": "Kingdom of Mutapa"
+    },
+    {
+     "from": 1835,
+     "to": 1889,
+     "name": "Gaza Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Mutapa",
+   "confidence": "moderate",
+   "note": "Shona kingdom between Manyika and the Sofala coast; under Gaza overlordship from the 1830s."
+  },
+  {
+   "name": "Kingdom of Madanda",
+   "aliases": [
+    "Madanda",
+    "Danda"
+   ],
+   "from": 1500,
+   "to": 1880,
+   "seat": {
+    "name": "Madanda",
+    "lat": -20.8,
+    "lon": 33.7
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1835,
+     "to": 1889,
+     "name": "Gaza Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Shona_people",
+   "confidence": "low",
+   "note": "Small Shona-Ndau kingdom south of Uteve; under Gaza in the 19th c."
+  },
+  {
+   "name": "Gaza Empire",
+   "aliases": [
+    "Gaza",
+    "Shangaan kingdom",
+    "Gaza Nguni"
+   ],
+   "from": 1824,
+   "to": 1895,
+   "seat": {
+    "name": "Mandlakazi",
+    "lat": -24.75,
+    "lon": 33.53
+   },
+   "extent": [
+    [
+     -18.2,
+     32.5
+    ],
+    [
+     -18.8,
+     35.0
+    ],
+    [
+     -22.0,
+     35.4
+    ],
+    [
+     -25.0,
+     33.5
+    ],
+    [
+     -25.0,
+     31.8
+    ],
+    [
+     -21.5,
+     31.4
+    ],
+    [
+     -19.8,
+     32.4
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1824,
+     "to": 1858,
+     "seat": {
+      "name": "Chaimite",
+      "lat": -24.5,
+      "lon": 33.2
+     }
+    },
+    {
+     "from": 1858,
+     "to": 1889,
+     "seat": {
+      "name": "Mossurize",
+      "lat": -20.35,
+      "lon": 32.88
+     }
+    },
+    {
+     "from": 1889,
+     "to": 1895,
+     "seat": {
+      "name": "Mandlakazi",
+      "lat": -24.75,
+      "lon": 33.53
+     }
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Gaza_Empire",
+   "confidence": "high",
+   "note": "Founded by Soshangane after the Ndwandwe defeat; capitals Chaimite, Mossurize (Chirinda highlands, under Mzila) and Mandlakazi (Ngungunhane from 1889). Defeated by Portugal at Coolela/Chaimite 1895."
+  },
+  {
+   "name": "Barotse Kingdom",
+   "aliases": [
+    "Lozi kingdom",
+    "Barotseland",
+    "Bulozi"
+   ],
+   "from": 1700,
+   "to": 1964,
+   "seat": {
+    "name": "Lealui",
+    "lat": -15.22,
+    "lon": 23.03
+   },
+   "extent": [
+    [
+     -13.0,
+     22.0
+    ],
+    [
+     -13.5,
+     24.5
+    ],
+    [
+     -15.5,
+     26.0
+    ],
+    [
+     -17.8,
+     25.5
+    ],
+    [
+     -17.5,
+     23.0
+    ],
+    [
+     -15.5,
+     21.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1840,
+     "to": 1864,
+     "name": "Kololo kingdom"
+    },
+    {
+     "from": 1890,
+     "to": 1964,
+     "name": "British South Africa Company / Northern Rhodesia"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Barotseland",
+   "confidence": "moderate",
+   "note": "Luyana kingdom of the upper Zambezi floodplain under the Litunga; under Kololo rule 1840-1864; BSAC protectorate 1890/1900."
+  },
+  {
+   "name": "Kololo kingdom",
+   "aliases": [
+    "Makololo",
+    "Kololo"
+   ],
+   "from": 1840,
+   "to": 1864,
+   "seat": {
+    "name": "Linyanti",
+    "lat": -18.06,
+    "lon": 23.85
+   },
+   "extent": [
+    [
+     -14.0,
+     22.3
+    ],
+    [
+     -14.5,
+     24.5
+    ],
+    [
+     -17.0,
+     26.0
+    ],
+    [
+     -18.4,
+     25.0
+    ],
+    [
+     -18.5,
+     23.0
+    ],
+    [
+     -16.0,
+     21.9
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Makololo",
+   "confidence": "moderate",
+   "note": "Sotho conquest state of Sebetwane over Bulozi and the Chobe; overthrown by a Lozi rising 1864."
+  },
+  {
+   "name": "Ndwandwe kingdom",
+   "aliases": [
+    "Ndwandwe",
+    "Zwide's kingdom"
+   ],
+   "from": 1780,
+   "to": 1826,
+   "seat": {
+    "name": "Zwide's kraal (Magudu)",
+    "lat": -27.6,
+    "lon": 31.6
+   },
+   "extent": [
+    [
+     -27.0,
+     31.0
+    ],
+    [
+     -27.1,
+     32.2
+    ],
+    [
+     -28.2,
+     32.2
+    ],
+    [
+     -28.3,
+     31.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ndwandwe",
+   "confidence": "moderate",
+   "note": "Zwide's Nguni kingdom on the Pongola-Mkuze; broken by Shaka at the Mhlatuze 1819, offshoots founded Gaza, Songea and Jere Ngoni states; remnant destroyed 1826."
+  },
+  {
+   "name": "Mthethwa Paramountcy",
+   "aliases": [
+    "Mthethwa",
+    "Dingiswayo's kingdom"
+   ],
+   "from": 1780,
+   "to": 1818,
+   "seat": {
+    "name": "Oyengweni",
+    "lat": -28.45,
+    "lon": 32.0
+   },
+   "extent": [
+    [
+     -28.0,
+     31.6
+    ],
+    [
+     -28.0,
+     32.5
+    ],
+    [
+     -28.9,
+     32.2
+    ],
+    [
+     -28.9,
+     31.5
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mthethwa_Paramountcy",
+   "confidence": "moderate",
+   "note": "Dingiswayo's confederacy (Zulu were vassals); collapsed after his death 1818, absorbed by Shaka."
+  },
+  {
+   "name": "Qwabe chiefdom",
+   "aliases": [
+    "Qwabe"
+   ],
+   "from": 1700,
+   "to": 1818,
+   "seat": {
+    "name": "Qwabe (lower Mhlathuze)",
+    "lat": -28.95,
+    "lon": 31.5
+   },
+   "reach_km": 30,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Mfecane",
+   "confidence": "low",
+   "note": "Senior Nguni chiefdom absorbed by the Zulu 1818."
+  },
+  {
+   "name": "Zulu Kingdom",
+   "aliases": [
+    "Zululand",
+    "KwaZulu"
+   ],
+   "from": 1816,
+   "to": 1897,
+   "seat": {
+    "name": "Ulundi (oNdini)",
+    "lat": -28.31,
+    "lon": 31.42
+   },
+   "extent": [
+    [
+     -26.9,
+     30.5
+    ],
+    [
+     -27.0,
+     32.2
+    ],
+    [
+     -28.6,
+     32.4
+    ],
+    [
+     -29.2,
+     31.5
+    ],
+    [
+     -28.9,
+     30.5
+    ],
+    [
+     -27.6,
+     29.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1879,
+     "to": 1897,
+     "name": "British Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1816,
+     "to": 1828,
+     "seat": {
+      "name": "KwaBulawayo",
+      "lat": -28.75,
+      "lon": 31.47
+     },
+     "extent": [
+      [
+       -26.9,
+       30.5
+      ],
+      [
+       -27.0,
+       32.2
+      ],
+      [
+       -28.6,
+       32.4
+      ],
+      [
+       -29.5,
+       31.4
+      ],
+      [
+       -30.8,
+       30.3
+      ],
+      [
+       -29.0,
+       29.9
+      ],
+      [
+       -27.6,
+       29.9
+      ]
+     ]
+    },
+    {
+     "from": 1828,
+     "to": 1840,
+     "seat": {
+      "name": "uMgungundlovu",
+      "lat": -28.42,
+      "lon": 31.25
+     },
+     "extent": [
+      [
+       -26.9,
+       30.5
+      ],
+      [
+       -27.0,
+       32.2
+      ],
+      [
+       -28.6,
+       32.4
+      ],
+      [
+       -29.5,
+       31.4
+      ],
+      [
+       -30.8,
+       30.3
+      ],
+      [
+       -29.0,
+       29.9
+      ],
+      [
+       -27.6,
+       29.9
+      ]
+     ]
+    },
+    {
+     "from": 1840,
+     "to": 1897,
+     "seat": {
+      "name": "Ulundi (oNdini)",
+      "lat": -28.31,
+      "lon": 31.42
+     },
+     "extent": [
+      [
+       -26.9,
+       30.5
+      ],
+      [
+       -27.0,
+       32.2
+      ],
+      [
+       -28.6,
+       32.4
+      ],
+      [
+       -29.2,
+       31.5
+      ],
+      [
+       -28.9,
+       30.5
+      ],
+      [
+       -27.6,
+       29.9
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Zulu_Kingdom",
+   "confidence": "high",
+   "note": "Shaka (KwaBulawayo), Dingane (uMgungundlovu), Mpande, Cetshwayo (Ulundi). Lands south of the Thukela lost to Natal after 1838-40. Anglo-Zulu War 1879; partitioned into 13 chiefdoms; annexed to Natal 1897."
+  },
+  {
+   "name": "Kingdom of Eswatini",
+   "aliases": [
+    "Swazi kingdom",
+    "Swaziland",
+    "Ngwane"
+   ],
+   "from": 1745,
+   "to": 1968,
+   "seat": {
+    "name": "Lobamba",
+    "lat": -26.45,
+    "lon": 31.2
+   },
+   "extent": [
+    [
+     -25.7,
+     30.8
+    ],
+    [
+     -25.7,
+     32.0
+    ],
+    [
+     -27.3,
+     32.1
+    ],
+    [
+     -27.3,
+     30.8
+    ],
+    [
+     -26.5,
+     30.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1894,
+     "to": 1899,
+     "name": "South African Republic"
+    },
+    {
+     "from": 1903,
+     "to": 1968,
+     "name": "British Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1840,
+     "to": 1868,
+     "seat": {
+      "name": "Hhohho / Ezulwini",
+      "lat": -26.4,
+      "lon": 31.2
+     },
+     "extent": [
+      [
+       -24.8,
+       30.7
+      ],
+      [
+       -25.0,
+       31.9
+      ],
+      [
+       -27.3,
+       32.1
+      ],
+      [
+       -27.3,
+       30.6
+      ],
+      [
+       -25.9,
+       30.3
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Eswatini",
+   "confidence": "high",
+   "note": "Dlamini kingdom (Ngwane III, Sobhuza I, Mswati II); Mswati II's raiding reach extended north into the eastern Transvaal (c.1840-1868). ZAR protectorate 1894, British 1903."
+  },
+  {
+   "name": "Mabhudu-Tembe",
+   "aliases": [
+    "Maputo kingdom",
+    "Tembe",
+    "Mabudu"
+   ],
+   "from": 1700,
+   "to": 1895,
+   "seat": {
+    "name": "Mabhudu (Maputaland)",
+    "lat": -26.6,
+    "lon": 32.6
+   },
+   "reach_km": 60,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Tsonga_people",
+   "confidence": "low",
+   "note": "Tsonga kingdom south of Delagoa Bay controlling its trade; partitioned Anglo-Portuguese 1895."
+  },
+  {
+   "name": "Hlubi chiefdom",
+   "aliases": [
+    "Hlubi"
+   ],
+   "from": 1700,
+   "to": 1873,
+   "seat": {
+    "name": "Hlubi (upper Mzinyathi)",
+    "lat": -27.9,
+    "lon": 30.0
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Hlubi_people",
+   "confidence": "low",
+   "note": "Nguni chiefdom scattered by Mfecane 1819; later Langalibalele's location in Natal (1849-1873)."
+  },
+  {
+   "name": "Ngwane (Matiwane)",
+   "aliases": [
+    "amaNgwane"
+   ],
+   "from": 1800,
+   "to": 1828,
+   "seat": {
+    "name": "Ngwane (Wakkerstroom area)",
+    "lat": -27.4,
+    "lon": 30.2
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Mfecane",
+   "confidence": "low",
+   "note": "Matiwane's Ngwane, migratory during the Mfecane; destroyed at Mbholompo 1828."
+  },
+  {
+   "name": "Basotho Kingdom",
+   "aliases": [
+    "Lesotho",
+    "Basutoland",
+    "Moshoeshoe's kingdom"
+   ],
+   "from": 1822,
+   "to": 1868,
+   "seat": {
+    "name": "Thaba Bosiu",
+    "lat": -29.35,
+    "lon": 27.68
+   },
+   "extent": [
+    [
+     -28.5,
+     27.3
+    ],
+    [
+     -28.6,
+     28.6
+    ],
+    [
+     -29.6,
+     29.3
+    ],
+    [
+     -30.6,
+     28.0
+    ],
+    [
+     -30.0,
+     26.9
+    ],
+    [
+     -29.0,
+     26.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1868,
+     "to": 1966,
+     "name": "British Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Basotho",
+   "confidence": "high",
+   "note": "Moshoeshoe I's kingdom built from Mfecane refugees; lost the lowlands west of the Caledon to the Orange Free State (wars 1858, 1865-68); British protectorate (Basutoland) 1868."
+  },
+  {
+   "name": "Batlokwa",
+   "aliases": [
+    "Tlokwa",
+    "Mantatisi's Tlokwa"
+   ],
+   "from": 1820,
+   "to": 1853,
+   "seat": {
+    "name": "Joala Boholo",
+    "lat": -28.7,
+    "lon": 28.2
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Batlokwa",
+   "confidence": "low",
+   "note": "MaNthatisi and Sekonyela's Tlokwa on the upper Caledon; defeated by Moshoeshoe 1853."
+  },
+  {
+   "name": "Mthwakazi",
+   "aliases": [
+    "Ndebele kingdom",
+    "Matabeleland",
+    "Northern Ndebele"
+   ],
+   "from": 1823,
+   "to": 1893,
+   "seat": {
+    "name": "Bulawayo (koBulawayo)",
+    "lat": -20.15,
+    "lon": 28.58
+   },
+   "extent": [
+    [
+     -17.8,
+     27.0
+    ],
+    [
+     -18.0,
+     29.5
+    ],
+    [
+     -19.5,
+     30.5
+    ],
+    [
+     -21.2,
+     30.0
+    ],
+    [
+     -21.6,
+     28.3
+    ],
+    [
+     -20.4,
+     26.8
+    ],
+    [
+     -19.0,
+     26.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1823,
+     "to": 1827,
+     "seat": {
+      "name": "ekuPumuleni (Pretoria area)",
+      "lat": -25.6,
+      "lon": 28.4
+     },
+     "extent": [
+      [
+       -24.8,
+       27.6
+      ],
+      [
+       -24.8,
+       29.2
+      ],
+      [
+       -26.0,
+       29.2
+      ],
+      [
+       -26.0,
+       27.6
+      ]
+     ]
+    },
+    {
+     "from": 1827,
+     "to": 1838,
+     "seat": {
+      "name": "Mosega",
+      "lat": -25.6,
+      "lon": 26.1
+     },
+     "extent": [
+      [
+       -24.6,
+       25.6
+      ],
+      [
+       -24.8,
+       28.0
+      ],
+      [
+       -26.2,
+       28.0
+      ],
+      [
+       -26.4,
+       25.6
+      ]
+     ]
+    },
+    {
+     "from": 1838,
+     "to": 1893,
+     "seat": {
+      "name": "Bulawayo (koBulawayo)",
+      "lat": -20.15,
+      "lon": 28.58
+     },
+     "extent": [
+      [
+       -17.8,
+       27.0
+      ],
+      [
+       -18.0,
+       29.5
+      ],
+      [
+       -19.5,
+       30.5
+      ],
+      [
+       -21.2,
+       30.0
+      ],
+      [
+       -21.6,
+       28.3
+      ],
+      [
+       -20.4,
+       26.8
+      ],
+      [
+       -19.0,
+       26.5
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Northern_Ndebele_people",
+   "confidence": "high",
+   "note": "Mzilikazi's state, on the highveld (ekuPumuleni, Mosega, eGabeni) 1827-1837, then on the Zimbabwe plateau from 1838-40; Lobengula; destroyed by the BSAC 1893."
+  },
+  {
+   "name": "Maroteng Pedi kingdom",
+   "aliases": [
+    "Pedi",
+    "Bapedi",
+    "Sekhukhuneland"
+   ],
+   "from": 1650,
+   "to": 1879,
+   "seat": {
+    "name": "Tsate",
+    "lat": -24.83,
+    "lon": 30.05
+   },
+   "extent": [
+    [
+     -24.2,
+     29.4
+    ],
+    [
+     -24.0,
+     30.5
+    ],
+    [
+     -25.2,
+     30.5
+    ],
+    [
+     -25.4,
+     29.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1780,
+     "to": 1824,
+     "extent": [
+      [
+       -23.6,
+       28.8
+      ],
+      [
+       -23.6,
+       30.8
+      ],
+      [
+       -25.4,
+       31.0
+      ],
+      [
+       -25.8,
+       29.2
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Pedi_people",
+   "confidence": "high",
+   "note": "Maroteng paramountcy (Thulare, Sekwati, Sekhukhune) between the Olifants and Steelpoort; conquered by British/Swazi force 1879."
+  },
+  {
+   "name": "Venda kingdom",
+   "aliases": [
+    "Venda",
+    "Singo kingdom",
+    "Thohoyandou's kingdom"
+   ],
+   "from": 1700,
+   "to": 1898,
+   "seat": {
+    "name": "Dzata",
+    "lat": -22.92,
+    "lon": 30.3
+   },
+   "extent": [
+    [
+     -22.4,
+     29.9
+    ],
+    [
+     -22.4,
+     31.3
+    ],
+    [
+     -23.3,
+     31.3
+    ],
+    [
+     -23.3,
+     29.9
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Venda",
+   "confidence": "moderate",
+   "note": "Singo dynasty of the Soutpansberg (capital Dzata); later split among chiefdoms (Makhado, Mphephu); conquered by the ZAR 1898."
+  },
+  {
+   "name": "Lobedu",
+   "aliases": [
+    "Balobedu",
+    "Rain Queen's kingdom",
+    "Modjadji"
+   ],
+   "from": 1600,
+   "to": 1900,
+   "seat": {
+    "name": "GaModjadji",
+    "lat": -23.63,
+    "lon": 30.33
+   },
+   "reach_km": 30,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Balobedu",
+   "confidence": "low",
+   "note": "Sacred queenship (Modjadji) from c.1800 in the Molototsi valley."
+  },
+  {
+   "name": "Ndzundza Ndebele",
+   "aliases": [
+    "Southern Ndebele",
+    "Mapoch"
+   ],
+   "from": 1600,
+   "to": 1883,
+   "seat": {
+    "name": "Erholweni (Mapoch's caves)",
+    "lat": -25.2,
+    "lon": 29.88
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Southern_Ndebele_people",
+   "confidence": "low",
+   "note": "Southern Ndebele kingdom of Nyabela; defeated by the ZAR in the Mapoch war 1882-83."
+  },
+  {
+   "name": "Bangwato",
+   "aliases": [
+    "Ngwato",
+    "Bamangwato"
+   ],
+   "from": 1795,
+   "to": 1966,
+   "seat": {
+    "name": "Shoshong",
+    "lat": -23.03,
+    "lon": 26.5
+   },
+   "extent": [
+    [
+     -20.5,
+     25.5
+    ],
+    [
+     -20.7,
+     27.5
+    ],
+    [
+     -22.4,
+     28.3
+    ],
+    [
+     -23.5,
+     27.0
+    ],
+    [
+     -23.6,
+     25.6
+    ],
+    [
+     -22.0,
+     24.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1966,
+     "name": "British Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bamangwato",
+   "confidence": "high",
+   "note": "Largest Tswana state (Sekgoma I, Khama III); capital Shoshong, Palapye 1889, Serowe 1902. British Bechuanaland Protectorate 1885."
+  },
+  {
+   "name": "Bakwena",
+   "aliases": [
+    "Kwena"
+   ],
+   "from": 1600,
+   "to": 1966,
+   "seat": {
+    "name": "Molepolole",
+    "lat": -24.41,
+    "lon": 25.5
+   },
+   "extent": [
+    [
+     -23.5,
+     24.5
+    ],
+    [
+     -23.6,
+     26.0
+    ],
+    [
+     -24.8,
+     26.0
+    ],
+    [
+     -24.8,
+     24.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1966,
+     "name": "British Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bakwena",
+   "confidence": "moderate",
+   "note": "Senior Tswana chiefdom (Sechele, Livingstone's convert); seats Dithubaruba, Kolobeng, Dimawe, Molepolole."
+  },
+  {
+   "name": "Bangwaketse",
+   "aliases": [
+    "Ngwaketse"
+   ],
+   "from": 1700,
+   "to": 1966,
+   "seat": {
+    "name": "Kanye",
+    "lat": -24.98,
+    "lon": 25.35
+   },
+   "extent": [
+    [
+     -24.4,
+     24.0
+    ],
+    [
+     -24.4,
+     25.6
+    ],
+    [
+     -25.6,
+     25.6
+    ],
+    [
+     -25.6,
+     24.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1966,
+     "name": "British Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bangwaketse",
+   "confidence": "moderate",
+   "note": "Southern Tswana chiefdom (Makaba II, Gaseitsiwe, Bathoen)."
+  },
+  {
+   "name": "Batawana",
+   "aliases": [
+    "Tawana",
+    "Ngamiland"
+   ],
+   "from": 1795,
+   "to": 1966,
+   "seat": {
+    "name": "Toteng / Maun",
+    "lat": -20.0,
+    "lon": 23.42
+   },
+   "extent": [
+    [
+     -18.2,
+     21.5
+    ],
+    [
+     -18.0,
+     24.5
+    ],
+    [
+     -20.5,
+     24.5
+    ],
+    [
+     -21.0,
+     21.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1966,
+     "name": "British Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Batawana_people",
+   "confidence": "moderate",
+   "note": "Ngwato offshoot ruling the Okavango-Lake Ngami region over Yei, Mbukushu and San."
+  },
+  {
+   "name": "Bakgatla baga Kgafela",
+   "aliases": [
+    "Kgatla"
+   ],
+   "from": 1700,
+   "to": 1966,
+   "seat": {
+    "name": "Mochudi",
+    "lat": -24.38,
+    "lon": 26.15
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bakgatla",
+   "confidence": "low",
+   "note": "Tswana chiefdom at Saulspoort (Transvaal) moving to Mochudi 1871."
+  },
+  {
+   "name": "Barolong",
+   "aliases": [
+    "Rolong",
+    "Barolong boo Ratshidi",
+    "Seleka Rolong"
+   ],
+   "from": 1500,
+   "to": 1895,
+   "seat": {
+    "name": "Mafikeng",
+    "lat": -25.85,
+    "lon": 25.64
+   },
+   "reach_km": 70,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Barolong",
+   "confidence": "low",
+   "note": "Rolong chiefdoms (Ratshidi at Mafikeng/Lotlhakane under Montshiwa; Seleka at Thaba Nchu 1833-1884). Tribal lands split by the ZAR-British border."
+  },
+  {
+   "name": "Bahurutshe",
+   "aliases": [
+    "Hurutshe"
+   ],
+   "from": 1500,
+   "to": 1840,
+   "seat": {
+    "name": "Kaditshwene",
+    "lat": -25.35,
+    "lon": 26.05
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Tswana_people",
+   "confidence": "low",
+   "note": "Senior Tswana chiefdom with stone-walled capital Kaditshwene (c.15-20,000 people 1820); scattered by the Mfecane."
+  },
+  {
+   "name": "Batlhaping",
+   "aliases": [
+    "Tlhaping",
+    "Thlaping"
+   ],
+   "from": 1600,
+   "to": 1895,
+   "seat": {
+    "name": "Dithakong / Taung",
+    "lat": -27.55,
+    "lon": 24.78
+   },
+   "reach_km": 70,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Tswana_people",
+   "confidence": "low",
+   "note": "Southern Tswana chiefdom (Mothibi, Jantjie, Mankurwane); annexed to British Bechuanaland 1885, Cape 1895."
+  },
+  {
+   "name": "Xhosa kingdom",
+   "aliases": [
+    "amaXhosa",
+    "Tshawe paramountcy"
+   ],
+   "from": 1400,
+   "to": 1775,
+   "seat": {
+    "name": "Xhosa royal kraal (Kei valley)",
+    "lat": -32.55,
+    "lon": 27.85
+   },
+   "extent": [
+    [
+     -31.8,
+     26.5
+    ],
+    [
+     -31.8,
+     28.5
+    ],
+    [
+     -32.6,
+     28.8
+    ],
+    [
+     -33.4,
+     27.6
+    ],
+    [
+     -33.6,
+     26.4
+    ],
+    [
+     -32.5,
+     26.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Xhosa_people",
+   "confidence": "moderate",
+   "note": "Tshawe-led Xhosa paramountcy; split under Phalo (d.1775) into Gcaleka and Rharhabe houses."
+  },
+  {
+   "name": "Gcaleka Xhosa",
+   "aliases": [
+    "amaGcaleka",
+    "Gcalekaland"
+   ],
+   "from": 1775,
+   "to": 1878,
+   "seat": {
+    "name": "Gcuwa (Butterworth)",
+    "lat": -32.33,
+    "lon": 28.15
+   },
+   "extent": [
+    [
+     -31.8,
+     27.8
+    ],
+    [
+     -31.8,
+     28.6
+    ],
+    [
+     -32.6,
+     28.8
+    ],
+    [
+     -32.8,
+     28.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Gcaleka_House",
+   "confidence": "moderate",
+   "note": "Senior Xhosa house east of the Kei (Hintsa, Sarhili); cattle-killing 1856-57; annexed after the 9th Frontier War 1878."
+  },
+  {
+   "name": "Rharhabe Xhosa",
+   "aliases": [
+    "amaRharhabe",
+    "Ngqika",
+    "Ngqika Xhosa"
+   ],
+   "from": 1775,
+   "to": 1878,
+   "seat": {
+    "name": "Ngqika (Keiskammahoek)",
+    "lat": -32.7,
+    "lon": 27.15
+   },
+   "extent": [
+    [
+     -32.2,
+     26.4
+    ],
+    [
+     -32.2,
+     27.6
+    ],
+    [
+     -32.9,
+     28.0
+    ],
+    [
+     -33.3,
+     27.1
+    ],
+    [
+     -33.0,
+     26.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1847,
+     "to": 1878,
+     "name": "British Kaffraria"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Rharhabe_House",
+   "confidence": "moderate",
+   "note": "Junior Xhosa house west of the Kei (Ngqika, Maqoma, Sandile); lands annexed as Queen Adelaide Province 1835 and British Kaffraria 1847; incorporated by 1878."
+  },
+  {
+   "name": "Thembu kingdom",
+   "aliases": [
+    "abaThembu",
+    "Thembuland"
+   ],
+   "from": 1600,
+   "to": 1885,
+   "seat": {
+    "name": "Bumbane (Mthatha)",
+    "lat": -31.6,
+    "lon": 28.6
+   },
+   "extent": [
+    [
+     -31.2,
+     27.3
+    ],
+    [
+     -31.0,
+     28.7
+    ],
+    [
+     -31.9,
+     28.9
+    ],
+    [
+     -32.1,
+     27.4
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Thembu_people",
+   "confidence": "moderate",
+   "note": "Cape Nguni kingdom (Ngubengcuka, Dalindyebo); annexed to the Cape 1885."
+  },
+  {
+   "name": "Mpondo kingdom",
+   "aliases": [
+    "amaMpondo",
+    "Pondoland"
+   ],
+   "from": 1700,
+   "to": 1894,
+   "seat": {
+    "name": "Qawukeni (Lusikisiki)",
+    "lat": -31.36,
+    "lon": 29.58
+   },
+   "extent": [
+    [
+     -30.6,
+     29.2
+    ],
+    [
+     -30.8,
+     30.2
+    ],
+    [
+     -31.6,
+     29.7
+    ],
+    [
+     -31.5,
+     28.9
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mpondo_people",
+   "confidence": "moderate",
+   "note": "Faku's kingdom between the Mthatha and Mtamvuna; split East/West Pondoland 1840s; last independent Nguni polity annexed to the Cape 1894."
+  },
+  {
+   "name": "Mpondomise",
+   "aliases": [
+    "amaMpondomise"
+   ],
+   "from": 1600,
+   "to": 1880,
+   "seat": {
+    "name": "Tsolo",
+    "lat": -31.3,
+    "lon": 28.75
+   },
+   "reach_km": 35,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Xhosa_people",
+   "confidence": "low",
+   "note": "Cape Nguni chiefdom; rebellion and annexation 1880."
+  },
+  {
+   "name": "Bhaca",
+   "aliases": [
+    "amaBhaca"
+   ],
+   "from": 1825,
+   "to": 1880,
+   "seat": {
+    "name": "Mount Frere",
+    "lat": -30.9,
+    "lon": 28.98
+   },
+   "reach_km": 30,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Mfecane",
+   "confidence": "low",
+   "note": "Madzikane's Mfecane-era chiefdom."
+  },
+  {
+   "name": "Cochoqua",
+   "aliases": [
+    "Saldanhars",
+    "Cochoqua Khoikhoi"
+   ],
+   "from": 1400,
+   "to": 1713,
+   "seat": {
+    "name": "Saldanha Bay hinterland",
+    "lat": -33.0,
+    "lon": 18.3
+   },
+   "reach_km": 80,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Khoikhoi",
+   "confidence": "low",
+   "note": "Largest Cape Khoikhoi chiefdom (Oedasoa, Gonnema); destroyed by VOC wars 1673-77 and smallpox 1713."
+  },
+  {
+   "name": "Chainouqua",
+   "aliases": [
+    "Chainouqua Khoikhoi"
+   ],
+   "from": 1400,
+   "to": 1713,
+   "seat": {
+    "name": "Riviersonderend",
+    "lat": -34.15,
+    "lon": 19.9
+   },
+   "reach_km": 60,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Khoikhoi",
+   "confidence": "low",
+   "note": "Cape Khoikhoi chiefdom east of the Hottentots Holland."
+  },
+  {
+   "name": "Hessequa",
+   "aliases": [
+    "Hessequa Khoikhoi"
+   ],
+   "from": 1400,
+   "to": 1730,
+   "seat": {
+    "name": "Hessequa (Swellendam-Riversdale)",
+    "lat": -34.1,
+    "lon": 20.9
+   },
+   "reach_km": 70,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Khoikhoi",
+   "confidence": "low",
+   "note": "Khoikhoi pastoral chiefdom, cattle trade with VOC."
+  },
+  {
+   "name": "Attaqua and Outeniqua",
+   "aliases": [
+    "Attaqua",
+    "Outeniqua"
+   ],
+   "from": 1400,
+   "to": 1760,
+   "seat": {
+    "name": "Attaqua kloof",
+    "lat": -33.8,
+    "lon": 22.0
+   },
+   "reach_km": 80,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Khoikhoi",
+   "confidence": "low",
+   "note": "Southern Cape Khoikhoi groups."
+  },
+  {
+   "name": "Inqua",
+   "aliases": [
+    "Inqua Khoikhoi",
+    "Hoengeyqua"
+   ],
+   "from": 1400,
+   "to": 1740,
+   "seat": {
+    "name": "Inqua (upper Gamtoos)",
+    "lat": -33.3,
+    "lon": 24.8
+   },
+   "reach_km": 100,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Khoikhoi",
+   "confidence": "low",
+   "note": "Powerful inland Khoikhoi chiefdom (Hykon) of the late 17th c."
+  },
+  {
+   "name": "Gonaqua",
+   "aliases": [
+    "Gona",
+    "Gonaqua Khoikhoi"
+   ],
+   "from": 1400,
+   "to": 1780,
+   "seat": {
+    "name": "Gonaqua (Sundays-Fish)",
+    "lat": -33.3,
+    "lon": 26.2
+   },
+   "reach_km": 80,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Khoikhoi",
+   "confidence": "low",
+   "note": "Eastern Khoikhoi, heavily intermixed with Xhosa (Gqunukhwebe)."
+  },
+  {
+   "name": "Little Namaqua",
+   "aliases": [
+    "Little Nama",
+    "Namaqualand Khoikhoi"
+   ],
+   "from": 1400,
+   "to": 1850,
+   "seat": {
+    "name": "Kamiesberg (Leliefontein)",
+    "lat": -30.3,
+    "lon": 18.0
+   },
+   "reach_km": 150,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Namaqualand",
+   "confidence": "low",
+   "note": "Nama pastoralists south of the Orange; Leliefontein and Steinkopf reserves after 1810s."
+  },
+  {
+   "name": "Korana",
+   "aliases": [
+    "!Kora",
+    "Koranna"
+   ],
+   "from": 1700,
+   "to": 1880,
+   "seat": {
+    "name": "Korana (middle Orange-Vaal)",
+    "lat": -28.7,
+    "lon": 24.8
+   },
+   "reach_km": 150,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Korana_people",
+   "confidence": "low",
+   "note": "Khoikhoi/Oorlam raiding groups along the middle Orange and Vaal; defeated in Korana wars 1868-1879."
+  },
+  {
+   "name": "Griqualand West",
+   "aliases": [
+    "Griqua (Waterboer)",
+    "Klaarwater"
+   ],
+   "from": 1804,
+   "to": 1871,
+   "seat": {
+    "name": "Griquatown",
+    "lat": -28.85,
+    "lon": 23.25
+   },
+   "extent": [
+    [
+     -28.0,
+     22.5
+    ],
+    [
+     -28.0,
+     24.6
+    ],
+    [
+     -29.4,
+     24.8
+    ],
+    [
+     -29.4,
+     22.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1871,
+     "to": 1880,
+     "name": "British Empire"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Griqualand_West",
+   "confidence": "moderate",
+   "note": "Griqua captaincy (Barends, Waterboer) at Klaarwater/Griquatown; diamond fields annexed by Britain 1871."
+  },
+  {
+   "name": "Philippolis Griqua",
+   "aliases": [
+    "Adam Kok's Griqua"
+   ],
+   "from": 1826,
+   "to": 1861,
+   "seat": {
+    "name": "Philippolis",
+    "lat": -30.27,
+    "lon": 25.27
+   },
+   "reach_km": 50,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Philippolis",
+   "confidence": "low",
+   "note": "Adam Kok II/III's captaincy north of the Orange; sold out and trekked to Griqualand East 1861-62."
+  },
+  {
+   "name": "Griqualand East",
+   "aliases": [
+    "Nomansland",
+    "Kokstad Griqua"
+   ],
+   "from": 1862,
+   "to": 1874,
+   "seat": {
+    "name": "Kokstad",
+    "lat": -30.55,
+    "lon": 29.42
+   },
+   "extent": [
+    [
+     -30.0,
+     28.9
+    ],
+    [
+     -30.0,
+     29.9
+    ],
+    [
+     -30.9,
+     29.9
+    ],
+    [
+     -30.9,
+     28.9
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Griqualand_East",
+   "confidence": "moderate",
+   "note": "Adam Kok III's Griqua republic; annexed to the Cape 1874/1879."
+  },
+  {
+   "name": "Cape Colony",
+   "aliases": [
+    "Dutch Cape Colony",
+    "Kaapkolonie",
+    "Cape of Good Hope"
+   ],
+   "from": 1652,
+   "to": 1910,
+   "seat": {
+    "name": "Cape Town",
+    "lat": -33.92,
+    "lon": 18.42
+   },
+   "extent": [
+    [
+     -28.6,
+     16.5
+    ],
+    [
+     -28.6,
+     20.0
+    ],
+    [
+     -30.0,
+     25.0
+    ],
+    [
+     -31.5,
+     27.5
+    ],
+    [
+     -33.0,
+     28.0
+    ],
+    [
+     -34.0,
+     24.0
+    ],
+    [
+     -34.8,
+     20.0
+    ],
+    [
+     -34.0,
+     18.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1652,
+     "to": 1795,
+     "name": "Dutch East India Company"
+    },
+    {
+     "from": 1806,
+     "to": 1910,
+     "name": "British Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1652,
+     "to": 1700,
+     "extent": [
+      [
+       -33.0,
+       18.0
+      ],
+      [
+       -33.0,
+       19.0
+      ],
+      [
+       -34.2,
+       19.2
+      ],
+      [
+       -34.4,
+       18.4
+      ]
+     ]
+    },
+    {
+     "from": 1700,
+     "to": 1778,
+     "extent": [
+      [
+       -31.5,
+       18.2
+      ],
+      [
+       -31.8,
+       20.5
+      ],
+      [
+       -33.0,
+       23.5
+      ],
+      [
+       -34.2,
+       23.0
+      ],
+      [
+       -34.5,
+       20.0
+      ],
+      [
+       -34.4,
+       18.4
+      ]
+     ]
+    },
+    {
+     "from": 1778,
+     "to": 1847,
+     "extent": [
+      [
+       -30.5,
+       17.8
+      ],
+      [
+       -31.0,
+       22.0
+      ],
+      [
+       -32.0,
+       26.5
+      ],
+      [
+       -33.6,
+       26.9
+      ],
+      [
+       -34.2,
+       23.0
+      ],
+      [
+       -34.8,
+       20.0
+      ],
+      [
+       -34.4,
+       18.4
+      ]
+     ]
+    },
+    {
+     "from": 1847,
+     "to": 1910,
+     "extent": [
+      [
+       -28.6,
+       16.5
+      ],
+      [
+       -28.6,
+       20.0
+      ],
+      [
+       -30.0,
+       25.0
+      ],
+      [
+       -31.5,
+       27.5
+      ],
+      [
+       -33.0,
+       28.0
+      ],
+      [
+       -34.0,
+       24.0
+      ],
+      [
+       -34.8,
+       20.0
+      ],
+      [
+       -34.0,
+       18.3
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Cape_Colony",
+   "confidence": "high",
+   "note": "VOC colony 1652-1795/1803-06; Batavian Republic 1803-06; British from 1806. Frontier advanced from Cape Peninsula to the Fish River (1778) and Orange/Kei (1847-1885)."
+  },
+  {
+   "name": "Natalia Republic",
+   "aliases": [
+    "Republic of Natalia",
+    "Natalia"
+   ],
+   "from": 1839,
+   "to": 1843,
+   "seat": {
+    "name": "Pietermaritzburg",
+    "lat": -29.6,
+    "lon": 30.38
+   },
+   "extent": [
+    [
+     -27.9,
+     29.6
+    ],
+    [
+     -28.6,
+     31.4
+    ],
+    [
+     -29.9,
+     31.0
+    ],
+    [
+     -30.6,
+     30.4
+    ],
+    [
+     -29.6,
+     29.4
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Natalia_Republic",
+   "confidence": "high",
+   "note": "Voortrekker republic after Blood River; annexed by Britain 1843."
+  },
+  {
+   "name": "Colony of Natal",
+   "aliases": [
+    "Natal"
+   ],
+   "from": 1843,
+   "to": 1910,
+   "seat": {
+    "name": "Pietermaritzburg",
+    "lat": -29.6,
+    "lon": 30.38
+   },
+   "extent": [
+    [
+     -27.9,
+     29.6
+    ],
+    [
+     -28.6,
+     31.4
+    ],
+    [
+     -29.9,
+     31.0
+    ],
+    [
+     -31.05,
+     30.2
+    ],
+    [
+     -30.3,
+     29.1
+    ],
+    [
+     -28.6,
+     29.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1843,
+     "to": 1910,
+     "name": "British Empire"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Colony_of_Natal",
+   "confidence": "high",
+   "note": "British colony between the Thukela/Buffalo and Mtamvuna; Zululand added 1897."
+  },
+  {
+   "name": "Orange Free State",
+   "aliases": [
+    "Oranje-Vrijstaat",
+    "OFS"
+   ],
+   "from": 1854,
+   "to": 1902,
+   "seat": {
+    "name": "Bloemfontein",
+    "lat": -29.12,
+    "lon": 26.21
+   },
+   "extent": [
+    [
+     -26.9,
+     27.5
+    ],
+    [
+     -27.3,
+     29.3
+    ],
+    [
+     -28.6,
+     28.9
+    ],
+    [
+     -30.4,
+     27.3
+    ],
+    [
+     -30.7,
+     25.2
+    ],
+    [
+     -29.0,
+     24.4
+    ],
+    [
+     -27.6,
+     25.8
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Orange_Free_State",
+   "confidence": "high",
+   "note": "Boer republic between Orange and Vaal (preceded by British Orange River Sovereignty 1848-54); gained Caledon lowlands from Basotho 1866-69; annexed by Britain 1900/02."
+  },
+  {
+   "name": "South African Republic",
+   "aliases": [
+    "Transvaal",
+    "ZAR",
+    "Zuid-Afrikaansche Republiek"
+   ],
+   "from": 1852,
+   "to": 1902,
+   "seat": {
+    "name": "Pretoria",
+    "lat": -25.75,
+    "lon": 28.19
+   },
+   "extent": [
+    [
+     -22.2,
+     29.0
+    ],
+    [
+     -22.4,
+     31.3
+    ],
+    [
+     -25.4,
+     32.0
+    ],
+    [
+     -27.3,
+     31.2
+    ],
+    [
+     -27.4,
+     29.0
+    ],
+    [
+     -26.9,
+     26.6
+    ],
+    [
+     -25.4,
+     25.6
+    ],
+    [
+     -22.9,
+     27.9
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1852,
+     "to": 1860,
+     "seat": {
+      "name": "Potchefstroom",
+      "lat": -26.71,
+      "lon": 27.1
+     },
+     "extent": [
+      [
+       -24.5,
+       26.5
+      ],
+      [
+       -24.5,
+       29.0
+      ],
+      [
+       -26.0,
+       29.6
+      ],
+      [
+       -27.2,
+       29.0
+      ],
+      [
+       -26.9,
+       26.6
+      ],
+      [
+       -25.5,
+       25.8
+      ]
+     ]
+    },
+    {
+     "from": 1860,
+     "to": 1902,
+     "seat": {
+      "name": "Pretoria",
+      "lat": -25.75,
+      "lon": 28.19
+     },
+     "extent": [
+      [
+       -22.2,
+       29.0
+      ],
+      [
+       -22.4,
+       31.3
+      ],
+      [
+       -25.4,
+       32.0
+      ],
+      [
+       -27.3,
+       31.2
+      ],
+      [
+       -27.4,
+       29.0
+      ],
+      [
+       -26.9,
+       26.6
+      ],
+      [
+       -25.4,
+       25.6
+      ],
+      [
+       -22.9,
+       27.9
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/South_African_Republic",
+   "confidence": "high",
+   "note": "Boer republic recognised at the Sand River Convention 1852; capital Potchefstroom then Pretoria (1860); British annexation 1877-81; effective control of the north (Venda, Pedi) only from 1880s-1898."
+  },
+  {
+   "name": "Lydenburg Republic",
+   "aliases": [
+    "Republiek Lydenburg"
+   ],
+   "from": 1856,
+   "to": 1860,
+   "seat": {
+    "name": "Lydenburg",
+    "lat": -25.1,
+    "lon": 30.45
+   },
+   "reach_km": 80,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Lydenburg_Republic",
+   "confidence": "moderate",
+   "note": "Breakaway Boer republic, reunited with the ZAR 1860."
+  },
+  {
+   "name": "Zoutpansberg Republic",
+   "aliases": [
+    "Schoemansdal"
+   ],
+   "from": 1849,
+   "to": 1864,
+   "seat": {
+    "name": "Schoemansdal",
+    "lat": -23.0,
+    "lon": 29.75
+   },
+   "reach_km": 80,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Soutpansberg",
+   "confidence": "low",
+   "note": "Northern Boer settlement district/republic; Schoemansdal abandoned 1867 under Venda pressure."
+  },
+  {
+   "name": "Republic of Utrecht",
+   "aliases": [
+    "Utrecht Republic"
+   ],
+   "from": 1854,
+   "to": 1858,
+   "seat": {
+    "name": "Utrecht",
+    "lat": -27.66,
+    "lon": 30.33
+   },
+   "reach_km": 30,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Republic_of_Utrecht",
+   "confidence": "moderate",
+   "note": "Small Boer republic merged with Lydenburg then ZAR."
+  },
+  {
+   "name": "Nieuwe Republiek",
+   "aliases": [
+    "New Republic",
+    "Vryheid Republic"
+   ],
+   "from": 1884,
+   "to": 1888,
+   "seat": {
+    "name": "Vryheid",
+    "lat": -27.77,
+    "lon": 30.79
+   },
+   "extent": [
+    [
+     -27.2,
+     30.4
+    ],
+    [
+     -27.3,
+     31.5
+    ],
+    [
+     -28.1,
+     31.4
+    ],
+    [
+     -28.1,
+     30.4
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Nieuwe_Republiek",
+   "confidence": "high",
+   "note": "Boer republic carved from Zululand for helping Dinuzulu; merged into ZAR 1888."
+  },
+  {
+   "name": "Klein Vrystaat",
+   "aliases": [
+    "Little Free State"
+   ],
+   "from": 1886,
+   "to": 1891,
+   "seat": {
+    "name": "Piet Retief area",
+    "lat": -26.85,
+    "lon": 30.9
+   },
+   "reach_km": 15,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Klein_Vrystaat",
+   "confidence": "moderate",
+   "note": "Tiny Boer republic on Swazi land; absorbed by ZAR 1891."
+  },
+  {
+   "name": "Stellaland",
+   "aliases": [
+    "Republic of Stellaland",
+    "United States of Stellaland"
+   ],
+   "from": 1882,
+   "to": 1885,
+   "seat": {
+    "name": "Vryburg",
+    "lat": -26.96,
+    "lon": 24.73
+   },
+   "reach_km": 70,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Stellaland",
+   "confidence": "high",
+   "note": "Boer freebooter republic on Tlhaping land; annexed into British Bechuanaland 1885."
+  },
+  {
+   "name": "Land Goshen",
+   "aliases": [
+    "Republic of Goshen",
+    "Het Land Goshen"
+   ],
+   "from": 1882,
+   "to": 1885,
+   "seat": {
+    "name": "Rooigrond",
+    "lat": -25.85,
+    "lon": 25.75
+   },
+   "reach_km": 30,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Goshen_(republic)",
+   "confidence": "high",
+   "note": "Boer republic on Rolong land near Mafikeng; dissolved by the Warren Expedition 1885."
+  },
+  {
+   "name": "Herero chiefdoms",
+   "aliases": [
+    "Ovaherero",
+    "Herero"
+   ],
+   "from": 1820,
+   "to": 1904,
+   "seat": {
+    "name": "Okahandja",
+    "lat": -21.98,
+    "lon": 16.91
+   },
+   "extent": [
+    [
+     -19.5,
+     15.5
+    ],
+    [
+     -19.5,
+     18.5
+    ],
+    [
+     -21.0,
+     19.5
+    ],
+    [
+     -22.6,
+     18.5
+    ],
+    [
+     -22.6,
+     16.0
+    ],
+    [
+     -21.0,
+     15.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1904,
+     "name": "German South West Africa"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Herero_people",
+   "confidence": "moderate",
+   "note": "Herero chiefships under paramounts Tjamuaha, Maharero, Samuel Maharero (Okahandja); German protectorate 1885; genocide 1904-08."
+  },
+  {
+   "name": "Nama chiefdoms",
+   "aliases": [
+    "Great Namaqualand",
+    "Nama"
+   ],
+   "from": 1400,
+   "to": 1904,
+   "seat": {
+    "name": "Gibeon",
+    "lat": -25.12,
+    "lon": 17.77
+   },
+   "extent": [
+    [
+     -23.0,
+     15.5
+    ],
+    [
+     -23.0,
+     19.5
+    ],
+    [
+     -28.6,
+     19.8
+    ],
+    [
+     -28.6,
+     16.5
+    ],
+    [
+     -26.5,
+     15.2
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Nama_people",
+   "confidence": "moderate",
+   "note": "Khoikhoi clans of Great Namaqualand (Bondelswarts at Warmbad, Veldskoendraers, Topnaar, Rooi Nasie at Hoachanas) joined in the 19th c. by Oorlam groups (Afrikaners, Witbooi, Bethanie). Witbooi and Afrikaner listed separately."
+  },
+  {
+   "name": "Orlam Afrikaners",
+   "aliases": [
+    "Jonker Afrikaner's state",
+    "Afrikaner Oorlam"
+   ],
+   "from": 1823,
+   "to": 1880,
+   "seat": {
+    "name": "Windhoek (|Ae-||gams)",
+    "lat": -22.56,
+    "lon": 17.08
+   },
+   "reach_km": 180,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Orlam_Afrikaners",
+   "confidence": "moderate",
+   "note": "Oorlam captaincy of Jager and Jonker Afrikaner dominating central Namibia and the Herero 1840-1861; defeated by the Herero 1880."
+  },
+  {
+   "name": "Witbooi Nama",
+   "aliases": [
+    "Witbooi",
+    "/Khowesin"
+   ],
+   "from": 1863,
+   "to": 1905,
+   "seat": {
+    "name": "Gibeon / Hornkranz",
+    "lat": -25.12,
+    "lon": 17.77
+   },
+   "reach_km": 150,
+   "overlord": [
+    {
+     "from": 1894,
+     "to": 1904,
+     "name": "German South West Africa"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Hendrik_Witbooi",
+   "confidence": "moderate",
+   "note": "Oorlam Nama captaincy (Kido and Hendrik Witbooi); German treaty 1894; rising 1904-05."
+  },
+  {
+   "name": "Rehoboth Basters",
+   "aliases": [
+    "Baster Gebiet"
+   ],
+   "from": 1870,
+   "to": 1915,
+   "seat": {
+    "name": "Rehoboth",
+    "lat": -23.32,
+    "lon": 17.08
+   },
+   "reach_km": 50,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Rehoboth_Basters",
+   "confidence": "high",
+   "note": "Self-governing Baster community; German protection treaty 1885."
+  },
+  {
+   "name": "Ondonga",
+   "aliases": [
+    "Kingdom of Ondonga",
+    "Ndonga"
+   ],
+   "from": 1650,
+   "to": 1917,
+   "seat": {
+    "name": "Olukonda",
+    "lat": -17.95,
+    "lon": 16.03
+   },
+   "extent": [
+    [
+     -17.5,
+     15.6
+    ],
+    [
+     -17.4,
+     16.6
+    ],
+    [
+     -18.3,
+     16.6
+    ],
+    [
+     -18.3,
+     15.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ovambo_people",
+   "confidence": "moderate",
+   "note": "Largest Ovambo kingdom south of the Kunene floodplain; Finnish mission 1870."
+  },
+  {
+   "name": "Uukwanyama",
+   "aliases": [
+    "Kwanyama",
+    "Oukwanyama"
+   ],
+   "from": 1650,
+   "to": 1917,
+   "seat": {
+    "name": "Ondjiva",
+    "lat": -17.07,
+    "lon": 15.73
+   },
+   "extent": [
+    [
+     -16.6,
+     15.2
+    ],
+    [
+     -16.5,
+     16.4
+    ],
+    [
+     -17.4,
+     16.3
+    ],
+    [
+     -17.4,
+     15.2
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ovambo_people",
+   "confidence": "moderate",
+   "note": "Most populous Ovambo kingdom, straddling the Angola-Namibia border; King Mandume fell fighting Portugal/South Africa 1917."
+  },
+  {
+   "name": "German South West Africa",
+   "aliases": [
+    "Deutsch-Südwestafrika"
+   ],
+   "from": 1884,
+   "to": 1915,
+   "seat": {
+    "name": "Windhoek",
+    "lat": -22.56,
+    "lon": 17.08
+   },
+   "extent": [
+    [
+     -17.4,
+     11.8
+    ],
+    [
+     -17.5,
+     20.9
+    ],
+    [
+     -17.9,
+     25.2
+    ],
+    [
+     -22.0,
+     20.0
+    ],
+    [
+     -28.4,
+     20.0
+    ],
+    [
+     -28.6,
+     16.5
+    ],
+    [
+     -23.0,
+     14.4
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/German_South_West_Africa",
+   "confidence": "high",
+   "note": "German protectorate; until c.1894 effective control limited to Lüderitz, Windhoek and the coast, with Herero, Nama and Ovambo polities autonomous (listed separately). Walvis Bay enclave was British/Cape."
+  },
+  {
+   "name": "Kingdom of Imerina",
+   "aliases": [
+    "Merina Kingdom",
+    "Kingdom of Madagascar",
+    "Imerina"
+   ],
+   "from": 1540,
+   "to": 1897,
+   "seat": {
+    "name": "Antananarivo",
+    "lat": -18.91,
+    "lon": 47.52
+   },
+   "extent": [
+    [
+     -12.0,
+     49.3
+    ],
+    [
+     -25.0,
+     47.1
+    ],
+    [
+     -23.0,
+     46.5
+    ],
+    [
+     -21.0,
+     46.0
+    ],
+    [
+     -19.5,
+     45.5
+    ],
+    [
+     -16.5,
+     44.5
+    ],
+    [
+     -15.7,
+     46.3
+    ],
+    [
+     -13.5,
+     48.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1885,
+     "to": 1895,
+     "name": "France (protectorate)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1540,
+     "to": 1787,
+     "seat": {
+      "name": "Antananarivo",
+      "lat": -18.91,
+      "lon": 47.52
+     },
+     "extent": [
+      [
+       -18.5,
+       47.2
+      ],
+      [
+       -18.6,
+       47.9
+      ],
+      [
+       -19.3,
+       47.8
+      ],
+      [
+       -19.2,
+       47.1
+      ]
+     ]
+    },
+    {
+     "from": 1787,
+     "to": 1817,
+     "seat": {
+      "name": "Ambohimanga / Antananarivo",
+      "lat": -18.76,
+      "lon": 47.56
+     },
+     "extent": [
+      [
+       -17.8,
+       46.8
+      ],
+      [
+       -17.9,
+       48.0
+      ],
+      [
+       -19.6,
+       48.0
+      ],
+      [
+       -19.8,
+       46.8
+      ]
+     ]
+    },
+    {
+     "from": 1817,
+     "to": 1897,
+     "seat": {
+      "name": "Antananarivo",
+      "lat": -18.91,
+      "lon": 47.52
+     },
+     "extent": [
+      [
+       -12.0,
+       49.3
+      ],
+      [
+       -25.0,
+       47.1
+      ],
+      [
+       -23.0,
+       46.5
+      ],
+      [
+       -21.0,
+       46.0
+      ],
+      [
+       -19.5,
+       45.5
+      ],
+      [
+       -16.5,
+       44.5
+      ],
+      [
+       -15.7,
+       46.3
+      ],
+      [
+       -13.5,
+       48.0
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Imerina",
+   "confidence": "high",
+   "note": "Andriamanelo (c.1540); seat at Antananarivo from Andrianjaka (c.1610). Imerina split into four rival kingdoms c.1710-1787; reunified by Andrianampoinimerina (Ambohimanga). As the Kingdom of Madagascar (Radama I, 1817) it conquered the east coast, Betsileo, Boina and the Antanosy south, but never Menabe, Mahafaly, Antandroy or most Bara. French conquest 1895, abolished 1897."
+  },
+  {
+   "name": "Betsileo kingdoms",
+   "aliases": [
+    "Betsileo",
+    "Lalangina",
+    "Isandra",
+    "Arindrano",
+    "Manandriana"
+   ],
+   "from": 1600,
+   "to": 1830,
+   "seat": {
+    "name": "Fianarantsoa region",
+    "lat": -21.45,
+    "lon": 47.08
+   },
+   "extent": [
+    [
+     -20.3,
+     46.6
+    ],
+    [
+     -20.4,
+     47.4
+    ],
+    [
+     -22.1,
+     47.3
+    ],
+    [
+     -22.2,
+     46.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1815,
+     "to": 1897,
+     "name": "Kingdom of Imerina"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Betsileo_people",
+   "confidence": "moderate",
+   "note": "Four main highland kingdoms (Lalangina, Isandra, Arindrano, Manandriana) south of Imerina; Lalangina strongest under Andriamanalina (late 18th c.). Conquered by Merina c.1815-1830."
+  },
+  {
+   "name": "Lalangina",
+   "aliases": [
+    "Kingdom of Lalangina"
+   ],
+   "from": 1650,
+   "to": 1830,
+   "seat": {
+    "name": "Ialamarina (Lalangina)",
+    "lat": -21.5,
+    "lon": 47.15
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1815,
+     "to": 1897,
+     "name": "Kingdom of Imerina"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Betsileo_people",
+   "confidence": "low",
+   "note": "Principal Betsileo kingdom east of Fianarantsoa."
+  },
+  {
+   "name": "Isandra",
+   "aliases": [
+    "Kingdom of Isandra"
+   ],
+   "from": 1650,
+   "to": 1830,
+   "seat": {
+    "name": "Isandra",
+    "lat": -21.3,
+    "lon": 46.85
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1815,
+     "to": 1897,
+     "name": "Kingdom of Imerina"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Betsileo_people",
+   "confidence": "low",
+   "note": "Betsileo kingdom west of Fianarantsoa (Andriamanalina I)."
+  },
+  {
+   "name": "Sakalava Menabe",
+   "aliases": [
+    "Menabe",
+    "Kingdom of Menabe"
+   ],
+   "from": 1650,
+   "to": 1890,
+   "seat": {
+    "name": "Mahabo",
+    "lat": -20.38,
+    "lon": 44.67
+   },
+   "extent": [
+    [
+     -18.0,
+     44.0
+    ],
+    [
+     -18.3,
+     45.6
+    ],
+    [
+     -21.5,
+     45.7
+    ],
+    [
+     -23.4,
+     44.3
+    ],
+    [
+     -21.0,
+     43.6
+    ],
+    [
+     -19.0,
+     44.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1822,
+     "to": 1835,
+     "name": "Kingdom of Imerina"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Menabe",
+   "confidence": "moderate",
+   "note": "Maroserana-dynasty Sakalava kingdom (Andriandahifotsy) on the west coast; tributary to the Merina briefly 1820s-30s but largely independent until French rule 1890s. Fiherenana/Masikoro to the south were related."
+  },
+  {
+   "name": "Sakalava Boina",
+   "aliases": [
+    "Boina",
+    "Kingdom of Boina",
+    "Iboina"
+   ],
+   "from": 1690,
+   "to": 1840,
+   "seat": {
+    "name": "Marovoay / Mahajanga",
+    "lat": -16.1,
+    "lon": 46.64
+   },
+   "extent": [
+    [
+     -12.5,
+     48.9
+    ],
+    [
+     -14.0,
+     49.0
+    ],
+    [
+     -16.8,
+     47.5
+    ],
+    [
+     -17.5,
+     46.0
+    ],
+    [
+     -16.5,
+     44.4
+    ],
+    [
+     -15.0,
+     46.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1824,
+     "to": 1840,
+     "name": "Kingdom of Imerina"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Boina_Kingdom",
+   "confidence": "moderate",
+   "note": "Northern Sakalava kingdom founded by Andriamandisoarivo; wealthy from Mahajanga's Indian Ocean trade; under queens from 1780s; conquered by Merina 1824-1840 (rump on Nosy Be under French 1840)."
+  },
+  {
+   "name": "Betsimisaraka Confederation",
+   "aliases": [
+    "Betsimisaraka",
+    "Ratsimilaho's confederation"
+   ],
+   "from": 1712,
+   "to": 1817,
+   "seat": {
+    "name": "Fenoarivo (Fénérive)",
+    "lat": -17.38,
+    "lon": 49.41
+   },
+   "extent": [
+    [
+     -15.3,
+     49.8
+    ],
+    [
+     -15.7,
+     50.4
+    ],
+    [
+     -18.6,
+     49.4
+    ],
+    [
+     -19.4,
+     48.9
+    ],
+    [
+     -18.0,
+     48.5
+    ],
+    [
+     -16.0,
+     49.4
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Betsimisaraka_people",
+   "confidence": "high",
+   "note": "Confederation of the east coast founded by the zana-malata Ratsimilaho; fragmented after 1791; absorbed by Radama I 1817 (Tamatave)."
+  },
+  {
+   "name": "Antemoro",
+   "aliases": [
+    "Antaimoro",
+    "Anteimoro"
+   ],
+   "from": 1500,
+   "to": 1895,
+   "seat": {
+    "name": "Vohipeno",
+    "lat": -22.35,
+    "lon": 47.84
+   },
+   "extent": [
+    [
+     -21.8,
+     47.6
+    ],
+    [
+     -21.9,
+     48.1
+    ],
+    [
+     -22.8,
+     47.8
+    ],
+    [
+     -22.7,
+     47.5
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Antemoro_people",
+   "confidence": "moderate",
+   "note": "Matitana river kingdom ruled by Islamized Anteony clans with sorabe Arabic-script scholars (ombiasa); Merina garrison from 1820s."
+  },
+  {
+   "name": "Antanosy",
+   "aliases": [
+    "Anosy",
+    "Tanosy"
+   ],
+   "from": 1500,
+   "to": 1825,
+   "seat": {
+    "name": "Fort-Dauphin (Tolagnaro)",
+    "lat": -25.03,
+    "lon": 46.98
+   },
+   "extent": [
+    [
+     -24.2,
+     46.4
+    ],
+    [
+     -24.4,
+     47.2
+    ],
+    [
+     -25.2,
+     47.0
+    ],
+    [
+     -25.3,
+     46.4
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Antanosy_people",
+   "confidence": "moderate",
+   "note": "Zafiraminia-ruled kingdom in the far southeast; French East India Company fort 1643-1674; Merina garrison 1825."
+  },
+  {
+   "name": "Bara kingdoms",
+   "aliases": [
+    "Bara"
+   ],
+   "from": 1650,
+   "to": 1897,
+   "seat": {
+    "name": "Ihosy",
+    "lat": -22.4,
+    "lon": 46.12
+   },
+   "extent": [
+    [
+     -21.5,
+     45.3
+    ],
+    [
+     -21.6,
+     46.6
+    ],
+    [
+     -23.0,
+     46.7
+    ],
+    [
+     -23.4,
+     45.4
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Bara_people",
+   "confidence": "low",
+   "note": "Pastoral kingdoms (Bara Be, Bara Iantsantsa, Bara Imamono) of the southern plateau under Zafimanely rulers; largely independent of Merina."
+  },
+  {
+   "name": "Mahafaly kingdoms",
+   "aliases": [
+    "Mahafaly"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Ampanihy",
+    "lat": -24.69,
+    "lon": 44.75
+   },
+   "extent": [
+    [
+     -23.5,
+     43.7
+    ],
+    [
+     -23.6,
+     45.0
+    ],
+    [
+     -25.1,
+     45.3
+    ],
+    [
+     -25.2,
+     44.1
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Mahafaly",
+   "confidence": "low",
+   "note": "Several Maroserana-dynasty kingdoms of the southwest plateau (Menarandra-Onilahy)."
+  },
+  {
+   "name": "Antandroy",
+   "aliases": [
+    "Androy"
+   ],
+   "from": 1650,
+   "to": 1900,
+   "seat": {
+    "name": "Ambovombe",
+    "lat": -25.17,
+    "lon": 46.09
+   },
+   "extent": [
+    [
+     -24.2,
+     45.2
+    ],
+    [
+     -24.4,
+     46.4
+    ],
+    [
+     -25.4,
+     46.2
+    ],
+    [
+     -25.5,
+     45.2
+    ]
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Antandroy_people",
+   "confidence": "low",
+   "note": "Clan-based pastoralists of the arid far south; Zafimanara chiefs; French pacification 1900-1904."
+  },
+  {
+   "name": "Antankarana",
+   "aliases": [
+    "Ankarana kingdom"
+   ],
+   "from": 1690,
+   "to": 1895,
+   "seat": {
+    "name": "Ambatoharanana / Ambilobe",
+    "lat": -13.2,
+    "lon": 49.06
+   },
+   "extent": [
+    [
+     -12.0,
+     49.2
+    ],
+    [
+     -12.3,
+     49.6
+    ],
+    [
+     -13.6,
+     49.9
+    ],
+    [
+     -13.6,
+     48.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1823,
+     "to": 1895,
+     "name": "Kingdom of Imerina"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Antakarana_people",
+   "confidence": "moderate",
+   "note": "Zafimbolamena (Sakalava-derived) kingdom of the far north; King Tsimiaro sheltered on Nosy Mitsio and signed with France 1841; Merina held Diego Suarez region 1820s-1890s."
+  },
+  {
+   "name": "Sihanaka",
+   "aliases": [
+    "Antsihanaka"
+   ],
+   "from": 1600,
+   "to": 1823,
+   "seat": {
+    "name": "Ambatondrazaka (Lake Alaotra)",
+    "lat": -17.83,
+    "lon": 48.42
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1823,
+     "to": 1897,
+     "name": "Kingdom of Imerina"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Sihanaka",
+   "confidence": "low",
+   "note": "Lake Alaotra chiefdoms conquered by Radama I 1823."
+  },
+  {
+   "name": "Bezanozano",
+   "aliases": [
+    "Antaiva"
+   ],
+   "from": 1600,
+   "to": 1817,
+   "seat": {
+    "name": "Moramanga region",
+    "lat": -18.95,
+    "lon": 48.23
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bezanozano",
+   "confidence": "low",
+   "note": "Forest-escarpment chiefdoms between Imerina and the east coast."
+  },
+  {
+   "name": "Tanala of Ikongo",
+   "aliases": [
+    "Tanala",
+    "Ikongo"
+   ],
+   "from": 1700,
+   "to": 1890,
+   "seat": {
+    "name": "Ikongo",
+    "lat": -21.88,
+    "lon": 47.43
+   },
+   "reach_km": 40,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+   "confidence": "low",
+   "note": "Forest people whose Ikongo plateau fortress resisted Merina conquest."
+  },
+  {
+   "name": "Antaisaka",
+   "aliases": [
+    "Antesaka"
+   ],
+   "from": 1650,
+   "to": 1890,
+   "seat": {
+    "name": "Farafangana",
+    "lat": -22.82,
+    "lon": 47.83
+   },
+   "reach_km": 45,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+   "confidence": "low",
+   "note": "Zarabehava-led southeast coast chiefdoms (Mananara river)."
+  },
+  {
+   "name": "Antambahoaka",
+   "aliases": [
+    "Antambahoaka"
+   ],
+   "from": 1500,
+   "to": 1830,
+   "seat": {
+    "name": "Mananjary",
+    "lat": -21.23,
+    "lon": 48.34
+   },
+   "reach_km": 20,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Malagasy_people",
+   "confidence": "low",
+   "note": "Small southeast coast kingdom related to the Antemoro."
+  },
+  {
+   "name": "Isle de France",
+   "aliases": [
+    "Mauritius",
+    "Île de France",
+    "British Mauritius"
+   ],
+   "from": 1715,
+   "to": 1968,
+   "seat": {
+    "name": "Port Louis",
+    "lat": -20.16,
+    "lon": 57.5
+   },
+   "extent": [
+    [
+     -19.98,
+     57.6
+    ],
+    [
+     -20.25,
+     57.8
+    ],
+    [
+     -20.5,
+     57.5
+    ],
+    [
+     -20.3,
+     57.35
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1715,
+     "to": 1810,
+     "name": "France"
+    },
+    {
+     "from": 1810,
+     "to": 1968,
+     "name": "British Empire"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Isle_de_France_(Mauritius)",
+   "confidence": "high",
+   "note": "Dutch posts 1638-1710; French 1715-1810; British Mauritius 1810-1968."
+  },
+  {
+   "name": "Île Bourbon",
+   "aliases": [
+    "Réunion",
+    "Île de La Réunion"
+   ],
+   "from": 1665,
+   "to": 1946,
+   "seat": {
+    "name": "Saint-Denis",
+    "lat": -20.88,
+    "lon": 55.45
+   },
+   "extent": [
+    [
+     -20.83,
+     55.2
+    ],
+    [
+     -20.85,
+     55.6
+    ],
+    [
+     -20.95,
+     55.8
+    ],
+    [
+     -21.38,
+     55.78
+    ],
+    [
+     -21.3,
+     55.22
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1665,
+     "to": 1946,
+     "name": "France"
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/R%C3%A9union",
+   "confidence": "high",
+   "note": "French colony (Bourbon), British occupation 1810-1815."
+  }
+ ],
+ "gaps": [
+  {
+   "area": "Southern Somali interior (Jubaland, upper Juba)",
+   "from": 1690,
+   "to": 1890,
+   "note": "After Ajuran collapse: Ogaden, Marehan and Rahanweyn clans plus Bardera jihadist community (1819-1843); Luuq trade town. No single polity; Geledi and Ogaden clans cover the edges."
+  },
+  {
+   "area": "Danakil depression (northern Afar, Eritrea/Ethiopia)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Northern Afar (Biru/Girrifo) petty sultanates and salt-trading clans; sparsely governed salt desert. Aussa and Rahayta cover the south and east."
+  },
+  {
+   "area": "Zande/Bahr el Ghazal ironstone plateau and Equatoria",
+   "from": 1400,
+   "to": 1900,
+   "note": "Azande kingdoms (Avongara) and Bongo/Moru/Bari peoples; likely covered by the Central Africa file. Ivory/slave zariba states of Zubayr (1856-1874) here."
+  },
+  {
+   "area": "Kalahari (central/western Botswana, eastern Namibia)",
+   "from": 1400,
+   "to": 1900,
+   "note": "San (Basarwa) foraging bands; no polity. Tswana and Tawana claimed parts after 1800."
+  },
+  {
+   "area": "Namib Desert coast",
+   "from": 1400,
+   "to": 1900,
+   "note": "Uninhabited or Topnaar/Strandloper use only; Walvis Bay (Cape/British 1878)."
+  },
+  {
+   "area": "Great Karoo, Bushmanland, Upper Karoo (Cape interior)",
+   "from": 1400,
+   "to": 1800,
+   "note": "San hunter-gatherers and roaming Khoikhoi/Korana; no state until the Cape frontier advanced (trekboers 1740-1800)."
+  },
+  {
+   "area": "Highveld (Free State, southern Transvaal)",
+   "from": 1400,
+   "to": 1840,
+   "note": "Sotho-Tswana chiefdoms (Fokeng, Kwena, Kgatla, Taung, Tlokwa) poorly documented before 1800 and much depopulated during the Mfecane 1820-1836; Basotho, Ndebele and Boer states cover 1830s onward."
+  },
+  {
+   "area": "Natal/Zululand before 1780",
+   "from": 1400,
+   "to": 1780,
+   "note": "Many small Nguni chiefdoms (Qwabe, Mthethwa, Ndwandwe, Hlubi, Chunu, Thembu of Natal) without large paramountcies; only the bigger ones are itemised."
+  },
+  {
+   "area": "Southern Mozambique (Inhambane, Limpopo valley)",
+   "from": 1400,
+   "to": 1824,
+   "note": "Tonga (Bitonga), Chopi and Tsonga chiefdoms (Inhambane, Zavala, Mpfumo, Nyaka at Delagoa Bay) before the Gaza conquest; poorly documented."
+  },
+  {
+   "area": "Zambia south and central (Tonga, Ila, Lenje plateau; Bemba and Kazembe further north)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Acephalous Tonga/Ila; Bemba/Lunda (Kazembe) kingdoms likely in the Central Africa file. Barotse and Ngoni listed here."
+  },
+  {
+   "area": "Zimbabwe plateau 1835-1890 east and north",
+   "from": 1835,
+   "to": 1890,
+   "note": "After the Rozvi collapse: independent Shona chiefdoms (Mashayamombe, Chivi, Makoni, Mutoko, Nyandoro), many paying tribute to Ndebele or Gaza. Zambezi valley Tonga acephalous."
+  },
+  {
+   "area": "Northern Kenya and Chalbi desert",
+   "from": 1400,
+   "to": 1900,
+   "note": "Gabra, Rendille, Boran and Somali pastoralists; no states (Borana Oromo and Samburu cover edges)."
+  },
+  {
+   "area": "Lower Omo valley / Ilemi (southwest Ethiopia)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Hamar, Mursi, Dassanetch, Nyangatom acephalous pastoral groups; Ethiopian raids from 1897."
+  },
+  {
+   "area": "Southern Tanzania woodlands (Selous, Ngindo, Matumbi, Mwera)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Thinly settled; small clan chiefdoms, Ngoni raiding after 1850. Yao and Makonde cover the south edge."
+  },
+  {
+   "area": "Western Tanzania miombo before 1700",
+   "from": 1400,
+   "to": 1700,
+   "note": "Nyamwezi/Sukuma ntemi chiefdoms emerging; little documented until 18th c. Default to the chiefdom confederations listed."
+  },
+  {
+   "area": "Southwest Madagascar (Fiherenana, Masikoro, Vezo coast)",
+   "from": 1600,
+   "to": 1900,
+   "note": "Small Sakalava-related Fiherenana kingdoms around Toliara; partly covered by Menabe and Mahafaly."
+  },
+  {
+   "area": "Madagascar 1400-1600 generally",
+   "from": 1400,
+   "to": 1600,
+   "note": "Before the Maroserana and Merina dynasties: small Vazimba/clan chiefdoms; Islamic trading posts at Mahilaka/Vohemar (Antalaotra). Leave uncoloured or low-confidence."
+  }
+ ]
+}

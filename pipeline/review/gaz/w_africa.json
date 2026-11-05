@@ -1,0 +1,8502 @@
+{
+ "region": "West Africa (Senegal/Mauritania to Lake Chad and northern Cameroon; Sahel, Sahara margins and forest belt)",
+ "polities": [
+  {
+   "name": "Jolof Empire",
+   "aliases": [
+    "Wolof Empire",
+    "Djolof"
+   ],
+   "from": 1350,
+   "to": 1549,
+   "seat": {
+    "name": "Jolof court (Linguère area)",
+    "lat": 15.39,
+    "lon": -15.12
+   },
+   "extent": [
+    [
+     16.6,
+     -16.5
+    ],
+    [
+     16.35,
+     -14.6
+    ],
+    [
+     15.1,
+     -13.8
+    ],
+    [
+     13.6,
+     -15.0
+    ],
+    [
+     13.6,
+     -16.8
+    ],
+    [
+     14.7,
+     -17.5
+    ],
+    [
+     15.9,
+     -16.6
+    ]
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Jolof_Empire",
+   "confidence": "moderate",
+   "note": "Overlord of Waalo, Cayor, Baol, Sine and Saloum; broke apart after Battle of Danki (1549). Court mobile within Jolof province."
+  },
+  {
+   "name": "Kingdom of Jolof",
+   "aliases": [
+    "Djolof rump kingdom",
+    "Buurba Jolof"
+   ],
+   "from": 1549,
+   "to": 1890,
+   "seat": {
+    "name": "Yang-Yang",
+    "lat": 15.36,
+    "lon": -15.33
+   },
+   "extent": [
+    [
+     15.95,
+     -15.65
+    ],
+    [
+     15.85,
+     -14.45
+    ],
+    [
+     15.0,
+     -14.35
+    ],
+    [
+     14.9,
+     -15.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1550,
+     "to": 1600,
+     "name": "Empire of Great Fulo"
+    },
+    {
+     "from": 1890,
+     "to": 1890,
+     "name": "France"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Jolof_Empire",
+   "confidence": "moderate",
+   "note": "Landlocked rump of the Jolof Empire after 1549; French occupation 1890 (Alboury Ndiaye fled)."
+  },
+  {
+   "name": "Cayor",
+   "aliases": [
+    "Kajoor",
+    "Kayor"
+   ],
+   "from": 1549,
+   "to": 1886,
+   "seat": {
+    "name": "Mboul",
+    "lat": 15.28,
+    "lon": -16.3
+   },
+   "extent": [
+    [
+     15.9,
+     -16.55
+    ],
+    [
+     15.6,
+     -15.85
+    ],
+    [
+     14.95,
+     -15.9
+    ],
+    [
+     14.75,
+     -16.9
+    ],
+    [
+     14.75,
+     -17.2
+    ],
+    [
+     15.1,
+     -17.05
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Cayor",
+   "confidence": "moderate",
+   "note": "Largest Jolof successor; damels often also ruled Baol (Damel-Teigne). Cap-Vert Lebou broke away 1790s. French annexation 1886; seat precision ~0.1 deg."
+  },
+  {
+   "name": "Baol",
+   "aliases": [
+    "Bawol"
+   ],
+   "from": 1549,
+   "to": 1894,
+   "seat": {
+    "name": "Lambaye",
+    "lat": 14.83,
+    "lon": -16.4
+   },
+   "extent": [
+    [
+     14.95,
+     -16.9
+    ],
+    [
+     14.95,
+     -15.9
+    ],
+    [
+     14.5,
+     -15.6
+    ],
+    [
+     14.3,
+     -16.5
+    ],
+    [
+     14.4,
+     -17.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1549,
+     "to": 1549,
+     "name": "Jolof Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Baol",
+   "confidence": "moderate",
+   "note": "Frequently in personal union with Cayor (e.g. 1549, 1693-1756); French protectorate/annexation by 1894."
+  },
+  {
+   "name": "Waalo",
+   "aliases": [
+    "Walo",
+    "Oualo"
+   ],
+   "from": 1287,
+   "to": 1855,
+   "seat": {
+    "name": "Nder",
+    "lat": 16.25,
+    "lon": -15.88
+   },
+   "extent": [
+    [
+     16.55,
+     -16.5
+    ],
+    [
+     16.6,
+     -15.3
+    ],
+    [
+     16.1,
+     -15.3
+    ],
+    [
+     15.85,
+     -15.9
+    ],
+    [
+     15.95,
+     -16.45
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1287,
+     "to": 1549,
+     "name": "Jolof Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Waalo",
+   "confidence": "moderate",
+   "note": "Lower Senegal River delta kingdom around Lac de Guiers; annexed by French Senegal 1855."
+  },
+  {
+   "name": "Lebou Republic",
+   "aliases": [
+    "Lebu Republic",
+    "Cap-Vert"
+   ],
+   "from": 1795,
+   "to": 1857,
+   "seat": {
+    "name": "Ndakarou (Dakar)",
+    "lat": 14.69,
+    "lon": -17.44
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1857,
+     "to": 1857,
+     "name": "France"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Lebou_people",
+   "confidence": "moderate",
+   "note": "Lebou theocratic polity on the Cap-Vert peninsula after seceding from Cayor c.1790-1795; absorbed with French founding of Dakar 1857."
+  },
+  {
+   "name": "Kingdom of Sine",
+   "aliases": [
+    "Siin"
+   ],
+   "from": 1350,
+   "to": 1891,
+   "seat": {
+    "name": "Diakhao",
+    "lat": 14.45,
+    "lon": -16.3
+   },
+   "extent": [
+    [
+     14.65,
+     -16.75
+    ],
+    [
+     14.6,
+     -16.2
+    ],
+    [
+     14.2,
+     -16.1
+    ],
+    [
+     13.95,
+     -16.6
+    ],
+    [
+     14.3,
+     -16.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1350,
+     "to": 1549,
+     "name": "Jolof Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sine",
+   "confidence": "high",
+   "note": "Serer kingdom; French protectorate 1891 (traditional monarchy to 1969)."
+  },
+  {
+   "name": "Kingdom of Saloum",
+   "aliases": [
+    "Saalum"
+   ],
+   "from": 1494,
+   "to": 1891,
+   "seat": {
+    "name": "Kahone",
+    "lat": 14.15,
+    "lon": -16.02
+   },
+   "extent": [
+    [
+     14.4,
+     -16.1
+    ],
+    [
+     14.4,
+     -14.9
+    ],
+    [
+     13.85,
+     -14.3
+    ],
+    [
+     13.6,
+     -15.3
+    ],
+    [
+     13.6,
+     -16.5
+    ],
+    [
+     13.95,
+     -16.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Saloum",
+   "confidence": "moderate",
+   "note": "Serer-Wolof kingdom; at height extended to Gambia north bank (tribute from Niumi, Badibu). Seat later Kaolack area. French protectorate 1891."
+  },
+  {
+   "name": "Empire of Great Fulo",
+   "aliases": [
+    "Denanke Kingdom",
+    "Denianke",
+    "Futa Toro (Denianke)"
+   ],
+   "from": 1512,
+   "to": 1776,
+   "seat": {
+    "name": "Tumbere-Jiinde (mobile court)",
+    "lat": 16.3,
+    "lon": -14.2
+   },
+   "extent": [
+    [
+     16.65,
+     -15.1
+    ],
+    [
+     16.5,
+     -14.0
+    ],
+    [
+     15.9,
+     -13.0
+    ],
+    [
+     15.3,
+     -12.7
+    ],
+    [
+     15.5,
+     -13.6
+    ],
+    [
+     16.2,
+     -14.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Denianke_Dynasty",
+   "confidence": "moderate",
+   "note": "Founded by Koli Tenguella; core is Futa Toro along the middle Senegal. Hegemony (tribute) over Jolof, Waalo, Gajaaga, Diarra, Saloum in 16th-early 17th c. Overthrown by Torodbe revolution 1776."
+  },
+  {
+   "name": "Imamate of Futa Toro",
+   "aliases": [
+    "Almamate of Futa Toro"
+   ],
+   "from": 1776,
+   "to": 1861,
+   "seat": {
+    "name": "Thilogne",
+    "lat": 15.93,
+    "lon": -13.57
+   },
+   "extent": [
+    [
+     16.65,
+     -15.1
+    ],
+    [
+     16.5,
+     -14.0
+    ],
+    [
+     15.9,
+     -13.0
+    ],
+    [
+     15.3,
+     -12.7
+    ],
+    [
+     15.5,
+     -13.6
+    ],
+    [
+     16.2,
+     -14.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Imamate_of_Futa_Toro",
+   "confidence": "moderate",
+   "note": "Elective almamate; no fixed capital (almamis resided in own villages). French annexed provinces 1859-1861; remnant resistance to 1890."
+  },
+  {
+   "name": "Gajaaga",
+   "aliases": [
+    "Galam",
+    "Kingdom of Galam"
+   ],
+   "from": 800,
+   "to": 1858,
+   "seat": {
+    "name": "Maka / Tuabu (near Bakel)",
+    "lat": 14.9,
+    "lon": -12.46
+   },
+   "extent": [
+    [
+     15.15,
+     -12.75
+    ],
+    [
+     15.0,
+     -12.0
+    ],
+    [
+     14.45,
+     -11.6
+    ],
+    [
+     14.4,
+     -12.2
+    ],
+    [
+     14.8,
+     -12.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1520,
+     "to": 1600,
+     "name": "Empire of Great Fulo"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Gajaaga",
+   "confidence": "moderate",
+   "note": "Soninke kingdom on upper Senegal between Bakel and the Falémé confluence; split into Goye and Kamera in 1830s; French control by 1858."
+  },
+  {
+   "name": "Bundu",
+   "aliases": [
+    "Bondu"
+   ],
+   "from": 1690,
+   "to": 1905,
+   "seat": {
+    "name": "Boulebane",
+    "lat": 14.07,
+    "lon": -12.32
+   },
+   "extent": [
+    [
+     14.75,
+     -12.9
+    ],
+    [
+     14.55,
+     -12.2
+    ],
+    [
+     13.6,
+     -12.05
+    ],
+    [
+     13.6,
+     -12.85
+    ],
+    [
+     14.2,
+     -13.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1845,
+     "to": 1905,
+     "name": "France"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bundu_(state)",
+   "confidence": "moderate",
+   "note": "Fula almamate west of the Falémé; earlier seat Koussan. French treaties from 1845, formal end 1905."
+  },
+  {
+   "name": "Khasso",
+   "aliases": [
+    "Kingdom of Khasso",
+    "Xaaso"
+   ],
+   "from": 1681,
+   "to": 1880,
+   "seat": {
+    "name": "Medine",
+    "lat": 14.37,
+    "lon": -11.37
+   },
+   "extent": [
+    [
+     14.8,
+     -11.9
+    ],
+    [
+     14.8,
+     -10.8
+    ],
+    [
+     13.9,
+     -10.5
+    ],
+    [
+     13.9,
+     -11.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1765,
+     "to": 1800,
+     "name": "Kaarta"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Khasso",
+   "confidence": "moderate",
+   "note": "Fula-Malinke kingdom around Kayes on the upper Senegal; fragmented in 19th c; French fort at Medine 1855, protectorate by 1880."
+  },
+  {
+   "name": "Bambouk",
+   "aliases": [
+    "Bambuk",
+    "Bambouk Malinke chiefdoms"
+   ],
+   "from": 1400,
+   "to": 1888,
+   "seat": {
+    "name": "Kéniéba area",
+    "lat": 12.84,
+    "lon": -11.24
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1550,
+     "name": "Mali Empire"
+    },
+    {
+     "from": 1765,
+     "to": 1800,
+     "name": "Kaarta"
+    }
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Bambouk",
+   "confidence": "low",
+   "note": "Gold-bearing Malinke chiefdoms between Falémé and Bafing; no single ruler. Fill area rather than state."
+  },
+  {
+   "name": "Kingdom of Diarra",
+   "aliases": [
+    "Diara",
+    "Kingui"
+   ],
+   "from": 1270,
+   "to": 1754,
+   "seat": {
+    "name": "Diara",
+    "lat": 15.05,
+    "lon": -9.6
+   },
+   "reach_km": 110,
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1500,
+     "name": "Mali Empire"
+    },
+    {
+     "from": 1500,
+     "to": 1591,
+     "name": "Songhai Empire"
+    },
+    {
+     "from": 1550,
+     "to": 1620,
+     "name": "Empire of Great Fulo"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Diarra",
+   "confidence": "low",
+   "note": "Soninke successor kingdom in the Kingi/Nioro region; conquered by Kaarta Bambara 1754."
+  },
+  {
+   "name": "Kingdom of Niumi",
+   "aliases": [
+    "Barra",
+    "Nomi"
+   ],
+   "from": 1400,
+   "to": 1897,
+   "seat": {
+    "name": "Essau",
+    "lat": 13.48,
+    "lon": -16.53
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1550,
+     "name": "Mali Empire"
+    },
+    {
+     "from": 1600,
+     "to": 1800,
+     "name": "Kingdom of Saloum"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Niumi",
+   "confidence": "moderate",
+   "note": "Mandinka kingdom on the north bank of the Gambia mouth; ceded Ceded Mile to Britain 1826, protectorate 1897."
+  },
+  {
+   "name": "Badibu",
+   "aliases": [
+    "Baddibu",
+    "Rip"
+   ],
+   "from": 1400,
+   "to": 1897,
+   "seat": {
+    "name": "Illiasa / Kaur area",
+    "lat": 13.53,
+    "lon": -15.9
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1800,
+     "name": "Kingdom of Saloum"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/History_of_the_Gambia",
+   "confidence": "low",
+   "note": "Mandinka kingdom on Gambia north bank east of Niumi; Islamic state of Ma Ba Diakhou (Rip) 1861-1867. British protectorate 1897."
+  },
+  {
+   "name": "Kingdom of Wuli",
+   "from": 1400,
+   "to": 1898,
+   "seat": {
+    "name": "Medina (Wuli)",
+    "lat": 13.55,
+    "lon": -13.9
+   },
+   "reach_km": 45,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Wuli",
+   "confidence": "moderate",
+   "note": "Mandinka kingdom on the upper Gambia north bank, east of Kantora and Niani; British protectorate 1898."
+  },
+  {
+   "name": "Kiang",
+   "from": 1400,
+   "to": 1894,
+   "seat": {
+    "name": "Kiang (Tankular area)",
+    "lat": 13.37,
+    "lon": -15.9
+   },
+   "reach_km": 30,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kiang_(The_Gambia)",
+   "confidence": "low",
+   "note": "Mandinka kingdom on Gambia south bank, tributary to Kaabu; British protectorate 1894."
+  },
+  {
+   "name": "Kombo",
+   "from": 1400,
+   "to": 1894,
+   "seat": {
+    "name": "Brikama / Busumbala",
+    "lat": 13.27,
+    "lon": -16.65
+   },
+   "reach_km": 25,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kombo",
+   "confidence": "low",
+   "note": "Mandinka kingdom at the Gambia mouth south bank; British Kombo cessions 1840-1855, Soninke-Marabout wars, protectorate 1894."
+  },
+  {
+   "name": "Kaabu",
+   "aliases": [
+    "Gabu",
+    "N'Gabu"
+   ],
+   "from": 1230,
+   "to": 1867,
+   "seat": {
+    "name": "Kansala",
+    "lat": 12.45,
+    "lon": -14.5
+   },
+   "extent": [
+    [
+     13.6,
+     -15.9
+    ],
+    [
+     13.5,
+     -14.0
+    ],
+    [
+     12.6,
+     -13.3
+    ],
+    [
+     11.8,
+     -13.7
+    ],
+    [
+     11.8,
+     -15.3
+    ],
+    [
+     12.4,
+     -16.0
+    ],
+    [
+     13.0,
+     -16.1
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1230,
+     "to": 1537,
+     "name": "Mali Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kaabu",
+   "confidence": "moderate",
+   "note": "Mali's western province, independent 1537; federation of provinces from Gambia River to Futa Jallon foothills. Kansala fell to Futa Jallon 1867. Kansala seat approximate (~0.15 deg)."
+  },
+  {
+   "name": "Fuladu",
+   "aliases": [
+    "Firdu"
+   ],
+   "from": 1867,
+   "to": 1903,
+   "seat": {
+    "name": "Hamdallai (near Kolda)",
+    "lat": 12.9,
+    "lon": -14.95
+   },
+   "extent": [
+    [
+     13.45,
+     -15.5
+    ],
+    [
+     13.4,
+     -14.1
+    ],
+    [
+     12.6,
+     -13.7
+    ],
+    [
+     12.5,
+     -15.2
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Fuladu",
+   "confidence": "moderate",
+   "note": "Fula kingdom of Alfa Molo and Musa Molo in upper Casamance, carved from Kaabu; partitioned by British, French and Portuguese 1903."
+  },
+  {
+   "name": "Kingdom of Bissau",
+   "aliases": [
+    "Papel kingdom"
+   ],
+   "from": 1500,
+   "to": 1915,
+   "seat": {
+    "name": "Bissau",
+    "lat": 11.86,
+    "lon": -15.6
+   },
+   "reach_km": 20,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Papel_people",
+   "confidence": "low",
+   "note": "Papel chiefdom on Bissau island coexisting with Portuguese fort (from 1687); subdued by Portugal 1915."
+  },
+  {
+   "name": "Emirate of Trarza",
+   "aliases": [
+    "Trarza"
+   ],
+   "from": 1640,
+   "to": 1902,
+   "seat": {
+    "name": "Mederdra (emir's camp)",
+    "lat": 16.92,
+    "lon": -15.66
+   },
+   "extent": [
+    [
+     18.5,
+     -16.1
+    ],
+    [
+     18.3,
+     -14.6
+    ],
+    [
+     17.0,
+     -14.4
+    ],
+    [
+     16.45,
+     -15.6
+    ],
+    [
+     16.45,
+     -16.4
+    ],
+    [
+     17.2,
+     -16.2
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Trarza",
+   "confidence": "moderate",
+   "note": "Hassaniya Arab (Awlad Ahmad bin Daman) emirate of SW Mauritania; nomadic court; gum trade with Saint-Louis. French protectorate 1902."
+  },
+  {
+   "name": "Emirate of Brakna",
+   "aliases": [
+    "Brakna"
+   ],
+   "from": 1640,
+   "to": 1903,
+   "seat": {
+    "name": "Aleg",
+    "lat": 17.05,
+    "lon": -13.92
+   },
+   "extent": [
+    [
+     18.4,
+     -14.6
+    ],
+    [
+     18.2,
+     -12.9
+    ],
+    [
+     16.9,
+     -12.5
+    ],
+    [
+     16.4,
+     -13.3
+    ],
+    [
+     16.6,
+     -14.5
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Emirate_of_Brakna",
+   "confidence": "moderate",
+   "note": "Hassani emirate north of the middle Senegal; nomadic court. French protectorate 1903."
+  },
+  {
+   "name": "Emirate of Tagant",
+   "aliases": [
+    "Idaw'ish emirate",
+    "Tagant"
+   ],
+   "from": 1580,
+   "to": 1905,
+   "seat": {
+    "name": "Tidjikja",
+    "lat": 18.55,
+    "lon": -11.43
+   },
+   "extent": [
+    [
+     19.5,
+     -12.5
+    ],
+    [
+     19.4,
+     -10.2
+    ],
+    [
+     17.6,
+     -9.6
+    ],
+    [
+     17.3,
+     -11.5
+    ],
+    [
+     18.0,
+     -12.7
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Tagant_region",
+   "confidence": "low",
+   "note": "Idaw'ish (Zenaga-origin) emirate on the Tagant plateau; emirate formalised 18th c. French conquest 1905 (Coppolani killed at Tidjikja)."
+  },
+  {
+   "name": "Emirate of Adrar",
+   "aliases": [
+    "Adrar"
+   ],
+   "from": 1740,
+   "to": 1909,
+   "seat": {
+    "name": "Atar",
+    "lat": 20.52,
+    "lon": -13.05
+   },
+   "extent": [
+    [
+     22.0,
+     -13.8
+    ],
+    [
+     21.6,
+     -11.0
+    ],
+    [
+     20.0,
+     -10.8
+    ],
+    [
+     19.8,
+     -13.3
+    ],
+    [
+     20.7,
+     -14.3
+    ]
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Adrar_Plateau",
+   "confidence": "moderate",
+   "note": "Hassani (Yahya ben Uthman) emirate around Atar, Chinguetti and Ouadane; French conquest 1909."
+  },
+  {
+   "name": "Hodh Hassani tribes",
+   "aliases": [
+    "Awlad Mbarak",
+    "Mashduf",
+    "Hodh"
+   ],
+   "from": 1600,
+   "to": 1912,
+   "seat": {
+    "name": "Néma / Oualata area",
+    "lat": 16.62,
+    "lon": -7.26
+   },
+   "extent": [
+    [
+     18.0,
+     -9.5
+    ],
+    [
+     18.0,
+     -5.5
+    ],
+    [
+     16.3,
+     -5.3
+    ],
+    [
+     15.6,
+     -7.5
+    ],
+    [
+     15.8,
+     -9.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1500,
+     "to": 1591,
+     "name": "Songhai Empire"
+    }
+   ],
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Hodh_Ech_Chargui_Region",
+   "confidence": "low",
+   "note": "Awlad Mbarak dominant 17th-18th c., displaced by Mashduf in 19th c.; Oualata a scholarly town. Use as fill for the Hodh."
+  },
+  {
+   "name": "Imamate of Futa Jallon",
+   "aliases": [
+    "Futa Djallon",
+    "Fouta Djallon"
+   ],
+   "from": 1725,
+   "to": 1896,
+   "seat": {
+    "name": "Timbo",
+    "lat": 10.64,
+    "lon": -11.83
+   },
+   "extent": [
+    [
+     12.2,
+     -12.6
+    ],
+    [
+     12.0,
+     -11.2
+    ],
+    [
+     11.0,
+     -10.6
+    ],
+    [
+     10.0,
+     -11.0
+    ],
+    [
+     9.9,
+     -12.6
+    ],
+    [
+     10.6,
+     -13.6
+    ],
+    [
+     11.6,
+     -13.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1881,
+     "to": 1896,
+     "name": "France"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Imamate_of_Futa_Jallon",
+   "confidence": "high",
+   "note": "Fula almamate of the Guinea highlands; religious capital Fugumba. Nine provinces (diwe). French protectorate 1881 (nominal), occupation 1896."
+  },
+  {
+   "name": "Baté Empire",
+   "aliases": [
+    "Batè",
+    "Kankan"
+   ],
+   "from": 1700,
+   "to": 1881,
+   "seat": {
+    "name": "Kankan",
+    "lat": 10.38,
+    "lon": -9.31
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1881,
+     "to": 1891,
+     "name": "Wassoulou Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Baté_Empire",
+   "confidence": "low",
+   "note": "Maninka Muslim (Kaba clan) state around Kankan on the Milo; taken over by Samori 1881, French 1891."
+  },
+  {
+   "name": "Solima",
+   "aliases": [
+    "Solima Yalunka",
+    "Sulima"
+   ],
+   "from": 1690,
+   "to": 1884,
+   "seat": {
+    "name": "Falaba",
+    "lat": 9.85,
+    "lon": -11.32
+   },
+   "reach_km": 50,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Falaba",
+   "confidence": "low",
+   "note": "Yalunka kingdom on the upper Niger/Rokel watershed (NE Sierra Leone); long war with Futa Jallon; Falaba destroyed by Samori's forces 1884."
+  },
+  {
+   "name": "Moria",
+   "aliases": [
+    "Morea",
+    "Manika state of Moria"
+   ],
+   "from": 1720,
+   "to": 1890,
+   "seat": {
+    "name": "Forécariah",
+    "lat": 9.43,
+    "lon": -13.09
+   },
+   "reach_km": 35,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/History_of_Guinea",
+   "confidence": "low",
+   "note": "Muslim Manika/Susu state on the Guinea coast between Melakori and Scarcies rivers; absorbed into French Guinea c.1890."
+  },
+  {
+   "name": "Koya Temne",
+   "aliases": [
+    "Kingdom of Koya",
+    "Bai Farma"
+   ],
+   "from": 1505,
+   "to": 1896,
+   "seat": {
+    "name": "Robaga / Port Loko area",
+    "lat": 8.62,
+    "lon": -13.0
+   },
+   "reach_km": 45,
+   "overlord": [
+    {
+     "from": 1560,
+     "to": 1650,
+     "name": "Mane (Sapes) kingdoms"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Temne_people",
+   "confidence": "low",
+   "note": "Temne kingdom inland of the Sierra Leone estuary; ceded the Freetown peninsula (1788/1807). British protectorate 1896."
+  },
+  {
+   "name": "Sherbro chiefdoms",
+   "aliases": [
+    "Bullom",
+    "Sherbro"
+   ],
+   "from": 1450,
+   "to": 1896,
+   "seat": {
+    "name": "Bonthe / York Island",
+    "lat": 7.53,
+    "lon": -12.5
+   },
+   "extent": [
+    [
+     7.95,
+     -12.95
+    ],
+    [
+     7.8,
+     -12.2
+    ],
+    [
+     7.2,
+     -11.9
+    ],
+    [
+     7.0,
+     -11.6
+    ],
+    [
+     7.3,
+     -12.6
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Sherbro_people",
+   "confidence": "low",
+   "note": "Sherbro (Bullom) chiefdoms of the southern Sierra Leone coast, with Afro-European Caulker and Tucker trading lineages; Sherbro Island ceded to Britain 1861-62, protectorate 1896."
+  },
+  {
+   "name": "Kpaa Mende Confederacy",
+   "aliases": [
+    "Kpa Mende",
+    "Mende chiefdoms"
+   ],
+   "from": 1800,
+   "to": 1896,
+   "seat": {
+    "name": "Taiama / Senehun",
+    "lat": 8.2,
+    "lon": -12.07
+   },
+   "extent": [
+    [
+     8.6,
+     -12.5
+    ],
+    [
+     8.5,
+     -11.6
+    ],
+    [
+     7.9,
+     -11.5
+    ],
+    [
+     7.8,
+     -12.3
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Madam_Yoko",
+   "confidence": "low",
+   "note": "Mende war-chief confederacy in south-central Sierra Leone; under Madam Yoko (Senehun) 1878-1906 an ally of Britain. Other Mende chiefdoms (Luawa, Bumpe) lie east and south."
+  },
+  {
+   "name": "Gallinas",
+   "aliases": [
+    "Vai kingdoms",
+    "Massaquoi chiefdom",
+    "Gallinas Coast"
+   ],
+   "from": 1700,
+   "to": 1890,
+   "seat": {
+    "name": "Gendema",
+    "lat": 7.03,
+    "lon": -11.5
+   },
+   "reach_km": 40,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Vai_people",
+   "confidence": "low",
+   "note": "Vai chiefdoms of the Gallinas River (Massaquoi dynasty), major slave-trade centre to 1850; partitioned between Sierra Leone and Liberia 1885-1890."
+  },
+  {
+   "name": "Condo Confederation",
+   "aliases": [
+    "Kondo Confederation",
+    "Bopolu"
+   ],
+   "from": 1780,
+   "to": 1871,
+   "seat": {
+    "name": "Bopolu",
+    "lat": 7.07,
+    "lon": -10.49
+   },
+   "extent": [
+    [
+     7.65,
+     -11.0
+    ],
+    [
+     7.6,
+     -10.0
+    ],
+    [
+     6.85,
+     -9.9
+    ],
+    [
+     6.7,
+     -10.8
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Bopolu",
+   "confidence": "moderate",
+   "note": "Mandingo/Gola/Vai trade confederation in NW Liberia under Sao Boso and successors; fragmented after 1840s and absorbed by Liberia."
+  },
+  {
+   "name": "Grebo confederation",
+   "aliases": [
+    "Glebo"
+   ],
+   "from": 1700,
+   "to": 1910,
+   "seat": {
+    "name": "Gbenelu (Cape Palmas)",
+    "lat": 4.37,
+    "lon": -7.72
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1857,
+     "to": 1910,
+     "name": "Liberia"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Grebo_people",
+   "confidence": "low",
+   "note": "Grebo town confederations of the far SE Liberian coast; repeated wars with Maryland/Liberia (1857, 1875, 1910)."
+  },
+  {
+   "name": "Kru Coast towns",
+   "aliases": [
+    "Kru",
+    "Kroo"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Settra Kru",
+    "lat": 4.97,
+    "lon": -8.68
+   },
+   "reach_km": 60,
+   "kind": "tribal nation",
+   "source": "https://en.wikipedia.org/wiki/Kru_people",
+   "confidence": "low",
+   "note": "Autonomous Kru 'dako' town confederations of the SE Liberian coast; nominally Liberian after 1847. Fill with low confidence."
+  },
+  {
+   "name": "Liberia",
+   "aliases": [
+    "Republic of Liberia",
+    "American Colonization Society colony"
+   ],
+   "from": 1822,
+   "to": 1900,
+   "seat": {
+    "name": "Monrovia",
+    "lat": 6.31,
+    "lon": -10.8
+   },
+   "extent": [
+    [
+     6.95,
+     -11.45
+    ],
+    [
+     7.1,
+     -10.6
+    ],
+    [
+     5.6,
+     -9.2
+    ],
+    [
+     4.6,
+     -7.7
+    ],
+    [
+     4.35,
+     -7.6
+    ],
+    [
+     4.9,
+     -8.6
+    ],
+    [
+     5.9,
+     -10.3
+    ],
+    [
+     6.6,
+     -11.3
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1822,
+     "to": 1847,
+     "extent": [
+      [
+       6.8,
+       -11.2
+      ],
+      [
+       6.7,
+       -10.5
+      ],
+      [
+       5.9,
+       -9.95
+      ],
+      [
+       5.95,
+       -10.45
+      ],
+      [
+       6.25,
+       -10.9
+      ]
+     ]
+    },
+    {
+     "from": 1847,
+     "to": 1900
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Liberia",
+   "confidence": "high",
+   "note": "ACS colony 1822, independent 1847, absorbed Maryland 1857. Effective control was a coastal strip ~40-60 km deep; the interior stayed under indigenous chiefdoms to c.1900."
+  },
+  {
+   "name": "Republic of Maryland",
+   "aliases": [
+    "Maryland in Africa",
+    "Maryland in Liberia"
+   ],
+   "from": 1834,
+   "to": 1857,
+   "seat": {
+    "name": "Harper",
+    "lat": 4.37,
+    "lon": -7.72
+   },
+   "reach_km": 35,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Republic_of_Maryland",
+   "confidence": "high",
+   "note": "Maryland State Colonization Society settlement at Cape Palmas; independent 1854, annexed by Liberia 1857."
+  },
+  {
+   "name": "Sierra Leone Colony",
+   "aliases": [
+    "Province of Freedom",
+    "Freetown Colony",
+    "Sierra Leone Protectorate"
+   ],
+   "from": 1787,
+   "to": 1961,
+   "seat": {
+    "name": "Freetown",
+    "lat": 8.48,
+    "lon": -13.23
+   },
+   "reach_km": 30,
+   "phases": [
+    {
+     "from": 1787,
+     "to": 1896
+    },
+    {
+     "from": 1896,
+     "to": 1961,
+     "extent": [
+      [
+       9.95,
+       -13.3
+      ],
+      [
+       9.9,
+       -11.0
+      ],
+      [
+       8.5,
+       -10.3
+      ],
+      [
+       7.0,
+       -11.45
+      ],
+      [
+       7.4,
+       -12.9
+      ],
+      [
+       8.4,
+       -13.3
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Sierra_Leone_Colony_and_Protectorate",
+   "confidence": "high",
+   "note": "Freetown peninsula colony (Sierra Leone Company 1792, Crown 1808); hinterland protectorate 1896 covers all modern Sierra Leone."
+  },
+  {
+   "name": "Wassoulou Empire",
+   "aliases": [
+    "Samori's empire",
+    "Mandinka Empire"
+   ],
+   "from": 1878,
+   "to": 1898,
+   "seat": {
+    "name": "Bissandugu",
+    "lat": 10.47,
+    "lon": -8.8
+   },
+   "extent": [
+    [
+     11.8,
+     -9.5
+    ],
+    [
+     11.6,
+     -7.0
+    ],
+    [
+     10.0,
+     -6.5
+    ],
+    [
+     8.5,
+     -7.5
+    ],
+    [
+     8.6,
+     -9.5
+    ],
+    [
+     9.8,
+     -10.6
+    ],
+    [
+     11.0,
+     -10.4
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1878,
+     "to": 1893,
+     "seat": {
+      "name": "Bissandugu",
+      "lat": 10.47,
+      "lon": -8.8
+     }
+    },
+    {
+     "from": 1894,
+     "to": 1898,
+     "seat": {
+      "name": "Dabakala",
+      "lat": 8.37,
+      "lon": -4.43
+     },
+     "extent": [
+      [
+       9.8,
+       -5.6
+      ],
+      [
+       9.7,
+       -2.6
+      ],
+      [
+       8.0,
+       -2.8
+      ],
+      [
+       7.8,
+       -5.0
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Wassoulou_Empire",
+   "confidence": "moderate",
+   "note": "Samori Toure's state; driven east by the French 1891-94 into northern Cote d'Ivoire/Ghana (Kong destroyed 1897); Samori captured 1898. Bissandugu seat approx."
+  },
+  {
+   "name": "Kénédougou Kingdom",
+   "aliases": [
+    "Kenedugu",
+    "Traoré kingdom of Sikasso"
+   ],
+   "from": 1650,
+   "to": 1898,
+   "seat": {
+    "name": "Sikasso",
+    "lat": 11.32,
+    "lon": -5.67
+   },
+   "extent": [
+    [
+     12.3,
+     -6.4
+    ],
+    [
+     12.2,
+     -4.8
+    ],
+    [
+     10.6,
+     -4.8
+    ],
+    [
+     10.3,
+     -5.9
+    ],
+    [
+     11.0,
+     -6.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kénédougou_Kingdom",
+   "confidence": "moderate",
+   "note": "Senufo-Dyula kingdom; extent shown at peak under Tieba and Babemba (1870s-1890s), earlier smaller. French took Sikasso 1898."
+  },
+  {
+   "name": "Mali Empire",
+   "aliases": [
+    "Manden Kurufaba",
+    "Mandé"
+   ],
+   "from": 1235,
+   "to": 1670,
+   "seat": {
+    "name": "Niani",
+    "lat": 11.38,
+    "lon": -8.38
+   },
+   "extent": [
+    [
+     15.5,
+     -12.0
+    ],
+    [
+     15.8,
+     -6.0
+    ],
+    [
+     14.2,
+     -4.0
+    ],
+    [
+     12.0,
+     -5.0
+    ],
+    [
+     10.2,
+     -8.0
+    ],
+    [
+     11.0,
+     -11.5
+    ],
+    [
+     12.6,
+     -15.5
+    ],
+    [
+     13.6,
+     -16.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1460,
+     "extent": [
+      [
+       15.5,
+       -12.0
+      ],
+      [
+       15.8,
+       -6.0
+      ],
+      [
+       14.2,
+       -4.0
+      ],
+      [
+       12.0,
+       -5.0
+      ],
+      [
+       10.2,
+       -8.0
+      ],
+      [
+       11.0,
+       -11.5
+      ],
+      [
+       12.6,
+       -15.5
+      ],
+      [
+       13.6,
+       -16.6
+      ]
+     ]
+    },
+    {
+     "from": 1460,
+     "to": 1550,
+     "extent": [
+      [
+       13.6,
+       -16.6
+      ],
+      [
+       14.3,
+       -12.0
+      ],
+      [
+       13.5,
+       -8.5
+      ],
+      [
+       12.3,
+       -6.8
+      ],
+      [
+       10.2,
+       -8.0
+      ],
+      [
+       10.6,
+       -11.0
+      ],
+      [
+       12.0,
+       -15.8
+      ]
+     ]
+    },
+    {
+     "from": 1550,
+     "to": 1670,
+     "seat": {
+      "name": "Kangaba",
+      "lat": 11.94,
+      "lon": -8.41
+     },
+     "extent": [
+      [
+       13.0,
+       -9.5
+      ],
+      [
+       12.9,
+       -7.5
+      ],
+      [
+       11.3,
+       -7.3
+      ],
+      [
+       10.5,
+       -8.4
+      ],
+      [
+       11.0,
+       -9.6
+      ],
+      [
+       12.3,
+       -10.0
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Mali_Empire",
+   "confidence": "moderate",
+   "note": "Lost Timbuktu (1433) and the Sahel to Tuareg/Songhai, Djenné c.1473; Gambia/Kaabu provinces lost 1537; defeated at Djenné 1599 and broke up c.1670 after Bamana attacks. Late capitals uncertain."
+  },
+  {
+   "name": "Kangaba",
+   "aliases": [
+    "Manding remnant",
+    "Keita of Kangaba"
+   ],
+   "from": 1670,
+   "to": 1888,
+   "seat": {
+    "name": "Kangaba",
+    "lat": 11.94,
+    "lon": -8.41
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1712,
+     "to": 1861,
+     "name": "Bamana Empire"
+    },
+    {
+     "from": 1880,
+     "to": 1888,
+     "name": "Wassoulou Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kangaba",
+   "confidence": "low",
+   "note": "Keita rump of Mali in the Manden heartland on the upper Niger; French control 1888."
+  },
+  {
+   "name": "Songhai Empire",
+   "aliases": [
+    "Songhay",
+    "Askia Empire"
+   ],
+   "from": 1430,
+   "to": 1591,
+   "seat": {
+    "name": "Gao",
+    "lat": 16.27,
+    "lon": -0.04
+   },
+   "extent": [
+    [
+     16.5,
+     -10.5
+    ],
+    [
+     19.5,
+     -3.0
+    ],
+    [
+     19.0,
+     1.5
+    ],
+    [
+     17.0,
+     8.0
+    ],
+    [
+     13.5,
+     4.0
+    ],
+    [
+     12.5,
+     -1.0
+    ],
+    [
+     13.0,
+     -5.0
+    ],
+    [
+     14.5,
+     -9.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1430,
+     "to": 1464,
+     "extent": [
+      [
+       17.2,
+       -1.5
+      ],
+      [
+       16.8,
+       1.0
+      ],
+      [
+       15.2,
+       1.0
+      ],
+      [
+       15.5,
+       -1.3
+      ]
+     ]
+    },
+    {
+     "from": 1464,
+     "to": 1591,
+     "extent": [
+      [
+       16.5,
+       -10.5
+      ],
+      [
+       19.5,
+       -3.0
+      ],
+      [
+       19.0,
+       1.5
+      ],
+      [
+       17.0,
+       8.0
+      ],
+      [
+       13.5,
+       4.0
+      ],
+      [
+       12.5,
+       -1.0
+      ],
+      [
+       13.0,
+       -5.0
+      ],
+      [
+       14.5,
+       -9.0
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Songhai_Empire",
+   "confidence": "high",
+   "note": "Expansion under Sunni Ali (1464-92) and Askia Muhammad; Agadez and Hausa states (Katsina, Kano) paid tribute in the 16th c. (not drawn). Fell to Morocco at Tondibi 1591."
+  },
+  {
+   "name": "Dendi Kingdom",
+   "aliases": [
+    "Songhai of Dendi",
+    "Dendi Askias"
+   ],
+   "from": 1591,
+   "to": 1901,
+   "seat": {
+    "name": "Lulami",
+    "lat": 11.9,
+    "lon": 3.45
+   },
+   "extent": [
+    [
+     14.2,
+     1.2
+    ],
+    [
+     13.6,
+     2.4
+    ],
+    [
+     12.0,
+     3.9
+    ],
+    [
+     11.5,
+     3.4
+    ],
+    [
+     12.6,
+     1.9
+    ],
+    [
+     13.9,
+     0.8
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Dendi_Kingdom",
+   "confidence": "low",
+   "note": "Askia remnant of Songhai in the lower Niger valley after 1591; larger in early 17th c., later fragmented into small Songhai/Zarma chiefdoms (Tera, Anzourou, Gorouol). French deposed last askia 1901."
+  },
+  {
+   "name": "Pashalik of Timbuktu",
+   "aliases": [
+    "Arma",
+    "Moroccan Pashalik"
+   ],
+   "from": 1591,
+   "to": 1833,
+   "seat": {
+    "name": "Timbuktu",
+    "lat": 16.77,
+    "lon": -3.0
+   },
+   "extent": [
+    [
+     17.1,
+     -5.0
+    ],
+    [
+     16.9,
+     0.3
+    ],
+    [
+     15.8,
+     0.3
+    ],
+    [
+     14.8,
+     -2.5
+    ],
+    [
+     13.6,
+     -4.6
+    ],
+    [
+     14.6,
+     -5.3
+    ]
+   ],
+   "reach_km": 80,
+   "overlord": [
+    {
+     "from": 1591,
+     "to": 1660,
+     "name": "Saadi Sultanate (Morocco)"
+    },
+    {
+     "from": 1737,
+     "to": 1826,
+     "name": "Tuareg (Kel Tademaket/Iwellemmeden) dominance"
+    },
+    {
+     "from": 1826,
+     "to": 1833,
+     "name": "Massina Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1591,
+     "to": 1660,
+     "extent": [
+      [
+       17.1,
+       -5.0
+      ],
+      [
+       16.9,
+       0.3
+      ],
+      [
+       15.8,
+       0.3
+      ],
+      [
+       14.8,
+       -2.5
+      ],
+      [
+       13.6,
+       -4.6
+      ],
+      [
+       14.6,
+       -5.3
+      ]
+     ]
+    },
+    {
+     "from": 1660,
+     "to": 1833
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Pashalik_of_Timbuktu",
+   "confidence": "moderate",
+   "note": "Moroccan conquest state ruled by Arma pashas; after c.1660 shrank to Timbuktu, Gao and Djenné towns (reach_km applies to 1660-1833)."
+  },
+  {
+   "name": "Fula Kingdom of Massina",
+   "aliases": [
+    "Dialloube Ardos",
+    "Macina"
+   ],
+   "from": 1400,
+   "to": 1818,
+   "seat": {
+    "name": "Tenenkou",
+    "lat": 14.46,
+    "lon": -4.92
+   },
+   "reach_km": 110,
+   "overlord": [
+    {
+     "from": 1400,
+     "to": 1470,
+     "name": "Mali Empire"
+    },
+    {
+     "from": 1470,
+     "to": 1591,
+     "name": "Songhai Empire"
+    },
+    {
+     "from": 1591,
+     "to": 1660,
+     "name": "Pashalik of Timbuktu"
+    },
+    {
+     "from": 1712,
+     "to": 1818,
+     "name": "Bamana Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Masina_Empire",
+   "confidence": "low",
+   "note": "Fula pastoral kingdom of the Ardo (Dialloube) dynasty in the inner Niger delta; overthrown by Seku Amadu 1818."
+  },
+  {
+   "name": "Massina Empire",
+   "aliases": [
+    "Caliphate of Hamdullahi",
+    "Diina",
+    "Macina"
+   ],
+   "from": 1818,
+   "to": 1862,
+   "seat": {
+    "name": "Hamdullahi",
+    "lat": 14.2,
+    "lon": -4.0
+   },
+   "extent": [
+    [
+     15.7,
+     -5.0
+    ],
+    [
+     16.9,
+     -3.3
+    ],
+    [
+     15.0,
+     -2.0
+    ],
+    [
+     13.9,
+     -2.5
+    ],
+    [
+     13.5,
+     -4.6
+    ],
+    [
+     14.4,
+     -5.6
+    ]
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Masina_Empire",
+   "confidence": "high",
+   "note": "Fula jihad state of Seku Amadu in the inner Niger delta; held Timbuktu 1826-1844. Conquered by Umar Tall 1862."
+  },
+  {
+   "name": "Bamana Empire",
+   "aliases": [
+    "Ségou Empire",
+    "Bambara Empire of Ségou"
+   ],
+   "from": 1712,
+   "to": 1861,
+   "seat": {
+    "name": "Ségou",
+    "lat": 13.44,
+    "lon": -6.26
+   },
+   "extent": [
+    [
+     14.8,
+     -8.0
+    ],
+    [
+     15.2,
+     -4.5
+    ],
+    [
+     13.5,
+     -3.8
+    ],
+    [
+     12.5,
+     -5.3
+    ],
+    [
+     12.4,
+     -7.5
+    ],
+    [
+     13.7,
+     -8.4
+    ]
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Bamana_Empire",
+   "confidence": "high",
+   "note": "Founded by Biton Coulibaly, Ngolo Diarra dynasty from 1766; took Djenné and Massina; conquered by Umar Tall 1861."
+  },
+  {
+   "name": "Kaarta",
+   "aliases": [
+    "Bambara Kaarta",
+    "Massassi kingdom"
+   ],
+   "from": 1650,
+   "to": 1854,
+   "seat": {
+    "name": "Nioro du Sahel",
+    "lat": 15.23,
+    "lon": -9.59
+   },
+   "extent": [
+    [
+     15.6,
+     -10.6
+    ],
+    [
+     15.5,
+     -8.0
+    ],
+    [
+     14.3,
+     -7.3
+    ],
+    [
+     13.9,
+     -8.7
+    ],
+    [
+     14.3,
+     -10.4
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1650,
+     "to": 1754,
+     "seat": {
+      "name": "Sounsan (near Mourdiah)",
+      "lat": 14.47,
+      "lon": -7.47
+     },
+     "extent": [
+      [
+       15.0,
+       -8.6
+      ],
+      [
+       14.9,
+       -6.9
+      ],
+      [
+       13.9,
+       -6.9
+      ],
+      [
+       13.9,
+       -8.4
+      ]
+     ]
+    },
+    {
+     "from": 1754,
+     "to": 1854,
+     "seat": {
+      "name": "Diangounté / Nioro",
+      "lat": 15.23,
+      "lon": -9.59
+     },
+     "extent": [
+      [
+       15.6,
+       -10.6
+      ],
+      [
+       15.5,
+       -8.0
+      ],
+      [
+       14.3,
+       -7.3
+      ],
+      [
+       13.9,
+       -8.7
+      ],
+      [
+       14.3,
+       -10.4
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kaarta",
+   "confidence": "moderate",
+   "note": "Massassi Coulibaly kingdom; pushed west by Ségou in 1754 and conquered Diarra; vassals Khasso and Bambuk raids. Taken by Umar Tall 1854."
+  },
+  {
+   "name": "Toucouleur Empire",
+   "aliases": [
+    "Tukulor Empire",
+    "Umarian state"
+   ],
+   "from": 1852,
+   "to": 1893,
+   "seat": {
+    "name": "Ségou",
+    "lat": 13.44,
+    "lon": -6.26
+   },
+   "extent": [
+    [
+     15.6,
+     -11.2
+    ],
+    [
+     15.4,
+     -6.0
+    ],
+    [
+     15.5,
+     -3.5
+    ],
+    [
+     14.0,
+     -2.3
+    ],
+    [
+     13.2,
+     -4.5
+    ],
+    [
+     12.6,
+     -7.2
+    ],
+    [
+     13.5,
+     -10.0
+    ],
+    [
+     14.4,
+     -11.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1852,
+     "to": 1855,
+     "seat": {
+      "name": "Dinguiraye",
+      "lat": 11.3,
+      "lon": -10.72
+     },
+     "extent": [
+      [
+       12.0,
+       -11.3
+      ],
+      [
+       12.0,
+       -10.2
+      ],
+      [
+       11.0,
+       -10.1
+      ],
+      [
+       10.9,
+       -11.1
+      ]
+     ]
+    },
+    {
+     "from": 1855,
+     "to": 1861,
+     "seat": {
+      "name": "Nioro du Sahel",
+      "lat": 15.23,
+      "lon": -9.59
+     },
+     "extent": [
+      [
+       15.6,
+       -11.2
+      ],
+      [
+       15.5,
+       -8.0
+      ],
+      [
+       14.3,
+       -7.3
+      ],
+      [
+       13.9,
+       -8.7
+      ],
+      [
+       14.4,
+       -11.5
+      ]
+     ]
+    },
+    {
+     "from": 1861,
+     "to": 1890,
+     "seat": {
+      "name": "Ségou",
+      "lat": 13.44,
+      "lon": -6.26
+     }
+    },
+    {
+     "from": 1890,
+     "to": 1893,
+     "seat": {
+      "name": "Bandiagara",
+      "lat": 14.35,
+      "lon": -3.61
+     },
+     "extent": [
+      [
+       15.5,
+       -4.8
+      ],
+      [
+       15.4,
+       -2.5
+      ],
+      [
+       14.0,
+       -2.3
+      ],
+      [
+       13.6,
+       -4.2
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Toucouleur_Empire",
+   "confidence": "high",
+   "note": "Umar Tall's jihad state; after 1864 divided between Ahmadu (Ségou/Nioro) and Tijani (Bandiagara/Massina). French took Ségou 1890, Nioro 1891, Bandiagara 1893."
+  },
+  {
+   "name": "Kong Empire",
+   "aliases": [
+    "Wattara Empire",
+    "Kpon-Gènè"
+   ],
+   "from": 1710,
+   "to": 1898,
+   "seat": {
+    "name": "Kong",
+    "lat": 9.15,
+    "lon": -4.61
+   },
+   "extent": [
+    [
+     11.5,
+     -5.5
+    ],
+    [
+     11.4,
+     -3.8
+    ],
+    [
+     9.0,
+     -3.5
+    ],
+    [
+     8.3,
+     -4.6
+    ],
+    [
+     9.0,
+     -5.7
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1710,
+     "to": 1740,
+     "extent": [
+      [
+       11.5,
+       -5.5
+      ],
+      [
+       11.4,
+       -3.8
+      ],
+      [
+       9.0,
+       -3.5
+      ],
+      [
+       8.3,
+       -4.6
+      ],
+      [
+       9.0,
+       -5.7
+      ]
+     ]
+    },
+    {
+     "from": 1740,
+     "to": 1898,
+     "extent": [
+      [
+       9.9,
+       -5.2
+      ],
+      [
+       9.8,
+       -4.0
+      ],
+      [
+       8.6,
+       -3.9
+      ],
+      [
+       8.5,
+       -5.0
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Kong_Empire",
+   "confidence": "moderate",
+   "note": "Dyula (Wattara) trading state in NE Cote d'Ivoire; Gwiriko broke away 1740. Kong destroyed by Samori 1897, French 1898."
+  },
+  {
+   "name": "Gwiriko",
+   "aliases": [
+    "Gwiriko Kingdom",
+    "Wattara of Bobo-Dioulasso"
+   ],
+   "from": 1714,
+   "to": 1897,
+   "seat": {
+    "name": "Bobo-Dioulasso",
+    "lat": 11.18,
+    "lon": -4.29
+   },
+   "extent": [
+    [
+     12.0,
+     -4.9
+    ],
+    [
+     11.9,
+     -3.3
+    ],
+    [
+     10.6,
+     -3.3
+    ],
+    [
+     10.6,
+     -4.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1714,
+     "to": 1740,
+     "name": "Kong Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Gwiriko",
+   "confidence": "moderate",
+   "note": "Wattara kingdom on the Mouhoun bend incl. Tiefo, Dafin and Bwamu areas; French occupation 1897."
+  },
+  {
+   "name": "Kingdom of Bouna",
+   "aliases": [
+    "Buna",
+    "Bouna (Kulango kingdom)"
+   ],
+   "from": 1600,
+   "to": 1896,
+   "seat": {
+    "name": "Bouna",
+    "lat": 9.27,
+    "lon": -3.0
+   },
+   "reach_km": 60,
+   "overlord": [
+    {
+     "from": 1750,
+     "to": 1874,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bouna,_Ivory_Coast",
+   "confidence": "low",
+   "note": "Kulango kingdom founded by a Dagomba-derived dynasty in the 17th c.; destroyed by Samori 1896."
+  },
+  {
+   "name": "Gyaman",
+   "aliases": [
+    "Abron Kingdom",
+    "Jaman",
+    "Gyaaman"
+   ],
+   "from": 1690,
+   "to": 1897,
+   "seat": {
+    "name": "Bondoukou (Herebo/Zanzan)",
+    "lat": 8.04,
+    "lon": -2.8
+   },
+   "extent": [
+    [
+     8.9,
+     -3.3
+    ],
+    [
+     8.9,
+     -2.4
+    ],
+    [
+     7.6,
+     -2.4
+    ],
+    [
+     7.4,
+     -3.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1740,
+     "to": 1875,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Abron_Kingdom",
+   "confidence": "moderate",
+   "note": "Abron (Bono-Akan) kingdom straddling the Cote d'Ivoire-Ghana border; split between French and British spheres 1897."
+  },
+  {
+   "name": "Gonja",
+   "aliases": [
+    "Gbanya",
+    "Kingdom of Gonja"
+   ],
+   "from": 1550,
+   "to": 1899,
+   "seat": {
+    "name": "Yagbum (later Damongo)",
+    "lat": 9.08,
+    "lon": -1.82
+   },
+   "extent": [
+    [
+     9.9,
+     -2.6
+    ],
+    [
+     9.6,
+     -0.6
+    ],
+    [
+     8.6,
+     0.2
+    ],
+    [
+     8.1,
+     -0.5
+    ],
+    [
+     8.2,
+     -2.0
+    ],
+    [
+     8.9,
+     -2.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1751,
+     "to": 1874,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Gonja",
+   "confidence": "moderate",
+   "note": "Founded by Mande cavalry under Sumaila Ndewura Jakpa (trad. c.1550-1675); divisional chiefdoms incl. Kpembe (Salaga), Bole, Buipe. British protectorate 1899 (eastern part briefly German)."
+  },
+  {
+   "name": "Kingdom of Dagbon",
+   "aliases": [
+    "Dagomba",
+    "Dagbaŋ"
+   ],
+   "from": 1400,
+   "to": 1899,
+   "seat": {
+    "name": "Yendi",
+    "lat": 9.44,
+    "lon": -0.01
+   },
+   "extent": [
+    [
+     10.3,
+     -1.2
+    ],
+    [
+     10.1,
+     0.4
+    ],
+    [
+     9.1,
+     0.5
+    ],
+    [
+     9.0,
+     -0.4
+    ],
+    [
+     9.4,
+     -1.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1744,
+     "to": 1874,
+     "name": "Asante Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1700,
+     "seat": {
+      "name": "Yendi Dabari",
+      "lat": 9.65,
+      "lon": -0.85
+     },
+     "extent": [
+      [
+       10.3,
+       -1.4
+      ],
+      [
+       10.2,
+       -0.2
+      ],
+      [
+       9.2,
+       -0.2
+      ],
+      [
+       9.2,
+       -1.3
+      ]
+     ]
+    },
+    {
+     "from": 1700,
+     "to": 1899,
+     "seat": {
+      "name": "Yendi",
+      "lat": 9.44,
+      "lon": -0.01
+     }
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Dagbon",
+   "confidence": "high",
+   "note": "Moved its capital east to Yendi c.1700 after Gonja pressure; partitioned between German Togo (Yendi) and British Gold Coast 1899."
+  },
+  {
+   "name": "Mamprugu",
+   "aliases": [
+    "Mamprusi",
+    "Kingdom of Mamprugu"
+   ],
+   "from": 1400,
+   "to": 1898,
+   "seat": {
+    "name": "Nalerigu",
+    "lat": 10.53,
+    "lon": -0.37
+   },
+   "extent": [
+    [
+     10.9,
+     -1.3
+    ],
+    [
+     10.95,
+     0.3
+    ],
+    [
+     10.3,
+     0.3
+    ],
+    [
+     10.2,
+     -1.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1700,
+     "seat": {
+      "name": "Gambaga",
+      "lat": 10.53,
+      "lon": -0.44
+     }
+    },
+    {
+     "from": 1700,
+     "to": 1898,
+     "seat": {
+      "name": "Nalerigu",
+      "lat": 10.53,
+      "lon": -0.37
+     }
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mossi_Kingdoms",
+   "confidence": "moderate",
+   "note": "Senior Mole-Dagbani kingdom, parent of the Mossi dynasties; British protectorate 1898."
+  },
+  {
+   "name": "Nanung",
+   "aliases": [
+    "Nanumba kingdom"
+   ],
+   "from": 1400,
+   "to": 1899,
+   "seat": {
+    "name": "Bimbilla",
+    "lat": 8.86,
+    "lon": 0.06
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1744,
+     "to": 1874,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Nanung",
+   "confidence": "moderate",
+   "note": "Small Mole-Dagbani kingdom south-east of Dagbon; German Togo/British partition 1899."
+  },
+  {
+   "name": "Kingdom of Wala",
+   "aliases": [
+    "Wa kingdom"
+   ],
+   "from": 1650,
+   "to": 1896,
+   "seat": {
+    "name": "Wa",
+    "lat": 10.06,
+    "lon": -2.5
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1887,
+     "to": 1896,
+     "name": "Wassoulou Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Wala",
+   "confidence": "moderate",
+   "note": "Mole-Dagbani dynasty with Muslim Dyula community in NW Ghana; raided by Babatu and Samori, British 1896."
+  },
+  {
+   "name": "Kingdom of Ouagadougou",
+   "aliases": [
+    "Wogodogo",
+    "Mogho Naba's kingdom",
+    "Wagadugu"
+   ],
+   "from": 1495,
+   "to": 1896,
+   "seat": {
+    "name": "Ouagadougou",
+    "lat": 12.37,
+    "lon": -1.52
+   },
+   "extent": [
+    [
+     13.1,
+     -2.1
+    ],
+    [
+     13.0,
+     -0.9
+    ],
+    [
+     12.0,
+     -0.8
+    ],
+    [
+     11.6,
+     -1.4
+    ],
+    [
+     11.8,
+     -2.2
+    ],
+    [
+     12.5,
+     -2.4
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mossi_Kingdoms",
+   "confidence": "high",
+   "note": "Paramount Mossi kingdom of the Mogho Naba (capital fixed at Ouagadougou c.1681); French occupation 1896."
+  },
+  {
+   "name": "Kingdom of Yatenga",
+   "aliases": [
+    "Yatenga",
+    "Wahiguya"
+   ],
+   "from": 1540,
+   "to": 1895,
+   "seat": {
+    "name": "Ouahigouya",
+    "lat": 13.58,
+    "lon": -2.42
+   },
+   "extent": [
+    [
+     14.1,
+     -2.9
+    ],
+    [
+     14.0,
+     -1.8
+    ],
+    [
+     13.3,
+     -1.8
+    ],
+    [
+     13.1,
+     -2.4
+    ],
+    [
+     13.4,
+     -3.0
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mossi_Kingdoms",
+   "confidence": "moderate",
+   "note": "Northern Mossi kingdom; Ouahigouya founded as capital 1757 by Naba Kango. French protectorate 1895."
+  },
+  {
+   "name": "Kingdom of Tenkodogo",
+   "aliases": [
+    "Tenkodogo"
+   ],
+   "from": 1150,
+   "to": 1897,
+   "seat": {
+    "name": "Tenkodogo",
+    "lat": 11.78,
+    "lon": -0.37
+   },
+   "reach_km": 55,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Tenkodogo",
+   "confidence": "moderate",
+   "note": "Oldest Mossi kingdom (traditional founding 12th c.), in SE Burkina Faso; French 1897."
+  },
+  {
+   "name": "Kingdom of Boussouma",
+   "aliases": [
+    "Busuma"
+   ],
+   "from": 1700,
+   "to": 1897,
+   "seat": {
+    "name": "Boussouma",
+    "lat": 12.92,
+    "lon": -1.08
+   },
+   "reach_km": 45,
+   "overlord": [
+    {
+     "from": 1700,
+     "to": 1897,
+     "name": "Kingdom of Ouagadougou"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Mossi_Kingdoms",
+   "confidence": "low",
+   "note": "Semi-independent Mossi kingdom NE of Ouagadougou (also Riziam, Mané, Kaya chiefdoms nearby, not itemised)."
+  },
+  {
+   "name": "Nungu",
+   "aliases": [
+    "Gurma kingdom",
+    "Gulmu",
+    "Fada N'Gourma"
+   ],
+   "from": 1300,
+   "to": 1895,
+   "seat": {
+    "name": "Fada N'Gourma",
+    "lat": 12.06,
+    "lon": 0.36
+   },
+   "extent": [
+    [
+     12.9,
+     -0.3
+    ],
+    [
+     12.9,
+     1.6
+    ],
+    [
+     11.3,
+     1.9
+    ],
+    [
+     11.0,
+     0.6
+    ],
+    [
+     11.6,
+     -0.1
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/List_of_rulers_of_the_Gurma_Mossi_state_of_Nungu",
+   "confidence": "moderate",
+   "note": "Paramount Gurma kingdom of eastern Burkina Faso; other Gurma chiefdoms (Pama, Kpatchari) under loose suzerainty. French 1895."
+  },
+  {
+   "name": "Liptako Emirate",
+   "aliases": [
+    "Liptako"
+   ],
+   "from": 1810,
+   "to": 1897,
+   "seat": {
+    "name": "Dori",
+    "lat": 14.03,
+    "lon": -0.03
+   },
+   "reach_km": 90,
+   "overlord": [
+    {
+     "from": 1810,
+     "to": 1897,
+     "name": "Sokoto Caliphate (via Gwandu)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Liptako",
+   "confidence": "moderate",
+   "note": "Fula jihad emirate replacing Gurma rule in NE Burkina Faso; French 1897."
+  },
+  {
+   "name": "Dosso Kingdom",
+   "aliases": [
+    "Zarmakoy of Dosso"
+   ],
+   "from": 1750,
+   "to": 1898,
+   "seat": {
+    "name": "Dosso",
+    "lat": 13.05,
+    "lon": 3.19
+   },
+   "reach_km": 60,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Dosso_Kingdom",
+   "confidence": "moderate",
+   "note": "Zarma kingdom in SW Niger; resisted Sokoto/Gwandu raids; allied with France 1898. Other Zarma chiefdoms (Zarmaganda) not itemised."
+  },
+  {
+   "name": "Kel Ahaggar",
+   "aliases": [
+    "Hoggar Tuareg"
+   ],
+   "from": 1660,
+   "to": 1905,
+   "seat": {
+    "name": "Ahaggar (Tamanrasset area)",
+    "lat": 22.79,
+    "lon": 5.52
+   },
+   "extent": [
+    [
+     25.0,
+     4.0
+    ],
+    [
+     24.6,
+     7.3
+    ],
+    [
+     21.5,
+     8.0
+    ],
+    [
+     20.0,
+     6.0
+    ],
+    [
+     20.8,
+     3.0
+    ],
+    [
+     23.2,
+     2.5
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Kel_Ahaggar",
+   "confidence": "moderate",
+   "note": "Tuareg confederation of the Ahaggar massif under an amenokal (Kel Ghela); French victory at Tit 1902, submission 1905."
+  },
+  {
+   "name": "Kel Ajjer",
+   "aliases": [
+    "Ajjer Tuareg"
+   ],
+   "from": 1400,
+   "to": 1913,
+   "seat": {
+    "name": "Ghat",
+    "lat": 24.96,
+    "lon": 10.17
+   },
+   "extent": [
+    [
+     27.5,
+     8.0
+    ],
+    [
+     27.0,
+     10.6
+    ],
+    [
+     24.0,
+     11.3
+    ],
+    [
+     23.8,
+     8.8
+    ],
+    [
+     25.5,
+     7.5
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1875,
+     "to": 1911,
+     "name": "Ottoman Empire (Ghat garrison)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Tuareg_people",
+   "confidence": "low",
+   "note": "Tuareg confederation of the Tassili n'Ajjer around Ghat and Djanet; French at Djanet 1911, Italians at Ghat 1913."
+  },
+  {
+   "name": "Sultanate of Agadez",
+   "aliases": [
+    "Sultanate of Aïr",
+    "Kel Aïr",
+    "Asben"
+   ],
+   "from": 1449,
+   "to": 1906,
+   "seat": {
+    "name": "Agadez",
+    "lat": 16.97,
+    "lon": 7.99
+   },
+   "extent": [
+    [
+     20.0,
+     7.5
+    ],
+    [
+     20.0,
+     9.5
+    ],
+    [
+     17.5,
+     10.0
+    ],
+    [
+     16.0,
+     8.8
+    ],
+    [
+     16.3,
+     7.0
+    ],
+    [
+     18.0,
+     6.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1500,
+     "to": 1591,
+     "name": "Songhai Empire"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Agadez",
+   "confidence": "high",
+   "note": "Sultan at Agadez arbitrated among Air Tuareg confederations (Kel Ewey, Kel Fadey, Kel Gres before migration). French occupation 1900-1906."
+  },
+  {
+   "name": "Iwellemmeden Kel Ataram",
+   "aliases": [
+    "Iwellemmeden",
+    "Ouilliminden (western)"
+   ],
+   "from": 1650,
+   "to": 1916,
+   "seat": {
+    "name": "Ménaka (Andéramboukane area)",
+    "lat": 15.92,
+    "lon": 2.4
+   },
+   "extent": [
+    [
+     17.5,
+     0.0
+    ],
+    [
+     17.0,
+     3.5
+    ],
+    [
+     15.0,
+     4.0
+    ],
+    [
+     14.8,
+     1.2
+    ],
+    [
+     15.6,
+     0.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1650,
+     "to": 1770,
+     "extent": [
+      [
+       17.5,
+       0.0
+      ],
+      [
+       17.3,
+       6.0
+      ],
+      [
+       14.9,
+       6.0
+      ],
+      [
+       14.6,
+       3.5
+      ],
+      [
+       15.0,
+       1.0
+      ],
+      [
+       15.6,
+       0.0
+      ]
+     ]
+    },
+    {
+     "from": 1770,
+     "to": 1916
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Iwellemmedan_people",
+   "confidence": "moderate",
+   "note": "Western Iwellemmeden around Ménaka and the Gao Niger bend; until c.1770 one confederacy with Kel Dinnik. Dominated Timbuktu/Gao region in 18th-19th c.; revolt of Firhun crushed 1916."
+  },
+  {
+   "name": "Iwellemmeden Kel Dinnik",
+   "aliases": [
+    "Eastern Iwellemmeden",
+    "Kel Denneg"
+   ],
+   "from": 1770,
+   "to": 1917,
+   "seat": {
+    "name": "Azawagh (Tchin-Tabaraden area)",
+    "lat": 15.9,
+    "lon": 5.8
+   },
+   "extent": [
+    [
+     17.5,
+     4.0
+    ],
+    [
+     17.0,
+     6.3
+    ],
+    [
+     14.9,
+     6.0
+    ],
+    [
+     14.4,
+     4.8
+    ],
+    [
+     15.2,
+     3.8
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Iwellemmedan_people",
+   "confidence": "low",
+   "note": "Eastern Iwellemmeden of the Azawagh and Tahoua region; in conflict with Sokoto and Adar; Kaocen/Tuareg revolt 1916-17."
+  },
+  {
+   "name": "Kel Adagh",
+   "aliases": [
+    "Kel Ifoghas",
+    "Adrar des Ifoghas Tuareg"
+   ],
+   "from": 1700,
+   "to": 1916,
+   "seat": {
+    "name": "Kidal",
+    "lat": 18.44,
+    "lon": 1.41
+   },
+   "extent": [
+    [
+     21.0,
+     0.0
+    ],
+    [
+     20.7,
+     2.6
+    ],
+    [
+     18.0,
+     2.4
+    ],
+    [
+     17.6,
+     0.5
+    ],
+    [
+     19.0,
+     -0.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1770,
+     "to": 1900,
+     "name": "Iwellemmeden Kel Ataram"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Kel_Adagh",
+   "confidence": "moderate",
+   "note": "Ifoghas-led confederation of the Adrar des Ifoghas; tributary to the Kel Ataram for much of the 19th c."
+  },
+  {
+   "name": "Kel Tademaket",
+   "aliases": [
+    "Tademekket",
+    "Kel Antessar region"
+   ],
+   "from": 1600,
+   "to": 1894,
+   "seat": {
+    "name": "Goundam area",
+    "lat": 16.41,
+    "lon": -3.67
+   },
+   "reach_km": 120,
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Tuareg_people",
+   "confidence": "low",
+   "note": "Tuareg confederation of the Timbuktu-Goundam lakes region; dominated Timbuktu 18th c. (sack 1737); French at Timbuktu 1894. Kel Antessar and Arab Berabich/Kunta also present."
+  },
+  {
+   "name": "Kel Gres",
+   "aliases": [
+    "Kel Gress"
+   ],
+   "from": 1740,
+   "to": 1917,
+   "seat": {
+    "name": "Madaoua area",
+    "lat": 14.07,
+    "lon": 5.95
+   },
+   "reach_km": 70,
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Tuareg_people",
+   "confidence": "low",
+   "note": "Tuareg group that migrated from Air to the Gobir/Ader borderlands in the 18th c.; tributary relations with Gobir and Sokoto."
+  },
+  {
+   "name": "Asante Empire",
+   "aliases": [
+    "Ashanti Empire",
+    "Asanteman"
+   ],
+   "from": 1701,
+   "to": 1901,
+   "seat": {
+    "name": "Kumasi",
+    "lat": 6.69,
+    "lon": -1.62
+   },
+   "extent": [
+    [
+     9.6,
+     -2.8
+    ],
+    [
+     9.5,
+     0.4
+    ],
+    [
+     7.3,
+     0.7
+    ],
+    [
+     5.6,
+     -0.4
+    ],
+    [
+     5.1,
+     -1.8
+    ],
+    [
+     5.4,
+     -3.0
+    ],
+    [
+     7.8,
+     -3.3
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1701,
+     "to": 1745,
+     "extent": [
+      [
+       7.6,
+       -2.6
+      ],
+      [
+       7.5,
+       -0.9
+      ],
+      [
+       6.2,
+       -0.9
+      ],
+      [
+       5.9,
+       -2.0
+      ],
+      [
+       6.5,
+       -2.7
+      ]
+     ]
+    },
+    {
+     "from": 1745,
+     "to": 1874,
+     "extent": [
+      [
+       9.6,
+       -2.8
+      ],
+      [
+       9.5,
+       0.4
+      ],
+      [
+       7.3,
+       0.7
+      ],
+      [
+       5.6,
+       -0.4
+      ],
+      [
+       5.1,
+       -1.8
+      ],
+      [
+       5.4,
+       -3.0
+      ],
+      [
+       7.8,
+       -3.3
+      ]
+     ]
+    },
+    {
+     "from": 1874,
+     "to": 1901,
+     "extent": [
+      [
+       7.6,
+       -2.4
+      ],
+      [
+       7.4,
+       -0.9
+      ],
+      [
+       6.2,
+       -1.0
+      ],
+      [
+       6.2,
+       -2.2
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Asante_Empire",
+   "confidence": "high",
+   "note": "Peak extent (1745-1874) includes tributary Gonja, Dagbon, Gyaman, Bono, Akyem; directly ruled metropolitan core much smaller. Lost the south after 1874; British occupation 1896, annexation 1901."
+  },
+  {
+   "name": "Bono State",
+   "aliases": [
+    "Bono-Manso",
+    "Brong kingdom"
+   ],
+   "from": 1300,
+   "to": 1723,
+   "seat": {
+    "name": "Bono Manso",
+    "lat": 7.78,
+    "lon": -1.97
+   },
+   "extent": [
+    [
+     8.3,
+     -2.4
+    ],
+    [
+     8.2,
+     -1.4
+    ],
+    [
+     7.4,
+     -1.4
+    ],
+    [
+     7.4,
+     -2.3
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Bono_state",
+   "confidence": "moderate",
+   "note": "Early Akan gold-trading kingdom near Techiman; conquered by Asante 1723 (Techiman later reconstituted as Asante tributary)."
+  },
+  {
+   "name": "Denkyira",
+   "aliases": [
+    "Denkyira Empire"
+   ],
+   "from": 1620,
+   "to": 1874,
+   "seat": {
+    "name": "Abankeseso",
+    "lat": 6.07,
+    "lon": -1.85
+   },
+   "extent": [
+    [
+     6.6,
+     -2.6
+    ],
+    [
+     6.5,
+     -1.4
+    ],
+    [
+     5.5,
+     -1.4
+    ],
+    [
+     5.3,
+     -2.3
+    ],
+    [
+     5.9,
+     -2.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1701,
+     "to": 1824,
+     "name": "Asante Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1620,
+     "to": 1701,
+     "seat": {
+      "name": "Abankeseso",
+      "lat": 6.07,
+      "lon": -1.85
+     },
+     "extent": [
+      [
+       6.6,
+       -2.6
+      ],
+      [
+       6.5,
+       -1.4
+      ],
+      [
+       5.5,
+       -1.4
+      ],
+      [
+       5.3,
+       -2.3
+      ],
+      [
+       5.9,
+       -2.8
+      ]
+     ]
+    },
+    {
+     "from": 1701,
+     "to": 1824,
+     "seat": {
+      "name": "Abankeseso",
+      "lat": 6.07,
+      "lon": -1.85
+     },
+     "extent": [
+      [
+       6.3,
+       -2.1
+      ],
+      [
+       6.3,
+       -1.6
+      ],
+      [
+       5.9,
+       -1.6
+      ],
+      [
+       5.9,
+       -2.1
+      ]
+     ]
+    },
+    {
+     "from": 1824,
+     "to": 1874,
+     "seat": {
+      "name": "Jukwa",
+      "lat": 5.26,
+      "lon": -1.34
+     },
+     "extent": [
+      [
+       5.45,
+       -1.55
+      ],
+      [
+       5.45,
+       -1.15
+      ],
+      [
+       5.15,
+       -1.15
+      ],
+      [
+       5.15,
+       -1.55
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Denkyira",
+   "confidence": "moderate",
+   "note": "Dominant Akan power of the 17th c. (Adansi, Assin, Wassa, Aowin, early Asante as vassals); defeated by Asante at Feyiase 1701. Moved south to Jukwa after 1824; British protectorate 1874."
+  },
+  {
+   "name": "Akwamu",
+   "aliases": [
+    "Akwamu Empire"
+   ],
+   "from": 1600,
+   "to": 1874,
+   "seat": {
+    "name": "Nyanaoase",
+    "lat": 5.82,
+    "lon": -0.33
+   },
+   "extent": [
+    [
+     6.6,
+     -0.9
+    ],
+    [
+     6.6,
+     0.8
+    ],
+    [
+     6.0,
+     1.6
+    ],
+    [
+     5.7,
+     0.6
+    ],
+    [
+     5.5,
+     -0.4
+    ],
+    [
+     5.8,
+     -0.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1730,
+     "to": 1874,
+     "name": "Akyem Abuakwa / Asante (contested)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1600,
+     "to": 1677,
+     "seat": {
+      "name": "Nyanaoase",
+      "lat": 5.82,
+      "lon": -0.33
+     },
+     "extent": [
+      [
+       6.1,
+       -0.7
+      ],
+      [
+       6.1,
+       -0.1
+      ],
+      [
+       5.7,
+       -0.1
+      ],
+      [
+       5.6,
+       -0.6
+      ]
+     ]
+    },
+    {
+     "from": 1677,
+     "to": 1730,
+     "seat": {
+      "name": "Nyanaoase",
+      "lat": 5.82,
+      "lon": -0.33
+     },
+     "extent": [
+      [
+       6.6,
+       -0.9
+      ],
+      [
+       6.6,
+       0.8
+      ],
+      [
+       6.0,
+       1.6
+      ],
+      [
+       5.7,
+       0.6
+      ],
+      [
+       5.5,
+       -0.4
+      ],
+      [
+       5.8,
+       -0.9
+      ]
+     ]
+    },
+    {
+     "from": 1733,
+     "to": 1874,
+     "seat": {
+      "name": "Akwamufie",
+      "lat": 6.24,
+      "lon": 0.08
+     },
+     "extent": [
+      [
+       6.45,
+       -0.1
+      ],
+      [
+       6.45,
+       0.3
+      ],
+      [
+       6.05,
+       0.3
+      ],
+      [
+       6.05,
+       -0.1
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Akwamu",
+   "confidence": "moderate",
+   "note": "Conquered Ga (Accra) 1677-81, Ladoku, and Ewe coastlands to Whydah's border; overthrown by Akyem 1730 and resettled on the Volta at Akwamufie. British protectorate 1874."
+  },
+  {
+   "name": "Fante states",
+   "aliases": [
+    "Fante Confederacy",
+    "Fanti",
+    "Borbor Fante"
+   ],
+   "from": 1450,
+   "to": 1874,
+   "seat": {
+    "name": "Mankessim",
+    "lat": 5.27,
+    "lon": -1.02
+   },
+   "extent": [
+    [
+     5.6,
+     -1.6
+    ],
+    [
+     5.7,
+     -0.6
+    ],
+    [
+     5.25,
+     -0.5
+    ],
+    [
+     5.0,
+     -1.3
+    ],
+    [
+     5.08,
+     -1.75
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1807,
+     "to": 1824,
+     "name": "Asante Empire (intermittent)"
+    },
+    {
+     "from": 1844,
+     "to": 1874,
+     "name": "United Kingdom (Bond of 1844)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Fante_Confederacy",
+   "confidence": "moderate",
+   "note": "Coastal Akan states (Mankessim, Anomabu, Abora, Ekumfi, Gomoa) that absorbed Fetu/Eguafo areas in the 18th c.; formal Fante Confederation 1868-1872; Gold Coast Colony 1874."
+  },
+  {
+   "name": "Ga Kingdom",
+   "aliases": [
+    "Great Accra",
+    "Ga-Mashie"
+   ],
+   "from": 1500,
+   "to": 1681,
+   "seat": {
+    "name": "Ayawaso",
+    "lat": 5.7,
+    "lon": -0.25
+   },
+   "reach_km": 35,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ga_people",
+   "confidence": "moderate",
+   "note": "Ga kingdom of the Accra plains; conquered by Akwamu 1677-1681. Coastal Ga towns (Ga Mashie, Osu, La) continued around European forts under Akwamu, Akyem and Asante influence."
+  },
+  {
+   "name": "Akyem Abuakwa",
+   "aliases": [
+    "Akim Abuakwa"
+   ],
+   "from": 1600,
+   "to": 1874,
+   "seat": {
+    "name": "Kyebi",
+    "lat": 6.17,
+    "lon": -0.55
+   },
+   "extent": [
+    [
+     6.6,
+     -1.0
+    ],
+    [
+     6.5,
+     -0.3
+    ],
+    [
+     5.95,
+     -0.25
+    ],
+    [
+     5.9,
+     -0.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1742,
+     "to": 1816,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Akyem_Abuakwa",
+   "confidence": "moderate",
+   "note": "Largest Akyem state; defeated Akwamu 1730 and briefly held Accra. British protectorate 1874."
+  },
+  {
+   "name": "Akyem Kotoku",
+   "aliases": [
+    "Akim Kotoku"
+   ],
+   "from": 1600,
+   "to": 1874,
+   "seat": {
+    "name": "Oda (earlier Gyadam)",
+    "lat": 5.92,
+    "lon": -0.98
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1742,
+     "to": 1816,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Akyem_Kingdoms",
+   "confidence": "low",
+   "note": "Akyem state west of Abuakwa; seat at Gyadam until mid-19th c., then Oda."
+  },
+  {
+   "name": "Akuapem",
+   "aliases": [
+    "Akwapim"
+   ],
+   "from": 1733,
+   "to": 1874,
+   "seat": {
+    "name": "Akropong",
+    "lat": 5.97,
+    "lon": -0.09
+   },
+   "reach_km": 20,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Akuapem",
+   "confidence": "low",
+   "note": "State formed on the Akuapem ridge after the fall of Akwamu (1733), Akyem-derived dynasty; British protectorate 1874."
+  },
+  {
+   "name": "Kwahu",
+   "aliases": [
+    "Kwawu"
+   ],
+   "from": 1700,
+   "to": 1888,
+   "seat": {
+    "name": "Abene",
+    "lat": 6.66,
+    "lon": -0.73
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1740,
+     "to": 1874,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kwahu",
+   "confidence": "low",
+   "note": "Akan state on the Kwahu plateau; left Asante for British protection 1874-1888."
+  },
+  {
+   "name": "Adansi",
+   "aliases": [
+    "Adanse"
+   ],
+   "from": 1550,
+   "to": 1896,
+   "seat": {
+    "name": "Fomena",
+    "lat": 6.27,
+    "lon": -1.5
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1650,
+     "to": 1701,
+     "name": "Denkyira"
+    },
+    {
+     "from": 1701,
+     "to": 1886,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Adanse",
+   "confidence": "moderate",
+   "note": "Early Akan state south of Kumasi; Treaty of Fomena 1874 signed here; fled into British territory 1886."
+  },
+  {
+   "name": "Kingdom of Assin",
+   "aliases": [
+    "Assin Apimanim",
+    "Assin Attandanso"
+   ],
+   "from": 1600,
+   "to": 1874,
+   "seat": {
+    "name": "Assin Manso",
+    "lat": 5.73,
+    "lon": -1.28
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1650,
+     "to": 1701,
+     "name": "Denkyira"
+    },
+    {
+     "from": 1701,
+     "to": 1824,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Assin",
+   "confidence": "low",
+   "note": "Akan chiefdoms between Denkyira and the Fante coast on the Kumasi-Cape Coast road; British protectorate 1874."
+  },
+  {
+   "name": "Wassa",
+   "aliases": [
+    "Wassaw",
+    "Wassa Fiase",
+    "Wassa Amenfi"
+   ],
+   "from": 1600,
+   "to": 1874,
+   "seat": {
+    "name": "Wassa (Tarkwa area)",
+    "lat": 5.3,
+    "lon": -1.99
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1650,
+     "to": 1701,
+     "name": "Denkyira"
+    },
+    {
+     "from": 1720,
+     "to": 1820,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Akan_people",
+   "confidence": "low",
+   "note": "Gold-rich Akan state (later split Fiase/Amenfi) in SW Ghana behind Ahanta; British protectorate 1874."
+  },
+  {
+   "name": "Sefwi",
+   "aliases": [
+    "Sehwi",
+    "Sefwi Wiawso"
+   ],
+   "from": 1700,
+   "to": 1874,
+   "seat": {
+    "name": "Sefwi Wiawso",
+    "lat": 6.21,
+    "lon": -2.49
+   },
+   "reach_km": 45,
+   "overlord": [
+    {
+     "from": 1720,
+     "to": 1874,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Sefwi_Wiawso",
+   "confidence": "low",
+   "note": "Akan forest states (Wiawso, Anhwiaso, Bekwai) in western Ghana; Asante tributary."
+  },
+  {
+   "name": "Aowin",
+   "aliases": [
+    "Kingdom of Aowin",
+    "Anwianwia"
+   ],
+   "from": 1600,
+   "to": 1874,
+   "seat": {
+    "name": "Enchi",
+    "lat": 5.82,
+    "lon": -2.82
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1680,
+     "to": 1701,
+     "name": "Denkyira"
+    },
+    {
+     "from": 1715,
+     "to": 1874,
+     "name": "Asante Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Aowin",
+   "confidence": "low",
+   "note": "Akan kingdom of the far west Gold Coast forest; many Aowin migrated to found Sanwi (Cote d'Ivoire) in the 18th c."
+  },
+  {
+   "name": "Nzema (Apollonia)",
+   "aliases": [
+    "Apollonia",
+    "Nzima"
+   ],
+   "from": 1600,
+   "to": 1874,
+   "seat": {
+    "name": "Beyin",
+    "lat": 4.99,
+    "lon": -2.59
+   },
+   "reach_km": 35,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Nzema_people",
+   "confidence": "low",
+   "note": "Nzema coastal kingdom(s) around Beyin and Atuabo; strong under Kaku Aka in the 1840s; British 1874."
+  },
+  {
+   "name": "Ahanta",
+   "aliases": [
+    "Ahanta kingdom"
+   ],
+   "from": 1500,
+   "to": 1874,
+   "seat": {
+    "name": "Busua",
+    "lat": 4.81,
+    "lon": -1.93
+   },
+   "reach_km": 25,
+   "overlord": [
+    {
+     "from": 1656,
+     "to": 1872,
+     "name": "Dutch Gold Coast (treaty of Butre)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ahanta_people",
+   "confidence": "low",
+   "note": "Coastal Akan kingdom around Busua, Dixcove and Takoradi; Dutch Ahanta war 1837-38."
+  },
+  {
+   "name": "Fetu Kingdom",
+   "aliases": [
+    "Fetu",
+    "Efutu"
+   ],
+   "from": 1400,
+   "to": 1720,
+   "seat": {
+    "name": "Efutu",
+    "lat": 5.15,
+    "lon": -1.3
+   },
+   "reach_km": 20,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Fetu_Kingdom",
+   "confidence": "moderate",
+   "note": "Coastal kingdom behind Cape Coast; absorbed into the Fante sphere in the early 18th c."
+  },
+  {
+   "name": "Eguafo",
+   "aliases": [
+    "Commany",
+    "Komenda kingdom"
+   ],
+   "from": 1400,
+   "to": 1750,
+   "seat": {
+    "name": "Eguafo",
+    "lat": 5.17,
+    "lon": -1.42
+   },
+   "reach_km": 20,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Eguafo",
+   "confidence": "moderate",
+   "note": "Coastal kingdom including Elmina and Komenda; Komenda Wars 1694-1700; declined in the 18th c. (Elmina became autonomous under the Dutch)."
+  },
+  {
+   "name": "Anlo",
+   "aliases": [
+    "Awuna",
+    "Anlo Ewe state"
+   ],
+   "from": 1600,
+   "to": 1874,
+   "seat": {
+    "name": "Anloga",
+    "lat": 5.79,
+    "lon": 0.9
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1702,
+     "to": 1730,
+     "name": "Akwamu"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Anlo_Ewe",
+   "confidence": "moderate",
+   "note": "Ewe state on the Keta lagoon coast; British annexation of the coast 1874-1879."
+  },
+  {
+   "name": "Kingdom of Sanwi",
+   "aliases": [
+    "Sanwi",
+    "Assinie"
+   ],
+   "from": 1700,
+   "to": 1893,
+   "seat": {
+    "name": "Krindjabo",
+    "lat": 5.4,
+    "lon": -3.21
+   },
+   "reach_km": 45,
+   "overlord": [
+    {
+     "from": 1843,
+     "to": 1893,
+     "name": "France (treaty protectorate)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Sanwi",
+   "confidence": "moderate",
+   "note": "Anyi (Agni) kingdom founded by Aowin emigrants on the Aby lagoon; French treaty 1843, part of Cote d'Ivoire 1893."
+  },
+  {
+   "name": "Indénié",
+   "aliases": [
+    "Ndenye",
+    "Kingdom of Indénié"
+   ],
+   "from": 1700,
+   "to": 1893,
+   "seat": {
+    "name": "Abengourou",
+    "lat": 6.73,
+    "lon": -3.49
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1750,
+     "to": 1874,
+     "name": "Asante Empire (intermittent)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Anyi_people",
+   "confidence": "low",
+   "note": "Anyi kingdom of eastern Cote d'Ivoire; French protectorate treaties 1887-1893."
+  },
+  {
+   "name": "Baoulé chiefdoms",
+   "aliases": [
+    "Baoule",
+    "Warebo kingdom of Sakassou"
+   ],
+   "from": 1730,
+   "to": 1900,
+   "seat": {
+    "name": "Sakassou",
+    "lat": 7.45,
+    "lon": -5.29
+   },
+   "extent": [
+    [
+     8.3,
+     -5.6
+    ],
+    [
+     8.1,
+     -4.3
+    ],
+    [
+     6.6,
+     -4.2
+    ],
+    [
+     6.4,
+     -5.3
+    ],
+    [
+     7.2,
+     -5.9
+    ]
+   ],
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Baoulé_people",
+   "confidence": "low",
+   "note": "Baoulé Akan migrants under Queen Abla Pokou (c.1730) formed loosely-federated chiefdoms (Warebo at Sakassou paramount); resisted French until c.1911."
+  },
+  {
+   "name": "Notsé",
+   "aliases": [
+    "Notsie",
+    "Ewe kingdom of Notsé"
+   ],
+   "from": 1600,
+   "to": 1720,
+   "seat": {
+    "name": "Notsé",
+    "lat": 6.95,
+    "lon": 1.17
+   },
+   "reach_km": 30,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Notsé",
+   "confidence": "low",
+   "note": "Walled Ewe kingdom; tyranny of Agokoli caused the Ewe dispersal (17th c.); afterwards a small chiefdom. Fill central Togo plateau Ewe chiefdoms with low confidence."
+  },
+  {
+   "name": "Genyi",
+   "aliases": [
+    "Little Popo",
+    "Glidji",
+    "Guin"
+   ],
+   "from": 1680,
+   "to": 1884,
+   "seat": {
+    "name": "Glidji / Aného",
+    "lat": 6.24,
+    "lon": 1.61
+   },
+   "reach_km": 20,
+   "overlord": [
+    {
+     "from": 1702,
+     "to": 1730,
+     "name": "Akwamu"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Aného",
+   "confidence": "low",
+   "note": "Ga/Fante-derived (Guin) state at Little Popo on the Togo coast; German Togoland protectorate 1884."
+  },
+  {
+   "name": "Kingdom of Allada",
+   "aliases": [
+    "Ardra",
+    "Arda",
+    "Great Ardra"
+   ],
+   "from": 1440,
+   "to": 1724,
+   "seat": {
+    "name": "Allada",
+    "lat": 6.66,
+    "lon": 2.15
+   },
+   "extent": [
+    [
+     6.95,
+     1.85
+    ],
+    [
+     6.95,
+     2.45
+    ],
+    [
+     6.4,
+     2.45
+    ],
+    [
+     6.35,
+     1.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1680,
+     "to": 1724,
+     "name": "Oyo Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Allada",
+   "confidence": "moderate",
+   "note": "Aja kingdom, parent of Dahomey and Porto-Novo dynasties; conquered by Dahomey 1724."
+  },
+  {
+   "name": "Kingdom of Whydah",
+   "aliases": [
+    "Hueda",
+    "Ouidah",
+    "Xwéda"
+   ],
+   "from": 1580,
+   "to": 1727,
+   "seat": {
+    "name": "Savi",
+    "lat": 6.43,
+    "lon": 2.07
+   },
+   "reach_km": 22,
+   "overlord": [
+    {
+     "from": 1580,
+     "to": 1671,
+     "name": "Kingdom of Allada"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Whydah",
+   "confidence": "moderate",
+   "note": "Hueda coastal kingdom, major slave port at Ouidah; conquered by Dahomey 1727 (exiled Hueda raided from Grand-Popo afterwards)."
+  },
+  {
+   "name": "Kingdom of Dahomey",
+   "aliases": [
+    "Danxomè",
+    "Fon kingdom"
+   ],
+   "from": 1600,
+   "to": 1894,
+   "seat": {
+    "name": "Abomey",
+    "lat": 7.18,
+    "lon": 1.99
+   },
+   "extent": [
+    [
+     7.9,
+     1.6
+    ],
+    [
+     7.9,
+     2.6
+    ],
+    [
+     6.45,
+     2.6
+    ],
+    [
+     6.35,
+     1.75
+    ],
+    [
+     7.0,
+     1.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1730,
+     "to": 1823,
+     "name": "Oyo Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1600,
+     "to": 1724,
+     "extent": [
+      [
+       7.4,
+       1.8
+      ],
+      [
+       7.4,
+       2.25
+      ],
+      [
+       7.0,
+       2.25
+      ],
+      [
+       7.0,
+       1.8
+      ]
+     ]
+    },
+    {
+     "from": 1724,
+     "to": 1894,
+     "extent": [
+      [
+       7.9,
+       1.6
+      ],
+      [
+       7.9,
+       2.6
+      ],
+      [
+       6.45,
+       2.6
+      ],
+      [
+       6.35,
+       1.75
+      ],
+      [
+       7.0,
+       1.6
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Dahomey",
+   "confidence": "high",
+   "note": "Fon kingdom on the Abomey plateau; took Allada 1724 and Whydah 1727; Oyo tributary until Ghezo ended tribute 1823. French conquest 1892-94."
+  },
+  {
+   "name": "Kingdom of Porto-Novo",
+   "aliases": [
+    "Hogbonou",
+    "Ajashe",
+    "Little Ardra"
+   ],
+   "from": 1688,
+   "to": 1882,
+   "seat": {
+    "name": "Porto-Novo",
+    "lat": 6.5,
+    "lon": 2.62
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1730,
+     "to": 1823,
+     "name": "Oyo Empire"
+    },
+    {
+     "from": 1863,
+     "to": 1864,
+     "name": "France"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Porto-Novo",
+   "confidence": "moderate",
+   "note": "Gun/Aja kingdom founded by Allada princes; French protectorate 1863-64 and definitively 1882."
+  },
+  {
+   "name": "Kingdom of Ketu",
+   "aliases": [
+    "Ketou",
+    "Kétou"
+   ],
+   "from": 1500,
+   "to": 1886,
+   "seat": {
+    "name": "Ketu",
+    "lat": 7.36,
+    "lon": 2.6
+   },
+   "reach_km": 45,
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1830,
+     "name": "Oyo Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kétou,_Benin",
+   "confidence": "low",
+   "note": "Western Yoruba kingdom; sacked by Dahomey 1886, French 1894."
+  },
+  {
+   "name": "Kingdom of Sabe",
+   "aliases": [
+    "Savè",
+    "Shabe"
+   ],
+   "from": 1500,
+   "to": 1894,
+   "seat": {
+    "name": "Savè",
+    "lat": 8.03,
+    "lon": 2.49
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1830,
+     "name": "Oyo Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Savè",
+   "confidence": "low",
+   "note": "Yoruba kingdom north of Dahomey; French 1894. Dassa and Shabe-Ijaluku nearby not itemised."
+  },
+  {
+   "name": "Bussa",
+   "aliases": [
+    "Borgu (Bussa)",
+    "Busa"
+   ],
+   "from": 1500,
+   "to": 1898,
+   "seat": {
+    "name": "Bussa (old town)",
+    "lat": 10.2,
+    "lon": 4.5
+   },
+   "reach_km": 70,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Borgu",
+   "confidence": "low",
+   "note": "Senior Borgu (Bariba) kingdom on the Niger; Mungo Park died at its rapids 1806. Old Bussa now under Kainji Lake. British (Royal Niger Company) 1898."
+  },
+  {
+   "name": "Nikki",
+   "aliases": [
+    "Borgu (Nikki)",
+    "Bariba kingdom of Nikki"
+   ],
+   "from": 1500,
+   "to": 1897,
+   "seat": {
+    "name": "Nikki",
+    "lat": 9.94,
+    "lon": 3.21
+   },
+   "extent": [
+    [
+     10.8,
+     2.4
+    ],
+    [
+     10.6,
+     3.8
+    ],
+    [
+     9.0,
+     3.6
+    ],
+    [
+     9.0,
+     2.5
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Nikki,_Benin",
+   "confidence": "low",
+   "note": "Largest Borgu kingdom (cavalry state, Wasangari aristocracy) in NE Benin; Kandi, Kouandé, Parakou subordinate. French 1897."
+  },
+  {
+   "name": "Tem chiefdoms",
+   "aliases": [
+    "Kotokoli",
+    "Tchaoudjo"
+   ],
+   "from": 1700,
+   "to": 1898,
+   "seat": {
+    "name": "Sokodé (Tchaoudjo)",
+    "lat": 8.98,
+    "lon": 1.13
+   },
+   "reach_km": 35,
+   "kind": "chiefdom",
+   "source": "https://en.wikipedia.org/wiki/Tem_people",
+   "confidence": "low",
+   "note": "Tem (Kotokoli) Muslim chiefdoms of central Togo under the Uro Esso of Tchaoudjo; German control 1898. Bassar and Kabye hills to the north largely stateless."
+  },
+  {
+   "name": "Oyo Empire",
+   "aliases": [
+    "Oyo",
+    "Katunga"
+   ],
+   "from": 1300,
+   "to": 1836,
+   "seat": {
+    "name": "Oyo-Ile",
+    "lat": 8.98,
+    "lon": 4.38
+   },
+   "extent": [
+    [
+     9.6,
+     2.6
+    ],
+    [
+     9.4,
+     5.0
+    ],
+    [
+     8.0,
+     5.2
+    ],
+    [
+     7.4,
+     4.0
+    ],
+    [
+     6.4,
+     2.9
+    ],
+    [
+     6.4,
+     1.9
+    ],
+    [
+     7.6,
+     1.8
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1535,
+     "to": 1610,
+     "name": "Nupe Kingdom"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1300,
+     "to": 1535,
+     "seat": {
+      "name": "Oyo-Ile",
+      "lat": 8.98,
+      "lon": 4.38
+     },
+     "extent": [
+      [
+       9.4,
+       3.6
+      ],
+      [
+       9.3,
+       4.9
+      ],
+      [
+       8.2,
+       4.9
+      ],
+      [
+       8.0,
+       3.6
+      ]
+     ]
+    },
+    {
+     "from": 1535,
+     "to": 1610,
+     "seat": {
+      "name": "Igboho",
+      "lat": 8.83,
+      "lon": 3.75
+     },
+     "extent": [
+      [
+       9.1,
+       3.2
+      ],
+      [
+       9.0,
+       4.2
+      ],
+      [
+       8.3,
+       4.2
+      ],
+      [
+       8.3,
+       3.2
+      ]
+     ]
+    },
+    {
+     "from": 1610,
+     "to": 1790,
+     "seat": {
+      "name": "Oyo-Ile",
+      "lat": 8.98,
+      "lon": 4.38
+     },
+     "extent": [
+      [
+       9.6,
+       2.6
+      ],
+      [
+       9.4,
+       5.0
+      ],
+      [
+       8.0,
+       5.2
+      ],
+      [
+       7.4,
+       4.0
+      ],
+      [
+       6.4,
+       2.9
+      ],
+      [
+       6.4,
+       1.9
+      ],
+      [
+       7.6,
+       1.8
+      ]
+     ]
+    },
+    {
+     "from": 1790,
+     "to": 1836,
+     "seat": {
+      "name": "Oyo-Ile",
+      "lat": 8.98,
+      "lon": 4.38
+     },
+     "extent": [
+      [
+       9.4,
+       3.0
+      ],
+      [
+       9.2,
+       4.6
+      ],
+      [
+       7.9,
+       4.6
+      ],
+      [
+       7.6,
+       3.4
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Oyo_Empire",
+   "confidence": "high",
+   "note": "Exile at Igboho after Nupe sack (c.1535). Peak extent (c.1680-1790) includes Egbado corridor to the coast and Aja tributaries (Dahomey, Allada, Porto-Novo) - drawn polygon covers direct rule plus corridor. Ilorin revolt 1817-23; Oyo-Ile abandoned 1835-36."
+  },
+  {
+   "name": "Oyo (Ago-Oyo)",
+   "aliases": [
+    "New Oyo"
+   ],
+   "from": 1836,
+   "to": 1896,
+   "seat": {
+    "name": "New Oyo (Ago d'Oyo)",
+    "lat": 7.85,
+    "lon": 3.93
+   },
+   "reach_km": 40,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Oyo_Empire",
+   "confidence": "moderate",
+   "note": "Rump Oyo kingdom re-founded by Alaafin Atiba south at Ago-Oyo; overshadowed by Ibadan. British bombardment 1895, protectorate 1896."
+  },
+  {
+   "name": "Ife",
+   "aliases": [
+    "Ile-Ife",
+    "Kingdom of Ife"
+   ],
+   "from": 1000,
+   "to": 1900,
+   "seat": {
+    "name": "Ile-Ife",
+    "lat": 7.48,
+    "lon": 4.56
+   },
+   "reach_km": 30,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Ife",
+   "confidence": "moderate",
+   "note": "Sacred Yoruba city-kingdom of the Ooni; politically small after 1500; refugee Oyo settlement at Modakeke from 1840s. British protectorate c.1900."
+  },
+  {
+   "name": "Ijebu Kingdom",
+   "aliases": [
+    "Ijebu"
+   ],
+   "from": 1400,
+   "to": 1892,
+   "seat": {
+    "name": "Ijebu-Ode",
+    "lat": 6.82,
+    "lon": 3.92
+   },
+   "extent": [
+    [
+     7.1,
+     3.5
+    ],
+    [
+     7.05,
+     4.3
+    ],
+    [
+     6.55,
+     4.4
+    ],
+    [
+     6.4,
+     3.6
+    ]
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ijebu_Kingdom",
+   "confidence": "moderate",
+   "note": "Yoruba kingdom of the Awujale controlling trade routes from Lagos lagoon to the interior; British punitive expedition 1892."
+  },
+  {
+   "name": "Egba",
+   "aliases": [
+    "Egba United Government",
+    "Abeokuta"
+   ],
+   "from": 1830,
+   "to": 1914,
+   "seat": {
+    "name": "Abeokuta",
+    "lat": 7.15,
+    "lon": 3.35
+   },
+   "extent": [
+    [
+     7.6,
+     3.0
+    ],
+    [
+     7.5,
+     3.7
+    ],
+    [
+     6.8,
+     3.7
+    ],
+    [
+     6.8,
+     3.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1893,
+     "to": 1914,
+     "name": "United Kingdom (treaty of independence)"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Abeokuta",
+   "confidence": "moderate",
+   "note": "Egba townships refounded at Abeokuta c.1830 after the Owu war; earlier Egba forest towns (Orile Egba) were Oyo dependencies to the 1790s. Independence recognised 1893, ended 1914."
+  },
+  {
+   "name": "Ibadan",
+   "aliases": [
+    "Ibadan military republic"
+   ],
+   "from": 1829,
+   "to": 1893,
+   "seat": {
+    "name": "Ibadan",
+    "lat": 7.38,
+    "lon": 3.9
+   },
+   "extent": [
+    [
+     8.0,
+     3.6
+    ],
+    [
+     8.0,
+     5.3
+    ],
+    [
+     7.2,
+     5.4
+    ],
+    [
+     7.0,
+     4.2
+    ],
+    [
+     7.1,
+     3.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1829,
+     "to": 1850,
+     "extent": [
+      [
+       7.7,
+       3.6
+      ],
+      [
+       7.7,
+       4.3
+      ],
+      [
+       7.1,
+       4.3
+      ],
+      [
+       7.1,
+       3.6
+      ]
+     ]
+    },
+    {
+     "from": 1850,
+     "to": 1893,
+     "extent": [
+      [
+       8.0,
+       3.6
+      ],
+      [
+       8.0,
+       5.3
+      ],
+      [
+       7.2,
+       5.4
+      ],
+      [
+       7.0,
+       4.2
+      ],
+      [
+       7.1,
+       3.6
+      ]
+     ]
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Ibadan",
+   "confidence": "moderate",
+   "note": "War-camp city-state that stopped the Fulani at Osogbo 1840 and dominated Ijesha, Ekiti and Osun towns until the Kiriji war (1877-86); British treaty 1893."
+  },
+  {
+   "name": "Ijesha",
+   "aliases": [
+    "Ijeshaland",
+    "Ilesha kingdom"
+   ],
+   "from": 1400,
+   "to": 1893,
+   "seat": {
+    "name": "Ilesa",
+    "lat": 7.62,
+    "lon": 4.73
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1870,
+     "to": 1878,
+     "name": "Ibadan"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ijesha",
+   "confidence": "moderate",
+   "note": "Yoruba kingdom of the Owa Obokun; led the Ekitiparapo against Ibadan."
+  },
+  {
+   "name": "Ekiti kingdoms",
+   "aliases": [
+    "Ekiti",
+    "Ekitiparapo",
+    "Ekiti sixteen kingdoms"
+   ],
+   "from": 1400,
+   "to": 1893,
+   "seat": {
+    "name": "Ado-Ekiti",
+    "lat": 7.62,
+    "lon": 5.22
+   },
+   "extent": [
+    [
+     8.0,
+     4.9
+    ],
+    [
+     8.0,
+     5.8
+    ],
+    [
+     7.3,
+     5.8
+    ],
+    [
+     7.3,
+     4.9
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1800,
+     "name": "Kingdom of Benin (eastern Ekiti)"
+    },
+    {
+     "from": 1850,
+     "to": 1878,
+     "name": "Ibadan"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Ekiti_people",
+   "confidence": "moderate",
+   "note": "Cluster of ~16 Yoruba kingdoms (Ado, Ikere, Akure nearby, Otun, Ijero...) federated as Ekitiparapo 1877-86."
+  },
+  {
+   "name": "Ondo Kingdom",
+   "aliases": [
+    "Ondo"
+   ],
+   "from": 1500,
+   "to": 1899,
+   "seat": {
+    "name": "Ondo",
+    "lat": 7.09,
+    "lon": 4.84
+   },
+   "reach_km": 35,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Ondo_Kingdom",
+   "confidence": "moderate",
+   "note": "Yoruba kingdom of the Osemawe; British protectorate c.1899."
+  },
+  {
+   "name": "Owo Kingdom",
+   "aliases": [
+    "Owo"
+   ],
+   "from": 1400,
+   "to": 1893,
+   "seat": {
+    "name": "Owo",
+    "lat": 7.2,
+    "lon": 5.59
+   },
+   "reach_km": 30,
+   "overlord": [
+    {
+     "from": 1500,
+     "to": 1800,
+     "name": "Kingdom of Benin"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Olowo_of_Owo",
+   "confidence": "low",
+   "note": "Eastern Yoruba kingdom of the Olowo with strong Benin ties."
+  },
+  {
+   "name": "Ilorin Emirate",
+   "aliases": [
+    "Ilorin"
+   ],
+   "from": 1823,
+   "to": 1897,
+   "seat": {
+    "name": "Ilorin",
+    "lat": 8.5,
+    "lon": 4.55
+   },
+   "extent": [
+    [
+     9.0,
+     4.0
+    ],
+    [
+     8.9,
+     5.2
+    ],
+    [
+     8.1,
+     5.2
+    ],
+    [
+     8.0,
+     4.2
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1823,
+     "to": 1897,
+     "name": "Gwandu Emirate (Sokoto Caliphate)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Ilorin_Emirate",
+   "confidence": "high",
+   "note": "Former Oyo war camp under Afonja, taken over by Fulani; southernmost Sokoto emirate. Royal Niger Company conquest 1897."
+  },
+  {
+   "name": "Kingdom of Lagos",
+   "aliases": [
+    "Eko"
+   ],
+   "from": 1600,
+   "to": 1861,
+   "seat": {
+    "name": "Lagos Island (Iga Idunganran)",
+    "lat": 6.45,
+    "lon": 3.4
+   },
+   "reach_km": 15,
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1830,
+     "name": "Kingdom of Benin"
+    }
+   ],
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Oba_of_Lagos",
+   "confidence": "moderate",
+   "note": "Island kingdom under Benin suzerainty; British bombardment 1851, annexation 1861 (Lagos Colony)."
+  },
+  {
+   "name": "Kingdom of Benin",
+   "aliases": [
+    "Benin Empire",
+    "Edo kingdom",
+    "Ubini"
+   ],
+   "from": 1180,
+   "to": 1897,
+   "seat": {
+    "name": "Benin City",
+    "lat": 6.34,
+    "lon": 5.62
+   },
+   "extent": [
+    [
+     7.4,
+     5.0
+    ],
+    [
+     7.0,
+     6.8
+    ],
+    [
+     5.5,
+     6.6
+    ],
+    [
+     5.3,
+     5.3
+    ],
+    [
+     6.3,
+     3.6
+    ],
+    [
+     6.6,
+     3.5
+    ],
+    [
+     7.0,
+     4.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1440,
+     "extent": [
+      [
+       6.8,
+       5.2
+      ],
+      [
+       6.8,
+       6.1
+      ],
+      [
+       5.9,
+       6.1
+      ],
+      [
+       5.9,
+       5.2
+      ]
+     ]
+    },
+    {
+     "from": 1440,
+     "to": 1700,
+     "extent": [
+      [
+       7.4,
+       5.0
+      ],
+      [
+       7.0,
+       6.8
+      ],
+      [
+       5.5,
+       6.6
+      ],
+      [
+       5.3,
+       5.3
+      ],
+      [
+       6.3,
+       3.6
+      ],
+      [
+       6.6,
+       3.5
+      ],
+      [
+       7.0,
+       4.6
+      ]
+     ]
+    },
+    {
+     "from": 1700,
+     "to": 1897,
+     "extent": [
+      [
+       7.3,
+       5.0
+      ],
+      [
+       7.0,
+       6.6
+      ],
+      [
+       5.6,
+       6.5
+      ],
+      [
+       5.5,
+       5.3
+      ],
+      [
+       6.2,
+       4.6
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Benin",
+   "confidence": "high",
+   "note": "Expansion under Oba Ewuare (1440s) and successors to Lagos lagoon in the west and the Niger in the east (Onitsha, Agbor tributaries). British punitive expedition 1897."
+  },
+  {
+   "name": "Warri Kingdom",
+   "aliases": [
+    "Itsekiri kingdom",
+    "Iwere",
+    "Ouwerre"
+   ],
+   "from": 1480,
+   "to": 1884,
+   "seat": {
+    "name": "Ode-Itsekiri (Big Warri)",
+    "lat": 5.46,
+    "lon": 5.43
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1480,
+     "to": 1600,
+     "name": "Kingdom of Benin"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Warri_Kingdom",
+   "confidence": "moderate",
+   "note": "Itsekiri kingdom of the western Niger delta creeks; Catholic rulers 17th c.; interregnum from 1848 (governors of the river like Nana Olomu). British protectorate 1884."
+  },
+  {
+   "name": "Onitsha",
+   "aliases": [
+    "Onitsha kingdom",
+    "Obi of Onitsha"
+   ],
+   "from": 1500,
+   "to": 1900,
+   "seat": {
+    "name": "Onitsha",
+    "lat": 6.15,
+    "lon": 6.79
+   },
+   "reach_km": 20,
+   "overlord": [
+    {
+     "from": 1500,
+     "to": 1700,
+     "name": "Kingdom of Benin"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Onitsha",
+   "confidence": "low",
+   "note": "Igbo kingdom of Benin-derived dynasty on the Niger east bank; British (Royal Niger Company) influence from 1857, protectorate c.1900."
+  },
+  {
+   "name": "Aboh Kingdom",
+   "aliases": [
+    "Abo",
+    "Ndoni-Aboh"
+   ],
+   "from": 1650,
+   "to": 1890,
+   "seat": {
+    "name": "Aboh",
+    "lat": 5.55,
+    "lon": 6.53
+   },
+   "reach_km": 30,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Aboh",
+   "confidence": "low",
+   "note": "Riverine Igbo trading kingdom at the head of the Niger delta; controlled river traffic until the 1860s."
+  },
+  {
+   "name": "Igala Kingdom",
+   "aliases": [
+    "Igala",
+    "Attah of Igala"
+   ],
+   "from": 1500,
+   "to": 1900,
+   "seat": {
+    "name": "Idah",
+    "lat": 7.11,
+    "lon": 6.73
+   },
+   "extent": [
+    [
+     8.2,
+     6.6
+    ],
+    [
+     7.9,
+     7.8
+    ],
+    [
+     7.0,
+     7.7
+    ],
+    [
+     6.9,
+     6.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1516,
+     "to": 1600,
+     "name": "Kingdom of Benin (contested)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Igala_Kingdom",
+   "confidence": "moderate",
+   "note": "Kingdom of the Attah at the Niger-Benue confluence (south bank); fought Benin 1515-16; Royal Niger Company control 1890s-1900."
+  },
+  {
+   "name": "Nupe Kingdom",
+   "aliases": [
+    "Nupe Emirate",
+    "Bida Emirate",
+    "Kede"
+   ],
+   "from": 1531,
+   "to": 1901,
+   "seat": {
+    "name": "Bida",
+    "lat": 9.08,
+    "lon": 6.01
+   },
+   "extent": [
+    [
+     9.9,
+     4.8
+    ],
+    [
+     9.7,
+     6.9
+    ],
+    [
+     8.6,
+     7.0
+    ],
+    [
+     8.5,
+     5.3
+    ],
+    [
+     9.0,
+     4.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1835,
+     "to": 1901,
+     "name": "Gwandu Emirate (Sokoto Caliphate)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1531,
+     "to": 1810,
+     "seat": {
+      "name": "Gbara",
+      "lat": 9.2,
+      "lon": 5.9
+     }
+    },
+    {
+     "from": 1810,
+     "to": 1857,
+     "seat": {
+      "name": "Raba",
+      "lat": 9.12,
+      "lon": 5.0
+     }
+    },
+    {
+     "from": 1857,
+     "to": 1901,
+     "seat": {
+      "name": "Bida",
+      "lat": 9.08,
+      "lon": 6.01
+     }
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Nupe_Kingdom",
+   "confidence": "moderate",
+   "note": "Founded by Tsoede on the middle Niger; sacked Oyo c.1535. Fulani dynasty from 1830s (emirate). Royal Niger Company conquest 1897, protectorate 1901. Gbara and Raba seats approximate."
+  },
+  {
+   "name": "Kwararafa",
+   "aliases": [
+    "Jukun",
+    "Kororofa",
+    "Wukari kingdom"
+   ],
+   "from": 1400,
+   "to": 1900,
+   "seat": {
+    "name": "Wukari",
+    "lat": 7.87,
+    "lon": 9.78
+   },
+   "extent": [
+    [
+     10.3,
+     9.0
+    ],
+    [
+     9.8,
+     11.5
+    ],
+    [
+     8.0,
+     11.0
+    ],
+    [
+     7.4,
+     9.0
+    ],
+    [
+     8.3,
+     8.0
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1400,
+     "to": 1700,
+     "seat": {
+      "name": "Kwararafa (Benue valley, site uncertain)",
+      "lat": 8.5,
+      "lon": 9.8
+     },
+     "extent": [
+      [
+       10.3,
+       9.0
+      ],
+      [
+       9.8,
+       11.5
+      ],
+      [
+       8.0,
+       11.0
+      ],
+      [
+       7.4,
+       9.0
+      ],
+      [
+       8.3,
+       8.0
+      ]
+     ]
+    },
+    {
+     "from": 1700,
+     "to": 1900,
+     "seat": {
+      "name": "Wukari",
+      "lat": 7.87,
+      "lon": 9.78
+     },
+     "extent": [
+      [
+       8.4,
+       9.2
+      ],
+      [
+       8.4,
+       10.4
+      ],
+      [
+       7.5,
+       10.4
+      ],
+      [
+       7.5,
+       9.2
+      ]
+     ]
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Kwararafa",
+   "confidence": "low",
+   "note": "Multiethnic Benue valley confederacy that raided Kano, Katsina, Zazzau and sacked Ngazargamu (1680); declined in 18th c.; Jukun kingdom of Wukari as successor. British control c.1900."
+  },
+  {
+   "name": "Aro Confederacy",
+   "aliases": [
+    "Arochukwu",
+    "Aro"
+   ],
+   "from": 1690,
+   "to": 1902,
+   "seat": {
+    "name": "Arochukwu",
+    "lat": 5.39,
+    "lon": 7.91
+   },
+   "extent": [
+    [
+     6.6,
+     7.0
+    ],
+    [
+     6.6,
+     8.1
+    ],
+    [
+     5.6,
+     8.3
+    ],
+    [
+     4.9,
+     7.9
+    ],
+    [
+     5.2,
+     6.9
+    ]
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Aro_Confederacy",
+   "confidence": "moderate",
+   "note": "Igbo/Ibibio oracle-and-trade network centred on the Ibini Ukpabi shrine; 'extent' is the sphere of Aro colonies and influence over otherwise autonomous Igbo village-groups, not administered territory. Destroyed by the Anglo-Aro War 1901-02."
+  },
+  {
+   "name": "Kingdom of Nri",
+   "aliases": [
+    "Nri",
+    "Eze Nri"
+   ],
+   "from": 948,
+   "to": 1911,
+   "seat": {
+    "name": "Nri (Agukwu)",
+    "lat": 6.17,
+    "lon": 7.0
+   },
+   "reach_km": 25,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Nri",
+   "confidence": "moderate",
+   "note": "Igbo priest-kingdom with ritual rather than military hegemony; political reach mostly limited to Nri and nearby towns after 1700. British ended it 1911."
+  },
+  {
+   "name": "Kingdom of Bonny",
+   "aliases": [
+    "Ibani",
+    "Grand Bonny"
+   ],
+   "from": 1400,
+   "to": 1884,
+   "seat": {
+    "name": "Bonny",
+    "lat": 4.45,
+    "lon": 7.17
+   },
+   "reach_km": 20,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Bonny",
+   "confidence": "moderate",
+   "note": "Ijaw trading city-state, leading slave then palm-oil port; split 1869 when Jaja founded Opobo. British protectorate 1884."
+  },
+  {
+   "name": "Kalabari Kingdom",
+   "aliases": [
+    "New Calabar",
+    "Elem Kalabari"
+   ],
+   "from": 1400,
+   "to": 1884,
+   "seat": {
+    "name": "Elem Kalabari (Buguma)",
+    "lat": 4.73,
+    "lon": 6.86
+   },
+   "reach_km": 20,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Kalabari_Kingdom",
+   "confidence": "moderate",
+   "note": "Ijaw city-state of the Amanyanabo; capital moved to Buguma 1884 after civil war. British protectorate 1884."
+  },
+  {
+   "name": "Nembe Kingdom",
+   "aliases": [
+    "Brass",
+    "Nembe-Brass"
+   ],
+   "from": 1450,
+   "to": 1884,
+   "seat": {
+    "name": "Nembe",
+    "lat": 4.54,
+    "lon": 6.4
+   },
+   "reach_km": 25,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Nembe_Kingdom",
+   "confidence": "moderate",
+   "note": "Ijaw kingdom of the Brass river; Akassa raid 1895 against the Royal Niger Company. Oil Rivers Protectorate 1884."
+  },
+  {
+   "name": "Okrika Kingdom",
+   "aliases": [
+    "Okrika",
+    "Wakirike"
+   ],
+   "from": 1500,
+   "to": 1884,
+   "seat": {
+    "name": "Okrika",
+    "lat": 4.74,
+    "lon": 7.08
+   },
+   "reach_km": 12,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Okrika_Kingdom",
+   "confidence": "low",
+   "note": "Small Ijaw island city-state between Bonny and Kalabari."
+  },
+  {
+   "name": "Opobo",
+   "aliases": [
+    "Opobo Kingdom",
+    "Jaja's kingdom"
+   ],
+   "from": 1869,
+   "to": 1887,
+   "seat": {
+    "name": "Opobo",
+    "lat": 4.51,
+    "lon": 7.54
+   },
+   "reach_km": 25,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Opobo",
+   "confidence": "moderate",
+   "note": "Founded by Jaja after the Bonny civil war; controlled the Imo river palm-oil trade; Jaja deported by Britain 1887."
+  },
+  {
+   "name": "Old Calabar",
+   "aliases": [
+    "Efik city-states",
+    "Akwa Akpa",
+    "Calabar"
+   ],
+   "from": 1600,
+   "to": 1884,
+   "seat": {
+    "name": "Duke Town",
+    "lat": 4.95,
+    "lon": 8.32
+   },
+   "reach_km": 25,
+   "kind": "city-state",
+   "source": "https://en.wikipedia.org/wiki/Calabar",
+   "confidence": "moderate",
+   "note": "Efik trading towns (Duke Town, Creek Town, Old Town) on the Calabar river under the Ekpe society; British protectorate 1884. Ibibio and Ekoi hinterland largely stateless."
+  },
+  {
+   "name": "Sultanate of Kano",
+   "aliases": [
+    "Kingdom of Kano",
+    "Kano Chronicle state"
+   ],
+   "from": 1350,
+   "to": 1805,
+   "seat": {
+    "name": "Kano",
+    "lat": 12.0,
+    "lon": 8.52
+   },
+   "extent": [
+    [
+     12.6,
+     7.9
+    ],
+    [
+     12.5,
+     9.2
+    ],
+    [
+     11.4,
+     9.2
+    ],
+    [
+     11.3,
+     8.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1513,
+     "to": 1554,
+     "name": "Songhai Empire (tribute)"
+    },
+    {
+     "from": 1561,
+     "to": 1800,
+     "name": "Bornu Empire (intermittent tribute)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Kano",
+   "confidence": "high",
+   "note": "Hausa state centred on walled Kano; absorbed Rano and parts of Biram; conquered by Fulani jihadists 1805-07 (see Kano Emirate)."
+  },
+  {
+   "name": "Sultanate of Katsina",
+   "aliases": [
+    "Hausa Katsina",
+    "Katsina kingdom"
+   ],
+   "from": 1348,
+   "to": 1807,
+   "seat": {
+    "name": "Katsina",
+    "lat": 12.99,
+    "lon": 7.6
+   },
+   "extent": [
+    [
+     13.6,
+     7.0
+    ],
+    [
+     13.4,
+     8.1
+    ],
+    [
+     12.2,
+     8.0
+    ],
+    [
+     12.1,
+     7.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1513,
+     "to": 1554,
+     "name": "Songhai Empire (tribute)"
+    },
+    {
+     "from": 1600,
+     "to": 1800,
+     "name": "Bornu Empire (intermittent tribute)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/History_of_Katsina",
+   "confidence": "moderate",
+   "note": "Hausa trading kingdom; Fulani jihad took Katsina 1807; the Hausa dynasty retreated to Maradi."
+  },
+  {
+   "name": "Zazzau",
+   "aliases": [
+    "Zaria",
+    "Kingdom of Zazzau"
+   ],
+   "from": 1000,
+   "to": 1808,
+   "seat": {
+    "name": "Zaria",
+    "lat": 11.07,
+    "lon": 7.71
+   },
+   "extent": [
+    [
+     11.8,
+     7.0
+    ],
+    [
+     11.6,
+     8.6
+    ],
+    [
+     10.0,
+     8.6
+    ],
+    [
+     9.6,
+     7.2
+    ],
+    [
+     10.6,
+     6.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1734,
+     "name": "Kwararafa (intermittent tribute)"
+    },
+    {
+     "from": 1734,
+     "to": 1800,
+     "name": "Bornu Empire (tribute)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Zazzau",
+   "confidence": "moderate",
+   "note": "Southern Hausa kingdom (Queen Amina, 16th c.), slave-raiding frontier to the south; capital at Zaria from 1536. Fulani conquest 1808; Hausa dynasty withdrew to Abuja (Zuba)."
+  },
+  {
+   "name": "Gobir",
+   "aliases": [
+    "Kingdom of Gobir"
+   ],
+   "from": 1150,
+   "to": 1808,
+   "seat": {
+    "name": "Alkalawa",
+    "lat": 13.2,
+    "lon": 6.3
+   },
+   "extent": [
+    [
+     14.2,
+     5.4
+    ],
+    [
+     14.0,
+     7.2
+    ],
+    [
+     12.9,
+     7.1
+    ],
+    [
+     12.8,
+     5.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1150,
+     "to": 1450,
+     "seat": {
+      "name": "Asben (Air)",
+      "lat": 17.5,
+      "lon": 8.0
+     }
+    },
+    {
+     "from": 1450,
+     "to": 1685,
+     "seat": {
+      "name": "Birnin Lalle",
+      "lat": 14.1,
+      "lon": 6.3
+     },
+     "extent": [
+      [
+       14.8,
+       5.5
+      ],
+      [
+       14.6,
+       7.0
+      ],
+      [
+       13.7,
+       7.0
+      ],
+      [
+       13.7,
+       5.6
+      ]
+     ]
+    },
+    {
+     "from": 1685,
+     "to": 1756,
+     "seat": {
+      "name": "Goran Rami (near Sabon Birni)",
+      "lat": 13.6,
+      "lon": 6.2
+     },
+     "extent": [
+      [
+       14.2,
+       5.4
+      ],
+      [
+       14.0,
+       7.2
+      ],
+      [
+       12.9,
+       7.1
+      ],
+      [
+       12.8,
+       5.6
+      ]
+     ]
+    },
+    {
+     "from": 1756,
+     "to": 1808,
+     "seat": {
+      "name": "Alkalawa",
+      "lat": 13.2,
+      "lon": 6.3
+     },
+     "extent": [
+      [
+       14.2,
+       5.4
+      ],
+      [
+       14.0,
+       7.2
+      ],
+      [
+       12.6,
+       7.0
+      ],
+      [
+       12.6,
+       5.4
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Gobir",
+   "confidence": "moderate",
+   "note": "Northernmost Hausa state, moved south from Air under Tuareg pressure; destroyed Zamfara's capital 1756/62; fell to Uthman dan Fodio 1808. Birnin Lalle and Alkalawa positions approximate (~0.2 deg)."
+  },
+  {
+   "name": "Gobir (Tibiri)",
+   "aliases": [
+    "Rump Gobir",
+    "Tsibiri"
+   ],
+   "from": 1836,
+   "to": 1900,
+   "seat": {
+    "name": "Tibiri",
+    "lat": 13.56,
+    "lon": 7.05
+   },
+   "reach_km": 40,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Gobir",
+   "confidence": "moderate",
+   "note": "Independent rump Gobir north of Sokoto territory, allied with Maradi against the Caliphate; French control c.1900."
+  },
+  {
+   "name": "Kingdom of Kebbi",
+   "aliases": [
+    "Kebbi"
+   ],
+   "from": 1516,
+   "to": 1831,
+   "seat": {
+    "name": "Surame",
+    "lat": 13.0,
+    "lon": 4.8
+   },
+   "extent": [
+    [
+     13.6,
+     3.6
+    ],
+    [
+     13.4,
+     5.0
+    ],
+    [
+     12.2,
+     5.0
+    ],
+    [
+     12.0,
+     3.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1516,
+     "to": 1700,
+     "seat": {
+      "name": "Surame",
+      "lat": 13.0,
+      "lon": 4.8
+     }
+    },
+    {
+     "from": 1700,
+     "to": 1831,
+     "seat": {
+      "name": "Birnin Kebbi",
+      "lat": 12.45,
+      "lon": 4.2
+     }
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Kebbi",
+   "confidence": "moderate",
+   "note": "Founded by Kanta Kotal after breaking with Songhai; dominant in western Hausaland in 16th c. Fulani took Birnin Kebbi 1805; Kebbi resistance relocated to Argungu."
+  },
+  {
+   "name": "Argungu",
+   "aliases": [
+    "Kebbi (Argungu)",
+    "Kabi resistance state"
+   ],
+   "from": 1831,
+   "to": 1903,
+   "seat": {
+    "name": "Argungu",
+    "lat": 12.74,
+    "lon": 4.52
+   },
+   "reach_km": 40,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kebbi_Emirate",
+   "confidence": "moderate",
+   "note": "Kebbi successor state that resisted Sokoto/Gwandu throughout the 19th c.; British 1903."
+  },
+  {
+   "name": "Zamfara",
+   "aliases": [
+    "Kingdom of Zamfara"
+   ],
+   "from": 1300,
+   "to": 1805,
+   "seat": {
+    "name": "Birnin Zamfara",
+    "lat": 13.15,
+    "lon": 6.35
+   },
+   "extent": [
+    [
+     13.55,
+     6.2
+    ],
+    [
+     12.9,
+     6.9
+    ],
+    [
+     11.3,
+     6.6
+    ],
+    [
+     11.2,
+     6.0
+    ],
+    [
+     12.3,
+     5.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1516,
+     "to": 1600,
+     "name": "Kingdom of Kebbi"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1300,
+     "to": 1500,
+     "seat": {
+      "name": "Dutsi (Zurmi)",
+      "lat": 12.78,
+      "lon": 6.78
+     }
+    },
+    {
+     "from": 1500,
+     "to": 1756,
+     "seat": {
+      "name": "Birnin Zamfara (near Isa)",
+      "lat": 13.15,
+      "lon": 6.35
+     }
+    },
+    {
+     "from": 1756,
+     "to": 1805,
+     "seat": {
+      "name": "Kiawa",
+      "lat": 12.6,
+      "lon": 6.9
+     },
+     "extent": [
+      [
+       12.9,
+       6.2
+      ],
+      [
+       12.9,
+       7.0
+      ],
+      [
+       11.4,
+       6.8
+      ],
+      [
+       11.3,
+       6.0
+      ]
+     ]
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Zamfara",
+   "confidence": "moderate",
+   "note": "Hausa state; extent at height from Sabon Birni (N) to Kwiambana (S). Threw off Kebbi c.1715; Birnin Zamfara destroyed by Gobir c.1756/62, court fled to Kiawa; absorbed by Sokoto in the jihad (rump at Anka). Seats approximate."
+  },
+  {
+   "name": "Daura",
+   "aliases": [
+    "Daura kingdom"
+   ],
+   "from": 700,
+   "to": 1805,
+   "seat": {
+    "name": "Daura",
+    "lat": 13.03,
+    "lon": 8.32
+   },
+   "reach_km": 35,
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1800,
+     "name": "Bornu Empire"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Daura_Emirate",
+   "confidence": "moderate",
+   "note": "Legendary senior Hausa state (Bayajidda); Fulani emirate from 1805 while the Hausa line ruled at Zango/Baure. Small territory."
+  },
+  {
+   "name": "Yauri",
+   "aliases": [
+    "Yawuri",
+    "Yauri Emirate"
+   ],
+   "from": 1400,
+   "to": 1903,
+   "seat": {
+    "name": "Bin Yauri",
+    "lat": 10.78,
+    "lon": 4.82
+   },
+   "reach_km": 45,
+   "overlord": [
+    {
+     "from": 1516,
+     "to": 1800,
+     "name": "Kingdom of Kebbi"
+    },
+    {
+     "from": 1810,
+     "to": 1903,
+     "name": "Gwandu Emirate (Sokoto Caliphate)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Emirates_of_the_Sokoto_Caliphate",
+   "confidence": "low",
+   "note": "Hausa-Reshe kingdom on the Niger rapids; Muslim Hausa dynasty kept power as an emirate under Gwandu."
+  },
+  {
+   "name": "Abuja (Zazzau)",
+   "aliases": [
+    "Abuja Emirate",
+    "Zazzau in exile"
+   ],
+   "from": 1828,
+   "to": 1902,
+   "seat": {
+    "name": "Abuja (Zuba/Suleja)",
+    "lat": 9.18,
+    "lon": 7.18
+   },
+   "reach_km": 40,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Suleja",
+   "confidence": "moderate",
+   "note": "Hausa Zazzau dynasty refuge founded by Abu Ja after the Fulani took Zaria; independent of Sokoto; British 1902."
+  },
+  {
+   "name": "Maradi",
+   "aliases": [
+    "Katsina-Maradi",
+    "Katsina in exile"
+   ],
+   "from": 1807,
+   "to": 1900,
+   "seat": {
+    "name": "Maradi",
+    "lat": 13.5,
+    "lon": 7.1
+   },
+   "reach_km": 50,
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Maradi,_Niger",
+   "confidence": "moderate",
+   "note": "Hausa Katsina dynasty in exile, raiding Sokoto territory; French control 1899-1900."
+  },
+  {
+   "name": "Adar",
+   "aliases": [
+    "Ader",
+    "Sultanate of Adar"
+   ],
+   "from": 1674,
+   "to": 1900,
+   "seat": {
+    "name": "Birnin Adar (Illéla)",
+    "lat": 14.46,
+    "lon": 5.24
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1674,
+     "to": 1800,
+     "name": "Sultanate of Agadez"
+    },
+    {
+     "from": 1800,
+     "to": 1900,
+     "name": "Iwellemmeden Kel Dinnik (contested)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Tahoua",
+   "confidence": "low",
+   "note": "Hausa-Tuareg sultanate in the Tahoua region founded from Agadez; French 1900."
+  },
+  {
+   "name": "Sokoto Caliphate",
+   "aliases": [
+    "Sokoto Sultanate",
+    "Caliphate of Sokoto"
+   ],
+   "from": 1804,
+   "to": 1903,
+   "seat": {
+    "name": "Sokoto",
+    "lat": 13.06,
+    "lon": 5.24
+   },
+   "extent": [
+    [
+     13.9,
+     4.5
+    ],
+    [
+     13.6,
+     10.5
+    ],
+    [
+     12.5,
+     12.5
+    ],
+    [
+     9.5,
+     13.5
+    ],
+    [
+     7.5,
+     12.5
+    ],
+    [
+     8.3,
+     7.5
+    ],
+    [
+     8.2,
+     4.3
+    ],
+    [
+     11.5,
+     3.6
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1804,
+     "to": 1812,
+     "extent": [
+      [
+       13.9,
+       4.0
+      ],
+      [
+       13.6,
+       9.5
+      ],
+      [
+       11.0,
+       9.5
+      ],
+      [
+       10.8,
+       7.0
+      ],
+      [
+       12.0,
+       4.0
+      ]
+     ]
+    },
+    {
+     "from": 1812,
+     "to": 1903,
+     "extent": [
+      [
+       13.9,
+       4.5
+      ],
+      [
+       13.6,
+       10.5
+      ],
+      [
+       12.5,
+       12.5
+      ],
+      [
+       9.5,
+       13.5
+      ],
+      [
+       7.5,
+       12.5
+      ],
+      [
+       8.3,
+       7.5
+      ],
+      [
+       8.2,
+       4.3
+      ],
+      [
+       11.5,
+       3.6
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Sokoto_Caliphate",
+   "confidence": "high",
+   "note": "Umbrella over ~30 emirates (draw constituent emirates on top). Sokoto ruled the eastern emirates; Gwandu the western (Nupe, Ilorin, Liptako, Yauri). Seat Sokoto from 1809 (earlier mobile/Sifawa). British conquest 1903."
+  },
+  {
+   "name": "Gwandu Emirate",
+   "from": 1805,
+   "to": 1903,
+   "seat": {
+    "name": "Gwandu",
+    "lat": 12.5,
+    "lon": 4.64
+   },
+   "extent": [
+    [
+     12.9,
+     3.6
+    ],
+    [
+     12.9,
+     4.9
+    ],
+    [
+     11.6,
+     4.9
+    ],
+    [
+     11.6,
+     3.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1805,
+     "to": 1903,
+     "name": "Sokoto Caliphate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Gwandu_Emirate",
+   "confidence": "high",
+   "note": "Western half of the caliphate under Abdullahi dan Fodio and successors; overlord of Nupe, Ilorin, Yauri, Liptako, Kontagora (drawn separately). Polygon = Gwandu home territory."
+  },
+  {
+   "name": "Kano Emirate",
+   "from": 1805,
+   "to": 1903,
+   "seat": {
+    "name": "Kano",
+    "lat": 12.0,
+    "lon": 8.52
+   },
+   "extent": [
+    [
+     12.8,
+     7.8
+    ],
+    [
+     12.7,
+     9.6
+    ],
+    [
+     11.3,
+     9.6
+    ],
+    [
+     11.0,
+     8.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1805,
+     "to": 1903,
+     "name": "Sokoto Caliphate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Kano_Emirate",
+   "confidence": "high",
+   "note": "Richest emirate of the caliphate; civil war 1893-95; British capture 1903."
+  },
+  {
+   "name": "Katsina Emirate",
+   "from": 1807,
+   "to": 1903,
+   "seat": {
+    "name": "Katsina",
+    "lat": 12.99,
+    "lon": 7.6
+   },
+   "extent": [
+    [
+     13.3,
+     7.0
+    ],
+    [
+     13.2,
+     8.0
+    ],
+    [
+     11.8,
+     8.0
+    ],
+    [
+     11.7,
+     7.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1807,
+     "to": 1903,
+     "name": "Sokoto Caliphate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Katsina_Emirate",
+   "confidence": "high",
+   "note": "Fulani emirate replacing Hausa Katsina (whose dynasty held Maradi to the north)."
+  },
+  {
+   "name": "Zaria Emirate",
+   "aliases": [
+    "Zazzau Emirate"
+   ],
+   "from": 1808,
+   "to": 1903,
+   "seat": {
+    "name": "Zaria",
+    "lat": 11.07,
+    "lon": 7.71
+   },
+   "extent": [
+    [
+     11.6,
+     7.0
+    ],
+    [
+     11.5,
+     8.8
+    ],
+    [
+     9.6,
+     8.8
+    ],
+    [
+     9.8,
+     7.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1808,
+     "to": 1903,
+     "name": "Sokoto Caliphate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Zazzau",
+   "confidence": "high",
+   "note": "Fulani emirate of Zazzau; southern dependencies (Keffi, Jema'a, Nasarawa) raided the Middle Belt. British 1902-03."
+  },
+  {
+   "name": "Bauchi Emirate",
+   "from": 1805,
+   "to": 1902,
+   "seat": {
+    "name": "Bauchi",
+    "lat": 10.31,
+    "lon": 9.84
+   },
+   "extent": [
+    [
+     11.4,
+     9.0
+    ],
+    [
+     11.2,
+     10.8
+    ],
+    [
+     9.6,
+     10.6
+    ],
+    [
+     9.4,
+     9.0
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1805,
+     "to": 1902,
+     "name": "Sokoto Caliphate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Bauchi_Emirate",
+   "confidence": "moderate",
+   "note": "Founded by Yakubu, the only non-Fulani flag-bearer; Bauchi town founded 1809. Jos Plateau peoples unconquered."
+  },
+  {
+   "name": "Gombe Emirate",
+   "from": 1804,
+   "to": 1902,
+   "seat": {
+    "name": "Gombe",
+    "lat": 10.29,
+    "lon": 11.17
+   },
+   "extent": [
+    [
+     11.0,
+     10.6
+    ],
+    [
+     11.0,
+     11.8
+    ],
+    [
+     9.6,
+     11.8
+    ],
+    [
+     9.7,
+     10.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1804,
+     "to": 1902,
+     "name": "Sokoto Caliphate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Gombe_Emirate",
+   "confidence": "moderate",
+   "note": "Founded by Buba Yero; seat at Gombe Abba until 1840s, then Gombe (Doma)."
+  },
+  {
+   "name": "Katagum Emirate",
+   "from": 1807,
+   "to": 1903,
+   "seat": {
+    "name": "Katagum",
+    "lat": 12.28,
+    "lon": 10.35
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1807,
+     "to": 1903,
+     "name": "Sokoto Caliphate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Emirates_of_the_Sokoto_Caliphate",
+   "confidence": "moderate",
+   "note": "Frontier emirate facing Bornu; Misau and Jama'are emirates nearby (not itemised)."
+  },
+  {
+   "name": "Hadejia Emirate",
+   "from": 1808,
+   "to": 1906,
+   "seat": {
+    "name": "Hadejia",
+    "lat": 12.45,
+    "lon": 10.04
+   },
+   "reach_km": 50,
+   "overlord": [
+    {
+     "from": 1808,
+     "to": 1906,
+     "name": "Sokoto Caliphate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Hadejia_Emirate",
+   "confidence": "moderate",
+   "note": "On the site of the Hausa state of Biram; rebellious under Buhari (1848-63). British 1906."
+  },
+  {
+   "name": "Kontagora Emirate",
+   "from": 1859,
+   "to": 1901,
+   "seat": {
+    "name": "Kontagora",
+    "lat": 10.4,
+    "lon": 5.47
+   },
+   "reach_km": 70,
+   "overlord": [
+    {
+     "from": 1859,
+     "to": 1901,
+     "name": "Gwandu Emirate (Sokoto Caliphate)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Emirates_of_the_Sokoto_Caliphate",
+   "confidence": "moderate",
+   "note": "Slave-raiding frontier emirate founded by Umaru Nagwamatse; British 1901."
+  },
+  {
+   "name": "Muri Emirate",
+   "from": 1817,
+   "to": 1903,
+   "seat": {
+    "name": "Muri (Hamarua)",
+    "lat": 9.15,
+    "lon": 10.95
+   },
+   "extent": [
+    [
+     9.8,
+     10.3
+    ],
+    [
+     9.6,
+     11.6
+    ],
+    [
+     8.6,
+     11.6
+    ],
+    [
+     8.6,
+     10.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1817,
+     "to": 1903,
+     "name": "Sokoto Caliphate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Emirates_of_the_Sokoto_Caliphate",
+   "confidence": "low",
+   "note": "Fulani emirate on the upper Benue amid Jukun lands; seat moved to Jalingo 1893. Seat approximate."
+  },
+  {
+   "name": "Adamawa Emirate",
+   "aliases": [
+    "Fombina"
+   ],
+   "from": 1809,
+   "to": 1901,
+   "seat": {
+    "name": "Yola",
+    "lat": 9.21,
+    "lon": 12.48
+   },
+   "extent": [
+    [
+     11.0,
+     12.0
+    ],
+    [
+     10.5,
+     14.2
+    ],
+    [
+     8.0,
+     15.3
+    ],
+    [
+     6.0,
+     14.5
+    ],
+    [
+     6.3,
+     11.5
+    ],
+    [
+     8.5,
+     11.6
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1809,
+     "to": 1901,
+     "name": "Sokoto Caliphate"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1809,
+     "to": 1841,
+     "seat": {
+      "name": "Gurin",
+      "lat": 9.13,
+      "lon": 12.86
+     }
+    },
+    {
+     "from": 1841,
+     "to": 1901,
+     "seat": {
+      "name": "Yola",
+      "lat": 9.21,
+      "lon": 12.48
+     }
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Adamawa_Emirate",
+   "confidence": "high",
+   "note": "Largest emirate by area (Fombina): a federation of lamidates (Ngaoundéré, Tibati, Banyo, Rey Bouba nominally, Garoua, Maroua) over many unconquered hill peoples. British took Yola 1901; most of it became German Kamerun."
+  },
+  {
+   "name": "Rey Bouba",
+   "aliases": [
+    "Lamidat of Rey Bouba",
+    "Bundang"
+   ],
+   "from": 1804,
+   "to": 1901,
+   "seat": {
+    "name": "Rey Bouba",
+    "lat": 8.67,
+    "lon": 14.18
+   },
+   "reach_km": 90,
+   "overlord": [
+    {
+     "from": 1804,
+     "to": 1901,
+     "name": "Adamawa Emirate (nominal)"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Rey_Bouba",
+   "confidence": "moderate",
+   "note": "Highly autonomous Fulani lamidate on the Mayo Rey in northern Cameroon; German protectorate 1901."
+  },
+  {
+   "name": "Lamidate of Ngaoundéré",
+   "aliases": [
+    "Ngaoundéré lamidate"
+   ],
+   "from": 1835,
+   "to": 1901,
+   "seat": {
+    "name": "Ngaoundéré",
+    "lat": 7.32,
+    "lon": 13.58
+   },
+   "reach_km": 80,
+   "overlord": [
+    {
+     "from": 1835,
+     "to": 1901,
+     "name": "Adamawa Emirate"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Ngaoundéré",
+   "confidence": "moderate",
+   "note": "Fulani lamidate on the Adamawa plateau conquered from the Mbum; German 1901. Tibati and Banyo lamidates to the west not itemised."
+  },
+  {
+   "name": "Kanem-Bornu Empire",
+   "aliases": [
+    "Bornu",
+    "Borno",
+    "Sayfawa Bornu",
+    "al-Kanemi Shehus"
+   ],
+   "from": 1380,
+   "to": 1893,
+   "seat": {
+    "name": "Birni Ngazargamu",
+    "lat": 13.0,
+    "lon": 11.9
+   },
+   "extent": [
+    [
+     14.5,
+     10.0
+    ],
+    [
+     15.0,
+     14.0
+    ],
+    [
+     13.5,
+     15.2
+    ],
+    [
+     11.5,
+     14.8
+    ],
+    [
+     10.8,
+     13.0
+    ],
+    [
+     11.2,
+     11.0
+    ],
+    [
+     12.5,
+     9.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1380,
+     "to": 1472,
+     "seat": {
+      "name": "Mobile court west of Lake Chad",
+      "lat": 12.9,
+      "lon": 12.5
+     },
+     "extent": [
+      [
+       13.8,
+       10.8
+      ],
+      [
+       13.9,
+       13.6
+      ],
+      [
+       12.2,
+       14.0
+      ],
+      [
+       11.6,
+       12.0
+      ],
+      [
+       12.4,
+       10.8
+      ]
+     ]
+    },
+    {
+     "from": 1472,
+     "to": 1809,
+     "seat": {
+      "name": "Birni Ngazargamu",
+      "lat": 13.0,
+      "lon": 11.9
+     },
+     "extent": [
+      [
+       14.5,
+       10.0
+      ],
+      [
+       15.0,
+       14.0
+      ],
+      [
+       13.5,
+       15.2
+      ],
+      [
+       11.5,
+       14.8
+      ],
+      [
+       10.8,
+       13.0
+      ],
+      [
+       11.2,
+       11.0
+      ],
+      [
+       12.5,
+       9.5
+      ]
+     ]
+    },
+    {
+     "from": 1809,
+     "to": 1814,
+     "seat": {
+      "name": "Kurnawa",
+      "lat": 12.9,
+      "lon": 13.3
+     }
+    },
+    {
+     "from": 1814,
+     "to": 1893,
+     "seat": {
+      "name": "Kukawa",
+      "lat": 12.92,
+      "lon": 13.57
+     },
+     "extent": [
+      [
+       13.9,
+       10.5
+      ],
+      [
+       14.2,
+       13.5
+      ],
+      [
+       13.0,
+       14.6
+      ],
+      [
+       11.5,
+       14.6
+      ],
+      [
+       10.9,
+       13.0
+      ],
+      [
+       11.6,
+       11.0
+      ]
+     ]
+    }
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Kanem–Bornu_Empire",
+   "confidence": "high",
+   "note": "Sayfawa dynasty refounded west of Lake Chad after leaving Kanem (c.1380); Ngazargamu capital c.1472-1809 (sacked by Fulani 1808). Al-Kanemi Shehus from 1814 (Sayfawa ended 1846). Peak under Idris Alooma (1564-96) also held Kanem and Kawar - not drawn. Overthrown by Rabih 1893. Ngazargamu coordinates approx ±0.2 deg."
+  },
+  {
+   "name": "Rabih's state",
+   "aliases": [
+    "Rabih az-Zubayr's empire"
+   ],
+   "from": 1893,
+   "to": 1900,
+   "seat": {
+    "name": "Dikwa",
+    "lat": 12.03,
+    "lon": 13.92
+   },
+   "extent": [
+    [
+     13.6,
+     11.5
+    ],
+    [
+     13.4,
+     14.5
+    ],
+    [
+     11.0,
+     15.6
+    ],
+    [
+     10.5,
+     14.5
+    ],
+    [
+     11.3,
+     12.0
+    ]
+   ],
+   "kind": "empire",
+   "source": "https://en.wikipedia.org/wiki/Rabih_az-Zubayr",
+   "confidence": "moderate",
+   "note": "Sudanese warlord Rabih conquered Bagirmi (1892) and Bornu (1893), ruling from Dikwa; killed by the French at Kousseri 1900. Bornu Shehus restored at Dikwa/Maiduguri under colonial rule."
+  },
+  {
+   "name": "Sultanate of Damagaram",
+   "aliases": [
+    "Zinder Sultanate"
+   ],
+   "from": 1731,
+   "to": 1899,
+   "seat": {
+    "name": "Zinder",
+    "lat": 13.8,
+    "lon": 8.99
+   },
+   "extent": [
+    [
+     14.6,
+     8.2
+    ],
+    [
+     14.5,
+     10.2
+    ],
+    [
+     13.2,
+     10.3
+    ],
+    [
+     13.2,
+     8.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1731,
+     "to": 1893,
+     "name": "Kanem-Bornu Empire"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1731,
+     "to": 1736,
+     "seat": {
+      "name": "Myrria",
+      "lat": 13.7,
+      "lon": 9.15
+     },
+     "extent": [
+      [
+       14.0,
+       8.9
+      ],
+      [
+       14.0,
+       9.5
+      ],
+      [
+       13.5,
+       9.5
+      ],
+      [
+       13.5,
+       8.9
+      ]
+     ]
+    },
+    {
+     "from": 1736,
+     "to": 1899,
+     "seat": {
+      "name": "Zinder",
+      "lat": 13.8,
+      "lon": 8.99
+     }
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Sultanate_of_Damagaram",
+   "confidence": "high",
+   "note": "Kanuri-led vassal of Bornu that grew strong on trans-Saharan trade in the 19th c.; French conquest 1899."
+  },
+  {
+   "name": "Mandara Kingdom",
+   "aliases": [
+    "Wandala",
+    "Sultanate of Mandara"
+   ],
+   "from": 1500,
+   "to": 1902,
+   "seat": {
+    "name": "Doulo",
+    "lat": 10.98,
+    "lon": 14.15
+   },
+   "extent": [
+    [
+     11.4,
+     13.6
+    ],
+    [
+     11.3,
+     14.4
+    ],
+    [
+     10.7,
+     14.4
+    ],
+    [
+     10.6,
+     13.7
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1580,
+     "to": 1800,
+     "name": "Kanem-Bornu Empire (intermittent)"
+    }
+   ],
+   "phases": [
+    {
+     "from": 1500,
+     "to": 1715,
+     "seat": {
+      "name": "Kerawa",
+      "lat": 10.95,
+      "lon": 13.95
+     }
+    },
+    {
+     "from": 1715,
+     "to": 1893,
+     "seat": {
+      "name": "Doulo",
+      "lat": 10.98,
+      "lon": 14.15
+     }
+    },
+    {
+     "from": 1893,
+     "to": 1902,
+     "seat": {
+      "name": "Mora",
+      "lat": 11.05,
+      "lon": 14.14
+     }
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Mandara_Kingdom",
+   "confidence": "moderate",
+   "note": "Wandala kingdom at the foot of the Mandara mountains, Islamised 1715; fought Bornu and Adamawa Fulani. German Kamerun 1902. Seats approximate."
+  },
+  {
+   "name": "Kotoko kingdom",
+   "aliases": [
+    "Kotoko city-states",
+    "Logone",
+    "Lagwan"
+   ],
+   "from": 1500,
+   "to": 1900,
+   "seat": {
+    "name": "Logone-Birni",
+    "lat": 11.78,
+    "lon": 15.1
+   },
+   "extent": [
+    [
+     12.9,
+     14.4
+    ],
+    [
+     12.7,
+     15.3
+    ],
+    [
+     11.5,
+     15.3
+    ],
+    [
+     11.4,
+     14.8
+    ],
+    [
+     12.2,
+     14.4
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1550,
+     "to": 1893,
+     "name": "Kanem-Bornu Empire"
+    },
+    {
+     "from": 1893,
+     "to": 1900,
+     "name": "Rabih's state"
+    }
+   ],
+   "kind": "confederation",
+   "source": "https://en.wikipedia.org/wiki/Kotoko_kingdom",
+   "confidence": "moderate",
+   "note": "Walled Kotoko city-states on the lower Logone/Chari (Logone-Birni, Kousseri, Makari, Afadé, Gulfei), Sao successors; partitioned between Germany and France 1900."
+  },
+  {
+   "name": "Kingdom of Baguirmi",
+   "aliases": [
+    "Bagirmi",
+    "Baghirmi"
+   ],
+   "from": 1522,
+   "to": 1897,
+   "seat": {
+    "name": "Massenya",
+    "lat": 11.4,
+    "lon": 16.17
+   },
+   "extent": [
+    [
+     12.5,
+     15.5
+    ],
+    [
+     12.3,
+     18.0
+    ],
+    [
+     10.5,
+     18.2
+    ],
+    [
+     10.2,
+     16.5
+    ],
+    [
+     11.2,
+     15.3
+    ]
+   ],
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1800,
+     "name": "Kanem-Bornu Empire (intermittent)"
+    },
+    {
+     "from": 1806,
+     "to": 1871,
+     "name": "Wadai Sultanate"
+    },
+    {
+     "from": 1892,
+     "to": 1893,
+     "name": "Rabih's state"
+    }
+   ],
+   "kind": "sultanate",
+   "source": "https://en.wikipedia.org/wiki/Kingdom_of_Baguirmi",
+   "confidence": "moderate",
+   "note": "Edge of region (SE of Lake Chad, may duplicate a central-Africa list). French protectorate 1897."
+  },
+  {
+   "name": "Pabir (Biu)",
+   "aliases": [
+    "Biu kingdom",
+    "Babur"
+   ],
+   "from": 1500,
+   "to": 1902,
+   "seat": {
+    "name": "Biu",
+    "lat": 10.61,
+    "lon": 12.19
+   },
+   "reach_km": 40,
+   "overlord": [
+    {
+     "from": 1600,
+     "to": 1893,
+     "name": "Kanem-Bornu Empire (intermittent)"
+    }
+   ],
+   "kind": "kingdom",
+   "source": "https://en.wikipedia.org/wiki/Biu,_Nigeria",
+   "confidence": "low",
+   "note": "Pabir kingdom on the Biu plateau between Bornu and the Mandara/Margi hill peoples; British 1902."
+  },
+  {
+   "name": "French Senegal",
+   "aliases": [
+    "Colony of Senegal",
+    "Saint-Louis du Sénégal"
+   ],
+   "from": 1659,
+   "to": 1902,
+   "seat": {
+    "name": "Saint-Louis",
+    "lat": 16.03,
+    "lon": -16.5
+   },
+   "reach_km": 25,
+   "phases": [
+    {
+     "from": 1659,
+     "to": 1854
+    },
+    {
+     "from": 1854,
+     "to": 1886,
+     "extent": [
+      [
+       16.6,
+       -16.5
+      ],
+      [
+       16.3,
+       -14.0
+      ],
+      [
+       14.8,
+       -12.2
+      ],
+      [
+       14.3,
+       -12.5
+      ],
+      [
+       14.6,
+       -17.0
+      ],
+      [
+       14.8,
+       -17.5
+      ]
+     ]
+    },
+    {
+     "from": 1886,
+     "to": 1902,
+     "extent": [
+      [
+       16.6,
+       -16.5
+      ],
+      [
+       16.6,
+       -14.5
+      ],
+      [
+       14.8,
+       -11.4
+      ],
+      [
+       12.4,
+       -11.6
+      ],
+      [
+       12.6,
+       -16.8
+      ],
+      [
+       14.8,
+       -17.5
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/French_Senegal",
+   "confidence": "moderate",
+   "note": "Saint-Louis (1659) and Gorée (1677/1817) trading posts; Faidherbe's expansion from 1854 (Waalo 1855, Futa 1859, Cayor 1886). Part of French West Africa 1895/1902."
+  },
+  {
+   "name": "French Sudan",
+   "aliases": [
+    "Haut-Sénégal",
+    "Soudan français",
+    "Upper Senegal-Niger"
+   ],
+   "from": 1880,
+   "to": 1904,
+   "seat": {
+    "name": "Kayes",
+    "lat": 14.45,
+    "lon": -11.44
+   },
+   "extent": [
+    [
+     16.0,
+     -11.5
+    ],
+    [
+     15.8,
+     -4.0
+    ],
+    [
+     17.5,
+     0.5
+    ],
+    [
+     14.5,
+     1.2
+    ],
+    [
+     12.0,
+     -1.5
+    ],
+    [
+     10.2,
+     -5.5
+    ],
+    [
+     10.5,
+     -9.5
+    ],
+    [
+     12.5,
+     -11.5
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1880,
+     "to": 1890,
+     "extent": [
+      [
+       15.2,
+       -11.9
+      ],
+      [
+       14.6,
+       -8.0
+      ],
+      [
+       12.6,
+       -7.6
+      ],
+      [
+       12.4,
+       -11.2
+      ],
+      [
+       14.0,
+       -12.0
+      ]
+     ]
+    },
+    {
+     "from": 1890,
+     "to": 1904
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/French_Sudan",
+   "confidence": "moderate",
+   "note": "Military territory advancing from Kayes/Bamako (1883) to Ségou 1890, Timbuktu 1894, Mossi 1896; extent shown c.1898. Overlaps protectorates listed separately."
+  },
+  {
+   "name": "French Guinea",
+   "aliases": [
+    "Rivières du Sud",
+    "Guinée française"
+   ],
+   "from": 1891,
+   "to": 1958,
+   "seat": {
+    "name": "Conakry",
+    "lat": 9.51,
+    "lon": -13.71
+   },
+   "extent": [
+    [
+     12.6,
+     -13.7
+    ],
+    [
+     11.8,
+     -9.6
+    ],
+    [
+     10.0,
+     -7.8
+    ],
+    [
+     7.6,
+     -8.4
+    ],
+    [
+     8.5,
+     -10.4
+    ],
+    [
+     9.0,
+     -13.25
+    ],
+    [
+     9.45,
+     -13.9
+    ],
+    [
+     10.7,
+     -14.8
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1882,
+     "to": 1891,
+     "extent": [
+      [
+       10.8,
+       -14.8
+      ],
+      [
+       10.6,
+       -13.6
+      ],
+      [
+       9.5,
+       -12.9
+      ],
+      [
+       9.0,
+       -13.3
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/French_Guinea",
+   "confidence": "moderate",
+   "note": "Rivières du Sud coastal posts from 1882, colony 1891; interior (Futa Jallon, Samori lands) occupied 1896-98."
+  },
+  {
+   "name": "French Côte d'Ivoire",
+   "from": 1893,
+   "to": 1958,
+   "seat": {
+    "name": "Grand-Bassam",
+    "lat": 5.2,
+    "lon": -3.74
+   },
+   "extent": [
+    [
+     10.7,
+     -8.2
+    ],
+    [
+     10.5,
+     -2.9
+    ],
+    [
+     9.0,
+     -2.6
+    ],
+    [
+     5.1,
+     -2.8
+    ],
+    [
+     4.4,
+     -7.5
+    ],
+    [
+     6.3,
+     -8.5
+    ],
+    [
+     7.6,
+     -8.4
+    ]
+   ],
+   "reach_km": 40,
+   "phases": [
+    {
+     "from": 1843,
+     "to": 1893
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/French_Ivory_Coast",
+   "confidence": "moderate",
+   "note": "Coastal posts at Grand-Bassam and Assinie from 1843 (reach_km applies), colony 1893; effective control of the forest interior only after 1908-15."
+  },
+  {
+   "name": "French Dahomey",
+   "from": 1894,
+   "to": 1958,
+   "seat": {
+    "name": "Porto-Novo",
+    "lat": 6.5,
+    "lon": 2.62
+   },
+   "extent": [
+    [
+     12.4,
+     2.8
+    ],
+    [
+     11.7,
+     3.6
+    ],
+    [
+     9.5,
+     3.3
+    ],
+    [
+     6.4,
+     2.75
+    ],
+    [
+     6.25,
+     1.7
+    ],
+    [
+     9.0,
+     1.5
+    ],
+    [
+     11.0,
+     0.8
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/French_Dahomey",
+   "confidence": "moderate",
+   "note": "Colony formed after the conquest of Dahomey (1892-94), with Porto-Novo and Borgu."
+  },
+  {
+   "name": "German Togoland",
+   "aliases": [
+    "Togoland",
+    "Schutzgebiet Togo"
+   ],
+   "from": 1884,
+   "to": 1914,
+   "seat": {
+    "name": "Lomé",
+    "lat": 6.13,
+    "lon": 1.22
+   },
+   "extent": [
+    [
+     11.1,
+     0.0
+    ],
+    [
+     10.9,
+     0.9
+    ],
+    [
+     8.0,
+     1.6
+    ],
+    [
+     6.2,
+     1.8
+    ],
+    [
+     6.1,
+     1.2
+    ],
+    [
+     8.0,
+     0.4
+    ],
+    [
+     9.5,
+     -0.2
+    ]
+   ],
+   "phases": [
+    {
+     "from": 1884,
+     "to": 1897,
+     "seat": {
+      "name": "Zébé / Aného",
+      "lat": 6.24,
+      "lon": 1.6
+     }
+    },
+    {
+     "from": 1897,
+     "to": 1914,
+     "seat": {
+      "name": "Lomé",
+      "lat": 6.13,
+      "lon": 1.22
+     }
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Togoland",
+   "confidence": "high",
+   "note": "German protectorate from the Nachtigal treaty 1884; interior (Yendi, Sansanne-Mango) occupied 1896-99."
+  },
+  {
+   "name": "British Gambia",
+   "aliases": [
+    "Gambia Colony and Protectorate"
+   ],
+   "from": 1816,
+   "to": 1965,
+   "seat": {
+    "name": "Bathurst (Banjul)",
+    "lat": 13.45,
+    "lon": -16.58
+   },
+   "reach_km": 15,
+   "phases": [
+    {
+     "from": 1816,
+     "to": 1889
+    },
+    {
+     "from": 1889,
+     "to": 1965,
+     "extent": [
+      [
+       13.83,
+       -16.75
+      ],
+      [
+       13.6,
+       -13.8
+      ],
+      [
+       13.3,
+       -13.8
+      ],
+      [
+       13.1,
+       -16.8
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Gambia_Colony_and_Protectorate",
+   "confidence": "high",
+   "note": "St Mary's Island settlement 1816, Ceded Mile 1826, MacCarthy Island 1823; river-strip boundary 1889, protectorate over chiefdoms 1894."
+  },
+  {
+   "name": "Portuguese Guinea",
+   "aliases": [
+    "Guiné Portuguesa"
+   ],
+   "from": 1588,
+   "to": 1974,
+   "seat": {
+    "name": "Cacheu / Bissau",
+    "lat": 11.86,
+    "lon": -15.6
+   },
+   "reach_km": 15,
+   "phases": [
+    {
+     "from": 1588,
+     "to": 1879,
+     "seat": {
+      "name": "Cacheu",
+      "lat": 12.27,
+      "lon": -16.16
+     }
+    },
+    {
+     "from": 1879,
+     "to": 1974,
+     "seat": {
+      "name": "Bolama (to 1941)",
+      "lat": 11.58,
+      "lon": -15.48
+     },
+     "extent": [
+      [
+       12.68,
+       -16.7
+      ],
+      [
+       12.68,
+       -13.7
+      ],
+      [
+       12.0,
+       -13.7
+      ],
+      [
+       11.0,
+       -15.0
+      ],
+      [
+       10.9,
+       -16.0
+      ],
+      [
+       12.3,
+       -16.8
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Portuguese_Guinea",
+   "confidence": "moderate",
+   "note": "Fortified trading posts (Cacheu 1588, Bissau 1687) under Cape Verde until 1879; borders fixed 1886, but interior pacified only 1912-15."
+  },
+  {
+   "name": "Dutch Gold Coast",
+   "aliases": [
+    "Nederlandse Bezittingen ter Kuste van Guinea"
+   ],
+   "from": 1612,
+   "to": 1872,
+   "seat": {
+    "name": "Elmina",
+    "lat": 5.08,
+    "lon": -1.35
+   },
+   "reach_km": 10,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Dutch_Gold_Coast",
+   "confidence": "high",
+   "note": "Chain of forts (Elmina from 1637, Axim, Shama, Butre...); sold to Britain 1872. Draw as coastal points only."
+  },
+  {
+   "name": "Danish Gold Coast",
+   "aliases": [
+    "Danish Guinea"
+   ],
+   "from": 1658,
+   "to": 1850,
+   "seat": {
+    "name": "Christiansborg (Osu)",
+    "lat": 5.55,
+    "lon": -0.18
+   },
+   "reach_km": 8,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Danish_Gold_Coast",
+   "confidence": "high",
+   "note": "Forts at Osu and east to Keta; sold to Britain 1850."
+  },
+  {
+   "name": "Brandenburger Gold Coast",
+   "aliases": [
+    "Groß Friedrichsburg"
+   ],
+   "from": 1682,
+   "to": 1721,
+   "seat": {
+    "name": "Groß Friedrichsburg (Princes Town)",
+    "lat": 4.79,
+    "lon": -2.13
+   },
+   "reach_km": 8,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Brandenburger_Gold_Coast",
+   "confidence": "high",
+   "note": "Brandenburg-Prussian forts near Cape Three Points; sold to the Dutch 1717-21."
+  },
+  {
+   "name": "British Gold Coast",
+   "aliases": [
+    "Gold Coast Colony"
+   ],
+   "from": 1821,
+   "to": 1957,
+   "seat": {
+    "name": "Cape Coast (Accra from 1877)",
+    "lat": 5.1,
+    "lon": -1.25
+   },
+   "reach_km": 20,
+   "phases": [
+    {
+     "from": 1821,
+     "to": 1874,
+     "seat": {
+      "name": "Cape Coast",
+      "lat": 5.1,
+      "lon": -1.25
+     }
+    },
+    {
+     "from": 1874,
+     "to": 1901,
+     "seat": {
+      "name": "Accra",
+      "lat": 5.55,
+      "lon": -0.2
+     },
+     "extent": [
+      [
+       6.6,
+       -3.0
+      ],
+      [
+       6.9,
+       0.4
+      ],
+      [
+       5.8,
+       1.1
+      ],
+      [
+       5.6,
+       0.6
+      ],
+      [
+       5.1,
+       -1.3
+      ],
+      [
+       4.75,
+       -2.1
+      ],
+      [
+       5.1,
+       -3.1
+      ]
+     ]
+    }
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Gold_Coast_(British_colony)",
+   "confidence": "high",
+   "note": "Forts (Cape Coast Castle) with an informal Fante protectorate (Bond of 1844); crown colony 1874 south of Asante; Asante annexed 1901, Northern Territories 1901."
+  },
+  {
+   "name": "Lagos Colony",
+   "aliases": [
+    "Colony of Lagos"
+   ],
+   "from": 1861,
+   "to": 1906,
+   "seat": {
+    "name": "Lagos",
+    "lat": 6.45,
+    "lon": 3.4
+   },
+   "reach_km": 40,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Lagos_Colony",
+   "confidence": "high",
+   "note": "Annexed 1861; Badagry, Epe and lagoon coast added 1863-1880s; Yoruba hinterland protectorate from 1893."
+  },
+  {
+   "name": "Niger Coast Protectorate",
+   "aliases": [
+    "Oil Rivers Protectorate"
+   ],
+   "from": 1884,
+   "to": 1900,
+   "seat": {
+    "name": "Old Calabar",
+    "lat": 4.95,
+    "lon": 8.32
+   },
+   "extent": [
+    [
+     6.0,
+     5.0
+    ],
+    [
+     6.3,
+     6.6
+    ],
+    [
+     6.0,
+     8.5
+    ],
+    [
+     4.5,
+     8.6
+    ],
+    [
+     4.3,
+     6.0
+    ],
+    [
+     5.4,
+     4.9
+    ]
+   ],
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Niger_Coast_Protectorate",
+   "confidence": "moderate",
+   "note": "Oil Rivers Protectorate 1884, renamed 1893; treaty protectorate over Delta city-states; merged into Southern Nigeria 1900."
+  },
+  {
+   "name": "Royal Niger Company territories",
+   "aliases": [
+    "National African Company",
+    "Niger Territories"
+   ],
+   "from": 1886,
+   "to": 1900,
+   "seat": {
+    "name": "Asaba",
+    "lat": 6.19,
+    "lon": 6.73
+   },
+   "reach_km": 90,
+   "kind": "other",
+   "source": "https://en.wikipedia.org/wiki/Royal_Niger_Company",
+   "confidence": "moderate",
+   "note": "Chartered company rule along the lower Niger and Benue (Asaba HQ; posts to Lokoja and Ibi); conquered Nupe and Ilorin 1897. Charter revoked 1900."
+  }
+ ],
+ "gaps": [
+  {
+   "area": "Lower Casamance (Jola country, Senegal/Guinea-Bissau border)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Largely stateless Jola villages and small Bainuk/Kasa chiefdoms; Kasa kingdom existed to c.1600 but no reliable extent. Leave unassigned or as Kaabu fringe."
+  },
+  {
+   "area": "Coastal Guinea-Bissau (Bijagos islands, Balanta, Manjak, Biafada lowlands)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Mostly stateless or small chiefdoms (Biafada Guinala kingdom 15th-17th c.; Bijagos island chiefs). Portuguese posts at Cacheu (1588) and Bissau (1687). Fill only with Portuguese Guinea after 1879."
+  },
+  {
+   "area": "Western Sahara interior north of Adrar (Tiris, Zemmour)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Nomadic Reguibat and Oulad Delim tribal ranges without an emirate; outside the settled emirates."
+  },
+  {
+   "area": "Guinea forest region and northern Liberia interior (Kissi, Kpelle, Loma/Toma, Mano, Dan)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Small chiefdoms and village federations without an overarching state; Samori raided 1880s-90s. Low-density forest; leave unfilled or mark as stateless."
+  },
+  {
+   "area": "Liberian interior (Gola, Bassa, Kru hinterland, Krahn)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Chiefdoms only; Liberian authority stopped near the coast until after 1900. Condo covers the NW only."
+  },
+  {
+   "area": "Coastal Guinea (Baga, Nalu, Landuma, Susu lowlands north of Conakry)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Small Susu/Baga/Nalu chiefdoms (e.g. Kaloum, Dubréka, Rio Nunez); not itemised; Futa Jallon held loose hegemony in 18th-19th c."
+  },
+  {
+   "area": "Gurunsi, Lobi, Dagara and Bwa country (southern Burkina Faso / NW Ghana)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Acephalous societies without states between Mossi, Wala, Gwiriko and Dagbon; raided by Zabarima warlords Babatu and Gazari (1860s-1890s). Leave stateless."
+  },
+  {
+   "area": "Azawad and Tanezrouft (northern Mali desert)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Nomadic ranges of Kunta and Berabich Arabs and Tuareg; no settled polity beyond Araouane/Taoudenni salt camps. Mostly uninhabited desert."
+  },
+  {
+   "area": "Ténéré and Erg of Bilma (NE Niger)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Uninhabited sand desert except the Kawar oases (Bilma, Djado) under Kanuri/Tubu chiefs and Bornu suzerainty."
+  },
+  {
+   "area": "Western Cote d'Ivoire forest (Kru, Bété, Dida, Guéré, Dan, Gouro)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Stateless lineage-based societies; no kingdoms. Leave unfilled (Kru coast entry covers only Liberian side)."
+  },
+  {
+   "area": "Lagoon coast of Cote d'Ivoire (Abidjan lagoons: Ebrié, Adioukrou, Alladian, Avikam)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Village-federation 'lagoon peoples' without central rulers, between Sanwi and the Kru coast."
+  },
+  {
+   "area": "Volta basin east of Asante (Krachi, Nchumuru, Adele, Akposso)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Small chiefdoms and the Dente oracle shrine at Kete-Krachi; under loose Asante hegemony 1744-1874."
+  },
+  {
+   "area": "Western Niger Delta hinterland (Urhobo, Isoko, western Ijaw clans)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Clan polities without kingdoms (some small Urhobo kingdoms like Okpe); between Warri and Benin. Leave fragmented."
+  },
+  {
+   "area": "Togo-Benin Atakora and central Togo hills (Kabye, Bassar, Tamberma, Somba)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Largely stateless highland peoples between Tem chiefdoms, Nikki/Borgu and Dagbon; Bassar iron-working chiefdom tributary to Dagbon."
+  },
+  {
+   "area": "Igbo heartland and Ibibio/Annang country (SE Nigeria)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Thousands of autonomous village-groups; only Nri (ritual), Aro (trade network), Onitsha, Aboh and the Efik/Ijaw city-states had kings. The Aro extent is an influence zone - draw lightly or leave stateless."
+  },
+  {
+   "area": "Middle Belt plateau and Benue lowlands (Tiv, Idoma, Gwari, Jos Plateau peoples, Bachama)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Mostly stateless or small chiefdoms between Kwararafa/Jukun, Zazzau, Bauchi and Igala; Jos plateau refuge area never conquered by the emirates."
+  },
+  {
+   "area": "Mandara mountains and Alantika/Shebshi hills (Mafa, Kapsiki, Margi, Gudur, Fali, Bata)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Refuge hill peoples outside Mandara, Bornu and Adamawa control; small chiefdoms (Gudur ritual centre). Leave as unconquered enclaves inside Adamawa/Mandara."
+  },
+  {
+   "area": "Kanem (NE of Lake Chad) and Kawar oases",
+   "from": 1400,
+   "to": 1900,
+   "note": "Bulala sultanate of Kanem (to c.1600) then Bornu/Wadai-contested Kanem chiefs and Tubu (Teda) nomads; probably belongs to a central Sahara/Chad list."
+  },
+  {
+   "area": "Southern Cameroon / Grassfields (Bamum, Bamileke, Tikar, Duala coast)",
+   "from": 1400,
+   "to": 1900,
+   "note": "Outside the assigned northern-Cameroon scope; Bamum, Bamileke chiefdoms, Duala and German Kamerun (1884) should come from a central-Africa list."
+  }
+ ]
+}

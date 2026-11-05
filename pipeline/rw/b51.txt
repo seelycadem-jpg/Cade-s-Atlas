@@ -1,0 +1,264 @@
+## as15117 | 1511 | Portugal takes Malacca | who: Afonso de Albuquerque | where: Malacca, Malaysia
+  bluf: Taking Malacca gave Portugal the chokepoint between the Indian Ocean and the South China Sea. Control of the strait passed from Portugal to the Dutch to the British, and its strategic importance has never faded.
+  now: The Strait of Malacca carries a large share of world trade and most of China's oil imports, a vulnerability Chinese strategists call the 'Malacca dilemma'.
+  story: Malacca, a rich sultanate on the strait between Sumatra and Malaya, controlled the shipping lanes between India and China. In August 1511 Afonso de Albuquerque stormed the city; the sultan fled, and Portugal built a fortress, A Famosa.
+  why: Malacca was the main port where Indian, Arab, Chinese and Malay merchants met; holding it meant taxing the spice trade from the Moluccas.
+  then: Muslim merchants moved to rival ports such as Aceh, Johor and Banten, spreading trade and Islam across the archipelago, and Portugal never controlled the region's commerce as it hoped. The Dutch took Malacca in 1641 and the British in 1824.
+## as157112 | 1571 | Spain founds Manila | who: Miguel López de Legazpi | where: Philippines
+  bluf: Manila's founding gave Spain its Asian base and the Philippines its colonial capital, linking Chinese traders with American silver. Spanish rule made the Philippines Asia's leading Catholic nation.
+  now: About 80% of Filipinos are Catholic. Spanish names and loanwords, and the separate identity of the Muslim south, show where Spanish rule did and did not reach.
+  story: In 1571 Miguel López de Legazpi captured the Muslim port of Maynila on Luzon from its ruler, Rajah Sulayman, and made it the capital of the Spanish Philippines. Its harbour linked China's traders with the silver arriving from Mexico.
+  why: Spain wanted a base near China and the Spice Islands. Manila had an excellent harbour, held by Muslim rulers such as Rajah Sulayman.
+  then: Manila became the hub of the galleon trade, and Chinese merchants settled there in large numbers, though they were periodically expelled or massacred. Spain ruled the islands for 327 years, until 1898.
+## se-batavia | 1619 | Dutch found Batavia | who: Jan Pieterszoon Coen; the Dutch East India Company | where: Batavia (Jakarta), Java
+  bluf: Batavia became the headquarters of Dutch power in Asia and the core of a colonial state that eventually covered all of today's Indonesia. Its founding marked the shift from European trading posts to territorial control enforced by violence.
+  now: Jakarta grew from Batavia, and Indonesia's borders follow those of the Dutch East Indies that were ruled from here, a common pattern in which colonial administrative units became nation-states.
+  story: Coen captured the town of Jayakarta in May 1619, razed it and built Batavia as the VOC's headquarters. He used brutal force to monopolise the spice trade, including the massacre of most of the people of the Banda Islands in 1621.
+  why: The VOC needed a secure base to control the spice trade and keep the English out.
+  then: From Batavia the VOC enforced its spice monopolies and gradually took control of Java through wars and alliances with local rulers. The city's segregated colonial society included a large Chinese community, which suffered a massacre in 1740.
+## d-banda | 1621 | VOC conquers the Banda Islands | who: Governor-General Jan Pieterszoon Coen; the Bandanese | where: Banda Islands, Indonesia
+  bluf: To monopolize nutmeg, the VOC killed, enslaved or drove out most of the Banda Islands' people and replaced them with plantations worked by slaves. Often described as a genocide, it shows what happens when a profit-seeking company holds the powers of a state.
+  now: Banda is a founding example of corporate violence in the colonial world and is increasingly part of Dutch debates about the colonial past.
+  story: In 1621 Jan Pieterszoon Coen invaded the Banda Islands. Of perhaps 15,000 Bandanese, most were killed, starved or enslaved, and a few fled. The islands were divided into nutmeg plantations worked by enslaved labourers.
+  why: Nutmeg and mace grew only on Banda, and the Bandanese kept selling them to the English despite Dutch demands for exclusive rights.
+  then: The VOC held the nutmeg monopoly for over a century, until the French and British smuggled seedlings to their own colonies; its model of company rule by force spread across the archipelago.
+## d-malacca1641 | 1641 | Dutch take Malacca from Portugal | who: The VOC and the Sultanate of Johor; the Portuguese garrison | where: Malacca, Malaysia
+  bluf: The Dutch capture of Malacca ended Portuguese power in Southeast Asia and confirmed the VOC as the region's dominant European force. The Dutch then let Malacca decline in favour of their own capital, Batavia.
+  now: The Strait of Malacca is still one of the world's busiest shipping chokepoints, carrying much of the trade and oil between the Indian Ocean and East Asia, and who controls it remains a strategic question.
+  story: The VOC, allied with Johor, besieged Malacca from August 1640. Famine and disease killed much of the population before the Dutch stormed the city on January 14, 1641.
+  why: Control of the strait meant control of trade between the Indian Ocean and China.
+  then: The VOC centred its trade on Batavia, and Malacca became a secondary port.
+## se-ayutthaya | 1767 | Burma sacks Ayutthaya | who: Burmese Konbaung dynasty; Kingdom of Ayutthaya (Siam) | where: Ayutthaya, Thailand
+  bluf: The destruction of Ayutthaya ended Siam's 400-year-old capital and one of Asia's great trading cities. The kingdom was rebuilt by new leaders at Thonburi and then Bangkok, founding the Chakri dynasty that still reigns.
+  now: The fall of Ayutthaya destroyed the Siamese state and forced its refounding at Bangkok under a new dynasty that still reigns; the memory fixed Burma as Siam's enemy for two centuries.
+  story: After a 14-month siege, Burmese forces stormed Ayutthaya in April 1767, burned it and carried off tens of thousands of captives. The city had been one of Asia's great trading capitals.
+  why: Burma's expansionist Konbaung kings wanted to crush their old rival.
+  then: A general, Taksin, drove the Burmese out within a year and founded a new capital at Thonburi.
+  fact: Ayutthaya's ruins are a World Heritage site.
+## se-chakri | 1782 | Chakri dynasty founds Bangkok | who: General Chakri, King Rama I | where: Bangkok
+  bluf: The Chakri dynasty rebuilt Siam around a new capital at Bangkok and made it the dominant power of mainland Southeast Asia. Its kings later kept Siam independent of European empires by modernizing and balancing Britain against France.
+  now: Thailand's king is still a Chakri, and the monarchy remains politically central, protected by strict lèse-majesté laws.
+  story: General Chakri took the throne as Rama I in 1782 and built a new capital on the east bank of the Chao Phraya river at Bangkok, modelled on Ayutthaya.
+  why: To rebuild the kingdom after Ayutthaya's fall, at a more defensible site.
+  then: Siam became the strongest power in mainland Southeast Asia, extending control over parts of Laos, Cambodia and Malaya.
+## as181926 | 1819 | Britain founds Singapore | who: Stamford Raffles | where: Singapore
+  bluf: Raffles' free port gave Britain a strategic hub at the southern end of the Strait of Malacca. Free trade and open immigration made it a commercial magnet and laid the foundations of one of the world's richest city-states.
+  now: Singapore is now one of the world's richest countries per person and among its busiest ports; its founding as a free port explains its enduring openness.
+  story: In 1819 Stamford Raffles of the East India Company signed a treaty with a Johor prince and the local Malay chief to set up a trading post on Singapore island. He made it a free port with no import duties, and it grew rapidly.
+  why: Britain wanted to counter Dutch control of the region's trade and secure a base on the route to China.
+  then: Singapore grew into the British Empire's key Asian port, the hub for trade between India, China and the Malay world, and a magnet for Chinese immigrants.
+## se-burma1824 | 1824 | First Anglo-Burmese War | who: East India Company; Burma's Konbaung dynasty | where: Rangoon (Yangon)
+  bluf: The First Anglo-Burmese War began Britain's conquest of Burma, which took 60 years and three wars. It brought Assam and coastal Burma under British rule and set the colonial border between Burma and India.
+  now: The border drawn after this war, between Arakan and Bengal, runs through areas where questions of belonging still drive conflict, including the Rohingya crisis.
+  story: Border clashes in Assam and Bengal led to war in 1824. Disease killed most of the 15,000 Company soldiers who died. Burma lost Assam and its coastal provinces in 1826.
+  why: Burma's Konbaung kings had conquered Arakan, Manipur and Assam, bringing their armies up to the border of British Bengal.
+  then: Two more wars, in 1852 and 1885, completed the British conquest, and Burma was ruled as a province of British India until 1937.
+## se-javawar | 1825 | Java War | who: Prince Diponegoro; the Dutch colonial army | where: Central Java
+  bluf: The Java War was the last great resistance by Java's aristocracy to Dutch rule, and its cost pushed the Dutch to impose the exploitative Cultivation System. Diponegoro became a national hero of Indonesian independence.
+  now: Diponegoro is a national hero in Indonesia, where resistance to Dutch rule underpins national identity.
+  story: Diponegoro, a Javanese prince and Islamic mystic, rebelled in 1825 after the Dutch built a road across his family's land. The war killed about 200,000 Javanese and 15,000 colonial soldiers. Diponegoro was captured at peace talks in 1830 and exiled.
+  why: Dutch interference in Javanese courts, land and taxes, resentment of tolls and tax farmers, and Diponegoro's claim to be a just ruler with a religious mission.
+  then: The war's cost pushed the bankrupt Dutch to introduce the Cultivation System.
+## se-cultivation | 1830 | Dutch impose the Cultivation System on Java | who: Governor-General Johannes van den Bosch | where: Java
+  bluf: The Cultivation System forced Javanese villages to grow export crops for the Dutch state, making Java enormously profitable for the Netherlands. It is a classic case of a colony financing its colonizer, at the cost of famine in parts of Java.
+  now: The system made Java the most profitable colony in the world and paid for the Dutch state's debts and railways, at the cost of Javanese famine; its exposure forced a reform of colonial policy and gave Indonesian nationalism its first grievance.
+  story: Villages had to set aside a share of their land, often a fifth, to grow sugar, coffee or indigo for the government at fixed prices. Profits paid off Dutch debts and built Dutch railways; on Java, famine hit some regions in the 1840s.
+  why: The Netherlands was nearly bankrupt after the Java War and Belgium's breakaway.
+  then: A Dutch novel exposing its abuses, 'Max Havelaar' (1860), helped end it by 1870.
+  fact: 'Max Havelaar', the 1860 novel that exposed it, gave its name to a fair-trade label.
+## se-bowring | 1855 | Bowring Treaty opens Siam | who: King Mongkut (Rama IV); Sir John Bowring | where: Bangkok
+  bluf: King Mongkut accepted free trade and extraterritorial rights on British terms to avoid war, opening Siam to Western commerce. Strategic concessions and modernization let Siam keep its independence while its neighbours were colonized.
+  now: Thailand is the only Southeast Asian country never colonised by a European power.
+  story: Seeing what had happened to China and Burma, King Mongkut agreed to low tariffs, free trade and extraterritorial rights for British subjects.
+  why: King Mongkut had watched Britain defeat China and Burma, and chose to grant trade concessions rather than give Britain a pretext for war.
+  then: Siam signed similar treaties with other Western powers and began to modernise.
+## se-chulalongkorn | 1868 | Chulalongkorn modernises Siam | who: King Chulalongkorn (Rama V) | where: Bangkok
+  bluf: Chulalongkorn modernized Siam's state, abolished slavery and traded border territories to France and Britain to keep Siam independent. His reforms turned Siam into a centralized nation-state and a buffer between the British and French empires.
+  now: He is revered as the king who kept Thailand independent, a legacy that underpins the monarchy's prestige.
+  story: Chulalongkorn, who reigned from 1868 to 1910, abolished slavery and the prostration of subjects before the king, built railways, schools and a modern civil service, and traded border territories to France and Britain to keep Siam free.
+  why: To make Siam strong and 'civilised' enough that no colonial power would have an excuse to take it.
+  then: Siam stayed independent as a buffer between British Burma and French Indochina, though it gave up Laos and western Cambodia to France and northern Malay states to Britain.
+## as188739 | 1887 | French Indochina | who: The French Third Republic; Vietnamese, Cambodian and Lao rulers | where: Vietnam, Cambodia, Laos
+  bluf: France assembled Vietnam, Cambodia and later Laos into French Indochina, a colony run for rice, rubber and prestige. Resistance to French rule produced Vietnamese nationalism and communism and decades of war that later drew in the United States.
+  now: French Indochina's borders created modern Vietnam, Laos and Cambodia, and the struggle against French rule led directly into the Vietnam wars.
+  story: France conquered southern Vietnam from 1858, made Cambodia a protectorate in 1863, and took northern and central Vietnam after a war with China in 1883-85. In 1887 it combined them into the Indochinese Union; Laos was added in 1893.
+  why: French leaders wanted colonies, markets and prestige to rival Britain, and a route into southern China.
+  then: French rule, with forced labour on rubber plantations and heavy taxes, was resisted from the start; Ho Chi Minh founded the Indochinese Communist Party in 1930.
+## se-rizal | 1896 | José Rizal executed | who: José Rizal; Spanish colonial authorities | where: Manila
+  bluf: Spain's execution of José Rizal, a reformer rather than a revolutionary, turned him into a martyr and strengthened the Philippine Revolution. It shows how repressing moderates can radicalize a movement.
+  now: Rizal is the Philippines' national hero, a model of nationalism pursued through writing rather than arms.
+  story: Rizal's novels exposed the abuses of Spanish friars and officials. Though he advocated reform, not revolution, Spain arrested him when the Katipunan secret society launched an uprising in 1896, and shot him in Manila on December 30.
+  why: Spain blamed Rizal's writings for inspiring the Katipunan revolt and wanted to make an example of him.
+  then: The revolution spread, and Filipino forces declared independence in 1898, only to be conquered by the United States.
+## as189842 | 1899 | Philippine-American War | who: United States; Filipino leader Aguinaldo | where: Philippines
+  bluf: The United States fought a brutal war to crush Filipino independence after taking the islands from Spain. It made America a colonial power in Asia and exposed the limits of its anti-colonial rhetoric.
+  now: Largely forgotten in the United States, the war is central to Philippine history; today's US-Philippine alliance, including bases facing China in the South China Sea, grew from this relationship.
+  story: After beating Spain, the US paid $20 million for the islands. Filipino forces under Emilio Aguinaldo, who had declared independence, fought back from February 1899; at least 200,000 Filipino civilians died, mostly from famine and disease.
+  why: The US wanted a Pacific base and Asian markets, and President McKinley claimed Filipinos were not ready to govern themselves.
+  then: US rule built schools and institutions and promised eventual self-government; the Philippines became independent in 1946.
+## as194155 | 1941 | Japan invades Southeast Asia | who: Japan vs. Britain, the US and the Netherlands | where: Malaya, Singapore, the Philippines and the Dutch East Indies
+  bluf: Japan's lightning conquest of Southeast Asia shattered the myth of European invincibility and seized the region's oil, rubber and tin. Though Japanese rule was often brutal, the collapse of colonial authority made the return of European empires after 1945 untenable.
+  now: The fall of Western colonies to an Asian power helped end European empire in Asia.
+  story: Japan's offensive of December 8, 1941 (December 7 across the date line in Hawaii) struck Malaya, Hong Kong and the Philippines. Singapore fell on February 15, 1942, the Dutch East Indies in March and the Philippines by May.
+  why: Japan wanted the region's oil, rubber and tin after the US oil embargo.
+  then: Japan ruled the region until 1945, often brutally, using forced labour such as on the Burma Railway, while arming local nationalists who later fought the returning Europeans.
+## d-bataan | 1942 | Bataan Death March | who: The Japanese army; American and Filipino prisoners | where: Bataan Peninsula, Philippines
+  bluf: The Bataan Death March became a symbol of Japanese wartime brutality toward prisoners. It hardened American attitudes toward Japan and remains central to Philippine memory of the war.
+  now: Shared wartime suffering underpins the US-Philippine alliance, and April 9 is the Day of Valour in the Philippines.
+  story: After months of siege, US and Filipino forces on Bataan surrendered on April 9, 1942. Prisoners were marched about 100 km in the heat with little food or water, and those who fell were often beaten or killed. Thousands of Filipinos and several hundred Americans died on the march.
+  why: Japan was unprepared for so many prisoners and treated surrender with contempt.
+  then: Thousands more died in the prison camps that followed, and news of the march, released in 1944, hardened American attitudes toward Japan.
+## d-singapore1942 | 1942 | Fall of Singapore | who: General Tomoyuki Yamashita; Lieutenant-General Arthur Percival | where: Singapore
+  bluf: The fall of Singapore, the largest surrender in British military history, destroyed the myth of British invincibility in Asia. It signalled the end of the British Empire in the East.
+  now: Churchill called it the worst disaster in British military history; it shattered belief in British power in Asia.
+  story: Japan's army raced down the Malay Peninsula and crossed to Singapore. On February 15, 1942, Percival surrendered about 80,000 British, Indian and Australian troops, the largest surrender in British military history.
+  why: Singapore's defences faced the sea, while Japan came by land with control of the air.
+  then: Many prisoners died building the Burma Railway, and Japanese troops massacred tens of thousands of Chinese Singaporeans in the Sook Ching purge.
+## se-indonesia1945 | 1945 | Indonesia declares independence | who: Sukarno and Mohammad Hatta | where: Jakarta
+  bluf: Sukarno's declaration turned Japan's defeat into a chance to end 350 years of Dutch rule. After a four-year war, Indonesia became independent: the world's largest Muslim-majority nation and a leader of the non-aligned movement.
+  now: Indonesia, with about 280 million people, is the world's largest Muslim-majority country.
+  story: On August 17, 1945, Sukarno read a short proclamation of independence. The Dutch returned and fought a four-year war to regain control, but under US pressure recognised Indonesia's independence in December 1949.
+  why: Japan's occupation had destroyed Dutch authority and promoted nationalist leaders.
+  then: Sukarno ruled until 1965-67; his 'Guided Democracy' gave way to Suharto's military regime after the mass killings of 1965-66.
+## se-vietnam1945 | 1945 | Ho Chi Minh declares Vietnam independent | who: Ho Chi Minh; the Viet Minh | where: Ba Dinh Square, Hanoi
+  bluf: Ho Chi Minh's declaration of Vietnamese independence, quoting the US Declaration of Independence, began 30 years of war against France and then the United States. It fused communism with nationalism, a combination that proved very hard to defeat.
+  now: Ho's appeal to American ideals is a reminder of a missed chance for US-Vietnamese understanding; the two countries are now partners.
+  story: As Japan surrendered, the Viet Minh took power in the August Revolution. On September 2, 1945, Ho opened his declaration with 'All men are created equal' from the US Declaration of Independence.
+  why: Japan's defeat left a power vacuum in which the Viet Minh, the best-organized nationalist force, seized power before France could return.
+  then: France returned with British help, war with France began in 1946, and it lasted until the French defeat at Dien Bien Phu in 1954.
+## se-philippines1946 | 1946 | Philippines becomes independent | who: Manuel Roxas; the United States | where: Manila
+  bluf: The Philippines became independent on a timetable set by the United States, but American bases and trade privileges kept it closely tied to Washington. The alliance remains central to US strategy in Asia.
+  now: The Philippines is a US treaty ally in disputes with China over the South China Sea.
+  story: Under the 1934 Tydings-McDuffie Act, the Philippines became independent on July 4, 1946, after a devastating Japanese occupation. The US kept military bases and trade privileges.
+  why: Congress had promised independence in 1934 after a ten-year transition, partly because American farmers wanted to end duty-free Philippine imports.
+  then: US bases at Subic Bay and Clark remained until 1991-92, and US trade privileges limited Philippine economic policy for decades.
+## se-burma1948 | 1948 | Burma becomes independent | who: U Nu; the assassinated independence leader Aung San | where: Rangoon (Yangon)
+  bluf: Burma became independent after the assassination of its founding leader Aung San, with ethnic conflicts unresolved, and insurgencies soon erupted. The army, casting itself as guardian of national unity, took power in 1962 and has dominated ever since.
+  now: Aung San's daughter, Aung San Suu Kyi, led Myanmar's democracy movement.
+  story: Aung San negotiated independence but was assassinated with most of his cabinet by a political rival in July 1947. Burma became independent on January 4, 1948, outside the Commonwealth, and soon faced ethnic insurgencies.
+  why: Wartime nationalism under Aung San, and a Britain exhausted by war and leaving India, made independence unavoidable.
+  then: The army seized power in 1962 and has dominated politics since, and wars with ethnic minorities have continued for decades.
+## as195461 | 1954 | Battle of Dien Bien Phu | who: Viet Minh (Ho Chi Minh, General Giap) vs. France | where: Dien Bien Phu, Vietnam
+  bluf: The Viet Minh victory at Dien Bien Phu ended French colonial rule in Indochina and showed an independence army could beat a European power in conventional battle. It led to Vietnam's division and the start of American involvement.
+  now: The defeat ended French rule in Indochina and partitioned Vietnam, which set up the American war; it showed every colonial army that it could lose a set-piece battle to an independence movement.
+  story: The Viet Minh surrounded a French base in a remote valley with artillery hauled up the mountains by hand. After 56 days the French garrison surrendered on May 7, 1954.
+  why: The Viet Minh were fighting for independence from France, and the French built a remote base to lure them into a set-piece battle, underestimating their artillery.
+  then: France agreed to leave Indochina at the Geneva conference, which divided Vietnam pending elections.
+  fact: The Viet Minh hauled artillery up the mountains by hand and bicycle, something the French thought impossible.
+## as195461b | 1954 | Geneva Accords divide Vietnam | who: France, Viet Minh, Britain, USSR, China and the US | where: Geneva (signed); Vietnam split at the 17th parallel
+  bluf: The Geneva Accords divided Vietnam temporarily at the 17th parallel pending elections. When the US-backed South refused to hold them, the division became the basis of the Vietnam War.
+  now: Vietnam was reunified only by war, in 1975; the elections promised at Geneva never happened, a reminder that peace deals without enforcement often fail.
+  story: At Geneva, France agreed to leave Indochina. Vietnam was temporarily divided at the 17th parallel, with Ho Chi Minh's communists in the North and a French-backed state in the South; nationwide elections were promised for 1956.
+  why: France had lost at Dien Bien Phu, and the great powers, including the US, USSR and China, wanted to avoid a wider war; China pressed Ho to accept partition.
+  then: The US-backed South refused to hold the elections, and a communist insurgency grew.
+## se-bandung | 1955 | Bandung Conference | who: 29 Asian and African countries: Sukarno, Nehru, Zhou Enlai, Nasser | where: Bandung, Indonesia
+  bluf: The Bandung Conference gathered newly independent Asian and African states to condemn colonialism and assert independence from the Cold War blocs. It laid the foundations of the Non-Aligned Movement and the idea of a 'Third World'.
+  now: The 'Bandung spirit' is still invoked in debates about the Global South.
+  story: The Asian-African Conference brought together countries representing over half the world's people. They condemned colonialism 'in all its manifestations' and called for peaceful coexistence and economic cooperation.
+  why: Newly independent states wanted to complete decolonization and avoid being forced to choose between the American and Soviet blocs.
+  then: It inspired the Non-Aligned Movement, founded in 1961, and African independence movements.
+## se-malaya1957 | 1957 | Malaya becomes independent | who: Tunku Abdul Rahman | where: Kuala Lumpur
+  bluf: Malaya won independence through negotiation and an inter-ethnic coalition while British forces fought a communist insurgency. Its model of Malay political dominance with ethnic power-sharing still defines Malaysian politics.
+  now: Malaysia's politics still turn on relations between its ethnic communities.
+  story: Britain granted independence on August 31, 1957, under Tunku Abdul Rahman, whose alliance of Malay, Chinese and Indian parties had won elections. The 'Malayan Emergency' against communist guerrillas lasted until 1960.
+  why: Britain wanted to hand power to moderate leaders who would protect its rubber and tin interests, and an inter-ethnic alliance offered a stable partner while the communist insurgency was being defeated.
+  then: Malaya joined with Singapore, Sabah and Sarawak to form Malaysia in 1963, and expelled Singapore two years later amid ethnic tensions.
+## d-tonkin | 1964 | Gulf of Tonkin incident | who: The US destroyer Maddox; North Vietnamese torpedo boats; the US Congress | where: Gulf of Tonkin
+  bluf: The Gulf of Tonkin incident, including a second attack that never happened, gave Johnson congressional authority to escalate the Vietnam War. It is a classic case of misreported events used to justify war.
+  now: Declassified documents released in 2005 confirmed that the second attack did not take place.
+  story: On August 2, 1964, North Vietnamese boats fought the USS Maddox. A reported second attack on August 4 was later shown not to have occurred. Congress passed the Gulf of Tonkin Resolution almost unanimously.
+  why: The Maddox was gathering intelligence off North Vietnam while US-backed South Vietnamese commandos raided the coast, and Johnson wanted authority to escalate.
+  then: In 1965 Johnson sent combat troops and began sustained bombing; US troops in Vietnam peaked at over 500,000 in 1968.
+## na196578b | 1965 | US escalates the Vietnam War | who: Lyndon Johnson; US Marines | where: Da Nang, South Vietnam
+  bluf: Johnson's decision to send combat troops made Vietnam an American war, eventually involving more than 500,000 US troops. Its failure divided the country, undermined trust in government and reshaped US foreign policy.
+  now: Vietnam left lasting American distrust of foreign interventions and of official claims about wars.
+  story: After the Gulf of Tonkin Resolution of August 1964 gave Johnson broad war powers, the US began bombing North Vietnam in February 1965 and landed Marines at Da Nang in March. By 1968 more than 500,000 US troops were in Vietnam.
+  why: Fear that if South Vietnam fell, communism would spread across Asia: the 'domino theory'.
+  then: Rising casualties and the 1968 Tet Offensive turned many Americans against the war.
+## se-indonesia1965 | 1965 | Indonesian mass killings | who: The Indonesian army (Suharto) and allied militias; suspected communists | where: Java, Bali and Sumatra
+  bluf: The army-led killing of 500,000 to a million suspected communists destroyed the world's third-largest communist party and brought Suharto to power. Western governments backed the new regime, and the killings remain unpunished.
+  now: The killings were long taboo in Indonesia; no one has been prosecuted.
+  story: After an attempted coup on September 30, 1965, blamed on the Communist Party (PKI), the army under General Suharto and allied civilian groups killed an estimated 500,000 to 1 million people over the following months. Hundreds of thousands more were imprisoned.
+  why: Cold War fears, rivalry between the army and the PKI, and local religious and social conflicts.
+  then: Suharto pushed Sukarno aside and ruled for 31 years with Western support, building an economy open to foreign investment and an army-dominated state.
+## se-singapore1965 | 1965 | Singapore becomes independent | who: Lee Kuan Yew; Malaysia's prime minister Tunku Abdul Rahman | where: Singapore
+  bluf: Expelled from Malaysia, Singapore became a tiny independent city-state with no natural resources. Under Lee Kuan Yew it became one of the world's richest countries through trade, foreign investment and an efficient but authoritarian government.
+  now: Singapore is now one of the world's richest countries, a much-studied model of a small state prospering through trade, strong government and openness.
+  story: After two years in Malaysia marked by race riots and political clashes, Singapore was asked to leave and became independent on August 9, 1965. Lee Kuan Yew wept on television as he announced it.
+  why: Tensions between Lee's mostly Chinese party and Malaysia's Malay-led government.
+  then: Under Lee, Singapore became one of the world's richest countries per person.
+## se-asean | 1967 | ASEAN founded | who: Indonesia, Malaysia, the Philippines, Singapore and Thailand | where: Bangkok
+  bluf: ASEAN brought rival Southeast Asian states together to manage their disputes and stand against communist expansion. It grew into a ten-member body promoting regional stability and economic integration.
+  now: ASEAN's members have about 680 million people, and the bloc tries to balance between the United States and China.
+  story: Signed in Bangkok in August 1967, the ASEAN Declaration aimed to promote regional cooperation and stability, partly as a bulwark against communism.
+  why: Ending the Indonesia-Malaysia confrontation, and fear of communist expansion.
+  then: Vietnam, Laos, Myanmar and Cambodia joined in the 1990s, and Timor-Leste became the eleventh member in 2025.
+## d-mylai | 1968 | My Lai massacre | who: US Army Charlie Company; the villagers of Sơn Mỹ | where: Sơn Mỹ, Quảng Ngãi province, Vietnam
+  bluf: The My Lai massacre, covered up until journalists exposed it, revealed the brutality of the Vietnam War and turned many Americans against it. It is now taught as a lesson in military ethics and accountability.
+  now: It deepened opposition to the war and is taught as a lesson in military ethics.
+  story: On March 16, 1968, soldiers searching for the Viet Cong killed between 347 and 504 villagers. Helicopter pilot Hugh Thompson landed between soldiers and villagers to stop the killing. The army covered it up until journalist Seymour Hersh exposed it in 1969.
+  why: Frustration over casualties from mines and snipers, poor leadership, and orders to destroy a village suspected of sheltering the Viet Cong.
+  then: Only Lieutenant William Calley was convicted; he served three and a half years, mostly under house arrest.
+## d-tet | 1968 | Tet Offensive | who: North Vietnamese army and Viet Cong; US and South Vietnamese forces | where: Huế, South Vietnam
+  bluf: The Tet Offensive was a military defeat for North Vietnam but a political victory: it convinced many Americans the war could not be won. It led to Johnson's decision not to seek re-election and to the start of peace talks.
+  now: Tet is a classic case of a military defeat that became a political victory.
+  story: During the Lunar New Year truce, about 80,000 communist troops attacked more than 100 towns and cities, even the grounds of the US embassy in Saigon. They were beaten back with heavy losses, though Huế was held for a month. The fighting shocked Americans who had been told victory was near.
+  why: Hanoi hoped surprise attacks across the South would spark a popular uprising and break the South Vietnamese government.
+  then: Johnson halted most bombing of the North, announced he would not run again, and peace talks began in Paris.
+## na197382 | 1973 | US withdraws from Vietnam | who: Richard Nixon; North and South Vietnam | where: Saigon (signed in Paris)
+  bluf: The Paris Peace Accords took US forces out of Vietnam after eight years of war but did not end the fighting. South Vietnam fell two years later, and the United States emerged with a lasting reluctance to fight long foreign wars.
+  now: The 'Vietnam syndrome' made Americans wary of foreign wars for decades.
+  story: Signed in January 1973, the accords led to the withdrawal of the last US combat troops in March and the return of American prisoners of war. More than 58,000 Americans had died. Fighting between North and South went on.
+  why: The war had become deeply unpopular, and Nixon sought 'peace with honour'.
+  then: Without US troops or air support, and with American aid cut by Congress, South Vietnam fell to a North Vietnamese offensive in April 1975.
+## as197566 | 1975 | Fall of Saigon | who: North Vietnamese army; South Vietnam | where: Saigon
+  bluf: The fall of Saigon ended the Vietnam War with a communist victory and Vietnam's unification. It was America's most painful defeat of the Cold War, but the predicted 'domino' collapse of Southeast Asia did not happen beyond Indochina.
+  now: The fall of Saigon ended thirty years of war and American intervention in Southeast Asia, reunified Vietnam under the Communist Party, and left a United States that avoided ground wars for fifteen years.
+  story: North Vietnam's spring offensive collapsed the South's army in weeks. As helicopters evacuated the last Americans, tanks entered Saigon on April 30, 1975. The city was renamed Ho Chi Minh City.
+  why: South Vietnam depended on US support, which had ended, and its state was undermined by corruption and by the North's determination.
+  then: Communists also took power in Laos and Cambodia. Vietnam's harsh re-education camps and economic failure drove hundreds of thousands of 'boat people' to flee over the next decade.
+  fact: Vietnam is now a market economy and a partner of the United States.
+## as197566b | 1975 | Khmer Rouge take Phnom Penh | who: Pol Pot's Khmer Rouge | where: Phnom Penh, Cambodia
+  bluf: The Khmer Rouge emptied Cambodia's cities and pursued a radical agrarian utopia that killed about a quarter of the population. It was one of the 20th century's most extreme genocides, born of ideology, war and the spillover of the Vietnam conflict.
+  now: The Khmer Rouge killed about a quarter of Cambodia's people in four years, the most intense genocide of the century in proportion to population; Vietnam's invasion to end it isolated both countries for a decade.
+  story: On April 17, 1975, the Khmer Rouge took Phnom Penh and forced its entire population into the countryside. Seeking an agrarian communist utopia, they abolished money, schools and religion, and killed or starved roughly a quarter of Cambodia's people by 1979.
+  why: The spread of the Vietnam War into Cambodia, including heavy US bombing, helped the Khmer Rouge grow, and the US-backed government collapsed.
+  then: Vietnam invaded in December 1978 and drove the Khmer Rouge from power, but China, the US and others kept recognizing the Khmer Rouge at the UN for years.
+  fact: A UN-backed tribunal convicted the surviving leaders of genocide in 2018.
+## se-cambodia1978 | 1978 | Vietnam invades Cambodia | who: Vietnam; the Khmer Rouge | where: Phnom Penh
+  bluf: Vietnam's invasion ended the Khmer Rouge genocide but began a decade-long occupation and a border war with China. Cold War politics meant the Khmer Rouge kept Cambodia's UN seat for years.
+  now: It ended the genocide; Cambodia's prime minister for nearly four decades, Hun Sen, was installed in the Vietnamese-backed government.
+  story: After Khmer Rouge raids across the border, Vietnam invaded on December 25, 1978, and took Phnom Penh in January 1979. China, the Khmer Rouge's backer, attacked Vietnam in February 1979 in a short, bloody war.
+  why: Khmer Rouge raids across the border, and Vietnam's rivalry with China, the Khmer Rouge's backer.
+  then: Vietnam occupied Cambodia until 1989; the Khmer Rouge kept its UN seat for years.
+## se-peoplepower | 1986 | People Power Revolution | who: Corazon Aquino; Cardinal Jaime Sin; Ferdinand Marcos | where: EDSA, Manila
+  bluf: The People Power Revolution peacefully ousted Ferdinand Marcos after a fraudulent election, as millions protected military rebels in the streets. It inspired democratic movements across Asia and Eastern Europe.
+  now: Marcos's son, Ferdinand Marcos Jr., was elected president in 2022, a sign of how quickly the memory of a revolution can fade.
+  story: Marcos claimed victory in a fraudulent election in February 1986. When military rebels broke away, the Catholic Church called people to the streets; about two million protected them along EDSA avenue. Marcos fled to Hawaii, and Corazon Aquino became president.
+  why: Twenty years of Marcos rule, martial law, corruption and the 1983 assassination of Benigno Aquino.
+  then: Corazon Aquino became president, a new constitution limited presidents to a single term, and the example inspired protest movements in South Korea and Eastern Europe.
+## as199772b | 1997 | Asian financial crisis | who: Thailand, Indonesia, South Korea; the IMF | where: Bangkok
+  bluf: The Asian financial crisis showed how quickly foreign capital could flee emerging economies, crashing currencies and toppling governments such as Suharto's. It led Asian states to build huge foreign reserves and distrust the IMF.
+  now: Asian countries built huge dollar reserves afterwards so as never to depend on the IMF again.
+  story: When Thailand floated the baht in July 1997, foreign money fled. Currencies and stock markets crashed in Indonesia, South Korea and Malaysia, and IMF bailouts came with harsh conditions.
+  why: Fixed exchange rates, short-term foreign borrowing and property bubbles.
+  then: Indonesia's Suharto resigned in 1998 amid riots, South Korea restructured its giant conglomerates, and Malaysia imposed capital controls.
+## se-timor | 2002 | East Timor becomes independent | who: Xanana Gusmão; José Ramos-Horta; the UN | where: Dili
+  bluf: East Timor's independence, after a UN-supervised vote and violent Indonesian reprisals, ended 24 years of occupation in which an estimated 100,000 to 180,000 people died. It was the 21st century's first new state and a rare case of the UN guiding a country to statehood.
+  now: Independence ended twenty-four years of Indonesian occupation that had killed a quarter of the population, and it was the first new state the United Nations itself administered into existence.
+  story: Indonesia invaded the former Portuguese colony in 1975; perhaps 100,000 to 180,000 Timorese died during the occupation. After Suharto fell, a UN-run vote in 1999 chose independence, and pro-Indonesian militias destroyed much of the territory in revenge. A UN administration led to independence on May 20, 2002.
+  why: Indonesia's democratization after Suharto's fall in 1998, and its new president's surprise offer of a vote, opened the way.
+  then: UN peacekeepers stayed until 2012; Timor-Leste remains one of Asia's poorest but most democratic states.
+  fact: Timor-Leste joined ASEAN in 2025.
+## se-tsunami | 2004 | Indian Ocean tsunami | who: Communities around the Indian Ocean | where: Banda Aceh, Indonesia
+  bluf: The 2004 Indian Ocean tsunami killed about 230,000 people in 14 countries, one of the deadliest natural disasters in history. It led to an Indian Ocean warning system and, in Aceh, helped end a decades-old insurgency.
+  now: It is among the deadliest natural disasters in recorded history, and Aceh is the model case of a disaster opening space for peace.
+  story: On December 26, 2004, a magnitude 9.1 earthquake off Sumatra sent waves up to 30 metres high onto coasts from Indonesia to Thailand, Sri Lanka, India and East Africa. Aceh was the worst hit.
+  why: A huge undersea earthquake, and the lack of any tsunami warning system in the Indian Ocean, so coastal populations had no warning.
+  then: The disaster pushed Aceh's rebels and Indonesia's government into a peace deal in 2005, and a warning system was built.
+## se-myanmar2021 | 2021 | Myanmar's military coup | who: Senior General Min Aung Hlaing; Aung San Suu Kyi's government | where: Naypyidaw, Myanmar
+  bluf: Myanmar's military coup ended a decade of partial democracy and set off a nationwide civil war. Resistance forces and ethnic armies have taken large parts of the country, the most serious challenge the army has ever faced.
+  now: Myanmar's civil war has displaced millions, and the junta's phased elections, which began in December 2025, are widely seen as an attempt to legitimize its rule.
+  story: On February 1, 2021, the army arrested Aung San Suu Kyi and other leaders, claiming fraud in the election her party had won. Mass protests were crushed, and armed resistance spread across the country.
+  why: The army refused to accept further loss of power to the civilian government.
+  then: Resistance forces and ethnic armies took large parts of the country, and the army, backed by China and Russia, answered with air strikes on villages.

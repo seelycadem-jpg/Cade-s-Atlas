@@ -1,0 +1,262 @@
+## d-depression1930 | 1930 | The Depression reaches Germany | who: Chancellor Heinrich Brüning; President Paul von Hindenburg | where: Berlin
+  bluf: The Depression reached Germany through the withdrawal of American credit, and within a year it turned the Nazi party from a 2.6% fringe into the second party in the Reichstag.
+  now: Germany's political collapse was deflationary, in 1930-32, which is why German policy since 1949 fears both inflation and mass unemployment and why the European Central Bank's mandate was written the way it was.
+  story: Germany's recovery after 1924 ran on short-term American credit. After the 1929 crash the loans were called in; unemployment rose from 1.3 million in 1929 to 3 million by September 1930 and 6 million by early 1932. Brüning governed by presidential decree from July 1930 and cut wages and benefits to defend the currency. On September 14, 1930 the NSDAP took 18.3% of the vote, up from 2.6% in 1928.
+  why: German recovery after the 1924 Dawes Plan was financed by short-term loans from New York; when the crash called them in, German banks and employers had no reserve. Brüning's answer, deflation by presidential decree, deepened the slump to protect the currency and the reparations settlement.
+  trig: Unemployment passed 3 million in September 1930; on September 14 the NSDAP won 107 seats, up from 12.
+  then: Deflation continued into 1932, unemployment reached 6 million, the Reichstag was bypassed by decree, and the NSDAP took 37.3% in July 1932.
+## d-holodomor | 1932 | Holodomor famine in Ukraine | who: Stalin's government; Ukrainian peasants | where: Ukraine
+  bluf: The Holodomor was a man-made famine that killed millions of Ukrainians, caused by Stalin's collectivization and by policies that trapped starving peasants in their villages. Long denied by the Soviet Union, it is now central to Ukrainian national identity.
+  now: Ukraine and many other countries recognise the Holodomor as a genocide.
+  story: Forced collectivisation and impossible grain quotas brought famine across the USSR in 1932-33. In Ukraine and the Kuban, the regime blacklisted villages, stopped starving peasants from leaving to look for food, and kept exporting grain.
+  why: Stalin's drive to collectivise farming and pay for industry, and his suspicion of Ukrainian nationalism.
+  then: The Soviet state denied the famine for decades and punished those who spoke of it.
+## eu193391 | 1933 | Hitler takes power | who: Adolf Hitler; Nazi Party | where: Germany
+  bluf: Hitler came to power legally, appointed chancellor by conservative elites who thought they could control him, and dismantled German democracy within months. His regime led directly to World War II and the Holocaust and remains the defining case of democratic collapse.
+  now: It's the standard example of how a democracy can be dismantled from within.
+  story: The Depression and anger at Versailles boosted the Nazi Party. Conservatives made Hitler chancellor, thinking they could control him. A fire at the Reichstag gave him an excuse to crush opponents.
+  why: The Depression and six million unemployed, anger at Versailles, fear of communism, a polarized parliament unable to govern, and a conservative right willing to ally with Hitler.
+  trig: Conservative politicians around President Hindenburg persuaded him to appoint Hitler chancellor on January 30, 1933.
+  then: The Reichstag fire decree and the Enabling Act gave Hitler dictatorial power; other parties, trade unions and the free press were abolished, and Jews were stripped of their rights. Germany rearmed and pursued expansion that led to war in 1939.
+## w2-reichstag | 1933 | Reichstag fire | who: Hitler; Marinus van der Lubbe (arrested for the fire) | where: Berlin
+  bluf: Hitler used the Reichstag fire as a pretext to suspend civil liberties and arrest his opponents. It is the classic example of a leader exploiting an emergency to seize power.
+  now: The fire gave Hitler the emergency decree that suspended civil liberties four weeks after he took office; the arrests of Communists under it cleared the way for the Enabling Act and one-party rule within a month.
+  story: Four weeks after Hitler became chancellor, the Reichstag burned. Hitler blamed a communist plot, and an emergency decree the next day suspended freedom of speech, press and assembly. Thousands of communists were arrested.
+  why: Hitler wanted total power quickly, before his opponents could organise.
+  then: Weeks later, the Nazis used the emergency to push through the Enabling Act.
+## w2-reichstag-b | 1933 | Enabling Act | who: Hitler; the Reichstag (only the Social Democrats voted no) | where: Kroll Opera House, Berlin
+  bluf: The Enabling Act let Hitler's cabinet make laws without parliament, legally ending German democracy. Parties voted for it in exchange for promises he broke, showing how a democracy can vote itself away.
+  now: The Act let the cabinet legislate without the Reichstag, which ended parliamentary government in Germany in a single vote; the postwar constitution was written to make such a vote impossible.
+  story: With communist deputies arrested and SA men lining the hall, the Reichstag passed the Enabling Act on March 23, 1933, giving Hitler's cabinet power to make laws without parliament. Only the Social Democrats voted against.
+  why: The Catholic Centre Party and others voted yes in return for promises Hitler did not keep.
+  then: By July 1933 Germany was a one-party state, with trade unions abolished and other parties banned.
+## w2-longknives | 1934 | Night of the Long Knives | who: Hitler, SS; SA leader Ernst Röhm | where: Munich and Berlin
+  bluf: Hitler's purge of the SA leadership secured the army's loyalty and showed the regime would murder openly with legal approval. It removed the last internal threat to his rule.
+  now: It showed the regime would murder openly and the courts would approve.
+  story: The SA, the Nazis' brown-shirted street army, wanted a 'second revolution'. The army saw it as a threat. Hitler had the SS kill Röhm and dozens of others, plus old enemies.
+  why: The SA's mass street army threatened the army's monopoly of arms, and Hitler needed the army's loyalty before President Hindenburg died.
+  then: When Hindenburg died a month later, Hitler became Führer, combining the offices of president and chancellor, and the army swore an oath of loyalty to him personally.
+## w2-nuremberg | 1935 | Nuremberg Laws | who: Nazi government | where: Nuremberg
+  bluf: The Nuremberg Laws stripped German Jews of citizenship and defined Jewishness by ancestry. They turned Nazi racial ideology into law, the legal first step from discrimination to genocide.
+  now: They are studied as the legal first step from discrimination to genocide, and as a warning about laws that define citizenship by ancestry.
+  story: Announced at the Nazi party rally in Nuremberg on September 15, 1935, the Reich Citizenship Law made Jews 'subjects' rather than citizens, and the Law for the Protection of German Blood banned marriage and sexual relations between Jews and other Germans. A decree in November defined who counted as Jewish by the religion of a person's grandparents, so that converts to Christianity and their children were caught too.
+  why: Nazi ideology saw Jews as a racial threat to the German nation, and party radicals were demanding action after a wave of street attacks on Jews that summer.
+  then: Persecution intensified through the 1930s as Jews were driven from professions, schools and the economy.
+## eu193692 | 1936 | Spanish Civil War | who: Franco's Nationalists vs. Republicans | where: Spain
+  bluf: Spain's civil war pitted a military uprising backed by Germany and Italy against an elected Republic backed by the Soviet Union. Franco's victory brought 36 years of dictatorship, and the war became a testing ground for World War II.
+  now: Picasso's 'Guernica' became the world's most famous anti-war painting, and Spain still argues over how to remember the war, as the exhumation of Franco's remains in 2019 showed.
+  story: General Franco's Nationalists rose against the elected Republic. Germany and Italy backed Franco; the USSR backed the Republic; volunteers came from everywhere.
+  why: Deep polarization between left and right over land, the Church, regional autonomy and the army, and a military coup in July 1936 that failed to take the whole country.
+  then: Franco won and ruled until 1975; German bombers tested tactics on Guernica.
+## w2-rhineland | 1936 | Germany remilitarizes the Rhineland | who: Hitler; France and Britain | where: Rhineland, Germany
+  bluf: Hitler's remilitarization of the Rhineland broke the Versailles treaty without any response from France or Britain. It strengthened him at home and convinced him the democracies would not fight.
+  now: Historians call it the last cheap chance to stop Hitler, and it is cited whenever leaders debate whether to answer a small violation of a treaty or border.
+  story: Versailles banned German troops from the Rhineland, next to France. Hitler sent in a small force with orders to retreat if France resisted. It didn't.
+  why: Hitler wanted to break Versailles and secure Germany's western border before expanding east, and gambled that France, in an election campaign and unwilling to act without Britain, would not respond.
+  then: Germany began fortifying the Rhineland, which made it harder for France to help its eastern allies, and formed the Rome-Berlin Axis with Italy later that year.
+## d-purge | 1937 | Stalin's Great Purge | who: Stalin; NKVD chief Nikolai Yezhov | where: Moscow
+  bluf: Stalin's Great Purge shot about 680,000 people and imprisoned many more, destroying any potential rival and terrorizing Soviet society. It gutted the Red Army's command just before the war with Germany.
+  now: The purge killed about 700,000, destroyed the army's command before the German invasion, and made terror the Soviet state's governing method; every later Soviet leader had been complicit, which shaped the system's refusal to reckon with it.
+  story: In 1936-38 show trials convicted old Bolshevik leaders of absurd plots, while the NKVD arrested over 1.5 million people. About 680,000 were shot and many more sent to Gulag labour camps; much of the army's high command was purged.
+  why: Stalin's drive to eliminate any possible rival or 'enemy of the people'.
+  then: The weakened Red Army performed badly against Finland in 1939-40 and Germany in 1941.
+  fact: Memorial, the group that documented the victims, was shut down by Russian courts in 2021.
+## eu193893 | 1938 | Munich Agreement | who: Chamberlain, Daladier, Hitler, Mussolini | where: Munich
+  bluf: At Munich, Britain and France let Hitler take Czechoslovakia's Sudetenland to avoid war. Hitler broke the deal six months later, and 'Munich' became the lasting symbol of the danger of appeasing aggressors.
+  now: 'Munich' is invoked in almost every debate about confronting aggression, sometimes misleadingly.
+  story: At Munich on September 29-30, 1938, Neville Chamberlain and Édouard Daladier agreed with Hitler and Mussolini that Germany could annex the Sudetenland, the German-speaking border regions of Czechoslovakia, within ten days. Czechoslovakia, which had an alliance with France and strong fortifications along that border, was not invited. Chamberlain flew home promising 'peace for our time'.
+  why: Britain and France were unready to fight, haunted by World War I, and many believed Germany had legitimate grievances over German-speaking areas.
+  then: Hitler took the rest of Czechoslovakia six months later and invaded Poland after that.
+  fact: Chamberlain returned waving the paper and promising 'peace for our time'. War came 11 months later.
+## w2-anschluss | 1938 | Anschluss: Germany absorbs Austria | who: Hitler; Austrian chancellor Kurt Schuschnigg | where: Vienna
+  bluf: Germany's annexation of Austria, welcomed by many Austrians, enlarged Hitler's Reich without a shot. It broke the Versailles treaty and encouraged his next demand, on Czechoslovakia.
+  now: Austria long called itself 'Hitler's first victim', a claim it has since revisited.
+  story: Hitler, Austrian-born, pressured Austria's government to hand over power. German troops entered without resistance, and a staged vote approved union.
+  why: Hitler wanted all German speakers in one Reich and Austria's resources, and many Austrians supported union.
+  then: Hitler turned at once to the German-speaking Sudetenland in Czechoslovakia, now surrounded by German territory on three sides.
+## w2-kristallnacht | 1938 | Kristallnacht | who: Nazi party, SA and Hitler Youth; Germany's Jews | where: Germany and Austria
+  bluf: Kristallnacht turned Nazi persecution of Jews into open, state-organized violence. Few countries opened their doors to Jewish refugees afterwards, showing the world's indifference.
+  now: Historians see it as the turn from persecution to violence on the road to the Holocaust.
+  story: After a young Polish Jew shot a German diplomat in Paris, the Nazi leadership organized violent attacks across Germany and Austria on November 9–10. Over 1,000 synagogues were burned or damaged, and Jews were then fined 1 billion Reichsmarks for the damage.
+  why: The Nazi leadership used the shooting as a pretext to drive Jews out of Germany and seize their property, after years of escalating legal persecution.
+  then: Jews were excluded from schools and the economy; many fled, but few countries took them.
+## eu193994 | 1939 | WWII begins | who: Germany (with USSR) vs. Poland, Britain, France | where: Poland
+  bluf: World War II was the deadliest conflict in history, killing 70-85 million people, including six million Jews in the Holocaust. It destroyed Nazi Germany and imperial Japan, made the United States and Soviet Union superpowers, created the UN, and began the end of Europe's empires.
+  now: The postwar world, from the UN and NATO to the Cold War and decolonization, grew from its ruins.
+  story: Having secured a secret deal with Stalin to divide Eastern Europe, Hitler invaded Poland on September 1, 1939, and Britain and France declared war two days later. Over the next six years the war spread to Western Europe, the Soviet Union, North Africa, the Atlantic and, after Japan's attack on Pearl Harbor, the Pacific.
+  why: Hitler's ideological goals of 'living space' in the East and racial domination, combined with the failure of the Versailles settlement, the Depression, the democracies' appeasement, and Japanese and Italian expansion.
+  trig: Germany's invasion of Poland on September 1, 1939.
+  then: Germany and Japan were defeated in 1945. The Holocaust murdered six million Jews and millions of others. Europe was divided between the US and Soviet spheres, nuclear weapons were used, and the European empires began to dissolve.
+## w2-pact | 1939 | Nazi-Soviet Pact | who: Ribbentrop (Germany); Molotov (USSR); Hitler and Stalin | where: Moscow
+  bluf: The Nazi-Soviet Pact freed Hitler to invade Poland without fear of a two-front war and gave Stalin half of Eastern Europe. Its secret protocol led to the Soviet occupation of the Baltic states and eastern Poland.
+  now: Its secret protocol still shapes Baltic and Polish memory of the war, and Russia's defence of the pact is a sore point in its relations with its western neighbours.
+  story: On August 23, 1939, the foreign ministers of Nazi Germany and the Soviet Union, Joachim von Ribbentrop and Vyacheslav Molotov, signed a ten-year non-aggression pact in Moscow, stunning a world that saw them as ideological enemies. A secret protocol, whose existence the USSR denied until 1989, divided Eastern Europe: Germany would take western Poland; the Soviets eastern Poland, Latvia, Estonia, Finland and Bessarabia, with Lithuania added a month later.
+  why: Hitler wanted to avoid a two-front war; Stalin wanted time and territory.
+  then: Germany invaded Poland nine days later; the USSR invaded from the east on September 17 and annexed the Baltic states in 1940.
+## w2-prague | 1939 | Germany seizes the rest of Czechoslovakia | who: Adolf Hitler; Czech President Emil Hácha, bullied into signing away his country | where: Prague
+  bluf: Hitler's seizure of the rest of Czechoslovakia exposed the Munich deal as a sham and ended Britain's policy of appeasement. Britain and France then guaranteed Poland, drawing the line that brought war in September.
+  now: It is the moment appeasement was discredited, and 'Munich' became the standard argument against conceding territory to an aggressor.
+  story: On March 15, 1939, after Hitler bullied Czechoslovakia's elderly president, Emil Hácha, into 'requesting' German protection during an all-night meeting in Berlin, German troops marched into Prague. Bohemia and Moravia became a German 'protectorate', and Slovakia, which had declared independence the day before under German pressure, became a client state. Hungary seized Carpathian Ruthenia.
+  why: Hitler wanted Czech industry and arms, and to remove a defensible state from his path.
+  then: Britain and France guaranteed Poland's independence; Hitler turned to Poland anyway.
+## w2-winterwar | 1939 | Winter War: USSR invades Finland | who: USSR vs. Finland | where: Karelia, Finland
+  bluf: Finland's fierce resistance to the Soviet invasion humiliated the Red Army and preserved Finnish independence, though at the cost of territory. The Red Army's poor showing convinced Hitler the USSR would be easy to defeat.
+  now: It is a source of Finnish national pride and shaped its strong defence tradition; after Russia's full-scale invasion of Ukraine, Finland joined NATO in 2023.
+  story: When Finland refused to cede land near Leningrad, the Soviet Union invaded on November 30, 1939, expecting victory within weeks. Outnumbered Finnish troops, fighting on skis in temperatures far below freezing, destroyed Soviet columns in the forests, and the League of Nations expelled the USSR. Weight of numbers broke the Finnish defences on the Karelian Isthmus in February, and in March 1940 Finland ceded about a tenth of its territory but kept its independence.
+  why: Stalin wanted a buffer zone around Leningrad and demanded Finnish territory, which Finland refused.
+  then: The Red Army's poor showing convinced Hitler the USSR would be easy to defeat, while Stalin began reforming his army; Finland joined Germany's attack on the USSR in 1941.
+## eu194095 | 1940 | Fall of France | who: Germany; France; Churchill | where: France
+  bluf: Germany defeated France, then thought to have the world's strongest army, in six weeks with a daring thrust through the Ardennes. The collapse left Britain alone against Nazi Germany and created the Vichy regime that collaborated with the Nazis.
+  now: France's defeat and collaboration shaped its postwar politics and its determination, with Germany, to build European unity.
+  story: On May 10, 1940, Germany invaded the Netherlands and Belgium. The main thrust came through the wooded Ardennes, bypassing France's Maginot Line; German tanks reached the Channel in ten days, trapping the Allied armies, of which over 338,000 men were evacuated from Dunkirk. Paris fell on June 14, and France signed an armistice on June 22.
+  why: German tactics of concentrated tanks and aircraft coordinated by radio, French defensive doctrine and command failures, and a surprise route through the Ardennes.
+  then: France was split between German occupation and the collaborationist Vichy regime under Pétain. Britain, under Churchill, fought on, and de Gaulle launched the Free French from London.
+  fact: Hitler had the 1918 armistice signed again in the very same railway carriage at Compiègne, then took the carriage to Berlin.
+## w2-britain | 1940 | Battle of Britain | who: Royal Air Force vs. Luftwaffe | where: Skies over southern England
+  bluf: The RAF's victory in the Battle of Britain prevented a German invasion and kept Britain in the war as the base for the later liberation of Europe. Radar and an integrated air-defence system proved decisive.
+  now: It became a defining story of British resistance, and radar-guided integrated air defence remains the model for modern air defence.
+  story: In summer 1940 the Luftwaffe set out to destroy the Royal Air Force as a prelude to invasion. RAF fighter squadrons, guided by a chain of radar stations and a central control system, inflicted heavy losses. In September Germany switched from attacking airfields to bombing London, giving the RAF time to recover, and on September 17 Hitler postponed the invasion indefinitely.
+  why: Britain refused to make peace after France fell, and Hitler needed control of the air before he could invade across the Channel.
+  then: Germany's bombing of cities, the Blitz, killed about 43,000 British civilians.
+## w2-dunkirk | 1940 | Dunkirk evacuation | who: British Expeditionary Force, French troops; 'little ships' | where: Dunkirk, France
+  bluf: The Dunkirk evacuation saved the core of the British army from disaster and let Britain fight on. It turned a defeat into a story of national resilience.
+  now: Saving the army let Britain fight on, keeping a base from which Europe was later liberated; it shows that avoiding total defeat can matter as much as winning.
+  story: German tanks raced through the Ardennes to the Channel, trapping Allied armies. A pause in the German advance and a massive sea rescue saved most of them.
+  why: German tanks had raced through the Ardennes to the Channel, cutting the Allied armies in half and trapping British and French forces against the sea.
+  then: France surrendered three weeks later, but Britain still had an army to fight on.
+## w2-norway | 1940 | Germany invades Denmark and Norway | who: Germany vs. Norway, Britain, France | where: Norway
+  bluf: Germany's seizure of Denmark and Norway secured its iron ore supply and naval bases. The botched Allied response brought down Chamberlain and put Churchill in power.
+  now: Norway's wartime experience ended its neutrality: it was a founding member of NATO in 1949.
+  story: Germany took Denmark in hours and Norway in two months. A botched British-French response led to Chamberlain's fall; Churchill became prime minister on May 10, 1940.
+  why: Swedish iron ore shipped through the Norwegian port of Narvik was vital to German industry, and Norway's coast offered bases for submarines against Britain.
+  then: Churchill took over the same day Germany attacked France, and Norway's government-in-exile and merchant fleet joined the Allied war effort.
+## eu194196 | 1941 | Germany invades USSR | who: Hitler, Stalin | where: Soviet Union
+  bluf: Germany's invasion of the Soviet Union was the largest military operation in history and the decisive theatre of World War II in Europe. Most German military losses came on the Eastern Front, and the invasion also began the systematic mass murder of Jews in the Holocaust.
+  now: The invasion turned the war into the largest in history, cost the Soviet Union about 27 million dead, and brought the Red Army to the Elbe, which decided the division of Europe for forty-five years.
+  story: On June 22, 1941, over three million Axis troops invaded the USSR on a front from the Baltic to the Black Sea. They encircled huge Soviet armies, reached the outskirts of Moscow and besieged Leningrad, but were stopped by Soviet counterattacks in December. Behind the lines, SS killing squads murdered Jews and others in mass shootings.
+  why: Hitler's ideological goals of 'living space' in the East and the destruction of 'Jewish Bolshevism', plus the grain of Ukraine and the oil of the Caucasus.
+  then: After Stalingrad (1942-43) and Kursk (1943), the Red Army pushed west to Berlin. The USSR lost about 27 million people, and about three-quarters of German military deaths came on the Eastern Front.
+  fact: Russia remembers it as the Great Patriotic War; Victory Day is its largest holiday and the memory is used to justify policy, including the war in Ukraine.
+## w2-declareus | 1941 | Hitler declares war on the United States | who: Hitler; Mussolini | where: Berlin
+  bluf: Hitler's declaration of war on the United States, which no treaty required, let Roosevelt pursue a 'Germany first' strategy. It guaranteed Germany would face the combined power of the United States, Britain and the USSR.
+  now: Historians count it among the biggest blunders of the war: it brought the world's largest economy into the fight against Germany.
+  story: Four days after Pearl Harbor, on December 11, 1941, Hitler declared war on the United States in a speech to the Reichstag, and Italy followed. Germany's alliance with Japan was defensive and did not require it, and Japan had not consulted Germany before attacking. Hitler believed the US was already waging an undeclared naval war in the Atlantic and that Japan would tie it down in the Pacific.
+  why: Hitler underestimated American power and thought war was coming anyway.
+  then: Roosevelt adopted a 'Germany first' strategy, and US troops were fighting in North Africa by November 1942.
+## w2-leningrad | 1941 | Siege of Leningrad begins | who: German army vs. Leningrad's people | where: Leningrad (St. Petersburg)
+  bluf: The 872-day siege of Leningrad killed about a million civilians, mostly through starvation, as Hitler sought to erase the city. Its survival became a symbol of Soviet endurance.
+  now: The siege is central to Russia's memory of the war, and St. Petersburg marks the end of the blockade every January 27.
+  story: Hitler chose to starve the city rather than storm it. In the first winter, people ate wallpaper paste and pets. Supplies came over the frozen Lake Ladoga, the 'Road of Life'.
+  why: Hitler wanted to wipe out the city of Lenin and chose to starve it rather than storm it.
+  then: The siege lasted until January 1944; about a million civilians died, most of them from starvation.
+## w2-stalingrad | 1942 | Battle of Stalingrad | who: German 6th Army vs. Red Army | where: Stalingrad (Volgograd)
+  bluf: Stalingrad destroyed an entire German army and marked the turning point of the war on the Eastern Front. After it, Germany was on the defensive.
+  now: Stalingrad destroyed a German army and ended the Wehrmacht's offensive capacity in the east; from February 1943 Germany was retreating, and the Soviet claim to have carried the war rests on it.
+  story: German forces reached Stalingrad in August 1942 and fought for it street by street and building by building. On November 19 the Soviets launched Operation Uranus, smashing through the Romanian armies on the flanks and encircling about 300,000 men of the German Sixth Army. Hitler forbade a breakout; supplied by air with a fraction of what it needed, the army starved, and its last troops surrendered on February 2, 1943. About 91,000 were taken prisoner, and only a few thousand ever returned home.
+  why: Stalingrad guarded the route to the oil of the Caucasus and bore Stalin's name.
+  then: Germany's last big offensive in the East failed at Kursk, and Germany's allies, Romania, Hungary and Italy, began looking for a way out of the war.
+  fact: It is central to the national story Moscow tells about its defeat of fascism.
+## w2-wannsee | 1942 | Wannsee Conference | who: Reinhard Heydrich, Adolf Eichmann and 13 officials | where: Wannsee, Berlin
+  bluf: At Wannsee, senior Nazi officials coordinated the logistics of murdering Europe's Jews. It shows the Holocaust as a state project carried out by administrators, not only by fanatics.
+  now: The meeting's minutes are among the most chilling documents in history.
+  story: Mass shootings in the occupied USSR had already killed hundreds of thousands. At Wannsee, Heydrich organized the 'Final Solution': deporting Jews across Europe to death camps.
+  why: The Nazi leadership had already decided to exterminate Europe's Jews; Wannsee coordinated the government agencies involved.
+  then: Deportations to the death camps accelerated across Europe; by 1945 about six million Jews had been murdered.
+## w2-italy | 1943 | Allies invade Sicily | who: US, British and Canadian forces | where: Sicily
+  bluf: The invasion of Sicily led to Mussolini's fall and Italy's surrender, but German forces turned Italy into a slow, costly front. It tied down German troops but delayed the main invasion of France.
+  now: The Italian campaign dragged on until May 1945, a lesson in how costly it is to fight up a narrow, mountainous peninsula against a determined defender.
+  story: On July 10, 1943, about 160,000 US, British and Canadian troops landed in Sicily. They took the island in 38 days, though German forces escaped across the Strait of Messina.
+  why: Churchill called Italy the 'soft underbelly' of Axis Europe; knocking Italy out of the war would tie down German troops.
+  then: Mussolini fell two weeks after the landings, and the Allies landed on the Italian mainland in September.
+## w2-italy-b | 1943 | Mussolini overthrown | who: Fascist Grand Council; King Victor Emmanuel III; Mussolini | where: Rome
+  bluf: Mussolini's own Fascist Grand Council and the king removed him, showing that a dictator's rule can collapse from within when defeat looms. Italy switched sides, and the north became a German-occupied battleground.
+  now: Italy marks April 25 as Liberation Day, and the anti-fascist resistance is a founding myth of the Italian Republic.
+  story: On July 25, 1943, the Fascist Grand Council voted against Mussolini, and the king had him arrested. Italy surrendered in September, but Germany occupied the north and centre, freed Mussolini and set him up as a puppet ruler.
+  why: Military defeat, Allied bombing of Italian cities and the invasion of Sicily convinced Fascist leaders and the king that Mussolini had to go.
+  then: Italy fought a civil war alongside the Allied campaign; partisans shot Mussolini in April 1945.
+## w2-kursk | 1943 | Battle of Kursk | who: Germany vs. USSR | where: Kursk, Russia
+  bluf: Kursk was Germany's last major offensive in the East, and its failure against deep Soviet defences gave the Red Army the initiative for the rest of the war.
+  now: The Prokhorovka tank clash is a centrepiece of Russian war memory, though many historians now see it as a costly Soviet setback.
+  story: In July 1943 Germany launched Operation Citadel, a pincer attack on a Soviet bulge in the front around Kursk, with new Tiger and Panther tanks. Forewarned by intelligence, the Soviets had built belts of minefields and anti-tank defences many kilometres deep and massed huge reserves. The German attack stalled within a week; Hitler called it off as the Allies landed in Sicily, and Soviet counteroffensives went on to retake Orel, Kharkiv and Kyiv.
+  why: Hitler wanted to regain the initiative after Stalingrad and shorten the front, but delayed the attack by two months to wait for new tanks, giving the Soviets time to prepare.
+  then: The Soviets advanced steadily west and never lost the initiative again; Germany shifted troops to Italy after the Allied landing in Sicily.
+## w2-tehran | 1943 | Tehran Conference | who: Roosevelt, Churchill, Stalin | where: Tehran, Iran
+  bluf: At Tehran the Big Three agreed on the invasion of France and began negotiating the postwar order, including Poland's borders. Stalin won acceptance of Soviet influence in Eastern Europe.
+  now: It began the great-power bargains that shaped postwar Europe, including Poland's new borders, decided over the heads of the Poles.
+  story: Roosevelt, Churchill and Stalin met together for the first time in Tehran, from November 28 to December 1, 1943. Stalin, whose armies had borne most of the fighting, pressed for a second front in France; Churchill preferred operations in the Mediterranean, and Roosevelt sided with Stalin. They committed to invade France in May 1944 and agreed in principle to move Poland's borders west.
+  why: The Allies needed to coordinate the final defeat of Germany and began negotiating the postwar order.
+  then: D-Day was set for spring 1944, and Stalin agreed to join the war against Japan after Germany's defeat.
+## w2-warsawghetto | 1943 | Warsaw Ghetto Uprising | who: Jewish fighters (ŻOB, led by Mordechai Anielewicz) vs. SS | where: Warsaw
+  bluf: The Warsaw Ghetto Uprising was the largest Jewish armed revolt of the Holocaust. It became a lasting symbol of resistance against hopeless odds.
+  now: It became a lasting symbol of Jewish resistance and dignity in the face of annihilation, central to Israeli and Polish memory of the Holocaust.
+  story: Most of the ghetto's people had already been sent to Treblinka. Several hundred lightly armed fighters held out for nearly a month before the SS burned the ghetto down.
+  why: Facing deportation to Treblinka, the fighters chose to resist and die fighting.
+  then: The SS destroyed the ghetto, and its survivors were sent to death camps; the uprising inspired revolts at Treblinka and Sobibor later that year.
+## eu194497 | 1944 | D-Day | who: Eisenhower; US, British, Canadian forces | where: Normandy, France
+  bluf: D-Day opened the long-awaited Western front with the largest seaborne invasion in history. It ensured that Western Europe would be liberated by the Western Allies rather than the Soviets, shaping the Cold War division of Europe.
+  now: The line where Western and Soviet armies met became the Iron Curtain; D-Day anniversaries remain major moments of Western alliance remembrance.
+  story: On June 6, 1944, after months of deception about where they would land, about 156,000 American, British, Canadian and other Allied troops crossed the Channel to five Normandy beaches, supported by airborne troops and thousands of ships. They suffered about 10,000 casualties on the first day.
+  why: Stalin had demanded a second front since 1941, and the Western Allies needed to defeat Germany and reach Central Europe before the Red Army.
+  then: Paris was freed in August, and Germany was squeezed between the Western Allies and the Red Army until its surrender in May 1945.
+  fact: The Allies used a fake army with inflatable tanks to convince Germany the main landing would come at Calais.
+## w2-bagration | 1944 | Operation Bagration | who: Red Army vs. German Army Group Centre | where: Belarus
+  bluf: Operation Bagration destroyed German Army Group Centre within weeks, one of the biggest defeats in German military history. It brought the Red Army to Poland, setting up Soviet domination of Eastern Europe.
+  now: It is often overlooked in the West next to D-Day, though it destroyed more German divisions; how each side remembers the war still shapes politics between Russia and the West.
+  story: On June 22, 1944, three years to the day after Germany's invasion, the Red Army attacked German Army Group Centre in Belarus. Deceived about where the blow would fall and forbidden by Hitler to retreat, German forces were encircled at Vitebsk, Bobruisk and Minsk. In five weeks the Soviets advanced about 500 km toward the Vistula and East Prussia, destroying some 28 German divisions, a worse defeat for Germany than Stalingrad.
+  why: The Soviets aimed to drive Germany out of the USSR and reach Poland, timing the offensive to follow D-Day.
+  then: Poland's Home Army rose in Warsaw in August, hoping to free the city before the Soviets arrived.
+## w2-bulge | 1944 | Battle of the Bulge | who: German army vs. US forces | where: Ardennes, Belgium
+  bluf: The Battle of the Bulge was Hitler's last offensive in the West, and its failure used up Germany's last reserves. It was the largest battle fought by the US Army in World War II.
+  now: It shows how surprise can briefly overturn a lost strategic position but not reverse it.
+  story: Germany attacked through the Ardennes again, hoping to split the Allies and take Antwerp. US troops held at Bastogne until the weather cleared and Allied air power returned.
+  why: Hitler hoped a surprise attack would split the British and Americans, take the port of Antwerp and force a negotiated peace in the West.
+  then: Allied armies crossed the Rhine in March 1945, and Germany collapsed; its last armoured reserves had been spent.
+## w2-warsaw44 | 1944 | Warsaw Uprising | who: Polish Home Army vs. German forces | where: Warsaw
+  bluf: The Warsaw Uprising aimed to free the city before the Red Army arrived and assert Polish independence; Stalin halted his forces while the Germans crushed it and razed Warsaw. It foreshadowed Soviet domination of postwar Poland.
+  now: Warsaw stops for a minute every August 1, a sign of how central the uprising is to Polish identity and its distrust of Russia.
+  story: On August 1, 1944, the Polish Home Army, loyal to the government-in-exile in London, rose in Warsaw as the Red Army approached. The Soviets halted across the Vistula, and Stalin at first refused to let Western supply planes use Soviet airfields. After 63 days the insurgents surrendered; between 150,000 and 200,000 civilians had been killed, and Hitler ordered the city razed.
+  why: To liberate Warsaw and give Poland's government-in-exile a claim to rule.
+  then: The Soviets took the ruined city in January 1945 and installed a communist government.
+## eu194598 | 1945 | Germany surrenders | who: Allies; German High Command | where: Reims and Berlin
+  bluf: Germany's unconditional surrender ended the war in Europe and the Nazi regime. The Allies divided and occupied Germany, put its leaders on trial at Nuremberg, and set the stage for the division of Europe in the Cold War.
+  now: May 8 is marked across Europe as Victory in Europe Day, and Germany's postwar effort to confront its crimes is often cited as a model.
+  story: Hitler killed himself in his Berlin bunker on April 30, 1945, as Soviet troops fought through the city. Germany surrendered unconditionally at Reims on May 7 and again in Berlin on May 8.
+  why: Allied armies had overrun Germany from east and west, Berlin had fallen to the Soviets, and Hitler was dead.
+  then: The Allies divided Germany into four occupation zones and tried Nazi leaders at Nuremberg. Millions of Germans were expelled from Eastern Europe, and Germany was split into East and West in 1949.
+## w2-auschwitz | 1945 | Auschwitz liberated | who: Red Army; survivors | where: Oświęcim, Poland
+  bluf: The liberation of Auschwitz, where about 1.1 million people were murdered, most of them Jews, revealed the scale of the Holocaust to the world. January 27 is now International Holocaust Remembrance Day.
+  now: The camp's liberation produced the evidence, in survivors, records and the site itself, on which the Nuremberg trials, the Genocide Convention and the legal definition of crimes against humanity rest.
+  story: Soviet troops reached Auschwitz on January 27, 1945, and found about 7,000 sick and starving prisoners. Days earlier the SS had forced some 58,000 others west on 'death marches' and blown up gas chambers to hide the evidence. At Auschwitz, the largest Nazi killing centre, about 1.1 million people had been murdered, about a million of them Jews.
+  why: The Soviet advance reached the camp, which the SS had largely evacuated.
+  then: Allied troops liberated more camps in April, and the evidence was used at the Nuremberg trials.
+  fact: January 27 is International Holocaust Remembrance Day; the site is visited by millions.
+## w2-dresden | 1945 | Bombing of Dresden | who: RAF and US air forces | where: Dresden
+  bluf: The firebombing of Dresden killed about 25,000 people and became the most debated example of Allied area bombing. It raises enduring questions about the morality of targeting cities in war.
+  now: It remains one of the most debated Allied actions, and far-right groups exploit it by inflating the death toll.
+  story: Over February 13-15, 1945, about 1,300 British and American heavy bombers attacked Dresden, a rail and industrial hub crowded with refugees fleeing the Soviet advance. Incendiary bombs created a firestorm that destroyed the old city. A commission of historians later put the death toll at up to 25,000; Nazi propaganda inflated it to 200,000, and inflated figures still circulate.
+  why: Allied commanders wanted to disrupt German transport behind the Eastern Front and support the Soviet advance, and Britain's bomber command believed area bombing would break German morale.
+  then: Churchill himself questioned the bombing policy weeks later, and the attack fed post-war debate over whether area bombing was effective or justified.
+## w2-nuremberg-trials | 1945 | Nuremberg trials | who: International Military Tribunal; 22 Nazi leaders | where: Nuremberg
+  bluf: The Nuremberg trials established that leaders could be held personally responsible for war crimes and crimes against humanity. They founded modern international criminal law, though critics noted that only the losers were tried.
+  now: It is the foundation of international criminal law, and the International Criminal Court (2002) builds on it.
+  story: From November 1945 the International Military Tribunal, with judges from the US, Britain, France and the USSR, tried 22 leading Nazis for conspiracy, crimes against peace, war crimes and the new charge of crimes against humanity. Using the regime's own documents and film from the camps, prosecutors laid out the Holocaust in court. Twelve were sentenced to death, Göring killed himself before he could be hanged, and three were acquitted.
+  why: The Allies wanted to punish the Nazi leaders, document their crimes for history, and establish that waging aggressive war and mass murder were crimes in law.
+  then: The UN adopted the Genocide Convention in 1948, and later tribunals for Yugoslavia and Rwanda, and the International Criminal Court, followed its model.
+## w2-potsdam | 1945 | Potsdam Conference | who: Truman, Stalin, Churchill then Attlee | where: Potsdam, Germany
+  bluf: At Potsdam the victors confirmed Germany's division, moved Poland's borders west and approved the expulsion of millions of Germans from Eastern Europe. Growing US-Soviet distrust was already visible.
+  now: Poland's and Germany's border today was set here, along with the expulsion of millions of Germans from Eastern Europe.
+  story: They confirmed Germany's division, moved Poland west, and expelled millions of Germans from Eastern Europe. Truman told Stalin about a powerful new weapon.
+  why: The victors needed to settle the peace in Europe and finish the war against Japan, but Roosevelt had died and Churchill was replaced mid-conference after losing an election, leaving less trust at the table.
+  then: Atomic bombs fell on Japan days later, and the wartime alliance soon gave way to the Cold War.
+## w2-yalta | 1945 | Yalta Conference | who: Roosevelt, Churchill, Stalin | where: Yalta, Crimea
+  bluf: At Yalta, Roosevelt, Churchill and Stalin agreed on Germany's division, the UN and Soviet entry into the war against Japan. Its vague promises of free elections in Eastern Europe were broken, and 'Yalta' became shorthand for great powers dividing other people's lands.
+  now: 'Yalta' is shorthand in Eastern Europe for being sold out by the great powers, and is invoked whenever outsiders discuss peace terms over the heads of those affected, as with Ukraine.
+  story: Roosevelt, Churchill and Stalin met at Yalta in Crimea in February 1945. They agreed to divide Germany into occupation zones, with one for France; to hold 'free and unfettered elections' in Poland under a government built around the Soviet-backed one; to found the United Nations; and that the USSR would join the war against Japan within three months of Germany's defeat, in return for territory in East Asia.
+  why: To plan Germany's defeat and the peace while the war was ending, with Soviet armies already in Eastern Europe.
+  then: Stalin installed communist governments across Eastern Europe, and the promised free elections in Poland never took place.
+## na194769 | 1947 | Truman Doctrine | who: Harry Truman | where: Greece & Turkey
+  bluf: The Truman Doctrine committed the United States to supporting countries resisting communism, starting with Greece and Turkey. It made 'containment' the core of US strategy for the Cold War and marked America replacing Britain as guarantor of the Western order.
+  now: It began the era of US commitments to defend other countries, the basis of the American alliance system that is still debated today.
+  story: Britain could no longer support Greece and Turkey against communist pressure. Truman asked Congress for aid, saying the US must support free peoples.
+  why: Britain could no longer afford to support Greece and Turkey against communist pressure, and Washington feared Soviet expansion.
+  then: 'Containment' became the core of US Cold War strategy for 40 years, followed by the Marshall Plan (1947) and NATO (1949).

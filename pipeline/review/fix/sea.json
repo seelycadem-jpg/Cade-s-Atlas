@@ -1,0 +1,1871 @@
+[
+ {
+  "from": 1400,
+  "to": 1407,
+  "country": "Vietnam",
+  "regions": [
+   "Bắc Giang",
+   "Cao Bằng",
+   "Ha Noi",
+   "Ha Tinh",
+   "Hà Giang",
+   "Hà Nam–Đồng Bằng Sông Hồng",
+   "Hòa Bình",
+   "Lạng Sơn",
+   "Nam Định",
+   "Nghệ An",
+   "Phú Thọ",
+   "Quảng Bình",
+   "Quảng Ninh",
+   "Quảng Trị–Thừa Thiên - Huế",
+   "Thanh Hóa",
+   "Thái Bình",
+   "Thái Nguyên",
+   "Tuyên Quang",
+   "Yên Bái",
+   "Đông Bắc"
+  ],
+  "owner": "Hồ dynasty",
+  "why": "Map shows the 10th-century Ngô dynasty in 1400-1407; Đại Việt/Đại Ngu was ruled by the Hồ dynasty (1400-1407) until the Ming conquest",
+  "source": "https://en.wikipedia.org/wiki/H%E1%BB%93_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1533,
+  "to": 1592,
+  "country": "Vietnam",
+  "regions": [
+   "Bắc Giang",
+   "Cao Bằng",
+   "Ha Noi",
+   "Hà Giang",
+   "Hà Nam–Đồng Bằng Sông Hồng",
+   "Lạng Sơn",
+   "Nam Định",
+   "Phú Thọ",
+   "Quảng Ninh",
+   "Thái Bình",
+   "Thái Nguyên",
+   "Tuyên Quang",
+   "Yên Bái",
+   "Đông Bắc"
+  ],
+  "owner": "Mạc dynasty",
+  "why": "The northern regime 1527-1592 is labelled generically 'Đại Việt' (the country name used by all dynasties) beside 'Lê Dynasty'; it was the Mạc dynasty, holding the north while the restored Lê held Thanh Hóa southward from 1533",
+  "source": "https://en.wikipedia.org/wiki/M%E1%BA%A1c_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1592,
+  "to": 1677,
+  "country": "Vietnam",
+  "regions": [
+   "Cao Bằng"
+  ],
+  "owner": "Mạc dynasty",
+  "why": "After losing Thăng Long in 1592 the Mạc survived at Cao Bằng until 1677 (shown as generic 'Đại Việt')",
+  "source": "https://en.wikipedia.org/wiki/M%E1%BA%A1c_dynasty",
+  "severity": "minor"
+ },
+ {
+  "from": 1564,
+  "to": 1572,
+  "country": "Vietnam",
+  "regions": [
+   "Thanh Hóa",
+   "Nghệ An"
+  ],
+  "owner": "Lê Dynasty",
+  "why": "Thanh Hóa and Nghệ An were the base of the Lê restoration; they are shown under Lan Xang 1564-1571, which never ruled them",
+  "source": "https://en.wikipedia.org/wiki/M%E1%BA%A1c_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1786,
+  "to": 1802,
+  "country": "Vietnam",
+  "regions": [
+   "Bắc Giang",
+   "Cao Bằng",
+   "Ha Noi",
+   "Ha Tinh",
+   "Hà Giang",
+   "Hà Nam–Đồng Bằng Sông Hồng",
+   "Hòa Bình",
+   "Lào Cai",
+   "Lạng Sơn",
+   "Nam Định",
+   "Nghệ An",
+   "Phú Thọ",
+   "Quảng Ninh",
+   "Thanh Hóa",
+   "Thái Bình",
+   "Thái Nguyên",
+   "Tuyên Quang",
+   "Yên Bái",
+   "Đông Bắc",
+   "Quảng Bình",
+   "Quảng Trị–Thừa Thiên - Huế"
+  ],
+  "owner": "Tây Sơn dynasty",
+  "why": "Northern Vietnam is shown under the Qing dynasty in the 1790s; the Qing force held Thăng Long only for weeks (Dec 1788-Jan 1789) before defeat at Ngọc Hồi-Đống Đa. Tây Sơn ruled the north from 1786 until Nguyễn Ánh's conquest in 1802",
+  "source": "https://en.wikipedia.org/wiki/T%C3%A2y_S%C6%A1n_dynasty",
+  "severity": "major"
+ },
+ {
+  "from": 1471,
+  "to": 1693,
+  "country": "Vietnam",
+  "regions": [
+   "Bình Thuận"
+  ],
+  "owner": "Panduranga (Champa)",
+  "why": "Bình Thuận (Phan Rí/Phan Thiết) was the core of Panduranga, the Cham rump state after 1471; map shows it as Khmer/Cambodian 1475-1803",
+  "source": "https://en.wikipedia.org/wiki/Panduranga_(Champa)",
+  "severity": "major"
+ },
+ {
+  "from": 1693,
+  "to": 1802,
+  "country": "Vietnam",
+  "regions": [
+   "Bình Thuận"
+  ],
+  "owner": "Panduranga (Champa)",
+  "overlord": "Nguyễn lords",
+  "why": "Panduranga became the Nguyễn client principality of Thuận Thành after 1692-93, not Cambodian territory",
+  "source": "https://en.wikipedia.org/wiki/Panduranga_(Champa)",
+  "severity": "major"
+ },
+ {
+  "from": 1802,
+  "to": 1832,
+  "country": "Vietnam",
+  "regions": [
+   "Bình Thuận"
+  ],
+  "owner": "Panduranga (Champa)",
+  "overlord": "Nguyễn dynasty",
+  "why": "Cham client principality under the Nguyễn until annexation in 1832",
+  "source": "https://en.wikipedia.org/wiki/Panduranga_(Champa)",
+  "severity": "major"
+ },
+ {
+  "from": 1832,
+  "to": 1884,
+  "country": "Vietnam",
+  "regions": [
+   "Bình Thuận"
+  ],
+  "owner": "Nguyễn dynasty",
+  "why": "Panduranga annexed by Vietnam in 1832",
+  "source": "https://en.wikipedia.org/wiki/Panduranga_(Champa)",
+  "severity": "major"
+ },
+ {
+  "from": 1732,
+  "to": 1777,
+  "country": "Vietnam",
+  "regions": [
+   "Hau Giang–Bến Tre–Trà Vinh–Can Tho"
+  ],
+  "owner": "Nguyễn lords",
+  "why": "Mỹ Tho and Vĩnh Long fell to the Nguyễn by 1732; map keeps the delta Cambodian until c.1803",
+  "source": "https://en.wikipedia.org/wiki/Cambodia%E2%80%93Vietnam_relations",
+  "severity": "major"
+ },
+ {
+  "from": 1757,
+  "to": 1777,
+  "country": "Vietnam",
+  "regions": [
+   "Kiên Giang–An Giang–Ðong Tháp",
+   "Kiên Giang",
+   "Cà Mau–Sóc Trăng",
+   "Sóc Trăng"
+  ],
+  "owner": "Nguyễn lords",
+  "why": "Nguyễn armies took the Mekong estuaries in the 1750s and Cambodia ceded Trà Vinh, Sóc Trăng and An Giang; map keeps these Cambodian until c.1803",
+  "source": "https://en.wikipedia.org/wiki/Cambodia%E2%80%93Vietnam_relations",
+  "severity": "major"
+ },
+ {
+  "from": 1777,
+  "to": 1780,
+  "country": "Vietnam",
+  "regions": [
+   "Kiên Giang–An Giang–Ðong Tháp",
+   "Kiên Giang",
+   "Cà Mau–Sóc Trăng",
+   "Sóc Trăng",
+   "Hau Giang–Bến Tre–Trà Vinh–Can Tho"
+  ],
+  "owner": "Tây Sơn dynasty",
+  "why": "Tây Sơn overran Gia Định in 1777",
+  "source": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_lords",
+  "severity": "minor"
+ },
+ {
+  "from": 1780,
+  "to": 1802,
+  "country": "Vietnam",
+  "regions": [
+   "Kiên Giang–An Giang–Ðong Tháp",
+   "Kiên Giang",
+   "Cà Mau–Sóc Trăng",
+   "Sóc Trăng",
+   "Hau Giang–Bến Tre–Trà Vinh–Can Tho"
+  ],
+  "owner": "Nguyễn lords",
+  "why": "Nguyễn Ánh restored Nguyễn rule in the south 1780-1802",
+  "source": "https://en.wikipedia.org/wiki/Nguy%E1%BB%85n_lords",
+  "severity": "major"
+ },
+ {
+  "from": 1802,
+  "to": 1867,
+  "country": "Vietnam",
+  "regions": [
+   "Kiên Giang–An Giang–Ðong Tháp",
+   "Kiên Giang",
+   "Cà Mau–Sóc Trăng",
+   "Sóc Trăng",
+   "Hau Giang–Bến Tre–Trà Vinh–Can Tho"
+  ],
+  "owner": "Nguyễn dynasty",
+  "why": "The western Cochinchina provinces (Vĩnh Long, An Giang/Châu Đốc, Hà Tiên) were only annexed by France in 1867 (Treaty of Saigon 1862 ceded only Biên Hòa, Gia Định, Định Tường); map shows them French (and one year 'New Caledonia') from 1859-60",
+  "source": "https://en.wikipedia.org/wiki/French_Cochinchina",
+  "severity": "major"
+ },
+ {
+  "from": 1884,
+  "to": 1893,
+  "country": "Vietnam",
+  "regions": [
+   "*"
+  ],
+  "owner": "Vietnam (Annam/Cochin China/Tonkin)",
+  "overlord": "France",
+  "why": "Annam and Tonkin became French protectorates by the Treaty of Huế (6 June 1884) and Cochinchina was already a French colony; map shows an independent Vietnam 1886-1893",
+  "source": "https://en.wikipedia.org/wiki/Treaty_of_Hu%E1%BA%BF_(1884)",
+  "severity": "major"
+ },
+ {
+  "from": 1941,
+  "to": 1946,
+  "country": "Cambodia",
+  "regions": [
+   "Batdâmbâng",
+   "Bântéay Méanchey",
+   "Siemréab"
+  ],
+  "owner": "Thailand",
+  "why": "Annexed by Thailand after the Franco-Thai War (provinces Phra Tabong and Phibunsongkhram, 23 July 1941) and returned to French Indochina on 17 Nov 1946",
+  "source": "https://en.wikipedia.org/wiki/Phra_Tabong_province",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1953,
+  "country": "Cambodia",
+  "regions": [
+   "Kaôh Kong"
+  ],
+  "owner": "Cambodia (Kampuchea)",
+  "overlord": "France",
+  "why": "Kaôh Kong (incl. its offshore islands) is shown under Vietnam/South Vietnam/SR Vietnam from 1890 to today; it was part of the French protectorate of Cambodia",
+  "source": "https://en.wikipedia.org/wiki/French_protectorate_of_Cambodia",
+  "severity": "minor"
+ },
+ {
+  "from": 1953,
+  "to": 2026,
+  "country": "Cambodia",
+  "regions": [
+   "Kaôh Kong"
+  ],
+  "owner": "Cambodia (Kampuchea)",
+  "why": "Kaôh Kong islands are Cambodian since independence; map assigns them to (South) Vietnam",
+  "source": "https://en.wikipedia.org/wiki/Koh_Kong_province",
+  "severity": "minor"
+ },
+ {
+  "from": 1574,
+  "to": 1591,
+  "country": "Laos",
+  "regions": [
+   "*"
+  ],
+  "owner": "Lan Xang",
+  "overlord": "First Toungoo Empire",
+  "why": "Lan Xang was a Burmese vassal 1574-1591 (Chao Tha Heua, then Sen Soulintha) until Nokeo Koumane cast off Toungoo allegiance in 1591; map annexes it directly to the First Toungoo Empire",
+  "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+  "severity": "major"
+ },
+ {
+  "from": 1574,
+  "to": 1591,
+  "country": "Thailand",
+  "regions": [
+   "Bueng Kan",
+   "Kalasin",
+   "Loei",
+   "Mukdahan–Yasothon",
+   "Nakhon Phanom",
+   "Nong Khai",
+   "Sakon Nakhon",
+   "Surin",
+   "Ubon Ratchathani",
+   "Udon Thani"
+  ],
+  "owner": "Lan Xang",
+  "overlord": "First Toungoo Empire",
+  "why": "Same vassal period for Lan Xang's Khorat-plateau lands",
+  "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+  "severity": "major"
+ },
+ {
+  "from": 1779,
+  "to": 1782,
+  "country": "Laos",
+  "regions": [
+   "Bokeo",
+   "Houaphan",
+   "Louang Namtha",
+   "Louangphrabang",
+   "Oudômxai",
+   "Phôngsali",
+   "Xaignabouri",
+   "Xiangkhoang"
+  ],
+  "owner": "Kingdom of Luang Phrabang",
+  "overlord": "Thonburi Kingdom",
+  "why": "Lao kingdoms became vassals of Siam in 1779; map shows them independent",
+  "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+  "severity": "major"
+ },
+ {
+  "from": 1782,
+  "to": 1886,
+  "country": "Laos",
+  "regions": [
+   "Bokeo",
+   "Houaphan",
+   "Louang Namtha",
+   "Louangphrabang",
+   "Oudômxai",
+   "Phôngsali",
+   "Xaignabouri",
+   "Xiangkhoang"
+  ],
+  "owner": "Kingdom of Luang Phrabang",
+  "overlord": "Rattanakosin Kingdom",
+  "why": "Vassal of Siam (Rattanakosin) from 1779 until the French takeover",
+  "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+  "severity": "major"
+ },
+ {
+  "from": 1779,
+  "to": 1782,
+  "country": "Laos",
+  "regions": [
+   "Bolikhamxai",
+   "Khammouan",
+   "Savannakhét",
+   "Vientiane",
+   "Vientiane [prefecture]"
+  ],
+  "owner": "Vientiane",
+  "overlord": "Thonburi Kingdom",
+  "why": "Vientiane became a Siamese vassal in 1779",
+  "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+  "severity": "major"
+ },
+ {
+  "from": 1782,
+  "to": 1828,
+  "country": "Laos",
+  "regions": [
+   "Bolikhamxai",
+   "Khammouan",
+   "Savannakhét",
+   "Vientiane",
+   "Vientiane [prefecture]"
+  ],
+  "owner": "Vientiane",
+  "overlord": "Rattanakosin Kingdom",
+  "why": "Siamese vassal until destroyed after Anouvong's revolt (1827-28)",
+  "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+  "severity": "major"
+ },
+ {
+  "from": 1779,
+  "to": 1782,
+  "country": "Thailand",
+  "regions": [
+   "Bueng Kan",
+   "Kalasin",
+   "Loei",
+   "Mukdahan–Yasothon",
+   "Nakhon Phanom",
+   "Nong Khai",
+   "Sakon Nakhon",
+   "Surin",
+   "Ubon Ratchathani",
+   "Udon Thani"
+  ],
+  "owner": "Vientiane",
+  "overlord": "Thonburi Kingdom",
+  "why": "Vientiane's Khorat-plateau lands under Siamese suzerainty from 1779",
+  "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+  "severity": "minor"
+ },
+ {
+  "from": 1782,
+  "to": 1828,
+  "country": "Thailand",
+  "regions": [
+   "Bueng Kan",
+   "Kalasin",
+   "Loei",
+   "Mukdahan–Yasothon",
+   "Nakhon Phanom",
+   "Nong Khai",
+   "Sakon Nakhon",
+   "Surin",
+   "Ubon Ratchathani",
+   "Udon Thani"
+  ],
+  "owner": "Vientiane",
+  "overlord": "Rattanakosin Kingdom",
+  "why": "Vientiane's Khorat-plateau lands under Siamese suzerainty",
+  "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+  "severity": "minor"
+ },
+ {
+  "from": 1779,
+  "to": 1782,
+  "country": "Laos",
+  "regions": [
+   "Attapu",
+   "Champasak",
+   "Saravan"
+  ],
+  "owner": "Kingdom of Champasak",
+  "overlord": "Thonburi Kingdom",
+  "why": "Champasak became a Siamese vassal in 1779",
+  "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+  "severity": "major"
+ },
+ {
+  "from": 1782,
+  "to": 1886,
+  "country": "Laos",
+  "regions": [
+   "Attapu",
+   "Champasak",
+   "Saravan"
+  ],
+  "owner": "Kingdom of Champasak",
+  "overlord": "Rattanakosin Kingdom",
+  "why": "Siamese vassal until the French takeover",
+  "source": "https://en.wikipedia.org/wiki/Lan_Xang",
+  "severity": "major"
+ },
+ {
+  "from": 1941,
+  "to": 1946,
+  "country": "Laos",
+  "regions": [
+   "Xaignabouri",
+   "Champasak"
+  ],
+  "owner": "Thailand",
+  "why": "Right-bank Lao territories (Lan Chang = Sayaboury, Nakhon Champassak) annexed by Thailand 1941, returned 17 Nov 1946",
+  "source": "https://en.wikipedia.org/wiki/Phra_Tabong_province",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1558,
+  "country": "Thailand",
+  "regions": [
+   "Chiang Mai",
+   "Lampang",
+   "Lamphun"
+  ],
+  "owner": "Lan Na Kingdom",
+  "why": "Lamphun (Hariphunchai, taken 1281/1292), Lampang and all of Chiang Mai were Lan Na core lands; map gives parts of them to Sukhothai and then Ayutthaya (1450-1572)",
+  "source": "https://en.wikipedia.org/wiki/Lan_Na",
+  "severity": "major"
+ },
+ {
+  "from": 1449,
+  "to": 1558,
+  "country": "Thailand",
+  "regions": [
+   "Nan"
+  ],
+  "owner": "Lan Na Kingdom",
+  "why": "Tilokaraj of Lan Na conquered Nan in 1449; map shows it under Ayutthaya from 1450",
+  "source": "https://en.wikipedia.org/wiki/Nan_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1558,
+  "to": 1596,
+  "country": "Thailand",
+  "regions": [
+   "Chiang Mai",
+   "Chiang Rai",
+   "Lampang",
+   "Lamphun",
+   "Mae Hong Son",
+   "Nan",
+   "Phayao",
+   "Phrae"
+  ],
+  "owner": "Lan Na Kingdom",
+  "overlord": "First Toungoo Empire",
+  "why": "Lan Na surrendered on 2 Apr 1558 and was a Burmese tributary 1558-1596 (map: direct Toungoo only from 1564; Lampang/Lamphun/Nan/Phrae wrongly Ayutthaya)",
+  "source": "https://en.wikipedia.org/wiki/Lan_Na",
+  "severity": "major"
+ },
+ {
+  "from": 1596,
+  "to": 1615,
+  "country": "Thailand",
+  "regions": [
+   "Chiang Mai",
+   "Chiang Rai",
+   "Lampang",
+   "Lamphun",
+   "Mae Hong Son",
+   "Nan",
+   "Phayao",
+   "Phrae"
+  ],
+  "owner": "Lan Na Kingdom",
+  "overlord": "Ayutthaya Kingdom",
+  "why": "Lan Na was a tributary of Ayutthaya 1596-1615",
+  "source": "https://en.wikipedia.org/wiki/Lan_Na",
+  "severity": "major"
+ },
+ {
+  "from": 1615,
+  "to": 1727,
+  "country": "Thailand",
+  "regions": [
+   "Chiang Mai",
+   "Chiang Rai",
+   "Lampang",
+   "Lamphun",
+   "Mae Hong Son",
+   "Nan",
+   "Phayao",
+   "Phrae"
+  ],
+  "owner": "Lan Na Kingdom",
+  "overlord": "First Toungoo Empire",
+  "why": "Burmese tributary again 1615-1727 (brief independence 1628-31); Lampang/Lamphun/Nan/Phrae were not Ayutthayan",
+  "source": "https://en.wikipedia.org/wiki/Lan_Na",
+  "severity": "major"
+ },
+ {
+  "from": 1727,
+  "to": 1763,
+  "country": "Thailand",
+  "regions": [
+   "Chiang Mai",
+   "Chiang Rai",
+   "Lampang",
+   "Lamphun",
+   "Mae Hong Son",
+   "Nan",
+   "Phayao",
+   "Phrae"
+  ],
+  "owner": "Lan Na Kingdom",
+  "why": "Chiang Mai revolted in 1727; independent city-states until Burmese reconquest in 1763 (map starts this in 1734)",
+  "source": "https://en.wikipedia.org/wiki/Lan_Na",
+  "severity": "minor"
+ },
+ {
+  "from": 1763,
+  "to": 1775,
+  "country": "Thailand",
+  "regions": [
+   "Chiang Mai",
+   "Chiang Rai",
+   "Lampang",
+   "Lamphun",
+   "Mae Hong Son",
+   "Nan",
+   "Phayao",
+   "Phrae"
+  ],
+  "owner": "Lan Na Kingdom",
+  "overlord": "Konbaung Dynasty",
+  "why": "Burmese tributary 1763-1774/75",
+  "source": "https://en.wikipedia.org/wiki/Lan_Na",
+  "severity": "minor"
+ },
+ {
+  "from": 1775,
+  "to": 1782,
+  "country": "Thailand",
+  "regions": [
+   "Chiang Mai",
+   "Chiang Rai",
+   "Lampang",
+   "Lamphun",
+   "Mae Hong Son",
+   "Phayao"
+  ],
+  "owner": "Chiangmai",
+  "overlord": "Thonburi Kingdom",
+  "why": "Kawila took Chiang Mai in Jan 1775; Lan Na became a Siamese vassal, not an independent state",
+  "source": "https://en.wikipedia.org/wiki/Lan_Na",
+  "severity": "minor"
+ },
+ {
+  "from": 1782,
+  "to": 1886,
+  "country": "Thailand",
+  "regions": [
+   "Chiang Mai",
+   "Chiang Rai",
+   "Lampang",
+   "Lamphun",
+   "Mae Hong Son",
+   "Phayao"
+  ],
+  "owner": "Chiangmai",
+  "overlord": "Rattanakosin Kingdom",
+  "why": "Siamese vassal principality until incorporation (thesaphiban 1899)",
+  "source": "https://en.wikipedia.org/wiki/Lan_Na",
+  "severity": "minor"
+ },
+ {
+  "from": 1886,
+  "to": 1899,
+  "country": "Thailand",
+  "regions": [
+   "Chiang Mai",
+   "Chiang Rai",
+   "Lampang",
+   "Lamphun",
+   "Mae Hong Son",
+   "Phayao"
+  ],
+  "owner": "Chiangmai",
+  "overlord": "Thailand",
+  "why": "Still a vassal principality until the thesaphiban reforms of 1899",
+  "source": "https://en.wikipedia.org/wiki/Lan_Na",
+  "severity": "minor"
+ },
+ {
+  "from": 1569,
+  "to": 1584,
+  "country": "Thailand",
+  "regions": [
+   "Buri Ram",
+   "Chachoengsao–Chon Buri",
+   "Chaiyaphum",
+   "Kamphaeng Phet",
+   "Kanchanaburi",
+   "Khon Kaen",
+   "Krabi–Phangnga",
+   "Nakhon Ratchasima",
+   "Nakhon Sawan",
+   "Nakhon Si Thammarat",
+   "Phangnga",
+   "Phetchabun",
+   "Phitsanulok",
+   "Prachin Buri–Saraburi–Nakhon Nayok–Bangkok Metropolis",
+   "Prachuap Khiri Khan",
+   "Ratchaburi–Phra Nakhon Si Ayutthaya–Nakhon Pathom",
+   "Sa Kaeo–Chanthaburi",
+   "Sukhothai",
+   "Suphan Buri",
+   "Surat Thani",
+   "Tak",
+   "Trang",
+   "Uttaradit"
+  ],
+  "owner": "Ayutthaya Kingdom",
+  "overlord": "First Toungoo Empire",
+  "why": "Ayutthaya fell in Aug 1569 and became a Burmese vassal under its own king; map deletes Ayutthaya and annexes it to Toungoo 1572-1588",
+  "source": "https://en.wikipedia.org/wiki/Burmese%E2%80%93Siamese_War_(1568%E2%80%931569)",
+  "severity": "major"
+ },
+ {
+  "from": 1584,
+  "to": 1588,
+  "country": "Thailand",
+  "regions": [
+   "Buri Ram",
+   "Chachoengsao–Chon Buri",
+   "Chaiyaphum",
+   "Kamphaeng Phet",
+   "Kanchanaburi",
+   "Khon Kaen",
+   "Krabi–Phangnga",
+   "Nakhon Ratchasima",
+   "Nakhon Sawan",
+   "Nakhon Si Thammarat",
+   "Phangnga",
+   "Phetchabun",
+   "Phitsanulok",
+   "Prachin Buri–Saraburi–Nakhon Nayok–Bangkok Metropolis",
+   "Prachuap Khiri Khan",
+   "Ratchaburi–Phra Nakhon Si Ayutthaya–Nakhon Pathom",
+   "Sa Kaeo–Chanthaburi",
+   "Sukhothai",
+   "Suphan Buri",
+   "Surat Thani",
+   "Tak",
+   "Trang",
+   "Uttaradit"
+  ],
+  "owner": "Ayutthaya Kingdom",
+  "why": "Naresuan declared independence from Toungoo in 1584; map keeps Toungoo rule until 1588",
+  "source": "https://en.wikipedia.org/wiki/Naresuan",
+  "severity": "major"
+ },
+ {
+  "from": 1569,
+  "to": 1584,
+  "country": "Myanmar",
+  "regions": [
+   "Tanintharyi"
+  ],
+  "owner": "Ayutthaya Kingdom",
+  "overlord": "First Toungoo Empire",
+  "why": "Tenasserim followed Ayutthaya into Burmese vassalage 1569-1584",
+  "source": "https://en.wikipedia.org/wiki/Burmese%E2%80%93Siamese_War_(1568%E2%80%931569)",
+  "severity": "minor"
+ },
+ {
+  "from": 1691,
+  "to": 1767,
+  "country": "Thailand",
+  "regions": [
+   "Yala–Narathiwat"
+  ],
+  "owner": "Patani Kingdom",
+  "overlord": "Ayutthaya Kingdom",
+  "why": "Patani remained a Malay sultanate paying tribute to Ayutthaya; map annexes it directly to Ayutthaya from 1691",
+  "source": "https://en.wikipedia.org/wiki/Patani_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1767,
+  "to": 1786,
+  "country": "Thailand",
+  "regions": [
+   "Yala–Narathiwat"
+  ],
+  "owner": "Patani Kingdom",
+  "why": "Patani declared full independence after the fall of Ayutthaya (1767) until the Siamese conquest of 1786",
+  "source": "https://en.wikipedia.org/wiki/Patani_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1786,
+  "to": 1886,
+  "country": "Thailand",
+  "regions": [
+   "Yala–Narathiwat"
+  ],
+  "owner": "Patani Kingdom",
+  "overlord": "Rattanakosin Kingdom",
+  "why": "Conquered 1786, Patani was ruled by Malay rajas under Siamese suzerainty until annexation in 1902",
+  "source": "https://en.wikipedia.org/wiki/Patani_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1902,
+  "country": "Thailand",
+  "regions": [
+   "Yala–Narathiwat"
+  ],
+  "owner": "Patani Kingdom",
+  "overlord": "Thailand",
+  "why": "Siam deposed the last raja and annexed Patani in 1902",
+  "source": "https://en.wikipedia.org/wiki/Patani_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1909,
+  "to": 2026,
+  "country": "Thailand",
+  "regions": [
+   "Satun"
+  ],
+  "owner": "Thailand",
+  "why": "Under the Anglo-Siamese Treaty of 1909 Satun stayed with Siam; map gives it to the Unfederated Malay States from 1909 and to Malaysia to the present",
+  "source": "https://en.wikipedia.org/wiki/Satun_province",
+  "severity": "major"
+ },
+ {
+  "from": 1602,
+  "to": 1752,
+  "country": "Myanmar",
+  "regions": [
+   "Kachin",
+   "Shan"
+  ],
+  "owner": "First Toungoo Empire",
+  "why": "Map shows Ming China (1600-44) and the Southern Ming (1645-53) ruling Kachin/Shan; Nyaungyan restored Burmese suzerainty over the Shan states by 1602 ('final abandonment of the Chinese claim'), and the Southern Ming held no territory in Burma",
+  "source": "https://en.wikipedia.org/wiki/Nyaungyan_Min",
+  "severity": "major"
+ },
+ {
+  "from": 1758,
+  "to": 1769,
+  "country": "Myanmar",
+  "regions": [
+   "Kachin",
+   "Shan"
+  ],
+  "owner": "Konbaung Dynasty",
+  "why": "Burmese authority over the northern Shan states was reasserted 1758-59 and kept after the Qing invasions of 1765-69; map shows Qing rule until 1769",
+  "source": "https://en.wikipedia.org/wiki/Sino-Burmese_War",
+  "severity": "minor"
+ },
+ {
+  "from": 1770,
+  "to": 1820,
+  "country": "Myanmar",
+  "regions": [
+   "Tanintharyi"
+  ],
+  "owner": "Konbaung Dynasty",
+  "why": "One Tanintharyi province stays Siamese (Thonburi/Rattanakosin/Thailand) from 1770 to today; Tenasserim was Burmese until the British took it in 1826",
+  "source": "https://en.wikipedia.org/wiki/Tanintharyi_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1820,
+  "to": 1826,
+  "country": "Myanmar",
+  "regions": [
+   "Tanintharyi"
+  ],
+  "owner": "Burma",
+  "why": "Burmese until ceded to Britain by the Treaty of Yandabo (1826)",
+  "source": "https://en.wikipedia.org/wiki/Tanintharyi_Region",
+  "severity": "minor"
+ },
+ {
+  "from": 1826,
+  "to": 1859,
+  "country": "Myanmar",
+  "regions": [
+   "Tanintharyi"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British Tenasserim from 1826 (same Thai-held province)",
+  "source": "https://en.wikipedia.org/wiki/Tanintharyi_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1859,
+  "to": 1886,
+  "country": "Myanmar",
+  "regions": [
+   "Tanintharyi"
+  ],
+  "owner": "British Raj",
+  "overlord": "British Empire",
+  "why": "British Burma",
+  "source": "https://en.wikipedia.org/wiki/Tanintharyi_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1937,
+  "country": "Myanmar",
+  "regions": [
+   "Tanintharyi"
+  ],
+  "owner": "India",
+  "overlord": "United Kingdom",
+  "why": "Burma province of British India",
+  "source": "https://en.wikipedia.org/wiki/Tanintharyi_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1937,
+  "to": 1942,
+  "country": "Myanmar",
+  "regions": [
+   "Tanintharyi"
+  ],
+  "owner": "Myanmar (Burma)",
+  "overlord": "United Kingdom",
+  "why": "Part of Burma since 1948; map keeps a Tanintharyi province under Thailand",
+  "source": "https://en.wikipedia.org/wiki/Tanintharyi_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1945,
+  "to": 1948,
+  "country": "Myanmar",
+  "regions": [
+   "Tanintharyi"
+  ],
+  "owner": "Myanmar (Burma)",
+  "overlord": "United Kingdom",
+  "why": "Part of Burma since 1948; map keeps a Tanintharyi province under Thailand",
+  "source": "https://en.wikipedia.org/wiki/Tanintharyi_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1948,
+  "to": 2026,
+  "country": "Myanmar",
+  "regions": [
+   "Tanintharyi"
+  ],
+  "owner": "Myanmar (Burma)",
+  "why": "Part of Burma since 1948; map keeps a Tanintharyi province under Thailand",
+  "source": "https://en.wikipedia.org/wiki/Tanintharyi_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1937,
+  "to": 1942,
+  "country": "Myanmar",
+  "regions": [
+   "Ayeyarwady"
+  ],
+  "owner": "Myanmar (Burma)",
+  "overlord": "United Kingdom",
+  "why": "The Coco Islands (Ayeyarwady) stayed with Burma in 1937 and 1948; map assigns them to India from 1950 to today",
+  "source": "https://en.wikipedia.org/wiki/Coco_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1945,
+  "to": 1948,
+  "country": "Myanmar",
+  "regions": [
+   "Ayeyarwady"
+  ],
+  "owner": "Myanmar (Burma)",
+  "overlord": "United Kingdom",
+  "why": "The Coco Islands (Ayeyarwady) stayed with Burma in 1937 and 1948; map assigns them to India from 1950 to today",
+  "source": "https://en.wikipedia.org/wiki/Coco_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1948,
+  "to": 2026,
+  "country": "Myanmar",
+  "regions": [
+   "Ayeyarwady"
+  ],
+  "owner": "Myanmar (Burma)",
+  "why": "The Coco Islands (Ayeyarwady) stayed with Burma in 1937 and 1948; map assigns them to India from 1950 to today",
+  "source": "https://en.wikipedia.org/wiki/Coco_Islands",
+  "severity": "major"
+ },
+ {
+  "from": 1942,
+  "to": 1943,
+  "country": "Myanmar",
+  "regions": [
+   "*"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Japanese conquest of Burma 1942; missing on the map",
+  "source": "https://en.wikipedia.org/wiki/Japanese_occupation_of_Burma",
+  "severity": "major"
+ },
+ {
+  "from": 1943,
+  "to": 1945,
+  "country": "Myanmar",
+  "regions": [
+   "*"
+  ],
+  "owner": "State of Burma",
+  "overlord": "Empire of Japan",
+  "why": "Japanese-sponsored State of Burma 1943-1945",
+  "source": "https://en.wikipedia.org/wiki/State_of_Burma",
+  "severity": "major"
+ },
+ {
+  "from": 1511,
+  "to": 1623,
+  "country": "Malaysia",
+  "regions": [
+   "Pahang"
+  ],
+  "owner": "Pahang Sultanate",
+  "why": "The (old) Pahang Sultanate, a Malaccan vassal from 1470, was independent after 1511 until its 1623 union with Johor; map shows Johor rule from 1511",
+  "source": "https://en.wikipedia.org/wiki/Pahang_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1848,
+  "to": 1890,
+  "country": "Malaysia",
+  "regions": [
+   "Labuan"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "Labuan was ceded to Britain in 1846 and a Crown Colony from 1848; map keeps it under Brunei to 1990 and in independent Brunei after 1984",
+  "source": "https://en.wikipedia.org/wiki/Labuan",
+  "severity": "major"
+ },
+ {
+  "from": 1890,
+  "to": 1907,
+  "country": "Malaysia",
+  "regions": [
+   "Labuan"
+  ],
+  "owner": "Sabah (North Borneo)",
+  "overlord": "United Kingdom",
+  "why": "Administered by the British North Borneo Company 1890-1904, then the UK",
+  "source": "https://en.wikipedia.org/wiki/Labuan",
+  "severity": "major"
+ },
+ {
+  "from": 1907,
+  "to": 1942,
+  "country": "Malaysia",
+  "regions": [
+   "Labuan"
+  ],
+  "owner": "Straits Settlements",
+  "overlord": "United Kingdom",
+  "why": "Part of the Straits Settlements from 1 Jan 1907",
+  "source": "https://en.wikipedia.org/wiki/Labuan",
+  "severity": "major"
+ },
+ {
+  "from": 1945,
+  "to": 1963,
+  "country": "Malaysia",
+  "regions": [
+   "Labuan"
+  ],
+  "owner": "Sabah (North Borneo)",
+  "overlord": "United Kingdom",
+  "why": "Joined the North Borneo Crown Colony in 1946 (BMA 1945-46)",
+  "source": "https://en.wikipedia.org/wiki/Labuan",
+  "severity": "major"
+ },
+ {
+  "from": 1963,
+  "to": 2026,
+  "country": "Malaysia",
+  "regions": [
+   "Labuan"
+  ],
+  "owner": "Malaysia",
+  "why": "Part of Malaysia (Sabah) from 1963, federal territory from 1984",
+  "source": "https://en.wikipedia.org/wiki/Labuan",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1942,
+  "country": "Malaysia",
+  "regions": [
+   "Johor"
+  ],
+  "owner": "Unfederated Malay States",
+  "overlord": "United Kingdom",
+  "why": "Johor was never in the Federated Malay States (map shows FMS 1896-1946 for part of it); it was a British-protected Unfederated Malay State",
+  "source": "https://en.wikipedia.org/wiki/Unfederated_Malay_States",
+  "severity": "minor"
+ },
+ {
+  "from": 1946,
+  "to": 1948,
+  "country": "Malaysia",
+  "regions": [
+   "Johor",
+   "Kedah",
+   "Kelantan",
+   "Pahang",
+   "Perak",
+   "Selangor–Negeri Sembilan",
+   "Terengganu"
+  ],
+  "owner": "Malayan Union",
+  "overlord": "United Kingdom",
+  "why": "Anachronistic 'Malaysia' from 1946: the Malayan Union (1946-48)",
+  "source": "https://en.wikipedia.org/wiki/Federation_of_Malaya",
+  "severity": "minor"
+ },
+ {
+  "from": 1948,
+  "to": 1957,
+  "country": "Malaysia",
+  "regions": [
+   "Johor",
+   "Kedah",
+   "Kelantan",
+   "Pahang",
+   "Perak",
+   "Selangor–Negeri Sembilan",
+   "Terengganu"
+  ],
+  "owner": "Federation of Malaya",
+  "overlord": "United Kingdom",
+  "why": "Federation of Malaya under British protection 1948-1957, not 'Malaysia'",
+  "source": "https://en.wikipedia.org/wiki/Federation_of_Malaya",
+  "severity": "minor"
+ },
+ {
+  "from": 1957,
+  "to": 1963,
+  "country": "Malaysia",
+  "regions": [
+   "Johor",
+   "Kedah",
+   "Kelantan",
+   "Pahang",
+   "Perak",
+   "Selangor–Negeri Sembilan",
+   "Terengganu"
+  ],
+  "owner": "Federation of Malaya",
+  "why": "Independent Federation of Malaya from 31 Aug 1957; 'Malaysia' only formed 16 Sep 1963 (map uses Malaysia from 1958)",
+  "source": "https://en.wikipedia.org/wiki/Federation_of_Malaya",
+  "severity": "minor"
+ },
+ {
+  "from": 1963,
+  "to": 2026,
+  "country": "Malaysia",
+  "regions": [
+   "Sabah",
+   "Sarawak"
+  ],
+  "owner": "Malaysia",
+  "why": "Joined Malaysia 16 Sep 1963 (map: 1964)",
+  "source": "https://en.wikipedia.org/wiki/Federation_of_Malaya",
+  "severity": "minor"
+ },
+ {
+  "from": 1963,
+  "to": 1965,
+  "country": "Singapore",
+  "regions": [
+   "*"
+  ],
+  "owner": "Malaysia",
+  "why": "Singapore was a state of Malaysia 1963-1965 (map: 1964-66)",
+  "source": "https://en.wikipedia.org/wiki/Federation_of_Malaya",
+  "severity": "minor"
+ },
+ {
+  "from": 1965,
+  "to": 2026,
+  "country": "Singapore",
+  "regions": [
+   "*"
+  ],
+  "owner": "Singapore",
+  "why": "Independent from 9 Aug 1965",
+  "source": "https://en.wikipedia.org/wiki/Federation_of_Malaya",
+  "severity": "minor"
+ },
+ {
+  "from": 1942,
+  "to": 1945,
+  "country": "Malaysia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Empire of Japan",
+  "except": [
+   "Kedah",
+   "Kelantan",
+   "Terengganu"
+  ],
+  "why": "Japanese occupation of Malaya and British Borneo 1942-1945 is missing",
+  "source": "https://en.wikipedia.org/wiki/Japanese_occupation_of_Malaya",
+  "severity": "major"
+ },
+ {
+  "from": 1942,
+  "to": 1943,
+  "country": "Malaysia",
+  "regions": [
+   "Kedah",
+   "Kelantan",
+   "Terengganu"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Japanese occupation 1942-43",
+  "source": "https://en.wikipedia.org/wiki/Japanese_occupation_of_Malaya",
+  "severity": "major"
+ },
+ {
+  "from": 1943,
+  "to": 1945,
+  "country": "Malaysia",
+  "regions": [
+   "Kedah",
+   "Kelantan",
+   "Terengganu"
+  ],
+  "owner": "Thailand",
+  "why": "Kedah, Perlis, Kelantan and Terengganu were transferred by Japan to Thailand (Si Rat Malai) 1943-1945",
+  "source": "https://en.wikipedia.org/wiki/Si_Rat_Malai",
+  "severity": "minor"
+ },
+ {
+  "from": 1942,
+  "to": 1945,
+  "country": "Singapore",
+  "regions": [
+   "*"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Japanese occupation of Singapore (Syonan) Feb 1942-Sep 1945",
+  "source": "https://en.wikipedia.org/wiki/Japanese_occupation_of_Singapore",
+  "severity": "major"
+ },
+ {
+  "from": 1942,
+  "to": 1945,
+  "country": "Brunei",
+  "regions": [
+   "*"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Japanese occupation of British Borneo 1942-1945",
+  "source": "https://en.wikipedia.org/wiki/Japanese_occupation_of_British_Borneo",
+  "severity": "major"
+ },
+ {
+  "from": 1552,
+  "to": 1568,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Tengah",
+   "Yogyakarta",
+   "Jawa Timur"
+  ],
+  "owner": "Demak Sultanate",
+  "why": "Map shows the Johor Sultanate (Malay Peninsula) ruling Central/East Java 1552-1572; Demak remained the Javanese power until Pajang replaced it in 1568 (eastern tip Blambangan stayed independent)",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Pajang",
+  "severity": "major"
+ },
+ {
+  "from": 1568,
+  "to": 1586,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Tengah",
+   "Yogyakarta",
+   "Jawa Timur"
+  ],
+  "owner": "Pajang Sultanate",
+  "why": "Pajang Sultanate 1568-1586 (map: Johor, then 'Kingdom of Pajana' 1572-1588)",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Pajang",
+  "severity": "major"
+ },
+ {
+  "from": 1586,
+  "to": 1749,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Tengah",
+   "Yogyakarta"
+  ],
+  "owner": "Mataram Sultanate",
+  "why": "Mataram ruled Central Java from 1586; map inserts the Johor Sultanate 1626-1640 and 1677-1683 and has Pajang until 1588",
+  "source": "https://en.wikipedia.org/wiki/Mataram_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1749,
+  "to": 1755,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Tengah",
+   "Yogyakarta"
+  ],
+  "owner": "Mataram Sultanate",
+  "overlord": "Dutch East India Company",
+  "why": "Pakubuwana II signed Mataram's sovereignty over to the VOC in Dec 1749; vassal until the Giyanti partition of 1755",
+  "source": "https://en.wikipedia.org/wiki/Mataram_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1626,
+  "to": 1640,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Timur"
+  ],
+  "owner": "Mataram Sultanate",
+  "why": "Johor Sultanate shown in East Java 1626-1640; Mataram had conquered Surabaya in 1625",
+  "source": "https://en.wikipedia.org/wiki/Mataram_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1677,
+  "to": 1683,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Timur"
+  ],
+  "owner": "Mataram Sultanate",
+  "why": "Johor Sultanate shown in East Java 1677-1683 (Trunajaya war; Mataram restored with VOC help by 1680)",
+  "source": "https://en.wikipedia.org/wiki/Mataram_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1677,
+  "to": 1680,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Barat"
+  ],
+  "owner": "Mataram Sultanate",
+  "why": "Johor Sultanate shown in West Java from 1677; Priangan was Mataram's until handed to the VOC after Amangkurat II's restoration (1680)",
+  "source": "https://en.wikipedia.org/wiki/Mataram_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1680,
+  "to": 1800,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Barat"
+  ],
+  "owner": "Dutch East India Company",
+  "why": "Bogor, Karawang and Priangan ceded to the VOC on Mataram's restoration (1680); map shows Johor (and later Toba Batak) in parts of West Java into the 1860s",
+  "source": "https://en.wikipedia.org/wiki/Mataram_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1755,
+  "to": 1800,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Tengah"
+  ],
+  "owner": "Dutch East India Company",
+  "why": "VOC-dominated Central Java after Giyanti (Surakarta a VOC vassal); removes Johor/Toba Batak in a Central Java province",
+  "source": "https://en.wikipedia.org/wiki/Mataram_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1755,
+  "to": 1800,
+  "country": "Indonesia",
+  "regions": [
+   "Yogyakarta"
+  ],
+  "owner": "Sultan of Yogyakarta",
+  "overlord": "Dutch East India Company",
+  "why": "Yogyakarta Sultanate created at Giyanti in 1755 as a VOC vassal",
+  "source": "https://en.wikipedia.org/wiki/Mataram_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1800,
+  "to": 1811,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Barat",
+   "Jawa Tengah"
+  ],
+  "owner": "Dutch East Indies",
+  "overlord": "Batavian Republic",
+  "why": "Removes Johor/'Toba Batak' (Sumatran peoples) from West/Central Java provinces",
+  "source": "https://en.wikipedia.org/wiki/Invasion_of_Java_(1811)",
+  "severity": "major"
+ },
+ {
+  "from": 1811,
+  "to": 1816,
+  "country": "Indonesia",
+  "regions": [
+   "Jakarta Raya",
+   "Banten",
+   "Jawa Barat",
+   "Jawa Tengah",
+   "Jawa Timur"
+  ],
+  "owner": "British Colonial Empire",
+  "overlord": "British Empire",
+  "why": "British conquest of Java (Aug-Sep 1811) and Raffles' administration until return to the Dutch in 1816 are missing",
+  "source": "https://en.wikipedia.org/wiki/Invasion_of_Java_(1811)",
+  "severity": "major"
+ },
+ {
+  "from": 1811,
+  "to": 1816,
+  "country": "Indonesia",
+  "regions": [
+   "Yogyakarta"
+  ],
+  "owner": "Sultan of Yogyakarta",
+  "overlord": "British Empire",
+  "why": "Under British suzerainty 1811-1816",
+  "source": "https://en.wikipedia.org/wiki/Invasion_of_Java_(1811)",
+  "severity": "minor"
+ },
+ {
+  "from": 1816,
+  "to": 1886,
+  "country": "Indonesia",
+  "regions": [
+   "Jawa Barat",
+   "Jawa Tengah"
+  ],
+  "owner": "Dutch East Indies",
+  "overlord": "Netherlands",
+  "why": "Map shows the Johor Sultanate and 'Toba Batak' peoples in West/Central Java provinces until 1861; Java was Dutch after 1816",
+  "source": "https://en.wikipedia.org/wiki/Invasion_of_Java_(1811)",
+  "severity": "major"
+ },
+ {
+  "from": 1520,
+  "to": 1821,
+  "country": "Indonesia",
+  "regions": [
+   "Sumatera Barat"
+  ],
+  "owner": "Pagaruyung Kingdom",
+  "why": "Map gives the Minangkabau highlands to the Johor Sultanate for long stretches (1520-1830s, flickering with Pagaruyung); Pagaruyung ruled them (Aceh held west-coast ports c.1600-1666) until the 1821 Dutch treaty",
+  "source": "https://en.wikipedia.org/wiki/Pagaruyung_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1821,
+  "to": 1886,
+  "country": "Indonesia",
+  "regions": [
+   "Sumatera Barat"
+  ],
+  "owner": "Dutch East Indies",
+  "overlord": "Netherlands",
+  "why": "Dutch from the 1821 treaty and Padri War; map shows Riau-Lingga Sultanate here in the 1830s",
+  "source": "https://en.wikipedia.org/wiki/Pagaruyung_Kingdom",
+  "severity": "major"
+ },
+ {
+  "from": 1722,
+  "to": 1873,
+  "country": "Indonesia",
+  "regions": [
+   "Riau"
+  ],
+  "owner": "Siak Sultanate",
+  "why": "Siak Sultanate (founded 1722) dominated mainland Riau; it is missing, and the map shows Johor, then Riau-Lingga (an island state)",
+  "source": "https://en.wikipedia.org/wiki/Siak_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1873,
+  "to": 1886,
+  "country": "Indonesia",
+  "regions": [
+   "Riau"
+  ],
+  "owner": "Siak Sultanate",
+  "overlord": "Dutch East Indies",
+  "why": "Siak continued as a protected state with Dutch advisers (Siak Residency 1873)",
+  "source": "https://en.wikipedia.org/wiki/Siak_Sultanate",
+  "severity": "minor"
+ },
+ {
+  "from": 1615,
+  "to": 1858,
+  "country": "Indonesia",
+  "regions": [
+   "Jambi"
+  ],
+  "owner": "Sultanate of Jambi",
+  "why": "Jambi Sultanate from c.1615; map shows Johor 1640-1670 and 'Island peoples' flickering every decade",
+  "source": "https://en.wikipedia.org/wiki/Jambi_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1858,
+  "to": 1904,
+  "country": "Indonesia",
+  "regions": [
+   "Jambi"
+  ],
+  "owner": "Sultanate of Jambi",
+  "overlord": "Dutch East Indies",
+  "why": "Dutch-installed sultans from 1858; sultanate annexed 1903-04 (Sultan Taha killed 1904); map shows direct Dutch rule/peoples",
+  "source": "https://en.wikipedia.org/wiki/Jambi_Sultanate",
+  "severity": "major"
+ },
+ {
+  "from": 1874,
+  "to": 1903,
+  "country": "Indonesia",
+  "regions": [
+   "Aceh"
+  ],
+  "owner": "Sultanate of Aceh",
+  "why": "Map shows Dutch rule of all Aceh from the 1870s; before 1898 the Dutch held little more than Banda Aceh and Ulee Lheue, the sultan surrendered only in 1903",
+  "source": "https://en.wikipedia.org/wiki/Aceh_War",
+  "severity": "major"
+ },
+ {
+  "from": 1685,
+  "to": 1824,
+  "country": "Indonesia",
+  "regions": [
+   "Bengkulu"
+  ],
+  "owner": "Bencoolen",
+  "overlord": "British Empire",
+  "why": "British (EIC) Bencoolen 1685-1824 is shown only intermittently, flickering with Banten/peoples and replaced by the Dutch East Indies 1810-1820; it was ceded to the Dutch in 1824",
+  "source": "https://en.wikipedia.org/wiki/Bencoolen_Presidency",
+  "severity": "major"
+ },
+ {
+  "from": 1520,
+  "to": 1606,
+  "country": "Indonesia",
+  "regions": [
+   "Maluku Utara"
+  ],
+  "owner": "Sultanate of Ternate",
+  "why": "Map shows Portuguese (1520s-1580s) and Spanish (1590-1606) rule of North Maluku; the Portuguese had only a fort on Ternate (expelled 1575) and Spain took it only in 1606; Ternate was the ruling power",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Ternate",
+  "severity": "major"
+ },
+ {
+  "from": 1580,
+  "to": 1605,
+  "country": "Indonesia",
+  "regions": [
+   "Maluku"
+  ],
+  "owner": "Portuguese Colonies",
+  "overlord": "Portuguese Empire",
+  "why": "Map shows 'Dutch Amboina' in the 1580s and Spain in the 1590s; Ambon was Portuguese (peaceable possession 1580) until the Dutch took the fort in 1605",
+  "source": "https://en.wikipedia.org/wiki/Ambon_Island",
+  "severity": "major"
+ },
+ {
+  "from": 1605,
+  "to": 1796,
+  "country": "Indonesia",
+  "regions": [
+   "Maluku"
+  ],
+  "owner": "Dutch East India Company",
+  "why": "VOC rule of Ambon from 1605 (HQ 1610-19); map shows Spain (1610), peoples and a Portuguese province until 1660",
+  "source": "https://en.wikipedia.org/wiki/Ambon_Island",
+  "severity": "major"
+ },
+ {
+  "from": 1946,
+  "to": 2026,
+  "country": "Indonesia",
+  "regions": [
+   "Maluku Utara"
+  ],
+  "owner": "Indonesia",
+  "why": "North Maluku is shown inside Dutch 'West Irian' 1950-1963; it was never part of Netherlands New Guinea after 1949",
+  "source": "https://en.wikipedia.org/wiki/Netherlands_New_Guinea",
+  "severity": "major"
+ },
+ {
+  "from": 1830,
+  "to": 1896,
+  "country": "Indonesia",
+  "regions": [
+   "Papua Barat"
+  ],
+  "owner": "Tidore Sultanate",
+  "overlord": "Dutch East Indies",
+  "why": "Map shows Dutch East Indies rule from 1830/1870; apart from Fort Du Bus (1828-36) the Dutch only had a claim through Tidore until Manokwari and Fakfak were settled in 1896",
+  "source": "https://en.wikipedia.org/wiki/Western_New_Guinea",
+  "severity": "major"
+ },
+ {
+  "from": 1880,
+  "to": 1902,
+  "country": "Indonesia",
+  "regions": [
+   "Papua"
+  ],
+  "owner": "none",
+  "why": "Map paints all of Papua Dutch from 1880; first Dutch post in this area was Merauke (1902), Hollandia 1910, and the interior was not administered before WWII",
+  "source": "https://en.wikipedia.org/wiki/Western_New_Guinea",
+  "severity": "major"
+ },
+ {
+  "from": 1942,
+  "to": 1945,
+  "country": "Indonesia",
+  "regions": [
+   "*"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Japanese occupation of the Dutch East Indies (Mar 1942-Aug 1945) is missing",
+  "source": "https://en.wikipedia.org/wiki/Japanese_occupation_of_the_Dutch_East_Indies",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1702,
+  "country": "East Timor",
+  "regions": [
+   "*"
+  ],
+  "owner": "Wehali",
+  "why": "Map shows Majapahit, then Portuguese (1540s-1580s) and Spanish (1590-1630) rule of all East Timor; the Portuguese had only traders/Dominicans (Lifau 1556) and the colony was founded with the first governor at Lifau in 1702; before that the island was ruled by Timorese liurai kingdoms under Wehali's primacy",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_Timor",
+  "severity": "major"
+ },
+ {
+  "from": 1942,
+  "to": 1945,
+  "country": "East Timor",
+  "regions": [
+   "*"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Japanese occupation Feb 1942-1945",
+  "source": "https://en.wikipedia.org/wiki/Portuguese_Timor",
+  "severity": "major"
+ },
+ {
+  "from": 1999,
+  "to": 2002,
+  "country": "East Timor",
+  "regions": [
+   "Ambeno"
+  ],
+  "owner": "United Nations Transitional Administration in East Timor",
+  "why": "Oecusse-Ambeno is left under Indonesia while the rest is under UNTAET; UNTAET administered all East Timor 1999-2002",
+  "source": "https://en.wikipedia.org/wiki/United_Nations_Transitional_Administration_in_East_Timor",
+  "severity": "major"
+ },
+ {
+  "from": 1610,
+  "to": 1899,
+  "country": "Philippines",
+  "regions": [
+   "Cotabato",
+   "Sultan Kudarat–South Cotabato"
+  ],
+  "owner": "Sultanate of Maguindanao",
+  "why": "Map shows Spain ruling all of Mindanao from 1610 and deletes the Sultanate of Maguindanao (founded 1515), which kept the Cotabato valley independent of Spain until American occupation in 1899",
+  "source": "https://en.wikipedia.org/wiki/Sultanate_of_Maguindanao",
+  "severity": "major"
+ },
+ {
+  "from": 1610,
+  "to": 1848,
+  "country": "Philippines",
+  "regions": [
+   "Davao del Sur–Davao del Norte",
+   "Davao Oriental"
+  ],
+  "owner": "Sultanate of Maguindanao",
+  "why": "Davao Gulf was part of Maguindanao's sphere; Spain only founded Davao (Nueva Vergara) in 1848",
+  "source": "https://en.wikipedia.org/wiki/Davao_Region",
+  "severity": "major"
+ },
+ {
+  "from": 1610,
+  "to": 1616,
+  "country": "Philippines",
+  "regions": [
+   "Lanao del Sur–Misamis Oriental–Lanao del Norte"
+  ],
+  "owner": "Sultanate of Maguindanao",
+  "why": "Lanao was Maguindanao's until the Lanao lords seceded in 1616; not Spanish",
+  "source": "https://en.wikipedia.org/wiki/Confederate_States_of_Lanao",
+  "severity": "major"
+ },
+ {
+  "from": 1616,
+  "to": 1903,
+  "country": "Philippines",
+  "regions": [
+   "Lanao del Sur–Misamis Oriental–Lanao del Norte"
+  ],
+  "owner": "Confederate States of Lanao",
+  "why": "The Lanao confederation drove out the 1639-40 Spanish garrison and saw no Spanish presence for 250 years; incorporated into the American Moro Province 1903",
+  "source": "https://en.wikipedia.org/wiki/Confederate_States_of_Lanao",
+  "severity": "major"
+ },
+ {
+  "from": 1610,
+  "to": 1635,
+  "country": "Philippines",
+  "regions": [
+   "Zamboanga del Sur"
+  ],
+  "owner": "Sultanate of Maguindanao",
+  "why": "No Spanish presence in Zamboanga before Fort Pilar (1635)",
+  "source": "https://en.wikipedia.org/wiki/Fort_Pilar",
+  "severity": "minor"
+ },
+ {
+  "from": 1662,
+  "to": 1718,
+  "country": "Philippines",
+  "regions": [
+   "Zamboanga del Sur"
+  ],
+  "owner": "Sultanate of Maguindanao",
+  "why": "Spanish abandoned Zamboanga 1662-1718",
+  "source": "https://en.wikipedia.org/wiki/Fort_Pilar",
+  "severity": "minor"
+ },
+ {
+  "from": 1400,
+  "to": 1783,
+  "country": "Philippines",
+  "regions": [
+   "Batanes"
+  ],
+  "owner": "none",
+  "why": "Batanes is shown under Taiwan peoples, Dutch Formosa, Southern Ming and Qing; it was an independent Ivatan homeland until Spain annexed it in 1783",
+  "source": "https://en.wikipedia.org/wiki/Batanes",
+  "severity": "major"
+ },
+ {
+  "from": 1783,
+  "to": 1886,
+  "country": "Philippines",
+  "regions": [
+   "Batanes"
+  ],
+  "owner": "Spanish Empire",
+  "why": "Spanish from 1783",
+  "source": "https://en.wikipedia.org/wiki/Batanes",
+  "severity": "major"
+ },
+ {
+  "from": 1886,
+  "to": 1898,
+  "country": "Philippines",
+  "regions": [
+   "Batanes"
+  ],
+  "owner": "Philippines",
+  "overlord": "Spain",
+  "why": "Spanish Philippines (map shows 'China')",
+  "source": "https://en.wikipedia.org/wiki/Batanes",
+  "severity": "major"
+ },
+ {
+  "from": 1898,
+  "to": 1942,
+  "country": "Philippines",
+  "regions": [
+   "Batanes"
+  ],
+  "owner": "Philippines",
+  "overlord": "United States of America",
+  "why": "American Philippines (map shows Japanese Taiwan)",
+  "source": "https://en.wikipedia.org/wiki/Batanes",
+  "severity": "major"
+ },
+ {
+  "from": 1945,
+  "to": 1946,
+  "country": "Philippines",
+  "regions": [
+   "Batanes"
+  ],
+  "owner": "Philippines",
+  "overlord": "United States of America",
+  "why": "American Philippines",
+  "source": "https://en.wikipedia.org/wiki/Batanes",
+  "severity": "major"
+ },
+ {
+  "from": 1946,
+  "to": 2026,
+  "country": "Philippines",
+  "regions": [
+   "Batanes"
+  ],
+  "owner": "Philippines",
+  "why": "Philippine province; map shows Taiwan (ROC) to the present",
+  "source": "https://en.wikipedia.org/wiki/Batanes",
+  "severity": "major"
+ },
+ {
+  "from": 1947,
+  "to": 2026,
+  "country": "Philippines",
+  "regions": [
+   "Palawan"
+  ],
+  "owner": "Philippines",
+  "why": "The Mangsee Islands passed from British North Borneo to the Philippines on 16 Oct 1947; map keeps them North Borneo/Malaysia to today",
+  "source": "https://en.wikipedia.org/wiki/Mangsee_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1942,
+  "to": 1943,
+  "country": "Philippines",
+  "regions": [
+   "*"
+  ],
+  "owner": "Empire of Japan",
+  "why": "Japanese occupation of the Philippines 1942-45 is missing",
+  "source": "https://en.wikipedia.org/wiki/Second_Philippine_Republic",
+  "severity": "major"
+ },
+ {
+  "from": 1943,
+  "to": 1945,
+  "country": "Philippines",
+  "regions": [
+   "*"
+  ],
+  "owner": "Second Philippine Republic",
+  "overlord": "Empire of Japan",
+  "why": "Japanese-sponsored republic 1943-1945",
+  "source": "https://en.wikipedia.org/wiki/Second_Philippine_Republic",
+  "severity": "major"
+ },
+ {
+  "from": 1400,
+  "to": 1939,
+  "country": "Spratly Is.",
+  "regions": [
+   "Spratly Islands"
+  ],
+  "owner": "none",
+  "why": "Spratly reefs shown under Brunei (1510), Spain (1630-1898) and the US; no pre-20th-century claim/administration by these states, and they were excluded from the 1898 Philippines",
+  "source": "https://en.wikipedia.org/wiki/Spratly_Islands",
+  "severity": "minor"
+ },
+ {
+  "from": 1945,
+  "to": 1971,
+  "country": "Spratly Is.",
+  "regions": [
+   "Spratly Islands"
+  ],
+  "owner": "none",
+  "why": "Philippine claim/occupation dates from 1971; map shows Philippine rule from 1946",
+  "source": "https://en.wikipedia.org/wiki/Spratly_Islands",
+  "severity": "minor"
+ }
+]
