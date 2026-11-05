@@ -1,7 +1,7 @@
 // Cloudflare Workers hosting: serve the built site in dist/ as static files.
 // Build command: npm run build. Deploy command: npx wrangler deploy.
 {
-  "name": "meanwhile-atlas",
+  "name": "cade-s-atlas",
   "compatibility_date": "2026-11-05",
   "assets": {
     "directory": "./dist",
