@@ -45,7 +45,7 @@ Goal: decide how the atlas looks and works on a phone before building real scree
 
 | # | Step | Who | Done when |
 | --- | --- | --- | --- |
-| 1.1 | List what worked and what didn't in Prototype 1, and 3 to 5 sites whose look you admire | C | A short list |
+| 1.1 | List what worked and what didn't in Prototype 1, and 3 to 5 sites whose look you admire | C | Done 2026-11-05: `docs/design/brief.md` |
 | 1.2 | Write the UI rules: one obvious next action per screen; one tap opens a preview, Open inside it navigates; the same control behaves the same on every page | AI, C approves | In the design file |
 | 1.3 | Two or three design directions (type, colour, spacing), each as a mock event page on a phone | AI | Cade can tap through each |
 | 1.4 | Pick a direction, or mix | C | Chosen |
@@ -130,7 +130,7 @@ Goal: the border maps on the new globe, fast on a phone.
 | 4.10 | Peoples' homelands in a quiet colour, names when zoomed in; reader-facing names ("Aboriginal Australians") | AI | Test on sample years |
 | 4.11 | Polity card: type, years, one line, territory thumbnail; Open country, Open the chronicle | AI | Test |
 | 4.12 | `/place-events`: every event placed by coordinates and lane | AI | Test: placement check |
-| 4.13 | Borders after 2019: the 2019 map carried forward plus dated, sourced fix files | AI | Each change sourced |
+| 4.13 | Borders after 2019: the 2019 map carried forward plus dated, sourced fix files; ATLYNX as a reference for de facto borders (licence checked first) | AI | Each change sourced |
 | 4.14 | `/border-fix` skill | AI | Runs end to end on one fix |
 | 4.15 | Speed and record checks; people test | AI, C+AI | Under 3 seconds on a phone; record check passes |
 
