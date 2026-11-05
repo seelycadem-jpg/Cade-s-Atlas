@@ -15,6 +15,7 @@ jobs:
       - uses: actions/setup-python@v5
         with:
           python-version: "3.13"
+      - run: pip install -r pipeline/requirements.txt
       - name: Build the data into a scratch folder and compare with site/
         run: bash pipeline/check_build.sh
 

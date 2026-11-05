@@ -1,0 +1,2 @@
+# Python packages the content pipeline needs. Install: pip install -r pipeline/requirements.txt
+openpyxl>=3.1
