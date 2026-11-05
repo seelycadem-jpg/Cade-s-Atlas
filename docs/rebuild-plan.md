@@ -50,7 +50,7 @@ after one page, not after five hundred.
 
 The finished atlas will be many times the size of Prototype 1: thousands of events at three
 sizes, many chronicles and stories, a thousand people, and tens of thousands of links. Until
-Cade gives better numbers, the plan assumes about **20,000 events, 1,000 people, 100
+Cade gives better numbers, the plan assumes about **50,000 events or more, 1,000 people, 100
 chronicles and 50,000 links**. Ten rules follow from that, and they are built in from the
 start because they are expensive to change later.
 
@@ -71,7 +71,7 @@ start because they are expensive to change later.
    index split into small pieces (Pagefind is the proposed tool; it needs Cade's OK).
 7. **Big files stay out of the repo.** Images and map tiles go to Cloudflare R2.
 8. **Hosting limits are checked early.** Cloudflare Pages caps the number of files per
-   upload (about 20,000 on the free plan; to be confirmed). The page count is planned
+   upload (about 20,000 on the free plan, well under 50,000 pages; to be confirmed). The page count is planned
    against that cap before it is reached.
 9. **Writing is a production line.** Thousands of pages through four reviewers each means
    batches run in cloud sessions, a progress board showing every page's status, and
@@ -190,7 +190,7 @@ Goal: describe each kind of thing exactly, then take the first event all the way
 | 2.1 | Write the schemas for the seven objects (event, link, person, polity, feature, layer, theme) from `docs/narrative-flow.md` and `docs/event-pages.md` | Claude | The build rejects a file with a missing field |
 | 2.2 | Fix the address and id rules for every kind of thing; they never change after this | Claude proposes, Cade approves | Written into the schemas |
 | 2.3 | Create `content/` with its folders, split by region | Claude | Exists |
-| 2.4 | **Size test:** generate 20,000 fake test events and 50,000 fake links (marked fake, deleted after, never shipped) and measure build time, file count and phone load | Claude | Build under 10 minutes; the phone loads a timeline slice in under 3 seconds; file count fits the host |
+| 2.4 | **Size test:** generate 50,000 fake test events and 150,000 fake links (marked fake, deleted after, never shipped) and measure build time, file count and phone load | Claude | Build under 10 minutes; the phone loads a timeline slice in under 3 seconds; file count fits the host |
 | 2.5 | Make a starter file for each old event: header fields filled where the old data holds them, text empty, status `draft` | Claude, by script | 781 draft files; none visible to readers |
 | 2.6 | Move the 36 graded links into the link table (built by the pipeline, never by hand) | Claude, by script | Same 36 links, each with its note |
 | 2.7 | Write the first event through the full writing pipeline: draft from sources, four reviewers, merge, recheck | Claude agents | Status `reviewed` |
