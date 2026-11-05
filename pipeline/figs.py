@@ -1,10 +1,11 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE
 # Stage: "By the numbers" for events, read from fig[0-9][0-9].py (F = {id: dict(rec=, kv=[(value,label)], toll=(title, unit, [(side, low, high_or_None, text_or_None)], note), n=note)}).
 import json, glob, importlib, os, sys
-sys.path.insert(0, "/home/claude")
-D = json.load(open("/home/claude/site/data.json")); EV = D["events"]; E = {e["id"]: e for e in EV}
+sys.path.insert(0, ROOT)
+D = json.load(open(SITE + "/data.json")); EV = D["events"]; E = {e["id"]: e for e in EV}
 for e in EV: e.pop("figs", None)
 errs = []; n = 0; nt = 0
-for path in sorted(glob.glob("/home/claude/fig[0-9][0-9].py")):
+for path in sorted(glob.glob(ROOT + "/fig[0-9][0-9].py")):
     M = importlib.import_module(os.path.basename(path)[:-3])
     for i, v in M.F.items():
         if i not in E: errs.append(f"{path}: unknown id {i}"); continue
@@ -31,6 +32,6 @@ for path in sorted(glob.glob("/home/claude/fig[0-9][0-9].py")):
         if v.get("n"): o["n"] = v["n"]
         E[i]["figs"] = o; n += 1
 if errs: raise SystemExit("\n".join(errs))
-json.dump(D, open("/home/claude/site/data.json", "w"), ensure_ascii=False, separators=(",", ":"))
+json.dump(D, open(SITE + "/data.json", "w"), ensure_ascii=False, separators=(",", ":"))
 war = [e for e in EV if "war" in e["c"]]
 print(f"figs: {n} events, {nt} with casualty bars; war events without figs: {sum(1 for e in war if 'figs' not in e)} of {len(war)}")

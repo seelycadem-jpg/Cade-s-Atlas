@@ -1,16 +1,17 @@
 """Land the dated state record (1886-2019) leaves empty, year by year, with the name the
-survey of that period gives it (or the peoples of the region). Writes atlas/maps/csgaps.json:
+survey of that period gives it (or the peoples of the region). Writes site/maps/csgaps.json:
 features with a, b (years, b exclusive) so the globe draws them only while the gap exists."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, ROOT, WORK
 import json, subprocess, sys, math, hashlib
-sys.path.insert(0, "/home/claude/g2")
+sys.path.insert(0, ROOT + "/g2")
 from shapely.geometry import shape, box, Polygon
 from shapely.ops import unary_union
 from shapely.validation import make_valid
 from shapely import STRtree
-M = "/home/claude/atlas/maps"
+M = MAPS
 MAPY = [1400, 1500, 1530, 1600, 1650, 1700, 1715, 1783, 1800, 1815, 1880, 1900, 1914, 1920, 1930, 1938, 1945, 1960, 1994, 2000, 2010]
 def mapYear(y): return max(m for m in MAPY if m <= y)
-src = open("/home/claude/g2/fillblank.py").read()
+src = open(ROOT + "/g2/fillblank.py").read()
 REGIONS = eval(src[src.index("REGIONS = [") + len("REGIONS = "): src.index("]\ndef km2") + 1])
 PEOPLES_RE = src[src.index('re.compile(r"') + 13: src.index('", re.I)')]
 import re
@@ -26,10 +27,10 @@ def polys(g):
 def gj(path, tmp):
     subprocess.run(["mapshaper", "-i", path, "-o", "format=geojson", tmp], check=True, capture_output=True)
     return json.load(open(tmp))["features"]
-land_gj = json.load(open("/tmp/land.geojson"))
+land_gj = json.load(open(WORK + "/land.geojson"))
 geoms = land_gj["geometries"] if "geometries" in land_gj else [f["geometry"] for f in land_gj["features"]]
 LAND = make_valid(unary_union([make_valid(shape(g)) for g in geoms])).difference(box(-180, -90, 180, -60))
-CS = [(make_valid(shape(f["geometry"])).buffer(0.02), f["properties"]) for f in gj(f"{M}/cs.json", "/tmp/csg_cs.geojson") if f.get("geometry")]
+CS = [(make_valid(shape(f["geometry"])).buffer(0.02), f["properties"]) for f in gj(f"{M}/cs.json", WORK + "/csg_cs.geojson") if f.get("geometry")]
 
 STOP = {"of", "the", "and", "empire", "kingdom", "republic", "federal", "democratic", "people's", "socialist", "state", "states", "union", "sultanate", "emirate"}
 ALIAS = {"Russia (Soviet Union)": "ussr russia russian soviet white", "Iraq": "mesopotamia", "Iran (Persia)": "persia", "Thailand": "siam", "Turkey (Ottoman Empire)": "ottoman turkey",
@@ -84,7 +85,7 @@ def special(g, y, actF, n):
 SURV = {}
 def survey(my):
     if my not in SURV:
-        F = [(make_valid(shape(f["geometry"])), (f["properties"].get("NAME") or "").strip()) for f in gj(f"{M}/w{my}.json", f"/tmp/csg_{my}.geojson") if f.get("geometry")]
+        F = [(make_valid(shape(f["geometry"])), (f["properties"].get("NAME") or "").strip()) for f in gj(f"{M}/w{my}.json", f"{WORK}/csg_{my}.geojson") if f.get("geometry")]
         F = [(g, n) for g, n in F if n]
         SURV[my] = (F, STRtree([g for g, n in F]))
     return SURV[my]
@@ -176,6 +177,6 @@ for y in range(1886, 2020):
 # extend the last record to the present
 for f in out:
     if f["properties"]["b"] == 2020: f["properties"]["b"] = 2100
-json.dump({"type": "FeatureCollection", "features": out}, open("/tmp/csgaps.geojson", "w"))
-subprocess.run(["mapshaper", "-i", "/tmp/csgaps.geojson", "name=gaps", "-simplify", "50%", "weighted", "keep-shapes", "-o", "format=topojson", "precision=0.001", f"{M}/csgaps.json"], check=True, capture_output=True)
+json.dump({"type": "FeatureCollection", "features": out}, open(WORK + "/csgaps.geojson", "w"))
+subprocess.run(["mapshaper", "-i", WORK + "/csgaps.geojson", "name=gaps", "-simplify", "50%", "weighted", "keep-shapes", "-o", "format=topojson", "precision=0.001", f"{M}/csgaps.json"], check=True, capture_output=True)
 print("features", len(out))

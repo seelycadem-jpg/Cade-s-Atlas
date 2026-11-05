@@ -1,10 +1,11 @@
 """Physical geography for the globe: mountain ranges (with hill-mark points), deserts, plateaus,
-rivers, lakes and sea names. Writes atlas/maps/phys.json (topology) and atlas/maps/physpts.json."""
+rivers, lakes and sea names. Writes site/maps/phys.json (topology) and site/maps/physpts.json."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, ROOT, WORK
 import json, math, random, subprocess, re
 from shapely.geometry import shape, mapping, Point
 from shapely.validation import make_valid
 from shapely.ops import polylabel
-N = "/home/claude/g2/ne"; M = "/home/claude/atlas/maps"
+N = ROOT + "/g2/ne"; M = MAPS
 random.seed(7)
 def tc(s):
     s = re.sub(r"\s+", " ", s.strip())
@@ -54,12 +55,12 @@ for f in regions:
                     if g.contains(Point(jx, jy)): pts[kind].append([round(jx, 2), round(jy, 2), lvl])
                     x += cx
                 y += step
-json.dump({"type": "FeatureCollection", "features": keep}, open("/tmp/regions.geojson", "w"))
+json.dump({"type": "FeatureCollection", "features": keep}, open(WORK + "/regions.geojson", "w"))
 rv = [f for f in json.load(open(f"{N}/ne_50m_rivers_lake_centerlines.geojson"))["features"] if f["properties"]["scalerank"] <= 6]
-json.dump({"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"sr": f["properties"]["scalerank"], "n": f["properties"].get("name")}, "geometry": f["geometry"]} for f in rv]}, open("/tmp/rivers.geojson", "w"))
+json.dump({"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"sr": f["properties"]["scalerank"], "n": f["properties"].get("name")}, "geometry": f["geometry"]} for f in rv]}, open(WORK + "/rivers.geojson", "w"))
 lk = [f for f in json.load(open(f"{N}/ne_50m_lakes.geojson"))["features"] if f["properties"]["scalerank"] <= 4]
-json.dump({"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"sr": f["properties"]["scalerank"], "n": f["properties"].get("name")}, "geometry": f["geometry"]} for f in lk]}, open("/tmp/lakes.geojson", "w"))
-subprocess.run(["mapshaper", "-i", "/tmp/regions.geojson", "/tmp/rivers.geojson", "/tmp/lakes.geojson", "combine-files",
+json.dump({"type": "FeatureCollection", "features": [{"type": "Feature", "properties": {"sr": f["properties"]["scalerank"], "n": f["properties"].get("name")}, "geometry": f["geometry"]} for f in lk]}, open(WORK + "/lakes.geojson", "w"))
+subprocess.run(["mapshaper", "-i", WORK + "/regions.geojson", WORK + "/rivers.geojson", WORK + "/lakes.geojson", "combine-files",
                 "-rename-layers", "regions,rivers,lakes", "-simplify", "20%", "weighted", "keep-shapes",
                 "-o", "format=topojson", "precision=0.01", f"{M}/phys.json"], check=True, capture_output=True)
 marine = json.load(open(f"{N}/ne_50m_geography_marine_polys.geojson"))["features"]

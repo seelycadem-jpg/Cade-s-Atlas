@@ -1,11 +1,12 @@
 """Pieces of territory that changed hands between consecutive survey maps, 1400-1886."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, ROOT, WORK
 import json, re, subprocess, os, sys
 from shapely.geometry import shape, mapping
 from shapely.ops import unary_union
 from shapely.validation import make_valid
 from shapely import STRtree
 import math
-ROOT = "/home/claude"
+ROOT = ROOT
 R = json.load(open(f"{ROOT}/atlas/rules.json"))
 EMP = {k: dict(v, re=re.compile(v["rx"], re.I)) for k, v in R["empires"].items()}
 COL = [dict(c, re=re.compile(c["rx"], re.I)) for c in R["colonial"]]
@@ -28,9 +29,9 @@ def owner(p, y):
     if not n.strip(): return (None, None)
     return ("N:" + norm(n), n)
 def load(y):
-    gj = f"/tmp/hb_{y}.geojson"
+    gj = f"{WORK}/hb_{y}.geojson"
     if not os.path.exists(gj):
-        subprocess.run(["mapshaper", "-i", f"{ROOT}/atlas/maps/w{y}.json", "-o", "format=geojson", gj], check=True, capture_output=True)
+        subprocess.run(["mapshaper", "-i", f"{MAPS}/w{y}.json", "-o", "format=geojson", gj], check=True, capture_output=True)
     fs = json.load(open(gj))["features"]
     out = []
     for f in fs:

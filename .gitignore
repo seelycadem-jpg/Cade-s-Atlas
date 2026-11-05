@@ -27,3 +27,6 @@ playwright-report/
 
 # Pipeline scratch
 work/
+
+# Astro generated types
+.astro/

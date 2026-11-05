@@ -1,13 +1,14 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE
 # Stage 3 of the build: make every event singular, merge duplicates, add Oceania,
 # assign the nine regions, and attach encyclopedia titles.
 # Build order: make_json.py -> arcs_build.py -> refine.py -> tiers.py
 import json, sys, copy
-sys.path.insert(0, "/home/claude")
+sys.path.insert(0, ROOT)
 from refine_splits import SPLITS
 from refine_splits2 import SPLITS2, MERGES, RENAME, WHY, NEWLINKS
 import refine_oceania as OC
 
-D = json.load(open("/home/claude/site/data.json"))
+D = json.load(open(SITE + "/data.json"))
 EV = D["events"]; ARCS = D["arcs"]
 by = {e["id"]: e for e in EV}
 OLDHEAD = {e["id"]: e["h"] for e in EV}
@@ -249,7 +250,7 @@ D["regions"] = [dict(id="eu", name="Europe", short="Europe"), dict(id="me", name
                 dict(id="se", name="Southeast Asia", short="Southeast Asia"), dict(id="af", name="Sub-Saharan Africa", short="Sub-Saharan Africa"),
                 dict(id="na", name="North America", short="North America"), dict(id="la", name="Latin America", short="Latin America"),
                 dict(id="oc", name="Oceania", short="Oceania")]
-json.dump(D, open("/home/claude/site/data.json", "w"), ensure_ascii=False, separators=(",", ":"))
+json.dump(D, open(SITE + "/data.json", "w"), ensure_ascii=False, separators=(",", ":"))
 
 # old head -> new head, for other files (map place profiles)
 HMAP = {}
@@ -258,7 +259,7 @@ for oid, h in OLDHEAD.items():
     if oid in parts_of: nid = parts_of[oid][0]["id"]
     nid = gone.get(nid, nid)
     if nid in byN and byN[nid]["h"] != h: HMAP[h] = byN[nid]["h"]
-json.dump(HMAP, open("/home/claude/headmap.json", "w"), ensure_ascii=False, indent=0)
+json.dump(HMAP, open(ROOT + "/headmap.json", "w"), ensure_ascii=False, indent=0)
 
 from collections import Counter
 print("events", len(newEV), "edges", sum(len(e["causes"]) for e in newEV), "regions", Counter(e["r"] for e in newEV))

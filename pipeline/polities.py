@@ -1,3 +1,4 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE
 # Click-for-context blurbs for states and empires on the map.
 # Each: (regex on displayed name, from map year, to map year, title, kind, now, how it got here, what came next, [related event headlines])
 P = [
@@ -391,14 +392,14 @@ EMP_NOTE = {
 
 import json, os
 # Event headlines changed when combined events were split; map old headlines to new ones and check every reference.
-HM = json.load(open("/home/claude/headmap.json")) if os.path.exists("/home/claude/headmap.json") else {}
+HM = json.load(open(ROOT + "/headmap.json")) if os.path.exists(ROOT + "/headmap.json") else {}
 HM.update({"Ming falls; Qing dynasty":"Qing dynasty takes Beijing"})
-HEADS = {e["h"] for e in json.load(open("/home/claude/site/data.json"))["events"]}
+HEADS = {e["h"] for e in json.load(open(SITE + "/data.json"))["events"]}
 P = [(a,b,c,d,e,f,g,h,[HM.get(x,x) for x in i]) for a,b,c,d,e,f,g,h,i in P]
 bad = sorted({x for *_, i in P for x in i if x not in HEADS})
 if bad: print("WARN place profiles reference unknown events:", bad)
 out = dict(polities=[dict(rx=a,a=b,b=c,t=d,k=e,now=f,how=g,next=h,ev=i) for a,b,c,d,e,f,g,h,i in P],
            empnote={k:[dict(a=a,b=b,t=t) for a,b,t in v] for k,v in EMP_NOTE.items()})
-R = json.load(open("/home/claude/site/rules.json")); R.update(out)
-json.dump(R, open("/home/claude/site/rules.json","w"), ensure_ascii=False)
+R = json.load(open(SITE + "/rules.json")); R.update(out)
+json.dump(R, open(SITE + "/rules.json","w"), ensure_ascii=False)
 print(len(P), "polity blurbs")

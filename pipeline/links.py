@@ -1,9 +1,10 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE
 # Stage 5: encyclopedia links. Sets e["wk"] (Wikipedia title) and e["bt"] (Britannica path) on every event.
 import json, sys
-sys.path.insert(0, "/home/claude")
+sys.path.insert(0, ROOT)
 from bt import BT
 
-P = "/home/claude/site/data.json"
+P = SITE + "/data.json"
 D = json.load(open(P)); EV = D["events"]
 
 # Wikipedia titles that turned out to be wrong or too broad when checked

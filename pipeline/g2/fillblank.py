@@ -3,12 +3,13 @@
 2. a people drawn there on the survey before or after (peoples persist);
 3. a broad regional name for the peoples of that land.
 Every filled area is marked INF so the globe can say it was inferred."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, WORK
 import json, re, subprocess, sys, math
 from shapely.geometry import shape, mapping as _m, Polygon, MultiPolygon, box, Point
 from shapely.ops import unary_union
 from shapely.validation import make_valid
 from shapely import STRtree
-M = "/home/claude/atlas/maps"
+M = MAPS
 YEARS = [1400, 1500, 1530, 1600, 1650, 1700, 1715, 1783, 1800, 1815, 1880, 1900, 1914]
 FILL_UNTIL = 1900  # later surveys only show through where the dated record has no state
 PEOPLES = re.compile(r"hunter|gatherer|peoples|cultures|culture$|nomad|aboriginal|tribes|^maori$|^polynesians$|^papuans$|^inuit|^san$|^khoisan$|^siberians$|cereal farmers|chiefdoms|^bantu|herders|pastoralists|foragers|bedouin", re.I)
@@ -46,12 +47,12 @@ def polys(g):
 def mapping(g):
     ps = polys(g)
     return _m(ps[0] if len(ps) == 1 else MultiPolygon(ps)) if ps else None
-land_gj = json.load(open("/tmp/land.geojson"))
+land_gj = json.load(open(WORK + "/land.geojson"))
 geoms = land_gj["geometries"] if "geometries" in land_gj else [f["geometry"] for f in land_gj["features"]]
 LAND = make_valid(unary_union([make_valid(shape(g)) for g in geoms]))
 ANT = box(-180, -90, 180, -60)
 def load(y):
-    tmp = f"/tmp/fb_{y}.geojson"
+    tmp = f"{WORK}/fb_{y}.geojson"
     subprocess.run(["mapshaper", "-i", f"{M}/w{y}.json", "-o", "format=geojson", tmp], check=True, capture_output=True)
     fc = json.load(open(tmp))
     out = []
@@ -133,6 +134,6 @@ for k, y in enumerate(YEARS):
         g = make_valid(unary_union(gs))
         m = mapping(g)
         if m: fc["features"].append({"type": "Feature", "properties": {"NAME": n, "SUBJECTO": None, "INF": how}, "geometry": m})
-    json.dump(fc, open(f"/tmp/fb_{y}_out.geojson", "w"))
-    subprocess.run(["mapshaper", "-i", f"/tmp/fb_{y}_out.geojson", f"name=world_{y}", "-simplify", "60%", "weighted", "keep-shapes", "-o", "format=topojson", "precision=0.001", f"{M}/w{y}.json"], check=True, capture_output=True)
+    json.dump(fc, open(f"{WORK}/fb_{y}_out.geojson", "w"))
+    subprocess.run(["mapshaper", "-i", f"{WORK}/fb_{y}_out.geojson", f"name=world_{y}", "-simplify", "60%", "weighted", "keep-shapes", "-o", "format=topojson", "precision=0.001", f"{M}/w{y}.json"], check=True, capture_output=True)
     print(y, "blank areas", len(gaps), "filled", len(byname), "groups:", ", ".join(sorted({n for (n, h) in byname}))[:300], file=sys.stderr)

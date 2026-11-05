@@ -1,6 +1,7 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import SITE
 # Stage: an emblem (motif) for every event's picture plate. Keyword rules on the headline first, then the event text, then hand overrides.
 import json, re
-D = json.load(open("/home/claude/site/data.json")); EV = D["events"]
+D = json.load(open(SITE + "/data.json")); EV = D["events"]
 RULES = [  # (motif, regex on the headline); first match wins
  ("nuclear", r"atomic|nuclear|trinity|bikini|chernobyl|fukushima|pokhran|rainbow warrior|test ban|hotline|inf treaty|jcpoa|iran nuclear"),
  ("space", r"sputnik|gagarin|moon|space"),
@@ -124,5 +125,5 @@ def pick(e):
     return {"war":"battle","economic":"money","ideas":"idea","religion":"faith","science":"lab","culture":"art"}.get(c, "state")
 from collections import Counter
 for e in EV: e["mo"] = pick(e)
-json.dump(D, open("/home/claude/site/data.json", "w"), ensure_ascii=False, separators=(",", ":"))
+json.dump(D, open(SITE + "/data.json", "w"), ensure_ascii=False, separators=(",", ":"))
 print("motifs", dict(Counter(e["mo"] for e in EV).most_common()))

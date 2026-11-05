@@ -1,15 +1,16 @@
 """Year-by-year audit of province owners (maps/own.json).
-  python3 audit.py checks            -> /tmp/g4/audit_checks.json + printed summary (flicker, big jumps, anachronisms)
+  python3 audit.py checks            -> work/g4/audit_checks.json + printed summary (flicker, big jumps, anachronisms)
   python3 audit.py dump REGION OUT   -> decade snapshots for one review region, in modern place names, for reviewers
 Places are named by modern country and first-level region (the province map's own names), so a reviewer can say
 'Ukraine: Crimea, 1475-1783 -> Crimean Khanate under the Ottoman Empire' and the fix lands on exactly those provinces."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, ROOT, WORK
 import json, sys, re, collections, glob, math
-sys.path.insert(0, "/home/claude/review"); from names import same, key
-O = json.load(open("/home/claude/atlas/maps/own.json")); POL = O["pol"]
-F = json.load(open("/tmp/g4/prov.geojson"))["features"]
+sys.path.insert(0, ROOT + "/review"); from names import same, key
+O = json.load(open(MAPS + "/own.json")); POL = O["pol"]
+F = json.load(open(WORK + "/g4/prov.geojson"))["features"]
 P = [f["properties"] for f in F]; n = len(P)
 def base(nm): return re.sub(r"( islands)?( \d+)?$", "", nm).strip()
-SUB = {f["properties"]["ADMIN"]: f["properties"]["SUBREGION"] for f in json.load(open("/tmp/nev/geojson/ne_10m_admin_0_countries.geojson"))["features"]}
+SUB = {f["properties"]["ADMIN"]: f["properties"]["SUBREGION"] for f in json.load(open(WORK + "/nev/geojson/ne_10m_admin_0_countries.geojson"))["features"]}
 SUB.update({"S. Sudan": "Northern Africa", "Czech Republic": "Eastern Europe", "Cape Verde": "Western Africa", "Macedonia": "Southern Europe", "Spratly Is.": "South-Eastern Asia",
             "Guinea Bissau": "Western Africa", "Sao Tome and Principe": "Middle Africa", "Gaza Strip": "Western Asia", "West Bank": "Western Asia", "Swaziland": "Southern Africa"})
 REGIONS = {
@@ -100,11 +101,11 @@ def checks():
             if o and POL[o][0] != "pp":
                 L = life[POL[o][1]]; L[0] = min(L[0], y); L[1] = max(L[1], y)
     known = collections.defaultdict(lambda: [9999, 0])
-    for f in glob.glob("/home/claude/review/cp/*.json"):
+    for f in glob.glob(ROOT + "/review/cp/*.json"):
         for p in json.load(open(f))["places"]:
             for t in p["timeline"]:
                 if t["ruler"] != "none": k = known[t["ruler"]]; k[0] = min(k[0], t["from"]); k[1] = max(k[1], t["to"])
-    for f in glob.glob("/home/claude/review/gaz/*.json"):
+    for f in glob.glob(ROOT + "/review/gaz/*.json"):
         try:
             for p in json.load(open(f)).get("polities", []): k = known[p["name"]]; k[0] = min(k[0], int(p["from"])); k[1] = max(k[1], int(p["to"]))
         except Exception: pass
@@ -117,7 +118,7 @@ def checks():
         if a < ka - 15 or b > kb + 15: anach.append([nm, a, b, ka, kb])
     res["anach"] = sorted(anach, key=lambda x: -((max(0, x[3] - x[1])) + max(0, x[2] - x[4])))
     res["flicker"] = [[a, b, y, c] for (a, b, y), c in res["flicker"].most_common(200)]
-    json.dump(res, open("/tmp/g4/audit_checks.json", "w"), indent=0, ensure_ascii=False)
+    json.dump(res, open(WORK + "/g4/audit_checks.json", "w"), indent=0, ensure_ascii=False)
     print("flicker cases", len(res["flicker"]), "big jump years", len(res["jumps"]), "anachronisms", len(res["anach"]))
 def fy(y): return f"{-y} BCE" if y < 0 else (f"{y} CE" if y < 1000 else str(y))
 ANC = list(range(-3400, -800, 100)) + list(range(-800, 1400, 50))

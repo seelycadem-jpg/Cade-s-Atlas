@@ -1,10 +1,11 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE
 import json, sys
-sys.path.insert(0, "/home/claude")
+sys.path.insert(0, ROOT)
 import arc_japan, arc_ww2, arc_africa
 from rewrites import TOP
 
 M = {"P":"political","W":"war","E":"economic","I":"ideas","R":"religion","S":"science","C":"culture"}
-D = json.load(open("/home/claude/site/data.json"))
+D = json.load(open(SITE + "/data.json"))
 EV = D["events"]
 
 EXTRA_T1 = {
@@ -102,7 +103,7 @@ for A in ARCS:
     A["items"].sort(key=lambda it: (ids[it["id"]]["y"], ids[it["id"]].get("m",0)))
 EV.sort(key=lambda e: (e["y"], e.get("m",6), e["r"]))
 D["arcs"]=ARCS
-json.dump(D, open("/home/claude/site/data.json","w"), ensure_ascii=False, separators=(",",":"))
+json.dump(D, open(SITE + "/data.json","w"), ensure_ascii=False, separators=(",",":"))
 from collections import Counter
 print("events",len(EV), Counter(e["tier"] for e in EV), "arcs", [(a["id"],len(a["items"])) for a in ARCS])
 print("edges", sum(len(e["causes"]) for e in EV))

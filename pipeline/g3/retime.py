@@ -3,16 +3,17 @@ The reference record changes its shapes at sample years. For each researched cha
 year T), find where the record makes the same change at that place (year T', within 35 years) and move that change
 of the two polities' shapes to T: B's new shape starts at T and A's old shape ends at T (with their neighbouring
 versions adjusted to meet). Where several places date the same change, the median year is used.
-Input /tmp/g3/rows.json, output /tmp/g3/rows_t.json and /tmp/g3/retime_log.json."""
+Input work/g3/rows.json, output work/g3/rows_t.json and work/g3/retime_log.json."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import ROOT, WORK
 import json, os, sys, glob, statistics, collections
 from shapely.geometry import shape, Point
 from shapely import STRtree
 from shapely.validation import make_valid
-sys.path.insert(0, "/home/claude/review"); from names import same
+sys.path.insert(0, ROOT + "/review"); from names import same
 EVID = os.environ.get("EVID", "all")
-CP = [p for f in sorted(glob.glob("/home/claude/review/cp/*.json")) for p in json.load(open(f))["places"]]
+CP = [p for f in sorted(glob.glob(ROOT + "/review/cp/*.json")) for p in json.load(open(f))["places"]]
 if EVID != "all": CP = [p for i, p in enumerate(CP) if (i % 2 == 0) == (EVID == "even")]
-ROWS = json.load(open(os.environ.get("IN", "/tmp/g3/rows.json")))
+ROWS = json.load(open(os.environ.get("IN", WORK + "/g3/rows.json")))
 P = [r["properties"] for r in ROWS]
 G = [make_valid(shape(r["geometry"])) for r in ROWS]
 T = STRtree(G)
@@ -66,6 +67,6 @@ for (a0, b0, Tp), ts in props.items():
     edits.update(ch); log.append({"from": A, "to": B, "record": Tp, "research": Tn, "places": len(ts)})
 for i, (k, v) in edits.items(): P[i][k] = v
 ROWS = [r for r in ROWS if r["properties"]["a"] < r["properties"]["b"]]
-json.dump(ROWS, open(os.environ.get("OUT", "/tmp/g3/rows_t.json"), "w"))
-json.dump(log, open(os.environ.get("LOG", "/tmp/g3/retime_log.json"), "w"), indent=0)
+json.dump(ROWS, open(os.environ.get("OUT", WORK + "/g3/rows_t.json"), "w"))
+json.dump(log, open(os.environ.get("LOG", WORK + "/g3/retime_log.json"), "w"), indent=0)
 print("changes moved", len(log), "rows edited", len(edits))

@@ -1,32 +1,33 @@
 """Evidence-checked repairs to the period maps, from the survey maps (historical-basemaps), applied only where the
-independent dated research (control points, /home/claude/review/cp) confirms them:
+independent dated research (control points, pipeline/review/cp) confirms them:
   fill  - land the reference record leaves to 'peoples' becomes the survey's state there, when a researched place
           inside that land was ruled by that state in that period; the state takes the researched name.
   carve - land the reference record gives to a state becomes peoples' land, when the survey shows no state there and
           researched places inside it were ruled by no state in that period (and none was ruled by that state).
-Input /tmp/g3/snaps, output /tmp/g3/snaps2 (same format; repaired features carry fx='fill'|'carve')."""
+Input work/g3/snaps, output work/g3/snaps2 (same format; repaired features carry fx='fill'|'carve')."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import ROOT, WORK
 import json, os, re, sys, glob
 from multiprocessing import Pool
 from shapely.geometry import shape, mapping, Point, MultiPolygon
 from shapely.ops import unary_union
 from shapely.validation import make_valid
 from shapely import STRtree
-sys.path.insert(0, "/home/claude/review"); from names import same
-OUT = "/tmp/g3/snaps2"; os.makedirs(OUT, exist_ok=True)
+sys.path.insert(0, ROOT + "/review"); from names import same
+OUT = WORK + "/g3/snaps2"; os.makedirs(OUT, exist_ok=True)
 PEOPLES = re.compile(r"hunter|gatherer|peoples|cultures|culture$|nomad|aboriginal|tribes|^maori|polynesian|papuan|inuit|^san$|khoisan|siberian|farmers|chiefdoms|^bantu|herders|pastoralist|forager|bedouin|indigenous|nations$|clans|tribal", re.I)
-CP = [p for f in sorted(glob.glob("/home/claude/review/cp/*.json")) for p in json.load(open(f))["places"]]
+CP = [p for f in sorted(glob.glob(ROOT + "/review/cp/*.json")) for p in json.load(open(f))["places"]]
 EVID = os.environ.get("EVID", "all"); MODE = os.environ.get("MODE", "point")  # 'even' uses every other place as evidence, so the rest can test the repair fairly
 if EVID != "all": CP = [p for i, p in enumerate(CP) if (i % 2 == 0) == (EVID == "even")]
-OUT = os.environ.get("OUTS", OUT); os.makedirs(OUT, exist_ok=True); SRC = os.environ.get("SRC", "/tmp/g3/snaps"); SPANS = os.environ.get("SPANS", "/tmp/g3/spans.json")
+OUT = os.environ.get("OUTS", OUT); os.makedirs(OUT, exist_ok=True); SRC = os.environ.get("SRC", WORK + "/g3/snaps"); SPANS = os.environ.get("SPANS", WORK + "/g3/spans.json")
 def truth(p, y):
     for t in p["timeline"]:
         if t["from"] <= y < t["to"]: return t
-HBY = sorted(int(re.search(r"world_(\d+)", f).group(1)) for f in glob.glob("/tmp/hb2/geojson/world_*.geojson") if re.search(r"world_(\d+)\.geojson$", f) and 1300 <= int(re.search(r"world_(\d+)", f).group(1)) <= 1900)
+HBY = sorted(int(re.search(r"world_(\d+)", f).group(1)) for f in glob.glob(WORK + "/hb2/geojson/world_*.geojson") if re.search(r"world_(\d+)\.geojson$", f) and 1300 <= int(re.search(r"world_(\d+)", f).group(1)) <= 1900)
 HB = {}
 def hb(y):
     if y not in HB:
         fs = []
-        for f in json.load(open(f"/tmp/hb2/geojson/world_{y}.geojson"))["features"]:
+        for f in json.load(open(f"{WORK}/hb2/geojson/world_{y}.geojson"))["features"]:
             if not f.get("geometry"): continue
             try: g = make_valid(shape(f["geometry"]))
             except Exception: continue

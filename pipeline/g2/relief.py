@@ -1,8 +1,9 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, WORK
 import numpy as np
 from PIL import Image
 from scipy.ndimage import gaussian_filter
 Image.MAX_IMAGE_PIXELS=None
-im=Image.open('/tmp/bmdx/shadedrelief.jpg').convert('RGB').resize((5400,2700),Image.LANCZOS)
+im=Image.open(WORK + '/bmdx/shadedrelief.jpg').convert('RGB').resize((5400,2700),Image.LANCZOS)
 a=np.asarray(im).astype(np.float32)
 L=0.299*a[...,0]+0.587*a[...,1]+0.114*a[...,2]
 ocean=(a[...,2]>a[...,0]+20)&(a[...,2]>a[...,1]+2)
@@ -13,6 +14,6 @@ D=(L-B)*land
 edge=gaussian_filter(land,1.5); D*=np.clip((edge-0.5)*2,0,1)
 print('std',D[land>0].std())
 out=(128+D*2.2).clip(0,255).astype(np.uint8)
-Image.fromarray(out).resize((4320,2160),Image.LANCZOS).save('/home/claude/atlas/maps/relief.jpg',quality=74,optimize=True)
-Image.fromarray(out).crop((2600,500,3600,1100)).save('/tmp/bmdx/relief_crop.png')
-import os; print(os.path.getsize('/home/claude/atlas/maps/relief.jpg'))
+Image.fromarray(out).resize((4320,2160),Image.LANCZOS).save(MAPS + '/relief.jpg',quality=74,optimize=True)
+Image.fromarray(out).crop((2600,500,3600,1100)).save(WORK + '/bmdx/relief_crop.png')
+import os; print(os.path.getsize(MAPS + '/relief.jpg'))

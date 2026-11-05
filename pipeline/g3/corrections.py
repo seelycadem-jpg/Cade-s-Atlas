@@ -1,10 +1,11 @@
 """Corrections to the reference record's labels, each found by the border review (control-point research,
-/home/claude/review/cp) and checked against the dated sources cited there. Shapes are not redrawn: a correction
+pipeline/review/cp) and checked against the dated sources cited there. Shapes are not redrawn: a correction
 renames a polity, sets its overlord, or moves the misfiled part of a shape to the polity research places there.
-Input /tmp/g3/rows.json, output /tmp/g3/rows_c.json and /tmp/g3/corrections_log.json."""
+Input work/g3/rows.json, output work/g3/rows_c.json and work/g3/corrections_log.json."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import WORK
 import json, os
 from shapely.geometry import shape, mapping, MultiPolygon
-ROWS = json.load(open(os.environ.get("IN", "/tmp/g3/rows.json")))
+ROWS = json.load(open(os.environ.get("IN", WORK + "/g3/rows.json")))
 def W(g):  # west bound
     return shape(g).bounds[0]
 def parts(g):
@@ -74,6 +75,6 @@ for r in ROWS:
             if "NAME" in ch: p.pop("AKA", None)
             log.append({"row": old.get("NAME") or p["NAME"], "a": p["a"], "b": p["b"], "change": ch, "why": why}); break
     out.append(r)
-json.dump(out, open(os.environ.get("OUT", "/tmp/g3/rows_c.json"), "w"))
-json.dump(log, open("/tmp/g3/corrections_log.json", "w"), indent=0, ensure_ascii=False)
+json.dump(out, open(os.environ.get("OUT", WORK + "/g3/rows_c.json"), "w"))
+json.dump(log, open(WORK + "/g3/corrections_log.json", "w"), indent=0, ensure_ascii=False)
 print("rows corrected", len(log), "split", split)

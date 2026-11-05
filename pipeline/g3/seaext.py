@@ -1,16 +1,17 @@
 """Extend every period-map shape a little way out to sea, so the globe can draw the coast from one exact
 land layer (a sea mask over the states) instead of repeating the full coastline in every state of every period.
 Each shape g becomes: (g simplified, buffered 0.12 deg) minus all land that is not g. Its inland borders stay
-exact; its sea edge is a rough outline hidden under the mask. Output /tmp/g3/snapx/s{a}.geojson."""
+exact; its sea edge is a rough outline hidden under the mask. Output work/g3/snapx/s{a}.geojson."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import WORK
 import json, os, sys, hashlib
 from multiprocessing import Pool
 from shapely.geometry import shape, mapping, box, MultiPolygon
 from shapely.ops import unary_union
 from shapely.validation import make_valid
 from shapely import STRtree
-OUT = "/tmp/g3/snapx"; os.makedirs(OUT, exist_ok=True)
+OUT = WORK + "/g3/snapx"; os.makedirs(OUT, exist_ok=True)
 B = 0.12
-LANDF = json.load(open("/tmp/g3/landgl.geojson"))["features"]
+LANDF = json.load(open(WORK + "/g3/landgl.geojson"))["features"]
 def polys(g):
     if g is None or g.is_empty: return []
     if g.geom_type == "Polygon": return [g]
@@ -39,10 +40,10 @@ def key(gj): return hashlib.md5(json.dumps(gj, sort_keys=True).encode()).hexdige
 def job(item):
     k, gj = item; return k, extend(gj)
 if __name__ == "__main__":
-    spans = json.load(open("/tmp/g3/spans.json"))
+    spans = json.load(open(WORK + "/g3/spans.json"))
     only = [int(x) for x in sys.argv[1:]]
     if only: spans = [s for s in spans if s[0] in only]
-    files = {a: json.load(open(f"/tmp/g3/snaps/s{a}.geojson")) for a, b in spans}
+    files = {a: json.load(open(f"{WORK}/g3/snaps/s{a}.geojson")) for a, b in spans}
     uniq = {}
     for fc in files.values():
         for f in fc["features"]: uniq.setdefault(key(f["geometry"]), f["geometry"])

@@ -1,20 +1,21 @@
 """Fill every piece of land, as a grand-strategy map does.
 For each period map (SRC/s{a}.geojson):
  1. open land = the peoples' land plus any land no feature covers (islands, slivers);
- 2. polities from the researched gazetteer (/home/claude/review/gaz/*.json) that the period's map lacks take the open
+ 2. polities from the researched gazetteer (pipeline/review/gaz/*.json) that the period's map lacks take the open
     land around their seats: each gets the part of its researched extent (or reach) nearest its own seat;
  3. open land left that is not peoples' land (islands, slivers) goes to the nearest state within ISL degrees,
     otherwise to the nearest peoples' land; inland peoples' land stays as the peoples of its region.
 Writes OUTS/s{a}.geojson; filled features carry fx='gaz' (approximate extent) or fx='isl'."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import ROOT, WORK
 import json, os, sys, glob, math
 from multiprocessing import Pool
 from shapely.geometry import shape, mapping, Point, MultiPolygon, Polygon, MultiPoint, box
 from shapely.ops import unary_union, nearest_points
 from shapely.validation import make_valid
 from shapely import STRtree, voronoi_polygons, prepare
-sys.path.insert(0, "/home/claude/review"); from names import same
-SRC = os.environ.get("SRC", "/tmp/g3/snapsF2"); OUT = os.environ.get("OUTS", "/tmp/g3/snapsG"); os.makedirs(OUT, exist_ok=True)
-SPANS = os.environ.get("SPANS", "/tmp/g3/spans_f.json")
+sys.path.insert(0, ROOT + "/review"); from names import same
+SRC = os.environ.get("SRC", WORK + "/g3/snapsF2"); OUT = os.environ.get("OUTS", WORK + "/g3/snapsG"); os.makedirs(OUT, exist_ok=True)
+SPANS = os.environ.get("SPANS", WORK + "/g3/spans_f.json")
 ISL = 4.0  # an island goes to the nearest state within this many degrees
 def polys(g):
     if g is None or g.is_empty: return []
@@ -24,11 +25,11 @@ def polys(g):
 def km2(g):
     return 0 if g.is_empty else abs(g.area) * 111.32 ** 2 * math.cos(math.radians(g.representative_point().y))
 def mp(ps): return ps[0] if len(ps) == 1 else MultiPolygon(ps)
-LAND = [p for f in json.load(open("/tmp/g3/landgl.geojson"))["features"] for p in polys(make_valid(shape(f["geometry"]))) if p.bounds[1] > -60]
+LAND = [p for f in json.load(open(WORK + "/g3/landgl.geojson"))["features"] for p in polys(make_valid(shape(f["geometry"]))) if p.bounds[1] > -60]
 LT = STRtree(LAND)
 # ---- gazetteer ----
 GAZ = []
-for f in sorted(glob.glob("/home/claude/review/gaz/*.json")):
+for f in sorted(glob.glob(ROOT + "/review/gaz/*.json")):
     try: d = json.load(open(f))
     except Exception as e: print("bad gazetteer", f, e, file=sys.stderr); continue
     for p in d.get("polities", []):

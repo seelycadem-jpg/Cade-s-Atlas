@@ -1,6 +1,7 @@
 """Assemble maps/pieces.json (dated and undated transfers) and maps/changes.json (the yearly ledger)."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, ROOT, WORK
 import json, glob, subprocess, re
-G = "/home/claude/g2"; M = "/home/claude/atlas/maps"
+G = ROOT + "/g2"; M = MAPS
 P = json.load(open(f"{G}/pieces.json"))
 gj = json.load(open(f"{G}/pieces.geojson"))
 D = {}
@@ -23,8 +24,8 @@ for i, p in enumerate(P):
     feats.append({"type": "Feature", "properties": props, "geometry": gj["features"][i]["geometry"]})
     if d["k"] == "dated" and d["y"] < 1886 and not d.get("fixup"):
         changes.append(dict(y=d["y"], d=str(d["y"]), t=d["t"] or f"{p['to']} takes land from {p['frm']}", k="transfer", lon=p["lon"], lat=p["lat"], ar=p["ar"], src="pc"))
-json.dump({"type": "FeatureCollection", "features": feats}, open("/tmp/pieces_kept.geojson", "w"))
-subprocess.run(["mapshaper", "-i", "/tmp/pieces_kept.geojson", "name=pieces", "-o", "format=topojson", "precision=0.01", f"{M}/pieces.json"], check=True, capture_output=True)
+json.dump({"type": "FeatureCollection", "features": feats}, open(WORK + "/pieces_kept.geojson", "w"))
+subprocess.run(["mapshaper", "-i", WORK + "/pieces_kept.geojson", "name=pieces", "-o", "format=topojson", "precision=0.01", f"{M}/pieces.json"], check=True, capture_output=True)
 # survey notes: when a new survey map takes over, say how much changed at unrecorded dates
 YEARS = [1400, 1500, 1530, 1600, 1650, 1700, 1715, 1783, 1800, 1815, 1880]
 for i, a in enumerate(YEARS[1:], 1):

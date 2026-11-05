@@ -5,15 +5,16 @@ Each chunk file maps/g/c{start}.json holds the polities (base territories), the 
 for every row alive in [start, start+STEP). Feature properties:
   id, NAME, SUBJECTO (the union or overlord, when the territory is a member rather than the core), AKA (the
   name the older surveys give the same land, for profiles), a, b (first year, year after the last), lp, ar, bl, k (b|u|p)."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, ROOT, WORK
 import json, re, math, os, subprocess, sys
 from shapely.geometry import shape, mapping
 from shapely.ops import polylabel
 from shapely.validation import make_valid
 from shapely import STRtree
-OUT = "/home/claude/atlas/maps/g"; os.makedirs(OUT, exist_ok=True)
+OUT = MAPS + "/g"; os.makedirs(OUT, exist_ok=True)
 STEP = 20
-base = json.load(open("/tmp/g3/base_s.geojson"))["features"]
-agg = json.load(open("/tmp/g3/agg_s.geojson"))["features"]
+base = json.load(open(WORK + "/g3/base_s.geojson"))["features"]
+agg = json.load(open(WORK + "/g3/agg_s.geojson"))["features"]
 def km2(g):
     if g.is_empty: return 0
     return abs(g.area) * 111.32 ** 2 * math.cos(math.radians(g.representative_point().y))
@@ -58,15 +59,15 @@ def mapYear(y): return max(m for m in MAPY if m <= y)
 SV = {}
 def survey(my):
     if my not in SV:
-        subprocess.run(["mapshaper", "-i", f"/home/claude/atlas/maps/w{my}.json", "-o", "format=geojson", f"/tmp/g3/w{my}.geojson"], check=True, capture_output=True)
-        F = [(make_valid(shape(f["geometry"])), f["properties"].get("NAME") or "") for f in json.load(open(f"/tmp/g3/w{my}.geojson"))["features"] if f.get("geometry")]
+        subprocess.run(["mapshaper", "-i", f"{MAPS}/w{my}.json", "-o", "format=geojson", f"{WORK}/g3/w{my}.geojson"], check=True, capture_output=True)
+        F = [(make_valid(shape(f["geometry"])), f["properties"].get("NAME") or "") for f in json.load(open(f"{WORK}/g3/w{my}.geojson"))["features"] if f.get("geometry")]
         F = [(g, n) for g, n in F if n]
         SV[my] = (F, STRtree([g for g, n in F]))
     return SV[my]
 PEOPLES = re.compile(r"hunter|gatherer|peoples|cultures|culture$|nomad|aboriginal|tribes|^maori$|^polynesians$|^papuans$|^inuit|^san$|^khoisan$|^siberians$|cereal farmers|chiefdoms|^bantu|herders|pastoralists|foragers|bedouin|indigenous|nations$", re.I)
-src = open("/home/claude/g2/fillblank.py").read()
+src = open(ROOT + "/g2/fillblank.py").read()
 REGIONS = eval(src[src.index("REGIONS = [") + len("REGIONS = "): src.index("]\ndef km2") + 1])
-land = json.load(open("/tmp/land.geojson"))
+land = json.load(open(WORK + "/land.geojson"))
 # a generous, simplified coastline: it cuts away land drawn far out to sea, while each record keeps its own coast
 LANDP = [make_valid(make_valid(shape(g)).simplify(0.05).buffer(0.15)) for g in land["geometries"]]; LT = STRtree(LANDP)
 def onland(g):
@@ -140,6 +141,6 @@ for q in peoples:
     g = make_valid(shape(q["geometry"])); ps = polys(g)
     if ps:
         big = max(ps, key=lambda x: x.area); lp = big.representative_point(); q["properties"]["lp"] = [round(lp.x, 2), round(lp.y, 2)]; q["properties"]["bl"] = round(km2(big))
-json.dump(rows, open("/tmp/g3/rows.json", "w"))
-json.dump([{"n": q["properties"]["NAME"], "a": q["properties"]["a"], "b": q["properties"]["b"], "geometry": q["geometry"]} for q in peoples], open("/tmp/g3/peoples.json", "w"))
+json.dump(rows, open(WORK + "/g3/rows.json", "w"))
+json.dump([{"n": q["properties"]["NAME"], "a": q["properties"]["a"], "b": q["properties"]["b"], "geometry": q["geometry"]} for q in peoples], open(WORK + "/g3/peoples.json", "w"))
 print("rows", len(rows), "peoples", len(peoples))

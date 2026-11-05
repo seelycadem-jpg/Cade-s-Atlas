@@ -2,22 +2,23 @@
 Each chunk is one topology, so a border shared by two states is a single line: the stair-steps the source
 maps carry (they were traced from scans) are removed by simplifying and then rounding (Chaikin) every inland
 border once, which keeps neighbours meeting exactly. Coastlines are left as the real coast."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import MAPS, WORK
 import json, os, subprocess, sys
 import numpy as np
 from shapely.geometry import shape, LineString
 from shapely.ops import unary_union
 from shapely import prepare, contains_xy
-IN = os.environ.get("SNAPS","/tmp/g3/snaps"); OUT = os.environ.get("OUTG","/home/claude/atlas/maps/g"); ONLY=[int(x) for x in sys.argv[1:]]; os.makedirs(OUT, exist_ok=True)
+IN = os.environ.get("SNAPS",WORK + "/g3/snaps"); OUT = os.environ.get("OUTG",MAPS + "/g"); ONLY=[int(x) for x in sys.argv[1:]]; os.makedirs(OUT, exist_ok=True)
 STEP = 20
 SMT = float(os.environ.get('SMT', '0.004'))  # rounded borders keep a point only where it bends by more than this (degrees)
-spans = json.load(open(os.environ.get("SPANS", "/tmp/g3/spans.json")))
+spans = json.load(open(os.environ.get("SPANS", WORK + "/g3/spans.json")))
 feats = []
 for a, b in spans:
     fn = f"{IN}/s{a}.geojson"
     if not os.path.exists(fn): print("missing", a, file=sys.stderr); continue
     for f in json.load(open(fn))["features"]:
         f["properties"]["id"] = len(feats) + 1; feats.append(f)
-land = json.load(open("/tmp/g3/landgl.geojson"))["features"]
+land = json.load(open(WORK + "/g3/landgl.geojson"))["features"]
 coast = unary_union([shape(f["geometry"]).boundary for f in land]).buffer(2e-4)
 prepare(coast)
 LANDU = unary_union([shape(f["geometry"]) for f in land]); prepare(LANDU)
@@ -34,9 +35,9 @@ for s in range(1400, 1886, STEP):
     e = min(1886, s + STEP)
     if ONLY and s not in ONLY: index.append([s, e]); continue
     sel = [f for f in feats if f["properties"]["a"] < e and f["properties"]["b"] > s]
-    json.dump({"type": "FeatureCollection", "features": sel}, open(f"/tmp/g3/k{s}.geojson", "w"))
-    subprocess.run(["mapshaper", "-i", f"/tmp/g3/k{s}.geojson", "name=c", "-o", "format=topojson", "precision=0.00001", f"/tmp/g3/k{s}.topo.json"], check=True, capture_output=True)
-    T = json.load(open(f"/tmp/g3/k{s}.topo.json"))
+    json.dump({"type": "FeatureCollection", "features": sel}, open(f"{WORK}/g3/k{s}.geojson", "w"))
+    subprocess.run(["mapshaper", "-i", f"{WORK}/g3/k{s}.geojson", "name=c", "-o", "format=topojson", "precision=0.00001", f"{WORK}/g3/k{s}.topo.json"], check=True, capture_output=True)
+    T = json.load(open(f"{WORK}/g3/k{s}.topo.json"))
     tr = T.get("transform")
     def dec(arc):
         if not tr: return [tuple(p[:2]) for p in arc]
@@ -49,7 +50,7 @@ for s in range(1400, 1886, STEP):
         xy = np.array(arc)
         onc = contains_xy(coast, xy[:, 0], xy[:, 1])
         if len(arc) < 3 or onc.all(): new.append([list(p) for p in arc]); kept += 1; continue
-        if IN != "/tmp/g3/snaps":
+        if IN != WORK + "/g3/snaps":
             sea = ~onc & ~contains_xy(LANDU, xy[:, 0], xy[:, 1])
             if sea.any():
                 # an outline out at sea, hidden under the sea mask: rough is fine (exact where it runs along a coast)
@@ -77,8 +78,8 @@ for s in range(1400, 1886, STEP):
                     p, q = G[i]["properties"], G[j]["properties"]
                     if p["a"] < q["b"] and q["a"] < p["b"]: nb[i].add(q["id"])
     for gi, g in enumerate(G): g["properties"]["nb"] = sorted(nb[gi])
-    json.dump(T, open(f"/tmp/g3/k{s}.sm.json", "w"))
-    subprocess.run(["mapshaper", "-i", f"/tmp/g3/k{s}.sm.json", "-o", "format=topojson", "quantization=400000", f"{OUT}/c{s}.json"], check=True, capture_output=True)
+    json.dump(T, open(f"{WORK}/g3/k{s}.sm.json", "w"))
+    subprocess.run(["mapshaper", "-i", f"{WORK}/g3/k{s}.sm.json", "-o", "format=topojson", "quantization=400000", f"{OUT}/c{s}.json"], check=True, capture_output=True)
     index.append([s, e])
     print(s, len(sel), os.path.getsize(f"{OUT}/c{s}.json") // 1024, "kb", file=sys.stderr, flush=True)
 json.dump({"step": STEP, "chunks": index}, open(f"{OUT}/index.json", "w"))

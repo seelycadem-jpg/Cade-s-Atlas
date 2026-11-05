@@ -3,14 +3,15 @@ For each span of years in which no recorded border changes, the polities alive a
 coverage of the land: overlaps go to the smaller territory, every state is cut to the real coastline,
 land within reach of a state that the record leaves uncovered (coastal strips, slivers between
 neighbours) goes to the nearest state, and what is left is the peoples of the region.
-Output: /tmp/g3/snaps/s{a}.geojson per period, features with a, b (span), k (b|p) and row properties."""
+Output: work/g3/snaps/s{a}.geojson per period, features with a, b (span), k (b|p) and row properties."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import WORK
 import json, math, os, re, sys
 from multiprocessing import Pool
 from shapely.geometry import shape, mapping, MultiPolygon, Polygon, MultiPoint, box
 from shapely.ops import unary_union, polylabel
 from shapely.validation import make_valid
 from shapely import STRtree, voronoi_polygons, prepare
-OUT = os.environ.get("OUTS", "/tmp/g3/snaps"); os.makedirs(OUT, exist_ok=True)
+OUT = os.environ.get("OUTS", WORK + "/g3/snaps"); os.makedirs(OUT, exist_ok=True)
 D = 0.6  # how far (degrees) a state may be extended over land the record leaves empty
 def polys(g):
     if g is None or g.is_empty: return []
@@ -21,15 +22,15 @@ def mp(ps): return ps[0] if len(ps) == 1 else MultiPolygon(ps)
 def km2(g):
     if g.is_empty: return 0
     return abs(g.area) * 111.32 ** 2 * math.cos(math.radians(g.representative_point().y))
-LANDF = json.load(open("/tmp/g3/landgl.geojson"))["features"]
+LANDF = json.load(open(WORK + "/g3/landgl.geojson"))["features"]
 LANDP = [make_valid(shape(f["geometry"])) for f in LANDF]
 LANDP = [p for g in LANDP for p in polys(g) if p.bounds[1] > -60]
 LT = STRtree(LANDP)
 def land_near(g):
     idx = LT.query(g)
     return unary_union([LANDP[j] for j in idx]) if len(idx) else Polygon()
-ROWS = json.load(open(os.environ.get("ROWS", "/tmp/g3/rows.json")))  # written by build.py: base rows with properties and geometry
-PEO = json.load(open("/tmp/g3/peoples.json"))  # survey peoples and regional names with a, b
+ROWS = json.load(open(os.environ.get("ROWS", WORK + "/g3/rows.json")))  # written by build.py: base rows with properties and geometry
+PEO = json.load(open(WORK + "/g3/peoples.json"))  # survey peoples and regional names with a, b
 def work(span):
     a, b = span
     act = [r for r in ROWS if r["properties"]["a"] <= a and r["properties"]["b"] >= b]
@@ -122,7 +123,7 @@ if __name__ == "__main__":
     bp = [x for x in bp if 1400 <= x <= 1886]
     spans = [(bp[i], bp[i + 1]) for i in range(len(bp) - 1)]
     todo = [s for s in spans if not os.path.exists(f"{OUT}/s{s[0]}.geojson")]
-    json.dump(spans, open(os.environ.get("SPANS", "/tmp/g3/spans.json"), "w"))
+    json.dump(spans, open(os.environ.get("SPANS", WORK + "/g3/spans.json"), "w"))
     print(len(spans), "periods,", len(todo), "to do", file=sys.stderr)
     with Pool(2) as pool:
         for a, n in pool.imap_unordered(safe, todo):

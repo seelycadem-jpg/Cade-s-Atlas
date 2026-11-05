@@ -1,3 +1,4 @@
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import SITE
 import json
 # Empires: key -> (display name, color, regex on SUBJECTO meaning "ruled by this empire", regex on NAME meaning "home territory")
 EMPIRES = {
@@ -130,5 +131,5 @@ RENAME = [
 json.dump(dict(empires={k:dict(name=v[0], color=v[1], rx=v[2], home=v[3]) for k,v in EMPIRES.items()},
                colonial=[dict(rx=a, a=b, b=c, emp=d, name=e) for a,b,c,d,e in C],
                rename=[dict(rx=a, ys=b, name=c, emp=d) for a,b,c,d in RENAME]),
-          open("/home/claude/site/rules.json","w"), ensure_ascii=False)
+          open(SITE + "/rules.json","w"), ensure_ascii=False)
 print(len(C), "colonial rules,", len(RENAME), "renames")

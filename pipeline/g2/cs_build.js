@@ -35,8 +35,8 @@ feats.forEach((f, i) => {
     lp: [+(pl[0] / k).toFixed(2), +pl[1].toFixed(2)], ar: Math.round(area * R * R), bl: +(ba * R * R).toFixed(0) };
   out.push({ i, ...g.properties, f });
 });
-fs.writeFileSync(__dirname + "/../atlas/maps/cs.json", JSON.stringify(T));
-fs.writeFileSync(__dirname + "/../atlas/maps/csnames.json", JSON.stringify(JSON.parse(fs.readFileSync(__dirname + "/names.json"))));
+fs.writeFileSync(__dirname + "/../../site/maps/cs.json", JSON.stringify(T));
+fs.writeFileSync(__dirname + "/../../site/maps/csnames.json", JSON.stringify(JSON.parse(fs.readFileSync(__dirname + "/names.json"))));
 
 // ---------- the change ledger ----------
 const byG = {}; out.forEach(o => (byG[o.g] = byG[o.g] || []).push(o)); Object.values(byG).forEach(a => a.sort((x, y) => x.a - y.a));

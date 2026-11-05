@@ -1,12 +1,13 @@
 """Stage: analytical rewrite. Bottom line up front, causes, trigger, consequences, legacy, takeaway."""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '.')); from paths import ROOT, SITE
 import json, importlib, glob, re, os, sys
-sys.path.insert(0, "/home/claude")
-P = "/home/claude/site/data.json"
+sys.path.insert(0, ROOT)
+P = SITE + "/data.json"
 d = json.load(open(P))
 E = {e["id"]: e for e in d["events"]}
 OK = {"bluf", "why", "trig", "then", "now", "lens", "story", "who", "hook", "fact", "myth"}
 n = {k: 0 for k in OK}; seen = set(); setf = set()
-mods = sorted(glob.glob("/home/claude/an[0-9][0-9].py"))
+mods = sorted(glob.glob(ROOT + "/an[0-9][0-9].py"))
 for path in mods:
     M = importlib.import_module(os.path.basename(path)[:-3])
     for i, v in M.A.items():

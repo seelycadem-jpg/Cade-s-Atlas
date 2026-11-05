@@ -36,6 +36,10 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 
 ## Read before writing atlas text
 
+- `docs/architecture.md`: how the site is built: a page per thing, scripts only where needed,
+  slices and tiles, budgets that fail the build. Read before writing code in `app/`.
+- `docs/vision.md`: what the atlas is for and how it differs from an encyclopedia. Every
+  phase, page and screen is judged against it.
 - `docs/event-pages.md`: the event page: walls and room, the four layers, word budgets by
   tier, a rule per section, sourcing, the file template, the Paris worked example and a
   failing Overview. Agreed 2026-11-03; it wins where older rules conflict.

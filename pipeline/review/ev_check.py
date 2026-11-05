@@ -1,5 +1,6 @@
 """Check written events against the schema and the house voice.
   python3 ev_check.py file.json [more.json ...]   -> prints problems per event and a summary"""
+import os as _os, sys as _sys; _sys.path.insert(0, _os.path.join(_os.path.dirname(_os.path.abspath(__file__)), '..')); from paths import ROOT, SITE
 import json, re, sys
 REQ = ["id", "y", "r", "tier", "h", "who", "where", "lat", "lon", "hook", "what", "why", "story", "then", "now", "fact", "bluf", "wk", "c", "t", "causes", "w", "map"]
 REG = {"eu", "me", "sa", "ea", "se", "af", "na", "la", "oc"}
@@ -35,8 +36,8 @@ def check(e, ids):
 if __name__ == "__main__":
     allev = []
     for f in sys.argv[1:]: allev += json.load(open(f))
-    known = {e["id"] for e in allev} | {e["id"] for e in json.load(open("/home/claude/site/data.json"))["events"]}
-    try: known |= {e["id"] for e in json.load(open("/home/claude/review/events_anc/select.json"))}
+    known = {e["id"] for e in allev} | {e["id"] for e in json.load(open(SITE + "/data.json"))["events"]}
+    try: known |= {e["id"] for e in json.load(open(ROOT + "/review/events_anc/select.json"))}
     except Exception: pass
     bad = 0
     for e in allev:
