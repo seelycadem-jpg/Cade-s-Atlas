@@ -1,6 +1,6 @@
 <title>Atlas Story Page v2</title>
 <meta name="claude:viewport-fit-sides" content="cover">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
 <script src="atlas-data.js"></script>
@@ -13,7 +13,7 @@
   --k-person:#8C2F39; --k-polity:#2F6B4F; --k-chron:#5B4A8A; --k-feature:#7A5A2E;
   --sea:#DCE5EA; --land:#EFEAE0; --coast:#8B93A0; --grat:#CFD8DE; --border:rgba(31,78,121,.55); --here:rgba(31,78,121,.16);
   --scrim:rgba(26,31,43,.42); --shadow:0 10px 32px rgba(26,31,43,.14); --shadow2:0 2px 10px rgba(26,31,43,.08);
-  --display:"Newsreader",Georgia,"Times New Roman",serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,-apple-system,sans-serif;
+  --display:"EB Garamond","Newsreader",Georgia,"Times New Roman",serif; --label:"EB Garamond",Georgia,serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,-apple-system,sans-serif;
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
@@ -47,10 +47,19 @@ a{color:inherit}
 .stage .gw{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;pointer-events:auto}
 .stage canvas{display:block;border-radius:50%;touch-action:none;box-shadow:var(--shadow2)}
 .stage .tw{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;pointer-events:auto;width:calc(100vw - 32px);max-width:40rem}
-.stage .tw h1{font:500 clamp(34px,8.6vw,46px)/1.06 var(--display);margin:0;letter-spacing:-.012em;text-wrap:balance}
+.stage .tw h1{font:500 clamp(38px,9.6vw,52px)/1.02 var(--display);margin:0;letter-spacing:-.008em;text-wrap:balance}
 .stage .tw .sub{font:14px/1.4 var(--ui);color:var(--ink2);margin:8px 0 0;display:flex;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
 .stage .tw .sub b{color:var(--accent);font-weight:600}
-.stage .kicker{font:13px/1.4 var(--ui);color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.stage .tw .counts{display:flex;gap:6px 14px;flex-wrap:wrap;margin:12px 0 0;font:13px/1.4 var(--ui);color:var(--ink2)}
+.stage .tw .counts span{display:inline-flex;align-items:center;gap:6px}
+.stage .tw .counts b{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.stage .tw .pn{display:flex;justify-content:space-between;gap:10px;margin:14px 0 0;font:14px/1.3 var(--ui);color:var(--ink2);border-top:1px solid var(--rule);padding-top:10px}
+.stage .tw .pn button{color:var(--ink);display:inline-flex;flex-direction:column;align-items:flex-start;gap:1px;min-height:40px;justify-content:center}
+.stage .tw .pn button.next{align-items:flex-end;text-align:right}
+.stage .tw .pn .lab{font:500 11px/1.3 var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.stage .tw .pn .t{font:500 17px/1.2 var(--display)}
+.stage .hsub .nx{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px;margin-left:6px}
+.stage .kicker{font:500 14px/1.4 var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .stage .hsub{position:absolute;left:0;top:0;font:12px/1.3 var(--ui);color:var(--ink2);opacity:0;pointer-events:auto;white-space:nowrap}
 .stage .topbar{position:absolute;top:8px;left:max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;pointer-events:auto}
 .back{display:inline-flex;align-items:center;gap:4px;min-height:38px;min-width:38px;padding:0 12px 0 8px;border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--ink);font:13px/1 var(--ui);box-shadow:var(--shadow2);transition:padding .2s}
@@ -71,7 +80,7 @@ a{color:inherit}
 
 /* The opening lines under the title, in the flow. */
 .open{margin:0 0 6px}
-.open .line{font:italic 400 19px/1.45 var(--display);color:var(--ink2);margin:0 0 14px;max-width:34rem;text-wrap:pretty}
+.open .line{font:italic 400 21px/1.4 var(--display);color:var(--ink2);margin:0 0 14px;max-width:34rem;text-wrap:pretty}
 .strong{display:grid;gap:8px;font:14px/1.45 var(--ui);color:var(--ink2);margin:0 0 20px}
 .strong .a{display:grid;grid-template-columns:1.2rem 1fr;gap:8px;align-items:baseline}
 .strong .a .d{color:var(--accent);font-weight:600}
@@ -83,9 +92,9 @@ a{color:inherit}
 .lmark{display:flex;align-items:baseline;gap:10px;margin:38px 0 6px;font:12px/1.3 var(--ui);color:var(--ink3)}
 .lmark b{font:600 13px/1.3 var(--ui);color:var(--ink2);letter-spacing:.04em;text-transform:uppercase}
 .lmark::after{content:"";flex:1;border-top:1px solid var(--rule);align-self:center}
-h2{font:500 26px/1.15 var(--display);margin:34px 0 10px;letter-spacing:-.006em}
-h3{font:500 19px/1.3 var(--display);margin:20px 0 6px}
-.lede{font:400 21px/1.5 var(--display);margin:0 0 14px;text-wrap:pretty}
+h2{font:500 30px/1.12 var(--display);margin:34px 0 10px;letter-spacing:-.004em}
+h3{font:500 22px/1.25 var(--display);margin:20px 0 6px}
+.lede{font:400 21px/1.5 var(--body);margin:0 0 14px;text-wrap:pretty}
 p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .why{display:grid;gap:10px;margin:0 0 14px}
 .why .f{display:grid;grid-template-columns:5.2rem 1fr;gap:12px;align-items:start}
@@ -107,8 +116,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .tl .so{font:15px/1.45 var(--body);color:var(--ink)}
 .nextprev{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:26px 0 0}
 .nextprev button{border:1px solid var(--rule);border-radius:12px;padding:10px 12px;min-height:56px;background:var(--surface);display:flex;flex-direction:column;gap:2px;box-shadow:var(--shadow2)}
-.nextprev .lab{font:11px/1.3 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase}
-.nextprev .t{font:500 16px/1.25 var(--display);color:var(--ink)}
+.nextprev .lab{font:500 12px/1.3 var(--label);color:var(--ink3);letter-spacing:.12em;text-transform:uppercase}
+.nextprev .t{font:500 19px/1.2 var(--display);color:var(--ink)}
 .nextprev .d{font:12px/1.3 var(--ui);color:var(--ink2)}
 .nextprev button.next{text-align:right;align-items:flex-end}
 .setup{display:flex;flex-wrap:wrap;gap:8px 16px;margin:0 0 12px}
@@ -273,20 +282,19 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .strip .tk{transition:color .25s}
 .strip .tk i{transition:transform .25s,box-shadow .25s}
 .strip .tk.live{color:var(--ink);font-weight:600}
-.strip .tk.live i{transform:scale(1.45);box-shadow:0 0 0 1px var(--accent),0 0 0 5px color-mix(in srgb,var(--accent) 18%,transparent)}
+.strip .tk.live i{transform:scale(1.5);box-shadow:0 0 0 1px var(--accent),0 0 0 5px color-mix(in srgb,var(--accent) 18%,transparent)}
 .strip .tk.done i{background:var(--ink3);box-shadow:0 0 0 1px var(--ink3)}
-.chap{transition:opacity .35s,transform .35s;transform-origin:0 0}
-.chap h3{font-size:19px;transition:font-size .35s}
-.chaps.spy .chap:not(.live){opacity:.5;transform:scale(.965)}
-.chaps.spy .chap.live h3{font-size:23px}
-@media (prefers-reduced-motion: reduce){.chaps.spy .chap:not(.live){transform:none}}
+.strip .bar{position:absolute;left:4px;top:12px;height:0;border-top:2px solid var(--accent);width:0;transition:width .25s}
+.chap{--t:1;opacity:calc(.48 + .52*var(--t));transform:scale(calc(.97 + .03*var(--t)));transform-origin:50% 40%;transition:opacity .12s linear,transform .12s linear}
+.chap h3{transform:scale(calc(.88 + .12*var(--t)));transform-origin:0 100%;transition:transform .12s linear}
+@media (prefers-reduced-motion: reduce){.chap{transform:none!important}.chap h3{transform:none!important}}
 .strip .axis{position:absolute;left:4px;right:4px;top:12px;border-top:1px solid var(--rule)}
 .strip .tk{position:absolute;top:0;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;width:19%;min-height:44px;font:10.5px/1.2 var(--ui);color:var(--ink2);text-align:center;text-decoration:none}
 .strip .tk i{width:11px;height:11px;border-radius:50%;background:var(--accent);display:block;margin:7px 0 2px;border:2px solid var(--bg);box-shadow:0 0 0 1px var(--accent)}
-.strip .tk .yr{color:var(--accent);font-weight:600;font-variant-numeric:tabular-nums}
+.strip .tk .yr{color:var(--accent);font:600 13px/1.2 var(--label);letter-spacing:.06em;font-variant-numeric:tabular-nums}
 .chap{margin:0 0 4px;scroll-margin-top:200px}
 .chap h3{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:14px 0 4px}
-.chap h3 .n{font:600 12px/1.6 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase}
+.chap h3 .n{font:500 13px/1.6 var(--label);color:var(--ink3);letter-spacing:.12em;text-transform:uppercase}
 .chap .knot{font:12.5px/1.4 var(--ui);color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
 .chap .knot button{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px}
 .conn{display:grid;grid-template-columns:2rem 1fr;gap:10px;align-items:center;margin:4px 0 8px;min-height:44px}
@@ -317,7 +325,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 /* The chapter's knots and kids. */
 .brief .lede{font:400 21px/1.5 var(--display);margin:4px 0 14px}
 .kn{margin:6px 0 4px}
-.kh{font:600 12px/1.6 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase}
+.kh{font:500 13px/1.6 var(--label);color:var(--ink3);letter-spacing:.12em;text-transform:uppercase}
 .kn .tn{margin:0 0 6px}
 .kn .tn,.kids .tn{position:relative;padding-left:1.5rem}
 .kn .tn .dot,.kids .tn .dot{position:absolute;left:0;top:9px;margin:0}
@@ -332,6 +340,17 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 
 /* The key and the thread. */
 .key{display:flex;gap:14px;flex-wrap:wrap;font:12.5px/1.4 var(--ui);color:var(--ink2);margin:0 0 10px}
+.sep{display:flex;align-items:center;gap:12px;margin:40px 0 0;color:var(--ink3)}
+.sep::before,.sep::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.sep i{width:7px;height:7px;border:1px solid var(--ink3);transform:rotate(45deg);display:block}
+.sep+h2{margin-top:22px}
+.wander{display:flex;align-items:center;gap:12px;margin:26px 0 0;padding:14px 16px;border:1px solid var(--rule);border-radius:14px;background:var(--surface);box-shadow:var(--shadow2);width:100%;text-align:left}
+.wander .ic{width:38px;height:38px;border-radius:50%;border:1px solid var(--rule);display:grid;place-items:center;color:var(--accent);flex:none}
+.wander .t{font:500 18px/1.2 var(--display);color:var(--ink);display:block}
+.wander .d{font:12.5px/1.4 var(--ui);color:var(--ink2);margin-top:2px;display:block}
+.tip{position:fixed;z-index:30;max-width:260px;background:var(--ink);color:var(--bg);font:12.5px/1.4 var(--ui);padding:8px 10px;border-radius:8px;box-shadow:var(--shadow2);pointer-events:none;opacity:0;transition:opacity .15s}
+.tip.on{opacity:1}
+[data-tip]{cursor:help}
 .key span{display:inline-flex;align-items:center;gap:6px}
 .thread{position:relative;padding-left:2.2rem;margin:0 0 12px}
 .thread::before{content:"";position:absolute;left:11px;top:10px;bottom:10px;border-left:1.5px solid var(--rule)}
@@ -424,8 +443,10 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     <div class="kicker" id="kicker"><button class="lk chron" type="button" data-prev="chron:germany">Germany</button><span>›</span><span>story 8 of 12</span></div>
     <h1>Weimar Germany</h1>
     <div class="sub" id="sub"><span><b>1919</b> to 1933</span><span>·</span><span>Berlin</span><span>·</span><span>five chapters</span></div>
+    <div class="counts" id="counts"></div>
+    <div class="pn" id="pn"><button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">‹ The war</span></button><button type="button" class="next" data-prev="story:nazi"><span class="lab">Next story</span><span class="t">Nazi Germany ›</span></button></div>
   </div>
-  <div class="hsub" id="hsub"><button class="lk chron" type="button" data-prev="chron:germany">Germany</button> · story 8 of 12 · 1919 to 1933</div>
+  <div class="hsub" id="hsub"><button class="lk chron" type="button" data-prev="chron:germany">Germany</button> · 8 of 12 · <button type="button" class="nx" data-prev="story:nazi" data-tip="The next story in the Germany chronicle">Next: Nazi Germany ›</button></div>
   <div class="topbar">
     <button class="back" type="button" data-act="Back: the exact place and year you left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg><span>Back</span></button>
   </div>
@@ -448,7 +469,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 
   <section class="layer" id="chapters">
     <h2>Chapters</h2>
-    <p class="key"><span><i class="mk k"></i>knot: a major event</span><span><i class="mk s"></i>fibre: a smaller event inside it</span><span><i class="mk f"></i>strand: a smaller event still</span></p>
+    <p class="key"><span data-tip="A knot is the chapter's major event. It has a full page: significance, lasting impact, causes, effects, before and after."><i class="mk k"></i>knot: a major event</span><span data-tip="A fibre is a smaller event inside a knot: a treaty inside a settlement, a battle inside a war."><i class="mk s"></i>fibre: a smaller event inside it</span><span data-tip="A strand is a smaller event still: one vote, one signing, one day."><i class="mk f"></i>strand: a smaller event still</span></p>
     <div class="strip" id="chapStrip"></div>
     <div class="chaps" id="chaps"></div>
   </section>
@@ -461,10 +482,17 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     <button type="button" class="expand" id="expandBtn"><span>Open the full chain</span><span class="sub">one to three steps · show only one kind</span></button>
   </section>
 
+  <div class="sep" aria-hidden="true"><i></i></div>
   <section class="layer" id="meanwhile">
     <h2>Meanwhile</h2>
     <p class="take">What else was happening, 1919 to 1933, and where the atlas draws a line to this story.</p>
     <div class="mw" id="mw"></div>
+    <button type="button" class="wander" id="wander" data-tip="A random chronicle, story or event from the whole atlas"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></span><span><span class="t">Somewhere else</span><span class="d">Open a chronicle, story or event drawn at random.</span></span></button>
+    <div class="nextprev">
+      <button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">The war</span><span class="d">1914 to 1918</span></button>
+      <button type="button" class="next" data-prev="story:nazi"><span class="lab">Next story</span><span class="t">Nazi Germany</span><span class="d">1933 to 1945</span></button>
+    </div>
+    <div class="exits"><a href="https://en.wikipedia.org/wiki/Weimar_Republic">Wikipedia</a><a href="https://www.britannica.com/place/Weimar-Republic">Britannica</a></div>
   </section>
 
   <section class="layer" id="briefing" hidden>
@@ -484,11 +512,6 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
       <h3>The common misreading</h3>
       <p>That the hyperinflation of 1923 drove Germans to Hitler. Five years later, with the mark stable, the Nazis won 2.6 percent. The vote that made them a mass party came after 1929, with the Depression. The atlas grades the link from the hyperinflation to Hitler as coincident: same country, same decade, no line.</p>
     </div>
-    <div class="nextprev">
-      <button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">The war</span><span class="d">1914 to 1918</span></button>
-      <button type="button" class="next" data-prev="story:nazi"><span class="lab">Next story</span><span class="t">Nazi Germany</span><span class="d">1933 to 1945</span></button>
-    </div>
-    <div class="exits"><a href="https://en.wikipedia.org/wiki/Weimar_Republic">Wikipedia</a><a href="https://www.britannica.com/place/Weimar-Republic">Britannica</a></div>
   </section>
 </main>
 
@@ -577,8 +600,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     var g0x=(W-G)/2, g0y=-G*0.32, g1x=W-gutter-52, g1y=8, s1=52/G;
     gw.style.transform='translate('+lerp(g0x,g1x,e)+'px,'+lerp(g0y,g1y,e)+'px) scale('+lerp(1,s1,e)+')'; gw.style.opacity=String(lerp(1,0.78,e));
     var h1=tw.querySelector('h1'), t0y=G*0.66+10, t1y=10-kicker.offsetHeight*0.46, ts=lerp(1,0.46,e), t1x=gutter+50;
-    tw.style.transform='translate('+lerp(gutter,t1x,e)+'px,'+lerp(t0y,t1y,e)+'px) scale('+ts+')';
-    sub.style.opacity=kicker.style.opacity=String(Math.max(0,1-p*2.2)); hint.style.opacity=String(Math.max(0,1-p*3)); hint.style.pointerEvents=p>0.3?'none':'auto'; hint.style.top=lerp(t0y-44,-40,e)+'px';
+    var t0x=Math.max(gutter,(W-640)/2); tw.style.transform='translate('+lerp(t0x,t1x,e)+'px,'+lerp(t0y,t1y,e)+'px) scale('+ts+')';
+    sub.style.opacity=kicker.style.opacity=String(Math.max(0,1-p*2.2)); var cn=document.getElementById('counts'), pn=document.getElementById('pn'); cn.style.opacity=pn.style.opacity=String(Math.max(0,1-p*2.2)); pn.style.pointerEvents=cn.style.pointerEvents=p>0.3?'none':'auto'; hint.style.opacity=String(Math.max(0,1-p*3)); hint.style.pointerEvents=p>0.3?'none':'auto'; hint.style.top=lerp(t0y-44,-40,e)+'px'; hint.style.left=lerp(t0x,gutter,e)+'px';
     hsub.style.opacity=String(Math.max(0,(p-0.75)/0.25)); hsub.style.transform='translate('+t1x+'px,'+(10+h1.offsetHeight*0.46+4)+'px)';
     band.style.opacity=String(Math.max(0,(p-0.7)/0.3)); hIdx.classList.toggle('on',p>0.97); document.getElementById('pageIndex').classList.toggle('off',p>0.97);
     small=p>0.9; document.getElementById('stage').classList.toggle('small',small); hero.style.cursor=small?'pointer':'grab'; }
@@ -643,6 +666,18 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
       +'<button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,src); if(x.ll){ sheetPinned=true; turnTo(x.ll,true); } }
   function bindPrev(b){ b.addEventListener('click',function(){preview(b.dataset.prev,b)}); }
+  /* Somewhere else: a random chronicle, story or event */
+  document.getElementById('wander').addEventListener('click',function(){ var pool=Object.keys(X).filter(function(k){return /^(chron|story|str):/.test(k)}).concat(A.events.filter(function(e){return e.bluf}).slice(0,60).map(function(e){return 'ev:'+e.id})); var k=pool[Math.floor(Math.random()*pool.length)]; preview(k,this); });
+  /* tooltips: hover or focus on a laptop, a tap on a phone */
+  (function(){ var tip=document.createElement('div'); tip.className='tip'; tip.setAttribute('role','tooltip'); document.body.appendChild(tip); var cur=null;
+    function show(el){ cur=el; tip.textContent=el.getAttribute('data-tip'); tip.classList.add('on'); var r=el.getBoundingClientRect(); tip.style.left='0px'; tip.style.top='0px'; var w=tip.offsetWidth, h=tip.offsetHeight; var x=Math.max(8,Math.min(window.innerWidth-w-8,r.left+r.width/2-w/2)); var y=r.top-h-8; if(y<8)y=r.bottom+8; tip.style.left=x+'px'; tip.style.top=y+'px'; }
+    function hide(){ cur=null; tip.classList.remove('on'); }
+    document.addEventListener('mouseover',function(e){ var el=e.target.closest&&e.target.closest('[data-tip]'); if(el&&el!==cur)show(el); else if(!el&&cur)hide(); });
+    document.addEventListener('focusin',function(e){ var el=e.target.closest&&e.target.closest('[data-tip]'); if(el)show(el); });
+    document.addEventListener('focusout',hide);
+    document.addEventListener('click',function(e){ var el=e.target.closest&&e.target.closest('[data-tip]'); if(el&&!el.matches('button,a')){ if(cur===el)hide(); else show(el); e.stopPropagation(); } else if(cur&&!el)hide(); });
+    window.addEventListener('scroll',hide,{passive:true});
+  })();
   document.querySelectorAll('[data-prev]').forEach(bindPrev);
   document.querySelectorAll('[data-act]').forEach(function(b){b.addEventListener('click',function(){say(b.dataset.act)})});
   function openBig(){ var h='<canvas id="bigGlobe" aria-label="The world in 1919. Drag to turn it."></canvas><div class="acts"><button type="button" class="pri" data-say="Would open the Political globe at 1919, centred here, with a Return chip back to this page.">Open the globe at 1919</button><button type="button" class="close" data-close>Close</button></div>';
@@ -736,6 +771,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
      knots:[{id:'eu193391'}],
      strands:[{id:'w2-reichstag-b',h:'The Enabling Act',y:1933,line:'The Reichstag votes its own powers to the cabinet, 23 March 1933.'},{h:'The emergency decree of 28 February',y:1933,line:'Hindenburg suspends civil liberties after the Reichstag fire.'}],
      fibres:[['30 January 1933','Hindenburg swears in Hitler\'s first cabinet, three Nazis among eleven ministers'],['27 February 1933','The Reichstag burns']]}];
+  (function(){ var k=0,f=0,st=0; CH.forEach(function(c){k+=c.knots.length; f+=c.strands.length; st+=c.fibres.length;});
+    document.getElementById('counts').innerHTML='<span data-tip="Sections of the story, each built on a knot"><b>'+CH.length+'</b> chapters</span><span data-tip="Major events: each has a full page"><i class="mk k"></i><b>'+k+'</b> knots</span><span data-tip="Smaller events inside the knots"><i class="mk s"></i><b>'+f+'</b> fibres</span><span data-tip="Smaller events still"><i class="mk f"></i><b>'+st+'</b> strands</span>'; })();
   function linkBetween(a,b){ return A.links.filter(function(l){return l.f===a&&l.t===b})[0]; }
   var PHD={Necessary:'Without this, the next does not happen.',Sufficient:'This was enough on its own to bring the next about.',Contributing:'One cause of the next among several.',Contested:'Two readings; the atlas withholds a verdict.',Coincident:'Same time; the atlas finds no link.'};
   function connHtml(l){ if(!l) return '<div class="conn"><div class="ln none"><i></i></div><div class="lab"><span class="gw">No graded link yet between these knots; the chapters follow in time.</span></div></div>';
@@ -746,7 +783,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     CH.forEach(function(c,i){ h+='<a class="tk" href="#chap-'+i+'" style="left:'+((i+0.5)/CH.length*100).toFixed(1)+'%"><i></i><span class="yr">'+esc(c.y.split(' ')[0])+'</span><span>'+esc(c.t)+'</span></a>'; }); strip.innerHTML=h;
     var out=''; CH.forEach(function(c,i){
       out+='<article class="chap" id="chap-'+i+'"><h3><span class="n">Chapter '+(i+1)+' · '+esc(c.y)+'</span>'+esc(c.t)+'</h3><p>'+c.patch+'</p>';
-      out+='<div class="kn"><div class="kh">'+(c.knots.length>1?'Knots':'Knot')+'</div>'+c.knots.map(function(k){return itemHtml(k,'k')}).join('');
+      out+='<div class="kn"><div class="kh" data-tip="'+(c.knots.length>1?'This chapter turns on '+c.knots.length+' major events, with the atlas\'s own link between them.':'The chapter\'s major event. Tap its name for a preview; Open takes you to its page.')+'">'+(c.knots.length>1?'Knots':'Knot')+'</div>'+c.knots.map(function(k){return itemHtml(k,'k')}).join('');
       if(c.knots.length>1){ var l=linkBetween(c.knots[0].id,c.knots[1].id); if(l) out+=connHtml(l); }
       out+='</div>';
       var n=c.strands.length+c.fibres.length;
@@ -758,15 +795,17 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     ch.innerHTML=out; ch.querySelectorAll('[data-prev]').forEach(bindPrev); ch.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})});
     ch.querySelectorAll('[data-kids]').forEach(function(b){ b.addEventListener('click',function(){ var k=document.getElementById('kids-'+b.dataset.kids); var o=b.getAttribute('aria-expanded')==='true'; b.setAttribute('aria-expanded',String(!o)); k.hidden=o; b.textContent=(o?'Show':'Hide')+' its fibres and strands'+(b.textContent.match(/\(\d+\)/)?' '+b.textContent.match(/\(\d+\)/)[0]:''); }); });
     strip.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.getAttribute('href').slice(1)); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-120,behavior:reduced?'auto':'smooth'});})}); })();
-  /* the chapter in view grows; the spine marks it and greys what is read */
-  (function(){ var box=document.getElementById('chaps'); var chaps=[].slice.call(box.querySelectorAll('.chap')), ticks=[].slice.call(document.querySelectorAll('#chapStrip .tk'));
-    function setLive(i){ chaps.forEach(function(c,j){c.classList.toggle('live',j===i)}); ticks.forEach(function(t,j){t.classList.toggle('live',j===i); t.classList.toggle('done',j<i)}); }
-    setLive(0);
-    var io=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting) setLive(chaps.indexOf(x.target)); }); },{rootMargin:'-28% 0px -52% 0px'});
-    chaps.forEach(function(c){io.observe(c)});
-    var sec=new IntersectionObserver(function(en){ en.forEach(function(x){ box.classList.toggle('spy',x.isIntersecting); }); },{rootMargin:'-20% 0px -20% 0px'});
-    sec.observe(document.getElementById('chapters'));
-    ticks.forEach(function(t,i){ t.addEventListener('click',function(ev){ ev.preventDefault(); var el=chaps[i]; window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-200,behavior:reduced?'auto':'smooth'}); }); });
+  /* the chapter nearest the middle of the screen grows; the rest sit back; the spine marks the place */
+  (function(){ var box=document.getElementById('chaps'), strip=document.getElementById('chapStrip'); var chaps=[].slice.call(box.querySelectorAll('.chap')), ticks=[].slice.call(strip.querySelectorAll('.tk'));
+    var bar=document.createElement('div'); bar.className='bar'; strip.insertBefore(bar,strip.firstChild.nextSibling);
+    var live=-1, ticking=false;
+    function update(){ ticking=false; var H=window.innerHeight, yc=H*0.46, band=H*0.42, best=-1, bestD=1e9, secR=box.getBoundingClientRect();
+      var inSec=secR.top<H*0.8&&secR.bottom>H*0.2;
+      chaps.forEach(function(c,i){ var r=c.getBoundingClientRect(); var d=r.top>yc?r.top-yc:(r.bottom<yc?yc-r.bottom:0); var t=Math.max(0,1-d/band); t=t*t*(3-2*t); c.style.setProperty('--t',inSec?t.toFixed(3):'1'); if(d<bestD){bestD=d;best=i;} });
+      if(best!==live){ live=best; ticks.forEach(function(t,j){t.classList.toggle('live',j===live); t.classList.toggle('done',j<live)}); var tk=ticks[live]; if(tk) bar.style.width=Math.max(0,tk.offsetLeft-4)+'px'; } }
+    function ask(){ if(!ticking){ticking=true;requestAnimationFrame(update);} }
+    window.addEventListener('scroll',ask,{passive:true}); window.addEventListener('resize',ask); box.addEventListener('click',function(){setTimeout(ask,20)}); update();
+    ticks.forEach(function(t,i){ t.addEventListener('click',function(ev){ ev.preventDefault(); var el=chaps[i]; window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-Math.round(window.innerHeight*0.3),behavior:reduced?'auto':'smooth'}); }); });
   })();
 
   /* the thread at story scale: where the story came from, its knots, where it led */
