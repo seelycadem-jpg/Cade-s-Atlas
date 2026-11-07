@@ -34,7 +34,7 @@ Chosen from eight candidates shown on the same slice of story page, light and da
 | `--rule` | `#DCD2C7` | hairlines, guides, borders of surfaces |
 | `--accent` | `#C81A12` | the chain only: knot marks, fibre dots, connectors, years, the pill (5.2 on bg) |
 | `--on-accent` | `#FFFFFF` | text on the accent |
-| `--gilt` | `#B08A3E` | a 1px hairline, 56px long, 5px under section headings, and the divider diamond; never text |
+| `--gilt` | `#B08A3E` | a tapered hairline under section headings (2px at the start, narrowing to a point and fading out over 84px, 5px under the heading), and the divider diamond; never text |
 | `--sea` | `#F0EBE3` | the globe's sea |
 | `--land` | `#E3DBD0` | the globe's land |
 | `--coast` | `#A79A8D` | coastlines |
