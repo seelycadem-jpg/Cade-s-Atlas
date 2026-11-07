@@ -72,9 +72,12 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
   declarative sentences, one idea each (a fact and its consequence may share one),
   average under 20 words and none over 30, lengths varied, no sentence that could be
   cut, nouns and verbs carrying the meaning, no word that tells the reader how to feel.
-  Logical connectors inside a sentence ("because", "so", "but") are the argument and
-  stay; banned are stock transitions at the head of a sentence ("Moreover",
-  "Furthermore", "However,") and the "and then" between paragraphs. A list of three
+  Connectors are the argument and stay, inside a sentence ("because", "so", "but") or
+  at its head ("However", "But", "Yet", "So", "Then", "Meanwhile") when they carry a
+  logical relation: contrast, cause, sequence (amended 2026-11-07 on Cade's decision).
+  Avoid transitions that only add emphasis or padding ("Moreover", "Furthermore",
+  "Importantly", "Additionally") and the "and then" between paragraphs; a sentence that
+  needs one usually needs cutting. Never drop a needed connector to satisfy a check. A list of three
   facts is fine; a triplet built for rhythm is banned. Banned words are banned in
   figurative use; the literal use of a plain word never is. Wit lives in the choice
   and placement of a fact, never in an adjective.
