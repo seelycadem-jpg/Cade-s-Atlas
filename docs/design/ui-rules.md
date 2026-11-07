@@ -139,6 +139,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
     a small globe shrink into a sticky header. Tapping another event turns the small globe
     to its place; closing returns it. Hover (laptop) or tap (phone) grows it, with the
     Political globe at the page's year one tap away. It turns only when the reader acts.
+    The docked header holds three lines (Cade, 2026-11-08): the title, its years under it
+    (kept at 12 px while the title shrinks; the place and reading time fade), and the
+    parent and Next line.
 
 ## Checked by the browser tests (from Phase 1 on)
 

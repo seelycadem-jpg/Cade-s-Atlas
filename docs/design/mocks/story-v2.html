@@ -47,7 +47,8 @@ a{color:inherit}
 @supports (animation-timeline: scroll()){
   :root.sda .tw{animation:twDock linear both;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-timeline:scroll(root block);animation-range:0px var(--D)}
   :root.sda .stage .gw{animation:gwDock linear both;animation-timing-function:cubic-bezier(.33,1,.68,1);animation-timeline:scroll(root block);animation-range:0px var(--D)}
-  :root.sda .tw .kicker,:root.sda .tw .sub{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .42)}
+  :root.sda .tw .sub{animation:subKeep linear both;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-timeline:scroll(root block);animation-range:0px var(--D)}
+  :root.sda .tw .kicker,:root.sda .tw .sub .rest{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .42)}
   :root.sda .hint{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .28)}
   :root.sda .stage .hsub{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:var(--D) calc(var(--D) + 48px)}
   :root.sda .stage .band{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:calc(var(--D) * .7) calc(var(--D) * .9)}
@@ -57,6 +58,7 @@ a{color:inherit}
 @keyframes gwDock{from{transform:translate3d(var(--g0x),var(--g0y),0) scale(1);opacity:1}to{transform:translate3d(var(--g1x),var(--g1y),0) scale(var(--gs1));opacity:.78}}
 @keyframes fadeOut{from{opacity:1}to{opacity:0;visibility:hidden}}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
+@keyframes subKeep{from{transform:scale(1)}to{transform:scale(var(--subk))}}
 .stage{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:8;pointer-events:none}
 .stage .band{will-change:opacity;position:absolute;left:0;right:0;top:0;height:86px;background:var(--bg);opacity:0}
 .stage .band::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--rule);opacity:0;will-change:opacity}
@@ -65,7 +67,7 @@ a{color:inherit}
 .stage canvas{display:block;border-radius:50%;touch-action:none;box-shadow:var(--shadow2)}
 .tw{position:sticky;top:var(--stick,-40px);z-index:9;margin:0 0 12px var(--t0x,0px);width:min(40rem,100%);transform-origin:0 100%;will-change:transform;pointer-events:auto}
 .tw h1{font:500 clamp(38px,9.6vw,52px)/1.02 var(--display);margin:0;letter-spacing:-.008em;text-wrap:balance}
-.tw .sub{will-change:opacity;font:16px/1.4 var(--display);color:var(--ink2);margin:8px 0 0;display:flex;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.tw .sub{transform-origin:0 0;will-change:transform;font:16px/1.4 var(--display);color:var(--ink2);margin:8px 0 0;display:flex;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
 .tw .sub b{color:var(--accent);font-weight:600}
 .open .counts{display:flex;gap:6px 14px;flex-wrap:wrap;margin:0;font:15px/1.4 var(--display);color:var(--ink2)}
 .open .counts span{display:inline-flex;align-items:center;gap:6px}
@@ -504,7 +506,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 <div class="tw" id="tw">
     <div class="kicker" id="kicker"><button class="lk chron" type="button" data-prev="chron:germany">Germany</button><span>›</span><span>story 8 of 12</span></div>
     <h1>Weimar Germany</h1>
-    <div class="sub" id="sub"><span><b>1919</b> to 1933</span><span>·</span><span>Berlin</span><span>·</span><span id="rt">reading time</span></div>
+    <div class="sub" id="sub"><span><b>1919</b> to 1933</span><span class="rest">·</span><span class="rest">Berlin</span><span class="rest">·</span><span class="rest" id="rt">reading time</span></div>
 </div>
 
 <main class="wrap">
@@ -662,11 +664,11 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   function px(n){ return n.toFixed(2)+'px'; }
   function measure(){ var h1=tw.querySelector('h1'); M.twH=tw.offsetHeight; M.kH=kicker.offsetHeight; M.h1H=h1.offsetHeight;
     var t0y=Math.round(G*0.66+10), t1y=10-M.kH*0.46, padL=parseFloat(getComputedStyle(document.body).paddingLeft)||0; M.t0x=Math.max(gutter,(W-640)/2); M.t1x=gutter+50; M.fx=Math.max(0,M.t0x-padL);
-    var stick=t1y-M.twH*(1-M.s1t); M.D=Math.max(1,t0y-stick);
+    var stick=t1y-M.twH*(1-M.s1t); M.D=Math.max(1,t0y-stick); M.subk=12/(16*M.s1t); M.subH=sub.offsetHeight;
     var g0x=(W-G)/2, g0y=-G*0.32, g1x=W-gutter-52, g1y=8;
-    var v={'--t0y':px(t0y),'--t0x':px(M.fx),'--stick':px(stick),'--D':px(M.D),'--dx':px(M.t1x-M.t0x),'--s1':String(M.s1t),'--g0x':px(g0x),'--g0y':px(g0y),'--g1x':px(g1x),'--g1y':px(g1y),'--gs1':(52/G).toFixed(4)};
+    var v={'--t0y':px(t0y),'--t0x':px(M.fx),'--stick':px(stick),'--D':px(M.D),'--dx':px(M.t1x-M.t0x),'--s1':String(M.s1t),'--g0x':px(g0x),'--g0y':px(g0y),'--g1x':px(g1x),'--g1y':px(g1y),'--gs1':(52/G).toFixed(4),'--subk':M.subk.toFixed(3)};
     for(var k in v) root.style.setProperty(k,v[k]);
-    hsub.style.transform='translate3d('+M.t1x+'px,'+(10+M.h1H*0.46+4).toFixed(2)+'px,0)'; last={}; }
+    hsub.style.transform='translate3d('+M.t1x+'px,'+(10+(M.h1H+8+M.subH*M.subk)*M.s1t+6).toFixed(2)+'px,0)'; last={}; }
   function apply(sc){
     var q=Math.max(0,Math.min(1,sc/M.D));
     var docked=q>=0.999; small=docked; var sm=q>0.2; if(last.sm!==sm){ last.sm=sm; stage.classList.toggle('small',sm); }
@@ -677,7 +679,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     var g0x=(W-G)/2, g0y=-G*0.32, g1x=W-gutter-52, g1y=8, s1=52/G;
     put(gw,'gw','transform','translate3d('+lerp(g0x,g1x,eo).toFixed(2)+'px,'+lerp(g0y,g1y,eo).toFixed(2)+'px,0) scale('+lerp(1,s1,eo).toFixed(4)+')');
     put(gw,'gw','opacity',lerp(1,0.78,eo).toFixed(3));
-    var fo=Math.max(0,1-q*2.4).toFixed(3); put(sub,'sub','opacity',fo); put(kicker,'kick','opacity',fo);
+    var fo=Math.max(0,1-q*2.4).toFixed(3); put(kicker,'kick','opacity',fo); [].forEach.call(sub.querySelectorAll('.rest'),function(r,i){ put(r,'rest'+i,'opacity',fo); });
+    put(sub,'sub','transform','scale('+lerp(1,M.subk,qs).toFixed(4)+')');
     put(hint,'hint','opacity',Math.max(0,1-q*3.5).toFixed(3));
     put(hsub,'hsub','opacity',Math.min(1,Math.max(0,(sc-M.D)/48)).toFixed(3));
     put(band,'band','opacity',Math.min(1,Math.max(0,(q-0.7)/0.2)).toFixed(3)); var edge=sc>M.D+16; if(last.edge!==edge){ last.edge=edge; band.classList.toggle('edge',edge); } }
