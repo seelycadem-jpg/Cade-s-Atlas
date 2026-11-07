@@ -50,14 +50,14 @@ a{color:inherit}
 .stage .tw h1{font:500 clamp(38px,9.6vw,52px)/1.02 var(--display);margin:0;letter-spacing:-.008em;text-wrap:balance}
 .stage .tw .sub{font:14px/1.4 var(--ui);color:var(--ink2);margin:8px 0 0;display:flex;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
 .stage .tw .sub b{color:var(--accent);font-weight:600}
-.stage .tw .counts{display:flex;gap:6px 14px;flex-wrap:wrap;margin:12px 0 0;font:13px/1.4 var(--ui);color:var(--ink2)}
-.stage .tw .counts span{display:inline-flex;align-items:center;gap:6px}
-.stage .tw .counts b{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
-.stage .tw .pn{display:flex;justify-content:space-between;gap:10px;margin:14px 0 0;font:14px/1.3 var(--ui);color:var(--ink2);border-top:1px solid var(--rule);padding-top:10px}
-.stage .tw .pn button{color:var(--ink);display:inline-flex;flex-direction:column;align-items:flex-start;gap:1px;min-height:40px;justify-content:center}
-.stage .tw .pn button.next{align-items:flex-end;text-align:right}
-.stage .tw .pn .lab{font:500 11px/1.3 var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
-.stage .tw .pn .t{font:500 17px/1.2 var(--display)}
+.open .counts{display:flex;gap:6px 14px;flex-wrap:wrap;margin:0;font:13px/1.4 var(--ui);color:var(--ink2)}
+.open .counts span{display:inline-flex;align-items:center;gap:6px}
+.open .counts b{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
+.open .pn{display:flex;justify-content:space-between;gap:10px;margin:12px 0 18px;font:14px/1.3 var(--ui);color:var(--ink2);border-top:1px solid var(--rule);padding-top:10px}
+.open .pn button{color:var(--ink);display:inline-flex;flex-direction:column;align-items:flex-start;gap:1px;min-height:40px;justify-content:center}
+.open .pn button.next{align-items:flex-end;text-align:right}
+.open .pn .lab{font:500 11px/1.3 var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.open .pn .t{font:500 17px/1.2 var(--display)}
 .stage .hsub .nx{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px;margin-left:6px}
 .stage .kicker{font:500 14px/1.4 var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
 .stage .hsub{position:absolute;left:0;top:0;font:12px/1.3 var(--ui);color:var(--ink2);opacity:0;pointer-events:auto;white-space:nowrap}
@@ -443,8 +443,6 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     <div class="kicker" id="kicker"><button class="lk chron" type="button" data-prev="chron:germany">Germany</button><span>›</span><span>story 8 of 12</span></div>
     <h1>Weimar Germany</h1>
     <div class="sub" id="sub"><span><b>1919</b> to 1933</span><span>·</span><span>Berlin</span><span>·</span><span>five chapters</span></div>
-    <div class="counts" id="counts"></div>
-    <div class="pn" id="pn"><button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">‹ The war</span></button><button type="button" class="next" data-prev="story:nazi"><span class="lab">Next story</span><span class="t">Nazi Germany ›</span></button></div>
   </div>
   <div class="hsub" id="hsub"><button class="lk chron" type="button" data-prev="chron:germany">Germany</button> · 8 of 12 · <button type="button" class="nx" data-prev="story:nazi" data-tip="The next story in the Germany chronicle">Next: Nazi Germany ›</button></div>
   <div class="topbar">
@@ -456,6 +454,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 
 <main class="wrap">
   <div class="open">
+    <div class="counts" id="counts"></div>
+    <div class="pn" id="pn"><button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">‹ The war</span></button><button type="button" class="next" data-prev="story:nazi"><span class="lab">Next story</span><span class="t">Nazi Germany ›</span></button></div>
     <p class="line">The republic that signed the peace, paid for it, and fell when the Depression came.</p>
     <nav class="pageindex index" id="pageIndex" aria-label="On this page"></nav>
   </div>
@@ -596,12 +596,13 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   /* the scroll-linked shrink: the globe and the title travel from the opening to the top corner */
   var gw=document.getElementById('gw'), tw=document.getElementById('tw'), hsub=document.getElementById('hsub'), band=document.getElementById('band'), sub=document.getElementById('sub'), kicker=document.getElementById('kicker'), hint=document.getElementById('hint'), hIdx=document.getElementById('hdrIndex');
   var gutter=16, ease=function(t){return t<.5?2*t*t:-1+(4-2*t)*t}, lastP=-1, small=false;
-  function apply(p){ var e=ease(p);
+  function apply(p){ var e=ease(p), eo=1-(1-p)*(1-p), sc=p*(heroH-70);
+    /* the globe shrinks early (ease-out) so the title never crosses it; the title rides the page until it docks */
     var g0x=(W-G)/2, g0y=-G*0.32, g1x=W-gutter-52, g1y=8, s1=52/G;
-    gw.style.transform='translate('+lerp(g0x,g1x,e)+'px,'+lerp(g0y,g1y,e)+'px) scale('+lerp(1,s1,e)+')'; gw.style.opacity=String(lerp(1,0.78,e));
-    var h1=tw.querySelector('h1'), t0y=G*0.66+10, t1y=10-kicker.offsetHeight*0.46, ts=lerp(1,0.46,e), t1x=gutter+50;
-    var t0x=Math.max(gutter,(W-640)/2); tw.style.transform='translate('+lerp(t0x,t1x,e)+'px,'+lerp(t0y,t1y,e)+'px) scale('+ts+')';
-    sub.style.opacity=kicker.style.opacity=String(Math.max(0,1-p*2.2)); var cn=document.getElementById('counts'), pn=document.getElementById('pn'); cn.style.opacity=pn.style.opacity=String(Math.max(0,1-p*2.2)); pn.style.pointerEvents=cn.style.pointerEvents=p>0.3?'none':'auto'; hint.style.opacity=String(Math.max(0,1-p*3)); hint.style.pointerEvents=p>0.3?'none':'auto'; hint.style.top=lerp(t0y-44,-40,e)+'px'; hint.style.left=lerp(t0x,gutter,e)+'px';
+    gw.style.transform='translate('+lerp(g0x,g1x,eo)+'px,'+lerp(g0y,g1y,eo)+'px) scale('+lerp(1,s1,eo)+')'; gw.style.opacity=String(lerp(1,0.78,eo));
+    var h1=tw.querySelector('h1'), t0y=G*0.66+10, t1y=10-kicker.offsetHeight*0.46, ts=lerp(1,0.46,eo), t1x=gutter+50;
+    var t0x=Math.max(gutter,(W-640)/2), ty=Math.max(t1y,t0y-sc); tw.style.transform='translate('+lerp(t0x,t1x,eo)+'px,'+ty+'px) scale('+ts+')';
+    sub.style.opacity=kicker.style.opacity=String(Math.max(0,1-p*2.2)); hint.style.opacity=String(Math.max(0,1-p*3)); hint.style.pointerEvents=p>0.3?'none':'auto'; hint.style.top=(ty-44)+'px'; hint.style.left=lerp(t0x,gutter,eo)+'px';
     hsub.style.opacity=String(Math.max(0,(p-0.75)/0.25)); hsub.style.transform='translate('+t1x+'px,'+(10+h1.offsetHeight*0.46+4)+'px)';
     band.style.opacity=String(Math.max(0,(p-0.7)/0.3)); hIdx.classList.toggle('on',p>0.97); document.getElementById('pageIndex').classList.toggle('off',p>0.97);
     small=p>0.9; document.getElementById('stage').classList.toggle('small',small); hero.style.cursor=small?'pointer':'grab'; }
