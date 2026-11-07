@@ -486,7 +486,7 @@ h1,h2,h3,.tw h1,.chap h3,#sheetTitle,.nextprev .t,.open .pn .t,.ev .t,.tl .n,.pa
 <div class="tw" id="tw">
     <div class="kicker" id="kicker"><button class="lk chron" type="button" data-prev="chron:germany">Germany</button><span>›</span><span>story 8 of 12</span></div>
     <h1>Weimar Germany</h1>
-    <div class="sub" id="sub"><span><b>1919</b> to 1933</span><span>·</span><span>Berlin</span><span>·</span><span>five chapters</span></div>
+    <div class="sub" id="sub"><span><b>1919</b> to 1933</span><span>·</span><span>Berlin</span><span>·</span><span id="rt">reading time</span></div>
 </div>
 
 <main class="wrap">
@@ -498,7 +498,7 @@ h1,h2,h3,.tw h1,.chap h3,#sheetTitle,.nextprev .t,.open .pn .t,.ev .t,.tl .n,.pa
   <nav class="pageindex index" id="pageIndex" aria-label="On this page"></nav>
 
   <section class="layer brief" id="arg">
-    <p class="lede">Weimar Germany was the republic that signed the peace, paid for it, and fell when the Depression came. It lasted fourteen years, from the abdication of the Kaiser in November 1918 to Hitler's appointment in January 1933, and for most of them it was the largest democracy in Europe.</p>
+    <p class="lede">The republic lasted fourteen years, from the Kaiser's abdication in November 1918 to Hitler's appointment in January 1933. For most of them it was the largest democracy in Europe.</p>
     <p>It began at a disadvantage no other European state shared. The men who founded it had to sign the <button class="lk" type="button" data-prev="ev:eu191988">Paris settlement</button> because the army told them Germany could not fight on, and from that day every enemy of the republic could say that the republic had signed Germany away. The settlement took 13 percent of the country's European land, capped its army at 100,000 and charged it reparations. It did not occupy Germany or break up its industry, so the state that resented the peace kept the means to overturn it.</p>
     <p>The republic survived its first crisis. When Germany fell behind on reparations, France and Belgium occupied the Ruhr in January 1923; Berlin paid the strikers and printed the money, and by November the mark was worthless. A new currency and the Dawes Plan ended the emergency within a year, and American loans paid for five years of recovery. By 1928 output was above its 1913 level, Germany sat on the League Council, and the Nazis won 2.6 percent of the vote.</p>
     <p>The <button class="lk" type="button" data-prev="ev:d-depression1930">Depression</button> did what the inflation had not. The <button class="lk" type="button" data-prev="ev:na192964">crash of 1929</button> called in the American loans; unemployment passed six million; the parties that would defend the republic lost their majority, and from 1930 chancellors governed by presidential decree. The Nazi vote rose to 37 percent by July 1932. The conservatives around President Paul von Hindenburg then appointed <button class="lk person" type="button" data-prev="per:hitler">Adolf Hitler</button> chancellor on 30 January 1933, expecting to use him. The settlement made the republic resented; the Depression made it unworkable; its own elite ended it.</p>
@@ -975,6 +975,10 @@ h1,h2,h3,.tw h1,.chap h3,#sheetTitle,.nextprev .t,.open .pn .t,.ev .t,.tl .n,.pa
       +'</div><div class="acts" style="margin-top:8px"><button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,document.getElementById('globeBtn')); });
 
+  /* reading time, counted from the page's own text: the briefing plus the chapter or thread text */
+  (function(){ var el=document.getElementById('rt'); if(!el)return; var t=(document.getElementById('arg')||{}).textContent||'';
+    t+=' '+[].map.call(document.querySelectorAll('.chap>p, .ti .l, .kn .tn .sub'),function(n){return n.textContent}).join(' ');
+    var w=t.split(/\s+/).filter(Boolean).length; el.textContent=Math.max(1,Math.round(w/220))+' min read'; })();
   layout(); window.addEventListener('load',layout); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(layout);
 })();
 </script>

@@ -508,7 +508,7 @@ h1,h2,h3,.tw h1,.chap h3,#sheetTitle,.nextprev .t,.open .pn .t,.ev .t,.tl .n,.pa
 <div class="tw" id="tw">
     <div class="kicker" id="kicker"><a class="lk chron" href="https://claude.ai/artifact/AWaup7weY8H6EUwNDCXS37" target="_blank" rel="noopener">Weimar Germany</a><span>›</span><span>chapter 2 of 5</span></div>
     <h1>The Ruhr and the Mark</h1>
-    <div class="sub" id="sub"><span><b>1922</b> to 1923</span><span>·</span><span>the Ruhr and Berlin</span><span>·</span><span>eight events</span></div>
+    <div class="sub" id="sub"><span><b>1922</b> to 1923</span><span>·</span><span>the Ruhr and Berlin</span><span>·</span><span id="rt">reading time</span></div>
 </div>
 
 <main class="wrap">
@@ -520,7 +520,7 @@ h1,h2,h3,.tw h1,.chap h3,#sheetTitle,.nextprev .t,.open .pn .t,.ev .t,.tl .n,.pa
   <nav class="pageindex index" id="pageIndex" aria-label="On this page"></nav>
 
   <section class="layer brief" id="arg">
-    <p class="lede">Germany lost its currency in 1923 because Berlin paid for resistance in the Ruhr with printed money. In January a dollar bought about 18,000 marks; in November it bought 4.2 trillion. Savings, pensions and war bonds held in marks lost all their value.</p>
+    <p class="lede">In January 1923 a dollar bought about 18,000 marks; in November it bought 4.2 trillion. Savings, pensions and war bonds held in marks lost all their value.</p>
     <p>The fall began before the Ruhr. Germany paid for the war by borrowing and printing rather than by taxing. By the end of 1919 a dollar bought about 47 marks, against 4.2 in 1914. The London Schedule of May 1921 then set reparations at 132 billion gold marks. Berlin covered its deficits at the printing press, and the <button class="lk" type="button" data-prev="ev:eu191988">Paris settlement</button> added a foreign debt it could only meet the same way.</p>
     <p>Germany fell behind on deliveries of timber and coal, and the Reparations Commission declared it in default. On 11 January 1923 French and Belgian troops entered the <button class="lk feature" type="button" data-prev="th:ruhr">Ruhr</button> to take the coal in kind, because French Prime Minister <button class="lk person" type="button" data-prev="per:poincare">Raymond Poincaré</button> wanted the payments enforced. Chancellor <button class="lk person" type="button" data-prev="per:cuno">Wilhelm Cuno</button> answered with passive resistance and paid the idle miners and railwaymen from the press. Output stopped in the country's industrial heart while the wage bill grew.</p>
     <p><button class="lk person" type="button" data-prev="per:stresemann">Gustav Stresemann</button> became chancellor in August and called off the resistance on 26 September. On 15 November the <button class="lk" type="button" data-prev="th:renten">Rentenmark</button>, backed by a mortgage on German land and industry, replaced the paper mark. Five days later Berlin fixed the old money at 4.2 trillion to the dollar: the pre-war rate with twelve zeros added. The printing stopped, and the new currency held.</p>
@@ -1047,6 +1047,10 @@ h1,h2,h3,.tw h1,.chap h3,#sheetTitle,.nextprev .t,.open .pn .t,.ev .t,.tl .n,.pa
     var h=''; M.forEach(function(m){ X[m[0]]={t:m[2],d:m[1]+' · '+m[3],l:m[4],a:'Open the event'};
       h+='<div class="mwr"><span class="y">'+m[1]+'</span><div><button type="button" class="t" data-prev="'+m[0]+'">'+esc(m[2])+'</button><div class="lane">'+m[3]+'</div><div class="arr" style="color:var(--ink3)">no graded link to this chapter</div></div></div>'; });
     el.innerHTML=h; el.querySelectorAll('[data-prev]').forEach(bindPrev); })();
+  /* reading time, counted from the page's own text: the briefing plus the chapter or thread text */
+  (function(){ var el=document.getElementById('rt'); if(!el)return; var t=(document.getElementById('arg')||{}).textContent||'';
+    t+=' '+[].map.call(document.querySelectorAll('.chap>p, .ti .l, .kn .tn .sub'),function(n){return n.textContent}).join(' ');
+    var w=t.split(/\s+/).filter(Boolean).length; el.textContent=Math.max(1,Math.round(w/220))+' min read'; })();
   layout(); window.addEventListener('load',layout); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(layout);
 })();
 </script>
