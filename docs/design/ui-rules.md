@@ -80,6 +80,15 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
     it or scrolls a chronicle. Cards open and close with a short transition (150 to
     300 ms) that shows what changed. Nothing animates on its own to decorate. Readers
     who ask their phone for reduced motion get none.
+    Scroll-linked motion is built so the phone can run it in step with the finger
+    (agreed 2026-11-08 after the story-page pass): anything that rides the page sits in
+    the page and docks with sticky positioning; shrinks and fades run on the browser's
+    scroll timeline (`animation-timeline: scroll()`), with a small script fallback where
+    it is missing; only transform and opacity ever change while scrolling; sizes are
+    measured when the page changes, never per frame; no CSS transition sits on a
+    scroll-driven property. Effects keyed to many elements (the chapter emphasis) ease
+    toward a target each frame so uneven touch input reads as a glide. Every scroll
+    effect is measured at phone speed (CPU slowed six times) before it ships.
 
 13. **Names stay plain.** Readers see knot, fibre and strand with their key, the five
     grade words and the note. No other internal word (tier, hinge, patch) and no method
