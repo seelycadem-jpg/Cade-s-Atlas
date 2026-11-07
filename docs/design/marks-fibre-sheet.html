@@ -1,0 +1,171 @@
+<title>Fibre Mark Sheet</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: a sheet of candidate fibre marks in a grid; each cell shows the trio, knot and strand fixed, at two sizes, light and dark. */
+:root{
+  --bg:#f6f3ec; --surface:#fdfbf7; --ink:#1d1f24; --ink2:#50545c; --ink3:#7d8189; --rule:#d9d3c6; --accent:#1f3a63;
+  --d-bg:#17181c; --d-surface:#1f2126; --d-ink:#ece8df; --d-ink2:#b9b4a8; --d-accent:#8fb0e3; --d-rule:#3a3c43;
+  --display:"EB Garamond",Georgia,serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17181c;--surface:#1f2126;--ink:#ece8df;--ink2:#b9b4a8;--ink3:#878379;--rule:#3a3c43;--accent:#8fb0e3;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17181c;--surface:#1f2126;--ink:#ece8df;--ink2:#b9b4a8;--ink3:#878379;--rule:#3a3c43;--accent:#8fb0e3;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
+.wrap{max-width:64rem;margin:0 auto}
+.eyebrow{font:500 13px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0 0 10px}
+h1{font:500 clamp(34px,7vw,48px)/1.04 var(--display);margin:0 0 12px;text-wrap:balance}
+.lede{font:400 19px/1.5 var(--body);color:var(--ink2);max-width:44rem;margin:0 0 22px;text-wrap:pretty}
+h2{font:500 26px/1.15 var(--display);margin:30px 0 10px;display:flex;align-items:center;gap:12px}
+h2::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.grid{display:grid;grid-template-columns:repeat(auto-fill,minmax(18rem,1fr));gap:12px}
+.cell{border:1px solid var(--rule);border-radius:10px;background:var(--surface);padding:12px 14px;display:grid;gap:8px;min-width:0}
+.cell .hd{display:flex;align-items:baseline;gap:8px}
+.cell .n{font:500 12px/1.4 var(--display);letter-spacing:.12em;color:var(--ink3);min-width:1.6rem}
+.cell .t{font:500 19px/1.2 var(--display);color:var(--ink)}
+.cell .note{font:13px/1.45 var(--ui);color:var(--ink2);margin:0;min-height:2.9em}
+.cell .note.warn{color:#8a4b2a}
+:root[data-theme="dark"] .cell .note.warn{color:#d9a27e}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]) .cell .note.warn{color:#d9a27e}}
+.trio{display:grid;grid-template-columns:1fr 1fr;gap:8px}
+.sw{border-radius:7px;padding:10px 10px 8px;display:flex;flex-direction:column;gap:8px;min-width:0;--c:var(--accent);--c2:var(--ink2)}
+.sw.light{background:#fdfbf7;--c:#1f3a63;--c2:#50545c;border:1px solid #e3ddd0}
+.sw.dark{background:#1f2126;--c:#8fb0e3;--c2:#b9b4a8}
+.sw .line{display:flex;align-items:center;gap:10px}
+.sw .line.small{gap:7px}
+.sw svg{display:block;color:var(--c)}
+.sw svg.s{color:var(--c2)}
+.sw .line.big svg{width:22px;height:22px}
+.sw .line.small svg{width:12px;height:12px}
+.sw .lab{font:10.5px/1 var(--ui);color:var(--c2);margin-left:auto;white-space:nowrap}
+.foot{font:14px/1.5 var(--ui);color:var(--ink3);margin:26px 0 0;max-width:44rem}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true"><defs>
+<symbol id="k" viewBox="0 0 20 20"><path d="M10 2.5 L17.5 10 L10 17.5 L2.5 10 Z" fill="currentColor"/></symbol>
+<symbol id="st" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3" fill="currentColor"/></symbol>
+<!-- polygons -->
+<symbol id="pent" viewBox="0 0 20 20"><path d="M10 2.6 L17.2 7.9 L14.4 16.4 L5.6 16.4 L2.8 7.9 Z" fill="currentColor"/></symbol>
+<symbol id="pento" viewBox="0 0 20 20"><path d="M10 2.6 L17.2 7.9 L14.4 16.4 L5.6 16.4 L2.8 7.9 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="hex" viewBox="0 0 20 20"><path d="M10 3.2 L15.9 6.6 L15.9 13.4 L10 16.8 L4.1 13.4 L4.1 6.6 Z" fill="currentColor"/></symbol>
+<symbol id="hexo" viewBox="0 0 20 20"><path d="M10 2.8 L16.2 6.4 L16.2 13.6 L10 17.2 L3.8 13.6 L3.8 6.4 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+<symbol id="hexf" viewBox="0 0 20 20"><path d="M3.2 10 L6.6 4.1 L13.4 4.1 L16.8 10 L13.4 15.9 L6.6 15.9 Z" fill="currentColor"/></symbol>
+<symbol id="oct" viewBox="0 0 20 20"><path d="M7 3 H13 L17 7 V13 L13 17 H7 L3 13 V7 Z" fill="currentColor"/></symbol>
+<symbol id="octo" viewBox="0 0 20 20"><path d="M7 3 H13 L17 7 V13 L13 17 H7 L3 13 V7 Z" fill="none" stroke="currentColor" stroke-width="2" stroke-linejoin="round"/></symbol>
+<!-- stars and crosses -->
+<symbol id="star4" viewBox="0 0 20 20"><path d="M10 2 L12 8 L18 10 L12 12 L10 18 L8 12 L2 10 L8 8 Z" fill="currentColor"/></symbol>
+<symbol id="star5" viewBox="0 0 20 20"><path d="M10 2.2 L12.2 7.6 L18 7.9 L13.5 11.6 L15 17.3 L10 14.2 L5 17.3 L6.5 11.6 L2 7.9 L7.8 7.6 Z" fill="currentColor"/></symbol>
+<symbol id="star6" viewBox="0 0 20 20"><path d="M10 2 L12 7.5 L17.5 6 L13.5 10 L17.5 14 L12 12.5 L10 18 L8 12.5 L2.5 14 L6.5 10 L2.5 6 L8 7.5 Z" fill="currentColor"/></symbol>
+<symbol id="plus" viewBox="0 0 20 20"><path d="M10 3 V17 M3 10 H17" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></symbol>
+<symbol id="cross" viewBox="0 0 20 20"><path d="M5 5 L15 15 M15 5 L5 15" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round"/></symbol>
+<symbol id="aster" viewBox="0 0 20 20"><path d="M10 3 V17 M3.9 6.5 L16.1 13.5 M16.1 6.5 L3.9 13.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+<symbol id="cheq" viewBox="0 0 20 20"><path d="M10 2.5 L17.5 10 L10 17.5 L2.5 10 Z" fill="none" stroke="currentColor" stroke-width="1.5"/><path d="M10 2.5 L17.5 10 L10 10 Z M10 10 L10 17.5 L2.5 10 Z" fill="currentColor"/></symbol>
+<!-- lines and bars -->
+<symbol id="bar" viewBox="0 0 20 20"><path d="M4 10 H16" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></symbol>
+<symbol id="vbar" viewBox="0 0 20 20"><path d="M10 4 V16" fill="none" stroke="currentColor" stroke-width="3.4" stroke-linecap="round"/></symbol>
+<symbol id="dbar" viewBox="0 0 20 20"><path d="M4 7.5 H16 M4 12.5 H16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+<symbol id="slash" viewBox="0 0 20 20"><path d="M6 15 L14 5" fill="none" stroke="currentColor" stroke-width="3" stroke-linecap="round"/></symbol>
+<symbol id="tilde" viewBox="0 0 20 20"><path d="M3 11.5 C5.5 7.5 8 7.5 10 10 S14.5 12.5 17 8.5" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round"/></symbol>
+<symbol id="chev" viewBox="0 0 20 20"><path d="M4 13 L10 6 L16 13" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="chevd" viewBox="0 0 20 20"><path d="M4 7 L10 14 L16 7" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="dchev" viewBox="0 0 20 20"><path d="M4 9 L10 4 L16 9 M4 16 L10 11 L16 16" fill="none" stroke="currentColor" stroke-width="2.4" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<symbol id="tick" viewBox="0 0 20 20"><path d="M4 10.5 L8.5 15 L16 5.5" fill="none" stroke="currentColor" stroke-width="2.8" stroke-linecap="round" stroke-linejoin="round"/></symbol>
+<!-- rounds and parts -->
+<symbol id="ring" viewBox="0 0 20 20"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+<symbol id="bull" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="10" cy="10" r="3" fill="currentColor"/></symbol>
+<symbol id="half" viewBox="0 0 20 20"><path d="M3 12.5 A7 7 0 0 1 17 12.5 Z" fill="currentColor"/></symbol>
+<symbol id="halfc" viewBox="0 0 20 20"><circle cx="10" cy="10" r="6.5" fill="none" stroke="currentColor" stroke-width="1.6"/><path d="M10 3.5 A6.5 6.5 0 0 0 10 16.5 Z" fill="currentColor"/></symbol>
+<symbol id="cres" viewBox="0 0 20 20"><path fill-rule="evenodd" d="M3 10 a7 7 0 1 0 14 0 a7 7 0 1 0 -14 0 M7 10 a5 5 0 1 0 10 0 a5 5 0 1 0 -10 0" fill="currentColor"/></symbol>
+<symbol id="drop" viewBox="0 0 20 20"><path d="M10 2.5 C10 2.5 15.5 9 15.5 12.3 A5.5 5.5 0 0 1 4.5 12.3 C4.5 9 10 2.5 10 2.5 Z" fill="currentColor"/></symbol>
+<symbol id="leaf" viewBox="0 0 20 20"><path d="M3.5 16.5 C3.5 9 9 3.5 16.5 3.5 C16.5 11 11 16.5 3.5 16.5 Z" fill="currentColor"/><path d="M4 16 L15 5" fill="none" stroke="var(--surface,#fff)" stroke-width="1.2"/></symbol>
+<symbol id="bow" viewBox="0 0 20 20"><path d="M3 4 L10 10 L3 16 Z M17 4 L10 10 L17 16 Z" fill="currentColor"/></symbol>
+<symbol id="hour" viewBox="0 0 20 20"><path d="M4 3 L16 3 L10 10 Z M4 17 L16 17 L10 10 Z" fill="currentColor"/></symbol>
+<symbol id="pill" viewBox="0 0 20 20"><rect x="3" y="6.5" width="14" height="7" rx="3.5" fill="currentColor"/></symbol>
+<symbol id="pillo" viewBox="0 0 20 20"><rect x="3" y="6.5" width="14" height="7" rx="3.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+<symbol id="shield" viewBox="0 0 20 20"><path d="M10 2.5 L16.5 5 V10 C16.5 14 13.5 16.5 10 18 C6.5 16.5 3.5 14 3.5 10 V5 Z" fill="currentColor"/></symbol>
+<symbol id="flag" viewBox="0 0 20 20"><path d="M5 17 V3" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round"/><path d="M6 3.5 H15.5 L12.5 7 L15.5 10.5 H6 Z" fill="currentColor"/></symbol>
+<symbol id="bead" viewBox="0 0 20 20"><path d="M2 10 H18" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="10" cy="10" r="4" fill="currentColor"/></symbol>
+<symbol id="knotg" viewBox="0 0 20 20"><path d="M2 10 C6 10 6 4 10 4 S14 10 10 10 S6 16 10 16 S14 10 18 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+<symbol id="dots3" viewBox="0 0 20 20"><circle cx="4.5" cy="10" r="2.2" fill="currentColor"/><circle cx="10" cy="10" r="2.2" fill="currentColor"/><circle cx="15.5" cy="10" r="2.2" fill="currentColor"/></symbol>
+<symbol id="dots2" viewBox="0 0 20 20"><circle cx="6.5" cy="10" r="2.8" fill="currentColor"/><circle cx="13.5" cy="10" r="2.8" fill="currentColor"/></symbol>
+<symbol id="rdot" viewBox="0 0 20 20"><circle cx="10" cy="10" r="6" fill="none" stroke="currentColor" stroke-width="1.5" stroke-dasharray="2.4 2"/></symbol>
+<symbol id="tri" viewBox="0 0 20 20"><path d="M10 3 L17.5 16.5 H2.5 Z" fill="currentColor"/></symbol>
+<symbol id="sq" viewBox="0 0 20 20"><rect x="4" y="4" width="12" height="12" fill="currentColor"/></symbol>
+<symbol id="circ" viewBox="0 0 20 20"><circle cx="10" cy="10" r="6" fill="currentColor"/></symbol>
+</defs></svg>
+
+<div class="wrap">
+  <p class="eyebrow">Meanwhile Atlas · design note, 8 November 2026</p>
+  <h1>The fibre mark: every shape on one sheet</h1>
+  <p class="lede">The knot is a diamond and the strand a dot; those stay. Every cell shows the three together at reading size and at 12 pixels, light and dark. A note in brown means a map already uses that shape for something, so it would fight the globe. Pick by number.</p>
+  <div id="sheet"></div>
+  <p class="foot">Shapes left off on purpose: the heart, the arrow (direction is the links' job), the pin (that is the globe's own mark), letters and numerals. Any of these can be made open, filled, or half, and any can be drawn smaller or larger: say the number and the change.</p>
+</div>
+
+<script>
+(function(){
+  var groups=[
+    ['Polygons',[
+      ['pent','Pentagon','Five sides, filled.'],
+      ['pento','Open pentagon','Five sides, outlined.'],
+      ['hex','Hexagon','Six sides, point up.'],
+      ['hexf','Flat hexagon','Six sides, flat top.'],
+      ['hexo','Open hexagon','Six sides, outlined.'],
+      ['oct','Octagon','Eight sides, filled.'],
+      ['octo','Open octagon','Eight sides, outlined.'],
+      ['cheq','Chequered diamond','The knot\'s shape in two tones.','warn: it is still a diamond.']
+    ]],
+    ['Stars and crosses',[
+      ['star4','Four-point star','A sparkle; reads as a compass rose point.'],
+      ['star5','Five-point star','','warn: maps use the star for a capital.'],
+      ['star6','Six-point star','Reads as an asterisk at small sizes.'],
+      ['plus','Plus','','warn: maps use the cross for a church or hospital.'],
+      ['cross','Saltire','A diagonal cross; on maps, a battle site.','warn: a battle mark.'],
+      ['aster','Asterisk','Three strokes. Fine at 22, fuzzy at 12.']
+    ]],
+    ['Lines and bars',[
+      ['bar','Bar','A short length of thread, flat.'],
+      ['vbar','Upright bar','The same, standing; a timeline tick.'],
+      ['dbar','Double bar','Two threads side by side.'],
+      ['slash','Slash','One stroke, leaning.'],
+      ['tilde','Wave','A thread with a bend in it.'],
+      ['chev','Chevron up','','warn: looks like a peak at 12 px.'],
+      ['chevd','Chevron down','Points at the title.'],
+      ['dchev','Double chevron','Two chevrons stacked.'],
+      ['tick','Check','','warn: reads as "done".']
+    ]],
+    ['Rounds and parts',[
+      ['ring','Ring','','warn: maps use the small ring for a town.'],
+      ['bull','Bullseye','','warn: maps use the ringed dot for a capital.'],
+      ['half','Half disc','Flat side down.'],
+      ['halfc','Half circle','A ring, half filled.'],
+      ['cres','Crescent','A moon.'],
+      ['drop','Drop','A teardrop, point up.'],
+      ['leaf','Leaf','A leaf with its vein.'],
+      ['rdot','Dotted ring','A ring drawn in dots.'],
+      ['circ','Disc','','warn: maps use the filled dot for a city.']
+    ]],
+    ['Compound',[
+      ['bow','Bow tie','Two triangles, point to point.'],
+      ['hour','Hourglass','The bow tie, upright.'],
+      ['pill','Pill','A rounded bar, filled.'],
+      ['pillo','Open pill','A rounded bar, outlined.'],
+      ['shield','Shield','A heraldic shield.','warn: a fort or a coat of arms on old maps.'],
+      ['flag','Flag','A pennant on a pole.','warn: maps use a flag for a capital or a camp.'],
+      ['bead','Bead','A bead on the thread.'],
+      ['knotg','Tied loop','A knot drawn in the line; too close to the knot\'s own name.'],
+      ['dots2','Two dots','The strand\'s dot, doubled.'],
+      ['dots3','Three dots','The strand\'s dot, tripled.']
+    ]],
+    ['The three a map already owns, for comparison',[
+      ['tri','Triangle','','warn: a peak.'],
+      ['sq','Square','','warn: a fort or a building.'],
+      ['circ','Disc','','warn: a city.']
+    ]]
+  ];
+  var n=0, h='';
+  function sw(id,mode){ return '<div class="sw '+mode+'"><div class="line big"><svg><use href="#k"/></svg><svg><use href="#'+id+'"/></svg><svg class="s"><use href="#st"/></svg><span class="lab">22 px</span></div><div class="line small"><svg><use href="#k"/></svg><svg><use href="#'+id+'"/></svg><svg class="s"><use href="#st"/></svg><span class="lab">12 px</span></div></div>'; }
+  groups.forEach(function(g){ h+='<h2>'+g[0]+'</h2><div class="grid">'; g[1].forEach(function(c){ n++; var warn=c[3]?c[3].replace(/^warn:\s*/,''):''; h+='<div class="cell"><div class="hd"><span class="n">'+n+'</span><span class="t">'+c[1]+'</span></div><p class="note'+(warn?' warn':'')+'">'+(warn||c[2])+'</p><div class="trio">'+sw(c[0],'light')+sw(c[0],'dark')+'</div></div>'; }); h+='</div>'; });
+  document.getElementById('sheet').innerHTML=h;
+})();
+</script>
