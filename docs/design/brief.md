@@ -23,6 +23,18 @@ What Phase 1 designs against. In Cade's words, tidied.
    hairlines, identical rounded cards, all-caps eyebrow labels, middle-dot meta strings).
    Prototype 1 sat close to the first of these; the new direction is chosen on purpose.
 
+## Aesthetic lead (Cade, 2026-11-07)
+
+A subtle **old European map** feeling: a quiet reference, never a costume. Keep the cues
+that come from engraved charts (hairline coastlines, land in a paper tone, a serif for
+place names on the globe and little else, a faint graticule, ink spent only where it
+says something). Leave out the costume (parchment textures, sepia, cartouches, compass
+roses, torn edges, fake aging). The interface around the map (bar, cards, reading type)
+stays modern and clean, so the contrast reads as deliberate. Caution: cream plus serif
+plus a red-brown accent is the commonest AI default and where Prototype 1 sat; the
+restraint is the whole job. Step 1.3 shows one direction leaning this way and at least
+one that does not.
+
 ## References
 
 - **ATLYNX**: clean de facto borders for the present day. A reference for the look of
