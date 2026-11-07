@@ -136,6 +136,14 @@ One guard: the effects of a recent event are still unfolding, so its Lasting and
 scores are provisional for 25 years and marked so in the data header. An ongoing war is a
 story, never yet a world turning point, and every figure in it carries its source and date.
 
+## A lead for themes and chronicles (2026-11-07)
+
+Themes may take a scroll-driven essay form: the argument unfolds as the reader scrolls,
+in the themes voice, with sourced images, the weight carried by the order of the facts.
+Chronicles may try the same with the globe turning and the year advancing as the reader
+scrolls down the stories. Both are prototyped on one page first (roadmap 8.8a) and kept
+only if they hold the phone budget and Cade's judgment.
+
 ## Developing stories and who holds what (proposed 2026-11-05)
 
 A conflict still under way is a **developing story**: a story like any other, belonging to

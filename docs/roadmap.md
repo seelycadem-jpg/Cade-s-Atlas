@@ -202,6 +202,7 @@ Goal: the web of cause and effect at scale, and the tools to follow it.
 | 8.6 | Contested arrows show both readings on tap | AI | Test |
 | 8.7 | The meanwhile line | AI | Test |
 | 8.8 | `/theme` and the ten themes, each case a link | AI | Real-question, three-civilisation and node checks pass |
+| 8.8a | Prototype one theme as a scroll-driven essay (Cade's lead, 2026-11-07): the argument unfolds as the reader scrolls, with sourced images and the themes voice; emotion from the order of facts, never adjectives; phone budget holds. If it works, every theme gets it, and the chronicle page tries the same with the globe and year moving as the reader scrolls | AI, C judges | A prototype Cade approves, or a note on why it failed |
 | 8.9 | The Ideas lane | AI | Test |
 | 8.10 | Compare two years | AI | Test |
 
