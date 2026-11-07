@@ -8,7 +8,7 @@
 /* Paper and chart ink. The globe opens the page and shrinks with the scroll; the reading
    slides up under it. One accent (Prussian blue); kinds in engraver's pigments. */
 :root{
-  --bg:#F6F2EC; --surface:#FCFAF6; --surface2:#EFE9E1; --ink:#1C1916; --ink2:#4D4843; --ink3:#7B746D; --title:#3B2217; --rule:#DCD2C7;
+  --bg:#F6F2EC; --surface:#FCFAF6; --surface2:#EFE9E1; --ink:#1C1916; --ink2:#4D4843; --ink3:#7B746D; --title:#3B2217; --lede:#5A3220; --rule:#DCD2C7;
   --accent:#C81A12; --on-accent:#FFFFFF;
   --k-person:#6B4A7A; --k-polity:#2A6A6A; --k-chron:#3F4F73; --k-feature:#6B6A2A; --gilt:#B08A3E;
   --sea:#F0EBE3; --land:#E3DBD0; --coast:#A79A8D; --grat:#D9D0C5; --border:rgba(64,44,34,.42); --here:rgba(200,26,18,.14);
@@ -17,13 +17,13 @@
   color-scheme:light;
 }
 @media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
-  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --rule:#3E2E26;
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --lede:#E8C9A8; --rule:#3E2E26;
   --accent:#FF6B5C; --on-accent:#1C130F;
   --k-person:#C9A6DC; --k-polity:#7FCACA; --k-chron:#A9B9E6; --k-feature:#C8C77A; --gilt:#C9A45C;
   --sea:#1C130F; --land:#2C201A; --coast:#64524A; --grat:#2E231D; --border:rgba(214,196,182,.4); --here:rgba(255,107,92,.2);
   --scrim:rgba(0,0,0,.55); --shadow:0 10px 32px rgba(0,0,0,.5); --shadow2:0 2px 10px rgba(0,0,0,.35); color-scheme:dark } }
 :root[data-theme="dark"]{
-  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --rule:#3E2E26;
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --lede:#E8C9A8; --rule:#3E2E26;
   --accent:#FF6B5C; --on-accent:#1C130F;
   --k-person:#C9A6DC; --k-polity:#7FCACA; --k-chron:#A9B9E6; --k-feature:#C8C77A; --gilt:#C9A45C;
   --sea:#1C130F; --land:#2C201A; --coast:#64524A; --grat:#2E231D; --border:rgba(214,196,182,.4); --here:rgba(255,107,92,.2);
@@ -109,7 +109,7 @@ a{color:inherit}
 h2{font:500 30px/1.12 var(--display);margin:34px 0 10px;letter-spacing:-.004em}
 h2::after{content:"";display:block;width:84px;height:2px;margin-top:5px;background:linear-gradient(90deg,var(--gilt) 0%,var(--gilt) 18%,transparent 100%);clip-path:polygon(0 0,100% 50%,0 100%)}
 h3{font:500 22px/1.25 var(--display);margin:20px 0 6px}
-.lede{font:400 21px/1.5 var(--body);margin:0 0 14px;text-wrap:pretty}
+.lede{font:400 24px/1.4 var(--display);margin:0 0 16px;text-wrap:pretty;color:var(--lede)}
 p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .why{display:grid;gap:10px;margin:0 0 14px}
 .why .f{display:grid;grid-template-columns:5.2rem 1fr;gap:12px;align-items:start}
@@ -491,7 +491,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .tgap{height:18px}
 .backstory{display:inline-block;margin:16px 0 0;font:500 16px/1.4 var(--display);color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent)}
 /* titles in espresso, body in warm black (Cade, 2026-11-08); in dark mode both are cream */
-.lede,h1,h2,h3,.tw h1,.chap h3,#sheetTitle,.nextprev .t,.open .pn .t,.ev .t,.tl .n,.path .pc .t,.xn .t,.ce .t,.mwr .t,.wander .t,.tn .t,.kn .t,#cthread .tend .t,.ti .t{color:var(--title)}
+.tw h1,h1,h2,h3,.chap h3,#sheetTitle,.nextprev .t,.open .pn .t,.ev .t,.tl .n,.path .pc .t,.xn .t,.ce .t,.mwr .t,.wander .t,.tn .t,.kn .t,#cthread .tend .t,.ti .t{color:var(--title)}
 </style>
 
 <div class="stage" id="stage">

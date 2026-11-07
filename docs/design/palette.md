@@ -28,7 +28,8 @@ Chosen from eight candidates shown on the same slice of story page, light and da
 | `--surface` | `#FCFAF6` | cards, chips, the pill |
 | `--surface2` | `#EFE9E1` | a second surface where two sit together |
 | `--ink` | `#1C1916` | warm black: body text (15.7 on bg) |
-| `--title` | `#3B2217` | espresso: titles, headings, chapter and event titles, and the briefing's opening paragraph (13.2) |
+| `--title` | `#3B2217` | espresso: titles, headings, chapter and event titles (13.2) |
+| `--lede` | `#5A3220` | a lighter espresso for the briefing's opening paragraph, set in the title face a size up, so the brown shows at reading size (9.8). Alternatives in `docs/design/opener-options.html` |
 | `--ink2` | `#4D4843` | the patch, summaries, secondary text (8.1) |
 | `--ink3` | `#7B746D` | labels, captions, the strand ring (4.1; never body text) |
 | `--rule` | `#DCD2C7` | hairlines, guides, borders of surfaces |
@@ -52,6 +53,7 @@ Chosen from eight candidates shown on the same slice of story page, light and da
 | `--surface2` | `#2E211B` | |
 | `--ink` | `#F2E9E0` | cream (15.2 on bg) |
 | `--title` | `#F2E9E0` | cream, the same as the text |
+| `--lede` | `#E8C9A8` | warm sand for the opener (11.6) |
 | `--ink2` | `#C4B4A7` | (9.1) |
 | `--ink3` | `#948174` | (4.9) |
 | `--rule` | `#3E2E26` | |
