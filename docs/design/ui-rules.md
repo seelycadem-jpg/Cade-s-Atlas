@@ -101,7 +101,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
 
 18. **Light and dark, both first-class.** The reader's system setting decides; every
     surface, text and map colour has a value in both, and the globe's borders read in
-    both.
+    both. The colours are the red thread palette in `docs/design/palette.md` (Cade,
+    2026-11-08): one red for the chain and nothing else, graphite inks on bone, charcoal
+    with the red warmed for dark.
 
 19. **No gate on the page.** (Agreed 2026-11-07.) An event page is one continuous scroll
     in its four layers, each visible, with a small index under the title to jump between
