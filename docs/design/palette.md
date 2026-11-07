@@ -2,9 +2,10 @@
 
 One idea: the product is the link, so the link gets the only loud colour. A warm paper
 ground, espresso-brown inks, and one red used for the chain alone: the knots, the
-connectors, the years, the Globe pill. Everything else is quiet. Links by kind sit in plum,
-teal, slate and moss; the maps in soft warm neutrals; so the thread is the one red thing on
-the page. The dark side is a deep espresso ground with cream inks and the red warmed, built
+connectors, the years, the Globe pill. Everything else is quiet. Links in text are ink
+with a thin red underline and turn red on hover or tap; the maps sit in soft warm neutrals;
+so the thread is the one red thing on the page. One quiet decoration, gilt, marks the
+section headings and nothing else. The dark side is a deep espresso ground with cream inks and the red warmed, built
 from the same set and never inverted.
 
 Espresso replaced graphite and charcoal on Cade's instruction: brown stands wherever black
@@ -31,10 +32,7 @@ Chosen from eight candidates shown on the same slice of story page, light and da
 | `--rule` | `#DCD2C7` | hairlines, guides, borders of surfaces |
 | `--accent` | `#C81A12` | the chain only: knot marks, fibre dots, connectors, years, the pill (5.2 on bg) |
 | `--on-accent` | `#FFFFFF` | text on the accent |
-| `--k-person` | `#6B4A7A` | links to people, plum (6.5) |
-| `--k-polity` | `#2A6A6A` | links to countries and governments, teal (5.6) |
-| `--k-chron` | `#3F4F73` | links to chronicles and stories, slate (7.3) |
-| `--k-feature` | `#6B6A2A` | links to places and features, moss (5.1) |
+| `--gilt` | `#B08A3E` | the short rule under section headings and the divider diamond; never text |
 | `--sea` | `#F0EBE3` | the globe's sea |
 | `--land` | `#E3DBD0` | the globe's land |
 | `--coast` | `#A79A8D` | coastlines |
@@ -56,10 +54,7 @@ Chosen from eight candidates shown on the same slice of story page, light and da
 | `--rule` | `#3E2E26` | |
 | `--accent` | `#FF6B5C` | the red, warmed for a dark ground (6.5) |
 | `--on-accent` | `#1C130F` | |
-| `--k-person` | `#C9A6DC` | (8.6) |
-| `--k-polity` | `#7FCACA` | (9.7) |
-| `--k-chron` | `#A9B9E6` | (9.3) |
-| `--k-feature` | `#C8C77A` | (10.3) |
+| `--gilt` | `#C9A45C` | |
 | `--sea` | `#1C130F` | |
 | `--land` | `#2C201A` | |
 | `--coast` | `#64524A` | |
@@ -72,8 +67,11 @@ Chosen from eight candidates shown on the same slice of story page, light and da
 
 - One accent, and it belongs to the chain. Nothing decorative is red: no headings, no
   buttons that are not about the chain, no rules.
-- The four link colours never share the accent's hue, so a link is never mistaken for a
-  knot and a knot never for a link.
+- One link style (Cade, 2026-11-08): ink text with a 1px red underline, red on hover and
+  focus. Links are no longer coloured by kind; the preview card names the kind. This
+  retired the four link pigments (plum, teal, slate, moss).
+- Gilt is a line, never text: the short rule under section headings and the divider
+  diamond. It stays off small labels so it never becomes clutter.
 - Grades are told by line style, never by colour alone: solid for Necessary and
   Sufficient, dashed for Contributing, dotted for Contested, grey with a cross-stroke for
   Coincident.
