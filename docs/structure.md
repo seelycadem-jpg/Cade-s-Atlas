@@ -1,6 +1,7 @@
 # The structure: chronicle, story, chapter, knot, fibre, strand (agreed 2026-11-08)
 
-The one place the hierarchy lives. Where an older doc says otherwise (story-method.md,
+The one place the hierarchy lives. The chart of the six levels, for reading or sharing:
+`docs/design/levels-chart.html` (https://claude.ai/artifact/Y9GbTwZBYFKiwvCfbqhpku). Where an older doc says otherwise (story-method.md,
 narrative-flow.md, house-style.md), this file wins. Worked example: Germany.
 
 ## The map

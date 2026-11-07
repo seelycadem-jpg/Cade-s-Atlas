@@ -1,0 +1,196 @@
+<title>The Six Levels</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one ladder down the page, each level stepped in from the last, the Germany example running beside it. */
+:root{
+  --bg:#f6f3ec; --surface:#fdfbf7; --ink:#1d1f24; --ink2:#50545c; --ink3:#7d8189; --rule:#d9d3c6;
+  --accent:#1f3a63; --accent-soft:#e4e9f1; --k-chron:#3a3f8f; --k-story:#5a4b8a; --k-chap:#6b5a3e;
+  --display:"EB Garamond",Georgia,"Times New Roman",serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,-apple-system,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
+  --bg:#17181c; --surface:#1f2126; --ink:#ece8df; --ink2:#b9b4a8; --ink3:#878379; --rule:#3a3c43;
+  --accent:#8fb0e3; --accent-soft:#263348; --k-chron:#aeb2ee; --k-story:#c0b1e8; --k-chap:#cdb997; color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#17181c; --surface:#1f2126; --ink:#ece8df; --ink2:#b9b4a8; --ink3:#878379; --rule:#3a3c43;
+  --accent:#8fb0e3; --accent-soft:#263348; --k-chron:#aeb2ee; --k-story:#c0b1e8; --k-chap:#cdb997; color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
+.wrap{max-width:52rem;margin:0 auto}
+.eyebrow{font:500 13px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0 0 10px}
+h1{font:500 clamp(36px,7vw,52px)/1.02 var(--display);margin:0 0 12px;letter-spacing:-.006em;text-wrap:balance}
+.lede{font:400 20px/1.5 var(--body);color:var(--ink2);max-width:40rem;margin:0 0 8px;text-wrap:pretty}
+.key{display:flex;flex-wrap:wrap;gap:8px 18px;font:14.5px/1.4 var(--display);color:var(--ink2);margin:14px 0 30px;padding:12px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.key span{display:inline-flex;align-items:center;gap:7px}
+.mk{display:inline-block;width:12px;height:12px;border-radius:50%;flex:none}
+.mk.k{background:var(--accent)}
+.mk.f{border:2px solid var(--accent);background:transparent}
+.mk.s{width:7px;height:7px;background:var(--ink2);margin:0 2.5px}
+.mk.box{border-radius:2px;width:12px;height:12px;border:1.5px solid currentColor;background:transparent}
+
+/* the ladder */
+.ladder{position:relative;display:grid;gap:0}
+.lvl{display:grid;grid-template-columns:minmax(0,13rem) minmax(0,1fr);gap:6px 28px;padding:22px 0 24px;border-top:1px solid var(--rule);position:relative}
+.lvl:last-child{border-bottom:1px solid var(--rule)}
+.lvl .name{display:flex;align-items:flex-start;gap:10px}
+.lvl .name .mk{margin-top:12px}
+.lvl .name .box{margin-top:12px;color:var(--c,var(--accent))}
+.lvl h2{font:500 30px/1.1 var(--display);margin:0;color:var(--c,var(--ink));letter-spacing:-.004em}
+.lvl .def{font:400 19px/1.45 var(--body);margin:2px 0 0;color:var(--ink)}
+.lvl .ex{font:italic 400 17px/1.45 var(--display);color:var(--ink2);margin:4px 0 0}
+.lvl .ex b{font-style:normal;font-weight:500;color:var(--ink)}
+.lvl dl{margin:14px 0 0;display:grid;grid-template-columns:7.5rem minmax(0,1fr);gap:6px 14px;font:15px/1.5 var(--ui);color:var(--ink2)}
+.lvl dt{font:500 11.5px/1.5 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);padding-top:2px}
+.lvl dd{margin:0;min-width:0}
+.lvl dd b{font-weight:600;color:var(--ink)}
+/* the step in: each level sits a little further right, with a hairline from its parent */
+.lvl[data-d="1"]{padding-left:0}
+.lvl[data-d="2"]{padding-left:1.4rem}
+.lvl[data-d="3"]{padding-left:2.8rem}
+.lvl[data-d="4"]{padding-left:4.2rem}
+.lvl[data-d="5"]{padding-left:5.6rem}
+.lvl[data-d="6"]{padding-left:7rem}
+.lvl[data-d]:not([data-d="1"])::before{content:"";position:absolute;left:calc(var(--in) - 1.4rem + 5px);top:0;height:22px;width:1.4rem;border-left:1px solid var(--rule);border-bottom:1px solid var(--rule);border-radius:0 0 0 6px;transform:translateY(12px)}
+.lvl[data-d="2"]{--in:1.4rem}.lvl[data-d="3"]{--in:2.8rem}.lvl[data-d="4"]{--in:4.2rem}.lvl[data-d="5"]{--in:5.6rem}.lvl[data-d="6"]{--in:7rem}
+.events{position:relative;margin-top:26px}
+.band{font:500 12px/1.5 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--accent);margin:0 0 6px;display:flex;align-items:center;gap:10px}
+.band::after{content:"";flex:1;border-top:1px solid var(--rule)}
+.band.frames{color:var(--ink3)}
+
+/* the rules */
+h3{font:500 26px/1.15 var(--display);margin:40px 0 10px}
+.rules{display:grid;gap:14px}
+.rule{border-left:2px solid var(--accent);padding:2px 0 2px 14px}
+.rule b{display:block;font:500 19px/1.3 var(--display);color:var(--ink);margin-bottom:2px}
+.rule p{margin:0;font:16px/1.5 var(--body);color:var(--ink2)}
+.same{margin:24px 0 0;padding:16px 18px;border:1px solid var(--rule);border-radius:12px;background:var(--surface)}
+.same .band{font:500 12px/1.5 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:0 0 8px}
+.same table{border-collapse:collapse;width:100%;font:15px/1.5 var(--ui)}
+.same th{text-align:left;font:500 11.5px/1.5 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);padding:0 10px 6px 0;border-bottom:1px solid var(--rule)}
+.same td{padding:8px 10px 8px 0;border-bottom:1px solid var(--rule);vertical-align:top;color:var(--ink2)}
+.same tr:last-child td{border-bottom:0}
+.same td:first-child{color:var(--ink);font-family:var(--display);font-size:17px}
+.same td .mk{vertical-align:middle;margin-right:6px}
+.foot{font:13px/1.5 var(--ui);color:var(--ink3);margin:34px 0 0}
+@media (max-width:620px){
+  .lvl{grid-template-columns:1fr;gap:4px 0}
+  .lvl[data-d="2"]{padding-left:.6rem}.lvl[data-d="3"]{padding-left:1.2rem}.lvl[data-d="4"]{padding-left:1.8rem}.lvl[data-d="5"]{padding-left:2.4rem}.lvl[data-d="6"]{padding-left:3rem}
+  .lvl[data-d]:not([data-d="1"])::before{display:none}
+  .lvl dl{grid-template-columns:6rem minmax(0,1fr)}
+  .lvl h2{font-size:27px}
+}
+@media (prefers-reduced-motion: reduce){*{transition:none!important}}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Meanwhile Atlas · the structure, agreed 8 November 2026</p>
+  <h1>The six levels, from a country to an afternoon</h1>
+  <p class="lede">Three frames hold the story and three sizes of event sit inside them. Every event has a date and a place. A figure, a quotation or a date on its own is a line inside a page, never a level.</p>
+  <p class="key"><span><i class="mk box"></i>a frame: holds other things</span><span><i class="mk k"></i>knot</span><span><i class="mk f"></i>fibre</span><span><i class="mk s"></i>strand</span><span>· the three marks go with the words everywhere</span></p>
+
+  <div class="ladder">
+    <p class="band frames events" style="margin-top:0"><span>The frames</span></p>
+
+    <section class="lvl" data-d="1" style="--c:var(--k-chron)">
+      <div class="name"><i class="mk box"></i><div><h2>Chronicle</h2></div></div>
+      <div>
+        <p class="def">The long story of one place or people, from its beginning to today.</p>
+        <p class="ex"><b>Germany</b>, from Rome's frontier to the Federal Republic.</p>
+        <dl>
+          <dt>Its page</dt><dd>A portrait of the place, then its stories in order. A two-minute read.</dd>
+          <dt>Holds</dt><dd>Stories, as many as the place has eras. Germany has twelve.</dd>
+          <dt>Readers see</dt><dd>The word <b>chronicle</b>.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="lvl" data-d="2" style="--c:var(--k-story)">
+      <div class="name"><i class="mk box"></i><div><h2>Story</h2></div></div>
+      <div>
+        <p class="def">One era of the chronicle, with its own argument: why it went the way it did.</p>
+        <p class="ex"><b>Weimar Germany</b>, 1919 to 1933.</p>
+        <dl>
+          <dt>Its page</dt><dd>The briefing in a few analytic paragraphs, then its chapters, then Meanwhile, then Previous and Next story.</dd>
+          <dt>Holds</dt><dd>Chapters. A story can belong to two chronicles: Divided Germany sits in Germany and in The Cold War.</dd>
+          <dt>Readers see</dt><dd>The word <b>story</b>.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="lvl" data-d="3" style="--c:var(--k-chap)">
+      <div class="name"><i class="mk box"></i><div><h2>Chapter</h2></div></div>
+      <div>
+        <p class="def">A section of the story built around its knot.</p>
+        <p class="ex"><b>The Treaty</b>, the first of Weimar's five chapters.</p>
+        <dl>
+          <dt>Its page</dt><dd>None of its own. It lives on the story page as one longer briefing paragraph (internally, the patch), then its knots, then a control that opens its fibres and strands.</dd>
+          <dt>Holds</dt><dd>Usually <b>one knot</b>, never more than three. The Depression chapter holds two, the crash and the slump reaching Germany, with the graded link between them.</dd>
+          <dt>Readers see</dt><dd>The word <b>chapter</b>. Never "patch".</dd>
+        </dl>
+      </div>
+    </section>
+
+    <p class="band events"><span>The events, in order of size</span></p>
+
+    <section class="lvl" data-d="4">
+      <div class="name"><i class="mk k"></i><div><h2>Knot</h2></div></div>
+      <div>
+        <p class="def">The chapter's major event. The turning point the chapter exists to explain.</p>
+        <p class="ex"><b>The Paris Peace Settlement</b>, 1919 to 1923. Elsewhere: the United States enters the war.</p>
+        <dl>
+          <dt>Its page</dt><dd>A full event page: historical significance, lasting impact, what caused it, what it caused, the world before and after, Follow Historical Chain, the briefing.</dd>
+          <dt>Holds</dt><dd>Fibres.</dd>
+          <dt>Mark</dt><dd>Filled.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="lvl" data-d="5">
+      <div class="name"><i class="mk f"></i><div><h2>Fibre</h2></div></div>
+      <div>
+        <p class="def">A smaller event inside a knot.</p>
+        <p class="ex"><b>Versailles</b>, 28 June 1919, one of the five treaties. Elsewhere: a battle inside the war.</p>
+        <dl>
+          <dt>Its page</dt><dd>A shorter event page in the same shape, as long as the event needs.</dd>
+          <dt>Holds</dt><dd>Strands.</dd>
+          <dt>Mark</dt><dd>Ring.</dd>
+        </dl>
+      </div>
+    </section>
+
+    <section class="lvl" data-d="6">
+      <div class="name"><i class="mk s"></i><div><h2>Strand</h2></div></div>
+      <div>
+        <p class="def">A smaller event still. One vote, one signing, one day.</p>
+        <p class="ex"><b>The racial-equality vote</b>, 11 April 1919. Elsewhere: the Army issues trench shotguns.</p>
+        <dl>
+          <dt>Its page</dt><dd>A short page if it carries a link into a chain. Otherwise a line inside its fibre.</dd>
+          <dt>Holds</dt><dd>Nothing. A strand is the smallest event the atlas names.</dd>
+          <dt>Mark</dt><dd>Dot.</dd>
+        </dl>
+      </div>
+    </section>
+  </div>
+
+  <h3>Three rules that follow</h3>
+  <div class="rules">
+    <div class="rule"><b>Size belongs to the event and the chain together, never to the event alone.</b><p>The data records a size for each chain the event sits in. A page shows the size for the chain the reader came through.</p></div>
+    <div class="rule"><b>Length follows the event, not the level.</b><p>A knot that is one day is short. A knot that holds five treaties is long. The level sets the role; the event sets the words.</p></div>
+    <div class="rule"><b>A page exists because it carries a link.</b><p>An event with no graded arrow into a chain stays a line, or a label on the map. An arrow is never added to justify a page.</p></div>
+  </div>
+
+  <div class="same">
+    <p class="band">The same event, three chains, three sizes</p>
+    <table>
+      <thead><tr><th>Event</th><th>In the chain</th><th>Its size there</th></tr></thead>
+      <tbody>
+        <tr><td>The Paris Peace Settlement</td><td>Weimar Germany</td><td><i class="mk k"></i>knot</td></tr>
+        <tr><td>The Paris Peace Settlement</td><td>Iraq</td><td><i class="mk s"></i>strand</td></tr>
+        <tr><td>Mehmed II takes the throne at twelve</td><td>The Ottomans</td><td><i class="mk f"></i>fibre</td></tr>
+        <tr><td>Mehmed II takes the throne at twelve</td><td>Mehmed II, a life</td><td><i class="mk k"></i>knot</td></tr>
+      </tbody>
+    </table>
+  </div>
+
+  <p class="foot">Six taps from the long view to one afternoon: Germany, Weimar Germany, The Treaty, The Paris Peace Settlement, Versailles, the vote of 11 April 1919. Back at every step. The full text lives in docs/structure.md.</p>
+</div>
