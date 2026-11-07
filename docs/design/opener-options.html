@@ -1,0 +1,70 @@
+<title>Briefing Opener Colours</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;1,6..72,400&family=Public+Sans:wght@400;500&display=swap">
+<style>
+/* Layout: five colours for the briefing opener, all in the title face a size up, each shown light and dark between the italic line and the body text. */
+:root{
+  --bg:#F6F2EC; --ink:#1C1916; --ink2:#4D4843; --ink3:#7B746D; --rule:#DCD2C7; --accent:#C81A12; --title:#3B2217;
+  --display:"EB Garamond",Georgia,serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1C130F;--ink:#F2E9E0;--ink2:#C4B4A7;--ink3:#948174;--rule:#3E2E26;--title:#F2E9E0;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1C130F;--ink:#F2E9E0;--ink2:#C4B4A7;--ink3:#948174;--rule:#3E2E26;--title:#F2E9E0;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
+.wrap{max-width:62rem;margin:0 auto}
+.eyebrow{font:500 13px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0 0 10px}
+h1{font:500 clamp(32px,6.5vw,44px)/1.05 var(--display);margin:0 0 10px;color:var(--title)}
+.intro{font:18px/1.5 var(--body);color:var(--ink2);max-width:44rem;margin:0 0 26px}
+.opt{border-top:1px solid var(--rule);padding:22px 0 26px}
+.opt h2{font:500 24px/1.15 var(--display);margin:0 0 4px;color:var(--title);display:flex;gap:10px;align-items:baseline}
+.opt h2 .n{font:500 12px/1.4 var(--display);letter-spacing:.14em;color:var(--ink3)}
+.opt h2 .sw{width:14px;height:14px;border-radius:3px;display:inline-block;align-self:center}
+.opt .why{font:15.5px/1.5 var(--body);color:var(--ink2);margin:0 0 14px;max-width:46rem}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:760px){.pair{grid-template-columns:1fr}}
+.pg{border-radius:12px;padding:18px 18px 8px;min-width:0}
+.pg.light{background:#F6F2EC;color:#1C1916;border:1px solid #DCD2C7;--b:#1C1916;--b2:#4D4843}
+.pg.dark{background:#1C130F;color:#F2E9E0;border:1px solid #3E2E26;--b:#F2E9E0;--b2:#C4B4A7}
+.pg .ttl{font:500 34px/1.05 var(--display);margin:0 0 10px}
+.pg.light .ttl{color:#3B2217}.pg.dark .ttl{color:#F2E9E0}
+.pg .line{font:italic 400 20px/1.4 var(--display);color:var(--b2);margin:0 0 14px}
+.pg .tabs{font:500 15px/1 var(--display);color:var(--b2);margin:0 0 16px;display:flex;gap:18px}
+.pg .tabs b{font-weight:500;border:1px solid currentColor;border-radius:999px;padding:6px 10px;margin:-7px -4px}
+.pg .lede{font:400 24px/1.4 var(--display);margin:0 0 14px}
+.pg .body{font:17px/1.6 var(--body);color:var(--b);margin:0 0 10px}
+.pg .body u{text-decoration-color:#C81A12;text-underline-offset:3px;text-decoration-thickness:1px}
+.a.light .lede{color:#5A3220}
+.a.dark .lede{color:#E8C9A8}
+.b.light .lede{color:#1E3452}
+.b.dark .lede{color:#B9C9E2}
+.c.light .lede{color:#1D4A4A}
+.c.dark .lede{color:#A9D3CF}
+.d.light .lede{color:#4A2440}
+.d.dark .lede{color:#E2BFD6}
+.e.light .lede{color:#7A3B1A}
+.e.dark .lede{color:#EBB98F}
+.verdict{margin:30px 0 0;border-left:2px solid var(--accent);padding:2px 0 2px 14px}
+.verdict b{display:block;font:500 20px/1.3 var(--display);color:var(--title);margin-bottom:4px}
+.verdict p{margin:0;font:16px/1.5 var(--body);color:var(--ink2)}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Meanwhile Atlas · design note, 8 November 2026</p>
+  <h1>The briefing opener in five colours</h1>
+  <p class="intro">Every option uses the title face, Garamond, a size up, so the opener reads as a voice of its own. Only the colour changes. Each sits under the page title, the italic line and the tabs, above the body text with a link in it, in light and dark.</p>
+  <div id="opts"></div>
+  <div class="verdict"><b>My pick: deeper espresso. If you want a new colour, navy.</b><p>With the Garamond doing the work, the espresso now shows as brown and keeps the page to the palette we have: paper, ink, espresso, red, gilt. Navy is the best new colour: it is quiet, it sits well with red, and it reads as ink on a chart. If it wins, it should mean one thing only: the opener, and nothing else on the page. Teal is calm but drifts toward the map. Aubergine and umber both pull toward the red and start to look like a second accent.</p></div>
+</div>
+<script>
+(function(){
+  var O=[['a','Deeper espresso','#5A3220','#E8C9A8','The brown you chose, light enough to show as brown at this size. Stays inside the palette. Light 9.8 to 1; dark 11.6.'],
+    ['b','Navy','#1E3452','#B9C9E2','The ink of sea charts. Sits well with the red and the paper; a new colour. Light 11.3 to 1; dark 10.9.'],
+    ['c','Deep teal','#1D4A4A','#A9D3CF','A blue-green like old verdigris. Calm; furthest from the red. Light 8.8 to 1; dark 11.2.'],
+    ['d','Aubergine','#4A2440','#E2BFD6','A dark plum. Rich and unusual; close enough to the red in warmth that it can look like a second accent. Light 11.6 to 1; dark 11.0.'],
+    ['e','Burnt umber','#7A3B1A','#EBB98F','A warm red-brown, the pigment of old map hills. Shows its colour clearly; nearest the red. Light 7.6 to 1; dark 10.3.']];
+  var P=function(){ return '<p class="ttl">Weimar Germany</p><p class="line">The republic that signed the peace, paid for it, and fell when the Depression came.</p><div class="tabs"><b>Briefing</b><span>Chapters</span><span>Meanwhile</span></div>'
+   +'<p class="lede">The Weimar Republic lasted fourteen years, from the Kaiser\'s abdication in November 1918 to Hitler\'s appointment in January 1933. For most of them it was the largest democracy in Europe.</p>'
+   +'<p class="body">It began at a disadvantage no other European state shared. The men who founded it had to sign the <u>Paris settlement</u> because the army told them Germany could not fight on.</p>'; };
+  document.getElementById('opts').innerHTML=O.map(function(o,i){ return '<section class="opt"><h2><span class="n">'+(i+1)+'</span><span class="sw" style="background:'+o[2]+'"></span>'+o[1]+'</h2><p class="why">'+o[4]+'</p><div class="pair"><div class="pg light '+o[0]+'">'+P()+'</div><div class="pg dark '+o[0]+'">'+P()+'</div></div></section>'; }).join('');
+})();
+</script>
