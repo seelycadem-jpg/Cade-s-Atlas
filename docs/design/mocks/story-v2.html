@@ -60,7 +60,7 @@ a{color:inherit}
 .open .pn .t{font:500 17px/1.2 var(--display)}
 .stage .hsub .nx{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px;margin-left:6px}
 .stage .kicker{font:500 14px/1.4 var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
-.stage .hsub{position:absolute;left:0;top:0;font:13.5px/1.3 var(--display);color:var(--ink2);opacity:0;pointer-events:auto;white-space:nowrap}
+.stage .hsub{position:absolute;left:0;top:0;transition:opacity .2s;font:13.5px/1.3 var(--display);color:var(--ink2);opacity:0;pointer-events:auto;white-space:nowrap}
 .stage .topbar{position:absolute;top:8px;left:max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;pointer-events:auto}
 .back{display:inline-flex;align-items:center;gap:4px;min-height:38px;min-width:38px;padding:0 12px 0 8px;border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--ink);font:13px/1 var(--ui);box-shadow:var(--shadow2);transition:padding .2s}
 .stage.small .back{padding:0 9px}
@@ -88,7 +88,7 @@ a{color:inherit}
 .pageindex::-webkit-scrollbar{display:none}
 
 /* Reading. */
-.layer{scroll-margin-top:140px}
+.layer{scroll-margin-top:152px}
 .lmark{display:flex;align-items:baseline;gap:10px;margin:38px 0 6px;font:12px/1.3 var(--ui);color:var(--ink3)}
 .lmark b{font:600 13px/1.3 var(--ui);color:var(--ink2);letter-spacing:.04em;text-transform:uppercase}
 .lmark::after{content:"";flex:1;border-top:1px solid var(--rule);align-self:center}
@@ -280,7 +280,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 #briefBody h3:first-child{margin-top:14px}
 
 /* Chapters, connectors, the strip, meanwhile. */
-.strip{position:sticky;top:126px;z-index:5;height:66px;margin:0 0 14px;background:var(--bg);box-shadow:0 10px 10px -10px rgba(0,0,0,.08)}
+.strip{position:sticky;top:126px;z-index:5;height:84px;margin:0 0 14px;background:var(--bg);box-shadow:0 10px 10px -10px rgba(0,0,0,.08)}
 .strip .tk{transition:color .25s}
 .strip .tk i{transition:transform .25s,box-shadow .25s}
 .strip .tk.live{color:var(--ink);font-weight:600}
@@ -612,17 +612,20 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   /* the scroll-linked shrink: the globe and the title travel from the opening to the top corner */
   var gw=document.getElementById('gw'), tw=document.getElementById('tw'), hsub=document.getElementById('hsub'), band=document.getElementById('band'), sub=document.getElementById('sub'), kicker=document.getElementById('kicker'), hint=document.getElementById('hint'), hIdx=document.getElementById('hdrIndex');
   var gutter=16, ease=function(t){return t<.5?2*t*t:-1+(4-2*t)*t}, lastP=-1, small=false;
-  function apply(p){ var e=ease(p), eo=1-(1-p)*(1-p), sc=p*(heroH-70);
-    /* the globe shrinks early (ease-out) so the title never crosses it; the title rides the page until it docks */
+  /* the docking: the title's bottom edge rides the page while it shrinks, then its top pins under Back; every fade is keyed to that travel (q), never to the raw scroll */
+  function apply(sc){
+    var h1=tw.querySelector('h1'), twH=tw.offsetHeight, t0y=G*0.66+10, t1y=10-kicker.offsetHeight*0.46, s1t=0.46;
+    var D=t0y-t1y+twH*(1-s1t), q=Math.max(0,Math.min(1,sc/D)), qs=q*q*(3-2*q), eo=1-(1-q)*(1-q);
+    var ts=lerp(1,s1t,qs), top=Math.max(t1y,t0y+twH*(1-ts)-sc), t1x=gutter+50, t0x=Math.max(gutter,(W-640)/2);
+    tw.style.transform='translate('+lerp(t0x,t1x,qs)+'px,'+top+'px) scale('+ts+')';
     var g0x=(W-G)/2, g0y=-G*0.32, g1x=W-gutter-52, g1y=8, s1=52/G;
     gw.style.transform='translate('+lerp(g0x,g1x,eo)+'px,'+lerp(g0y,g1y,eo)+'px) scale('+lerp(1,s1,eo)+')'; gw.style.opacity=String(lerp(1,0.78,eo));
-    var h1=tw.querySelector('h1'), t0y=G*0.66+10, t1y=10-kicker.offsetHeight*0.46, ts=lerp(1,0.46,eo), t1x=gutter+50;
-    var t0x=Math.max(gutter,(W-640)/2), ty=Math.max(t1y,t0y-sc); tw.style.transform='translate('+lerp(t0x,t1x,eo)+'px,'+ty+'px) scale('+ts+')';
-    sub.style.opacity=kicker.style.opacity=String(Math.max(0,1-p*2.2)); hint.style.opacity=String(Math.max(0,1-p*3)); hint.style.pointerEvents=p>0.3?'none':'auto'; hint.style.top=(ty-44)+'px'; hint.style.left=lerp(t0x,gutter,eo)+'px';
-    hsub.style.opacity=String(Math.max(0,(p-0.75)/0.25)); hsub.style.transform='translate('+t1x+'px,'+(10+h1.offsetHeight*0.46+4)+'px)';
-    band.style.opacity=String(Math.max(0,(p-0.7)/0.3)); hIdx.classList.toggle('on',p>0.97); document.getElementById('pageIndex').classList.toggle('off',p>0.97);
-    small=p>0.9; document.getElementById('stage').classList.toggle('small',small); hero.style.cursor=small?'pointer':'grab'; }
-  function onScroll(force){ var p=Math.max(0,Math.min(1,window.scrollY/(heroH-70))); if(reduced)p=p<.5?0:1; if(p!==lastP||force){lastP=p;apply(p);} }
+    sub.style.opacity=kicker.style.opacity=String(Math.max(0,1-q*2.4)); hint.style.opacity=String(Math.max(0,1-q*3.5)); hint.style.pointerEvents=q>0.25?'none':'auto'; hint.style.top=(top-44)+'px'; hint.style.left=lerp(t0x,gutter,eo)+'px';
+    var docked=q>=0.999;
+    hsub.style.opacity=String(docked?1:0); hsub.style.pointerEvents=docked?'auto':'none'; hsub.style.transform='translate('+t1x+'px,'+(10+h1.offsetHeight*0.46+4)+'px)';
+    band.style.opacity=String(Math.max(0,(q-0.6)/0.4)); hIdx.classList.toggle('on',docked); document.getElementById('pageIndex').classList.toggle('off',docked);
+    small=docked; document.getElementById('stage').classList.toggle('small',q>0.2); hero.style.cursor=small?'pointer':'grab'; }
+  function onScroll(force){ var sc=Math.max(0,window.scrollY); if(reduced)sc=sc<120?0:9999; if(sc!==lastP||force){lastP=sc;apply(sc);} }
   window.addEventListener('scroll',function(){requestAnimationFrame(function(){onScroll(false)})},{passive:true});
   window.addEventListener('resize',layout);
   hero.addEventListener('click',function(){ if(!small)return; openBig(); });
@@ -631,7 +634,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   var SECS=[['arg','Briefing'],['chapters','Chapters'],['meanwhile','Meanwhile']];
   function indexHtml(){ return SECS.map(function(s){return '<a href="#'+s[0]+'" data-sec="'+s[0]+'">'+s[1]+'</a>'}).join(''); }
   hIdx.innerHTML=indexHtml(); document.getElementById('pageIndex').innerHTML=indexHtml();
-  document.querySelectorAll('.index a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.dataset.sec); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-110,behavior:reduced?'auto':'smooth'});})});
+  document.querySelectorAll('.index a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.dataset.sec); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-150,behavior:reduced?'auto':'smooth'});})});
   var spy=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting){ document.querySelectorAll('.index a').forEach(function(a){a.setAttribute('aria-current',String(a.dataset.sec===x.target.id))}); } }); },{rootMargin:'-30% 0px -60% 0px'});
   SECS.forEach(function(s){spy.observe(document.getElementById(s[0]))});
 
@@ -672,14 +675,14 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   var tt; function say(m){ toast.textContent=m; toast.classList.add('on'); clearTimeout(tt); tt=setTimeout(function(){toast.classList.remove('on')},2400); }
   function markFor(e){ return e.tier===1?'<i class="mk k" title="A main event in this chain"></i>':'<i class="mk s" title="A step in the full story"></i>'; }
   function preview(key,src){ var kind=key.split(':')[0], id=key.slice(kind.length+1), K=KIND[kind]||KIND.ev, x=X[key]; if(x&&!x._tc){x=Object.assign({},x,{t:tc(x.t)});}
-    if(!x&&kind==='ev'&&E[id]){ var e=E[id]; x={t:tc(e.h),d:String(e.y),l:(e.bluf||'').split(/(?<=\.)\s/)[0],a:'Open',ev:id,ll:(e.lon!=null?[e.lon,e.lat]:null),mk:markFor(e)}; }
+    if(!x&&kind==='ev'&&E[id]){ var e=E[id]; x={t:tc(e.h),d:String(e.y),l:(window.LINES&&LINES[id])||(e.bluf||'').split(/(?<=\.)\s/)[0],a:'Open',ev:id,ll:(e.lon!=null?[e.lon,e.lat]:null),mk:markFor(e)}; }
     if(!x)return;
     var h='<div class="kind"><i class="k" style="background:var('+K[1]+')"></i>'+K[0]+(x.mk?' '+x.mk:'')+'</div>'
       +(x.th||kind==='ev'?'<div class="thumb">'+esc(x.th||'picture, where there is one')+'</div>':'')
       +'<h3 id="sheetTitle">'+esc(x.t)+'</h3><div class="date">'+esc(x.d)+'</div><p>'+esc(x.l)+'</p><div class="acts">'
       +'<button type="button" class="pri" data-say="Would open: '+esc(x.t)+'. A Return chip would bring you back to this sentence.">'+esc(x.a)+'</button>'
       +(x.b?'<button type="button" class="sec" data-say="Would open: '+esc(x.b)+'.">'+esc(x.b)+'</button>':'')
-      +(x.ev&&x.ev!==HERE?'<button type="button" class="sec" data-centre="'+esc(x.ev)+'">Centre the chain here</button>':'')
+
       +'<button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,src); if(x.ll){ sheetPinned=true; turnTo(x.ll,true); } }
   function bindPrev(b){ b.addEventListener('click',function(){preview(b.dataset.prev,b)}); }
@@ -790,6 +793,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
      fibres:[['30 January 1933','Hindenburg Swears in Hitler\'s First Cabinet, Three Nazis Among Eleven Ministers'],['27 February 1933','The Reichstag Burns']]}];
   (function(){ var k=0,f=0,st=0; CH.forEach(function(c){k+=c.knots.length; f+=c.strands.length; st+=c.fibres.length;});
     document.getElementById('counts').innerHTML='<span data-tip="Sections of the story, each built on a knot"><b>'+CH.length+'</b> chapters</span><span data-tip="Major events: each has a full page"><i class="mk k"></i><b>'+k+'</b> knots</span><span data-tip="Smaller events linked to the knots"><i class="mk s"></i><b>'+f+'</b> fibres</span><span data-tip="Smaller events still"><i class="mk f"></i><b>'+st+'</b> strands</span>'; })();
+  window.LINES={}; CH.forEach(function(c){ c.knots.concat(c.strands).forEach(function(it){ if(it.id&&it.line)LINES[it.id]=it.line; }); });
   function linkBetween(a,b){ return A.links.filter(function(l){return l.f===a&&l.t===b})[0]; }
   var PHD={Necessary:'Without this, the next does not happen.',Sufficient:'This was enough on its own to bring the next about.',Contributing:'One cause of the next among several.',Contested:'Two readings; the atlas withholds a verdict.',Coincident:'Same time; the atlas finds no link.'};
   function connHtml(l){ if(!l) return '<div class="conn"><div class="ln none"><i></i></div><div class="lab"><span class="gw">No graded link yet between these knots; the chapters follow in time.</span></div></div>';
