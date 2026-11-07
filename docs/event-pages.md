@@ -25,6 +25,14 @@ What is never room: skipping a wall because the event is small, padding a sectio
 
 ## The layers
 
+The page's order, from the mission (amended 2026-11-07, after the seventh and eighth
+mocks): Why it matters; What caused it (each cause an event with its year, the link's
+claim as a plain sentence, and the grade in plain words); Who wanted what (each actor
+a country or a person, one plain line); What it caused (the same form); How sure we are
+(the verdict, the strongest case against); The chain (the graph, with the explorer
+behind it); What happened (short, with the map before and after); Today; The detail.
+The table below is the older layer scheme and is read through that order.
+
 | Layer | Shown | Holds | Reader it serves |
 | --- | --- | --- | --- |
 | 1. The takeaway | Always, first screen | The takeaway strip; the Overview; one picture or visual where it earns its place | Anyone, in thirty seconds |
@@ -34,7 +42,14 @@ What is never room: skipping a wall because the event is small, padding a sectio
 
 The takeaway strip is the first thing on the page: when (the date, with its precision), where (the place, on a globe thumbnail), who (the actors as chips that open their cards), where it sits (the chronicle and story the reader came through: "The German Question › The treaty"; no size word, since size is shown by the event's mark and weight), and the strongest arrow in each direction ("Caused: the Pact of 60, Necessary"). The strip is built from the data header; the agent writes none of it.
 
-## Word budgets by tier
+## Length (amended 2026-11-07 on Cade's decision)
+
+No fixed bands. An event takes the words it needs: one sentence where one sentence says
+it, three paragraphs where the event needs them. The one rule is that nothing in a page
+could be cut. The budgets below stay as a guide to what a page of each size usually runs
+to, never as a wall.
+
+## Word budgets by tier (guidance only)
 
 A page is written once, at the highest tier the event holds in any chain; the layers let a reader at a lower tier stop early.
 
