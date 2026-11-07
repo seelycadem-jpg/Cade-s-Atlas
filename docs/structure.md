@@ -11,15 +11,15 @@ CHRONICLE   Germany · the long view, Rome's frontier to today
    │
    ├─ STORY   an era of the chronicle, each with its own argument
    │     Germania and Rome · the Franks and the Empire · the Reformation
-   │     Austria and Prussia · Unification · the Reich · the war
+   │     Austria and Prussia · Unification · the Reich · The Great War
    │     Weimar Germany 1919–1933 · Nazi Germany 1933–1945
    │     Divided Germany 1945–1990 · Reunified Germany 1990–today
    │     page = why the era went the way it did, then its chapters
    │
    │     └─ CHAPTER   a section of the story, built around one knot
    │          (internal name: patch; readers see "chapter")
-   │          Weimar: The treaty · The Ruhr and the mark · The golden years
-   │                  The Depression · The seizure of power
+   │          Weimar: The Treaty · The Ruhr and the Mark · The Golden Years
+   │                  The Depression · The Seizure of Power
    │          one paragraph on the story page; opens to its knot
    │
    │          └─ KNOT   the chapter's major event · a full page

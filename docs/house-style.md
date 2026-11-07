@@ -16,6 +16,15 @@ Every sentence names who did what. "Moscow started the Crimean War to take the S
 
 Read literally, some rules flatten prose; the checks enforce these forms. Sentences: average under 20 words, none over 30, lengths varied; one idea per sentence, and a fact may share a sentence with its consequence. Passive allowed when the actor is unknown or the thing done is the point; never to hide who decided. Rule zero bans the two-step reveal only; a plain negative fact is fine. Logical connectors inside sentences stay; banned are stock transitions at the head of a sentence and the "and then" between patches. Triplets built for rhythm are banned; three facts are three facts. Banned words apply in figurative use only. The expert's nod is per page (fibres excepted); the fact against is per story. No scene-setting applies to the Overview; The account is narrative. Wit lives in the choice and placement of a fact.
 
+## Rule zero-B: titles in title case (Cade, 2026-11-08)
+
+The title of a chronicle, story, chapter, knot, fibre, strand, person or theme is set in
+title case: every word capitalised except a, an, and, as, at, but, by, for, in, of, on, or,
+the, to, with, from, into, over, when they are not the first word. The Paris Peace
+Settlement; The Ruhr and the Mark; Hitler Takes Power. The old data is sentence case
+and is converted at build time, never by hand. Sentences inside a page follow ordinary
+English capitals. The First World War is named The Great War in story and chapter titles.
+
 ## Rule one: two registers
 
 - The presidential daily brief, everywhere: event briefs, arrow notes, story chapters at every altitude, theme propositions, the About page, chat. Every sentence carries information or argument. Judgment first. No word that could be cut without loss. If the President would skim it, cut it. No questions; the reader is told.

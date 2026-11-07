@@ -48,9 +48,9 @@ a{color:inherit}
 .stage canvas{display:block;border-radius:50%;touch-action:none;box-shadow:var(--shadow2)}
 .stage .tw{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;pointer-events:auto;width:calc(100vw - 32px);max-width:40rem}
 .stage .tw h1{font:500 clamp(38px,9.6vw,52px)/1.02 var(--display);margin:0;letter-spacing:-.008em;text-wrap:balance}
-.stage .tw .sub{font:14px/1.4 var(--ui);color:var(--ink2);margin:8px 0 0;display:flex;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.stage .tw .sub{font:16px/1.4 var(--display);color:var(--ink2);margin:8px 0 0;display:flex;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
 .stage .tw .sub b{color:var(--accent);font-weight:600}
-.open .counts{display:flex;gap:6px 14px;flex-wrap:wrap;margin:0;font:13px/1.4 var(--ui);color:var(--ink2)}
+.open .counts{display:flex;gap:6px 14px;flex-wrap:wrap;margin:0;font:15px/1.4 var(--display);color:var(--ink2)}
 .open .counts span{display:inline-flex;align-items:center;gap:6px}
 .open .counts b{font-weight:600;color:var(--ink);font-variant-numeric:tabular-nums}
 .open .pn{display:flex;justify-content:space-between;gap:10px;margin:12px 0 18px;font:14px/1.3 var(--ui);color:var(--ink2);border-top:1px solid var(--rule);padding-top:10px}
@@ -60,7 +60,7 @@ a{color:inherit}
 .open .pn .t{font:500 17px/1.2 var(--display)}
 .stage .hsub .nx{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px;margin-left:6px}
 .stage .kicker{font:500 14px/1.4 var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
-.stage .hsub{position:absolute;left:0;top:0;font:12px/1.3 var(--ui);color:var(--ink2);opacity:0;pointer-events:auto;white-space:nowrap}
+.stage .hsub{position:absolute;left:0;top:0;font:13.5px/1.3 var(--display);color:var(--ink2);opacity:0;pointer-events:auto;white-space:nowrap}
 .stage .topbar{position:absolute;top:8px;left:max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;pointer-events:auto}
 .back{display:inline-flex;align-items:center;gap:4px;min-height:38px;min-width:38px;padding:0 12px 0 8px;border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--ink);font:13px/1 var(--ui);box-shadow:var(--shadow2);transition:padding .2s}
 .stage.small .back{padding:0 9px}
@@ -70,7 +70,7 @@ a{color:inherit}
 .stage .index{position:absolute;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:86px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;font:12px/1 var(--ui);opacity:0;pointer-events:none;background:var(--bg);padding:6px 0 8px;margin:0 auto;max-width:40rem}
 .stage .index::-webkit-scrollbar{display:none}
 .stage .index.on{opacity:1;pointer-events:auto}
-.index a{flex:none;text-decoration:none;color:var(--ink2);padding:8px 10px;border-radius:999px;min-height:32px;display:inline-flex;align-items:center;border:1px solid transparent}
+.index a{flex:none;text-decoration:none;color:var(--ink2);padding:8px 12px;font:500 15.5px/1 var(--display);letter-spacing:.01em;border-radius:999px;min-height:32px;display:inline-flex;align-items:center;border:1px solid transparent}
 .index a[aria-current="true"]{color:var(--ink);border-color:var(--rule);background:var(--surface)}
 .spacer{height:var(--heroH,560px)}
 .hint{position:absolute;left:max(16px,env(safe-area-inset-left,0px));font:12px/1 var(--ui);color:var(--ink2);background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:3px;pointer-events:auto;box-shadow:var(--shadow2);display:flex;align-items:center;gap:2px}
@@ -198,7 +198,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .kj{margin:0 0 16px;padding:0 0 0 1.1em;display:grid;gap:8px}
 .kj li{padding-left:2px}
 .kj li::marker{color:var(--accent)}
-.take{font:500 17px/1.5 var(--ui);color:var(--ink);margin:0 0 12px;max-width:60ch}
+.take{font:500 18px/1.5 var(--display);color:var(--ink);margin:0 0 12px;max-width:60ch}
 .path{display:grid;gap:0;margin:6px 0 10px}
 .path .pc{display:grid;grid-template-columns:3.2rem 1fr;gap:8px;align-items:start;padding:8px 10px;border:1px solid var(--rule);border-radius:10px;background:var(--surface);min-height:44px}
 .path .pc.here{border-color:var(--accent);background:var(--surface2)}
@@ -289,7 +289,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .chap h3{transform:scale(calc(.88 + .12*var(--t)));transform-origin:0 100%;transition:transform .12s linear}
 @media (prefers-reduced-motion: reduce){.chap{transform:none!important}.chap h3{transform:none!important}}
 .strip .axis{position:absolute;left:4px;right:4px;top:12px;border-top:1px solid var(--rule)}
-.strip .tk{position:absolute;top:0;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;width:19%;min-height:44px;font:10.5px/1.2 var(--ui);color:var(--ink2);text-align:center;text-decoration:none}
+.strip .tk{position:absolute;top:0;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;width:19%;min-height:44px;font:12px/1.2 var(--display);color:var(--ink2);text-align:center;text-decoration:none}
 .strip .tk i{width:11px;height:11px;border-radius:50%;background:var(--accent);display:block;margin:7px 0 2px;border:2px solid var(--bg);box-shadow:0 0 0 1px var(--accent)}
 .strip .tk .yr{color:var(--accent);font:600 13px/1.2 var(--label);letter-spacing:.06em;font-variant-numeric:tabular-nums}
 .chap{margin:0 0 4px;scroll-margin-top:200px}
@@ -333,13 +333,13 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .kn .tn.f .dot,.kids .tn.f .dot{left:3px;top:11px}
 .kn .tn .row,.kids .tn .row{grid-template-columns:3.2rem 1fr;align-items:baseline}
 .kn .conn{margin:0 0 6px}
-.chap .open{font:13px/1 var(--ui);color:var(--accent);text-decoration:underline;text-underline-offset:3px;min-height:32px;margin:2px 0 4px}
+.chap .open{font:500 15px/1 var(--display);color:var(--accent);text-decoration:underline;text-underline-offset:3px;min-height:32px;margin:2px 0 4px}
 .chap .kids{margin:4px 0 8px 10px;padding-left:12px;border-left:1px dashed var(--rule)}
 .chap .kids .tn{margin:0 0 6px}
 .chap .kids .tn.f .row{grid-template-columns:1fr}
 
 /* The key and the thread. */
-.key{display:flex;gap:14px;flex-wrap:wrap;font:12.5px/1.4 var(--ui);color:var(--ink2);margin:0 0 10px}
+.key{display:flex;gap:14px;flex-wrap:wrap;font:14.5px/1.4 var(--display);color:var(--ink2);margin:0 0 10px}
 .sep{display:flex;align-items:center;gap:12px;margin:40px 0 0;color:var(--ink3)}
 .sep::before,.sep::after{content:"";flex:1;border-top:1px solid var(--rule)}
 .sep i{width:7px;height:7px;border:1px solid var(--ink3);transform:rotate(45deg);display:block}
@@ -455,7 +455,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 <main class="wrap">
   <div class="open">
     <div class="counts" id="counts"></div>
-    <div class="pn" id="pn"><button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">‹ The war</span></button><button type="button" class="next" data-prev="story:nazi"><span class="lab">Next story</span><span class="t">Nazi Germany ›</span></button></div>
+    <div class="pn" id="pn"><button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">‹ The Great War</span></button><button type="button" class="next" data-prev="story:nazi"><span class="lab">Next story</span><span class="t">Nazi Germany ›</span></button></div>
     <p class="line">The republic that signed the peace, paid for it, and fell when the Depression came.</p>
     <nav class="pageindex index" id="pageIndex" aria-label="On this page"></nav>
   </div>
@@ -489,7 +489,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     <div class="mw" id="mw"></div>
     <button type="button" class="wander" id="wander" data-tip="A random chronicle, story or event from the whole atlas"><span class="ic"><svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M15.5 8.5l-2 5-5 2 2-5z"/></svg></span><span><span class="t">Somewhere else</span><span class="d">Open a chronicle, story or event drawn at random.</span></span></button>
     <div class="nextprev">
-      <button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">The war</span><span class="d">1914 to 1918</span></button>
+      <button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">The Great War</span><span class="d">1914 to 1918</span></button>
       <button type="button" class="next" data-prev="story:nazi"><span class="lab">Next story</span><span class="t">Nazi Germany</span><span class="d">1933 to 1945</span></button>
     </div>
     <div class="exits"><a href="https://en.wikipedia.org/wiki/Weimar_Republic">Wikipedia</a><a href="https://www.britannica.com/place/Weimar-Republic">Britannica</a></div>
@@ -541,6 +541,9 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 (function(){
   var root=document.documentElement, A=window.ATLAS||{events:[],links:[],land:null,borders:null};
   var E={}; A.events.forEach(function(e){E[e.id]=e});
+  /* titles in title case (Cade, 2026-11-08): small words stay down except at the start; words with capitals inside stay as written */
+  var SMALL={a:1,an:1,and:1,as:1,at:1,but:1,by:1,for:1,in:1,of:1,on:1,or:1,the:1,to:1,with:1,from:1,into:1,over:1,nor:1,per:1,via:1,v:1,'v.':1};
+  function tc(t){ return String(t||'').split(' ').map(function(w,i){ if(!w)return w; if(/[A-Z]/.test(w.slice(1)))return w; var lw=w.toLowerCase(); if(i>0&&SMALL[lw])return lw; return w.charAt(0).toUpperCase()+w.slice(1); }).join(' '); }
   var HERE='eu191988'; if(E[HERE]) E[HERE].h='The Paris Peace Settlement';
   var PARIS=[13.4,52.52]; /* Berlin, the story's seat */
   var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
@@ -630,10 +633,10 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     'pol:germany':{t:'Germany',d:'Republic from 1919',l:'Lost 13 percent of its European territory and kept the largest industrial economy in central Europe.',a:'Open country',b:'Open the chronicle',th:'territory at 1919',ll:[13.4,52.52]},
     'feat:shandong':{t:'Shandong',d:'Province, north China coast',l:'Germany\'s leased territory at Qingdao passed to Japan under the settlement.',a:'Open on the map',b:'Read more',ll:[120.38,36.07]},
     'chron:germany':{t:'Germany',d:'From Rome\'s frontier to today · 12 stories',l:'The land between the Rhine and the Oder, from the legions at the Teutoburg Forest to the Zeitenwende: each era a story, each story its own chain.',a:'Open the chronicle',ll:[10.4,51.1]},
-    'story:war':{t:'The war',d:'1914 to 1918 · story 5 of 12 in Germany',l:'From Sarajevo to the armistice: how the Reich fought a two-front war and lost it at home before it lost it in the field.',a:'Open the story'},
-    'story:collapse':{t:'The collapse',d:'1923 to 1933 · story 7 of 12 in Germany',l:'From the Ruhr and the hyperinflation to the Depression and the Nazi seizure of power.',a:'Open the story'},
+    'story:war':{t:'The Great War',d:'1914 to 1918 · story 5 of 12 in Germany',l:'From Sarajevo to the armistice: how the Reich fought a two-front war and lost it at home before it lost it in the field.',a:'Open the story'},
+    'story:collapse':{t:'The Collapse',d:'1923 to 1933 · story 7 of 12 in Germany',l:'From the Ruhr and the hyperinflation to the Depression and the Nazi seizure of power.',a:'Open the story'},
     'chron:german-question':{t:'The German Question',d:'1517 to today · 10 stories',l:'A country in the middle of Europe: every answer to how to organise it also answered how to organise Europe.',a:'Open the chronicle',ll:[10.4,51.1]},
-    'story:treaty':{t:'The treaty',d:'1914 to 1923 · story 6 of 12 in Germany',l:'From Sarajevo to Lausanne: the war, the collapse of four empires, and a peace with no enforcer.',a:'Open the story'},
+    'story:treaty':{t:'The Treaty',d:'1914 to 1923 · story 6 of 12 in Germany',l:'From Sarajevo to Lausanne: the war, the collapse of four empires, and a peace with no enforcer.',a:'Open the story'},
     'str:conf':{t:'The Paris Peace Conference',d:'18 January 1919 to 21 January 1920',l:'The victors met without Germany or Soviet Russia.',a:'Open',ll:[2.35,48.86],y:1919.05,s:'Conference'},
     'str:versailles':{t:'Versailles',d:'28 June 1919 · with Germany',l:'Germany lost 13 percent of its European land and every colony, kept an army of 100,000 and owed reparations. France got Alsace-Lorraine back; Poland got a corridor to the sea.',a:'Open',ll:[2.12,48.8],y:1919.49,s:'Versailles'},
     'str:stgermain':{t:'Saint-Germain',d:'10 September 1919 · with Austria',l:'The Habsburg lands became Czechoslovakia, Yugoslavia and a small Austria barred from joining Germany. Italy got less than the Allies had promised it in 1915.',a:'Open',ll:[2.09,48.9],y:1919.69,s:'St-Germain'},
@@ -655,8 +658,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   scrim.addEventListener('click',closeSheet); document.addEventListener('keydown',function(e){if(e.key==='Escape')closeSheet()});
   var tt; function say(m){ toast.textContent=m; toast.classList.add('on'); clearTimeout(tt); tt=setTimeout(function(){toast.classList.remove('on')},2400); }
   function markFor(e){ return e.tier===1?'<i class="mk k" title="A main event in this chain"></i>':'<i class="mk s" title="A step in the full story"></i>'; }
-  function preview(key,src){ var kind=key.split(':')[0], id=key.slice(kind.length+1), K=KIND[kind]||KIND.ev, x=X[key];
-    if(!x&&kind==='ev'&&E[id]){ var e=E[id]; x={t:e.h,d:String(e.y),l:(e.bluf||'').split(/(?<=\.)\s/)[0],a:'Open',ev:id,ll:(e.lon!=null?[e.lon,e.lat]:null),mk:markFor(e)}; }
+  function preview(key,src){ var kind=key.split(':')[0], id=key.slice(kind.length+1), K=KIND[kind]||KIND.ev, x=X[key]; if(x&&!x._tc){x=Object.assign({},x,{t:tc(x.t)});}
+    if(!x&&kind==='ev'&&E[id]){ var e=E[id]; x={t:tc(e.h),d:String(e.y),l:(e.bluf||'').split(/(?<=\.)\s/)[0],a:'Open',ev:id,ll:(e.lon!=null?[e.lon,e.lat]:null),mk:markFor(e)}; }
     if(!x)return;
     var h='<div class="kind"><i class="k" style="background:var('+K[1]+')"></i>'+K[0]+(x.mk?' '+x.mk:'')+'</div>'
       +(x.th||kind==='ev'?'<div class="thumb">'+esc(x.th||'picture, where there is one')+'</div>':'')
@@ -725,7 +728,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
       svg+='<path class="'+cls+'" d="'+d+'" marker-end="url(#ah)" data-link="'+esc(l.id)+'" tabindex="0" role="button" aria-label="'+esc(E[l.f].h)+' to '+esc(E[l.t].h)+', '+esc(l.grade)+'"></path>'; });
     list.forEach(function(e){ var r=e.tier===1?7:5; var here=e.id===HERE; var onMain=here||links.some(function(l){return MP[l.id]&&(l.f===e.id||l.t===e.id)});
       var cls='n'+(e.tier===1?' k':'')+(onMain?' main':'')+(here?' here':'');
-      var label=esc(e.h), maxc=Math.floor((W-lx-8)/7.6); if(label.length>maxc) label=label.slice(0,maxc-1)+'…';
+      var label=esc(tc(e.h)), maxc=Math.floor((W-lx-8)/7.6); if(label.length>maxc) label=label.slice(0,maxc-1)+'…';
       svg+='<g class="'+cls+'" tabindex="0" role="button" data-prev="ev:'+esc(e.id)+'" transform="translate(0,'+pos[e.id]+')"><circle cx="'+nx+'" cy="0" r="'+(here?9:r)+'"/><text x="'+lx+'" y="5">'+label+'</text>'+(e.chapter?'<text class="ch" x="'+lx+'" y="20">'+esc(e.chapter)+'</text>':'')+'</g>'; });
     svg+='</svg>'; box.innerHTML=svg;
     box.querySelectorAll('[data-prev]').forEach(function(g){ g.addEventListener('click',function(){preview(g.dataset.prev,g)}); g.addEventListener('keydown',function(ev){if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();preview(g.dataset.prev,g);}}); });
@@ -752,33 +755,33 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   /* chapters: a patch (the chapter's briefing), its knots, and the strands and fibres behind a toggle */
   function ev(id,fallback){ return E[id]||fallback; }
   var CH=[
-    {t:'The treaty',y:'1919',patch:'The republic was ten weeks old when the victors met in Paris. Its delegation received the terms on 7 May 1919 and signed at Versailles on 28 June, after the army told the National Assembly it could not fight on. The right called the signature a stab in the back. The constitution followed on 11 August.',
+    {t:'The Treaty',y:'1919',patch:'The republic was ten weeks old when the victors met in Paris. Its delegation received the terms on 7 May 1919 and signed at Versailles on 28 June, after the army told the National Assembly it could not fight on. The right called the signature a stab in the back. The constitution followed on 11 August.',
      knots:[{id:'eu191988'}],
-     strands:[{k:'str:versailles'},{id:'na191962',h:'The US Senate rejects the treaty',y:1919,line:'Washington stayed out of the League and the guarantee to France lapsed.'},{id:'as191949'}],
-     fibres:[['7 May 1919','The German delegation receives the terms'],['11 April 1919','Wilson rules Japan\'s racial-equality proposal lost in commission'],['28 June 1919','Germany signs the treaty in the Hall of Mirrors']]},
-    {t:'The Ruhr and the mark',y:'1923',patch:'Germany fell behind on reparations in 1922, and in January 1923 French and Belgian troops occupied the Ruhr to take coal in kind. Berlin paid the Ruhr\'s workers to strike and printed the money to do it. By November a dollar bought 4.2 trillion marks. The Rentenmark stopped the fall that month, and in the same month Hitler\'s putsch in Munich failed in a day.',
+     strands:[{k:'str:versailles'},{id:'na191962',h:'The US Senate Rejects the Treaty',y:1919,line:'Washington stayed out of the League and the guarantee to France lapsed.'},{id:'as191949'}],
+     fibres:[['7 May 1919','The German Delegation Receives the Terms'],['11 April 1919','Wilson Rules Japan\'s Racial-Equality Proposal Lost in Commission'],['28 June 1919','Germany Signs the Treaty in the Hall of Mirrors']]},
+    {t:'The Ruhr and the Mark',y:'1923',patch:'Germany fell behind on reparations in 1922, and in January 1923 French and Belgian troops occupied the Ruhr to take coal in kind. Berlin paid the Ruhr\'s workers to strike and printed the money to do it. By November a dollar bought 4.2 trillion marks. The Rentenmark stopped the fall that month, and in the same month Hitler\'s putsch in Munich failed in a day.',
      knots:[{id:'d-hyperinflation'}],
-     strands:[{h:'The Ruhr occupation',y:1923,line:'French and Belgian troops take the coalfield in kind, January 1923.'},{h:'The Rentenmark',y:1923,line:'A new currency, backed by land, ends the inflation in November 1923.'}],
-     fibres:[['15 November 1923','The mark reaches 4.2 trillion to the dollar'],['8 to 9 November 1923','Bavarian police put down the Munich putsch in a day']]},
-    {t:'The golden years',y:'1924 to 1929',patch:'The Dawes Plan of 1924 rescheduled reparations and opened American lending to Germany. At Locarno in 1925 Germany accepted its western frontier with France, and in 1926 it joined the League of Nations. Foreign Minister Gustav Stresemann steered both. Output passed its 1913 level. In the election of 1928 the Nazis won 2.6 percent.',
-     knots:[{h:'The Locarno treaties',y:1925,line:'Germany accepts its western frontier; no page in the pilot.'}],
-     strands:[{h:'The Dawes Plan',y:1924,line:'The plan reschedules reparations; American loans begin.'},{h:'Germany joins the League',y:1926,line:'A permanent seat on the Council.'},{h:'The 1928 election',y:1928,line:'The Nazis win 2.6 percent.'}],
+     strands:[{h:'The Ruhr Occupation',y:1923,line:'French and Belgian troops take the coalfield in kind, January 1923.'},{h:'The Rentenmark',y:1923,line:'A new currency, backed by land, ends the inflation in November 1923.'}],
+     fibres:[['15 November 1923','The Mark Reaches 4.2 Trillion to the Dollar'],['8 to 9 November 1923','Bavarian Police Put Down the Munich Putsch in a Day']]},
+    {t:'The Golden Years',y:'1924 to 1929',patch:'The Dawes Plan of 1924 rescheduled reparations and opened American lending to Germany. At Locarno in 1925 Germany accepted its western frontier with France, and in 1926 it joined the League of Nations. Foreign Minister Gustav Stresemann steered both. Output passed its 1913 level. In the election of 1928 the Nazis won 2.6 percent.',
+     knots:[{h:'The Locarno Treaties',y:1925,line:'Germany accepts its western frontier; no page in the pilot.'}],
+     strands:[{h:'The Dawes Plan',y:1924,line:'The plan reschedules reparations; American loans begin.'},{h:'Germany Joins the League',y:1926,line:'A permanent seat on the Council.'},{h:'The 1928 Election',y:1928,line:'The Nazis win 2.6 percent.'}],
      fibres:[]},
     {t:'The Depression',y:'1929 to 1932',patch:'The crash of October 1929 called in the American loans that had paid for the recovery. Unemployment rose from 1.3 million in 1929 to over six million in 1932. From March 1930 Chancellor Heinrich Brüning governed by presidential decree under Article 48 and cut spending into the slump. The Nazi vote went from 2.6 percent to 18.3 in September 1930 and 37.3 in July 1932.',
      knots:[{id:'na192964'},{id:'d-depression1930'}],
-     strands:[{h:'Brüning governs by decree',y:1930,line:'Article 48 replaces the Reichstag majority from March 1930.'},{h:'The September 1930 election',y:1930,line:'The Nazis win 18.3 percent and 107 seats.'},{h:'The July 1932 election',y:1932,line:'The Nazis win 37.3 percent, the largest party.'}],
-     fibres:[['early 1932','Unemployment passes six million']]},
-    {t:'The seizure of power',y:'1933',patch:'President Hindenburg appointed Hitler chancellor on 30 January 1933 at the urging of Franz von Papen, who expected to control him. The Reichstag fire of 27 February gave the pretext for emergency decrees, and the Enabling Act of 23 March let the cabinet make law without parliament. The republic ended under its own Article 48 and by a vote of its own Reichstag.',
+     strands:[{h:'Brüning Governs by Decree',y:1930,line:'Article 48 replaces the Reichstag majority from March 1930.'},{h:'The September 1930 Election',y:1930,line:'The Nazis win 18.3 percent and 107 seats.'},{h:'The July 1932 Election',y:1932,line:'The Nazis win 37.3 percent, the largest party.'}],
+     fibres:[['early 1932','Unemployment Passes Six Million']]},
+    {t:'The Seizure of Power',y:'1933',patch:'President Hindenburg appointed Hitler chancellor on 30 January 1933 at the urging of Franz von Papen, who expected to control him. The Reichstag fire of 27 February gave the pretext for emergency decrees, and the Enabling Act of 23 March let the cabinet make law without parliament. The republic ended under its own Article 48 and by a vote of its own Reichstag.',
      knots:[{id:'eu193391'}],
-     strands:[{id:'w2-reichstag-b',h:'The Enabling Act',y:1933,line:'The Reichstag votes its own powers to the cabinet, 23 March 1933.'},{h:'The emergency decree of 28 February',y:1933,line:'Hindenburg suspends civil liberties after the Reichstag fire.'}],
-     fibres:[['30 January 1933','Hindenburg swears in Hitler\'s first cabinet, three Nazis among eleven ministers'],['27 February 1933','The Reichstag burns']]}];
+     strands:[{id:'w2-reichstag-b',h:'The Enabling Act',y:1933,line:'The Reichstag votes its own powers to the cabinet, 23 March 1933.'},{h:'The Emergency Decree of 28 February',y:1933,line:'Hindenburg suspends civil liberties after the Reichstag fire.'}],
+     fibres:[['30 January 1933','Hindenburg Swears in Hitler\'s First Cabinet, Three Nazis Among Eleven Ministers'],['27 February 1933','The Reichstag Burns']]}];
   (function(){ var k=0,f=0,st=0; CH.forEach(function(c){k+=c.knots.length; f+=c.strands.length; st+=c.fibres.length;});
     document.getElementById('counts').innerHTML='<span data-tip="Sections of the story, each built on a knot"><b>'+CH.length+'</b> chapters</span><span data-tip="Major events: each has a full page"><i class="mk k"></i><b>'+k+'</b> knots</span><span data-tip="Smaller events inside the knots"><i class="mk s"></i><b>'+f+'</b> fibres</span><span data-tip="Smaller events still"><i class="mk f"></i><b>'+st+'</b> strands</span>'; })();
   function linkBetween(a,b){ return A.links.filter(function(l){return l.f===a&&l.t===b})[0]; }
   var PHD={Necessary:'Without this, the next does not happen.',Sufficient:'This was enough on its own to bring the next about.',Contributing:'One cause of the next among several.',Contested:'Two readings; the atlas withholds a verdict.',Coincident:'Same time; the atlas finds no link.'};
   function connHtml(l){ if(!l) return '<div class="conn"><div class="ln none"><i></i></div><div class="lab"><span class="gw">No graded link yet between these knots; the chapters follow in time.</span></div></div>';
     return '<div class="conn"><div class="ln '+lnCls(l)+'"><i></i></div><button type="button" class="lab" data-link="'+esc(l.id)+'"><span class="ph">'+esc(PHD[l.grade])+'</span><span class="gw"><b>'+esc(l.grade)+'</b> · '+esc(l.conf.toLowerCase())+' confidence · the note</span></button></div>'; }
-  function itemHtml(it,mark){ var e=it.id?E[it.id]:null, xk=it.k?X[it.k]:null; var h=e?e.h:it.h, y=e?e.y:(xk?(xk.d.match(/\d{4}/)||[''])[0]:it.y), line=it.line||(xk?xk.l:'')||(e&&e.bluf?e.bluf.split(/(?<=\.)\s/)[0]:''); if(line.length>120)line=line.slice(0,117).replace(/\s\S*$/,'')+'…'; var prev=it.k?it.k:(e?'ev:'+e.id:null);
+  function itemHtml(it,mark){ var e=it.id?E[it.id]:null, xk=it.k?X[it.k]:null; var h=tc(e?e.h:it.h), y=e?e.y:(xk?(xk.d.match(/\d{4}/)||[''])[0]:it.y), line=it.line||(xk?xk.l:'')||(e&&e.bluf?e.bluf.split(/(?<=\.)\s/)[0]:''); if(line.length>120)line=line.slice(0,117).replace(/\s\S*$/,'')+'…'; var prev=it.k?it.k:(e?'ev:'+e.id:null);
     return '<div class="tn '+mark+'"><span class="dot"></span><div class="row"><span class="y">'+esc(y)+'</span><div>'+(prev?'<button type="button" class="t" data-prev="'+esc(prev)+'">'+esc(it.k?X[it.k].t:h)+'</button>':'<span class="t" style="text-decoration:none">'+esc(h)+'</span>')+(line?'<div class="sub">'+esc(line)+'</div>':'')+'</div></div></div>'; }
   (function(){ var strip=document.getElementById('chapStrip'), ch=document.getElementById('chaps'); var h='<div class="axis"></div>';
     CH.forEach(function(c,i){ h+='<a class="tk" href="#chap-'+i+'" style="left:'+((i+0.5)/CH.length*100).toFixed(1)+'%"><i></i><span class="yr">'+esc(c.y.split(' ')[0])+'</span><span>'+esc(c.t)+'</span></a>'; }); strip.innerHTML=h;
@@ -812,7 +815,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   /* the thread at story scale: where the story came from, its knots, where it led */
   (function(){ var seq=['eu191485','eu191988','d-hyperinflation','d-depression1930','eu193391','eu193994']; var h='';
     seq.forEach(function(id,i){ var e=E[id]; var role=i===0?'where the story came from':i===seq.length-1?'where it led':'';
-      h+='<div class="tn k'+(role?' s':'')+'"><span class="dot"></span><div class="row"><span class="y">'+e.y+'</span><div><button type="button" class="t" data-prev="ev:'+esc(id)+'">'+esc(e.h)+'</button><div class="sub">knot'+(e.chapter?' · '+esc(e.chapter):'')+(role?' · '+role:'')+'</div></div></div></div>';
+      h+='<div class="tn k'+(role?' s':'')+'"><span class="dot"></span><div class="row"><span class="y">'+e.y+'</span><div><button type="button" class="t" data-prev="ev:'+esc(id)+'">'+esc(tc(e.h))+'</button><div class="sub">knot'+(e.chapter?' · '+esc(e.chapter):'')+(role?' · '+role:'')+'</div></div></div></div>';
       if(i<seq.length-1){ h+=connHtml(linkBetween(id,seq[i+1])); } });
     var side=linkBetween('eu191988','eu193391'); if(side) h+='<div class="conn" style="margin-top:4px"><div class="ln '+lnCls(side)+'"><i></i></div><button type="button" class="lab" data-link="'+esc(side.id)+'"><span class="ph">Also: the treaty to the seizure of power. '+esc(PHD[side.grade])+'</span><span class="gw"><b>'+esc(side.grade)+'</b> · '+esc(side.conf.toLowerCase())+' confidence · the note</span></button></div>';
     var el=document.getElementById('thread'); el.innerHTML=h; el.querySelectorAll('[data-prev]').forEach(bindPrev); el.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})}); })();
@@ -821,8 +824,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   (function(){ var LANE={ea:'East Asia',na:'North America',eu:'Europe',me:'Middle East',sa:'South Asia',se:'Southeast Asia',af:'Africa',la:'Latin America',oc:'Oceania'}; var mine={eu191988:1,'d-hyperinflation':1,'d-depression1930':1,eu193391:1};
     var rows=A.events.filter(function(e){return e.y>=1919&&e.y<=1933&&e.r!=='eu'}).sort(function(a,b){return a.y-b.y}); var h='';
     rows.forEach(function(e){ var ls=A.links.filter(function(l){return (l.f===e.id&&mine[l.t])||(l.t===e.id&&mine[l.f])});
-      h+='<div class="mwr"><span class="y">'+e.y+'</span><div><button type="button" class="t" data-prev="ev:'+esc(e.id)+'">'+esc(e.h)+'</button><div class="lane">'+esc(LANE[e.r]||e.r)+'</div>'
-        +ls.map(function(l){ var other=l.f===e.id?E[l.t]:E[l.f]; var dir=l.f===e.id?'led to':'came from'; return '<div class="arr"><i class="'+lnCls(l)+'"></i>'+dir+' <button type="button" data-link="'+esc(l.id)+'">'+esc(other.h)+'</button> · '+esc(l.grade.toLowerCase())+'</div>'; }).join('')
+      h+='<div class="mwr"><span class="y">'+e.y+'</span><div><button type="button" class="t" data-prev="ev:'+esc(e.id)+'">'+esc(tc(e.h))+'</button><div class="lane">'+esc(LANE[e.r]||e.r)+'</div>'
+        +ls.map(function(l){ var other=l.f===e.id?E[l.t]:E[l.f]; var dir=l.f===e.id?'led to':'came from'; return '<div class="arr"><i class="'+lnCls(l)+'"></i>'+dir+' <button type="button" data-link="'+esc(l.id)+'">'+esc(tc(other.h))+'</button> · '+esc(l.grade.toLowerCase())+'</div>'; }).join('')
         +(ls.length?'':'<div class="arr" style="color:var(--ink3)">no line to this story; a coincidence is a coincidence unless an arrow says otherwise</div>')+'</div></div>'; });
     var el=document.getElementById('mw'); el.innerHTML=h; el.querySelectorAll('[data-prev]').forEach(bindPrev); el.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})}); })();
   document.getElementById('expandBtn').addEventListener('click',openXp);
@@ -831,7 +834,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   var SURE={High:'the atlas is sure',Moderate:'fairly sure',Low:'not sure'};
   var GW={Necessary:'Without it, this does not happen.',Sufficient:'This was enough on its own.',Contributing:'One cause among several.',Contested:'Two readings; the atlas withholds a verdict.',Coincident:'Same time, no link.'};
   var GW2={Necessary:'Without this, it does not happen.',Sufficient:'This was enough on its own to bring it about.',Contributing:'This was one cause among several.',Contested:'Two readings; the atlas withholds a verdict.',Coincident:'Same time, no link.'};
-  function ceHtml(l,up){ var e=E[up?l.f:l.t]; return '<div class="ce"><div class="y">'+e.y+'</div><div><button type="button" class="t" data-prev="ev:'+esc(e.id)+'">'+markFor(e)+esc(e.h)+'</button><p>'+esc(l.claim)+'</p><div class="g"><i class="'+lnCls(l)+'"></i><span>'+esc((up?GW:GW2)[l.grade])+' '+esc(cap(SURE[l.conf]||''))+'.</span><button type="button" data-link="'+esc(l.id)+'">The note</button></div></div></div>'; }
+  function ceHtml(l,up){ var e=E[up?l.f:l.t]; return '<div class="ce"><div class="y">'+e.y+'</div><div><button type="button" class="t" data-prev="ev:'+esc(e.id)+'">'+markFor(e)+esc(tc(e.h))+'</button><p>'+esc(l.claim)+'</p><div class="g"><i class="'+lnCls(l)+'"></i><span>'+esc((up?GW:GW2)[l.grade])+' '+esc(cap(SURE[l.conf]||''))+'.</span><button type="button" data-link="'+esc(l.id)+'">The note</button></div></div></div>'; }
   (function(){ var ups=A.links.filter(function(l){return l.t===HERE}).sort(function(a,b){return E[a.f].y-E[b.f].y}), dns=A.links.filter(function(l){return l.f===HERE}).sort(function(a,b){return E[a.t].y-E[b.t].y});
     var c=document.getElementById('causeList'), f=document.getElementById('effectList'); if(!c||!f){ document.querySelectorAll('[data-xopen]').forEach(function(b){b.addEventListener('click',function(){ openXp(); })}); return; }
     c.innerHTML=ups.map(function(l){return ceHtml(l,true)}).join(''); f.innerHTML=dns.map(function(l){return ceHtml(l,false)}).join('');
@@ -858,7 +861,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     return out; }
   function xnode(n,here){ var e=E[n.id]; var tags=(e.c||[]); var hit=kind&&tags.indexOf(kind)>=0; var dim=kind&&!hit&&!here;
     var via=''; if(n.via){ var up=n.via.t===n.parent||n.via.t===xc||n.via.f!==n.parent; var pe=E[n.parent]; via='<div class="via"><span class="g '+lnCls(n.via)+'"></span><button type="button" data-link="'+esc(n.via.id)+'">'+esc(cap(PH[n.via.f===n.id?'up':'down'][n.via.grade]))+'</button>'+(n.parent!==xc?' · via '+esc(pe.h):'')+'</div>'; }
-    return '<div class="xn'+(here?' here':'')+(dim?' dim':'')+'"><div class="y">'+e.y+'</div><div>'+(here?'<div class="t">'+markFor(e)+esc(e.h)+'</div>':'<button type="button" class="t" data-prev="ev:'+esc(e.id)+'">'+markFor(e)+esc(e.h)+'</button>')+via
+    return '<div class="xn'+(here?' here':'')+(dim?' dim':'')+'"><div class="y">'+e.y+'</div><div>'+(here?'<div class="t">'+markFor(e)+esc(tc(e.h))+'</div>':'<button type="button" class="t" data-prev="ev:'+esc(e.id)+'">'+markFor(e)+esc(tc(e.h))+'</button>')+via
       +'<div class="tags">'+tags.map(function(t){return '<span'+(t===kind?' class="hit"':'')+'>'+esc(t)+'</span>'}).join('')+(e.chapter?'<span>'+esc(e.chapter)+'</span>':'')+'</div>'
       +(here?'':'<div class="acts"><button type="button" data-xcentre="'+esc(e.id)+'">Centre the chain here</button></div>')+'</div></div>'; }
   function xrender(){ var ups=hops(true), dns=hops(false); var h='';
