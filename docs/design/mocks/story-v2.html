@@ -872,7 +872,7 @@ h1,h2,h3,.tw h1,.chap h3,#sheetTitle,.nextprev .t,.open .pn .t,.ev .t,.tl .n,.pa
       var first=G[0].t, lastB=G[G.length-1].b;
       var gin=Math.min(1,Math.max(0,(yc-(first-R*1.5))/R)), gout=Math.min(1,Math.max(0,((lastB+R*1.5)-yc)/R)), g=reduced?0:Math.min(gin,gout);
       var best=0, bestD=1e9;
-      G.forEach(function(r,i){ var d=yc<r.t?r.t-yc:(yc>r.b?yc-r.b:0); var u=Math.min(1,d/R); u=u*u*(3-2*u); tgt[i]=g*u; if(cur[i]==null)cur[i]=tgt[i]; if(d<bestD){bestD=d;best=i;} });
+      G.forEach(function(r,i){ var d=yc<r.t?r.t-yc:(yc>r.b?yc-r.b:0); if((i===0&&yc<r.t)||(i===G.length-1&&yc>r.b))d=0; var u=Math.min(1,d/R); u=u*u*(3-2*u); tgt[i]=g*u; if(cur[i]==null)cur[i]=tgt[i]; if(d<bestD){bestD=d;best=i;} });
       if(best!==live){ live=best; spine(); } }
     function spine(){ ticks.forEach(function(t,j){ var dd=Math.abs(j-live), c=Math.min(dd,3); t.classList.toggle('live',j===live); t.classList.toggle('done',j<live);
         if(WHEEL){ t.style.left='50%'; t.style.translate=((j-live)*SPAN)+'px 0'; t.style.scale=String(1-0.07*c); t.style.opacity=String(dd>3?0:1-0.22*c); }
