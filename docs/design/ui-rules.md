@@ -64,7 +64,8 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    The chapter spine on a story page (agreed 2026-11-08): when the chapters fit, a fixed row
    with past chapters filled, the one in view large and the rest hollow. When they do not
    fit (about six or more on a phone), it becomes a wheel that keeps the chapter in view
-   centred, and only then shows a left and a right arrow; each slides the spine three
+   centred, and only then shows a left and a right arrow in its own row at the spine's
+   bottom corners, never over the chapters; each slides the spine three
    chapters, greys out at either end, and has a 44 px target and a label. Tapping a chapter
    on the spine goes there; reaching a new chapter re-centres the wheel.
 
