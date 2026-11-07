@@ -4,15 +4,15 @@
 <style>
 /* Layout: one ladder down the page, each level stepped in from the last, the Germany example running beside it. */
 :root{
-  --bg:#f6f2ec; --surface:#fcfaf6; --ink:#2b1c15; --ink2:#5c4b42; --ink3:#857469; --rule:#dcd2c7;
+  --bg:#f6f2ec; --surface:#fcfaf6; --ink:#1c1916; --ink2:#4d4843; --ink3:#7b746d; --title:#3b2217; --rule:#dcd2c7;
   --accent:#c81a12; --accent-soft:#f6e3e1; --k-chron:#3f4f73; --k-story:#6b4a7a; --k-chap:#6b6a2a;
   --display:"EB Garamond",Georgia,"Times New Roman",serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,-apple-system,sans-serif;
 }
 @media (prefers-color-scheme: dark){:root:not([data-theme="light"]){
-  --bg:#1c130f; --surface:#261a15; --ink:#f2e9e0; --ink2:#c4b4a7; --ink3:#948174; --rule:#3e2e26;
+  --bg:#1c130f; --surface:#261a15; --ink:#f2e9e0; --ink2:#c4b4a7; --ink3:#948174; --title:#f2e9e0; --rule:#3e2e26;
   --accent:#ff6b5c; --accent-soft:#3a2522; --k-chron:#a9b9e6; --k-story:#c9a6dc; --k-chap:#c8c77a; color-scheme:dark}}
 :root[data-theme="dark"]{
-  --bg:#1c130f; --surface:#261a15; --ink:#f2e9e0; --ink2:#c4b4a7; --ink3:#948174; --rule:#3e2e26;
+  --bg:#1c130f; --surface:#261a15; --ink:#f2e9e0; --ink2:#c4b4a7; --ink3:#948174; --title:#f2e9e0; --rule:#3e2e26;
   --accent:#ff6b5c; --accent-soft:#3a2522; --k-chron:#a9b9e6; --k-story:#c9a6dc; --k-chap:#c8c77a; color-scheme:dark}
 *{box-sizing:border-box}
 body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
@@ -80,6 +80,7 @@ h3{font:500 26px/1.15 var(--display);margin:40px 0 10px}
   .lvl h2{font-size:27px}
 }
 @media (prefers-reduced-motion: reduce){*{transition:none!important}}
+h1,h3,.lvl:not([style]) h2,.rule b{color:var(--title)}
 </style>
 
 <div class="wrap">
