@@ -1,0 +1,139 @@
+<title>Knot, Fibre, Strand Marks</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: four candidate mark sets, each shown in the four places a mark lives, side by side in light and dark. */
+:root{
+  --bg:#f6f3ec; --surface:#fdfbf7; --ink:#1d1f24; --ink2:#50545c; --ink3:#7d8189; --rule:#d9d3c6;
+  --accent:#1f3a63; --land:#e9e4d7; --sea:#f6f3ec; --border:#b9b2a2;
+  --display:"EB Garamond",Georgia,serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17181c;--surface:#1f2126;--ink:#ece8df;--ink2:#b9b4a8;--ink3:#878379;--rule:#3a3c43;--accent:#8fb0e3;--land:#2a2d34;--sea:#17181c;--border:#4d515b;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17181c;--surface:#1f2126;--ink:#ece8df;--ink2:#b9b4a8;--ink3:#878379;--rule:#3a3c43;--accent:#8fb0e3;--land:#2a2d34;--sea:#17181c;--border:#4d515b;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
+.wrap{max-width:56rem;margin:0 auto}
+.eyebrow{font:500 13px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0 0 10px}
+h1{font:500 clamp(34px,7vw,48px)/1.04 var(--display);margin:0 0 12px;text-wrap:balance}
+.lede{font:400 19px/1.5 var(--body);color:var(--ink2);max-width:42rem;margin:0 0 30px;text-wrap:pretty}
+.opt{border-top:1px solid var(--rule);padding:26px 0 30px}
+.opt:last-of-type{border-bottom:1px solid var(--rule)}
+.opt h2{font:500 28px/1.1 var(--display);margin:0 0 4px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.opt h2 .n{font:500 13px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.opt .why{font:16px/1.5 var(--body);color:var(--ink2);margin:0 0 18px;max-width:46rem}
+.big{display:flex;gap:28px;align-items:center;margin:0 0 18px;flex-wrap:wrap}
+.big figure{margin:0;display:flex;flex-direction:column;align-items:center;gap:6px;font:500 13px/1.4 var(--display);letter-spacing:.1em;text-transform:uppercase;color:var(--ink2)}
+.big svg{width:44px;height:44px}
+.ctx{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+.pane{border:1px solid var(--rule);border-radius:10px;padding:14px 16px;background:var(--surface);min-width:0}
+.pane.dark{--bg:#17181c;--surface:#1f2126;--ink:#ece8df;--ink2:#b9b4a8;--ink3:#878379;--rule:#3a3c43;--accent:#8fb0e3;--land:#2a2d34;--sea:#17181c;--border:#4d515b;background:var(--surface);color:var(--ink)}
+.pane .lab{font:500 11px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3);margin:0 0 8px}
+.key{display:flex;gap:14px;flex-wrap:wrap;font:14px/1.4 var(--display);color:var(--ink2);margin:0 0 12px}
+.key span{display:inline-flex;align-items:center;gap:6px}
+.m{width:14px;height:14px;flex:none;display:inline-block;vertical-align:-2px}
+.rows{display:grid;gap:8px;margin:0 0 12px}
+.row{display:grid;grid-template-columns:18px 3rem 1fr;gap:8px;align-items:baseline;font:15px/1.35 var(--display)}
+.row .yr{color:var(--accent);font-variant-numeric:tabular-nums;font-weight:600;font-size:14px}
+.row .t{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px}
+.row.f .t{font-size:14.5px}
+.row.s .t{font-size:14px;text-decoration:none;color:var(--ink2)}
+.row .m{align-self:center}
+.tl{position:relative;height:46px;margin:0 0 12px}
+.tl .axis{position:absolute;left:0;right:0;top:22px;border-top:1px solid var(--rule)}
+.tl .tk{position:absolute;top:0;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:3px;font:11px/1.2 var(--ui);color:var(--ink3);font-variant-numeric:tabular-nums}
+.tl .tk .m{margin-top:14px}
+.tl .tk.k .m{margin-top:14px}
+.map{position:relative;height:120px;border-radius:8px;overflow:hidden;background:var(--sea)}
+.map svg.land{position:absolute;inset:0;width:100%;height:100%}
+.map .pin{position:absolute;transform:translate(-50%,-50%);display:flex;align-items:center;gap:5px;font:11.5px/1 var(--ui);color:var(--ink)}
+.map .pin .m{filter:drop-shadow(0 0 2px var(--bg))}
+.verdict{margin:34px 0 0;border-left:2px solid var(--accent);padding:2px 0 2px 14px}
+.verdict b{display:block;font:500 20px/1.3 var(--display);margin-bottom:4px}
+.verdict p{margin:0;font:16px/1.5 var(--body);color:var(--ink2)}
+@media (max-width:640px){.ctx{grid-template-columns:1fr}}
+.m,.big svg{color:var(--accent)}.m.s,.big figure.s svg{color:var(--ink2)}
+</style>
+
+<svg width="0" height="0" style="position:absolute" aria-hidden="true">
+  <defs>
+    <!-- A · weight: filled, ring, dot (what the mocks use today) -->
+    <symbol id="a-k" viewBox="0 0 20 20"><circle cx="10" cy="10" r="6.5" fill="currentColor"/></symbol>
+    <symbol id="a-f" viewBox="0 0 20 20"><circle cx="10" cy="10" r="5.5" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="a-s" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3" fill="currentColor"/></symbol>
+    <!-- B · the map legend: capital, city, town -->
+    <symbol id="b-k" viewBox="0 0 20 20"><circle cx="10" cy="10" r="7.5" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="10" cy="10" r="3.4" fill="currentColor"/></symbol>
+    <symbol id="b-f" viewBox="0 0 20 20"><circle cx="10" cy="10" r="5" fill="currentColor"/></symbol>
+    <symbol id="b-s" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3.4" fill="none" stroke="currentColor" stroke-width="1.6"/></symbol>
+    <!-- C · the thread: a tied knot, a bead, a tick -->
+    <symbol id="c-k" viewBox="0 0 20 20"><path d="M2 10 C6 10 6 4 10 4 S14 10 10 10 S6 16 10 16 S14 10 18 10" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <symbol id="c-f" viewBox="0 0 20 20"><path d="M2 10 H18" fill="none" stroke="currentColor" stroke-width="1.6"/><circle cx="10" cy="10" r="4.2" fill="currentColor"/></symbol>
+    <symbol id="c-s" viewBox="0 0 20 20"><path d="M2 10 H18" fill="none" stroke="currentColor" stroke-width="1.4"/><path d="M10 6 V14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round"/></symbol>
+    <!-- D · shapes: diamond, square, dot, as a map marks battles, forts and villages -->
+    <symbol id="d-k" viewBox="0 0 20 20"><path d="M10 2.5 L17.5 10 L10 17.5 L2.5 10 Z" fill="currentColor"/></symbol>
+    <symbol id="d-f" viewBox="0 0 20 20"><rect x="5" y="5" width="10" height="10" fill="none" stroke="currentColor" stroke-width="2"/></symbol>
+    <symbol id="d-s" viewBox="0 0 20 20"><circle cx="10" cy="10" r="3" fill="currentColor"/></symbol>
+    <!-- the land for the globe pane -->
+    <symbol id="land" viewBox="0 0 300 120" preserveAspectRatio="none"><path d="M0 40 C40 20 70 50 110 30 C150 10 180 45 220 35 C260 25 280 60 300 50 L300 120 L0 120 Z" fill="var(--land)" stroke="var(--border)" stroke-width="1"/><path d="M60 120 C80 80 120 90 150 70 C180 50 220 80 240 120 Z" fill="none" stroke="var(--border)" stroke-width="1" stroke-dasharray="3 3"/></symbol>
+  </defs>
+</svg>
+
+<div class="wrap">
+  <p class="eyebrow">Meanwhile Atlas · design note, 8 November 2026</p>
+  <h1>Four ways to mark a knot, a fibre and a strand</h1>
+  <p class="lede">The same three words everywhere, and one mark for each that reads at 14 pixels on a phone, beside a title, on the timeline and on the globe, in light and in dark. Each set is shown in all four places. The thread rule holds for every set: filled or heavier means bigger.</p>
+
+  <!-- A -->
+  <section class="opt" id="a">
+    <h2><span class="n">A</span>Weight</h2>
+    <p class="why">What the mocks use today. Filled, ring, dot: the eye reads size as ink. Plainest of the four, and the one most like a timeline convention readers already know.</p>
+    <div class="big"><figure><svg><use href="#a-k"/></svg>knot</figure><figure><svg><use href="#a-f"/></svg>fibre</figure><figure class="s"><svg><use href="#a-s"/></svg>strand</figure></div>
+    <div class="ctx" data-set="a"></div>
+  </section>
+
+  <!-- B -->
+  <section class="opt" id="b">
+    <h2><span class="n">B</span>The map legend</h2>
+    <p class="why">The settlement hierarchy every old atlas prints in its key: a ringed dot for the capital, a filled dot for a city, a small ring for a town. Readers have seen it since school, and it says the same thing the atlas means: this one matters more. Carries the atlas feel without costume.</p>
+    <div class="big"><figure><svg><use href="#b-k"/></svg>knot</figure><figure><svg><use href="#b-f"/></svg>fibre</figure><figure class="s"><svg><use href="#b-s"/></svg>strand</figure></div>
+    <div class="ctx" data-set="b"></div>
+  </section>
+
+  <!-- C -->
+  <section class="opt" id="c">
+    <h2><span class="n">C</span>The thread</h2>
+    <p class="why">Literal: a knot tied in the line, a bead on the line, a tick on the line. Strongest on the chain view, where the thread is drawn anyway. Weakest beside a title and on the globe, where the line through each mark has nothing to join.</p>
+    <div class="big"><figure><svg><use href="#c-k"/></svg>knot</figure><figure><svg><use href="#c-f"/></svg>fibre</figure><figure class="s"><svg><use href="#c-s"/></svg>strand</figure></div>
+    <div class="ctx" data-set="c"></div>
+  </section>
+
+  <!-- D -->
+  <section class="opt" id="d">
+    <h2><span class="n">D</span>Shapes</h2>
+    <p class="why">Diamond, square, dot: three shapes, so size is told by form as well as weight and survives colour-blindness and a bad screen. Old maps mark battles with crossed swords and forts with squares; this borrows the habit. Loudest of the four.</p>
+    <div class="big"><figure><svg><use href="#d-k"/></svg>knot</figure><figure><svg><use href="#d-f"/></svg>fibre</figure><figure class="s"><svg><use href="#d-s"/></svg>strand</figure></div>
+    <div class="ctx" data-set="d"></div>
+  </section>
+
+  <div class="verdict">
+    <b>My recommendation: B, the map legend.</b>
+    <p>It is the only set that is already a convention for exactly this meaning, bigger place and bigger mark, and it belongs to the atlas world by right rather than by decoration. A reads well but says nothing; C breaks outside the chain; D shouts. B's one risk is the knot mark at 12 pixels on a dense timeline, where the inner dot can close up. The timeline strip under B shows it at that size, and it holds.</p>
+  </div>
+</div>
+
+<script>
+(function(){
+  var rows=[['k','1919','The Paris Peace Settlement'],['f','1919','Versailles'],['f','1919','The US Senate Rejects the Treaty'],['s','1919','Germany Signs the Treaty in the Hall of Mirrors']];
+  var ticks=[['k',5,'1919'],['f',14,''],['s',21,''],['k',36,'1923'],['s',43,''],['f',58,''],['k',74,'1929'],['f',84,''],['k',95,'1933']];
+  var pins=[['k',38,42,'Paris'],['f',66,50,'Berlin'],['s',52,78,'Munich'],['f',80,28,'Warsaw']];
+  function m(set,kind,size){ return '<svg class="m '+kind+'"'+(size?' style="width:'+size+'px;height:'+size+'px"':'')+' aria-hidden="true"><use href="#'+set+'-'+kind+'"/></svg>'; }
+  function pane(set,dark){
+    var h='<div class="pane'+(dark?' dark':'')+'">';
+    h+='<p class="lab">'+(dark?'dark':'light')+' · the key</p><p class="key"><span>'+m(set,'k')+'knot: a major event</span><span>'+m(set,'f')+'fibre: a smaller event linked to it</span><span>'+m(set,'s')+'strand: a smaller event still</span></p>';
+    h+='<p class="lab">beside a title</p><div class="rows">'+rows.map(function(r){return '<div class="row '+r[0]+'">'+m(set,r[0])+'<span class="yr">'+r[1]+'</span><span class="t">'+r[2]+'</span></div>'}).join('')+'</div>';
+    h+='<p class="lab">on the timeline, at 12 px</p><div class="tl"><div class="axis"></div>'+ticks.map(function(t){return '<div class="tk '+t[0]+'" style="left:'+t[1]+'%"><span>'+(t[2]||'&nbsp;')+'</span>'+m(set,t[0],12)+'</div>'}).join('')+'</div>';
+    h+='<p class="lab">on the globe</p><div class="map"><svg class="land" aria-hidden="true"><use href="#land"/></svg>'+pins.map(function(p){return '<div class="pin" style="left:'+p[1]+'%;top:'+p[2]+'%">'+m(set,p[0],14)+'<span>'+p[3]+'</span></div>'}).join('')+'</div>';
+    return h+'</div>';
+  }
+  document.querySelectorAll('.ctx').forEach(function(c){ var s=c.dataset.set; c.innerHTML=pane(s,false)+pane(s,true); });
+})();
+</script>
