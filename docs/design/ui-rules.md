@@ -56,8 +56,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    words with their marks, and every chain view carries the one-line key. This is the strategic-to-tactical ladder: a reader at any level can see
    the level above (the breadcrumb, the parent chronicle) and the level below (the next
    depth word, the linked names) from where they stand. Size is shown, never said: a
-   knot is a full card with a filled mark, a strand a slimmer card with a ring, a fibre a
-   dot, the same on the timeline, in the chain and in cards. No event carries a size word. One control, in one place, on the globe, the timeline and every
+   knot is a full card with a four-point star, a fibre a slimmer card with a filled dot,
+   a strand a line with an open ring (Cade's marks, 2026-11-08), the same on the timeline,
+   in the chain and in cards. No event carries a size word. One control, in one place, on the globe, the timeline and every
    chronicle. No other depth control exists. (The event page's "Open the detail" button
    is renamed in step 1.6 so "detail" means one thing.)
 

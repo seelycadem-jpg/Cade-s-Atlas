@@ -23,9 +23,9 @@ h1{font:500 clamp(36px,7vw,52px)/1.02 var(--display);margin:0 0 12px;letter-spac
 .key{display:flex;flex-wrap:wrap;gap:8px 18px;font:14.5px/1.4 var(--display);color:var(--ink2);margin:14px 0 30px;padding:12px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
 .key span{display:inline-flex;align-items:center;gap:7px}
 .mk{display:inline-block;width:12px;height:12px;border-radius:50%;flex:none}
-.mk.k{background:var(--accent)}
-.mk.f{border:2px solid var(--accent);background:transparent}
-.mk.s{width:7px;height:7px;background:var(--ink2);margin:0 2.5px}
+.mk.k{width:15px;height:15px;border-radius:0;background:var(--accent);-webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path d='M10 0.5 L12.4 7.6 L19.5 10 L12.4 12.4 L10 19.5 L7.6 12.4 L0.5 10 L7.6 7.6 Z'/></svg>") center/contain no-repeat;mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path d='M10 0.5 L12.4 7.6 L19.5 10 L12.4 12.4 L10 19.5 L7.6 12.4 L0.5 10 L7.6 7.6 Z'/></svg>") center/contain no-repeat}
+.mk.f{width:10px;height:10px;background:var(--accent);margin:0 1px}
+.mk.s{width:10px;height:10px;border:2px solid var(--ink2);background:transparent;margin:0 1px}
 .mk.box{border-radius:2px;width:12px;height:12px;border:1.5px solid currentColor;background:transparent}
 
 /* the ladder */
@@ -140,7 +140,7 @@ h3{font:500 26px/1.15 var(--display);margin:40px 0 10px}
         <dl>
           <dt>Its page</dt><dd>A full event page: historical significance, lasting impact, what caused it, what it caused, the world before and after, Follow Historical Chain, the briefing.</dd>
           <dt>Linked to</dt><dd>The knots before and after it on the chain, each arrow graded. Its fibres hang off it.</dd>
-          <dt>Mark</dt><dd>Filled.</dd>
+          <dt>Mark</dt><dd>A four-point star.</dd>
         </dl>
       </div>
     </section>
@@ -153,7 +153,7 @@ h3{font:500 26px/1.15 var(--display);margin:40px 0 10px}
         <dl>
           <dt>Its page</dt><dd>A shorter event page in the same shape, as long as the event needs.</dd>
           <dt>Linked to</dt><dd>At least one knot, by a graded arrow. Its strands hang off it.</dd>
-          <dt>Mark</dt><dd>Ring.</dd>
+          <dt>Mark</dt><dd>A filled dot.</dd>
         </dl>
       </div>
     </section>
@@ -166,7 +166,7 @@ h3{font:500 26px/1.15 var(--display);margin:40px 0 10px}
         <dl>
           <dt>Its page</dt><dd>A short page if its link is worth a page. Otherwise a line on the page of the fibre or knot it links to.</dd>
           <dt>Linked to</dt><dd>At least one fibre or knot. A strand is the smallest event the atlas names.</dd>
-          <dt>Mark</dt><dd>Dot.</dd>
+          <dt>Mark</dt><dd>An open ring.</dd>
         </dl>
       </div>
     </section>
