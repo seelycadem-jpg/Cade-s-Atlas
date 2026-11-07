@@ -1,4 +1,4 @@
-# UI rules (proposed 2026-11-07, for Cade's approval)
+# UI rules (approved by Cade 2026-11-07)
 
 The promises every screen keeps. The mock-ups in step 1.3 follow them; the browser tests
 check the ones that can be checked. Written from `docs/design/brief.md`, the navigation
@@ -12,6 +12,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
   exact sentence; the year travels with the reader.
 - **One thing at a time.** Each screen has one obvious next action; everything else is
   one tap away.
+- **Strategic, operational, tactical.** Cade's analogy for the three levels: the
+  chronicle read in two minutes, its stories, then the events and their detail. Every
+  screen lets the reader drop a level or climb one without losing the thread.
 
 ## Rules
 
@@ -25,7 +28,8 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    that. The year is the shared cursor: tapping it opens the year card.
 
 3. **One preview card, everywhere.** Every name, dot, marker, pin, card and bar opens the
-   same preview: a picture where there is one, the title and date, the one line, and
+   same preview, and so does every linked name inside a sentence (the `[[...]]` links in
+   event, story and theme text): a picture where there is one, the title and date, the one line, and
    Open. On a phone one tap opens it; on a laptop, hover. The preview floats over the
    page; closing it changes nothing underneath.
 
@@ -46,7 +50,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    year is in the address, so a link shares the moment.
 
 8. **Three depth levels, the same words everywhere:** Turning points, The full story,
-   Every detail. One control, in one place, on the globe, the timeline and every
+   Every detail. This is the strategic-to-tactical ladder: a reader at any level can see
+   the level above (the breadcrumb, the parent chronicle) and the level below (the next
+   depth word, the linked names) from where they stand. One control, in one place, on the globe, the timeline and every
    chronicle. No other depth control exists. (The event page's "Open the detail" button
    is renamed in step 1.6 so "detail" means one thing.)
 

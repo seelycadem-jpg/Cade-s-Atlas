@@ -46,7 +46,7 @@ Goal: decide how the atlas looks and works on a phone before building real scree
 | # | Step | Who | Done when |
 | --- | --- | --- | --- |
 | 1.1 | List what worked and what didn't in Prototype 1, and 3 to 5 sites whose look you admire | C | Done 2026-11-05: `docs/design/brief.md` |
-| 1.2 | Write the UI rules: one obvious next action per screen; one tap opens a preview, Open inside it navigates; the same control behaves the same on every page | AI, C approves | In the design file |
+| 1.2 | Write the UI rules: one obvious next action per screen; one tap opens a preview, Open inside it navigates; the same control behaves the same on every page | AI, C approves | Done 2026-11-07: `docs/design/ui-rules.md` |
 | 1.3 | Two or three design directions (type, colour, spacing), each as a mock event page on a phone | AI | Cade can tap through each |
 | 1.4 | Pick a direction, or mix | C | Chosen |
 | 1.5 | Mock the front door: plain earth, eight random chronicle pins and cards, the turn to a first year with its political map and the world's turning points of those years | AI, C approves | Tap-through mock |
