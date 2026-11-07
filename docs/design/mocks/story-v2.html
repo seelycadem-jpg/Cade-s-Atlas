@@ -269,12 +269,22 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 #briefBody h3:first-child{margin-top:14px}
 
 /* Chapters, connectors, the strip, meanwhile. */
-.strip{position:relative;height:60px;margin:0 0 14px}
+.strip{position:sticky;top:126px;z-index:5;height:66px;margin:0 0 14px;background:var(--bg);box-shadow:0 10px 10px -10px rgba(0,0,0,.08)}
+.strip .tk{transition:color .25s}
+.strip .tk i{transition:transform .25s,box-shadow .25s}
+.strip .tk.live{color:var(--ink);font-weight:600}
+.strip .tk.live i{transform:scale(1.45);box-shadow:0 0 0 1px var(--accent),0 0 0 5px color-mix(in srgb,var(--accent) 18%,transparent)}
+.strip .tk.done i{background:var(--ink3);box-shadow:0 0 0 1px var(--ink3)}
+.chap{transition:opacity .35s,transform .35s;transform-origin:0 0}
+.chap h3{font-size:19px;transition:font-size .35s}
+.chaps.spy .chap:not(.live){opacity:.5;transform:scale(.965)}
+.chaps.spy .chap.live h3{font-size:23px}
+@media (prefers-reduced-motion: reduce){.chaps.spy .chap:not(.live){transform:none}}
 .strip .axis{position:absolute;left:4px;right:4px;top:12px;border-top:1px solid var(--rule)}
 .strip .tk{position:absolute;top:0;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;width:19%;min-height:44px;font:10.5px/1.2 var(--ui);color:var(--ink2);text-align:center;text-decoration:none}
 .strip .tk i{width:11px;height:11px;border-radius:50%;background:var(--accent);display:block;margin:7px 0 2px;border:2px solid var(--bg);box-shadow:0 0 0 1px var(--accent)}
 .strip .tk .yr{color:var(--accent);font-weight:600;font-variant-numeric:tabular-nums}
-.chap{margin:0 0 4px;scroll-margin-top:130px}
+.chap{margin:0 0 4px;scroll-margin-top:200px}
 .chap h3{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:14px 0 4px}
 .chap h3 .n{font:600 12px/1.6 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase}
 .chap .knot{font:12.5px/1.4 var(--ui);color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
@@ -438,11 +448,12 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 
   <section class="layer" id="chapters">
     <h2>Chapters</h2>
+    <p class="key"><span><i class="mk k"></i>knot: a major event</span><span><i class="mk s"></i>fibre: a smaller event inside it</span><span><i class="mk f"></i>strand: a smaller event still</span></p>
     <div class="strip" id="chapStrip"></div>
     <div class="chaps" id="chaps"></div>
   </section>
 
-  <section class="layer" id="chain">
+  <section class="layer" id="chain" hidden>
     <h2>Follow Historical Chain</h2>
     <p class="key"><span><i class="mk k"></i>knot: a major event</span><span><i class="mk s"></i>fibre: a smaller event inside it</span><span><i class="mk f"></i>strand: a smaller event still</span></p>
     <p class="take">The story's knots in order, with what the atlas says about each link. Tap a line for its note. Fibres and strands sit inside each chapter above.</p>
@@ -456,7 +467,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     <div class="mw" id="mw"></div>
   </section>
 
-  <section class="layer" id="briefing">
+  <section class="layer" id="briefing" hidden>
     <h2>More detail</h2>
     <button type="button" class="expand brief" id="briefBtn" aria-expanded="false" aria-controls="briefBody"><span>Expand</span><span class="sub">the constitution · the figures · the misreading</span></button>
     <div id="briefBody" hidden>
@@ -577,7 +588,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   hero.addEventListener('click',function(){ if(!small)return; openBig(); });
 
   /* index and scroll-spy */
-  var SECS=[['arg','Briefing'],['chapters','Chapters'],['chain','The chain'],['meanwhile','Meanwhile'],['briefing','More detail']];
+  var SECS=[['arg','Briefing'],['chapters','Chapters'],['meanwhile','Meanwhile']];
   function indexHtml(){ return SECS.map(function(s){return '<a href="#'+s[0]+'" data-sec="'+s[0]+'">'+s[1]+'</a>'}).join(''); }
   hIdx.innerHTML=indexHtml(); document.getElementById('pageIndex').innerHTML=indexHtml();
   document.querySelectorAll('.index a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.dataset.sec); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-110,behavior:reduced?'auto':'smooth'});})});
@@ -747,6 +758,16 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     ch.innerHTML=out; ch.querySelectorAll('[data-prev]').forEach(bindPrev); ch.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})});
     ch.querySelectorAll('[data-kids]').forEach(function(b){ b.addEventListener('click',function(){ var k=document.getElementById('kids-'+b.dataset.kids); var o=b.getAttribute('aria-expanded')==='true'; b.setAttribute('aria-expanded',String(!o)); k.hidden=o; b.textContent=(o?'Show':'Hide')+' its fibres and strands'+(b.textContent.match(/\(\d+\)/)?' '+b.textContent.match(/\(\d+\)/)[0]:''); }); });
     strip.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.getAttribute('href').slice(1)); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-120,behavior:reduced?'auto':'smooth'});})}); })();
+  /* the chapter in view grows; the spine marks it and greys what is read */
+  (function(){ var box=document.getElementById('chaps'); var chaps=[].slice.call(box.querySelectorAll('.chap')), ticks=[].slice.call(document.querySelectorAll('#chapStrip .tk'));
+    function setLive(i){ chaps.forEach(function(c,j){c.classList.toggle('live',j===i)}); ticks.forEach(function(t,j){t.classList.toggle('live',j===i); t.classList.toggle('done',j<i)}); }
+    setLive(0);
+    var io=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting) setLive(chaps.indexOf(x.target)); }); },{rootMargin:'-28% 0px -52% 0px'});
+    chaps.forEach(function(c){io.observe(c)});
+    var sec=new IntersectionObserver(function(en){ en.forEach(function(x){ box.classList.toggle('spy',x.isIntersecting); }); },{rootMargin:'-20% 0px -20% 0px'});
+    sec.observe(document.getElementById('chapters'));
+    ticks.forEach(function(t,i){ t.addEventListener('click',function(ev){ ev.preventDefault(); var el=chaps[i]; window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-200,behavior:reduced?'auto':'smooth'}); }); });
+  })();
 
   /* the thread at story scale: where the story came from, its knots, where it led */
   (function(){ var seq=['eu191485','eu191988','d-hyperinflation','d-depression1930','eu193391','eu193994']; var h='';
