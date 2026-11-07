@@ -38,6 +38,8 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 
 - `docs/architecture.md`: how the site is built: a page per thing, scripts only where needed,
   slices and tiles, budgets that fail the build. Read before writing code in `app/`.
+- `docs/structure.md`: the hierarchy, chronicle to fibre, with Germany as the worked
+  example; wins over older docs on levels and names.
 - `docs/vision.md`: what the atlas is for and how it differs from an encyclopedia. Every
   phase, page and screen is judged against it.
 - `docs/event-pages.md`: the event page: walls and room, the four layers, word budgets by
