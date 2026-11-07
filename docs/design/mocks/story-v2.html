@@ -336,9 +336,12 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .kn .tn .row,.kids .tn .row{grid-template-columns:3.2rem 1fr;align-items:baseline}
 .kn .conn{margin:0 0 6px}
 .chap .open{font:500 15px/1 var(--display);color:var(--accent);text-decoration:underline;text-underline-offset:3px;min-height:32px;margin:2px 0 4px}
-.chap .kids{margin:4px 0 8px 10px;padding-left:12px;border-left:1px dashed var(--rule)}
+.chap .kids{margin:4px 0 8px 7px;padding-left:14px;border-left:1px dashed var(--rule)}
 .chap .kids .tn{margin:0 0 6px}
+.chap .kids .kids2{margin:2px 0 4px 7px;padding-left:14px;border-left:1px dashed var(--rule)}
 .chap .kids .tn.f .row{grid-template-columns:1fr}
+.chap .kids .tn.f .t{font-size:15.5px}
+.chap .kids .tn.f .sub{font-size:11.5px}
 
 /* The key and the thread. */
 .key{display:flex;gap:14px;flex-wrap:wrap;font:14.5px/1.4 var(--display);color:var(--ink2);margin:0 0 10px}
@@ -795,7 +798,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
       var n=c.strands.length+c.fibres.length;
       out+='<button type="button" class="open" data-kids="'+i+'" aria-expanded="false">Show its fibres and strands'+(n?' ('+n+')':'')+'</button><div class="kids" id="kids-'+i+'" hidden>'
         +(c.strands.length?c.strands.map(function(st){return itemHtml(st,'s')}).join(''):'')
-        +(c.fibres.length?c.fibres.map(function(f){return '<div class="tn f"><span class="dot"></span><div class="row"><div><span class="t">'+esc(f[1])+'</span><div class="sub">strand · '+esc(f[0])+'</div></div></div></div>'}).join(''):'')
+        +(c.fibres.length?'<div class="kids2">'+c.fibres.map(function(f){return '<div class="tn f"><span class="dot"></span><div class="row"><div><span class="t">'+esc(f[1])+'</span><div class="sub">strand · '+esc(f[0])+'</div></div></div></div>'}).join('')+'</div>':'')
         +(n?'':'<div class="sub" style="color:var(--ink3)">not yet written in this pilot</div>')+'</div></article>';
       if(i<CH.length-1){ var a=c.knots[c.knots.length-1].id, b=CH[i+1].knots[0].id; out+=connHtml(a&&b?linkBetween(a,b):null); } });
     ch.innerHTML=out; ch.querySelectorAll('[data-prev]').forEach(bindPrev); ch.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})});
