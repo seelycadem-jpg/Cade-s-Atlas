@@ -32,3 +32,14 @@ see `docs/agents.md`), its hooks, and skills that duplicate the roadmap, the bui
 `/code-review` and `/simplify`, or need tools this project does not use. Where a skill's
 examples assume another stack (React, Jest, Vercel), the approved stack in
 `docs/rebuild-plan.md` wins; CLAUDE.md wins over every skill.
+
+Copied from github.com/nextlevelbuilder/ui-ux-pro-max-skill (commit b7d5353), MIT, licence
+kept in the folder:
+
+- `ui-ux-pro-max`: a searchable local database (pure Python, no network): 119 UX rules
+  (touch targets, contrast, navigation, forms), 74 font pairings with their licences, 192
+  palettes, 80 interface styles. Use it as a checklist and a reference. Its
+  `--design-system` output is generic (it proposed a SaaS landing page with Poppins for
+  the atlas), so it never decides the look: `docs/design/brief.md`, the `frontend-design`
+  skill and CLAUDE.md win. The repo's other six skills (logos, banners, slides, social
+  images, a Tailwind kit) are left out: paid image services or a different stack.
