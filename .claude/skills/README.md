@@ -43,3 +43,8 @@ kept in the folder:
   the atlas), so it never decides the look: `docs/design/brief.md`, the `frontend-design`
   skill and CLAUDE.md win. The repo's other six skills (logos, banners, slides, social
   images, a Tailwind kit) are left out: paid image services or a different stack.
+
+Considered and set aside (2026-11-07): `nateherkai/scroll-craft`, a skill for scroll-driven
+marketing landing pages with AI-generated imagery. The atlas is a reading and navigation
+tool with a phone speed budget and sourced images only, so it does not fit. Its hero-depth
+reference may be worth a read for the About page alone.
