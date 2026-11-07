@@ -47,8 +47,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    Every sticky bar (the docked header, the section tabs, the chapter spine) ends in a soft
    16 to 22 px fade to the page ground while it is stuck, never a hard cut, so text slides under it
    (Cade, 2026-11-08). The fade appears only once the bar is stuck, so it never dims the
-   text beneath a bar at rest. Where two bars stack, the lower one sits above the upper
-   one's fade. A sticky bar never clips its own overflow (no scroll or hidden overflow on
+   text beneath a bar at rest. Where two bars stack, the upper bar always sits on the higher
+   layer (header, then tabs, then spine), so a bar leaving the screen slides under the
+   ones above it; the upper bar's fade steps aside while the lower bar is stuck under it. A sticky bar never clips its own overflow (no scroll or hidden overflow on
    it), or the fade is cut off.
 
 7. **The year travels with the reader.** Move the year on any page and every other

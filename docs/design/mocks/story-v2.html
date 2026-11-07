@@ -102,6 +102,7 @@ a{color:inherit}
 /* every sticky bar ends in a soft fade while it is stuck, never a hard cut */
 .pageindex::after{content:"";position:absolute;left:0;right:0;top:100%;height:22px;background:linear-gradient(var(--bg),transparent);pointer-events:none;opacity:0;transition:opacity .2s}
 .pageindex.stuck::after{opacity:1}
+.pageindex.stuck.overspine::after{opacity:0}
 .pageindex::-webkit-scrollbar{display:none}
 
 /* Reading. */
@@ -294,7 +295,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 #briefBody h3:first-child{margin-top:14px}
 
 /* Chapters, connectors, the strip, meanwhile. */
-.strip{position:sticky;top:calc(132px + env(safe-area-inset-top,0px));z-index:8;height:84px;margin:0 0 14px;background:var(--bg)}
+.strip{position:sticky;top:calc(132px + env(safe-area-inset-top,0px));z-index:6;height:84px;margin:0 0 14px;background:var(--bg)}
 .strip::after{content:"";position:absolute;left:0;right:0;top:100%;height:16px;background:linear-gradient(var(--bg),transparent);pointer-events:none}
 .strip .tk{transition:color .25s,scale .3s ease,translate .4s cubic-bezier(.2,.7,.2,1),opacity .3s}
 .strip.wheel .tk{width:72px}
@@ -688,7 +689,11 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   function indexHtml(){ return SECS.map(function(s){return '<a href="#'+s[0]+'" data-sec="'+s[0]+'">'+s[1]+'</a>'}).join(''); }
   document.getElementById('pageIndex').innerHTML=indexHtml();
   (function(){ var nav=document.getElementById('pageIndex'), mark=document.createElement('div'); mark.style.cssText='height:1px;margin-bottom:-1px'; nav.parentNode.insertBefore(mark,nav);
-    if(!window.IntersectionObserver)return; new IntersectionObserver(function(en){ en.forEach(function(x){ nav.classList.toggle('stuck',!x.isIntersecting&&x.boundingClientRect.top<120); }); },{rootMargin:'-88px 0px 0px 0px'}).observe(mark); })();
+    if(!window.IntersectionObserver)return; new IntersectionObserver(function(en){ en.forEach(function(x){ nav.classList.toggle('stuck',!x.isIntersecting&&x.boundingClientRect.top<120); }); },{rootMargin:'-88px 0px 0px 0px'}).observe(mark);
+    /* while the chapter spine sits under the tabs it brings its own fade, so the tabs' fade steps aside */
+    var cs=document.getElementById('chapters'); if(!cs)return; var io2=null;
+    function band(){ if(io2)io2.disconnect(); io2=new IntersectionObserver(function(en){ en.forEach(function(x){ nav.classList.toggle('overspine',x.isIntersecting); }); },{rootMargin:'-134px 0px -'+Math.max(0,window.innerHeight-160)+'px 0px'}); io2.observe(cs); }
+    band(); window.addEventListener('resize',band); })();
   document.querySelectorAll('.index a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.dataset.sec); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-150,behavior:reduced?'auto':'smooth'});})});
   var spy=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting){ document.querySelectorAll('.index a').forEach(function(a){a.setAttribute('aria-current',String(a.dataset.sec===x.target.id))}); } }); },{rootMargin:'-30% 0px -60% 0px'});
   SECS.forEach(function(s){spy.observe(document.getElementById(s[0]))});
