@@ -29,10 +29,10 @@ What is never room: skipping a wall because the event is small, padding a sectio
 | --- | --- | --- | --- |
 | 1. The takeaway | Always, first screen | The takeaway strip; the Overview; one picture or visual where it earns its place | Anyone, in thirty seconds |
 | 2. The brief | Always, one scroll | Why it happened; What it did, and to whom; Why it held or failed; What it set up; Today | The curious reader, in three minutes |
-| 3. The detail | Behind "Open the detail" | The account; By the numbers; The argument; The common misreading; Places; The detail (the expert's nod); Interesting fact | The historian, in ten minutes |
-| 4. The chain | Always, after the detail control | Causes and effects, graded, with the arrow notes on tap; Strands; the exits | The reader following the thread |
+| 3. The detail | Always, after the brief (amended 2026-11-07: the "Open the detail" gate is dropped; the page is one continuous scroll with an index) | The account; By the numbers; The argument; The common misreading; Places; The detail (the expert's nod); Interesting fact | The historian, in ten minutes |
+| 4. The chain | Always, last; the strands sit inside it as "Inside this event" | Causes and effects, graded, with the arrow notes on tap; Strands; the exits | The reader following the thread |
 
-The takeaway strip is the first thing on the page: when (the date, with its precision), where (the place, on a globe thumbnail), who (the actors as chips that open their cards), size (the tier word for the chain the reader came through: "Turning point in: The fall of the Republic"), and the strongest arrow in each direction ("Caused: the Pact of 60, Necessary"). The strip is built from the data header; the agent writes none of it.
+The takeaway strip is the first thing on the page: when (the date, with its precision), where (the place, on a globe thumbnail), who (the actors as chips that open their cards), where it sits (the chronicle and story the reader came through: "The German Question › The treaty"; no size word, since size is shown by the event's mark and weight), and the strongest arrow in each direction ("Caused: the Pact of 60, Necessary"). The strip is built from the data header; the agent writes none of it.
 
 ## Word budgets by tier
 

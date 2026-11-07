@@ -125,8 +125,10 @@ Whatever the prompt says:
 - Never write a person's impact as prose: impact is graded links. A feature with no
   link into a chain stays a label on the map, never a page.
 - Never use knot, strand, fibre, or any name from the analytic foundations where a
-  reader sees it. Readers see turning points, the full story, every detail, the five
-  grade words and the note.
+  reader sees it. Readers see the three depth words (main events, the full story, every
+  detail; amended 2026-11-07 from "turning points", which over-claimed for a single
+  event), the three size marks, the five grade words and the note. No single event is
+  labelled with a size word; size is shown by weight and mark.
 - Never change a section heading or the layer order of a page; never pad a section
   to its band; never skip a wall because the event is small.
 - Never label or flag the fact against, the expert's nod or any reviewers' device

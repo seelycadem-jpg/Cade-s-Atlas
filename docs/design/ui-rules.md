@@ -49,10 +49,12 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    place opens at that year. A chronicle scrolled to 1453 opens the globe at 1453. The
    year is in the address, so a link shares the moment.
 
-8. **Three depth levels, the same words everywhere:** Turning points, The full story,
-   Every detail. This is the strategic-to-tactical ladder: a reader at any level can see
+8. **Three depth levels, the same words everywhere:** Main events, The full story,
+   Every detail (amended 2026-11-07; "turning points" over-claimed for a single event). This is the strategic-to-tactical ladder: a reader at any level can see
    the level above (the breadcrumb, the parent chronicle) and the level below (the next
-   depth word, the linked names) from where they stand. One control, in one place, on the globe, the timeline and every
+   depth word, the linked names) from where they stand. Size is shown, never said: a
+   knot is a full card with a filled mark, a strand a slimmer card with a ring, a fibre a
+   dot, the same on the timeline, in the chain and in cards. No event carries a size word. One control, in one place, on the globe, the timeline and every
    chronicle. No other depth control exists. (The event page's "Open the detail" button
    is renamed in step 1.6 so "detail" means one thing.)
 
@@ -96,6 +98,16 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
 18. **Light and dark, both first-class.** The reader's system setting decides; every
     surface, text and map colour has a value in both, and the globe's borders read in
     both.
+
+19. **No gate on the page.** (Agreed 2026-11-07.) An event page is one continuous scroll
+    in its four layers, each visible, with a small index under the title to jump between
+    them. Nothing hides behind an "Open the detail" control. The two strongest arrows sit
+    under the title; the full chain, with the event's strands inside it, is the last layer.
+
+20. **The globe stays with the reader.** (Agreed 2026-11-07.) Past the hero, the title and
+    a small globe shrink into a sticky header. Tapping another event turns the small globe
+    to its place; closing returns it. Hover (laptop) or tap (phone) grows it, with the
+    Political globe at the page's year one tap away. It turns only when the reader acts.
 
 ## Checked by the browser tests (from Phase 1 on)
 

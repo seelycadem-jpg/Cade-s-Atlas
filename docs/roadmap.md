@@ -50,7 +50,7 @@ Goal: decide how the atlas looks and works on a phone before building real scree
 | 1.3 | Two or three design directions (type, colour, spacing), each as a mock event page on a phone | AI | Cade can tap through each |
 | 1.4 | Pick a direction, or mix | C | Chosen |
 | 1.5 | Mock the front door: plain earth, eight random chronicle pins and cards, the turn to a first year with its political map and the world's turning points of those years | AI, C approves | Tap-through mock |
-| 1.6 | Mock the filters on a phone: type and depth chips up front, region chips, the rest behind More; filtered-out events fade. Show both wordings of "detail" in place | AI, C approves | Tap-through mock; "detail" wording chosen |
+| 1.6 | Mock the filters on a phone: type and depth chips up front, region chips, the rest behind More; filtered-out events fade | AI, C approves | Tap-through mock (the "detail" wording question is closed: the gate is dropped, 2026-11-07) |
 | 1.7 | Mock the two globes as two pages sharing one map, one look, one set of gestures; show how quiet peoples' homelands should be | AI, C approves | Tap-through mock |
 | 1.8 | Build the colour and type settings (light and dark) as one shared file | AI | Every page uses it |
 | 1.9 | Build the navigation bar: bottom strip on a phone, left rail on a laptop; Back, the six places, the year, search | AI | Test: on every page, both sizes |
