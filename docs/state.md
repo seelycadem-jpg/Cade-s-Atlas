@@ -70,6 +70,16 @@ The artifacts are private to Cade's account. The repo files are the source of tr
 2. Phase 1 steps left: front door (1.5), filters (1.6), the two globes (1.7), building the
    shared components (1.8 to 1.12), the people test (1.13).
 
+## Desktop (Cade, 2026-11-08)
+
+Phone first, desktop second, and the desktop is designed, never the phone layout stretched
+(roadmap step 1.7a). Ideas to test then, kept in mind now so phone decisions do not block them:
+- The reading column stays about 65 characters wide; the spare width carries the tools.
+- The chapter spine becomes a vertical rail on the left, the globe a large panel on the
+  right that turns to the chapter or event in view.
+- Meanwhile runs as a side column beside the briefing instead of a section below it.
+- Preview cards open as a side panel instead of a sheet from the bottom.
+
 ## Open questions and loose ends
 
 - The Ruhr chapter's Wikipedia and Britannica links are standard addresses, not yet
