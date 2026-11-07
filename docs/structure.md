@@ -1,4 +1,4 @@
-# The structure: chronicle, story, chapter, knot, strand, fibre (agreed 2026-11-08)
+# The structure: chronicle, story, chapter, knot, fibre, strand (agreed 2026-11-08)
 
 The one place the hierarchy lives. Where an older doc says otherwise (story-method.md,
 narrative-flow.md, house-style.md), this file wins. Worked example: Germany.
@@ -25,17 +25,20 @@ CHRONICLE   Germany · the long view, Rome's frontier to today
    │          └─ KNOT   the chapter's major event · a full page
    │               The Paris Peace Settlement, 1919 to 1923
    │               (elsewhere: the United States enters the war)
+   │               usually one per chapter, never more than three
    │
-   │               └─ STRAND   a smaller event inside the knot · a shorter page
+   │               └─ FIBRE   a smaller event inside the knot · a shorter page
    │                    Versailles · Saint-Germain · Trianon · Sèvres · Lausanne
    │                    (elsewhere: a battle inside the war)
    │
-   │                    └─ FIBRE   a detail-sized event · a short page or a line
+   │                    └─ STRAND   a smaller event still · a short page or a line
    │                         the racial-equality vote, 11 April 1919
    │                         (elsewhere: the Army issues trench shotguns)
 ```
 
-Sizes run knot > strand > fibre: a strand is made of fibres.
+Sizes run knot > fibre > strand (Cade's order). All three are events with a date and a
+place. A figure, a date or a quotation on its own is a line inside a page, never a level.
+The chapter's own briefing paragraph is the patch.
 
 ## The levels
 
@@ -43,10 +46,10 @@ Sizes run knot > strand > fibre: a strand is made of fibres.
 | --- | --- | --- | --- |
 | Chronicle | The long story of a place or people, as long as the place's story runs | A portrait (what it was, what it held, how it ended), then its stories in order: the two-minute read | chronicle |
 | Story | An era of the chronicle, with its own argument: why it went as it did | The argument, then its chapters, each a paragraph that opens to its knot; Previous and Next story | story |
-| Chapter | A section of the story built around exactly one knot | One paragraph on the story page; the knot's page is the chapter opened | chapter (internal: patch) |
+| Chapter | A section of the story built around its knot (usually one, never more than three) | Its patch, a briefing paragraph on the story page; then its knots; then, behind a control, its fibres and strands | chapter |
 | Knot | The chapter's major event | A full event page: significance, lasting impact, causes, effects, before and after, Follow Historical Chain, the briefing | knot |
-| Strand | A smaller event inside a knot | A shorter event page in the same shape, as long as it needs | strand |
-| Fibre | A detail-sized event | A short page if it carries a link; otherwise a line inside its strand | fibre |
+| Fibre | A smaller event inside a knot | A shorter event page in the same shape, as long as it needs | fibre |
+| Strand | A smaller event still | A short page if it carries a link; otherwise a line inside its fibre | strand |
 
 ## Three rules
 
@@ -57,7 +60,7 @@ Sizes run knot > strand > fibre: a strand is made of fibres.
 2. **A story can belong to more than one chronicle.** Divided Germany belongs to Germany and
    to The Cold War. One page, two parents, each listing it.
 3. **Length follows the event, not the level.** A knot that is one day is short; a knot that
-   holds five treaties is long. A fibre can be one sentence inside its strand or its own
+   holds five treaties is long. A strand can be one sentence inside its fibre or its own
    short page if it carries a link. The level sets the role; the event sets the words.
 
 ## What a reader can do
@@ -65,13 +68,12 @@ Sizes run knot > strand > fibre: a strand is made of fibres.
 Open Germany and read it in two minutes. Open Weimar and read why it fell. Open The treaty.
 Open the settlement. Open Versailles. Open the vote of 11 April 1919. Six taps from the long
 view to one afternoon, and Back at every step. The chain view (Follow Historical Chain)
-shows the knots as a thread; a knot opens into its strands, a strand into its fibres; the
-key reads: knot, a major event; strand, a smaller event inside it; fibre, a detail.
+shows the knots as a thread; a chapter opens into its fibres, then its strands; the key
+reads: knot, a major event; fibre, a smaller event inside it; strand, a smaller event still.
 
 ## Open
 
-- Whether chapters get their own pages or stay as paragraphs on the story page that open
-  straight to the knot. Proposal: paragraphs; a chapter is a way of reading a story, not a
-  thing of its own.
+- Decided 2026-11-08: a chapter is its patch on the story page, one longer paragraph; it
+  has no page of its own.
 - The pilot's "German Question" (1517 to today) becomes stories inside the Germany
   chronicle in Phase 7.

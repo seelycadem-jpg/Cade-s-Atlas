@@ -49,10 +49,10 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    place opens at that year. A chronicle scrolled to 1453 opens the globe at 1453. The
    year is in the address, so a link shares the moment.
 
-8. **Three sizes, the same words everywhere:** knot, strand, fibre (Cade's decision,
-   2026-11-08). A chain view shows the knots as the thread; a knot opens into its strands,
-   a strand into its fibres. The depth control uses the same three words with their
-   marks, and every chain view carries the one-line key. This is the strategic-to-tactical ladder: a reader at any level can see
+8. **Three sizes, the same words everywhere:** knot, fibre, strand, in that order of
+   size (Cade's decision, 2026-11-08). A chain view shows the knots as the thread; a
+   chapter opens into its fibres, then its strands. The depth control uses the same three
+   words with their marks, and every chain view carries the one-line key. This is the strategic-to-tactical ladder: a reader at any level can see
    the level above (the breadcrumb, the parent chronicle) and the level below (the next
    depth word, the linked names) from where they stand. Size is shown, never said: a
    knot is a full card with a filled mark, a strand a slimmer card with a ring, a fibre a
@@ -79,7 +79,7 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
     300 ms) that shows what changed. Nothing animates on its own to decorate. Readers
     who ask their phone for reduced motion get none.
 
-13. **Names stay plain.** Readers see knot, strand and fibre with their key, the five
+13. **Names stay plain.** Readers see knot, fibre and strand with their key, the five
     grade words and the note. No other internal word (tier, hinge, patch) and no method
     talk outside the About page.
 

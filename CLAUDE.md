@@ -129,12 +129,12 @@ Whatever the prompt says:
   verified exits.
 - Never write a person's impact as prose: impact is graded links. A feature with no
   link into a chain stays a label on the map, never a page.
-- Readers see knot, strand and fibre (Cade's decision, 2026-11-08, reversing the earlier
-  rule): a knot is a major event, a strand a smaller event inside it, a fibre a detail
-  (the United States entering the war; a battle within it; the Army issuing trench
-  shotguns). Every chain view carries the one-line key, and the three marks (filled,
-  ring, dot) go with the words. The other names from the analytic foundations stay
-  internal.
+- Readers see knot, fibre and strand, in that order of size (Cade's decision,
+  2026-11-08): a knot is a major event, a fibre a smaller event inside it, a strand a
+  smaller event still. All three are events with a date and a place; a figure or a date
+  on its own is a line inside a page, never a level. Every chain view carries the
+  one-line key, and the three marks (filled, ring, dot) go with the words. The other
+  names from the analytic foundations stay internal.
 - Never change a section heading or the layer order of a page; never pad a section
   to its band; never skip a wall because the event is small.
 - Never label or flag the fact against, the expert's nod or any reviewers' device
