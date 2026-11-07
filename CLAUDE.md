@@ -136,7 +136,7 @@ Whatever the prompt says:
   containment, makes the size ("inside" is the wrong word; Cade, 2026-11-08). All three
   are events with a date and a place; a figure or a date on its own is a line inside a
   page, never a level. Every chain view carries the
-  one-line key, and the three marks (a four-point star, a filled dot, an open ring; Cade,
+  one-line key, and the three marks (a diamond, a filled dot, an open ring; Cade,
   2026-11-08) go with the words. The other
   names from the analytic foundations stay internal.
 - Never change a section heading or the layer order of a page; never pad a section
