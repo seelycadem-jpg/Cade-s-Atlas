@@ -17,11 +17,11 @@ CHRONICLE   Germany · the long view, Rome's frontier to today
    │     Divided Germany 1945–1990 · Reunified Germany 1990–today
    │     page = why the era went the way it did, then its chapters
    │
-   │     └─ CHAPTER   a section of the story, built around one knot
-   │          (internal name: patch; readers see "chapter")
+   │     └─ CHAPTER   a section of the story, built around its knot
    │          Weimar: The Treaty · The Ruhr and the Mark · The Golden Years
    │                  The Depression · The Seizure of Power
-   │          one paragraph on the story page; opens to its knot
+   │          its patch on the story page; its own page with a longer
+   │          briefing and the thread of its events
    │
    │          └─ KNOT   the chapter's major event · a full page
    │               The Paris Peace Settlement, 1919 to 1923
@@ -56,7 +56,7 @@ on the map. The chapter shows the fibres and strands linked to its knots.
 | --- | --- | --- | --- |
 | Chronicle | The long story of a place or people, as long as the place's story runs | A portrait (what it was, what it held, how it ended), then its stories in order: the two-minute read | chronicle |
 | Story | An era of the chronicle, with its own argument: why it went as it did | The argument, then its chapters, each a paragraph that opens to its knot; Previous and Next story | story |
-| Chapter | A section of the story built around its knot: usually one, as many as the chapter needs | Its patch, a briefing paragraph on the story page; then its knots; then, behind a control, its fibres and strands | chapter |
+| Chapter | A section of the story built around its knot: usually one, as many as the chapter needs | On the story page: its patch, its knots, and its fibres and strands behind a control. On its own page: a longer briefing (how the period moved), the thread of its events in date order with the graded link between each pair, where it came from and where it led, Meanwhile, Previous and Next chapter | chapter |
 | Knot | The chapter's major event | A full event page: significance, lasting impact, causes, effects, before and after, Follow Historical Chain, the briefing | knot |
 | Fibre | A smaller event linked to a knot: its cause, its part or its consequence | A shorter event page in the same shape, as long as it needs | fibre |
 | Strand | A smaller event still, linked to a fibre or a knot; one step off the chain | A short page if it carries a link; otherwise a line on the page of what it links to | strand |
@@ -78,10 +78,24 @@ on the map. The chapter shows the fibres and strands linked to its knots.
    holds five treaties is long. A strand can be one sentence on its fibre's page or its own
    short page if it carries a link. The level sets the role; the event sets the words.
 
+## One event, many chapters (Cade, 2026-11-08)
+
+An event has one page, whatever chains it sits in. The Paris settlement is a knot in Weimar
+Germany's chapter The Treaty and sits in chapters of the Ottoman and Arab chronicles too.
+
+- The event page says what the event was and what it caused, across every chain. It lists
+  every chapter it sits in, with its size in each, and each opens that chapter at the event.
+- The chapter page says what the event meant in that chain: why it sits there, what came
+  before it and what it led to there. That framing lives on the chapter, never copied into
+  the event page.
+- On a chapter's thread, an event that sits in other chapters shows them as "Also in".
+- A reader who arrives from a chapter sees that chapter in the event page's breadcrumb and
+  Back, so the context they came through is the one offered first.
+
 ## What a reader can do
 
-Open Germany and read it in two minutes. Open Weimar and read why it fell. Open The treaty.
-Open the settlement. Open Versailles. Open the vote of 11 April 1919. Six taps from the long
+Open Germany and read it in two minutes. Open Weimar and read why it fell. Open The Treaty
+and read how the year moved. Open the settlement. Open Versailles. Open the vote of 11 April 1919. Six taps from the long
 view to one afternoon, and Back at every step. The chain view (Follow Historical Chain)
 shows the knots as a thread; a chapter opens into its fibres, then its strands; the key
 reads: knot, a major event; fibre, a smaller event linked to it; strand, a smaller event
@@ -89,7 +103,9 @@ still, one step further out.
 
 ## Open
 
-- Decided 2026-11-08: a chapter is its patch on the story page, one longer paragraph; it
-  has no page of its own.
+- Decided 2026-11-08, then changed the same day on Cade's call: a chapter has its own page
+  (operational, between the story's strategic view and the knot's tactical one). The patch
+  stays on the story page as its short form; "Read the chapter" opens the page. Only the
+  longer briefing is written; the thread is built from the event and link data.
 - The pilot's "German Question" (1517 to today) becomes stories inside the Germany
   chronicle in Phase 7.

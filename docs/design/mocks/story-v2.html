@@ -296,7 +296,10 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 /* Chapters, connectors, the strip, meanwhile. */
 .strip{position:sticky;top:calc(132px + env(safe-area-inset-top,0px));z-index:5;height:84px;margin:0 0 14px;background:var(--bg)}
 .strip::after{content:"";position:absolute;left:0;right:0;top:100%;height:16px;background:linear-gradient(var(--bg),transparent);pointer-events:none}
-.strip .tk{transition:color .25s}
+.strip .tk{transition:color .25s,scale .3s ease,translate .4s cubic-bezier(.2,.7,.2,1),opacity .3s}
+.strip.wheel .tk{width:72px}
+.strip.wheel .bar{display:none}
+.strip.wheel::before{content:"";position:absolute;left:50%;top:2px;width:56px;height:44px;margin-left:-28px;border-radius:10px;background:color-mix(in srgb,var(--accent) 7%,transparent);pointer-events:none}
 .strip .tk i{position:relative;transition:transform .25s}
 .strip .tk i::after{content:"";position:absolute;inset:3px;background:var(--bg);-webkit-mask:var(--knotmark) center/contain no-repeat;mask:var(--knotmark) center/contain no-repeat;transition:opacity .25s}
 .strip .tk.live i,.strip .tk.done i{--hollow:0}
@@ -318,7 +321,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .chap{margin:0 0 4px;scroll-margin-top:200px}
 .chap h3{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:14px 0 4px}
 .chap h3 .n{font:500 13px/1.6 var(--label);color:var(--ink3);letter-spacing:.12em;text-transform:uppercase}
-.chap>p{color:var(--ink2)}
+.chap>p{color:var(--ink2);margin-bottom:6px}
+.chap .readch{display:inline-block;margin:0 0 12px;font:500 16px/1.4 var(--display);color:var(--accent);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;min-height:32px}
 .chap .knot{font:12.5px/1.4 var(--ui);color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
 .chap .knot button{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px}
 .conn{display:grid;grid-template-columns:2rem 1fr;gap:10px;align-items:center;margin:4px 0 8px;min-height:44px}
@@ -813,8 +817,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
      fibres:[['7 May 1919','The German Delegation Receives the Terms'],['11 April 1919','Wilson Rules Japan\'s Racial-Equality Proposal Lost in Commission'],['28 June 1919','Germany Signs the Treaty in the Hall of Mirrors']]},
     {t:'The Ruhr and the Mark',y:'1923',patch:'Germany fell behind on reparations in 1922, and in January 1923 French and Belgian troops occupied the Ruhr to take coal in kind. Berlin paid the Ruhr\'s workers to strike and printed the money to do it. By November a dollar bought 4.2 trillion marks. The Rentenmark stopped the fall that month, and in the same month Hitler\'s putsch in Munich failed in a day.',
      knots:[{id:'d-hyperinflation',line:'Berlin paid for the Ruhr resistance by printing money, and by November 1923 a dollar bought 4.2 trillion marks. Savers lost everything they held in marks.'}],
-     strands:[{h:'The Ruhr Occupation',y:1923,line:'French and Belgian troops entered the Ruhr in January 1923 to take coal and timber after Germany missed reparations deliveries. Berlin ordered passive resistance and paid the idle workers with printed money.'},{h:'The Rentenmark',y:1923,line:'The Rentenmark replaced the paper mark on 15 November 1923 at one to a trillion. It held because the government stopped printing, and the Dawes Plan followed within a year.'}],
-     fibres:[['15 November 1923','The Mark Reaches 4.2 Trillion to the Dollar'],['8 to 9 November 1923','Bavarian Police Put Down the Munich Putsch in a Day']]},
+     strands:[{h:'The Ruhr Occupation',y:1923,line:'French and Belgian troops entered the Ruhr in January 1923 to take coal and timber after Germany missed reparations deliveries. Berlin ordered passive resistance and paid the idle workers with printed money.'},{h:'Stresemann Ends Passive Resistance',y:1923,line:'Stresemann called off the strike in the Ruhr on 26 September because Berlin could no longer pay for it. The decision opened the way to a new currency.'},{h:'The Rentenmark',y:1923,line:'The Rentenmark replaced the paper mark on 15 November 1923 at one to a trillion. It held because the government stopped printing, and the Dawes Plan followed within a year.'}],
+     fibres:[['13 August 1923','Stresemann Becomes Chancellor'],['23 October 1923','Communists Rise in Hamburg'],['8 to 9 November 1923','Bavarian Police Put Down the Munich Putsch'],['20 November 1923','Berlin Fixes the Mark at 4.2 Trillion to the Dollar']]},
     {t:'The Golden Years',y:'1924 to 1929',patch:'The Dawes Plan of 1924 rescheduled reparations and opened American lending to Germany. At Locarno in 1925 Germany accepted its western frontier with France, and in 1926 it joined the League of Nations. Foreign Minister Gustav Stresemann steered both. Output passed its 1913 level. In the election of 1928 the Nazis won 2.6 percent.',
      knots:[{h:'The Locarno Treaties',y:1925,line:'Germany accepted its frontier with France and Belgium in October 1925 and left its eastern frontier open. Britain and Italy guaranteed the western line; nobody guaranteed Poland\'s.'}],
      strands:[{h:'The Dawes Plan',y:1924,line:'The Dawes Plan of August 1924 rescheduled reparations to what Germany could pay and backed them with a loan of 800 million gold marks, mostly American. Foreign lending to Germany followed for five years.'},{h:'Germany Joins the League',y:1926,line:'Germany entered the League of Nations in September 1926 with a permanent seat on the Council. Entry followed from Locarno, where Germany had accepted its western frontier.'},{h:'The 1928 Election',y:1928,line:'In the Reichstag election of May 1928 the Social Democrats won 153 seats and the Nazis 12, on 2.6 percent. Hermann Müller formed the last majority government of the republic.'}],
@@ -839,7 +843,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   (function(){ var strip=document.getElementById('chapStrip'), ch=document.getElementById('chaps'); var h='<div class="axis"></div>';
     CH.forEach(function(c,i){ h+='<a class="tk" href="#chap-'+i+'" style="left:'+((i+0.5)/CH.length*100).toFixed(1)+'%"><i></i><span class="yr">'+esc(c.y.split(' ')[0])+'</span><span>'+esc(c.t)+'</span></a>'; }); strip.innerHTML=h;
     var out=''; CH.forEach(function(c,i){
-      out+='<article class="chap" id="chap-'+i+'"><h3><span class="n">Chapter '+(i+1)+' · '+esc(c.y)+'</span>'+esc(c.t)+'</h3><p>'+c.patch+'</p>';
+      out+='<article class="chap" id="chap-'+i+'"><h3><span class="n">Chapter '+(i+1)+' · '+esc(c.y)+'</span>'+esc(c.t)+'</h3><p>'+c.patch+'</p>'
+        +(i===1?'<a class="readch" href="https://claude.ai/artifact/5SyFXi5sACFqRQe6zcvmyW" target="_blank" rel="noopener">Read the chapter ›</a>':'<button type="button" class="readch" data-readch>Read the chapter ›</button>');
       out+='<div class="kn"><div class="kh" data-tip="'+(c.knots.length>1?'This chapter turns on '+c.knots.length+' major events, with the atlas\'s own link between them.':'The chapter\'s major event. Tap its name for a preview; Open takes you to its page.')+'">'+(c.knots.length>1?'Knots':'Knot')+'</div>'+c.knots.map(function(k){return itemHtml(k,'k')}).join('');
       if(c.knots.length>1){ var l=linkBetween(c.knots[0].id,c.knots[1].id); if(l) out+=connHtml(l); }
       out+='</div>';
@@ -852,7 +857,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
         +'<div class="kidset" id="kids-f-'+i+'" hidden>'+c.fibres.map(function(f){return '<div class="tn f"><span class="dot"></span><div class="row"><div><span class="t">'+esc(f[1])+'</span><div class="sub">strand · '+esc(f[0])+'</div></div></div></div>'}).join('')+'</div>'
         +'</div></div></article>';
       if(i<CH.length-1){ var a=c.knots[c.knots.length-1].id, b=CH[i+1].knots[0].id; out+=connHtml(a&&b?linkBetween(a,b):null); } });
-    ch.innerHTML=out; ch.querySelectorAll('[data-prev]').forEach(bindPrev); ch.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})});
+    ch.innerHTML=out; ch.querySelectorAll('[data-readch]').forEach(function(b){ b.addEventListener('click',function(){ say('In this mock only The Ruhr and the Mark has its chapter page.'); }); }); ch.querySelectorAll('[data-prev]').forEach(bindPrev); ch.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})});
     ch.querySelectorAll('[data-kids]').forEach(function(b){ b.addEventListener('click',function(){ var k=document.getElementById('kids-'+b.dataset.kind+'-'+b.dataset.kids); var o=b.getAttribute('aria-expanded')==='true'; b.setAttribute('aria-expanded',String(!o)); k.hidden=o; }); });
     strip.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.getAttribute('href').slice(1)); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-120,behavior:reduced?'auto':'smooth'});})}); })();
   /* the chapter you are reading sits at full size; the ones before and after it sit smaller and lighter.
@@ -860,20 +865,25 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   (function(){ var box=document.getElementById('chaps'), strip=document.getElementById('chapStrip'); var chaps=[].slice.call(box.querySelectorAll('.chap')), ticks=[].slice.call(strip.querySelectorAll('.tk'));
     var bar=document.createElement('div'); bar.className='bar'; strip.insertBefore(bar,strip.firstChild.nextSibling);
     var conns=chaps.map(function(c){ var n=c.nextElementSibling; return n&&n.classList.contains('conn')?n:null; }), cprev=[];
-    var TX=[], SW=0, G=[], live=-1, queued=false, MINS=0.88, MINO=0.32, R=230, prev=[], cur=[], tgt=[], YC=0, EASE=reduced?1:0.2;
+    var TX=[], SW=0, SPAN=78, WHEEL=false, G=[], live=-1, queued=false, MINS=0.88, MINO=0.32, R=230, TILT=8, prev=[], cur=[], tgt=[], YC=0, EASE=reduced?1:0.2;
     function absTop(el){ var y=0; while(el){ y+=el.offsetTop; el=el.offsetParent; } return y; }
-    function geo(){ G=chaps.map(function(c){ var t=absTop(c); return {t:t,b:t+c.offsetHeight,h:c.offsetHeight}; }); TX=ticks.map(function(t){return t.offsetLeft;}); SW=strip.clientWidth-8; prev=[]; var l=live; live=-1; frame(); }
+    function geo(){ G=chaps.map(function(c){ var t=absTop(c); return {t:t,b:t+c.offsetHeight,h:c.offsetHeight}; }); SW=strip.clientWidth-8; WHEEL=ticks.length*62>SW+8; ticks.forEach(function(t){ if(t.dataset.left==null)t.dataset.left=t.style.left; t.style.left=t.dataset.left; t.style.translate=''; }); TX=ticks.map(function(t){return t.offsetLeft;}); prev=[]; live=-1; frame(); if(live<0){live=0;} spine(); }
     /* scroll sets a target emphasis for each chapter; a short loop eases the visible state toward it, so uneven touch and wheel input reads as a glide */
     function targets(){ var Hh=window.innerHeight, yc=window.scrollY+Hh*0.42; YC=yc;
       var first=G[0].t, lastB=G[G.length-1].b;
       var gin=Math.min(1,Math.max(0,(yc-(first-R*1.5))/R)), gout=Math.min(1,Math.max(0,((lastB+R*1.5)-yc)/R)), g=reduced?0:Math.min(gin,gout);
       var best=0, bestD=1e9;
       G.forEach(function(r,i){ var d=yc<r.t?r.t-yc:(yc>r.b?yc-r.b:0); var u=Math.min(1,d/R); u=u*u*(3-2*u); tgt[i]=g*u; if(cur[i]==null)cur[i]=tgt[i]; if(d<bestD){bestD=d;best=i;} });
-      if(best!==live){ live=best; ticks.forEach(function(t,j){t.classList.toggle('live',j===live); t.classList.toggle('done',j<live)}); if(TX.length&&SW>0) bar.style.transform='scaleX('+Math.max(0,(TX[live]-4)/SW).toFixed(4)+')'; } }
+      if(best!==live){ live=best; spine(); } }
+    function spine(){ ticks.forEach(function(t,j){ var dd=Math.abs(j-live), c=Math.min(dd,3); t.classList.toggle('live',j===live); t.classList.toggle('done',j<live);
+        if(WHEEL){ t.style.left='50%'; t.style.translate=((j-live)*SPAN)+'px 0'; t.style.scale=String(1-0.07*c); t.style.opacity=String(dd>3?0:1-0.22*c); }
+        else { t.style.left=t.dataset.left; t.style.translate=''; t.style.scale=String(1-0.05*c); t.style.opacity=''; } });
+      strip.classList.toggle('wheel',WHEEL);
+      if(!WHEEL&&TX.length&&SW>0) bar.style.transform='scaleX('+Math.max(0,(TX[live]-4)/SW).toFixed(4)+')'; }
     function paint(){ var moving=false;
       G.forEach(function(r,i){ var k=cur[i]+(tgt[i]-cur[i])*EASE; if(Math.abs(tgt[i]-k)<0.0015)k=tgt[i]; else moving=true; cur[i]=k;
-        var sc=1-(1-MINS)*k, op=1-(1-MINO)*k, oy=Math.min(r.h,Math.max(0,YC-r.t));
-        var tr='translate3d(0,'+(oy*(1-sc)).toFixed(2)+'px,0) scale('+sc.toFixed(4)+')', o=op.toFixed(3);
+        var sc=1-(1-MINS)*k, op=1-(1-MINO)*k, oy=Math.min(r.h,Math.max(0,YC-r.t)), side=YC>r.t+r.h/2?1:-1, th=(side*TILT*k).toFixed(2);
+        var tr='translate3d(0,'+oy.toFixed(1)+'px,0) perspective(1400px) rotateX('+th+'deg) scale('+sc.toFixed(4)+') translate3d(0,'+(-oy).toFixed(1)+'px,0)', o=op.toFixed(3);
         var pv=prev[i]||{}; if(pv.tr!==tr){ chaps[i].style.transform=tr; pv.tr=tr; } if(pv.o!==o){ chaps[i].style.opacity=o; pv.o=o; } prev[i]=pv; });
       conns.forEach(function(cn,i){ if(!cn||cur[i+1]==null)return; var k=Math.min(cur[i],cur[i+1]), o=(1-(1-MINO)*k).toFixed(3); if(cprev[i]!==o){ cn.style.opacity=o; cprev[i]=o; } });
       return moving; }
