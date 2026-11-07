@@ -297,6 +297,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .chap{margin:0 0 4px;scroll-margin-top:200px}
 .chap h3{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:14px 0 4px}
 .chap h3 .n{font:500 13px/1.6 var(--label);color:var(--ink3);letter-spacing:.12em;text-transform:uppercase}
+.chap>p{color:var(--ink2)}
 .chap .knot{font:12.5px/1.4 var(--ui);color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
 .chap .knot button{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px}
 .conn{display:grid;grid-template-columns:2rem 1fr;gap:10px;align-items:center;margin:4px 0 8px;min-height:44px}
@@ -335,8 +336,15 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .kn .tn.f .dot,.kids .tn.f .dot{left:3px;top:10px}
 .kn .tn .row,.kids .tn .row{grid-template-columns:3.2rem 1fr;align-items:baseline}
 .kn .conn{margin:0 0 6px}
-.chap .open{font:500 15px/1 var(--display);color:var(--accent);text-decoration:underline;text-underline-offset:3px;min-height:32px;margin:2px 0 4px}
-.chap .kids{margin:4px 0 8px 7px;padding-left:14px;border-left:1px dashed var(--rule)}
+.chap .open{display:inline-flex;align-items:center;gap:7px;font:500 14.5px/1 var(--display);color:var(--ink2);min-height:32px;margin:0 0 2px;padding:0 6px 0 0;border-radius:6px}
+.chap .open:hover{color:var(--ink);background:var(--surface)}
+.chap .open i{width:14px;height:14px;border:1px solid var(--rule);border-radius:3px;position:relative;flex:none;background:var(--surface)}
+.chap .open i::before,.chap .open i::after{content:"";position:absolute;left:3px;right:3px;top:6px;border-top:1.5px solid var(--accent)}
+.chap .open i::after{transform:rotate(90deg);transition:transform .15s}
+.chap .open[aria-expanded="true"] i::after{transform:rotate(0)}
+.chap .open .mk{margin:0}
+.chap .kidset{margin:4px 0 2px}
+.chap .kids{margin:2px 0 10px 7px;padding-left:14px;border-left:1px dashed var(--rule)}
 .chap .kids .tn{margin:0 0 6px}
 .chap .kids .kids2{margin:2px 0 4px 7px;padding-left:14px;border-left:1px dashed var(--rule)}
 .chap .kids .tn.f .row{grid-template-columns:1fr}
@@ -796,13 +804,16 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
       if(c.knots.length>1){ var l=linkBetween(c.knots[0].id,c.knots[1].id); if(l) out+=connHtml(l); }
       out+='</div>';
       var n=c.strands.length+c.fibres.length;
-      out+='<button type="button" class="open" data-kids="'+i+'" aria-expanded="false">Show its fibres and strands'+(n?' ('+n+')':'')+'</button><div class="kids" id="kids-'+i+'" hidden>'
-        +(c.strands.length?c.strands.map(function(st){return itemHtml(st,'s')}).join(''):'')
-        +(c.fibres.length?'<div class="kids2">'+c.fibres.map(function(f){return '<div class="tn f"><span class="dot"></span><div class="row"><div><span class="t">'+esc(f[1])+'</span><div class="sub">strand · '+esc(f[0])+'</div></div></div></div>'}).join('')+'</div>':'')
-        +(n?'':'<div class="sub" style="color:var(--ink3)">not yet written in this pilot</div>')+'</div></article>';
+      out+='<div class="kids" id="kids-'+i+'">'
+        +'<button type="button" class="open" data-kids="'+i+'" data-kind="s" aria-expanded="false" aria-controls="kids-s-'+i+'"><i></i><span class="mk s"></span>'+(c.strands.length?c.strands.length+' fibres':'no fibres yet')+'</button>'
+        +'<div class="kidset" id="kids-s-'+i+'" hidden>'+c.strands.map(function(st){return itemHtml(st,'s')}).join('')+'</div>'
+        +'<div class="kids2">'
+        +'<button type="button" class="open" data-kids="'+i+'" data-kind="f" aria-expanded="false" aria-controls="kids-f-'+i+'"><i></i><span class="mk f"></span>'+(c.fibres.length?c.fibres.length+' strands':'no strands yet')+'</button>'
+        +'<div class="kidset" id="kids-f-'+i+'" hidden>'+c.fibres.map(function(f){return '<div class="tn f"><span class="dot"></span><div class="row"><div><span class="t">'+esc(f[1])+'</span><div class="sub">strand · '+esc(f[0])+'</div></div></div></div>'}).join('')+'</div>'
+        +'</div></div></article>';
       if(i<CH.length-1){ var a=c.knots[c.knots.length-1].id, b=CH[i+1].knots[0].id; out+=connHtml(a&&b?linkBetween(a,b):null); } });
     ch.innerHTML=out; ch.querySelectorAll('[data-prev]').forEach(bindPrev); ch.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})});
-    ch.querySelectorAll('[data-kids]').forEach(function(b){ b.addEventListener('click',function(){ var k=document.getElementById('kids-'+b.dataset.kids); var o=b.getAttribute('aria-expanded')==='true'; b.setAttribute('aria-expanded',String(!o)); k.hidden=o; b.textContent=(o?'Show':'Hide')+' its fibres and strands'+(b.textContent.match(/\(\d+\)/)?' '+b.textContent.match(/\(\d+\)/)[0]:''); }); });
+    ch.querySelectorAll('[data-kids]').forEach(function(b){ b.addEventListener('click',function(){ var k=document.getElementById('kids-'+b.dataset.kind+'-'+b.dataset.kids); var o=b.getAttribute('aria-expanded')==='true'; b.setAttribute('aria-expanded',String(!o)); k.hidden=o; }); });
     strip.querySelectorAll('a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.getAttribute('href').slice(1)); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-120,behavior:reduced?'auto':'smooth'});})}); })();
   /* the chapter nearest the middle of the screen grows; the rest sit back; the spine marks the place */
   (function(){ var box=document.getElementById('chaps'), strip=document.getElementById('chapStrip'); var chaps=[].slice.call(box.querySelectorAll('.chap')), ticks=[].slice.call(strip.querySelectorAll('.tk'));
