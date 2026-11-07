@@ -73,12 +73,14 @@ The artifacts are private to Cade's account. The repo files are the source of tr
 ## Desktop (Cade, 2026-11-08)
 
 Phone first, desktop second, and the desktop is designed, never the phone layout stretched
-(roadmap step 1.7a). Ideas to test then, kept in mind now so phone decisions do not block them:
+(roadmap step 1.7a). Direction agreed with Cade:
+- The globe takes a much larger share of the page, on the right, and turns to the chapter
+  or event in view. The reading shifts to the left.
 - The reading column stays about 65 characters wide; the spare width carries the tools.
-- The chapter spine becomes a vertical rail on the left, the globe a large panel on the
-  right that turns to the chapter or event in view.
 - Meanwhile runs as a side column beside the briefing instead of a section below it.
-- Preview cards open as a side panel instead of a sheet from the bottom.
+- The chapter spine becomes a vertical rail.
+- Still open: how preview cards open on a wide screen (a side panel is the first idea);
+  decided when the step comes.
 
 ## Open questions and loose ends
 
