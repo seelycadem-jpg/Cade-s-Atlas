@@ -25,12 +25,15 @@ What is never room: skipping a wall because the event is small, padding a sectio
 
 ## The layers
 
-The page's order, from the mission (amended 2026-11-07, after the seventh and eighth
-mocks): Why it matters; What caused it (each cause an event with its year, the link's
-claim as a plain sentence, and the grade in plain words); Who wanted what (each actor
-a country or a person, one plain line); What it caused (the same form); How sure we are
-(the verdict, the strongest case against); The chain (the graph, with the explorer
-behind it); What happened (short, with the map before and after); Today; The detail.
+The page's order (Cade, 2026-11-08, after the tenth mock): Historical significance
+(what it was in one or two sentences, then why it matters as bullets); Lasting impact
+(the long so-what, by region where the event reached several); What caused it (prose,
+with each winner's price where a settlement is at stake); What it caused (prose);
+Before and after (a map by region, two years as tabs, coloured by who held each land,
+with a short list of what changed); Follow Historical Chain (the knots as a thread,
+each opening into its strands and fibres, with the key, and the full chain behind it);
+The briefing, folded (the account, the terms, the figures, the misreading, today, and
+one closing detail). The grade on each link carries "how sure"; it is never a section.
 The table below is the older layer scheme and is read through that order.
 
 | Layer | Shown | Holds | Reader it serves |
