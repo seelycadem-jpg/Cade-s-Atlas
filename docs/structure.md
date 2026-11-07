@@ -28,18 +28,27 @@ CHRONICLE   Germany · the long view, Rome's frontier to today
    │               (elsewhere: the United States enters the war)
    │               usually one per chapter, never more than three
    │
-   │               └─ FIBRE   a smaller event inside the knot · a shorter page
-   │                    Versailles · Saint-Germain · Trianon · Sèvres · Lausanne
-   │                    (elsewhere: a battle inside the war)
+   │               └─ FIBRE   a smaller event linked to the knot · a shorter page
+   │                    Versailles · the Senate rejects the treaty · May Fourth
+   │                    (elsewhere: a battle of the war; the convoy that got the army there)
    │
-   │                    └─ STRAND   a smaller event still · a short page or a line
-   │                         the racial-equality vote, 11 April 1919
+   │                    └─ STRAND   a smaller event still, linked to a fibre or a knot
+   │                         the racial-equality vote, 11 April 1919 · a short page or a line
    │                         (elsewhere: the Army issues trench shotguns)
 ```
 
 Sizes run knot > fibre > strand (Cade's order). All three are events with a date and a
 place. A figure, a date or a quotation on its own is a line inside a page, never a level.
 The chapter's own briefing paragraph is the patch.
+
+**The link makes the size, never containment** (Cade, 2026-11-08). A fibre is a step on
+the chain to or from a knot: its cause, its part or its consequence, joined to it by a
+graded link. The Senate's rejection of the treaty happened in Washington four months after
+Versailles and is a fibre of the Paris settlement because the arrow runs from one to the
+other. A strand is one step off the chain, linked to a fibre or a knot; it explains how or
+why for the deep reader. So every fibre carries at least one graded link to a knot, and
+every strand at least one to a fibre or a knot. An event with no link is a line or a label
+on the map. The chapter shows the fibres and strands linked to its knots.
 
 ## The levels
 
@@ -49,8 +58,8 @@ The chapter's own briefing paragraph is the patch.
 | Story | An era of the chronicle, with its own argument: why it went as it did | The argument, then its chapters, each a paragraph that opens to its knot; Previous and Next story | story |
 | Chapter | A section of the story built around its knot (usually one, never more than three) | Its patch, a briefing paragraph on the story page; then its knots; then, behind a control, its fibres and strands | chapter |
 | Knot | The chapter's major event | A full event page: significance, lasting impact, causes, effects, before and after, Follow Historical Chain, the briefing | knot |
-| Fibre | A smaller event inside a knot | A shorter event page in the same shape, as long as it needs | fibre |
-| Strand | A smaller event still | A short page if it carries a link; otherwise a line inside its fibre | strand |
+| Fibre | A smaller event linked to a knot: its cause, its part or its consequence | A shorter event page in the same shape, as long as it needs | fibre |
+| Strand | A smaller event still, linked to a fibre or a knot; one step off the chain | A short page if it carries a link; otherwise a line on the page of what it links to | strand |
 
 ## Three rules
 
@@ -61,7 +70,7 @@ The chapter's own briefing paragraph is the patch.
 2. **A story can belong to more than one chronicle.** Divided Germany belongs to Germany and
    to The Cold War. One page, two parents, each listing it.
 3. **Length follows the event, not the level.** A knot that is one day is short; a knot that
-   holds five treaties is long. A strand can be one sentence inside its fibre or its own
+   holds five treaties is long. A strand can be one sentence on its fibre's page or its own
    short page if it carries a link. The level sets the role; the event sets the words.
 
 ## What a reader can do
@@ -70,7 +79,8 @@ Open Germany and read it in two minutes. Open Weimar and read why it fell. Open 
 Open the settlement. Open Versailles. Open the vote of 11 April 1919. Six taps from the long
 view to one afternoon, and Back at every step. The chain view (Follow Historical Chain)
 shows the knots as a thread; a chapter opens into its fibres, then its strands; the key
-reads: knot, a major event; fibre, a smaller event inside it; strand, a smaller event still.
+reads: knot, a major event; fibre, a smaller event linked to it; strand, a smaller event
+still, one step further out.
 
 ## Open
 

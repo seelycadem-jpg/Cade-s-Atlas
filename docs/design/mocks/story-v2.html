@@ -469,15 +469,15 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 
   <section class="layer" id="chapters">
     <h2>Chapters</h2>
-    <p class="key"><span data-tip="A knot is the chapter's major event. It has a full page: significance, lasting impact, causes, effects, before and after."><i class="mk k"></i>knot: a major event</span><span data-tip="A fibre is a smaller event inside a knot: a treaty inside a settlement, a battle inside a war."><i class="mk s"></i>fibre: a smaller event inside it</span><span data-tip="A strand is a smaller event still: one vote, one signing, one day."><i class="mk f"></i>strand: a smaller event still</span></p>
+    <p class="key"><span data-tip="A knot is the chapter's major event. It has a full page: significance, lasting impact, causes, effects, before and after."><i class="mk k"></i>knot: a major event</span><span data-tip="A fibre is a smaller event linked to a knot: its cause, a part of it, or its consequence. The link makes it a fibre, wherever it happened."><i class="mk s"></i>fibre: a smaller event linked to it</span><span data-tip="A strand is a smaller event still, linked to a fibre or a knot, one step off the chain: one vote, one signing, one day."><i class="mk f"></i>strand: a smaller event still</span></p>
     <div class="strip" id="chapStrip"></div>
     <div class="chaps" id="chaps"></div>
   </section>
 
   <section class="layer" id="chain" hidden>
     <h2>Follow Historical Chain</h2>
-    <p class="key"><span><i class="mk k"></i>knot: a major event</span><span><i class="mk s"></i>fibre: a smaller event inside it</span><span><i class="mk f"></i>strand: a smaller event still</span></p>
-    <p class="take">The story's knots in order, with what the atlas says about each link. Tap a line for its note. Fibres and strands sit inside each chapter above.</p>
+    <p class="key"><span><i class="mk k"></i>knot: a major event</span><span><i class="mk s"></i>fibre: a smaller event linked to it</span><span><i class="mk f"></i>strand: a smaller event still</span></p>
+    <p class="take">The story's knots in order, with what the atlas says about each link. Tap a line for its note. The fibres and strands linked to each knot open from its chapter above.</p>
     <div class="thread" id="thread"></div>
     <button type="button" class="expand" id="expandBtn"><span>Open the full chain</span><span class="sub">one to three steps · show only one kind</span></button>
   </section>
@@ -776,7 +776,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
      strands:[{id:'w2-reichstag-b',h:'The Enabling Act',y:1933,line:'The Reichstag votes its own powers to the cabinet, 23 March 1933.'},{h:'The Emergency Decree of 28 February',y:1933,line:'Hindenburg suspends civil liberties after the Reichstag fire.'}],
      fibres:[['30 January 1933','Hindenburg Swears in Hitler\'s First Cabinet, Three Nazis Among Eleven Ministers'],['27 February 1933','The Reichstag Burns']]}];
   (function(){ var k=0,f=0,st=0; CH.forEach(function(c){k+=c.knots.length; f+=c.strands.length; st+=c.fibres.length;});
-    document.getElementById('counts').innerHTML='<span data-tip="Sections of the story, each built on a knot"><b>'+CH.length+'</b> chapters</span><span data-tip="Major events: each has a full page"><i class="mk k"></i><b>'+k+'</b> knots</span><span data-tip="Smaller events inside the knots"><i class="mk s"></i><b>'+f+'</b> fibres</span><span data-tip="Smaller events still"><i class="mk f"></i><b>'+st+'</b> strands</span>'; })();
+    document.getElementById('counts').innerHTML='<span data-tip="Sections of the story, each built on a knot"><b>'+CH.length+'</b> chapters</span><span data-tip="Major events: each has a full page"><i class="mk k"></i><b>'+k+'</b> knots</span><span data-tip="Smaller events linked to the knots"><i class="mk s"></i><b>'+f+'</b> fibres</span><span data-tip="Smaller events still"><i class="mk f"></i><b>'+st+'</b> strands</span>'; })();
   function linkBetween(a,b){ return A.links.filter(function(l){return l.f===a&&l.t===b})[0]; }
   var PHD={Necessary:'Without this, the next does not happen.',Sufficient:'This was enough on its own to bring the next about.',Contributing:'One cause of the next among several.',Contested:'Two readings; the atlas withholds a verdict.',Coincident:'Same time; the atlas finds no link.'};
   function connHtml(l){ if(!l) return '<div class="conn"><div class="ln none"><i></i></div><div class="lab"><span class="gw">No graded link yet between these knots; the chapters follow in time.</span></div></div>';

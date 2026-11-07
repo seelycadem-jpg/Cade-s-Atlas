@@ -50,8 +50,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    year is in the address, so a link shares the moment.
 
 8. **Three sizes, the same words everywhere:** knot, fibre, strand, in that order of
-   size (Cade's decision, 2026-11-08). A chain view shows the knots as the thread; a
-   chapter opens into its fibres, then its strands. The depth control uses the same three
+   size (Cade's decision, 2026-11-08). A fibre is linked to a knot, a strand to a fibre or
+   a knot; the link makes the size, never containment. A chain view shows the knots as
+   the thread; a chapter opens into the fibres linked to its knots, then the strands. The depth control uses the same three
    words with their marks, and every chain view carries the one-line key. This is the strategic-to-tactical ladder: a reader at any level can see
    the level above (the breadcrumb, the parent chronicle) and the level below (the next
    depth word, the linked names) from where they stand. Size is shown, never said: a
@@ -104,7 +105,7 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
 19. **No gate on the page.** (Agreed 2026-11-07.) An event page is one continuous scroll
     in its four layers, each visible, with a small index under the title to jump between
     them. Nothing hides behind an "Open the detail" control. The two strongest arrows sit
-    under the title; the full chain, with the event's strands inside it, is the last layer.
+    under the title; the full chain, with the fibres and strands linked to the event, is the last layer.
 
 20. **The globe stays with the reader.** (Agreed 2026-11-07.) Past the hero, the title and
     a small globe shrink into a sticky header. Tapping another event turns the small globe

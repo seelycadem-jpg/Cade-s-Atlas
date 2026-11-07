@@ -130,9 +130,12 @@ Whatever the prompt says:
 - Never write a person's impact as prose: impact is graded links. A feature with no
   link into a chain stays a label on the map, never a page.
 - Readers see knot, fibre and strand, in that order of size (Cade's decision,
-  2026-11-08): a knot is a major event, a fibre a smaller event inside it, a strand a
-  smaller event still. All three are events with a date and a place; a figure or a date
-  on its own is a line inside a page, never a level. Every chain view carries the
+  2026-11-08): a knot is a major event, the one its chain breaks without; a fibre is a
+  smaller event linked to a knot, as its cause, its part or its consequence; a strand is a
+  smaller event still, linked to a fibre or a knot, one step off the chain. The link, never
+  containment, makes the size ("inside" is the wrong word; Cade, 2026-11-08). All three
+  are events with a date and a place; a figure or a date on its own is a line inside a
+  page, never a level. Every chain view carries the
   one-line key, and the three marks (filled, ring, dot) go with the words. The other
   names from the analytic foundations stay internal.
 - Never change a section heading or the layer order of a page; never pad a section
