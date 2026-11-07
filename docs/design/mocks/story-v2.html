@@ -864,15 +864,16 @@ h1,h2,h3,.tw h1,.chap h3,#sheetTitle,.nextprev .t,.open .pn .t,.ev .t,.tl .n,.pa
   (function(){ var box=document.getElementById('chaps'), strip=document.getElementById('chapStrip'); var chaps=[].slice.call(box.querySelectorAll('.chap')), ticks=[].slice.call(strip.querySelectorAll('.tk'));
     var bar=document.createElement('div'); bar.className='bar'; strip.insertBefore(bar,strip.firstChild.nextSibling);
     var conns=chaps.map(function(c){ var n=c.nextElementSibling; return n&&n.classList.contains('conn')?n:null; }), cprev=[];
-    var TX=[], SW=0, SPAN=78, WHEEL=false, G=[], live=-1, queued=false, MINS=0.88, MINO=0.32, R=230, TILT=8, prev=[], cur=[], tgt=[], YC=0, EASE=reduced?1:0.2;
+    var DIR=0, LASTY=window.scrollY, TX=[], SW=0, SPAN=78, WHEEL=false, G=[], live=-1, queued=false, MINS=0.88, MINO=0.32, R=230, TILT=8, prev=[], cur=[], tgt=[], YC=0, EASE=reduced?1:0.2;
     function absTop(el){ var y=0; while(el){ y+=el.offsetTop; el=el.offsetParent; } return y; }
     function geo(){ G=chaps.map(function(c){ var t=absTop(c); return {t:t,b:t+c.offsetHeight,h:c.offsetHeight}; }); SW=strip.clientWidth-8; WHEEL=ticks.length*62>SW+8; ticks.forEach(function(t){ if(t.dataset.left==null)t.dataset.left=t.style.left; t.style.left=t.dataset.left; t.style.translate=''; }); TX=ticks.map(function(t){return t.offsetLeft;}); prev=[]; live=-1; frame(); if(live<0){live=0;} spine(); }
     /* scroll sets a target emphasis for each chapter; a short loop eases the visible state toward it, so uneven touch and wheel input reads as a glide */
-    function targets(){ var Hh=window.innerHeight, yc=window.scrollY+Hh*0.42; YC=yc;
+    /* the edge chapters recede only as the reader leaves them, never before the reader reaches them */
+    function targets(){ var Hh=window.innerHeight, sy=window.scrollY, yc=sy+Hh*0.42; YC=yc; if(sy>LASTY+3)DIR=1; else if(sy<LASTY-3)DIR=-1; LASTY=sy;
       var first=G[0].t, lastB=G[G.length-1].b;
-      var gin=Math.min(1,Math.max(0,(yc-(first-R*1.5))/R)), gout=Math.min(1,Math.max(0,((lastB+R*1.5)-yc)/R)), g=reduced?0:Math.min(gin,gout);
+      var gin=Math.min(1,Math.max(0,(yc-(first-R*3))/(R*1.5))), gout=Math.min(1,Math.max(0,((lastB+R*3)-yc)/(R*1.5))), g=reduced?0:Math.min(gin,gout);
       var best=0, bestD=1e9;
-      G.forEach(function(r,i){ var d=yc<r.t?r.t-yc:(yc>r.b?yc-r.b:0); if((i===0&&yc<r.t)||(i===G.length-1&&yc>r.b))d=0; var u=Math.min(1,d/R); u=u*u*(3-2*u); tgt[i]=g*u; if(cur[i]==null)cur[i]=tgt[i]; if(d<bestD){bestD=d;best=i;} });
+      G.forEach(function(r,i){ var d=yc<r.t?r.t-yc:(yc>r.b?yc-r.b:0); if((i===0&&yc<r.t&&DIR!==-1)||(i===G.length-1&&yc>r.b&&DIR!==1))d=0; var u=Math.min(1,d/R); u=u*u*(3-2*u); tgt[i]=g*u; if(cur[i]==null)cur[i]=tgt[i]; if(d<bestD){bestD=d;best=i;} });
       if(best!==live){ live=best; spine(); } }
     function spine(){ ticks.forEach(function(t,j){ var dd=Math.abs(j-live), c=Math.min(dd,3); t.classList.toggle('live',j===live); t.classList.toggle('done',j<live);
         if(WHEEL){ t.style.left='50%'; t.style.translate=((j-live)*SPAN)+'px 0'; t.style.scale=String(1-0.07*c); t.style.opacity=String(dd>3?0:1-0.22*c); }
