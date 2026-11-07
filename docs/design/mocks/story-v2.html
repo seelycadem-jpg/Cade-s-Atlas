@@ -293,7 +293,9 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .strip .tk.done i{opacity:.6}
 .strip .tk.done .yr{color:var(--ink3)}
 .strip .bar{position:absolute;left:4px;top:12px;height:0;border-top:2px solid var(--accent);width:0;transition:width .3s}
-.chap{--t:1;opacity:calc(.62 + .38*var(--t));transition:opacity .15s linear}
+.chap{--t:1;opacity:calc(.5 + .5*var(--t));transform:scale(calc(.965 + .035*var(--t)));transform-origin:50% 45%;transition:opacity .12s linear,transform .12s linear}
+.chap h3{transform:scale(calc(.88 + .12*var(--t)));transform-origin:0 100%;transition:transform .12s linear}
+@media (prefers-reduced-motion: reduce){.chap{transform:none!important}.chap h3{transform:none!important}}
 .strip .axis{position:absolute;left:4px;right:4px;top:12.5px;border-top:1px solid var(--rule)}
 .strip .tk{position:absolute;top:0;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;width:19%;min-height:44px;font:12px/1.2 var(--display);color:var(--ink2);text-align:center;text-decoration:none}
 .strip .tk i{width:14px;height:14px;border-radius:0;background:var(--accent);display:block;margin:5px 0 2px;border:0;-webkit-mask:var(--knotmark) center/contain no-repeat;mask:var(--knotmark) center/contain no-repeat}
@@ -473,8 +475,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     <div class="counts" id="counts"></div>
     <div class="pn" id="pn"><button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">‹ The Great War</span></button><button type="button" class="next" data-prev="story:nazi"><span class="lab">Next story</span><span class="t">Nazi Germany ›</span></button></div>
     <p class="line">The republic that signed the peace, paid for it, and fell when the Depression came.</p>
-    <nav class="pageindex index" id="pageIndex" aria-label="On this page"></nav>
   </div>
+  <nav class="pageindex index" id="pageIndex" aria-label="On this page"></nav>
 
   <section class="layer brief" id="arg">
     <p class="lede">Weimar Germany was the republic that signed the peace, paid for it, and fell when the Depression came. It lasted fourteen years, from the abdication of the Kaiser in November 1918 to Hitler's appointment in January 1933, and for most of them it was the largest democracy in Europe.</p>
@@ -826,7 +828,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   (function(){ var box=document.getElementById('chaps'), strip=document.getElementById('chapStrip'); var chaps=[].slice.call(box.querySelectorAll('.chap')), ticks=[].slice.call(strip.querySelectorAll('.tk'));
     var bar=document.createElement('div'); bar.className='bar'; strip.insertBefore(bar,strip.firstChild.nextSibling);
     var live=-1, ticking=false;
-    function update(){ ticking=false; var H=window.innerHeight, yc=H*0.5, band=H*0.6, best=-1, bestD=1e9, secR=box.getBoundingClientRect();
+    function update(){ ticking=false; var H=window.innerHeight, yc=H*0.48, band=H*0.52, best=-1, bestD=1e9, secR=box.getBoundingClientRect();
       var inSec=secR.top<H*0.8&&secR.bottom>H*0.2;
       chaps.forEach(function(c,i){ var r=c.getBoundingClientRect(); var d=r.top>yc?r.top-yc:(r.bottom<yc?yc-r.bottom:0); var t=Math.max(0,1-d/band); t=t*t*(3-2*t); c.style.setProperty('--t',inSec?t.toFixed(3):'1'); if(d<bestD){bestD=d;best=i;} });
       if(best!==live){ live=best; ticks.forEach(function(t,j){t.classList.toggle('live',j===live); t.classList.toggle('done',j<live)}); var tk=ticks[live]; if(tk) bar.style.width=Math.max(0,tk.offsetLeft-4)+'px'; } }
