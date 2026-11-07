@@ -45,10 +45,11 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    detail panels sit over the globe or the page as distinct surfaces: a visible edge, a
    small shadow, a scrim behind them on a phone. They never push the page around.
    Every sticky bar (the docked header, the section tabs, the chapter spine) ends in a soft
-   16 px fade to the page ground while it is stuck, never a hard cut, so text slides under it
+   16 to 22 px fade to the page ground while it is stuck, never a hard cut, so text slides under it
    (Cade, 2026-11-08). The fade appears only once the bar is stuck, so it never dims the
    text beneath a bar at rest. Where two bars stack, the lower one sits above the upper
-   one's fade.
+   one's fade. A sticky bar never clips its own overflow (no scroll or hidden overflow on
+   it), or the fade is cut off.
 
 7. **The year travels with the reader.** Move the year on any page and every other
    place opens at that year. A chronicle scrolled to 1453 opens the globe at 1453. The
