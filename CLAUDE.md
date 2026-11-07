@@ -34,11 +34,16 @@ pieces often with clear messages. Work on a branch for anything risky.
 
 The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CDNs.
 
+## Read first
+
+- `docs/state.md`: where the project stands, what has been decided, the mocks and what comes
+  next. Read it at the start of every session and update it at the end.
+
 ## Read before writing atlas text
 
 - `docs/architecture.md`: how the site is built: a page per thing, scripts only where needed,
   slices and tiles, budgets that fail the build. Read before writing code in `app/`.
-- `docs/structure.md`: the hierarchy, chronicle to fibre, with Germany as the worked
+- `docs/structure.md`: the hierarchy, chronicle to strand, with Germany as the worked
   example; wins over older docs on levels and names.
 - `docs/vision.md`: what the atlas is for and how it differs from an encyclopedia. Every
   phase, page and screen is judged against it.

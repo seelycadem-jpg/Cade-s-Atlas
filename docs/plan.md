@@ -1,6 +1,6 @@
 # Plan status
 
-Phase in progress: 1, Look and feel. The step list is `docs/roadmap.md`; the full plan is the
+Phase in progress: 1, Look and feel. Current state, decisions and next steps: `docs/state.md`. The step list is `docs/roadmap.md`; the full plan is the
 "Meanwhile Atlas: Build Plan" doc.
 
 Phase 0 (Foundation) passed its test on 2026-11-05: `build.sh` runs clean in the repo, the
