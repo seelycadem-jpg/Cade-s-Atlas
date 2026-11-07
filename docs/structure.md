@@ -26,7 +26,7 @@ CHRONICLE   Germany · the long view, Rome's frontier to today
    │          └─ KNOT   the chapter's major event · a full page
    │               The Paris Peace Settlement, 1919 to 1923
    │               (elsewhere: the United States enters the war)
-   │               usually one per chapter, never more than three
+   │               usually one per chapter; as many as the chapter needs
    │
    │               └─ FIBRE   a smaller event linked to the knot · a shorter page
    │                    Versailles · the Senate rejects the treaty · May Fourth
@@ -56,20 +56,25 @@ on the map. The chapter shows the fibres and strands linked to its knots.
 | --- | --- | --- | --- |
 | Chronicle | The long story of a place or people, as long as the place's story runs | A portrait (what it was, what it held, how it ended), then its stories in order: the two-minute read | chronicle |
 | Story | An era of the chronicle, with its own argument: why it went as it did | The argument, then its chapters, each a paragraph that opens to its knot; Previous and Next story | story |
-| Chapter | A section of the story built around its knot (usually one, never more than three) | Its patch, a briefing paragraph on the story page; then its knots; then, behind a control, its fibres and strands | chapter |
+| Chapter | A section of the story built around its knot: usually one, as many as the chapter needs | Its patch, a briefing paragraph on the story page; then its knots; then, behind a control, its fibres and strands | chapter |
 | Knot | The chapter's major event | A full event page: significance, lasting impact, causes, effects, before and after, Follow Historical Chain, the briefing | knot |
 | Fibre | A smaller event linked to a knot: its cause, its part or its consequence | A shorter event page in the same shape, as long as it needs | fibre |
 | Strand | A smaller event still, linked to a fibre or a knot; one step off the chain | A short page if it carries a link; otherwise a line on the page of what it links to | strand |
 
-## Three rules
+## Four rules
 
 1. **Size belongs to the pair of event and chain, never to the event alone.** The Paris
    settlement is a knot in Weimar Germany and a strand in the chronicle of Iraq. Mehmed II's
    accession at twelve is a fibre in the Ottoman chronicle and a knot in his own life. The
    data records size per chain; a page shows the size for the chain the reader came through.
-2. **A story can belong to more than one chronicle.** Divided Germany belongs to Germany and
+2. **No caps on count** (Cade, 2026-11-08). A chapter holds as many knots as it needs,
+   usually one. A story holds as many chapters as its era needs: five for Weimar, twenty
+   or more for a long era if the knots are there. The count follows the chain, never a
+   target or a limit. Where a chapter grows past a few knots, the first question is
+   whether it is two chapters.
+3. **A story can belong to more than one chronicle.** Divided Germany belongs to Germany and
    to The Cold War. One page, two parents, each listing it.
-3. **Length follows the event, not the level.** A knot that is one day is short; a knot that
+4. **Length follows the event, not the level.** A knot that is one day is short; a knot that
    holds five treaties is long. A strand can be one sentence on its fibre's page or its own
    short page if it carries a link. The level sets the role; the event sets the words.
 
