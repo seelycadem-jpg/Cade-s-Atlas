@@ -1,0 +1,128 @@
+<title>Atlas Palette, Second Round</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: four candidate palettes, each a pair of page slices (light, dark) built from the same tokens, with the contrast numbers under each. */
+:root{
+  --bg:#f6f3ec; --surface:#fdfbf7; --ink:#1d1f24; --ink2:#50545c; --ink3:#7d8189; --rule:#d9d3c6; --accent:#1f3a63;
+  --display:"EB Garamond",Georgia,serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17181c;--surface:#1f2126;--ink:#ece8df;--ink2:#b9b4a8;--ink3:#878379;--rule:#3a3c43;--accent:#8fb0e3;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17181c;--surface:#1f2126;--ink:#ece8df;--ink2:#b9b4a8;--ink3:#878379;--rule:#3a3c43;--accent:#8fb0e3;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
+.wrap{max-width:64rem;margin:0 auto}
+.eyebrow{font:500 13px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0 0 10px}
+h1{font:500 clamp(34px,7vw,48px)/1.04 var(--display);margin:0 0 12px;text-wrap:balance}
+.lede{font:400 19px/1.5 var(--body);color:var(--ink2);max-width:46rem;margin:0 0 26px;text-wrap:pretty}
+.opt{border-top:1px solid var(--rule);padding:26px 0 30px}
+.opt:last-of-type{border-bottom:1px solid var(--rule)}
+.opt h2{font:500 28px/1.1 var(--display);margin:0 0 4px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.opt h2 .n{font:500 13px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.opt .why{font:16px/1.5 var(--body);color:var(--ink2);margin:0 0 16px;max-width:50rem}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:760px){.pair{grid-template-columns:1fr}}
+/* a page slice built only from its own tokens */
+.slice{border-radius:12px;padding:16px 18px 14px;background:var(--p-bg);color:var(--p-ink);border:1px solid var(--p-rule);min-width:0;font:16px/1.5 var(--body)}
+.slice .lab{font:500 10.5px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--p-ink3);margin:0 0 8px}
+.slice .kick{font:500 12px/1.4 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--p-ink2);margin:0 0 2px}
+.slice .kick a{color:var(--p-chron);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.slice h3{font:500 30px/1.05 var(--display);margin:0 0 6px;color:var(--p-ink)}
+.slice .sub{font:14px/1.4 var(--display);color:var(--p-ink2);margin:0 0 12px}
+.slice .sub b{color:var(--p-accent);font-weight:600}
+.slice p{margin:0 0 12px;color:var(--p-ink)}
+.slice p.patch{color:var(--p-ink2)}
+.slice .lk{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.slice .lk.person{color:var(--p-person)}.slice .lk.polity{color:var(--p-polity)}.slice .lk.chron{color:var(--p-chron)}.slice .lk.feature{color:var(--p-feature)}
+.slice .kn{display:grid;grid-template-columns:16px 3rem 1fr;gap:8px;align-items:baseline;margin:0 0 6px}
+.slice .kn .yr{color:var(--p-accent);font:600 14px/1.3 var(--display);letter-spacing:.04em}
+.slice .kn .t{color:var(--p-ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--p-accent);text-decoration-thickness:1px;font:500 17px/1.3 var(--display)}
+.slice .kn .sm{font:13px/1.45 var(--ui);color:var(--p-ink2);grid-column:3}
+.mk{display:inline-block;width:12px;height:12px;align-self:center}
+.mk.k{background:var(--p-accent);clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}
+.mk.f{width:9px;height:9px;border-radius:50%;background:var(--p-accent);margin:0 1.5px}
+.mk.s{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--p-ink2);margin:0 1.5px}
+.slice .conn{display:grid;grid-template-columns:2rem 1fr;gap:8px;align-items:center;margin:4px 0 10px}
+.slice .conn .ln{height:30px;width:0;justify-self:center;border-left:3px solid var(--p-accent);position:relative}
+.slice .conn .ln::after{content:"";position:absolute;left:-6.5px;bottom:-3px;border:5px solid transparent;border-top:7px solid var(--p-accent)}
+.slice .conn .ph{font:13.5px/1.35 var(--ui);color:var(--p-ink)}
+.slice .conn .gw{font:11.5px/1.3 var(--ui);color:var(--p-ink3)}
+.slice .conn .gw b{color:var(--p-ink2);font-weight:500}
+.slice .chips{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
+.slice .chip{font:12.5px/1 var(--ui);padding:7px 10px;border-radius:999px;border:1px solid var(--p-rule);color:var(--p-ink2);background:var(--p-surface)}
+.slice .chip.on{background:var(--p-ink);color:var(--p-bg);border-color:var(--p-ink)}
+.slice .pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;background:var(--p-surface);border:1px solid var(--p-rule);padding:4px 12px 4px 4px;font:600 14px/1 var(--ui);color:var(--p-accent);box-shadow:0 4px 14px rgba(0,0,0,.08)}
+.slice .pill .g{background:var(--p-accent);color:var(--p-bg);border-radius:999px;padding:9px 12px;font-weight:500}
+.map{position:relative;height:118px;border-radius:8px;overflow:hidden;background:var(--p-sea);margin:0 0 10px;border:1px solid var(--p-rule)}
+.map svg{position:absolute;inset:0;width:100%;height:100%}
+.map .cap{position:absolute;right:8px;bottom:6px;font:10.5px/1 var(--ui);color:var(--p-ink3)}
+.legend{display:flex;gap:10px;flex-wrap:wrap;font:11.5px/1.3 var(--ui);color:var(--p-ink2);margin:0 0 12px}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.legend i{width:11px;height:11px;border-radius:2px;display:inline-block;border:1px solid rgba(0,0,0,.12)}
+.nums{display:grid;grid-template-columns:repeat(auto-fill,minmax(7.5rem,1fr));gap:6px 12px;font:12px/1.4 var(--ui);color:var(--p-ink2);border-top:1px solid var(--p-rule);padding-top:10px;margin-top:4px}
+.nums b{color:var(--p-ink);font-weight:600;font-variant-numeric:tabular-nums}
+.nums .bad b{color:var(--p-person)}
+.verdict{margin:34px 0 0;border-left:2px solid var(--accent);padding:2px 0 2px 14px}
+.verdict b{display:block;font:500 20px/1.3 var(--display);margin-bottom:4px}
+.verdict p{margin:0 0 8px;font:16px/1.5 var(--body);color:var(--ink2)}
+.foot{font:13px/1.5 var(--ui);color:var(--ink3);margin:26px 0 0;max-width:46rem}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Meanwhile Atlas · design note, 8 November 2026</p>
+  <h1>Four more palettes, each with an idea</h1>
+  <p class="lede">The first four were shades of one look. These four each start from a thing the atlas is: a print, a thread, a globe at night, a map room. Each is one set of named colours: the page ground, three inks, a rule, one accent, the four link colours by kind (person, country, chronicle, place), the map's sea, land and border, and six owner fills for the before-and-after maps. The dark side is built from the same set, shifted, never inverted. Every slice is the same piece of page. The numbers under each are contrast ratios; 4.5 is the floor for text, 3 for marks and lines.</p>
+  <div id="sheet"></div>
+  <div class="verdict" id="verdict"></div>
+  <p class="foot">The grades keep their line styles in every palette: solid for Necessary and Sufficient, dashed for Contributing, dotted for Contested, grey with a cross-stroke for Coincident. Colour never carries a grade alone, so a reader who cannot see a hue still reads the line.</p>
+</div>
+
+<script>
+(function(){
+  var P=[
+    {n:'E',t:'Cyanotype',why:'The atlas as a working print. Cyanotype is the blue process that reproduced maps, charts and plans from 1842 on: white lines on Prussian blue. Light mode is the chalk-blue paper the print is made from, with a deep cyan accent. Dark mode is the print itself: a true Prussian blue ground with chalk text and a pale cyan accent. Links in rust, sea green, violet and ochre, which all sit well on blue. Nobody else looks like this, and it is still a map thing.',
+     light:{bg:'#eef3f5',surface:'#f8fafb',ink:'#10202c',ink2:'#3f5361',ink3:'#6e818d',rule:'#c9d6dd',accent:'#0f4c75',person:'#a0382f',polity:'#2a6e5f',chron:'#4a3f93',feature:'#8a5a12',sea:'#e6eef2',land:'#dbe5ea',border:'#9fb3bd',own:['#c6dbe6','#e9c9bd','#cfe0cc','#ecdcb0','#d9d2ea','#e4d6c3']},
+     dark:{bg:'#0b2a45',surface:'#123655',ink:'#eaf2f7',ink2:'#b7cad8',ink3:'#8aa3b5',rule:'#244d6b',accent:'#a9dcf0',person:'#f0a393',polity:'#8fd3c2',chron:'#c3bcf5',feature:'#e6c37a',sea:'#0b2a45',land:'#163f60',border:'#4f7a99',own:['#1f4f73','#6b4a46','#2f5e52','#6b5e30','#4e4878','#5f5044']}},
+    {n:'F',t:'The red thread',why:'The product is the link, so the link gets the only loud colour. A bone-white ground, graphite inks, and one vermilion used for the chain alone: the knots, the connectors, the year. Everything else is quiet: links by kind in plum, teal, slate and moss, maps in soft neutrals so the thread is the one thing that is red on the page. Dark mode is charcoal with the vermilion warmed. The least decorated of the eight, and the one with the clearest idea.',
+     light:{bg:'#f7f6f3',surface:'#fdfdfb',ink:'#1a1a1a',ink2:'#505050',ink3:'#7c7c7c',rule:'#dcdad5',accent:'#c8311f',person:'#6b4a7a',polity:'#2a6a6a',chron:'#3f4f73',feature:'#6b6a2a',sea:'#f1f0ec',land:'#e4e2dc',border:'#b0ada5',own:['#dfe3e8','#e8ddd2','#dde4d8','#ece5cc','#e2dce8','#e6ddd5']},
+     dark:{bg:'#161616',surface:'#1f1f1f',ink:'#ececec',ink2:'#b4b4b4',ink3:'#828282',rule:'#353535',accent:'#ff6a4d',person:'#c9a6dc',polity:'#7fcaca',chron:'#a9b9e6',feature:'#c8c77a',sea:'#161616',land:'#262626',border:'#4a4a4a',own:['#33404c','#4c3f36','#3b4a3b','#4d4631','#44405a','#4d433b']}},
+    {n:'G',t:'Night sea',why:'Dark first. The globe at night is the home screen, so the dark side is the design and the light side is its day chart. A deep sea-blue ground, chalk text, and gilt for the accent, the gold of the meridian ring on a floor globe. Links in coral, sea green, lilac and sand. The light side is chalk paper with the same deep sea as its ink and an old gold accent darkened for contrast. The warmest dark mode of the eight.',
+     light:{bg:'#f4f1e8',surface:'#fbf9f3',ink:'#16213a',ink2:'#4b5368',ink3:'#7c8396',rule:'#d6d2c4',accent:'#7a5c14',person:'#a0382f',polity:'#1f6b5a',chron:'#44458f',feature:'#7a5a1e',sea:'#ecf0ee',land:'#e2e5de',border:'#a9b1ad',own:['#c7d6e6','#e8c9c0','#cfe0d5','#eadcb3','#d9d2ea','#e4d6c3']},
+     dark:{bg:'#0f1a2b',surface:'#16233a',ink:'#f1ead8',ink2:'#c4bba6',ink3:'#8f8a7c',rule:'#2b3a52',accent:'#d9b35b',person:'#f08c7a',polity:'#7fcfb0',chron:'#b9b0f0',feature:'#e8cf8f',sea:'#0f1a2b',land:'#1d2d45',border:'#4a6080',own:['#2b4a6e','#6b3e3e','#2f5e50','#6b5a2a','#4a4474','#5a4a3a']}},
+    {n:'H',t:'Clay and sage',why:'A Mediterranean map room rather than a northern library. A clay-tinted ground, a warm near-black ink, and olive for the accent, the green of a Tuscan hill and the oxidised bronze of an astrolabe. Links in wine, sea blue, violet and saffron. Dark mode is a warm umber-black with the olive lightened to sage. Warm without being antique; the only one of the eight with a green ground note.',
+     light:{bg:'#f3e9de',surface:'#faf4ec',ink:'#2b2622',ink2:'#5c544c',ink3:'#8a8178',rule:'#dccdbd',accent:'#5a6633',person:'#8a2f3a',polity:'#2a5f73',chron:'#5a3f8a',feature:'#8f5c0e',sea:'#efe4d6',land:'#e4d7c6',border:'#b59e86',own:['#d9ddc2','#e6c6b8','#c7d6dd','#ecd9a8','#dccbe0','#e3d2bf']},
+     dark:{bg:'#1c1815',surface:'#262019',ink:'#efe7dc',ink2:'#c0b5a7',ink3:'#8c8275',rule:'#3d352d',accent:'#a9b86b',person:'#e39aa0',polity:'#86c3d6',chron:'#bfa8ec',feature:'#e0b865',sea:'#1c1815',land:'#2d2721',border:'#5a4d40',own:['#4f5a33','#6b3f3a','#2f5566','#6b5a2a','#4d4068','#5e4a3a']}}
+  ];
+  function lum(h){ var c=h.replace('#',''); var r=parseInt(c.substr(0,2),16)/255,g=parseInt(c.substr(2,2),16)/255,b=parseInt(c.substr(4,2),16)/255; function f(x){return x<=0.03928?x/12.92:Math.pow((x+0.055)/1.055,2.4)} return 0.2126*f(r)+0.7152*f(g)+0.0722*f(b); }
+  function cr(a,b){ var x=lum(a),y=lum(b); var hi=Math.max(x,y),lo=Math.min(x,y); return (hi+0.05)/(lo+0.05); }
+  function vars(t){ var s=''; for(var k in t){ if(k==='own'){ t.own.forEach(function(c,i){s+='--p-o'+i+':'+c+';'}); } else s+='--p-'+k+':'+t[k]+';'; } return s; }
+  function num(l,a,b,floor){ var v=cr(a,b); return '<div class="'+(v<floor?'bad':'')+'">'+l+' <b>'+v.toFixed(1)+'</b></div>'; }
+  function slice(t,mode){
+    var h='<div class="slice" style="'+vars(t)+'">';
+    h+='<p class="lab">'+mode+'</p>';
+    h+='<p class="kick"><a>Germany</a> › story 8 of 12</p><h3>Weimar Germany</h3><p class="sub"><b>1919</b> to 1933 · Berlin · five chapters</p>';
+    h+='<div class="chips"><span class="chip on">Briefing</span><span class="chip">Chapters</span><span class="chip">Meanwhile</span></div>';
+    h+='<p>The men who founded it had to sign the <span class="lk chron">Paris settlement</span> because the army told them Germany could not fight on. <span class="lk person">Gustav Stresemann</span> steered <span class="lk polity">Germany</span> back into Europe from the <span class="lk feature">Rhine</span> to Locarno.</p>';
+    h+='<p class="patch">The republic was ten weeks old when the victors met in Paris. The right called the signature a stab in the back.</p>';
+    h+='<div class="kn"><i class="mk k"></i><span class="yr">1919</span><span class="t">The Paris Peace Settlement</span><span class="sm">The victors wrote five treaties and redrew the map without the defeated at the table.</span></div>';
+    h+='<div class="kn"><i class="mk f"></i><span class="yr">1919</span><span class="t">Versailles</span></div><div class="kn"><i class="mk s"></i><span class="yr">1919</span><span class="t" style="text-decoration:none;color:var(--p-ink2);font-size:15.5px">The German Delegation Receives the Terms</span></div>';
+    h+='<div class="conn"><div class="ln"></div><div><div class="ph">Without this, the next does not happen.</div><div class="gw"><b>Necessary</b> · high confidence · the note</div></div></div>';
+    h+='<div class="map"><svg viewBox="0 0 300 118" preserveAspectRatio="none" aria-hidden="true">'
+      +'<path d="M0 30 C40 10 80 40 120 25 C160 10 200 40 240 30 C270 22 290 50 300 40 L300 118 L0 118 Z" fill="var(--p-land)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M0 60 C30 50 50 70 80 62 L90 118 L0 118 Z" fill="var(--p-o0)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M80 62 C110 50 140 70 160 55 L170 118 L90 118 Z" fill="var(--p-o1)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M160 55 C190 45 210 70 230 58 L235 118 L170 118 Z" fill="var(--p-o2)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M230 58 C250 48 280 60 300 52 L300 118 L235 118 Z" fill="var(--p-o3)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M120 25 C140 18 160 30 180 26 L160 55 C140 62 120 50 100 56 Z" fill="var(--p-o4)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M180 26 C200 20 230 32 240 30 L230 58 L160 55 Z" fill="var(--p-o5)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<circle cx="150" cy="70" r="3.5" fill="var(--p-accent)" stroke="var(--p-bg)" stroke-width="1.5"/></svg><span class="cap">Europe, 1920</span></div>';
+    h+='<div class="legend"><span><i style="background:var(--p-o0)"></i>France</span><span><i style="background:var(--p-o1)"></i>Germany</span><span><i style="background:var(--p-o2)"></i>Poland</span><span><i style="background:var(--p-o3)"></i>Soviet Russia</span><span><i style="background:var(--p-o4)"></i>Czechoslovakia</span><span><i style="background:var(--p-o5)"></i>Austria</span></div>';
+    h+='<div><span class="pill"><span class="g">Globe</span>1919</span></div>';
+    h+='<div class="nums">'+num('ink',t.ink,t.bg,4.5)+num('ink 2',t.ink2,t.bg,4.5)+num('ink 3',t.ink3,t.bg,3)+num('accent',t.accent,t.bg,4.5)+num('person',t.person,t.bg,4.5)+num('country',t.polity,t.bg,4.5)+num('chronicle',t.chron,t.bg,4.5)+num('place',t.feature,t.bg,4.5)+num('accent on surface',t.accent,t.surface,4.5)+'</div>';
+    return h+'</div>';
+  }
+  var h=''; P.forEach(function(p){ h+='<section class="opt" id="p'+p.n+'"><h2><span class="n">'+p.n+'</span>'+p.t+'</h2><p class="why">'+p.why+'</p><div class="pair">'+slice(p.light,'light')+slice(p.dark,'dark')+'</div></section>'; });
+  document.getElementById('sheet').innerHTML=h;
+  document.getElementById('verdict').innerHTML='<b>My recommendation: E, the cyanotype, with F, the red thread, as the second.</b><p>E is the only palette on either sheet that is unmistakably ours and still a map thing by right: the blue print is how charts were copied for a century. Its dark mode is the strongest dark mode of the eight because it is a real object rather than a dimmed page, and its light mode is cool and clean on a phone. The risk is that a blue ground tires the eye over a long read; the chalk inks are set soft for that, and the numbers hold.</p><p>F has the clearest idea, that the thread is the only red on the page, and it would make the cause-and-effect view sing. It loses the paper warmth you liked, so it is the pick if you want the atlas to feel like a modern instrument rather than a map room. G is the warmest dark mode and the right choice if the front door is the night globe and you want the whole site to live there. H is handsome and the least distinct of the four.</p><p>A pairing worth considering: F\'s rule, one vermilion for the chain and nothing else, laid on A\'s paper. The thread as the only loud thing on a warm page.</p>';
+})();
+</script>
