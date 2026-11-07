@@ -49,7 +49,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    (Cade, 2026-11-08). The fade appears only once the bar is stuck, so it never dims the
    text beneath a bar at rest. Where two bars stack, the upper bar always sits on the higher
    layer (header, then tabs, then spine), so a bar leaving the screen slides under the
-   ones above it; the upper bar's fade steps aside while the lower bar is stuck under it. A sticky bar never clips its own overflow (no scroll or hidden overflow on
+   ones above it; the upper bar's fade steps aside while the lower bar is stuck under it. The docked
+   header's ground fades in just before content reaches it, and its edge line appears only
+   once the title has docked, so no empty bar or stray line ever crosses the screen. A sticky bar never clips its own overflow (no scroll or hidden overflow on
    it), or the fade is cut off.
 
 7. **The year travels with the reader.** Move the year on any page and every other

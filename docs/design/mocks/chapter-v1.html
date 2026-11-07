@@ -50,14 +50,17 @@ a{color:inherit}
   :root.sda .tw .kicker,:root.sda .tw .sub{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .42)}
   :root.sda .hint{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .28)}
   :root.sda .stage .hsub{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:var(--D) calc(var(--D) + 48px)}
-  :root.sda .stage .band{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:calc(var(--D) * .45) calc(var(--D) * .8)}
+  :root.sda .stage .band{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:calc(var(--D) * .7) calc(var(--D) * .9)}
+  :root.sda .stage .band::after{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:var(--D) calc(var(--D) + 32px)}
 }
 @keyframes twDock{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(var(--dx),0,0) scale(var(--s1))}}
 @keyframes gwDock{from{transform:translate3d(var(--g0x),var(--g0y),0) scale(1);opacity:1}to{transform:translate3d(var(--g1x),var(--g1y),0) scale(var(--gs1));opacity:.78}}
 @keyframes fadeOut{from{opacity:1}to{opacity:0;visibility:hidden}}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 .stage{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:8;pointer-events:none}
-.stage .band{will-change:opacity;position:absolute;left:0;right:0;top:0;height:86px;background:var(--bg);opacity:0;border-bottom:1px solid var(--rule)}
+.stage .band{will-change:opacity;position:absolute;left:0;right:0;top:0;height:86px;background:var(--bg);opacity:0}
+.stage .band::after{content:"";position:absolute;left:0;right:0;bottom:0;height:1px;background:var(--rule);opacity:0;will-change:opacity}
+.stage .band.edge::after{opacity:1}
 .stage .gw{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;pointer-events:auto}
 .stage canvas{display:block;border-radius:50%;touch-action:none;box-shadow:var(--shadow2)}
 .tw{position:sticky;top:var(--stick,-40px);z-index:9;margin:0 0 12px var(--t0x,0px);width:min(40rem,100%);transform-origin:0 100%;will-change:transform;pointer-events:auto}
@@ -644,8 +647,8 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   var PAL=[[205,45],[20,55],[150,35],[280,35],[40,60],[330,40],[95,40],[250,45],[0,45],[175,40],[60,55],[310,35]];
   function ownerColour(name){ var h=0; for(var i=0;i<name.length;i++)h=(h*31+name.charCodeAt(i))>>>0; var pc=PAL[h%PAL.length]; var dark=root.getAttribute('data-theme')==='dark'||(!root.getAttribute('data-theme')&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches); return 'hsla('+pc[0]+','+pc[1]+'%,'+(dark?38:72)+'%,.62)'; }
   var hero=document.getElementById('globe'), big=null;
-  var W=0,H=0,G=0,heroH=0;
-  function layout(){ W=window.innerWidth; H=window.innerHeight; G=Math.min(W*1.12, 540); measure(); heroH=Math.round(G*0.66+M.twH+22); draw(hero,G); if(big)draw(big,Math.min(big.clientWidth,420)); onScroll(true); }
+  var W=0,H=0,G=0;
+  function layout(){ W=window.innerWidth; H=window.innerHeight; G=Math.min(W*1.12, 540); measure(); draw(hero,G); if(big)draw(big,Math.min(big.clientWidth,420)); onScroll(true); }
   function drawAll(){ draw(hero,G); if(big)draw(big,Math.min(big.clientWidth,420)); }
   var dragger=window.d3?d3.drag().on('drag',function(ev){ rot[0]+=ev.dx*0.3; rot[1]=Math.max(-80,Math.min(80,rot[1]-ev.dy*0.3)); drawAll(); }):null;
   if(dragger)d3.select(hero).call(dragger);
@@ -689,7 +692,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     var fo=Math.max(0,1-q*2.4).toFixed(3); put(sub,'sub','opacity',fo); put(kicker,'kick','opacity',fo);
     put(hint,'hint','opacity',Math.max(0,1-q*3.5).toFixed(3));
     put(hsub,'hsub','opacity',Math.min(1,Math.max(0,(sc-M.D)/48)).toFixed(3));
-    put(band,'band','opacity',Math.min(1,Math.max(0,(q-0.45)/0.35)).toFixed(3)); }
+    put(band,'band','opacity',Math.min(1,Math.max(0,(q-0.7)/0.2)).toFixed(3)); var edge=sc>M.D+16; if(last.edge!==edge){ last.edge=edge; band.classList.toggle('edge',edge); } }
   var scrollQueued=false;
   function onScroll(force){ var sc=Math.max(0,window.scrollY); if(reduced)sc=sc<120?0:9999; if(sc!==lastP||force){lastP=sc;apply(sc);} }
   window.addEventListener('scroll',function(){ if(scrollQueued)return; scrollQueued=true; requestAnimationFrame(function(){ scrollQueued=false; onScroll(false); }); },{passive:true});
