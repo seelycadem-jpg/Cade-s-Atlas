@@ -89,11 +89,11 @@ a{color:inherit}
 .stage .index{position:absolute;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:86px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;font:12px/1 var(--ui);opacity:0;pointer-events:none;background:var(--bg);padding:6px 0 8px;margin:0 auto;max-width:40rem}
 .stage .index::-webkit-scrollbar{display:none}
 .stage .index.on{opacity:1;pointer-events:auto}
-.index a{position:relative;flex:none;text-decoration:none;color:var(--ink2);padding:8px 12px 12px;font:500 15.5px/1 var(--display);letter-spacing:.01em;min-height:32px;display:inline-flex;align-items:center;transition:color .3s}
-.index a::after{content:"";position:absolute;left:12px;right:12px;bottom:6px;height:1px;background:var(--gilt);opacity:.35;transition:opacity .3s}
-.index a .sw{position:absolute;left:6px;right:6px;bottom:0;width:calc(100% - 12px);height:12px;overflow:visible;pointer-events:none}
-.index a .sw path{fill:none;stroke:var(--gilt);stroke-width:1.3;stroke-linecap:round;stroke-linejoin:round;vector-effect:non-scaling-stroke;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .7s cubic-bezier(.5,0,.2,1)}
-.index a:not([aria-current="true"]) .sw path{opacity:0;transition:stroke-dashoffset .7s cubic-bezier(.5,0,.2,1),opacity 0s .7s}
+.index a{position:relative;flex:none;text-decoration:none;color:var(--ink2);padding:9px 14px 10px;font:500 15.5px/1 var(--display);letter-spacing:.01em;min-height:32px;display:inline-flex;align-items:center;transition:color .3s}
+.index a::after{content:"";position:absolute;left:14px;right:14px;bottom:5px;height:1px;background:var(--gilt);opacity:.35;transition:opacity .3s}
+.index a .sw{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.index a .sw path{fill:none;stroke:var(--gilt);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .75s cubic-bezier(.5,0,.2,1)}
+.index a:not([aria-current="true"]) .sw path{opacity:0;transition:stroke-dashoffset .75s cubic-bezier(.5,0,.2,1),opacity 0s .75s}
 .index a[aria-current="true"] .sw path{stroke-dashoffset:0}
 .index a[aria-current="true"]::after{opacity:0}
 @media (prefers-reduced-motion: reduce){.index a .sw path{transition:none}}
@@ -782,8 +782,11 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 
   /* index and scroll-spy */
   var SECS=[['sig','Significance'],['impact','Impact'],['causes','Causes'],['effects','Effects'],['map','Before and after'],['chain','The chain'],['briefing','Briefing']];
-  /* the flourish: a small loop as the pen lands, a long wave, a lift at the end */
-  var SWASH='<svg class="sw" viewBox="0 0 100 12" preserveAspectRatio="none" aria-hidden="true"><path pathLength="1" d="M3 8.5 C1 7.4 1.4 4.6 4 5 C6.4 5.4 6 8.4 3.6 9.4 C14 10.6 22 4.4 36 5.6 C50 6.8 58 9.8 72 8 C84 6.5 90 3.6 97 4.6"/></svg>';
+  /* the cartouche: the title panel of an old map, a frame with notched corners, sized to each tab and drawn in one stroke */
+  var SWASH='<svg class="sw" aria-hidden="true"><path pathLength="1"/></svg>';
+  function cartouche(w,h){ var r=5,i=1.5,x0=i,y0=i,x1=w-i,y1=h-i;
+    return 'M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z'; }
+  function frameTabs(){ document.querySelectorAll('.index a').forEach(function(a){ var w=a.offsetWidth,h=a.offsetHeight,svg=a.querySelector('.sw'); if(!svg||!w)return; svg.setAttribute('viewBox','0 0 '+w+' '+h); svg.firstChild.setAttribute('d',cartouche(w,h)); }); }
   function indexHtml(){ return SECS.map(function(s){return '<a href="#'+s[0]+'" data-sec="'+s[0]+'">'+s[1]+SWASH+'</a>'}).join(''); }
   document.getElementById('pageIndex').innerHTML='<div class="piscroll">'+indexHtml()+'</div>';
   (function(){ var nav=document.getElementById('pageIndex'), mark=document.createElement('div'); mark.style.cssText='height:1px;margin-bottom:-1px'; nav.parentNode.insertBefore(mark,nav);
@@ -795,6 +798,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   document.querySelectorAll('.index a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.dataset.sec); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-150,behavior:reduced?'auto':'smooth'});})});
   var spy=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting){ document.querySelectorAll('.index a').forEach(function(a){a.setAttribute('aria-current',String(a.dataset.sec===x.target.id)); if(a.dataset.sec===x.target.id){ var sc=a.parentNode; if(sc&&sc.classList.contains('piscroll')) sc.scrollTo({left:Math.max(0,a.offsetLeft-sc.clientWidth/2+a.offsetWidth/2),behavior:reduced?'auto':'smooth'}); }}); } }); },{rootMargin:'-30% 0px -60% 0px'});
   SECS.forEach(function(s){spy.observe(document.getElementById(s[0]))});
+  frameTabs(); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(frameTabs); window.addEventListener('resize',frameTabs);
 
   /* previews */
   var KIND={ev:['Event','--accent'],per:['Person','--ink3'],pol:['Country','--ink3'],feat:['Place','--ink3'],chron:['Chronicle','--ink3'],story:['Story','--ink3'],str:['Treaty','--accent']};
