@@ -108,10 +108,12 @@ a{color:inherit}
 .stage .index.on{opacity:1;pointer-events:auto}
 .index a{position:relative;flex:none;text-decoration:none;color:var(--ink2);padding:9px 14px 10px;font:500 15.5px/1 var(--display);letter-spacing:.01em;min-height:32px;display:inline-flex;align-items:center;transition:color .3s}
 .index a::after{content:"";position:absolute;left:14px;right:14px;bottom:5px;height:1px;background:var(--gilt);opacity:.35;transition:opacity .3s}
-.index a .sw{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;opacity:0;will-change:opacity;transform:translateZ(0)}
-.index a .sw path{fill:none;stroke:var(--gilt);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1}
+.index a .sw{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;opacity:0;will-change:opacity;transition:opacity .35s ease}
+.index a .sw path{fill:none;stroke:var(--gilt);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 1.1;stroke-dashoffset:1.05;transition:stroke-dashoffset 0s .35s}
+.index a[aria-current="true"] .sw{opacity:1;transition:opacity .2s ease}
+.index a[aria-current="true"] .sw path{stroke-dashoffset:0;transition:stroke-dashoffset .8s cubic-bezier(.45,0,.2,1) .05s}
 .index a[aria-current="true"]::after{opacity:0}
-@media (prefers-reduced-motion: reduce){.index a .sw path{transition:none}}
+@media (prefers-reduced-motion: reduce){.index a .sw,.index a .sw path{transition:none}}
 .index a[aria-current="true"]{color:var(--title)}
 .spacer{height:var(--t0y,360px);position:relative;pointer-events:none}
 .hint{will-change:opacity;position:absolute;z-index:9;bottom:14px;left:var(--t0x,0px);font:12px/1 var(--ui);color:var(--ink2);background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:3px;pointer-events:auto;box-shadow:var(--shadow2);display:flex;align-items:center;gap:2px}
@@ -811,18 +813,19 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     function band(){ if(io2)io2.disconnect(); io2=new IntersectionObserver(function(en){ en.forEach(function(x){ nav.classList.toggle('overspine',x.isIntersecting); }); },{rootMargin:'-134px 0px -'+Math.max(0,window.innerHeight-160)+'px 0px'}); io2.observe(cs); }
     band(); window.addEventListener('resize',band); })();
   document.querySelectorAll('.index a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.dataset.sec); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-150,behavior:reduced?'auto':'smooth'});})});
-  var spy=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting){ document.querySelectorAll('.index a').forEach(function(a){a.setAttribute('aria-current',String(a.dataset.sec===x.target.id)); if(a.dataset.sec===x.target.id){ var sc=a.parentNode; if(sc&&sc.classList.contains('piscroll')) sc.scrollTo({left:Math.max(0,a.offsetLeft-sc.clientWidth/2+a.offsetWidth/2),behavior:reduced?'auto':'smooth'}); }}); } }); },{rootMargin:'-30% 0px -60% 0px'});
-  SECS.forEach(function(s){spy.observe(document.getElementById(s[0]))});
-  /* the cartouche follows the reading line: the current tab's frame unwinds and fades as its section ends,
-     and the next tab's begins to draw a little before the boundary, so the hand-over has no step */
-  var SECT=[], tabQ=false, tabs=[].slice.call(document.querySelectorAll('#pageIndex a'));
-  function secTops(){ SECT=SECS.map(function(s){ var el=document.getElementById(s[0]),y=0,e=el; while(e){y+=e.offsetTop;e=e.offsetParent;} return y; }); tabScroll(); }
-  function clamp01(x){ return x<0?0:x>1?1:x; }
-  function tabScroll(){ tabQ=false; if(!SECT.length)return; var y=window.scrollY+window.innerHeight*0.3;
-    tabs.forEach(function(a,i){ var st=SECT[i], en=SECT[i+1];
-      var inn=clamp01((y-(st-90))/240), out=en==null?1:1-clamp01((y-(en-150))/180), f=Math.min(inn,out); f=f*f*(3-2*f);
-      var svg=a.querySelector('.sw'), path=svg&&svg.firstChild; if(!path)return; var q=Math.round(f*20)/20, d=(1-q).toFixed(2), o=(f<0.01?0:0.35+0.65*f).toFixed(2);
-      if(path._d!==d){ path.style.strokeDashoffset=d; path._d=d; } if(svg._o!==o){ svg.style.opacity=o; svg._o=o; } }); }
+  /* the selected tab is the section whose top has passed the reading line. Its cartouche draws itself in
+     and the one it replaces fades. The page ends with just enough room for the last section to reach the line. */
+  var SECT=[], tabQ=false, cur=-2, tabs=[].slice.call(document.querySelectorAll('#pageIndex a')), endSp=document.createElement('div');
+  endSp.className='endspace'; endSp.setAttribute('aria-hidden','true'); document.querySelector('main').appendChild(endSp);
+  function absTopT(el){ var y=0; while(el){ y+=el.offsetTop; el=el.offsetParent; } return y; }
+  function secTops(){ SECT=SECS.map(function(s){ return absTopT(document.getElementById(s[0])); });
+    var have=document.documentElement.scrollHeight-endSp.offsetHeight, need=Math.max(0,Math.ceil(SECT[SECT.length-1]-150+window.innerHeight-have+16));
+    if(endSp._h!==need){ endSp._h=need; endSp.style.height=need+'px'; } tabScroll(); }
+  function tabScroll(){ tabQ=false; if(!SECT.length)return; var line=window.scrollY+Math.max(170,Math.min(window.innerHeight*0.3,240)), k=-1;
+    for(var i=0;i<SECT.length;i++){ if(SECT[i]<=line) k=i; }
+    if(k===cur)return; cur=k;
+    tabs.forEach(function(a,i){ a.setAttribute('aria-current',String(i===k)); });
+    var a=tabs[k], sc=a&&a.parentNode; if(sc&&sc.classList.contains('piscroll')) sc.scrollTo({left:Math.max(0,a.offsetLeft-sc.clientWidth/2+a.offsetWidth/2),behavior:reduced?'auto':'smooth'}); }
   function tabAsk(){ if(!tabQ){ tabQ=true; requestAnimationFrame(tabScroll); } }
   window.addEventListener('scroll',tabAsk,{passive:true});
   function frameAll(){ frameTabs(); secTops(); }
