@@ -79,7 +79,10 @@ Chosen from eight candidates shown on the same slice of story page, light and da
   the faint line under each tab, the cartouche that draws itself round the selected tab, and the
   divider diamond. It stays off small labels so it never becomes clutter. The selected tab is
   the section whose top has passed the reading line; its cartouche draws itself in 0.8 s
-  and the one it replaces fades in 0.35 s. A frame that only followed the scroll was tried
+  and the one it replaces fades in 0.35 s. The selected tab grows a little (105 percent)
+  and the others shrink a little (94 percent). The Chapters tab opens a count beside its
+  name while selected ("1 of 5"), set small in `--ink3`, at a fixed width so the tabs never
+  shift as the number changes (Cade, 2026-11-08). A frame that only followed the scroll was tried
   and dropped (Cade, 2026-11-08). The page ends with enough room for its last section to
   reach the reading line, so every tab can be selected by scrolling.
 - Grades are told by line style, never by colour alone: solid for Necessary and

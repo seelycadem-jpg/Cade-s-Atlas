@@ -106,9 +106,15 @@ a{color:inherit}
 .stage .index{position:absolute;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:86px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;font:12px/1 var(--ui);opacity:0;pointer-events:none;background:var(--bg);padding:6px 0 8px;margin:0 auto;max-width:40rem}
 .stage .index::-webkit-scrollbar{display:none}
 .stage .index.on{opacity:1;pointer-events:auto}
-.index a{position:relative;flex:none;text-decoration:none;color:var(--ink2);padding:9px 14px 10px;font:500 15.5px/1 var(--display);letter-spacing:.01em;min-height:32px;display:inline-flex;align-items:center;transition:color .3s}
+.index a{position:relative;flex:none;text-decoration:none;color:var(--ink2);padding:9px 14px 10px;font:500 15.5px/1 var(--display);letter-spacing:.01em;min-height:32px;display:inline-flex;align-items:center;transform-origin:50% 50%;transition:color .3s,scale .45s cubic-bezier(.2,.7,.2,1)}
+.index.has-cur a{scale:.94}
+.index.has-cur a[aria-current="true"]{scale:1.05}
+/* the chapter count opens beside the Chapters tab while it is selected */
+.index a .cnt{display:inline-block;overflow:hidden;white-space:nowrap;width:0;margin-left:0;opacity:0;font:500 12.5px/1 var(--label);letter-spacing:.03em;color:var(--ink3);font-variant-numeric:tabular-nums;visibility:hidden;transition:width .35s cubic-bezier(.2,.7,.2,1),margin-left .35s cubic-bezier(.2,.7,.2,1),opacity .15s,visibility 0s .35s}
+.index a[aria-current="true"] .cnt{width:var(--cw,4em);margin-left:7px;opacity:1;visibility:visible;transition:width .35s cubic-bezier(.2,.7,.2,1),margin-left .35s cubic-bezier(.2,.7,.2,1),opacity .3s .12s,visibility 0s}
+@media (prefers-reduced-motion: reduce){.index a,.index a .cnt{transition:none}}
 .index a::after{content:"";position:absolute;left:14px;right:14px;bottom:5px;height:1px;background:var(--gilt);opacity:.35;transition:opacity .3s}
-.index a .sw{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;opacity:0;will-change:opacity;transition:opacity .35s ease}
+.index a .sw{position:absolute;left:0;top:0;width:100%;height:100%;overflow:visible;pointer-events:none;opacity:0;will-change:opacity;transition:opacity .35s ease}
 .index a .sw path{fill:none;stroke:var(--gilt);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 1.1;stroke-dashoffset:1.05;transition:stroke-dashoffset 0s .35s}
 .index a[aria-current="true"] .sw{opacity:1;transition:opacity .2s ease}
 .index a[aria-current="true"] .sw path{stroke-dashoffset:0;transition:stroke-dashoffset .8s cubic-bezier(.45,0,.2,1) .05s}
@@ -803,8 +809,11 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   var SWASH='<svg class="sw" aria-hidden="true"><path pathLength="1"/></svg>';
   function cartouche(w,h){ var r=5,i=1.5,x0=i,y0=i,x1=w-i,y1=h-i;
     return 'M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z'; }
-  function frameTabs(){ document.querySelectorAll('.index a').forEach(function(a){ var w=a.offsetWidth,h=a.offsetHeight,svg=a.querySelector('.sw'); if(!svg||!w)return; svg.setAttribute('viewBox','0 0 '+w+' '+h); svg.firstChild.setAttribute('d',cartouche(w,h)); }); }
-  function indexHtml(){ return SECS.map(function(s){return '<a href="#'+s[0]+'" data-sec="'+s[0]+'">'+s[1]+SWASH+'</a>'}).join(''); }
+  /* a tab's final width: a tab with a count is measured shut, then the open count is added when it is selected */
+  function tabW(a){ var c=a.querySelector('.cnt'); if(!c)return a.offsetWidth; if(a._bw==null){ var ow=c.style.display; c.style.display='none'; a._bw=a.offsetWidth; c.style.display=ow; } return a._bw+(a.getAttribute('aria-current')==='true'?(c._cw||0)+7:0); }
+  function frameTabs(){ document.querySelectorAll('.index a').forEach(function(a){ var c=a.querySelector('.cnt'); if(c){ a._bw=null; var t=c.textContent, n=(c.dataset.n||'5'); c.style.width='auto'; c.textContent=n+' of '+n; c._cw=c.offsetWidth+1; c.textContent=t; c.style.width=''; a.style.setProperty('--cw',c._cw+'px'); }
+    var w=tabW(a),h=a.offsetHeight,svg=a.querySelector('.sw'); if(!svg||!w)return; svg.style.width=w+'px'; svg.setAttribute('viewBox','0 0 '+w+' '+h); svg.firstChild.setAttribute('d',cartouche(w,h)); }); }
+  function indexHtml(){ return SECS.map(function(s){return '<a href="#'+s[0]+'" data-sec="'+s[0]+'">'+s[1]+(s[0]==='chapters'?'<span class="cnt"></span>':'')+SWASH+'</a>'}).join(''); }
   document.getElementById('pageIndex').innerHTML='<div class="piscroll">'+indexHtml()+'</div>';
   (function(){ var nav=document.getElementById('pageIndex'), mark=document.createElement('div'); mark.style.cssText='height:1px;margin-bottom:-1px'; nav.parentNode.insertBefore(mark,nav);
     if(!window.IntersectionObserver)return; new IntersectionObserver(function(en){ en.forEach(function(x){ nav.classList.toggle('stuck',!x.isIntersecting&&x.boundingClientRect.top<120); }); },{rootMargin:'-88px 0px 0px 0px'}).observe(mark);
@@ -824,7 +833,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   function tabScroll(){ tabQ=false; if(!SECT.length)return; var line=window.scrollY+Math.max(170,Math.min(window.innerHeight*0.3,240)), k=-1;
     for(var i=0;i<SECT.length;i++){ if(SECT[i]<=line) k=i; }
     if(k===cur)return; cur=k;
-    tabs.forEach(function(a,i){ a.setAttribute('aria-current',String(i===k)); });
+    tabs.forEach(function(a,i){ a.setAttribute('aria-current',String(i===k)); }); document.getElementById('pageIndex').classList.toggle('has-cur',k>=0); frameTabs();
     var a=tabs[k], sc=a&&a.parentNode; if(sc&&sc.classList.contains('piscroll')) sc.scrollTo({left:Math.max(0,a.offsetLeft-sc.clientWidth/2+a.offsetWidth/2),behavior:reduced?'auto':'smooth'}); }
   function tabAsk(){ if(!tabQ){ tabQ=true; requestAnimationFrame(tabScroll); } }
   window.addEventListener('scroll',tabAsk,{passive:true});
@@ -1051,7 +1060,9 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
        it starts at the left edge, keeps the chapter in view near the middle, and stops at the right edge.
        The red line fills to the chapter in view; a soft box sits behind it, sized to its text. */
     var OFF=0, hl=null;
+    var cntEl=document.querySelector('#pageIndex .cnt');
     function spine(){ var n=ticks.length, TOT=n*SPAN+8;
+      if(cntEl){ if(cntEl.dataset.n!==String(n)){ cntEl.dataset.n=String(n); frameTabs(); } cntEl.textContent=(live+1)+' of '+n; }
       if(WHEEL) OFF=Math.max(0,Math.min(TOT-SW-8,PANO!=null?PANO:4+(live+0.5)*SPAN-(SW+8)/2));
       var X=ticks.map(function(t,j){ return WHEEL?4+(j+0.5)*SPAN-OFF:TX[j]; });
       ticks.forEach(function(t,j){ var dd=Math.abs(j-live), c=Math.min(dd,3), x=X[j], out=WHEEL&&(x<SPAN*0.3||x>SW+8-SPAN*0.3), edge=WHEEL&&!out&&(x<SPAN*0.5||x>SW+8-SPAN*0.5);
