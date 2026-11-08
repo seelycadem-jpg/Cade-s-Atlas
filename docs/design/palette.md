@@ -77,8 +77,9 @@ Chosen from eight candidates shown on the same slice of story page, light and da
   retired the four link pigments (plum, teal, slate, moss).
 - Gilt is a line, never text (Cade, 2026-11-08): the pen stroke under section headings,
   the faint line under each tab, the cartouche that draws itself round the selected tab, and the
-  divider diamond. It stays off small labels so it never becomes clutter. The cartouche draws
-  in 0.75 s and appears without motion for readers who ask for reduced motion.
+  divider diamond. It stays off small labels so it never becomes clutter. The cartouche follows the
+  scroll (Cade, 2026-11-08): as a section ends its frame unwinds and fades, and the next
+  tab's frame begins to draw a little before the boundary, so the hand-over has no step.
 - Grades are told by line style, never by colour alone: solid for Necessary and
   Sufficient, dashed for Contributing, dotted for Contested, grey with a cross-stroke for
   Coincident.

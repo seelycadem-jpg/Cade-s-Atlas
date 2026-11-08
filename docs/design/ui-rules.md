@@ -76,7 +76,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    centred, and only then shows a left and a right arrow in its own row at the spine's
    bottom corners, never over the chapters; each slides the spine three
    chapters, greys out at either end, and has a 44 px target and a label. Tapping a chapter
-   on the spine goes there; reaching a new chapter re-centres the wheel.
+   on the spine goes there; reaching a new chapter re-centres the wheel. The spine belongs
+   to the chapters alone: as the last chapter ends it fades and slides up under the tabs, so
+   it is gone before Meanwhile begins (Cade, 2026-11-08).
 
 9. **Filters dim, never remove.** Filtered-out events fade; they never vanish. Type and
    depth sit up front as one row of chips; region as lane chips; theme, chronicle,

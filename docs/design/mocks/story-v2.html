@@ -108,10 +108,8 @@ a{color:inherit}
 .stage .index.on{opacity:1;pointer-events:auto}
 .index a{position:relative;flex:none;text-decoration:none;color:var(--ink2);padding:9px 14px 10px;font:500 15.5px/1 var(--display);letter-spacing:.01em;min-height:32px;display:inline-flex;align-items:center;transition:color .3s}
 .index a::after{content:"";position:absolute;left:14px;right:14px;bottom:5px;height:1px;background:var(--gilt);opacity:.35;transition:opacity .3s}
-.index a .sw{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
-.index a .sw path{fill:none;stroke:var(--gilt);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .75s cubic-bezier(.5,0,.2,1)}
-.index a:not([aria-current="true"]) .sw path{opacity:0;transition:stroke-dashoffset .75s cubic-bezier(.5,0,.2,1),opacity 0s .75s}
-.index a[aria-current="true"] .sw path{stroke-dashoffset:0}
+.index a .sw{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none;opacity:0;will-change:opacity;transform:translateZ(0)}
+.index a .sw path{fill:none;stroke:var(--gilt);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1}
 .index a[aria-current="true"]::after{opacity:0}
 @media (prefers-reduced-motion: reduce){.index a .sw path{transition:none}}
 .index a[aria-current="true"]{color:var(--title)}
@@ -132,6 +130,8 @@ a{color:inherit}
 .pageindex::after{content:"";position:absolute;left:0;right:0;top:100%;height:22px;background:linear-gradient(var(--bg),transparent);pointer-events:none;opacity:0;transition:opacity .2s}
 .pageindex.stuck::after{opacity:1}
 .pageindex.stuck.overspine::after{opacity:0}
+.pageindex.stuck.overspine.spinegone::after{opacity:1}
+.strip{will-change:opacity,transform}
 .pageindex::-webkit-scrollbar{display:none}
 
 /* Reading. */
@@ -732,7 +732,21 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   document.querySelectorAll('.index a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.dataset.sec); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-150,behavior:reduced?'auto':'smooth'});})});
   var spy=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting){ document.querySelectorAll('.index a').forEach(function(a){a.setAttribute('aria-current',String(a.dataset.sec===x.target.id))}); } }); },{rootMargin:'-30% 0px -60% 0px'});
   SECS.forEach(function(s){spy.observe(document.getElementById(s[0]))});
-  frameTabs(); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(frameTabs); window.addEventListener('resize',frameTabs);
+  /* the cartouche follows the reading line: the current tab's frame unwinds and fades as its section ends,
+     and the next tab's begins to draw a little before the boundary, so the hand-over has no step */
+  var SECT=[], tabQ=false, tabs=[].slice.call(document.querySelectorAll('#pageIndex a'));
+  function secTops(){ SECT=SECS.map(function(s){ var el=document.getElementById(s[0]),y=0,e=el; while(e){y+=e.offsetTop;e=e.offsetParent;} return y; }); tabScroll(); }
+  function clamp01(x){ return x<0?0:x>1?1:x; }
+  function tabScroll(){ tabQ=false; if(!SECT.length)return; var y=window.scrollY+window.innerHeight*0.3;
+    tabs.forEach(function(a,i){ var st=SECT[i], en=SECT[i+1];
+      var inn=clamp01((y-(st-90))/240), out=en==null?1:1-clamp01((y-(en-150))/180), f=Math.min(inn,out); f=f*f*(3-2*f);
+      var svg=a.querySelector('.sw'), path=svg&&svg.firstChild; if(!path)return; var q=Math.round(f*20)/20, d=(1-q).toFixed(2), o=(f<0.01?0:0.35+0.65*f).toFixed(2);
+      if(path._d!==d){ path.style.strokeDashoffset=d; path._d=d; } if(svg._o!==o){ svg.style.opacity=o; svg._o=o; } }); }
+  function tabAsk(){ if(!tabQ){ tabQ=true; requestAnimationFrame(tabScroll); } }
+  window.addEventListener('scroll',tabAsk,{passive:true});
+  function frameAll(){ frameTabs(); secTops(); }
+  frameAll(); window.addEventListener('load',frameAll); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(frameAll); window.addEventListener('resize',frameAll);
+  if(window.ResizeObserver){ var roT=null; new ResizeObserver(function(){ clearTimeout(roT); roT=setTimeout(secTops,60); }).observe(document.querySelector('main')); }
 
   /* previews */
   var KIND={ev:['Event','--accent'],per:['Person','--ink3'],pol:['Country','--ink3'],feat:['Place','--ink3'],chron:['Chronicle','--ink3'],story:['Story','--ink3'],str:['Treaty','--accent']};
@@ -923,7 +937,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     var conns=chaps.map(function(c){ var n=c.nextElementSibling; return n&&n.classList.contains('conn')?n:null; }), cprev=[];
     var DIR=0, LASTY=window.scrollY, TX=[], SW=0, SPAN=78, WHEEL=false, G=[], live=-1, queued=false, MINS=0.88, MINO=0.32, R=230, TILT=8, prev=[], cur=[], tgt=[], YC=0, EASE=reduced?1:0.2;
     function absTop(el){ var y=0; while(el){ y+=el.offsetTop; el=el.offsetParent; } return y; }
-    function geo(){ G=chaps.map(function(c){ var t=absTop(c); return {t:t,b:t+c.offsetHeight,h:c.offsetHeight}; }); SW=strip.clientWidth-8; WHEEL=ticks.length*62>SW+8; ticks.forEach(function(t){ if(t.dataset.left==null)t.dataset.left=t.style.left; t.style.left=t.dataset.left; t.style.translate=''; }); TX=ticks.map(function(t){return t.offsetLeft;}); prev=[]; live=-1; frame(); if(live<0){live=0;} spine(); }
+    function geo(){ var cs=document.getElementById('chapters'); SECB=absTop(cs)+cs.offsetHeight; SPH=strip.offsetHeight||84; G=chaps.map(function(c){ var t=absTop(c); return {t:t,b:t+c.offsetHeight,h:c.offsetHeight}; }); SW=strip.clientWidth-8; WHEEL=ticks.length*62>SW+8; ticks.forEach(function(t){ if(t.dataset.left==null)t.dataset.left=t.style.left; t.style.left=t.dataset.left; t.style.translate=''; }); TX=ticks.map(function(t){return t.offsetLeft;}); prev=[]; live=-1; frame(); if(live<0){live=0;} spine(); }
     /* scroll sets a target emphasis for each chapter; a short loop eases the visible state toward it, so uneven touch and wheel input reads as a glide */
     /* the edge chapters recede only as the reader leaves them, never before the reader reaches them */
     function targets(){ var Hh=window.innerHeight, sy=window.scrollY, yc=sy+Hh*0.42; YC=yc; if(sy>LASTY+3)DIR=1; else if(sy<LASTY-3)DIR=-1; LASTY=sy;
@@ -952,7 +966,11 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
         var pv=prev[i]||{}; if(pv.tr!==tr){ chaps[i].style.transform=tr; pv.tr=tr; } if(pv.o!==o){ chaps[i].style.opacity=o; pv.o=o; } prev[i]=pv; });
       conns.forEach(function(cn,i){ if(!cn||cur[i+1]==null)return; var k=Math.min(cur[i],cur[i+1]), o=(1-(1-MINO)*k).toFixed(3); if(cprev[i]!==o){ cn.style.opacity=o; cprev[i]=o; } });
       return moving; }
-    function frame(){ queued=false; if(!G.length)return; targets(); if(paint()) ask(); }
+    var SECB=0, SPH=84, navEl=document.getElementById('pageIndex'), spineO=-1;
+    function spineFade(){ var sy=window.scrollY, bottom=sy+132+SPH; var t=clamp01s((SECB-bottom-40)/160); var o=t.toFixed(3);
+      if(o!==spineO){ spineO=o; var e=t*t*(3-2*t); strip.style.opacity=(0.25+0.75*e).toFixed(3); strip.style.transform='translate3d(0,'+(-(1-e)*(SPH+16)).toFixed(1)+'px,0)'; strip.style.visibility=t<0.01?'hidden':'visible'; navEl.classList.toggle('spinegone',t<0.5); } }
+    function clamp01s(x){ return x<0?0:x>1?1:x; }
+    function frame(){ queued=false; if(!G.length)return; targets(); spineFade(); if(paint()) ask(); }
     function ask(){ if(!queued){queued=true;requestAnimationFrame(frame);} }
     window.addEventListener('scroll',ask,{passive:true});
     window.addEventListener('resize',geo); window.addEventListener('load',geo); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(geo);
