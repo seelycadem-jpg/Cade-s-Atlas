@@ -48,7 +48,7 @@ a{color:inherit}
   :root.sda .tw{animation:twDock linear both;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-timeline:scroll(root block);animation-range:0px var(--D)}
   :root.sda .stage .gw{animation:gwDock linear both;animation-timing-function:cubic-bezier(.33,1,.68,1);animation-timeline:scroll(root block);animation-range:0px var(--D)}
   :root.sda .tw .sub{animation:subKeep linear both;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-timeline:scroll(root block);animation-range:0px var(--D)}
-  :root.sda .tw .kicker,:root.sda .tw .sub .rest{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .42)}
+  :root.sda .tw .kicker,:root.sda .tw .sub .rest,:root.sda .tw .line{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .42)}
   :root.sda .hint{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .28)}
   :root.sda .stage .hsub{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:var(--D) calc(var(--D) + 48px)}
   :root.sda .stage .band{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:calc(var(--D) * .7) calc(var(--D) * .9)}
@@ -65,7 +65,8 @@ a{color:inherit}
 .stage .band.edge::after{opacity:1}
 .stage .gw{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;pointer-events:auto}
 .stage canvas{display:block;border-radius:50%;touch-action:none;box-shadow:var(--shadow2)}
-.tw{position:sticky;top:var(--stick,-40px);z-index:9;margin:0 0 12px var(--t0x,0px);width:min(40rem,100%);transform-origin:0 100%;will-change:transform;pointer-events:auto}
+.tw{position:sticky;top:var(--stick,-40px);z-index:9;margin:0 0 12px var(--t0x,0px);width:min(40rem,100%);transform-origin:0 100%;will-change:transform;pointer-events:none}
+.tw a,.tw button{pointer-events:auto}
 .tw h1{font:500 clamp(38px,9.6vw,52px)/1.02 var(--display);margin:0;letter-spacing:-.008em;text-wrap:balance}
 .tw .sub{transform-origin:0 0;will-change:transform;font:16px/1.4 var(--display);color:var(--ink2);margin:8px 0 0;display:flex;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
 .tw .sub b{color:var(--accent);font-weight:600}
@@ -106,7 +107,7 @@ a{color:inherit}
 
 /* The opening lines under the title, in the flow. */
 .open{margin:0 0 6px}
-.open .line{font:italic 400 21px/1.4 var(--display);color:var(--ink2);margin:0 0 14px;max-width:34rem;text-wrap:pretty}
+.tw .line{font:italic 400 21px/1.4 var(--display);color:var(--ink2);margin:12px 0 0;max-width:34rem;text-wrap:pretty;will-change:opacity}
 .strong{display:grid;gap:8px;font:14px/1.45 var(--ui);color:var(--ink2);margin:0 0 20px}
 .strong .a{display:grid;grid-template-columns:1.2rem 1fr;gap:8px;align-items:baseline}
 .strong .a .d{color:var(--accent);font-weight:600}
@@ -561,13 +562,13 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     <div class="kicker" id="kicker"><a class="lk chron" href="https://claude.ai/artifact/AWaup7weY8H6EUwNDCXS37" target="_blank" rel="noopener">Weimar Germany</a><span>›</span><button class="lk chron" type="button" data-prev="chap:treaty">The Treaty</button></div>
     <h1>The Paris Peace Settlement</h1>
     <div class="sub" id="sub"><span><b>1919</b> to 1923</span><span class="rest">·</span><span class="rest">Paris</span><span class="rest">·</span><span class="rest" id="rt">reading time</span></div>
+    <p class="line" id="tline">Five treaties ended the Great War, dissolved three empires and left Germany's place in Europe unresolved.</p>
 </div>
 
 <main class="wrap">
   <div class="open">
     <div class="counts" id="counts"></div>
     <div class="pn" id="pn"><button type="button" data-prev="ev:eu191485"><span class="lab">Previous knot</span><span class="t">‹ The Great War</span></button><button type="button" class="next" data-prev="ev:d-hyperinflation"><span class="lab">Next knot</span><span class="t">German Hyperinflation ›</span></button></div>
-    <p class="line">Five treaties ended the Great War, dissolved three empires and left Germany's place in Europe unresolved.</p>
   </div>
   <nav class="pageindex index" id="pageIndex" aria-label="On this page"></nav>
 
@@ -748,7 +749,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   /* the docking. The title sits in the page and rides it natively; sticky pins it under Back once its shrunk top reaches the bar.
      layout() measures once and publishes the geometry as CSS variables; scroll timelines then drive every change on the compositor.
      Where scroll timelines are missing, apply() writes the same transforms each frame. */
-  var M={twH:0,kH:0,h1H:0,D:1,t0x:16,t1x:66,s1t:0.46}, stage=document.getElementById('stage'), last={}, SDA=!!(window.CSS&&CSS.supports&&CSS.supports('animation-timeline: scroll()'))&&!reduced;
+  var tline=document.getElementById('tline'), M={twH:0,kH:0,h1H:0,D:1,t0x:16,t1x:66,s1t:0.46}, stage=document.getElementById('stage'), last={}, SDA=!!(window.CSS&&CSS.supports&&CSS.supports('animation-timeline: scroll()'))&&!reduced;
   if(SDA) root.classList.add('sda');
   function put(el,key,prop,val){ var k=key+prop; if(last[k]===val)return; last[k]=val; el.style[prop]=val; }
   function px(n){ return n.toFixed(2)+'px'; }
@@ -769,7 +770,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
     var g0x=(W-G)/2, g0y=-G*0.32, g1x=W-gutter-52, g1y=8, s1=52/G;
     put(gw,'gw','transform','translate3d('+lerp(g0x,g1x,eo).toFixed(2)+'px,'+lerp(g0y,g1y,eo).toFixed(2)+'px,0) scale('+lerp(1,s1,eo).toFixed(4)+')');
     put(gw,'gw','opacity',lerp(1,0.78,eo).toFixed(3));
-    var fo=Math.max(0,1-q*2.4).toFixed(3); put(kicker,'kick','opacity',fo); [].forEach.call(sub.querySelectorAll('.rest'),function(r,i){ put(r,'rest'+i,'opacity',fo); });
+    var fo=Math.max(0,1-q*2.4).toFixed(3); put(kicker,'kick','opacity',fo); put(tline,'tline','opacity',fo); put(tline,'tline','visibility',fo==='0.000'?'hidden':'visible'); [].forEach.call(sub.querySelectorAll('.rest'),function(r,i){ put(r,'rest'+i,'opacity',fo); });
     put(sub,'sub','transform','scale('+lerp(1,M.subk,qs).toFixed(4)+')');
     put(hint,'hint','opacity',Math.max(0,1-q*3.5).toFixed(3));
     put(hsub,'hsub','opacity',Math.min(1,Math.max(0,(sc-M.D)/48)).toFixed(3));

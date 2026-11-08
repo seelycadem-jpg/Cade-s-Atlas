@@ -141,7 +141,8 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
     Political globe at the page's year one tap away. It turns only when the reader acts.
     The docked header holds three lines (Cade, 2026-11-08): the title, its years under it
     (kept at 12 px while the title shrinks; the place and reading time fade), and the
-    parent and Next line.
+    parent and Next line. The italic one-line judgment sits in the title block under the date
+    line, and fades away as the title shrinks (Cade, 2026-11-08).
 
 ## Checked by the browser tests (from Phase 1 on)
 
