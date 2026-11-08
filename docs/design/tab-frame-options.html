@@ -1,0 +1,88 @@
+<title>Selected Tab Frames</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;1,400&family=Newsreader:opsz,wght@6..72,400&family=Public+Sans:wght@400;500&display=swap">
+<style>
+/* Layout: six gilt treatments for the selected section tab, each a live tab row in light and dark; the selection walks along the row so each frame can be seen drawing itself in. */
+:root{
+  --bg:#F6F2EC; --surface:#FCFAF6; --ink:#1C1916; --ink2:#4D4843; --ink3:#7B746D; --rule:#DCD2C7; --title:#3B2217; --gilt:#B08A3E; --accent:#C81A12;
+  --display:"EB Garamond",Georgia,serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#1C130F;--surface:#261A15;--ink:#F2E9E0;--ink2:#C4B4A7;--ink3:#948174;--rule:#3E2E26;--title:#F2E9E0;--gilt:#C9A45C;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#1C130F;--surface:#261A15;--ink:#F2E9E0;--ink2:#C4B4A7;--ink3:#948174;--rule:#3E2E26;--title:#F2E9E0;--gilt:#C9A45C;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
+.wrap{max-width:56rem;margin:0 auto}
+.eyebrow{font:500 13px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0 0 10px}
+h1{font:500 clamp(32px,6.5vw,44px)/1.05 var(--display);margin:0 0 10px;color:var(--title)}
+.intro{font:17px/1.5 var(--body);color:var(--ink2);max-width:44rem;margin:0 0 22px}
+.opt{border-top:1px solid var(--rule);padding:20px 0 24px}
+.opt h2{font:500 24px/1.15 var(--display);margin:0 0 4px;color:var(--title);display:flex;gap:10px;align-items:baseline}
+.opt h2 .n{font:500 12px/1.4 var(--display);letter-spacing:.14em;color:var(--ink3)}
+.opt .why{font:15.5px/1.5 var(--body);color:var(--ink2);margin:0 0 12px;max-width:46rem}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:12px}
+@media (max-width:760px){.pair{grid-template-columns:1fr}}
+.pane{border-radius:12px;padding:18px 14px 16px;min-width:0;overflow:hidden}
+.pane.light{background:#F6F2EC;border:1px solid #DCD2C7;--ink2:#4D4843;--title:#3B2217;--gilt:#B08A3E}
+.pane.dark{background:#1C130F;border:1px solid #3E2E26;--ink2:#C4B4A7;--title:#F2E9E0;--gilt:#C9A45C}
+.tabs{display:flex;gap:6px;flex-wrap:wrap}
+.tab{position:relative;padding:9px 14px 10px;font:500 15.5px/1 var(--display);letter-spacing:.01em;color:var(--ink2);background:none;border:0;cursor:pointer;transition:color .3s}
+.tab::after{content:"";position:absolute;left:14px;right:14px;bottom:5px;height:1px;background:var(--gilt);opacity:.35;transition:opacity .3s}
+.tab[aria-current="true"]{color:var(--title)}
+.tab[aria-current="true"]::after{opacity:0}
+.tab svg{position:absolute;inset:0;width:100%;height:100%;overflow:visible;pointer-events:none}
+.tab svg path{fill:none;stroke:var(--gilt);stroke-width:1.1;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1;stroke-dashoffset:1;transition:stroke-dashoffset .75s cubic-bezier(.5,0,.2,1)}
+.tab svg path.fill{fill:var(--gilt);stroke:none;opacity:0;transition:opacity .3s .5s}
+.tab:not([aria-current="true"]) svg path:not(.fill){opacity:0;transition:stroke-dashoffset .75s cubic-bezier(.5,0,.2,1),opacity 0s .75s}
+.tab[aria-current="true"] svg path{stroke-dashoffset:0}
+.tab[aria-current="true"] svg path.fill{opacity:1}
+.verdict{margin:28px 0 0;border-left:2px solid var(--accent);padding:2px 0 2px 14px}
+.verdict b{display:block;font:500 20px/1.3 var(--display);color:var(--title);margin-bottom:4px}
+.verdict p{margin:0 0 6px;font:16px/1.5 var(--body);color:var(--ink2)}
+@media (prefers-reduced-motion: reduce){.tab svg path{transition:none}}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Meanwhile Atlas · design note, 8 November 2026</p>
+  <h1>Six ways to mark the selected tab</h1>
+  <p class="intro">Each tab has the faint gilt line; the selected one draws its frame in gilt hairline, as a pen would. The selection walks along each row by itself so you can watch the frame draw; tap any tab to try it. Light on the left, dark on the right.</p>
+  <div id="opts"></div>
+  <div class="verdict"><b>My pick: 1, the cartouche. Second: 5, the scale bar.</b><p>The cartouche is the panel an old map puts its title in, so a selected tab in one reads as "this is the part you are reading" without a word, and its notched corners are the only shape here that says atlas rather than website. The scale bar is the quieter choice and the closest to a button. The double rule and the corner marks are handsome but busy at this size; the ribbon is the most playful and the first to tire.</p></div>
+</div>
+
+<script>
+(function(){
+  /* each frame is built for the tab's own size, so corners stay true at any label length */
+  var F={
+    cartouche:function(w,h){ var r=5,i=1.5, x0=i,y0=i,x1=w-i,y1=h-i;
+      return ['M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z']; },
+    double:function(w,h){ var a=1,b=4;
+      return ['M'+a+' '+a+' H'+(w-a)+' V'+(h-a)+' H'+a+' Z','M'+b+' '+b+' H'+(w-b)+' V'+(h-b)+' H'+b+' Z']; },
+    corners:function(w,h){ var a=1.5,l=9;
+      return ['M'+a+' '+(a+l)+' V'+a+' H'+(a+l),'M'+(w-a-l)+' '+a+' H'+(w-a)+' V'+(a+l),'M'+(w-a)+' '+(h-a-l)+' V'+(h-a)+' H'+(w-a-l),'M'+(a+l)+' '+(h-a)+' H'+a+' V'+(h-a-l)]; },
+    ribbon:function(w,h){ var t=3,b=h-3,c=7;
+      return ['M'+c+' '+t+' H'+(w-c)+' C'+(w+1)+' '+t+' '+(w+1)+' '+(t+7)+' '+(w-4)+' '+(t+6)+' M'+c+' '+b+' H'+(w-c)+' C'+(w+3)+' '+b+' '+(w+3)+' '+(b-7)+' '+(w-2)+' '+(b-8),
+              'M'+(w-c)+' '+b+' M'+c+' '+t+' C'+(-1)+' '+t+' '+(-1)+' '+(t+7)+' '+4+' '+(t+6)+' M'+c+' '+b+' C'+(-3)+' '+b+' '+(-3)+' '+(b-7)+' '+2+' '+(b-8)]; },
+    scale:function(w,h){ var r=(h-3)/2, y=h/2, x0=6, x1=w-6, d=3;
+      return ['M'+(x0+r)+' 1.5 H'+(x1-r)+' A'+r+' '+r+' 0 0 1 '+(x1-r)+' '+(h-1.5)+' H'+(x0+r)+' A'+r+' '+r+' 0 0 1 '+(x0+r)+' 1.5 Z',
+              {fill:'M'+(x0-1)+' '+(y-d)+' L'+(x0-1+d)+' '+y+' L'+(x0-1)+' '+(y+d)+' L'+(x0-1-d)+' '+y+' Z M'+(x1+1)+' '+(y-d)+' L'+(x1+1+d)+' '+y+' L'+(x1+1)+' '+(y+d)+' L'+(x1+1-d)+' '+y+' Z'}]; },
+    flourish:function(w,h){ var y=h-4, k=w/100;
+      return ['M'+(3*k)+' '+(y+1.5)+' C'+(1*k)+' '+(y+0.4)+' '+(1.4*k)+' '+(y-2.4)+' '+(4*k)+' '+(y-2)+' C'+(6.4*k)+' '+(y-1.6)+' '+(6*k)+' '+(y+1.4)+' '+(3.6*k)+' '+(y+2.4)+' C'+(14*k)+' '+(y+3.6)+' '+(22*k)+' '+(y-2.6)+' '+(36*k)+' '+(y-1.4)+' C'+(50*k)+' '+(y-0.2)+' '+(58*k)+' '+(y+2.8)+' '+(72*k)+' '+(y+1)+' C'+(84*k)+' '+(y-0.5)+' '+(90*k)+' '+(y-3.4)+' '+(97*k)+' '+(y-2.4)]; }
+  };
+  var O=[['cartouche','1','Cartouche','The title panel of an old map: a frame with notched corners, drawn in one stroke round the tab.'],
+         ['double','2','Double rule','Two hairline frames, one inside the other, as a map border is ruled.'],
+         ['corners','3','Corner marks','Only the four corners, like the crop marks on an engraving. The lightest frame.'],
+         ['ribbon','4','Ribbon','A banner whose ends curl back, like the label on a scroll. The most playful.'],
+         ['scale','5','Scale bar','A rounded frame with a small diamond at each end, like the ends of a map scale.'],
+         ['flourish','6','Flourish (now)','The current pen flourish under the selected tab, for comparison.']];
+  var LABELS=['Briefing','Chapters','Meanwhile'];
+  function row(k){ return '<div class="tabs" data-kind="'+k+'">'+LABELS.map(function(l,i){ return '<button type="button" class="tab"'+(i===0?' aria-current="true"':'')+'>'+l+'<svg aria-hidden="true"></svg></button>'; }).join('')+'</div>'; }
+  document.getElementById('opts').innerHTML=O.map(function(o){ return '<section class="opt"><h2><span class="n">'+o[1]+'</span>'+o[2]+'</h2><p class="why">'+o[3]+'</p><div class="pair"><div class="pane light">'+row(o[0])+'</div><div class="pane dark">'+row(o[0])+'</div></div></section>'; }).join('');
+  function build(){ document.querySelectorAll('.tabs').forEach(function(row){ var k=row.dataset.kind; row.querySelectorAll('.tab').forEach(function(t){ var w=t.offsetWidth, h=t.offsetHeight, svg=t.querySelector('svg');
+      svg.setAttribute('viewBox','0 0 '+w+' '+h);
+      svg.innerHTML=F[k](w,h).map(function(p){ return typeof p==='string'?'<path pathLength="1" d="'+p+'"/>':'<path class="fill" d="'+p.fill+'"/>'; }).join(''); }); }); }
+  function select(row,i){ row.querySelectorAll('.tab').forEach(function(t,j){ t.setAttribute('aria-current',String(j===i)); }); }
+  document.querySelectorAll('.tabs').forEach(function(row){ row.querySelectorAll('.tab').forEach(function(t,i){ t.addEventListener('click',function(){ row.dataset.held='1'; select(row,i); }); }); });
+  var step=0; setInterval(function(){ step=(step+1)%3; document.querySelectorAll('.tabs').forEach(function(row){ if(!row.dataset.held) select(row,step); }); },1800);
+  build(); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(build); window.addEventListener('resize',build);
+})();
+</script>

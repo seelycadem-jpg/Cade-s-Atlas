@@ -35,7 +35,7 @@ Chosen from eight candidates shown on the same slice of story page, light and da
 | `--rule` | `#DCD2C7` | hairlines, guides, borders of surfaces |
 | `--accent` | `#C81A12` | the chain only: knot marks, fibre dots, connectors, years, the pill (5.2 on bg) |
 | `--on-accent` | `#FFFFFF` | text on the accent |
-| `--gilt` | `#B08A3E` | a fountain-pen stroke under section headings (150px: a rounded drop of ink that thins to a point and fades); a faint 1px line under each section tab, and a flourish that draws itself under the selected tab; the divider diamond. Never text |
+| `--gilt` | `#B08A3E` | a fountain-pen stroke under section headings (150 by 3 px: a rounded drop of ink that thins to a point and fades); a faint 1px line under each section tab, and a flourish that draws itself under the selected tab; the divider diamond. Never text |
 | `--sea` | `#F0EBE3` | the globe's sea |
 | `--land` | `#E3DBD0` | the globe's land |
 | `--coast` | `#A79A8D` | coastlines |
