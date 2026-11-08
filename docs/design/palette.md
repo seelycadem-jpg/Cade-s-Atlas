@@ -35,7 +35,7 @@ Chosen from eight candidates shown on the same slice of story page, light and da
 | `--rule` | `#DCD2C7` | hairlines, guides, borders of surfaces |
 | `--accent` | `#C81A12` | the chain only: knot marks, fibre dots, connectors, years, the pill (5.2 on bg) |
 | `--on-accent` | `#FFFFFF` | text on the accent |
-| `--gilt` | `#B08A3E` | a tapered hairline under section headings (2px at the start, narrowing to a point and fading out over 84px, 5px under the heading), and the divider diamond; never text |
+| `--gilt` | `#B08A3E` | a fountain-pen stroke under section headings (150px: a rounded drop of ink that thins to a point and fades); a faint 1px line under each section tab, and a flourish that draws itself under the selected tab; the divider diamond. Never text |
 | `--sea` | `#F0EBE3` | the globe's sea |
 | `--land` | `#E3DBD0` | the globe's land |
 | `--coast` | `#A79A8D` | coastlines |
@@ -75,8 +75,10 @@ Chosen from eight candidates shown on the same slice of story page, light and da
 - One link style (Cade, 2026-11-08): ink text with a 1px red underline, red on hover and
   focus. Links are no longer coloured by kind; the preview card names the kind. This
   retired the four link pigments (plum, teal, slate, moss).
-- Gilt is a line, never text: the short rule under section headings and the divider
-  diamond. It stays off small labels so it never becomes clutter.
+- Gilt is a line, never text (Cade, 2026-11-08): the pen stroke under section headings,
+  the faint line under each tab, the flourish that draws on under the selected tab, and the
+  divider diamond. It stays off small labels so it never becomes clutter. The flourish draws
+  in 0.7 s and appears without motion for readers who ask for reduced motion.
 - Grades are told by line style, never by colour alone: solid for Necessary and
   Sufficient, dashed for Contributing, dotted for Contested, grey with a cross-stroke for
   Coincident.
