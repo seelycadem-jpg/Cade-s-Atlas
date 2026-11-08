@@ -111,7 +111,8 @@ still, one step further out.
 
 - Decided 2026-11-08, then changed the same day on Cade's call: a chapter has its own page
   (operational, between the story's strategic view and the knot's tactical one). The patch
-  stays on the story page as its short form; "Read the chapter" opens the page. Only the
+  stays on the story page as its short form; the chapter's title opens the page, and so
+  does a small "Read the chapter" link at the end of its paragraph (Cade, 2026-11-08). Only the
   longer briefing is written; the thread is built from the event and link data.
 - The pilot's "German Question" (1517 to today) becomes stories inside the Germany
   chronicle in Phase 7.

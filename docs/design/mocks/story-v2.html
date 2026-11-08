@@ -370,8 +370,10 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 .chap{margin:0 0 4px;scroll-margin-top:200px}
 .chap h3{display:flex;align-items:baseline;gap:8px;flex-wrap:wrap;margin:14px 0 4px}
 .chap h3 .n{font:500 13px/1.6 var(--label);color:var(--ink3);letter-spacing:.12em;text-transform:uppercase}
-.chap>p{color:var(--ink2);margin-bottom:6px}
-.chap .readch{display:inline-block;margin:0 0 12px;font:500 16px/1.4 var(--display);color:var(--accent);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;min-height:32px}
+.chap>p{color:var(--ink2);margin-bottom:12px}
+.chap .readch{display:inline;padding:8px 0;margin-left:2px;font-family:var(--display);font-weight:500;font-size:14px;line-height:0;letter-spacing:.01em;color:var(--accent);white-space:nowrap;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.chap h3 .cht{font:inherit;color:var(--title);text-decoration:underline;text-decoration-color:color-mix(in srgb,var(--accent) 45%,transparent);text-decoration-thickness:1px;text-underline-offset:4px;transition:text-decoration-color .2s,color .2s}
+.chap h3 .cht:hover,.chap h3 .cht:focus-visible{text-decoration-color:var(--accent)}
 .chap .knot{font:12.5px/1.4 var(--ui);color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;align-items:center;flex-wrap:wrap}
 .chap .knot button{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px}
 .conn{display:grid;grid-template-columns:2rem 1fr;gap:10px;align-items:center;margin:4px 0 8px;min-height:44px}
@@ -897,7 +899,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
      knots:[{id:'eu191988',line:'The victors wrote five treaties in Paris between 1919 and 1923 and redrew the map from the Rhine to the Tigris with the defeated kept from the table. The settlement had no enforcer, and Germany kept the means to overturn it.'}],
      strands:[{k:'str:versailles',line:'Germany lost 13 percent of its European land and all its colonies, kept an army of 100,000 and owed reparations. The republic signed because the army said it could not fight on.'},{id:'na191962',h:'The US Senate Rejects the Treaty',y:1919,line:'The Senate refused the treaty in November 1919 and again in March 1920. The United States never joined the League, and the American guarantee to France lapsed with it.'},{id:'as191949',line:'Beijing students marched on 4 May 1919 against the award of Germany\'s Shandong rights to Japan. China refused to sign at Versailles, and the protest grew into a political movement.'}],
      fibres:[['7 May 1919','The German Delegation Receives the Terms'],['11 April 1919','Wilson Rules Japan\'s Racial-Equality Proposal Lost in Commission'],['28 June 1919','Germany Signs the Treaty in the Hall of Mirrors']]},
-    {t:'The Ruhr and the Mark',y:'1923',patch:'Germany fell behind on reparations in 1922, and in January 1923 French and Belgian troops occupied the Ruhr to take coal in kind. Berlin paid the Ruhr\'s workers to strike and printed the money to do it. By November a dollar bought 4.2 trillion marks. The Rentenmark stopped the fall that month, and in the same month Hitler\'s putsch in Munich failed in a day.',
+    {t:'The Ruhr and the Mark',y:'1923',page:'https://claude.ai/artifact/5SyFXi5sACFqRQe6zcvmyW',patch:'Germany fell behind on reparations in 1922, and in January 1923 French and Belgian troops occupied the Ruhr to take coal in kind. Berlin paid the Ruhr\'s workers to strike and printed the money to do it. By November a dollar bought 4.2 trillion marks. The Rentenmark stopped the fall that month, and in the same month Hitler\'s putsch in Munich failed in a day.',
      knots:[{id:'d-hyperinflation',line:'Berlin paid for the Ruhr resistance by printing money, and by November 1923 a dollar bought 4.2 trillion marks. Savers lost everything they held in marks.'}],
      strands:[{h:'The Ruhr Occupation',y:1923,line:'French and Belgian troops entered the Ruhr in January 1923 to take coal and timber after Germany missed reparations deliveries. Berlin ordered passive resistance and paid the idle workers with printed money.'},{h:'Stresemann Ends Passive Resistance',y:1923,line:'Stresemann called off the strike in the Ruhr on 26 September because Berlin could no longer pay for it. The decision opened the way to a new currency.'},{h:'The Rentenmark',y:1923,line:'The Rentenmark replaced the paper mark on 15 November 1923 at one to a trillion. It held because the government stopped printing, and the Dawes Plan followed within a year.'}],
      fibres:[['13 August 1923','Stresemann Becomes Chancellor'],['23 October 1923','Communists Rise in Hamburg'],['8 to 9 November 1923','Bavarian Police Put Down the Munich Putsch'],['20 November 1923','Berlin Fixes the Mark at 4.2 Trillion to the Dollar']]},
@@ -925,8 +927,9 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   (function(){ var strip=document.getElementById('chapStrip'), ch=document.getElementById('chaps'); var h='<div class="axis"></div>';
     CH.forEach(function(c,i){ h+='<a class="tk" href="#chap-'+i+'" style="left:'+((i+0.5)/CH.length*100).toFixed(1)+'%"><i></i><span class="yr">'+esc(c.y.split(' ')[0])+'</span><span>'+esc(c.t)+'</span></a>'; }); strip.innerHTML=h;
     var out=''; CH.forEach(function(c,i){
-      out+='<article class="chap" id="chap-'+i+'"><h3><span class="n">Chapter '+(i+1)+' · '+esc(c.y)+'</span>'+esc(c.t)+'</h3><p>'+c.patch+'</p>'
-        +(i===1?'<a class="readch" href="https://claude.ai/artifact/5SyFXi5sACFqRQe6zcvmyW" target="_blank" rel="noopener">Read the chapter ›</a>':'<button type="button" class="readch" data-readch>Read the chapter ›</button>');
+      /* the chapter's title opens its page; so does a small link at the end of its paragraph */
+      var go=function(cls,txt){ return c.page?'<a class="'+cls+'" href="'+esc(c.page)+'" target="_blank" rel="noopener">'+txt+'</a>':'<button type="button" class="'+cls+'" data-readch>'+txt+'</button>'; };
+      out+='<article class="chap" id="chap-'+i+'"><h3><span class="n">Chapter '+(i+1)+' · '+esc(c.y)+'</span>'+go('cht',esc(c.t))+'</h3><p>'+c.patch+' '+go('readch','Read the chapter ›')+'</p>';
       out+='<div class="kn"><div class="kh" data-tip="'+(c.knots.length>1?'This chapter turns on '+c.knots.length+' major events, with the atlas\'s own link between them.':'The chapter\'s major event. Tap its name for a preview; Open takes you to its page.')+'">'+(c.knots.length>1?'Knots':'Knot')+'</div>'+c.knots.map(function(k){return itemHtml(k,'k')}).join('');
       if(c.knots.length>1){ var l=linkBetween(c.knots[0].id,c.knots[1].id); if(l) out+=connHtml(l); }
       out+='</div>';
@@ -1085,7 +1088,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
 
   /* reading time, counted from the page's own text: the briefing plus the chapter or thread text */
   (function(){ var el=document.getElementById('rt'); if(!el)return; var t=(document.getElementById('arg')||{}).textContent||'';
-    t+=' '+[].map.call(document.querySelectorAll('.chap>p, .ti .l, .kn .tn .sub'),function(n){return n.textContent}).join(' ');
+    t+=' '+[].map.call(document.querySelectorAll('.chap>p, .ti .l, .kn .tn .sub'),function(n){var k=n.cloneNode(true); [].forEach.call(k.querySelectorAll('.readch'),function(r){r.remove();}); return k.textContent}).join(' ');
     var w=t.split(/\s+/).filter(Boolean).length; el.textContent=Math.max(1,Math.round(w/220))+' min read'; })();
   layout(); window.addEventListener('load',layout); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(layout);
 })();
