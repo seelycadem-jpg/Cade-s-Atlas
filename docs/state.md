@@ -59,14 +59,13 @@ no invented specifics, title case for titles.
 | Chapter: The Ruhr and the Mark | https://claude.ai/artifact/5SyFXi5sACFqRQe6zcvmyW | `docs/design/mocks/chapter-v1.html` |
 | The six levels | https://claude.ai/artifact/Y9GbTwZBYFKiwvCfbqhpku | `docs/design/levels-chart.html` |
 | Spine test, twenty chapters | https://claude.ai/artifact/GS6K2eL7M9fe2QA6VxQWpi | (test only) |
-| Event page, last pass (old look) | listed in `docs/design/mocks/README.md` | `docs/design/mocks/1.3-event-v10.html` |
+| Event: The Paris Peace Settlement | https://claude.ai/artifact/MdJzwkT1viFnjFEdqqcaaP | `docs/design/mocks/event-v11.html` |
 
 The artifacts are private to Cade's account. The repo files are the source of truth.
 
 ## Next, in order
 
-1. The event page brought in line: red thread palette, marks, type, docking header, and its
-   cause-and-effect view drawn in the chapter thread's look, using Paris 1919.
+1. Cade's read of the event page (event-v11) on his phone.
 2. Phase 1 steps left: front door (1.5), filters (1.6), the two globes (1.7), building the
    shared components (1.8 to 1.12), the people test (1.13).
 
@@ -83,6 +82,12 @@ Phone first, desktop second, and the desktop is designed, never the phone layout
   decided when the step comes.
 
 ## Open questions and loose ends
+
+- The mock data still carries the pilot's old story names (The split, The settlement, The
+  void, The collapse, The division). Only names that clearly match a new story are mapped on
+  the event page; the rest wait for the data rebuild in Phase 2.
+- The event page's Wikipedia and Britannica links come from the earlier mock and are not
+  re-verified in this session.
 
 - The Ruhr chapter's Wikipedia and Britannica links are standard addresses, not yet
   verified (the build session could not reach either site).
