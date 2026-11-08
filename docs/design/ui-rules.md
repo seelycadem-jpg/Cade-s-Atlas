@@ -71,12 +71,15 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    chronicle. No other depth control exists. (The event page's "Open the detail" button
    is renamed in step 1.6 so "detail" means one thing.)
    The chapter spine on a story page (agreed 2026-11-08): when the chapters fit, a fixed row
-   with past chapters filled, the one in view large and the rest hollow. When they do not
-   fit (about six or more on a phone), it becomes a wheel that keeps the chapter in view
-   centred, and only then shows a left and a right arrow in its own row at the spine's
-   bottom corners, never over the chapters; each slides the spine three
-   chapters, greys out at either end, and has a 44 px target and a label. Tapping a chapter
-   on the spine goes there; reaching a new chapter re-centres the wheel. The spine belongs
+   with past chapters filled, the one in view large and the rest hollow. A red line fills
+   the axis up to the chapter in view, and a soft box sits behind that chapter, sized to fit
+   its year and its whole title (Cade, 2026-11-08). Both look the same at any length. When
+   the chapters do not fit (about six or more on a phone), the row slides: it starts with
+   the first chapter at the left edge, keeps the chapter in view near the middle, and stops
+   with the last at the right edge. Only then does it show a left and a right arrow in its
+   own row at the spine's bottom corners, never over the chapters; each slides the row
+   three chapters, greys out at either end, and has a 44 px target and a label. Tapping a
+   chapter on the spine goes there; reaching a new chapter brings it back into view. The spine belongs
    to the chapters alone: as the last chapter ends it fades and slides up under the tabs, so
    it is gone before Meanwhile begins (Cade, 2026-11-08).
 
