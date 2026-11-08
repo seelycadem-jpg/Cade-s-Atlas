@@ -79,7 +79,23 @@ a{color:inherit}
 .open .pn .lab{font:500 11px/1.3 var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
 .open .pn .t{font:500 17px/1.2 var(--display)}
 .stage .hsub .nx{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px;margin-left:6px}
-.tw .kicker{will-change:opacity;font:500 14px/1.4 var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.tw .kicker{will-change:opacity;font:500 14px/1.4 var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);margin:0 0 10px;display:flex;gap:4px 8px;flex-wrap:wrap;align-items:flex-start}
+/* the path: each step a link, with its level written under it, so the reader knows what each one is */
+.path .crumb{display:inline-flex;flex-direction:column;gap:1px;min-height:32px}
+.path .crumb .lk{align-self:flex-start;text-transform:uppercase}
+.path .lvl .mk{width:10px;height:10px;vertical-align:-1px}
+.path .lvl{font:400 12px/1.3 var(--ui);letter-spacing:.01em;text-transform:none;color:var(--ink3)}
+.path .psep{color:var(--ink3);line-height:1.4}
+.path .alsoin{align-self:flex-start;font:500 12.5px/1 var(--ui);letter-spacing:0;text-transform:none;color:var(--ink2);border:1px solid var(--rule);border-radius:999px;padding:7px 10px;min-height:30px;background:var(--surface)}
+.path .alsoin:hover{color:var(--title);border-color:var(--ink3)}
+.wplaces{display:grid;gap:10px;margin:6px 0 4px}
+.wplaces .pl{border:1px solid var(--rule);border-radius:10px;padding:10px 12px;display:grid;gap:3px}
+.wplaces .pl.here{border-color:var(--gilt)}
+.wplaces .pl.plan{border-style:dashed;opacity:.8}
+.wplaces .trail{font:500 15.5px/1.35 var(--display);color:var(--title)}
+.wplaces .trail .tsep{color:var(--ink3);margin:0 4px}
+.wplaces .meta{font:12.5px/1.4 var(--ui);color:var(--ink2);display:flex;gap:6px;align-items:center;flex-wrap:wrap}
+.wplaces .meta .mk{margin:0}
 .stage .hsub{position:absolute;left:0;top:0;will-change:opacity;font:13.5px/1.3 var(--display);color:var(--ink2);opacity:0;pointer-events:auto;white-space:nowrap}
 .stage .topbar{position:absolute;top:8px;left:max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;pointer-events:auto}
 .back{display:inline-flex;align-items:center;gap:4px;min-height:38px;min-width:38px;padding:0 12px 0 8px;border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--ink);font:13px/1 var(--ui);box-shadow:var(--shadow2);transition:padding .2s}
@@ -559,7 +575,7 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
   <div class="hint" id="hint"><span>Europe in 1920 · drag</span></div>
 </div>
 <div class="tw" id="tw">
-    <div class="kicker" id="kicker"><a class="lk chron" href="https://claude.ai/artifact/AWaup7weY8H6EUwNDCXS37" target="_blank" rel="noopener">Weimar Germany</a><span>›</span><button class="lk chron" type="button" data-prev="chap:treaty">The Treaty</button></div>
+    <nav class="kicker path" id="kicker" aria-label="Where this sits"><span class="crumb"><button class="lk" type="button" data-prev="chron:germany">Germany</button><span class="lvl">chronicle</span></span><span class="psep" aria-hidden="true">›</span><span class="crumb"><a class="lk" href="https://claude.ai/artifact/AWaup7weY8H6EUwNDCXS37" target="_blank" rel="noopener">Weimar Germany</a><span class="lvl">story 8 of 12</span></span><span class="psep" aria-hidden="true">›</span><span class="crumb"><button class="lk" type="button" data-prev="chap:treaty">The Treaty</button><span class="lvl">chapter 1 · <i class="mk k" aria-hidden="true"></i> knot</span></span><button type="button" class="alsoin" id="alsoin">Also in 2 more ›</button></nav>
     <h1>The Paris Peace Settlement</h1>
     <div class="sub" id="sub"><span><b>1919</b> to 1923</span><span class="rest">·</span><span class="rest">Paris</span><span class="rest">·</span><span class="rest" id="rt">reading time</span></div>
     <p class="line" id="tline">Five treaties ended the Great War, dissolved three empires and left Germany's place in Europe unresolved.</p>
@@ -849,6 +865,17 @@ p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
       +'<button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,src); if(x.ll){ sheetPinned=true; turnTo(x.ll,true); } }
   function bindPrev(b){ b.addEventListener('click',function(){preview(b.dataset.prev,b)}); }
+  /* every place this event sits: the path the reader came through first, then the others; planned ones are marked */
+  (function(){ var b=document.getElementById('alsoin'); if(!b)return;
+    var P=[{trail:['Germany','Weimar Germany','The Treaty'],size:'k',note:'You came this way'},
+           {trail:['The Ottomans','The Fall of the Ottomans'],plan:true,note:'Planned: the chronicle is not written yet'},
+           {trail:['Arab Nationalism'],plan:true,note:'Planned: the chronicle is not written yet'}];
+    var MK={k:'<i class="mk k"></i>knot',f:'<i class="mk s"></i>fibre',s:'<i class="mk f"></i>strand'};
+    b.addEventListener('click',function(){
+      var h='<div class="kind">Where this event sits</div><h3 id="sheetTitle">The Paris Peace Settlement</h3><div class="wplaces">'
+        +P.map(function(x,i){ return '<div class="pl'+(i===0?' here':'')+(x.plan?' plan':'')+'"><div class="trail">'+x.trail.map(esc).join('<span class="tsep">›</span>')+'</div><div class="meta">'+(x.size?MK[x.size]+' · ':'')+esc(x.note)+'</div></div>'; }).join('')
+        +'</div><p style="font:13px/1.5 var(--ui);color:var(--ink2);margin:8px 0 0">The page follows the path you came by: its size, its Next and its chain. Open it from another place and it follows that one.</p><div class="acts"><button type="button" class="close" data-close>Close</button></div>';
+      openSheet(h,b); }); })();
   /* Somewhere else: a random chronicle, story or event */
   document.getElementById('wander').addEventListener('click',function(){ var pool=Object.keys(X).filter(function(k){return /^(chron|story|str):/.test(k)}).concat(A.events.filter(function(e){return e.bluf}).slice(0,60).map(function(e){return 'ev:'+e.id})); var k=pool[Math.floor(Math.random()*pool.length)]; preview(k,this); });
   /* tooltips: hover or focus on a laptop, a tap on a phone */

@@ -114,7 +114,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
     swipe and shake never carry anything a tap cannot reach.
 
 15. **Breadcrumb on every page.** Atlas > Ottomans > Rise > 1453, each part a link. The
-    reader can always say where they are, what came before and what comes next.
+    reader can always say where they are, what came before and what comes next. Each step
+    carries its level in small type under it (chronicle, story 8 of 12, chapter 1 · knot), and
+    a page in more than one place ends its path with "Also in N more" (structure.md).
 
 16. **The same control behaves the same on every page.** A chip, a card, a toggle or a
     slider learned once works the same everywhere. Two pages by two sessions must read

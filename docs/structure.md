@@ -91,6 +91,12 @@ Germany's chapter The Treaty and sits in chapters of the Ottoman and Arab chroni
 - On a chapter's thread, an event that sits in other chapters shows them as "Also in".
 - A reader who arrives from a chapter sees that chapter in the event page's breadcrumb and
   Back, so the context they came through is the one offered first.
+- Every page opens with its path, each step labelled with its level (Cade, 2026-11-08):
+  Germany (chronicle) › Weimar Germany (story 8 of 12) › The Treaty (chapter 1 · knot). The
+  path is the one the reader came by; with no route, the page's home path. Where a page sits
+  in more than one place (an event in several chapters, a story in several chronicles), "Also
+  in N more" ends the path and opens every path with the size in each, the reader's own
+  marked. Choosing another path makes the page follow it: its size, its Next and its chain.
 
 ## What a reader can do
 
