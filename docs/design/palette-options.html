@@ -1,0 +1,128 @@
+<title>Atlas Palette Options</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: four candidate palettes, each a pair of page slices (light, dark) built from the same tokens, with the contrast numbers under each. */
+:root{
+  --bg:#f6f3ec; --surface:#fdfbf7; --ink:#1d1f24; --ink2:#50545c; --ink3:#7d8189; --rule:#d9d3c6; --accent:#1f3a63;
+  --display:"EB Garamond",Georgia,serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme: dark){:root:not([data-theme="light"]){--bg:#17181c;--surface:#1f2126;--ink:#ece8df;--ink2:#b9b4a8;--ink3:#878379;--rule:#3a3c43;--accent:#8fb0e3;color-scheme:dark}}
+:root[data-theme="dark"]{--bg:#17181c;--surface:#1f2126;--ink:#ece8df;--ink2:#b9b4a8;--ink3:#878379;--rule:#3a3c43;--accent:#8fb0e3;color-scheme:dark}
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.55 var(--body);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));padding-block:28px 56px}
+.wrap{max-width:64rem;margin:0 auto}
+.eyebrow{font:500 13px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2);margin:0 0 10px}
+h1{font:500 clamp(34px,7vw,48px)/1.04 var(--display);margin:0 0 12px;text-wrap:balance}
+.lede{font:400 19px/1.5 var(--body);color:var(--ink2);max-width:46rem;margin:0 0 26px;text-wrap:pretty}
+.opt{border-top:1px solid var(--rule);padding:26px 0 30px}
+.opt:last-of-type{border-bottom:1px solid var(--rule)}
+.opt h2{font:500 28px/1.1 var(--display);margin:0 0 4px;display:flex;align-items:baseline;gap:12px;flex-wrap:wrap}
+.opt h2 .n{font:500 13px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.opt .why{font:16px/1.5 var(--body);color:var(--ink2);margin:0 0 16px;max-width:50rem}
+.pair{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+@media (max-width:760px){.pair{grid-template-columns:1fr}}
+/* a page slice built only from its own tokens */
+.slice{border-radius:12px;padding:16px 18px 14px;background:var(--p-bg);color:var(--p-ink);border:1px solid var(--p-rule);min-width:0;font:16px/1.5 var(--body)}
+.slice .lab{font:500 10.5px/1.4 var(--display);letter-spacing:.14em;text-transform:uppercase;color:var(--p-ink3);margin:0 0 8px}
+.slice .kick{font:500 12px/1.4 var(--display);letter-spacing:.12em;text-transform:uppercase;color:var(--p-ink2);margin:0 0 2px}
+.slice .kick a{color:var(--p-chron);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.slice h3{font:500 30px/1.05 var(--display);margin:0 0 6px;color:var(--p-ink)}
+.slice .sub{font:14px/1.4 var(--display);color:var(--p-ink2);margin:0 0 12px}
+.slice .sub b{color:var(--p-accent);font-weight:600}
+.slice p{margin:0 0 12px;color:var(--p-ink)}
+.slice p.patch{color:var(--p-ink2)}
+.slice .lk{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px}
+.slice .lk.person{color:var(--p-person)}.slice .lk.polity{color:var(--p-polity)}.slice .lk.chron{color:var(--p-chron)}.slice .lk.feature{color:var(--p-feature)}
+.slice .kn{display:grid;grid-template-columns:16px 3rem 1fr;gap:8px;align-items:baseline;margin:0 0 6px}
+.slice .kn .yr{color:var(--p-accent);font:600 14px/1.3 var(--display);letter-spacing:.04em}
+.slice .kn .t{color:var(--p-ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--p-accent);text-decoration-thickness:1px;font:500 17px/1.3 var(--display)}
+.slice .kn .sm{font:13px/1.45 var(--ui);color:var(--p-ink2);grid-column:3}
+.mk{display:inline-block;width:12px;height:12px;align-self:center}
+.mk.k{background:var(--p-accent);clip-path:polygon(50% 0,100% 50%,50% 100%,0 50%)}
+.mk.f{width:9px;height:9px;border-radius:50%;background:var(--p-accent);margin:0 1.5px}
+.mk.s{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--p-ink2);margin:0 1.5px}
+.slice .conn{display:grid;grid-template-columns:2rem 1fr;gap:8px;align-items:center;margin:4px 0 10px}
+.slice .conn .ln{height:30px;width:0;justify-self:center;border-left:3px solid var(--p-accent);position:relative}
+.slice .conn .ln::after{content:"";position:absolute;left:-6.5px;bottom:-3px;border:5px solid transparent;border-top:7px solid var(--p-accent)}
+.slice .conn .ph{font:13.5px/1.35 var(--ui);color:var(--p-ink)}
+.slice .conn .gw{font:11.5px/1.3 var(--ui);color:var(--p-ink3)}
+.slice .conn .gw b{color:var(--p-ink2);font-weight:500}
+.slice .chips{display:flex;gap:6px;flex-wrap:wrap;margin:0 0 12px}
+.slice .chip{font:12.5px/1 var(--ui);padding:7px 10px;border-radius:999px;border:1px solid var(--p-rule);color:var(--p-ink2);background:var(--p-surface)}
+.slice .chip.on{background:var(--p-ink);color:var(--p-bg);border-color:var(--p-ink)}
+.slice .pill{display:inline-flex;align-items:center;gap:8px;border-radius:999px;background:var(--p-surface);border:1px solid var(--p-rule);padding:4px 12px 4px 4px;font:600 14px/1 var(--ui);color:var(--p-accent);box-shadow:0 4px 14px rgba(0,0,0,.08)}
+.slice .pill .g{background:var(--p-accent);color:var(--p-bg);border-radius:999px;padding:9px 12px;font-weight:500}
+.map{position:relative;height:118px;border-radius:8px;overflow:hidden;background:var(--p-sea);margin:0 0 10px;border:1px solid var(--p-rule)}
+.map svg{position:absolute;inset:0;width:100%;height:100%}
+.map .cap{position:absolute;right:8px;bottom:6px;font:10.5px/1 var(--ui);color:var(--p-ink3)}
+.legend{display:flex;gap:10px;flex-wrap:wrap;font:11.5px/1.3 var(--ui);color:var(--p-ink2);margin:0 0 12px}
+.legend span{display:inline-flex;align-items:center;gap:5px}
+.legend i{width:11px;height:11px;border-radius:2px;display:inline-block;border:1px solid rgba(0,0,0,.12)}
+.nums{display:grid;grid-template-columns:repeat(auto-fill,minmax(7.5rem,1fr));gap:6px 12px;font:12px/1.4 var(--ui);color:var(--p-ink2);border-top:1px solid var(--p-rule);padding-top:10px;margin-top:4px}
+.nums b{color:var(--p-ink);font-weight:600;font-variant-numeric:tabular-nums}
+.nums .bad b{color:var(--p-person)}
+.verdict{margin:34px 0 0;border-left:2px solid var(--accent);padding:2px 0 2px 14px}
+.verdict b{display:block;font:500 20px/1.3 var(--display);margin-bottom:4px}
+.verdict p{margin:0 0 8px;font:16px/1.5 var(--body);color:var(--ink2)}
+.foot{font:13px/1.5 var(--ui);color:var(--ink3);margin:26px 0 0;max-width:46rem}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Meanwhile Atlas · design note, 8 November 2026</p>
+  <h1>Four palettes, light and dark</h1>
+  <p class="lede">Each is one set of named colours: the page ground, three inks, a rule, one accent, the four link colours by kind (person, country, chronicle, place), the map's sea, land and border, and six owner fills for the before-and-after maps. The dark side is built from the same set, shifted, never inverted. Every slice is the same piece of page. The numbers under each are contrast ratios; 4.5 is the floor for text, 3 for marks and lines.</p>
+  <div id="sheet"></div>
+  <div class="verdict" id="verdict"></div>
+  <p class="foot">The grades keep their line styles in every palette: solid for Necessary and Sufficient, dashed for Contributing, dotted for Contested, grey with a cross-stroke for Coincident. Colour never carries a grade alone, so a reader who cannot see a hue still reads the line.</p>
+</div>
+
+<script>
+(function(){
+  var P=[
+    {n:'A',t:'Prussian on paper',why:'What the mocks use now. A warm paper ground, a Prussian blue accent, the four link kinds in madder, verdigris, indigo and ochre, the pigments of a printed map. The dark side is a blue-black with the same paper warmth in its inks. Quiet, legible, and close to a known look.',
+     light:{bg:'#f6f3ec',surface:'#fdfbf7',ink:'#1d1f24',ink2:'#50545c',ink3:'#7d8189',rule:'#d9d3c6',accent:'#1f3a63',person:'#8b2f2f',polity:'#2f6b5f',chron:'#3a3f8f',feature:'#8a6118',sea:'#f6f3ec',land:'#e9e4d7',border:'#b9b2a2',own:['#c9d3e3','#e6c9bf','#cfdcc8','#eadcb3','#dcd0e6','#e8d6c0']},
+     dark:{bg:'#17181c',surface:'#1f2126',ink:'#ece8df',ink2:'#b9b4a8',ink3:'#878379',rule:'#3a3c43',accent:'#8fb0e3',person:'#e09a93',polity:'#86c3b4',chron:'#aeb2ee',feature:'#d8b76a',sea:'#17181c',land:'#2a2d34',border:'#4d515b',own:['#34496b','#6b3f3a','#3b5a44','#6b5a2a','#4d4068','#5e4a3a']}},
+    {n:'B',t:'Vellum and oxblood',why:'Warmer and older: a vellum ground with a faint yellow, a sepia-black ink, and oxblood red for the accent, the colour of a leather binding and the border lines on hand-coloured maps. Links in verdigris, indigo, umber and a deeper madder. The dark side is a deep umber rather than a blue-black. The most "atlas" of the four, and the one nearest to costume.',
+     light:{bg:'#f3ecdd',surface:'#faf6ec',ink:'#2a2420',ink2:'#5c5248',ink3:'#8a7f72',rule:'#d8ccb6',accent:'#7a2b2b',person:'#9a3a2a',polity:'#2f6b5f',chron:'#3d4a8a',feature:'#7a5a1e',sea:'#efe6d2',land:'#e4dac3',border:'#b3a386',own:['#e3c3b3','#c7d2dd','#cfd9c3','#e6d8ad','#d9cbe0','#e5d3bd']},
+     dark:{bg:'#1b1714',surface:'#24201c',ink:'#eee6d8',ink2:'#bdb2a3',ink3:'#8a8073',rule:'#3f3832',accent:'#d98b7a',person:'#e3998a',polity:'#8cc4b2',chron:'#aab0ec',feature:'#d4b36e',sea:'#1b1714',land:'#2b2621',border:'#55493f',own:['#6b3b33','#394a63','#3b5a44','#6b5a2a','#4d4068','#5e4a3a']}},
+    {n:'C',t:'Slate and copper',why:'Our own feel rather than the map\'s: a cool, very light slate ground with no yellow in it, a near-black ink, and copper for the accent, warm metal against cool stone. Links in a brick red, a sea teal, a blue-violet and a bronze. The dark side is a deep slate with the copper brightened. Modern, and the least like anything printed before 1900.',
+     light:{bg:'#f2f3f1',surface:'#fbfbfa',ink:'#171a1f',ink2:'#4c525b',ink3:'#7b818a',rule:'#d5d9d6',accent:'#a04e22',person:'#9b2f2f',polity:'#1f6b74',chron:'#45489a',feature:'#7a5a1e',sea:'#eceeeb',land:'#dfe3de',border:'#aab0a9',own:['#f0cdb9','#c6dde0','#d2dcc7','#ebdcae','#d8d0e8','#e3d5c4']},
+     dark:{bg:'#121519',surface:'#1b1f25',ink:'#e9ebe8',ink2:'#b4b9bf',ink3:'#7f858d',rule:'#333941',accent:'#e0906a',person:'#e49a93',polity:'#7ec6cc',chron:'#aab0ee',feature:'#d4b36e',sea:'#121519',land:'#232a32',border:'#4a525c',own:['#6e3f2a','#2f5560','#3b5a44','#6b5a2a','#4d4068','#5e4a3a']}},
+    {n:'D',t:'Ink and verdigris',why:'Paper and ink as in A, with the accent moved to verdigris, the green-blue of old copper roofs and the sea on hand-coloured charts. Links in madder, a slate blue, indigo and ochre, so no link shares the accent\'s hue. The dark side is a green-black. Between A and B: it keeps the map feeling but owns a colour nobody else uses for a history site.',
+     light:{bg:'#f6f3ec',surface:'#fdfbf7',ink:'#1d1f24',ink2:'#50545c',ink3:'#7d8189',rule:'#d9d3c6',accent:'#23635f',person:'#8b2f2f',polity:'#3b5a82',chron:'#3a3f8f',feature:'#8a6118',sea:'#f6f3ec',land:'#e9e4d7',border:'#b9b2a2',own:['#c3dcd6','#e6c9bf','#c9d4e3','#eadcb3','#dcd0e6','#e8d6c0']},
+     dark:{bg:'#141a19',surface:'#1c2423',ink:'#e9ebe5',ink2:'#b4bbb5',ink3:'#7f8882',rule:'#33403d',accent:'#7fc4bf',person:'#e09a93',polity:'#93b1dc',chron:'#aeb2ee',feature:'#d8b76a',sea:'#141a19',land:'#242f2d',border:'#4a5a56',own:['#2f5a56','#6b3f3a','#34496b','#6b5a2a','#4d4068','#5e4a3a']}}
+  ];
+  function lum(h){ var c=h.replace('#',''); var r=parseInt(c.substr(0,2),16)/255,g=parseInt(c.substr(2,2),16)/255,b=parseInt(c.substr(4,2),16)/255; function f(x){return x<=0.03928?x/12.92:Math.pow((x+0.055)/1.055,2.4)} return 0.2126*f(r)+0.7152*f(g)+0.0722*f(b); }
+  function cr(a,b){ var x=lum(a),y=lum(b); var hi=Math.max(x,y),lo=Math.min(x,y); return (hi+0.05)/(lo+0.05); }
+  function vars(t){ var s=''; for(var k in t){ if(k==='own'){ t.own.forEach(function(c,i){s+='--p-o'+i+':'+c+';'}); } else s+='--p-'+k+':'+t[k]+';'; } return s; }
+  function num(l,a,b,floor){ var v=cr(a,b); return '<div class="'+(v<floor?'bad':'')+'">'+l+' <b>'+v.toFixed(1)+'</b></div>'; }
+  function slice(t,mode){
+    var h='<div class="slice" style="'+vars(t)+'">';
+    h+='<p class="lab">'+mode+'</p>';
+    h+='<p class="kick"><a>Germany</a> › story 8 of 12</p><h3>Weimar Germany</h3><p class="sub"><b>1919</b> to 1933 · Berlin · five chapters</p>';
+    h+='<div class="chips"><span class="chip on">Briefing</span><span class="chip">Chapters</span><span class="chip">Meanwhile</span></div>';
+    h+='<p>The men who founded it had to sign the <span class="lk chron">Paris settlement</span> because the army told them Germany could not fight on. <span class="lk person">Gustav Stresemann</span> steered <span class="lk polity">Germany</span> back into Europe from the <span class="lk feature">Rhine</span> to Locarno.</p>';
+    h+='<p class="patch">The republic was ten weeks old when the victors met in Paris. The right called the signature a stab in the back.</p>';
+    h+='<div class="kn"><i class="mk k"></i><span class="yr">1919</span><span class="t">The Paris Peace Settlement</span><span class="sm">The victors wrote five treaties and redrew the map without the defeated at the table.</span></div>';
+    h+='<div class="kn"><i class="mk f"></i><span class="yr">1919</span><span class="t">Versailles</span></div><div class="kn"><i class="mk s"></i><span class="yr">1919</span><span class="t" style="text-decoration:none;color:var(--p-ink2);font-size:15.5px">The German Delegation Receives the Terms</span></div>';
+    h+='<div class="conn"><div class="ln"></div><div><div class="ph">Without this, the next does not happen.</div><div class="gw"><b>Necessary</b> · high confidence · the note</div></div></div>';
+    h+='<div class="map"><svg viewBox="0 0 300 118" preserveAspectRatio="none" aria-hidden="true">'
+      +'<path d="M0 30 C40 10 80 40 120 25 C160 10 200 40 240 30 C270 22 290 50 300 40 L300 118 L0 118 Z" fill="var(--p-land)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M0 60 C30 50 50 70 80 62 L90 118 L0 118 Z" fill="var(--p-o0)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M80 62 C110 50 140 70 160 55 L170 118 L90 118 Z" fill="var(--p-o1)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M160 55 C190 45 210 70 230 58 L235 118 L170 118 Z" fill="var(--p-o2)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M230 58 C250 48 280 60 300 52 L300 118 L235 118 Z" fill="var(--p-o3)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M120 25 C140 18 160 30 180 26 L160 55 C140 62 120 50 100 56 Z" fill="var(--p-o4)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<path d="M180 26 C200 20 230 32 240 30 L230 58 L160 55 Z" fill="var(--p-o5)" stroke="var(--p-border)" stroke-width="1"/>'
+      +'<circle cx="150" cy="70" r="3.5" fill="var(--p-accent)" stroke="var(--p-bg)" stroke-width="1.5"/></svg><span class="cap">Europe, 1920</span></div>';
+    h+='<div class="legend"><span><i style="background:var(--p-o0)"></i>France</span><span><i style="background:var(--p-o1)"></i>Germany</span><span><i style="background:var(--p-o2)"></i>Poland</span><span><i style="background:var(--p-o3)"></i>Soviet Russia</span><span><i style="background:var(--p-o4)"></i>Czechoslovakia</span><span><i style="background:var(--p-o5)"></i>Austria</span></div>';
+    h+='<div><span class="pill"><span class="g">Globe</span>1919</span></div>';
+    h+='<div class="nums">'+num('ink',t.ink,t.bg,4.5)+num('ink 2',t.ink2,t.bg,4.5)+num('ink 3',t.ink3,t.bg,3)+num('accent',t.accent,t.bg,4.5)+num('person',t.person,t.bg,4.5)+num('country',t.polity,t.bg,4.5)+num('chronicle',t.chron,t.bg,4.5)+num('place',t.feature,t.bg,4.5)+num('accent on surface',t.accent,t.surface,4.5)+'</div>';
+    return h+'</div>';
+  }
+  var h=''; P.forEach(function(p){ h+='<section class="opt" id="p'+p.n+'"><h2><span class="n">'+p.n+'</span>'+p.t+'</h2><p class="why">'+p.why+'</p><div class="pair">'+slice(p.light,'light')+slice(p.dark,'dark')+'</div></section>'; });
+  document.getElementById('sheet').innerHTML=h;
+  document.getElementById('verdict').innerHTML='<b>My recommendation: D, ink and verdigris, with A as the safe second.</b><p>A is good and proven across eleven mock passes, and it is also the look a reader has seen on other history sites: cream and navy. D keeps everything that works in A, the paper, the inks, the four pigments for links, and moves the one colour that carries the atlas\'s identity, the accent, to a green-blue that no competitor uses and that belongs to maps by right: verdigris is the sea on hand-coloured charts and the roofs of old capitals. The dark side becomes a green-black instead of a blue-black, which reads as its own thing rather than as a default dark mode.</p><p>B is beautiful and would date the site: oxblood on vellum says "antique" before it says "atlas". C is the most modern and the least ours; copper on slate is a look many product sites wear now.</p><p>Whichever you pick, the rule is the same: one accent, four link pigments that never share its hue, grades told by line style, and the dark side built from the same set and checked against the same floors.</p>';
+})();
+</script>

@@ -1,0 +1,762 @@
+<title>Atlas Event Page v10</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400;1,6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="atlas-data.js"></script>
+<style>
+/* Paper and chart ink. The globe opens the page and shrinks with the scroll; the reading
+   slides up under it. One accent (Prussian blue); kinds in engraver's pigments. */
+:root{
+  --bg:#F7F5F0; --surface:#FFFFFF; --surface2:#F1EEE7; --ink:#1A1F2B; --ink2:#525A6B; --ink3:#8A909E; --rule:#DED9CF;
+  --accent:#1F4E79; --on-accent:#FFFFFF;
+  --k-person:#8C2F39; --k-polity:#2F6B4F; --k-chron:#5B4A8A; --k-feature:#7A5A2E;
+  --sea:#DCE5EA; --land:#EFEAE0; --coast:#8B93A0; --grat:#CFD8DE; --border:rgba(31,78,121,.55); --here:rgba(31,78,121,.16);
+  --scrim:rgba(26,31,43,.42); --shadow:0 10px 32px rgba(26,31,43,.14); --shadow2:0 2px 10px rgba(26,31,43,.08);
+  --display:"Newsreader",Georgia,"Times New Roman",serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,-apple-system,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#1C1A17; --surface:#262320; --surface2:#2E2A26; --ink:#EFE8DB; --ink2:#BDB4A6; --ink3:#857C70; --rule:#3B362F;
+  --accent:#9CC0DF; --on-accent:#10202E;
+  --k-person:#E8A6A0; --k-polity:#8FC9A8; --k-chron:#C0B1EA; --k-feature:#D6B27E;
+  --sea:#1F2328; --land:#2F2B26; --coast:#6E665B; --grat:#2A2D31; --border:rgba(156,192,223,.6); --here:rgba(156,192,223,.2);
+  --scrim:rgba(0,0,0,.55); --shadow:0 10px 32px rgba(0,0,0,.5); --shadow2:0 2px 10px rgba(0,0,0,.35); color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#1C1A17; --surface:#262320; --surface2:#2E2A26; --ink:#EFE8DB; --ink2:#BDB4A6; --ink3:#857C70; --rule:#3B362F;
+  --accent:#9CC0DF; --on-accent:#10202E;
+  --k-person:#E8A6A0; --k-polity:#8FC9A8; --k-chron:#C0B1EA; --k-feature:#D6B27E;
+  --sea:#1F2328; --land:#2F2B26; --coast:#6E665B; --grat:#2A2D31; --border:rgba(156,192,223,.6); --here:rgba(156,192,223,.2);
+  --scrim:rgba(0,0,0,.55); --shadow:0 10px 32px rgba(0,0,0,.5); --shadow2:0 2px 10px rgba(0,0,0,.35); color-scheme:dark }
+
+*{box-sizing:border-box}
+html{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:0 calc(110px + env(safe-area-inset-bottom,0px));-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+.wrap{max-width:40rem;margin:0 auto}
+
+/* The stage: fixed at the top; the globe and the title live here and shrink with the scroll. */
+.stage{position:fixed;top:env(safe-area-inset-top,0px);left:0;right:0;z-index:8;pointer-events:none}
+.stage .band{position:absolute;left:0;right:0;top:0;height:86px;background:var(--bg);opacity:0;border-bottom:1px solid var(--rule)}
+.stage .gw{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;pointer-events:auto}
+.stage canvas{display:block;border-radius:50%;touch-action:none;box-shadow:var(--shadow2)}
+.stage .tw{position:absolute;left:0;top:0;transform-origin:0 0;will-change:transform;pointer-events:auto;width:calc(100vw - 32px);max-width:40rem}
+.stage .tw h1{font:500 clamp(34px,8.6vw,46px)/1.06 var(--display);margin:0;letter-spacing:-.012em;text-wrap:balance}
+.stage .tw .sub{font:14px/1.4 var(--ui);color:var(--ink2);margin:8px 0 0;display:flex;gap:8px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.stage .tw .sub b{color:var(--accent);font-weight:600}
+.stage .kicker{font:13px/1.4 var(--ui);color:var(--ink2);margin:0 0 8px;display:flex;gap:6px;flex-wrap:wrap;align-items:center}
+.stage .hsub{position:absolute;left:0;top:0;font:12px/1.3 var(--ui);color:var(--ink2);opacity:0;pointer-events:auto;white-space:nowrap}
+.stage .topbar{position:absolute;top:8px;left:max(16px,env(safe-area-inset-left,0px));display:flex;align-items:center;pointer-events:auto}
+.back{display:inline-flex;align-items:center;gap:4px;min-height:38px;min-width:38px;padding:0 12px 0 8px;border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--ink);font:13px/1 var(--ui);box-shadow:var(--shadow2);transition:padding .2s}
+.stage.small .back{padding:0 9px}
+.stage.small .back span{display:none}
+.pageindex.off{visibility:hidden}
+.mock{position:fixed;right:max(12px,env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:14;background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:8px 10px;font:11px/1 var(--ui);color:var(--ink2);box-shadow:var(--shadow2);min-height:32px}
+.stage .index{position:absolute;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));top:86px;display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;font:12px/1 var(--ui);opacity:0;pointer-events:none;background:var(--bg);padding:6px 0 8px;margin:0 auto;max-width:40rem}
+.stage .index::-webkit-scrollbar{display:none}
+.stage .index.on{opacity:1;pointer-events:auto}
+.index a{flex:none;text-decoration:none;color:var(--ink2);padding:8px 10px;border-radius:999px;min-height:32px;display:inline-flex;align-items:center;border:1px solid transparent}
+.index a[aria-current="true"]{color:var(--ink);border-color:var(--rule);background:var(--surface)}
+.spacer{height:var(--heroH,560px)}
+.hint{position:absolute;left:max(16px,env(safe-area-inset-left,0px));font:12px/1 var(--ui);color:var(--ink2);background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:3px;pointer-events:auto;box-shadow:var(--shadow2);display:flex;align-items:center;gap:2px}
+.hint button{padding:7px 10px;border-radius:999px;min-height:30px;color:var(--ink2);font-variant-numeric:tabular-nums}
+.hint button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.hint span{padding:0 8px 0 4px}
+
+/* The opening lines under the title, in the flow. */
+.open{margin:0 0 6px}
+.open .line{font:italic 400 19px/1.45 var(--display);color:var(--ink2);margin:0 0 14px;max-width:34rem;text-wrap:pretty}
+.strong{display:grid;gap:8px;font:14px/1.45 var(--ui);color:var(--ink2);margin:0 0 20px}
+.strong .a{display:grid;grid-template-columns:1.2rem 1fr;gap:8px;align-items:baseline}
+.strong .a .d{color:var(--accent);font-weight:600}
+.pageindex{display:flex;gap:4px;overflow-x:auto;scrollbar-width:none;font:12px/1 var(--ui);margin:0 0 6px}
+.pageindex::-webkit-scrollbar{display:none}
+
+/* Reading. */
+.layer{scroll-margin-top:140px}
+.lmark{display:flex;align-items:baseline;gap:10px;margin:38px 0 6px;font:12px/1.3 var(--ui);color:var(--ink3)}
+.lmark b{font:600 13px/1.3 var(--ui);color:var(--ink2);letter-spacing:.04em;text-transform:uppercase}
+.lmark::after{content:"";flex:1;border-top:1px solid var(--rule);align-self:center}
+h2{font:500 26px/1.15 var(--display);margin:34px 0 10px;letter-spacing:-.006em}
+h3{font:500 19px/1.3 var(--display);margin:20px 0 6px}
+.lede{font:400 21px/1.5 var(--display);margin:0 0 14px;text-wrap:pretty}
+p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
+.why{display:grid;gap:10px;margin:0 0 14px}
+.why .f{display:grid;grid-template-columns:5.2rem 1fr;gap:12px;align-items:start}
+.why .f .lab{font:600 12px/1.8 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase}
+.why .f.dec .lab,.why .f.trig .lab{color:var(--accent)}
+.why .f p{margin:0}
+.terms{width:100%;border-collapse:collapse;font:15px/1.45 var(--body);margin:0 0 12px}
+.terms th{text-align:left;color:var(--ink3);font:500 12px/1.3 var(--ui);padding:0 8px 6px 0;border-bottom:1px solid var(--rule)}
+.terms td{vertical-align:top;padding:9px 8px 9px 0;border-bottom:1px solid var(--rule)}
+.terms td:first-child{white-space:nowrap;font-weight:500}
+.terms td:first-child small{display:block;font:13px/1.3 var(--ui);color:var(--ink2)}
+.terms td.num{font-variant-numeric:tabular-nums;white-space:nowrap;font-family:var(--ui)}
+.tablewrap{overflow-x:auto;margin:0 0 4px}
+.tl{display:grid;gap:2px;margin:0 0 14px}
+.tl button{display:grid;grid-template-columns:7.4rem 1fr;gap:10px;padding:10px 10px;border-radius:10px;min-height:44px;align-items:start;border:1px solid transparent}
+.tl button:hover{background:var(--surface);border-color:var(--rule)}
+.tl .n{font:500 16px/1.35 var(--display);color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--accent);text-decoration-thickness:1px}
+.tl .n small{display:block;font:12px/1.3 var(--ui);color:var(--ink2);text-decoration:none}
+.tl .so{font:15px/1.45 var(--body);color:var(--ink)}
+.nextprev{display:grid;grid-template-columns:1fr 1fr;gap:10px;margin:26px 0 0}
+.nextprev button{border:1px solid var(--rule);border-radius:12px;padding:10px 12px;min-height:56px;background:var(--surface);display:flex;flex-direction:column;gap:2px;box-shadow:var(--shadow2)}
+.nextprev .lab{font:11px/1.3 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase}
+.nextprev .t{font:500 16px/1.25 var(--display);color:var(--ink)}
+.nextprev .d{font:12px/1.3 var(--ui);color:var(--ink2)}
+.nextprev button.next{text-align:right;align-items:flex-end}
+.setup{display:flex;flex-wrap:wrap;gap:8px 16px;margin:0 0 12px}
+.readings{display:grid;gap:10px;margin:0 0 12px}
+.readings div{border-left:2px solid var(--rule);padding-left:12px}
+.readings b{font:500 12px/1.4 var(--ui);color:var(--ink2);letter-spacing:.04em;text-transform:uppercase;display:block;margin:0 0 2px}
+
+/* Links by kind. */
+.lk{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--accent);border-radius:3px;padding:0 1px;margin:0 -1px;color:var(--ink)}
+.lk.person{color:var(--k-person);text-decoration-color:var(--k-person)}
+.lk.polity{color:var(--k-polity);text-decoration-color:var(--k-polity)}
+.lk.chron{color:var(--k-chron);text-decoration-color:var(--k-chron)}
+.lk.feature{color:var(--k-feature);text-decoration-color:var(--k-feature)}
+.lk:hover{background:color-mix(in srgb,currentColor 10%,transparent)}
+
+/* Size marks. */
+.mk{display:inline-block;width:11px;height:11px;border-radius:50%;vertical-align:-1px;flex:none}
+.mk.k{background:var(--accent)}
+.mk.s{border:2px solid var(--accent);width:11px;height:11px}
+.mk.f{width:6px;height:6px;background:var(--ink2);margin:0 3px}
+
+/* The chain: one spine. */
+.chain .head{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap;margin:0 0 6px}
+.depth{display:flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden;font:12px/1 var(--ui);background:var(--surface)}
+.depth button{padding:9px 10px;min-height:36px;color:var(--ink2);display:inline-flex;align-items:center;gap:6px}
+.depth button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.depth button[aria-pressed="true"] .mk.k{background:var(--bg)} .depth button[aria-pressed="true"] .mk.s{border-color:var(--bg)} .depth button[aria-pressed="true"] .mk.f{background:var(--bg)}
+.trail{font:13px/1.4 var(--ui);color:var(--ink2);margin:6px 0 10px}
+.trail button{color:var(--accent);min-height:32px;text-decoration:underline;text-underline-offset:3px}
+.spine{position:relative;padding-left:2.6rem}
+.spine::before{content:"";position:absolute;left:12px;top:8px;bottom:8px;border-left:1px solid var(--rule)}
+.grp{font:12px/1.3 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase;margin:12px 0 8px}
+.ev{position:relative;margin:0 0 6px}
+.ev .dot{position:absolute;left:calc(-2.6rem + 7px);top:14px;width:11px;height:11px;border-radius:50%;background:var(--accent);border:2px solid var(--bg)}
+.ev.s .dot{background:var(--bg);border:2px solid var(--accent);box-shadow:0 0 0 2px var(--bg)}
+.ev .card{background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:10px 12px;display:grid;grid-template-columns:3.2rem 1fr;gap:8px;box-shadow:var(--shadow2)}
+.ev.s .card{background:transparent;box-shadow:none;padding:6px 12px}
+.ev .y{font:600 14px/1.5 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums}
+.ev .t{font:500 18px/1.3 var(--display);color:var(--ink)}
+.ev.s .t{font-size:16px}
+.ev .m{font:12px/1.5 var(--ui);color:var(--ink2);display:flex;gap:10px;flex-wrap:wrap;align-items:center}
+.ev .m button{color:var(--accent);text-decoration:underline;text-underline-offset:3px;min-height:28px}
+.ev.here .dot{width:15px;height:15px;left:calc(-2.6rem + 5px);top:16px;box-shadow:0 0 0 3px var(--here)}
+.ev.here .card{border-color:var(--accent);grid-template-columns:3.2rem 1fr}
+.ev.here .t{font-size:21px}
+.seg{position:relative;min-height:46px;display:flex;align-items:center;margin:0 0 6px}
+.seg .ln{position:absolute;left:calc(-2.6rem + 12px);top:-8px;bottom:-8px;width:0}
+.seg .ln i{position:absolute;left:-1.5px;top:0;bottom:0;border-left:3px solid var(--accent)}
+.seg .ln.contrib i{border-left-style:dashed}
+.seg .ln.contest i{border-left-style:dotted}
+.seg .ln.coinc i{border-left-color:var(--ink3);border-left-width:2px}
+.seg .ln.coinc::after{content:"";position:absolute;left:-7px;top:50%;width:14px;border-top:2px solid var(--ink3);transform:rotate(-30deg)}
+.seg .ln.lo i{border-left-width:2px;opacity:.7}
+.seg .ln.hi i{border-left-width:4px}
+.seg .ln::before{content:"";position:absolute;left:-5px;bottom:-1px;border:5px solid transparent;border-top:7px solid var(--accent)}
+.seg .ln.coinc::before{display:none}
+.seg .lab{display:flex;flex-direction:column;gap:1px;padding:6px 10px;border-radius:8px;min-height:44px;justify-content:center;margin-left:-10px}
+.seg .lab:hover{background:var(--surface)}
+.seg .lab .ph{font:14px/1.35 var(--ui);color:var(--ink)}
+.seg .lab .gw{font:12px/1.3 var(--ui);color:var(--ink3)}
+.seg .lab .gw b{font-weight:500;color:var(--ink2)}
+.more{margin:4px 0 8px}
+.more button{font:13px/1 var(--ui);color:var(--ink2);border:1px dashed var(--rule);border-radius:999px;padding:9px 12px;min-height:36px;background:var(--surface)}
+.empty{font:14px/1.5 var(--ui);color:var(--ink3);margin:0 0 8px}
+.treaties{grid-column:1 / -1;margin:8px 0 2px;border-top:1px solid var(--rule);padding-top:10px}
+.treaties .cap{font:12px/1.4 var(--ui);color:var(--ink2);margin:0 0 8px}
+.treaties .strip{position:relative;height:74px;overflow:visible}
+.treaties .axis{position:absolute;left:6px;right:6px;top:14px;border-top:1px solid var(--rule)}
+.treaties .tk{position:absolute;top:0;transform:translateX(-50%);display:flex;flex-direction:column;align-items:center;gap:2px;width:14.2%;min-height:44px;font:10.5px/1.2 var(--ui);color:var(--ink2);text-align:center}
+.treaties .tk i{width:9px;height:9px;border:2px solid var(--accent);border-radius:50%;background:var(--surface);display:block;margin:10px 0 4px}
+.treaties .tk span{white-space:normal;max-width:100%}
+.treaties .tk:hover{color:var(--ink)}
+.exits{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0 0;font:14px/1.4 var(--ui)}
+.exits a{color:var(--ink2)}
+
+/* Bottom line, key judgments, takeaways, the summary path, the explorer. */
+.bl{font:500 22px/1.4 var(--display);margin:0 0 12px;text-wrap:pretty}
+.kj{margin:0 0 16px;padding:0 0 0 1.1em;display:grid;gap:8px}
+.kj li{padding-left:2px}
+.kj li::marker{color:var(--accent)}
+.take{font:500 17px/1.5 var(--ui);color:var(--ink);margin:0 0 12px;max-width:60ch}
+.path{display:grid;gap:0;margin:6px 0 10px}
+.path .pc{display:grid;grid-template-columns:3.2rem 1fr;gap:8px;align-items:start;padding:8px 10px;border:1px solid var(--rule);border-radius:10px;background:var(--surface);min-height:44px}
+.path .pc.here{border-color:var(--accent);background:var(--surface2)}
+.path .pc .y{font:600 13px/1.5 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums}
+.path .pc .t{font:500 16px/1.3 var(--display);color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--accent)}
+.path .pc.here .t{text-decoration:none;font-size:17px}
+.path .pl{display:grid;grid-template-columns:3.2rem 1fr;gap:8px;align-items:center;min-height:30px;padding:0 10px}
+.path .pl .ln{position:relative;height:28px;width:0;justify-self:center}
+.path .pl .ln i{position:absolute;left:-1px;top:0;bottom:0;border-left:2px solid var(--accent)}
+.path .pl .ln.contrib i{border-left-style:dashed}
+.path .pl .ln.contest i{border-left-style:dotted}
+.path .pl .ln::before{content:"";position:absolute;left:-4px;bottom:-1px;border:4px solid transparent;border-top:6px solid var(--accent)}
+.path .pl .ph{font:12.5px/1.3 var(--ui);color:var(--ink2)}
+.expand{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-height:56px;margin:8px 0 0;padding:12px 16px;background:var(--accent);color:var(--on-accent);border-radius:12px;font:600 15px/1.3 var(--ui);box-shadow:var(--shadow2)}
+.expand .sub{font:400 12px/1.3 var(--ui);opacity:.85}
+.xp{position:fixed;inset:0;z-index:18;background:var(--bg);display:none;flex-direction:column;padding:calc(10px + env(safe-area-inset-top,0px)) max(16px,env(safe-area-inset-right,0px)) 0 max(16px,env(safe-area-inset-left,0px))}
+.xp.on{display:flex}
+.xhead{display:flex;justify-content:space-between;align-items:center;gap:10px;max-width:40rem;width:100%;margin:0 auto}
+.xk{font:12px/1.3 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase}
+.xt{font:500 20px/1.2 var(--display)}
+.xctl{display:flex;gap:8px;flex-wrap:wrap;margin:10px auto 0;max-width:40rem;width:100%}
+.seg{display:inline-flex;align-items:center;border:1px solid var(--rule);border-radius:999px;overflow:hidden;font:12px/1 var(--ui);background:var(--surface)}
+.seg .sl{padding:0 6px 0 12px;color:var(--ink3)}
+.seg button{padding:9px 11px;min-height:36px;color:var(--ink2);display:inline-flex;align-items:center;gap:6px}
+.seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.seg button[aria-pressed="true"] .mk.k{background:var(--bg)} .seg button[aria-pressed="true"] .mk.s{border-color:var(--bg)}
+.kinds{display:flex;gap:6px;flex-wrap:wrap;margin:8px auto 0;max-width:40rem;width:100%;font:12px/1 var(--ui)}
+.kinds .sl{color:var(--ink3);align-self:center;margin-right:2px}
+.kinds button{padding:8px 11px;min-height:34px;border:1px solid var(--rule);border-radius:999px;color:var(--ink2);background:var(--surface)}
+.kinds button[aria-pressed="true"]{background:var(--accent);color:var(--on-accent);border-color:var(--accent)}
+.kinds button.none{opacity:.45}
+.xtrail{font:12.5px/1.4 var(--ui);color:var(--ink2);margin:8px auto 0;max-width:40rem;width:100%}
+.xtrail button{color:var(--accent);text-decoration:underline;text-underline-offset:3px;min-height:28px}
+.xbody{flex:1;overflow:auto;margin:6px auto 0;max-width:40rem;width:100%;padding-bottom:calc(24px + env(safe-area-inset-bottom,0px))}
+.hop{margin:10px 0 0}
+.hop .hl{font:11px/1.3 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase;margin:0 0 6px;display:flex;justify-content:space-between}
+.xn{display:grid;grid-template-columns:3.2rem 1fr;gap:8px;align-items:start;padding:9px 10px;border:1px solid var(--rule);border-radius:10px;background:var(--surface);margin:0 0 6px;transition:opacity .2s}
+.xn.here{border-color:var(--accent);background:var(--surface2)}
+.xn.dim{opacity:.32}
+.xn .y{font:600 13px/1.5 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums}
+.xn .t{font:500 16px/1.3 var(--display);color:var(--ink);display:inline-flex;gap:7px;align-items:baseline;text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--accent)}
+.xn.here .t{text-decoration:none;font-size:18px}
+.xn .via{font:12.5px/1.35 var(--ui);color:var(--ink2);margin-top:3px}
+.xn .via button{color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-color:var(--rule);min-height:26px}
+.xn .via .g{display:inline-block;width:14px;border-top:2px solid var(--accent);vertical-align:middle;margin-right:5px}
+.xn .via .g.contrib{border-top-style:dashed} .xn .via .g.contest{border-top-style:dotted}
+.xn .tags{font:11px/1.4 var(--ui);color:var(--ink3);margin-top:3px;display:flex;gap:6px;flex-wrap:wrap}
+.xn .tags span{border:1px solid var(--rule);border-radius:999px;padding:1px 7px}
+.xn .tags span.hit{border-color:var(--accent);color:var(--accent)}
+.xn .acts{margin-top:4px;font:12px/1.3 var(--ui)}
+.xn .acts button{color:var(--accent);text-decoration:underline;text-underline-offset:3px;min-height:28px}
+
+/* Cause and effect entries: the writing is the link. */
+.cl{display:grid;gap:10px;margin:0 0 8px}
+.ce{display:grid;grid-template-columns:3.4rem 1fr;gap:10px;align-items:start}
+.ce .y{font:600 14px/1.55 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums}
+.ce .t{font:500 18px/1.3 var(--display);color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--accent);display:inline-flex;gap:7px;align-items:baseline}
+.ce p{margin:4px 0 0;font-size:16px}
+.ce .g{margin:4px 0 0;font:12.5px/1.4 var(--ui);color:var(--ink2);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.ce .g i{display:inline-block;width:18px;border-top:2.5px solid var(--accent)}
+.ce .g i.contrib{border-top-style:dashed} .ce .g i.contest{border-top-style:dotted} .ce .g i.lo{border-top-width:1.5px}
+.ce .g button{color:var(--accent);text-decoration:underline;text-underline-offset:3px;min-height:28px}
+.more2{margin:4px 0 0 3.9rem;font:14px/1.4 var(--ui)}
+.kj li b{font-weight:600}
+
+/* Before and after; the briefing. */
+.ba{border:1px solid var(--rule);border-radius:14px;background:var(--surface);box-shadow:var(--shadow2);padding:10px 12px 12px}
+.bah{display:flex;align-items:center;gap:10px;flex-wrap:wrap;margin:0 0 8px}
+.bas{font:12.5px/1.4 var(--ui);color:var(--ink3)}
+#baMap{display:block;width:100%;height:auto;border-radius:10px;background:var(--sea)}
+.bal{margin:10px 0 0;font-size:15px}
+.expand.brief{background:var(--surface);color:var(--ink);border:1px solid var(--rule)}
+.expand.brief .sub{color:var(--ink2);opacity:1}
+.expand.brief::after{content:"+";font:400 22px/1 var(--ui);color:var(--accent)}
+.expand.brief[aria-expanded="true"]::after{content:"–"}
+.aside{border-top:1px solid var(--rule);padding-top:12px;margin-top:16px;color:var(--ink2);font-size:16px}
+#briefBody h3:first-child{margin-top:14px}
+
+/* The key and the thread. */
+.key{display:flex;gap:14px;flex-wrap:wrap;font:12.5px/1.4 var(--ui);color:var(--ink2);margin:0 0 10px}
+.key span{display:inline-flex;align-items:center;gap:6px}
+.thread{position:relative;padding-left:2.2rem;margin:0 0 12px}
+.thread::before{content:"";position:absolute;left:11px;top:10px;bottom:10px;border-left:1.5px solid var(--rule)}
+.tn{position:relative;margin:0 0 10px}
+.tn .dot{position:absolute;left:calc(-2.2rem + 5px);top:9px;width:13px;height:13px;border-radius:50%;background:var(--accent);border:2px solid var(--bg)}
+.tn.s .dot{left:calc(-2.2rem + 6px);width:11px;height:11px;background:var(--bg);border:2px solid var(--accent);box-shadow:0 0 0 2px var(--bg)}
+.tn.f .dot{left:calc(-2.2rem + 8px);top:11px;width:7px;height:7px;background:var(--ink2);border:0;box-shadow:0 0 0 2px var(--bg)}
+.tn .row{display:grid;grid-template-columns:3.2rem 1fr;gap:8px;align-items:baseline}
+.tn .y{font:600 13px/1.6 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums}
+.tn .t{font:500 17px/1.3 var(--display);color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--accent)}
+.tn.here .t{text-decoration:none;font-weight:600}
+.tn.s .t{font-size:15.5px} .tn.f .t{font:400 15px/1.4 var(--body);text-decoration:none}
+.tn .sub{font:12px/1.4 var(--ui);color:var(--ink3);margin-top:1px}
+.tn .open{font:12.5px/1 var(--ui);color:var(--accent);text-decoration:underline;text-underline-offset:3px;min-height:28px;margin-top:2px}
+.tn .kids{margin:8px 0 0 -2.2rem;padding-left:1.1rem;border-left:1px dashed var(--rule)}
+.tn.f .row{grid-template-columns:1fr}
+.tn.f .y{display:none}
+.tn .kids .tn{margin:0 0 8px}
+.tn .kids .tn{padding-left:1.1rem}
+.tn .kids .tn .dot{left:-1.1rem;margin-left:-6px}
+.tn .kids .tn.f .dot{left:-1.1rem;margin-left:-4px}
+
+/* The time graph. */
+.tg{margin:18px 0 6px;border:1px solid var(--rule);border-radius:14px;background:var(--surface);box-shadow:var(--shadow2);overflow:hidden}
+.tgh{display:flex;justify-content:space-between;align-items:flex-start;gap:10px;padding:12px 14px 6px}
+.tgk{font:600 12px/1.3 var(--ui);color:var(--ink2);letter-spacing:.04em;text-transform:uppercase}
+.tgs{font:12.5px/1.4 var(--ui);color:var(--ink3);margin-top:2px;max-width:30ch}
+.tgx{flex:none;font:600 13px/1 var(--ui);color:var(--on-accent);background:var(--accent);border-radius:999px;padding:0 14px;min-height:38px;display:inline-flex;align-items:center}
+.tgsvg{padding:0 8px 8px 0}
+.tgsvg svg{display:block;width:100%;height:auto;font-family:var(--ui)}
+.tgsvg .ax{stroke:var(--rule);stroke-width:1}
+.tgsvg .tick{fill:var(--ink3);font-size:11px;font-variant-numeric:tabular-nums}
+.tgsvg .e{fill:none;stroke:var(--ink3);stroke-width:1.5;opacity:.55}
+.tgsvg .e.contrib{stroke-dasharray:4 4} .tgsvg .e.contest{stroke-dasharray:1.5 3}
+.tgsvg .e.hi{stroke-width:2}
+.tgsvg .e.main{stroke:var(--accent);opacity:1;stroke-width:2.5}
+.tgsvg .e.main.hi{stroke-width:3.2}
+.tgsvg .n{cursor:pointer}
+.tgsvg .n circle{fill:var(--surface);stroke:var(--ink2);stroke-width:2}
+.tgsvg .n.k circle{fill:var(--ink2)}
+.tgsvg .n.main circle{stroke:var(--accent)} .tgsvg .n.main.k circle{fill:var(--accent)}
+.tgsvg .n.here circle{fill:var(--accent);stroke:var(--accent)}
+.tgsvg .n text{fill:var(--ink);font-size:14px}
+.tgsvg .n.here text{font-weight:600;font-size:15px}
+.tgsvg .n .ch{fill:var(--ink3);font-size:11px}
+.tgsvg .n:hover circle{stroke-width:3}
+.tgsvg .n:focus-visible{outline:none} .tgsvg .n:focus-visible circle{stroke:var(--accent);stroke-width:3}
+
+/* The pill. */
+.pill{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:15;display:flex;align-items:center;gap:4px;background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:5px;box-shadow:var(--shadow)}
+.pill button{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;min-width:48px;border-radius:999px;padding:0 10px;color:var(--ink)}
+.pill button:hover{background:var(--surface2)}
+.pill .g{background:var(--accent);color:var(--on-accent);padding:0 16px;font:600 14px/1 var(--ui)}
+.pill .y{font:600 17px/1 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums;padding:0 14px}
+.pill svg{width:22px;height:22px}
+
+/* Sheets. */
+.scrim{position:fixed;inset:0;background:var(--scrim);z-index:20;display:none}
+.scrim.on{display:block}
+.sheet{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(84px + env(safe-area-inset-bottom,0px));width:min(94vw,26rem);z-index:21;background:var(--surface);border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow);padding:14px 16px;display:none;max-height:calc(100vh - 120px);overflow:auto}
+.sheet.on{display:block}
+.sheet .kind{font:12px/1.3 var(--ui);color:var(--ink2);display:flex;align-items:center;gap:6px}
+.sheet .kind i.k{display:inline-block;width:10px;height:10px;border-radius:50%}
+.sheet h3{font:500 22px/1.2 var(--display);margin:4px 0 2px;text-wrap:balance}
+.sheet .date{font:13px/1.3 var(--ui);color:var(--ink2);margin:0 0 8px;font-variant-numeric:tabular-nums}
+.sheet p{font-size:16px;margin:0 0 12px}
+.sheet .acts{display:flex;gap:8px;flex-wrap:wrap}
+.sheet .pri{background:var(--accent);color:var(--on-accent);border-radius:999px;padding:0 16px;min-height:44px;font:600 14px/1 var(--ui);display:inline-flex;align-items:center}
+.sheet .sec{border:1px solid var(--rule);border-radius:999px;padding:0 14px;min-height:44px;font:500 14px/1 var(--ui);display:inline-flex;align-items:center;color:var(--ink)}
+.sheet .close{color:var(--ink2);padding:0 10px;min-height:44px;font:14px/1 var(--ui)}
+.sheet .thumb{width:100%;height:84px;border-radius:10px;background:var(--land);border:1px solid var(--rule);margin:0 0 10px;display:grid;place-items:center;color:var(--ink2);font:12px var(--ui)}
+.sheet .note h4{font:600 12px/1.3 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase;margin:10px 0 4px}
+.sheet .note p{font-size:15px}
+.sheet .places{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0 4px}
+.sheet .places button{display:flex;align-items:center;gap:10px;min-height:48px;padding:0 12px;border:1px solid var(--rule);border-radius:12px;font:500 14px/1.2 var(--ui)}
+.sheet .places button svg{width:20px;height:20px;color:var(--ink2);flex:none}
+.sheet .places button[aria-current="page"]{border-color:var(--accent)}
+.sheet.big{width:min(96vw,32rem);padding:10px}
+.sheet.big canvas{width:100%;height:min(60vh,420px);display:block;border-radius:12px;touch-action:none;background:var(--sea)}
+.sheet.big .acts{padding:10px 6px 4px}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:22;background:var(--ink);color:var(--bg);font:14px/1.3 var(--ui);padding:10px 14px;border-radius:999px;display:none;max-width:90vw;text-align:center}
+.toast.on{display:block}
+</style>
+
+<div class="stage" id="stage">
+  <div class="band" id="band"></div>
+  <div class="gw" id="gw"><canvas id="globe" aria-label="The world in 1919, centred on Paris. Drag to turn it; tap when small to open it large."></canvas></div>
+  <div class="hint" id="hint"><button type="button" data-yr="1914">1914</button><button type="button" data-yr="1920" aria-pressed="true">1920</button><span>· drag</span></div>
+  <div class="tw" id="tw">
+    <div class="kicker" id="kicker"><button class="lk chron" type="button" data-prev="chron:germany">Germany</button><span>›</span><button class="lk" type="button" data-prev="story:treaty">The treaty</button><span>· 1914 to 1923</span></div>
+    <h1>The Paris Peace Settlement</h1>
+    <div class="sub" id="sub"><span><b>1919</b> to 1923</span><span>·</span><span>Paris</span><span>·</span><span>on the timeline at 28 June 1919</span></div>
+  </div>
+  <div class="hsub" id="hsub"><button class="lk chron" type="button" data-prev="chron:germany">Germany</button> › <button class="lk" type="button" data-prev="story:treaty">The treaty</button> · 1919 to 1923</div>
+  <div class="topbar">
+    <button class="back" type="button" data-act="Back: the exact place and year you left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg><span>Back</span></button>
+  </div>
+  <nav class="index" id="hdrIndex" aria-label="On this page"></nav>
+</div>
+<div class="spacer" id="spacer"></div>
+
+<main class="wrap">
+  <div class="open">
+    <p class="line">Five treaties ended the First World War, dissolved three empires and left Germany's place in Europe unresolved.</p>
+    <nav class="pageindex index" id="pageIndex" aria-label="On this page"></nav>
+  </div>
+
+  <section class="layer" id="sig">
+    <h2>Historical significance</h2>
+    <p>The Paris Peace Settlement is the set of five treaties, signed between June 1919 and August 1920 and revised at Lausanne in 1923, by which the winners of the First World War ended it and divided the lands of the losers.</p>
+    <ul class="kj">
+      <li>It dissolved three empires: Austria-Hungary, the Ottoman Empire and Germany's overseas empire.</li>
+      <li>It drew the borders of Poland, Czechoslovakia, Yugoslavia, Iraq, Syria, Lebanon and Jordan. Most of them still stand.</li>
+      <li>It left <button class="lk polity" type="button" data-prev="pol:germany">Germany</button> strong enough to undo it and gave no one the job of stopping that. The Second World War grew out of it.</li>
+    </ul>
+  </section>
+
+  <section class="layer" id="impact">
+    <h2>Lasting impact</h2>
+    <p><b>Europe.</b> The losers set the agenda for the next twenty years. Germany's governments worked to undo the settlement, by negotiation in the 1920s and by force from 1935. The <button class="lk" type="button" data-prev="ev:w2-rhineland">Rhineland</button> in 1936, Austria and the Sudetenland in 1938 and Poland in 1939 each reversed a clause of Versailles, and the <button class="lk" type="button" data-prev="ev:eu193994">Second World War</button> began over the last of them.</p>
+    <p><b>The Middle East.</b> The mandates became Iraq, Syria, Lebanon, Jordan and Israel. Their borders, and the disputes over them, date from 1920. Syria rose against France in 1925; Iraq against Britain in 1920.</p>
+    <p><b>China.</b> The settlement gave Germany's rights in <button class="lk feature" type="button" data-prev="feat:shandong">Shandong</button> to Japan. On <button class="lk" type="button" data-prev="ev:as191949">4 May 1919</button> students marched in Beijing against it, and China refused to sign. The movement that took its name from that day turned Chinese nationalism against the Western powers and towards Marxism; the Chinese Communist Party was founded two years later.</p>
+    <p><b>The world.</b> The League of Nations failed to stop Japan in <button class="lk" type="button" data-prev="ev:as193153">Manchuria</button> in 1931 or Italy in Ethiopia in 1935, and the <button class="lk" type="button" data-prev="ev:na194568">United Nations</button> of 1945 was built to replace it, this time with the United States inside.</p>
+  </section>
+
+  <section class="layer" id="causes">
+    <h2>What caused it</h2>
+    <p>Germany lost the <button class="lk" type="button" data-prev="ev:eu191485">First World War</button>, but it was not broken. When the armistice stopped the fighting on 11 November 1918, its armies still stood in France and Belgium, its territory was unoccupied and its industry intact. The winners had to write on paper a defeat the battlefield had not made plain, and many Germans never accepted it.</p>
+    <p>Each winner came to Paris with a price.</p>
+    <ul class="kj">
+      <li><b>France</b> wanted Germany weak. Germany had invaded it in the <button class="lk" type="button" data-prev="ev:eu187076">Franco-Prussian War</button> of 1870 and again in 1914. France asked for the Rhine as its frontier, for reparations to rebuild its north, and for allies. It got the reparations and a disarmed Rhineland. It did not get the Rhine, and the American guarantee it was promised in exchange was never ratified.</li>
+      <li><b>Britain</b> wanted the German fleet gone and the sea route to India safe. It got both: the fleet was interned at Scapa Flow, and Britain took Palestine, Iraq and Transjordan from the Ottoman Empire as League mandates.</li>
+      <li><b>Japan</b> wanted Germany's Pacific islands and its base at Qingdao in Shandong. It got them, over China's protest.</li>
+      <li><b>The United States</b> wanted a League of Nations. It got one, and the Senate then refused to join it.</li>
+    </ul>
+    <p>The decisions were taken by French Prime Minister <button class="lk person" type="button" data-prev="per:clemenceau">Georges Clemenceau</button>, British Prime Minister <button class="lk person" type="button" data-prev="per:lloyd">David Lloyd George</button>, US President <button class="lk person" type="button" data-prev="per:wilson">Woodrow Wilson</button> and Italian Prime Minister Vittorio Orlando between January and June 1919. Germany was not in the room. Its delegation received the terms on 7 May and signed on 28 June under threat of invasion.</p>
+  </section>
+
+  <section class="layer" id="effects">
+    <h2>What it caused</h2>
+    <p>The reparations quarrel brought French and Belgian troops into the Ruhr in January 1923 and the mark to <button class="lk" type="button" data-prev="ev:d-hyperinflation">collapse</button>. The treaty gave every German party a grievance, and when the <button class="lk" type="button" data-prev="ev:d-depression1930">Depression</button> broke the republic, <button class="lk" type="button" data-prev="ev:eu193391">Hitler took power</button> in 1933 on a promise to reverse it clause by clause. Britain and France, which alone could have enforced the terms, did not fight for any of them.</p>
+    <p>Beyond Europe, the award of Shandong to Japan sent Beijing's students into the streets on <button class="lk" type="button" data-prev="ev:as191949">4 May 1919</button>, and the French mandate brought a <button class="lk" type="button" data-prev="ev:x-syria">revolt</button> in Syria in 1925.</p>
+  </section>
+
+  <section class="layer" id="map">
+    <h2>Before and after</h2>
+    <div class="ba">
+      <div class="bah">
+        <div class="seg" role="group" aria-label="Region"><button type="button" data-reg="europe" aria-pressed="true">Europe</button><button type="button" data-reg="mideast">Middle East</button><button type="button" data-reg="africa">Africa</button><button type="button" data-reg="china">China</button></div>
+        <div class="seg" role="group" aria-label="Year"><button type="button" data-ba="1914">1914</button><button type="button" data-ba="1920" aria-pressed="true">1920</button></div>
+      </div>
+      <canvas id="baMap" aria-label="A map, before and after the settlement, coloured by who held each land"></canvas>
+      <ul class="kj bal" id="baList"></ul>
+    </div>
+  </section>
+
+  <section class="layer" id="chain">
+    <h2>Follow Historical Chain</h2>
+    <p class="key"><span><i class="mk k"></i>knot: a major event</span><span><i class="mk s"></i>strand: a smaller event inside it</span><span><i class="mk f"></i>fibre: a detail</span></p>
+    <div class="thread" id="thread"></div>
+    <button type="button" class="expand" id="expandBtn"><span>Open the full chain</span><span class="sub">one to three steps · show only one kind</span></button>
+  </section>
+
+  <section class="layer" id="briefing">
+    <h2>The briefing</h2>
+    <button type="button" class="expand brief" id="briefBtn" aria-expanded="false" aria-controls="briefBody"><span>Expand for more detail</span><span class="sub">the account · the treaties · the figures · the misreading · today</span></button>
+    <div id="briefBody" hidden>
+      <h3>The account</h3>
+      <p>The conference opened in Paris on 18 January 1919. The German delegation received the terms on 7 May and signed at Versailles on 28 June. The treaties with Austria, Bulgaria, Hungary and the Ottoman Empire followed over the next fourteen months. Turkey overturned the Ottoman treaty by force, and Lausanne replaced it on 24 July 1923.</p>
+      <h3>The treaties</h3>
+      <div class="tl" id="treatyList"></div>
+      <h3>By the numbers</h3>
+      <div class="tablewrap"><table class="terms">
+        <thead><tr><th>Figure</th><th>Value</th><th>Basis</th></tr></thead>
+        <tbody>
+          <tr><td>German territory lost<small>European, Versailles</small></td><td class="num">13%</td><td>Treaty terms</td></tr>
+          <tr><td>German army cap</td><td class="num">100,000</td><td>Versailles, part V</td></tr>
+          <tr><td>Reparations<small>set 1921 · paid by 1932</small></td><td class="num">132 bn gold marks set<br>about 20 bn paid</td><td>London Schedule of Payments</td></tr>
+          <tr><td>Hungarian territory lost<small>Trianon</small></td><td class="num">72%</td><td>Treaty terms</td></tr>
+          <tr><td>Hungarians outside the new borders</td><td class="num">3.3 million</td><td>The 1920 census</td></tr>
+        </tbody></table></div>
+      <h3>The common misreading</h3>
+      <p>That reparations ruined Germany. Germany paid about 20 billion gold marks of the 132 billion set, and its economy grew faster than France's through the 1920s. The hyperinflation of 1923 came from the French occupation of the Ruhr and the German government's own printing of money.</p>
+      <h3>Today</h3>
+      <p>Iraq, Syria, Lebanon, Jordan and Israel sit largely within borders drawn under the mandates. The Rhineland is German, Alsace is French, and the Polish corridor is Poland's coast.</p>
+      <p class="aside">One detail from the conference. On 11 April 1919 Japan proposed writing racial equality into the League Covenant. The proposal won 11 of the 17 votes in commission. Wilson, in the chair, ruled that it needed a unanimous vote, and it died.</p>
+    </div>
+    <div class="nextprev">
+      <button type="button" data-prev="story:war"><span class="lab">Previous story</span><span class="t">The war</span><span class="d">1914 to 1918</span></button>
+      <button type="button" class="next" data-prev="story:collapse"><span class="lab">Next story</span><span class="t">The collapse</span><span class="d">1923 to 1933</span></button>
+    </div>
+    <div class="exits"><a href="https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)">Wikipedia</a><a href="https://www.britannica.com/event/Paris-Peace-Conference">Britannica</a></div>
+  </section>
+</main>
+
+<div class="xp" id="xp" role="dialog" aria-modal="true" aria-label="The chain">
+  <div class="xhead"><div><div class="xk">The chain</div><div class="xt" id="xpTitle">The Paris Peace Settlement</div></div><button type="button" class="back" id="xpClose"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 6l12 12M18 6L6 18"/></svg><span>Close</span></button></div>
+  <div class="xctl">
+    <div class="seg" role="group" aria-label="Steps"><span class="sl">Steps</span><button type="button" data-steps="1">1</button><button type="button" data-steps="2" aria-pressed="true">2</button><button type="button" data-steps="3">3</button></div>
+    <div class="seg" role="group" aria-label="Depth"><button type="button" data-depth="1" aria-pressed="true"><i class="mk k"></i>Main events</button><button type="button" data-depth="2"><i class="mk s"></i>The full story</button></div>
+  </div>
+  <div class="kinds" id="kinds" role="group" aria-label="Show only"></div>
+  <div class="xtrail" id="xtrail"></div>
+  <div class="xbody" id="xbody"></div>
+</div>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></div>
+<div class="toast" id="toast" role="status"></div>
+
+<button type="button" class="mock" id="themeBtn" aria-label="Theme (mock control)">Theme: auto</button>
+<nav class="pill" aria-label="Atlas">
+  <button type="button" class="g" id="globeBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>Globe</button>
+  <button type="button" class="y" data-act="The year card for 1919">1919</button>
+  <button type="button" data-act="Search" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+</nav>
+
+<script>
+(function(){
+  var root=document.documentElement, A=window.ATLAS||{events:[],links:[],land:null,borders:null};
+  var E={}; A.events.forEach(function(e){E[e.id]=e});
+  var HERE='eu191988'; if(E[HERE]) E[HERE].h='The Paris Peace Settlement';
+  var PARIS=[2.35,48.86];
+  var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  function css(n){return getComputedStyle(root).getPropertyValue(n).trim()}
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function lerp(a,b,t){return a+(b-a)*t}
+
+  /* theme (mock) */
+  function setTheme(t){ if(t)root.setAttribute('data-theme',t); else root.removeAttribute('data-theme');
+    drawAll(); }
+  (function(){ var order=['','light','dark'], i=0, b=document.getElementById('themeBtn'); b.addEventListener('click',function(){ i=(i+1)%3; setTheme(order[i]); b.textContent='Theme: '+(order[i]||'auto'); }); })();
+
+  /* the globe */
+  var rot=[-PARIS[0],-PARIS[1]], pins=[{c:PARIS,main:true}];
+  var land=A.land&&window.topojson?topojson.feature(A.land,A.land.objects.land):null;
+  function layer(t){ return t&&window.topojson?{f:topojson.feature(t,t.objects.cs),m:topojson.mesh(t,t.objects.cs,function(a,b){return a!==b})}:null; }
+  var L19=layer(A.borders), L14=layer(A.borders1914), mix=1; /* 0 = 1914, 1 = 1920 */
+  function draw(cv,size,o){ if(!window.d3||!cv)return; o=o||{}; var rotU=o.rot||rot, mixU=(o.mix!=null?o.mix:mix); var dpr=Math.min(2,window.devicePixelRatio||1); var S=size||cv.clientWidth||cv.width;
+    if(cv.width!==Math.round(S*dpr)){cv.width=Math.round(S*dpr);cv.height=Math.round(S*dpr);cv.style.width=S+'px';cv.style.height=S+'px';}
+    var c=cv.getContext('2d'); c.setTransform(dpr,0,0,dpr,0,0); var r=S/2-1.5;
+    var proj=d3.geoOrthographic().translate([S/2,S/2]).scale(o.zoom?r*o.zoom:r).rotate(rotU).clipAngle(90), path=d3.geoPath(proj,c);
+    c.clearRect(0,0,S,S);
+    c.beginPath();path({type:'Sphere'});c.fillStyle=css('--sea');c.fill();
+    c.beginPath();path(d3.geoGraticule10());c.strokeStyle=css('--grat');c.lineWidth=.6;c.stroke();
+    if(land){c.beginPath();path(land);c.fillStyle=css('--land');c.fill();}
+    [[L14,1-mixU],[L19,mixU]].forEach(function(pair){ var Ly=pair[0],a=pair[1]; if(!Ly||a<=0.01)return; c.globalAlpha=a;
+      Ly.f.features.forEach(function(f){ var r=f.properties.r||''; if(o.fill){ c.beginPath();path(f);c.fillStyle=ownerColour(f.properties.o||r);c.fill(); } else if(/^Germany|^Austria-Hungary|^Turkey/.test(r)){c.beginPath();path(f);c.fillStyle=css('--here');c.fill();} });
+      c.beginPath();path(Ly.m);c.strokeStyle=css('--border');c.lineWidth=S>200?.9:.6;c.stroke(); c.globalAlpha=1; });
+    if(land){c.beginPath();path(land);c.strokeStyle=css('--coast');c.lineWidth=S>200?.8:.5;c.stroke();}
+    c.beginPath();path({type:'Sphere'});c.strokeStyle=css('--coast');c.lineWidth=1;c.stroke();
+    (o.nopins?[]:pins).forEach(function(p){ var q=proj(p.c); if(!q)return; if(d3.geoDistance([-rotU[0],-rotU[1]],p.c)>Math.PI/2)return;
+      var pr=S>200?5:3; c.beginPath();c.arc(q[0],q[1],pr,0,7);c.fillStyle=p.main?css('--accent'):css('--k-person');c.fill();c.lineWidth=S>200?2:1;c.strokeStyle=css('--bg');c.stroke(); });
+  }
+  var PAL=[[205,45],[20,55],[150,35],[280,35],[40,60],[330,40],[95,40],[250,45],[0,45],[175,40],[60,55],[310,35]];
+  function ownerColour(name){ var h=0; for(var i=0;i<name.length;i++)h=(h*31+name.charCodeAt(i))>>>0; var pc=PAL[h%PAL.length]; var dark=root.getAttribute('data-theme')==='dark'||(!root.getAttribute('data-theme')&&window.matchMedia&&window.matchMedia('(prefers-color-scheme: dark)').matches); return 'hsla('+pc[0]+','+pc[1]+'%,'+(dark?38:72)+'%,.62)'; }
+  var hero=document.getElementById('globe'), big=null;
+  var W=0,H=0,G=0,heroH=0;
+  function layout(){ W=window.innerWidth; H=window.innerHeight; G=Math.min(W*1.12, 540); heroH=Math.round(G*0.66+tw.offsetHeight+22);
+    root.style.setProperty('--heroH',heroH+'px'); draw(hero,G); if(big)draw(big,Math.min(big.clientWidth,420)); onScroll(true); }
+  function drawAll(){ draw(hero,G); if(big)draw(big,Math.min(big.clientWidth,420)); }
+  var dragger=window.d3?d3.drag().on('drag',function(ev){ rot[0]+=ev.dx*0.3; rot[1]=Math.max(-80,Math.min(80,rot[1]-ev.dy*0.3)); drawAll(); }):null;
+  if(dragger)d3.select(hero).call(dragger);
+  var fade=null; function setYear(y){ var target=y===1914?0:1; document.querySelectorAll('[data-yr]').forEach(function(b){b.setAttribute('aria-pressed',String(+b.dataset.yr===y))});
+    if(fade)cancelAnimationFrame(fade); if(reduced){mix=target;drawAll();return;} var from=mix,t0=performance.now();
+    (function st(now){ var k=Math.min(1,(now-t0)/500); mix=from+(target-from)*k; drawAll(); if(k<1)fade=requestAnimationFrame(st); })(t0); }
+  document.querySelectorAll('[data-yr]').forEach(function(b){b.addEventListener('click',function(){setYear(+b.dataset.yr)})});
+  var anim=null;
+  function turnTo(lonlat,pin){ var target=[-lonlat[0],-lonlat[1]]; pins=[{c:PARIS,main:true}]; if(pin&&(lonlat[0]!==PARIS[0]||lonlat[1]!==PARIS[1]))pins.push({c:lonlat});
+    if(anim)cancelAnimationFrame(anim); if(reduced){rot=target;drawAll();return;}
+    var i=d3.interpolate(rot.slice(),target),t0=performance.now(),D=700;
+    (function step(now){ var k=Math.min(1,(now-t0)/D); k=k<.5?2*k*k:-1+(4-2*k)*k; rot=i(k); drawAll(); if(k<1)anim=requestAnimationFrame(step); })(t0); }
+
+  /* the scroll-linked shrink: the globe and the title travel from the opening to the top corner */
+  var gw=document.getElementById('gw'), tw=document.getElementById('tw'), hsub=document.getElementById('hsub'), band=document.getElementById('band'), sub=document.getElementById('sub'), kicker=document.getElementById('kicker'), hint=document.getElementById('hint'), hIdx=document.getElementById('hdrIndex');
+  var gutter=16, ease=function(t){return t<.5?2*t*t:-1+(4-2*t)*t}, lastP=-1, small=false;
+  function apply(p){ var e=ease(p);
+    var g0x=(W-G)/2, g0y=-G*0.32, g1x=W-gutter-52, g1y=8, s1=52/G;
+    gw.style.transform='translate('+lerp(g0x,g1x,e)+'px,'+lerp(g0y,g1y,e)+'px) scale('+lerp(1,s1,e)+')'; gw.style.opacity=String(lerp(1,0.78,e));
+    var h1=tw.querySelector('h1'), t0y=G*0.66+10, t1y=10-kicker.offsetHeight*0.46, ts=lerp(1,0.46,e), t1x=gutter+50;
+    tw.style.transform='translate('+lerp(gutter,t1x,e)+'px,'+lerp(t0y,t1y,e)+'px) scale('+ts+')';
+    sub.style.opacity=kicker.style.opacity=String(Math.max(0,1-p*2.2)); hint.style.opacity=String(Math.max(0,1-p*3)); hint.style.pointerEvents=p>0.3?'none':'auto'; hint.style.top=lerp(t0y-44,-40,e)+'px';
+    hsub.style.opacity=String(Math.max(0,(p-0.75)/0.25)); hsub.style.transform='translate('+t1x+'px,'+(10+h1.offsetHeight*0.46+4)+'px)';
+    band.style.opacity=String(Math.max(0,(p-0.7)/0.3)); hIdx.classList.toggle('on',p>0.97); document.getElementById('pageIndex').classList.toggle('off',p>0.97);
+    small=p>0.9; document.getElementById('stage').classList.toggle('small',small); hero.style.cursor=small?'pointer':'grab'; }
+  function onScroll(force){ var p=Math.max(0,Math.min(1,window.scrollY/(heroH-70))); if(reduced)p=p<.5?0:1; if(p!==lastP||force){lastP=p;apply(p);} }
+  window.addEventListener('scroll',function(){requestAnimationFrame(function(){onScroll(false)})},{passive:true});
+  window.addEventListener('resize',layout);
+  hero.addEventListener('click',function(){ if(!small)return; openBig(); });
+
+  /* index and scroll-spy */
+  var SECS=[['sig','Significance'],['impact','Lasting impact'],['causes','Causes'],['effects','Effects'],['map','Before and after'],['chain','The chain'],['briefing','The briefing']];
+  function indexHtml(){ return SECS.map(function(s){return '<a href="#'+s[0]+'" data-sec="'+s[0]+'">'+s[1]+'</a>'}).join(''); }
+  hIdx.innerHTML=indexHtml(); document.getElementById('pageIndex').innerHTML=indexHtml();
+  document.querySelectorAll('.index a').forEach(function(a){a.addEventListener('click',function(ev){ev.preventDefault(); var el=document.getElementById(a.dataset.sec); window.scrollTo({top:el.getBoundingClientRect().top+window.scrollY-110,behavior:reduced?'auto':'smooth'});})});
+  var spy=new IntersectionObserver(function(en){ en.forEach(function(x){ if(x.isIntersecting){ document.querySelectorAll('.index a').forEach(function(a){a.setAttribute('aria-current',String(a.dataset.sec===x.target.id))}); } }); },{rootMargin:'-30% 0px -60% 0px'});
+  SECS.forEach(function(s){spy.observe(document.getElementById(s[0]))});
+
+  /* previews */
+  var KIND={ev:['Event','--accent'],per:['Person','--k-person'],pol:['Country','--k-polity'],feat:['Place','--k-feature'],chron:['Chronicle','--k-chron'],story:['Story','--k-chron'],str:['Treaty','--accent']};
+  var X={
+    'per:clemenceau':{t:'Georges Clemenceau',d:'1841 to 1929 · French prime minister 1917 to 1920',l:'Led France at the conference and wanted Germany too weak to attack again.',a:'Follow his chain',ll:[2.35,48.86]},
+    'per:lloyd':{t:'David Lloyd George',d:'1863 to 1945 · British prime minister 1916 to 1922',l:'Wanted a Germany that could still trade.',a:'Follow his chain',ll:[-0.13,51.5]},
+    'per:wilson':{t:'Woodrow Wilson',d:'1856 to 1924 · US president 1913 to 1921',l:'Wanted a League of Nations; the Senate refused to join it.',a:'Follow his chain',ll:[-77.04,38.9]},
+    'pol:germany':{t:'Germany',d:'Republic from 1919',l:'Lost 13 percent of its European territory and kept the largest industrial economy in central Europe.',a:'Open country',b:'Open the chronicle',th:'territory at 1919',ll:[13.4,52.52]},
+    'feat:shandong':{t:'Shandong',d:'Province, north China coast',l:'Germany\'s leased territory at Qingdao passed to Japan under the settlement.',a:'Open on the map',b:'Read more',ll:[120.38,36.07]},
+    'chron:germany':{t:'Germany',d:'From Rome\'s frontier to today · 12 stories',l:'The land between the Rhine and the Oder, from the legions at the Teutoburg Forest to the Zeitenwende: each era a story, each story its own chain.',a:'Open the chronicle',ll:[10.4,51.1]},
+    'story:war':{t:'The war',d:'1914 to 1918 · story 5 of 12 in Germany',l:'From Sarajevo to the armistice: how the Reich fought a two-front war and lost it at home before it lost it in the field.',a:'Open the story'},
+    'story:collapse':{t:'The collapse',d:'1923 to 1933 · story 7 of 12 in Germany',l:'From the Ruhr and the hyperinflation to the Depression and the Nazi seizure of power.',a:'Open the story'},
+    'chron:german-question':{t:'The German Question',d:'1517 to today · 10 stories',l:'A country in the middle of Europe, and every answer to how it should be organised was also an answer to how Europe should be.',a:'Open the chronicle',ll:[10.4,51.1]},
+    'story:treaty':{t:'The treaty',d:'1914 to 1923 · story 6 of 12 in Germany',l:'From Sarajevo to Lausanne: the war, the collapse of four empires, and a peace with no enforcer.',a:'Open the story'},
+    'str:conf':{t:'The Paris Peace Conference',d:'18 January 1919 to 21 January 1920',l:'The victors met without Germany or Soviet Russia.',a:'Open',ll:[2.35,48.86],y:1919.05,s:'Conference'},
+    'str:versailles':{t:'Versailles',d:'28 June 1919 · with Germany',l:'Germany lost 13 percent of its European land and every colony, kept an army of 100,000 and was charged reparations. France got Alsace-Lorraine back; Poland got a corridor to the sea.',a:'Open',ll:[2.12,48.8],y:1919.49,s:'Versailles'},
+    'str:stgermain':{t:'Saint-Germain',d:'10 September 1919 · with Austria',l:'The Habsburg lands became Czechoslovakia, Yugoslavia and a small Austria barred from joining Germany. Italy got less than it had been promised in 1915.',a:'Open',ll:[2.09,48.9],y:1919.69,s:'St-Germain'},
+    'str:neuilly':{t:'Neuilly',d:'27 November 1919 · with Bulgaria',l:'Bulgaria lost its Aegean coast to Greece.',a:'Open',ll:[2.27,48.88],y:1919.9,s:'Neuilly'},
+    'str:trianon':{t:'Trianon',d:'4 June 1920 · with Hungary',l:'Hungary lost 72 percent of its territory and 3.3 million Hungarians to its neighbours; Romania took the most.',a:'Open',ll:[2.11,48.81],y:1920.42,s:'Trianon'},
+    'str:sevres':{t:'Sèvres',d:'10 August 1920 · with the Ottoman Empire',l:'Partitioned Anatolia and the Arab lands. Britain and France took the Arab provinces as mandates; Turkish nationalists overturned the partition of Anatolia by force, and Lausanne replaced it in 1923.',a:'Open',ll:[2.21,48.82],y:1920.6,s:'Sèvres'},
+    'str:lausanne':{t:'Lausanne',d:'24 July 1923',l:'Replaced Sèvres; recognised the Turkish republic.',a:'Open',ll:[6.63,46.52],y:1923.56,s:'Lausanne'},
+    'ev:x-rome':{t:'The March on Rome',d:'October 1922',l:'Mussolini took power in Italy.',a:'Open',ll:[12.5,41.9]},
+    'ev:x-syria':{t:'The Great Syrian Revolt',d:'1925 to 1927',l:'A revolt against the French mandate.',a:'Open',ll:[36.3,33.5]}
+  };
+  var scrim=document.getElementById('scrim'),sheet=document.getElementById('sheet'),toast=document.getElementById('toast'),lastFocus=null,sheetPinned=false;
+  function openSheet(html,src,cls){ lastFocus=src||document.activeElement; sheet.className='sheet on'+(cls?' '+cls:''); sheet.innerHTML=html; scrim.classList.add('on');
+    var f=sheet.querySelector('button'); if(f)f.focus();
+    sheet.querySelectorAll('[data-close]').forEach(function(b){b.addEventListener('click',closeSheet)});
+    sheet.querySelectorAll('[data-say]').forEach(function(b){b.addEventListener('click',function(){var m=b.dataset.say;closeSheet();say(m)})});
+    sheet.querySelectorAll('[data-centre]').forEach(function(b){b.addEventListener('click',function(){var id=b.dataset.centre;closeSheet();centre(id)})});
+    sheet.querySelectorAll('[data-prev]').forEach(bindPrev); }
+  function closeSheet(){ scrim.classList.remove('on'); sheet.classList.remove('on'); sheet.innerHTML=''; big=null; if(sheetPinned){sheetPinned=false; turnTo(PARIS,false);} if(lastFocus&&lastFocus.focus)lastFocus.focus(); }
+  scrim.addEventListener('click',closeSheet); document.addEventListener('keydown',function(e){if(e.key==='Escape')closeSheet()});
+  var tt; function say(m){ toast.textContent=m; toast.classList.add('on'); clearTimeout(tt); tt=setTimeout(function(){toast.classList.remove('on')},2400); }
+  function markFor(e){ return e.tier===1?'<i class="mk k" title="A main event in this chain"></i>':'<i class="mk s" title="A step in the full story"></i>'; }
+  function preview(key,src){ var kind=key.split(':')[0], id=key.slice(kind.length+1), K=KIND[kind]||KIND.ev, x=X[key];
+    if(!x&&kind==='ev'&&E[id]){ var e=E[id]; x={t:e.h,d:String(e.y),l:(e.bluf||'').split(/(?<=\.)\s/)[0],a:'Open',ev:id,ll:(e.lon!=null?[e.lon,e.lat]:null),mk:markFor(e)}; }
+    if(!x)return;
+    var h='<div class="kind"><i class="k" style="background:var('+K[1]+')"></i>'+K[0]+(x.mk?' '+x.mk:'')+'</div>'
+      +(x.th||kind==='ev'?'<div class="thumb">'+esc(x.th||'picture, where there is one')+'</div>':'')
+      +'<h3 id="sheetTitle">'+esc(x.t)+'</h3><div class="date">'+esc(x.d)+'</div><p>'+esc(x.l)+'</p><div class="acts">'
+      +'<button type="button" class="pri" data-say="Would open: '+esc(x.t)+'. A Return chip would bring you back to this sentence.">'+esc(x.a)+'</button>'
+      +(x.b?'<button type="button" class="sec" data-say="Would open: '+esc(x.b)+'.">'+esc(x.b)+'</button>':'')
+      +(x.ev&&x.ev!==HERE?'<button type="button" class="sec" data-centre="'+esc(x.ev)+'">Centre the chain here</button>':'')
+      +'<button type="button" class="close" data-close>Close</button></div>';
+    openSheet(h,src); if(x.ll){ sheetPinned=true; turnTo(x.ll,true); } }
+  function bindPrev(b){ b.addEventListener('click',function(){preview(b.dataset.prev,b)}); }
+  document.querySelectorAll('[data-prev]').forEach(bindPrev);
+  document.querySelectorAll('[data-act]').forEach(function(b){b.addEventListener('click',function(){say(b.dataset.act)})});
+  function openBig(){ var h='<canvas id="bigGlobe" aria-label="The world in 1919. Drag to turn it."></canvas><div class="acts"><button type="button" class="pri" data-say="Would open the Political globe at 1919, centred here, with a Return chip back to this page.">Open the globe at 1919</button><button type="button" class="close" data-close>Close</button></div>';
+    openSheet(h,hero,'big'); big=document.getElementById('bigGlobe'); var S=Math.min(big.clientWidth,420); big.style.height=S+'px'; draw(big,S); if(dragger)d3.select(big).call(dragger); }
+
+  /* the treaty list */
+  (function(){ var keys=['versailles','stgermain','neuilly','trianon','sevres']; var el=document.getElementById('treatyList');
+    el.innerHTML=keys.map(function(k){var x=X['str:'+k]; return '<button type="button" data-prev="str:'+k+'"><span class="n">'+esc(x.t)+'<small>'+esc(x.d)+'</small></span><span class="so">'+esc(x.l)+'</span></button>'}).join('');
+    el.querySelectorAll('[data-prev]').forEach(bindPrev); })();
+
+  /* the chain: a summary path on the page, a full explorer behind Expand */
+  var PH={up:{Necessary:'this could not have happened without it',Sufficient:'enough on its own to bring this about',Contributing:'one of several causes',Contested:'two readings; no verdict',Coincident:'same time; no link'},
+          down:{Necessary:'could not have happened without this',Sufficient:'this was enough on its own to bring it about',Contributing:'this was one of several causes',Contested:'two readings; no verdict',Coincident:'same time; no link'}};
+  var RANKG={Necessary:4,Sufficient:4,Contributing:2,Contested:1,Coincident:0};
+  function rankL(l){return RANKG[l.grade]*2+(l.conf==='High'?1:l.conf==='Low'?-1:0)}
+  function lnCls(l){ return (l.grade==='Contributing'?'contrib':l.grade==='Contested'?'contest':l.grade==='Coincident'?'coinc':'')+(l.conf==='High'?' hi':l.conf==='Low'?' lo':''); }
+  function cap(s){return s.charAt(0).toUpperCase()+s.slice(1)}
+  function strongestInto(id,seen){ return A.links.filter(function(l){return l.t===id&&!seen[l.f]}).sort(function(a,b){return rankL(b)-rankL(a)})[0]; }
+  function strongestOut(id,seen){ return A.links.filter(function(l){return l.f===id&&!seen[l.t]}).sort(function(a,b){return rankL(b)-rankL(a)})[0]; }
+  function neighbourhood(n){ var nodes={}; nodes[HERE]=0; var frontier=[HERE];
+    for(var h=1;h<=n;h++){ var next=[]; frontier.forEach(function(id){ A.links.forEach(function(l){ var o=l.f===id?l.t:l.t===id?l.f:null; if(o&&E[o]&&nodes[o]==null){nodes[o]=h;next.push(o);} }); }); frontier=next; }
+    return nodes; }
+  function mainPath(){ var seen={}; seen[HERE]=1; var ids={}; var cur=HERE,l;
+    for(var k=0;k<2;k++){ l=strongestInto(cur,seen); if(!l)break; ids[l.id]=1; seen[l.f]=1; cur=l.f; }
+    cur=HERE; for(k=0;k<2;k++){ l=strongestOut(cur,seen); if(!l)break; ids[l.id]=1; seen[l.t]=1; cur=l.t; }
+    return ids; }
+  function drawGraph(){ var box=document.getElementById('tgsvg'); var W=box.clientWidth||360; var nodes=neighbourhood(2); var ids=Object.keys(nodes); var MP=mainPath();
+    var list=ids.map(function(id){return E[id]}).sort(function(a,b){return a.y-b.y||(a.id===HERE?-1:1)});
+    /* time runs down; years to scale at 9px a year, with a floor so labels never touch and a cap so a long gap becomes a marked break */
+    var gap=54, top=26, bottom=26, perYear=9, maxGap=120, pos={}, breaks=[], prev=null, y=top;
+    list.forEach(function(e){ if(prev){ var dy=(e.y-prev.y)*perYear; if(dy>maxGap){breaks.push((y+Math.max(gap,maxGap))/2+ (y)/2 - y/2); dy=maxGap;} y+=Math.max(gap,dy); } pos[e.id]=y; if(prev&&(e.y-prev.y)*perYear>maxGap)breaks[breaks.length-1]=(pos[prev.id]+y)/2; prev=e; }); var H=y+bottom;
+    var axX=46, nx=92, lx=108;
+    var links=A.links.filter(function(l){return nodes[l.f]!=null&&nodes[l.t]!=null});
+    var order={}; list.forEach(function(e,i){order[e.id]=i});
+    var svg='<svg viewBox="0 0 '+W+' '+H+'" width="'+W+'" height="'+H+'" role="img" aria-label="The chain drawn to time: causes above, effects below">';
+    svg+='<defs><marker id="ah" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="9" markerHeight="9" markerUnits="userSpaceOnUse" orient="auto-start-reverse"><path d="M0 0L10 5L0 10z" fill="context-stroke"/></marker></defs>';
+    svg+='<line class="ax" x1="'+axX+'" y1="'+(top-10)+'" x2="'+axX+'" y2="'+(H-bottom+10)+'"/>';
+    list.forEach(function(e){ svg+='<text class="tick" x="'+(axX-8)+'" y="'+(pos[e.id]+4)+'" text-anchor="end">'+e.y+'</text><line class="ax" x1="'+(axX-3)+'" y1="'+pos[e.id]+'" x2="'+(axX+3)+'" y2="'+pos[e.id]+'"/>'; });
+    breaks.forEach(function(by){ svg+='<rect x="'+(axX-6)+'" y="'+(by-7)+'" width="12" height="14" fill="var(--surface)"/><path d="M'+(axX-5)+' '+(by+4)+'L'+(axX+5)+' '+(by-4)+'" stroke="var(--ink3)" stroke-width="1.2"/><path d="M'+(axX-5)+' '+(by+8)+'L'+(axX+5)+' '+(by)+'" stroke="var(--ink3)" stroke-width="1.2"/>'; });
+    var bulge=0;
+    links.sort(function(a,b){return (MP[a.id]?1:0)-(MP[b.id]?1:0)}).forEach(function(l){ var a=pos[l.f],b=pos[l.t]; var ra=E[l.f].tier===1?7:5, rb=E[l.t].tier===1?7:5; var y1=a+ra+2, y2=b-rb-3;
+      var cls='e '+lnCls(l)+(MP[l.id]?' main':''); var skip=Math.abs(order[l.t]-order[l.f])>1; var d;
+      if(!skip) d='M'+nx+' '+y1+'L'+nx+' '+y2; else { bulge=(bulge%3)+1; var cx=nx-14-10*bulge; d='M'+nx+' '+y1+'C'+cx+' '+(y1+20)+' '+cx+' '+(y2-20)+' '+nx+' '+y2; }
+      svg+='<path class="'+cls+'" d="'+d+'" marker-end="url(#ah)" data-link="'+esc(l.id)+'" tabindex="0" role="button" aria-label="'+esc(E[l.f].h)+' to '+esc(E[l.t].h)+', '+esc(l.grade)+'"></path>'; });
+    list.forEach(function(e){ var r=e.tier===1?7:5; var here=e.id===HERE; var onMain=here||links.some(function(l){return MP[l.id]&&(l.f===e.id||l.t===e.id)});
+      var cls='n'+(e.tier===1?' k':'')+(onMain?' main':'')+(here?' here':'');
+      var label=esc(e.h), maxc=Math.floor((W-lx-8)/7.6); if(label.length>maxc) label=label.slice(0,maxc-1)+'…';
+      svg+='<g class="'+cls+'" tabindex="0" role="button" data-prev="ev:'+esc(e.id)+'" transform="translate(0,'+pos[e.id]+')"><circle cx="'+nx+'" cy="0" r="'+(here?9:r)+'"/><text x="'+lx+'" y="5">'+label+'</text>'+(e.chapter?'<text class="ch" x="'+lx+'" y="20">'+esc(e.chapter)+'</text>':'')+'</g>'; });
+    svg+='</svg>'; box.innerHTML=svg;
+    box.querySelectorAll('[data-prev]').forEach(function(g){ g.addEventListener('click',function(){preview(g.dataset.prev,g)}); g.addEventListener('keydown',function(ev){if(ev.key==='Enter'||ev.key===' '){ev.preventDefault();preview(g.dataset.prev,g);}}); });
+    box.querySelectorAll('[data-link]').forEach(function(pth){ pth.addEventListener('click',function(){noteSheet(pth.dataset.link,pth)}); }); }
+  /* before and after: its own map, Europe and the Middle East */
+  var ba=document.getElementById('baMap'), baMix=1, baFade=null, baYearNow=1920, baReg='europe';
+  var REG={europe:{rot:[-18,-50],zoom:2.3,h:0.72},mideast:{rot:[-40,-32],zoom:2.4,h:0.72},africa:{rot:[-20,-3],zoom:1.25,h:0.9},china:{rot:[-112,-33],zoom:2.0,h:0.72}};
+  var BA={europe:{1914:['Austria-Hungary: one empire from Prague to Sarajevo.','Germany: Alsace-Lorraine, Posen and West Prussia within its borders.','Russia: Finland, the Baltic coast and most of Poland within its borders.'],
+                  1920:['Austria-Hungary gone: Austria, Hungary, Czechoslovakia and Yugoslavia in its place; land to Poland, Romania and Italy.','Germany: Alsace-Lorraine to France, a corridor to the sea to Poland.','Poland, Finland, Estonia, Latvia and Lithuania independent of Russia.']},
+          mideast:{1914:['The Ottoman Empire: Anatolia, Iraq, Syria, Palestine and the Hejaz.','Egypt under British occupation; Persia independent.'],
+                   1920:['The Ottoman Empire reduced to Anatolia.','Iraq, Palestine and Transjordan to Britain, Syria and Lebanon to France, as League mandates.','The Hejaz independent under the Hashemites.']},
+          africa:{1914:['Germany held Togoland, Kamerun, South West Africa and East Africa.'],
+                  1920:['Every German colony gone. East Africa to Britain as Tanganyika; Rwanda-Urundi to Belgium; Kamerun and Togoland split between Britain and France; South West Africa to South Africa. All as League mandates.']},
+          china:{1914:['Germany held the lease of Qingdao in Shandong; Japan held Korea and Taiwan.'],
+                 1920:['Qingdao and Germany\'s rights in Shandong to Japan; China refused to sign. The atlas\'s border record does not draw the lease, so the map shows the states only.']}};
+  function drawBa(){ var W=ba.clientWidth||360; var R=REG[baReg]; var S=Math.round(W*1.15); draw(ba,S,{rot:R.rot,mix:baMix,zoom:R.zoom,nopins:true,fill:true}); ba.style.width=W+'px'; ba.style.height=Math.round(W*R.h)+'px'; }
+  document.querySelectorAll('[data-reg]').forEach(function(b){b.addEventListener('click',function(){ baReg=b.dataset.reg; document.querySelectorAll('[data-reg]').forEach(function(x){x.setAttribute('aria-pressed',String(x.dataset.reg===baReg))}); baYear(baYearNow); })});
+  function baYear(y){ baYearNow=y; var target=y===1914?0:1; document.querySelectorAll('[data-ba]').forEach(function(b){b.setAttribute('aria-pressed',String(+b.dataset.ba===y))});
+    document.getElementById('baList').innerHTML=BA[baReg][y].map(function(t){return '<li>'+esc(t)+'</li>'}).join('');
+    if(baFade)cancelAnimationFrame(baFade); if(reduced){baMix=target;drawBa();return;} var from=baMix,t0=performance.now();
+    (function st(now){ var k=Math.min(1,(now-t0)/450); baMix=from+(target-from)*k; drawBa(); if(k<1)baFade=requestAnimationFrame(st); })(t0); }
+  document.querySelectorAll('[data-ba]').forEach(function(b){b.addEventListener('click',function(){baYear(+b.dataset.ba)})});
+  baYear(1920); window.addEventListener('resize',drawBa);
+  /* the thread: knots, strands and fibres in time */
+  var FIB={versailles:[['7 May 1919','The German delegation receives the terms.'],['11 April 1919','Japan\'s racial-equality clause wins 11 of 17 votes and is ruled out.'],['28 June 1919','Signed in the Hall of Mirrors, five years to the day after Sarajevo.']]};
+  function threadHtml(){ var ids=neighbourhood(2), list=Object.keys(ids).map(function(id){return E[id]}).sort(function(a,b){return a.y-b.y}); var h='';
+    list.forEach(function(e){ var here=e.id===HERE, k=e.tier===1; h+='<div class="tn '+(k?'k':'s')+(here?' here':'')+'" data-id="'+esc(e.id)+'"><span class="dot"></span><div class="row"><span class="y">'+e.y+'</span><div>'+(here?'<span class="t">'+esc(e.h)+'</span>':'<button type="button" class="t" data-prev="ev:'+esc(e.id)+'">'+esc(e.h)+'</button>')+'<div class="sub">'+(k?'knot':'strand')+(e.chapter?' · '+esc(e.chapter):'')+'</div>';
+      if(here){ h+='<button type="button" class="open" data-kids="treaties" aria-expanded="true">Hide its strands</button><div class="kids" id="kids-treaties">'; ['conf','versailles','stgermain','neuilly','trianon','sevres','lausanne'].forEach(function(key){ var x=X['str:'+key]; h+='<div class="tn s"><span class="dot"></span><div class="row"><span class="y">'+Math.floor(x.y)+'</span><div><button type="button" class="t" data-prev="str:'+key+'">'+esc(x.t)+'</button><div class="sub">strand'+(x.d?' · '+esc(x.d.split(' · ')[1]||''):'')+'</div>'; if(FIB[key]){ h+='<button type="button" class="open" data-kids="f-'+key+'" aria-expanded="false">Show its fibres</button><div class="kids" id="kids-f-'+key+'" hidden>'; FIB[key].forEach(function(f){ h+='<div class="tn f"><span class="dot"></span><div class="row"><span class="y">'+esc(f[0].slice(-4))+'</span><div><span class="t">'+esc(f[1])+'</span><div class="sub">fibre · '+esc(f[0])+'</div></div></div></div>'; }); h+='</div>'; } h+='</div></div></div>'; }); h+='</div>'; }
+      else if(k){ h+='<div class="sub" style="color:var(--ink3)">strands not yet written in this pilot</div>'; }
+      h+='</div></div></div>'; });
+    return h; }
+  (function(){ var el=document.getElementById('thread'); el.innerHTML=threadHtml(); el.querySelectorAll('[data-prev]').forEach(bindPrev);
+    el.querySelectorAll('[data-kids]').forEach(function(b){ b.addEventListener('click',function(){ var k=document.getElementById('kids-'+b.dataset.kids); var o=b.getAttribute('aria-expanded')==='true'; b.setAttribute('aria-expanded',String(!o)); k.hidden=o; b.textContent=(o?'Show':'Hide')+(b.dataset.kids==='treaties'?' its strands':' its fibres'); }); }); })();
+  document.getElementById('expandBtn').addEventListener('click',openXp);
+  var bb=document.getElementById('briefBtn'), bd=document.getElementById('briefBody');
+  bb.addEventListener('click',function(){ var o=bb.getAttribute('aria-expanded')==='true'; bb.setAttribute('aria-expanded',String(!o)); bd.hidden=o; });
+  var SURE={High:'the atlas is sure',Moderate:'fairly sure',Low:'not sure'};
+  var GW={Necessary:'Without it, this does not happen.',Sufficient:'This was enough on its own.',Contributing:'One cause among several.',Contested:'Two readings; the atlas withholds a verdict.',Coincident:'Same time, no link.'};
+  var GW2={Necessary:'Without this, it does not happen.',Sufficient:'This was enough on its own to bring it about.',Contributing:'This was one cause among several.',Contested:'Two readings; the atlas withholds a verdict.',Coincident:'Same time, no link.'};
+  function ceHtml(l,up){ var e=E[up?l.f:l.t]; return '<div class="ce"><div class="y">'+e.y+'</div><div><button type="button" class="t" data-prev="ev:'+esc(e.id)+'">'+markFor(e)+esc(e.h)+'</button><p>'+esc(l.claim)+'</p><div class="g"><i class="'+lnCls(l)+'"></i><span>'+esc((up?GW:GW2)[l.grade])+' '+esc(cap(SURE[l.conf]||''))+'.</span><button type="button" data-link="'+esc(l.id)+'">The note</button></div></div></div>'; }
+  (function(){ var ups=A.links.filter(function(l){return l.t===HERE}).sort(function(a,b){return E[a.f].y-E[b.f].y}), dns=A.links.filter(function(l){return l.f===HERE}).sort(function(a,b){return E[a.t].y-E[b.t].y});
+    var c=document.getElementById('causeList'), f=document.getElementById('effectList'); if(!c||!f){ document.querySelectorAll('[data-xopen]').forEach(function(b){b.addEventListener('click',function(){ openXp(); })}); return; }
+    c.innerHTML=ups.map(function(l){return ceHtml(l,true)}).join(''); f.innerHTML=dns.map(function(l){return ceHtml(l,false)}).join('');
+    [c,f].forEach(function(el){ el.querySelectorAll('[data-prev]').forEach(bindPrev); el.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})}); });
+    document.querySelectorAll('[data-xopen]').forEach(function(b){b.addEventListener('click',function(){ openXp(); })}); })();
+
+
+  var KINDS=['political','war','economic','ideas','religion','science','culture','environment'];
+  var xp=document.getElementById('xp'), xbody=document.getElementById('xbody'), steps=2, xdepth=1, kind=null, xc=HERE;
+  var present={}; A.events.forEach(function(e){(e.c||[]).forEach(function(t){present[t]=1})});
+  document.getElementById('kinds').innerHTML='<span class="sl">Show only</span>'+KINDS.map(function(k){return '<button type="button" data-kind="'+k+'" aria-pressed="false"'+(present[k]?'':' class="none" title="None in this chain"')+'>'+k+'</button>'}).join('');
+  document.querySelectorAll('#kinds [data-kind]').forEach(function(b){b.addEventListener('click',function(){ kind=(kind===b.dataset.kind)?null:b.dataset.kind; document.querySelectorAll('#kinds [data-kind]').forEach(function(x){x.setAttribute('aria-pressed',String(x.dataset.kind===kind))}); xrender(); })});
+  document.querySelectorAll('.xctl [data-steps]').forEach(function(b){b.addEventListener('click',function(){ steps=+b.dataset.steps; document.querySelectorAll('.xctl [data-steps]').forEach(function(x){x.setAttribute('aria-pressed',String(+x.dataset.steps===steps))}); xrender(); })});
+  document.querySelectorAll('.xctl [data-depth]').forEach(function(b){b.addEventListener('click',function(){ xdepth=+b.dataset.depth; document.querySelectorAll('.xctl [data-depth]').forEach(function(x){x.setAttribute('aria-pressed',String(+x.dataset.depth===xdepth))}); xrender(); })});
+  function openXp(){ xp.classList.add('on'); document.body.style.overflow='hidden'; xrender(); document.getElementById('xpClose').focus(); }
+  function closeXp(){ xp.classList.remove('on'); document.body.style.overflow=''; document.getElementById('expandBtn').focus(); }
+ document.getElementById('xpClose').addEventListener('click',closeXp);
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&xp.classList.contains('on')&&!sheet.classList.contains('on'))closeXp(); });
+  function hops(dirUp){ /* nodes by hop from the centre, nearest hop wins */
+    var out=[],seen={}; seen[xc]=1; var frontier=[xc];
+    for(var h=1;h<=steps;h++){ var next=[],row=[];
+      frontier.forEach(function(id){ A.links.forEach(function(l){ var o=dirUp?(l.t===id?l.f:null):(l.f===id?l.t:null); if(!o||seen[o]||!E[o])return; if(xdepth===1&&!kind&&E[o].tier!==1)return; seen[o]=1; next.push(o); row.push({id:o,via:l,parent:id}); }); });
+      row.sort(function(a,b){return E[a.id].y-E[b.id].y}); out.push(row); frontier=next; if(!next.length)break; }
+    return out; }
+  function xnode(n,here){ var e=E[n.id]; var tags=(e.c||[]); var hit=kind&&tags.indexOf(kind)>=0; var dim=kind&&!hit&&!here;
+    var via=''; if(n.via){ var up=n.via.t===n.parent||n.via.t===xc||n.via.f!==n.parent; var pe=E[n.parent]; via='<div class="via"><span class="g '+lnCls(n.via)+'"></span><button type="button" data-link="'+esc(n.via.id)+'">'+esc(cap(PH[n.via.f===n.id?'up':'down'][n.via.grade]))+'</button>'+(n.parent!==xc?' · via '+esc(pe.h):'')+'</div>'; }
+    return '<div class="xn'+(here?' here':'')+(dim?' dim':'')+'"><div class="y">'+e.y+'</div><div>'+(here?'<div class="t">'+markFor(e)+esc(e.h)+'</div>':'<button type="button" class="t" data-prev="ev:'+esc(e.id)+'">'+markFor(e)+esc(e.h)+'</button>')+via
+      +'<div class="tags">'+tags.map(function(t){return '<span'+(t===kind?' class="hit"':'')+'>'+esc(t)+'</span>'}).join('')+(e.chapter?'<span>'+esc(e.chapter)+'</span>':'')+'</div>'
+      +(here?'':'<div class="acts"><button type="button" data-xcentre="'+esc(e.id)+'">Centre the chain here</button></div>')+'</div></div>'; }
+  function xrender(){ var ups=hops(true), dns=hops(false); var h='';
+    for(var i=ups.length-1;i>=0;i--){ var row=ups[i]; if(!row.length)continue; h+='<div class="hop"><div class="hl"><span>'+(i+1)+(i?' steps':' step')+' before</span><span>'+row.length+'</span></div>'+row.map(function(n){return xnode(n,false)}).join('')+'</div>'; }
+    h+='<div class="hop"><div class="hl"><span>This</span></div>'+xnode({id:xc},true)+'</div>';
+    dns.forEach(function(row,i){ if(!row.length)return; h+='<div class="hop"><div class="hl"><span>'+(i+1)+(i?' steps':' step')+' after</span><span>'+row.length+'</span></div>'+row.map(function(n){return xnode(n,false)}).join('')+'</div>'; });
+    if(xdepth===1&&!kind) h+='<div class="empty" style="margin-top:10px">Main events only. Switch to The full story for every event in the chain.</div>';
+    xbody.innerHTML=h; document.getElementById('xpTitle').textContent=E[xc].h;
+    xbody.querySelectorAll('[data-prev]').forEach(bindPrev);
+    xbody.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})});
+    xbody.querySelectorAll('[data-xcentre]').forEach(function(b){b.addEventListener('click',function(){ xc=b.dataset.xcentre; xrender(); xbody.scrollTop=0; var e=E[xc]; if(e.lon!=null)turnTo([e.lon,e.lat],xc!==HERE); })});
+    var t=document.getElementById('xtrail'); t.innerHTML=(xc===HERE?'':'Centred on '+esc(E[xc].h)+', '+E[xc].y+'. <button type="button" id="xBack">Back to The Paris Peace Settlement</button>')+(kind?' Showing '+esc(kind)+' events at every depth; the rest are dimmed, never removed.':'');
+    var xb=document.getElementById('xBack'); if(xb)xb.addEventListener('click',function(){xc=HERE;xrender();turnTo(PARIS,false);}); }
+  function centre(id){ xc=id; openXp(); }
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(drawBa);
+  function noteSheet(id,src){ var l=A.links.filter(function(x){return x.id===id})[0]; if(!l)return; var f=E[l.f],t=E[l.t];
+    var h='<div class="kind"><i class="k" style="background:var(--accent)"></i>The link · '+esc(l.grade)+' · '+esc(l.conf.toLowerCase())+' confidence</div><h3 id="sheetTitle">'+esc(f.h)+' → '+esc(t.h)+'</h3><div class="date">'+f.y+' → '+t.y+' · '+esc(l.type)+'</div>'
+      +'<div class="note"><h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The strongest objection</h4><p>'+esc(l.objection)+'</p>'+(l.verdict?'<h4>Verdict</h4><p>'+esc(l.verdict)+'</p>':'')+'</div>'
+      +'<div class="acts"><button type="button" class="close" data-close>Close</button></div>';
+    openSheet(h,src); }
+
+  /* the pill */
+  var P=[['People','M12 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8zM4 21c0-4 4-6 8-6s8 2 8 6'],['Globe at 1919','M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18'],['Events','M5 4h14v16H5zM8 9h8M8 13h8'],['Explore, the present-day globe','M3 7l6-3 6 3 6-3v13l-6 3-6-3-6 3zM9 4v13M15 7v13'],['Themes','M4 19V5a1 1 0 0 1 1-1h11l4 4v11a1 1 0 0 1-1 1zM8 12h8M8 16h5'],['Timeline at 1919','M12 3v18M6 7h12M8 12h8M10 17h4']];
+  document.getElementById('globeBtn').addEventListener('click',function(){
+    var h='<div class="kind"><i class="k" style="background:var(--accent)"></i>The atlas · you are at 1919</div><h3 id="sheetTitle">Where to?</h3><div class="places">'
+      +P.map(function(p,i){return '<button type="button" '+(i===2?'aria-current="page" ':'')+'data-say="'+esc(p[0])+'"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+p[1]+'"/></svg>'+esc(p[0].split(',')[0].replace(' at 1919',''))+'</button>'}).join('')
+      +'</div><div class="acts" style="margin-top:8px"><button type="button" class="close" data-close>Close</button></div>';
+    openSheet(h,document.getElementById('globeBtn')); });
+
+  layout(); window.addEventListener('load',layout); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(layout);
+})();
+</script>

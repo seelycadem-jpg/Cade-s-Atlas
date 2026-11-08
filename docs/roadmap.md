@@ -25,19 +25,19 @@ Goal: the project builds and tests itself, and a blank site is live on the inter
 | # | Step | Who | Done when |
 | --- | --- | --- | --- |
 | 0.1 | Approve the stack | C | Done 2026-11-05 |
-| 0.2 | One settings file that tells every pipeline script where this project's folders are (`pipeline/` for code, `site/` for output, a git-ignored `work/` for scratch) | AI | No script names the old chat's folders |
+| 0.2 | One settings file that tells every pipeline script where this project's folders are (`pipeline/` for code, `site/` for output, a git-ignored `work/` for scratch) | AI | Done 2026-11-05 |
 | 0.3 | Safety check that moving the scripts broke nothing: run `build.sh` from another folder into a test copy | AI | Done 2026-11-05 with step 0.2 |
 | 0.4 | ~~Drop the unused `polities.py` step~~ | AI | Not needed: the old content scripts are retired in Phase 2 |
-| 0.5 | Install Node and Astro; create `app/` with one blank page | AI | The page opens in a browser here |
-| 0.6 | First test (Playwright): open the page at phone and laptop size, check the title, save screenshots | AI | Test passes; Cade sees both screenshots |
-| 0.7 | GitHub Actions: run the build and the test on every push | AI | A green tick on GitHub |
-| 0.8 | Create a Cloudflare account | C, AI guides | Cade can log in |
-| 0.9 | Connect the repo to Cloudflare so each push to `main` goes live. Checked 2026-11-05 on Cloudflare's limits pages: Pages holds 20,000 files on the free plan and 100,000 on paid; Workers static hosting holds 20,000 free and 100,000 on Workers Paid (about $5 a month). Start free; move to Workers Paid before the site passes 20,000 files; past 100,000, serve pages from R2 through a Worker | C+AI | The blank page opens on Cade's phone at its own address |
-| 0.10 | Write the `/build` and `/ship` skills from what worked | AI | Each runs with one command |
-| 0.11 | Cade's first pull request: read it, merge it | C, AI guides | `main` holds Phase 0 |
-| 0.12 | Update `docs/plan.md` to Phase 1 | AI | Done |
+| 0.5 | Install Node and Astro; create `app/` with one blank page | AI | Done 2026-11-05 |
+| 0.6 | First test (Playwright): open the page at phone and laptop size, check the title, save screenshots | AI | Done 2026-11-05 |
+| 0.7 | GitHub Actions: run the build and the test on every push | AI | Done 2026-11-05 |
+| 0.8 | Create a Cloudflare account | C, AI guides | Done 2026-11-05 |
+| 0.9 | Connect the repo to Cloudflare so each push to `main` goes live. Checked 2026-11-05 on Cloudflare's limits pages: Pages holds 20,000 files on the free plan and 100,000 on paid; Workers static hosting holds 20,000 free and 100,000 on Workers Paid (about $5 a month). Start free; move to Workers Paid before the site passes 20,000 files; past 100,000, serve pages from R2 through a Worker | C+AI | Done 2026-11-05: GitHub deploys to Cloudflare Workers on every merge to `main` (`.github/workflows/deploy.yml`, token in a GitHub secret); live at https://cade-s-atlas.seelycadem.workers.dev |
+| 0.10 | Write the `/build` and `/ship` skills from what worked | AI | Done 2026-11-05 |
+| 0.11 | Cade's first pull request: read it, merge it | C, AI guides | Done 2026-11-05 (#58, then #59 and #60 for hosting) |
+| 0.12 | Update `docs/plan.md` to Phase 1 | AI | Done 2026-11-05 |
 
-**Test:** `build.sh` runs clean, the test passes on push, the blank site opens on a phone.
+**Test:** `build.sh` runs clean, the test passes on push, the blank site opens on a phone. **Passed 2026-11-05.**
 
 ## Phase 1: Look and feel
 
@@ -45,13 +45,14 @@ Goal: decide how the atlas looks and works on a phone before building real scree
 
 | # | Step | Who | Done when |
 | --- | --- | --- | --- |
-| 1.1 | List what worked and what didn't in Prototype 1, and 3 to 5 sites whose look you admire | C | A short list |
-| 1.2 | Write the UI rules: one obvious next action per screen; one tap opens a preview, Open inside it navigates; the same control behaves the same on every page | AI, C approves | In the design file |
+| 1.1 | List what worked and what didn't in Prototype 1, and 3 to 5 sites whose look you admire | C | Done 2026-11-05: `docs/design/brief.md` |
+| 1.2 | Write the UI rules: one obvious next action per screen; one tap opens a preview, Open inside it navigates; the same control behaves the same on every page | AI, C approves | Done 2026-11-07: `docs/design/ui-rules.md` |
 | 1.3 | Two or three design directions (type, colour, spacing), each as a mock event page on a phone | AI | Cade can tap through each |
 | 1.4 | Pick a direction, or mix | C | Chosen |
 | 1.5 | Mock the front door: plain earth, eight random chronicle pins and cards, the turn to a first year with its political map and the world's turning points of those years | AI, C approves | Tap-through mock |
-| 1.6 | Mock the filters on a phone: type and depth chips up front, region chips, the rest behind More; filtered-out events fade. Show both wordings of "detail" in place | AI, C approves | Tap-through mock; "detail" wording chosen |
+| 1.6 | Mock the filters on a phone: type and depth chips up front, region chips, the rest behind More; filtered-out events fade | AI, C approves | Tap-through mock (the "detail" wording question is closed: the gate is dropped, 2026-11-07) |
 | 1.7 | Mock the two globes as two pages sharing one map, one look, one set of gestures; show how quiet peoples' homelands should be | AI, C approves | Tap-through mock |
+| 1.7a | Mock the wide screen (laptop and desktop) for the story, chapter and event pages, once the phone versions are approved: use the width, never stretch the phone layout | AI, C approves | Cade approves on a laptop |
 | 1.8 | Build the colour and type settings (light and dark) as one shared file | AI | Every page uses it |
 | 1.9 | Build the navigation bar: bottom strip on a phone, left rail on a laptop; Back, the six places, the year, search | AI | Test: on every page, both sizes |
 | 1.10 | Build the one shared preview card | AI | Test: tap opens it, close returns to the same spot |
@@ -130,7 +131,7 @@ Goal: the border maps on the new globe, fast on a phone.
 | 4.10 | Peoples' homelands in a quiet colour, names when zoomed in; reader-facing names ("Aboriginal Australians") | AI | Test on sample years |
 | 4.11 | Polity card: type, years, one line, territory thumbnail; Open country, Open the chronicle | AI | Test |
 | 4.12 | `/place-events`: every event placed by coordinates and lane | AI | Test: placement check |
-| 4.13 | Borders after 2019: the 2019 map carried forward plus dated, sourced fix files | AI | Each change sourced |
+| 4.13 | Borders after 2019: the 2019 map carried forward plus dated, sourced fix files; ATLYNX as a reference for de facto borders (licence checked first) | AI | Each change sourced |
 | 4.14 | `/border-fix` skill | AI | Runs end to end on one fix |
 | 4.15 | Speed and record checks; people test | AI, C+AI | Under 3 seconds on a phone; record check passes |
 
@@ -202,6 +203,7 @@ Goal: the web of cause and effect at scale, and the tools to follow it.
 | 8.6 | Contested arrows show both readings on tap | AI | Test |
 | 8.7 | The meanwhile line | AI | Test |
 | 8.8 | `/theme` and the ten themes, each case a link | AI | Real-question, three-civilisation and node checks pass |
+| 8.8a | Prototype one theme as a scroll-driven essay (Cade's lead, 2026-11-07): the argument unfolds as the reader scrolls, with sourced images and the themes voice; emotion from the order of facts, never adjectives; phone budget holds. If it works, every theme gets it, and the chronicle page tries the same with the globe and year moving as the reader scrolls | AI, C judges | A prototype Cade approves, or a note on why it failed |
 | 8.9 | The Ideas lane | AI | Test |
 | 8.10 | Compare two years | AI | Test |
 

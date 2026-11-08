@@ -25,16 +25,34 @@ What is never room: skipping a wall because the event is small, padding a sectio
 
 ## The layers
 
+The page's order (Cade, 2026-11-08, after the tenth mock): Historical significance
+(what it was in one or two sentences, then why it matters as bullets); Lasting impact
+(the long so-what, by region where the event reached several); What caused it (prose,
+with each winner's price where a settlement is at stake); What it caused (prose);
+Before and after (a map by region, two years as tabs, coloured by who held each land,
+with a short list of what changed); Follow Historical Chain (the knots as a thread,
+each opening into its strands and fibres, with the key, and the full chain behind it);
+The briefing, folded (the account, the terms, the figures, the misreading, today, and
+one closing detail). The grade on each link carries "how sure"; it is never a section.
+The table below is the older layer scheme and is read through that order.
+
 | Layer | Shown | Holds | Reader it serves |
 | --- | --- | --- | --- |
 | 1. The takeaway | Always, first screen | The takeaway strip; the Overview; one picture or visual where it earns its place | Anyone, in thirty seconds |
 | 2. The brief | Always, one scroll | Why it happened; What it did, and to whom; Why it held or failed; What it set up; Today | The curious reader, in three minutes |
-| 3. The detail | Behind "Open the detail" | The account; By the numbers; The argument; The common misreading; Places; The detail (the expert's nod); Interesting fact | The historian, in ten minutes |
-| 4. The chain | Always, after the detail control | Causes and effects, graded, with the arrow notes on tap; Strands; the exits | The reader following the thread |
+| 3. The detail | Always, after the brief (amended 2026-11-07: the "Open the detail" gate is dropped; the page is one continuous scroll with an index) | The account; By the numbers; The argument; The common misreading; Places; The detail (the expert's nod); Interesting fact | The historian, in ten minutes |
+| 4. The chain | Always, last; the strands sit inside it as "Inside this event" | Causes and effects, graded, with the arrow notes on tap; Strands; the exits | The reader following the thread |
 
-The takeaway strip is the first thing on the page: when (the date, with its precision), where (the place, on a globe thumbnail), who (the actors as chips that open their cards), size (the tier word for the chain the reader came through: "Turning point in: The fall of the Republic"), and the strongest arrow in each direction ("Caused: the Pact of 60, Necessary"). The strip is built from the data header; the agent writes none of it.
+The takeaway strip is the first thing on the page: when (the date, with its precision), where (the place, on a globe thumbnail), who (the actors as chips that open their cards), where it sits (the chronicle and story the reader came through: "The German Question › The treaty"; no size word, since size is shown by the event's mark and weight), and the strongest arrow in each direction ("Caused: the Pact of 60, Necessary"). The strip is built from the data header; the agent writes none of it.
 
-## Word budgets by tier
+## Length (amended 2026-11-07 on Cade's decision)
+
+No fixed bands. An event takes the words it needs: one sentence where one sentence says
+it, three paragraphs where the event needs them. The one rule is that nothing in a page
+could be cut. The budgets below stay as a guide to what a page of each size usually runs
+to, never as a wall.
+
+## Word budgets by tier (guidance only)
 
 A page is written once, at the highest tier the event holds in any chain; the layers let a reader at a lower tier stop early.
 
@@ -51,7 +69,7 @@ A knot that spans several strands (a settlement with five treaties, a war with f
 | Section | Layer | Band | Rule |
 | --- | --- | --- | --- |
 | Overview | 1 | 5 to 8 sentences, about 150 words, 2 to 3 paragraphs | The so-what in hard facts: what it ended, who won and lost, what it left unsolved, why it held or failed. Short declarative sentences, none over 25 words. No abstractions, no scene-setting, no quote. A reader who stops here has the event |
-| Why it happened | 2 | 3 to 6 sentences | The forces and the decision. Two or three drivers, ranked, each one sentence; then the trigger in its own sentence. Actors with role and name; the option declined named where a leader chose |
+| Why it happened | 2 | 3 to 6 sentences | The forces, the decision, the trigger, in that order (clarified 2026-11-07 after Cade read a draft whose drivers were three leaders' aims: an aim is a wish, a force is a condition the actors could not choose away). Two or three forces, ranked, each one sentence; then the decision, with the actors by role and name and the option declined; then the trigger in its own sentence |
 | What it did, and to whom | 2 | at most 5 bullets, or a paragraph | The terms or the actions as hard facts with numbers and their basis, each carrying its ledger in the same line: who gained and who paid, named, with the thing. Bullets for terms, prose for a course of events |
 | Why it held or failed | 2 | 3 to 5 sentences | The mechanism and the misjudgment: the analytic core. Enforcement first: who could make the outcome stick, and whether they did. Name the strongest objection to the page's own reading in this section |
 | What it set up | 2 | 2 to 4 lines | Later events, each a link with its year; the graded arrows live in the chain, this is the list |

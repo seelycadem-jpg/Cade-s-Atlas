@@ -136,6 +136,27 @@ One guard: the effects of a recent event are still unfolding, so its Lasting and
 scores are provisional for 25 years and marked so in the data header. An ongoing war is a
 story, never yet a world turning point, and every figure in it carries its source and date.
 
+## A lead for themes and chronicles (2026-11-07)
+
+Themes may take a scroll-driven essay form: the argument unfolds as the reader scrolls,
+in the themes voice, with sourced images, the weight carried by the order of the facts.
+Chronicles may try the same with the globe behind the text, dimmed so the words stay
+readable, turning and changing its borders as the reader scrolls down the stories; on a
+phone, the globe in the top third with the story scrolling up over it. A tap on the globe
+leaves the chronicle for the Political globe at the year the reader has reached, centred on
+the story's place, with the Return chip to come back to the same sentence. Both are prototyped on one page first (roadmap 8.8a) and kept
+only if they hold the phone budget and Cade's judgment.
+
+## Chronicles run long (Cade, 2026-11-07)
+
+A chronicle is as long as its place's story, so the curious reader can keep travelling.
+Germany's runs from Rome's frontier through the Franks and the Empire, the Reformation,
+Austria and Prussia, unification, the Reich, the treaty, the collapse, the division and
+reunification to today; each era is a story with its own main events, steps and detail.
+"The German Question" (1517 to today) is the pilot's name for the later part of that
+chronicle and becomes stories inside it in Phase 7. Every story page carries Previous
+and Next, so a reader who finishes one is offered the next.
+
 ## Developing stories and who holds what (proposed 2026-11-05)
 
 A conflict still under way is a **developing story**: a story like any other, belonging to

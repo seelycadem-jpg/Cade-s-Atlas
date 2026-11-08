@@ -34,10 +34,17 @@ pieces often with clear messages. Work on a branch for anything risky.
 
 The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CDNs.
 
+## Read first
+
+- `docs/state.md`: where the project stands, what has been decided, the mocks and what comes
+  next. Read it at the start of every session and update it at the end.
+
 ## Read before writing atlas text
 
 - `docs/architecture.md`: how the site is built: a page per thing, scripts only where needed,
   slices and tiles, budgets that fail the build. Read before writing code in `app/`.
+- `docs/structure.md`: the hierarchy, chronicle to strand, with Germany as the worked
+  example; wins over older docs on levels and names.
 - `docs/vision.md`: what the atlas is for and how it differs from an encyclopedia. Every
   phase, page and screen is judged against it.
 - `docs/event-pages.md`: the event page: walls and room, the four layers, word budgets by
@@ -72,9 +79,12 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
   declarative sentences, one idea each (a fact and its consequence may share one),
   average under 20 words and none over 30, lengths varied, no sentence that could be
   cut, nouns and verbs carrying the meaning, no word that tells the reader how to feel.
-  Logical connectors inside a sentence ("because", "so", "but") are the argument and
-  stay; banned are stock transitions at the head of a sentence ("Moreover",
-  "Furthermore", "However,") and the "and then" between paragraphs. A list of three
+  Connectors are the argument and stay, inside a sentence ("because", "so", "but") or
+  at its head ("However", "But", "Yet", "So", "Then", "Meanwhile") when they carry a
+  logical relation: contrast, cause, sequence (amended 2026-11-07 on Cade's decision).
+  Avoid transitions that only add emphasis or padding ("Moreover", "Furthermore",
+  "Importantly", "Additionally") and the "and then" between paragraphs; a sentence that
+  needs one usually needs cutting. Never drop a needed connector to satisfy a check. A list of three
   facts is fine; a triplet built for rhythm is banned. Banned words are banned in
   figurative use; the literal use of a plain word never is. Wit lives in the choice
   and placement of a fact, never in an adjective.
@@ -124,9 +134,16 @@ Whatever the prompt says:
   verified exits.
 - Never write a person's impact as prose: impact is graded links. A feature with no
   link into a chain stays a label on the map, never a page.
-- Never use knot, strand, fibre, or any name from the analytic foundations where a
-  reader sees it. Readers see turning points, the full story, every detail, the five
-  grade words and the note.
+- Readers see knot, fibre and strand, in that order of size (Cade's decision,
+  2026-11-08): a knot is a major event, the one its chain breaks without; a fibre is a
+  smaller event linked to a knot, as its cause, its part or its consequence; a strand is a
+  smaller event still, linked to a fibre or a knot, one step off the chain. The link, never
+  containment, makes the size ("inside" is the wrong word; Cade, 2026-11-08). All three
+  are events with a date and a place; a figure or a date on its own is a line inside a
+  page, never a level. Every chain view carries the
+  one-line key, and the three marks (a diamond, a filled dot, an open ring; Cade,
+  2026-11-08) go with the words. The other
+  names from the analytic foundations stay internal.
 - Never change a section heading or the layer order of a page; never pad a section
   to its band; never skip a wall because the event is small.
 - Never label or flag the fact against, the expert's nod or any reviewers' device

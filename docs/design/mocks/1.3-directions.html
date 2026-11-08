@@ -1,0 +1,348 @@
+<title>Atlas Design Directions</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600&family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&family=Instrument+Serif:ital@0;1&family=Instrument+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column over a quiet ground; a bottom bar; floating cards. Three
+   directions share the structure and differ in tokens and small structural choices. */
+:root{
+  /* Direction A, Engraved: stone paper, ink, chart-sea teal. Light values. */
+  --bg:#ECEAE3; --surface:#F7F6F1; --ink:#1C2130; --ink2:#4C5363; --rule:#CBC9BF;
+  --accent:#2B6777; --on-accent:#FFFFFF; --warn:#8A3B2E; --sea:#D6DFE1; --land:#E3E0D5;
+  --scrim:rgba(28,33,48,.38); --shadow:0 6px 24px rgba(28,33,48,.14);
+  --display:"Newsreader",Georgia,"Times New Roman",serif; --body:"Newsreader",Georgia,serif;
+  --ui:"Public Sans",system-ui,-apple-system,sans-serif;
+  --radius:6px; --chip-radius:3px; --body-size:17px; --lh:1.55;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#171A21; --surface:#20242D; --ink:#ECEAE3; --ink2:#B0B5C0; --rule:#363B47;
+  --accent:#7FB2BF; --on-accent:#0E1A1E; --warn:#D28A7C; --sea:#1E2A33; --land:#2A2F3A;
+  --scrim:rgba(0,0,0,.5); --shadow:0 6px 24px rgba(0,0,0,.45); color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#171A21; --surface:#20242D; --ink:#ECEAE3; --ink2:#B0B5C0; --rule:#363B47;
+  --accent:#7FB2BF; --on-accent:#0E1A1E; --warn:#D28A7C; --sea:#1E2A33; --land:#2A2F3A;
+  --scrim:rgba(0,0,0,.5); --shadow:0 6px 24px rgba(0,0,0,.45); color-scheme:dark }
+
+/* Direction B, Night chart: dark ocean, paper-white ink, lamplight amber for the year. */
+:root[data-dir="night"]{
+  --bg:#F3F1EB; --surface:#FFFFFF; --ink:#141A2A; --ink2:#4E5668; --rule:#D9D6CD;
+  --accent:#9A6420; --on-accent:#FFFFFF; --warn:#B04A3A; --sea:#DCE6EC; --land:#ECE8DD;
+  --scrim:rgba(20,26,42,.4); --shadow:0 8px 28px rgba(20,26,42,.16);
+  --display:"Spectral",Georgia,serif; --body:"IBM Plex Sans",system-ui,sans-serif; --ui:"IBM Plex Sans",system-ui,sans-serif;
+  --radius:10px; --chip-radius:8px; --body-size:16px; --lh:1.6 }
+@media (prefers-color-scheme: dark){ :root[data-dir="night"]:not([data-theme="light"]){
+  --bg:#0D1321; --surface:#151C2C; --ink:#F2EFE6; --ink2:#ABB2C3; --rule:#2B3548;
+  --accent:#E0A458; --on-accent:#1A1200; --warn:#D06B5C; --sea:#0B1A2A; --land:#1C2A3B;
+  --scrim:rgba(0,0,0,.55); --shadow:0 8px 28px rgba(0,0,0,.5); color-scheme:dark } }
+:root[data-dir="night"][data-theme="dark"]{
+  --bg:#0D1321; --surface:#151C2C; --ink:#F2EFE6; --ink2:#ABB2C3; --rule:#2B3548;
+  --accent:#E0A458; --on-accent:#1A1200; --warn:#D06B5C; --sea:#0B1A2A; --land:#1C2A3B;
+  --scrim:rgba(0,0,0,.55); --shadow:0 8px 28px rgba(0,0,0,.5); color-scheme:dark }
+
+/* Direction C, Daylight: clean off-white, graphite, verdigris. No map costume at all. */
+:root[data-dir="daylight"]{
+  --bg:#FBFBF8; --surface:#FFFFFF; --ink:#1E2321; --ink2:#5A615E; --rule:#DFE3E0;
+  --accent:#2E6B5E; --on-accent:#FFFFFF; --warn:#B5473A; --sea:#E4ECEF; --land:#EEF0EA;
+  --scrim:rgba(30,35,33,.36); --shadow:0 10px 30px rgba(30,35,33,.12);
+  --display:"Instrument Serif",Georgia,serif; --body:"Instrument Sans",system-ui,sans-serif; --ui:"Instrument Sans",system-ui,sans-serif;
+  --radius:14px; --chip-radius:999px; --body-size:16px; --lh:1.6 }
+@media (prefers-color-scheme: dark){ :root[data-dir="daylight"]:not([data-theme="light"]){
+  --bg:#141816; --surface:#1C2220; --ink:#F1F3EF; --ink2:#A9B0AC; --rule:#2D3532;
+  --accent:#6FB8A5; --on-accent:#0E1A16; --warn:#E08A7D; --sea:#1A2426; --land:#232A27;
+  --scrim:rgba(0,0,0,.5); --shadow:0 10px 30px rgba(0,0,0,.45); color-scheme:dark } }
+:root[data-dir="daylight"][data-theme="dark"]{
+  --bg:#141816; --surface:#1C2220; --ink:#F1F3EF; --ink2:#A9B0AC; --rule:#2D3532;
+  --accent:#6FB8A5; --on-accent:#0E1A16; --warn:#E08A7D; --sea:#1A2426; --land:#232A27;
+  --scrim:rgba(0,0,0,.5); --shadow:0 10px 30px rgba(0,0,0,.45); color-scheme:dark }
+
+*{box-sizing:border-box}
+html{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:var(--body-size)/var(--lh) var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:0 calc(84px + env(safe-area-inset-bottom,0px));-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--surface)}
+a{color:inherit}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+
+/* Mock controls: direction and theme. Not part of the atlas. */
+.mock{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;margin:0 calc(-1 * max(16px,env(safe-area-inset-left,0px))) 0 calc(-1 * max(16px,env(safe-area-inset-right,0px)));
+  background:var(--surface);border-bottom:1px solid var(--rule);padding:8px max(16px,env(safe-area-inset-right,0px)) 8px max(16px,env(safe-area-inset-left,0px));
+  font:13px/1.3 var(--ui);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.mock .seg{display:flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden}
+.mock .seg button{padding:8px 12px;min-height:36px;color:var(--ink2)}
+.mock .seg button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.mock .note{color:var(--ink2);flex:1 1 100%;font-size:12px}
+
+main{max-width:40rem;margin:0 auto}
+.crumb{font:13px/1.4 var(--ui);color:var(--ink2);padding:14px 0 6px;display:flex;flex-wrap:wrap;gap:4px}
+.crumb a{text-decoration:none;color:var(--ink2)}
+.crumb a:hover{color:var(--ink)}
+.crumb span{color:var(--rule)}
+
+h1{font:500 clamp(30px,8vw,40px)/1.1 var(--display);margin:6px 0 8px;letter-spacing:-.01em;text-wrap:balance}
+:root[data-dir="daylight"] h1{font-weight:400;font-size:clamp(34px,9vw,44px)}
+.line{font:italic 400 19px/1.4 var(--display);color:var(--ink2);margin:0 0 18px;text-wrap:pretty}
+:root[data-dir="night"] .line{font-style:normal;font-family:var(--body);font-size:17px}
+
+/* The takeaway strip: built from the data header; the agent writes none of it. */
+.strip{background:var(--surface);border:1px solid var(--rule);border-radius:var(--radius);box-shadow:var(--shadow);
+  padding:14px 16px;margin:0 0 22px;font:14px/1.45 var(--ui);display:grid;grid-template-columns:1fr;gap:10px}
+.strip .row{display:grid;grid-template-columns:5.2rem 1fr;gap:10px;align-items:start}
+.strip .k{color:var(--ink2)}
+.strip .v{min-width:0}
+.strip .when b{font-weight:600}
+.strip .where{display:flex;gap:10px;align-items:center}
+.globe{width:46px;height:46px;flex:none}
+.globe circle.sea{fill:var(--sea);stroke:var(--ink2);stroke-width:.6}
+.globe .grat{fill:none;stroke:var(--ink2);stroke-width:.35;opacity:.7}
+.globe .land{fill:var(--land);stroke:var(--ink);stroke-width:.5}
+.globe .pin{fill:var(--accent);stroke:var(--surface);stroke-width:1}
+.chips{display:flex;flex-wrap:wrap;gap:6px}
+.chip{font:13px/1 var(--ui);padding:8px 10px;min-height:32px;border:1px solid var(--rule);border-radius:var(--chip-radius);background:var(--bg);color:var(--ink);display:inline-flex;align-items:center}
+:root[data-dir="night"] .chip{background:var(--rule);border-color:transparent}
+.chip.polity{border-style:dashed}
+.arrow{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.arrow .ln{width:28px;height:0;border-top:2px solid var(--ink);flex:none}
+.arrow .ln.contrib{border-top-style:dashed}
+.arrow .grade{color:var(--ink2)}
+:root[data-dir="night"] .strip{border-color:transparent}
+:root[data-dir="night"] .strip .when b{color:var(--accent);font-size:16px}
+:root[data-dir="daylight"] .strip{grid-template-columns:1fr 1fr;border:0}
+:root[data-dir="daylight"] .strip .row{grid-template-columns:1fr;gap:3px}
+:root[data-dir="daylight"] .strip .row.span{grid-column:1 / -1}
+:root[data-dir="daylight"] .strip .k{font-size:12px;text-transform:none}
+
+h2{font:600 15px/1.3 var(--ui);color:var(--ink2);margin:26px 0 8px;letter-spacing:.01em}
+:root[data-dir="daylight"] h2{font:400 22px/1.2 var(--display);color:var(--ink)}
+:root[data-dir="engraved"] h2, :root:not([data-dir]) h2{font:600 15px/1.3 var(--ui);border-top:1px solid var(--rule);padding-top:10px}
+p{margin:0 0 12px;max-width:65ch;text-wrap:pretty}
+ul.terms{margin:0 0 12px;padding-left:1.1em}
+ul.terms li{margin:0 0 8px}
+.setup{display:flex;flex-wrap:wrap;gap:6px 14px;margin:0 0 12px}
+
+/* Inline links: a tap looks (preview), Open moves. */
+.lk{color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:3px;text-decoration-thickness:1.5px;border-radius:2px}
+.lk:hover{background:color-mix(in srgb,var(--accent) 12%,transparent)}
+.lk.person{text-decoration-style:dotted}
+
+.detail-btn{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-height:52px;margin:22px 0 0;padding:12px 16px;
+  background:var(--surface);border:1px solid var(--rule);border-radius:var(--radius);font:500 16px/1.3 var(--ui);box-shadow:var(--shadow);text-align:left}
+.detail-btn .sub{display:block;font-weight:400;font-size:13px;color:var(--ink2);margin-top:2px}
+.detail-btn svg{flex:none;transition:transform .2s}
+.detail-btn[aria-expanded="true"] svg{transform:rotate(180deg)}
+:root[data-dir="daylight"] .detail-btn{background:var(--accent);color:var(--on-accent);border:0}
+:root[data-dir="daylight"] .detail-btn .sub{color:var(--on-accent);opacity:.85}
+.detail{border-left:2px solid var(--rule);padding-left:14px;margin:14px 0 0}
+
+.chain{margin:26px 0 0}
+.chain .arrow{padding:10px 0;border-top:1px solid var(--rule)}
+.chain .arrow:last-of-type{border-bottom:1px solid var(--rule)}
+.exits{display:flex;gap:14px;flex-wrap:wrap;margin:14px 0 0;font:14px/1.4 var(--ui)}
+.exits a{color:var(--ink2)}
+
+/* The one preview card. */
+.scrim{position:fixed;inset:0;background:var(--scrim);z-index:20;display:none}
+.scrim.on{display:block}
+.card{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom,0px));width:min(92vw,24rem);z-index:21;
+  background:var(--surface);color:var(--ink);border:1px solid var(--rule);border-radius:var(--radius);box-shadow:var(--shadow);padding:14px 16px;display:none;
+  transition:transform .2s,opacity .2s}
+.card.on{display:block}
+.card .kind{font:12px/1.3 var(--ui);color:var(--ink2)}
+.card h3{font:500 20px/1.2 var(--display);margin:4px 0 2px;text-wrap:balance}
+.card .date{font:13px/1.3 var(--ui);color:var(--ink2);margin:0 0 8px}
+.card p{font-size:15px;margin:0 0 12px}
+.card .acts{display:flex;gap:8px;flex-wrap:wrap}
+.card .open{background:var(--accent);color:var(--on-accent);border-radius:var(--chip-radius);padding:10px 14px;min-height:44px;font:600 15px/1 var(--ui);display:inline-flex;align-items:center}
+:root[data-dir="daylight"] .card .open{border-radius:999px}
+.card .close{color:var(--ink2);padding:10px 12px;min-height:44px;font:15px/1 var(--ui)}
+.card .thumb{width:100%;height:92px;border-radius:calc(var(--radius) - 2px);background:var(--land);border:1px solid var(--rule);margin:0 0 10px;display:grid;place-items:center;color:var(--ink2);font:12px var(--ui)}
+
+/* The one navigation bar: bottom strip on a phone. */
+.bar{position:fixed;left:0;right:0;bottom:0;z-index:15;background:var(--surface);border-top:1px solid var(--rule);
+  padding:6px max(10px,env(safe-area-inset-right,0px)) calc(6px + env(safe-area-inset-bottom,0px)) max(10px,env(safe-area-inset-left,0px));
+  display:grid;grid-template-columns:44px repeat(6,1fr) auto 44px;gap:2px;align-items:end;font:11px/1.1 var(--ui)}
+.bar button{min-height:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;color:var(--ink2);border-radius:8px;padding:4px 0}
+.bar button svg{width:20px;height:20px}
+.bar button[aria-current="page"]{color:var(--ink)}
+.bar button[aria-current="page"] span{text-decoration:underline;text-underline-offset:4px;text-decoration-color:var(--accent);text-decoration-thickness:2px}
+.bar .year{color:var(--ink);font:600 15px/1 var(--ui);background:var(--bg);border:1px solid var(--rule);border-radius:var(--chip-radius);padding:0 10px;min-height:40px;justify-content:center;font-variant-numeric:tabular-nums}
+:root[data-dir="night"] .bar .year{color:var(--accent);border-color:var(--accent)}
+:root[data-dir="daylight"] .bar{border-top:0;box-shadow:0 -6px 24px rgba(0,0,0,.06)}
+@media (min-width:720px){
+  .bar{grid-template-columns:52px repeat(6,minmax(0,96px)) auto 52px;justify-content:center;font-size:12px}
+  body{padding-block:0 100px}
+}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(96px + env(safe-area-inset-bottom,0px));z-index:22;background:var(--ink);color:var(--bg);font:14px/1.3 var(--ui);padding:10px 14px;border-radius:999px;display:none;max-width:90vw}
+.toast.on{display:block}
+</style>
+
+<div class="mock" role="group" aria-label="Mock controls">
+  <div class="seg" role="group" aria-label="Direction">
+    <button type="button" data-dir="engraved" aria-pressed="true">A Engraved</button>
+    <button type="button" data-dir="night" aria-pressed="false">B Night chart</button>
+    <button type="button" data-dir="daylight" aria-pressed="false">C Daylight</button>
+  </div>
+  <div class="seg" role="group" aria-label="Theme">
+    <button type="button" data-theme="" aria-pressed="true">System</button>
+    <button type="button" data-theme="light" aria-pressed="false">Light</button>
+    <button type="button" data-theme="dark" aria-pressed="false">Dark</button>
+  </div>
+  <div class="note">Mock, step 1.3: the same event page in three directions. Tap any underlined name or chip to see the preview card. Open and the bar show what they would do.</div>
+</div>
+
+<main>
+  <nav class="crumb" aria-label="Breadcrumb"><a href="#">Atlas</a><span>›</span><a href="#">The German Question</a><span>›</span><a href="#">1919</a></nav>
+
+  <h1>The Paris Peace Settlement</h1>
+  <p class="line">Five treaties ended the First World War, dissolved three empires and left Germany's place in Europe unresolved.</p>
+
+  <section class="strip" aria-label="At a glance">
+    <div class="row when"><div class="k">When</div><div class="v"><b>18 January 1919 to 24 July 1923</b><br>placed on the timeline at 28 June 1919</div></div>
+    <div class="row"><div class="k">Where</div><div class="v where">
+      <svg class="globe" viewBox="0 0 48 48" aria-hidden="true"><circle class="sea" cx="24" cy="24" r="22"/><ellipse class="grat" cx="24" cy="24" rx="22" ry="8"/><ellipse class="grat" cx="24" cy="24" rx="22" ry="16"/><ellipse class="grat" cx="24" cy="24" rx="8" ry="22"/><ellipse class="grat" cx="24" cy="24" rx="16" ry="22"/><line class="grat" x1="2" y1="24" x2="46" y2="24"/><line class="grat" x1="24" y1="2" x2="24" y2="46"/><circle class="pin" cx="27" cy="15" r="2.6"/></svg>
+      <span>Paris<br><span style="color:var(--ink2)">extent: Europe and the Middle East</span></span></div></div>
+    <div class="row"><div class="k">Who</div><div class="v chips">
+      <button class="chip" data-prev="clemenceau">Georges Clemenceau</button>
+      <button class="chip" data-prev="lloyd">David Lloyd George</button>
+      <button class="chip" data-prev="wilson">Woodrow Wilson</button>
+      <button class="chip polity" data-prev="germany">Germany</button></div></div>
+    <div class="row span"><div class="k">Size</div><div class="v">Turning point in <button class="lk" data-prev="german-question">The German Question</button></div></div>
+    <div class="row span"><div class="k">Caused by</div><div class="v arrow"><span class="ln"></span><button class="lk" data-prev="wwi">The First World War begins, 1914</button><span class="grade">Sufficient</span></div></div>
+    <div class="row span"><div class="k">Caused</div><div class="v arrow"><span class="ln"></span><button class="lk" data-prev="rhineland">Germany remilitarises the Rhineland, 1936</button><span class="grade">Necessary</span></div></div>
+  </section>
+
+  <h2>Overview</h2>
+  <p>The Paris settlement dissolved three empires: Austria-Hungary, the Ottoman Empire and Germany's overseas empire. New states replaced them, from Poland and Czechoslovakia to Iraq and Syria. Germany survived as a republic. It lost 13 percent of its European territory and most of its army, and it was charged reparations. It remained the largest industrial economy in central Europe.</p>
+  <p>Britain, France and Japan gained the most. Britain and France took the Ottoman Arab provinces and most of Germany's African colonies as League mandates. Japan took Germany's northern Pacific islands and its holdings in Shandong.</p>
+  <p>The settlement left the central question of the war unresolved: Germany's place in Europe. It also had no means of enforcement. The US Senate rejected the treaty, and the League of Nations had no army. By the 1930s Britain and France would not enforce the terms alone.</p>
+
+  <h2>Why it happened</h2>
+  <p>The armistice of November 1918 ended the fighting with German armies still in France and Belgium. Many Germans did not believe they had lost. The victors met in Paris in January 1919 without Germany or Soviet Russia. French Prime Minister <button class="lk person" data-prev="clemenceau">Georges Clemenceau</button> wanted Germany too weak to attack again. British Prime Minister <button class="lk person" data-prev="lloyd">David Lloyd George</button> wanted a Germany that could still trade. US President <button class="lk person" data-prev="wilson">Woodrow Wilson</button> wanted a League of Nations. Clemenceau gave up his claim to the Rhine for an Anglo-American guarantee.</p>
+
+  <h2>What it did, and to whom</h2>
+  <ul class="terms">
+    <li><b>Versailles</b>, with Germany (June 1919): lost 13% of its European territory and all its colonies; army capped at 100,000; reparations set at 132 billion gold marks in 1921, of which it paid about 20 billion. France and Poland gained the land; Germany kept the largest industrial economy in central Europe.</li>
+    <li><b>Saint-Germain</b>, with Austria (September 1919): the Habsburg lands divided; union with Germany banned. Czechoslovakia and Yugoslavia gained statehood and large minorities; Italy got less than it was promised in 1915.</li>
+    <li><b>Neuilly</b>, with Bulgaria (November 1919): lost its Aegean coast to Greece.</li>
+    <li><b>Trianon</b>, with Hungary (June 1920): lost 72% of its territory; 3.3 million Hungarians left outside the new borders. Romania took the most.</li>
+    <li><b>Sèvres</b>, with the Ottoman Empire (August 1920): partitioned Anatolia and the Arab lands. Britain and France took the Arab provinces as mandates, and the Arabs who had been promised independence paid for it; Turkish nationalists overturned the partition of Anatolia by force, and <button class="lk" data-prev="lausanne">Lausanne</button> replaced it in 1923.</li>
+  </ul>
+
+  <h2>Why it held or failed</h2>
+  <p>The settlement had two flaws. First, it applied self-determination selectively. Poles and Czechs got states. Germans in Austria and the Sudetenland, Hungarians, Egyptians, Koreans and Arabs did not. Every loser gained a principled case against the peace.</p>
+  <p>Second, it left Germany intact and surrounded by weak new states where Austria-Hungary and Russia had stood. The terms held only while Britain and France enforced them. By the 1930s British opinion considered German grievances fair. Hitler presented the Anschluss and the Sudeten claim as self-determination.</p>
+
+  <h2>What it set up</h2>
+  <div class="setup">
+    <button class="lk" data-prev="mayfourth">The May Fourth Movement, 1919</button>
+    <button class="lk" data-prev="rome">The March on Rome, 1922</button>
+    <button class="lk" data-prev="syria">The Great Syrian Revolt, 1925 to 1927</button>
+    <button class="lk" data-prev="munich">The Munich Agreement, 1938</button>
+  </div>
+
+  <h2>Today</h2>
+  <p>Iraq, Syria, Lebanon, Jordan and Israel sit largely within borders drawn under the mandates.</p>
+
+  <button class="detail-btn" type="button" aria-expanded="false" aria-controls="detail">
+    <span>Open the detail<span class="sub">The account, By the numbers, The argument, The common misreading, The detail</span></span>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+  </button>
+  <div class="detail" id="detail" hidden>
+    <h2>The detail</h2>
+    <p>On 11 April 1919 Japan's proposal to write racial equality into the League Covenant won 11 of the 17 votes in commission. Wilson, in the chair, ruled that it needed unanimity, and the clause died.</p>
+    <p style="color:var(--ink2);font:14px/1.4 var(--ui)">In the mock, the other layer 3 sections are not written out; this button is what opens them.</p>
+  </div>
+
+  <section class="chain" aria-label="Causes and effects">
+    <h2>Causes and effects</h2>
+    <div class="arrow"><span class="ln"></span><span><button class="lk" data-prev="wwi">The First World War begins</button>, 1914 → this</span><span class="grade">Sufficient</span></div>
+    <div class="arrow"><span class="ln contrib"></span><span>this → <button class="lk" data-prev="mayfourth">The May Fourth Movement</button>, 1919</span><span class="grade">Contributing</span></div>
+    <div class="arrow"><span class="ln contrib"></span><span>this → <button class="lk" data-prev="hyper">German hyperinflation</button>, 1923</span><span class="grade">Contributing</span></div>
+    <div class="arrow"><span class="ln"></span><span>this → <button class="lk" data-prev="rhineland">Germany remilitarises the Rhineland</button>, 1936</span><span class="grade">Necessary</span></div>
+    <h2>Strands</h2>
+    <div class="setup">
+      <button class="lk" data-prev="conf">Paris Peace Conference, 1919 to 1920</button>
+      <button class="lk" data-prev="versailles">Versailles, 1919</button>
+      <button class="lk" data-prev="trianon">Trianon, 1920</button>
+      <button class="lk" data-prev="lausanne">Lausanne, 1923</button>
+    </div>
+    <div class="exits"><a href="https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)">Wikipedia</a><a href="https://www.britannica.com/event/Paris-Peace-Conference">Britannica</a></div>
+  </section>
+</main>
+
+<div class="scrim" id="scrim"></div>
+<div class="card" id="card" role="dialog" aria-modal="true" aria-labelledby="cardTitle">
+  <div class="thumb" id="cardThumb">picture, where there is one</div>
+  <div class="kind" id="cardKind">Event</div>
+  <h3 id="cardTitle">Title</h3>
+  <div class="date" id="cardDate"></div>
+  <p id="cardLine"></p>
+  <div class="acts"><button class="open" id="cardOpen">Open</button><button class="close" id="cardClose">Close</button></div>
+</div>
+<div class="toast" id="toast" role="status"></div>
+
+<nav class="bar" aria-label="Atlas">
+  <button type="button" data-act="Back: returns to the exact place and year you left"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg><span>Back</span></button>
+  <button type="button" data-act="People"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="8" r="4"/><path d="M4 21c0-4 4-6 8-6s8 2 8 6"/></svg><span>People</span></button>
+  <button type="button" data-act="Globe at 1919"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg><span>Globe</span></button>
+  <button type="button" aria-current="page" data-act="Events"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M5 4h14v16H5zM8 9h8M8 13h8"/></svg><span>Events</span></button>
+  <button type="button" data-act="Explore: the present-day globe"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M3 7l6-3 6 3 6-3v13l-6 3-6-3-6 3z"/><path d="M9 4v13M15 7v13"/></svg><span>Explore</span></button>
+  <button type="button" data-act="Themes"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M4 19V5a1 1 0 0 1 1-1h11l4 4v11a1 1 0 0 1-1 1z"/><path d="M8 12h8M8 16h5"/></svg><span>Themes</span></button>
+  <button type="button" data-act="Timeline at 1919"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><path d="M12 3v18M6 7h12M8 12h8M10 17h4"/></svg><span>Timeline</span></button>
+  <button type="button" class="year" data-act="The year card for 1919">1919</button>
+  <button type="button" data-act="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg><span>Search</span></button>
+</nav>
+
+<script>
+(function(){
+  var root=document.documentElement;
+  var DIRS=['engraved','night','daylight'];
+  function setDir(d,push){ if(DIRS.indexOf(d)<0)d='engraved'; root.setAttribute('data-dir',d);
+    document.querySelectorAll('.mock [data-dir]').forEach(function(b){b.setAttribute('aria-pressed',String(b.dataset.dir===d))});
+    if(push){ try{ history.replaceState(null,'','#'+d) }catch(e){} } }
+  function setTheme(t){ if(t)root.setAttribute('data-theme',t); else root.removeAttribute('data-theme');
+    document.querySelectorAll('.mock [data-theme]').forEach(function(b){b.setAttribute('aria-pressed',String((b.dataset.theme||'')===(t||'')))}); }
+  document.querySelectorAll('.mock [data-dir]').forEach(function(b){b.addEventListener('click',function(){setDir(b.dataset.dir,true)})});
+  document.querySelectorAll('.mock [data-theme]').forEach(function(b){b.addEventListener('click',function(){setTheme(b.dataset.theme)})});
+  function fromHash(){ var h=(location.hash||'').replace('#',''); setDir(h||'engraved',false); }
+  fromHash(); window.addEventListener('hashchange',fromHash);
+
+  // Preview content: plain lines drawn from the page's own facts. A mock, not atlas text.
+  var P={
+    'clemenceau':{kind:'Person',title:'Georges Clemenceau',date:'1841 to 1929; French prime minister 1917 to 1920',line:'Led France at the conference and wanted Germany too weak to attack again.',open:'Follow his chain'},
+    'lloyd':{kind:'Person',title:'David Lloyd George',date:'1863 to 1945; British prime minister 1916 to 1922',line:'Wanted a Germany that could still trade.',open:'Follow his chain'},
+    'wilson':{kind:'Person',title:'Woodrow Wilson',date:'1856 to 1924; US president 1913 to 1921',line:'Wanted a League of Nations; the Senate refused to join it.',open:'Follow his chain'},
+    'germany':{kind:'Polity',title:'Germany',date:'Republic from 1919',line:'Lost 13 percent of its European territory and kept the largest industrial economy in central Europe.',open:'Open country',thumb:'territory at 1919'},
+    'german-question':{kind:'Chronicle',title:'The German Question',date:'1517 to today',line:'A country in the middle of Europe, and every answer to how it should be organised was also an answer to how Europe should be.',open:'Open the chronicle'},
+    'wwi':{kind:'Event',title:'The First World War begins',date:'1914',line:'Austria-Hungary declared war on Serbia; within a week five great powers were at war.',open:'Open'},
+    'rhineland':{kind:'Event',title:'Germany remilitarises the Rhineland',date:'7 March 1936',line:'German troops entered the zone the treaty had demilitarised; Britain and France did not act.',open:'Open'},
+    'mayfourth':{kind:'Event',title:'The May Fourth Movement',date:'4 May 1919',line:'Students in Beijing protested the award of Shandong to Japan.',open:'Open'},
+    'rome':{kind:'Event',title:'The March on Rome',date:'October 1922',line:'Mussolini took power in Italy.',open:'Open'},
+    'syria':{kind:'Event',title:'The Great Syrian Revolt',date:'1925 to 1927',line:'A revolt against the French mandate.',open:'Open'},
+    'munich':{kind:'Event',title:'The Munich Agreement',date:'30 September 1938',line:'Britain and France gave Hitler the Sudetenland.',open:'Open'},
+    'hyper':{kind:'Event',title:'German hyperinflation',date:'1923',line:'The mark collapsed during the occupation of the Ruhr.',open:'Open'},
+    'lausanne':{kind:'Event',title:'The Treaty of Lausanne',date:'24 July 1923',line:'Replaced Sèvres; recognised the Turkish republic.',open:'Open'},
+    'conf':{kind:'Event',title:'The Paris Peace Conference',date:'1919 to 1920',line:'The victors met without Germany or Soviet Russia.',open:'Open'},
+    'versailles':{kind:'Event',title:'The Treaty of Versailles',date:'28 June 1919',line:'The treaty with Germany.',open:'Open'},
+    'trianon':{kind:'Event',title:'The Treaty of Trianon',date:'4 June 1920',line:'Hungary lost 72 percent of its territory.',open:'Open'}
+  };
+  var scrim=document.getElementById('scrim'),card=document.getElementById('card'),toast=document.getElementById('toast');
+  var lastFocus=null;
+  function showCard(key,src){ var p=P[key]; if(!p)return; lastFocus=src;
+    document.getElementById('cardKind').textContent=p.kind; document.getElementById('cardTitle').textContent=p.title;
+    document.getElementById('cardDate').textContent=p.date; document.getElementById('cardLine').textContent=p.line;
+    document.getElementById('cardThumb').textContent=p.thumb||'picture, where there is one';
+    document.getElementById('cardOpen').textContent=p.open; card.dataset.title=p.title;
+    scrim.classList.add('on'); card.classList.add('on'); document.getElementById('cardOpen').focus(); }
+  function hideCard(){ scrim.classList.remove('on'); card.classList.remove('on'); if(lastFocus)lastFocus.focus(); }
+  document.querySelectorAll('[data-prev]').forEach(function(b){b.addEventListener('click',function(){showCard(b.dataset.prev,b)})});
+  scrim.addEventListener('click',hideCard); document.getElementById('cardClose').addEventListener('click',hideCard);
+  document.addEventListener('keydown',function(e){if(e.key==='Escape')hideCard()});
+  var tt=null; function say(msg){ toast.textContent=msg; toast.classList.add('on'); clearTimeout(tt); tt=setTimeout(function(){toast.classList.remove('on')},2200); }
+  document.getElementById('cardOpen').addEventListener('click',function(){ var t=card.dataset.title; hideCard(); say('Would open: '+t+'. A Return chip would bring you back here.'); });
+  document.querySelectorAll('.bar [data-act]').forEach(function(b){b.addEventListener('click',function(){say(b.dataset.act)})});
+  var db=document.querySelector('.detail-btn'),dt=document.getElementById('detail');
+  db.addEventListener('click',function(){ var open=db.getAttribute('aria-expanded')==='true'; db.setAttribute('aria-expanded',String(!open)); dt.hidden=open; });
+})();
+</script>

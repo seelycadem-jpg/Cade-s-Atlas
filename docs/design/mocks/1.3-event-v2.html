@@ -1,0 +1,439 @@
+<title>Atlas Event Page</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Spectral:ital,wght@0,400;0,500;0,600;1,400&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
+<script src="atlas-data.js"></script>
+<style>
+/* Night chart, dark first: a deep ocean ground, paper ink, lamplight amber for the year.
+   Layout: a hero over the dimmed globe, a ladder, a reading column, a live chain, a floating pill. */
+:root{
+  --bg:#0D1321; --bg2:#111A2B; --surface:#161E30; --surface2:#1C2537; --ink:#F2EFE6; --ink2:#A9B0C0; --ink3:#6F7890;
+  --rule:#2A3448; --amber:#E0A458; --on-amber:#1A1200;
+  --k-event:#F2EFE6; --k-event-u:#E0A458; --k-person:#E8A9A2; --k-polity:#7FC8D2; --k-chron:#B9A8EA; --k-feature:#8FCB9B;
+  --sea:#0B1626; --land:#243247; --coast:#4C5C78; --grat:#1E2A3E;
+  --scrim:rgba(3,6,12,.6); --shadow:0 10px 30px rgba(0,0,0,.5);
+  --display:"Spectral",Georgia,"Times New Roman",serif; --ui:"IBM Plex Sans",system-ui,-apple-system,sans-serif;
+  color-scheme:dark;
+}
+@media (prefers-color-scheme: light){ :root:not([data-theme="dark"]){
+  --bg:#F4F2EC; --bg2:#ECE9E1; --surface:#FFFFFF; --surface2:#F7F5EF; --ink:#141A2A; --ink2:#4E5668; --ink3:#7E8696;
+  --rule:#D9D5CB; --amber:#9A6420; --on-amber:#FFFFFF;
+  --k-event:#141A2A; --k-event-u:#9A6420; --k-person:#A4423A; --k-polity:#1E6E7A; --k-chron:#5B459E; --k-feature:#2E6E3F;
+  --sea:#DCE6EC; --land:#ECE7DA; --coast:#8A8F9A; --grat:#CBD5DD;
+  --scrim:rgba(20,26,42,.45); --shadow:0 10px 30px rgba(20,26,42,.16); color-scheme:light } }
+:root[data-theme="light"]{
+  --bg:#F4F2EC; --bg2:#ECE9E1; --surface:#FFFFFF; --surface2:#F7F5EF; --ink:#141A2A; --ink2:#4E5668; --ink3:#7E8696;
+  --rule:#D9D5CB; --amber:#9A6420; --on-amber:#FFFFFF;
+  --k-event:#141A2A; --k-event-u:#9A6420; --k-person:#A4423A; --k-polity:#1E6E7A; --k-chron:#5B459E; --k-feature:#2E6E3F;
+  --sea:#DCE6EC; --land:#ECE7DA; --coast:#8A8F9A; --grat:#CBD5DD;
+  --scrim:rgba(20,26,42,.45); --shadow:0 10px 30px rgba(20,26,42,.16); color-scheme:light }
+
+*{box-sizing:border-box}
+html{height:100%}
+body{margin:0;background:var(--bg);color:var(--ink);font:16px/1.6 var(--ui);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:0 calc(110px + env(safe-area-inset-bottom,0px));-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--amber);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important}}
+.wrap{max-width:42rem;margin:0 auto}
+.full{margin-left:calc(-1 * max(16px,env(safe-area-inset-left,0px)));margin-right:calc(-1 * max(16px,env(safe-area-inset-right,0px)))}
+
+/* Mock control (not atlas): theme only. */
+.mock{display:flex;gap:2px;margin-left:auto;flex:none;background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:2px;font:11px/1 var(--ui)}
+.mock button{padding:6px 7px;border-radius:999px;color:var(--ink2);min-height:28px}
+.mock button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+
+/* Top: Back and the breadcrumb. */
+.top{position:sticky;top:env(safe-area-inset-top,0px);z-index:9;display:flex;align-items:center;gap:8px;padding:8px 0;font:13px/1.3 var(--ui);color:var(--ink2);
+  background:linear-gradient(var(--bg) 70%,transparent)}
+.back{display:inline-flex;align-items:center;gap:4px;min-height:36px;padding:0 10px 0 6px;border:1px solid var(--rule);border-radius:999px;background:var(--surface);color:var(--ink)}
+.crumb{display:flex;gap:6px;flex-wrap:wrap;min-width:0}
+.crumb button{color:var(--ink2);min-height:36px}
+.crumb button.chron{color:var(--k-chron)}
+.crumb .sep{color:var(--ink3)}
+
+/* Hero over the globe. */
+.hero{position:relative;min-height:420px;display:flex;flex-direction:column;justify-content:flex-end;padding:120px 16px 22px;overflow:hidden;border-radius:0 0 18px 18px}
+.hero canvas{position:absolute;inset:0;width:100%;height:100%;display:block;touch-action:none}
+.hero .veil{position:absolute;inset:0;background:linear-gradient(180deg,rgba(13,19,33,.15) 0%,rgba(13,19,33,.35) 45%,var(--bg) 100%);pointer-events:none}
+:root:not([data-theme="dark"]) .hero .veil{background:linear-gradient(180deg,rgba(244,242,236,.1) 0%,rgba(244,242,236,.35) 45%,var(--bg) 100%)}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]) .hero .veil{background:linear-gradient(180deg,rgba(13,19,33,.15) 0%,rgba(13,19,33,.35) 45%,var(--bg) 100%)} }
+.hero .txt{position:relative;max-width:42rem;margin:0 auto;width:100%}
+.kicker{font:13px/1.4 var(--ui);color:var(--ink2);display:flex;gap:8px;align-items:center;flex-wrap:wrap}
+.kicker .tp{color:var(--amber);font-weight:600}
+h1{font:500 clamp(34px,9vw,46px)/1.08 var(--display);margin:6px 0 8px;letter-spacing:-.01em;text-wrap:balance}
+.when{font:15px/1.4 var(--ui);color:var(--ink2);display:flex;gap:10px;flex-wrap:wrap;font-variant-numeric:tabular-nums}
+.when b{color:var(--amber);font-weight:600}
+.line{font:italic 400 20px/1.4 var(--display);color:var(--ink);margin:10px 0 0;max-width:34rem;text-wrap:pretty}
+.dragnote{position:absolute;top:calc(12px + env(safe-area-inset-top,0px));left:16px;font:12px/1 var(--ui);color:var(--ink2);background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:7px 10px}
+
+/* The ladder: chronicle, story, turning point, strands. */
+.ladder{margin:18px 0 0;border:1px solid var(--rule);border-radius:14px;background:var(--surface);overflow:hidden}
+.ladder .lv{display:grid;grid-template-columns:7.2rem 1fr;gap:10px;padding:10px 14px;border-top:1px solid var(--rule);align-items:center;font:14px/1.4 var(--ui)}
+.ladder .lv:first-child{border-top:0}
+.ladder .lv .lab{color:var(--ink3);font-size:12px}
+.ladder .lv.here{background:var(--surface2)}
+.ladder .lv.here .lab{color:var(--amber)}
+.ladder .lv .val{min-width:0}
+.ladder .lv .val .sub{color:var(--ink2);font-size:13px}
+.strands{display:flex;gap:8px;overflow-x:auto;padding:6px 0 2px;scrollbar-width:thin}
+.strand{flex:none;display:flex;flex-direction:column;gap:2px;min-width:7.6rem;padding:8px 10px;border:1px solid var(--rule);border-radius:10px;background:var(--bg2);min-height:44px}
+.strand .y{font:12px/1 var(--ui);color:var(--amber);font-variant-numeric:tabular-nums}
+.strand .t{font:14px/1.25 var(--ui);color:var(--ink)}
+
+/* Reading column. */
+h2{font:600 13px/1.3 var(--ui);color:var(--ink3);letter-spacing:.06em;text-transform:uppercase;margin:34px 0 10px}
+.lede{font:400 20px/1.5 var(--display);margin:0 0 14px;text-wrap:pretty}
+p{margin:0 0 12px;max-width:62ch;text-wrap:pretty}
+.drivers{list-style:none;margin:0 0 12px;padding:0;display:grid;gap:8px}
+.drivers li{display:grid;grid-template-columns:2rem 1fr;gap:8px;align-items:start}
+.drivers .n{font:600 14px/1.6 var(--ui);color:var(--amber);font-variant-numeric:tabular-nums}
+.drivers li.trig .n{color:var(--ink2);font-size:12px;line-height:1.7}
+.drivers li.trig{border-top:1px solid var(--rule);padding-top:8px;margin-top:4px}
+.terms{width:100%;border-collapse:collapse;font:14px/1.45 var(--ui);margin:0 0 12px}
+.terms th{text-align:left;color:var(--ink3);font-weight:500;font-size:12px;padding:0 8px 6px 0;border-bottom:1px solid var(--rule)}
+.terms td{vertical-align:top;padding:8px 8px 8px 0;border-bottom:1px solid var(--rule)}
+.terms td:first-child{white-space:nowrap;font-weight:600}
+.terms td:first-child small{display:block;font-weight:400;color:var(--ink2)}
+.tablewrap{overflow-x:auto;margin:0 0 4px}
+.setup{display:flex;flex-wrap:wrap;gap:8px 16px;margin:0 0 12px}
+
+/* Links by kind: the colour says what a tap will show. */
+.lk{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1.5px;border-radius:3px;padding:0 1px;margin:0 -1px;color:var(--k-event);text-decoration-color:var(--k-event-u)}
+.lk.person{color:var(--k-person);text-decoration-color:var(--k-person)}
+.lk.polity{color:var(--k-polity);text-decoration-color:var(--k-polity)}
+.lk.chron{color:var(--k-chron);text-decoration-color:var(--k-chron)}
+.lk.feature{color:var(--k-feature);text-decoration-color:var(--k-feature)}
+.lk:hover{background:color-mix(in srgb,currentColor 14%,transparent)}
+.legend{display:flex;gap:12px;flex-wrap:wrap;font:12px/1.4 var(--ui);color:var(--ink2);margin:8px 0 0}
+.legend i{display:inline-block;width:10px;height:10px;border-radius:50%;margin-right:5px;vertical-align:-1px}
+
+/* The chain explorer. */
+.chain{margin:30px 0 0}
+.chain .head{display:flex;justify-content:space-between;align-items:center;gap:8px;flex-wrap:wrap}
+.depth{display:flex;border:1px solid var(--rule);border-radius:999px;overflow:hidden;font:13px/1 var(--ui)}
+.depth button{padding:9px 11px;min-height:36px;color:var(--ink2)}
+.depth button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.trail{display:flex;gap:6px;flex-wrap:wrap;align-items:center;font:13px/1.3 var(--ui);color:var(--ink2);margin:10px 0 0;min-height:20px}
+.trail button{color:var(--amber);min-height:32px}
+.col{display:flex;flex-direction:column;align-items:stretch;margin:12px 0 0}
+.grp{font:12px/1.3 var(--ui);color:var(--ink3);letter-spacing:.06em;text-transform:uppercase;margin:14px 0 8px}
+.node{display:grid;grid-template-columns:3.4rem 1fr auto;gap:10px;align-items:start;background:var(--surface);border:1px solid var(--rule);border-radius:12px;padding:12px 12px 12px 14px;min-height:56px}
+.node .y{font:600 15px/1.3 var(--ui);color:var(--amber);font-variant-numeric:tabular-nums}
+.node .t{font:500 17px/1.3 var(--display);color:var(--ink)}
+.node .t.lk{color:var(--k-event)}
+.node .m{font:12px/1.4 var(--ui);color:var(--ink2);margin-top:2px}
+.node .go{min-height:40px;min-width:40px;display:grid;place-items:center;border:1px solid var(--rule);border-radius:999px;color:var(--ink2)}
+.node .go:hover{color:var(--ink);border-color:var(--ink2)}
+.node.here{border-color:var(--amber);background:var(--surface2);grid-template-columns:3.4rem 1fr}
+.node.here .t{font-size:19px}
+.node.dim{opacity:.45}
+.edge{display:grid;grid-template-columns:3.4rem 1fr;gap:10px;align-items:center;min-height:44px;padding:4px 0 4px 14px}
+.edge .ln{position:relative;height:40px;width:0;justify-self:center}
+.edge .ln i{position:absolute;left:-1.5px;top:0;bottom:0;border-left:3px solid var(--ink2)}
+.edge .ln.contrib i{border-left-style:dashed}
+.edge .ln.contest i{border-left-style:dotted}
+.edge .ln.coinc i{border-left-color:var(--ink3);border-left-width:2px}
+.edge .ln.coinc::after{content:"";position:absolute;left:-8px;top:50%;width:16px;border-top:2px solid var(--ink3);transform:rotate(-30deg)}
+.edge .ln.hi i{border-left-width:4px;border-left-color:var(--ink)}
+.edge .ln.lo i{border-left-width:2px;opacity:.7}
+.edge .ln::before{content:"";position:absolute;left:-5px;bottom:-2px;border:5px solid transparent;border-top:7px solid var(--ink2)}
+.edge .ln.hi::before{border-top-color:var(--ink)}
+.edge .ln.up::before{top:-2px;bottom:auto;border-top:5px solid transparent;border-bottom:7px solid var(--ink2)}
+.edge .ln.up.hi::before{border-bottom-color:var(--ink)}
+.edge .lab{display:flex;flex-direction:column;gap:1px;min-height:44px;justify-content:center;border-radius:8px;padding:4px 8px;margin-left:-8px}
+.edge .lab:hover{background:var(--surface)}
+.edge .lab .ph{font:14px/1.35 var(--ui);color:var(--ink)}
+.edge .lab .gw{font:12px/1.3 var(--ui);color:var(--ink2)}
+.edge .lab .gw b{font-weight:500;color:var(--ink)}
+.more{display:flex;gap:8px;flex-wrap:wrap;margin:8px 0 0 0}
+.more button{font:13px/1 var(--ui);color:var(--ink2);border:1px dashed var(--rule);border-radius:999px;padding:9px 12px;min-height:36px}
+.empty{font:14px/1.5 var(--ui);color:var(--ink3);padding:8px 0 0 3.6rem}
+
+/* Detail control. */
+.detail-btn{display:flex;align-items:center;justify-content:space-between;gap:10px;width:100%;min-height:56px;margin:26px 0 0;padding:12px 16px;
+  background:var(--surface);border:1px solid var(--rule);border-radius:12px;font:500 16px/1.3 var(--ui);box-shadow:var(--shadow)}
+.detail-btn .sub{display:block;font-weight:400;font-size:13px;color:var(--ink2);margin-top:2px}
+.detail-btn svg{flex:none;transition:transform .2s}
+.detail-btn[aria-expanded="true"] svg{transform:rotate(180deg)}
+.detail{border-left:2px solid var(--rule);padding-left:14px;margin:14px 0 0}
+.exits{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0 0;font:14px/1.4 var(--ui)}
+.exits a{color:var(--ink2)}
+
+/* Floating pill in place of a bar. */
+.pill{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:15;display:flex;align-items:center;gap:4px;
+  background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:5px;box-shadow:var(--shadow)}
+.pill button{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;min-width:48px;border-radius:999px;padding:0 10px;color:var(--ink)}
+.pill button:hover{background:var(--surface2)}
+.pill .g{background:var(--ink);color:var(--bg);padding:0 16px;font:600 14px/1 var(--ui)}
+.pill .y{font:600 17px/1 var(--ui);color:var(--amber);font-variant-numeric:tabular-nums;padding:0 14px}
+.pill svg{width:22px;height:22px}
+
+/* Sheets and the preview card. */
+.scrim{position:fixed;inset:0;background:var(--scrim);z-index:20;display:none}
+.scrim.on{display:block}
+.sheet{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(84px + env(safe-area-inset-bottom,0px));width:min(94vw,26rem);z-index:21;background:var(--surface);border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow);padding:14px 16px;display:none}
+.sheet.on{display:block}
+.sheet .kind{font:12px/1.3 var(--ui);color:var(--ink2);display:flex;align-items:center;gap:6px}
+.sheet .kind i{display:inline-block;width:10px;height:10px;border-radius:50%}
+.sheet h3{font:500 21px/1.2 var(--display);margin:4px 0 2px;text-wrap:balance}
+.sheet .date{font:13px/1.3 var(--ui);color:var(--ink2);margin:0 0 8px;font-variant-numeric:tabular-nums}
+.sheet p{font-size:15px;margin:0 0 12px}
+.sheet .acts{display:flex;gap:8px;flex-wrap:wrap}
+.sheet .pri{background:var(--amber);color:var(--on-amber);border-radius:999px;padding:0 16px;min-height:44px;font:600 15px/1 var(--ui);display:inline-flex;align-items:center}
+.sheet .sec{border:1px solid var(--rule);border-radius:999px;padding:0 14px;min-height:44px;font:500 15px/1 var(--ui);display:inline-flex;align-items:center;color:var(--ink)}
+.sheet .close{color:var(--ink2);padding:0 10px;min-height:44px;font:15px/1 var(--ui)}
+.sheet .thumb{width:100%;height:84px;border-radius:10px;background:var(--land);border:1px solid var(--rule);margin:0 0 10px;display:grid;place-items:center;color:var(--ink2);font:12px var(--ui)}
+.sheet .note h4{font:600 12px/1.3 var(--ui);color:var(--ink3);letter-spacing:.06em;text-transform:uppercase;margin:10px 0 4px}
+.sheet .note p{font-size:14px}
+.sheet .places{display:grid;grid-template-columns:1fr 1fr;gap:8px;margin:10px 0 4px}
+.sheet .places button{display:flex;align-items:center;gap:10px;min-height:48px;padding:0 12px;border:1px solid var(--rule);border-radius:12px;font:500 15px/1.2 var(--ui)}
+.sheet .places button svg{width:20px;height:20px;color:var(--ink2);flex:none}
+.sheet .places button[aria-current="page"]{border-color:var(--amber)}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:22;background:var(--ink);color:var(--bg);font:14px/1.3 var(--ui);padding:10px 14px;border-radius:999px;display:none;max-width:90vw;text-align:center}
+.toast.on{display:block}
+</style>
+
+<div class="wrap">
+  <div class="top">
+    <button class="back" type="button" data-act="Back: the exact place and year you left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg>Back</button>
+    <nav class="crumb" aria-label="Breadcrumb"><button type="button" data-act="Atlas: the front door">Atlas</button><span class="sep">›</span><button type="button" class="chron" data-prev="chron:german-question">The German Question</button><span class="sep">›</span><button type="button" data-prev="story:treaty">The treaty</button></nav>
+    <div class="mock" role="group" aria-label="Theme (mock control)">
+      <button type="button" data-theme="" aria-pressed="true">Auto</button>
+      <button type="button" data-theme="light" aria-pressed="false">Light</button>
+      <button type="button" data-theme="dark" aria-pressed="false">Dark</button>
+    </div>
+  </div>
+</div>
+
+<section class="hero full" aria-label="Where and when">
+  <canvas id="globe" aria-label="The globe at 1919, centred on Paris. Drag to turn it."></canvas>
+  <div class="veil"></div>
+  <div class="dragnote">Drag the globe</div>
+  <div class="txt">
+    <div class="kicker"><span class="tp">Turning point</span><span>in</span><button class="lk chron" type="button" data-prev="chron:german-question">The German Question</button></div>
+    <h1>The Paris Peace Settlement</h1>
+    <div class="when"><span><b>1919</b> to 1923</span><span>·</span><span>Paris</span><span>·</span><span>placed on the timeline at 28 June 1919</span></div>
+    <p class="line">Five treaties ended the First World War, dissolved three empires and left Germany's place in Europe unresolved.</p>
+  </div>
+</section>
+
+<main class="wrap">
+  <section class="ladder" aria-label="Where this sits">
+    <div class="lv"><div class="lab">Chronicle</div><div class="val"><button class="lk chron" type="button" data-prev="chron:german-question">The German Question</button> <span class="sub">· 1517 to today</span></div></div>
+    <div class="lv"><div class="lab">Story</div><div class="val"><button class="lk" type="button" data-prev="story:treaty">The treaty</button> <span class="sub">· 1914 to 1923 · chapter 6 of 10</span></div></div>
+    <div class="lv here"><div class="lab">Turning point</div><div class="val">The Paris Peace Settlement <span class="sub">· this page</span></div></div>
+    <div class="lv"><div class="lab">Strands</div><div class="val">
+      <div class="strands" id="strands"></div></div></div>
+  </section>
+
+  <h2>Overview</h2>
+  <p class="lede">The Paris settlement dissolved three empires: Austria-Hungary, the Ottoman Empire and Germany's overseas empire. New states replaced them, from Poland and Czechoslovakia to Iraq and Syria. <button class="lk polity" type="button" data-prev="pol:germany">Germany</button> survived as a republic. It lost 13 percent of its European territory and most of its army, and it was charged reparations. It remained the largest industrial economy in central Europe.</p>
+  <p>Britain, France and Japan gained the most. Britain and France took the Ottoman Arab provinces and most of Germany's African colonies as League mandates. Japan took Germany's northern Pacific islands and its holdings in <button class="lk feature" type="button" data-prev="feat:shandong">Shandong</button>.</p>
+  <p>The settlement left the central question of the war unresolved: Germany's place in Europe. It also had no means of enforcement. The US Senate rejected the treaty, and the League of Nations had no army. By the 1930s Britain and France would not enforce the terms alone.</p>
+  <div class="legend"><span><i style="background:var(--k-event-u)"></i>event</span><span><i style="background:var(--k-person)"></i>person</span><span><i style="background:var(--k-polity)"></i>country</span><span><i style="background:var(--k-feature)"></i>place</span><span><i style="background:var(--k-chron)"></i>chronicle</span></div>
+
+  <section class="chain" aria-label="Causes and effects">
+    <div class="head"><h2 style="margin:0">Causes and effects</h2>
+      <div class="depth" role="group" aria-label="Depth"><button type="button" data-depth="1" aria-pressed="true">Turning points</button><button type="button" data-depth="2" aria-pressed="false">The full story</button><button type="button" data-depth="3" aria-pressed="false">Every detail</button></div></div>
+    <div class="trail" id="trail"></div>
+    <div class="col" id="col"></div>
+  </section>
+
+  <h2>Why it happened</h2>
+  <ol class="drivers">
+    <li><span class="n">1</span><span>French Prime Minister <button class="lk person" type="button" data-prev="per:clemenceau">Georges Clemenceau</button> wanted Germany too weak to attack again.</span></li>
+    <li><span class="n">2</span><span>British Prime Minister <button class="lk person" type="button" data-prev="per:lloyd">David Lloyd George</button> wanted a Germany that could still trade.</span></li>
+    <li><span class="n">3</span><span>US President <button class="lk person" type="button" data-prev="per:wilson">Woodrow Wilson</button> wanted a League of Nations.</span></li>
+    <li class="trig"><span class="n">Trigger</span><span>The armistice of November 1918 ended the fighting with German armies still in France and Belgium. Many Germans did not believe they had lost. The victors met in Paris in January 1919 without Germany or Soviet Russia. Clemenceau gave up his claim to the Rhine for an Anglo-American guarantee.</span></li>
+  </ol>
+
+  <h2>What it did, and to whom</h2>
+  <div class="tablewrap"><table class="terms">
+    <thead><tr><th>Treaty</th><th>Terms</th><th>Who gained</th></tr></thead>
+    <tbody>
+      <tr><td>Versailles<small>Germany · June 1919</small></td><td>Lost 13% of its European territory and all its colonies; army capped at 100,000; reparations set at 132 billion gold marks in 1921, of which it paid about 20 billion.</td><td>France and Poland took the land. Germany kept the largest industrial economy in central Europe.</td></tr>
+      <tr><td>Saint-Germain<small>Austria · Sept 1919</small></td><td>The Habsburg lands divided; union with Germany banned.</td><td>Czechoslovakia and Yugoslavia gained statehood and large minorities; Italy got less than it was promised in 1915.</td></tr>
+      <tr><td>Neuilly<small>Bulgaria · Nov 1919</small></td><td>Lost its Aegean coast.</td><td>Greece.</td></tr>
+      <tr><td>Trianon<small>Hungary · June 1920</small></td><td>Lost 72% of its territory; 3.3 million Hungarians left outside the new borders.</td><td>Romania took the most.</td></tr>
+      <tr><td>Sèvres<small>Ottoman Empire · Aug 1920</small></td><td>Partitioned Anatolia and the Arab lands. Turkish nationalists overturned the partition of Anatolia by force; <button class="lk" type="button" data-prev="str:lausanne">Lausanne</button> replaced it in 1923.</td><td>Britain and France took the Arab provinces as mandates; the Arabs who had been promised independence paid for it. Japan took Shandong from China and Germany's Pacific islands.</td></tr>
+    </tbody></table></div>
+
+  <h2>Why it held or failed</h2>
+  <p>The settlement had two flaws. First, it applied self-determination selectively. Poles and Czechs got states. Germans in Austria and the Sudetenland, Hungarians, Egyptians, Koreans and Arabs did not. Every loser gained a principled case against the peace.</p>
+  <p>Second, it left Germany intact and surrounded by weak new states where Austria-Hungary and Russia had stood. The terms held only while Britain and France enforced them. By the 1930s British opinion considered German grievances fair. Hitler presented the Anschluss and the Sudeten claim as self-determination.</p>
+
+  <h2>What it set up</h2>
+  <div class="setup">
+    <button class="lk" type="button" data-prev="ev:as191949">The May Fourth Movement, 1919</button>
+    <button class="lk" type="button" data-prev="ev:x-rome">The March on Rome, 1922</button>
+    <button class="lk" type="button" data-prev="ev:x-syria">The Great Syrian Revolt, 1925 to 1927</button>
+    <button class="lk" type="button" data-prev="ev:eu193893">The Munich Agreement, 1938</button>
+  </div>
+
+  <h2>Today</h2>
+  <p>Iraq, Syria, Lebanon, Jordan and Israel sit largely within borders drawn under the mandates.</p>
+
+  <button class="detail-btn" type="button" aria-expanded="false" aria-controls="detail">
+    <span>Open the detail<span class="sub">The account · By the numbers · The argument · The common misreading · The detail</span></span>
+    <svg width="22" height="22" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M6 9l6 6 6-6"/></svg>
+  </button>
+  <div class="detail" id="detail" hidden>
+    <h2>The detail</h2>
+    <p>On 11 April 1919 Japan's proposal to write racial equality into the League Covenant won 11 of the 17 votes in commission. Wilson, in the chair, ruled that it needed unanimity, and the clause died.</p>
+    <p style="color:var(--ink2);font-size:14px">The other layer 3 sections are not written in this mock; this control is what opens them.</p>
+  </div>
+  <div class="exits"><a href="https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)">Wikipedia</a><a href="https://www.britannica.com/event/Paris-Peace-Conference">Britannica</a></div>
+</main>
+
+<div class="scrim" id="scrim"></div>
+<div class="sheet" id="sheet" role="dialog" aria-modal="true" aria-labelledby="sheetTitle"></div>
+<div class="toast" id="toast" role="status"></div>
+
+<nav class="pill" aria-label="Atlas">
+  <button type="button" class="g" id="globeBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>Globe</button>
+  <button type="button" class="y" data-act="The year card for 1919">1919</button>
+  <button type="button" data-act="Search" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+</nav>
+
+<script>
+(function(){
+  var root=document.documentElement, A=window.ATLAS||{events:[],links:[],land:null};
+  var E={}; A.events.forEach(function(e){E[e.id]=e});
+  var HERE='eu191988';
+  if(E[HERE]) E[HERE].h='The Paris Peace Settlement'; /* the pilot graph names the knot by its first treaty; the page uses the settlement */
+
+  /* theme (mock) */
+  function setTheme(t){ if(t)root.setAttribute('data-theme',t); else root.removeAttribute('data-theme');
+    document.querySelectorAll('.mock [data-theme]').forEach(function(b){b.setAttribute('aria-pressed',String((b.dataset.theme||'')===(t||'')))}); if(window.drawGlobe)drawGlobe(); }
+  document.querySelectorAll('.mock [data-theme]').forEach(function(b){b.addEventListener('click',function(){setTheme(b.dataset.theme)})});
+
+  /* globe: the atlas's land outline, orthographic, centred on Paris, draggable */
+  var cv=document.getElementById('globe'), rot=[-2.35,-48.86];
+  function css(n){return getComputedStyle(root).getPropertyValue(n).trim()}
+  window.drawGlobe=function(){
+    if(!window.d3||!A.land)return;
+    var w=cv.clientWidth,h=cv.clientHeight,dpr=Math.min(2,window.devicePixelRatio||1);
+    cv.width=w*dpr;cv.height=h*dpr; var c=cv.getContext('2d'); c.setTransform(dpr,0,0,dpr,0,0);
+    var r=Math.max(w,h)*0.78, proj=d3.geoOrthographic().translate([w*0.62,h*0.55]).scale(r).rotate(rot).clipAngle(90);
+    var path=d3.geoPath(proj,c); c.clearRect(0,0,w,h);
+    c.beginPath();path({type:'Sphere'});c.fillStyle=css('--sea');c.fill();
+    c.beginPath();path(d3.geoGraticule10());c.strokeStyle=css('--grat');c.lineWidth=.6;c.stroke();
+    var land=topojson.feature(A.land,A.land.objects.land);
+    c.beginPath();path(land);c.fillStyle=css('--land');c.fill();c.strokeStyle=css('--coast');c.lineWidth=.8;c.stroke();
+    c.beginPath();path({type:'Sphere'});c.strokeStyle=css('--coast');c.lineWidth=1;c.stroke();
+    var p=proj([2.35,48.86]); if(p){c.beginPath();c.arc(p[0],p[1],5,0,7);c.fillStyle=css('--amber');c.fill();c.lineWidth=2;c.strokeStyle=css('--bg');c.stroke();}
+  };
+  if(window.d3){ drawGlobe(); window.addEventListener('resize',drawGlobe);
+    d3.select(cv).call(d3.drag().on('drag',function(ev){ rot[0]+=ev.dx*0.35; rot[1]=Math.max(-80,Math.min(80,rot[1]-ev.dy*0.35)); drawGlobe(); })); }
+
+  /* previews: kinds and their content (mock lines are plain sentences; event lines are the atlas's bottom lines) */
+  var KIND={ev:['Event','--k-event-u'],per:['Person','--k-person'],pol:['Country','--k-polity'],feat:['Place','--k-feature'],chron:['Chronicle','--k-chron'],story:['Story','--k-chron'],str:['Strand','--k-event-u']};
+  var X={
+    'per:clemenceau':{t:'Georges Clemenceau',d:'1841 to 1929 · French prime minister 1917 to 1920',l:'Led France at the conference and wanted Germany too weak to attack again.',a:'Follow his chain'},
+    'per:lloyd':{t:'David Lloyd George',d:'1863 to 1945 · British prime minister 1916 to 1922',l:'Wanted a Germany that could still trade.',a:'Follow his chain'},
+    'per:wilson':{t:'Woodrow Wilson',d:'1856 to 1924 · US president 1913 to 1921',l:'Wanted a League of Nations; the Senate refused to join it.',a:'Follow his chain'},
+    'pol:germany':{t:'Germany',d:'Republic from 1919',l:'Lost 13 percent of its European territory and kept the largest industrial economy in central Europe.',a:'Open country',b:'Open the chronicle',th:'territory at 1919'},
+    'feat:shandong':{t:'Shandong',d:'Province, north China coast',l:'Germany\'s leased territory at Qingdao passed to Japan under the settlement.',a:'Open on the map',b:'Read more'},
+    'chron:german-question':{t:'The German Question',d:'1517 to today · 10 stories',l:'A country in the middle of Europe, and every answer to how it should be organised was also an answer to how Europe should be.',a:'Open the chronicle'},
+    'story:treaty':{t:'The treaty',d:'1914 to 1923 · story 6 of 10 in The German Question',l:'From Sarajevo to Lausanne: the war, the collapse of four empires, and a peace with no enforcer.',a:'Open the story'},
+    'str:conf':{t:'The Paris Peace Conference',d:'18 January 1919 to 21 January 1920',l:'The victors met without Germany or Soviet Russia.',a:'Open'},
+    'str:versailles':{t:'Versailles',d:'28 June 1919',l:'The treaty with Germany.',a:'Open'},
+    'str:stgermain':{t:'Saint-Germain',d:'10 September 1919',l:'The treaty with Austria; union with Germany banned.',a:'Open'},
+    'str:neuilly':{t:'Neuilly',d:'27 November 1919',l:'The treaty with Bulgaria.',a:'Open'},
+    'str:trianon':{t:'Trianon',d:'4 June 1920',l:'The treaty with Hungary; 72 percent of its territory lost.',a:'Open'},
+    'str:sevres':{t:'Sèvres',d:'10 August 1920',l:'The treaty with the Ottoman Empire; overturned in Anatolia by force.',a:'Open'},
+    'str:mandates':{t:'The League and the mandates',d:'1920',l:'Britain and France took the Arab provinces as mandates.',a:'Open'},
+    'str:lausanne':{t:'Lausanne',d:'24 July 1923',l:'Replaced Sèvres; recognised the Turkish republic.',a:'Open'},
+    'ev:x-rome':{t:'The March on Rome',d:'October 1922',l:'Mussolini took power in Italy.',a:'Open'},
+    'ev:x-syria':{t:'The Great Syrian Revolt',d:'1925 to 1927',l:'A revolt against the French mandate.',a:'Open'}
+  };
+  var STR=['conf','versailles','stgermain','neuilly','trianon','sevres','mandates','lausanne'];
+  var sEl=document.getElementById('strands');
+  STR.forEach(function(k){ var x=X['str:'+k]; var b=document.createElement('button'); b.type='button'; b.className='strand'; b.dataset.prev='str:'+k;
+    b.innerHTML='<span class="y">'+x.d.replace(/^.*?(\d{4}).*$/,'$1')+'</span><span class="t">'+x.t+'</span>'; sEl.appendChild(b); });
+
+  var scrim=document.getElementById('scrim'),sheet=document.getElementById('sheet'),toast=document.getElementById('toast'),lastFocus=null;
+  function openSheet(html,src){ lastFocus=src||document.activeElement; sheet.innerHTML=html; scrim.classList.add('on'); sheet.classList.add('on');
+    var f=sheet.querySelector('button'); if(f)f.focus();
+    sheet.querySelectorAll('[data-close]').forEach(function(b){b.addEventListener('click',closeSheet)});
+    sheet.querySelectorAll('[data-say]').forEach(function(b){b.addEventListener('click',function(){var m=b.dataset.say;closeSheet();say(m)})});
+    sheet.querySelectorAll('[data-centre]').forEach(function(b){b.addEventListener('click',function(){var id=b.dataset.centre;closeSheet();centre(id)})});
+    sheet.querySelectorAll('[data-prev]').forEach(bindPrev); }
+  function closeSheet(){ scrim.classList.remove('on'); sheet.classList.remove('on'); sheet.innerHTML=''; if(lastFocus&&lastFocus.focus)lastFocus.focus(); }
+  scrim.addEventListener('click',closeSheet); document.addEventListener('keydown',function(e){if(e.key==='Escape')closeSheet()});
+  var tt; function say(m){ toast.textContent=m; toast.classList.add('on'); clearTimeout(tt); tt=setTimeout(function(){toast.classList.remove('on')},2400); }
+
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function preview(key,src){ var kind=key.split(':')[0], id=key.slice(kind.length+1), K=KIND[kind]||KIND.ev, x=X[key];
+    if(!x&&kind==='ev'&&E[id]){ var e=E[id]; x={t:e.h,d:String(e.y),l:(e.bluf||'').split(/(?<=\.)\s/)[0],a:'Open',ev:id}; }
+    if(!x)return;
+    var h='<div class="kind"><i style="background:var('+K[1]+')"></i>'+K[0]+(x.ev&&E[x.ev]?(' · '+(E[x.ev].tier===1?'turning point':'the full story')):'')+'</div>'
+      +(x.th||kind==='ev'?'<div class="thumb">'+esc(x.th||'picture, where there is one')+'</div>':'')
+      +'<h3 id="sheetTitle">'+esc(x.t)+'</h3><div class="date">'+esc(x.d)+'</div><p>'+esc(x.l)+'</p><div class="acts">'
+      +'<button type="button" class="pri" data-say="Would open: '+esc(x.t)+'. A Return chip would bring you back to this sentence.">'+esc(x.a)+'</button>'
+      +(x.b?'<button type="button" class="sec" data-say="Would open: '+esc(x.b)+'.">'+esc(x.b)+'</button>':'')
+      +(x.ev&&x.ev!==HERE?'<button type="button" class="sec" data-centre="'+esc(x.ev)+'">Centre the chain here</button>':'')
+      +'<button type="button" class="close" data-close>Close</button></div>';
+    openSheet(h,src); }
+  function bindPrev(b){ b.addEventListener('click',function(){preview(b.dataset.prev,b)}); }
+  document.querySelectorAll('[data-prev]').forEach(bindPrev);
+  document.querySelectorAll('[data-act]').forEach(function(b){b.addEventListener('click',function(){say(b.dataset.act)})});
+
+  /* the chain explorer over the real links */
+  var depth=1, centreId=HERE, trailIds=[];
+  var PH={ // plain phrases by grade and side
+    up:{Necessary:'This could not have happened without it',Sufficient:'Enough on its own to bring this about',Contributing:'One of several causes of this',Contested:'Two readings; the atlas withholds a verdict',Coincident:'Same time; no link'},
+    down:{Necessary:'Could not have happened without this',Sufficient:'This was enough on its own to bring it about',Contributing:'This was one of several causes',Contested:'Two readings; the atlas withholds a verdict',Coincident:'Same time; no link'}};
+  function lnClass(l,up){ var c=['ln']; /* time runs down the page: every arrow points down */ if(l.grade==='Contributing')c.push('contrib'); if(l.grade==='Contested')c.push('contest'); if(l.grade==='Coincident')c.push('coinc'); c.push(l.conf==='High'?'hi':l.conf==='Low'?'lo':''); return c.join(' '); }
+  function show(e){ return e && (depth>=3 || (depth===2 && e.tier<=2) || (depth===1 && e.tier===1)); }
+  function nodeHtml(e,here){ var m=(e.tier===1?'Turning point':'The full story')+(e.chapter?' · '+esc(e.chapter):'');
+    if(here) return '<div class="node here" id="n-'+esc(e.id)+'"><div class="y">'+e.y+'</div><div><div class="t">'+esc(e.h)+'</div><div class="m">'+m+(e.id===HERE?' · this page':' · centred')+'</div></div></div>';
+    return '<div class="node"><div class="y">'+e.y+'</div><div><button type="button" class="t lk" data-prev="ev:'+esc(e.id)+'">'+esc(e.h)+'</button><div class="m">'+m+'</div></div><button type="button" class="go" data-centre="'+esc(e.id)+'" aria-label="Look further from '+esc(e.h)+'"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M12 8v8M8 12h8"/></svg></button></div>'; }
+  function edgeHtml(l,up){ return '<div class="edge"><div class="'+lnClass(l,up)+'"><i></i></div><button type="button" class="lab" data-link="'+esc(l.id)+'"><span class="ph">'+esc(PH[up?'up':'down'][l.grade]||l.grade)+'</span><span class="gw"><b>'+esc(l.grade)+'</b> · '+esc(l.conf.toLowerCase())+' confidence · '+esc(l.type.toLowerCase())+' · tap for the note</span></button></div>'; }
+  function render(){ var c=E[centreId]; var ups=A.links.filter(function(l){return l.t===centreId}), downs=A.links.filter(function(l){return l.f===centreId});
+    var vu=ups.filter(function(l){return show(E[l.f])}), vd=downs.filter(function(l){return show(E[l.t])});
+    var h='<div class="grp">What led here</div>';
+    if(!vu.length) h+='<div class="empty">'+(ups.length?ups.length+' at a deeper level; widen the depth to see them.':'Nothing links in yet.')+'</div>';
+    vu.sort(function(a,b){return E[a.f].y-E[b.f].y}).forEach(function(l){ h+=nodeHtml(E[l.f])+edgeHtml(l,false); });
+    if(ups.length>vu.length&&vu.length) h+='<div class="more"><button type="button" data-widen>+ '+(ups.length-vu.length)+' more at a deeper level</button></div>';
+    h+='<div class="grp" style="margin-top:10px">This</div>'+nodeHtml(c,true);
+    h+='<div class="grp" style="margin-top:14px">What it led to</div>';
+    if(!vd.length) h+='<div class="empty">'+(downs.length?downs.length+' at a deeper level; widen the depth to see them.':'Nothing links out yet.')+'</div>';
+    vd.sort(function(a,b){return E[a.t].y-E[b.t].y}).forEach(function(l){ h+=edgeHtml(l,true)+nodeHtml(E[l.t]); });
+    if(downs.length>vd.length&&vd.length) h+='<div class="more"><button type="button" data-widen>+ '+(downs.length-vd.length)+' more at a deeper level</button></div>';
+    if(depth===3) h+='<div class="empty">Every detail: this pilot chain holds no fibres yet, so the view matches The full story.</div>';
+    var col=document.getElementById('col'); col.innerHTML=h;
+    col.querySelectorAll('[data-prev]').forEach(bindPrev);
+    col.querySelectorAll('[data-centre]').forEach(function(b){b.addEventListener('click',function(){centre(b.dataset.centre)})});
+    col.querySelectorAll('[data-widen]').forEach(function(b){b.addEventListener('click',function(){setDepth(Math.min(3,depth+1))})});
+    col.querySelectorAll('[data-link]').forEach(function(b){b.addEventListener('click',function(){noteSheet(b.dataset.link,b)})});
+    var t=document.getElementById('trail'); if(centreId===HERE){t.innerHTML='Tap <b style="color:var(--ink)">+</b> on any card to look further back or ahead from it.';}
+    else{ t.innerHTML='Centred on '+esc(c.h)+', '+c.y+'. <button type="button" id="backHere">Back to The Paris Peace Settlement</button>'; document.getElementById('backHere').addEventListener('click',function(){centre(HERE)}); } }
+  function centre(id){ if(!E[id])return; centreId=id; render(); var n=document.getElementById('n-'+id); if(n)n.scrollIntoView({block:'center',behavior:'smooth'}); }
+  function setDepth(d){ depth=d; document.querySelectorAll('.depth button').forEach(function(b){b.setAttribute('aria-pressed',String(+b.dataset.depth===d))}); render(); }
+  document.querySelectorAll('.depth button').forEach(function(b){b.addEventListener('click',function(){setDepth(+b.dataset.depth)})});
+  function noteSheet(id,src){ var l=A.links.filter(function(x){return x.id===id})[0]; if(!l)return; var f=E[l.f],t=E[l.t];
+    var h='<div class="kind"><i style="background:var(--amber)"></i>Arrow · '+esc(l.grade)+' · '+esc(l.conf.toLowerCase())+' confidence</div><h3 id="sheetTitle">'+esc(f.h)+' → '+esc(t.h)+'</h3><div class="date">'+f.y+' → '+t.y+' · '+esc(l.type)+'</div>'
+      +'<div class="note"><h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The strongest objection</h4><p>'+esc(l.objection)+'</p>'+(l.verdict?'<h4>Verdict</h4><p>'+esc(l.verdict)+'</p>':'')+'</div>'
+      +'<div class="acts"><button type="button" class="close" data-close>Close</button></div>';
+    openSheet(h,src); }
+  render();
+
+  /* detail control */
+  var db=document.querySelector('.detail-btn'),dt=document.getElementById('detail');
+  db.addEventListener('click',function(){ var o=db.getAttribute('aria-expanded')==='true'; db.setAttribute('aria-expanded',String(!o)); dt.hidden=o; });
+
+  /* the pill: Globe opens the six places */
+  var P=[['People','M12 4a4 4 0 1 1 0 8 4 4 0 0 1 0-8zM4 21c0-4 4-6 8-6s8 2 8 6'],['Globe at 1919','M12 3a9 9 0 1 0 0 18 9 9 0 0 0 0-18zM3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18'],['Events','M5 4h14v16H5zM8 9h8M8 13h8'],['Explore, the present-day globe','M3 7l6-3 6 3 6-3v13l-6 3-6-3-6 3zM9 4v13M15 7v13'],['Themes','M4 19V5a1 1 0 0 1 1-1h11l4 4v11a1 1 0 0 1-1 1zM8 12h8M8 16h5'],['Timeline at 1919','M12 3v18M6 7h12M8 12h8M10 17h4']];
+  document.getElementById('globeBtn').addEventListener('click',function(){
+    var h='<div class="kind"><i style="background:var(--amber)"></i>The atlas · you are at 1919</div><h3 id="sheetTitle">Where to?</h3><div class="places">'
+      +P.map(function(p,i){return '<button type="button" '+(i===2?'aria-current="page" ':'')+'data-say="'+esc(p[0])+'"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="'+p[1]+'"/></svg>'+esc(p[0].split(',')[0].replace(' at 1919',''))+'</button>'}).join('')
+      +'</div><div class="acts" style="margin-top:8px"><button type="button" class="close" data-close>Close</button></div>';
+    openSheet(h,document.getElementById('globeBtn')); });
+})();
+</script>
