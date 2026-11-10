@@ -1,6 +1,6 @@
 # Where the atlas stands (read this first in any new chat)
 
-Updated 2026-11-08. The one page that says what has been decided, where it lives and what
+Updated 2026-11-10. The one page that says what has been decided, where it lives and what
 comes next. CLAUDE.md holds the rules; this file holds the state. Update it at the end of
 every working session.
 
@@ -46,7 +46,16 @@ mocks, judged on Cade's phone. Steps are in `docs/roadmap.md`; status in `docs/p
 - Sticky bars end in a soft fade while stuck; layers run header, tabs, spine.
 - Chapters: the one being read at full size, the rest smaller and lighter; edge chapters
   recede only as the reader leaves them.
-- The chapter spine becomes a wheel with arrows below it only when chapters do not fit.
+- The chapter spine (rule 8): a red line fills to the chapter in view and a soft box sits
+  behind it, sized to its whole title. When chapters do not fit, the row slides, starting
+  at the left edge, with arrows below that move it three chapters. The spine fades and slides
+  up under the tabs as the last chapter ends, so it is gone before Meanwhile.
+- Section tabs (`palette.md`, gilt): the selected tab draws a gilt cartouche (0.8 s), grows
+  to 105 percent while the others shrink to 94, and Chapters shows a count ("1 of 5"). A
+  frame that tracked the scroll was tried and dropped. Each page ends with just enough room
+  for its last section to be selected.
+- On the story page a chapter's title opens its chapter page; a small "Read the chapter ›"
+  sits at the end of its paragraph.
 
 **Writing** (CLAUDE.md, `docs/house-style.md`): active voice, the PDB register, no hedges,
 no invented specifics, title case for titles.
@@ -58,15 +67,17 @@ no invented specifics, title case for titles.
 | Story: Weimar Germany | https://claude.ai/artifact/AWaup7weY8H6EUwNDCXS37 | `docs/design/mocks/story-v2.html` |
 | Chapter: The Ruhr and the Mark | https://claude.ai/artifact/5SyFXi5sACFqRQe6zcvmyW | `docs/design/mocks/chapter-v1.html` |
 | The six levels | https://claude.ai/artifact/Y9GbTwZBYFKiwvCfbqhpku | `docs/design/levels-chart.html` |
-| Spine test, twenty chapters | https://claude.ai/artifact/GS6K2eL7M9fe2QA6VxQWpi | (test only) |
+| Spine test, twenty chapters | https://claude.ai/artifact/GS6K2eL7M9fe2QA6VxQWpi | `docs/design/mocks/spine-test.html` |
 | Event: The Paris Peace Settlement | https://claude.ai/artifact/MdJzwkT1viFnjFEdqqcaaP | `docs/design/mocks/event-v11.html` |
 
 The artifacts are private to Cade's account. The repo files are the source of truth.
 
 ## Next, in order
 
-1. Cade's read of the event page (event-v11) on his phone.
-2. Phase 1 steps left: front door (1.5), filters (1.6), the two globes (1.7), building the
+1. Cade's read of the latest story, chapter and event pages on his phone.
+2. Open decision: keep "story" for the level under chronicle, or rename it ("book" or
+   "volume" were raised; the recommendation is to keep "story").
+3. Phase 1 steps left: front door (1.5), filters (1.6), the two globes (1.7), building the
    shared components (1.8 to 1.12), the people test (1.13).
 
 ## Desktop (Cade, 2026-11-08)
@@ -100,3 +111,6 @@ Phone first, desktop second, and the desktop is designed, never the phone layout
 
 All work is on the branch `claude/epic-sagan-y62xj8` and reaches `main` when Cade merges a
 pull request. A session that starts from `main` sees only what has been merged.
+
+To update a published mock from a new chat, give it the artifact link from the table above;
+it reads the page first and republishes to the same link.
