@@ -12,9 +12,9 @@ CHRONICLE   one long subject followed through time
    │        Germany · The Jewish People · Capitalism · The Second World War
    │        page = a portrait, then its stories by start date (a two-minute read)
    │
-   ├─ STORY   one argument: why this part went the way it did
+   ├─ STORY   one bottom line: what happened and why it matters
    │     Germany: Weimar Germany 1919–1933 · Nazi Germany 1933–1945 · ...
-   │     page = the argument, then its chapters
+   │     page = the briefing, bottom line first, then its chapters
    │
    │     └─ CHAPTER   a stretch of the story in which one thing changes
    │          Weimar: The Treaty · The Ruhr and the Mark · The Golden Years
@@ -35,8 +35,8 @@ of an event. The events of a chapter are a flat set joined by links; no event si
 
 | Level | What it is | Its page holds |
 | --- | --- | --- |
-| Chronicle | One long subject followed through time by its chain of events. It needs several stories, each with its own argument | A portrait, then its stories by start date: the two-minute read |
-| Story | A part of a chronicle with one argument: why it went as it did | The argument, then its chapters, each a paragraph (its patch) that opens to the chapter page; Previous and Next story |
+| Chronicle | One long subject followed through time by its chain of events. It needs several stories, each with its own bottom line | A portrait, then its stories by start date: the two-minute read |
+| Story | A part of a chronicle that one briefing covers, with one bottom line: what happened and why it matters | The briefing, bottom line first, then its chapters, each a paragraph (its patch) that opens to the chapter page; Previous and Next story |
 | Chapter | A stretch of a story in which one thing changes. It holds every event linked into that change | A longer briefing (how the period moved), the thread of its events in date order with the graded link between each pair, where it came from and where it led, Meanwhile, Previous and Next chapter |
 | Event | Something that happened, with a date and a place | The event page (docs/event-pages.md), at a length set by the event |
 
@@ -50,12 +50,12 @@ Three kinds, one definition:
 
 Three tests:
 
-1. **It needs several stories.** A subject with one argument is a story. The Second World
+1. **It needs several stories.** A subject that one briefing with one bottom line can cover is a story. The Second World
    War lasts six years and is a chronicle, because the war in Europe, the Eastern Front and
-   the Pacific each carry their own argument. The Space Race is decided when it is outlined.
+   the Pacific each need their own briefing. The Space Race is decided when it is outlined.
 2. **It is a chain of dated events with a start.** Capitalism passes. "Power" fails and
    belongs to the themes layer.
-3. **It makes an argument no existing chronicle makes.** Its portrait and stories are new
+3. **It shows a line through history no existing chronicle shows.** Its portrait and stories are new
    writing; its events mostly have pages already. A chronicle that would only list another
    chronicle's stories is never built.
 
@@ -65,12 +65,14 @@ from one story to the next is a graded link like any other.
 
 ### Story
 
-- A story has one argument and its own page.
+- A story has one bottom line and its own page.
+- The bottom line is a judgment from the record, stated first and plainly: what happened
+  and why it matters. A story is a briefing; it never sets out to prove a thesis.
 - A story can belong to more than one chronicle. The Holocaust belongs to The Jewish People
   and to The Second World War: one page, two parents, each listing it.
 - Stories in one chronicle are ordered by start date and may overlap in time.
 - A page has one level. The Second World War (chronicle) and Nazi Germany 1933–1945
-  (story) are two pages with two arguments, sharing events.
+  (story) are two pages with two bottom lines, sharing events.
 
 ### Chapter
 
