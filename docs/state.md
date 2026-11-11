@@ -188,7 +188,8 @@ Questions for the master chat (none settled here; no standards doc was changed):
     over (Cade, 2026-11-11; ui-rules.md rule 6).
 16. Arriving with no path (Cade, 2026-11-11). A reader who opens an event from the globe or
     the timeline sees no chronicle, story and chapter path: only "Part of N stories", which
-    opens the same sheet. structure.md says a page with no route shows its home path, so
+    opens the same sheet. The line stays at the top of the page and never rides in the
+    docked header. structure.md says a page with no route shows its home path, so
     that line needs changing.
 17. Stories, never chapters (Cade, 2026-11-11). The line reads "Also in N more stories" and
     the sheet lists stories under their chronicles. In the mock each story's row still

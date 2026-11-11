@@ -894,7 +894,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
   function alsoLabel(){ var n=stories().length-(routed?1:0), w=n===1?' story':' stories';
     document.getElementById('alsoTxt').innerHTML=routed?'Also in <b>'+n+' more'+w+'</b>':'Part of <b>'+n+w+'</b>';
     document.getElementById('kicker').classList.toggle('noroute',!routed);
-    if(!routed){ document.getElementById('hChap').textContent='Part of '+n+w; document.getElementById('hNextW').hidden=true; } }
+    document.getElementById('hsub').style.visibility=routed?'':'hidden'; }
   function follow(i){ var P=places(), x=P[i]; here=i;
     document.getElementById('cChron').textContent=x.c; document.getElementById('cStory').textContent=x.s; document.getElementById('cChap').textContent=x.ch;
     document.getElementById('cStoryL').textContent=x.sn||'story'; document.getElementById('cChapL').textContent=x.cn||'chapter';
