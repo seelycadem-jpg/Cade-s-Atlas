@@ -142,6 +142,18 @@ their own, and so is Oceania before sustained contact. The list of worlds by era
 in the data, so a rater never picks the denominator. An event that reshaped the American
 world is a knot.
 
+"A large share" is a band, never a switch (Cade, 2026-11-11):
+
+- The line is derived, never asserted. Cade rates the anchor events by judgment first; the
+  share that best separates his knots from his fibres becomes the line. The first figure
+  to test is about a tenth of the people alive in the event's world.
+- Well above the line passes; well below fails. Where the range of the population estimate
+  straddles the line, the event goes to comparison with the anchor events and to the blind
+  second rating.
+- A person counts toward reach only where one of the four depth changes happened to them
+  (rule, living, belief, survival) within the lasting window. This stops reach stretching
+  to everyone an event ever touched.
+
 **Step 2. Two gates.** An event that fails one drops one size; the floor is a strand.
 
 - Depth: it changed at least one of four things: who ruled, how people made a living, what
@@ -301,8 +313,7 @@ smaller event with consequences of its own.
 
 ## Open
 
-- "A large share" in the reach test has no number yet. First line to test: about a tenth
-  of the people alive in its world, set from the anchor events.
+- The reach line is derived from the anchor events once Cade has rated them.
 - The Paris settlement becomes a chapter with Versailles as its knot: rework the event
   mock (event-v11.html) and the worked example in event-pages.md.
 - Cade rates the forty anchor events.
