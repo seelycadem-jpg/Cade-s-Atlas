@@ -80,6 +80,9 @@ figcaption{font-size:.93rem;color:var(--ink2)}
 .tag.gap{color:var(--accent)}
 .verdict b,.fix b{font-weight:500;color:var(--title)}
 .fix{margin:0;padding-left:1.3rem;display:flex;flex-direction:column;gap:14px}
+.heavy{stroke-width:3.8}
+.states li{grid-template-columns:4.6rem 1fr}
+.states .tag{color:var(--title);font-family:var(--f-title);font-size:1.1rem;letter-spacing:0;text-transform:none;padding-top:0}
 </style>
 
 <div class="wrap">
@@ -239,7 +242,7 @@ figcaption{font-size:.93rem;color:var(--ink2)}
 <section>
   <h2>Inside a chapter</h2>
   <figure>
-    <svg viewBox="0 0 360 250" role="img" aria-label="A chapter holds a flat set of events joined by links. An unlinked event of the same years sits outside, in Meanwhile.">
+    <svg viewBox="0 0 360 290" role="img" aria-label="A chapter holds a flat set of events joined by links. A heavy link marks what the chapter turns on. An unlinked event of the same years sits outside, in Meanwhile.">
       <text class="t-cap" x="12" y="14">CHAPTER · THE TREATY</text>
       <rect class="frame" x="10" y="22" width="252" height="218" rx="6"/>
 
@@ -247,7 +250,7 @@ figcaption{font-size:.93rem;color:var(--ink2)}
       <text class="t-name" x="58" y="56">The racial-equality vote</text>
       <text class="t-sm" x="58" y="69">11 April 1919 · strand</text>
 
-      <path class="red" d="M40 66 V110"/>
+      <path class="red" stroke-dasharray="4 3" d="M40 66 V110"/>
       <path class="redfill" d="M40 117 l-4 -8 h8 z"/>
       <text class="t-red" x="50" y="94">part of</text>
 
@@ -255,7 +258,7 @@ figcaption{font-size:.93rem;color:var(--ink2)}
       <text class="t-name" x="58" y="129">The Paris Peace Settlement</text>
       <text class="t-sm" x="58" y="142">1919 to 1923 · knot</text>
 
-      <path class="red" d="M40 143 V188"/>
+      <path class="red heavy" d="M40 143 V188"/>
       <path class="redfill" d="M40 195 l-4 -8 h8 z"/>
       <text class="t-red" x="50" y="171">led to</text>
 
@@ -267,15 +270,43 @@ figcaption{font-size:.93rem;color:var(--ink2)}
       <circle class="grey" cx="312" cy="131" r="6.5"/>
       <text class="t-sm" x="312" y="156" text-anchor="middle">same years,</text>
       <text class="t-sm" x="312" y="168" text-anchor="middle">no link</text>
+
+      <path class="red heavy" d="M12 262 H40"/>
+      <text class="t-sm" x="48" y="265">the chapter turns on this link (its backbone)</text>
+      <path class="red" stroke-dasharray="4 3" d="M12 280 H40"/>
+      <text class="t-sm" x="48" y="283">a lighter link</text>
     </svg>
-    <figcaption>The events of a chapter are a flat set joined by links. No event sits inside another. The Senate voted in Washington and belongs here because a link runs to it. An event of the same years with no link goes to Meanwhile.</figcaption>
+    <figcaption>The events of a chapter are a flat set joined by links. No event sits inside another. The Senate voted in Washington and belongs here because a link runs to it. An event of the same years with no link goes to Meanwhile. A heavy line marks a link graded Necessary or Sufficient: what the chapter turns on, whatever the sizes of its events. The reader can filter a thread to that backbone. The grades drawn here are examples; these links are graded in Phase 8.</figcaption>
   </figure>
+</section>
+
+<section>
+  <h2>People</h2>
+  <p>Links decide what a person gets. Fame never does.</p>
+  <ul class="verdict states">
+    <li><span class="tag">A life</span><p>A person whose own decision a knot depended on, or several fibres. A full page with <b>Follow this life</b>: the globe's year cursor slides from birth to death and turns to where the person was.</p></li>
+    <li><span class="tag">A card</span><p>A person who acts in events, where no event depended on them personally. Role, dates, the events they appear in.</p></li>
+    <li><span class="tag">A name</span><p>A person with no link into any chain. Role and name in the text only.</p></li>
+  </ul>
+  <p class="note">A life is its own page form and is never called a story. Dynasties are told inside stories.</p>
+</section>
+
+<section>
+  <h2>Thinkers and their works</h2>
+  <p>Burke, Hobbes, Confucius and Kautilya are in the atlas from the start. The thinker is a person. The work is an event, sized by the same three tests.</p>
+  <ul class="twigs">
+    <li>The page opens up the thinking with an idea map that adds to the text.</li>
+    <li>A link from a work to a later event needs evidence that the actors read it or invoked it.</li>
+    <li>An uncertain date shows as "~500 BCE (uncertain)". No date is invented.</li>
+    <li>These pages get a higher writing bar and their own agent loop.</li>
+  </ul>
 </section>
 
 <section>
   <h2>Two guard rails against a Western lean</h2>
   <p><b style="font-weight:500;color:var(--title)">The audit, never a quota.</b> For each era we compare a region's share of the knots with its share of the world's people then. A wide gap marks a place to research. We never promote an event to close a gap.</p>
   <p><b style="font-weight:500;color:var(--title)">Chronicles planned by the same measure.</b> Knots follow the chronicles we write, so the writing order is checked against the same shares.</p>
+  <p><b style="font-weight:500;color:var(--title)">A gap can be true.</b> Some places and centuries left few sources and held few people. Once the research is done, a gap that remains stays. No place owes the atlas an event or a person for every year.</p>
   <p class="note">Why it matters: the share of the top tier in the 781 placeholder events of Prototype 1, by region.</p>
   <div class="bars">
     <span>Europe</span><i style="width:100%"></i><span>34%</span>
@@ -292,26 +323,26 @@ figcaption{font-size:.93rem;color:var(--ink2)}
 </section>
 
 <section>
-  <h2>Does it deliver the mission?</h2>
+  <h2>Against the mission</h2>
   <ul class="verdict">
     <li><span class="tag">Holds</span><p><b>History as cause and effect.</b> Links decide chapter membership, so every page a reader opens sits on a chain.</p></li>
     <li><span class="tag">Holds</span><p><b>Why it mattered.</b> Each story and chapter leads with a bottom line, and each event has a size with stated tests.</p></li>
     <li><span class="tag">Holds</span><p><b>Seamless for the curious.</b> Four taps down, shared events across, Back at every step.</p></li>
     <li><span class="tag">Holds</span><p><b>The whole world.</b> Reach counted in people, and the audit, check the lean toward Europe.</p></li>
-    <li><span class="tag gap">Gap</span><p><b>What a chain turns on.</b> A chapter of fibres has no mark for its pivotal event.</p></li>
-    <li><span class="tag gap">Gap</span><p><b>People and themes.</b> The vision promises both, and the structure gives neither a defined place yet.</p></li>
-    <li><span class="tag gap">Gap</span><p><b>The vision doc.</b> It still describes the older two-judgment sizing.</p></li>
+    <li><span class="tag">Holds</span><p><b>What a chain turns on.</b> Link grades mark each chapter's backbone, visible and filterable.</p></li>
+    <li><span class="tag">Holds</span><p><b>The people who shaped the world.</b> A life, a card or a name, decided by links.</p></li>
+    <li><span class="tag">Later</span><p><b>The big questions.</b> The ten themes are built after V1.0. Thinkers and their works are in from the start.</p></li>
   </ul>
 </section>
 
 <section>
-  <h2>Five ways to improve it</h2>
+  <h2>Still open</h2>
   <ol class="fix">
-    <li><b>Let link grades show what a chain turns on.</b> A link graded Necessary means the chain breaks without that event. The chapter thread can stress those events, whatever their size. Size then answers "how big in world history", and the grade answers "how vital here".</li>
-    <li><b>Give a person's life a level.</b> A life has one bottom line, so it fits as a story whose events are shared with other stories. A dynasty or a long career could be a chronicle.</li>
-    <li><b>Place themes beside the levels.</b> A theme is a question across all of history. It gathers events from many chronicles by tag and link, and it never owns them.</li>
-    <li><b>Decide what happens to "explains today".</b> The older test scored how much of today's world an event explains. The new test drops it, which removes a pull toward recent Western events. The event page can still say what the event explains today.</li>
-    <li><b>Set the reach threshold and keep the 25-year rule.</b> "A large share" needs a number once the first chronicles are rated. Recent events keep a provisional size for 25 years, as the vision already says.</li>
+    <li><b>The number for "a large share"</b> in the reach test. It is set when the first real chronicle is rated.</li>
+    <li><b>The idea map</b>: its shape, and the name and place of its section on the page.</li>
+    <li><b>The agent loop for idea events.</b></li>
+    <li><b>The backbone filter</b>: its design and its label, in the filters mock (step 1.6).</li>
+    <li><b>The layout of a life page</b>, designed when the first life is written.</li>
   </ol>
 </section>
 

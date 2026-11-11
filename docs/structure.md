@@ -2,8 +2,9 @@
 
 The one place the hierarchy lives. Where an older doc says otherwise (story-method.md,
 narrative-flow.md, house-style.md), this file wins. It replaces the "six levels" version
-of 2026-11-08. The chart `docs/design/levels-chart.html` still shows the old version and
-is redrawn next.
+of 2026-11-08. The picture of it is the structure map, `docs/design/structure-map.html`
+(https://claude.ai/artifact/52xBGzcx6DQn8kaoyhG5f5). The old chart,
+`docs/design/levels-chart.html`, is retired and kept only as a record.
 
 ## The map
 
@@ -255,7 +256,6 @@ smaller event with consequences of its own.
 
 ## Open
 
-- The levels chart is redrawn to four levels and three sizes.
 - "A large share" in the reach test has no number yet; it is set when the first chronicles
   are rated.
 - The pilot's "German Question" (1517 to today) becomes stories inside the Germany

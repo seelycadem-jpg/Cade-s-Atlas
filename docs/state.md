@@ -20,7 +20,7 @@ mocks, judged on Cade's phone. Steps are in `docs/roadmap.md`; status in `docs/p
 
 ## Decided (all 2026-11-08 unless dated)
 
-**Structure** (`docs/structure.md`, chart: `docs/design/levels-chart.html`)
+**Structure** (`docs/structure.md`, picture: `docs/design/structure-map.html`)
 - Four levels: chronicle, story, chapter, event (Cade, 2026-11-11; replaces "six levels").
   A chronicle is any long subject that needs several stories: a place or people, a system
   or idea, an age or contest (Germany, Capitalism, The Second World War).
@@ -84,7 +84,7 @@ no invented specifics, title case for titles.
 | --- | --- | --- |
 | Story: Weimar Germany | https://claude.ai/artifact/AWaup7weY8H6EUwNDCXS37 | `docs/design/mocks/story-v2.html` |
 | Chapter: The Ruhr and the Mark | https://claude.ai/artifact/5SyFXi5sACFqRQe6zcvmyW | `docs/design/mocks/chapter-v1.html` |
-| The six levels (old; redraw to four levels, three sizes) | https://claude.ai/artifact/Y9GbTwZBYFKiwvCfbqhpku | `docs/design/levels-chart.html` |
+| The six levels (retired 2026-11-11; the structure map replaces it) | https://claude.ai/artifact/Y9GbTwZBYFKiwvCfbqhpku | `docs/design/levels-chart.html` |
 | Structure map: four levels, three sizes (2026-11-11) | https://claude.ai/artifact/52xBGzcx6DQn8kaoyhG5f5 | `docs/design/structure-map.html` |
 | Spine test, twenty chapters | https://claude.ai/artifact/GS6K2eL7M9fe2QA6VxQWpi | `docs/design/mocks/spine-test.html` |
 | Event: The Paris Peace Settlement | https://claude.ai/artifact/MdJzwkT1viFnjFEdqqcaaP | `docs/design/mocks/event-v11.html` |
@@ -95,7 +95,7 @@ The artifacts are private to Cade's account. The repo files are the source of tr
 
 1. Cade's read of the latest story, chapter and event pages on his phone.
 2. Decided 2026-11-11 (Cade): the level under chronicle keeps the name "story".
-3. Redraw the levels chart to four levels and three sizes (docs/structure.md).
+3. Design the idea map and the agent loop for idea events (structure.md, Idea events).
 4. Phase 1 steps left: front door (1.5), filters (1.6), the two globes (1.7), building the
    shared components (1.8 to 1.12), the people test (1.13).
 

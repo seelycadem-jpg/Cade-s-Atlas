@@ -41,9 +41,9 @@ phone).
 | --- | --- | --- |
 | Events linked by cause and effect, short and long | Event pages; graded links; the timeline's chain mode; chronicles and stories | `event-pages.md`, `narrative-flow.md`, `timeline.md` |
 | Placed on the globe, through time | The Political globe and the shared year cursor | `house-style.md` (The globe), `border-review.md` |
-| The people whose impact shaped the modern world | Great people: a life as a chain, impact as graded links | `narrative-flow.md` (People) |
+| The people whose impact shaped the modern world | Great people: a life ("Follow this life"), a card or a name, decided by graded links | `structure.md` (People), `narrative-flow.md` (People) |
 | Know the board | The Explore globe: the present world, its resources, routes and chokepoints | `narrative-flow.md` (the feature) |
-| The big questions, forever debated | Great themes, written in their own voice | `story-method.md` (Themes) |
+| The big questions, forever debated | Great themes, written in their own voice; built after V1.0. Thinkers and their works are in V1.0 as idea events | `structure.md` (Themes, Idea events), `story-method.md` (Themes) |
 | Why it mattered, what it caused, how sure we can be | The Overview; the five grade words and the arrow note | `event-pages.md`, `house-style.md` (Links) |
 | Seamless for the curious; go deeper by choice | One navigation bar, the preview card, the four layers of every page | `narrative-flow.md` (Getting around) |
 
@@ -56,7 +56,9 @@ competes on what an encyclopedia is built to avoid:
   case against, where an encyclopedia lists causes in prose.
 - **Judgment first.** The atlas says what mattered, who gained and who paid, and how
   sure it is. An encyclopedia stays neutral by rule.
-- **Size is chosen.** An editor decides what is a turning point, per story.
+- **Size is judged, by stated tests.** Every event is rated once as a knot, a fibre or a
+  strand by its reach, depth and lasting effect; the link grades show what each chapter
+  turns on (structure.md).
 - **Layered reading.** Thirty seconds, three minutes, ten minutes, then the chain.
 - **Meanwhile.** One year cursor shows what else was happening across the world, and an
   arrow says when two events are connected.
@@ -86,9 +88,9 @@ competes on what an encyclopedia is built to avoid:
 3. **Go in, or wander.** The reader follows the chronicle as a chain, opens any other
    marked event, or goes back to the cards.
 
-The world turning points that light up in step 2 are the top chain, "The world": a few
-hundred events chosen on purpose. It is also the default timeline view when no chronicle
-is chosen.
+The world turning points that light up in step 2 are the knots of the years in view
+(structure.md, 2026-11-11). Their number follows the tests, never a target. The knots are
+also the default timeline view when no chronicle is chosen.
 
 The draw is random on every load and balanced, so one set never holds eight from one
 region or one era.
@@ -97,33 +99,33 @@ Still to decide:
 - How wide "the same years" is: the same year, the same decade, or set per chronicle.
 - The design of the cards and the opening screen, in Phase 1.
 
-## How big an event is (proposed 2026-11-05, for Cade's approval)
+## How big an event is (agreed 2026-11-11; replaces the proposal of 2026-11-05)
 
-Every event gets two judgments, each with one written reason, so the atlas can answer a
-reader who asks "why is this a turning point?" The method in brief goes on the About page.
+Every event gets one size, rated once by its impact on world history, with a written
+reason, so the atlas can answer a reader who asks "why is this a knot?" The method in
+brief goes on the About page. The full rules are in `docs/structure.md`.
 
-**1. World weight: does the world chain need it?** Three scores, 0 to 2 each, from the
-house-style rules Prototype 1 already used:
+- **Knot:** it passes three tests. Reach: it changed life for a large share of the people
+  alive in its world at the time, counted in people, never in countries. Depth: it changed
+  who ruled, how people worked, what they believed, or who lived and died. Lasting: the
+  change held for generations.
+- **Fibre:** it passes for one people or region, or only for a short time.
+- **Strand:** smaller still, an event with consequences of its own for a city, an
+  institution, a campaign or a movement.
 
-| Score | Question | 0 | 1 | 2 |
-| --- | --- | --- | --- | --- |
-| Reach | How far did its effects spread, across regions and across kinds of life (power, money, faith, science)? | One place, one kind | Several places or kinds | Several regions and several kinds |
-| Lasting | Could it be undone? | Undone within a generation | Partly undone | Never undone |
-| Today | How much of today's world does it explain? | Little | Something still live | A border, institution or idea we live with |
+Fame scores nothing: a famous event that changed little stays small, and a quiet one that
+changed much grows. "How much of today it explains" is no part of the test; it lives in
+an event page's Lasting impact and, later, on the theme pages.
 
-A total of 5 or 6 makes a candidate for "The world", which also needs at least one arrow
-into another region. Fame and death tolls score nothing: a famous event that changed
-little stays small, and a quiet one that changed much grows.
+What a chapter turns on is a separate judgment, carried by the link grades. An event whose
+link in a chapter is graded Necessary or Sufficient, with its counterfactual sentence, is
+part of that chapter's backbone, whatever its size. The backbone draws heavy on the thread
+and can be filtered. The timeline's Pull button shows the same judgment: pull such an
+event and the chain downstream greys out.
 
-**2. Size in a chain: what happens to this chain without it?** Asked again in every chain
-the event belongs to.
-- Turning point: the chain breaks without it. Its arrow inside the chain is graded
-  Necessary or Sufficient, with the counterfactual sentence.
-- The full story: a step on the path between two turning points.
-- Every detail: one step off the path; it explains how or why for the deep reader.
-
-The timeline's Pull button shows the second judgment to the reader: pull a turning point
-and the chain downstream greys out.
+Two guard rails keep the sizes from leaning West: an audit of each region's share of the
+knots against its share of the world's people at the time, never a quota; and chronicles
+planned by the same measure. A gap that remains after research is true and stays.
 
 ## Depth grows toward the present
 
@@ -132,9 +134,9 @@ the most in the last hundred years. This follows the record (far more survives) 
 reader (more of today's world traces to recent events). The timeline's time scale widens
 toward the present for the same reason.
 
-One guard: the effects of a recent event are still unfolding, so its Lasting and Today
-scores are provisional for 25 years and marked so in the data header. An ongoing war is a
-story, never yet a world turning point, and every figure in it carries its source and date.
+One guard: the effects of a recent event are still unfolding, so its size is
+provisional for 25 years and marked so in the data header. An ongoing war is a
+story, never yet a knot, and every figure in it carries its source and date.
 
 ## A lead for themes and chronicles (2026-11-07)
 
@@ -149,7 +151,9 @@ only if they hold the phone budget and Cade's judgment.
 
 ## Chronicles run long (Cade, 2026-11-07)
 
-A chronicle is as long as its place's story, so the curious reader can keep travelling.
+A chronicle is one long subject followed through time: a place or people, a system or
+idea, an age or contest (structure.md, 2026-11-11). It is as long as its subject's story,
+so the curious reader can keep travelling.
 Germany's runs from Rome's frontier through the Franks and the Empire, the Reformation,
 Austria and Prussia, unification, the Reich, the treaty, the collapse, the division and
 reunification to today; each era is a story with its own main events, steps and detail.
@@ -189,5 +193,4 @@ the chronicles, stories and their paragraphs. It may end up larger. The build is
 50,000 and planned to go past it; the real number grows from the chains, never from a
 target. The writing is the slow part: every page goes through sources, four reviewers
 and a recheck, so launch is a few hundred pages done to the full standard, and the
-atlas grows from there for years. Chains are written biggest first: world turning points, then each chronicle's
-turning points, then the full story, then every detail.
+atlas grows from there for years. Chains are written biggest first: knots, then fibres, then strands.
