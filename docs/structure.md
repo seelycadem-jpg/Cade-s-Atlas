@@ -291,7 +291,7 @@ Open: the shape of the idea map, the name and place of its section, and the loop
 ## What a reader can do
 
 Open Germany and read it in two minutes. Open Weimar and read why it fell. Open The Treaty
-and read how the year moved. Open the settlement. Four taps from the long view to one
+and read how the year moved. Open the Treaty of Versailles. Four taps from the long view to one
 event, and Back at every step. From the event, the links lead on to the events that caused
 it and the events it caused. A chapter's thread shows its events with their marks, and the
 depth control shows knots, then fibres, then strands; a chapter with no knot opens at its
