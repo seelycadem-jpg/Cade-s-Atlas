@@ -31,7 +31,8 @@ The page's order (Cade, 2026-11-08, after the tenth mock): Historical significan
 with each winner's price where a settlement is at stake); What it caused (prose);
 Before and after (a map by region, two years as tabs, coloured by who held each land,
 with a short list of what changed); Follow Historical Chain (the knots as a thread,
-each opening into its strands and fibres, with the key, and the full chain behind it);
+shown with their marks and the graded link between each pair, with the key, and the full
+chain behind it; no event sits inside another, structure.md, 2026-11-11);
 The briefing, folded (the account, the terms, the figures, the misreading, today, and
 one closing detail). The grade on each link carries "how sure"; it is never a section.
 The table below is the older layer scheme and is read through that order.
@@ -41,7 +42,7 @@ The table below is the older layer scheme and is read through that order.
 | 1. The takeaway | Always, first screen | The takeaway strip; the Overview; one picture or visual where it earns its place | Anyone, in thirty seconds |
 | 2. The brief | Always, one scroll | Why it happened; What it did, and to whom; Why it held or failed; What it set up; Today | The curious reader, in three minutes |
 | 3. The detail | Always, after the brief (amended 2026-11-07: the "Open the detail" gate is dropped; the page is one continuous scroll with an index) | The account; By the numbers; The argument; The common misreading; Places; The detail (the expert's nod); Interesting fact | The historian, in ten minutes |
-| 4. The chain | Always, last; the strands sit inside it as "Inside this event" | Causes and effects, graded, with the arrow notes on tap; Strands; the exits | The reader following the thread |
+| 4. The chain | Always, last (the events linked to this one are listed with their marks; none sits "inside" it, structure.md 2026-11-11) | Causes and effects, graded, with the arrow notes on tap; Strands; the exits | The reader following the thread |
 
 The takeaway strip is the first thing on the page: when (the date, with its precision), where (the place, on a globe thumbnail), who (the actors as chips that open their cards), where it sits (the chronicle and story the reader came through: "The German Question › The treaty"; no size word, since size is shown by the event's mark and weight), and the strongest arrow in each direction ("Caused: the Pact of 60, Necessary"). The strip is built from the data header; the agent writes none of it.
 
@@ -139,10 +140,9 @@ actors:
   - { id: woodrow-wilson, role: initiator }
   - { id: germany, role: target, kind: polity }
 tags: [political, war, economic]
-tier:
-  - { chain: the-german-question, tier: knot }
-  - { chain: woodrow-wilson, tier: knot }
-  - { chain: the-ottomans, tier: strand }
+size: knot            # one size per event, the same in every chain (structure.md, 2026-11-11)
+size_record:          # the reason in one sentence, the evidence for reach and lasting, the best case for another size, confidence
+provisional: false    # true while the event is under 25 years old; data only, never shown
 exits:
   wikipedia: https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)
   britannica: https://www.britannica.com/event/Paris-Peace-Conference
@@ -163,6 +163,8 @@ audit: null
 Then the sections, in the fixed order, each under its fixed heading, optional ones omitted. Inline links to other events as `[[event-id|words]]`, to people as `[[person:id|words]]`, to features as `[[feature:id|words]]`, to polities as `[[polity:id|words]]`. Every one opens a card in place (an overlay, so the reader stays on the sentence); a polity card carries a globe thumbnail of its territory at the page's year.
 
 ## Worked example: The Paris Peace Settlement, 1919 to 1923
+
+> To be reworked (Cade, 2026-11-11): by structure.md an event is one happening with one outcome, so the settlement is the chapter The Treaty and the Treaty of Versailles is its knot. Until the rewrite, read this example for the shape and register of a page, never as the model of what counts as one event.
 
 A knot. Layers 1 and 2 are the text agreed in the Analytic Standards doc; layer 3 is marked where it would open.
 

@@ -94,6 +94,8 @@ Four objects: Events, Stories (grouped into Arcs), Links, and Themes (ten, each 
 
 ## Tiers (score 0-2 on each; 5-6 = Tier 1, 3-4 = Tier 2, 0-2 = Tier 3)
 
+> Replaced on 2026-11-11 by the sizes and the method in `docs/structure.md` (knot, fibre, strand; reach sets the size, two checks can lower it). The scoring below is history.
+
 Reach across regions and domains · Irreversibility · Explanatory load for today. Fame and casualty counts do not score. Tier 1 must carry at least one cross-region link. Tiers are outputs of the link graph.
 
 ## Links
@@ -115,7 +117,7 @@ The event page structure, layers, word budgets, section rules, sourcing and file
 
 ## Grade visual language
 
-Necessary and Sufficient: solid. Contributing: dashed. Contested: dotted. Coincident: struck through, in the warning colour. Same everywhere: timeline, dossier, story page.
+Necessary and Sufficient: solid, and drawn heavier than the rest, because they are the backbone (structure.md, 2026-11-11). Contributing: dashed. Contested: dotted. Coincident: grey with a cross-stroke (palette.md, which sets every colour). Same everywhere: timeline, dossier, story page.
 
 ## Politics
 
