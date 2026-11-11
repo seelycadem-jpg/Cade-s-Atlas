@@ -104,7 +104,7 @@ word and the same mark on every page, whatever path the reader took.
 | --- | --- | --- |
 | Knot | diamond | Passes reach, depth and lasting, all three |
 | Fibre | filled dot | Passes for one people or region only, or for a short time |
-| Strand | open ring | Explains how or why a bigger event went as it did |
+| Strand | open ring | Smaller still: it changed the course of a city, an institution, a campaign or a movement |
 
 The three tests of a knot:
 
@@ -115,6 +115,10 @@ The three tests of a knot:
 2. **Depth.** It changed who ruled, how people worked, what they believed, or who lived
    and who died.
 3. **Lasting.** The change held for generations.
+
+A strand is an event in its own right, with consequences of its own, on the same scale as
+a knot and a fibre and at the small end of it (Cade, 2026-11-11). Many strands also
+explain how a bigger event went; their size comes from their own consequences.
 
 Size and links do separate jobs. The size says how much the event moved world history.
 The links say what caused what and which chapters the event sits in. The Paris settlement
@@ -164,8 +168,8 @@ event, and Back at every step. From the event, the links lead on to the events t
 it and the events it caused. A chapter's thread shows its events with their marks, and the
 depth control shows knots, then fibres, then strands; a chapter with no knot opens at its
 fibres. Every chain view carries the key: knot, an event that changed the course of its
-world; fibre, an event that changed the course of one people or region; strand, an event
-that explains how or why a bigger one went as it did.
+world; fibre, an event that changed the course of one people or region; strand, a
+smaller event with consequences of its own.
 
 ## Open
 

@@ -24,7 +24,7 @@ All three tiers are events: a thing that happened on a date in a place, with a p
 
 - Knot: passes reach, depth and lasting in its world.
 - Fibre: passes for one people or region, or for a short time.
-- Strand: explains how or why a bigger event went as it did.
+- Strand: smaller still, an event with consequences of its own (a city, an institution, a campaign).
 
 The order of size is knot, fibre, strand; the full tests are in docs/structure.md.
 

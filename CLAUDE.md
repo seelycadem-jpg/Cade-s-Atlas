@@ -139,7 +139,8 @@ Whatever the prompt says:
   impact on world history, and carries the same size on every page. A knot passes reach
   (a large share of the people alive in its world at the time, counted in people, never in
   countries), depth and lasting; a fibre passes for one people or region, or briefly; a
-  strand explains how or why a bigger event went as it did. Links, never dates alone, put
+  strand is smaller still, an event with consequences of its own (a city, an institution,
+  a campaign). Links, never dates alone, put
   an event in a chapter; no event sits "inside" another. Never promote an event to balance
   regions: audit the shares and research the gap. All three
   are events with a date and a place; a figure or a date on its own is a line inside a
