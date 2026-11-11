@@ -96,11 +96,21 @@ The artifacts are private to Cade's account. The repo files are the source of tr
 
 ## Next, in order
 
-1. Cade's read of the latest story, chapter and event pages on his phone.
-2. Decided 2026-11-11 (Cade): the level under chronicle keeps the name "story".
+1. **The pages, top down, one chat per page** (Cade, 2026-11-11): chronicle, story,
+   chapter, knot, fibre. The master chat keeps the decisions and the docs; a page chat
+   builds one mock, works only in its own mock file, and ends by saving to the branch,
+   updating this file and listing any question it could not settle for the master chat.
+   - Chronicle: no mock exists yet. It is built in the design of `story-v2.html`
+     (palette.md, ui-rules.md): a portrait, then its stories by start date (structure.md).
+   - Story, chapter and event mocks exist and predate 2026-11-11. Each is brought up to
+     structure.md as its turn comes: one fixed size per event with the tooltip text; the
+     path ending at the event with its mark; the backbone drawn heavy on a thread; the
+     Paris settlement as the chapter The Treaty with the Treaty of Versailles as its knot.
+   - Fibre: a shorter event page in the same shape as the knot's.
+2. Cade rates about forty anchor events; the reach line is derived from them (structure.md).
 3. Design the idea map and the agent loop for idea events (structure.md, Idea events).
-4. Phase 1 steps left: front door (1.5), filters (1.6), the two globes (1.7), building the
-   shared components (1.8 to 1.12), the people test (1.13).
+4. Phase 1 steps left: front door (1.5), filters (1.6, with the backbone filter), the two
+   globes (1.7), building the shared components (1.8 to 1.12), the people test (1.13).
 
 ## Desktop (Cade, 2026-11-08)
 
