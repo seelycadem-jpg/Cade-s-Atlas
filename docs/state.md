@@ -279,6 +279,10 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       a time without closing it. The briefs are the Prototype 1 text from `site/data.json`,
       loaded whole from the new `event-v12-briefs.js` because `atlas-data.js` cuts them at
       220 characters; they await the rewrite.
+      A second pass that drew the block as a small left-to-right flow (causes, a box for
+      this event, effects, an arrow per line) was rejected by Cade the same day and rolled
+      back to the two rows. He still finds cause and effect hard to see; what he wants
+      instead is not yet settled.
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width
