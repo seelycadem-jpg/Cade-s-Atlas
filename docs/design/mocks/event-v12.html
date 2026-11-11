@@ -658,6 +658,64 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .sides{padding:6px 10px 0}
 .recen.on{color:var(--ink)}
 .legend{gap:5px 8px;font-size:12.5px;padding-top:12px}
+
+/* ===== Historical Chain, second clean pass (Cade, 2026-11-11) ===== */
+/* every event is the same labelled card: a date line over a hairline, then the title. Nothing else varies but the mark. */
+.wcanvas .nd:not(.chip) .card{display:grid;grid-template-rows:23px 1fr;gap:0;height:82px;padding:0;border:1px solid var(--rule);background:var(--surface);box-shadow:none;justify-content:stretch;align-content:start}
+.wcanvas .nd.sz-k:not(.chip) .card{box-shadow:none}
+.wcanvas .nd:not(.chip) .nm{display:flex;align-items:center;gap:6px;padding:0 8px;border-bottom:1px solid var(--rule);font:500 10.5px/1 var(--ui);letter-spacing:.03em;color:var(--ink2);white-space:nowrap;overflow:hidden}
+.wcanvas .nd:not(.chip) .nt{padding:6px 8px 0;font:500 14.5px/1.14 var(--display);color:var(--title);align-self:start}
+.wcanvas .nd .mk.k{width:11px;height:11px}
+.wcanvas .nd .mk.fi,.wcanvas .nd .mk.st{width:8px;height:8px}
+.wcanvas .nd.here:not(.chip) .card{border:1px solid var(--accent)}
+.wcanvas .nd.here:not(.chip) .nm{background:var(--accent);border-bottom-color:var(--accent);color:var(--on-accent)}
+.wcanvas .nd.here:not(.chip) .nm .mk{background:var(--on-accent)}
+.wcanvas .nd.sel:not(.chip) .card{border-color:var(--ink3)}
+.wcanvas .nd.here.sel:not(.chip) .card{border-color:var(--accent)}
+/* the ruler: arrows that count the events off screen, and the whole web as a scale with the part in view marked */
+.ruler{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:6px;padding:2px 8px 0}
+.rarrow{display:flex;align-items:center;gap:5px;min-width:58px;min-height:44px;padding:0 4px;color:var(--accent);transition:opacity .2s}
+.rarrow.r{justify-content:flex-end;text-align:right}
+.rarrow svg{width:13px;height:13px;flex:none}
+.rarrow span{display:flex;flex-direction:column;gap:2px}
+.rarrow b{font:600 14px/1 var(--ui);color:var(--ink);font-variant-numeric:tabular-nums}
+.rarrow i{font:500 9.5px/1 var(--ui);font-style:normal;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3)}
+.rarrow:disabled{cursor:default;color:var(--rule)}
+.rarrow:disabled span{visibility:hidden}
+.rarrow:active{background:var(--surface2)}
+.ruler .mini{margin:0;height:44px}
+.ruler .mini .cell{min-height:44px}
+.mini .cell em{position:absolute;left:0;right:0;top:calc(50% + 8px);text-align:center;font:500 9px/1 var(--ui);font-style:normal;color:var(--ink3);font-variant-numeric:tabular-nums}
+/* the controls: recentre is the fourth cell */
+.cbar{grid-template-columns:auto 1fr auto auto}
+.cbar .cb-steps{grid-template-columns:34px 40px 34px}
+.cbar .cb-rec{min-width:46px;padding:0;border-left:1px solid var(--rule)}
+.cb-rec svg{width:20px;height:20px;color:var(--ink3);transition:color .2s}
+.cb-rec.on svg{color:var(--accent)}
+.legend{padding-top:10px}
+/* the pop-up for the event in hand, and every sheet: the gilt cartouche */
+.frame{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:5;overflow:visible}
+.frame path{fill:none;stroke:var(--gilt);stroke-linecap:round;stroke-linejoin:round}
+.frame .f1{stroke-width:.9;opacity:.8;stroke-dasharray:1 1.1;stroke-dashoffset:1.05;animation:frameDraw .9s cubic-bezier(.45,0,.2,1) .1s forwards}
+.frame .f2{stroke-width:.6;opacity:0;animation:fadeIn .5s ease .65s forwards}
+.frame.still .f1{animation:none;stroke-dashoffset:0}
+.frame.still .f2{animation:none;opacity:1}
+.dock{border:0!important;background:none;-webkit-backdrop-filter:none;backdrop-filter:none;box-shadow:none;padding:0;width:min(90vw,22.5rem);filter:drop-shadow(0 8px 18px rgba(30,18,12,.26))}
+.dockin{position:relative;background:var(--surface);padding:14px 17px 15px;-webkit-mask:radial-gradient(circle at 0 0,transparent 11px,#000 11.6px) 0 0/51% 51% no-repeat,radial-gradient(circle at 100% 0,transparent 11px,#000 11.6px) 100% 0/51% 51% no-repeat,radial-gradient(circle at 0 100%,transparent 11px,#000 11.6px) 0 100%/51% 51% no-repeat,radial-gradient(circle at 100% 100%,transparent 11px,#000 11.6px) 100% 100%/51% 51% no-repeat;mask:radial-gradient(circle at 0 0,transparent 11px,#000 11.6px) 0 0/51% 51% no-repeat,radial-gradient(circle at 100% 0,transparent 11px,#000 11.6px) 100% 0/51% 51% no-repeat,radial-gradient(circle at 0 100%,transparent 11px,#000 11.6px) 0 100%/51% 51% no-repeat,radial-gradient(circle at 100% 100%,transparent 11px,#000 11.6px) 100% 100%/51% 51% no-repeat}
+.dock .xbtn{right:4px;top:4px}
+.dock .kind{font:500 10.5px/1.3 var(--ui);letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);padding-right:36px}
+.dock h3{font:500 21px/1.15 var(--display);margin:6px 0 5px}
+.dock .dline{font:14.5px/1.42 var(--body);margin:0 0 10px;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
+.dock .dnote{font:12.5px/1.4 var(--ui);color:var(--ink3);margin:-4px 0 10px}
+.dock .pathbtn{display:grid;grid-template-columns:22px 1fr 8px;gap:10px;align-items:center;min-height:44px;padding:8px 2px;margin:0 0 12px;border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:none;font:13.5px/1.35 var(--ui);color:var(--ink);text-align:left}
+.dock .pathbtn svg{margin:0}
+.dock .pathbtn .gl{width:20px}
+.dock .acts>button{min-height:44px}
+.dock .youare{margin:0}
+.sheet.gilded{padding:0;overflow:hidden;display:flex;flex-direction:column;border:0!important;border-radius:0;box-shadow:none;-webkit-mask:radial-gradient(circle at 0 0,transparent 11px,#000 11.6px) 0 0/51% 51% no-repeat,radial-gradient(circle at 100% 0,transparent 11px,#000 11.6px) 100% 0/51% 51% no-repeat,radial-gradient(circle at 0 100%,transparent 11px,#000 11.6px) 0 100%/51% 51% no-repeat,radial-gradient(circle at 100% 100%,transparent 11px,#000 11.6px) 100% 100%/51% 51% no-repeat;mask:radial-gradient(circle at 0 0,transparent 11px,#000 11.6px) 0 0/51% 51% no-repeat,radial-gradient(circle at 100% 0,transparent 11px,#000 11.6px) 100% 0/51% 51% no-repeat,radial-gradient(circle at 0 100%,transparent 11px,#000 11.6px) 0 100%/51% 51% no-repeat,radial-gradient(circle at 100% 100%,transparent 11px,#000 11.6px) 100% 100%/51% 51% no-repeat}
+.sheet.gilded .sbody{padding:18px 19px 14px;overflow-y:auto;overscroll-behavior:contain;min-height:0}
+.sheet.gilded .lrows{border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:none}
+.sheet.gilded .lrow{padding-left:2px;padding-right:2px}
 </style>
 
 <div class="stage" id="stage">
@@ -714,17 +772,17 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
         <button type="button" class="cb-cell" data-size="st" aria-pressed="false"><i class="mk st" aria-hidden="true"></i><span>Strands</span></button>
       </div>
       <button type="button" class="cb-box cb-cell cb-filter" id="fBtn" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 16 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M1.5 2.5h13M4 7h8M6.5 11.5h3"/></svg><span id="fLbl">Filter</span></button>
+      <button type="button" class="cb-box cb-cell cb-rec" id="recBtn" aria-label="Recentre the web"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="5.2"/><path d="M10 1.5v3.2M10 15.3v3.2M1.5 10h3.2M15.3 10h3.2"/><path d="M10 8.1l1.9 1.9-1.9 1.9-1.9-1.9z" fill="currentColor" stroke="none"/></svg></button>
       <div class="fpop" id="fpop" role="dialog" aria-label="Filter the chain" hidden></div>
     </div>
 
     <div class="web" id="web">
-      <div class="sides">
-        <button type="button" class="side l" id="goL" aria-label="Slide toward the causes"><span class="chev" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M9 2L4 7l5 5"/></svg></span><span><span class="t">What caused it</span><span class="n" id="nL"></span></span></button>
-        <button type="button" class="recen" id="recBtn" aria-label="Recentre the web"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="5.2"/><path d="M10 1.5v3.2M10 15.3v3.2M1.5 10h3.2M15.3 10h3.2"/><path d="M10 8.1l1.9 1.9-1.9 1.9-1.9-1.9z" fill="currentColor" stroke="none"/></svg><span>Recentre</span></button>
-        <button type="button" class="side r" id="goR" aria-label="Slide toward the effects"><span class="chev" aria-hidden="true"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><path d="M5 2l5 5-5 5"/></svg></span><span><span class="t">What it caused</span><span class="n" id="nR"></span></span></button>
+      <div class="ruler">
+        <button type="button" class="rarrow l" id="goL" aria-label="Slide toward the causes"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg><span><b id="nL"></b><i>more</i></span></button>
+        <div class="mini" id="mini" aria-label="The whole web. Drag, or tap a step, to slide there."></div>
+        <button type="button" class="rarrow r" id="goR" aria-label="Slide toward the effects"><span><b id="nR"></b><i>more</i></span><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button>
       </div>
       <div class="wscroll" id="wscroll" tabindex="0" aria-label="The chain web. It slides sideways."><div class="wcanvas" id="wcanvas"><svg id="edges" aria-hidden="true"></svg><div id="heads"></div><div id="nodes"></div></div></div>
-      <div class="mini" id="mini" aria-label="The whole web. Drag, or tap a step, to slide there."></div>
       <div class="trail" id="trail" hidden></div>
       <div class="webpad"></div>
     </div>
@@ -733,10 +791,6 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       <span class="g"><i class="mk k"></i></span><span><b>Knot.</b> An event that changed the course of its world.</span>
       <span class="g"><i class="mk fi"></i></span><span><b>Fibre.</b> An event that changed the course of one people or region.</span>
       <span class="g"><i class="mk st"></i></span><span><b>Strand.</b> An event that changed the course of a city, an institution or a movement.</span>
-      <span class="g"><i class="lchip"></i></span><span><b>A small grey name.</b> An event your filters leave out, kept because the path runs through it.</span>
-      <span class="g"><i class="gl"></i></span><span><b>Necessary or Sufficient.</b> The backbone: without the first event, the second does not happen.</span>
-      <span class="g"><i class="gl contrib"></i></span><span><b>Contributing.</b> One cause among several.</span>
-      <span class="g"><i class="gl contest"></i></span><span><b>Contested.</b> Two readings, and the atlas withholds a verdict.</span>
     </div>
   </section>
 
@@ -1057,7 +1111,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       ins.forEach(function(l,i){ ED[l.id].pi=n.chip?0:clamp((i-(ins.length-1)/2)*7,-lim,lim); }); });
 
     /* the step names over each column, the drum's arrows, and the plain statement when a side is empty */
-    var h=''; for(var s=G.minS;s<=G.maxS;s++){ h+='<div class="colh'+(s===0?' c0':'')+'" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px">'+stepWord(s)+'</div>';
+    var h=''; for(var s=G.minS;s<=G.maxS;s++){ h+='<div class="colh'+(s===0?' c0':'')+'" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px">'+(s===0?'This event':(s<0?'Cause':'Effect')+' · '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'))+'</div>';
       if(G.drum[s]) h+='<div class="drumzone" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+TOP+'px;height:'+(HC-TOP)+'px"></div><button type="button" class="dch up" data-drum="'+s+'" data-d="-1" aria-label="Turn this column up" style="left:'+(G.cx(s)+CW/2-22).toFixed(1)+'px;top:'+(TOP-4)+'px"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l5-5 5 5"/></svg></button><button type="button" class="dch dn" data-drum="'+s+'" data-d="1" aria-label="Turn this column down" style="left:'+(G.cx(s)+CW/2-22).toFixed(1)+'px;top:'+(HC-38)+'px"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5l5 5 5-5"/></svg></button>'; }
     function none(sd,txt){ h+='<div class="none" style="left:'+(sd<0?G.cx(0)-CW:G.cx(1)).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+TOP+'px;height:'+(HC-TOP)+'px">'+txt+'</div>'; }
     if(side<=0&&G.minS===0) none(-1,G.reach.l?'No cause within reach fits these filters.':'The link table holds no cause for this event yet.');
@@ -1069,12 +1123,9 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     if(!move){ toCol(0,false); frame(true); } else { if(mode==='swap') toCol(0,true); kick(); }
 
     /* counts, the small map, the way home, and the controls' own state */
-    var cl=0,cr=0; order.forEach(function(id){ if(id===centre||N[id].chip)return; if(G.step[id]<0)cl++; else cr++; });
-    function cnt(a,b){ return a===b?(a+(a===1?' event':' events')):(a+' of '+b+' events'); }
-    document.getElementById('nL').textContent=side>0?'hidden':cnt(cl,G.reach.l); document.getElementById('nR').textContent=side<0?'hidden':cnt(cr,G.reach.r);
     var m='<span class="win" id="win"></span>';
-    for(s=G.minS;s<=G.maxS;s++) m+='<span class="cell'+(s===0?' c0':'')+'"><i></i></span>';
-    mini.innerHTML=m; mini.hidden=ncol<=VIS;
+    for(s=G.minS;s<=G.maxS;s++) m+='<span class="cell'+(s===0?' c0':'')+'"><i></i>'+(s===0?'':'<em>'+Math.abs(s)+'</em>')+'</span>';
+    mini.innerHTML=m;
     if(centre!==HOME){ trail.hidden=false; trail.innerHTML='<span>Centred on <b>'+esc(name(centre))+'</b>, '+esc(when(centre))+'</span><button type="button" id="homeBtn">Back to '+esc(name(HOME))+'</button>'; document.getElementById('homeBtn').addEventListener('click',function(){ recentre(HOME); }); }
     else { trail.hidden=true; trail.innerHTML=''; }
     bar(); sync(); if(typeof secTops==='function')setTimeout(secTops,80);
@@ -1117,10 +1168,12 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 
   function toCol(s,smooth){ var left=G.cx(s)+CW/2-G.W/2; scroller.scrollTo({left:left,behavior:(smooth&&!reduced)?'smooth':'auto'}); }
   var q=false; function sync(){ q=false; if(!G)return; var max=scroller.scrollWidth-scroller.clientWidth, x=scroller.scrollLeft;
+    var ml=0, mr=0; Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone||n.chip||id===centre)return; if(n.tg.x+n.w<x+6)ml++; else if(n.tg.x>x+G.W-6)mr++; });
+    document.getElementById('nL').textContent=ml; document.getElementById('nR').textContent=mr;
     document.getElementById('goL').disabled=x<=2; document.getElementById('goR').disabled=x>=max-2;
     var off=Math.abs(x-(G.cx(0)+CW/2-G.W/2))>6, turned=Object.keys(G.drum).some(function(k){ return Math.abs(drumF[k]-Math.floor((G.cols[k].length-1)/2))>0.01; });
     document.getElementById('recBtn').classList.toggle('on',off||turned);
-    var win=document.getElementById('win'); if(win&&!mini.hidden){ var inner=mini.clientWidth, x0=G.cx(G.minS), span=G.ncol*CW;
+    var win=document.getElementById('win'); if(win){ var inner=mini.clientWidth, x0=G.cx(G.minS), span=G.ncol*CW;
       var a=Math.max(0,(x-x0)/span), b=Math.min(1,(x+G.W-x0)/span); win.style.transform='translate3d('+(a*inner).toFixed(1)+'px,0,0)'; win.style.width=Math.max(0,(b-a)*inner).toFixed(1)+'px'; } }
   scroller.addEventListener('scroll',function(){ if(!q){q=true;requestAnimationFrame(sync);} },{passive:true});
   document.getElementById('goL').addEventListener('click',function(){ scroller.scrollBy({left:-(VIS-1)*CW,behavior:reduced?'auto':'smooth'}); });
@@ -1187,29 +1240,44 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   var dockHost=document.getElementById('dockHost'), dockEl=null, dockT=null;
   function others(id,path){ var on={}; path.forEach(function(l){on[l.id]=1}); return A.links.filter(function(l){ return (l.f===id||l.t===id)&&!on[l.id]&&E[l.f]&&E[l.t]; }); }
   function weakest(path){ return path.slice().sort(function(a,b){return rank(a)-rank(b)})[0]; }
+  /* a gilt cartouche round a pop-up: the outer line draws itself once, the inner one follows */
+  function frameOn(el,still){ var old=el.querySelector(':scope > .frame'); if(old)old.remove(); var fw=el.offsetWidth, fh=el.offsetHeight; if(!fw||!fh)return;
+    function cart(i,r){ var x0=i,y0=i,x1=fw-i,y1=fh-i; return 'M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z'; }
+    el.insertAdjacentHTML('beforeend','<svg class="frame'+(still?' still':'')+'" viewBox="0 0 '+fw+' '+fh+'" aria-hidden="true"><path class="f1" pathLength="1" d="'+cart(1.2,11.5)+'"/><path class="f2" d="'+cart(4.2,10)+'"/></svg>'); }
+  /* the relation, in one plain sentence generated from the grade */
+  function relLine(id,path){ var s=G.step[id], c=name(centre); if(!path.length)return '';
+    if(path.length===1){ var g=path[0].grade;
+      if(s<0) return g==='Necessary'?c+' does not happen without it.':g==='Sufficient'?'It was enough on its own to bring about '+c+'.':g==='Contested'?'Two readings of its part in '+c+'; the atlas withholds a verdict.':'It was one cause of '+c+' among several.';
+      return g==='Necessary'?'It does not happen without '+c+'.':g==='Sufficient'?c+' was enough on its own to bring it about.':g==='Contested'?'Two readings of the part '+c+' played; the atlas withholds a verdict.':c+' was one cause of it among several.'; }
+    var w=weakest(path); return path.length+' lines '+(s<0?'lead from it to ':'lead to it from ')+c+'. The weakest is '+w.grade+'.'; }
   function dock(){
     if(!sel){ if(dockEl){ var old=dockEl; dockEl=null; old.classList.remove('in'); clearTimeout(dockT); dockT=setTimeout(function(){ old.remove(); },260); } return; }
-    var id=sel, sz=size(id), s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path);
+    var id=sel, sz=size(id), s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path), chip=N[id]&&N[id].chip;
+    var where=id===centre?'the centre of the web':((s<0?'cause':'effect')+', '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'));
     var h='<button type="button" class="xbtn" id="dockX" aria-label="Close"><i><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></i></button>'
-      +'<div class="kind"><i class="mk '+sz+'" aria-hidden="true"></i>'+SZW[sz]+' · '+esc(when(id))+' · '+(id===centre?'the centre of the web':stepWord(s))+((E[id].c||[]).length?' · '+esc((E[id].c||[]).join(', ')):'')+'</div><h3>'+esc(name(id))+'</h3><p>'+esc(line(id))+'</p>';
-    if(path.length){ var w=weakest(path); h+='<button type="button" class="pathbtn" id="pathBtn"><span><b>How it connects.</b> '+path.length+(path.length===1?' line':' lines')+(s<0?' to ':' from ')+esc(name(centre))+(path.length>1?'; the weakest is '+w.grade+'.':', '+w.grade+'.')+'</span>'+CHEV+'</button>'; }
-    else if(o.length){ h+='<button type="button" class="pathbtn" id="pathBtn"><span><b>Its lines.</b> '+o.length+' in the link table.</span>'+CHEV+'</button>'; }
+      +'<div class="kind"><i class="mk '+sz+'" aria-hidden="true"></i><span>'+SZW[sz]+' · '+esc(when(id))+' · '+where+'</span></div><h3>'+esc(name(id))+'</h3><p class="dline">'+esc(line(id))+'</p>';
+    if(chip) h+='<p class="dnote">Outside your filters. It shows because the path runs through it.</p>';
+    if(path.length){ var w=weakest(path); h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl '+gcls(w)+'" aria-hidden="true"></i><span>'+esc(relLine(id,path))+'</span>'+CHEV+'</button>'; }
+    else if(o.length){ h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl" aria-hidden="true"></i><span>'+o.length+(o.length===1?' line':' lines')+' in the link table.</span>'+CHEV+'</button>'; }
     if(id===HOME&&id===centre) h+='<p class="youare">You are reading this event.</p>';
     else { h+='<div class="acts">'+(id===HOME?'':'<button type="button" class="pri" id="openBtn">Open the page</button>')+(id!==centre?'<button type="button" class="sec" id="cenBtn">Centre here</button>':'')+'</div>'; }
-    if(!dockEl){ dockEl=document.createElement('div'); dockEl.className='dock'; dockEl.setAttribute('role','region'); dockEl.setAttribute('aria-label','The event in hand'); dockHost.innerHTML=''; dockHost.appendChild(dockEl); var de=dockEl; requestAnimationFrame(function(){ requestAnimationFrame(function(){ de.classList.add('in'); }); }); }
-    dockEl.innerHTML=h;
+    var fresh=!dockEl;
+    if(fresh){ dockEl=document.createElement('div'); dockEl.className='dock'; dockEl.setAttribute('role','region'); dockEl.setAttribute('aria-label','The event in hand'); dockEl.innerHTML='<div class="dockin"></div>'; dockHost.innerHTML=''; dockHost.appendChild(dockEl); var de=dockEl; requestAnimationFrame(function(){ requestAnimationFrame(function(){ de.classList.add('in'); }); }); }
+    var inner=dockEl.firstChild; inner.innerHTML=h; frameOn(inner,!fresh);
     document.getElementById('dockX').addEventListener('click',function(){ select(null); });
     var pb=document.getElementById('pathBtn'); if(pb)pb.addEventListener('click',function(){ pathSheet(id); });
     var ob=document.getElementById('openBtn'); if(ob)ob.addEventListener('click',function(){ say('Would open the page: '+name(id)); });
     var cb=document.getElementById('cenBtn'); if(cb)cb.addEventListener('click',function(){ recentre(id); });
     /* keep the event in hand clear of the card */
-    var nd=N[id]&&N[id].el; if(nd){ var over=nd.getBoundingClientRect().bottom-(window.innerHeight-84-dockEl.offsetHeight)+16; if(over>0)window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); }
+    var nd=N[id]&&N[id].el; if(nd){ var over=nd.getBoundingClientRect().bottom-(window.innerHeight-84-dockEl.offsetHeight)+22; if(over>0)window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); }
   }
 
   /* ---------- sheets: the path, then the note on one line ---------- */
   var sheetHost=document.getElementById('sheetHost'), lastFocus=null;
   function openSheet(html,label,cls){ if(!sheetHost.firstChild)lastFocus=document.activeElement;
-    sheetHost.innerHTML='<div class="scrim" data-close></div><div class="sheet'+(cls?' '+cls:'')+'" role="dialog" aria-modal="true" aria-label="'+esc(label)+'">'+html+'</div>';
+    var own=cls&&/places|big/.test(cls);
+    sheetHost.innerHTML='<div class="scrim" data-close></div><div class="sheet'+(cls?' '+cls:'')+(own?'':' gilded')+'" role="dialog" aria-modal="true" aria-label="'+esc(label)+'">'+(own?html:'<div class="sbody">'+html+'</div>')+'</div>';
+    if(!own)frameOn(sheetHost.querySelector('.sheet'),false);
     var c=sheetHost.querySelector('.sheet button'); if(c)c.focus({preventScroll:true}); }
   function closeSheet(){ sheetHost.innerHTML=''; big=null; if(lastFocus&&lastFocus.focus&&document.contains(lastFocus))lastFocus.focus({preventScroll:true}); }
   sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]')){closeSheet();return;} var r=e.target.closest('[data-note]'); if(r){note(r.dataset.note,r.dataset.back);return;} var b=e.target.closest('[data-pathback]'); if(b){pathSheet(b.dataset.pathback);return;} var sy=e.target.closest('[data-say]'); if(sy){say(sy.dataset.say);return;} var pl=e.target.closest('[data-place]'); if(pl){ var pi=+pl.dataset.place; closeSheet(); routed=true; follow(pi); var px2=places()[pi]; say('The page now follows '+px2.c+' › '+px2.s+' › '+px2.ch); return; } if(e.target.closest('[data-many]')){ many=!many; here=0; follow(0); placeSheet(); return; } if(e.target.closest('[data-route]')){ routed=!routed; here=0; follow(0); placeSheet(); } });

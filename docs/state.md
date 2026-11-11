@@ -214,6 +214,17 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       the gilt cartouche, drawn in one stroke as on the tabs. The web sits on the paper
       between two hairlines; the controls are one ruled strip with a gilt line under what
       is on; the small map is a hairline with a tick for each step.
+    - Second clean pass (Cade, same day). The gilt top edge on knots is withdrawn ("only
+      some have this weird gold line"). Every event is the same labelled card: a date line
+      with the mark, a hairline, then the title; the centre event's date line is red.
+      A ruler sits over the web: an arrow at each end counts the events off screen that
+      way ("2 more"), and a scale between them shows every step with the part in view
+      marked. The column headers read "Cause · 1 step" and "Effect · 1 step"; the words
+      "What caused it" and "What it caused" no longer appear on the page. Recentre is an
+      icon in the controls. The key is three lines (knot, fibre, strand); line styles are
+      explained in each line's note. The pop-up for a tapped event, and every sheet, sit
+      in the gilt cartouche; the pop-up states the relation in one sentence generated
+      from the grade ("The Treaty of Versailles was one cause of it among several.").
 
 ### B. On trial in the mock, for Cade to settle
 
