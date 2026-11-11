@@ -269,6 +269,16 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       sign will show on about two cards in three and tells a reader little. Question: when
       the old data is re-tagged, does environment get its events, and should a card show
       the political sign only where no other kind applies?
+    - The pop-up on a tapped event, reworked (Cade, 2026-11-11). It now reads top to bottom:
+      size, year and step; the title and kinds; the event's one-paragraph brief cut to three
+      lines with "… more" to open the rest in place; a "Caused by" row and a "Led to" row
+      listing the event's own direct lines from the link table (grade mark, name, year;
+      three at most, then "N more" into How it connects; Coincident lines left out); then
+      one labelled line for its part in the event the page is about. Tapping a name in
+      either row moves the pop-up to that event, so a reader can walk the chain one step at
+      a time without closing it. The briefs are the Prototype 1 text from `site/data.json`,
+      loaded whole from the new `event-v12-briefs.js` because `atlas-data.js` cuts them at
+      220 characters; they await the rewrite.
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width

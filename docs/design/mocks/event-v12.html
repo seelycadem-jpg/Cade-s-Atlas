@@ -4,6 +4,7 @@
 <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/7.9.0/d3.min.js"></script>
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
 <script src="atlas-data.js"></script>
+<script src="event-v12-briefs.js"></script>
 <style>
 /* Layout: the globe opens the page and shrinks into the corner as the title docks; one reading column under it;
    the chain web breaks out to the full width of the phone and slides sideways, time running left to right.
@@ -713,7 +714,26 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .dock .kind{font:500 10.5px/1.3 var(--ui);letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);padding-right:36px}
 .dock h3{font:500 21px/1.15 var(--display);margin:6px 0 5px}
 .dock .dline{font:14.5px/1.42 var(--body);margin:0 0 10px;color:var(--ink);display:-webkit-box;-webkit-line-clamp:2;-webkit-box-orient:vertical;overflow:hidden}
-.dock .dnote{font:12.5px/1.4 var(--ui);color:var(--ink3);margin:-4px 0 10px}
+.dock .dnote{font:12.5px/1.4 var(--ui);color:var(--ink3);margin:0 0 9px}
+.dock .dline{-webkit-line-clamp:3;margin:0 0 2px}
+.dockin.open .dline{display:block;-webkit-line-clamp:unset;overflow:visible}
+.dockin.open{max-height:calc(100vh - 150px);overflow-y:auto;overscroll-behavior:contain}
+.dock .dmore{display:block;margin:0 0 9px auto;min-height:26px;padding:0 0 0 10px;font:500 12.5px/1 var(--ui);color:var(--accent)}
+.dock .dline+.dmore[hidden]+.drels{margin-top:9px}
+.dock .drels{border-top:1px solid var(--rule);margin:0}
+.dock .drel{display:grid;grid-template-columns:68px minmax(0,1fr);gap:8px;padding:7px 0;border-bottom:1px solid var(--rule);align-items:start}
+.dock .drel .dl{padding-top:7px;font:500 10px/1.2 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3)}
+.dock .drel .dv{display:grid;gap:0;min-width:0}
+.dock .dgo{display:grid;grid-template-columns:16px minmax(0,1fr) auto;gap:8px;align-items:center;min-height:28px;text-align:left;font:500 15px/1.15 var(--display);color:var(--title)}
+.dock .dgo .gl{width:16px}
+.dock .dgo span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.dock .dgo em{font:normal 500 10.5px/1 var(--ui);color:var(--ink3);font-variant-numeric:tabular-nums}
+.dock .dgo.c span{color:var(--accent)}
+.dock .dgo:active,.dock .dall:active{background:var(--surface2)}
+.dock .dall{justify-self:start;min-height:26px;margin-left:24px;font:500 12px/1 var(--ui);color:var(--accent)}
+.dock .dnone{padding:7px 0 6px;font:italic 400 14px/1.2 var(--display);color:var(--ink3)}
+.dock .pathbtn{border-top:0!important;margin-bottom:11px!important}
+.dock .pathbtn .pl{display:block;margin-bottom:2px;font:500 10px/1.2 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3)}
 .dock .pathbtn{display:grid;grid-template-columns:22px 1fr 8px;gap:10px;align-items:center;min-height:44px;padding:8px 2px;margin:0 0 12px;border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:none;font:13.5px/1.35 var(--ui);color:var(--ink);text-align:left}
 .dock .pathbtn svg{margin:0}
 .dock .pathbtn .gl{width:20px}
@@ -1360,26 +1380,41 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       if(s<0) return g==='Necessary'?c+' does not happen without it.':g==='Sufficient'?'It was enough on its own to bring about '+c+'.':g==='Contested'?'Two readings of its part in '+c+'; the atlas withholds a verdict.':'It was one cause of '+c+' among several.';
       return g==='Necessary'?'It does not happen without '+c+'.':g==='Sufficient'?c+' was enough on its own to bring it about.':g==='Contested'?'Two readings of the part '+c+' played; the atlas withholds a verdict.':c+' was one cause of it among several.'; }
     var w=weakest(path); return path.length+' lines '+(s<0?'lead from it to ':'lead to it from ')+c+'. The weakest is '+w.grade+'.'; }
+  /* the event's own direct lines: what caused it and what it led to. Coincident lines are not causes and stay in "How it connects". */
+  function relRows(id){ var c=[], e=[];
+    A.links.forEach(function(l){ if(l.grade==='Coincident'||!E[l.f]||!E[l.t])return; if(l.t===id)c.push(l); if(l.f===id)e.push(l); });
+    c.sort(function(a,b){ return E[a.f].y-E[b.f].y; }); e.sort(function(a,b){ return E[a.t].y-E[b.t].y; });
+    function row(lab,arr,key,none){ var h='<div class="drel"><span class="dl">'+lab+'</span><span class="dv">';
+      if(!arr.length) h+='<span class="dnone">'+none+'</span>';
+      else { h+=arr.slice(0,3).map(function(l){ var o=l[key]; return '<button type="button" class="dgo'+(o===centre?' c':'')+'" data-go="'+o+'"><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span>'+esc(name(o))+'</span><em>'+E[o].y+'</em></button>'; }).join('');
+        if(arr.length>3) h+='<button type="button" class="dall" data-all>'+(arr.length-3)+' more</button>'; }
+      return h+'</span></div>'; }
+    return '<div class="drels">'+row('Caused by',c,'f','No cause in the link table')+row('Led to',e,'t','No effect in the link table')+'</div>'; }
   function dock(){
     if(!sel){ if(dockEl){ var old=dockEl; dockEl=null; old.classList.remove('in'); clearTimeout(dockT); dockT=setTimeout(function(){ old.remove(); },260); } return; }
     var id=sel, sz=size(id), s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path), chip=N[id]&&N[id].chip;
     var where=id===centre?'the centre of the web':((s<0?'cause':'effect')+', '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'));
     var h='<button type="button" class="xbtn" id="dockX" aria-label="Close"><i><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></i></button>'
-      +'<div class="kind"><i class="mk '+sz+'" aria-hidden="true"></i><span>'+SZW[sz]+' · '+esc(when(id))+' · '+where+'</span></div><h3>'+esc(name(id))+'</h3>'+((E[id].c||[]).length?'<p class="dkinds">'+(E[id].c||[]).map(function(k){ return '<span>'+kicon(k)+cap1(k)+'</span>'; }).join('')+'</p>':'')+'<p class="dline">'+esc(line(id))+'</p>';
+      +'<div class="kind"><i class="mk '+sz+'" aria-hidden="true"></i><span>'+SZW[sz]+' · '+esc(when(id))+' · '+where+'</span></div><h3>'+esc(name(id))+'</h3>'+((E[id].c||[]).length?'<p class="dkinds">'+(E[id].c||[]).map(function(k){ return '<span>'+kicon(k)+cap1(k)+'</span>'; }).join('')+'</p>':'')+'<p class="dline" id="dLine">'+esc((window.ATLAS_BRIEF&&window.ATLAS_BRIEF[id])||E[id].bluf||line(id))+'</p><button type="button" class="dmore" id="dMore" aria-expanded="false" hidden>… more</button>';
+    h+=relRows(id);
     if(chip) h+='<p class="dnote">Outside your filters. It stays, faded, because the path runs through it.</p>';
-    if(path.length){ var w=weakest(path); h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl '+gcls(w)+'" aria-hidden="true"></i><span>'+esc(relLine(id,path))+'</span>'+CHEV+'</button>'; }
+    if(path.length){ var w=weakest(path); h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl '+gcls(w)+'" aria-hidden="true"></i><span><b class="pl">'+(s<0?'Its part in ':'What it owes to ')+esc(name(centre))+'</b>'+esc(relLine(id,path))+'</span>'+CHEV+'</button>'; }
     else if(o.length){ h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl" aria-hidden="true"></i><span>'+o.length+(o.length===1?' line':' lines')+' in the link table.</span>'+CHEV+'</button>'; }
     if(id===HOME&&id===centre) h+='<p class="youare">You are reading this event.</p>';
     else { h+='<div class="acts">'+(id===HOME?'':'<button type="button" class="pri" id="openBtn">Open the page</button>')+(id!==centre?'<button type="button" class="sec" id="cenBtn">Centre here</button>':'')+'</div>'; }
     var fresh=!dockEl;
     if(fresh){ dockEl=document.createElement('div'); dockEl.className='dock'; dockEl.setAttribute('role','region'); dockEl.setAttribute('aria-label','The event in hand'); dockEl.innerHTML='<div class="dockin"></div>'; dockHost.innerHTML=''; dockHost.appendChild(dockEl); var de=dockEl; requestAnimationFrame(function(){ requestAnimationFrame(function(){ de.classList.add('in'); }); }); }
-    var inner=dockEl.firstChild; inner.innerHTML=h; frameOn(inner,!fresh);
+    var inner=dockEl.firstChild; inner.classList.remove('open'); inner.innerHTML=h; frameOn(inner,!fresh);
     document.getElementById('dockX').addEventListener('click',function(){ select(null); });
+    var dl=document.getElementById('dLine'), dm=document.getElementById('dMore');
+    if(dl.scrollHeight>dl.clientHeight+2){ dm.hidden=false; frameOn(inner,!fresh); dm.addEventListener('click',function(){ var o=inner.classList.toggle('open'); dm.setAttribute('aria-expanded',String(o)); dm.textContent=o?'Show less':'… more'; frameOn(inner,true); }); }
+    [].forEach.call(inner.querySelectorAll('[data-go]'),function(b){ b.addEventListener('click',function(){ var g=b.dataset.go; if(N[g]&&!N[g].gone){ select(g); reveal(g); toCol(G.step[g],true); } else { recentre(g); say('Centred on '+name(g)); } }); });
+    [].forEach.call(inner.querySelectorAll('[data-all]'),function(b){ b.addEventListener('click',function(){ pathSheet(id); }); });
     var pb=document.getElementById('pathBtn'); if(pb)pb.addEventListener('click',function(){ pathSheet(id); });
     var ob=document.getElementById('openBtn'); if(ob)ob.addEventListener('click',function(){ say('Would open the page: '+name(id)); });
     var cb=document.getElementById('cenBtn'); if(cb)cb.addEventListener('click',function(){ recentre(id); });
     /* keep the event in hand clear of the card */
-    var nd=N[id]&&N[id].el; if(nd){ var over=nd.getBoundingClientRect().bottom-(window.innerHeight-84-dockEl.offsetHeight)+22; if(over>0)window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); }
+    var nd=N[id]&&N[id].el; if(nd){ var over=nd.getBoundingClientRect().bottom-(window.innerHeight-18-dockEl.offsetHeight)+22; if(over>0)window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); }
   }
 
   /* ---------- sheets: the path, then the note on one line ---------- */
