@@ -420,6 +420,32 @@ main.pic-a.fr-corners .pic{margin:10px 6px 20px}
 main.pic-a.fr-corners .pic::before{content:"";position:absolute;inset:-6px;pointer-events:none;--g:var(--gilt);
   background:linear-gradient(var(--g),var(--g)) 0 0/18px 1.5px,linear-gradient(var(--g),var(--g)) 0 0/1.5px 18px,linear-gradient(var(--g),var(--g)) 100% 0/18px 1.5px,linear-gradient(var(--g),var(--g)) 100% 0/1.5px 18px,linear-gradient(var(--g),var(--g)) 0 100%/18px 1.5px,linear-gradient(var(--g),var(--g)) 0 100%/1.5px 18px,linear-gradient(var(--g),var(--g)) 100% 100%/18px 1.5px,linear-gradient(var(--g),var(--g)) 100% 100%/1.5px 18px;background-repeat:no-repeat}
 main.pic-a.fr-ink .pic img{outline:1px solid var(--ink3)}
+/* the inset (placement C): the picture and its line float together beside the opening paragraph */
+main.pic-c .picwrap{float:right;width:40%;margin:8px 0 6px 14px}
+main.pic-c .pic{float:none;width:100%;margin:0;padding:4px;border:1px solid color-mix(in srgb,var(--gilt) 70%,transparent)}
+main.pic-c .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transparent)}
+main.pic-c .piccap{display:block;font-size:12.5px;line-height:1.35;margin:7px 0 0}
+main.pic-c.fr-mount .pic{padding:8px;border:1px solid var(--rule);background:var(--surface);box-shadow:var(--lift)}
+main.pic-c.fr-mount .pic img{outline:1px solid var(--ink3)}
+main.pic-c.fr-corners .pic,main.pic-c.fr-ink .pic,main.pic-c.fr-bare .pic,main.fr-tilt .pic,main.fr-vig .pic,main.fr-tone .pic,main.fr-arch .pic{padding:0;border:0;box-shadow:none;background:none}
+main.pic-c.fr-corners .pic img,main.pic-c.fr-ink .pic img,main.pic-c.fr-bare .pic img,main.fr-tilt .pic img,main.fr-vig .pic img,main.fr-tone .pic img,main.fr-arch .pic img{outline:0}
+main.pic-c.fr-corners .picwrap{margin:12px 6px 8px 18px}
+main.pic-c.fr-corners .pic::before{content:"";position:absolute;inset:-5px;pointer-events:none;--g:var(--gilt);
+  background:linear-gradient(var(--g),var(--g)) 0 0/14px 1.5px,linear-gradient(var(--g),var(--g)) 0 0/1.5px 14px,linear-gradient(var(--g),var(--g)) 100% 0/14px 1.5px,linear-gradient(var(--g),var(--g)) 100% 0/1.5px 14px,linear-gradient(var(--g),var(--g)) 0 100%/14px 1.5px,linear-gradient(var(--g),var(--g)) 0 100%/1.5px 14px,linear-gradient(var(--g),var(--g)) 100% 100%/14px 1.5px,linear-gradient(var(--g),var(--g)) 100% 100%/1.5px 14px;background-repeat:no-repeat}
+main.pic-c.fr-ink .pic img{outline:1px solid var(--ink3)}
+/* a loose print: a white-edged photograph laid on the page a little askew */
+main.fr-tilt .pic img{transform:rotate(-2.4deg);border:5px solid var(--surface);box-shadow:0 1px 2px rgba(59,34,23,.18),0 8px 18px rgba(59,34,23,.16)}
+main.fr-tilt .picwrap{margin-top:12px}
+/* a vignette: no edge at all; the picture dissolves into the paper, as in an old book plate */
+main.fr-vig .pic img{-webkit-mask:radial-gradient(ellipse 72% 72% at 50% 50%,#000 52%,transparent 100%);mask:radial-gradient(ellipse 72% 72% at 50% 50%,#000 52%,transparent 100%)}
+/* espresso tone: the photograph printed in the atlas's own brown, under one espresso rule */
+main.fr-tone .pic{background:var(--lede)}
+main.fr-tone .pic img{filter:grayscale(1) contrast(1.08) brightness(1.08);mix-blend-mode:screen;opacity:.94}
+main.fr-tone .pic{outline:1px solid var(--title);outline-offset:3px}
+main.fr-tone .picwrap{margin-top:12px;margin-right:4px}
+/* arched: a window-topped plate, the shape of an engraved frontispiece, under a gilt line */
+main.fr-arch .pic img{border-radius:50% 50% 0 0 / 30% 30% 0 0}
+main.fr-arch .pic{padding:4px;border:1px solid color-mix(in srgb,var(--gilt) 70%,transparent);border-radius:50% 50% 0 0 / 30% 30% 0 0}
 .mockbtn.three{bottom:calc(184px + env(safe-area-inset-bottom,0px))}
 /* on trial: a double gilt rule round the picture plate, the outer a little stronger than the inner */
 main.pic-a .pic{padding:5px;border-color:color-mix(in srgb,var(--gilt) 70%,transparent)}
@@ -485,9 +511,9 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   <div class="sub" id="sub"><span><b>28 June 1919</b></span><span class="rest">·</span><span class="rest">Versailles, France</span></div>
 </div>
 
-<main class="wrap pic-a" id="mainEl">
-  <figure class="pic" id="pic" role="button" tabindex="0" aria-label="The Hall of Mirrors during the signing, 28 June 1919. Open the picture and its details."><img src="versailles-signing-1919.jpg" alt="A long mirrored hall packed with standing delegates and onlookers, facing a table at its far end."></figure>
-  <p class="piccap" id="piccap">The Hall of Mirrors during the signing, 28 June 1919.</p>
+<main class="wrap pic-c" id="mainEl">
+  <div class="picwrap"><figure class="pic" id="pic" role="button" tabindex="0" aria-label="The Hall of Mirrors during the signing, 28 June 1919. Open the picture and its details."><img src="versailles-signing-1919.jpg" alt="A long mirrored hall packed with standing delegates and onlookers, facing a table at its far end."></figure>
+  <p class="piccap" id="piccap">The Hall of Mirrors during the signing, 28 June 1919.</p></div>
   <p class="bluf">France, Britain and the United States wrote the treaty to end the war with Germany and to keep Germany from attacking again. Germany signed on 28 June 1919, lost 13 percent of its European territory and every colony, and kept an army of 100,000. The treaty left Germany the largest industrial economy in central Europe and gave no power the job of enforcing the terms.</p>
   <nav class="pageindex index" id="pageIndex" aria-label="On this page"></nav>
 
@@ -610,7 +636,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 <div id="sheetHost"></div>
 <div class="toast" id="toast" role="status" hidden></div>
 <button type="button" class="mockbtn three" id="frBtn" aria-label="Picture frame (mock control)">Frame: double gilt</button>
-<button type="button" class="mockbtn two" id="picBtn" aria-label="Picture placement (mock control)">Picture: A plate</button>
+<button type="button" class="mockbtn two" id="picBtn" aria-label="Picture placement (mock control)">Picture: C inset</button>
 <button type="button" class="mockbtn" id="themeBtn" aria-label="Theme (mock control)">Theme: auto</button>
 <nav class="pill" aria-label="Atlas">
   <button type="button" class="g" id="globeBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>Globe</button>
@@ -987,14 +1013,14 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     el.addEventListener('click',function(ev){ var a=ev.target.closest('[data-mwl]'); if(a){ note(a.dataset.mwl); return; } var t=ev.target.closest('[data-mw]'); if(t)say('Would open the preview: '+name(t.dataset.mw)); }); })();
 
   /* ---------- the picture: three placements on trial, and the fade as it leaves ---------- */
-  (function(){ var pic=document.getElementById('pic'), capEl=document.getElementById('piccap'), thumb=document.getElementById('pthumb'), mainEl=document.getElementById('mainEl'), b=document.getElementById('picBtn'), V=[['pic-a','A plate'],['pic-b','B edge to edge'],['pic-c','C inset'],['pic-0','none']], vi=0, pq=false;
+  (function(){ var pic=document.getElementById('pic'), capEl=document.getElementById('piccap'), thumb=document.getElementById('pthumb'), mainEl=document.getElementById('mainEl'), b=document.getElementById('picBtn'), V=[['pic-a','A plate'],['pic-b','B edge to edge'],['pic-c','C inset'],['pic-0','none']], vi=2, pq=false;
     function fade(){ pq=false; if(vi===3){ thumb.classList.remove('on'); return; } var r=pic.getBoundingClientRect(), t=reduced?(r.bottom>120?1:0):Math.max(0,Math.min(1,(r.bottom-110)/Math.max(1,r.height*0.9))); pic.style.opacity=t.toFixed(3); pic.style.transform='translate3d(0,'+((1-t)*-10).toFixed(1)+'px,0) scale('+(1-(1-t)*0.04).toFixed(4)+')'; pic.style.pointerEvents=t<0.3?'none':''; capEl.style.opacity=t.toFixed(3); thumb.classList.toggle('on',t<0.06); thumb.tabIndex=t<0.06?0:-1; }
     window.addEventListener('scroll',function(){ if(!pq){ pq=true; requestAnimationFrame(fade); } },{passive:true});
     b.addEventListener('click',function(){ mainEl.classList.remove(V[vi][0]); vi=(vi+1)%V.length; mainEl.classList.add(V[vi][0]); b.textContent='Picture: '+V[vi][1]; pic.style.opacity=''; pic.style.transform=''; pageLayout(); frameAll(); fade(); });
     function cap(){ openSheet('<button type="button" class="xbtn" data-close aria-label="Close"><i><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></i></button><div class="pbody"><img src="versailles-signing-1919.jpg" alt="A long mirrored hall packed with standing delegates and onlookers, facing a table at its far end."><h3>The Signing in the Hall of Mirrors</h3><p class="pcap">Delegates and onlookers fill the Hall of Mirrors at Versailles on 28 June 1919, the day Germany signed.</p><dl><dt>Date</dt><dd>28 June 1919</dd><dt>Place</dt><dd>Versailles, France</dd><dt>Source</dt><dd>U.S. National Archives, identifier 531150</dd><dt>Licence</dt><dd>Public domain</dd><dt>Credit</dt><dd>U.S. National Archives and Records Administration</dd></dl></div>','The picture','places pics'); gild(); }
     function gild(){ var sh=sheetHost.querySelector('.sheet'), fw=sh.offsetWidth, fh=sh.offsetHeight; function cart(i,r){ var x0=i,y0=i,x1=fw-i,y1=fh-i; return 'M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z'; }
       sh.insertAdjacentHTML('beforeend','<svg class="frame" viewBox="0 0 '+fw+' '+fh+'" aria-hidden="true"><path class="f1" pathLength="1" d="'+cart(1.2,11.5)+'"/><path class="f2" d="'+cart(4.2,10)+'"/></svg>'); }
-    var FR=[['','double gilt'],['fr-mount','mount'],['fr-corners','gilt corners'],['fr-ink','ink rule'],['fr-bare','bare']], fi=0, fb=document.getElementById('frBtn');
+    var FR=[['','double gilt'],['fr-mount','mount'],['fr-corners','gilt corners'],['fr-ink','ink rule'],['fr-tilt','loose print'],['fr-vig','vignette'],['fr-tone','espresso tone'],['fr-arch','arched'],['fr-bare','bare']], fi=0, fb=document.getElementById('frBtn');
     fb.addEventListener('click',function(){ if(FR[fi][0])mainEl.classList.remove(FR[fi][0]); fi=(fi+1)%FR.length; if(FR[fi][0])mainEl.classList.add(FR[fi][0]); fb.textContent='Frame: '+FR[fi][1]; pageLayout(); frameAll(); });
     thumb.addEventListener('click',cap);
     pic.addEventListener('click',cap); pic.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); cap(); } }); fade(); })();

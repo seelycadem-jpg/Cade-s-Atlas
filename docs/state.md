@@ -181,8 +181,10 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 16. **The bottom bar** (Globe, year, search): keep it as a floating pill, or square it.
 17. **Graphics on a plate** (event-pages.md, Graphics): a gilt rule, a fine rule inside, a
     slight shadow, static. Cade wants graphics to stand off the page; the treatment is open.
-18. **The frame for pictures**: five to choose from in the mock (double gilt, mount, gilt
-    corners, ink rule, bare), and three placements (plate, edge to edge, inset).
+18. **The frame for pictures**. Cade picks the inset placement: a small upright picture
+    beside the opening paragraph, its one-line description under it. The frame is still
+    open; the mock cycles nine (double gilt, mount, gilt corners, ink rule, loose print,
+    vignette, espresso tone, arched, bare).
 19. **The name "The Record"** for the detail, and its drawers (ui-rules.md rule 19 says no
     gate; its Open list asks for a name to replace "Open the detail").
 20. **The docked card in the web** (ui-rules.md rule 3 gives every name the same floating
