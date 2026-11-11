@@ -214,10 +214,11 @@ Questions for the master chat (none settled here; no standards doc was changed):
     same point, because it must dock when it reaches the top of the screen.
 22. What a picture may be (Cade, 2026-11-11). A drawing or painting made later is fine for
     an event too old for photographs. A photograph of the place or of the kind of scene is
-    fine too (his example: a picture of Trafalgar Square for protests there). Open for the
-    master chat: CLAUDE.md bans any photograph of a living person; a recent crowd or
-    protest photograph will hold living people. The rule needs a line on crowds as against
-    a named, identifiable person. The caption must say what the picture is and when it was
+    fine too (his example: a picture of Trafalgar Square for protests there). Photographs
+    of living people are allowed (Cade, 2026-11-11). This reverses a hard limit: CLAUDE.md
+    and docs/narrative-flow.md (Pictures) still say "never a photograph of a living
+    person", and the master chat must change both before any such picture ships. The
+    open-licence rule and the recorded source, licence and credit still apply. The caption must say what the picture is and when it was
     made, so a later painting is never read as a record of the day.
 19. This environment's network now allows commons.wikimedia.org and upload.wikimedia.org
     (Cade approved, 2026-11-11), for fetching open-licence pictures.
