@@ -75,8 +75,7 @@ The artifacts are private to Cade's account. The repo files are the source of tr
 ## Next, in order
 
 1. Cade's read of the latest story, chapter and event pages on his phone.
-2. Open decision: keep "story" for the level under chronicle, or rename it ("book" or
-   "volume" were raised; the recommendation is to keep "story").
+2. Decided 2026-11-11 (Cade): the level under chronicle keeps the name "story".
 3. Phase 1 steps left: front door (1.5), filters (1.6), the two globes (1.7), building the
    shared components (1.8 to 1.12), the people test (1.13).
 
