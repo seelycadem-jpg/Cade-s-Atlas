@@ -1,5 +1,7 @@
 # Meanwhile Atlas: story methodology and anti-slop rules (internal)
 
+> **Levels and sizes changed on 2026-11-11.** `docs/structure.md` holds the current rules and wins over this file: four levels (chronicle, story, chapter, event), three sizes of event (knot, fibre, strand, in that order) rated once by world impact, and a chapter in place of a patch built on one knot. Read the definitions of patch, knot, strand, fibre, arc and thread below as history.
+
 Companion to claude/house-style.md. Full version with diagrams in the "Meanwhile Atlas: Analytic Standards" doc. Rule zero (no negation-then-reveal) and rule one (brief register everywhere; Cicero in the themes layer only) apply throughout.
 
 ## New structure for the fresh build (agreed in discussion 2026-11-02; supersedes the vocabulary below once built)
