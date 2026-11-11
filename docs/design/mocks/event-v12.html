@@ -760,6 +760,21 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .drumscroll i{display:block;scroll-snap-align:start}
 .drumscroll.gliding,.wscroll.gliding{scroll-snap-type:none}
 .dch{z-index:30}
+
+/* ===== kinds (Cade, 2026-11-11): an icon for each kind on every card; an event the filters leave out but the path
+   runs through stays a full card and fades back; the kind being filtered for shows dark on the cards that have it ===== */
+.ki{width:12px;height:12px;flex:none;color:var(--ink3);fill:none;stroke:currentColor;stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round}
+.wcanvas .nd svg{position:static;transition:none}
+.wcanvas .nd .kd{margin-left:auto;display:inline-flex;gap:4px;align-items:center}
+.wcanvas .nd.here .ki{color:var(--on-accent)}
+.wcanvas[data-kind="political"] .nd:not(.here) .ki[data-k="political"],.wcanvas[data-kind="war"] .nd:not(.here) .ki[data-k="war"],.wcanvas[data-kind="economic"] .nd:not(.here) .ki[data-k="economic"],.wcanvas[data-kind="ideas"] .nd:not(.here) .ki[data-k="ideas"],.wcanvas[data-kind="religion"] .nd:not(.here) .ki[data-k="religion"],.wcanvas[data-kind="science"] .nd:not(.here) .ki[data-k="science"],.wcanvas[data-kind="culture"] .nd:not(.here) .ki[data-k="culture"],.wcanvas[data-kind="environment"] .nd:not(.here) .ki[data-k="environment"]{color:var(--ink);stroke-width:1.5}
+.fp-kinds button span{display:inline-flex;align-items:center;gap:7px}
+.fp-kinds button .ki{color:var(--ink2)}
+.fp-kinds button[aria-pressed="true"] .ki{color:var(--bg)}
+.fp-kinds button:disabled .ki{color:var(--ink3);opacity:.6}
+.dock .dkinds{display:flex;flex-wrap:wrap;gap:4px 12px;margin:0 0 7px;font:500 11.5px/1.3 var(--ui);color:var(--ink2)}
+.dock .dkinds span{display:inline-flex;align-items:center;gap:5px}
+.dock .dkinds .ki{color:var(--ink2)}
 </style>
 
 <div class="stage" id="stage">
@@ -1087,14 +1102,21 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     while(cur!==centre&&guard++<12){ var s=G.step[cur]; var c=G.edges.filter(function(l){ return s<0?l.f===cur:l.t===cur; }).sort(function(a,b){return rank(b)-rank(a)})[0]; if(!c)break; links.push(c); cur=s<0?c.t:c.f; }
     if(G.step[id]>0)links.reverse(); return links; }
 
+  /* one small line icon for each kind of event: a mock set */
+  var KICON={political:'M1.5 4.5L6 1.5l4.5 3M2.5 4.5v5M6 4.5v5M9.5 4.5v5M1.5 10.5h9',war:'M2 2l8 8M10 2L2 10M2 7.5l2.5 2.5M10 7.5L7.5 10',economic:'M2.5 10.5v-3M6 10.5v-6M9.5 10.5V2M1 10.5h10',
+    ideas:'M6 1.5a3.2 3.2 0 0 1 2 5.7c-.4.4-.6.8-.6 1.3H4.6c0-.5-.2-.9-.6-1.3a3.2 3.2 0 0 1 2-5.7zM4.9 10.5h2.2',religion:'M6 1.2c1 1.2 1.4 2 1.4 2.7a1.4 1.4 0 0 1-2.8 0c0-.7.4-1.5 1.4-2.7zM4.6 7h2.8v3.8H4.6zM3 10.8h6',
+    science:'M4.6 1.5h2.8M5 1.5v3L2.2 9.6a.6.6 0 0 0 .5.9h6.6a.6.6 0 0 0 .5-.9L7 4.5v-3M3.6 7.5h4.8',culture:'M4.5 9V2.5l5-1V8M4.5 9a1.4 1.2 0 1 1-2.8 0 1.4 1.2 0 0 1 2.8 0zM9.5 8a1.4 1.2 0 1 1-2.8 0 1.4 1.2 0 0 1 2.8 0z',environment:'M2 10C2 5 5 2 10 2c0 5-3 8-8 8zM2 10l5-5'};
+  function kicon(k){ return '<svg class="ki" data-k="'+k+'" viewBox="0 0 12 12" aria-hidden="true"><path d="'+(KICON[k]||'')+'"/></svg>'; }
+  /* a card has room for two; the kind being filtered for comes first */
+  function kicons(id){ var t=(E[id].c||[]).slice(); if(kind&&t.indexOf(kind)>0){ t.splice(t.indexOf(kind),1); t.unshift(kind); } return t.slice(0,2).map(kicon).join(''); }
   function mkNode(id){ var el=document.createElement('button'); el.type='button'; el.dataset.id=id;
-    el.innerHTML='<span class="card" lang="en"><span class="nm"><i class="mk '+size(id)+'" aria-hidden="true"></i><span class="yr">'+esc(when(id))+'</span></span><span class="nt">'+esc(name(id))+'</span></span>';
-    nodesLayer.appendChild(el); return {id:id,el:el,cur:{x:0,y:0,s:1,o:0,d:1},tg:{x:0,y:0,s:1,o:1,d:1},w:NW,h:60,chip:false,gone:false,fresh:true,drumK:null,drumI:0}; }
+    el.innerHTML='<span class="card" lang="en"><span class="nm"><i class="mk '+size(id)+'" aria-hidden="true"></i><span class="yr">'+esc(String(E[id].y))+'</span><span class="kd"></span></span><span class="nt">'+esc(name(id))+'</span></span>';
+    nodesLayer.appendChild(el); return {id:id,el:el,cur:{x:0,y:0,s:1,o:0,d:1,q:1},tg:{x:0,y:0,s:1,o:1,d:1,q:1},w:NW,h:60,chip:false,gone:false,fresh:true,drumK:null,drumI:0}; }
   function mkEdge(l){ var g=document.createElementNS(SVGNS,'g'); g.setAttribute('class','eg');
     var w=(backbone(l)?2.3:1.35)*(l.conf==='High'?1:l.conf==='Moderate'?0.84:0.66);
     g.innerHTML='<path class="eline '+gcls(l)+'" stroke-width="'+w.toFixed(2)+'"/><circle class="eport" r="'+(backbone(l)?2:1.5)+'"/><path class="ehead"/><path class="hit" data-link="'+l.id+'"><title>'+esc(name(l.f)+' to '+name(l.t)+': '+l.grade)+'</title></path>';
     svg.appendChild(g); return {l:l,g:g,line:g.childNodes[0],port:g.childNodes[1],head:g.childNodes[2],hit:g.childNodes[3],cuA:0,tgA:1,po:0,pi:0,gone:false,big:backbone(l)}; }
-  function baseX(n,k){ return n.chip?G.cx(k)+(CW-n.w)/2:G.cx(k)+GAP/2; }
+  function baseX(n,k){ return G.cx(k)+GAP/2; }
 
   /* a column shows three events. A longer one turns: three rows stay full size, the next one each way
      shows as a faded sliver that curves away, and an arrow says how many more there are. */
@@ -1121,11 +1143,11 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     /* every event that shows: make it, set whether it is a card or a small name, and measure it */
     var seen={}, order=[];
     Object.keys(G.cols).map(Number).sort(function(a,b){ return Math.abs(a)-Math.abs(b); }).forEach(function(k){ G.cols[k].forEach(function(id){ seen[id]=1; order.push(id);
-      var n=N[id]; if(!n||n.gone){ if(n)n.el.remove(); n=N[id]=mkNode(id); } n.step=k; n.chip=!matches(id); n.drumK=null; n.el.style.zIndex=''; n.el.style.pointerEvents='';
-      n.el.style.width=n.chip?'':NW.toFixed(1)+'px';
+      var n=N[id]; if(!n||n.gone){ if(n)n.el.remove(); n=N[id]=mkNode(id); } n.step=k; n.chip=!matches(id); n.tg.q=n.chip?0.4:1; if(n.fresh)n.cur.q=n.tg.q; n.el.querySelector('.kd').innerHTML=kicons(id); n.drumK=null; n.el.style.zIndex=''; n.el.style.pointerEvents='';
+      n.el.style.width=NW.toFixed(1)+'px';
       n.el.setAttribute('aria-label',name(id)+', '+when(id)+', '+SZW[size(id)]+', '+stepWord(k)+(n.chip?', outside your filters':'')); }); });
     paintClasses();
-    order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=n.chip?Math.max(RB,n.h+10):Math.max(64,n.h+12); });
+    order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=Math.max(64,n.h+12); });
     /* the canvas is as tall as its tallest column, up to four rows; a longer column becomes a drum */
     var tall=2.2*RH, anyDrum=false; Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); if(c.length>MAXR)anyDrum=true; tall=Math.max(tall,Math.min(t,MAXR*RH)); }); if(anyDrum)tall=MAXR*RH+2*PEEK-16;
     HC=Math.round(TOP+tall+16); yc=TOP+(HC-TOP)/2; G.yc=yc;
@@ -1157,8 +1179,8 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     Object.keys(ED).forEach(function(id){ if(live[id])return; var e=ED[id]; if(!move){ e.g.remove(); delete ED[id]; } else { e.gone=true; e.tgA=0; } });
     order.forEach(function(id){ var n=N[id], lim=Math.max(0,n.h/2-13);
       var outs=G.edges.filter(function(l){ return l.f===id; }).sort(function(a,b){ return N[a.t].tg.y-N[b.t].tg.y; }), ins=G.edges.filter(function(l){ return l.t===id; }).sort(function(a,b){ return N[a.f].tg.y-N[b.f].tg.y; });
-      outs.forEach(function(l,i){ ED[l.id].po=n.chip?0:clamp((i-(outs.length-1)/2)*7,-lim,lim); });
-      ins.forEach(function(l,i){ ED[l.id].pi=n.chip?0:clamp((i-(ins.length-1)/2)*7,-lim,lim); }); });
+      outs.forEach(function(l,i){ ED[l.id].po=clamp((i-(outs.length-1)/2)*7,-lim,lim); });
+      ins.forEach(function(l,i){ ED[l.id].pi=clamp((i-(ins.length-1)/2)*7,-lim,lim); }); });
 
     /* the step names over each column, the drum's arrows, and the plain statement when a side is empty */
     var h=''; for(var s=G.minS;s<=G.maxS;s++){ h+='<div class="colh'+(s===0?' c0':'')+'" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px">'+(s===0?'This event':(s<0?'Cause':'Effect')+' · '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'))+'</div>';
@@ -1181,10 +1203,10 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     else { trail.hidden=true; trail.innerHTML=''; }
     bar(); sync(); if(typeof secTops==='function')setTimeout(secTops,80);
   }
-  function paintClasses(){ Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone)return; var c='nd sz-'+size(id)+(n.chip?' chip':'')+(n.drumK!=null?' indrum':'')+(id===centre?' here':'')+(id===sel?' sel':''); if(n.el.className!==c)n.el.className=c; n.el.setAttribute('aria-pressed',String(id===sel)); }); }
+  function paintClasses(){ Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone)return; var c='nd sz-'+size(id)+(n.chip?' thru':'')+(n.drumK!=null?' indrum':'')+(id===centre?' here':'')+(id===sel?' sel':''); if(n.el.className!==c)n.el.className=c; n.el.setAttribute('aria-pressed',String(id===sel)); }); }
   /* selection lights one path and quiets the rest */
   function paint(run){ var path=sel&&sel!==centre?pathOf(sel):[], onE={}, onN={}; path.forEach(function(l){onE[l.id]=1;onN[l.f]=1;onN[l.t]=1;});
-    paintClasses();
+    paintClasses(); canvas.setAttribute('data-kind',kind||'');
     Object.keys(N).forEach(function(id){ var n=N[id]; n.tg.d=path.length?((onN[id]||id===centre)?1:0.2):1; });
     Object.keys(ED).forEach(function(id){ var e=ED[id]; if(e.gone)return; e.tgA=path.length?(onE[id]?1:0.1):1; });
     if(run!==false)kick(); }
@@ -1194,19 +1216,19 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   function kick(){ if(!running) running=requestAnimationFrame(function(){ running=0; frame(false); }); }
   function frame(snap){ var more=false, k=(snap||reduced)?1:0.17;
     Object.keys(N).forEach(function(id){ var n=N[id], c=n.cur, t=n.tg;
-      c.x+=(t.x-c.x)*k; c.y+=(t.y-c.y)*k; c.s+=(t.s-c.s)*k; c.o+=(t.o-c.o)*k; c.d+=(t.d-c.d)*k;
-      if(Math.abs(t.x-c.x)>0.25||Math.abs(t.y-c.y)>0.25||Math.abs(t.s-c.s)>0.003||Math.abs(t.o-c.o)>0.008||Math.abs(t.d-c.d)>0.008) more=true; else { c.x=t.x; c.y=t.y; c.s=t.s; c.o=t.o; c.d=t.d; }
+      c.x+=(t.x-c.x)*k; c.y+=(t.y-c.y)*k; c.s+=(t.s-c.s)*k; c.o+=(t.o-c.o)*k; c.d+=(t.d-c.d)*k; c.q+=(t.q-c.q)*k;
+      if(Math.abs(t.x-c.x)>0.25||Math.abs(t.y-c.y)>0.25||Math.abs(t.s-c.s)>0.003||Math.abs(t.o-c.o)>0.008||Math.abs(t.d-c.d)>0.008||Math.abs(t.q-c.q)>0.008) more=true; else { c.x=t.x; c.y=t.y; c.s=t.s; c.o=t.o; c.d=t.d; c.q=t.q; }
       if(n.gone&&c.o<0.02){ n.el.remove(); delete N[id]; return; }
-      n.el.style.transform='translate3d('+c.x.toFixed(2)+'px,'+c.y.toFixed(2)+'px,0) translateY(-50%) scale('+c.s.toFixed(4)+')'; n.el.style.opacity=(c.o*c.d).toFixed(3); });
+      n.el.style.transform='translate3d('+c.x.toFixed(2)+'px,'+c.y.toFixed(2)+'px,0) translateY(-50%) scale('+c.s.toFixed(4)+')'; n.el.style.opacity=(c.o*c.d*c.q).toFixed(3); });
     Object.keys(ED).forEach(function(id){ var e=ED[id], a=N[e.l.f], b=N[e.l.t]; if(!a||!b){ e.g.remove(); delete ED[id]; return; }
       e.cuA+=(e.tgA-e.cuA)*k; if(Math.abs(e.tgA-e.cuA)>0.008)more=true; else e.cuA=e.tgA;
       if(e.gone&&e.cuA<0.02){ e.g.remove(); delete ED[id]; return; }
-      var x1=a.cur.x+a.w/2+a.cur.s*a.w/2+(a.chip?1:2.5), y1=a.cur.y+e.po*a.cur.s, x2=b.cur.x+b.w/2-b.cur.s*b.w/2-(b.chip?1:2.5), y2=b.cur.y+e.pi*b.cur.s;
+      var x1=a.cur.x+a.w/2+a.cur.s*a.w/2+2.5, y1=a.cur.y+e.po*a.cur.s, x2=b.cur.x+b.w/2-b.cur.s*b.w/2-2.5, y2=b.cur.y+e.pi*b.cur.s;
       var sc=Math.min(a.cur.s,b.cur.s), hl=(e.big?9.5:8)*Math.max(0.6,sc), hw=(e.big?4.1:3.4)*Math.max(0.6,sc), c=Math.max(12,(x2-x1)*0.5);
       var d='M'+x1.toFixed(1)+' '+y1.toFixed(1)+' C'+(x1+c).toFixed(1)+' '+y1.toFixed(1)+' '+(x2-c-hl*0.5).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl*0.7).toFixed(1)+' '+y2.toFixed(1);
       e.line.setAttribute('d',d); e.hit.setAttribute('d',d); e.port.setAttribute('cx',x1.toFixed(1)); e.port.setAttribute('cy',y1.toFixed(1));
       e.head.setAttribute('d','M'+x2.toFixed(1)+' '+y2.toFixed(1)+' L'+(x2-hl).toFixed(1)+' '+(y2-hw).toFixed(1)+' Q'+(x2-hl*0.62).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl).toFixed(1)+' '+(y2+hw).toFixed(1)+' Z');
-      e.g.style.opacity=(e.cuA*Math.min(a.cur.o,b.cur.o)).toFixed(3); });
+      e.g.style.opacity=(e.cuA*Math.min(a.cur.o*a.cur.q,b.cur.o*b.cur.q)).toFixed(3); });
     if(more&&!snap) running=requestAnimationFrame(function(){ running=0; frame(false); }); }
   /* one bead runs the lit path once, in the direction the arrows point */
   function pulse(links){ if(reduced||!links.length)return; var c=document.createElementNS(SVGNS,'circle'); c.setAttribute('r','3.4'); c.setAttribute('class','pulse'); svg.appendChild(c);
@@ -1272,7 +1294,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   [].forEach.call(cbar.querySelectorAll('[data-size]'),function(b){ b.addEventListener('click',function(){ var k=b.dataset.size; show[k]=!show[k]; change(); }); });
   function popFill(){ var h='<p class="fp-h">Side</p><div class="fp-seg" role="group" aria-label="Side">'+[[-1,'Causes'],[0,'Both'],[1,'Effects']].map(function(o){ return '<button type="button" data-side="'+o[0]+'" aria-pressed="'+(side===o[0])+'">'+o[1]+'</button>'; }).join('')+'</div>'
       +'<p class="fp-h">Kind of event</p><div class="fp-kinds"><button type="button" data-kind="" aria-pressed="'+(!kind)+'">All kinds</button>'
-      +KINDS.map(function(kd){ var c=G.kc[kd]||0; return '<button type="button" data-kind="'+kd+'" aria-pressed="'+(kind===kd)+'"'+(c?'':' disabled')+'>'+cap1(kd)+'<i>'+(c||'none')+'</i></button>'; }).join('')+'</div>'
+      +KINDS.map(function(kd){ var c=G.kc[kd]||0; return '<button type="button" data-kind="'+kd+'" aria-pressed="'+(kind===kd)+'"'+(c?'':' disabled')+'><span>'+kicon(kd)+cap1(kd)+'</span><i>'+(c||'none')+'</i></button>'; }).join('')+'</div>'
       +'<p class="fp-h">Lines</p><button type="button" class="fp-row" data-bb aria-pressed="'+bbOnly+'"><i class="gl" aria-hidden="true"></i><span><b>Backbone only</b><em>Follow only the lines an event could not have happened without.</em></span></button>'
       +'<div class="fp-foot"><button type="button" data-clear>Clear filters</button><button type="button" data-done>Done</button></div>';
     fpop.innerHTML=h; }
@@ -1317,8 +1339,8 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     var id=sel, sz=size(id), s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path), chip=N[id]&&N[id].chip;
     var where=id===centre?'the centre of the web':((s<0?'cause':'effect')+', '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'));
     var h='<button type="button" class="xbtn" id="dockX" aria-label="Close"><i><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></i></button>'
-      +'<div class="kind"><i class="mk '+sz+'" aria-hidden="true"></i><span>'+SZW[sz]+' · '+esc(when(id))+' · '+where+'</span></div><h3>'+esc(name(id))+'</h3><p class="dline">'+esc(line(id))+'</p>';
-    if(chip) h+='<p class="dnote">Outside your filters. It shows because the path runs through it.</p>';
+      +'<div class="kind"><i class="mk '+sz+'" aria-hidden="true"></i><span>'+SZW[sz]+' · '+esc(when(id))+' · '+where+'</span></div><h3>'+esc(name(id))+'</h3>'+((E[id].c||[]).length?'<p class="dkinds">'+(E[id].c||[]).map(function(k){ return '<span>'+kicon(k)+cap1(k)+'</span>'; }).join('')+'</p>':'')+'<p class="dline">'+esc(line(id))+'</p>';
+    if(chip) h+='<p class="dnote">Outside your filters. It stays, faded, because the path runs through it.</p>';
     if(path.length){ var w=weakest(path); h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl '+gcls(w)+'" aria-hidden="true"></i><span>'+esc(relLine(id,path))+'</span>'+CHEV+'</button>'; }
     else if(o.length){ h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl" aria-hidden="true"></i><span>'+o.length+(o.length===1?' line':' lines')+' in the link table.</span>'+CHEV+'</button>'; }
     if(id===HOME&&id===centre) h+='<p class="youare">You are reading this event.</p>';

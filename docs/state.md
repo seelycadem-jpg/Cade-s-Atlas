@@ -237,6 +237,13 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       way. Moves made with a button (the ruler's arrows, Recentre, a column's arrow) glide
       with weight: quick to start, slow to settle, longer for a longer move. The feel on a
       phone is not yet judged by Cade.
+    - Kinds (Cade, same day; in the mock file but NOT yet published to the artifact, which
+      waits for his view of the icons). Every card carries a small line icon for each of
+      its kinds, two at most, grey by default; the kind being filtered for shows dark. An
+      event the filters leave out but the path runs through stays a full card and fades
+      back; the small grey names are withdrawn. The card's top line shows the year only;
+      the full date is in the pop-up, which also lists the kinds in words. The eight icons
+      are a first set drawn in this chat and stand in for a designed one.
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width
