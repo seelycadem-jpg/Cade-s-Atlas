@@ -192,6 +192,23 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     (open: source Germany's population loss with its basis and range). event-pages.md says the text must say everything a graphic shows; the
     Overview text does not yet name the new states.
 
+15b. **Historical Chain, rebuilt on Cade's brief** (after the first handoff; awaiting his
+    read). event-pages.md, ui-rules.md:
+    - The controls ride under the tabs while the web is on screen, as the chapter spine
+      does on a story page: steps (1 to 5), knots, fibres and strands, and a Filter
+      pop-up holding side (causes, both, effects), kind of event, and Backbone only.
+    - **Filters now remove and reorganise; they no longer dim.** This reverses ui-rules.md
+      rule 9 ("Filters dim, never remove") for the chain. Events that fit grow out of the
+      event they join; events that do not fit shrink back into it, and the web re-forms.
+    - An event that does not fit but lies on the path to one that does stays as a small
+      grey name, so every line drawn is still a row in the link table.
+    - A column of more than four events turns like a drum: the row in hand is full size
+      and the rest curve away above and below; drag the column or use its two arrows.
+    - Lines leave from a port and arrive at a barbed head; a fan of lines spreads along
+      the card's edge. A bead runs the lit path once when an event is tapped.
+    - A Recentre control returns the view to the centre event.
+    - The mock opens with knots and fibres on and strands off.
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock
@@ -220,7 +237,7 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 - This environment's network now allows commons.wikimedia.org and upload.wikimedia.org.
 - The Versailles exits are standard addresses, not yet verified.
 
-Next in this chat: rework the look of the Historical Chain section.
+Next in this chat: Cade's read of the rebuilt Historical Chain.
 
 ## Added to the roadmap (Cade, 2026-11-11)
 
