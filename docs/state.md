@@ -94,6 +94,7 @@ no invented specifics, title case for titles.
 | Structure map: four levels, three sizes (2026-11-11) | https://claude.ai/artifact/52xBGzcx6DQn8kaoyhG5f5 | `docs/design/structure-map.html` |
 | Spine test, twenty chapters | https://claude.ai/artifact/GS6K2eL7M9fe2QA6VxQWpi | `docs/design/mocks/spine-test.html` |
 | Event: The Paris Peace Settlement | https://claude.ai/artifact/MdJzwkT1viFnjFEdqqcaaP | `docs/design/mocks/event-v11.html` |
+| Event with the chain web: The Treaty of Versailles (first demo, 2026-11-11) | https://claude.ai/artifact/Kx3QuaNRt7JLYdqsj1pimc | `docs/design/mocks/event-v12.html` |
 
 The artifacts are private to Cade's account. The repo files are the source of truth.
 
@@ -116,6 +117,42 @@ The artifacts are private to Cade's account. The repo files are the source of tr
 4. Phase 1 steps left: front door (1.5), filters (1.6, with the backbone filter), the two
    globes (1.7), building the shared components (1.8 to 1.12), the people test (1.13).
 
+## The chain sub chat (2026-11-11)
+
+One topic: how an event page shows the chain of cause and effect around its event.
+
+Cade's direction:
+- The story, chapter and spine work stands. This chat is about the chain on an event page.
+- Keep a horizontal web, as Prototype 1 had. The reader filters it by size (knot, fibre,
+  strand) and by how many steps out it reaches, 1 to 5.
+- A trial page order for every event: one paragraph of bottom line, Overview, a graphic if
+  there is one, the chain, then the detail that opens, under a better name.
+
+Built: `docs/design/mocks/event-v12.html`, the first demo, awaiting Cade's read on a phone.
+- Causes on the left, effects on the right, one column per step, three columns to a phone
+  screen; the web slides sideways and a small map under it shows the whole.
+- A tap on an event lights its strongest path to the centre and docks its card: Open the
+  page, Centre the web here, and How it connects, with the weakest line named.
+- A tap on a line opens its note: claim, strongest objection, verdict.
+- The fixed headings "What caused it" and "What it caused" label the two sides of the web.
+- Nothing here is decided until Cade has read it.
+
+Questions for the master chat (none settled here; no standards doc was changed):
+1. The page order. The mock follows Cade's trial order, which differs from the order agreed
+   2026-11-08 in event-pages.md. Historical significance, Lasting impact, What caused it,
+   What it caused, and Before and after have no section of their own in it.
+2. The name of the opening detail. The mock uses "The Record", with one drawer per
+   question and its answer in a line when shut. ui-rules.md rule 19 says no gate.
+3. The preview card. ui-rules.md rule 3 gives every name the same floating preview. In the
+   web, the card docks under the map without a scrim, so the web stays in use.
+4. The backbone filter. The mock carries a "Backbone only" chip; its design is set for
+   roadmap step 1.6.
+5. Coincident links are left off the web and listed under "Other lines" for the event.
+6. The web draws a line only between neighbouring steps. A link that skips a step, or runs
+   between two events of one step, is listed under "Other lines" and is never drawn.
+7. The mock's sizes are placeholders: old tier 1 as knot, tier 2 as fibre, four events set
+   as strands to show the filter.
+
 ## Desktop (Cade, 2026-11-08)
 
 Phone first, desktop second, and the desktop is designed, never the phone layout stretched
@@ -136,6 +173,8 @@ Phone first, desktop second, and the desktop is designed, never the phone layout
 - The event page's Wikipedia and Britannica links come from the earlier mock and are not
   re-verified in this session.
 
+- The Versailles mock's Wikipedia and Britannica links are standard addresses, not yet
+  verified.
 - The Ruhr chapter's Wikipedia and Britannica links are standard addresses, not yet
   verified (the build session could not reach either site).
 - Links between events inside a chapter are not graded yet (Phase 8), so the chapter

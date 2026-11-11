@@ -1,0 +1,521 @@
+<title>Versailles Chain Web</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;0,6..72,600;1,6..72,400&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column; the chain web breaks out to the full width of the phone and slides sideways,
+   time running left to right, three steps to a screen. Colours and type are docs/design/palette.md. */
+:root{
+  --bg:#F6F2EC; --surface:#FCFAF6; --surface2:#EFE9E1; --ink:#1C1916; --ink2:#4D4843; --ink3:#7B746D; --title:#3B2217; --lede:#5A3220; --rule:#DCD2C7;
+  --accent:#C81A12; --on-accent:#FFFFFF; --gilt:#B08A3E;
+  --scrim:rgba(26,31,43,.42); --shadow:0 10px 32px rgba(26,31,43,.14); --shadow2:0 2px 10px rgba(26,31,43,.08);
+  --display:"EB Garamond","Newsreader",Georgia,"Times New Roman",serif; --label:"EB Garamond",Georgia,serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,-apple-system,sans-serif;
+  --knotmark:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path d='M10 1.5 L18.5 10 L10 18.5 L1.5 10 Z'/></svg>");
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --lede:#E8C9A8; --rule:#3E2E26;
+  --accent:#FF6B5C; --on-accent:#1C130F; --gilt:#C9A45C;
+  --scrim:rgba(0,0,0,.55); --shadow:0 10px 32px rgba(0,0,0,.5); --shadow2:0 2px 10px rgba(0,0,0,.35); color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --lede:#E8C9A8; --rule:#3E2E26;
+  --accent:#FF6B5C; --on-accent:#1C130F; --gilt:#C9A45C;
+  --scrim:rgba(0,0,0,.55); --shadow:0 10px 32px rgba(0,0,0,.5); --shadow2:0 2px 10px rgba(0,0,0,.35); color-scheme:dark }
+
+*{box-sizing:border-box}
+body{margin:0;background:var(--bg);color:var(--ink);font:17px/1.6 var(--body);
+  padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px));
+  padding-block:0 calc(120px + env(safe-area-inset-bottom,0px));-webkit-font-smoothing:antialiased}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;cursor:pointer;text-align:left}
+a{color:inherit}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+@media (prefers-reduced-motion: reduce){*{transition:none!important;animation:none!important;scroll-behavior:auto!important}}
+.wrap{max-width:40rem;margin:0 auto}
+p{margin:0 0 14px;text-wrap:pretty}
+
+/* marks: diamond (knot), filled dot (fibre), open ring (strand) */
+.mk{display:inline-block;flex:none;vertical-align:-1px}
+.mk.k{width:13px;height:13px;background:var(--accent);-webkit-mask:var(--knotmark) center/contain no-repeat;mask:var(--knotmark) center/contain no-repeat;vertical-align:-2px}
+.mk.fi{width:9px;height:9px;border-radius:50%;background:var(--accent)}
+.mk.st{width:9px;height:9px;border-radius:50%;border:1.5px solid var(--ink3);background:transparent}
+
+/* top of the page */
+.top{padding:14px 0 0}
+.back{display:inline-flex;align-items:center;gap:4px;min-height:44px;padding:0 14px 0 8px;border:1px solid var(--rule);border-radius:999px;background:var(--surface);font:13px/1 var(--ui);box-shadow:var(--shadow2)}
+.path{display:flex;gap:4px 8px;flex-wrap:wrap;align-items:flex-start;font:500 14px/1.4 var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--ink2);margin:18px 0 10px}
+.path .crumb{display:inline-flex;flex-direction:column;gap:1px}
+.path .lvl{font:400 12px/1.3 var(--ui);letter-spacing:.01em;text-transform:none;color:var(--ink3)}
+.path .psep{color:var(--ink3)}
+.lk{text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--accent);color:var(--ink);text-transform:inherit;letter-spacing:inherit}
+.lk:hover,.lk:focus-visible{color:var(--accent)}
+.alsoin{font:500 12.5px/1 var(--ui);letter-spacing:0;text-transform:none;color:var(--ink2);border:1px solid var(--rule);border-radius:999px;padding:8px 10px;background:var(--surface)}
+h1{font:500 clamp(38px,9.6vw,52px)/1.02 var(--display);margin:0;letter-spacing:-.008em;text-wrap:balance;color:var(--title)}
+.sub{font:16px/1.4 var(--display);color:var(--ink2);margin:8px 0 0;display:flex;gap:8px;flex-wrap:wrap;align-items:center;font-variant-numeric:tabular-nums}
+.sub b{color:var(--accent);font-weight:600}
+.bluf{font:400 23px/1.4 var(--display);color:var(--lede);margin:18px 0 6px;text-wrap:pretty}
+
+/* section tabs */
+.tabs{position:sticky;top:env(safe-area-inset-top,0px);z-index:7;display:flex;gap:4px;margin:8px -16px 0;padding:6px 16px 8px;background:var(--bg)}
+.tabs::after{content:"";position:absolute;left:0;right:0;top:100%;height:18px;background:linear-gradient(var(--bg),transparent);pointer-events:none}
+.tabs a{position:relative;text-decoration:none;color:var(--ink2);padding:9px 12px 12px;font:500 16px/1 var(--display);min-height:44px;display:inline-flex;align-items:center}
+.tabs a::after{content:"";position:absolute;left:12px;right:12px;bottom:6px;height:1px;background:var(--gilt);opacity:.45}
+.tabs a:hover{color:var(--title)}
+
+.layer{scroll-margin-top:calc(70px + env(safe-area-inset-top,0px))}
+h2{font:500 30px/1.12 var(--display);margin:34px 0 12px;letter-spacing:-.004em;color:var(--title);text-wrap:balance}
+h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;background:linear-gradient(90deg,var(--gilt) 0%,var(--gilt) 30%,color-mix(in srgb,var(--gilt) 0%,transparent) 100%);-webkit-mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 10' preserveAspectRatio='none'><path d='M5 1.2 C2.2 1.2 0.6 3 0.6 5.1 C0.6 7.3 2.4 8.9 5.2 8.8 C40 8.3 80 7 120 6 C150 5.4 178 5.1 200 5 C178 4.6 150 4.1 120 3.6 C80 2.8 40 1.6 5 1.2 Z'/></svg>") 0 0/100% 100% no-repeat;mask:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 200 10' preserveAspectRatio='none'><path d='M5 1.2 C2.2 1.2 0.6 3 0.6 5.1 C0.6 7.3 2.4 8.9 5.2 8.8 C40 8.3 80 7 120 6 C150 5.4 178 5.1 200 5 C178 4.6 150 4.1 120 3.6 C80 2.8 40 1.6 5 1.2 Z'/></svg>") 0 0/100% 100% no-repeat}
+.take{font:500 18px/1.5 var(--display);color:var(--ink);margin:0 0 12px;max-width:60ch}
+
+/* the graphic: two bars on one scale */
+.fig{margin:6px 0 4px;padding:14px 14px 12px;border:1px solid var(--rule);border-radius:12px;background:var(--surface)}
+.fig .ft{font:500 12px/1.4 var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);margin:0 0 10px}
+.fig .row{display:grid;grid-template-columns:5.6rem 1fr;gap:10px;align-items:center;margin:0 0 8px;font:13px/1.3 var(--ui);color:var(--ink2)}
+.fig .bar{position:relative;height:22px}
+.fig .bar i{position:absolute;left:0;top:0;bottom:0;border-radius:3px}
+.fig .bar.set i{width:100%;border:1.5px solid var(--ink3);background:var(--surface2)}
+.fig .bar.paid i{width:15.2%;background:var(--ink2)}
+.fig .bar span{position:absolute;top:50%;transform:translateY(-50%);font:600 13px/1 var(--ui);color:var(--ink);font-variant-numeric:tabular-nums;white-space:nowrap}
+.fig .bar.set span{right:8px}
+.fig .bar.paid span{left:calc(15.2% + 8px)}
+.fig .fk{font:12.5px/1.45 var(--ui);color:var(--ink3);margin:4px 0 0}
+
+/* ============ the chain web ============ */
+.ctl{display:grid;gap:8px;margin:0 0 10px}
+.ctl .r{display:flex;align-items:center;gap:8px;flex-wrap:wrap}
+.ctl .cl{font:500 12px/1 var(--label);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3);min-width:4.4rem}
+.stepper{display:inline-flex;border:1px solid var(--rule);border-radius:999px;background:var(--surface);overflow:hidden}
+.stepper button{min-width:44px;min-height:44px;display:inline-flex;align-items:center;justify-content:center;font:600 15px/1 var(--ui);color:var(--ink2);font-variant-numeric:tabular-nums}
+.stepper button[aria-pressed="true"]{background:var(--ink);color:var(--bg)}
+.chip{display:inline-flex;align-items:center;gap:7px;min-height:44px;padding:0 13px;border:1px solid var(--rule);border-radius:999px;background:var(--surface);font:500 13.5px/1 var(--ui);color:var(--ink)}
+.chip[aria-pressed="false"]{background:transparent;color:var(--ink3);border-style:dashed}
+.chip[aria-pressed="false"] .mk,.chip[aria-pressed="false"] .gl{opacity:.4}
+.chip.bb[aria-pressed="true"]{border-color:var(--accent)}
+
+/* line glyphs, the same styles as the lines on the web */
+.gl{display:inline-block;flex:none;width:24px;height:0;border-top:3px solid var(--accent);vertical-align:middle}
+.gl.contrib{border-top-style:dashed;border-top-width:2px}
+.gl.contest{border-top-style:dotted;border-top-width:2px}
+.gl.coinc{border-top-color:var(--ink3);border-top-width:2px;position:relative}
+.gl.coinc::after{content:"";position:absolute;left:7px;top:-7px;height:12px;border-left:2px solid var(--ink3);transform:rotate(30deg)}
+
+.web{margin:0 -16px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:var(--surface)}
+.sides{display:flex;justify-content:space-between;gap:8px;padding:0 6px}
+.sides button{min-height:44px;padding:0 10px;font:500 16px/1.1 var(--display);color:var(--title);display:inline-flex;align-items:center;gap:6px}
+.sides button b{font:600 12px/1 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums}
+.sides button .ar{font:400 20px/1 var(--ui);color:var(--accent)}
+.sides button:disabled{cursor:default}
+.sides button:disabled .ar{opacity:.25}
+.wscroll{overflow-x:auto;overflow-y:hidden;scroll-snap-type:x mandatory;scrollbar-width:none;-webkit-overflow-scrolling:touch;overscroll-behavior-x:contain}
+.wscroll::-webkit-scrollbar{display:none}
+.wcanvas{position:relative}
+.wcanvas svg{position:absolute;left:0;top:0;overflow:visible}
+.colh{position:absolute;top:0;height:26px;display:flex;align-items:center;justify-content:center;scroll-snap-align:center;font:500 11px/1 var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--ink3);white-space:nowrap}
+.colh.c0{color:var(--accent)}
+.colg{position:absolute;top:26px;bottom:0;width:0;border-left:1px dotted var(--rule)}
+.none{position:absolute;display:flex;align-items:center;justify-content:center;text-align:center;font:12.5px/1.4 var(--ui);color:var(--ink3);padding:0 10px}
+
+.nd{position:absolute;transform:translateY(-50%);display:flex;flex-direction:column;gap:2px;padding:6px 6px 7px;border-radius:9px;border:1px solid transparent;min-height:44px;justify-content:center;transition:opacity .2s,border-color .2s,background-color .2s,box-shadow .2s;z-index:1;hyphens:auto;overflow-wrap:break-word}
+.nd .nm{display:flex;align-items:center;gap:5px;font:600 11.5px/1 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums}
+.nd .nt{font:500 14px/1.18 var(--display);color:var(--title)}
+.nd.sz-k{background:var(--bg);border-color:var(--ink3);box-shadow:var(--shadow2)}
+.nd.sz-k .nt{font-size:15px}
+.nd.sz-fi{background:var(--surface);border-color:var(--rule)}
+.nd.sz-st{background:var(--surface)}
+.nd.sz-st .nt{font-weight:400;color:var(--ink2)}
+.nd.sz-st .nm{color:var(--ink3)}
+.nd.here{background:var(--bg);border:2px solid var(--accent);box-shadow:var(--shadow2);padding:8px 7px 9px}
+.nd.here .nt{font-size:16.5px;line-height:1.12}
+.nd.here .mk.k{width:15px;height:15px}
+.nd.sel{border-color:var(--accent);box-shadow:0 0 0 2px var(--accent)}
+.nd.dim{opacity:.26}
+.nd.off{opacity:.16}
+.ed{fill:none;stroke:var(--accent);transition:opacity .2s}
+.ed.contrib{stroke-dasharray:6 5}
+.ed.contest{stroke-dasharray:1.5 5;stroke-linecap:round}
+.eh{fill:var(--accent);transition:opacity .2s}
+.eg.dim .ed,.eg.dim .eh{opacity:.2}
+.eg.off .ed,.eg.off .eh{opacity:.1}
+.hit{fill:none;stroke:transparent;stroke-width:22;pointer-events:stroke;cursor:pointer}
+
+.mini{position:relative;display:flex;align-items:stretch;padding:4px 12px 6px;border-top:1px solid var(--rule)}
+.mini button{flex:1;min-height:44px;display:flex;flex-direction:column;align-items:center;justify-content:center;gap:3px;position:relative;z-index:1}
+.mini button .mk{transform:scale(.62);margin:-2px 0}
+.mini .win{position:absolute;top:5px;bottom:7px;border:1.5px solid var(--ink3);border-radius:8px;background:var(--surface2);transition:left .12s linear,width .2s}
+.mini .ml{position:absolute;left:12px;right:12px;bottom:-1px;text-align:center}
+.trail{font:13px/1.5 var(--ui);color:var(--ink2);padding:8px 16px;border-top:1px solid var(--rule);display:flex;gap:6px 10px;flex-wrap:wrap;align-items:center}
+.trail button{min-height:44px;padding:0 12px;border:1px solid var(--rule);border-radius:999px;background:var(--bg);font:500 13px/1 var(--ui)}
+.legend{display:grid;gap:5px;margin:12px 0 0;font:13px/1.45 var(--ui);color:var(--ink2)}
+.legend div{display:flex;gap:8px;align-items:baseline}
+.legend .g{flex:none;width:26px;display:inline-flex;justify-content:center;align-items:center;transform:translateY(-3px)}
+.legend b{font-weight:600;color:var(--ink)}
+.hintline{font:13px/1.5 var(--ui);color:var(--ink3);margin:10px 0 0}
+
+/* the docked card for a selected event */
+.dock{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(84px + env(safe-area-inset-bottom,0px));width:min(94vw,26rem);z-index:16;background:var(--bg);border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow);padding:12px 14px 12px}
+.dock .kind,.sheet .kind{font:12px/1.3 var(--ui);color:var(--ink2);display:flex;align-items:center;gap:6px;padding-right:44px}
+.dock h3,.sheet h3{font:500 21px/1.2 var(--display);margin:4px 0 4px;text-wrap:balance;color:var(--title)}
+.dock p{font:14.5px/1.45 var(--body);margin:0 0 8px;color:var(--ink);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.dock .x{position:absolute;right:4px;top:2px;width:44px;height:44px;display:grid;place-items:center;color:var(--ink2);font:400 22px/1 var(--ui)}
+.pathbtn{display:flex;align-items:center;gap:10px;width:100%;min-height:44px;padding:8px 10px;margin:0 0 10px;border:1px solid var(--rule);border-radius:10px;background:var(--surface);font:13px/1.35 var(--ui);color:var(--ink2)}
+.pathbtn b{font-weight:600;color:var(--ink)}
+.pathbtn::after{content:"›";margin-left:auto;font:400 20px/1 var(--ui);color:var(--accent)}
+.acts{display:flex;gap:8px;flex-wrap:wrap}
+.pri{background:var(--accent);color:var(--on-accent);border-radius:999px;padding:0 16px;min-height:44px;font:600 14px/1 var(--ui);display:inline-flex;align-items:center}
+.sec{border:1px solid var(--rule);border-radius:999px;padding:0 14px;min-height:44px;font:500 14px/1 var(--ui);display:inline-flex;align-items:center;color:var(--ink);background:var(--surface)}
+.close{color:var(--ink2);padding:0 10px;min-height:44px;font:14px/1 var(--ui)}
+
+/* sheets */
+.scrim{position:fixed;inset:0;background:var(--scrim);z-index:20}
+.sheet{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(84px + env(safe-area-inset-bottom,0px));width:min(94vw,26rem);z-index:21;background:var(--surface);border:1px solid var(--rule);border-radius:16px;box-shadow:var(--shadow);padding:14px 16px;max-height:calc(100% - 120px);overflow:auto}
+.sheet .date{font:13px/1.3 var(--ui);color:var(--ink2);margin:0 0 8px;font-variant-numeric:tabular-nums}
+.sheet p{font-size:15.5px;line-height:1.5;margin:0 0 10px}
+.sheet h4{font:600 12px/1.3 var(--ui);color:var(--ink3);letter-spacing:.04em;text-transform:uppercase;margin:12px 0 4px}
+.plain{font:500 17px/1.4 var(--display);color:var(--title);margin:2px 0 6px}
+.lrow{display:grid;grid-template-columns:28px 1fr auto;gap:10px;align-items:center;width:100%;min-height:52px;padding:8px 2px;border-top:1px solid var(--rule)}
+.lrow .lt{font:500 16px/1.25 var(--display);color:var(--title)}
+.lrow .lg{display:block;font:12.5px/1.4 var(--ui);color:var(--ink2);margin-top:2px}
+.lrow::after{content:"›";font:400 20px/1 var(--ui);color:var(--accent)}
+.weak{font:13.5px/1.45 var(--ui);color:var(--ink2);margin:10px 0 2px;padding:8px 10px;border-radius:8px;background:var(--surface2)}
+.weak b{color:var(--ink);font-weight:600}
+.toast{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:22;background:var(--ink);color:var(--bg);font:14px/1.3 var(--ui);padding:10px 14px;border-radius:999px;max-width:90vw;text-align:center}
+
+/* the record: one drawer per question, its answer in a line when shut */
+.rec{border-top:1px solid var(--rule)}
+.rec details{border-bottom:1px solid var(--rule)}
+.rec summary{list-style:none;display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;padding:12px 0;cursor:pointer;min-height:56px}
+.rec summary::-webkit-details-marker{display:none}
+.rec summary .h{font:500 21px/1.2 var(--display);color:var(--title)}
+.rec summary .s{grid-column:1;font:14px/1.4 var(--ui);color:var(--ink2)}
+.rec summary::after{content:"+";grid-column:2;grid-row:1 / span 2;font:400 24px/1 var(--ui);color:var(--accent);width:28px;text-align:center}
+.rec details[open] summary::after{content:"–"}
+.rec .b{padding:0 0 8px}
+.rec ul{margin:0 0 14px;padding:0 0 0 1.1em;display:grid;gap:8px}
+.rec li::marker{color:var(--accent)}
+.rec li b{font-weight:600}
+.tablewrap{overflow-x:auto;margin:0 0 10px}
+.terms{width:100%;border-collapse:collapse;font:15px/1.45 var(--body)}
+.terms th{text-align:left;color:var(--ink3);font:500 12px/1.3 var(--ui);padding:0 8px 6px 0;border-bottom:1px solid var(--rule)}
+.terms td{vertical-align:top;padding:9px 8px 9px 0;border-bottom:1px solid var(--rule)}
+.terms td.num{font-variant-numeric:tabular-nums;font-family:var(--ui);font-size:14px}
+.exits{display:flex;gap:14px;flex-wrap:wrap;margin:18px 0 0;font:14px/1.4 var(--ui)}
+.exits a{color:var(--ink2);min-height:44px;display:inline-flex;align-items:center}
+.about{margin:34px 0 0;padding:14px;border:1px dashed var(--ink3);border-radius:12px;font:13.5px/1.5 var(--ui);color:var(--ink2)}
+.about b{color:var(--ink)}
+.about ul{margin:6px 0 0;padding-left:1.1em;display:grid;gap:4px}
+
+.pill{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(16px + env(safe-area-inset-bottom,0px));z-index:15;display:flex;align-items:center;gap:4px;background:var(--surface);border:1px solid var(--rule);border-radius:999px;padding:5px;box-shadow:var(--shadow)}
+.pill button{display:flex;align-items:center;justify-content:center;gap:8px;min-height:48px;min-width:48px;border-radius:999px;padding:0 10px;color:var(--ink)}
+.pill .g{background:var(--accent);color:var(--on-accent);padding:0 16px;font:600 14px/1 var(--ui)}
+.pill .y{font:600 17px/1 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums;padding:0 14px}
+.pill svg{width:22px;height:22px}
+</style>
+
+<div class="wrap">
+  <header class="top">
+    <button class="back" type="button" data-say="Back: the exact place and year you left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg><span>Back</span></button>
+    <nav class="path" aria-label="Where this sits">
+      <span class="crumb"><button class="lk" type="button" data-say="Would open the chronicle: Germany">Germany</button><span class="lvl">chronicle</span></span><span class="psep" aria-hidden="true">›</span>
+      <span class="crumb"><button class="lk" type="button" data-say="Would open the story: Weimar Germany">Weimar Germany</button><span class="lvl">story 8 of 12</span></span><span class="psep" aria-hidden="true">›</span>
+      <span class="crumb"><button class="lk" type="button" data-say="Would open the chapter: The Treaty">The Treaty</button><span class="lvl">chapter 1</span></span>
+      <button type="button" class="alsoin" data-say="Would list every chapter this event sits in">Also in 2 more ›</button>
+    </nav>
+    <h1>The Treaty of Versailles</h1>
+    <div class="sub"><i class="mk k" aria-hidden="true"></i><span>knot</span><span>·</span><span><b>28 June 1919</b></span><span>·</span><span>Versailles</span></div>
+    <p class="bluf">France, Britain and the United States wrote the treaty to end the war with Germany and to keep Germany from attacking again. Germany signed on 28 June 1919, lost 13 percent of its European territory and every colony, and kept an army of 100,000. The treaty left Germany the largest industrial economy in central Europe and gave no power the job of enforcing the terms.</p>
+  </header>
+
+  <nav class="tabs" aria-label="On this page"><a href="#overview">Overview</a><a href="#chain">The Chain</a><a href="#record">The Record</a></nav>
+
+  <main>
+  <section class="layer" id="overview">
+    <h2>Overview</h2>
+    <p>The treaty ended the war between Germany and the Allies. Germany survived as a republic. It lost 13 percent of its European territory, all its colonies and most of its army. France and Poland gained the land. The Allies set reparations at 132 billion gold marks in 1921, and Germany paid about 20 billion.</p>
+    <div class="fig" role="img" aria-label="Reparations in gold marks: 132 billion set in 1921, about 20 billion paid.">
+      <p class="ft">Reparations, in gold marks</p>
+      <div class="row"><span>Set in 1921</span><div class="bar set"><i></i><span>132 billion</span></div></div>
+      <div class="row"><span>Paid</span><div class="bar paid"><i></i><span>about 20 billion</span></div></div>
+      <p class="fk">Both bars are drawn on one scale.</p>
+    </div>
+    <p style="margin-top:14px">Germany had no seat at the conference that wrote the terms. Its delegation received them on 7 May 1919 and signed on 28 June under threat of invasion. Every enemy of the new republic held the signature against it.</p>
+    <p>The treaty had no means of enforcement. The US Senate rejected it, and the League of Nations had no army. By the 1930s Britain and France would not enforce the terms alone.</p>
+  </section>
+
+  <section class="layer" id="chain">
+    <h2>Follow Historical Chain</h2>
+    <p class="take">Causes run in from the left and effects run out to the right. Tap an event to light its path to the treaty. Tap a line for the atlas's note on it.</p>
+
+    <div class="ctl">
+      <div class="r"><span class="cl" id="lblSteps">Steps out</span>
+        <div class="stepper" role="group" aria-labelledby="lblSteps" id="stepper"></div></div>
+      <div class="r" role="group" aria-labelledby="lblShow"><span class="cl" id="lblShow">Show</span>
+        <button type="button" class="chip" data-size="k" aria-pressed="true"><i class="mk k"></i>Knots</button>
+        <button type="button" class="chip" data-size="fi" aria-pressed="true"><i class="mk fi"></i>Fibres</button>
+        <button type="button" class="chip" data-size="st" aria-pressed="true"><i class="mk st"></i>Strands</button>
+        <button type="button" class="chip bb" id="bbBtn" aria-pressed="false"><i class="gl"></i>Backbone only</button>
+      </div>
+    </div>
+
+    <div class="web" id="web">
+      <div class="sides">
+        <button type="button" id="goL" aria-label="Slide toward the causes"><span class="ar" aria-hidden="true">‹</span>What caused it <b id="nL"></b></button>
+        <button type="button" id="goR" aria-label="Slide toward the effects">What it caused <b id="nR"></b><span class="ar" aria-hidden="true">›</span></button>
+      </div>
+      <div class="wscroll" id="wscroll" tabindex="0" aria-label="The chain web. It slides sideways."><div class="wcanvas" id="wcanvas"></div></div>
+      <div class="mini" id="mini" aria-label="The whole web. Tap a step to slide there."></div>
+      <div class="trail" id="trail" hidden></div>
+    </div>
+
+    <div class="legend" aria-label="Key">
+      <div><span class="g"><i class="mk k"></i></span><span><b>Knot:</b> an event that changed the course of its world.</span></div>
+      <div><span class="g"><i class="mk fi"></i></span><span><b>Fibre:</b> an event that changed the course of one people or region.</span></div>
+      <div><span class="g"><i class="mk st"></i></span><span><b>Strand:</b> an event that changed the course of a city, an institution or a movement.</span></div>
+      <div><span class="g"><i class="gl"></i></span><span><b>Necessary or Sufficient:</b> the backbone. Without the first event, the second does not happen.</span></div>
+      <div><span class="g"><i class="gl contrib"></i></span><span><b>Contributing:</b> one cause among several.</span></div>
+      <div><span class="g"><i class="gl contest"></i></span><span><b>Contested:</b> two readings, and the atlas withholds a verdict.</span></div>
+    </div>
+  </section>
+
+  <section class="layer" id="record">
+    <h2>The Record</h2>
+    <div class="rec">
+      <details>
+        <summary><span class="h">The account</span><span class="s">Paris, 18 January to 28 June 1919.</span></summary>
+        <div class="b"><p>The conference opened in Paris on 18 January 1919. The victors met without Germany or Soviet Russia. French Prime Minister Georges Clemenceau wanted Germany too weak to attack again. British Prime Minister David Lloyd George wanted a Germany that could still trade. US President Woodrow Wilson wanted a League of Nations. Clemenceau gave up his claim to the Rhine for an Anglo-American guarantee.</p><p>The German delegation received the terms on 7 May and signed at Versailles on 28 June.</p></div>
+      </details>
+      <details>
+        <summary><span class="h">What it did, and to whom</span><span class="s">France and Poland gained land; Germany paid in land, arms and money.</span></summary>
+        <div class="b"><ul>
+          <li><b>Land.</b> Germany lost 13 percent of its European territory and every colony. France got Alsace-Lorraine back, and Poland got a corridor to the sea.</li>
+          <li><b>Arms.</b> The treaty capped the German army at 100,000 and disarmed the Rhineland.</li>
+          <li><b>Money.</b> The Allies set reparations at 132 billion gold marks in 1921. Germany paid about 20 billion.</li>
+          <li><b>Shandong.</b> Germany's rights in Shandong went to Japan, over China's protest.</li>
+        </ul></div>
+      </details>
+      <details>
+        <summary><span class="h">Why it held or failed</span><span class="s">The terms held only while Britain and France enforced them.</span></summary>
+        <div class="b"><p>The treaty left Germany intact and surrounded by weak new states where Austria-Hungary and Russia had stood. The terms held only while Britain and France enforced them. By the 1930s British opinion considered German grievances fair.</p><p>One reading holds the terms were harsh enough to enrage and too weak to restrain. The other holds the terms were enforceable and the failure was the enforcers'.</p></div>
+      </details>
+      <details>
+        <summary><span class="h">By the numbers</span><span class="s">Three figures and where each comes from.</span></summary>
+        <div class="b"><div class="tablewrap"><table class="terms">
+          <thead><tr><th>Figure</th><th>Value</th><th>Basis</th></tr></thead>
+          <tbody>
+            <tr><td>German territory lost in Europe</td><td class="num">13%</td><td>Treaty terms</td></tr>
+            <tr><td>German army cap</td><td class="num">100,000</td><td>Versailles, part V</td></tr>
+            <tr><td>Reparations</td><td class="num">132 bn set<br>about 20 bn paid</td><td>London Schedule of Payments, 1921</td></tr>
+          </tbody></table></div></div>
+      </details>
+      <details>
+        <summary><span class="h">The common misreading</span><span class="s">That reparations ruined Germany.</span></summary>
+        <div class="b"><p>Germany paid about 20 billion gold marks of the 132 billion set. The hyperinflation of 1923 came from the French occupation of the Ruhr and the German government's own printing of money.</p></div>
+      </details>
+      <details>
+        <summary><span class="h">Today</span><span class="s">Three borders the treaty drew still stand.</span></summary>
+        <div class="b"><p>The Rhineland is German, Alsace is French, and the Polish corridor is Poland's coast.</p></div>
+      </details>
+      <details>
+        <summary><span class="h">The detail</span><span class="s">A vote of 11 to 6 that the chair ruled lost.</span></summary>
+        <div class="b"><p>On 11 April 1919 Japan's proposal to write racial equality into the League Covenant won 11 of the 17 votes in commission. Wilson, in the chair, ruled that it needed unanimity, and the clause died.</p></div>
+      </details>
+    </div>
+    <div class="exits"><a href="https://en.wikipedia.org/wiki/Treaty_of_Versailles">Wikipedia</a><a href="https://www.britannica.com/event/Treaty-of-Versailles-1919">Britannica</a></div>
+  </section>
+
+  <aside class="about" aria-label="About this mock">
+    <b>About this mock (not part of the page).</b>
+    <ul>
+      <li>Every line on the web is a row in the atlas's link table: the 36 graded links of the German pilot. Nothing is drawn that the table does not hold.</li>
+      <li>The sizes are placeholders. The old data holds two tiers; four events are set as strands only to show the filter. Every event is rated afresh later.</li>
+      <li>The page text is mock text taken from the project's worked example. It has not been through the writing pipeline.</li>
+      <li>The globe, the docking title and the animated tabs of the last mock are unchanged and left out here.</li>
+      <li>The two exits are standard addresses and are not yet verified.</li>
+    </ul>
+  </aside>
+  </main>
+</div>
+
+<div id="dockHost"></div>
+<div id="sheetHost"></div>
+<div class="toast" id="toast" role="status" hidden></div>
+<nav class="pill" aria-label="Atlas">
+  <button type="button" class="g" data-say="Would open the Political globe at 1919"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>Globe</button>
+  <button type="button" class="y" data-say="Would open the year card for 1919">1919</button>
+  <button type="button" data-say="Would open search" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
+</nav>
+
+<script>
+/* Events and links, copied unchanged from atlas-data.js by build-chain-data.cjs. Do not edit by hand. */
+var DATA=/*DATA*/{"events":[{"id":"eu151712","y":1517,"h":"Luther's 95 Theses","tier":1,"c":["religion","ideas"],"l":"Wittenberg friar Martin Luther set out to stop the sale of indulgences and to put scripture above the Pope."},{"id":"eu161831","y":1618,"h":"Thirty Years' War begins","tier":1,"c":["war","religion"],"l":"Habsburg Emperor Ferdinand II set out to restore Catholic and imperial authority over the Protestant princes; the princes and then Denmark, Sweden and France fought to stop him."},{"id":"eu155520","y":1555,"h":"Peace of Augsburg","tier":2,"c":["religion","political"],"l":"Holy Roman Emperor Charles V had failed to crush the Lutheran princes, and his brother Ferdinand settled for a deal: each ruler would choose his territory's faith."},{"id":"eu164833","y":1648,"h":"Peace of Westphalia","tier":1,"c":["political","ideas"],"l":"Every power in the Thirty Years' War wanted out, and none could win."},{"id":"eu180662","y":1806,"h":"Holy Roman Empire ends","tier":2,"c":["political"],"l":"Emperor Napoleon wanted the German states bound to France rather than to Vienna; Austrian Emperor Francis II wanted to keep the imperial title from passing to a French client."},{"id":"na194568","y":1945,"h":"United Nations founded","tier":1,"c":["political"],"l":"The wartime Allies wanted a world body with the great powers inside it, built to avoid the League's failures."},{"id":"eu174050","y":1740,"h":"Frederick the Great seizes Silesia","tier":2,"c":["war","political"],"l":"Prussian King Frederick II saw a rich province to be had while Maria Theresa's right to inherit the Habsburg lands was in dispute, and took Silesia by surprise."},{"id":"eu187177","y":1871,"h":"German Empire proclaimed","tier":2,"c":["political"],"l":"Prussian Minister-President Otto von Bismarck wanted the German princes to offer the imperial crown to Prussian King Wilhelm I while the victory over France was fresh."},{"id":"eu181565b","y":1815,"h":"Congress of Vienna","tier":1,"c":["political"],"l":"Austrian Foreign Minister Klemens von Metternich, British Foreign Secretary Lord Castlereagh, Russian Tsar Alexander I and French Foreign Minister Talleyrand set out to redraw Europe so that no power could dominate it ag"},{"id":"eu184871","y":1848,"h":"Revolutions of 1848","tier":1,"c":["political","war"],"l":"Liberals, nationalists and workers across Europe rose in 1848 to win constitutions, national unity and relief from slump, after Paris overthrew King Louis-Philippe in February."},{"id":"d-zollverein","y":1834,"h":"Zollverein founded","tier":2,"c":["economic","political"],"l":"Prussian Finance Minister Friedrich von Motz set out to join Prussia's two blocks of territory under one tariff and to draw the small states between them into it, with Austria kept out."},{"id":"d-frankfurt","y":1848,"h":"Frankfurt Parliament","tier":2,"c":["political"],"l":"Delegates elected across the German states in the spring of 1848 met in Frankfurt to unite Germany as a liberal constitutional state by consent."},{"id":"af188425","y":1884,"h":"Berlin Conference","tier":1,"c":["political","economic"],"l":"German Chancellor Otto von Bismarck convened 14 states to set rules for claiming African territory so that the European race for colonies would end in treaties rather than a European war."},{"id":"eu191485","y":1914,"h":"WWI begins","tier":1,"c":["war"],"l":"Austria-Hungary set out to crush Serbia after Sarajevo with Germany's backing; Russia mobilised to save Serbia; Germany struck France through Belgium to win a two-front war fast; Britain entered to defend Belgium and kee"},{"id":"d-bismarck1890","y":1890,"h":"Bismarck dismissed","tier":2,"c":["political"],"l":"German Kaiser Wilhelm II, 31 and twenty months on the throne, wanted to govern in his own name and forced Chancellor Otto von Bismarck out."},{"id":"eu189481","y":1894,"h":"Franco-Russian Alliance","tier":2,"c":["political"],"l":"France wanted out of the isolation Bismarck had built around it; Russia wanted loans and a counterweight to Germany after Berlin let the Reinsurance Treaty lapse."},{"id":"eu189882","y":1898,"h":"Germany builds a navy","tier":2,"c":["political","war"],"l":"German Kaiser Wilhelm II and Admiral Alfred von Tirpitz set out to build a battle fleet strong enough to make Britain treat Germany as a world power."},{"id":"eu191988","y":1919,"h":"Treaty of Versailles","tier":1,"c":["political"],"l":"French Premier Georges Clemenceau wanted security against Germany, British Prime Minister David Lloyd George wanted its navy and colonies gone, and US President Woodrow Wilson wanted a League of Nations."},{"id":"as191949","y":1919,"h":"May Fourth Movement","tier":2,"c":["ideas","political"],"l":"Beijing students set out to stop their government accepting the Versailles decision that gave Germany's rights in Shandong to Japan."},{"id":"d-hyperinflation","y":1923,"h":"German hyperinflation","tier":2,"c":["economic"],"l":"The Weimar government printed money to pay its bills, meet reparations and support workers striking against the French occupation of the Ruhr."},{"id":"eu193391","y":1933,"h":"Hitler takes power","tier":1,"c":["political"],"l":"The conservatives around German President Paul von Hindenburg appointed Nazi leader Adolf Hitler chancellor to harness his mass following for their own authoritarian aims."},{"id":"w2-rhineland","y":1936,"h":"Germany remilitarizes the Rhineland","tier":2,"c":["war","political"],"l":"German Chancellor Adolf Hitler sent troops into the demilitarised Rhineland to break the Versailles treaty and secure Germany's western border before expanding east."},{"id":"na192964","y":1929,"h":"Stock market crash","tier":1,"c":["economic"],"l":"Investors had bid stocks up on borrowed money through the 1920s in the expectation that prices would keep rising."},{"id":"d-depression1930","y":1930,"h":"The Depression reaches Germany","tier":2,"c":["economic","political"],"l":"German Chancellor Heinrich Brüning set out to ride out the Depression by deflation, defending the currency and the reparations settlement while American credit drained away."},{"id":"as193153","y":1931,"h":"Japan seizes Manchuria","tier":2,"c":["war","political"],"l":"Officers of Japan's Kwantung Army set out to seize Manchuria's land and resources without waiting for Tokyo's approval."},{"id":"eu191786","y":1917,"h":"Russian Revolution","tier":1,"c":["political","ideas","war"],"l":"Petrograd's workers and soldiers brought down the tsar in March 1917; Bolshevik leader Vladimir Lenin then set out to take power from the Provisional Government that fought on."},{"id":"eu193994","y":1939,"h":"WWII begins","tier":1,"c":["war"],"l":"German Chancellor Adolf Hitler invaded Poland to win living space in the east and racial domination, after securing a deal with Soviet leader Joseph Stalin to divide eastern Europe."},{"id":"eu193893","y":1938,"h":"Munich Agreement","tier":2,"c":["political"],"l":"British Prime Minister Neville Chamberlain and French Premier Édouard Daladier set out to avoid a war over the Sudetenland that they were unready to fight."},{"id":"eu194196","y":1941,"h":"Germany invades USSR","tier":1,"c":["war"],"l":"German Chancellor Adolf Hitler invaded the Soviet Union to win living space in the east, destroy 'Jewish Bolshevism' and take Ukraine's grain and the Caucasus's oil."},{"id":"eu194999b","y":1949,"h":"Germany divided into two states","tier":2,"c":["political"],"l":"The Western Allies set up a West German state to anchor their zones in the Western system; the Soviet Union answered with an East German state in its zone."},{"id":"eu187076","y":1870,"h":"Franco-Prussian War","tier":1,"c":["war"],"l":"Prussian Minister-President Otto von Bismarck wanted a war that would bring the south German states into a Prussian-led Germany; French Emperor Napoleon III fought to keep Prussia from dominating the continent."},{"id":"eu1990110","y":1990,"h":"Germany reunified","tier":2,"c":["political"],"l":"West German Chancellor Helmut Kohl set out to absorb a collapsing East Germany into the Federal Republic before Moscow changed its mind, and to keep the whole inside NATO."},{"id":"d-zeitenwende","y":2022,"h":"Germany's Zeitenwende","tier":2,"c":["political"],"l":"German Chancellor Olaf Scholz answered Russia's invasion of Ukraine by ending the settlement under which reunified Germany had bought Russian gas, exported to China and left defence to the United States, and by rearming "}],"links":[{"id":"g01","f":"eu151712","t":"eu161831","type":"Enabling","grade":"Necessary","conf":"High","claim":"Luther's challenge split the Empire into confessional camps that no imperial institution could arbitrate, which removed the one thing that had kept princely quarrels from becoming a general war.","objection":"The war's immediate causes were Habsburg ambition in Bohemia and a succession fight; confessional lines were crossed on both sides, with Catholic France paying Protestant Sweden.","verdict":"Necessary, high confidence. Without the confessional split there is a Habsburg succession war in Bohemia, as in 1546 and 1552, and it stays regional; the thirty years and the foreign armies required the religious frame that made every prince's choice a matter for every other prince."},{"id":"g02","f":"eu151712","t":"eu155520","type":"Reactive","grade":"Sufficient","conf":"High","claim":"The Peace of Augsburg was a direct settlement of the split Luther caused: each prince chose his territory's religion because the Empire could no longer impose one.","objection":"Augsburg also answered the Schmalkaldic War and Charles V's failure to crush the Protestant princes by force in 1547-52; the military stalemate, not the theology, produced the formula.","verdict":"Sufficient, high confidence. The split produced the war and the war produced the formula; no other input is needed to explain the settlement's content, which is cuius regio, eius religio."},{"id":"g03","f":"eu155520","t":"eu161831","type":"Structural","grade":"Contributing","conf":"Moderate","claim":"Augsburg's silence on Calvinism and its unclear rule on church lands secularised after 1552 left two fault lines that the 1618 crisis ran along.","objection":"The settlement held for sixty-three years, longer than most; the war began in Bohemia over a Habsburg king's revocation of Protestant rights, which Augsburg did not cover at all.","verdict":"Contributing, moderate confidence. The set: Habsburg ambition under Ferdinand II (ranks first), the Bohemian estates' election of a Calvinist king (second), Augsburg's gaps (third), Spanish strategic interest in the Rhine corridor (fourth)."},{"id":"g04","f":"eu161831","t":"eu164833","type":"Reactive","grade":"Sufficient","conf":"High","claim":"Thirty years of war that killed perhaps a third of the German population produced a settlement because every party was exhausted and none could win.","objection":"The settlement's terms, especially sovereignty for the princes and the French and Swedish guarantees, reflected who was winning in 1648 as much as exhaustion; a decisive victory would have produced a different peace.","verdict":"Sufficient, high confidence. The war is enough to explain that a settlement came; the terms needed the particular stalemate of 1645-48."},{"id":"g05","f":"eu164833","t":"eu180662","type":"Structural","grade":"Contributing","conf":"Moderate","claim":"Westphalia fixed German fragmentation in law, giving some 300 territories rights of alliance and war, so that the Empire survived as a frame and ceased to be a state.","objection":"The Empire functioned for another 158 years, with courts, diets and a working constitution; it was Napoleon's armies and the Confederation of the Rhine that ended it, and he could have kept it as a client.","verdict":"Contributing, moderate confidence. The set: Napoleon's decision to reorganise the German states as French clients (ranks first), the Habsburgs' prior decision to found an Austrian Empire in 1804 (second), Westphalian fragmentation (third)."},{"id":"g06","f":"eu164833","t":"na194568","type":"Precedent","grade":"Contested","conf":"Low","claim":"The Westphalian settlement is cited as the origin of the sovereign-state system that the UN Charter codified in 1945, in Article 2's rule of non-intervention.","objection":"Osiander (2001) and Croxton (1999) show the 1648 treaties say almost nothing about sovereignty and much about imperial law; the 'Westphalian system' is a reading constructed by nineteenth-century jurists and twentieth-century political scientists.","verdict":"Contested, low confidence. The realist school treats 1648 as the hinge; the revisionists treat it as a label applied later. The link is kept because the Charter's drafters believed the myth, which is a cause of a different kind."},{"id":"g07","f":"eu174050","t":"eu187177","type":"Structural","grade":"Contributing","conf":"High","claim":"Frederick's seizure of Silesia made Prussia a great power and created the Austro-Prussian dualism that had to be resolved before Germany could be united under either.","objection":"A century and a quarter separate the two; Prussia nearly ceased to exist in 1806-07, and the dualism was resolved by the war of 1866, which Bismarck chose and could have lost.","verdict":"Contributing, high confidence. The set: Bismarck's wars of 1864-71 (ranks first), the Zollverein's economic facts (second), the dualism from 1740 (third), the failure of 1848 (fourth)."},{"id":"g08","f":"eu180662","t":"eu181565b","type":"Reactive","grade":"Sufficient","conf":"High","claim":"The Congress of Vienna had to fill the void Napoleon left in Germany, and did so with the German Confederation of 39 states under an Austrian presidency.","objection":"Vienna settled all of Europe, not only Germany; its German settlement was a by-product of the balance between Austria, Prussia and Russia.","verdict":"Sufficient, high confidence. The Empire's end made a new German frame unavoidable; the Confederation's exact form needed the Austro-Prussian-Russian balance of 1815."},{"id":"g09","f":"eu181565b","t":"eu184871","type":"Structural","grade":"Contributing","conf":"Moderate","claim":"The Confederation gave Germans a frame that could neither unify nor liberalise, which turned national and liberal demands into the same demand by 1848.","objection":"The revolutions of 1848 were continental and began in Paris; the harvest failures of 1845-47 and the French example rank with the Confederation's frustrations.","verdict":"Contributing, moderate confidence. The set: the Paris revolution of February 1848 (ranks first), the subsistence crisis of 1845-47 (second), the Confederation's frustration of liberals and nationalists (third)."},{"id":"g10","f":"d-zollverein","t":"eu187177","type":"Material","grade":"Contributing","conf":"High","claim":"The Zollverein made the German economy Prussian before the German state was, so that when unification came the question of who would lead it had been answered by trade.","objection":"The customs union had no army; Austria could have broken it by joining or by winning in 1866, and the political union needed three wars that Bismarck chose.","verdict":"Contributing, high confidence. The set: the wars of 1864-71 (ranks first), the Zollverein (second), the dualism (third). The Zollverein explains the leader rather than the fact of unification."},{"id":"g11","f":"d-frankfurt","t":"eu187177","type":"Precedent","grade":"Contributing","conf":"High","claim":"The Frankfurt Parliament's failure showed that unification would not come by assembly, and Bismarck's 'iron and blood' speech of 1862 is the explicit answer to 1849.","objection":"Bismarck's unification used much of Frankfurt's work: the 1871 constitution borrowed the 1849 franchise and the Reichstag; the liberals joined him rather than being replaced.","verdict":"Contributing, high confidence. The set: the wars (ranks first), the Zollverein (second), Frankfurt's precedent (third)."},{"id":"g12","f":"eu187177","t":"af188425","type":"Structural","grade":"Contributing","conf":"High","claim":"A new great power in the centre of Europe with no colonies joined the scramble late and convened the conference that set its rules, accelerating a partition already under way.","objection":"Leopold's Congo and the French advance on the Niger were in motion before 1871; Bismarck disliked colonies and called the conference to manage a European quarrel rather than to acquire Africa.","verdict":"Contributing, high confidence. The set: Leopold's Congo venture (ranks first), Anglo-French rivalry on the Niger (second), German entry (third), the technologies of quinine and the Maxim gun (fourth)."},{"id":"g13","f":"eu187177","t":"eu191485","type":"Structural","grade":"Contested","conf":"Moderate","claim":"A unified Germany in the centre of Europe, industrialising faster than its neighbours and governed by a constitution that gave the army and the Kaiser the last word, made a continental war likely within two generations.","objection":"Every great power took decisions in July 1914 that could have gone the other way, and Serbia, Austria and Russia made the first moves; the war's date was chosen in a month, whatever the pressures of the decades.","verdict":"Contested, moderate confidence. One reading holds that Germany's leaders sought a war to break the encirclement they had built; the other holds that blame was shared and the outcome contingent on a month of avoidable choices. The documents support each in part, and the atlas shows both."},{"id":"g14","f":"d-bismarck1890","t":"eu189481","type":"Reactive","grade":"Necessary","conf":"High","claim":"Bismarck's dismissal and the lapse of the Reinsurance Treaty three months later left Russia without a German guarantee, and Russia took the French alliance it had refused for a decade.","objection":"Russian borrowing in Paris from 1888 was already tying the tsar to France; the alliance might have come even with Bismarck in office.","verdict":"Necessary, high confidence. Without the lapse, Russia had no reason to accept military obligations to France; the loans bought goodwill, the lost treaty bought the alliance."},{"id":"g15","f":"eu189481","t":"eu191485","type":"Structural","grade":"Contributing","conf":"High","claim":"The Franco-Russian alliance gave Germany the two-front war it feared, and the Schlieffen Plan written to win it required attacking France through Belgium in any war with Russia, which brought Britain in.","objection":"Alliances deter as well as entangle; the alliance kept peace for twenty years, and the decision to execute the plan in 1914 was Berlin's.","verdict":"Contributing, high confidence. The set: the July decisions in Vienna, Berlin and St Petersburg (ranks first), the alliance structure (second), the naval race (third)."},{"id":"g16","f":"eu189882","t":"eu191485","type":"Reactive","grade":"Contributing","conf":"Moderate","claim":"Germany's battle fleet drove Britain to settle with France in 1904 and Russia in 1907, so that in 1914 Britain was aligned against Germany.","objection":"Britain entered the war over Belgium, and the fleet race had been lost by Germany and effectively ended by 1912; the Entente had other causes, chiefly the balance on the continent.","verdict":"Contributing, moderate confidence. The set: the continental balance (ranks first), Belgium (second), the naval race (third)."},{"id":"g17","f":"eu191485","t":"eu191988","type":"Reactive","grade":"Sufficient","conf":"High","claim":"The treaty was the war's settlement: its terms follow from the war's outcome, the armistice of November 1918 and the Allies' aims.","objection":"The treaty's particular severity, the war-guilt clause and the reparations figure were choices made in Paris, chiefly by France, and could have been different.","verdict":"Sufficient, high confidence. Without the war there is no treaty; the war is enough to explain that there was one and that Germany lost, and the Paris conference explains what it said."},{"id":"g18","f":"eu191988","t":"as191949","type":"Reactive","grade":"Contributing","conf":"High","claim":"The treaty's award of Germany's Shandong concessions to Japan rather than China triggered the student protests of May 4, 1919 in Beijing.","objection":"The New Culture movement was under way from 1915; the protest's size and legacy came from that, and Shandong was the occasion.","verdict":"Contributing, high confidence. The set: the New Culture movement (ranks first), the Shandong clause (second), the warlord government's weakness (third)."},{"id":"g19","f":"eu191988","t":"d-hyperinflation","type":"Material","grade":"Contributing","conf":"High","claim":"Reparations set at 132 billion gold marks in 1921 added an external debt the Weimar state could only meet by printing.","objection":"Germany had financed the war by borrowing rather than taxing, so the mark had already lost most of its value by 1919; the 1923 collapse followed the decision to pay striking Ruhr workers with new money after the French occupation.","verdict":"Contributing, high confidence. The set: war finance (necessary), the Ruhr occupation (ranks first in 1923), the printing decision (sufficient for the final phase), reparations (third). The popular chain overstates."},{"id":"g20","f":"eu191988","t":"eu193391","type":"Reactive","grade":"Contributing","conf":"High","claim":"Versailles handed every German party a grievance that the republic, as its signatory, could not disown, and the Nazis made revision their programme.","objection":"Weimar survived the treaty for a decade and was stabilising by 1928; the Depression collapsed the centre, and the appointment of January 1933 was the conservatives' decision.","verdict":"Contributing, high confidence, for the appointment itself. The set: the Depression (necessary), the conservatives' co-option (ranks first among the contributors), Versailles (second), Bolshevik fear (third). The treaty's weight sits on two other arrows: it made the republic's legitimacy deficit (Necessary) and decided the revisionist content of German nationalism (Necessary). The Depression decided that Germany would break; Versailles decided what the break would look like."},{"id":"g21","f":"eu191988","t":"w2-rhineland","type":"Reactive","grade":"Necessary","conf":"High","claim":"The remilitarisation of the Rhineland in March 1936 was a step in a programme whose content, the reversal of Versailles clause by clause, the treaty itself defined.","objection":"Hitler's aims went far beyond revision, to Lebensraum in the east; the Versailles programme was the respectable cover for them.","verdict":"Necessary, high confidence. The specific sequence of 1935-39, conscription, the Rhineland, Austria, the Sudetenland, is the treaty read backwards; without it the programme has a different shape and a weaker domestic consensus."},{"id":"g22","f":"na192964","t":"d-depression1930","type":"Material","grade":"Necessary","conf":"High","claim":"The crash ended the short-term American lending that had financed Germany's recovery since the Dawes Plan, and the called loans carried the Depression to Germany within a year.","objection":"German agriculture was in depression from 1927 and the economy had slowed before the crash; the credit withdrawal deepened a downturn already present.","verdict":"Necessary, high confidence. Without the withdrawal of American credit the German slowdown of 1928-29 is a recession; the 6 million unemployed of 1932 required the banking collapse that the called loans produced."},{"id":"g23","f":"d-depression1930","t":"eu193391","type":"Material","grade":"Necessary","conf":"High","claim":"The Depression made the Nazi party a mass movement: unemployment rose from 1.3 million in 1929 to over 6 million in 1932, and the NSDAP vote from 2.6% in 1928 to 37.3% in July 1932.","objection":"The Nazis never won a majority and their vote fell in November 1932; Hitler was appointed by conservatives who believed they could use him. The Depression explains the vote, not the appointment.","verdict":"Necessary, high confidence. The objection is right about the mechanism of January 1933 and wrong about the grade: without a 37% party there is nothing for Papen and Hindenburg to co-opt. Co-option is Contributing; the Depression is the precondition."},{"id":"g24","f":"na192964","t":"as193153","type":"Material","grade":"Contributing","conf":"Moderate","claim":"The collapse of silk exports and farm incomes after 1929 strengthened the Kwantung Army's case that Japan needed Manchuria's resources and land.","objection":"The army had planned the Manchurian seizure independently and acted without Tokyo's approval; its timetable owed more to Chinese nationalism and Soviet recovery than to the slump.","verdict":"Contributing, moderate confidence. The set: the Kwantung Army's autonomy (ranks first), Chinese reunification under Chiang threatening Japan's position (second), the Depression (third)."},{"id":"g25","f":"eu191786","t":"eu193391","type":"Ideological","grade":"Contributing","conf":"Moderate","claim":"The Bolshevik revolution gave German conservatives a fear that made an alliance with Hitler look like the lesser danger, and gave the Nazis their most effective enemy.","objection":"The KPD's vote in 1932 was 17%, and the conservatives' fear was of the left in general; Hitler's appointment turned on Papen's intrigue and Hindenburg's exhaustion rather than on Moscow.","verdict":"Contributing, moderate confidence. The set: the Depression (necessary), elite co-option (contributing, first among the contributors), Versailles (second), Bolshevik fear (third)."},{"id":"g26","f":"eu193391","t":"eu193994","type":"Reactive","grade":"Necessary","conf":"High","claim":"No other German government in 1939 invades Poland; the war's timing, aims and conduct were Hitler's.","objection":"German revisionism was consensual across parties and a conservative government would also have sought to reverse Versailles in the east, perhaps by war with Poland.","verdict":"Necessary, high confidence. A revisionist war over Danzig by another government is conceivable; a war of racial conquest across the continent is not. The counterfactual produces a different war or none."},{"id":"g27","f":"eu193893","t":"eu193994","type":"Enabling","grade":"Contributing","conf":"Moderate","claim":"Munich handed Hitler the Czech fortifications and arms industry without a fight and convinced him that Britain and France would not fight for Poland either.","objection":"The war's cause was in Berlin; Munich at most set its date, and the year it bought was used by Britain to rearm, so that 1939 was a better year for the Allies than 1938 would have been.","verdict":"Contributing, moderate confidence. The set: Hitler's intent (necessary), the Nazi-Soviet pact that removed the two-front problem (ranks first among contributors), Munich's lesson (second)."},{"id":"g28","f":"eu194196","t":"eu194999b","type":"Structural","grade":"Necessary","conf":"High","claim":"The failure of the invasion of the Soviet Union put a Soviet army on the Elbe in 1945, and two Germanies followed from where the armies stood.","objection":"Division was a political choice made between 1945 and 1949, and a unified neutral Germany was offered by Stalin in 1952; the armies made division possible, not inevitable.","verdict":"Necessary, high confidence. Without a Soviet army in central Germany there is no Soviet zone and no second state. The 1952 note is a real objection to Sufficient, which is why the grade is Necessary and not higher."},{"id":"g29","f":"eu151712","t":"eu193391","type":"Ideological","grade":"Coincident","conf":"High","claim":"Luther's 1543 tract against the Jews is cited as the root of German antisemitism and was reprinted by the Nazis.","objection":"Anti-Jewish violence and expulsion predate Luther by centuries across Catholic Europe; Nazi racial antisemitism was a nineteenth-century pseudo-scientific doctrine that discarded the religious frame Luther used.","verdict":"Coincident, high confidence. The Nazis used Luther as a respectable ancestor; the mechanism runs from 1870s race theory and post-1918 scapegoating. The text is evidence of continuity in prejudice rather than a cause of its 1930s form."},{"id":"g30","f":"d-hyperinflation","t":"eu193391","type":"Material","grade":"Coincident","conf":"Moderate","claim":"The hyperinflation of 1923 is popularly held to have driven Germans to Hitler.","objection":"The NSDAP vote fell after the 1924 stabilisation to 2.6% in 1928 and rose only with deflation and unemployment in 1930-32; the memory of 1923 mattered, but the crisis that elected Hitler was deflationary.","verdict":"Coincident, moderate confidence. The inflation discredited the republic with the middle class and that mattered in 1930; as a cause of the vote it is the wrong decade."},{"id":"g31","f":"eu187076","t":"eu187177","type":"Reactive","grade":"Sufficient","conf":"High","claim":"Victory over France let Bismarck proclaim the Empire in the Hall of Mirrors on January 18, 1871, with the south German states joining under the pressure of a national war.","objection":"The south German states had treaties with Prussia from 1866 and the Zollverein from 1834; the war decided the timing and the form rather than the fact.","verdict":"Sufficient, high confidence. The war is enough to explain the proclamation when and where it happened; the longer causes explain why the war could do it."},{"id":"g32","f":"eu184871","t":"d-frankfurt","type":"Reactive","grade":"Sufficient","conf":"High","claim":"The March 1848 risings forced the German princes to permit elections, and the Frankfurt assembly met in May.","objection":"The assembly's composition and programme came from the liberal movement of the 1830s and 40s; the revolution opened the door it then walked through.","verdict":"Sufficient, high confidence. Without the March risings the princes had refused elections for thirty years and would have gone on refusing; the revolution is enough to explain the assembly."},{"id":"g33","f":"eu180662","t":"eu187177","type":"Structural","grade":"Contributing","conf":"Moderate","claim":"The Empire's dissolution in 1806 left Germany without any frame at all, so that from Vienna onward the question was what would replace it, and every answer between 1815 and 1871 was an attempt to fill that void.","objection":"Sixty-five years separate the two, and the Confederation of 1815 was designed to make unification impossible; the void was filled by Prussian arms, which 1806 did nothing to create.","verdict":"Contributing, moderate confidence. The set: the wars of 1864-71 (ranks first), the Zollverein (second), nationalism after 1813 (third), the void of 1806 (fourth)."},{"id":"g34","f":"eu193391","t":"eu194999b","type":"Structural","grade":"Necessary","conf":"High","claim":"Hitler's regime chose the war that put a Soviet army on the Elbe, and Germany's division in 1949 followed from the occupation that war produced.","objection":"The division was decided by the Allies between 1945 and 1949 and was offered up for reversal by Stalin in 1952; Hitler produced the occupation, and the occupiers produced the division.","verdict":"Necessary, high confidence. Without the Nazi state there is no war of 1939-45 in that form, no occupation and no zones; the counterfactual Germany of 1949 is unified and bordered as in 1937. The objection is right that the occupiers chose division, which is why the grade stops at Necessary."},{"id":"g35","f":"eu194999b","t":"eu1990110","type":"Structural","grade":"Contributing","conf":"High","claim":"The division of 1949 defined reunification as the goal every West German government held in law, so that when the Soviet grip loosened in 1989 the merger was ready to be claimed within a year.","objection":"Reunification was decided in Moscow and Washington, by Gorbachev's refusal to use force and Bush's support for Kohl; the division explains the goal and leaves its achievement to others.","verdict":"Contributing, high confidence. The set: Gorbachev's refusal to use force ranks first, the East German economic and legitimacy collapse of 1989 second, and the Federal Republic's standing claim to one German nation third; without the third the Soviet retreat produces two German states in a confederation, as the SPD and many East Germans proposed in late 1989."},{"id":"g36","f":"eu1990110","t":"d-zeitenwende","type":"Structural","grade":"Contributing","conf":"Moderate","claim":"The 1990 settlement embedded Germany on the assumption that Russia would be a partner and the United States the guarantor, so that when Russia invaded Ukraine in 2022 the country had neither the army nor the energy independence to respond and had to rebuild both.","objection":"The invasion itself caused the rearmament; any German settlement would have faced the same shock, and the peace dividend was a choice of the 2000s before it was a consequence of 1990.","verdict":"Contributing, moderate confidence. The set: Russia's invasion ranks first, as the sufficient trigger; the post-1990 choice of trade and gas over defence second; and the 1990 settlement's cap on German arms and its dependence on the American guarantee third, because it made the choice of the 2000s the path of least resistance."}]}/*END*/;
+</script>
+<script>
+(function(){
+  var A=DATA, E={}; A.events.forEach(function(e){E[e.id]=e});
+  var HOME='eu191988';
+  var NAME={eu191988:'The Treaty of Versailles',eu191485:'The Great War',eu193994:'The Second World War Begins'};
+  var DATE={eu191988:'28 June 1919'};
+  /* placeholder sizes: tier 1 is a knot, tier 2 a fibre, and these four are strands so the filter has something to show */
+  var STRAND={'d-bismarck1890':1,'eu189882':1,'d-frankfurt':1,'d-zeitenwende':1};
+  var SMALL={a:1,an:1,and:1,as:1,at:1,but:1,by:1,'for':1,'in':1,of:1,on:1,or:1,the:1,to:1,'with':1,from:1,into:1,over:1};
+  function tc(t){ return String(t||'').split(' ').map(function(w,i){ if(!w)return w; if(/[A-Z]/.test(w.slice(1)))return w; var lw=w.toLowerCase(); if(i>0&&SMALL[lw])return lw; return w.charAt(0).toUpperCase()+w.slice(1); }).join(' '); }
+  function esc(s){return String(s).replace(/[&<>"]/g,function(c){return{'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;'}[c]})}
+  function name(id){ return NAME[id]||tc(E[id].h); }
+  function when(id){ return DATE[id]||String(E[id].y); }
+  function size(id){ return STRAND[id]?'st':(E[id].tier===1?'k':'fi'); }
+  var SZW={k:'knot',fi:'fibre',st:'strand'};
+  var RANK={Necessary:4,Sufficient:4,Contributing:3,Contested:2,Coincident:1}, CONF={High:2,Moderate:1,Low:0};
+  function rank(l){ return RANK[l.grade]*3+CONF[l.conf]; }
+  function backbone(l){ return l.grade==='Necessary'||l.grade==='Sufficient'; }
+  function gcls(l){ return l.grade==='Contributing'?'contrib':l.grade==='Contested'?'contest':l.grade==='Coincident'?'coinc':''; }
+  var PLAIN={Necessary:'Without the first, the second does not happen.',Sufficient:'The first was enough on its own to bring about the second.',Contributing:'The first was one cause among several.',Contested:'Two readings; the atlas withholds a verdict.',Coincident:'Same years, no causal link.'};
+  function gline(l){ return l.grade+' · '+l.conf.toLowerCase()+' confidence'; }
+  var reduced=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+
+  var centre=HOME, steps=2, show={k:true,fi:true,st:true}, bbOnly=false, sel=null;
+  var scroller=document.getElementById('wscroll'), canvas=document.getElementById('wcanvas'), mini=document.getElementById('mini'), trail=document.getElementById('trail');
+  var G=null; /* the laid-out web */
+
+  /* walk the link table outward from the centre, causes one way and effects the other */
+  function build(){
+    var step={}, cols={}; step[centre]=0; cols[0]=[centre];
+    [-1,1].forEach(function(dir){ var fr=[centre];
+      for(var h=1;h<=steps;h++){ var nx=[];
+        fr.forEach(function(id){ A.links.forEach(function(l){ if(l.grade==='Coincident')return; var o=dir<0?(l.t===id?l.f:null):(l.f===id?l.t:null); if(!o||!E[o]||step[o]!=null)return; step[o]=dir*h; nx.push(o); }); });
+        if(!nx.length)break; cols[dir*h]=nx; fr=nx; } });
+    var edges=A.links.filter(function(l){ return l.grade!=='Coincident'&&step[l.f]!=null&&step[l.t]!=null&&step[l.t]-step[l.f]===1; });
+    var minS=0,maxS=0; Object.keys(cols).forEach(function(k){k=+k; if(k<minS)minS=k; if(k>maxS)maxS=k;});
+    /* order each column by where its neighbours nearer the centre sit, so lines cross less */
+    var idx={}; idx[centre]=0;
+    [-1,1].forEach(function(dir){ for(var h=1;h<=steps;h++){ var c=cols[dir*h]; if(!c)break;
+      var key={}; c.forEach(function(id){ var s=0,n=0; edges.forEach(function(l){ var inner=dir<0?(l.f===id?l.t:null):(l.t===id?l.f:null); if(inner!=null&&idx[inner]!=null){s+=idx[inner];n++;} }); key[id]=n?s/n:0; });
+      c.sort(function(a,b){ return key[a]-key[b]||E[a].y-E[b].y; });
+      c.forEach(function(id,i){ idx[id]=i-(c.length-1)/2; }); } });
+    return {step:step,cols:cols,edges:edges,minS:minS,maxS:maxS,idx:idx};
+  }
+  /* the strongest drawn path from an event back to the centre */
+  function pathOf(id){ var links=[], cur=id, guard=0;
+    while(cur!==centre&&guard++<12){ var s=G.step[cur]; var c=G.edges.filter(function(l){ return s<0?l.f===cur:l.t===cur; }).sort(function(a,b){return rank(b)-rank(a)})[0]; if(!c)break; links.push(c); cur=s<0?c.t:c.f; }
+    if(G.step[id]>0)links.reverse(); return links; }
+
+  var CW=130, GAP=30, RH=82, TOP=30, VIS=3;
+  function render(keep){
+    G=build(); if(sel&&G.step[sel]==null)sel=null;
+    var W=scroller.clientWidth||360; VIS=W<560?3:5; CW=W/VIS; var NW=CW-GAP;
+    var half=(VIS-1)/2, padL=Math.max(0,half+G.minS)*CW, padR=Math.max(0,half-G.maxS)*CW;
+    var ncol=G.maxS-G.minS+1, maxN=1; Object.keys(G.cols).forEach(function(k){ maxN=Math.max(maxN,G.cols[k].length); });
+    var H=Math.max(2,maxN)*RH+TOP+10, CWID=padL+ncol*CW+padR, mid=TOP+(H-TOP)/2;
+    function cx(s){ return padL+(s-G.minS)*CW; }
+    var pos={}; Object.keys(G.cols).forEach(function(k){ G.cols[k].forEach(function(id){ pos[id]={x:cx(+k)+GAP/2,y:mid+G.idx[id]*RH}; }); });
+    G.pos=pos; G.cx=cx; G.W=W; G.CWID=CWID;
+
+    var path=sel&&sel!==centre?pathOf(sel):[], onE={}, onN={}; path.forEach(function(l){onE[l.id]=1;onN[l.f]=1;onN[l.t]=1;});
+    function hidden(id){ return id!==centre&&!show[size(id)]; }
+    var eDim={}; G.edges.forEach(function(l){ eDim[l.id]=hidden(l.f)||hidden(l.t)||(bbOnly&&!backbone(l)); });
+    var nDim={}; Object.keys(pos).forEach(function(id){ if(id===centre)return; var es=G.edges.filter(function(l){return l.f===id||l.t===id}); nDim[id]=hidden(id)||(bbOnly&&es.length>0&&es.every(function(l){return eDim[l.id]})); });
+
+    var h='<svg width="'+CWID+'" height="'+H+'" aria-hidden="true">';
+    G.edges.forEach(function(l){ var a=pos[l.f], b=pos[l.t]; var x1=a.x+NW, y1=a.y, x2=b.x, y2=b.y, c=(x2-x1)*0.55;
+      var w=(backbone(l)?3.4:2)*(l.conf==='High'?1:l.conf==='Moderate'?0.82:0.62);
+      var d='M'+x1.toFixed(1)+' '+y1.toFixed(1)+' C'+(x1+c).toFixed(1)+' '+y1.toFixed(1)+' '+(x2-c-6).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-7).toFixed(1)+' '+y2.toFixed(1);
+      var st=path.length?(onE[l.id]?'':' off'):(eDim[l.id]?' dim':'');
+      h+='<g class="eg'+st+'"><path class="ed '+gcls(l)+'" stroke-width="'+w.toFixed(2)+'" d="'+d+'"/><path class="eh" d="M'+x2.toFixed(1)+' '+y2.toFixed(1)+' l-8 -4.5 v9 z"/><path class="hit" data-link="'+l.id+'" d="'+d+'"><title>'+esc(name(l.f)+' to '+name(l.t)+': '+l.grade)+'</title></path></g>'; });
+    h+='</svg>';
+    for(var s=G.minS;s<=G.maxS;s++){ var lab=s===0?'This event':(Math.abs(s)+(Math.abs(s)===1?' step ':' steps ')+(s<0?'before':'after'));
+      h+='<div class="colh'+(s===0?' c0':'')+'" data-col="'+s+'" style="left:'+cx(s)+'px;width:'+CW+'px">'+lab+'</div>'; }
+    if(G.minS===0) h+='<div class="none" style="left:'+(padL-CW)+'px;width:'+CW+'px;top:'+TOP+'px;height:'+(H-TOP)+'px">The link table holds no cause for this event yet.</div>';
+    if(G.maxS===0) h+='<div class="none" style="left:'+cx(1)+'px;width:'+CW+'px;top:'+TOP+'px;height:'+(H-TOP)+'px">The link table holds no effect of this event yet.</div>';
+    Object.keys(pos).forEach(function(id){ var p=pos[id], sz=size(id), here=id===centre;
+      var st=path.length?((onN[id]||here)?'':' off'):(nDim[id]?' dim':'');
+      var st2=G.step[id], where=here?'this event':(Math.abs(st2)+(Math.abs(st2)===1?' step ':' steps ')+(st2<0?'before':'after'));
+      h+='<button type="button" class="nd sz-'+sz+(here?' here':'')+(id===sel?' sel':'')+st+'" data-id="'+id+'" style="left:'+p.x.toFixed(1)+'px;top:'+p.y.toFixed(1)+'px;width:'+NW.toFixed(1)+'px" aria-label="'+esc(name(id)+', '+when(id)+', '+SZW[sz]+', '+where)+'" aria-pressed="'+(id===sel)+'">'
+        +'<span class="nm"><i class="mk '+sz+'" aria-hidden="true"></i>'+esc(when(id))+'</span><span class="nt">'+esc(name(id))+'</span></button>'; });
+    canvas.style.width=CWID+'px'; canvas.style.height=H+'px'; canvas.innerHTML=h;
+
+    /* counts and the small map of the whole web */
+    var nl=0,nr=0; Object.keys(G.step).forEach(function(id){ if(G.step[id]<0)nl++; else if(G.step[id]>0)nr++; });
+    document.getElementById('nL').textContent=nl; document.getElementById('nR').textContent=nr;
+    var m='<span class="win" id="win"></span>';
+    for(s=G.minS;s<=G.maxS;s++){ var c=G.cols[s]; m+='<button type="button" data-col="'+s+'" aria-label="'+(s===0?'This event':Math.abs(s)+' steps '+(s<0?'before':'after')+', '+c.length+' events')+'">'+c.map(function(id){return '<i class="mk '+size(id)+'"></i>'}).join('')+'</button>'; }
+    mini.innerHTML=m; mini.hidden=ncol<=VIS;
+    if(centre!==HOME){ trail.hidden=false; trail.innerHTML='<span>The web is centred on <b>'+esc(name(centre))+'</b>, '+esc(when(centre))+'.</span><button type="button" id="homeBtn">Back to '+esc(name(HOME))+'</button>'; document.getElementById('homeBtn').addEventListener('click',function(){ recentre(HOME); }); }
+    else { trail.hidden=true; trail.innerHTML=''; }
+    if(!keep) toCol(0,false);
+    sync();
+  }
+  function toCol(s,smooth){ var left=G.cx(s)+CW/2-G.W/2; scroller.scrollTo({left:left,behavior:(smooth&&!reduced)?'smooth':'auto'}); }
+  var q=false; function sync(){ q=false; if(!G)return; var max=scroller.scrollWidth-scroller.clientWidth, x=scroller.scrollLeft;
+    document.getElementById('goL').disabled=x<=2; document.getElementById('goR').disabled=x>=max-2;
+    var win=document.getElementById('win'); if(win&&!mini.hidden){ var inner=mini.clientWidth-24, padL=G.cx(G.minS), span=G.CWID-padL-(G.CWID-G.cx(G.maxS)-CW);
+      var a=Math.max(0,(x-padL)/span), b=Math.min(1,(x+G.W-padL)/span); win.style.left=(12+a*inner)+'px'; win.style.width=Math.max(0,(b-a)*inner)+'px'; } }
+  scroller.addEventListener('scroll',function(){ if(!q){q=true;requestAnimationFrame(sync);} },{passive:true});
+  document.getElementById('goL').addEventListener('click',function(){ scroller.scrollBy({left:-(VIS-1)*CW,behavior:reduced?'auto':'smooth'}); });
+  document.getElementById('goR').addEventListener('click',function(){ scroller.scrollBy({left:(VIS-1)*CW,behavior:reduced?'auto':'smooth'}); });
+  mini.addEventListener('click',function(e){ var b=e.target.closest('[data-col]'); if(b)toCol(+b.dataset.col,true); });
+
+  /* controls */
+  var stepper=document.getElementById('stepper'); stepper.innerHTML=[1,2,3,4,5].map(function(n){return '<button type="button" data-steps="'+n+'" aria-pressed="'+(n===steps)+'" aria-label="'+n+(n===1?' step':' steps')+' out">'+n+'</button>'}).join('');
+  stepper.addEventListener('click',function(e){ var b=e.target.closest('[data-steps]'); if(!b)return; steps=+b.dataset.steps; stepper.querySelectorAll('button').forEach(function(x){x.setAttribute('aria-pressed',String(x===b))}); render(false); dock(); });
+  document.querySelectorAll('.chip[data-size]').forEach(function(b){ b.addEventListener('click',function(){ var k=b.dataset.size; show[k]=!show[k]; b.setAttribute('aria-pressed',String(show[k])); render(true); }); });
+  var bbBtn=document.getElementById('bbBtn'); bbBtn.addEventListener('click',function(){ bbOnly=!bbOnly; bbBtn.setAttribute('aria-pressed',String(bbOnly)); render(true); });
+
+  /* taps on the web */
+  canvas.addEventListener('click',function(e){ var n=e.target.closest('.nd'), l=e.target.closest('[data-link]');
+    if(l){ note(l.getAttribute('data-link')); return; }
+    if(n){ var id=n.dataset.id; sel=(sel===id)?null:id; render(true); dock(); return; }
+    if(sel){ sel=null; render(true); dock(); } });
+  function recentre(id){ centre=id; sel=null; render(false); dock(); document.getElementById('chain').scrollIntoView({block:'start',behavior:reduced?'auto':'smooth'}); }
+
+  /* the docked card */
+  var dockHost=document.getElementById('dockHost');
+  function others(id,path){ var on={}; path.forEach(function(l){on[l.id]=1}); return A.links.filter(function(l){ return (l.f===id||l.t===id)&&!on[l.id]&&E[l.f]&&E[l.t]; }); }
+  function weakest(path){ return path.slice().sort(function(a,b){return rank(a)-rank(b)})[0]; }
+  function dock(){ if(!sel){ dockHost.innerHTML=''; return; }
+    var id=sel, sz=size(id), s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path);
+    var where=id===centre?'the centre of the web':(Math.abs(s)+(Math.abs(s)===1?' step ':' steps ')+(s<0?'before':'after'));
+    var h='<div class="dock" role="region" aria-label="Selected event"><button type="button" class="x" id="dockX" aria-label="Close">×</button>'
+      +'<div class="kind"><i class="mk '+sz+'" aria-hidden="true"></i>'+SZW[sz]+' · '+esc(when(id))+' · '+where+'</div><h3>'+esc(name(id))+'</h3><p>'+esc(E[id].l||'')+'</p>';
+    if(path.length){ var w=weakest(path); h+='<button type="button" class="pathbtn" id="pathBtn"><span><b>How it connects:</b> '+path.length+(path.length===1?' line':' lines')+(s<0?' to ':' from ')+esc(name(centre))+(path.length>1?'. Weakest: '+w.grade+'.':': '+w.grade+'.')+'</span></button>'; }
+    else if(o.length){ h+='<button type="button" class="pathbtn" id="pathBtn"><span><b>Its lines:</b> '+o.length+' in the link table.</span></button>'; }
+    h+='<div class="acts">';
+    if(id===HOME) h+='<span class="close" style="display:inline-flex;align-items:center">You are reading this event.</span>';
+    else h+='<button type="button" class="pri" id="openBtn">Open the page</button>';
+    if(id!==centre) h+='<button type="button" class="sec" id="cenBtn">Centre the web here</button>';
+    h+='</div></div>';
+    dockHost.innerHTML=h;
+    document.getElementById('dockX').addEventListener('click',function(){ sel=null; render(true); dock(); });
+    var pb=document.getElementById('pathBtn'); if(pb)pb.addEventListener('click',function(){ pathSheet(id); });
+    var ob=document.getElementById('openBtn'); if(ob)ob.addEventListener('click',function(){ say('Would open the page: '+name(id)); });
+    var cb=document.getElementById('cenBtn'); if(cb)cb.addEventListener('click',function(){ recentre(id); });
+    /* keep the tapped event clear of the card */
+    var nd=canvas.querySelector('.nd.sel'), dk=dockHost.firstChild; if(nd&&dk){ var over=nd.getBoundingClientRect().bottom-dk.getBoundingClientRect().top+14; if(over>0)window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); }
+  }
+
+  /* sheets: the path, then the note on one line */
+  var sheetHost=document.getElementById('sheetHost'), lastFocus=null;
+  function openSheet(html,label){ if(!sheetHost.firstChild)lastFocus=document.activeElement;
+    sheetHost.innerHTML='<div class="scrim" data-close></div><div class="sheet" role="dialog" aria-modal="true" aria-label="'+esc(label)+'">'+html+'</div>';
+    var c=sheetHost.querySelector('.sheet button'); if(c)c.focus(); }
+  function closeSheet(){ sheetHost.innerHTML=''; if(lastFocus&&lastFocus.focus&&document.contains(lastFocus))lastFocus.focus(); }
+  sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]'))closeSheet(); var r=e.target.closest('[data-note]'); if(r)note(r.dataset.note,r.dataset.back); var b=e.target.closest('[data-pathback]'); if(b)pathSheet(b.dataset.pathback); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'){ if(sheetHost.firstChild)closeSheet(); else if(sel){ sel=null; render(true); dock(); } } });
+  function lrow(l,back,lead){ return '<button type="button" class="lrow" data-note="'+l.id+'"'+(back?' data-back="'+back+'"':'')+'><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span><span class="lt">'+(lead?esc(lead):esc(name(l.f))+' → '+esc(name(l.t)))+'</span><span class="lg">'+esc(gline(l))+'</span></span></button>'; }
+  function pathSheet(id){ var s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path);
+    var h='<div class="kind"><i class="mk '+size(id)+'" aria-hidden="true"></i>How it connects</div><h3>'+esc(name(id))+'</h3>';
+    if(path.length){ h+='<p class="date">'+(s<0?'The path to ':'The path from ')+esc(name(centre))+', one line at a time. Tap a line for its note.</p>'+path.map(function(l){return lrow(l,id)}).join('');
+      if(path.length>1){ var w=weakest(path); h+='<p class="weak">A path is as sure as its weakest line. Here that is <b>'+esc(name(w.f))+' → '+esc(name(w.t))+'</b>: '+esc(w.grade)+', at '+esc(w.conf.toLowerCase())+' confidence.</p>'; } }
+    if(o.length){ h+='<h4>'+(path.length?'Other lines the atlas holds for this event':'Every line the atlas holds for this event')+'</h4>'+o.map(function(l){ var lead=l.grade==='Coincident'?('Same years as '+name(l.f===id?l.t:l.f)):(l.f===id?'Led to '+name(l.t):'Caused by '+name(l.f)); return lrow(l,id,lead); }).join(''); }
+    h+='<div class="acts" style="margin-top:12px"><button type="button" class="close" data-close>Close</button></div>';
+    openSheet(h,'How it connects'); }
+  function note(lid,back){ var l=A.links.filter(function(x){return x.id===lid})[0]; if(!l)return;
+    var h='<div class="kind"><i class="gl '+gcls(l)+'" aria-hidden="true"></i>The line · '+esc(gline(l))+'</div><h3>'+esc(name(l.f))+' → '+esc(name(l.t))+'</h3><p class="date">'+E[l.f].y+' → '+E[l.t].y+'</p>'
+      +'<p class="plain">'+esc(PLAIN[l.grade])+'</p><h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The strongest objection</h4><p>'+esc(l.objection)+'</p>'+(l.verdict?'<h4>The verdict</h4><p>'+esc(l.verdict)+'</p>':'')
+      +'<div class="acts">'+(back?'<button type="button" class="sec" data-pathback="'+back+'">‹ The path</button>':'')+'<button type="button" class="close" data-close>Close</button></div>';
+    openSheet(h,'The note on this line'); }
+
+  var toast=document.getElementById('toast'), tt; function say(m){ toast.textContent=m; toast.hidden=false; clearTimeout(tt); tt=setTimeout(function(){toast.hidden=true},2400); }
+  document.querySelectorAll('[data-say]').forEach(function(b){ b.addEventListener('click',function(){ say(b.dataset.say); }); });
+
+  render(false);
+  var rz; window.addEventListener('resize',function(){ clearTimeout(rz); rz=setTimeout(function(){ render(false); },150); });
+  if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){ render(false); });
+})();
+</script>
