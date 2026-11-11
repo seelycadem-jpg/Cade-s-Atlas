@@ -411,6 +411,8 @@ main.pic-c .piccap,main.pic-0 .piccap{display:none}
 .pthumb.on{opacity:1;transform:none;pointer-events:auto}
 .pthumb img{display:block;width:100%;height:100%;object-fit:cover;filter:sepia(.18)}
 .pthumb:active{transform:scale(.94)}
+/* withdrawn (Cade, 2026-11-11): the header stays clear; the picture returns when the reader scrolls back up */
+.pthumb{display:none}
 /* the picture's details, in the cartouche */
 .sheet.places.pics{max-height:min(calc(100% - 150px),560px);bottom:max(calc(120px + env(safe-area-inset-bottom,0px)),14%)}
 .places.pics .xbtn{right:10px;top:10px;z-index:6}

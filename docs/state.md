@@ -200,8 +200,8 @@ Questions for the master chat (none settled here; no standards doc was changed):
     cartouche; an event with no usable picture shows nothing there. Pictures are chosen
     from open sources as Wikipedia does, avoiding Wikipedia's own lead picture where another
     serves. In the mock: a plate between the title and the bottom line with one italic line
-    under it; once scrolled away it returns as a small plate in the docked header beside
-    the globe; the details card shows caption, date, place, source, licence and credit.
+    under it; it returns when the reader scrolls back up (a small copy in the docked header
+    was tried and withdrawn as clutter); the details card shows caption, date, place, source, licence and credit.
     The picture is a US National Archives photograph of the signing (public domain),
     recorded in `docs/design/mocks/versailles-signing-1919.json`. A mock switch still
     cycles the three placements. event-pages.md says "one picture or visual where it
