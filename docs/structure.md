@@ -151,12 +151,37 @@ Length follows the event and its sources, never the size. A knot that is one day
    written is checked against the same shares, because knots follow the chronicles that
    exist.
 
+A gap can be true (Cade, 2026-11-11). The record is uneven: some places and centuries
+left few sources and held few people, and the atlas shows that as it is. The audit asks
+"have we looked?"; once the research is done, a gap that remains stays, and the page says
+"no record" where that is the case. No place owes the atlas an event or a person for every
+year.
+
 From about 1750 to 1950 many knots start in Europe, because European empires reached most
 of the world. In those years the events where the impact landed get their full size:
 Plassey, the Opium War, the Haitian Revolution, the rebellion of 1857 in India.
 
 The 781 events in `site/data.json` and their tiers are placeholders. Every event is rated
 afresh by these tests in the rebuild.
+
+## People (Cade, 2026-11-11)
+
+Links decide what a person gets, never fame. Each link records the person whose decision
+it ran through and whether the outcome holds without them (narrative-flow.md, Fields).
+
+| State | Who | What the reader sees |
+| --- | --- | --- |
+| A life | A person whose own decision a knot depended on, or several fibres | A full page with "Follow this life": the life as a chain of dated events. It is a story: one bottom line, its own chapters, events shared with other stories |
+| A card | A person who acts in events, where no event depended on them personally | The shared preview card: role, dates, the events they appear in, the two exits |
+| A name | A person with no link into any chain | Role and name in the text; no card, no page |
+
+- "Follow this life" rides the shared year cursor. The globe's timeline moves year by
+  year; following a life slides it from birth to death, and the globe turns to where the
+  person was, with that year's borders and the meanwhile events. A chapter or a chronicle
+  is followed the same way.
+- No quota for people. The audit applies as it does to events, and a gap can be true:
+  Shaka and Kamehameha have their place, and no region owes a person for every century.
+- A long career or a dynasty that needs several stories is a chronicle.
 
 ## One event, many chapters (Cade, 2026-11-08)
 

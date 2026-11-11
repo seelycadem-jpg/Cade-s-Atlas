@@ -62,7 +62,7 @@ One year cursor moves the globe, the stories, the themes and the timeline togeth
 
 ## People
 
-A person page is an event page turned ninety degrees: a life read as a chain. Parts: Overview, the life (dated events on the globe), impact (graded links, with the counterfactual sentence where Necessary), constraints, the option declined, today. Length follows the links a life carries, never fame. Candidates from Pantheon (MIT, 11,341 verified biographies); the cut to a thousand by the atlas's tier scoring with a quota so no civilisation is absent from its own centuries. The front door of the section is a theme essay on the great man question, which the atlas answers with a number: the share of Tier 1 knots whose chain holds a person-level link graded Necessary.
+A person page is an event page turned ninety degrees: a life read as a chain. Parts: Overview, the life (dated events on the globe), impact (graded links, with the counterfactual sentence where Necessary), constraints, the option declined, today. Length follows the links a life carries, never fame. Candidates from Pantheon (MIT, 11,341 verified biographies); the cut by links, never by quota (docs/structure.md, People, 2026-11-11, which wins here): a life, a card or a name, with an audit of the shares and gaps left where the record leaves them. The front door of the section is a theme essay on the great man question, which the atlas answers with a number: the share of Tier 1 knots whose chain holds a person-level link graded Necessary.
 
 ## Eras without modern data
 
