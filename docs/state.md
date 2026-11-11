@@ -167,6 +167,10 @@ Questions for the master chat (none settled here; no standards doc was changed):
 8. The bubble. Cade wants fewer floating pills. The bottom pill (Globe, year, search) is the
    one left on the page and is a decided element (palette.md); whether it keeps that form is
    his call in the master chat. ui-rules.md has no rule on it yet.
+11. Corners. Cade leans toward few or no rounded corners across the atlas, for a sharper,
+    more cartographic look (2026-11-11). In the mock only the places sheet is squared so
+    far: a straight find box and a plain close mark. A site-wide rule belongs in
+    ui-rules.md and palette.md, and touches the story and chapter mocks too.
 10. Gilt. palette.md limits gilt to the heading stroke, the tabs and the divider diamond. On
     Cade's ask the places sheet now carries a gilt cartouche too; palette.md needs the line.
 9. The places sheet groups by chronicle and counts chapters ("25 chapters in 16
