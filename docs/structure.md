@@ -211,8 +211,9 @@ Burke, Hobbes, Confucius, Kautilya.
 
 - A thinker is a person: a life, a card or a name, by the rules above.
 - A work enters as an event with a date and a place: its publication, or where none
-  exists, the teaching or the compiling, with the date's precision recorded. A date the
-  record does not give is never invented.
+  exists, the teaching or the compiling, with the date's precision recorded. An uncertain
+  date shows as "~500 BCE (uncertain)" (event-pages.md, Sourcing); a date no source gives
+  is never invented.
 - It is sized by the same three tests. A link that says a work shaped a later event needs
   evidence that the actors read it or invoked it (story-method.md).
 - The page opens up the thinking: an idea map of the work, under the Graphics rules of

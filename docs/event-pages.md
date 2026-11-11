@@ -118,6 +118,7 @@ Optional sections are the agent's call. A fibre may have no layer 3 at all. A kn
 - Every figure in the text has a basis in `figures`: the number, its source, its year, and the range where sources disagree. The text may say "about 20 billion"; the header says where that comes from.
 - Dates carry their precision. A date the sources dispute is written to the precision they agree on.
 - Quotations come only from primary sources with the source recorded, and only where the words themselves changed something. A quotation for colour is cut.
+- An uncertain date is marked, never hidden or invented (Cade, 2026-11-11). Where the sources give a date only roughly, the reader sees it with a tilde before and "(uncertain)" after: "~500 BCE (uncertain)". The header records the precision, the basis and the range the sources give, and the mark is generated from that field on every page, card and timeline. A date no source gives at all stays blank.
 - A fact the agent cannot source is left out and the gap is noted in the header under `open`, which is the to-write queue. Never approximated.
 - Rule two holds: no historian, author, school or dataset is named in the text. The data header is where they live.
 
