@@ -194,13 +194,20 @@ Questions for the master chat (none settled here; no standards doc was changed):
 17. Stories, never chapters (Cade, 2026-11-11). The line reads "Also in N more stories" and
     the sheet lists stories under their chronicles. In the mock each story's row still
     names the chapters in small type, so the reader lands at the right one.
-18. The event's picture (Cade, 2026-11-11). He wants one picture per event at the top,
-    above Overview, fading away as the reader scrolls. The mock tries three places with a
-    placeholder (a mock switch cycles them): A, a plate across the column between the title
-    and the bottom line; B, edge to edge with no frame; C, a small inset beside the bottom
-    line. A tap opens the caption card, where source, licence and credit show. No real
-    picture yet: the build session could not reach Wikimedia Commons. event-pages.md says
-    "one picture or visual where it earns its place"; a picture on every event changes that.
+18. The event's picture (Cade, 2026-11-11). Decided by Cade: one picture per event, at the
+    top above Overview; the globe still opens the page; the picture fades as the reader
+    scrolls and comes back; it has a short description; a tap opens its details in the gilt
+    cartouche; an event with no usable picture shows nothing there. Pictures are chosen
+    from open sources as Wikipedia does, avoiding Wikipedia's own lead picture where another
+    serves. In the mock: a plate between the title and the bottom line with one italic line
+    under it; once scrolled away it returns as a small plate in the docked header beside
+    the globe; the details card shows caption, date, place, source, licence and credit.
+    The picture is a US National Archives photograph of the signing (public domain),
+    recorded in `docs/design/mocks/versailles-signing-1919.json`. A mock switch still
+    cycles the three placements. event-pages.md says "one picture or visual where it
+    earns its place"; a picture on every event changes that line.
+19. This environment's network now allows commons.wikimedia.org and upload.wikimedia.org
+    (Cade approved, 2026-11-11), for fetching open-licence pictures.
 10. Gilt. palette.md limits gilt to the heading stroke, the tabs and the divider diamond. On
     Cade's ask the places sheet now carries a gilt cartouche too; palette.md needs the line.
 9. Superseded by question 17: the sheet now counts stories.
