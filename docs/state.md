@@ -280,7 +280,13 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock
     is squared in one block of styles; round is kept for the globe, the fibre dot, the
     strand ring and the pin. It would change the story and chapter mocks too.
+- DECIDED (Cade, 2026-11-11): the event picture is the C inset with gilt corners. The frame and
+  placement switches are withdrawn from the mock (hidden; their trial styles remain in the file).
+
 16. **The bottom bar** (Globe, year, search): keep it as a floating pill, or square it.
+    Cade asked (2026-11-11) whether to drop it. This chat's view: drop it from the event page; the
+    docked header already carries the globe and the year, and search belongs in the site header.
+    It is site-wide navigation, so the master chat decides.
 17. **Graphics on a plate** (event-pages.md, Graphics): a gilt rule, a fine rule inside, a
     slight shadow, static. Cade wants graphics to stand off the page; the treatment is open.
 18. (Settled; see item 5.) The mock still carries its trial buttons for other frames and
