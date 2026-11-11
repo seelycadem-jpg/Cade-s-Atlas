@@ -186,10 +186,16 @@ Questions for the master chat (none settled here; no standards doc was changed):
 15. The tab row. On trial: a hairline rule under the row at rest, in place of a shadow. Once
     the row sticks and travels with the page the rule fades out and the soft fade takes
     over (Cade, 2026-11-11; ui-rules.md rule 6).
+16. Arriving with no path (Cade, 2026-11-11). A reader who opens an event from the globe or
+    the timeline sees no chronicle, story and chapter path: only "Part of N stories", which
+    opens the same sheet. structure.md says a page with no route shows its home path, so
+    that line needs changing.
+17. Stories, never chapters (Cade, 2026-11-11). The line reads "Also in N more stories" and
+    the sheet lists stories under their chronicles. In the mock each story's row still
+    names the chapters in small type, so the reader lands at the right one.
 10. Gilt. palette.md limits gilt to the heading stroke, the tabs and the divider diamond. On
     Cade's ask the places sheet now carries a gilt cartouche too; palette.md needs the line.
-9. The places sheet groups by chronicle and counts chapters ("25 chapters in 16
-   chronicles"). structure.md says "Also in N more"; the mock adds the word "chapters".
+9. Superseded by question 17: the sheet now counts stories.
 7. The mock's sizes are placeholders: old tier 1 as knot, tier 2 as fibre, four events set
    as strands to show the filter.
 

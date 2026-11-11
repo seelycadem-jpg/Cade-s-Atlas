@@ -390,6 +390,9 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 .pageindex{margin-bottom:0;padding-bottom:6px}
 .pageindex::before{content:"";position:absolute;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));bottom:0;height:1px;background:var(--rule)}
 #overview h2{margin-top:18px}
+/* arriving from the globe or the timeline: no path, only how many stories hold the event */
+.path.noroute .crumb,.path.noroute .psep{display:none}
+.path.noroute .alsoin{margin:-10px 0 -6px}
 .pageindex::before{transition:opacity .25s ease}
 .pageindex.stuck::before{opacity:0}
 /* the divider from the story and chapter pages: a hairline with the gilt diamond */
@@ -856,7 +859,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
     sheetHost.innerHTML='<div class="scrim" data-close></div><div class="sheet'+(cls?' '+cls:'')+'" role="dialog" aria-modal="true" aria-label="'+esc(label)+'">'+html+'</div>';
     var c=sheetHost.querySelector('.sheet button'); if(c)c.focus({preventScroll:true}); }
   function closeSheet(){ sheetHost.innerHTML=''; big=null; if(lastFocus&&lastFocus.focus&&document.contains(lastFocus))lastFocus.focus({preventScroll:true}); }
-  sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]')){closeSheet();return;} var r=e.target.closest('[data-note]'); if(r){note(r.dataset.note,r.dataset.back);return;} var b=e.target.closest('[data-pathback]'); if(b){pathSheet(b.dataset.pathback);return;} var sy=e.target.closest('[data-say]'); if(sy){say(sy.dataset.say);return;} var pl=e.target.closest('[data-place]'); if(pl){ var pi=+pl.dataset.place; closeSheet(); follow(pi); var px2=places()[pi]; say('The page now follows '+px2.c+' › '+px2.s+' › '+px2.ch); return; } if(e.target.closest('[data-many]')){ many=!many; here=0; follow(0); alsoLabel(); placeSheet(); } });
+  sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]')){closeSheet();return;} var r=e.target.closest('[data-note]'); if(r){note(r.dataset.note,r.dataset.back);return;} var b=e.target.closest('[data-pathback]'); if(b){pathSheet(b.dataset.pathback);return;} var sy=e.target.closest('[data-say]'); if(sy){say(sy.dataset.say);return;} var pl=e.target.closest('[data-place]'); if(pl){ var pi=+pl.dataset.place; closeSheet(); routed=true; follow(pi); var px2=places()[pi]; say('The page now follows '+px2.c+' › '+px2.s+' › '+px2.ch); return; } if(e.target.closest('[data-many]')){ many=!many; here=0; follow(0); placeSheet(); return; } if(e.target.closest('[data-route]')){ routed=!routed; here=0; follow(0); placeSheet(); } });
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'){ if(sheetHost.firstChild)closeSheet(); else if(sel)select(null); } });
   function lrow(l,back,lead){ return '<button type="button" class="lrow" data-note="'+l.id+'"'+(back?' data-back="'+back+'"':'')+'><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span><span class="lt">'+(lead?esc(lead):esc(name(l.f))+' → '+esc(name(l.t)))+'</span><span class="lg">'+esc(gline(l))+'</span></span>'+CHEV+'</button>'; }
   function pathSheet(id){ var s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path);
@@ -885,22 +888,26 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
     ['The League of Nations','The Covenant','The Founding'],['The League of Nations','The Covenant','The Mandates'],['Capitalism','Debts and Reparations','The London Schedule'],
     ['Capitalism','Debts and Reparations','The Dawes Plan'],['Africa','The Colonial Order','Germany\'s Colonies Change Hands'],['Austria','The First Republic','The Ban on Union'],
     ['The Soviet Union','Between the Wars','Shut Out of Paris'],['Self-Determination','The Promise','The Exceptions'],['Arms Control','Between the Wars','The Hundred-Thousand Army']];
-  var many=true, here=0;
+  var many=true, here=0, routed=true; /* routed: the reader came through a chapter; false: from the globe or the timeline */
+  function stories(){ var P=places(), out=[], by={}; P.forEach(function(x,i){ var k=x.c+'|'+x.s; if(!by[k]){ by[k]={c:x.c,s:x.s,sn:x.sn,first:i,chs:[],ph:true}; out.push(by[k]); } by[k].chs.push(x.ch); if(!x.ph)by[k].ph=false; if(i===here)by[k].here=true; }); return out; }
   function places(){ return [HOMEPLACE].concat((many?PH:PH.slice(3,4).concat(PH.slice(11,12))).map(function(r){ return {c:r[0],s:r[1],ch:r[2],ph:true}; })); }
-  function alsoLabel(){ var n=places().length-1; document.getElementById('alsoTxt').innerHTML='Also in <b>'+n+' more '+(n===1?'chapter':'chapters')+'</b>'; }
+  function alsoLabel(){ var n=stories().length-(routed?1:0), w=n===1?' story':' stories';
+    document.getElementById('alsoTxt').innerHTML=routed?'Also in <b>'+n+' more'+w+'</b>':'Part of <b>'+n+w+'</b>';
+    document.getElementById('kicker').classList.toggle('noroute',!routed);
+    if(!routed){ document.getElementById('hChap').textContent='Part of '+n+w; document.getElementById('hNextW').hidden=true; } }
   function follow(i){ var P=places(), x=P[i]; here=i;
     document.getElementById('cChron').textContent=x.c; document.getElementById('cStory').textContent=x.s; document.getElementById('cChap').textContent=x.ch;
     document.getElementById('cStoryL').textContent=x.sn||'story'; document.getElementById('cChapL').textContent=x.cn||'chapter';
     document.getElementById('hChap').textContent=x.ch; document.getElementById('hNextW').hidden=!x.next; if(x.next)document.getElementById('hNext').textContent='Next: '+x.next+' ›';
-    pageLayout(); frameAll(); }
-  function placeSheet(){ var P=places(), groups=[], by={};
+    alsoLabel(); pageLayout(); frameAll(); }
+  function placeSheet(){ var P=stories(), groups=[], by={};
     P.forEach(function(x,i){ if(!by[x.c]){ by[x.c]={c:x.c,rows:[]}; groups.push(by[x.c]); } by[x.c].rows.push(i); });
     var h='<div class="ph"><button type="button" class="xbtn" data-close aria-label="Close"><i><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></i></button>'
-      +'<div class="kind">Where this event sits</div><h3>'+esc(name(HOME))+'</h3><p class="cnt">'+P.length+(P.length===1?' chapter':' chapters')+' in '+groups.length+(groups.length===1?' chronicle':' chronicles')+'. Choose one and the page follows it.</p>'
-      +(P.length>8?'<input class="find" id="placeFind" type="search" placeholder="Find a chronicle, story or chapter" aria-label="Find a chronicle, story or chapter" autocomplete="off">':'')+'</div><div class="plist" id="plist">';
+      +'<div class="kind">Where this event sits</div><h3>'+esc(name(HOME))+'</h3><p class="cnt">'+P.length+(P.length===1?' story':' stories')+' in '+groups.length+(groups.length===1?' chronicle':' chronicles')+'. Choose one and the page follows it.</p>'
+      +(P.length>8?'<input class="find" id="placeFind" type="search" placeholder="Find a chronicle or story" aria-label="Find a chronicle or story" autocomplete="off">':'')+'</div><div class="plist" id="plist">';
     groups.forEach(function(g){ h+='<div class="pgrp"><div class="pg">'+esc(g.c)+'<span>'+g.rows.length+'</span></div>'
-      +g.rows.map(function(i){ var x=P[i]; return '<button type="button" class="prow" data-place="'+i+'" data-k="'+esc((x.c+' '+x.s+' '+x.ch).toLowerCase())+'"'+(i===here?' aria-current="true"':'')+'><span class="pt">'+esc(x.s)+'<i>›</i>'+esc(x.ch)+'</span><span class="pm">'+(x.ph?'placeholder':esc(x.sn+' · '+x.cn))+'</span><span class="pr">'+(i===here?'<svg class="tick" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 7.5l3 3 6-7"/></svg>Your path':CHEV)+'</span></button>'; }).join('')+'</div>'; });
-    h+='<div class="pnone" id="pnone" hidden>Nothing matches. This event sits in no chapter by that name.</div></div><div class="mockrow"><span>Mock control</span><button type="button" data-many>'+(many?'Show a short list (3)':'Show a long list (25)')+'</button><span class="pfade" style="bottom:100%"></span></div>';
+      +g.rows.map(function(i){ var x=P[i], mine=routed&&x.here; return '<button type="button" class="prow" data-place="'+x.first+'" data-k="'+esc((x.c+' '+x.s).toLowerCase())+'"'+(mine?' aria-current="true"':'')+'><span class="pt">'+esc(x.s)+'</span><span class="pm">'+esc(x.chs.join(' · '))+(x.ph?' (placeholder)':'')+'</span><span class="pr">'+(mine?'<svg class="tick" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 7.5l3 3 6-7"/></svg>Your path':CHEV)+'</span></button>'; }).join('')+'</div>'; });
+    h+='<div class="pnone" id="pnone" hidden>Nothing matches. This event sits in no chapter by that name.</div></div><div class="mockrow"><button type="button" data-route>'+(routed?'Mock: arrive from the globe':'Mock: arrive from a chapter')+'</button><button type="button" data-many>'+(many?'Mock: short list':'Mock: long list')+'</button><span class="pfade" style="bottom:100%"></span></div>';
     openSheet(h,'Where this event sits','places');
     var sh=sheetHost.querySelector('.sheet'), fw=sh.offsetWidth, fh=sh.offsetHeight;
     function cart(i,r){ var x0=i,y0=i,x1=fw-i,y1=fh-i; return 'M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z'; }
@@ -910,7 +917,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
       document.getElementById('pnone').hidden=any; });
     var cur=sheetHost.querySelector('.prow[aria-current]'), list=document.getElementById('plist'); if(cur&&list)list.scrollTop=Math.max(0,cur.offsetTop-list.offsetTop-60); }
   document.getElementById('alsoin').addEventListener('click',placeSheet);
-  ['cChron','cStory','cChap','hChap','hNext'].forEach(function(id){ document.getElementById(id).addEventListener('click',function(){ say('Would open: '+this.textContent.replace(/^Next: | ›$/g,'')); }); });
+  ['cChron','cStory','cChap','hChap','hNext'].forEach(function(id){ document.getElementById(id).addEventListener('click',function(){ if(!routed&&id==='hChap'){ placeSheet(); return; } say('Would open: '+this.textContent.replace(/^Next: | ›$/g,'')); }); });
   alsoLabel();
 
   var toast=document.getElementById('toast'), tt; function say(m){ toast.textContent=m; toast.hidden=false; clearTimeout(tt); tt=setTimeout(function(){toast.hidden=true},2400); }
