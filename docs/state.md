@@ -254,8 +254,21 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       hairline pen strokes and square joins. Three ways to draw them: Engraved (small
       details and engraver's hatching for shade), Fine (details, no hatching), Solid
       (filled shapes). Two colours: ink or gilt. The card-size copy is 15px, two more than
-      the event mock uses, so the thin lines hold. Awaiting his picks; the event mock
-      still carries the rejected set until he chooses.
+      the event mock uses, so the thin lines hold.
+      DECIDED (Cade, 2026-11-11): pillared hall (political), crossed swords (war), coins
+      (economic), open book (ideas), sacred flame (religion), telescope (science), lute
+      (culture), tree (environment), drawn Fine, in gilt. The event mock now carries these
+      at 15px on the cards, in the filter list and in the pop-up; the kind being filtered
+      for turns ink and heavier. Two cautions put to Cade: gilt on the card ground has a
+      contrast near 3 to 1, the floor for a graphic, and hairlines make it fainter; and the
+      pillared hall leans classical and Western.
+    - Kinds, two facts for the master chat. (1) The eight signs match the fixed list in
+      CLAUDE.md and docs/narrative-flow.md, but `site/data.json` uses seven: no event of
+      the 781 carries `environment` (political 516, war 287, economic 144, ideas 63,
+      science 58, religion 53, culture 21). (2) Political sits on 516 of 781 events, so its
+      sign will show on about two cards in three and tells a reader little. Question: when
+      the old data is re-tagged, does environment get its events, and should a card show
+      the political sign only where no other kind applies?
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width

@@ -763,19 +763,25 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 
 /* ===== kinds (Cade, 2026-11-11): an icon for each kind on every card; an event the filters leave out but the path
    runs through stays a full card and fades back; the kind being filtered for shows dark on the cards that have it ===== */
-.ki{width:13px;height:13px;flex:none;color:var(--ink3);fill:none;stroke:currentColor;stroke-width:1.05;stroke-linecap:round;stroke-linejoin:round}
-.ki .kf{fill:currentColor;stroke:none}
+.ki{width:15px;height:15px;flex:none;color:var(--gilt);fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;overflow:visible}
+.ki .s,.ki .c,.ki .k{fill:var(--kibg,var(--surface))}
+.ki .f{fill:currentColor;stroke:none}
+.ki .t{stroke-width:1.05}
+.ki .d{stroke-width:.75}
+.wcanvas .nd:not(.chip) .nm{gap:5px}
+.wcanvas .nd.here .nm{--kibg:var(--accent)}
+.fp-kinds button[aria-pressed="true"]{--kibg:var(--ink)}
 .wcanvas .nd svg{position:static;transition:none}
-.wcanvas .nd .kd{margin-left:auto;display:inline-flex;gap:4px;align-items:center}
+.wcanvas .nd .kd{margin-left:auto;display:inline-flex;gap:3px;align-items:center}
 .wcanvas .nd.here .ki{color:var(--on-accent)}
-.wcanvas[data-kind="political"] .nd:not(.here) .ki[data-k="political"],.wcanvas[data-kind="war"] .nd:not(.here) .ki[data-k="war"],.wcanvas[data-kind="economic"] .nd:not(.here) .ki[data-k="economic"],.wcanvas[data-kind="ideas"] .nd:not(.here) .ki[data-k="ideas"],.wcanvas[data-kind="religion"] .nd:not(.here) .ki[data-k="religion"],.wcanvas[data-kind="science"] .nd:not(.here) .ki[data-k="science"],.wcanvas[data-kind="culture"] .nd:not(.here) .ki[data-k="culture"],.wcanvas[data-kind="environment"] .nd:not(.here) .ki[data-k="environment"]{color:var(--ink);stroke-width:1.3}
+.wcanvas[data-kind="political"] .nd:not(.here) .ki[data-k="political"],.wcanvas[data-kind="war"] .nd:not(.here) .ki[data-k="war"],.wcanvas[data-kind="economic"] .nd:not(.here) .ki[data-k="economic"],.wcanvas[data-kind="ideas"] .nd:not(.here) .ki[data-k="ideas"],.wcanvas[data-kind="religion"] .nd:not(.here) .ki[data-k="religion"],.wcanvas[data-kind="science"] .nd:not(.here) .ki[data-k="science"],.wcanvas[data-kind="culture"] .nd:not(.here) .ki[data-k="culture"],.wcanvas[data-kind="environment"] .nd:not(.here) .ki[data-k="environment"]{color:var(--ink);stroke-width:1.8}
 .fp-kinds button span{display:inline-flex;align-items:center;gap:7px}
-.fp-kinds button .ki{color:var(--ink2)}
+.fp-kinds button .ki{color:var(--gilt)}
 .fp-kinds button[aria-pressed="true"] .ki{color:var(--bg)}
 .fp-kinds button:disabled .ki{color:var(--ink3);opacity:.6}
 .dock .dkinds{display:flex;flex-wrap:wrap;gap:4px 12px;margin:0 0 7px;font:500 11.5px/1.3 var(--ui);color:var(--ink2)}
 .dock .dkinds span{display:inline-flex;align-items:center;gap:5px}
-.dock .dkinds .ki{color:var(--ink2)}
+.dock .dkinds .ki{color:var(--gilt)}
 </style>
 
 <div class="stage" id="stage">
@@ -1103,18 +1109,19 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     while(cur!==centre&&guard++<12){ var s=G.step[cur]; var c=G.edges.filter(function(l){ return s<0?l.f===cur:l.t===cur; }).sort(function(a,b){return rank(b)-rank(a)})[0]; if(!c)break; links.push(c); cur=s<0?c.t:c.f; }
     if(G.step[id]>0)links.reverse(); return links; }
 
-  /* the kinds, drawn as the signs in an old atlas's key: fine line work standing on a ground line, with one small
-     inked detail where the thing has one (a pearl, a pommel, a finial, a hinge, a sun). A first set, drawn here. */
+  /* the kinds: Cade's eight picks from the chooser (kind-icons.html), drawn Fine, in gilt: hairline pen strokes with
+     square joins and small details. Part classes: s shape · k hole · i inner line · l line · t thin line ·
+     d hairline detail · f filled. Grid 24 by 24. */
   var KICON={
-    political:{s:'M2 8.6h8v1.9H2zM2 8.6L1.7 4.3l2.4 2.4L6 3l1.9 3.7 2.4-2.4-.3 4.3',f:'M1.00 3.60a0.70 0.70 0 1 0 1.40 0a0.70 0.70 0 1 0 -1.40 0zM5.30 2.20a0.70 0.70 0 1 0 1.40 0a0.70 0.70 0 1 0 -1.40 0zM9.60 3.60a0.70 0.70 0 1 0 1.40 0a0.70 0.70 0 1 0 -1.40 0z'},
-    war:{s:'M10.3 1.5L2.7 9.6M2.8 7.2l2.3 2.1M1.7 1.5l7.6 8.1M9.2 7.2L6.9 9.3',f:'M1.55 10.00a0.75 0.75 0 1 0 1.50 0a0.75 0.75 0 1 0 -1.50 0zM8.95 10.00a0.75 0.75 0 1 0 1.50 0a0.75 0.75 0 1 0 -1.50 0z'},
-    economic:{s:'M6 1.4a4.6 4.6 0 1 0 0 9.2 4.6 4.6 0 0 0 0-9.2zM4.6 4.6h2.8v2.8H4.6z',f:''},
-    ideas:{s:'M6 3.5C4.6 2.5 3 2.3 1.5 2.7v6.8c1.5-.4 3.1-.2 4.5.8 1.4-1 3-1.2 4.5-.8V2.7C9 2.3 7.4 2.5 6 3.5zM6 3.5v6.8',f:''},
-    religion:{s:'M1.8 10.5h8.4M3.1 10.5V7.4h5.8v3.1M3.1 7.4a2.9 2.9 0 0 1 5.8 0M6 4.5V2.9M5.2 10.5V9.3a.8.8 0 0 1 1.6 0v1.2',f:'M5.35 2.20a0.65 0.65 0 1 0 1.30 0a0.65 0.65 0 1 0 -1.30 0z'},
-    science:{s:'M6 .9v.7M5.6 3.2L3.2 9.3M6.4 3.2l2.4 6.1M1.6 8.6c1.2 1.5 2.7 2.2 4.4 2.2s3.2-.7 4.4-2.2',f:'M5.05 2.40a0.95 0.95 0 1 0 1.90 0a0.95 0.95 0 1 0 -1.90 0z'},
-    culture:{s:'M4.3 1.5h3.4M4.8 1.5c0 1.7-2 2.5-2 4.7 0 1.9 1.2 3.3 2.2 4.2h2c1-.9 2.2-2.3 2.2-4.2 0-2.2-2-3-2-4.7M3.5 4.4C2.2 4.1 2.2 2.6 3.6 2.7M8.5 4.4c1.3-.3 1.3-1.8-.1-1.7M3 6.2h6',f:''},
-    environment:{s:'M1 8.2l3-4.6 2 2.7 1.6-2.4L11 8.2M1 10.4c.8-.8 1.7-.8 2.5 0s1.7.8 2.5 0 1.7-.8 2.5 0 1.7.8 2.5 0',f:'M1.50 2.40a0.80 0.80 0 1 0 1.60 0a0.80 0.80 0 1 0 -1.60 0z'}};
-  function kicon(k){ var d=KICON[k]||{s:'',f:''}; return '<svg class="ki" data-k="'+k+'" viewBox="0 0 12 12" aria-hidden="true"><path d="'+d.s+'"/>'+(d.f?'<path class="kf" d="'+d.f+'"/>':'')+'</svg>'; }
+    political:[['s','M2.5 9.5L12 3.5l9.5 6z'],['l','M6 12.5v6M12 12.5v6M18 12.5v6M3 21h18'],['d','M3.5 11h17M4 19.8h16M5 12.5h2M11 12.5h2M17 12.5h2M5 18.5h2M11 18.5h2M17 18.5h2M11.1 7.4a0.9 0.9 0 1 0 1.8 0a0.9 0.9 0 1 0 -1.8 0z']],  /* Pillared hall */
+    war:[['s','M7.79 14.79L17.89 4.69 20.5 3.5 19.31 6.11 9.21 16.21z'],['s','M16.21 14.79L6.11 4.69 3.5 3.5 4.69 6.11 14.79 16.21z'],['l','M6 13l5 5M8.5 15.5l-3 3M18 13l-5 5M15.5 15.5l3 3'],['f','M3.5 19.2a1.3 1.3 0 1 0 2.6 0a1.3 1.3 0 1 0 -2.6 0zM17.9 19.2a1.3 1.3 0 1 0 2.6 0a1.3 1.3 0 1 0 -2.6 0z']],  /* Crossed swords */
+    economic:[['s','M4 6.5c0-1.7 3.6-3 8-3s8 1.3 8 3v11c0 1.7-3.6 3-8 3s-8-1.3-8-3z'],['i','M4 6.5c0 1.7 3.6 3 8 3s8-1.3 8-3M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3'],['d','M12 4.8c-2.8 0-5 .8-5 1.7s2.2 1.7 5 1.7 5-.800 5-1.7-2.2-1.7-5-1.7zM7 10.3v2.5M10 10.9v2.5M14 10.9v2.5M17 10.3v2.5M7 15.8v2.5M10 16.4v2.5M14 16.4v2.5M17 15.8v2.5']],  /* Coins */
+    ideas:[['d','M2.5 20.2c4.5-.5 7.5 0 9.5 1.5 2-1.5 5-2 9.5-1.5'],['s','M12 6.5C10 5 7 4.5 2.5 5v13.5c4.5-.5 7.5 0 9.5 1.5 2-1.5 5-2 9.5-1.5V5C17 4.5 14 5 12 6.5z'],['i','M12 6.5V20'],['d','M4.5 8.3c1.8-.100 3.5.100 5.2.700M4.5 10.8c1.8-.100 3.5.100 5.2.700M4.5 13.3c1.8-.100 3.5.100 5.2.700M4.5 15.8c1.8-.100 3.5.100 5.2.700M19.5 8.3c-1.8-.100-3.5.100-5.2.700M19.5 10.8c-1.8-.100-3.5.100-5.2.700M19.5 13.3c-1.8-.100-3.5.100-5.2.700M19.5 15.8c-1.8-.100-3.5.100-5.2.700']],  /* Open book */
+    religion:[['s','M12 2c2.4 2.4 3.4 4 3.4 5.8a3.4 3.4 0 0 1-6.8 0C8.6 6 9.6 4.4 12 2z'],['s','M4.5 13h15c0 3.6-3 6-7.5 6s-7.5-2.4-7.5-6z'],['l','M12 19v2.5M8.5 21.5h7'],['d','M12 5.2c1.1 1.2 1.5 2 1.5 2.8a1.5 1.5 0 0 1-3 0c0-.800.4-1.6 1.5-2.8zM5.2 14.8h13.6'],['f','M7.35 5.2a0.45 0.45 0 1 0 0.9 0a0.45 0.45 0 1 0 -0.9 0zM15.95 4a0.45 0.45 0 1 0 0.9 0a0.45 0.45 0 1 0 -0.9 0zM15.55 10.6a0.45 0.45 0 1 0 0.9 0a0.45 0.45 0 1 0 -0.9 0z']],  /* Sacred flame */
+    science:[['s','M3.5 13L17.5 5.5l2 3.7-14 7.5z'],['l','M11.5 13.5L8 21.5M11.5 13.5l3.5 8'],['d','M7.7 10.75l1.98 3.7M14 7.38l1.98 3.7M4 13.9l-1.5.800.9 1.7 1.5-.800M11.5 13.5v8'],['f','M20.5 1.3l.500 1.2 1.2.500-1.2.500-.500 1.2-.500-1.2-1.2-.500 1.2-.500z']],  /* Telescope */
+    culture:[['s','M9 9.5c3.6 0 6.2 2.6 6.2 5.8S12.6 21.2 9 21.2s-6.2-2.7-6.2-5.9S5.4 9.5 9 9.5z'],['d','M6.3 15.3a2.7 2.7 0 1 0 5.4 0a2.7 2.7 0 1 0 -5.4 0z'],['i','M7.5 15.3a1.5 1.5 0 1 0 3 0a1.5 1.5 0 1 0 -3 0z'],['s','M12.86 9.86L19.36 3.36l1.28 1.28-6.5 6.5z'],['l','M18.5 2.5l3 3'],['d','M6.3 17.1l1.8 1.8M18.5 2.5l-1-1M20 1.9l-.900-.900M21.5 5.5l1 1M22.1 4l.900.9']],  /* Lute */
+    environment:[['s','M12 2.5c1.8 0 3.2 1 3.8 2.3 1.8.2 3.2 1.7 3.2 3.5 0 1.2-.6 2.3-1.5 2.9.1 2.1-1.6 3.800-3.700 3.800-.700 0-1.300-.200-1.800-.500-.500.300-1.100.500-1.800.500-2.100 0-3.800-1.700-3.700-3.800C5.600 10.600 5 9.500 5 8.300c0-1.800 1.400-3.300 3.200-3.500C8.800 3.500 10.200 2.500 12 2.500z'],['i','M12 14.500V9.500M12 12.500l2.500-2.500M12 11L9.800 8.800'],['l','M12 14.500v7M7.500 21.500h9'],['d','M12 19.500l-1.500 2M12 19.500l1.500 2M6 21.500l-.500-1.200M18 21.500l.500-1.200']]  /* Tree */};
+  function kicon(k){ return '<svg class="ki" data-k="'+k+'" viewBox="0 0 24 24" aria-hidden="true">'+(KICON[k]||[]).map(function(q){ return '<path class="'+q[0]+'" d="'+q[1]+'"/>'; }).join('')+'</svg>'; }
   /* a card has room for two; the kind being filtered for comes first */
   function kicons(id){ var t=(E[id].c||[]).slice(); if(kind&&t.indexOf(kind)>0){ t.splice(t.indexOf(kind),1); t.unshift(kind); } return t.slice(0,2).map(kicon).join(''); }
   function mkNode(id){ var el=document.createElement('button'); el.type='button'; el.dataset.id=id;
