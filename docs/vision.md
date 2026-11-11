@@ -110,8 +110,8 @@ brief goes on the About page. The full rules are in `docs/structure.md`.
   who ruled, how people worked, what they believed, or who lived and died. Lasting: the
   change held for generations.
 - **Fibre:** it passes for one people or region, or only for a short time.
-- **Strand:** smaller still, an event with consequences of its own for a city, an
-  institution, a campaign or a movement.
+- **Strand:** an event that changed the course of things for part of a people: a city,
+  an institution, an army, a movement.
 
 Fame scores nothing: a famous event that changed little stays small, and a quiet one that
 changed much grows. "How much of today it explains" is no part of the test; it lives in

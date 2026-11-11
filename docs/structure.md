@@ -123,8 +123,8 @@ settlement as one event and are reworked (see Open).
 | Fibre | filled dot | An event that changed the course of history for one people or region, as deeply and for as long | An event that changed the course of one people or region. |
 | Strand | open ring | An event that changed the course of things for part of a people: a city, an institution, an army, a movement | An event that changed the course of a city, an institution or a movement. |
 
-A strand is an event in its own right, with consequences of its own, at the small end of
-the same scale. The tooltip text lives in one shared component and is never typed by hand.
+A strand is an event in its own right, with consequences of its own. All three sizes are
+defined the same way, by whose course the event changed. The tooltip text lives in one shared component and is never typed by hand.
 
 ### The method
 
@@ -308,8 +308,8 @@ event, and Back at every step. From the event, the links lead on to the events t
 it and the events it caused. A chapter's thread shows its events with their marks, and the
 depth control shows knots, then fibres, then strands; a chapter with no knot opens at its
 fibres. Every chain view carries the key: knot, an event that changed the course of its
-world; fibre, an event that changed the course of one people or region; strand, a
-smaller event with consequences of its own.
+world; fibre, an event that changed the course of one people or region; strand, an
+event that changed the course of a city, an institution or a movement.
 
 ## Open
 
