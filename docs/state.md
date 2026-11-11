@@ -180,6 +180,8 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 15a. **What an event's graphic is** (event-pages.md, Graphics; sent to the master chat
     after the first handoff). It shows the one change the event turned on, and the reader
     works it: a before-and-after switch and a tap on each part. It sits last in Overview.
+    Like the picture it swells a little as it crosses the screen; unlike the picture it
+    never fades.
     For a treaty or a conquest: the borders before and after, the land lost, and the
     states that came out of the redraw. For a battle: where it was fought and the lines of
     communication. For a vote: the tally. In the mock: Germany and its neighbours, 1914

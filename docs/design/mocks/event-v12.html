@@ -1128,6 +1128,12 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     listNew(); size(); var rz2; window.addEventListener('resize',function(){ clearTimeout(rz2); rz2=setTimeout(size,160); }); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(size);
     if(window.MutationObserver)new MutationObserver(function(){ hatch=null; draw(); }).observe(root,{attributes:true,attributeFilter:['data-theme']}); })();
 
+  /* ---------- a graphic swells a little as it crosses the screen; it never fades ---------- */
+  (function(){ if(reduced)return; var figs=[].slice.call(document.querySelectorAll('.fig')).map(function(el){ el.style.willChange='transform'; el.style.transformOrigin='50% 50%'; return {el:el,cu:1,tg:1}; }), q3=false, er3=0;
+    function ease3(){ er3=0; var more=false; figs.forEach(function(f){ f.cu+=(f.tg-f.cu)*0.11; if(Math.abs(f.tg-f.cu)>0.0004)more=true; else f.cu=f.tg; f.el.style.transform='scale('+f.cu.toFixed(4)+')'; }); if(more)er3=requestAnimationFrame(ease3); }
+    function aim(){ q3=false; var vh=Math.max(1,window.innerHeight); figs.forEach(function(f){ var top=0, el=f.el; while(el){ top+=el.offsetTop; el=el.offsetParent; } var mid=(top-window.scrollY+f.el.offsetHeight/2)/vh, s=Math.max(0,1-Math.abs(mid-0.46)/0.55); s=s*s*(3-2*s); f.tg=1+0.03*s; }); if(!er3)er3=requestAnimationFrame(ease3); }
+    window.addEventListener('scroll',function(){ if(!q3){ q3=true; requestAnimationFrame(aim); } },{passive:true}); aim(); })();
+
   /* ---------- start ---------- */
   pageLayout(); layout('init'); frameAll();
   var rz; window.addEventListener('resize',function(){ pageLayout(); clearTimeout(rz); rz=setTimeout(function(){ layout('resize'); frameAll(); },150); });
