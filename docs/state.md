@@ -231,6 +231,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       sliver and an arrow that counts what is above or below ("2 more"). Selecting an
       event turns any column on its path so the path is in view. The controls and the key
       are smaller and tighter.
+    - Scrolling (Cade, same day). A long column is now a real scrolling list laid over
+      its cards, so it moves with the phone's own momentum, snaps to a row, and hands the
+      scroll on to the page at its ends. The arrows with their counts stay as a second
+      way. Moves made with a button (the ruler's arrows, Recentre, a column's arrow) glide
+      with weight: quick to start, slow to settle, longer for a longer move. The feel on a
+      phone is not yet judged by Cade.
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width
