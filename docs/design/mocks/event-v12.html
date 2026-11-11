@@ -618,6 +618,46 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .places .frame .f2{stroke-width:.6}
 .fig{position:relative;border:1px solid color-mix(in srgb,var(--gilt) 55%,transparent);padding:20px 18px 16px;box-shadow:var(--lift);background:var(--surface)}
 .fig::before{content:"";position:absolute;inset:4px;border:1px solid var(--rule);pointer-events:none}
+
+/* ===== Historical Chain, the clean pass (Cade, 2026-11-11): one card for every event, the mark alone tells the size;
+   the web sits on the paper between two hairlines; gold marks a knot's top edge, a toggle that is on, and the event in hand ===== */
+.web{background:transparent;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.wcanvas .nd:not(.chip) .card{height:80px;min-height:0;padding:7px 8px;justify-content:center;gap:5px;border:1px solid var(--rule);background:var(--surface);box-shadow:none}
+.wcanvas .nd .nm{font:500 11px/1 var(--ui);color:var(--ink2);white-space:nowrap;letter-spacing:.01em}
+.wcanvas .nd:not(.chip) .nt{font:500 14.5px/1.14 var(--display);color:var(--title);display:-webkit-box;-webkit-line-clamp:3;-webkit-box-orient:vertical;overflow:hidden}
+.wcanvas .nd .mk.k{width:12px;height:12px}
+.wcanvas .nd.sz-k:not(.chip) .card{box-shadow:inset 0 2px 0 var(--gilt)}
+.wcanvas .nd.here:not(.chip) .card{border:1.5px solid var(--accent);box-shadow:none}
+.wcanvas .nd.sel:not(.chip) .card{border-color:var(--rule)}
+.wcanvas .nd.here.sel:not(.chip) .card{border-color:var(--accent)}
+.wcanvas .nd:active .card{background:var(--surface2)}
+/* the event in hand: the cartouche draws itself round it */
+.nd .cart{position:absolute;left:-7px;top:-7px;overflow:visible;pointer-events:none}
+.nd .cart path{fill:none;stroke:var(--gilt);stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 1.1;stroke-dashoffset:1.05;animation:frameDraw .7s cubic-bezier(.45,0,.2,1) forwards}
+.nd.chip.sel .nt{color:var(--title)!important;text-decoration:underline;text-decoration-color:var(--gilt);text-underline-offset:3px}
+.dch{background:radial-gradient(closest-side,var(--bg) 55%,transparent)}
+.wcanvas .nd.indrum:not(.chip) .card{background:var(--surface)}
+.colh{color:var(--ink3);font-weight:500;letter-spacing:.09em}
+/* the controls: one ruled strip, a gold line under what is on */
+.cbar{gap:0}
+.cbar .cb-box{border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.cbar .cb-sizes{border-left:1px solid var(--rule);border-right:1px solid var(--rule)}
+.cbar .cb-steps .n{box-shadow:none}
+.cbar .cb-steps button{color:var(--ink2)}
+.cbar .cb-sizes .cb-cell[aria-pressed="true"],.cbar .cb-sizes .cb-cell+.cb-cell[aria-pressed="true"]{background:transparent;box-shadow:inset 0 -2px 0 var(--gilt)}
+.cbar .cb-sizes .cb-cell+.cb-cell{box-shadow:none}
+.cbar .cb-filter.on{background:transparent;box-shadow:inset 0 -2px 0 var(--gilt)}
+.cbar .cb-filter.on svg{color:var(--ink)}
+/* the small map: a hairline, a tick for each step, and a bar for what is in view */
+.mini{margin:2px 16px 0;height:34px;align-items:center}
+.mini::before{content:"";position:absolute;left:0;right:0;top:50%;border-top:1px solid var(--rule)}
+.mini .cell{min-height:34px;gap:0}
+.mini .cell i,.mini .cell i.k,.mini .cell i.fi,.mini .cell i.st,.mini .cell i.ch{width:1px;height:7px;border:0;border-radius:0;background:var(--ink3);opacity:1;transform:none}
+.mini .cell.c0 i{width:7px;height:7px;background:var(--accent);transform:rotate(45deg)}
+.mini .win{top:50%;bottom:auto;height:3px;margin-top:-1.5px;background:var(--ink2);border:0;box-shadow:none}
+.sides{padding:6px 10px 0}
+.recen.on{color:var(--ink)}
+.legend{gap:5px 8px;font-size:12.5px;padding-top:12px}
 </style>
 
 <div class="stage" id="stage">
@@ -912,7 +952,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   var centre=HOME, steps=2, show={k:true,fi:true,st:false}, kind=null, side=0 /* -1 causes only, 1 effects only */, bbOnly=false, sel=null, G=null;
   var scroller=document.getElementById('wscroll'), canvas=document.getElementById('wcanvas'), svg=document.getElementById('edges'), headsLayer=document.getElementById('heads'), nodesLayer=document.getElementById('nodes'), mini=document.getElementById('mini'), trail=document.getElementById('trail');
   var N={} /* event id -> its card, where it is and where it is going */, ED={} /* link id -> its line */, drumF={} /* step -> the row a long column is turned to */;
-  var CW=130, NW=100, GAP=40, RH=84, RB=42, TOP=30, VIS=3, MAXR=4, HC=380, DSTEP=0.64;
+  var CW=130, NW=100, GAP=40, RH=92, RB=42, TOP=30, VIS=3, MAXR=4, HC=380, DSTEP=0.64;
   function matches(id){ return id===centre||(show[size(id)]&&(!kind||(E[id].c||[]).indexOf(kind)>=0)); }
 
   /* walk the link table outward from the centre. An event that fits the filters is a card. An event that
@@ -951,8 +991,8 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     el.innerHTML='<span class="card" lang="en"><span class="nm"><i class="mk '+size(id)+'" aria-hidden="true"></i><span class="yr">'+esc(when(id))+'</span></span><span class="nt">'+esc(name(id))+'</span></span>';
     nodesLayer.appendChild(el); return {id:id,el:el,cur:{x:0,y:0,s:1,o:0,d:1},tg:{x:0,y:0,s:1,o:1,d:1},w:NW,h:60,chip:false,gone:false,fresh:true,drumK:null,drumI:0}; }
   function mkEdge(l){ var g=document.createElementNS(SVGNS,'g'); g.setAttribute('class','eg');
-    var w=(backbone(l)?2.7:1.6)*(l.conf==='High'?1:l.conf==='Moderate'?0.84:0.66);
-    g.innerHTML='<path class="eline '+gcls(l)+'" stroke-width="'+w.toFixed(2)+'"/><circle class="eport" r="'+(backbone(l)?2.3:1.8)+'"/><path class="ehead"/><path class="hit" data-link="'+l.id+'"><title>'+esc(name(l.f)+' to '+name(l.t)+': '+l.grade)+'</title></path>';
+    var w=(backbone(l)?2.3:1.35)*(l.conf==='High'?1:l.conf==='Moderate'?0.84:0.66);
+    g.innerHTML='<path class="eline '+gcls(l)+'" stroke-width="'+w.toFixed(2)+'"/><circle class="eport" r="'+(backbone(l)?2:1.5)+'"/><path class="ehead"/><path class="hit" data-link="'+l.id+'"><title>'+esc(name(l.f)+' to '+name(l.t)+': '+l.grade)+'</title></path>';
     svg.appendChild(g); return {l:l,g:g,line:g.childNodes[0],port:g.childNodes[1],head:g.childNodes[2],hit:g.childNodes[3],cuA:0,tgA:1,po:0,pi:0,gone:false,big:backbone(l)}; }
   function baseX(n,k){ return n.chip?G.cx(k)+(CW-n.w)/2:G.cx(k)+GAP/2; }
 
@@ -1033,16 +1073,19 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     function cnt(a,b){ return a===b?(a+(a===1?' event':' events')):(a+' of '+b+' events'); }
     document.getElementById('nL').textContent=side>0?'hidden':cnt(cl,G.reach.l); document.getElementById('nR').textContent=side<0?'hidden':cnt(cr,G.reach.r);
     var m='<span class="win" id="win"></span>';
-    for(s=G.minS;s<=G.maxS;s++) m+='<span class="cell'+(s===0?' c0':'')+'">'+G.cols[s].map(function(id){return '<i class="'+(N[id].chip?'ch':size(id))+'"></i>'}).join('')+'</span>';
+    for(s=G.minS;s<=G.maxS;s++) m+='<span class="cell'+(s===0?' c0':'')+'"><i></i></span>';
     mini.innerHTML=m; mini.hidden=ncol<=VIS;
     if(centre!==HOME){ trail.hidden=false; trail.innerHTML='<span>Centred on <b>'+esc(name(centre))+'</b>, '+esc(when(centre))+'</span><button type="button" id="homeBtn">Back to '+esc(name(HOME))+'</button>'; document.getElementById('homeBtn').addEventListener('click',function(){ recentre(HOME); }); }
     else { trail.hidden=true; trail.innerHTML=''; }
     bar(); sync(); if(typeof secTops==='function')setTimeout(secTops,80);
   }
+  function cartOn(){ [].forEach.call(nodesLayer.querySelectorAll('.cart'),function(c){ var n=N[c.parentNode.dataset.id]; if(c.parentNode.dataset.id!==sel||!n||n.chip||+c.getAttribute('width')!==Math.round(n.w+14)||+c.getAttribute('height')!==Math.round(n.h+14))c.remove(); });
+    var n=sel&&N[sel]; if(!n||n.gone||n.chip||n.el.querySelector('.cart'))return; var w=Math.round(n.w+14), h=Math.round(n.h+14);
+    n.el.insertAdjacentHTML('beforeend','<svg class="cart" width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'" aria-hidden="true"><path pathLength="1" d="'+cartouche(w,h)+'"/></svg>'); }
   function paintClasses(){ Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone)return; var c='nd sz-'+size(id)+(n.chip?' chip':'')+(n.drumK!=null?' indrum':'')+(id===centre?' here':'')+(id===sel?' sel':''); if(n.el.className!==c)n.el.className=c; n.el.setAttribute('aria-pressed',String(id===sel)); }); }
   /* selection lights one path and quiets the rest */
   function paint(run){ var path=sel&&sel!==centre?pathOf(sel):[], onE={}, onN={}; path.forEach(function(l){onE[l.id]=1;onN[l.f]=1;onN[l.t]=1;});
-    paintClasses();
+    paintClasses(); cartOn();
     Object.keys(N).forEach(function(id){ var n=N[id]; n.tg.d=path.length?((onN[id]||id===centre)?1:0.2):1; });
     Object.keys(ED).forEach(function(id){ var e=ED[id]; if(e.gone)return; e.tgA=path.length?(onE[id]?1:0.1):1; });
     if(run!==false)kick(); }
