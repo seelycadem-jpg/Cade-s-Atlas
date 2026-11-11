@@ -128,14 +128,17 @@ Cade's direction:
 - A trial page order for every event: one paragraph of bottom line, Overview, a graphic if
   there is one, the chain, then the detail that opens, under a better name.
 
-Built: `docs/design/mocks/event-v12.html`, the first demo, awaiting Cade's read on a phone.
+Built: `docs/design/mocks/event-v12.html`. Cade's first read: the chain is better. Second
+pass, awaiting his read: the globe header and cartouche tabs of the last mock are back, and
+the web's controls, cards and motion are reworked to a finer finish.
 - Causes on the left, effects on the right, one column per step, three columns to a phone
   screen; the web slides sideways and a small map under it shows the whole.
 - A tap on an event lights its strongest path to the centre and docks its card: Open the
   page, Centre the web here, and How it connects, with the weakest line named.
 - A tap on a line opens its note: claim, strongest objection, verdict.
 - The fixed headings "What caused it" and "What it caused" label the two sides of the web.
-- Nothing here is decided until Cade has read it.
+- Decided by Cade: keep the sideways web; keep the shrinking globe and the cartouche tabs on
+  the event page. The rest waits for his read.
 
 Questions for the master chat (none settled here; no standards doc was changed):
 1. The page order. The mock follows Cade's trial order, which differs from the order agreed
