@@ -732,6 +732,27 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .dock .dgo:active,.dock .dall:active{background:var(--surface2)}
 .dock .dall{justify-self:start;min-height:26px;margin-left:24px;font:500 12px/1 var(--ui);color:var(--accent)}
 .dock .dnone{padding:7px 0 6px;font:italic 400 14px/1.2 var(--display);color:var(--ink3)}
+.dock .dflow{margin:0 -4px;padding:8px 0 9px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.dock .dfh{display:flex;justify-content:space-between;margin:0 4px 6px;font:600 10px/1.2 var(--ui);letter-spacing:.08em;text-transform:uppercase;color:var(--ink2)}
+.dock .dfb{display:grid;grid-template-columns:minmax(0,1fr) 58px minmax(0,1fr);align-items:center}
+.dock .dfc{display:grid;gap:2px;min-width:0;align-self:center}
+.dock .dfm{display:grid;justify-items:center;gap:4px;padding:8px 2px 7px;border:1px solid var(--gilt);box-shadow:0 0 0 .5px var(--gilt);background:var(--bg)}
+.dock .dfm b{font:600 13px/1 var(--ui);color:var(--ink);font-variant-numeric:tabular-nums}
+.dock .dfm span{font:500 8.5px/1 var(--ui);letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);white-space:nowrap}
+.dock .dflow .dgo{display:grid;grid-template-columns:minmax(0,1fr) 24px;gap:0;align-items:center;min-height:40px;padding:3px 0 3px 4px;text-align:right;font:inherit}
+.dock .dflow .out .dgo{grid-template-columns:24px minmax(0,1fr);padding:3px 4px 3px 0;text-align:left}
+.dock .dn{display:block;min-width:0}
+.dock .dn b{display:block;font:500 14px/1.12 var(--display);color:var(--title);white-space:normal;overflow-wrap:break-word}
+.dock .dn em{display:block;margin-top:2px;font:normal 500 9.5px/1.1 var(--ui);letter-spacing:.02em;color:var(--ink3);white-space:nowrap}
+.dock .dgo.c .dn b{color:var(--accent)}
+.dock .ar{position:relative;justify-self:center;width:17px;height:0;border-top:2.5px solid var(--accent)}
+.dock .ar.contrib{border-top:2px dashed var(--accent)}
+.dock .ar.contest{border-top:2px dotted var(--accent)}
+.dock .ar::after{content:"";position:absolute;right:-5px;top:-5.2px;border-left:6px solid var(--accent);border-top:4px solid transparent;border-bottom:4px solid transparent}
+.dock .ar.contrib::after,.dock .ar.contest::after{top:-5px}
+.dock .dflow .dnone{display:block;padding:0 6px;font:italic 400 13px/1.2 var(--display);color:var(--ink3);text-align:center}
+.dock .dflow .dall{justify-self:end;margin:0 28px 0 0;min-height:26px}
+.dock .dflow .out .dall{justify-self:start;margin:0 0 0 28px}
 .dock .pathbtn{border-top:0!important;margin-bottom:11px!important}
 .dock .pathbtn .pl{display:block;margin-bottom:2px;font:500 10px/1.2 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3)}
 .dock .pathbtn{display:grid;grid-template-columns:22px 1fr 8px;gap:10px;align-items:center;min-height:44px;padding:8px 2px;margin:0 0 12px;border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:none;font:13.5px/1.35 var(--ui);color:var(--ink);text-align:left}
@@ -1384,12 +1405,15 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   function relRows(id){ var c=[], e=[];
     A.links.forEach(function(l){ if(l.grade==='Coincident'||!E[l.f]||!E[l.t])return; if(l.t===id)c.push(l); if(l.f===id)e.push(l); });
     c.sort(function(a,b){ return E[a.f].y-E[b.f].y; }); e.sort(function(a,b){ return E[a.t].y-E[b.t].y; });
-    function row(lab,arr,key,none){ var h='<div class="drel"><span class="dl">'+lab+'</span><span class="dv">';
+    /* drawn as the chain itself, small: causes on the left, this event in the middle, effects on the right, an arrow for every line */
+    function item(l,key,side){ var o=l[key], t='<span class="dn"><b>'+esc(name(o))+'</b><em>'+E[o].y+' · '+esc(l.grade)+'</em></span>', ar='<i class="ar '+gcls(l)+'" aria-hidden="true"></i>';
+      return '<button type="button" class="dgo'+(o===centre?' c':'')+'" data-go="'+o+'" aria-label="'+esc(name(o))+', '+E[o].y+', '+(side==='in'?'a cause of this event':'an effect of this event')+', graded '+esc(l.grade)+'">'+(side==='in'?t+ar:ar+t)+'</button>'; }
+    function col(arr,key,side,none){ var h='<div class="dfc '+side+'">';
       if(!arr.length) h+='<span class="dnone">'+none+'</span>';
-      else { h+=arr.slice(0,3).map(function(l){ var o=l[key]; return '<button type="button" class="dgo'+(o===centre?' c':'')+'" data-go="'+o+'"><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span>'+esc(name(o))+'</span><em>'+E[o].y+'</em></button>'; }).join('');
-        if(arr.length>3) h+='<button type="button" class="dall" data-all>'+(arr.length-3)+' more</button>'; }
-      return h+'</span></div>'; }
-    return '<div class="drels">'+row('Caused by',c,'f','No cause in the link table')+row('Led to',e,'t','No effect in the link table')+'</div>'; }
+      else { h+=arr.slice(0,3).map(function(l){ return item(l,key,side); }).join(''); if(arr.length>3) h+='<button type="button" class="dall" data-all>'+(arr.length-3)+' more</button>'; }
+      return h+'</div>'; }
+    return '<div class="dflow"><div class="dfh"><span>What caused it</span><span>What it led to</span></div><div class="dfb">'+col(c,'f','in','Nothing in the link table')
+      +'<div class="dfm"><i class="mk '+size(id)+'" aria-hidden="true"></i><b>'+E[id].y+'</b><span>This event</span></div>'+col(e,'t','out','Nothing in the link table')+'</div></div>'; }
   function dock(){
     if(!sel){ if(dockEl){ var old=dockEl; dockEl=null; old.classList.remove('in'); clearTimeout(dockT); dockT=setTimeout(function(){ old.remove(); },260); } return; }
     var id=sel, sz=size(id), s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path), chip=N[id]&&N[id].chip;
