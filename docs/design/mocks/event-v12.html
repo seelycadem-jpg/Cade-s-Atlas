@@ -384,6 +384,10 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 .pill button:active{background:var(--surface2)}
 .pill .g:active{background:var(--accent);filter:brightness(.9)}
 .rec summary:active{background:var(--surface2)}
+/* a graphic is a plate: a gilt rule outside, a fine rule inside it, and a slight lift off the page.
+   Static, and for graphics only; the notched cartouche stays for the tabs and the places sheet. */
+.fig{position:relative;border:1px solid var(--gilt);padding:20px 18px 16px;box-shadow:var(--lift);background:var(--surface)}
+.fig::before{content:"";position:absolute;inset:4px;border:1px solid var(--rule);pointer-events:none}
 </style>
 
 <div class="stage" id="stage">
@@ -419,7 +423,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
   </section>
 
     <section class="layer" id="chain">
-    <h2>Follow Historical Chain</h2>
+    <h2>Historical Chain</h2>
     <p class="take">Causes run in from the left, effects run out to the right. Tap an event to light its path. Tap a line to read why the atlas drew it.</p>
 
     <div class="tools">

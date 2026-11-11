@@ -151,6 +151,8 @@ the web's controls, cards and motion are reworked to a finer finish.
   chronicle; the soft shadow on the content cards stays. The places sheet is smaller and
   sits in a gilt cartouche with notched corners, drawn in one stroke as on the tabs.
 
+Next in this chat: rework the look of the Historical Chain section (Cade, 2026-11-11).
+
 Questions for the master chat (none settled here; no standards doc was changed):
 1. The page order. The mock follows Cade's trial order, which differs from the order agreed
    2026-11-08 in event-pages.md. Historical significance, Lasting impact, What caused it,
@@ -172,6 +174,11 @@ Questions for the master chat (none settled here; no standards doc was changed):
     as a trial: the whole of event-v12.html is squared (one block at the end of its
     styles, easy to lift out), with round kept for the globe, the dot, the ring and the pin. A site-wide rule belongs in
     ui-rules.md and palette.md, and touches the story and chapter mocks too.
+12. The heading. Cade renames "Follow Historical Chain" to "Historical Chain" (2026-11-11).
+    The mock carries it; event-pages.md and CLAUDE.md fix the old words and need the change.
+13. Graphics. On trial in the mock: a graphic sits on a plate (a gilt rule, a fine rule
+    inside it, a slight shadow), static, and kept apart from the notched cartouche. Cade
+    wants graphics to stand off the page; the exact treatment is still open.
 10. Gilt. palette.md limits gilt to the heading stroke, the tabs and the divider diamond. On
     Cade's ask the places sheet now carries a gilt cartouche too; palette.md needs the line.
 9. The places sheet groups by chronicle and counts chapters ("25 chapters in 16
