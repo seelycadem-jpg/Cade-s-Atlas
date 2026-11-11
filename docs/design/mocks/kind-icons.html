@@ -1,0 +1,312 @@
+<title>Kind Sign Chooser</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one column. A row of five tiles for each kind; each tile carries the drawing large and, under it,
+   the same sign at the size it takes on a chain card. Two switches ride at the top, the chosen set rides at the foot.
+   Colours and type are docs/design/palette.md. Square edges throughout. */
+:root{
+  --bg:#F6F2EC; --surface:#FCFAF6; --surface2:#EFE9E1; --ink:#1C1916; --ink2:#4D4843; --ink3:#7B746D; --title:#3B2217; --rule:#DCD2C7;
+  --accent:#C81A12; --on-accent:#FFFFFF; --gilt:#B08A3E; --glass:rgba(250,247,242,.94);
+  --display:"EB Garamond",Georgia,"Times New Roman",serif; --ui:"Public Sans",system-ui,-apple-system,sans-serif;
+  --knotmark:url("data:image/svg+xml;utf8,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 20 20'><path d='M10 1.5 L18.5 10 L10 18.5 L1.5 10 Z'/></svg>");
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --rule:#3E2E26;
+  --accent:#FF6B5C; --on-accent:#1C130F; --gilt:#C9A45C; --glass:rgba(28,19,15,.94); color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --rule:#3E2E26;
+  --accent:#FF6B5C; --on-accent:#1C130F; --gilt:#C9A45C; --glass:rgba(28,19,15,.94); color-scheme:dark }
+
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:400 15px/1.45 var(--ui);-webkit-text-size-adjust:100%}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:720px;margin:0 auto;padding-block:22px 96px;padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+
+h1{margin:0;font:500 31px/1.08 var(--display);color:var(--title);text-wrap:balance}
+.lede{margin:8px 0 0;max-width:60ch;font:italic 400 17px/1.4 var(--display);color:var(--ink2)}
+.rulegilt{height:1px;margin:14px 0 0;background:linear-gradient(90deg,var(--gilt),transparent 70%)}
+
+/* the two switches */
+.bar{position:sticky;top:env(safe-area-inset-top,0px);z-index:5;display:flex;flex-wrap:wrap;gap:8px 12px;align-items:center;margin:14px 0 0;padding:8px 0;background:var(--glass);border-bottom:1px solid var(--rule)}
+.seg{display:inline-flex;border:1px solid var(--rule);background:var(--surface)}
+.seg button{min-height:34px;padding:0 13px;font:500 12px/1 var(--ui);letter-spacing:.06em;text-transform:uppercase;color:var(--ink3);border-right:1px solid var(--rule)}
+.seg button:last-child{border-right:0}
+.seg button[aria-pressed="true"]{color:var(--ink);box-shadow:inset 0 -2px 0 var(--gilt);background:var(--bg)}
+
+/* a kind and its five tiles */
+.kind{margin-top:22px}
+.kind h2{display:flex;align-items:baseline;gap:10px;margin:0 0 8px;font:500 22px/1.1 var(--display);color:var(--title)}
+.kind h2 span{font:500 11px/1 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3)}
+.row{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
+.tile{position:relative;display:grid;justify-items:center;align-content:start;gap:7px;padding:16px 2px 7px;background:var(--surface);border:1px solid var(--rule);--kibg:var(--surface);min-width:0}
+.tile .num{position:absolute;left:5px;top:4px;font:500 11px/1 var(--ui);color:var(--ink3);font-variant-numeric:tabular-nums}
+.tile .big{width:40px;height:40px;color:var(--sign)}
+.tile .true{display:grid;place-items:center;width:27px;height:23px;border:1px solid var(--rule);background:var(--surface);color:var(--signs)}
+.tile .nm{min-height:2.3em;padding:0 2px;font:500 10px/1.15 var(--ui);color:var(--ink2);text-align:center;overflow-wrap:break-word}
+.tile[aria-pressed="true"]{border-color:var(--gilt);box-shadow:0 0 0 .5px var(--gilt),inset 0 0 0 3px var(--bg)}
+.tile[aria-pressed="true"] .num{color:var(--gilt);font-weight:600}
+.tile[aria-pressed="true"] .nm{color:var(--ink)}
+.tile:active{background:var(--surface2)}
+
+/* the signs: three ways to draw one set of paths. Thin pen lines with square joins; the small copies carry
+   slightly heavier lines so they hold at card size. */
+.ki{display:block;width:15px;height:15px;fill:none;stroke:currentColor;stroke-width:1.5;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:3;overflow:visible}
+.ki .s,.ki .c,.ki .k{fill:var(--kibg)}
+.ki .f{fill:currentColor;stroke:none}
+.ki .t{stroke-width:1.05}
+.ki .d{stroke-width:.75}
+.ki .h{stroke-width:.6}
+.ki.big{stroke-width:1.15}
+.ki.big .t{stroke-width:.85}
+.ki.big .d{stroke-width:.62}
+.ki.big .h{stroke-width:.5}
+[data-draw="fine"] .ki .h{display:none}
+[data-draw="solid"] .ki,[data-draw="solid"] .ki.big{stroke-width:1.7}
+[data-draw="solid"] .ki .s,[data-draw="solid"] .ki .c{fill:currentColor}
+[data-draw="solid"] .ki .s{stroke-width:1}
+[data-draw="solid"] .ki .c{stroke:var(--kibg);stroke-width:.6}
+[data-draw="solid"] .ki .i{stroke:var(--kibg);stroke-width:1.6}
+[data-draw="solid"] .ki .k{stroke:var(--kibg);stroke-width:.6}
+[data-draw="solid"] .ki .t{stroke-width:1.1}
+[data-draw="solid"] .ki .d,[data-draw="solid"] .ki .h{display:none}
+[data-ink="ink"]{--sign:var(--title);--signs:var(--ink2)}
+[data-ink="gilt"]{--sign:var(--gilt);--signs:var(--gilt)}
+
+/* the chosen set on real cards */
+.sec{margin-top:30px}
+.sec h2{margin:0;font:500 24px/1.1 var(--display);color:var(--title)}
+.sec p{margin:6px 0 0;max-width:62ch;font:400 13.5px/1.45 var(--ui);color:var(--ink2)}
+.cards{display:grid;grid-template-columns:repeat(auto-fill,100px);gap:10px 8px;margin-top:12px}
+.card{display:grid;grid-template-columns:minmax(0,1fr);grid-template-rows:23px 1fr;height:82px;overflow:hidden;border:1px solid var(--rule);background:var(--surface);--kibg:var(--surface)}
+.card .hd{display:flex;align-items:center;gap:6px;padding:0 8px;border-bottom:1px solid var(--rule);font:500 10.5px/1 var(--ui);letter-spacing:.03em;color:var(--ink2);white-space:nowrap}
+.card .kd{margin-left:auto;display:inline-flex;gap:4px;align-items:center;color:var(--signs)}
+.card .nt{padding:6px 8px 0;font:500 14.5px/1.14 var(--display);color:var(--title);overflow-wrap:break-word;hyphens:auto}
+.card.here{border-color:var(--accent)}
+.card.here .hd{background:var(--accent);border-bottom-color:var(--accent);color:var(--on-accent);--kibg:var(--accent)}
+.card.here .kd{color:var(--on-accent)}
+.mk{display:inline-block;flex:none}
+.mk.k{width:11px;height:11px;background:var(--accent);-webkit-mask:var(--knotmark) center/contain no-repeat;mask:var(--knotmark) center/contain no-repeat}
+.mk.fi{width:8px;height:8px;border-radius:50%;background:var(--accent)}
+.card.here .mk{background:var(--on-accent)}
+
+.set{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:6px;margin-top:12px}
+.set div{display:grid;grid-template-columns:auto 1fr;gap:9px;align-items:center;padding:8px 9px;border:1px solid var(--rule);background:var(--surface);--kibg:var(--surface);min-width:0}
+.set .ki{width:26px;height:26px;color:var(--sign)}
+.set b{display:block;font:500 10px/1.1 var(--ui);letter-spacing:.06em;text-transform:uppercase;color:var(--ink3)}
+.set i{display:block;margin-top:2px;font:normal 500 12px/1.15 var(--ui);color:var(--ink);overflow-wrap:break-word}
+@media (max-width:520px){ .set{grid-template-columns:repeat(2,minmax(0,1fr))} }
+
+.picks{margin-top:14px;padding:11px 12px;border:1px solid var(--rule);background:var(--surface);font:400 13px/1.5 var(--ui);color:var(--ink);user-select:all;-webkit-user-select:all}
+.copy{margin-top:10px;min-height:42px;padding:0 18px;background:var(--accent);color:var(--on-accent);font:600 13px/1 var(--ui);letter-spacing:.04em}
+.copy:active{opacity:.85}
+.said{margin-left:10px;font:500 12.5px/1 var(--ui);color:var(--ink2)}
+
+/* the chosen set, always in view */
+.foot{position:fixed;left:0;right:0;bottom:0;z-index:6;background:var(--glass);border-top:1px solid var(--rule);padding-bottom:env(safe-area-inset-bottom,0px);padding-left:max(16px,env(safe-area-inset-left,0px));padding-right:max(16px,env(safe-area-inset-right,0px))}
+.foot button{display:flex;align-items:center;gap:12px;width:100%;max-width:720px;margin:0 auto;min-height:44px;text-align:left}
+.foot .lab{font:500 10.5px/1 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3)}
+.foot .strip{display:flex;gap:9px;align-items:center;padding:5px 9px;border:1px solid var(--rule);background:var(--surface);color:var(--signs);--kibg:var(--surface)}
+.foot .go{margin-left:auto;font:500 11.5px/1 var(--ui);color:var(--ink2)}
+@media (prefers-reduced-motion:no-preference){ .tile,.seg button{transition:background .15s,box-shadow .2s,border-color .2s} }
+</style>
+
+<div id="kc" data-draw="engraved" data-ink="ink">
+<div class="wrap">
+  <h1>Signs for the eight kinds</h1>
+  <p class="lede">Five designs for each kind of event. Tap one in each row. The small box under each drawing shows the sign at the size it takes on a chain card. Engraved adds hatching for shade; Fine leaves it off.</p>
+  <div class="rulegilt"></div>
+
+  <div class="bar">
+    <div class="seg" role="group" aria-label="How the signs are drawn">
+      <button type="button" id="drawEngraved" data-draw="engraved" aria-pressed="true">Engraved</button>
+      <button type="button" id="drawFine" data-draw="fine" aria-pressed="false">Fine</button>
+      <button type="button" id="drawSolid" data-draw="solid" aria-pressed="false">Solid</button>
+    </div>
+    <div class="seg" role="group" aria-label="Colour of the signs">
+      <button type="button" id="inkInk" data-ink="ink" aria-pressed="true">Ink</button>
+      <button type="button" id="inkGilt" data-ink="gilt" aria-pressed="false">Gilt</button>
+    </div>
+  </div>
+
+  <div id="kinds"></div>
+
+  <section class="sec" id="cards">
+    <h2>Your set on the cards</h2>
+    <p>Six events from the German pilot with the kinds the data records for them, at the size of the chain. The pilot holds no science, culture or environment event yet, so those three signs show in the list below only.</p>
+    <div class="cards" id="sample"></div>
+    <div class="set" id="set"></div>
+    <div class="picks" id="picks"></div>
+    <button type="button" class="copy" id="copyBtn">Copy my picks</button><span class="said" id="said" role="status"></span>
+  </section>
+</div>
+
+<div class="foot"><button type="button" id="footBtn" aria-label="Your set at card size. Go to the cards."><span class="lab">Your set</span><span class="strip" id="strip"></span><span class="go">On the cards</span></button></div>
+</div>
+
+<script>
+(function(){
+  /* Part classes: s shape · c shape kept apart from its neighbours · i inner line (cut out of the shape in Solid) · k hole in the shape ·
+     l line · t thin line · d hairline detail (dropped in Solid) · f always filled. h lists the shapes that take
+     hatching: [index of the shape in p, hatch from this x, hatch from this y]. Grid 24 by 24. */
+  function dot(x,y,r){ return 'M'+(x-r)+' '+y+'a'+r+' '+r+' 0 1 0 '+(2*r)+' 0a'+r+' '+r+' 0 1 0 '+(-2*r)+' 0z'; }
+  function dots(a,r){ return a.map(function(q){ return dot(q[0],q[1],r); }).join(''); }
+  var KINDS=['political','war','economic','ideas','religion','science','culture','environment'];
+  var KNAME={political:'Political',war:'War',economic:'Economic',ideas:'Ideas',religion:'Religion',science:'Science',culture:'Culture',environment:'Environment'};
+  var SETS={
+  political:[
+   {n:'Crown',h:[[0,13]],p:[['s','M4 18.5h16l1.5-10.5-5 4.5L12 5l-4.5 7.5-5-4.5z'],['i','M5.5 15.5h13'],['d','M8 16.1l.9.9-.9.9-.9-.9zM12 16.1l.9.9-.9.9-.9-.9zM16 16.1l.9.9-.9.9-.9-.9z'],['f',dots([[2.5,6.8],[12,3.8],[21.5,6.8]],1)]]},
+   {n:'Banner',p:[['l','M6 3v18.5'],['s','M6 4h13.5L16 8.5l3.5 4.5H6z'],['d','M6 7h11.2M6 10h11.2M4 21.5h4'],['f',dot(6,2.4,1)]]},
+   {n:'Capital star',p:[['l','M12 2.5a9.5 9.5 0 1 0 0 19 9.5 9.5 0 0 0 0-19z'],['d','M12 4.1a7.9 7.9 0 1 0 0 15.8 7.9 7.9 0 0 0 0-15.8z'],['f','M12 5.5L13.53 9.9 18.18 9.99 14.47 12.8 15.82 17.26 12 14.6 8.18 17.26 9.53 12.8 5.82 9.99 10.47 9.9z']]},
+   {n:'Pillared hall',h:[[0,12]],p:[['s','M2.5 9.5L12 3.5l9.5 6z'],['l','M6 12.5v6M12 12.5v6M18 12.5v6M3 21h18'],['d','M3.5 11h17M4 19.8h16M5 12.5h2M11 12.5h2M17 12.5h2M5 18.5h2M11 18.5h2M17 18.5h2'+dot(12,7.4,.9)]]},
+   {n:'Tower',h:[[0,12.5]],p:[['s','M6 21.5V8.5H4.5V3h3v2h3V3h3v2h3V3h3v5.5H18v13z'],['i','M10.5 21.5V17a1.5 1.5 0 0 1 3 0v4.5'],['d','M12 9.8v2.4M7.5 12.5h2M14.5 12.5h2M8.5 15h2.5M13.5 15H16M12 3V.8l2.5.9-2.5.9']]}
+  ],
+  war:[
+   {n:'Crossed swords',p:[['s','M7.79 14.79L17.89 4.69 20.5 3.5 19.31 6.11 9.21 16.21z'],['s','M16.21 14.79L6.11 4.69 3.5 3.5 4.69 6.11 14.79 16.21z'],['l','M6 13l5 5M8.5 15.5l-3 3M18 13l-5 5M15.5 15.5l3 3'],['f',dots([[4.8,19.2],[19.2,19.2]],1.3)]]},
+   {n:'Shield',h:[[0,12]],p:[['s','M4.5 3.5h15v8c0 5-3.2 8.2-7.5 10-4.3-1.8-7.5-5-7.5-10z'],['d','M6.3 5.3h11.4v6.2c0 4-2.5 6.6-5.7 8-3.2-1.4-5.7-4-5.7-8z'],['i','M8 13l4-4 4 4']]},
+   {n:'Helmet',h:[[2,13.5]],p:[['s','M4.8 8C6 3.5 8.8 1.2 12 1.2S18 3.5 19.2 8z'],['d','M12 1.2v2.3M9 1.9l.7 2.1M15 1.9l-.7 2.1M6.7 3.9L8 5.6M17.3 3.9L16 5.6'],['s','M4.5 11a7.5 7.5 0 0 1 15 0v6.5L16 21.5H8l-3.5-4z'],['i','M8 11.5h8M12 11.5v10'],['d','M8.3 17.8l1.2 1.7M15.7 17.8l-1.2 1.7'],['f',dots([[6.6,14.5],[17.4,14.5]],.55)]]},
+   {n:'Battle mark',h:[[0,12]],p:[['s','M12 2.5l1.61 5.62 5.11-2.84-2.84 5.11L21.5 12l-5.62 1.61 2.84 5.11-5.11-2.84L12 21.5l-1.61-5.62-5.11 2.84 2.84-5.11L2.5 12l5.62-1.61-2.84-5.11 5.11 2.84z'],['d',dot(12,12,2)]]},
+   {n:'Bow and arrow',p:[['l','M8.5 2.5c8.5 3 8.5 16 0 19M2.5 12h17'],['t','M8.5 2.5v19'],['d','M4 10.5L5.5 12 4 13.5M5.8 10.5L7.3 12l-1.5 1.5M14 10.6l1.7.200M14 13.4l1.7-.200M8.5 2.5l-1.3-.600M8.5 21.5l-1.3.600'],['f','M22 12l-4-2.2v4.4z']]}
+  ],
+  economic:[
+   {n:'Coins',h:[[0,14]],p:[['s','M4 6.5c0-1.7 3.6-3 8-3s8 1.3 8 3v11c0 1.7-3.6 3-8 3s-8-1.3-8-3z'],['i','M4 6.5c0 1.7 3.6 3 8 3s8-1.3 8-3M4 12c0 1.7 3.6 3 8 3s8-1.3 8-3'],['d','M12 4.8c-2.8 0-5 .8-5 1.7s2.2 1.7 5 1.7 5-.800 5-1.7-2.2-1.7-5-1.7zM7 10.3v2.5M10 10.9v2.5M14 10.9v2.5M17 10.3v2.5M7 15.8v2.5M10 16.4v2.5M14 16.4v2.5M17 15.8v2.5']]},
+   {n:'Balance',h:[[3,0],[4,0]],p:[['l','M12 3.5v17M7.5 20.5h9M4.5 6.5h15'],['t','M5 6.5L2.5 13M5 6.5L7.5 13M19 6.5L16.5 13M19 6.5l2.5 6.5'],['d','M9.5 19h5'],['s','M2 13h6a3 3 0 0 1-6 0z'],['s','M16 13h6a3 3 0 0 1-6 0z'],['f',dot(12,3,1.1)]]},
+   {n:'Ship',h:[[2,12]],p:[['l','M12 2.5v12'],['s','M7 4.5c2 .8 8 .8 10 0v7c-2 .8-8 .8-10 0z'],['s','M2.5 14.5h19c-.8 4-4 6.5-9.5 6.5s-8.7-2.5-9.5-6.5z'],['d','M12 2.5l3.2.9-3.2.9M10 5.3v6.4M14 5.3v6.4M3.5 17h17M5.5 19.3h13']]},
+   {n:'Sack',h:[[0,14]],p:[['s','M9 7.5C5.5 10 3.5 13.5 3.5 16.5c0 3.2 3 5 8.5 5s8.5-1.8 8.5-5c0-3-2-6.5-5.5-9z'],['l','M9 7.5L7.5 3.5l2.2 1L12 3l2.3 1.5 2.2-1-1.5 4'],['d','M11 7.5l-1.3 2.3M13 7.5l1.3 2.3M12 12.5l2.2 2.5-2.2 2.5-2.2-2.5z']]},
+   {n:'Wheat',p:[['l','M12 21.5V9'],['d','M16.5 8l1.6-2.2M16.5 11.75l1.6-2.2M16.5 15.5l1.6-2.2M7.5 8L5.9 5.8M7.5 11.75L5.9 9.55M7.5 15.5L5.9 13.3M12 2.5V.8'],['s','M12 2.5c1.6 1.6 1.6 4 0 6-1.6-2-1.6-4.4 0-6zM12 12c0-2.3 1.7-4 4.5-4 0 2.3-1.7 4-4.5 4zM12 12c0-2.3-1.7-4-4.5-4 0 2.3 1.7 4 4.5 4zM12 15.75c0-2.3 1.7-4 4.5-4 0 2.3-1.7 4-4.5 4zM12 15.75c0-2.3-1.7-4-4.5-4 0 2.3 1.7 4 4.5 4zM12 19.5c0-2.3 1.7-4 4.5-4 0 2.3-1.7 4-4.5 4zM12 19.5c0-2.3-1.7-4-4.5-4 0 2.3 1.7 4 4.5 4z']]}
+  ],
+  ideas:[
+   {n:'Open book',p:[['d','M2.5 20.2c4.5-.5 7.5 0 9.5 1.5 2-1.5 5-2 9.5-1.5'],['s','M12 6.5C10 5 7 4.5 2.5 5v13.5c4.5-.5 7.5 0 9.5 1.5 2-1.5 5-2 9.5-1.5V5C17 4.5 14 5 12 6.5z'],['i','M12 6.5V20'],['d','M4.5 8.3c1.8-.100 3.5.100 5.2.700M4.5 10.8c1.8-.100 3.5.100 5.2.700M4.5 13.3c1.8-.100 3.5.100 5.2.700M4.5 15.8c1.8-.100 3.5.100 5.2.700M19.5 8.3c-1.8-.100-3.5.100-5.2.700M19.5 10.8c-1.8-.100-3.5.100-5.2.700M19.5 13.3c-1.8-.100-3.5.100-5.2.700M19.5 15.8c-1.8-.100-3.5.100-5.2.700']]},
+   {n:'Quill',p:[['s','M20.5 3c-6.5 0-11.5 3.8-13 10L6.5 17.5l4.5-1c6-1.5 9.5-7 9.5-13.5z'],['i','M7.5 16.5L18.5 5'],['l','M7 17l-3.5 4'],['d','M10.25 13.6l-.650-2.4M13 10.75l-.800-2.75M15.75 7.9l-.550-2.3M10.25 13.6l2.55 1M13 10.75l2.4.550M15.75 7.9l2.25.400']]},
+   {n:'Candle',h:[[1,12.5]],p:[['s','M12 2c2 2 3 3.6 3 5.2a3 3 0 0 1-6 0C9 5.6 10 4 12 2z'],['s','M9 12.5h6V21H9z'],['l','M12 10.2v2.3M5.5 21h13'],['d','M12 5c.9 1 1.3 1.8 1.3 2.5a1.3 1.3 0 0 1-2.6 0c0-.700.4-1.5 1.3-2.5zM6.5 21c.300 1.2 1.3 1.8 2.5 1.8h6c1.2 0 2.2-.600 2.5-1.8M7.5 5.5L6 4.8M16.5 5.5l1.5-.700M7 8.5H5.3M17 8.5h1.7']]},
+   {n:'Scroll',h:[[0,13],[2,13]],p:[['s','M3.5 3.5h17v3h-17z'],['s','M6 6.5h12v11H6z'],['s','M3.5 17.5h17v3h-17z'],['i','M9 9.5h6M9 12h6'],['d','M9 14.5h3.5'+dots([[2.6,5],[21.4,5],[2.6,19],[21.4,19]],.9)],['f',dot(15.3,14.8,1)]]},
+   {n:'Light bulb',p:[['s','M12 2.5a6.5 6.5 0 0 0-4.2 11.5c.9.8 1.4 1.6 1.4 2.5h5.6c0-.9.5-1.7 1.4-2.5A6.5 6.5 0 0 0 12 2.5z'],['l','M9.5 19h5M10.5 21.5h3'],['d','M10 10.5l1 3.5h2l1-3.5M10 10.5c.600-.800 1.4-.800 2 0 .600-.800 1.4-.800 2 0M8.2 8a4 4 0 0 1 2.3-2.8M3.3 9H2M22 9h-1.3M4.8 4l-.900-.900M19.2 4l.900-.900']]}
+  ],
+  religion:[
+   {n:'Sacred flame',h:[[1,13]],p:[['s','M12 2c2.4 2.4 3.4 4 3.4 5.8a3.4 3.4 0 0 1-6.8 0C8.6 6 9.6 4.4 12 2z'],['s','M4.5 13h15c0 3.6-3 6-7.5 6s-7.5-2.4-7.5-6z'],['l','M12 19v2.5M8.5 21.5h7'],['d','M12 5.2c1.1 1.2 1.5 2 1.5 2.8a1.5 1.5 0 0 1-3 0c0-.800.4-1.6 1.5-2.8zM5.2 14.8h13.6'],['f',dots([[7.8,5.2],[16.4,4],[16,10.6]],.45)]]},
+   {n:'Lotus',p:[['c','M2 13.5c3.3 0 6.8 1.5 10 4-3.7 1.2-8 0-10-4zM22 13.5c-3.3 0-6.8 1.5-10 4 3.7 1.2 8 0 10-4z'],['c','M5 8c3.2.9 5.6 4.2 7 9.5C8.2 16.9 5.3 13.8 5 8zM19 8c-3.2.9-5.6 4.2-7 9.5 3.8-.600 6.7-3.7 7-9.5z'],['c','M12 4c2.7 3.3 2.7 9 0 13.5-2.7-4.5-2.7-10.2 0-13.5z'],['l','M7.5 20.5h9'],['d','M12 7v8.5M7.2 10.5c1.8 1.5 3.3 3.8 4.3 6M16.8 10.5c-1.8 1.5-3.3 3.8-4.3 6M3 20.5h2.5M18.5 20.5H21M9.5 22.5h5']]},
+   {n:'Prayer beads',p:[['t','M12 3.2a6.8 6.8 0 1 0 0 13.6 6.8 6.8 0 0 0 0-13.6z'],['f',dots([[12,3.2],[16.81,5.19],[18.8,10],[16.81,14.81],[7.19,14.81],[5.2,10],[7.19,5.19]],1.6)+dot(12,16.8,2.1)],['l','M12 18.9v1.1'],['s','M12 20l2 2.5h-4z']]},
+   {n:'Dome',h:[[0,13.5]],p:[['s','M4.5 21.5V14h1a6.5 6.5 0 0 1 13 0h1v7.5z'],['l','M12 3.5v4'],['f',dot(12,3.2,1.2)],['i','M10.5 21.5V18a1.5 1.5 0 0 1 3 0v3.5'],['d','M12 7.5c-2 1.5-3.2 3.8-3.5 6.5M12 7.5c2 1.5 3.2 3.8 3.5 6.5M12 7.5V14M5.5 14h13M4.5 15.5h15M6.8 20v-1.8a.800.8 0 0 1 1.6 0V20zM15.6 20v-1.8a.800.8 0 0 1 1.6 0V20z']]},
+   {n:'Shrine door',h:[[0,13]],p:[['s','M5.5 21.5V11c0-4 2.5-7 6.5-8.5 4 1.5 6.5 4.5 6.5 8.5v10.5z'],['i','M9 21.5v-9c0-2 1-3.5 3-4.5 2 1 3 2.5 3 4.5v9'],['d','M12 8v3M12 11l1.1 1.4L12 13.8l-1.1-1.4zM5.5 14.5H9M15 14.5h3.5M6.5 8.2l2.8 2.5M17.5 8.2l-2.8 2.5M3.5 22.9h17']]}
+  ],
+  science:[
+   {n:'Flask',h:[[0,0,15.5]],p:[['s','M9.5 3v6.5L4.3 19c-.6 1.2.2 2.5 1.5 2.5h12.4c1.3 0 2.1-1.3 1.5-2.5L14.5 9.5V3z'],['l','M8 3h8'],['i','M7.5 15.5h9'],['d','M12.8 5h1.7M12.8 7h1.7'+dot(11.2,12.3,.7)+dot(13,10,.5)]]},
+   {n:'Telescope',h:[[0,12]],p:[['s','M3.5 13L17.5 5.5l2 3.7-14 7.5z'],['l','M11.5 13.5L8 21.5M11.5 13.5l3.5 8'],['d','M7.7 10.75l1.98 3.7M14 7.38l1.98 3.7M4 13.9l-1.5.800.9 1.7 1.5-.800M11.5 13.5v8'],['f','M20.5 1.3l.500 1.2 1.2.500-1.2.500-.500 1.2-.500-1.2-1.2-.500 1.2-.500z']]},
+   {n:'Orbits',p:[['d','M12 1.5a10.5 10.5 0 1 0 0 21 10.5 10.5 0 0 0 0-21z'],['t','M5.28 5.28A9.5 4 45 1 0 18.72 18.72 9.5 4 45 1 0 5.28 5.28zM5.28 18.72A9.5 4 -45 1 0 18.72 5.28 9.5 4 -45 1 0 5.28 18.72z'],['f',dot(12,12,1.9)+dot(18.72,18.72,1)+dot(18.72,5.28,1)]]},
+   {n:'Star chart',p:[['d','M2 9c6-2 14-2 20 0M2 16c6 2 14 2 20 0'],['t','M4 5l5.5 4.5 6-3 4 6-6 5.5L6 19.5'],['f',dots([[4,5],[9.5,9.5],[19.5,12.5],[13.5,18],[6,19.5]],1.5)+'M15.5 3.8l.800 1.9 1.9.800-1.9.800-.800 1.9-.800-1.9-1.9-.800 1.9-.800z'+dots([[20,4],[3.2,13],[20.5,19.5]],.5)]]},
+   {n:'Prism',h:[[0,13.5]],p:[['s','M12 5l7 12.5H5z'],['t','M1.5 14l6-1.5M16.5 11.5l6-1.5M17.3 13.5h5.2M18.5 15.5l4 1.5'],['d','M7.8 12.5l8.4.800M4 19h16']]}
+  ],
+  culture:[
+   {n:'Mask',h:[[1,14.5]],p:[['d','M4.6 10.5c-1.8.3-2.6 1.5-2.3 3 .2 1.2 1 1.8.7 3M19.4 10.5c1.8.3 2.6 1.5 2.3 3-.2 1.2-1 1.8-.7 3'],['s','M12 3c4.8 0 7.5 2 7.5 6.3 0 6.2-3.2 11.7-7.5 11.7S4.5 15.5 4.5 9.3C4.5 5 7.2 3 12 3z'],['k','M7 9.8c1.3-1.4 3-1.4 4.2 0-1.2 1-2.9 1-4.2 0zM12.8 9.8c1.2-1.4 2.9-1.4 4.2 0-1.3 1-3 1-4.2 0zM8 13.8c2.6 1 5.4 1 8 0-.8 2.7-2.3 4-4 4s-3.2-1.3-4-4z'],['d','M6.8 7.6c1.4-1 3-1 4.4-.2M17.2 7.6c-1.4-1-3-1-4.4-.2']]},
+   {n:'Lute',h:[[0,10.5]],p:[['s','M9 9.5c3.6 0 6.2 2.6 6.2 5.8S12.6 21.2 9 21.2s-6.2-2.7-6.2-5.9S5.4 9.5 9 9.5z'],['d',dot(9,15.3,2.7)],['i',dot(9,15.3,1.5)],['s','M12.86 9.86L19.36 3.36l1.28 1.28-6.5 6.5z'],['l','M18.5 2.5l3 3'],['d','M6.3 17.1l1.8 1.8M18.5 2.5l-1-1M20 1.9l-.900-.900M21.5 5.5l1 1M22.1 4l.900.9']]},
+   {n:'Brush',p:[['s','M12.87 12.01L19.87 3.01l1.26.980-7 9z'],['s','M11.5 12l3 2.5c-1 3.5-4 5.8-10 6 1.5-1.5 2-2.8 2.3-4.2.500-2.4 2.2-4 4.7-4.3z'],['d','M12 14.2c-1.5 1.8-3.2 3.4-5.3 4.8M13.3 15.2c-1.3 1.7-3 3.2-5 4.3M2.5 22.6c2.5-1 5-1 7.5-.200']]},
+   {n:'Arch',h:[[0,15.5]],p:[['s','M4 21V10.5a8 8 0 0 1 16 0V21h-4.5V10.5a3.5 3.5 0 0 0-7 0V21z'],['i','M4 12.5h4.5M15.5 12.5H20'],['l','M2.5 21.5h19'],['d','M8.97 8.75L5.07 6.5M10.25 7.47L8 3.57M13.75 7.47L16 3.57M15.03 8.75l3.9-2.25M11.3 7.07L10.6 2.62M12.7 7.07l.700-4.45M4 15.5h4.5M4 18.3h4.5M15.5 15.5H20M15.5 18.3H20']]},
+   {n:'Vase',h:[[0,14.5]],p:[['s','M8.5 3h7v2c0 1 .5 1.8 1.5 2.8 1.6 1.6 2.5 3.2 2.5 5.2 0 3-1.7 5.5-4.5 7.5v1H9v-1c-2.8-2-4.5-4.5-4.5-7.5 0-2 .900-3.6 2.5-5.2 1-1 1.5-1.8 1.5-2.8z'],['i','M5.5 11h13M5.5 15h13'],['d','M8.5 5h7M6 14.5l1.5-3 1.5 3 1.5-3 1.5 3 1.5-3 1.5 3 1.5-3 1.5 3M9 20.5h6']]}
+  ],
+  environment:[
+   {n:'Tree',h:[[0,13.5]],p:[['s','M12 2.5c1.8 0 3.2 1 3.8 2.3 1.8.2 3.2 1.7 3.2 3.5 0 1.2-.6 2.3-1.5 2.9.1 2.1-1.6 3.800-3.700 3.800-.700 0-1.300-.200-1.800-.500-.500.300-1.100.500-1.800.500-2.100 0-3.800-1.700-3.700-3.800C5.600 10.600 5 9.500 5 8.300c0-1.800 1.400-3.300 3.200-3.500C8.800 3.500 10.200 2.500 12 2.500z'],['i','M12 14.500V9.500M12 12.500l2.500-2.500M12 11L9.800 8.800'],['l','M12 14.500v7M7.500 21.500h9'],['d','M12 19.500l-1.500 2M12 19.500l1.500 2M6 21.500l-.500-1.200M18 21.500l.500-1.200']]},
+   {n:'Leaf',p:[['s','M20 4c-8-.5-14 3.2-14.5 10.5-.100 1.6.200 3.1.900 4.3 1.2.700 2.7 1 4.3.900C18 19.2 20.5 12 20 4z'],['i','M16.5 7.5L7 17'],['l','M7 17l-3.5 3.5'],['d','M13.65 10.35V7.2M13.65 10.35h3.2M11.28 12.72V8.5M11.28 12.72h4.3M8.9 15.1v-3.6M8.9 15.1h3.8']]},
+   {n:'Wave',p:[['l','M2 18c3 0 5-2 6.5-5C10.5 8.5 13.5 6 17 6c2.5 0 4.5 1.7 4.5 4 0 1.8-1.3 3.2-3 3.2-1.4 0-2.4-1-2.4-2.2M2 21.5c2-1.5 4-1.5 6 0s4 1.5 6 0 4-1.5 6 0'],['d','M5 17.3c2-.900 3.5-2.6 4.8-5.1 1.5-3 3.7-4.4 6.2-4.4M12 7.3l-.600-1.3M14.5 6.2l-.300-1.4'],['f',dots([[19.8,3.6],[22,5.6],[17.6,3.4]],.5)]]},
+   {n:'Volcano',h:[[0,13]],p:[['s','M2.5 21L9.5 10h5l7 11z'],['l','M12 7.5c0-1.5 1.2-2 1.2-3.5 0-.800-.400-1.4-.900-1.8'],['t','M8.8 7.5c-.600-.800-.600-1.8 0-2.6M15.5 7.5c.700-.700.9-1.6.600-2.5'],['d','M9.5 10c.800.7 4.2.700 5 0M11 10.5l-1.5 4 1 2-1 3M13.5 10.5l1 3.5-.500 2.5 1.5 3'],['f',dots([[6.5,4.2],[17.6,3],[18.6,6.6]],.45)]]},
+   {n:'Sun and cloud',h:[[2,0,17.5]],p:[['l',dot(17,6.5,2.8)+'M17 1.2v1.2M22.5 6.5h-1.2M20.9 2.6l-.800.8M13.1 2.6l.800.8'],['d',dot(17,6.5,1.3)],['s','M7 21a4.5 4.5 0 0 1-1-8.9 5.5 5.5 0 0 1 10.8 1.4H17a3.75 3.75 0 0 1 0 7.5z'],['d','M9.5 14.8a3 3 0 0 1 4.3-1.3']]}
+  ]};
+  var uid=0;
+  function hatch(shape,hx,hy){
+    var id='kh'+(++uid), d='', c, x0, x1; hx=hx||0; hy=hy||0;
+    for(c=2;c<48;c+=2){ x0=Math.max(hx,c-24); x1=Math.min(24,c-hy); if(x1>x0) d+='M'+x0+' '+(c-x0)+'L'+x1+' '+(c-x1); }
+    return '<clipPath id="'+id+'"><path d="'+shape+'"/></clipPath><path class="h" clip-path="url(#'+id+')" d="'+d+'"/>';
+  }
+  /* Real events from the German pilot (atlas-data.js) with their recorded size and kinds. */
+  var SAMPLE=[
+   {y:1517,n:'Luther’s 95 Theses',z:'k',c:['religion','ideas']},
+   {y:1618,n:'Thirty Years’ War Begins',z:'k',c:['war','religion']},
+   {y:1648,n:'Peace of Westphalia',z:'k',c:['political','ideas']},
+   {y:1919,n:'The Treaty of Versailles',z:'k',c:['political'],here:1},
+   {y:1919,n:'May Fourth Movement',z:'fi',c:['ideas','political']},
+   {y:1923,n:'German Hyperinflation',z:'fi',c:['economic']}
+  ];
+
+  var root=document.getElementById('kc'), st={draw:'engraved',ink:'ink',pick:{}};
+  KINDS.forEach(function(k){ st.pick[k]=0; });
+  try{
+    var old=JSON.parse(localStorage.getItem('kindSigns2')||'null');
+    if(old){
+      if(/^(engraved|fine|solid)$/.test(old.draw)) st.draw=old.draw;
+      if(/^(ink|gilt)$/.test(old.ink)) st.ink=old.ink;
+      KINDS.forEach(function(k){ var v=old.pick&&old.pick[k]; if(v>=0&&v<5) st.pick[k]=v|0; });
+    }
+  }catch(e){}
+  function save(){ try{ localStorage.setItem('kindSigns2',JSON.stringify(st)); }catch(e){} }
+
+  function sign(k,i,cls){
+    var d=SETS[k][i], h='<svg class="ki'+(cls?' '+cls:'')+'" viewBox="0 0 24 24" aria-hidden="true">';
+    d.p.forEach(function(q,n){
+      h+='<path class="'+q[0]+'" d="'+q[1]+'"/>';
+      (d.h||[]).forEach(function(z){ if(z[0]===n) h+=hatch(q[1],z[1],z[2]); });
+    });
+    return h+'</svg>';
+  }
+  function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
+
+  var host=document.getElementById('kinds');
+  host.innerHTML=KINDS.map(function(k){
+    return '<section class="kind" data-kind="'+k+'"><h2>'+KNAME[k]+'<span></span></h2><div class="row" role="group" aria-label="'+KNAME[k]+' signs">'+
+      SETS[k].map(function(d,i){
+        return '<button type="button" class="tile" id="t-'+k+'-'+i+'" data-k="'+k+'" data-i="'+i+'" aria-pressed="false" aria-label="'+KNAME[k]+' '+(i+1)+', '+d.n+'">'+
+          '<span class="num">'+(i+1)+'</span>'+sign(k,i,'big')+'<span class="true">'+sign(k,i)+'</span><span class="nm">'+esc(d.n)+'</span></button>';
+      }).join('')+'</div></section>';
+  }).join('');
+
+  function paint(){
+    root.setAttribute('data-draw',st.draw); root.setAttribute('data-ink',st.ink);
+    [].forEach.call(document.querySelectorAll('.seg button'),function(b){
+      var on=b.hasAttribute('data-draw')?b.getAttribute('data-draw')===st.draw:b.getAttribute('data-ink')===st.ink;
+      b.setAttribute('aria-pressed',on?'true':'false');
+    });
+    [].forEach.call(document.querySelectorAll('.tile'),function(b){
+      b.setAttribute('aria-pressed',st.pick[b.getAttribute('data-k')]===+b.getAttribute('data-i')?'true':'false');
+    });
+    [].forEach.call(document.querySelectorAll('.kind'),function(s){
+      var k=s.getAttribute('data-kind'); s.querySelector('h2 span').textContent=(st.pick[k]+1)+' · '+SETS[k][st.pick[k]].n;
+    });
+    document.getElementById('sample').innerHTML=SAMPLE.map(function(e){
+      return '<div class="card'+(e.here?' here':'')+'"><span class="hd"><i class="mk '+e.z+'" aria-hidden="true"></i><span>'+e.y+'</span><span class="kd">'+
+        e.c.map(function(k){ return sign(k,st.pick[k]); }).join('')+'</span></span><span class="nt" lang="en">'+esc(e.n)+'</span></div>';
+    }).join('');
+    document.getElementById('set').innerHTML=KINDS.map(function(k){
+      return '<div>'+sign(k,st.pick[k])+'<span><b>'+KNAME[k]+'</b><i>'+(st.pick[k]+1)+' · '+esc(SETS[k][st.pick[k]].n)+'</i></span></div>';
+    }).join('');
+    document.getElementById('strip').innerHTML=KINDS.map(function(k){ return sign(k,st.pick[k]); }).join('');
+    document.getElementById('picks').textContent=line();
+    document.getElementById('said').textContent='';
+  }
+  function line(){
+    return KINDS.map(function(k){ return KNAME[k]+' '+(st.pick[k]+1)+' '+SETS[k][st.pick[k]].n; }).join(' · ')+
+      ' · drawn '+({engraved:'Engraved',fine:'Fine',solid:'Solid'})[st.draw]+', in '+st.ink;
+  }
+
+  host.addEventListener('click',function(ev){
+    var b=ev.target.closest('.tile'); if(!b) return;
+    st.pick[b.getAttribute('data-k')]=+b.getAttribute('data-i'); save(); paint();
+  });
+  [].forEach.call(document.querySelectorAll('.seg button'),function(b){
+    b.addEventListener('click',function(){
+      if(b.hasAttribute('data-draw')) st.draw=b.getAttribute('data-draw'); else st.ink=b.getAttribute('data-ink');
+      save(); paint();
+    });
+  });
+  document.getElementById('footBtn').addEventListener('click',function(){
+    var calm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+    document.getElementById('cards').scrollIntoView({behavior:calm?'auto':'smooth',block:'start'});
+  });
+  document.getElementById('copyBtn').addEventListener('click',function(){
+    var said=document.getElementById('said'), box=document.getElementById('picks');
+    function pick(){ var r=document.createRange(); r.selectNodeContents(box); var s=window.getSelection(); s.removeAllRanges(); s.addRange(r); said.textContent='Selected. Copy it from here.'; }
+    try{ navigator.clipboard.writeText(line()).then(function(){ said.textContent='Copied'; },pick); }catch(e){ pick(); }
+  });
+  paint();
+})();
+</script>

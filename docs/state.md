@@ -246,7 +246,16 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       signs in an old atlas's key: crown (political), crossed swords (war), cash coin with a
       square hole (economic), open book (ideas), domed shrine (religion), dividers
       (science), amphora (culture), mountains over water (environment). Fine line work with
-      one small inked detail. Still a first set from this chat, awaiting his read.
+      one small inked detail.
+      Cade rejected that set: the lines were too heavy and the look "bubbly", like every
+      other icon set. He asked for five designs for each kind to choose from, with thinner
+      lines, the atlas's own look, and small details. The chooser is
+      `docs/design/mocks/kind-icons.html`: forty signs, five for each kind, drawn with
+      hairline pen strokes and square joins. Three ways to draw them: Engraved (small
+      details and engraver's hatching for shade), Fine (details, no hatching), Solid
+      (filled shapes). Two colours: ink or gilt. The card-size copy is 15px, two more than
+      the event mock uses, so the thin lines hold. Awaiting his picks; the event mock
+      still carries the rejected set until he chooses.
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width
