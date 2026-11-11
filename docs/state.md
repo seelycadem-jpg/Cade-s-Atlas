@@ -279,11 +279,6 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       a time without closing it. The briefs are the Prototype 1 text from `site/data.json`,
       loaded whole from the new `event-v12-briefs.js` because `atlas-data.js` cuts them at
       220 characters; they await the rewrite.
-      Second pass the same day: Cade found the two labelled rows hard to read as cause and
-      effect. The block is now the chain in miniature: causes on the left, a small gilt box
-      for this event in the middle, effects on the right, one arrow for each line drawn in
-      its grade (solid, dashed, dotted), with the year and the grade word under each name.
-      Headed "What caused it" and "What it led to". Same left-to-right grammar as the web.
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width
