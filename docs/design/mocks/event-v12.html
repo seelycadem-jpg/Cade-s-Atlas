@@ -390,6 +390,19 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 .pageindex{margin-bottom:0;padding-bottom:6px}
 .pageindex::before{content:"";position:absolute;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));bottom:0;height:1px;background:var(--rule)}
 #overview h2{margin-top:18px}
+/* the event's picture, on trial in three places; it fades and lifts away as the reader scrolls past it */
+.pic{margin:0;padding:0;display:block;position:relative;will-change:opacity,transform;transform-origin:50% 100%;cursor:pointer}
+.pic .ph{display:grid;place-items:center;width:100%;height:100%;background:repeating-linear-gradient(135deg,var(--surface2) 0 10px,color-mix(in srgb,var(--surface2) 55%,var(--rule)) 10px 11px);color:var(--ink2);font:500 12px/1.4 var(--label);letter-spacing:.14em;text-transform:uppercase;text-align:center}
+main.pic-0 .pic{display:none}
+/* A, the plate: the full column, framed like a graphic */
+main.pic-a .pic{aspect-ratio:3/2;margin:4px 0 16px;border:1px solid color-mix(in srgb,var(--gilt) 55%,transparent);padding:4px;box-shadow:var(--lift);background:var(--surface)}
+/* B, edge to edge: no frame, the picture runs the width of the phone and melts into the paper */
+main.pic-b .pic{aspect-ratio:16/9;margin:2px -16px 14px}
+main.pic-b .pic::after{content:"";position:absolute;left:0;right:0;bottom:0;height:38%;background:linear-gradient(transparent,var(--bg));pointer-events:none}
+/* C, the inset: a small upright picture beside the opening lines */
+main.pic-c .pic{float:right;width:40%;aspect-ratio:4/5;margin:8px 0 8px 14px;border:1px solid color-mix(in srgb,var(--gilt) 55%,transparent);padding:3px;background:var(--surface);box-shadow:var(--lift)}
+main.pic-c .pageindex{clear:both}
+.mockbtn.two{bottom:calc(134px + env(safe-area-inset-bottom,0px))}
 /* arriving from the globe or the timeline: no path, only how many stories hold the event */
 .path.noroute .crumb,.path.noroute .psep{display:none}
 .path.noroute .alsoin{margin:-10px 0 -6px}
@@ -436,7 +449,8 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
   <div class="sub" id="sub"><span><b>28 June 1919</b></span><span class="rest">·</span><span class="rest">Versailles, France</span></div>
 </div>
 
-<main class="wrap">
+<main class="wrap pic-a" id="mainEl">
+  <figure class="pic" id="pic" role="button" tabindex="0" aria-label="The picture for this event (placeholder). Open its caption."><div class="ph">Picture<br>placeholder</div></figure>
   <p class="bluf">France, Britain and the United States wrote the treaty to end the war with Germany and to keep Germany from attacking again. Germany signed on 28 June 1919, lost 13 percent of its European territory and every colony, and kept an army of 100,000. The treaty left Germany the largest industrial economy in central Europe and gave no power the job of enforcing the terms.</p>
   <nav class="pageindex index" id="pageIndex" aria-label="On this page"></nav>
 
@@ -558,6 +572,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 <div id="dockHost"></div>
 <div id="sheetHost"></div>
 <div class="toast" id="toast" role="status" hidden></div>
+<button type="button" class="mockbtn two" id="picBtn" aria-label="Picture placement (mock control)">Picture: A plate</button>
 <button type="button" class="mockbtn" id="themeBtn" aria-label="Theme (mock control)">Theme: auto</button>
 <nav class="pill" aria-label="Atlas">
   <button type="button" class="g" id="globeBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>Globe</button>
@@ -932,6 +947,14 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
       return '<div class="mwr"><span class="y">'+e.y+'</span><div><button type="button" class="t" data-mw="'+e.id+'">'+esc(name(e.id))+'</button><div class="lane">'+esc(LANE[e.r]||'')+'</div>'
         +(l?'<button type="button" class="arr" data-mwl="'+l.id+'"><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span>'+(l.f===HOME?'The treaty led to it':'It led to the treaty')+': <b>'+esc(l.grade)+'</b></span>'+CHEV.replace('<svg','<svg style="width:7px;height:12px;color:var(--ink3)"')+'</button>':'<div class="arr no">No line to the treaty. The atlas treats the timing as a coincidence.</div>')+'</div></div>'; }).join('')||'<p class="mwnote">The atlas holds no other event for these years yet.</p>';
     el.addEventListener('click',function(ev){ var a=ev.target.closest('[data-mwl]'); if(a){ note(a.dataset.mwl); return; } var t=ev.target.closest('[data-mw]'); if(t)say('Would open the preview: '+name(t.dataset.mw)); }); })();
+
+  /* ---------- the picture: three placements on trial, and the fade as it leaves ---------- */
+  (function(){ var pic=document.getElementById('pic'), mainEl=document.getElementById('mainEl'), b=document.getElementById('picBtn'), V=[['pic-a','A plate'],['pic-b','B edge to edge'],['pic-c','C inset'],['pic-0','none']], vi=0, pq=false;
+    function fade(){ pq=false; if(vi===3)return; var r=pic.getBoundingClientRect(), t=reduced?(r.bottom>120?1:0):Math.max(0,Math.min(1,(r.bottom-110)/Math.max(1,r.height*0.9))); pic.style.opacity=t.toFixed(3); pic.style.transform='translate3d(0,'+((1-t)*-10).toFixed(1)+'px,0) scale('+(1-(1-t)*0.04).toFixed(4)+')'; pic.style.pointerEvents=t<0.3?'none':''; }
+    window.addEventListener('scroll',function(){ if(!pq){ pq=true; requestAnimationFrame(fade); } },{passive:true});
+    b.addEventListener('click',function(){ mainEl.classList.remove(V[vi][0]); vi=(vi+1)%V.length; mainEl.classList.add(V[vi][0]); b.textContent='Picture: '+V[vi][1]; pic.style.opacity=''; pic.style.transform=''; pageLayout(); frameAll(); fade(); });
+    function cap(){ openSheet('<div class="kind">The picture</div><h3>Placeholder</h3><p>A real picture carries its caption here. Its source, licence and credit are recorded with it and shown in this card, never printed under the picture.</p><div class="acts"><button type="button" class="close" data-close>Close</button></div>','The picture'); }
+    pic.addEventListener('click',cap); pic.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); cap(); } }); fade(); })();
 
   /* ---------- start ---------- */
   pageLayout(); layout('init'); frameAll();
