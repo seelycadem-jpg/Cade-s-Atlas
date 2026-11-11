@@ -386,6 +386,23 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 .rec summary:active{background:var(--surface2)}
 /* a graphic is a plate: a gilt rule outside, a fine rule inside it, and a slight lift off the page.
    Static, and for graphics only; the notched cartouche stays for the tabs and the places sheet. */
+/* the tab row: a hairline rule runs under it, as under an index line; the gap to the first heading is closed */
+.pageindex{margin-bottom:0;padding-bottom:6px}
+.pageindex::before{content:"";position:absolute;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));bottom:0;height:1px;background:var(--rule)}
+#overview h2{margin-top:18px}
+.index a{padding-left:11px;padding-right:11px}
+.index a::after{left:11px;right:11px}
+.piscroll{gap:2px}
+/* meanwhile: the same years elsewhere, and whether the atlas draws a line */
+.mw{border-top:1px solid var(--ink3)}
+.mwr{display:grid;grid-template-columns:3.4rem 1fr;gap:10px;padding:12px 0;border-bottom:1px solid var(--rule)}
+.mwr .y{font:600 14px/1.5 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums}
+.mwr .t{font:500 19px/1.25 var(--display);color:var(--title);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--accent);min-height:32px}
+.mwr .lane{font:500 11px/1.4 var(--ui);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3);margin:2px 0 4px}
+.mwr .arr{display:flex;align-items:center;gap:8px;min-height:44px;font:13.5px/1.4 var(--ui);color:var(--ink2);text-align:left}
+.mwr .arr.no{color:var(--ink3);min-height:0}
+.mwr .arr b{font-weight:600;color:var(--ink)}
+.mwnote{font:13px/1.5 var(--ui);color:var(--ink3);margin:10px 0 0}
 .take.how{font:italic 400 15.5px/1.45 var(--display);color:var(--ink2);margin:-4px 0 14px}
 .mockbtn{position:fixed;right:max(10px,env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:14;min-height:44px;padding:0 10px;background:var(--bg);border:1px dashed var(--ink3);font:500 11.5px/1 var(--ui);color:var(--ink2)}
 .places .frame .f1{stroke-width:.9;opacity:.75}
@@ -463,7 +480,14 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
     </div>
   </section>
 
-<section class="layer" id="record">
+<section class="layer" id="meanwhile">
+    <h2>Meanwhile</h2>
+    <p class="take how">What else the atlas holds within two years of the treaty, and whether it draws a line between them.</p>
+    <div class="mw" id="mw"></div>
+    <p class="mwnote">Mock data: the pilot holds few events for these years, so the list is short.</p>
+  </section>
+
+  <section class="layer" id="record">
     <h2>The Record</h2>
     <div class="rec">
       <details>
@@ -623,7 +647,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
   document.getElementById('globeBtn').addEventListener('click',function(){ say('Would open the Political globe at 1919'); });
 
   /* ---------- the section tabs and their cartouche (from the story and event mocks) ---------- */
-  var SECS=[['overview','Overview'],['chain','The Chain'],['record','The Record']];
+  var SECS=[['overview','Overview'],['chain','The Chain'],['meanwhile','Meanwhile'],['record','The Record']];
   var SWASH='<svg class="sw" aria-hidden="true"><path pathLength="1"/></svg>';
   function cartouche(w,h){ var r=5,i=1.5,x0=i,y0=i,x1=w-i,y1=h-i;
     return 'M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z'; }
@@ -643,7 +667,8 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
   function tabScroll(){ tabQ=false; if(!SECT.length)return; var ln=window.scrollY+Math.max(170,Math.min(window.innerHeight*0.3,240)), k=-1;
     for(var i=0;i<SECT.length;i++){ if(SECT[i]<=ln) k=i; }
     if(k===cur)return; cur=k;
-    tabs.forEach(function(a,i){ a.setAttribute('aria-current',String(i===k)); }); nav.classList.toggle('has-cur',k>=0); frameTabs(); }
+    tabs.forEach(function(a,i){ a.setAttribute('aria-current',String(i===k)); }); nav.classList.toggle('has-cur',k>=0); frameTabs();
+    var a=tabs[k], sc=a&&a.parentNode; if(sc&&sc.classList.contains('piscroll')) sc.scrollTo({left:Math.max(0,a.offsetLeft-sc.clientWidth/2+a.offsetWidth/2),behavior:reduced?'auto':'smooth'}); }
   window.addEventListener('scroll',function(){ if(!tabQ){ tabQ=true; requestAnimationFrame(tabScroll); } },{passive:true});
   function frameAll(){ frameTabs(); secTops(); }
 
@@ -884,6 +909,14 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
   [].forEach.call(document.querySelectorAll('[data-say]'),function(b){ b.addEventListener('click',function(){ say(b.dataset.say); }); });
 
   (function(){ var order=['','light','dark'], i=0, b=document.getElementById('themeBtn'); b.addEventListener('click',function(){ i=(i+1)%3; if(order[i])root.setAttribute('data-theme',order[i]); else root.removeAttribute('data-theme'); b.textContent='Theme: '+(order[i]||'auto'); drawAll(); }); })();
+
+  /* ---------- meanwhile ---------- */
+  (function(){ var LANE={ea:'East Asia',as:'East Asia',na:'North America',eu:'Europe',me:'Middle East',sa:'South Asia',se:'Southeast Asia',af:'Africa',la:'Latin America',oc:'Oceania'};
+    var rows=A.events.filter(function(e){ return e.id!==HOME&&Math.abs(e.y-E[HOME].y)<=2; }).sort(function(a,b){return a.y-b.y}), el=document.getElementById('mw'); if(!el)return;
+    el.innerHTML=rows.map(function(e){ var l=A.links.filter(function(x){ return (x.f===e.id&&x.t===HOME)||(x.t===e.id&&x.f===HOME); })[0];
+      return '<div class="mwr"><span class="y">'+e.y+'</span><div><button type="button" class="t" data-mw="'+e.id+'">'+esc(name(e.id))+'</button><div class="lane">'+esc(LANE[e.r]||'')+'</div>'
+        +(l?'<button type="button" class="arr" data-mwl="'+l.id+'"><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span>'+(l.f===HOME?'The treaty led to it':'It led to the treaty')+': <b>'+esc(l.grade)+'</b></span>'+CHEV.replace('<svg','<svg style="width:7px;height:12px;color:var(--ink3)"')+'</button>':'<div class="arr no">No line to the treaty. The atlas treats the timing as a coincidence.</div>')+'</div></div>'; }).join('')||'<p class="mwnote">The atlas holds no other event for these years yet.</p>';
+    el.addEventListener('click',function(ev){ var a=ev.target.closest('[data-mwl]'); if(a){ note(a.dataset.mwl); return; } var t=ev.target.closest('[data-mw]'); if(t)say('Would open the preview: '+name(t.dataset.mw)); }); })();
 
   /* ---------- start ---------- */
   pageLayout(); layout('init'); frameAll();
