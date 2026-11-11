@@ -139,6 +139,13 @@ the web's controls, cards and motion are reworked to a finer finish.
 - The fixed headings "What caused it" and "What it caused" label the two sides of the web.
 - Decided by Cade: keep the sideways web; keep the shrinking globe and the cartouche tabs on
   the event page. The rest waits for his read.
+- Cade, third note: the floating bubble (a bordered pill with a shadow) reads as stock AI
+  design and is to be used sparingly. In the mock, Back, the globe caption and "Also in" are
+  now plain type; the hero letters the place on the globe beside its pin; the caption no
+  longer says "drag".
+- "Also in N more chapters" opens a sheet: every place the event sits, grouped by chronicle
+  under sticky headings, a find box past eight rows, the reader's path ticked, and a scroll.
+  Choosing a row makes the page follow that path. Built for 25 places with placeholder rows.
 
 Questions for the master chat (none settled here; no standards doc was changed):
 1. The page order. The mock follows Cade's trial order, which differs from the order agreed
@@ -153,6 +160,11 @@ Questions for the master chat (none settled here; no standards doc was changed):
 5. Coincident links are left off the web and listed under "Other lines" for the event.
 6. The web draws a line only between neighbouring steps. A link that skips a step, or runs
    between two events of one step, is listed under "Other lines" and is never drawn.
+8. The bubble. Cade wants fewer floating pills. The bottom pill (Globe, year, search) is the
+   one left on the page and is a decided element (palette.md); whether it keeps that form is
+   his call in the master chat. ui-rules.md has no rule on it yet.
+9. The places sheet groups by chronicle and counts chapters ("25 chapters in 16
+   chronicles"). structure.md says "Also in N more"; the mock adds the word "chapters".
 7. The mock's sizes are placeholders: old tier 1 as knot, tier 2 as fibre, four events set
    as strands to show the filter.
 
