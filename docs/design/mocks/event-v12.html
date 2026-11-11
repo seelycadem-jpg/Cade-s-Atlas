@@ -411,6 +411,9 @@ main.pic-c .piccap,main.pic-0 .piccap{display:none}
 .pthumb.on{opacity:1;transform:none;pointer-events:auto}
 .pthumb img{display:block;width:100%;height:100%;object-fit:cover;filter:sepia(.18)}
 .pthumb:active{transform:scale(.94)}
+/* on trial: a double gilt rule round the picture plate, the outer a little stronger than the inner */
+main.pic-a .pic{padding:5px;border-color:color-mix(in srgb,var(--gilt) 70%,transparent)}
+main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transparent);outline-offset:0}
 /* withdrawn (Cade, 2026-11-11): the header stays clear; the picture returns when the reader scrolls back up */
 .pthumb{display:none}
 /* the picture's details, in the cartouche */
