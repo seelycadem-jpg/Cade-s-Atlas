@@ -132,9 +132,10 @@ figcaption{font-size:.93rem;color:var(--ink2)}
     <li>
       <span class="eyebrow">Level 4</span>
       <h3>Event</h3>
-      <p class="def">Something that happened, with a date and a place. One event, one page, one size.</p>
+      <p class="def">One happening with one outcome, at a date and a place. One event, one page, one size.</p>
       <ul class="twigs">
         <li>The size is knot, fibre or strand, rated once.</li>
+        <li>A thing that takes several steps to tell is a chapter or a story. The Mongol conquests are a story; the sack of Baghdad in 1258 is an event.</li>
         <li>An event with no link stays a line on another page or a label on the map.</li>
       </ul>
     </li>
@@ -190,7 +191,16 @@ figcaption{font-size:.93rem;color:var(--ink2)}
 
 <section>
   <h2>The three sizes</h2>
-  <p>Every event is rated once, by its impact on world history. It carries the same mark on every page.</p>
+  <p>Every event is rated once, by its impact on world history. It carries the same mark on every page. All three sizes are defined the same way, by whose course the event changed.</p>
+  <div class="key">
+    <svg viewBox="0 0 18 18" aria-hidden="true"><path class="redfill" d="M9 1 l7 8 l-7 8 l-7 -8 z"/></svg>
+    <p><b>Knot.</b> An event that changed the course of its world.</p>
+    <svg viewBox="0 0 18 18" aria-hidden="true"><circle class="redfill" cx="9" cy="9" r="6"/></svg>
+    <p><b>Fibre.</b> An event that changed the course of one people or region.</p>
+    <svg viewBox="0 0 18 18" aria-hidden="true"><circle class="ring" cx="9" cy="9" r="5.5"/></svg>
+    <p><b>Strand.</b> An event that changed the course of a city, an institution or a movement.</p>
+  </div>
+  <p class="note">These three lines are the tooltips a reader sees on the marks.</p>
   <figure>
     <svg viewBox="0 0 360 302" role="img" aria-label="Reach picks the starting size: much of its world starts as a knot, one people or region as a fibre, part of a people as a strand. Each failed check drops an event one size, never below a strand. Something that changed no one's course is a line on another page.">
       <text class="t-cap" x="12" y="16">REACH: WHOSE LIVES IT CHANGED</text>
@@ -271,8 +281,8 @@ figcaption{font-size:.93rem;color:var(--ink2)}
       <text class="t-red" x="50" y="94">part of</text>
 
       <path class="redfill" d="M40 119 l10 12 l-10 12 l-10 -12 z"/>
-      <text class="t-name" x="58" y="129">The Paris Peace Settlement</text>
-      <text class="t-sm" x="58" y="142">1919 to 1923 · knot</text>
+      <text class="t-name" x="58" y="129">The Treaty of Versailles</text>
+      <text class="t-sm" x="58" y="142">28 June 1919 · knot</text>
 
       <path class="red heavy" d="M40 143 V188"/>
       <path class="redfill" d="M40 195 l-4 -8 h8 z"/>
@@ -293,6 +303,29 @@ figcaption{font-size:.93rem;color:var(--ink2)}
       <text class="t-sm" x="48" y="283">a lighter link</text>
     </svg>
     <figcaption>The events of a chapter are a flat set joined by links. No event sits inside another. The Senate voted in Washington and belongs here because a link runs to it. An event of the same years with no link goes to Meanwhile. A heavy line marks a link graded Necessary or Sufficient: what the chapter turns on, whatever the sizes of its events. The reader can filter a thread to that backbone. The grades drawn here are examples; these links are graded in Phase 8.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>What the globe shows at a year</h2>
+  <p>The globe shows the critical events of a year and what else was happening meanwhile. Each region shows the biggest events it has for the years in view.</p>
+  <figure>
+    <svg viewBox="0 0 360 104" role="img" aria-label="Four regions in the same years. A region with a knot shows the knot. A region with no knot shows its biggest fibre. A region with no fibre shows a strand. A region with no event stays empty.">
+      <text class="t-cap" x="12" y="14">FOUR REGIONS, THE SAME YEARS</text>
+      <path class="redfill" d="M50 34 l10 12 l-10 12 l-10 -12 z"/>
+      <text class="t-sm" x="50" y="78" text-anchor="middle">has a knot:</text>
+      <text class="t-sm" x="50" y="90" text-anchor="middle">the knot shows</text>
+      <circle class="redfill" cx="137" cy="46" r="6.5"/>
+      <text class="t-sm" x="137" y="78" text-anchor="middle">no knot:</text>
+      <text class="t-sm" x="137" y="90" text-anchor="middle">its biggest fibre</text>
+      <circle class="ring" cx="223" cy="46" r="6.5"/>
+      <text class="t-sm" x="223" y="78" text-anchor="middle">no fibre:</text>
+      <text class="t-sm" x="223" y="90" text-anchor="middle">a strand</text>
+      <circle class="frame" cx="310" cy="46" r="7"/>
+      <text class="t-sm" x="310" y="78" text-anchor="middle">no event held:</text>
+      <text class="t-sm" x="310" y="90" text-anchor="middle">stays empty</text>
+    </svg>
+    <figcaption>Knots come first. A quiet region shows its biggest fibre or strand, with its own mark, so the size is never changed to fill the map. Kamehameha's unification of Hawaii in 1810 shows as a dot in the Pacific beside that year's diamonds elsewhere.</figcaption>
   </figure>
 </section>
 
@@ -345,6 +378,7 @@ figcaption{font-size:.93rem;color:var(--ink2)}
     <li><span class="tag">Holds</span><p><b>Why it mattered.</b> Each story and chapter leads with a bottom line, and each event has a size with stated tests.</p></li>
     <li><span class="tag">Holds</span><p><b>Seamless for the curious.</b> Four taps down, shared events across, Back at every step.</p></li>
     <li><span class="tag">Holds</span><p><b>The whole world.</b> Reach counted in people, and the audit, check the lean toward Europe.</p></li>
+    <li><span class="tag">Holds</span><p><b>Each year, and meanwhile.</b> The globe shows every region's biggest events for the years in view.</p></li>
     <li><span class="tag">Holds</span><p><b>What a chain turns on.</b> Link grades mark each chapter's backbone, visible and filterable.</p></li>
     <li><span class="tag">Holds</span><p><b>The people who shaped the world.</b> A life, a card or a name, decided by links.</p></li>
     <li><span class="tag">Later</span><p><b>The big questions.</b> The ten themes are built after V1.0. Thinkers and their works are in from the start.</p></li>
@@ -354,7 +388,9 @@ figcaption{font-size:.93rem;color:var(--ink2)}
 <section>
   <h2>Still open</h2>
   <ol class="fix">
-    <li><b>The number for "a large share"</b> in the reach test. It is set when the first real chronicle is rated.</li>
+    <li><b>The reach line.</b> It is derived from Cade's anchor events: five are rated, about thirty-five to go.</li>
+    <li><b>The Paris settlement</b> becomes the chapter The Treaty, and the event mock becomes a Versailles page.</li>
+    <li><b>The globe</b>: how many events a region shows at once on a phone, and how wide "the years in view" is (step 1.7).</li>
     <li><b>The idea map</b>: its shape, and the name and place of its section on the page.</li>
     <li><b>The agent loop for idea events.</b></li>
     <li><b>The backbone filter</b>: its design and its label, in the filters mock (step 1.6).</li>
