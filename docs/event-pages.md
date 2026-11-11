@@ -9,7 +9,7 @@ Walls, the same on every page, because readers learn one layout and the checks r
 - The layers and their order (below). Section headings are fixed words; the reader finds "Why it held or failed" in the same place on every page.
 - The Overview: the so-what in hard facts, two or three short paragraphs, first.
 - The register: presidential daily brief, active voice, rule zero, actors with role and name, no authorities, no value-laden words, plain verbs (house-style.md).
-- The data header: every field filled or marked blank with the reason; a verified Wikipedia and Britannica exit; tags; actors; place; time with precision; tier per chain; status.
+- The data header: every field filled or marked blank with the reason; a verified Wikipedia and Britannica exit; tags; actors; place; time with precision; size (one per event); status.
 - Sourcing (below), and the four reviewers plus the flow editor.
 
 Room, where the agent decides, because events differ:

@@ -1,6 +1,6 @@
 # Where the atlas stands (read this first in any new chat)
 
-Updated 2026-11-10. The one page that says what has been decided, where it lives and what
+Updated 2026-11-11. The one page that says what has been decided, where it lives and what
 comes next. CLAUDE.md holds the rules; this file holds the state. Update it at the end of
 every working session.
 
@@ -21,9 +21,16 @@ mocks, judged on Cade's phone. Steps are in `docs/roadmap.md`; status in `docs/p
 ## Decided (all 2026-11-08 unless dated)
 
 **Structure** (`docs/structure.md`, chart: `docs/design/levels-chart.html`)
-- Six levels: chronicle, story, chapter (frames), then knot, fibre, strand (events), in
-  that order of size. The link makes the size: a fibre is linked to a knot as cause, part
-  or consequence; a strand to a fibre or a knot. Never "inside".
+- Four levels: chronicle, story, chapter, event (Cade, 2026-11-11; replaces "six levels").
+  A chronicle is any long subject that needs several stories: a place or people, a system
+  or idea, an age or contest (Germany, Capitalism, The Second World War).
+- Three sizes of event, rated once by impact on world history and fixed on every page:
+  knot (passes reach, depth and lasting), fibre, strand. Reach is counted in people of the
+  event's own connected world, never in countries. Two guard rails: an audit of knots
+  against each region's share of people (never a quota), and chronicles planned the same way.
+- A chapter is a stretch of a story in which one thing changes; any number of knots,
+  including none. Links, never dates alone, put an event in a chapter.
+- The 781 old events and their tiers are placeholders; all are rated afresh.
 - A chapter has its own page: a longer briefing and the thread of its events. Its patch is
   the short form on the story page.
 - No caps: a chapter holds as many knots as it needs, a story as many chapters.
@@ -66,7 +73,7 @@ no invented specifics, title case for titles.
 | --- | --- | --- |
 | Story: Weimar Germany | https://claude.ai/artifact/AWaup7weY8H6EUwNDCXS37 | `docs/design/mocks/story-v2.html` |
 | Chapter: The Ruhr and the Mark | https://claude.ai/artifact/5SyFXi5sACFqRQe6zcvmyW | `docs/design/mocks/chapter-v1.html` |
-| The six levels | https://claude.ai/artifact/Y9GbTwZBYFKiwvCfbqhpku | `docs/design/levels-chart.html` |
+| The six levels (old; redraw to four levels, three sizes) | https://claude.ai/artifact/Y9GbTwZBYFKiwvCfbqhpku | `docs/design/levels-chart.html` |
 | Spine test, twenty chapters | https://claude.ai/artifact/GS6K2eL7M9fe2QA6VxQWpi | `docs/design/mocks/spine-test.html` |
 | Event: The Paris Peace Settlement | https://claude.ai/artifact/MdJzwkT1viFnjFEdqqcaaP | `docs/design/mocks/event-v11.html` |
 
@@ -76,7 +83,8 @@ The artifacts are private to Cade's account. The repo files are the source of tr
 
 1. Cade's read of the latest story, chapter and event pages on his phone.
 2. Decided 2026-11-11 (Cade): the level under chronicle keeps the name "story".
-3. Phase 1 steps left: front door (1.5), filters (1.6), the two globes (1.7), building the
+3. Redraw the levels chart to four levels and three sizes (docs/structure.md).
+4. Phase 1 steps left: front door (1.5), filters (1.6), the two globes (1.7), building the
    shared components (1.8 to 1.12), the people test (1.13).
 
 ## Desktop (Cade, 2026-11-08)

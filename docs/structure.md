@@ -1,118 +1,174 @@
-# The structure: chronicle, story, chapter, knot, fibre, strand (agreed 2026-11-08)
+# The structure: four levels and three sizes of event (agreed 2026-11-11)
 
-The one place the hierarchy lives. The chart of the six levels, for reading or sharing:
-`docs/design/levels-chart.html` (https://claude.ai/artifact/Y9GbTwZBYFKiwvCfbqhpku). Where an older doc says otherwise (story-method.md,
-narrative-flow.md, house-style.md), this file wins. Worked example: Germany.
+The one place the hierarchy lives. Where an older doc says otherwise (story-method.md,
+narrative-flow.md, house-style.md), this file wins. It replaces the "six levels" version
+of 2026-11-08. The chart `docs/design/levels-chart.html` still shows the old version and
+is redrawn next.
 
 ## The map
 
 ```
-CHRONICLE   Germany · the long view, Rome's frontier to today
-   │        page = a portrait, then the stories in order (a two-minute read)
+CHRONICLE   one long subject followed through time
+   │        Germany · The Jewish People · Capitalism · The Second World War
+   │        page = a portrait, then its stories by start date (a two-minute read)
    │
-   ├─ STORY   an era of the chronicle, each with its own argument
-   │     Germania and Rome · the Franks and the Empire · the Reformation
-   │     Austria and Prussia · Unification · the Reich · The Great War
-   │     Weimar Germany 1919–1933 · Nazi Germany 1933–1945
-   │     Divided Germany 1945–1990 · Reunified Germany 1990–today
-   │     page = why the era went the way it did, then its chapters
+   ├─ STORY   one argument: why this part went the way it did
+   │     Germany: Weimar Germany 1919–1933 · Nazi Germany 1933–1945 · ...
+   │     page = the argument, then its chapters
    │
-   │     └─ CHAPTER   a section of the story, built around its knot
+   │     └─ CHAPTER   a stretch of the story in which one thing changes
    │          Weimar: The Treaty · The Ruhr and the Mark · The Golden Years
    │                  The Depression · The Seizure of Power
-   │          its patch on the story page; its own page with a longer
-   │          briefing and the thread of its events
+   │          page = a longer briefing, then the thread of its events
    │
-   │          └─ KNOT   the chapter's major event · a full page
-   │               The Paris Peace Settlement, 1919 to 1923
-   │               (elsewhere: the United States enters the war)
-   │               usually one per chapter; as many as the chapter needs
-   │
-   │               └─ FIBRE   a smaller event linked to the knot · a shorter page
-   │                    Versailles · the Senate rejects the treaty · May Fourth
-   │                    (elsewhere: a battle of the war; the convoy that got the army there)
-   │
-   │                    └─ STRAND   a smaller event still, linked to a fibre or a knot
-   │                         the racial-equality vote, 11 April 1919 · a short page or a line
-   │                         (elsewhere: the Army issues trench shotguns)
+   │          └─ EVENTS   joined to each other by graded links
+   │               ◆ knot    The Paris Peace Settlement, 1919 to 1923
+   │               ● fibre   the Senate rejects the treaty
+   │               ○ strand  the racial-equality vote, 11 April 1919
 ```
 
-Sizes run knot > fibre > strand (Cade's order). All three are events with a date and a
-place. A figure, a date or a quotation on its own is a line inside a page, never a level.
-The chapter's own briefing paragraph is the patch.
-
-**The link makes the size, never containment** (Cade, 2026-11-08). A fibre is a step on
-the chain to or from a knot: its cause, its part or its consequence, joined to it by a
-graded link. The Senate's rejection of the treaty happened in Washington four months after
-Versailles and is a fibre of the Paris settlement because the arrow runs from one to the
-other. A strand is one step off the chain, linked to a fibre or a knot; it explains how or
-why for the deep reader. So every fibre carries at least one graded link to a knot, and
-every strand at least one to a fibre or a knot. An event with no link is a line or a label
-on the map. The chapter shows the fibres and strands linked to its knots.
+Four levels: chronicle, story, chapter, event. Knot, fibre and strand are the three sizes
+of an event. The events of a chapter are a flat set joined by links; no event sits
+"inside" another.
 
 ## The levels
 
-| Level | What it is | Its page holds | Reader word |
-| --- | --- | --- | --- |
-| Chronicle | The long story of a place or people, as long as the place's story runs | A portrait (what it was, what it held, how it ended), then its stories in order: the two-minute read | chronicle |
-| Story | An era of the chronicle, with its own argument: why it went as it did | The argument, then its chapters, each a paragraph that opens to its knot; Previous and Next story | story |
-| Chapter | A section of the story built around its knot: usually one, as many as the chapter needs | On the story page: its patch, its knots, and its fibres and strands behind a control. On its own page: a longer briefing (how the period moved), the thread of its events in date order with the graded link between each pair, where it came from and where it led, Meanwhile, Previous and Next chapter | chapter |
-| Knot | The chapter's major event | A full event page: significance, lasting impact, causes, effects, before and after, Follow Historical Chain, the briefing | knot |
-| Fibre | A smaller event linked to a knot: its cause, its part or its consequence | A shorter event page in the same shape, as long as it needs | fibre |
-| Strand | A smaller event still, linked to a fibre or a knot; one step off the chain | A short page if it carries a link; otherwise a line on the page of what it links to | strand |
+| Level | What it is | Its page holds |
+| --- | --- | --- |
+| Chronicle | One long subject followed through time by its chain of events. It needs several stories, each with its own argument | A portrait, then its stories by start date: the two-minute read |
+| Story | A part of a chronicle with one argument: why it went as it did | The argument, then its chapters, each a paragraph (its patch) that opens to the chapter page; Previous and Next story |
+| Chapter | A stretch of a story in which one thing changes. It holds every event linked into that change | A longer briefing (how the period moved), the thread of its events in date order with the graded link between each pair, where it came from and where it led, Meanwhile, Previous and Next chapter |
+| Event | Something that happened, with a date and a place | The event page (docs/event-pages.md), at a length set by the event |
 
-## Four rules
+### Chronicle
 
-1. **Size belongs to the pair of event and chain, never to the event alone.** The Paris
-   settlement is a knot in Weimar Germany and a strand in the chronicle of Iraq. Mehmed II's
-   accession at twelve is a fibre in the Ottoman chronicle and a knot in his own life. The
-   data records size per chain; a page shows the size for the chain the reader came through.
-2. **No caps on count** (Cade, 2026-11-08). A chapter holds as many knots as it needs,
-   usually one. A story holds as many chapters as its era needs: five for Weimar, twenty
-   or more for a long era if the knots are there. The count follows the chain, never a
-   target or a limit. Where a chapter grows past a few knots, the first question is
-   whether it is two chapters.
-3. **A story can belong to more than one chronicle.** Divided Germany belongs to Germany and
-   to The Cold War. One page, two parents, each listing it.
-4. **Length follows the event, not the level.** A knot that is one day is short; a knot that
-   holds five treaties is long. A strand can be one sentence on its fibre's page or its own
-   short page if it carries a link. The level sets the role; the event sets the words.
+Three kinds, one definition:
+
+- A place or people: Germany, the Ottomans, The Jewish People.
+- A system or idea: mercantilism, capitalism, communism.
+- An age or contest: The Cold War, the atomic age, The Second World War.
+
+Three tests:
+
+1. **It needs several stories.** A subject with one argument is a story. The Second World
+   War lasts six years and is a chronicle, because the war in Europe, the Eastern Front and
+   the Pacific each carry their own argument. The Space Race is decided when it is outlined.
+2. **It is a chain of dated events with a start.** Capitalism passes. "Power" fails and
+   belongs to the themes layer.
+3. **It makes an argument no existing chronicle makes.** Its portrait and stories are new
+   writing; its events mostly have pages already. A chronicle that would only list another
+   chronicle's stories is never built.
+
+A chronicle is named for its subject, never for where it ends. "The Jewish People" is a
+chronicle; "The Jewish People to the Creation of Israel" presumes the outcome. The link
+from one story to the next is a graded link like any other.
+
+### Story
+
+- A story has one argument and its own page.
+- A story can belong to more than one chronicle. The Holocaust belongs to The Jewish People
+  and to The Second World War: one page, two parents, each listing it.
+- Stories in one chronicle are ordered by start date and may overlap in time.
+- A page has one level. The Second World War (chronicle) and Nazi Germany 1933–1945
+  (story) are two pages with two arguments, sharing events.
+
+### Chapter
+
+- A chapter is a stretch of its story in which one thing changes: in The Ruhr and the
+  Mark, the currency collapses.
+- It holds as many knots as there are, including none. A chapter whose events are all
+  fibres is a full chapter.
+- A chapter that covers two changes is two chapters.
+- A chapter belongs to one story. Its events may sit in many chapters.
+- **Membership comes from links, never from dates alone.** An event sits in a chapter when
+  a graded link joins it to that chapter's change. The Senate's rejection of the treaty
+  happened in Washington and sits in The Treaty because the arrow runs there. An unlinked
+  event of the same years belongs in Meanwhile.
+- The chapter's paragraph on the story page is its patch.
+
+### Event
+
+- One event, one page, whatever chapters it sits in.
+- An event with no graded link into any chapter is a line on another page or a label on
+  the map, never a page.
+- A figure, a date or a quotation on its own is a line inside a page, never an event.
+
+## The three sizes (Cade, 2026-11-11)
+
+Every event is rated once, by its impact on world history. The size is fixed: the same
+word and the same mark on every page, whatever path the reader took.
+
+| Size | Mark | Test |
+| --- | --- | --- |
+| Knot | diamond | Passes reach, depth and lasting, all three |
+| Fibre | filled dot | Passes for one people or region only, or for a short time |
+| Strand | open ring | Explains how or why a bigger event went as it did |
+
+The three tests of a knot:
+
+1. **Reach.** It changed life for a large share of the people alive in its world at the
+   time. Reach is counted in people, never in countries. "Its world" is the connected
+   world of its day: before 1492 the Americas are a world of their own, and so is Oceania
+   before sustained contact. An event that reshaped the American world is a knot.
+2. **Depth.** It changed who ruled, how people worked, what they believed, or who lived
+   and who died.
+3. **Lasting.** The change held for generations.
+
+Size and links do separate jobs. The size says how much the event moved world history.
+The links say what caused what and which chapters the event sits in. The Paris settlement
+is a knot in Weimar Germany's chapter The Treaty and a knot in every Ottoman and Arab
+chapter that holds it.
+
+Length follows the event and its sources, never the size. A knot that is one day is short.
+
+## Two guard rails against a Western lean
+
+1. **The audit, never a quota.** For each era, each region's share of the knots is
+   compared with its share of the world's people at the time. A wide gap marks a place to
+   research. An event is never promoted to close a gap; that would invent importance.
+2. **Chronicles are planned by the same measure.** The order in which chronicles are
+   written is checked against the same shares, because knots follow the chronicles that
+   exist.
+
+From about 1750 to 1950 many knots start in Europe, because European empires reached most
+of the world. In those years the events where the impact landed get their full size:
+Plassey, the Opium War, the Haitian Revolution, the rebellion of 1857 in India.
+
+The 781 events in `site/data.json` and their tiers are placeholders. Every event is rated
+afresh by these tests in the rebuild.
 
 ## One event, many chapters (Cade, 2026-11-08)
 
-An event has one page, whatever chains it sits in. The Paris settlement is a knot in Weimar
-Germany's chapter The Treaty and sits in chapters of the Ottoman and Arab chronicles too.
-
 - The event page says what the event was and what it caused, across every chain. It lists
-  every chapter it sits in, with its size in each, and each opens that chapter at the event.
+  every chapter it sits in, and each opens that chapter at the event.
 - The chapter page says what the event meant in that chain: why it sits there, what came
   before it and what it led to there. That framing lives on the chapter, never copied into
   the event page.
 - On a chapter's thread, an event that sits in other chapters shows them as "Also in".
 - A reader who arrives from a chapter sees that chapter in the event page's breadcrumb and
   Back, so the context they came through is the one offered first.
-- Every page opens with its path, each step labelled with its level (Cade, 2026-11-08):
-  Germany (chronicle) › Weimar Germany (story 8 of 12) › The Treaty (chapter 1 · knot). The
-  path is the one the reader came by; with no route, the page's home path. Where a page sits
-  in more than one place (an event in several chapters, a story in several chronicles), "Also
-  in N more" ends the path and opens every path with the size in each, the reader's own
-  marked. Choosing another path makes the page follow it: its size, its Next and its chain.
+- Every page opens with its path, each step labelled with its level: Germany (chronicle) ›
+  Weimar Germany (story 8 of 12) › The Treaty (chapter 1) › the event with its mark. The
+  path is the one the reader came by; with no route, the page's home path. Where a page
+  sits in more than one place, "Also in N more" ends the path and opens every path, the
+  reader's own marked. Choosing another path makes the page follow it: its Next and its
+  chain. The size stays the same on every path.
 
 ## What a reader can do
 
 Open Germany and read it in two minutes. Open Weimar and read why it fell. Open The Treaty
-and read how the year moved. Open the settlement. Open Versailles. Open the vote of 11 April 1919. Six taps from the long
-view to one afternoon, and Back at every step. The chain view (Follow Historical Chain)
-shows the knots as a thread; a chapter opens into its fibres, then its strands; the key
-reads: knot, a major event; fibre, a smaller event linked to it; strand, a smaller event
-still, one step further out.
+and read how the year moved. Open the settlement. Four taps from the long view to one
+event, and Back at every step. From the event, the links lead on to the events that caused
+it and the events it caused. A chapter's thread shows its events with their marks, and the
+depth control shows knots, then fibres, then strands; a chapter with no knot opens at its
+fibres. Every chain view carries the key: knot, an event that changed the course of its
+world; fibre, an event that changed the course of one people or region; strand, an event
+that explains how or why a bigger one went as it did.
 
 ## Open
 
-- Decided 2026-11-08, then changed the same day on Cade's call: a chapter has its own page
-  (operational, between the story's strategic view and the knot's tactical one). The patch
-  stays on the story page as its short form; the chapter's title opens the page, and so
-  does a small "Read the chapter" link at the end of its paragraph (Cade, 2026-11-08). Only the
-  longer briefing is written; the thread is built from the event and link data.
+- The levels chart is redrawn to four levels and three sizes.
+- "A large share" in the reach test has no number yet; it is set when the first chronicles
+  are rated.
 - The pilot's "German Question" (1517 to today) becomes stories inside the Germany
   chronicle in Phase 7.

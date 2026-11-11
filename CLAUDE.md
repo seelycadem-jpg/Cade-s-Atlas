@@ -43,15 +43,15 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 
 - `docs/architecture.md`: how the site is built: a page per thing, scripts only where needed,
   slices and tiles, budgets that fail the build. Read before writing code in `app/`.
-- `docs/structure.md`: the hierarchy, chronicle to strand, with Germany as the worked
-  example; wins over older docs on levels and names.
+- `docs/structure.md`: the four levels (chronicle, story, chapter, event), the three
+  sizes of event and their tests, the guard rails; wins over older docs on levels and names.
 - `docs/vision.md`: what the atlas is for and how it differs from an encyclopedia. Every
   phase, page and screen is judged against it.
 - `docs/event-pages.md`: the event page: walls and room, the four layers, word budgets by
   tier, a rule per section, sourcing, the file template, the Paris worked example and a
   failing Overview. Agreed 2026-11-03; it wins where older rules conflict.
-- `docs/narrative-flow.md`: the five flow tests, the three tiers (all events; tier per
-  chain), flavor and the transplant test, the two checking agents, the six places and
+- `docs/narrative-flow.md`: the five flow tests, the three tiers (all events; one size
+  per event, see structure.md), flavor and the transplant test, the two checking agents, the six places and
   their checks, the era rule for old data. Wins over story-method.md on tiers.
 - `docs/agents.md`: the session loop, the page pipeline, every skill with its phase, and
   the checks each of the six places adds. Read before building or running a skill.
@@ -134,13 +134,16 @@ Whatever the prompt says:
   verified exits.
 - Never write a person's impact as prose: impact is graded links. A feature with no
   link into a chain stays a label on the map, never a page.
-- Readers see knot, fibre and strand, in that order of size (Cade's decision,
-  2026-11-08): a knot is a major event, the one its chain breaks without; a fibre is a
-  smaller event linked to a knot, as its cause, its part or its consequence; a strand is a
-  smaller event still, linked to a fibre or a knot, one step off the chain. The link, never
-  containment, makes the size ("inside" is the wrong word; Cade, 2026-11-08). All three
+- Four levels: chronicle, story, chapter, event. Readers see three sizes of event, knot,
+  fibre and strand (Cade, 2026-11-11; docs/structure.md): each event is rated once, by its
+  impact on world history, and carries the same size on every page. A knot passes reach
+  (a large share of the people alive in its world at the time, counted in people, never in
+  countries), depth and lasting; a fibre passes for one people or region, or briefly; a
+  strand explains how or why a bigger event went as it did. Links, never dates alone, put
+  an event in a chapter; no event sits "inside" another. Never promote an event to balance
+  regions: audit the shares and research the gap. All three
   are events with a date and a place; a figure or a date on its own is a line inside a
-  page, never a level. Every chain view carries the
+  page, never an event. Every chain view carries the
   one-line key, and the three marks (a diamond, a filled dot, an open ring; Cade,
   2026-11-08) go with the words. The other
   names from the analytic foundations stay internal.

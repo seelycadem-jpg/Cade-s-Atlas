@@ -9,7 +9,7 @@ Every level of the atlas is made of the summaries of the level below, and every 
 Five tests, checked by the flow editor on every story and chronicle assembly:
 
 1. Composition. A story's text says nothing its patches do not carry; a chronicle's text says nothing its stories do not carry.
-2. One knot per patch. Each paragraph of a story is built around exactly one turning point.
+2. One change per patch. Each paragraph of a story covers one change, with as many knots as there are, including none (docs/structure.md).
 3. The connector test. Between any two patches the unspoken word is "therefore" or "but". If only "and then" fits, the patches merge or one is cut.
 4. Causation runs through every level. A fibre can spark a knot; the graded arrow is the same object at every depth.
 5. Orientation. On every page the reader can say where they are, what came before and what comes next: breadcrumb, previous and next knot, the parents this page belongs to.
@@ -22,13 +22,15 @@ Atlas (the globe, the year, the doors) > Chronicle (a place, practice or transfo
 
 All three tiers are events: a thing that happened on a date in a place, with a page, carrying at least one arrow.
 
-- Knot: a turning point the chain cannot do without.
-- Strand: a step between knots.
-- Fibre: a lesser-known event for the reader who wants to go deep.
+- Knot: passes reach, depth and lasting in its world.
+- Fibre: passes for one people or region, or for a short time.
+- Strand: explains how or why a bigger event went as it did.
+
+The order of size is knot, fibre, strand; the full tests are in docs/structure.md.
 
 Figures, documents and quotes are detail. Detail is a section of a page ("The detail"), never a tier. A fact that carries no arrow is a line inside its parent page, never an event.
 
-Tier belongs to the pair of event and chain, never to the event alone. The same event has a different size in every chain it belongs to, and a page shows the size for the chain the reader came through. Mehmed II's accession at twelve is a fibre in the Ottoman chronicle and a knot in his own life. The data model records tier per (event, chain).
+Tier belongs to the event (Cade, 2026-11-11). Each event is rated once, by its impact on world history, and carries the same size in every chain; the tests are in docs/structure.md, which wins where this file differs. The data model records one tier per event.
 
 Going deeper opens a chain. There is no fourth tier. A reader who wants more than a fibre opens the event as a chain of its own, where it becomes a knot with strands and fibres under it. Readers see three plain labels (turning points, the full story, every detail); knot, strand and fibre stay internal.
 

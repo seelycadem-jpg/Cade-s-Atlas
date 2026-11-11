@@ -59,9 +59,9 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
    year is in the address, so a link shares the moment.
 
 8. **Three sizes, the same words everywhere:** knot, fibre, strand, in that order of
-   size (Cade's decision, 2026-11-08). A fibre is linked to a knot, a strand to a fibre or
-   a knot; the link makes the size, never containment. A chain view shows the knots as
-   the thread; a chapter opens into the fibres linked to its knots, then the strands. The depth control uses the same three
+   size (Cade's decision, 2026-11-08). Each event has one size, rated by its impact on world history
+   (docs/structure.md, 2026-11-11), and shows the same mark on every page. A chapter's thread
+   shows its events with their marks: knots, then fibres, then strands; a chapter with no knot opens at its fibres. The depth control uses the same three
    words with their marks, and every chain view carries the one-line key. This is the strategic-to-tactical ladder: a reader at any level can see
    the level above (the breadcrumb, the parent chronicle) and the level below (the next
    depth word, the linked names) from where they stand. Size is shown, never said: a
