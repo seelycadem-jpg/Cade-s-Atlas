@@ -287,6 +287,10 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     Cade asked (2026-11-11) whether to drop it. This chat's view: drop it from the event page; the
     docked header already carries the globe and the year, and search belongs in the site header.
     It is site-wide navigation, so the master chat decides.
+    Cade then said to go ahead (same day): the event mock now shows no bottom bar; search is a
+    magnifier beside Back in the top row and fades with the Back label once the title docks, so
+    search is out of reach mid-page. Pop-ups sit lower to use the freed space. On trial on this
+    mock only; the story and chapter mocks still carry the bar.
 17. **Graphics on a plate** (event-pages.md, Graphics): a gilt rule, a fine rule inside, a
     slight shadow, static. Cade wants graphics to stand off the page; the treatment is open.
 18. (Settled; see item 5.) The mock still carries its trial buttons for other frames and

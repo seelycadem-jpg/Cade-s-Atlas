@@ -573,6 +573,14 @@ main.pic-c .pic,main.pic-a .pic{transform-origin:50% 50%}
 :root.mockopen .mockbtn,.mockbtn.tog{display:block}
 /* Cade settled the picture (2026-11-11): C inset with gilt corners. Its two trial switches are withdrawn. */
 #frBtn,#picBtn{display:none!important}
+/* The bottom bar is withdrawn on trial (Cade, 2026-11-11): the docked header carries the globe and the year.
+   Search moves to the top row beside Back and fades with the Back label once the title docks. */
+.pill{display:none!important}
+.dock,.sheet,.toast{bottom:calc(18px + env(safe-area-inset-bottom,0px))}
+.mockbtn.tog{bottom:calc(18px + env(safe-area-inset-bottom,0px))!important}
+.topsearch{display:inline-flex;align-items:center;justify-content:center;min-width:44px;min-height:44px;color:var(--ink);transition:opacity .2s}
+.topsearch svg{width:19px;height:19px;filter:drop-shadow(0 0 3px var(--bg))}
+.stage.small .topsearch{opacity:0;pointer-events:none}
 .mockbtn.tog{bottom:calc(84px + env(safe-area-inset-bottom,0px));min-height:34px;padding:0 8px;opacity:.75}
 /* on trial: a double gilt rule round the picture plate, the outer a little stronger than the inner */
 main.pic-a .pic{padding:5px;border-color:color-mix(in srgb,var(--gilt) 70%,transparent)}
@@ -793,6 +801,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   <button type="button" class="pthumb" id="pthumb" aria-label="Open the picture: the Hall of Mirrors during the signing" tabindex="-1"><img src="versailles-signing-1919.jpg" alt=""></button>
   <div class="topbar">
     <button class="back" type="button" data-say="Back: the exact place and year you left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg><span>Back</span></button>
+    <button class="topsearch" type="button" data-say="Would open search" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="butt" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
   </div>
 </div>
 <div class="spacer" id="spacer"><div class="hint" id="hint">Globe 1919</div></div>
