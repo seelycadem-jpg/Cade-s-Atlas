@@ -1,0 +1,319 @@
+<title>Atlas Structure Map</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:opsz,wght@6..72,400;6..72,500&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column, phone first. A red thread runs down the four levels;
+   each mechanism gets one small figure drawn at phone scale. Tokens: docs/design/palette.md */
+:root{
+  --bg:#F6F2EC;--surface:#FCFAF6;--surface2:#EFE9E1;--ink:#1C1916;--title:#3B2217;--lede:#5A3220;
+  --ink2:#4D4843;--ink3:#7B746D;--rule:#DCD2C7;--accent:#C81A12;--gilt:#B08A3E;
+  --f-title:"EB Garamond",Georgia,serif;--f-read:"Newsreader",Georgia,serif;--f-ui:"Public Sans",system-ui,sans-serif;
+}
+@media (prefers-color-scheme:dark){:root:not([data-theme="light"]){
+  --bg:#1C130F;--surface:#261A15;--surface2:#2E211B;--ink:#F2E9E0;--title:#F2E9E0;--lede:#E8C9A8;
+  --ink2:#C4B4A7;--ink3:#948174;--rule:#3E2E26;--accent:#FF6B5C;--gilt:#C9A45C;color-scheme:dark}}
+:root[data-theme="dark"]{
+  --bg:#1C130F;--surface:#261A15;--surface2:#2E211B;--ink:#F2E9E0;--title:#F2E9E0;--lede:#E8C9A8;
+  --ink2:#C4B4A7;--ink3:#948174;--rule:#3E2E26;--accent:#FF6B5C;--gilt:#C9A45C;color-scheme:dark}
+body{background:var(--bg);color:var(--ink);font-family:var(--f-read);font-size:17px;line-height:1.5}
+.wrap{max-width:34rem;margin:0 auto;padding-block:28px 56px;
+  padding-left:max(18px,env(safe-area-inset-left,0px));padding-right:max(18px,env(safe-area-inset-right,0px));
+  display:flex;flex-direction:column;gap:44px}
+h1,h2,h3{font-family:var(--f-title);color:var(--title);font-weight:500;margin:0;text-wrap:balance}
+h1{font-size:2.2rem;line-height:1.1}
+h2{font-size:1.55rem;line-height:1.15}
+h2::after{content:"";display:block;width:150px;height:3px;margin-top:8px;border-radius:2px;
+  background:linear-gradient(90deg,var(--gilt),transparent)}
+p{margin:0}
+.eyebrow{font-family:var(--f-ui);font-size:.7rem;letter-spacing:.12em;text-transform:uppercase;color:var(--ink3)}
+.lede{font-family:var(--f-title);font-size:1.3rem;line-height:1.35;color:var(--lede)}
+section,header{display:flex;flex-direction:column;gap:16px}
+.note{color:var(--ink2);font-size:.95rem}
+
+/* map 1: the thread of levels */
+.thread{list-style:none;margin:0;padding:0 0 0 30px;position:relative;display:flex;flex-direction:column;gap:26px}
+.thread::before{content:"";position:absolute;left:8px;top:10px;bottom:10px;width:2px;background:var(--accent)}
+.thread>li{position:relative;display:flex;flex-direction:column;gap:6px}
+.thread>li::before{content:"";position:absolute;left:-28px;top:7px;width:14px;height:14px;border-radius:50%;
+  background:var(--bg);border:2px solid var(--accent);box-sizing:border-box}
+.thread h3{font-size:1.45rem}
+.thread .def{color:var(--ink)}
+.twigs{list-style:none;margin:2px 0 0;padding:0;display:flex;flex-direction:column;gap:5px;
+  font-size:.93rem;color:var(--ink2);border-left:1px solid var(--rule);padding-left:12px}
+.chips{display:flex;flex-wrap:wrap;gap:6px;margin-top:2px}
+.chip{font-family:var(--f-ui);font-size:.74rem;background:var(--surface);border:1px solid var(--rule);
+  border-radius:999px;padding:3px 10px;color:var(--ink2)}
+.chip b{font-weight:600;color:var(--title)}
+
+/* figures */
+figure{margin:0;display:flex;flex-direction:column;gap:10px}
+figure svg{display:block;width:100%;max-width:440px;height:auto;margin:0 auto;color:var(--ink)}
+figcaption{font-size:.93rem;color:var(--ink2)}
+.bx{fill:var(--surface);stroke:var(--rule)}
+.bx-ev{fill:var(--surface);stroke:var(--accent);stroke-width:1.5}
+.ln{stroke:var(--ink3);stroke-width:1;fill:none}
+.red{stroke:var(--accent);stroke-width:1.6;fill:none}
+.redfill{fill:var(--accent)}
+.ring{fill:var(--bg);stroke:var(--accent);stroke-width:1.6}
+.grey{fill:var(--ink3)}
+.frame{fill:none;stroke:var(--ink3);stroke-dasharray:4 4}
+.t-cap{font-family:var(--f-ui);font-size:8.5px;letter-spacing:.1em;fill:var(--ink3)}
+.t-name{font-family:var(--f-title);font-size:13px;fill:var(--title)}
+.t-big{font-family:var(--f-title);font-size:16px;fill:var(--title)}
+.t-sm{font-family:var(--f-ui);font-size:9.5px;fill:var(--ink2)}
+.t-red{font-family:var(--f-ui);font-size:9.5px;fill:var(--accent)}
+
+/* sizes key */
+.key{display:grid;grid-template-columns:auto 1fr;gap:10px 12px;align-items:start}
+.key svg{width:18px;height:18px;margin-top:4px}
+.key b{font-family:var(--f-title);font-size:1.15rem;font-weight:500;color:var(--title)}
+
+/* bars */
+.bars{display:grid;grid-template-columns:auto 1fr auto;gap:7px 10px;align-items:center;font-family:var(--f-ui);font-size:.78rem;color:var(--ink2)}
+.bars i{display:block;height:9px;border-radius:2px;background:var(--ink3);min-width:2px}
+.bars span:nth-child(3n){font-variant-numeric:tabular-nums;text-align:right}
+
+/* verdict list */
+.verdict{list-style:none;margin:0;padding:0;display:flex;flex-direction:column;gap:14px}
+.verdict li{display:grid;grid-template-columns:4.2rem 1fr;gap:10px}
+.tag{font-family:var(--f-ui);font-size:.68rem;letter-spacing:.08em;text-transform:uppercase;padding-top:5px;color:var(--ink3)}
+.tag.gap{color:var(--accent)}
+.verdict b,.fix b{font-weight:500;color:var(--title)}
+.fix{margin:0;padding-left:1.3rem;display:flex;flex-direction:column;gap:14px}
+</style>
+
+<div class="wrap">
+
+<header>
+  <span class="eyebrow">Meanwhile Atlas · structure agreed 11 November 2026</span>
+  <h1>Four levels, three sizes of event</h1>
+  <p class="lede">A reader goes from the long view to one afternoon in four taps. Every event has one page and one size, and links decide where it sits.</p>
+</header>
+
+<section>
+  <h2>The four levels</h2>
+  <ol class="thread">
+    <li>
+      <span class="eyebrow">Level 1</span>
+      <h3>Chronicle</h3>
+      <p class="def">One long subject followed through time. It needs several stories.</p>
+      <div class="chips">
+        <span class="chip"><b>A place or people</b> · Germany, The Jewish People</span>
+        <span class="chip"><b>A system or idea</b> · Capitalism, Communism</span>
+        <span class="chip"><b>An age or contest</b> · The Second World War, The Cold War</span>
+      </div>
+      <ul class="twigs">
+        <li>Named for its subject, never for where it ends.</li>
+        <li>It must show a line through history that no other chronicle shows.</li>
+      </ul>
+    </li>
+    <li>
+      <span class="eyebrow">Level 2</span>
+      <h3>Story</h3>
+      <p class="def">A part of a chronicle that one briefing covers, with one bottom line: what happened and why it matters.</p>
+      <ul class="twigs">
+        <li>A story can sit in several chronicles: one page, several parents.</li>
+        <li>Stories run in order of start date and may overlap.</li>
+      </ul>
+    </li>
+    <li>
+      <span class="eyebrow">Level 3</span>
+      <h3>Chapter</h3>
+      <p class="def">A stretch of a story in which one thing changes.</p>
+      <ul class="twigs">
+        <li>It holds any number of knots, including none.</li>
+        <li>Two changes make two chapters.</li>
+        <li>A link puts an event in a chapter. A shared date never does.</li>
+      </ul>
+    </li>
+    <li>
+      <span class="eyebrow">Level 4</span>
+      <h3>Event</h3>
+      <p class="def">Something that happened, with a date and a place. One event, one page, one size.</p>
+      <ul class="twigs">
+        <li>The size is knot, fibre or strand, rated once.</li>
+        <li>An event with no link stays a line on another page or a label on the map.</li>
+      </ul>
+    </li>
+  </ol>
+</section>
+
+<section>
+  <h2>One event, many paths</h2>
+  <figure>
+    <svg viewBox="0 0 360 346" role="img" aria-label="Three chronicles reach one event page by different paths. The Holocaust story has two parent chronicles.">
+      <rect class="bx" x="6" y="8" width="108" height="54" rx="4"/>
+      <text class="t-cap" x="60" y="22" text-anchor="middle">CHRONICLE</text>
+      <text class="t-name" x="60" y="38" text-anchor="middle">The Jewish</text>
+      <text class="t-name" x="60" y="53" text-anchor="middle">People</text>
+      <rect class="bx" x="126" y="8" width="108" height="54" rx="4"/>
+      <text class="t-cap" x="180" y="22" text-anchor="middle">CHRONICLE</text>
+      <text class="t-name" x="180" y="38" text-anchor="middle">The Second</text>
+      <text class="t-name" x="180" y="53" text-anchor="middle">World War</text>
+      <rect class="bx" x="246" y="8" width="108" height="54" rx="4"/>
+      <text class="t-cap" x="300" y="22" text-anchor="middle">CHRONICLE</text>
+      <text class="t-name" x="300" y="45" text-anchor="middle">Germany</text>
+
+      <path class="ln" d="M60 62 L92 106 M180 62 L148 106 M300 62 L300 106"/>
+
+      <rect class="bx" x="36" y="106" width="168" height="52" rx="4"/>
+      <text class="t-cap" x="120" y="121" text-anchor="middle">STORY · TWO PARENTS</text>
+      <text class="t-name" x="120" y="143" text-anchor="middle">The Holocaust</text>
+      <rect class="bx" x="246" y="106" width="108" height="52" rx="4"/>
+      <text class="t-cap" x="300" y="120" text-anchor="middle">STORY</text>
+      <text class="t-name" x="300" y="135" text-anchor="middle">Nazi Germany</text>
+      <text class="t-name" x="300" y="150" text-anchor="middle">1933–1945</text>
+
+      <path class="ln" d="M120 158 L120 200 M300 158 L300 200"/>
+
+      <rect class="bx" x="66" y="200" width="108" height="44" rx="4"/>
+      <text class="t-cap" x="120" y="215" text-anchor="middle">CHAPTER</text>
+      <text class="t-name" x="120" y="233" text-anchor="middle">The Camps</text>
+      <rect class="bx" x="246" y="200" width="108" height="44" rx="4"/>
+      <text class="t-cap" x="300" y="215" text-anchor="middle">CHAPTER</text>
+      <text class="t-name" x="300" y="233" text-anchor="middle">Genocide</text>
+
+      <path class="red" d="M120 244 L152 288 M300 244 L212 288"/>
+      <text class="t-red" x="92" y="270" text-anchor="middle">link</text>
+      <text class="t-red" x="280" y="278" text-anchor="middle">link</text>
+
+      <rect class="bx-ev" x="92" y="288" width="176" height="50" rx="4"/>
+      <text class="t-cap" x="180" y="303" text-anchor="middle">EVENT · ONE PAGE</text>
+      <text class="t-name" x="180" y="323" text-anchor="middle">The Wannsee Conference, 1942</text>
+    </svg>
+    <figcaption>Three chronicles reach the same event page. The Holocaust is one story with two parent chronicles. Germany reaches the event through a chapter of its own story. The chapter names here are examples.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>The three sizes</h2>
+  <p>Every event is rated once, by its impact on world history. It carries the same mark on every page.</p>
+  <figure>
+    <svg viewBox="0 0 360 322" role="img" aria-label="An event that passes reach, depth and lasting is a knot. One that passes for one region only, or briefly, is a fibre. A strand explains a bigger event.">
+      <text class="t-cap" x="109" y="16" text-anchor="middle">AN EVENT</text>
+      <path class="red" d="M109 22 V44 M109 102 V118 M109 176 V192 M109 250 V272"/>
+
+      <rect class="bx" x="14" y="44" width="190" height="58" rx="4"/>
+      <text class="t-big" x="28" y="66">Reach</text>
+      <text class="t-sm" x="28" y="81">a large share of the people</text>
+      <text class="t-sm" x="28" y="93">alive in its world at the time</text>
+
+      <rect class="bx" x="14" y="118" width="190" height="58" rx="4"/>
+      <text class="t-big" x="28" y="140">Depth</text>
+      <text class="t-sm" x="28" y="155">who ruled, how people worked,</text>
+      <text class="t-sm" x="28" y="167">what they believed, who lived</text>
+
+      <rect class="bx" x="14" y="192" width="190" height="58" rx="4"/>
+      <text class="t-big" x="28" y="214">Lasting</text>
+      <text class="t-sm" x="28" y="229">the change held</text>
+      <text class="t-sm" x="28" y="241">for generations</text>
+
+      <path class="ln" d="M204 73 H290 V132"/>
+      <path class="ln" d="M204 221 H290 V162"/>
+      <path class="grey" d="M290 138 l-4 -7 h8 z M290 156 l-4 7 h8 z"/>
+      <text class="t-sm" x="212" y="66">one region only</text>
+      <text class="t-sm" x="212" y="214">only briefly</text>
+      <circle class="redfill" cx="290" cy="147" r="6.5"/>
+      <text class="t-big" x="304" y="152">Fibre</text>
+
+      <path class="redfill" d="M109 272 l10 12 l-10 12 l-10 -12 z"/>
+      <text class="t-big" x="109" y="314" text-anchor="middle">Knot</text>
+      <text class="t-sm" x="56" y="288" text-anchor="middle">passes</text>
+      <text class="t-sm" x="56" y="300" text-anchor="middle">all three</text>
+
+      <path class="red" stroke-dasharray="3 3" d="M281 284 H128"/>
+      <path class="redfill" d="M122 284 l8 -4 v8 z"/>
+      <text class="t-sm" x="205" y="277" text-anchor="middle">explains how or why</text>
+      <circle class="ring" cx="290" cy="284" r="6.5"/>
+      <text class="t-big" x="290" y="314" text-anchor="middle">Strand</text>
+    </svg>
+    <figcaption>An event that passes all three tests is a knot. One that passes for a single people or region, or only for a short time, is a fibre. A strand explains how or why a bigger event went as it did.</figcaption>
+  </figure>
+  <div class="key">
+    <svg viewBox="0 0 18 18" aria-hidden="true"><path class="redfill" d="M9 1 l7 8 l-7 8 l-7 -8 z"/></svg>
+    <p><b>Reach is counted in people, never in countries.</b> One Chinese province can outweigh several European states.</p>
+    <svg viewBox="0 0 18 18" aria-hidden="true"><path class="redfill" d="M9 1 l7 8 l-7 8 l-7 -8 z"/></svg>
+    <p><b>"Its world" is the connected world of its day.</b> Before 1492 the Americas are a world of their own, so an event that reshaped them is a knot.</p>
+  </div>
+</section>
+
+<section>
+  <h2>Inside a chapter</h2>
+  <figure>
+    <svg viewBox="0 0 360 250" role="img" aria-label="A chapter holds a flat set of events joined by links. An unlinked event of the same years sits outside, in Meanwhile.">
+      <text class="t-cap" x="12" y="14">CHAPTER · THE TREATY</text>
+      <rect class="frame" x="10" y="22" width="252" height="218" rx="6"/>
+
+      <circle class="ring" cx="40" cy="58" r="6.5"/>
+      <text class="t-name" x="58" y="56">The racial-equality vote</text>
+      <text class="t-sm" x="58" y="69">11 April 1919 · strand</text>
+
+      <path class="red" d="M40 66 V110"/>
+      <path class="redfill" d="M40 117 l-4 -8 h8 z"/>
+      <text class="t-red" x="50" y="94">part of</text>
+
+      <path class="redfill" d="M40 119 l10 12 l-10 12 l-10 -12 z"/>
+      <text class="t-name" x="58" y="129">The Paris Peace Settlement</text>
+      <text class="t-sm" x="58" y="142">1919 to 1923 · knot</text>
+
+      <path class="red" d="M40 143 V188"/>
+      <path class="redfill" d="M40 195 l-4 -8 h8 z"/>
+      <text class="t-red" x="50" y="171">led to</text>
+
+      <circle class="redfill" cx="40" cy="203" r="6.5"/>
+      <text class="t-name" x="58" y="201">The Senate rejects the treaty</text>
+      <text class="t-sm" x="58" y="214">Washington · fibre</text>
+
+      <text class="t-cap" x="312" y="96" text-anchor="middle">MEANWHILE</text>
+      <circle class="grey" cx="312" cy="131" r="6.5"/>
+      <text class="t-sm" x="312" y="156" text-anchor="middle">same years,</text>
+      <text class="t-sm" x="312" y="168" text-anchor="middle">no link</text>
+    </svg>
+    <figcaption>The events of a chapter are a flat set joined by links. No event sits inside another. The Senate voted in Washington and belongs here because a link runs to it. An event of the same years with no link goes to Meanwhile.</figcaption>
+  </figure>
+</section>
+
+<section>
+  <h2>Two guard rails against a Western lean</h2>
+  <p><b style="font-weight:500;color:var(--title)">The audit, never a quota.</b> For each era we compare a region's share of the knots with its share of the world's people then. A wide gap marks a place to research. We never promote an event to close a gap.</p>
+  <p><b style="font-weight:500;color:var(--title)">Chronicles planned by the same measure.</b> Knots follow the chronicles we write, so the writing order is checked against the same shares.</p>
+  <p class="note">Why it matters: the share of the top tier in the 781 placeholder events of Prototype 1, by region.</p>
+  <div class="bars">
+    <span>Europe</span><i style="width:100%"></i><span>34%</span>
+    <span>North America</span><i style="width:44%"></i><span>15%</span>
+    <span>East Asia</span><i style="width:35%"></i><span>12%</span>
+    <span>Latin America</span><i style="width:29%"></i><span>10%</span>
+    <span>Middle East, N. Africa</span><i style="width:26%"></i><span>9%</span>
+    <span>Sub-Saharan Africa</span><i style="width:21%"></i><span>7%</span>
+    <span>South Asia</span><i style="width:15%"></i><span>5%</span>
+    <span>Oceania</span><i style="width:9%"></i><span>3%</span>
+    <span>Southeast Asia</span><i style="width:3%"></i><span>1%</span>
+  </div>
+  <p class="note">Europe and North America hold half of the old top tier. All 781 events are rated afresh under the new tests.</p>
+</section>
+
+<section>
+  <h2>Does it deliver the mission?</h2>
+  <ul class="verdict">
+    <li><span class="tag">Holds</span><p><b>History as cause and effect.</b> Links decide chapter membership, so every page a reader opens sits on a chain.</p></li>
+    <li><span class="tag">Holds</span><p><b>Why it mattered.</b> Each story and chapter leads with a bottom line, and each event has a size with stated tests.</p></li>
+    <li><span class="tag">Holds</span><p><b>Seamless for the curious.</b> Four taps down, shared events across, Back at every step.</p></li>
+    <li><span class="tag">Holds</span><p><b>The whole world.</b> Reach counted in people, and the audit, check the lean toward Europe.</p></li>
+    <li><span class="tag gap">Gap</span><p><b>What a chain turns on.</b> A chapter of fibres has no mark for its pivotal event.</p></li>
+    <li><span class="tag gap">Gap</span><p><b>People and themes.</b> The vision promises both, and the structure gives neither a defined place yet.</p></li>
+    <li><span class="tag gap">Gap</span><p><b>The vision doc.</b> It still describes the older two-judgment sizing.</p></li>
+  </ul>
+</section>
+
+<section>
+  <h2>Five ways to improve it</h2>
+  <ol class="fix">
+    <li><b>Let link grades show what a chain turns on.</b> A link graded Necessary means the chain breaks without that event. The chapter thread can stress those events, whatever their size. Size then answers "how big in world history", and the grade answers "how vital here".</li>
+    <li><b>Give a person's life a level.</b> A life has one bottom line, so it fits as a story whose events are shared with other stories. A dynasty or a long career could be a chronicle.</li>
+    <li><b>Place themes beside the levels.</b> A theme is a question across all of history. It gathers events from many chronicles by tag and link, and it never owns them.</li>
+    <li><b>Decide what happens to "explains today".</b> The older test scored how much of today's world an event explains. The new test drops it, which removes a pull toward recent Western events. The event page can still say what the event explains today.</li>
+    <li><b>Set the reach threshold and keep the 25-year rule.</b> "A large share" needs a number once the first chronicles are rated. Recent events keep a provisional size for 25 years, as the vision already says.</li>
+  </ol>
+</section>
+
+</div>
