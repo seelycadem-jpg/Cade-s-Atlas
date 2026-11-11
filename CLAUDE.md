@@ -140,7 +140,8 @@ Whatever the prompt says:
   impact on world history, and carries the same size on every page. A knot changed the course of
   its world, a fibre the course of one people or region, a strand the course of a city, an
   institution or a movement. Reach (counted in people, never in countries) sets the size;
-  an event that fails depth, lasting or the counterfactual check drops one size. Every size
+  an event whose change did not last, or whose outcome a named earlier event had already
+  decided, drops one size, never below a strand. Every size
   carries its recorded reason and evidence. An event is one happening with one outcome; a
   thing that takes several steps to tell is a chapter or a story. Links, never dates alone, put
   an event in a chapter; no event sits "inside" another. Never promote an event to balance

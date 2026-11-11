@@ -25,7 +25,7 @@ mocks, judged on Cade's phone. Steps are in `docs/roadmap.md`; status in `docs/p
   A chronicle is any long subject that needs several stories: a place or people, a system
   or idea, an age or contest (Germany, Capitalism, The Second World War).
 - Three sizes of event, rated once by impact on world history and fixed on every page:
-  knot (passes reach, depth and lasting), fibre, strand. Reach is counted in people of the
+  knot, fibre, strand. Reach is counted in people of the
   event's own connected world, never in countries. Two guard rails: an audit of knots
   against each region's share of people (never a quota), and chronicles planned the same way.
 - A chapter is a stretch of a story in which one thing changes; any number of knots,

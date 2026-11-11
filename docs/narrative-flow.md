@@ -22,8 +22,8 @@ Atlas (the globe, the year, the doors) > Chronicle (a place, practice or transfo
 
 All three tiers are events: a thing that happened on a date in a place, with a page, carrying at least one arrow.
 
-- Knot: passes reach, depth and lasting in its world.
-- Fibre: passes for one people or region, or for a short time.
+- Knot: an event that changed the course of history for much of its world.
+- Fibre: an event that changed the course of history for one people or region.
 - Strand: an event that changed the course of things for part of a people: a city, an institution, an army, a movement.
 
 The order of size is knot, fibre, strand; the full tests are in docs/structure.md.

@@ -126,42 +126,61 @@ settlement as one event and are reworked (see Open).
 A strand is an event in its own right, with consequences of its own. All three sizes are
 defined the same way, by whose course the event changed. The tooltip text lives in one shared component and is never typed by hand.
 
-### The method
+### The method (settled with Cade, 2026-11-11)
 
-**Step 1. Reach sets the starting size.** Reach is counted in people, never in countries,
-and over the life of the event's consequences, never on the day alone.
+**Step 1. Reach sets the starting size.** Reach is the count of people whose lives the
+event changed: who ruled them, how they made a living, what they believed, or whether
+they lived. It is counted in people, never in countries.
 
 | Whose lives changed | Starts as |
 | --- | --- |
-| More than one region of its world, or a large share of the people alive in it | Knot |
+| Much of its world: a large share of the people alive in it, or a people's course in more than one of its regions | Knot |
 | One people, state or region | Fibre |
-| Part of one | Strand |
+| Part of one: a city, an institution, an army, a movement | Strand |
 
-"Its world" is the connected world of its day: before 1492 the Americas are a world of
-their own, and so is Oceania before sustained contact. The list of worlds by era is fixed
-in the data, so a rater never picks the denominator. An event that reshaped the American
-world is a knot.
+- **How far reach travels.** Reach counts the event's direct effects, plus the
+  consequences joined to it by links graded Necessary or Sufficient: the ones that would
+  not have happened without it. Weaker links carry no reach. The printing press reaches
+  as far as its backbone runs, and no further.
+- **Its world** is the connected world of its day: before 1492 the Americas are a world of
+  their own, and so is Oceania before sustained contact. The list of worlds by era is
+  fixed in the data, so a rater never picks the denominator. An event that reshaped the
+  American world is a knot.
+- **Regions** are the atlas's fixed list of large regions. The event must have changed a
+  people's course in each one it is counted in; a minor treaty between two regions is no
+  knot.
+- **"A large share" is a band, never a switch.** The line is derived, never asserted:
+  Cade rates the anchor events by judgment first, and the share that best separates his
+  knots from his fibres becomes the line. The first figure to test is about a tenth of the
+  people alive in the event's world. Well above the line passes; well below fails. Where
+  the range of the population estimate straddles the line, the event goes to comparison
+  with the anchor events and to the blind second rating.
 
-"A large share" is a band, never a switch (Cade, 2026-11-11):
+**Step 2. Two checks.** Each failure drops the event one size. The drops stop at a strand.
 
-- The line is derived, never asserted. Cade rates the anchor events by judgment first; the
-  share that best separates his knots from his fibres becomes the line. The first figure
-  to test is about a tenth of the people alive in the event's world.
-- Well above the line passes; well below fails. Where the range of the population estimate
-  straddles the line, the event goes to comparison with the anchor events and to the blind
-  second rating.
-- A person counts toward reach only where one of the four depth changes happened to them
-  (rule, living, belief, survival) within the lasting window. This stops reach stretching
-  to everyone an event ever touched.
+- **Lasting.** The change outlasted the generation that lived through it. An event less
+  than 25 years old cannot be judged yet: it keeps its starting size, and the data marks
+  the size provisional. Readers see the size alone (Cade: data only). September 2001 is
+  past the 25 years and is rated in full; the United States election of 2024 holds the
+  size its recorded consequences support and is rated again as links are added.
+- **Cause or mark.** Had a named earlier event already decided this outcome? The drop
+  applies only when that earlier event is in the link table with a link graded Sufficient.
+  Japan's surrender ceremony of 2 September 1945 marked an outcome that the events of
+  August had decided, so it drops, and the size sits with them. Where a change came from
+  slow conditions that no single event carries, the event that brought it keeps its size,
+  because it is where the change happened: the printing press and the radio are knots.
 
-**Step 2. Two gates.** An event that fails one drops one size; the floor is a strand.
+**Step 3. The floor.** The checks lower a size and never erase an event. One thing puts
+something below a strand: the rater cannot say, in one sentence, whose course it changed
+and how. It is then a line on another page.
 
-- Depth: it changed at least one of four things: who ruled, how people made a living, what
-  they believed, or how many lived.
-- Lasting: the change outlasted the generation that lived through it.
+| A line on another page | A strand |
+| --- | --- |
+| A birth date, a casualty figure, a quotation | A battle that decided a campaign |
+| A ceremony that changed nothing | A vote that split a movement |
+| A meeting with no outcome | A decree that reshaped one institution |
 
-**Step 3. The counterfactual check.** Would the same change have come within a generation
-without this event? If yes, the event marked the change, and it drops one size.
+A strand still needs what every event needs: a date, a place and at least one graded link.
 
 ### The record that defends a size
 
@@ -169,7 +188,7 @@ Each rating is recorded in the event's header, as a link's grade is:
 
 - The size and its reason in one sentence.
 - Evidence for each test. Reach cites a population estimate with its basis and range.
-  Depth and lasting point to the event's own outgoing links, so a size never exceeds what
+  Reach and lasting point to the event's own outgoing links, so a size never exceeds what
   the link table shows the event caused.
 - The best case for a different size, and a confidence word.
 - A blind second rating: a second agent rates from the same evidence without seeing the

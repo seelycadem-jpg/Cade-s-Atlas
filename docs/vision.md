@@ -57,7 +57,7 @@ competes on what an encyclopedia is built to avoid:
 - **Judgment first.** The atlas says what mattered, who gained and who paid, and how
   sure it is. An encyclopedia stays neutral by rule.
 - **Size is judged, by stated tests.** Every event is rated once as a knot, a fibre or a
-  strand by its reach, depth and lasting effect; the link grades show what each chapter
+  strand by its reach and its lasting effect; the link grades show what each chapter
   turns on (structure.md).
 - **Layered reading.** Thirty seconds, three minutes, ten minutes, then the chain.
 - **Meanwhile.** One year cursor shows what else was happening across the world, and an
@@ -105,15 +105,16 @@ Every event gets one size, rated once by its impact on world history, with a wri
 reason, so the atlas can answer a reader who asks "why is this a knot?" The method in
 brief goes on the About page. The full rules are in `docs/structure.md`.
 
-- **Knot:** it passes three tests. Reach: it changed life for a large share of the people
-  alive in its world at the time, counted in people, never in countries. Depth: it changed
-  who ruled, how people worked, what they believed, or who lived and died. Lasting: the
-  change held for generations.
-- **Fibre:** it passes for one people or region, or only for a short time.
+- **Knot:** an event that changed the course of history for much of its world. Afterward
+  a large share of the people alive were ruled differently, worked differently, believed
+  differently, or lived where they would have died, and the change outlasted them.
+- **Fibre:** an event that changed the course of history for one people or region.
 - **Strand:** an event that changed the course of things for part of a people: a city,
   an institution, an army, a movement.
 
-Fame scores nothing: a famous event that changed little stays small, and a quiet one that
+Reach, counted in people and never in countries, sets the size. An event whose change did
+not last, or whose outcome a named earlier event had already decided, drops one size,
+never below a strand. Fame scores nothing: a famous event that changed little stays small, and a quiet one that
 changed much grows. "How much of today it explains" is no part of the test; it lives in
 an event page's Lasting impact and, later, on the theme pages.
 
