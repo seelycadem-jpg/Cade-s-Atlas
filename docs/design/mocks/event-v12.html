@@ -386,7 +386,11 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 .rec summary:active{background:var(--surface2)}
 /* a graphic is a plate: a gilt rule outside, a fine rule inside it, and a slight lift off the page.
    Static, and for graphics only; the notched cartouche stays for the tabs and the places sheet. */
-.fig{position:relative;border:1px solid var(--gilt);padding:20px 18px 16px;box-shadow:var(--lift);background:var(--surface)}
+.take.how{font:italic 400 15.5px/1.45 var(--display);color:var(--ink2);margin:-4px 0 14px}
+.mockbtn{position:fixed;right:max(10px,env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:14;min-height:44px;padding:0 10px;background:var(--bg);border:1px dashed var(--ink3);font:500 11.5px/1 var(--ui);color:var(--ink2)}
+.places .frame .f1{stroke-width:.9;opacity:.75}
+.places .frame .f2{stroke-width:.6}
+.fig{position:relative;border:1px solid color-mix(in srgb,var(--gilt) 55%,transparent);padding:20px 18px 16px;box-shadow:var(--lift);background:var(--surface)}
 .fig::before{content:"";position:absolute;inset:4px;border:1px solid var(--rule);pointer-events:none}
 </style>
 
@@ -424,7 +428,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 
     <section class="layer" id="chain">
     <h2>Historical Chain</h2>
-    <p class="take">Causes run in from the left, effects run out to the right. Tap an event to light its path. Tap a line to read why the atlas drew it.</p>
+    <p class="take how">Causes run in from the left and effects run out to the right; tap an event or a line to see how the atlas connects them.</p>
 
     <div class="tools">
       <div class="trow"><span class="tl" id="lblSteps">Steps out</span>
@@ -519,6 +523,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 <div id="dockHost"></div>
 <div id="sheetHost"></div>
 <div class="toast" id="toast" role="status" hidden></div>
+<button type="button" class="mockbtn" id="themeBtn" aria-label="Theme (mock control)">Theme: auto</button>
 <nav class="pill" aria-label="Atlas">
   <button type="button" class="g" id="globeBtn"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg>Globe</button>
   <button type="button" class="y" data-say="Would open the year card for 1919">1919</button>
@@ -877,6 +882,8 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 
   var toast=document.getElementById('toast'), tt; function say(m){ toast.textContent=m; toast.hidden=false; clearTimeout(tt); tt=setTimeout(function(){toast.hidden=true},2400); }
   [].forEach.call(document.querySelectorAll('[data-say]'),function(b){ b.addEventListener('click',function(){ say(b.dataset.say); }); });
+
+  (function(){ var order=['','light','dark'], i=0, b=document.getElementById('themeBtn'); b.addEventListener('click',function(){ i=(i+1)%3; if(order[i])root.setAttribute('data-theme',order[i]); else root.removeAttribute('data-theme'); b.textContent='Theme: '+(order[i]||'auto'); drawAll(); }); })();
 
   /* ---------- start ---------- */
   pageLayout(); layout('init'); frameAll();
