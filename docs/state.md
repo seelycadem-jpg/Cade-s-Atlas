@@ -153,6 +153,13 @@ Questions for the master chat (none settled here; no standards doc was changed):
 7. The mock's sizes are placeholders: old tier 1 as knot, tier 2 as fibre, four events set
    as strands to show the filter.
 
+## Added to the roadmap (Cade, 2026-11-11)
+
+- Phase 14: accounts (game scores through the year, saved pages), and a daily or weekly
+  email whose content and rhythm are still Cade's to decide (step 14.8).
+- Step 10.5a: "Report a problem" by email on every page, at launch, with no account.
+- The services these need are outside the stack and wait for a proposal (step 14.2).
+
 ## Desktop (Cade, 2026-11-08)
 
 Phone first, desktop second, and the desktop is designed, never the phone layout stretched
