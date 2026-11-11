@@ -225,6 +225,17 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       explained in each line's note. The pop-up for a tapped event, and every sheet, sit
       in the gilt cartouche; the pop-up states the relation in one sentence generated
       from the grade ("The Treaty of Versailles was one cause of it among several.").
+    - Third pass (Cade, same day). The whole instrument (controls, ruler, web, key) sits
+      in one full-width band with a hairline above and below and a faint tint, the colour
+      of the globe's sea. A column shows three events; a longer one turns, with a faded
+      sliver and an arrow that counts what is above or below ("2 more"). Selecting an
+      event turns any column on its path so the path is in view. The controls and the key
+      are smaller and tighter.
+    - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
+      the web rebuilt itself on every one, jumping back to the centre and resetting any
+      turned column, so events seemed to vanish. It now rebuilds only when the width
+      changes and keeps the column in view. A test of 140 random taps, filter changes and
+      height changes found no event missing afterwards.
 
 ### B. On trial in the mock, for Cade to settle
 

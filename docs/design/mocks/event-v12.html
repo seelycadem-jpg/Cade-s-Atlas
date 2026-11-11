@@ -713,6 +713,46 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .sheet.gilded .sbody{padding:18px 19px 14px;overflow-y:auto;overscroll-behavior:contain;min-height:0}
 .sheet.gilded .lrows{border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:none}
 .sheet.gilded .lrow{padding-left:2px;padding-right:2px}
+
+/* ===== Historical Chain, third pass (Cade, 2026-11-11): the whole instrument sits in one ruled, tinted band ===== */
+:root{--chain:#F0EBE3}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){--chain:#160F0B} }
+:root[data-theme="dark"]{--chain:#160F0B}
+.chainbox{margin:0 -16px;background:var(--chain);border-top:1px solid var(--ink3);border-bottom:1px solid var(--ink3)}
+.chainbox .web{margin:0;background:none;border:0}
+/* the controls, tighter: one hairline under them, a short tick between groups */
+.chainbox .cbar{margin:0;padding:0 12px;background:var(--chain);gap:0}
+.chainbox .cbar::after{background:linear-gradient(var(--chain),transparent)}
+.chainbox .cbar .cb-box{border:0;border-bottom:1px solid var(--rule)}
+.chainbox .cbar .cb-sizes,.chainbox .cbar .cb-filter,.chainbox .cbar .cb-rec{border-left:0;border-right:0;background-image:linear-gradient(var(--rule),var(--rule));background-size:1px 18px;background-position:0 50%;background-repeat:no-repeat}
+.chainbox .cb-steps{grid-template-columns:32px 38px 32px}
+.chainbox .cb-steps button,.chainbox .cb-cell{min-height:44px}
+.chainbox .cb-steps button{font-size:18px}
+.chainbox .cb-cell{gap:5px}
+.chainbox .cb-steps .n{gap:3px}
+.chainbox .cb-steps .n b{font-size:15.5px}
+.chainbox .cb-steps .n i,.chainbox .cb-cell span{font-size:9px;letter-spacing:.07em}
+.chainbox .cb-filter{min-width:54px}
+.chainbox .cb-rec{min-width:42px}
+.chainbox .cb-filter svg{width:15px;height:13px}
+.chainbox .cb-rec svg{width:18px;height:18px}
+/* the ruler, tighter */
+.chainbox .ruler{padding:0 6px;gap:4px}
+.chainbox .rarrow{min-height:40px;min-width:54px}
+.chainbox .rarrow b{font-size:13px}
+.chainbox .ruler .mini,.chainbox .ruler .mini .cell{height:40px;min-height:40px}
+.chainbox .webpad{height:6px}
+/* the turning column's arrows carry a count */
+.dch{width:auto;height:30px;display:block;text-align:center;background:none;color:var(--accent);font:600 10.5px/30px var(--ui);letter-spacing:.05em;text-transform:uppercase;white-space:nowrap}
+.dch[hidden]{display:none}
+.dch span{color:var(--ink2);vertical-align:middle}
+.dch svg{position:static;display:inline-block;width:12px;height:12px;vertical-align:middle;margin-right:5px}
+.dch:active{transform:none;background:color-mix(in srgb,var(--chain) 60%,var(--rule))}
+.wcanvas .nd.indrum:not(.chip) .card{background:var(--surface)}
+/* the key, smaller and tighter, at the foot of the band */
+.chainbox .legend{margin:0;padding:8px 16px 10px;border-top:1px solid var(--rule);grid-template-columns:18px 1fr;gap:2px 6px;font:11.5px/1.35 var(--ui);color:var(--ink2)}
+.chainbox .legend b{font-weight:600;color:var(--ink2)}
+.chainbox .legend .mk{transform:scale(.82)}
 </style>
 
 <div class="stage" id="stage">
@@ -757,6 +797,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     <h2>Historical Chain</h2>
     <p class="take how">Every arrow is a cause the atlas has argued: what led to this event runs in from the left, and what it led to runs out to the right.</p>
 
+    <div class="chainbox">
     <div class="cbar" id="cbar">
       <div class="cb-box cb-steps" role="group" aria-label="Steps out">
         <button type="button" id="stDn" aria-label="One step fewer">&minus;</button>
@@ -788,6 +829,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       <span class="g"><i class="mk k"></i></span><span><b>Knot.</b> An event that changed the course of its world.</span>
       <span class="g"><i class="mk fi"></i></span><span><b>Fibre.</b> An event that changed the course of one people or region.</span>
       <span class="g"><i class="mk st"></i></span><span><b>Strand.</b> An event that changed the course of a city, an institution or a movement.</span>
+    </div>
     </div>
   </section>
 
@@ -1003,7 +1045,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   var centre=HOME, steps=2, show={k:true,fi:true,st:false}, kind=null, side=0 /* -1 causes only, 1 effects only */, bbOnly=false, sel=null, G=null;
   var scroller=document.getElementById('wscroll'), canvas=document.getElementById('wcanvas'), svg=document.getElementById('edges'), headsLayer=document.getElementById('heads'), nodesLayer=document.getElementById('nodes'), mini=document.getElementById('mini'), trail=document.getElementById('trail');
   var N={} /* event id -> its card, where it is and where it is going */, ED={} /* link id -> its line */, drumF={} /* step -> the row a long column is turned to */;
-  var CW=130, NW=100, GAP=40, RH=92, RB=42, TOP=30, VIS=3, MAXR=4, HC=380, DSTEP=0.64;
+  var CW=130, NW=100, GAP=40, RH=92, RB=42, TOP=30, VIS=3, MAXR=3, HC=380, PEEK=34;
   function matches(id){ return id===centre||(show[size(id)]&&(!kind||(E[id].c||[]).indexOf(kind)>=0)); }
 
   /* walk the link table outward from the centre. An event that fits the filters is a card. An event that
@@ -1047,17 +1089,21 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     svg.appendChild(g); return {l:l,g:g,line:g.childNodes[0],port:g.childNodes[1],head:g.childNodes[2],hit:g.childNodes[3],cuA:0,tgA:1,po:0,pi:0,gone:false,big:backbone(l)}; }
   function baseX(n,k){ return n.chip?G.cx(k)+(CW-n.w)/2:G.cx(k)+GAP/2; }
 
-  /* a long column turns like a drum: the row in hand is full size, the rest curve away above and below */
-  function placeDrum(k){ var c=G.cols[k], f=drumF[k], R=(HC-TOP)/2-26, dir=k<0?-1:1;
-    c.forEach(function(id,i){ var n=N[id], th=clamp((i-f)*DSTEP,-1.52,1.52), cs=Math.cos(th);
-      n.tg.y=G.yc+R*Math.sin(th); n.tg.s=0.35+0.65*cs; n.tg.o=clamp(cs*1.5-0.12,0,1); n.tg.x=baseX(n,k)-dir*(1-cs)*18;
-      n.el.style.zIndex=String(20-Math.round(Math.abs(i-f)*2)); n.el.style.pointerEvents=n.tg.o<0.2?'none':''; n.drumK=k; n.drumI=i; });
-    var up=headsLayer.querySelector('[data-drum="'+k+'"][data-d="-1"]'), dn=headsLayer.querySelector('[data-drum="'+k+'"][data-d="1"]');
-    if(up)up.disabled=f<=0.01; if(dn)dn.disabled=f>=c.length-1.01; }
+  /* a column shows three events. A longer one turns: three rows stay full size, the next one each way
+     shows as a faded sliver that curves away, and an arrow says how many more there are. */
+  function placeDrum(k){ var c=G.cols[k], f=drumF[k], top=G.yc-1.5*RH, dir=k<0?-1:1;
+    c.forEach(function(id,i){ var n=N[id], rel=i-f, u=rel<0?-rel:Math.max(0,rel-2), cu=Math.min(u,1.5), edge=rel<0?top+RH*0.5:top+RH*2.5;
+      n.tg.y=u>0?edge+(rel<0?-1:1)*RH*0.44*cu:top+(rel+0.5)*RH; n.tg.s=1-0.2*cu; n.tg.o=u<=0?1:u<=1?1-0.7*u:Math.max(0,0.3-(u-1)*0.6);
+      n.tg.x=baseX(n,k)-dir*6*cu; n.el.style.zIndex=u>0?'5':'12'; n.el.style.pointerEvents=u>0.4?'none':''; n.drumK=k; n.drumI=i; });
+    var above=Math.round(f), below=c.length-3-Math.round(f);
+    [[-1,above],[1,below]].forEach(function(o){ var b=headsLayer.querySelector('[data-drum="'+k+'"][data-d="'+o[0]+'"]'); if(!b)return; b.hidden=o[1]<=0; b.lastChild.textContent=o[1]+' more'; }); }
+  /* bring an event into its column's three rows */
+  function reveal(id){ var n=N[id]; if(!n||n.drumK==null)return; var f=Math.round(drumF[n.drumK]); if(n.drumI<f)drumTo(n.drumK,n.drumI); else if(n.drumI>f+2)drumTo(n.drumK,n.drumI-2); }
 
   /* mode: 'init' and 'resize' place everything at once; anything else lets the web move to its new shape */
   function layout(mode){
     var move=(mode!=='init'&&mode!=='resize')&&!reduced, anchor=N[centre]&&!N[centre].gone?N[centre]:null;
+    var keepCol=(mode==='resize'&&G&&G.cx)?Math.round((scroller.scrollLeft+G.W/2-G.cx(G.minS))/CW-0.5)+G.minS:0, keepDrum=(mode==='resize'||mode==='swap'||mode==='init')?{}:drumF;
     G=build(); if(sel&&!G.need[sel])sel=null;
     var Wd=scroller.clientWidth||360; VIS=Wd<560?3:5; var EDGE=6; GAP=40; CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; var OFF=GAP/2-EDGE;
     var half=(VIS-1)/2, padL=Math.max(0,half+G.minS)*CW, padR=Math.max(0,half-G.maxS)*CW, ncol=G.maxS-G.minS+1;
@@ -1074,7 +1120,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     paintClasses();
     order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=n.chip?Math.max(RB,n.h+10):Math.max(64,n.h+12); });
     /* the canvas is as tall as its tallest column, up to four rows; a longer column becomes a drum */
-    var tall=2.3*RH; Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); tall=Math.max(tall,(c.length>MAXR||t>MAXR*RH+24)?MAXR*RH:t); });
+    var tall=2.2*RH, anyDrum=false; Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); if(c.length>MAXR)anyDrum=true; tall=Math.max(tall,Math.min(t,MAXR*RH)); }); if(anyDrum)tall=MAXR*RH+2*PEEK-16;
     HC=Math.round(TOP+tall+16); yc=TOP+(HC-TOP)/2; G.yc=yc;
 
     /* keep the centre under the reader's eye while the canvas changes size around it */
@@ -1087,14 +1133,14 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     N[centre].tg.x=newCx; N[centre].tg.y=yc; N[centre].tg.s=1; N[centre].tg.o=1; drumF={};
     Object.keys(G.cols).map(Number).filter(function(k){return k!==0}).sort(function(a,b){ return Math.abs(a)-Math.abs(b); }).forEach(function(k){ var c=G.cols[k], dir=k<0?-1:1, tot=0, sum=0, cnt=0;
       c.forEach(function(id){ tot+=N[id].slot; G.edges.forEach(function(l){ var inner=dir<0?(l.f===id?l.t:null):(l.t===id?l.f:null); if(inner&&N[inner]&&G.step[inner]===k-dir){ sum+=N[inner].tg.y; cnt++; } }); });
-      if(c.length>MAXR||tot>MAXR*RH+24){ G.drum[k]=true; drumF[k]=Math.floor((c.length-1)/2); c.forEach(function(id){ N[id].tg.s=1; N[id].tg.o=1; }); placeDrum(k); }
+      if(c.length>MAXR){ G.drum[k]=true; drumF[k]=keepDrum[k]!=null?clamp(Math.round(keepDrum[k]),0,c.length-3):0; placeDrum(k); }
       else { var top=clamp((cnt?sum/cnt:yc)-tot/2,TOP+4,HC-tot-6), y=top; c.forEach(function(id){ var n=N[id], hh=n.slot; n.tg.x=baseX(n,k); n.tg.y=y+hh/2; n.tg.s=1; n.tg.o=1; y+=hh; }); } });
 
     /* new events grow out of the event they join; events that leave shrink back into it */
     function innerOf(id){ var s=G.step[id], dir=s<0?-1:1, c=G.edges.filter(function(l){ return dir<0?l.f===id:l.t===id; }).sort(function(a,b){return rank(b)-rank(a)})[0]; return c?N[dir<0?c.t:c.f]:null; }
     order.forEach(function(id){ var n=N[id]; if(!n.fresh)return; n.fresh=false;
       if(!move){ n.cur.x=n.tg.x; n.cur.y=n.tg.y; n.cur.s=n.tg.s; n.cur.o=n.tg.o; return; }
-      var p=innerOf(id); if(p&&p!==n){ n.cur.x=p.cur.x+(p.w-n.w)/2; n.cur.y=p.cur.y; } else { n.cur.x=n.tg.x; n.cur.y=n.tg.y; } n.cur.s=0.5; n.cur.o=0; });
+      var p=id===centre?null:innerOf(id); if(p&&p!==n){ n.cur.x=p.cur.x+(p.w-n.w)/2; n.cur.y=p.cur.y; } else { n.cur.x=n.tg.x; n.cur.y=n.tg.y; } n.cur.s=0.5; n.cur.o=0; });
     Object.keys(N).forEach(function(id){ if(seen[id])return; var n=N[id]; if(!move){ n.el.remove(); delete N[id]; return; }
       if(!n.gone){ n.gone=true; n.tg.o=0; n.tg.s=0.5; n.tg.x=n.cur.x+(n.step<0?26:-26); n.el.style.pointerEvents='none'; n.el.setAttribute('aria-hidden','true'); n.el.tabIndex=-1; } });
     if(!move) order.forEach(function(id){ var n=N[id]; n.cur.x=n.tg.x; n.cur.y=n.tg.y; n.cur.s=n.tg.s; n.cur.o=n.tg.o; });
@@ -1109,7 +1155,9 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 
     /* the step names over each column, the drum's arrows, and the plain statement when a side is empty */
     var h=''; for(var s=G.minS;s<=G.maxS;s++){ h+='<div class="colh'+(s===0?' c0':'')+'" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px">'+(s===0?'This event':(s<0?'Cause':'Effect')+' · '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'))+'</div>';
-      if(G.drum[s]) h+='<div class="drumzone" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+TOP+'px;height:'+(HC-TOP)+'px"></div><button type="button" class="dch up" data-drum="'+s+'" data-d="-1" aria-label="Turn this column up" style="left:'+(G.cx(s)+CW/2-22).toFixed(1)+'px;top:'+(TOP-4)+'px"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l5-5 5 5"/></svg></button><button type="button" class="dch dn" data-drum="'+s+'" data-d="1" aria-label="Turn this column down" style="left:'+(G.cx(s)+CW/2-22).toFixed(1)+'px;top:'+(HC-38)+'px"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5l5 5 5-5"/></svg></button>'; }
+      if(G.drum[s]){ var dtop=yc-1.5*RH; h+='<div class="drumzone" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+TOP+'px;height:'+(HC-TOP)+'px"></div>'
+        +'<button type="button" class="dch up" data-drum="'+s+'" data-d="-1" aria-label="Earlier events in this column" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+(dtop-PEEK-2).toFixed(1)+'px" hidden><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l5-5 5 5"/></svg><span></span></button>'
+        +'<button type="button" class="dch dn" data-drum="'+s+'" data-d="1" aria-label="More events in this column" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+(dtop+3*RH+2).toFixed(1)+'px" hidden><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5l5 5 5-5"/></svg><span></span></button>'; } }
     function none(sd,txt){ h+='<div class="none" style="left:'+(sd<0?G.cx(0)-CW:G.cx(1)).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+TOP+'px;height:'+(HC-TOP)+'px">'+txt+'</div>'; }
     if(side<=0&&G.minS===0) none(-1,G.reach.l?'No cause within reach fits these filters.':'The link table holds no cause for this event yet.');
     if(side>=0&&G.maxS===0) none(1,G.reach.r?'No effect within reach fits these filters.':'The link table holds no effect of this event yet.');
@@ -1117,7 +1165,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     order.forEach(function(id){ var n=N[id]; n.el.style.touchAction=G.drum[n.step]?'pan-x':''; });
 
     paint(false);
-    if(!move){ toCol(0,false); frame(true); } else { if(mode==='swap') toCol(0,true); kick(); }
+    if(!move){ toCol(clamp(keepCol,G.minS,G.maxS),false); frame(true); } else { if(mode==='swap') toCol(0,true); kick(); }
 
     /* counts, the small map, the way home, and the controls' own state */
     var m='<span class="win" id="win"></span>';
@@ -1165,14 +1213,14 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     var ml=0, mr=0; Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone||n.chip||id===centre)return; if(n.tg.x+n.w<x+6)ml++; else if(n.tg.x>x+G.W-6)mr++; });
     document.getElementById('nL').textContent=ml; document.getElementById('nR').textContent=mr;
     document.getElementById('goL').disabled=x<=2; document.getElementById('goR').disabled=x>=max-2;
-    var off=Math.abs(x-(G.cx(0)+CW/2-G.W/2))>6, turned=Object.keys(G.drum).some(function(k){ return Math.abs(drumF[k]-Math.floor((G.cols[k].length-1)/2))>0.01; });
+    var off=Math.abs(x-(G.cx(0)+CW/2-G.W/2))>6, turned=Object.keys(G.drum).some(function(k){ return drumF[k]>0.01; });
     document.getElementById('recBtn').classList.toggle('on',off||turned);
     var win=document.getElementById('win'); if(win){ var inner=mini.clientWidth, x0=G.cx(G.minS), span=G.ncol*CW;
       var a=Math.max(0,(x-x0)/span), b=Math.min(1,(x+G.W-x0)/span); win.style.transform='translate3d('+(a*inner).toFixed(1)+'px,0,0)'; win.style.width=Math.max(0,(b-a)*inner).toFixed(1)+'px'; } }
   scroller.addEventListener('scroll',function(){ if(!q){q=true;requestAnimationFrame(sync);} },{passive:true});
   document.getElementById('goL').addEventListener('click',function(){ scroller.scrollBy({left:-(VIS-1)*CW,behavior:reduced?'auto':'smooth'}); });
   document.getElementById('goR').addEventListener('click',function(){ scroller.scrollBy({left:(VIS-1)*CW,behavior:reduced?'auto':'smooth'}); });
-  document.getElementById('recBtn').addEventListener('click',function(){ Object.keys(G.drum).forEach(function(k){ drumF[k]=Math.floor((G.cols[k].length-1)/2); placeDrum(+k); }); kick(); toCol(0,true); setTimeout(sync,400); });
+  document.getElementById('recBtn').addEventListener('click',function(){ Object.keys(G.drum).forEach(function(k){ drumF[k]=0; placeDrum(+k); }); kick(); toCol(0,true); setTimeout(sync,400); });
   /* the small map scrubs the web */
   var scrubbing=false;
   function scrubTo(clientX){ var r=mini.getBoundingClientRect(), f=clamp((clientX-r.left)/r.width,0,1); scroller.scrollLeft=G.cx(G.minS)+f*G.ncol*CW-G.W/2; }
@@ -1183,11 +1231,11 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 
   /* turning a drum: drag the column up or down, or use its two arrows */
   var dg=null, swallow=false;
-  function drumTo(k,f){ drumF[k]=clamp(f,0,G.cols[k].length-1); placeDrum(k); kick(); sync(); }
+  function drumTo(k,f){ drumF[k]=clamp(f,0,G.cols[k].length-3); placeDrum(k); kick(); sync(); }
   canvas.addEventListener('pointerdown',function(e){ if(!G)return; var r=canvas.getBoundingClientRect(), k=Math.floor((e.clientX-r.left-G.cx(G.minS))/CW)+G.minS; if(!G.drum[k])return; dg={k:k,y:e.clientY,x:e.clientX,f:drumF[k],on:false,id:e.pointerId}; });
   canvas.addEventListener('pointermove',function(e){ if(!dg||e.pointerId!==dg.id)return; var dy=e.clientY-dg.y, dx=e.clientX-dg.x;
     if(!dg.on){ if(Math.abs(dy)>7&&Math.abs(dy)>Math.abs(dx)*1.2){ dg.on=true; try{canvas.setPointerCapture(e.pointerId);}catch(_){ } } else return; }
-    drumTo(dg.k,dg.f-dy/80); });
+    drumTo(dg.k,dg.f-dy/RH); });
   function dgEnd(){ if(!dg)return; if(dg.on){ drumTo(dg.k,Math.round(drumF[dg.k])); swallow=true; setTimeout(function(){ swallow=false; },80); } dg=null; }
   canvas.addEventListener('pointerup',dgEnd); canvas.addEventListener('pointercancel',dgEnd);
 
@@ -1222,11 +1270,11 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     if(window.IntersectionObserver) new IntersectionObserver(function(en){ en.forEach(function(x){ cbar.classList.toggle('stuck',!x.isIntersecting&&x.boundingClientRect.top<200); }); },{rootMargin:'-142px 0px 0px 0px'}).observe(mark); })();
 
   /* taps on the web */
-  function select(id){ sel=id; paint(); dock(); if(id&&id!==HOME&&E[id].lon!=null)turnTo([E[id].lon,E[id].lat],name(id)); else turnTo(VERS,false); if(id&&id!==centre)pulse(pathOf(id)); }
+  function select(id){ sel=id; paint(); dock(); if(id&&id!==HOME&&E[id].lon!=null)turnTo([E[id].lon,E[id].lat],name(id)); else turnTo(VERS,false); if(id&&id!==centre){ var pl=pathOf(id); pl.forEach(function(l){ reveal(l.f); reveal(l.t); }); pulse(pl); } }
   canvas.addEventListener('click',function(e){ if(swallow)return; var dc=e.target.closest('.dch'), n=e.target.closest('.nd'), l=e.target.closest('[data-link]');
-    if(dc){ var k=+dc.dataset.drum, d=+dc.dataset.d, f=drumF[k]; drumTo(k,d<0?Math.ceil(f)-1:Math.floor(f)+1); return; }
+    if(dc){ var k=+dc.dataset.drum, d=+dc.dataset.d, f=drumF[k]; drumTo(k,Math.round(f)+d); return; }
     if(l){ note(l.getAttribute('data-link')); return; }
-    if(n){ var id=n.dataset.id, nd=N[id]; if(!nd||nd.gone)return; if(nd.drumK!=null&&Math.abs(nd.drumI-drumF[nd.drumK])>0.6)drumTo(nd.drumK,nd.drumI); select(sel===id?null:id); return; }
+    if(n){ var id=n.dataset.id, nd=N[id]; if(!nd||nd.gone)return; select(sel===id?null:id); return; }
     if(sel)select(null); });
   function recentre(id){ centre=id; sel=null; layout('swap'); dock(); turnTo(E[id].lon!=null&&id!==HOME?[E[id].lon,E[id].lat]:VERS,id!==HOME?name(id):false); }
 
@@ -1431,9 +1479,11 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 
   /* ---------- start ---------- */
   pageLayout(); layout('init'); frameAll();
-  var rz; window.addEventListener('resize',function(){ pageLayout(); clearTimeout(rz); rz=setTimeout(function(){ layout('resize'); frameAll(); },150); });
+  /* a phone fires 'resize' each time its address bar hides or shows. Only a change of width rebuilds the web. */
+  var rz, lastW=scroller.clientWidth; window.addEventListener('resize',function(){ pageLayout(); clearTimeout(rz); rz=setTimeout(function(){ frameAll(); var w=scroller.clientWidth; if(w===lastW)return; lastW=w; layout('resize'); },150); });
   window.addEventListener('load',function(){ pageLayout(); frameAll(); });
   if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){ pageLayout(); layout('resize'); frameAll(); });
+  window.__atlasChain=function(){ return {N:N,G:G,ED:ED,drumF:drumF,sel:sel}; }; /* mock only: lets a test read the web's state */
   if(window.ResizeObserver){ var roT=null; new ResizeObserver(function(){ clearTimeout(roT); roT=setTimeout(secTops,60); }).observe(document.querySelector('main')); }
 })();
 </script>
