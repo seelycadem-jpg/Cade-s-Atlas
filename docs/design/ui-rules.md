@@ -61,7 +61,7 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
 8. **Three sizes, the same words everywhere:** knot, fibre, strand, in that order of
    size (Cade's decision, 2026-11-08). Each event has one size, rated by its impact on world history
    (docs/structure.md, 2026-11-11), and shows the same mark on every page. A chapter's thread
-   shows its events with their marks: knots, then fibres, then strands; a chapter with no knot opens at its fibres. The depth control uses the same three
+   shows its events with their marks: knots, then fibres, then strands; a chapter with no knot opens at its fibres. The thread also shows what the chapter turns on: links graded Necessary or Sufficient draw heavy and solid, and a second filter cuts the thread to that backbone (docs/structure.md, 2026-11-11; designed in step 1.6). The depth control uses the same three
    words with their marks, and every chain view carries the one-line key. This is the strategic-to-tactical ladder: a reader at any level can see
    the level above (the breadcrumb, the parent chronicle) and the level below (the next
    depth word, the linked names) from where they stand. Size is shown, never said: a

@@ -125,6 +125,21 @@ The links say what caused what and which chapters the event sits in. The Paris s
 is a knot in Weimar Germany's chapter The Treaty and a knot in every Ottoman and Arab
 chapter that holds it.
 
+### What a chapter turns on (Cade, 2026-11-11)
+
+Size says how big an event was in world history. The grade on its link says how much a
+chapter depends on it, and that changes from chapter to chapter. A chapter turns on the
+events whose links in it are graded Necessary or Sufficient: its backbone.
+
+- **Visible.** On a chapter's thread the backbone draws as a heavy solid red line; a
+  Contributing link draws lighter and dashed, a Contested one dotted (house-style.md, Links).
+  A reader sees what the chapter turns on at a glance, whatever the sizes of its events.
+- **Filterable.** The reader can cut a thread to its backbone alone. This is a second
+  control beside the depth control: depth filters by size, the backbone filter by grade.
+  Filtered-out events fade, as in every filter. The control and its label are designed in
+  roadmap step 1.6.
+- No new level, word or rating. The grade and its note are already required on every link.
+
 Length follows the event and its sources, never the size. A knot that is one day is short.
 
 ## Two guard rails against a Western lean

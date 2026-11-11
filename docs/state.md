@@ -30,6 +30,9 @@ mocks, judged on Cade's phone. Steps are in `docs/roadmap.md`; status in `docs/p
   against each region's share of people (never a quota), and chronicles planned the same way.
 - A chapter is a stretch of a story in which one thing changes; any number of knots,
   including none. Links, never dates alone, put an event in a chapter.
+- A strand is an event in its own right, at the small end of the same scale.
+- What a chapter turns on comes from link grades (Necessary or Sufficient): drawn heavy on
+  the thread and filterable; the control is designed in step 1.6.
 - The 781 old events and their tiers are placeholders; all are rated afresh.
 - A chapter has its own page: a longer briefing and the thread of its events. Its patch is
   the short form on the story page.
