@@ -35,6 +35,9 @@ mocks, judged on Cade's phone. Steps are in `docs/roadmap.md`; status in `docs/p
   the thread and filterable; the control is designed in step 1.6.
 - People: a life ("Follow this life", on the shared year cursor), a card, or a name; links
   decide, never fame or a quota. A gap in the record can be true and stays.
+- Dynasties are told inside stories; no dynasty chronicle is planned.
+- Event pages may carry a graphic where it beats prose (a vote tally, a comparison), knots
+  first and few: `docs/event-pages.md`, Graphics.
 - The 781 old events and their tiers are placeholders; all are rated afresh.
 - A chapter has its own page: a longer briefing and the thread of its events. Its patch is
   the short form on the story page.

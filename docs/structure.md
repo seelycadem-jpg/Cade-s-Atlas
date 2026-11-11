@@ -185,10 +185,10 @@ it ran through and whether the outcome holds without them (narrative-flow.md, Fi
   line first, then the dated events of the life, many of them shared with chapters. Its
   layout is designed when the first life is written; it borrows from the story page and is
   never called a story.
-- A dynasty gets a chronicle only when no single place's chronicle can carry it, because
-  the house ruled several realms at once or in turn. The Habsburgs pass (Austria, Spain,
-  the Netherlands, Bohemia, Hungary, the Empire). A house that ruled one state is told in
-  that state's chronicle.
+- Dynasties are told inside stories and are never the atlas's focus (Cade, 2026-11-11).
+  No dynasty chronicle is planned. One is considered only when no single place's chronicle
+  can carry the house, because it ruled several realms at once or in turn; the Habsburgs
+  are the clearest case. A house that ruled one state is told in that state's chronicle.
 
 ## One event, many chapters (Cade, 2026-11-08)
 

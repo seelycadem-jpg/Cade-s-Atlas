@@ -45,6 +45,26 @@ The table below is the older layer scheme and is read through that order.
 
 The takeaway strip is the first thing on the page: when (the date, with its precision), where (the place, on a globe thumbnail), who (the actors as chips that open their cards), where it sits (the chronicle and story the reader came through: "The German Question › The treaty"; no size word, since size is shown by the event's mark and weight), and the strongest arrow in each direction ("Caused: the Pact of 60, Necessary"). The strip is built from the data header; the agent writes none of it.
 
+## Graphics (Cade, 2026-11-11)
+
+A page may carry a graphic where it shows what prose cannot. Graphics are for knots first;
+a fibre or a strand gets one only when the same test holds.
+
+- **The test.** The graphic shows a change, a count or a comparison the event turned on,
+  and a reader grasps it faster than from a sentence. If a sentence says it as fast, write
+  the sentence.
+- **What qualifies.** Borders before and after (the map the page already has; the Great
+  War is the model). A vote that decided the event, drawn as its tally. Strengths, losses
+  or sums set side by side where the gap is the point.
+- **Few.** Most pages carry none beyond Before and after. A knot carries one more as a
+  rule and never more than two. Nothing is drawn for decoration.
+- **From the data, never by hand.** Every number comes from the page's `figures` header,
+  with its basis and range, and the graphic is generated from it. No figure, no graphic.
+- **No new heading.** A graphic sits inside the section it serves (What caused it, What it
+  caused, By the numbers). The section order stays as it is.
+- **Phone first.** It reads at phone width without zooming, in light and dark, in the
+  palette's quiet colours; the red stays the chain's.
+
 ## Length (amended 2026-11-07 on Cade's decision)
 
 No fixed bands. An event takes the words it needs: one sentence where one sentence says
