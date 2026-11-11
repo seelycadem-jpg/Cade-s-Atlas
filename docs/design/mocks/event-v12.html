@@ -390,6 +390,8 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 .pageindex{margin-bottom:0;padding-bottom:6px}
 .pageindex::before{content:"";position:absolute;left:max(16px,env(safe-area-inset-left,0px));right:max(16px,env(safe-area-inset-right,0px));bottom:0;height:1px;background:var(--rule)}
 #overview h2{margin-top:18px}
+.pageindex::before{transition:opacity .25s ease}
+.pageindex.stuck::before{opacity:0}
 /* the divider from the story and chapter pages: a hairline with the gilt diamond */
 .sep{display:flex;align-items:center;gap:12px;margin:40px 0 0;color:var(--ink3)}
 .sep::before,.sep::after{content:"";flex:1;border-top:1px solid var(--rule)}

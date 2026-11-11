@@ -183,8 +183,9 @@ Questions for the master chat (none settled here; no standards doc was changed):
     last on the page, after The Record (Cade, 2026-11-11): events within two years, each with its line to this
     event or "no line". event-pages.md has no such section; the window (two years) is a
     placeholder.
-15. The tab row. On trial: a hairline rule under the row at rest, in place of a shadow; the
-    fade still appears only while the row is stuck (ui-rules.md rule 6).
+15. The tab row. On trial: a hairline rule under the row at rest, in place of a shadow. Once
+    the row sticks and travels with the page the rule fades out and the soft fade takes
+    over (Cade, 2026-11-11; ui-rules.md rule 6).
 10. Gilt. palette.md limits gilt to the heading stroke, the tabs and the divider diamond. On
     Cade's ask the places sheet now carries a gilt cartouche too; palette.md needs the line.
 9. The places sheet groups by chronicle and counts chapters ("25 chapters in 16
