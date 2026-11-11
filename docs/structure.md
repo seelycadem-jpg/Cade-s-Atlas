@@ -171,7 +171,7 @@ it ran through and whether the outcome holds without them (narrative-flow.md, Fi
 
 | State | Who | What the reader sees |
 | --- | --- | --- |
-| A life | A person whose own decision a knot depended on, or several fibres | A full page with "Follow this life": the life as a chain of dated events. It is a story: one bottom line, its own chapters, events shared with other stories |
+| A life | A person whose own decision a knot depended on, or several fibres | A full page with "Follow this life": the life as a chain of dated events, on a page form of its own |
 | A card | A person who acts in events, where no event depended on them personally | The shared preview card: role, dates, the events they appear in, the two exits |
 | A name | A person with no link into any chain | Role and name in the text; no card, no page |
 
@@ -181,7 +181,14 @@ it ran through and whether the outcome holds without them (narrative-flow.md, Fi
   is followed the same way.
 - No quota for people. The audit applies as it does to events, and a gap can be true:
   Shaka and Kamehameha have their place, and no region owes a person for every century.
-- A long career or a dynasty that needs several stories is a chronicle.
+- Chronicle, story and chapter are levels for events. A life is its own page form: bottom
+  line first, then the dated events of the life, many of them shared with chapters. Its
+  layout is designed when the first life is written; it borrows from the story page and is
+  never called a story.
+- A dynasty gets a chronicle only when no single place's chronicle can carry it, because
+  the house ruled several realms at once or in turn. The Habsburgs pass (Austria, Spain,
+  the Netherlands, Bohemia, Hungary, the Empire). A house that ruled one state is told in
+  that state's chronicle.
 
 ## One event, many chapters (Cade, 2026-11-08)
 
