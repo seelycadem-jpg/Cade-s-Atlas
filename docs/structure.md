@@ -190,6 +190,40 @@ it ran through and whether the outcome holds without them (narrative-flow.md, Fi
   can carry the house, because it ruled several realms at once or in turn; the Habsburgs
   are the clearest case. A house that ruled one state is told in that state's chronicle.
 
+## Themes (Cade, 2026-11-11: built after V1.0)
+
+The ten themes (story-method.md) are built after launch. They need more thought, a more
+emotional register and their own design. The direction agreed for when they come:
+
+- A theme sits beside the four levels. A chronicle follows a chain from a start; a theme
+  asks a question that never closes. Capitalism is a chronicle; Man and Scarcity is a theme.
+- A theme owns no events. It points to events that have pages, each a case for one side.
+- A case is a link with a note. A tag only proposes candidates.
+- An event page lists the themes it is a case in; a theme page shows its cases on the
+  shared year cursor.
+- "What it explains today" lives on theme pages and in an event page's Lasting impact. It
+  is no part of the knot test.
+
+## Idea events (Cade, 2026-11-11: in V1.0; to be designed)
+
+Thinkers and their great works are in the atlas from the start, as people and events:
+Burke, Hobbes, Confucius, Kautilya.
+
+- A thinker is a person: a life, a card or a name, by the rules above.
+- A work enters as an event with a date and a place: its publication, or where none
+  exists, the teaching or the compiling, with the date's precision recorded. A date the
+  record does not give is never invented.
+- It is sized by the same three tests. A link that says a work shaped a later event needs
+  evidence that the actors read it or invoked it (story-method.md).
+- The page opens up the thinking: an idea map of the work, under the Graphics rules of
+  event-pages.md (it adds, never replaces; a key where needed).
+- The writing is held to a higher bar: exact, nuanced and short. The thinker's case is
+  stated so the thinker would recognise it, from the text itself.
+- These events get their own agent loop, designed before the first one is written
+  (docs/agents.md).
+
+Open: the shape of the idea map, the name and place of its section, and the loop.
+
 ## One event, many chapters (Cade, 2026-11-08)
 
 - The event page says what the event was and what it caused, across every chain. It lists

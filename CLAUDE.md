@@ -94,7 +94,8 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 - Name a person with role and name on first mention (German Chancellor Olaf Scholz). A
   government may act under its capital or seat when that is the actor: Moscow, London,
   the Porte.
-- Name no academics, historians, authors or schools in product text. Give the facts and
+- Name no academics, historians, authors or schools in product text (a thinker who is the
+  subject of an event or a life, such as Hobbes or Confucius, is an actor and is named). Give the facts and
   the judgment.
 - Use plain literal verbs. No idioms, cliches or figurative phrases.
 - Include no invented specifics. Leave out any name, date or figure that cannot be

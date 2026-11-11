@@ -38,6 +38,9 @@ mocks, judged on Cade's phone. Steps are in `docs/roadmap.md`; status in `docs/p
 - Dynasties are told inside stories; no dynasty chronicle is planned.
 - Event pages may carry a graphic where it beats prose (a vote tally, a comparison), knots
   first and few: `docs/event-pages.md`, Graphics.
+- Themes are built after V1.0 (roadmap 8.8, 8.8a, 9.8 moved); direction in structure.md.
+- Idea events (a thinker's great work) are in V1.0: an idea map on the page, a higher
+  writing bar and their own agent loop, all still to be designed.
 - The 781 old events and their tiers are placeholders; all are rated afresh.
 - A chapter has its own page: a longer briefing and the thread of its events. Its patch is
   the short form on the story page.
