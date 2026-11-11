@@ -138,11 +138,15 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
    steps, and shows or dims knots, fibres and strands.
 4. **Meanwhile is a section on the event page, last**, under the gilt diamond divider
    (event-pages.md). The window of years is still a placeholder (two years in the mock).
-5. **One picture per event, at the top above Overview** (event-pages.md, which now says
-   "where it earns its place"). The globe still opens the page. The picture fades as the
-   reader scrolls and returns when they scroll back. One short line of description sits
-   under it. A tap opens its details in the gilt cartouche: caption, date, place, source,
-   licence, credit. An event with no usable picture shows nothing there.
+5. **One picture per event, as an inset beside the opening paragraph** (event-pages.md,
+   which now says "where it earns its place"). The globe still opens the page. The picture
+   is a small upright plate at the right of the bottom-line paragraph, which wraps round
+   it. Its frame is gilt corners: fine double corner marks set tight to the photograph, and
+   a soft shadow that lifts it. One short line of description sits centred under it in
+   small italic. On scroll it grows a little as it rises, then eases back and fades; it
+   returns when the reader scrolls back. A tap opens its details in the gilt cartouche:
+   caption, date, place, source, licence, credit. An event with no usable picture shows
+   nothing there.
 6. **What a picture may be** (CLAUDE.md hard limits; narrative-flow.md, Pictures):
    - A later drawing or painting is allowed for an event too old for photographs.
    - A photograph of the place or of that kind of scene is allowed.
@@ -181,11 +185,8 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 16. **The bottom bar** (Globe, year, search): keep it as a floating pill, or square it.
 17. **Graphics on a plate** (event-pages.md, Graphics): a gilt rule, a fine rule inside, a
     slight shadow, static. Cade wants graphics to stand off the page; the treatment is open.
-18. **The frame for pictures**. Cade picks the inset placement: a small upright picture
-    beside the opening paragraph, its one-line description under it. Cade leans to gilt corners: fine
-    double corner marks, a soft shadow that lifts the photograph, and a slight swell as
-    it crosses the middle of the screen. The mock still cycles nine (double gilt, mount, gilt corners, ink rule, loose print,
-    vignette, espresso tone, arched, bare).
+18. (Settled; see item 5.) The mock still carries its trial buttons for other frames and
+    placements.
 19. **The name "The Record"** for the detail, and its drawers (ui-rules.md rule 19 says no
     gate; its Open list asks for a name to replace "Open the detail").
 20. **The docked card in the web** (ui-rules.md rule 3 gives every name the same floating
