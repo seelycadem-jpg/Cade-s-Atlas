@@ -177,6 +177,17 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     picture rides in the docked header.
 14. **The chain's one line of directions** is italic, smaller and greyer than body text.
 
+15a. **What an event's graphic is** (event-pages.md, Graphics; sent to the master chat
+    after the first handoff). It shows the one change the event turned on, and the reader
+    works it: a before-and-after switch and a tap on each part. It sits last in Overview.
+    For a treaty or a conquest: the borders before and after, the land lost, and the
+    states that came out of the redraw. For a battle: where it was fought and the lines of
+    communication. For a vote: the tally. In the mock: Germany and its neighbours, 1914
+    and 1919, drawn from the atlas's own border record, with lost land hatched, new states
+    tinted and named, and three figures under it. The reparations bars are folded into
+    those figures. event-pages.md says the text must say everything a graphic shows; the
+    Overview text does not yet name the new states.
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock

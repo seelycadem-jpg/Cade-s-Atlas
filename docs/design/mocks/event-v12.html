@@ -457,6 +457,32 @@ main.pic-c.fr-corners .piccap{margin-top:10px}
 main.pic-c .piccap{font-size:12px;line-height:1.35;text-align:center;text-wrap:balance}
 main.pic-a.fr-corners .piccap{margin-top:2px}
 main.pic-c .pic,main.pic-a .pic{transform-origin:50% 50%}
+/* the before-and-after map: the reader flips the year and taps a land */
+:root{--mger:#DDC7AE;--mnew:#D3DECB;--mhatch:#6B5142}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){--mger:#5A4636;--mnew:#3E4F3E;--mhatch:#E0C8B4} }
+:root[data-theme="dark"]{--mger:#5A4636;--mnew:#3E4F3E;--mhatch:#E0C8B4}
+.bam .bamh{display:flex;justify-content:space-between;align-items:center;gap:10px;margin:0 0 10px}
+.bam .bamh .ft{margin:0}
+.bamsw{display:inline-grid;grid-template-columns:1fr 1fr;border:1px solid var(--ink3)}
+.bamsw button{min-width:62px;min-height:44px;display:flex;align-items:center;justify-content:center;font:600 14px/1 var(--ui);color:var(--ink3);font-variant-numeric:tabular-nums}
+.bamsw button+button{box-shadow:inset 1px 0 0 var(--rule)}
+.bamsw button[aria-pressed="true"]{background:var(--ink);color:var(--bg);box-shadow:none}
+.bam canvas{display:block;width:100%;background:var(--sea);border:1px solid var(--rule);touch-action:manipulation;cursor:pointer}
+.bamtap{font:14px/1.45 var(--ui);color:var(--ink);margin:10px 0 8px;min-height:2.9em}
+.bamtap b{font-weight:600}
+.bamkey{display:flex;flex-wrap:wrap;gap:6px 14px;font:12.5px/1.3 var(--ui);color:var(--ink2);margin:0 0 10px}
+.bamkey span{display:inline-flex;align-items:center;gap:6px}
+.bamkey i{width:16px;height:12px;border:1px solid var(--ink3);display:inline-block}
+.bamkey .k1{background:var(--mger)}
+.bamkey .k2{background:repeating-linear-gradient(135deg,var(--mhatch) 0 1px,transparent 1px 4px)}
+.bamkey .k3{background:var(--mnew)}
+.bamnew{font:13.5px/1.5 var(--ui);color:var(--ink2);margin:0 0 12px}
+.bamnew button{font:500 13.5px/1.5 var(--ui);color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--accent);padding:6px 0}
+.bamfig{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--rule);padding-top:10px}
+.bamfig div{padding:0 8px 0 0}
+.bamfig div+div{padding-left:10px;border-left:1px solid var(--rule)}
+.bamfig b{display:block;font:500 22px/1.1 var(--display);color:var(--title);font-variant-numeric:tabular-nums}
+.bamfig span{display:block;font:11.5px/1.35 var(--ui);color:var(--ink2);margin-top:3px}
 .mockbtn.three{bottom:calc(184px + env(safe-area-inset-bottom,0px))}
 /* on trial: a double gilt rule round the picture plate, the outer a little stronger than the inner */
 main.pic-a .pic{padding:5px;border-color:color-mix(in srgb,var(--gilt) 70%,transparent)}
@@ -533,11 +559,14 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     <p>The treaty ended the war between Germany and the Allies. Germany survived as a republic. It lost 13 percent of its European territory, all its colonies and most of its army. France and Poland gained the land. The Allies set reparations at 132 billion gold marks in 1921, and Germany paid about 20 billion.</p>
     <p>Germany had no seat at the conference that wrote the terms. Its delegation received them on 7 May 1919 and signed on 28 June under threat of invasion. Every enemy of the new republic held the signature against it.</p>
     <p>The treaty had no means of enforcement. The US Senate rejected it, and the League of Nations had no army. By the 1930s Britain and France would not enforce the terms alone.</p>
-    <div class="fig" style="margin-top:18px" role="img" aria-label="Reparations in gold marks: 132 billion set in 1921, about 20 billion paid.">
-      <p class="ft">Reparations, in gold marks</p>
-      <div class="row"><span>Set in 1921</span><div class="bar set"><i></i><span>132 billion</span></div></div>
-      <div class="row"><span>Paid</span><div class="bar paid"><i></i><span>about 20 billion</span></div></div>
-      <p class="fk">Both bars are drawn on one scale.</p>
+    <div class="fig bam" style="margin-top:18px" id="bam">
+      <div class="bamh"><p class="ft" id="bamT">Germany and its neighbours</p>
+        <div class="bamsw" role="group" aria-label="Year"><button type="button" data-bam="0" aria-pressed="false">1914</button><button type="button" data-bam="1" aria-pressed="true">1919</button></div></div>
+      <canvas id="bamC" role="img" aria-label="A map of Germany and its neighbours. It switches between the borders of 1914 and of 1919. Tap a land to name it."></canvas>
+      <p class="bamtap" id="bamTap" aria-live="polite">Tap any land on the map.</p>
+      <div class="bamkey" aria-label="Key"><span><i class="k1"></i>Germany</span><span><i class="k2"></i>Land Germany lost</span><span><i class="k3"></i>New on the map in 1919</span></div>
+      <p class="bamnew" id="bamNew"></p>
+      <div class="bamfig"><div><b>13%</b><span>of Germany's land in Europe lost</span></div><div><b>100,000</b><span>the cap on its army</span></div><div><b>132 bn</b><span>gold marks set in 1921; about 20 bn paid</span></div></div>
     </div>
   </section>
 
@@ -1040,6 +1069,61 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     fb.addEventListener('click',function(){ if(FR[fi][0])mainEl.classList.remove(FR[fi][0]); fi=(fi+1)%FR.length; if(FR[fi][0])mainEl.classList.add(FR[fi][0]); fb.textContent='Frame: '+FR[fi][1]; pageLayout(); frameAll(); });
     thumb.addEventListener('click',cap);
     pic.addEventListener('click',cap); pic.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); cap(); } }); fade(); })();
+
+  /* ---------- the before-and-after map ---------- */
+  (function(){ var cv=document.getElementById('bamC'); if(!cv||!window.d3||!window.topojson||!A.borders||!A.borders1914)return;
+    var F14=topojson.feature(A.borders1914,A.borders1914.objects.cs).features, F19=topojson.feature(A.borders,A.borders.objects.cs).features;
+    var M14=topojson.mesh(A.borders1914,A.borders1914.objects.cs), M19=topojson.mesh(A.borders,A.borders.objects.cs);
+    var NICE={'Germany (Prussia)':'Germany','Rumania':'Romania','Italy/Sardinia':'Italy'}; function nm(f){ var r=f.properties.r; return NICE[r]||r; }
+    function isG(f){ return /^Germany/.test(f.properties.r); }
+    var G14=F14.filter(isG)[0], G19=F19.filter(isG)[0], BOX={type:'MultiPoint',coordinates:[[4.2,45.6],[26.5,57.6]]};
+    function near(f){ var c=d3.geoCentroid(f); return c[0]>0&&c[0]<32&&c[1]>42&&c[1]<62; }
+    var names14={}; F14.forEach(function(f){names14[f.properties.r]=1}); var names19={}; F19.forEach(function(f){names19[f.properties.r]=1});
+    var NEW=F19.filter(function(f){ return near(f)&&!names14[f.properties.r]; }), GONE=F14.filter(function(f){ return near(f)&&!names19[f.properties.r]; });
+    var isNew={}; NEW.forEach(function(f){isNew[f.properties.r]=1});
+    /* where each name is lettered; placement only */
+    var AT={'Germany':[10.4,51.2],'Poland':[19.6,52.3],'Czechoslovakia':[16.6,49.55],'Austria':[14.2,47.5],'Hungary':[19.4,47.0],'Yugoslavia':[17.2,45.9],'Lithuania':[23.9,55.3],'Latvia':[24.9,56.9],'France':[5.3,47.4],'Denmark':[9.3,56.2],'Austria-Hungary':[17.6,47.9],'Danzig':[18.9,54.75]};
+    var mix=1, year=1, pick=null, W=0, H=0, proj, path, raf=0, hatch=null, hatchKey='';
+    function mkHatch(c){ var k=css('--mhatch'); if(hatch&&hatchKey===k)return hatch; var t=document.createElement('canvas'); t.width=t.height=10; var x=t.getContext('2d'); x.strokeStyle=k; x.lineWidth=1.1; x.beginPath(); x.moveTo(-2,12); x.lineTo(12,-2); x.moveTo(-2,2); x.lineTo(2,-2); x.moveTo(8,12); x.lineTo(12,8); x.stroke(); hatchKey=k; hatch=c.createPattern(t,'repeat'); return hatch; }
+    function size(){ var w=cv.clientWidth||300, dpr=Math.min(2,window.devicePixelRatio||1); W=w; H=Math.round(w*0.8); cv.style.height=H+'px'; cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr);
+      proj=d3.geoConicConformal().parallels([46,57]).rotate([-14,0]).fitExtent([[4,4],[W-4,H-4]],BOX); draw(); }
+    function label(c,t,ll,big,quiet){ var q=proj(ll); if(!q||q[0]<8||q[0]>W-8||q[1]<10||q[1]>H-8)return; c.font=(quiet?'italic 400 ':'italic 500 ')+(big?16:12.5)+'px "EB Garamond", Georgia, serif'; c.textAlign='center'; c.textBaseline='middle'; c.lineJoin='round'; c.lineWidth=3; c.strokeStyle=css('--surface'); c.globalAlpha=.85; c.strokeText(t,q[0],q[1]); c.globalAlpha=1; c.fillStyle=quiet?css('--ink2'):css('--title'); c.fillText(t,q[0],q[1]); }
+    function layer(c,after,a){ if(a<=0.01)return; c.globalAlpha=a; var F=after?F19:F14, G=after?G19:G14;
+      F.forEach(function(f){ c.beginPath(); path(f); c.fillStyle=(after&&isNew[f.properties.r])?css('--mnew'):css('--land'); c.fill(); });
+      if(after){ c.beginPath(); path(G14); c.fillStyle=mkHatch(c); c.fill(); }
+      c.beginPath(); path(G); c.fillStyle=css('--mger'); c.fill();
+      c.beginPath(); path(after?M19:M14); c.strokeStyle=css('--border'); c.lineWidth=.9; c.stroke();
+      c.beginPath(); path(G); c.strokeStyle=css('--ink2'); c.lineWidth=1.2; c.stroke();
+      if(after&&a>0.5){ c.setLineDash([3,3]); c.beginPath(); path(G14); c.strokeStyle=css('--ink3'); c.lineWidth=1; c.stroke(); c.setLineDash([]); }
+      label(c,'Germany',AT.Germany,true);
+      if(after){ NEW.forEach(function(f){ var n=nm(f); if(AT[n])label(c,n,AT[n],false); }); } else { label(c,'Austria-Hungary',AT['Austria-Hungary'],false); }
+      label(c,'France',AT.France,false,true); label(c,'Denmark',AT.Denmark,false,true);
+      c.globalAlpha=1; }
+    function draw(){ var dpr=cv.width/W, c=cv.getContext('2d'); c.setTransform(dpr,0,0,dpr,0,0); c.clearRect(0,0,W,H); path=d3.geoPath(proj,c);
+      layer(c,false,1-mix); layer(c,true,mix);
+      if(pick){ c.beginPath(); path(pick); c.strokeStyle=css('--ink'); c.lineWidth=2; c.stroke(); } }
+    function setYear(y){ year=y; pick=null; [].forEach.call(document.querySelectorAll('[data-bam]'),function(b){ b.setAttribute('aria-pressed',String(+b.dataset.bam===y)); });
+      say2(y?'Tap any land on the map.':'The borders of 1914. Tap any land on the map.'); listNew();
+      cancelAnimationFrame(raf); if(reduced){ mix=y; draw(); return; } var from=mix, t0=performance.now();
+      (function st(now){ var k=Math.min(1,(now-t0)/420); k=k<.5?2*k*k:-1+(4-2*k)*k; mix=from+(y-from)*k; draw(); if(k<1)raf=requestAnimationFrame(st); })(t0); }
+    var tapEl=document.getElementById('bamTap'); function say2(h){ tapEl.innerHTML=h; }
+    function tell(f,lost){ var n=nm(f);
+      if(year&&lost){ var extra=n==='France'?' The treaty returned Alsace-Lorraine to France.':n==='Poland'?' The treaty gave Poland a corridor to the sea.':n==='Danzig'?' The border record puts it under the League of Nations.':''; return '<b>Land Germany lost.</b> In 1919 it is in '+esc(n)+'.'+extra; }
+      if(year&&isG(f)) return '<b>Germany in 1919.</b> The dashed line is its border of 1914.';
+      if(year&&isNew[f.properties.r]) return '<b>'+esc(n)+'.</b> On the map in 1919; no state of that name on the map of 1914.';
+      if(!year&&isG(f)) return '<b>Germany in 1914.</b> Switch to 1919 to see what it lost.';
+      if(!year&&!names19[f.properties.r]) return '<b>'+esc(n)+'.</b> On the map in 1914; gone from the map of 1919.';
+      return '<b>'+esc(n)+'</b> in '+(year?'1919':'1914')+'.'; }
+    function hit(ll){ var F=year?F19:F14, f=null; for(var i=0;i<F.length;i++){ if(d3.geoContains(F[i],ll)){ f=F[i]; break; } } return f; }
+    cv.addEventListener('click',function(e){ var r=cv.getBoundingClientRect(), ll=proj.invert([e.clientX-r.left,e.clientY-r.top]); if(!ll)return; var f=hit(ll); if(!f){ pick=null; say2('That is sea, or land the border record leaves unnamed.'); draw(); return; }
+      var lost=year&&d3.geoContains(G14,ll)&&!isG(f); pick=f; say2(tell(f,lost)); draw(); });
+    function listNew(){ var el=document.getElementById('bamNew');
+      if(year) el.innerHTML='On this map in 1919 and absent in 1914: '+NEW.map(function(f){ return '<button type="button" data-bn="'+esc(f.properties.r)+'">'+esc(nm(f))+'</button>'; }).join(', ')+'.';
+      else el.innerHTML='On this map in 1914 and gone by 1919: '+GONE.map(function(f){ return '<button type="button" data-bn="'+esc(f.properties.r)+'">'+esc(nm(f))+'</button>'; }).join(', ')+'.'; }
+    document.getElementById('bamNew').addEventListener('click',function(e){ var b=e.target.closest('[data-bn]'); if(!b)return; var F=year?F19:F14, f=F.filter(function(x){return x.properties.r===b.dataset.bn})[0]; if(!f)return; pick=f; say2(tell(f,false)); draw(); });
+    [].forEach.call(document.querySelectorAll('[data-bam]'),function(b){ b.addEventListener('click',function(){ setYear(+b.dataset.bam); }); });
+    listNew(); size(); var rz2; window.addEventListener('resize',function(){ clearTimeout(rz2); rz2=setTimeout(size,160); }); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(size);
+    if(window.MutationObserver)new MutationObserver(function(){ hatch=null; draw(); }).observe(root,{attributes:true,attributeFilter:['data-theme']}); })();
 
   /* ---------- start ---------- */
   pageLayout(); layout('init'); frameAll();
