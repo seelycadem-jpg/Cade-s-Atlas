@@ -110,7 +110,8 @@ The artifacts are private to Cade's account. The repo files are the source of tr
      path ending at the event with its mark; the backbone drawn heavy on a thread; the
      Paris settlement as the chapter The Treaty with the Treaty of Versailles as its knot.
    - Fibre: a shorter event page in the same shape as the knot's.
-2. Cade rates about forty anchor events; the reach line is derived from them (structure.md).
+2. Cade rates about forty anchor events; the reach line is derived from them
+   (structure.md). The first five are in `docs/anchors.md`.
 3. Design the idea map and the agent loop for idea events (structure.md, Idea events).
 4. Phase 1 steps left: front door (1.5), filters (1.6, with the backbone filter), the two
    globes (1.7), building the shared components (1.8 to 1.12), the people test (1.13).
