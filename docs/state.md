@@ -33,6 +33,8 @@ mocks, judged on Cade's phone. Steps are in `docs/roadmap.md`; status in `docs/p
 - Sizes have plain definitions, tooltips and a three-step method with a recorded defence
   (structure.md). An event is one happening with one outcome; the Paris settlement becomes
   a chapter with Versailles as its knot (mock and worked example to rework).
+- The globe shows each region's biggest events for the years in view: knots first, then a
+  fibre or strand where a region has no knot. Sizes never change to fill the map.
 - A strand is an event in its own right: it changed the course of a city, an institution
   or a movement.
 - What a chapter turns on comes from link grades (Necessary or Sufficient): drawn heavy on

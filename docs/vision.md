@@ -89,8 +89,10 @@ competes on what an encyclopedia is built to avoid:
    marked event, or goes back to the cards.
 
 The world turning points that light up in step 2 are the knots of the years in view
-(structure.md, 2026-11-11). Their number follows the tests, never a target. The knots are
-also the default timeline view when no chronicle is chosen.
+(structure.md, 2026-11-11). Their number follows the tests, never a target. Where a
+region has no knot in those years, its biggest fibre or strand shows in its place, with
+its own mark (structure.md, What the globe shows at a year). The same view is the default
+timeline when no chronicle is chosen.
 
 The draw is random on every load and balanced, so one set never holds eight from one
 region or one era.
