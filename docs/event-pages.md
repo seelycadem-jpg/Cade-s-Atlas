@@ -56,6 +56,11 @@ a fibre or a strand gets one only when the same test holds.
 - **What qualifies.** Borders before and after (the map the page already has; the Great
   War is the model). A vote that decided the event, drawn as its tally. Strengths, losses
   or sums set side by side where the gap is the point.
+- **It adds, never replaces.** The text says everything the graphic shows, so the page
+  reads whole without it. The graphic is there to make the reader curious and the story
+  easier to take in.
+- **A key where needed.** Any colour, mark or line style whose meaning is not written on
+  the graphic itself gets a one-line key beside it.
 - **Few.** Most pages carry none beyond Before and after. A knot carries one more as a
   rule and never more than two. Nothing is drawn for decoration.
 - **From the data, never by hand.** Every number comes from the page's `figures` header,
