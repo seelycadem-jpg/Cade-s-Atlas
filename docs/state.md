@@ -127,7 +127,7 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 ### A. Decided by Cade
 
 1. **Page order for every event** (event-pages.md, CLAUDE.md): the bottom line in one
-   paragraph; Overview, with a graphic if there is one; Historical Chain; The Record;
+   paragraph; Overview, with its graphic last in the section where there is one; Historical Chain; The Record;
    Meanwhile; the exits. Historical significance, Lasting impact, What caused it, What it
    caused, and Before and after no longer have sections of their own. "What caused it" and
    "What it caused" survive as the labels on the two sides of the chain web.
