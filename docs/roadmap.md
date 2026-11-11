@@ -233,6 +233,7 @@ Goal: the web of cause and effect at scale, and the tools to follow it.
 | 10.3 | About page: purpose, goal, the method in brief, the Cliopatria credit, every licence line | AI, C approves | Published |
 | 10.4 | Visitor counting that respects privacy (proposed: Cloudflare Web Analytics; needs Cade's OK) | C approves | On |
 | 10.5 | Not-found page and error pages | AI | Test |
+| 10.5a | "Report a problem" on every page (Cade, 2026-11-11): a reader who sees a wrong fact or a broken screen sends it to us by email, with the page's address filled in. No account needed. Proposed: a link that opens the reader's own email app; a form is the alternative and needs a service | AI, C approves | A report from a phone reaches Cade's inbox |
 | 10.6 | Speed and accessibility audit on a mid-range phone | AI | Passes |
 | 10.7 | Google Search Console: submit the sitemap, check the structured data | C+AI | No errors |
 | 10.8 | People test with five people who have never seen the atlas | C+AI | Fixes made |
@@ -263,7 +264,7 @@ Goal: the web of cause and effect at scale, and the tools to follow it.
 | 12.3 | Prototype and play-test it | C+AI | Fun to play twice |
 | 12.4 | The daily puzzle generator, from "today in history" and the links, with a review queue | AI | A month of puzzles queued |
 | 12.5 | Shareable results that spoil nothing | AI | Test |
-| 12.6 | Streaks kept on the reader's phone | AI | Test |
+| 12.6 | Streaks kept on the reader's phone (an account carries them across devices and through the year in Phase 14) | AI | Test |
 | 12.7 | Launch the game | C | Live |
 
 **Test:** a month of puzzles reviewed; people test passes.
@@ -278,3 +279,29 @@ Goal: the web of cause and effect at scale, and the tools to follow it.
 | 13.4 | The globe's years before 1400 checked on the new globe | AI | Record check passes |
 
 **Test:** as Phases 6 and 7.
+
+## Phase 14: Accounts, saved reading and email (added by Cade, 2026-11-11)
+
+Goal: a reader can sign in to keep their daily game scores through the year, save pages to
+read later, and choose a daily or weekly email. Reading the atlas never needs an account.
+
+Placed after the game because scores need the game; Cade may move it. Sign-in, a database
+and an email sender are all outside the present stack, so step 14.2 is a proposal that
+nothing moves without (CLAUDE.md, Hard limits).
+
+| # | Step | Who | Done when |
+| --- | --- | --- | --- |
+| 14.1 | Decide what an account holds (game scores, saved pages, email choices) and write down every piece of personal data kept and why | C, AI advises | A short list Cade approves |
+| 14.2 | Propose the services: sign-in (proposed: a link sent by email, no password), a database, an email sender; cost and licence for each | AI proposes, C approves | Chosen |
+| 14.3 | Privacy page and terms: what is stored, how to delete an account, how to leave the email list | AI drafts, C approves | Published |
+| 14.4 | Mock the sign-in, the account page and the Saved list on a phone | AI, C approves | Tap-through mock |
+| 14.5 | Sign in, sign out, delete my account | AI | Test |
+| 14.6 | Game scores saved to the account through the year; streaks on the phone carried in at first sign-in | AI | Test |
+| 14.7 | Save for later on every chronicle, story, chapter and event; a Saved list. Proposed: saving works on the phone without an account and moves to the account at sign-in | AI | Test |
+| 14.8 | **Decide the email** (open, Cade's call): daily, weekly or both; what it carries (the day's puzzle, an event on this day, a new chronicle or story); who reviews it before it goes out | C, AI advises | Written down |
+| 14.9 | Design the email and its sign-up, with one-tap unsubscribe | AI, C approves | A test email on Cade's phone |
+| 14.10 | Build the email: generated from the atlas's data, through a review queue, to subscribers only | AI | A week of emails sent to a test list |
+| 14.11 | People test of accounts, saving and the email | C+AI | Fixes made |
+
+**Test:** a new reader signs up on a phone, plays, saves a page, gets the email, unsubscribes and deletes the account, with no help.
+

@@ -116,6 +116,13 @@ The artifacts are private to Cade's account. The repo files are the source of tr
 4. Phase 1 steps left: front door (1.5), filters (1.6, with the backbone filter), the two
    globes (1.7), building the shared components (1.8 to 1.12), the people test (1.13).
 
+## Added to the roadmap (Cade, 2026-11-11)
+
+- Phase 14: accounts (game scores through the year, saved pages), and a daily or weekly
+  email whose content and rhythm are still Cade's to decide (step 14.8).
+- Step 10.5a: "Report a problem" by email on every page, at launch, with no account.
+- The services these need are outside the stack and wait for a proposal (step 14.2).
+
 ## Desktop (Cade, 2026-11-08)
 
 Phone first, desktop second, and the desktop is designed, never the phone layout stretched
