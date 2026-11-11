@@ -206,6 +206,12 @@ Questions for the master chat (none settled here; no standards doc was changed):
     recorded in `docs/design/mocks/versailles-signing-1919.json`. A mock switch still
     cycles the three placements. event-pages.md says "one picture or visual where it
     earns its place"; a picture on every event changes that line.
+20. Frames for pictures, on trial. A mock button cycles five: double gilt, mount, gilt
+    corners, ink rule, bare. Cade to choose; palette.md then needs the line.
+21. The title's docking. On Cade's note that the change felt rushed, the title now holds its
+    full size for the first 45 percent of the scroll and shrinks over the rest; the path
+    fades a little later. The globe's shrink is unchanged. The title still docks at the
+    same point, because it must dock when it reaches the top of the screen.
 19. This environment's network now allows commons.wikimedia.org and upload.wikimedia.org
     (Cade approved, 2026-11-11), for fetching open-licence pictures.
 10. Gilt. palette.md limits gilt to the heading stroke, the tabs and the divider diamond. On

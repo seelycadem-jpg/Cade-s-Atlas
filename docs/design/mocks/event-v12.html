@@ -51,10 +51,10 @@ p{margin:0 0 14px;text-wrap:pretty}
 /* The stage, as in the last event mock: fixed at the top. The globe shrinks into the corner; the title rides the page
    and docks by sticky. Scroll timelines drive it where the browser has them; a small script does the same elsewhere. */
 @supports (animation-timeline: scroll()){
-  :root.sda .tw{animation:twDock linear both;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-timeline:scroll(root block);animation-range:0px var(--D)}
+  :root.sda .tw{animation:twDock linear both;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-timeline:scroll(root block);animation-range:calc(var(--D) * .45) var(--D)}
   :root.sda .stage .gw{animation:gwDock linear both;animation-timing-function:cubic-bezier(.33,1,.68,1);animation-timeline:scroll(root block);animation-range:0px var(--D)}
-  :root.sda .tw .sub{animation:subKeep linear both;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-timeline:scroll(root block);animation-range:0px var(--D)}
-  :root.sda .tw .kicker,:root.sda .tw .sub .rest{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .42)}
+  :root.sda .tw .sub{animation:subKeep linear both;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-timeline:scroll(root block);animation-range:calc(var(--D) * .45) var(--D)}
+  :root.sda .tw .kicker,:root.sda .tw .sub .rest{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:calc(var(--D) * .3) calc(var(--D) * .72)}
   :root.sda .hint{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .28)}
   :root.sda .stage .hsub{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:var(--D) calc(var(--D) + 48px)}
   :root.sda .stage .band{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:calc(var(--D) * .7) calc(var(--D) * .9)}
@@ -411,6 +411,16 @@ main.pic-c .piccap,main.pic-0 .piccap{display:none}
 .pthumb.on{opacity:1;transform:none;pointer-events:auto}
 .pthumb img{display:block;width:100%;height:100%;object-fit:cover;filter:sepia(.18)}
 .pthumb:active{transform:scale(.94)}
+/* frames for pictures, on trial (placement A): a mock button cycles them */
+main.pic-a.fr-mount .pic{padding:11px;border:1px solid var(--rule);background:var(--surface);box-shadow:var(--lift)}
+main.pic-a.fr-mount .pic img{outline:1px solid var(--ink3)}
+main.pic-a.fr-corners .pic,main.pic-a.fr-ink .pic,main.pic-a.fr-bare .pic{padding:0;border:0;box-shadow:none;background:none}
+main.pic-a.fr-corners .pic img,main.pic-a.fr-ink .pic img,main.pic-a.fr-bare .pic img{outline:0}
+main.pic-a.fr-corners .pic{margin:10px 6px 20px}
+main.pic-a.fr-corners .pic::before{content:"";position:absolute;inset:-6px;pointer-events:none;--g:var(--gilt);
+  background:linear-gradient(var(--g),var(--g)) 0 0/18px 1.5px,linear-gradient(var(--g),var(--g)) 0 0/1.5px 18px,linear-gradient(var(--g),var(--g)) 100% 0/18px 1.5px,linear-gradient(var(--g),var(--g)) 100% 0/1.5px 18px,linear-gradient(var(--g),var(--g)) 0 100%/18px 1.5px,linear-gradient(var(--g),var(--g)) 0 100%/1.5px 18px,linear-gradient(var(--g),var(--g)) 100% 100%/18px 1.5px,linear-gradient(var(--g),var(--g)) 100% 100%/1.5px 18px;background-repeat:no-repeat}
+main.pic-a.fr-ink .pic img{outline:1px solid var(--ink3)}
+.mockbtn.three{bottom:calc(184px + env(safe-area-inset-bottom,0px))}
 /* on trial: a double gilt rule round the picture plate, the outer a little stronger than the inner */
 main.pic-a .pic{padding:5px;border-color:color-mix(in srgb,var(--gilt) 70%,transparent)}
 main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transparent);outline-offset:0}
@@ -599,6 +609,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 <div id="dockHost"></div>
 <div id="sheetHost"></div>
 <div class="toast" id="toast" role="status" hidden></div>
+<button type="button" class="mockbtn three" id="frBtn" aria-label="Picture frame (mock control)">Frame: double gilt</button>
 <button type="button" class="mockbtn two" id="picBtn" aria-label="Picture placement (mock control)">Picture: A plate</button>
 <button type="button" class="mockbtn" id="themeBtn" aria-label="Theme (mock control)">Theme: auto</button>
 <nav class="pill" aria-label="Atlas">
@@ -682,12 +693,12 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     small=q>=0.999; var sm=q>0.2; if(last.sm!==sm){ last.sm=sm; stage.classList.toggle('small',sm); }
     put(hero,'hero','cursor',small?'pointer':'grab'); put(hsub,'hsub','pointerEvents',sc>M.D+24?'auto':'none'); put(hint,'hint','pointerEvents',q>0.25?'none':'auto');
     if(SDA) return;
-    var qs=q*q*(3-2*q), eo=1-(1-q)*(1-q), ts=lerp(1,M.s1t,qs);
+    var qh=Math.max(0,(q-0.45)/0.55), qs=qh*qh*(3-2*qh), eo=1-(1-q)*(1-q), ts=lerp(1,M.s1t,qs);
     put(tw,'tw','transform','translate3d('+((M.t1x-M.t0x)*qs).toFixed(2)+'px,0,0) scale('+ts.toFixed(4)+')');
     var g0x=(W-GS)/2, g0y=-GS*0.32, g1x=W-gutter-52, g1y=8, s1=52/GS;
     put(gw,'gw','transform','translate3d('+lerp(g0x,g1x,eo).toFixed(2)+'px,'+lerp(g0y,g1y,eo).toFixed(2)+'px,0) scale('+lerp(1,s1,eo).toFixed(4)+')');
     put(gw,'gw','opacity',lerp(1,0.78,eo).toFixed(3));
-    var fo=Math.max(0,1-q*2.4).toFixed(3); put(kicker,'kick','opacity',fo); [].forEach.call(sub.querySelectorAll('.rest'),function(r,i){ put(r,'rest'+i,'opacity',fo); });
+    var fo=Math.max(0,1-Math.max(0,q-0.3)/0.42).toFixed(3); put(kicker,'kick','opacity',fo); [].forEach.call(sub.querySelectorAll('.rest'),function(r,i){ put(r,'rest'+i,'opacity',fo); });
     put(sub,'sub','transform','scale('+lerp(1,M.subk,qs).toFixed(4)+')');
     put(hint,'hint','opacity',Math.max(0,1-q*3.5).toFixed(3));
     put(hsub,'hsub','opacity',Math.min(1,Math.max(0,(sc-M.D)/48)).toFixed(3));
@@ -983,6 +994,8 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     function cap(){ openSheet('<button type="button" class="xbtn" data-close aria-label="Close"><i><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></i></button><div class="pbody"><img src="versailles-signing-1919.jpg" alt="A long mirrored hall packed with standing delegates and onlookers, facing a table at its far end."><h3>The Signing in the Hall of Mirrors</h3><p class="pcap">Delegates and onlookers fill the Hall of Mirrors at Versailles on 28 June 1919, the day Germany signed.</p><dl><dt>Date</dt><dd>28 June 1919</dd><dt>Place</dt><dd>Versailles, France</dd><dt>Source</dt><dd>U.S. National Archives, identifier 531150</dd><dt>Licence</dt><dd>Public domain</dd><dt>Credit</dt><dd>U.S. National Archives and Records Administration</dd></dl></div>','The picture','places pics'); gild(); }
     function gild(){ var sh=sheetHost.querySelector('.sheet'), fw=sh.offsetWidth, fh=sh.offsetHeight; function cart(i,r){ var x0=i,y0=i,x1=fw-i,y1=fh-i; return 'M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z'; }
       sh.insertAdjacentHTML('beforeend','<svg class="frame" viewBox="0 0 '+fw+' '+fh+'" aria-hidden="true"><path class="f1" pathLength="1" d="'+cart(1.2,11.5)+'"/><path class="f2" d="'+cart(4.2,10)+'"/></svg>'); }
+    var FR=[['','double gilt'],['fr-mount','mount'],['fr-corners','gilt corners'],['fr-ink','ink rule'],['fr-bare','bare']], fi=0, fb=document.getElementById('frBtn');
+    fb.addEventListener('click',function(){ if(FR[fi][0])mainEl.classList.remove(FR[fi][0]); fi=(fi+1)%FR.length; if(FR[fi][0])mainEl.classList.add(FR[fi][0]); fb.textContent='Frame: '+FR[fi][1]; pageLayout(); frameAll(); });
     thumb.addEventListener('click',cap);
     pic.addEventListener('click',cap); pic.addEventListener('keydown',function(e){ if(e.key==='Enter'||e.key===' '){ e.preventDefault(); cap(); } }); fade(); })();
 
