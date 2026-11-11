@@ -137,11 +137,12 @@ Whatever the prompt says:
   link into a chain stays a label on the map, never a page.
 - Four levels: chronicle, story, chapter, event. Readers see three sizes of event, knot,
   fibre and strand (Cade, 2026-11-11; docs/structure.md): each event is rated once, by its
-  impact on world history, and carries the same size on every page. A knot passes reach
-  (a large share of the people alive in its world at the time, counted in people, never in
-  countries), depth and lasting; a fibre passes for one people or region, or briefly; a
-  strand is smaller still, an event with consequences of its own (a city, an institution,
-  a campaign). Links, never dates alone, put
+  impact on world history, and carries the same size on every page. A knot changed the course of
+  its world, a fibre the course of one people or region, a strand the course of a city, an
+  institution or a movement. Reach (counted in people, never in countries) sets the size;
+  an event that fails depth, lasting or the counterfactual check drops one size. Every size
+  carries its recorded reason and evidence. An event is one happening with one outcome; a
+  thing that takes several steps to tell is a chapter or a story. Links, never dates alone, put
   an event in a chapter; no event sits "inside" another. Never promote an event to balance
   regions: audit the shares and research the gap. All three
   are events with a date and a place; a figure or a date on its own is a line inside a

@@ -23,7 +23,7 @@ CHRONICLE   one long subject followed through time
    │          page = a longer briefing, then the thread of its events
    │
    │          └─ EVENTS   joined to each other by graded links
-   │               ◆ knot    The Paris Peace Settlement, 1919 to 1923
+   │               ◆ knot    The Treaty of Versailles, 28 June 1919
    │               ● fibre   the Senate rejects the treaty
    │               ○ strand  the racial-equality vote, 11 April 1919
 ```
@@ -99,32 +99,77 @@ from one story to the next is a graded link like any other.
 ## The three sizes (Cade, 2026-11-11)
 
 Every event is rated once, by its impact on world history. The size is fixed: the same
-word and the same mark on every page, whatever path the reader took.
+word and the same mark on every page, whatever path the reader took. Only events have a
+size; a chapter, a story and a chronicle have none.
 
-| Size | Mark | Test |
-| --- | --- | --- |
-| Knot | diamond | Passes reach, depth and lasting, all three |
-| Fibre | filled dot | Passes for one people or region only, or for a short time |
-| Strand | open ring | Smaller still: it changed the course of a city, an institution, a campaign or a movement |
+### What counts as an event
 
-The three tests of a knot:
+An event is one happening with one outcome, at a date and a place. A reader can say what
+it was in a sentence. If telling it takes several steps, each with consequences of its
+own, it is a chapter or a story, and the steps are its events. The Mongol conquests are a
+story; the sack of Baghdad in 1258 is an event. The Black Death is an event with a span
+of years and an area, because it is one happening with one outcome.
 
-1. **Reach.** It changed life for a large share of the people alive in its world at the
-   time. Reach is counted in people, never in countries. "Its world" is the connected
-   world of its day: before 1492 the Americas are a world of their own, and so is Oceania
-   before sustained contact. An event that reshaped the American world is a knot.
-2. **Depth.** It changed who ruled, how people worked, what they believed, or who lived
-   and who died.
-3. **Lasting.** The change held for generations.
+By this rule the Paris peace settlement of 1919 to 1923 (five treaties, four years,
+several cities) is a chapter, and the Treaty of Versailles is its knot (Cade,
+2026-11-11). The event mock and the worked example in event-pages.md still treat the
+settlement as one event and are reworked (see Open).
 
-A strand is an event in its own right, with consequences of its own, on the same scale as
-a knot and a fibre and at the small end of it (Cade, 2026-11-11). Many strands also
-explain how a bigger event went; their size comes from their own consequences.
+### The definitions
+
+| Size | Mark | Definition | Tooltip (generated, the same everywhere) |
+| --- | --- | --- | --- |
+| Knot | diamond | An event that changed the course of history for much of its world. Afterward a large share of the people alive were ruled differently, worked differently, believed differently, or lived where they would have died, and the change outlasted them | An event that changed the course of its world. |
+| Fibre | filled dot | An event that changed the course of history for one people or region, as deeply and for as long | An event that changed the course of one people or region. |
+| Strand | open ring | An event that changed the course of things for part of a people: a city, an institution, an army, a movement | An event that changed the course of a city, an institution or a movement. |
+
+A strand is an event in its own right, with consequences of its own, at the small end of
+the same scale. The tooltip text lives in one shared component and is never typed by hand.
+
+### The method
+
+**Step 1. Reach sets the starting size.** Reach is counted in people, never in countries,
+and over the life of the event's consequences, never on the day alone.
+
+| Whose lives changed | Starts as |
+| --- | --- |
+| More than one region of its world, or a large share of the people alive in it | Knot |
+| One people, state or region | Fibre |
+| Part of one | Strand |
+
+"Its world" is the connected world of its day: before 1492 the Americas are a world of
+their own, and so is Oceania before sustained contact. The list of worlds by era is fixed
+in the data, so a rater never picks the denominator. An event that reshaped the American
+world is a knot.
+
+**Step 2. Two gates.** An event that fails one drops one size; the floor is a strand.
+
+- Depth: it changed at least one of four things: who ruled, how people made a living, what
+  they believed, or how many lived.
+- Lasting: the change outlasted the generation that lived through it.
+
+**Step 3. The counterfactual check.** Would the same change have come within a generation
+without this event? If yes, the event marked the change, and it drops one size.
+
+### The record that defends a size
+
+Each rating is recorded in the event's header, as a link's grade is:
+
+- The size and its reason in one sentence.
+- Evidence for each test. Reach cites a population estimate with its basis and range.
+  Depth and lasting point to the event's own outgoing links, so a size never exceeds what
+  the link table shows the event caused.
+- The best case for a different size, and a confidence word.
+- A blind second rating: a second agent rates from the same evidence without seeing the
+  first. Disagreements go to Cade. The agreement rate can go on the About page.
+- Anchor events: Cade rates about forty first, across every region and era. Every later
+  rating is compared with them.
+- Review: a size is provisional for 25 years after the event and is rated again when new
+  links are added.
 
 Size and links do separate jobs. The size says how much the event moved world history.
-The links say what caused what and which chapters the event sits in. The Paris settlement
-is a knot in Weimar Germany's chapter The Treaty and a knot in every Ottoman and Arab
-chapter that holds it.
+The links say what caused what and which chapters the event sits in. The Treaty of
+Versailles carries the same size in every chapter that holds it.
 
 ### What a chapter turns on (Cade, 2026-11-11)
 
@@ -256,7 +301,10 @@ smaller event with consequences of its own.
 
 ## Open
 
-- "A large share" in the reach test has no number yet; it is set when the first chronicles
-  are rated.
+- "A large share" in the reach test has no number yet. First line to test: about a tenth
+  of the people alive in its world, set from the anchor events.
+- The Paris settlement becomes a chapter with Versailles as its knot: rework the event
+  mock (event-v11.html) and the worked example in event-pages.md.
+- Cade rates the forty anchor events.
 - The pilot's "German Question" (1517 to today) becomes stories inside the Germany
   chronicle in Phase 7.
