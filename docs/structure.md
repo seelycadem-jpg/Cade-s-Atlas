@@ -219,6 +219,23 @@ events whose links in it are graded Necessary or Sufficient: its backbone.
 
 Length follows the event and its sources, never the size. A knot that is one day is short.
 
+## What the globe shows at a year (Cade, 2026-11-11)
+
+The globe exists to show the critical events of a year and what else was happening
+meanwhile. It shows the biggest events each region has for the years in view.
+
+- Knots come first. Where a region has no knot in those years, its biggest fibre shows;
+  where it has no fibre, a strand.
+- The size never changes to fill the map. A fibre shown in a quiet region keeps its
+  filled dot, so the reader sees both that something happened there and how big it was.
+- Among events of one size, an event on a chronicle's backbone shows first.
+- A region shows nothing only where the atlas holds no event for those years. That gap
+  is true and stays.
+- The timeline's far zoom fills its region lanes by the same rule.
+
+Still to set in the globe mock (roadmap 1.7): how many events a region shows at once on a
+phone, and how wide "the years in view" is.
+
 ## Two guard rails against a Western lean
 
 1. **The audit, never a quota.** For each era, each region's share of the knots is
