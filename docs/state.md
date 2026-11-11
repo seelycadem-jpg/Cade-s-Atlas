@@ -146,6 +146,10 @@ the web's controls, cards and motion are reworked to a finer finish.
 - "Also in N more chapters" opens a sheet: every place the event sits, grouped by chronicle
   under sticky headings, a find box past eight rows, the reader's path ticked, and a scroll.
   Choosing a row makes the page follow that path. Built for 25 places with placeholder rows.
+- Cade, fourth note (decided): the plain-type hero is good; the globe caption reads "Globe
+  1919", the event's year (the borders are cut at mid-1919); the places stay grouped by
+  chronicle; the soft shadow on the content cards stays. The places sheet is smaller and
+  sits in a gilt cartouche with notched corners, drawn in one stroke as on the tabs.
 
 Questions for the master chat (none settled here; no standards doc was changed):
 1. The page order. The mock follows Cade's trial order, which differs from the order agreed
@@ -163,6 +167,8 @@ Questions for the master chat (none settled here; no standards doc was changed):
 8. The bubble. Cade wants fewer floating pills. The bottom pill (Globe, year, search) is the
    one left on the page and is a decided element (palette.md); whether it keeps that form is
    his call in the master chat. ui-rules.md has no rule on it yet.
+10. Gilt. palette.md limits gilt to the heading stroke, the tabs and the divider diamond. On
+    Cade's ask the places sheet now carries a gilt cartouche too; palette.md needs the line.
 9. The places sheet groups by chronicle and counts chapters ("25 chapters in 16
    chronicles"). structure.md says "Also in N more"; the mock adds the word "chapters".
 7. The mock's sizes are placeholders: old tier 1 as knot, tier 2 as fibre, four events set

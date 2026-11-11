@@ -270,27 +270,37 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 .lrow svg{width:8px;height:14px;color:var(--ink3)}
 .weak{font:13.5px/1.45 var(--ui);color:var(--ink2);margin:10px 0 2px}
 .weak b{color:var(--ink);font-weight:600}
-.sheet.places{padding:0;display:flex;flex-direction:column;overflow:hidden;max-height:min(calc(100% - 150px),620px)}
-.places .ph{position:relative;padding:16px 18px 12px;border-bottom:1px solid var(--rule);flex:none}
+.sheet.places{padding:6px;display:flex;flex-direction:column;overflow:hidden;width:min(86vw,21.5rem);max-height:min(calc(100% - 190px),440px);border-radius:0;box-shadow:none;
+  -webkit-mask:radial-gradient(circle at 0 0,transparent 11px,#000 11.6px) 0 0/51% 51% no-repeat,radial-gradient(circle at 100% 0,transparent 11px,#000 11.6px) 100% 0/51% 51% no-repeat,radial-gradient(circle at 0 100%,transparent 11px,#000 11.6px) 0 100%/51% 51% no-repeat,radial-gradient(circle at 100% 100%,transparent 11px,#000 11.6px) 100% 100%/51% 51% no-repeat;
+  mask:radial-gradient(circle at 0 0,transparent 11px,#000 11.6px) 0 0/51% 51% no-repeat,radial-gradient(circle at 100% 0,transparent 11px,#000 11.6px) 100% 0/51% 51% no-repeat,radial-gradient(circle at 0 100%,transparent 11px,#000 11.6px) 0 100%/51% 51% no-repeat,radial-gradient(circle at 100% 100%,transparent 11px,#000 11.6px) 100% 100%/51% 51% no-repeat}
+/* the gilt cartouche: the title panel of an old map, drawn round the sheet in one stroke */
+.places .frame{position:absolute;inset:0;width:100%;height:100%;pointer-events:none;z-index:5;overflow:visible}
+.places .frame path{fill:none;stroke:var(--gilt);stroke-linecap:round;stroke-linejoin:round}
+.places .frame .f1{stroke-width:1.3;stroke-dasharray:1 1.1;stroke-dashoffset:1.05;animation:frameDraw .9s cubic-bezier(.45,0,.2,1) .12s forwards}
+.places .frame .f2{stroke-width:.7;opacity:0;animation:fadeIn .5s ease .7s forwards}
+@keyframes frameDraw{to{stroke-dashoffset:0}}
+.places .ph{position:relative;padding:14px 16px 10px;border-bottom:1px solid var(--rule);flex:none}
+.places .ph h3{font-size:19px}
+.places .xbtn{right:2px;top:2px}
 .places .ph h3{margin:4px 0 2px}
-.places .ph .cnt{font:13px/1.4 var(--ui);color:var(--ink2);margin:0;font-variant-numeric:tabular-nums}
-.places .find{display:block;width:100%;margin:10px 0 0;min-height:42px;padding:0 12px;border:0;border-radius:11px;background:var(--surface2);color:var(--ink);font:15px/1 var(--ui);-webkit-appearance:none;appearance:none}
+.places .ph .cnt{font:12.5px/1.4 var(--ui);padding-right:8px;color:var(--ink2);margin:0;font-variant-numeric:tabular-nums}
+.places .find{display:block;width:100%;margin:8px 0 0;min-height:38px;padding:0 10px;border:0;border-radius:6px;background:var(--surface2);color:var(--ink);font:16px/1 var(--ui);-webkit-appearance:none;appearance:none}
 .places .find::placeholder{color:var(--ink3)}
 .places .plist{overflow-y:auto;overscroll-behavior:contain;-webkit-overflow-scrolling:touch;flex:1;min-height:0;padding:0 0 18px}
-.places .pg{position:sticky;top:0;z-index:1;display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:12px 18px 6px;background:var(--surface);font:500 12.5px/1.3 var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--ink2)}
+.places .pg{position:sticky;top:0;z-index:1;display:flex;justify-content:space-between;align-items:baseline;gap:10px;padding:10px 16px 4px;background:var(--surface);font:500 12px/1.3 var(--label);letter-spacing:.12em;text-transform:uppercase;color:var(--ink2)}
 .places .pg span{font:500 11.5px/1 var(--ui);letter-spacing:0;color:var(--ink3);font-variant-numeric:tabular-nums}
-.prow{display:grid;grid-template-columns:1fr auto;gap:2px 12px;align-items:center;width:100%;min-height:56px;padding:8px 18px}
+.prow{display:grid;grid-template-columns:1fr auto;gap:1px 10px;align-items:center;width:100%;min-height:48px;padding:6px 16px}
 .prow+.prow{box-shadow:inset 0 1px 0 var(--rule)}
 .prow:active{background:var(--surface2)}
-.prow .pt{font:500 17px/1.22 var(--display);color:var(--title)}
+.prow .pt{font:500 15.5px/1.22 var(--display);color:var(--title)}
 .prow .pt i{font-style:normal;color:var(--ink3);margin:0 5px}
-.prow .pm{grid-column:1;font:12.5px/1.4 var(--ui);color:var(--ink3)}
+.prow .pm{grid-column:1;font:11.5px/1.35 var(--ui);color:var(--ink3)}
 .prow .pr{grid-column:2;grid-row:1 / span 2;display:inline-flex;align-items:center;gap:6px;font:600 12px/1 var(--ui);color:var(--accent);white-space:nowrap}
 .prow .pr svg{width:8px;height:14px;color:var(--ink3)}
 .prow .pr .tick{width:14px;height:14px;color:var(--accent)}
-.places .pnone{padding:22px 18px;font:14px/1.5 var(--ui);color:var(--ink3)}
-.places .pfade{position:absolute;left:0;right:0;bottom:0;height:26px;background:linear-gradient(transparent,var(--surface));pointer-events:none;border-radius:0 0 22px 22px}
-.places .mockrow{flex:none;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:8px 18px;border-top:1px dashed var(--ink3);font:12.5px/1.4 var(--ui);color:var(--ink3);position:relative;z-index:2;background:var(--surface)}
+.places .pnone{padding:18px 16px;font:14px/1.5 var(--ui);color:var(--ink3)}
+.places .pfade{position:absolute;left:0;right:0;bottom:0;height:26px;background:linear-gradient(transparent,var(--surface));pointer-events:none;}
+.places .mockrow{flex:none;display:flex;justify-content:space-between;align-items:center;gap:10px;padding:2px 16px 4px;border-top:1px dashed var(--ink3);font:12.5px/1.4 var(--ui);color:var(--ink3);position:relative;z-index:2;background:var(--surface)}
 .places .mockrow button{min-height:40px;font:500 12.5px/1 var(--ui);color:var(--ink2);text-decoration:underline;text-underline-offset:3px}
 .sheet.big{width:min(96vw,32rem);padding:10px}
 .sheet.big canvas{width:100%;display:block;border-radius:16px;touch-action:none;background:var(--sea)}
@@ -330,13 +340,13 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 
 <div class="stage" id="stage">
   <div class="band" id="band"></div>
-  <div class="gw" id="gw"><canvas id="globe" aria-label="The world in 1920, centred on Versailles. Drag to turn it; tap when small to open it large."></canvas></div>
+  <div class="gw" id="gw"><canvas id="globe" aria-label="The world in 1919, centred on Versailles. Drag to turn it; tap when small to open it large."></canvas></div>
   <div class="hsub" id="hsub"><button class="lk" type="button" id="hChap">The Treaty</button><span id="hNextW"> · <button type="button" class="nx" id="hNext">Next: German Hyperinflation ›</button></span></div>
   <div class="topbar">
     <button class="back" type="button" data-say="Back: the exact place and year you left"><svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M15 18l-6-6 6-6"/></svg><span>Back</span></button>
   </div>
 </div>
-<div class="spacer" id="spacer"><div class="hint" id="hint">The borders of 1920</div></div>
+<div class="spacer" id="spacer"><div class="hint" id="hint">Globe 1919</div></div>
 <div class="tw" id="tw">
   <nav class="kicker path" id="kicker" aria-label="Where this sits"><span class="crumb"><button class="lk" type="button" id="cChron">Germany</button><span class="lvl">chronicle</span></span><span class="psep" aria-hidden="true">›</span><span class="crumb"><button class="lk" type="button" id="cStory">Weimar Germany</button><span class="lvl" id="cStoryL">story 8 of 12</span></span><span class="psep" aria-hidden="true">›</span><span class="crumb"><button class="lk" type="button" id="cChap">The Treaty</button><span class="lvl"><span id="cChapL">chapter 1</span> · <i class="mk k" aria-hidden="true"></i> knot</span></span><button type="button" class="alsoin" id="alsoin" aria-haspopup="dialog"><span id="alsoTxt"></span><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5"/></svg></button></nav>
   <h1>The Treaty of Versailles</h1>
@@ -771,7 +781,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
       +'<p class="plain">'+esc(PLAIN[l.grade])+'</p><h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The strongest objection</h4><p>'+esc(l.objection)+'</p>'+(l.verdict?'<h4>The verdict</h4><p>'+esc(l.verdict)+'</p>':'')
       +'<div class="acts">'+(back?'<button type="button" class="sec" data-pathback="'+back+'">Back to the path</button>':'')+'<button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,'The note on this line'); }
-  function openBig(){ var h='<canvas id="bigGlobe" aria-label="The world in 1920. Drag to turn it."></canvas><div class="acts"><button type="button" class="pri" data-say="Would open the Political globe at 1919, centred here, with a Return chip back to this page.">Open the globe at 1919</button><button type="button" class="close" data-close>Close</button></div>';
+  function openBig(){ var h='<canvas id="bigGlobe" aria-label="The world in 1919. Drag to turn it."></canvas><div class="acts"><button type="button" class="pri" data-say="Would open the Political globe at 1919, centred here, with a Return chip back to this page.">Open the globe at 1919</button><button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,'The globe','big'); big=document.getElementById('bigGlobe'); var S=Math.min(big.clientWidth,420); big.style.height=S+'px'; draw(big,S); if(dragger)d3.select(big).call(dragger); }
 
   /* ---------- where this event sits ---------- */
@@ -802,6 +812,9 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
       +g.rows.map(function(i){ var x=P[i]; return '<button type="button" class="prow" data-place="'+i+'" data-k="'+esc((x.c+' '+x.s+' '+x.ch).toLowerCase())+'"'+(i===here?' aria-current="true"':'')+'><span class="pt">'+esc(x.s)+'<i>›</i>'+esc(x.ch)+'</span><span class="pm">'+(x.ph?'placeholder':esc(x.sn+' · '+x.cn))+'</span><span class="pr">'+(i===here?'<svg class="tick" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2.5 7.5l3 3 6-7"/></svg>Your path':CHEV)+'</span></button>'; }).join('')+'</div>'; });
     h+='<div class="pnone" id="pnone" hidden>Nothing matches. This event sits in no chapter by that name.</div></div><div class="mockrow"><span>Mock control</span><button type="button" data-many>'+(many?'Show a short list (3)':'Show a long list (25)')+'</button><span class="pfade" style="bottom:100%"></span></div>';
     openSheet(h,'Where this event sits','places');
+    var sh=sheetHost.querySelector('.sheet'), fw=sh.offsetWidth, fh=sh.offsetHeight;
+    function cart(i,r){ var x0=i,y0=i,x1=fw-i,y1=fh-i; return 'M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z'; }
+    sh.insertAdjacentHTML('beforeend','<svg class="frame" viewBox="0 0 '+fw+' '+fh+'" aria-hidden="true"><path class="f1" pathLength="1" d="'+cart(1.2,11.5)+'"/><path class="f2" d="'+cart(4.2,10)+'"/></svg>');
     var f=document.getElementById('placeFind'); if(f)f.addEventListener('input',function(){ var qv=f.value.trim().toLowerCase(), any=false;
       [].forEach.call(sheetHost.querySelectorAll('.pgrp'),function(g){ var shown=0; [].forEach.call(g.querySelectorAll('.prow'),function(r){ var ok=!qv||r.dataset.k.indexOf(qv)>=0; r.hidden=!ok; if(ok)shown++; }); g.hidden=!shown; if(shown)any=true; });
       document.getElementById('pnone').hidden=any; });
