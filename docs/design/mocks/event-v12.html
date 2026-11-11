@@ -478,7 +478,10 @@ main.pic-c .pic,main.pic-a .pic{transform-origin:50% 50%}
 .bamkey .k3{background:var(--mnew)}
 .bamnew{font:13.5px/1.5 var(--ui);color:var(--ink2);margin:0 0 12px}
 .bamnew button{font:500 13.5px/1.5 var(--ui);color:var(--ink);text-decoration:underline;text-underline-offset:3px;text-decoration-thickness:1px;text-decoration-color:var(--accent);padding:6px 0}
-.bamfig{display:grid;grid-template-columns:repeat(3,1fr);gap:0;border-top:1px solid var(--rule);padding-top:10px}
+.bamfig{display:grid;grid-template-columns:repeat(2,1fr);gap:12px 0;border-top:1px solid var(--rule);padding-top:10px}
+.bamfig div:nth-child(odd){padding-left:0!important;border-left:0!important}
+.bamfig .tbd b{color:var(--ink3)}
+.bamfig .tbd span{font-style:italic}
 .bamfig div{padding:0 8px 0 0}
 .bamfig div+div{padding-left:10px;border-left:1px solid var(--rule)}
 .bamfig b{display:block;font:500 22px/1.1 var(--display);color:var(--title);font-variant-numeric:tabular-nums}
@@ -566,7 +569,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       <p class="bamtap" id="bamTap" aria-live="polite">Tap any land on the map.</p>
       <div class="bamkey" aria-label="Key"><span><i class="k1"></i>Germany</span><span><i class="k2"></i>Land Germany lost</span><span><i class="k3"></i>New on the map in 1919</span></div>
       <p class="bamnew" id="bamNew"></p>
-      <div class="bamfig"><div><b>13%</b><span>of Germany's land in Europe lost</span></div><div><b>100,000</b><span>the cap on its army</span></div><div><b>132 bn</b><span>gold marks set in 1921; about 20 bn paid</span></div></div>
+      <div class="bamfig"><div><b>13%</b><span>of Germany's land in Europe lost</span></div><div><b>100,000</b><span>the cap on its army</span></div><div><b>132 bn</b><span>gold marks set in 1921; about 20 bn paid</span></div><div class="tbd"><b>— · —%</b><span>people Germany lost, as a number and a share. Placeholder: the figure is not yet sourced.</span></div></div>
     </div>
   </section>
 

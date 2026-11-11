@@ -185,7 +185,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     communication. For a vote: the tally. In the mock: Germany and its neighbours, 1914
     and 1919, drawn from the atlas's own border record, with lost land hatched, new states
     tinted and named, and three figures under it. The reparations bars are folded into
-    those figures. event-pages.md says the text must say everything a graphic shows; the
+    those figures. Cade also wants the people lost, as a number and a share: the mock
+    shows that cell as a placeholder, because no sourced figure is in the project yet
+    (open: source Germany's population loss with its basis and range). event-pages.md says the text must say everything a graphic shows; the
     Overview text does not yet name the new states.
 
 ### B. On trial in the mock, for Cade to settle
