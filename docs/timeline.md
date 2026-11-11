@@ -2,12 +2,12 @@
 
 Full spec with the drawing: the Build Plan doc, The six places tab.
 
-Layout: a grid. Columns = the nine regions in the atlas order (Europe, Middle East, South Asia, East Asia, Southeast Asia, Sub-Saharan Africa, North America, Latin America, Oceania) plus an Ideas lane for the themes' dated ideas. Rows = time, running down, scale widening toward the present as the Prototype 1 slider does. The ages strip and the year cursor never leave the screen. Cards by tier: knot = full card (title + one line); strand = half card; fibre = a dot that opens on tap. Arrows between cards in the fixed grade language (solid Necessary/Sufficient, dashed Contributing, dotted Contested, struck through Coincident); an arrow leaving the screen ends in a tappable stub. Right rail: the world-in-that-year card. The cursor is the globe's cursor: moving it here moves the globe, the stories and the themes.
+Layout: a grid. Columns = the nine regions in the atlas order (Europe, Middle East, South Asia, East Asia, Southeast Asia, Sub-Saharan Africa, North America, Latin America, Oceania) plus an Ideas lane for the themes' dated ideas. Rows = time, running down, scale widening toward the present as the Prototype 1 slider does. The ages strip and the year cursor never leave the screen. Cards by tier: knot = full card (title + one line); fibre = half card; strand = a dot that opens on tap (the order of size is knot, fibre, strand; structure.md, 2026-11-11). Arrows between cards in the fixed grade language (solid Necessary/Sufficient, dashed Contributing, dotted Contested, struck through Coincident); an arrow leaving the screen ends in a tappable stub. Right rail: the world-in-that-year card. The cursor is the globe's cursor: moving it here moves the globe, the stories and the themes.
 
 Zoom: three fixed levels chosen with a control, never a free zoom (Histography rejected free zoom as too much effort; ChronoZoom found readers lose their place past about three nested levels).
-- Century: 100-300 years per screen by density; knots only; Tier 1 links only.
-- Decade: 10-30 years; knots and strands; people of the span as thin bars across the lanes; every link with both ends on screen.
-- Year: 1-3 years; everything, fibres included; grade word on every arrow; the year card opens to the full world profile.
+- Century: 100-300 years per screen by density; knots first, and where a region lane has no knot in view, its biggest fibre or strand (structure.md, What the globe shows at a year); backbone links only (Necessary and Sufficient).
+- Decade: 10-30 years; knots and fibres; people of the span as thin bars across the lanes; every link with both ends on screen.
+- Year: 1-3 years; everything, strands included; grade word on every arrow; the year card opens to the full world profile.
 Tapping a card opens the event; a lane header opens that region's chronicle at the cursor year; the age name opens the age brief.
 
 Filters (combine; dim the rest rather than remove it): region, tag, theme, chronicle, person, grade, polity (from the actors field).
