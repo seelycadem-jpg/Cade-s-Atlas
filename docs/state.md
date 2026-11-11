@@ -182,8 +182,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 17. **Graphics on a plate** (event-pages.md, Graphics): a gilt rule, a fine rule inside, a
     slight shadow, static. Cade wants graphics to stand off the page; the treatment is open.
 18. **The frame for pictures**. Cade picks the inset placement: a small upright picture
-    beside the opening paragraph, its one-line description under it. The frame is still
-    open; the mock cycles nine (double gilt, mount, gilt corners, ink rule, loose print,
+    beside the opening paragraph, its one-line description under it. Cade leans to gilt corners: fine
+    double corner marks, a soft shadow that lifts the photograph, and a slight swell as
+    it crosses the middle of the screen. The mock still cycles nine (double gilt, mount, gilt corners, ink rule, loose print,
     vignette, espresso tone, arched, bare).
 19. **The name "The Record"** for the detail, and its drawers (ui-rules.md rule 19 says no
     gate; its Open list asks for a name to replace "Open the detail").
