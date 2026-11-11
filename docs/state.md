@@ -169,7 +169,8 @@ Questions for the master chat (none settled here; no standards doc was changed):
    his call in the master chat. ui-rules.md has no rule on it yet.
 11. Corners. Cade leans toward few or no rounded corners across the atlas, for a sharper,
     more cartographic look (2026-11-11). In the mock only the places sheet is squared so
-    far: a straight find box and a plain close mark. A site-wide rule belongs in
+    as a trial: the whole of event-v12.html is squared (one block at the end of its
+    styles, easy to lift out), with round kept for the globe, the dot, the ring and the pin. A site-wide rule belongs in
     ui-rules.md and palette.md, and touches the story and chapter mocks too.
 10. Gilt. palette.md limits gilt to the heading stroke, the tabs and the divider diamond. On
     Cade's ask the places sheet now carries a gilt cartouche too; palette.md needs the line.

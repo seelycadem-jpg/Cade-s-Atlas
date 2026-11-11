@@ -339,6 +339,51 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
 .pill .g{background:var(--accent);color:var(--on-accent);padding:0 16px;font:600 14px/1 var(--ui)}
 .pill .y{font:600 17px/1 var(--ui);color:var(--accent);font-variant-numeric:tabular-nums;padding:0 14px}
 .pill svg{width:22px;height:22px}
+
+/* ===== The square pass (Cade, 2026-11-11, on trial): straight edges and hairlines everywhere.
+   Round stays only where the thing is round: the globe, the fibre dot, the strand ring, the pin.
+   Selected and pressed states are carried by fill and rule, since the pill shape no longer says "button". ===== */
+.lk,.fig,.fig .bar i,.gl,.track,.track.steps::before,.track button,.nd .card,.mini .win,.dock,.pathbtn,.pri,.sec,.sheet,.lrows,.sheet.big canvas,.toast,.rec,.about,.pill,.pill button,.xbtn i{border-radius:0}
+.xbtn i{background:none}
+.xbtn svg{width:13px;height:13px}
+.fig,.rec{box-shadow:none;border:1px solid var(--rule);border-top:1px solid var(--ink3)}
+/* controls: a ruled box; the chosen step is inked solid, a shown size is boxed */
+.track{background:transparent;border:1px solid var(--ink3);padding:0}
+.track.steps::before{top:0;bottom:0;left:0;width:20%;background:var(--ink);box-shadow:none}
+.track.steps button+button{box-shadow:inset 1px 0 0 var(--rule)}
+.track.steps button[aria-pressed="true"]{color:var(--bg);box-shadow:none}
+.track button{min-height:44px}
+.track button:active{transform:none;background:var(--surface2)}
+.track.show{column-gap:0}
+.track.show .div{background:var(--ink3);margin:0}
+.track.show button+button{box-shadow:inset 1px 0 0 var(--rule)}
+.track.show button[aria-pressed="true"]{background:var(--surface);box-shadow:inset 0 -2px 0 var(--ink)}
+.track.show button+button[aria-pressed="true"]{box-shadow:inset 1px 0 0 var(--rule),inset 0 -2px 0 var(--ink)}
+/* the web: plates on a ruled well */
+.web{border-top:1px solid var(--ink3);border-bottom:1px solid var(--ink3)}
+.nd.sz-k .card{border-color:var(--ink3);box-shadow:none}
+.nd.sz-fi .card{border-color:var(--rule)}
+.nd.here .card{border:1.5px solid var(--accent);box-shadow:0 0 0 3px var(--halo)}
+.nd.sel .card{border-color:var(--accent);box-shadow:0 0 0 1.5px var(--accent)}
+.nd:active .card{transform:none;background:var(--surface2)}
+.mini .win{background:transparent;box-shadow:none;border:1px solid var(--ink3)}
+/* cards and sheets: a hairline frame and a heavier top rule */
+.dock{border:1px solid var(--ink3);border-top:2px solid var(--title)}
+.sheet{border:1px solid var(--ink3);border-top:2px solid var(--title)}
+.sheet.places{border:0}
+.lrows{border:1px solid var(--rule)}
+.pathbtn{background:transparent;border:1px solid var(--rule)}
+.pathbtn:active,.pri:active,.sec:active{transform:none}
+.pathbtn:active{background:var(--surface2)}
+.pri{min-height:46px}
+.pri:active{filter:brightness(.9)}
+.sec{background:transparent;border:1px solid var(--ink)}
+.sec:active{background:var(--surface2)}
+.pill{padding:0;gap:0;border:1px solid var(--ink3);box-shadow:var(--shadow2)}
+.pill button+button{box-shadow:inset 1px 0 0 var(--rule)}
+.pill button:active{background:var(--surface2)}
+.pill .g:active{background:var(--accent);filter:brightness(.9)}
+.rec summary:active{background:var(--surface2)}
 </style>
 
 <div class="stage" id="stage">
