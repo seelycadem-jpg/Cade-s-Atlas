@@ -210,8 +210,8 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     - The mock opens with knots and fibres on and strands off.
     - Clean pass (Cade, same day): every event is one card of one size, and the mark alone
       tells knot from fibre from strand. This changes ui-rules.md rule 8, which gives each
-      size its own card form. A knot's card carries a gilt top edge. The tapped event gets
-      the gilt cartouche, drawn in one stroke as on the tabs. The web sits on the paper
+      size its own card form. The tapped event gets one thin gilt line round its card
+      (a cartouche round the card was tried and withdrawn; the cartouche stays for pop-ups). The web sits on the paper
       between two hairlines; the controls are one ruled strip with a gilt line under what
       is on; the small map is a hairline with a tick for each step.
     - Second clean pass (Cade, same day). The gilt top edge on knots is withdrawn ("only

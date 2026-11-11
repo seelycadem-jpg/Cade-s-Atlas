@@ -631,9 +631,6 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .wcanvas .nd.sel:not(.chip) .card{border-color:var(--rule)}
 .wcanvas .nd.here.sel:not(.chip) .card{border-color:var(--accent)}
 .wcanvas .nd:active .card{background:var(--surface2)}
-/* the event in hand: the cartouche draws itself round it */
-.nd .cart{position:absolute;left:-7px;top:-7px;overflow:visible;pointer-events:none}
-.nd .cart path{fill:none;stroke:var(--gilt);stroke-width:1.25;stroke-linecap:round;stroke-linejoin:round;stroke-dasharray:1 1.1;stroke-dashoffset:1.05;animation:frameDraw .7s cubic-bezier(.45,0,.2,1) forwards}
 .nd.chip.sel .nt{color:var(--title)!important;text-decoration:underline;text-decoration-color:var(--gilt);text-underline-offset:3px}
 .dch{background:radial-gradient(closest-side,var(--bg) 55%,transparent)}
 .wcanvas .nd.indrum:not(.chip) .card{background:var(--surface)}
@@ -670,8 +667,8 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .wcanvas .nd.here:not(.chip) .card{border:1px solid var(--accent)}
 .wcanvas .nd.here:not(.chip) .nm{background:var(--accent);border-bottom-color:var(--accent);color:var(--on-accent)}
 .wcanvas .nd.here:not(.chip) .nm .mk{background:var(--on-accent)}
-.wcanvas .nd.sel:not(.chip) .card{border-color:var(--ink3)}
-.wcanvas .nd.here.sel:not(.chip) .card{border-color:var(--accent)}
+/* the event in hand: one thin gilt line round its card */
+.wcanvas .nd.sel:not(.chip) .card,.wcanvas .nd.here.sel:not(.chip) .card{border-color:var(--gilt);box-shadow:0 0 0 .5px var(--gilt)}
 /* the ruler: arrows that count the events off screen, and the whole web as a scale with the part in view marked */
 .ruler{display:grid;grid-template-columns:auto 1fr auto;align-items:center;gap:6px;padding:2px 8px 0}
 .rarrow{display:flex;align-items:center;gap:5px;min-width:58px;min-height:44px;padding:0 4px;color:var(--accent);transition:opacity .2s}
@@ -1130,13 +1127,10 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     else { trail.hidden=true; trail.innerHTML=''; }
     bar(); sync(); if(typeof secTops==='function')setTimeout(secTops,80);
   }
-  function cartOn(){ [].forEach.call(nodesLayer.querySelectorAll('.cart'),function(c){ var n=N[c.parentNode.dataset.id]; if(c.parentNode.dataset.id!==sel||!n||n.chip||+c.getAttribute('width')!==Math.round(n.w+14)||+c.getAttribute('height')!==Math.round(n.h+14))c.remove(); });
-    var n=sel&&N[sel]; if(!n||n.gone||n.chip||n.el.querySelector('.cart'))return; var w=Math.round(n.w+14), h=Math.round(n.h+14);
-    n.el.insertAdjacentHTML('beforeend','<svg class="cart" width="'+w+'" height="'+h+'" viewBox="0 0 '+w+' '+h+'" aria-hidden="true"><path pathLength="1" d="'+cartouche(w,h)+'"/></svg>'); }
   function paintClasses(){ Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone)return; var c='nd sz-'+size(id)+(n.chip?' chip':'')+(n.drumK!=null?' indrum':'')+(id===centre?' here':'')+(id===sel?' sel':''); if(n.el.className!==c)n.el.className=c; n.el.setAttribute('aria-pressed',String(id===sel)); }); }
   /* selection lights one path and quiets the rest */
   function paint(run){ var path=sel&&sel!==centre?pathOf(sel):[], onE={}, onN={}; path.forEach(function(l){onE[l.id]=1;onN[l.f]=1;onN[l.t]=1;});
-    paintClasses(); cartOn();
+    paintClasses();
     Object.keys(N).forEach(function(id){ var n=N[id]; n.tg.d=path.length?((onN[id]||id===centre)?1:0.2):1; });
     Object.keys(ED).forEach(function(id){ var e=ED[id]; if(e.gone)return; e.tgA=path.length?(onE[id]?1:0.1):1; });
     if(run!==false)kick(); }
