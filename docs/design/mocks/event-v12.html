@@ -480,14 +480,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
     </div>
   </section>
 
-<section class="layer" id="meanwhile">
-    <h2>Meanwhile</h2>
-    <p class="take how">What else the atlas holds within two years of the treaty, and whether it draws a line between them.</p>
-    <div class="mw" id="mw"></div>
-    <p class="mwnote">Mock data: the pilot holds few events for these years, so the list is short.</p>
-  </section>
-
-  <section class="layer" id="record">
+<section class="layer" id="record">
     <h2>The Record</h2>
     <div class="rec">
       <details>
@@ -530,7 +523,14 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
         <div class="b"><p>On 11 April 1919 Japan's proposal to write racial equality into the League Covenant won 11 of the 17 votes in commission. Wilson, in the chair, ruled that it needed unanimity, and the clause died.</p></div>
       </details>
     </div>
-    <div class="exits"><a href="https://en.wikipedia.org/wiki/Treaty_of_Versailles">Wikipedia</a><a href="https://www.britannica.com/event/Treaty-of-Versailles-1919">Britannica</a></div>
+  </section>
+
+  <section class="layer" id="meanwhile">
+    <h2>Meanwhile</h2>
+    <p class="take how">What else the atlas holds within two years of the treaty, and whether it draws a line between them.</p>
+    <div class="mw" id="mw"></div>
+    <p class="mwnote">Mock data: the pilot holds few events for these years, so the list is short.</p>
+      <div class="exits"><a href="https://en.wikipedia.org/wiki/Treaty_of_Versailles">Wikipedia</a><a href="https://www.britannica.com/event/Treaty-of-Versailles-1919">Britannica</a></div>
   </section>
 
   <aside class="about" aria-label="About this mock">
@@ -647,7 +647,7 @@ h2::after{content:"";display:block;width:150px;height:3px;margin-top:6px;backgro
   document.getElementById('globeBtn').addEventListener('click',function(){ say('Would open the Political globe at 1919'); });
 
   /* ---------- the section tabs and their cartouche (from the story and event mocks) ---------- */
-  var SECS=[['overview','Overview'],['chain','The Chain'],['meanwhile','Meanwhile'],['record','The Record']];
+  var SECS=[['overview','Overview'],['chain','The Chain'],['record','The Record'],['meanwhile','Meanwhile']];
   var SWASH='<svg class="sw" aria-hidden="true"><path pathLength="1"/></svg>';
   function cartouche(w,h){ var r=5,i=1.5,x0=i,y0=i,x1=w-i,y1=h-i;
     return 'M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z'; }

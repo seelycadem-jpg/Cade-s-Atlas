@@ -180,7 +180,7 @@ Questions for the master chat (none settled here; no standards doc was changed):
     inside it, a slight shadow), static, and kept apart from the notched cartouche. Cade
     wants graphics to stand off the page; the exact treatment is still open.
 14. Meanwhile on the event page. On Cade's ask the mock has a Meanwhile section and tab,
-    between the chain and The Record: events within two years, each with its line to this
+    last on the page, after The Record (Cade, 2026-11-11): events within two years, each with its line to this
     event or "no line". event-pages.md has no such section; the window (two years) is a
     placeholder.
 15. The tab row. On trial: a hairline rule under the row at rest, in place of a shadow; the
