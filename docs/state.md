@@ -512,6 +512,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   tap. C, Answers first: the one-line answer is the headline and the section name a label
   above it; tap to open the detail under a gilt rule; "Open all". The event mock still
   carries the list-with-index-row version until he chooses.
+  Cade chose C (2026-11-12) and found it still cluttered; content is set aside until the
+  rewrite. The page now shows three quieter variants of C, each with no counter, no "Open
+  all" and one piece open at a time: 1, Open air (no rules or chevrons; a gilt diamond
+  marks each piece and fills when open; the section name in italics under the answer); 2,
+  Numbered (a gilt numeral in the margin, the answer, the section name as a caption);
+  3, Ledger (two columns: section name left, answer right). Awaiting his pick.
 
 ### B. On trial in the mock, for Cade to settle
 
