@@ -918,6 +918,11 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .onquiz em{display:block;font:italic 400 13.5px/1.1 var(--display);color:var(--ink2)}
 .onquiz b{display:block;margin-top:2px;font:500 20px/1.1 var(--display);color:var(--title)}
 .onquiz i{flex:none;display:inline-flex;align-items:center;min-height:38px;padding:0 16px;background:var(--accent);color:var(--on-accent);font:normal 600 12.5px/1 var(--ui);letter-spacing:.05em;text-transform:uppercase}
+/* the three signs of this block, drawn like the kind signs: hairline pen strokes, square joins, small details */
+.onward .onki{flex:none;width:26px;height:26px;color:var(--gilt);stroke:currentColor;stroke-width:1.25;fill:none;--kibg:var(--bg)}
+.onward .onki .d{stroke-width:.7}
+.onquiz .onki{width:30px;height:30px}
+.onquiz .onq{flex:1;min-width:0}
 .onrand button:active,.ongo button:active{background:var(--surface2)}
 .onquiz:active i{filter:brightness(.9)}
 </style>
@@ -1067,10 +1072,10 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       <button type="button" data-rand="event">An event</button>
     </div>
     <div class="ongo">
-      <button type="button" data-say="Would open the globe at 1919, centred on Versailles"><svg viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="9"/><path d="M3 12h18M12 3c3 3 3 15 0 18M12 3c-3 3-3 15 0 18"/></svg><span><b>The globe</b><em>the world in 1919</em></span></button>
-      <button type="button" data-say="Would open the timeline at 1919"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M2 12h20M6 8v8M12 5v14M18 8v8"/></svg><span><b>The timeline</b><em>the years around 1919</em></span></button>
+      <button type="button" data-say="Would open the globe at 1919, centred on Versailles"><svg class="ki onki" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M12 1.4a8.6 8.6 0 0 1 0 17.2M12 18.6V21M8 21.5h8"/><path class="s" d="M12 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/><path class="d" d="M12 3c-3.2 2.4-3.2 11.6 0 14M12 3c3.2 2.4 3.2 11.6 0 14M5 10h14M6.4 6.4h11.2M6.4 13.6h11.2M12 1.4V3M10 21.5l.8-1.3h2.4l.8 1.3"/></svg><span><b>The globe</b><em>the world in 1919</em></span></button>
+      <button type="button" data-say="Would open the timeline at 1919"><svg class="ki onki" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M1.5 12h21"/><path class="d" d="M1.5 9.5v5M22.5 9.5v5M11 10.6v2.8M16.6 10.6v2.8M4.2 16.5h5.600M12.800 16.500h2.400M18.400 16.500h2.400"/><path class="s" d="M7 8.2L10.2 12 7 15.8 3.8 12z"/><path class="f" d="M12.1 12a1.9 1.9 0 1 0 3.8 0a1.9 1.9 0 1 0 -3.8 0z"/><path class="s" d="M17.7 12a1.8 1.8 0 1 0 3.6 0a1.8 1.8 0 1 0 -3.6 0z"/></svg><span><b>The timeline</b><em>around 1919</em></span></button>
     </div>
-    <button type="button" class="onquiz" data-say="Would open today's quiz"><span><em>Have you taken</em><b>today&rsquo;s quiz?</b></span><i>Play</i></button>
+    <button type="button" class="onquiz" data-say="Would open today's quiz"><svg class="ki onki" viewBox="0 0 24 24" aria-hidden="true"><path class="s" d="M5.5 4h13a2.5 2.5 0 0 0 2.5 2.5v11a2.5 2.5 0 0 0-2.5 2.5h-13A2.5 2.5 0 0 0 3 17.5v-11A2.5 2.5 0 0 0 5.5 4z"/><path class="d" d="M6.6 5.8h10.8a2 2 0 0 0 1.800 1.800v8.800a2 2 0 0 0-1.800 1.800H6.600a2 2 0 0 0-1.800-1.800V7.600a2 2 0 0 0 1.800-1.800z"/><path class="l" d="M9.6 9.8a2.4 2.4 0 1 1 3.600 2.100c-.800.450-1.200 1-1.200 1.900v.300"/><path class="f" d="M11.15 16.2a0.85 0.85 0 1 0 1.7 0a0.85 0.85 0 1 0 -1.7 0z"/></svg><span class="onq"><em>Have you taken</em><b>today&rsquo;s quiz?</b></span><i>Play</i></button>
   </nav>
 
   <aside class="about" aria-label="About this mock">
