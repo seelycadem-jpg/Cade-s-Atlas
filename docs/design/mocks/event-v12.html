@@ -936,6 +936,24 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .onquiz .onq{flex:1;min-width:0}
 .onrand button:active,.ongo button:active{background:var(--surface2)}
 .onquiz:active i{filter:brightness(.9)}
+
+/* Where next, second pass (Cade, 2026-11-12): the random row and the globe and timeline pair are one quiet ledger
+   between hairlines, with no boxes; the quiz keeps the only frame and the only red. */
+.onrand{display:block;border:0;border-top:1px solid var(--ink3);padding:13px 0 12px;text-align:center}
+.onrand .onk{display:block;padding:0;border:0;font:500 10px/1.2 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.onrand .onr{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0;margin-top:6px}
+.onrand button{min-height:40px;padding:0 2px;font:500 17px/1.1 var(--display);color:var(--title);text-align:center;box-shadow:none!important}
+.onrand button+button::before{content:"";display:inline-block;width:5px;height:5px;margin:0 11px 3px 9px;border:1px solid var(--gilt);transform:rotate(45deg);vertical-align:middle}
+.onrand button:active{background:none;color:var(--accent)}
+.ongo{gap:0;margin-top:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--ink3)}
+.ongo button{border:0;min-height:68px;padding:10px 8px 10px 4px;gap:12px}
+.ongo button+button{box-shadow:inset 1px 0 0 var(--rule);padding-left:14px}
+.ongo .onki{width:32px;height:32px}
+.ongo b{font-size:17.5px}
+.ongo em{font:italic 400 13px/1.2 var(--display);color:var(--ink2)}
+.ongo button:active{background:none}
+.ongo button:active b{color:var(--accent)}
+.onquiz{margin-top:14px}
 </style>
 
 <div class="stage" id="stage">
@@ -1077,10 +1095,13 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     <div class="sep" aria-hidden="true"><i></i></div>
     <p class="onl">Where next</p>
     <div class="onrand" role="group" aria-label="Open one at random">
-      <span class="onk">At random</span>
-      <button type="button" data-rand="chronicle">A chronicle</button>
-      <button type="button" data-rand="story">A story</button>
-      <button type="button" data-rand="event">An event</button>
+      <span class="onk">Open one at random</span>
+      <span class="onr">
+        <button type="button" data-rand="chronicle">A chronicle</button>
+        <button type="button" data-rand="story">A story</button>
+        <button type="button" data-rand="event">An event</button>
+        <button type="button" data-rand="person">A person</button>
+      </span>
     </div>
     <div class="ongo">
       <button type="button" data-say="Would open the globe at 1919, centred on Versailles"><svg class="ki onki" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M12 1.4a8.6 8.6 0 0 1 0 17.2M12 18.6V21M8 21.5h8"/><path class="s" d="M12 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/><path class="d" d="M12 3c-3.2 2.4-3.2 11.6 0 14M5 10h14M12 1.4V3M10 21.5l.8-1.3h2.4l.8 1.3"/><path class="f" d="M8.6 5.6l1.5 1.5-1.5 1.5-1.5-1.5zM13.2 8.2a1.4 1.4 0 1 0 2.8 0a1.4 1.4 0 1 0 -2.8 0z"/><path class="k" d="M9.2 13.2a1.4 1.4 0 1 0 2.8 0a1.4 1.4 0 1 0 -2.8 0z"/></svg><span><b>The globe</b><em>the world in 1919</em></span></button>

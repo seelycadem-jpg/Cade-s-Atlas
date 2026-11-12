@@ -390,7 +390,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   the master chat rules otherwise.
 
 - **Where next** (Cade, 2026-11-12; on trial). A closing block under Meanwhile with three
-  ways on: a random chronicle, story or event; the globe and the timeline at the event's
+  ways on: a random chronicle, story, event or person (person added by Cade; the random
+  row and the globe and timeline pair are set as one unboxed ledger between hairlines so
+  the quiz stays the most pronounced item); the globe and the timeline at the event's
   year; and "Have you taken today's quiz?", the one gilt-framed item with the one red
   button. It is navigation, carries no h2 and sits outside the page's sections. Three signs
   drawn in this chat in the manner of the kind signs (hairline, square joins, gilt): a
