@@ -1,0 +1,168 @@
+<title>Record Layout Demos</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column, 20px margins. A switch at the top picks one of three ways to set The Record; the same
+   seven pieces of text fill each. Colours and type are docs/design/palette.md. */
+:root{
+  --bg:#F6F2EC; --surface:#FCFAF6; --surface2:#EFE9E1; --ink:#1C1916; --ink2:#4D4843; --ink3:#7B746D; --title:#3B2217; --rule:#DCD2C7;
+  --accent:#C81A12; --on-accent:#FFFFFF; --gilt:#B08A3E;
+  --display:"EB Garamond",Georgia,"Times New Roman",serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,-apple-system,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --rule:#3E2E26;
+  --accent:#FF6B5C; --on-accent:#1C130F; --gilt:#C9A45C; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --rule:#3E2E26;
+  --accent:#FF6B5C; --on-accent:#1C130F; --gilt:#C9A45C; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:17px/1.6 var(--body)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:40rem;margin:0 auto;padding-block:18px 80px;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+p{margin:0 0 14px;text-wrap:pretty}
+.eyebrow{font:500 10.5px/1.2 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+h1{margin:4px 0 0;font:500 28px/1.1 var(--display);color:var(--title)}
+.lede{margin:6px 0 0;font:italic 400 16px/1.4 var(--display);color:var(--ink2)}
+
+/* the switch between demos */
+.pick{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;margin:14px calc(-1 * max(20px,env(safe-area-inset-left,0px))) 0;padding:8px max(20px,env(safe-area-inset-left,0px));background:var(--bg);border-bottom:1px solid var(--rule)}
+.seg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--gilt)}
+.seg button{min-height:44px;padding:4px 4px;display:grid;align-content:center;justify-items:center;gap:3px;color:var(--ink3)}
+.seg button+button{box-shadow:inset 1px 0 0 var(--rule)}
+.seg b{font:600 13px/1 var(--ui);letter-spacing:.04em}
+.seg span{font:500 10px/1.1 var(--ui);letter-spacing:.02em;white-space:nowrap}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:inset 0 -2px 0 var(--gilt)}
+.why{margin:12px 0 0;padding:9px 12px;border:1px dashed var(--ink3);font:400 13px/1.45 var(--ui);color:var(--ink2)}
+.why b{color:var(--ink);font-weight:600}
+
+h2{font:500 27px/1.12 var(--display);margin:26px 0 10px;color:var(--title)}
+h2::after{content:"";display:block;width:min(250px,72%);height:1.8px;margin-top:7px;background:linear-gradient(90deg,var(--gilt) 0%,var(--gilt) 50%,transparent 100%);clip-path:polygon(0 38%,34% 0,100% 44%,100% 56%,34% 100%,0 62%)}
+ul{margin:0 0 14px;padding:0 0 0 1.1em;display:grid;gap:8px}
+li::marker{color:var(--accent)}
+li b{font-weight:600}
+.tablewrap{overflow-x:auto;margin:0 0 14px}
+table{border-collapse:collapse;width:100%;font:13.5px/1.4 var(--ui)}
+th,td{text-align:left;vertical-align:top;padding:7px 10px 7px 0;border-bottom:1px solid var(--rule)}
+th{font:600 10.5px/1.2 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3)}
+td:nth-child(2){font-variant-numeric:tabular-nums;white-space:nowrap;color:var(--ink);font-weight:600}
+.idx{position:sticky;top:calc(61px + env(safe-area-inset-top,0px));z-index:6;display:flex;margin:0 calc(-1 * max(20px,env(safe-area-inset-left,0px))) 8px;padding:0 max(20px,env(safe-area-inset-left,0px));overflow-x:auto;scrollbar-width:none;background:var(--bg);border-bottom:1px solid var(--rule)}
+.idx::-webkit-scrollbar{display:none}
+.idx button{flex:none;min-height:36px;padding:0 8px;font:500 10px/1 var(--ui);letter-spacing:.05em;text-transform:uppercase;color:var(--ink3);white-space:nowrap;box-shadow:inset 0 -1px 0 transparent}
+.idx button:first-child{padding-left:0}
+.idx button[aria-current="true"]{color:var(--ink);box-shadow:inset 0 -1px 0 var(--gilt)}
+.sep{display:flex;align-items:center;gap:12px;margin:22px 0 20px}
+.sep::before,.sep::after{content:"";flex:1;height:1px;background:var(--rule)}
+.sep i{width:6px;height:6px;border:1px solid var(--gilt);transform:rotate(45deg)}
+
+/* A. Read through: everything open, set as one long read */
+.a-piece{scroll-margin-top:110px}
+.a-piece .lab{display:flex;align-items:baseline;gap:10px;font:500 10.5px/1.2 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.a-piece .lab b{font:500 10.5px/1 var(--ui);color:var(--gilt);font-variant-numeric:tabular-nums}
+.a-piece h3{margin:5px 0 3px;font:500 23px/1.15 var(--display);color:var(--title)}
+.a-piece .take{margin:0 0 10px;font:italic 400 17.5px/1.38 var(--display);color:var(--ink2)}
+
+/* B. One at a time: a single piece on screen, with the next named below it */
+.b-count{display:flex;justify-content:space-between;align-items:baseline;margin:4px 0 2px;font:500 10.5px/1.2 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.b-card{min-height:250px;padding:14px 0 6px}
+.b-card h3{margin:0 0 3px;font:500 25px/1.14 var(--display);color:var(--title)}
+.b-card .take{margin:0 0 12px;font:italic 400 17.5px/1.38 var(--display);color:var(--ink2)}
+.b-nav{display:grid;grid-template-columns:1fr 1fr;border-top:1px solid var(--ink3);border-bottom:1px solid var(--rule)}
+.b-nav button{min-height:58px;padding:8px 2px;display:grid;align-content:center;gap:3px;text-align:left}
+.b-nav button+button{text-align:right;box-shadow:inset 1px 0 0 var(--rule);padding-left:12px}
+.b-nav em{font:normal 500 10px/1 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.b-nav b{font:500 16.5px/1.15 var(--display);color:var(--title)}
+.b-nav button:disabled{opacity:.35;cursor:default}
+.b-dots{display:flex;justify-content:center;gap:7px;margin:12px 0 0}
+.b-dots i{width:6px;height:6px;border:1px solid var(--gilt);transform:rotate(45deg)}
+.b-dots i.on{background:var(--gilt)}
+
+/* C. Answers first: the one-line answer is the headline; the heading shrinks to a label */
+.c-top{display:flex;justify-content:space-between;align-items:center;margin:0 0 4px;font:400 12.5px/1.3 var(--ui);color:var(--ink3)}
+.c-top button{min-height:40px;font:500 12.5px/1 var(--ui);color:var(--ink2);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:4px;text-decoration-thickness:1px}
+.c-row{border-top:1px solid var(--rule)}
+.c-row:last-child{border-bottom:1px solid var(--rule)}
+.c-row > button{display:grid;grid-template-columns:minmax(0,1fr) 16px;gap:2px 12px;align-items:center;width:100%;padding:12px 0 13px;text-align:left}
+.c-row .lab{grid-column:1;font:500 10px/1.2 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.c-row .ans{grid-column:1;font:500 19.5px/1.22 var(--display);color:var(--title);text-wrap:balance}
+.c-row .ch{grid-column:2;grid-row:1 / span 2;width:8px;height:8px;border-right:1.5px solid var(--ink3);border-bottom:1.5px solid var(--ink3);transform:rotate(45deg);justify-self:center;transition:transform .25s}
+.c-row.open .ch{transform:translateY(3px) rotate(225deg)}
+.c-row.open .lab{color:var(--accent)}
+.c-body{display:none;margin:0 0 14px;padding:2px 0 0 14px;border-left:1px solid var(--gilt)}
+.c-row.open .c-body{display:block}
+.c-body > :last-child{margin-bottom:0}
+@media (prefers-reduced-motion:reduce){ .c-row .ch{transition:none} }
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Event page · The Treaty of Versailles</p>
+  <h1>Three ways to set The Record</h1>
+  <p class="lede">The same seven pieces of text in each. Pick one at the top and scroll.</p>
+
+  <div class="pick"><div class="seg" role="group" aria-label="Demo">
+    <button type="button" id="pickA" data-d="a" aria-pressed="true"><b>A</b><span>Read through</span></button>
+    <button type="button" id="pickB" data-d="b" aria-pressed="false"><b>B</b><span>One at a time</span></button>
+    <button type="button" id="pickC" data-d="c" aria-pressed="false"><b>C</b><span>Answers first</span></button>
+  </div></div>
+  <p class="why" id="why"></p>
+
+  <h2>The Record</h2>
+  <div id="demo"></div>
+</div>
+
+<script>
+(function(){
+  var REC=[{"h": "The account", "s": "Paris, 18 January to 28 June 1919.", "b": "<p>The conference opened in Paris on 18 January 1919. The victors met without Germany or Soviet Russia. French Prime Minister Georges Clemenceau wanted Germany too weak to attack again. British Prime Minister David Lloyd George wanted a Germany that could still trade. US President Woodrow Wilson wanted a League of Nations. Clemenceau gave up his claim to the Rhine for an Anglo-American guarantee.<\/p><p>The German delegation received the terms on 7 May and signed at Versailles on 28 June.<\/p>"}, {"h": "What it did, and to whom", "s": "France and Poland gained land; Germany paid in land, arms and money.", "b": "<ul>\n          <li><b>Land.<\/b> Germany lost 13 percent of its European territory and every colony. France got Alsace-Lorraine back, and Poland got a corridor to the sea.<\/li>\n          <li><b>Arms.<\/b> The treaty capped the German army at 100,000 and disarmed the Rhineland.<\/li>\n          <li><b>Money.<\/b> The Allies set reparations at 132 billion gold marks in 1921. Germany paid about 20 billion.<\/li>\n          <li><b>Shandong.<\/b> Germany's rights in Shandong went to Japan, over China's protest.<\/li>\n        <\/ul>"}, {"h": "Why it held or failed", "s": "The terms held only while Britain and France enforced them.", "b": "<p>The treaty left Germany intact and surrounded by weak new states where Austria-Hungary and Russia had stood. The terms held only while Britain and France enforced them. By the 1930s British opinion considered German grievances fair.<\/p><p>One reading holds the terms were harsh enough to enrage and too weak to restrain. The other holds the terms were enforceable and the failure was the enforcers'.<\/p>"}, {"h": "By the numbers", "s": "Three figures and where each comes from.", "b": "<div class=\"tablewrap\"><table class=\"terms\">\n          <thead><tr><th>Figure<\/th><th>Value<\/th><th>Basis<\/th><\/tr><\/thead>\n          <tbody>\n            <tr><td>German territory lost in Europe<\/td><td class=\"num\">13%<\/td><td>Treaty terms<\/td><\/tr>\n            <tr><td>German army cap<\/td><td class=\"num\">100,000<\/td><td>Versailles, part V<\/td><\/tr>\n            <tr><td>Reparations<\/td><td class=\"num\">132 bn set<br>about 20 bn paid<\/td><td>London Schedule of Payments, 1921<\/td><\/tr>\n          <\/tbody><\/table><\/div>"}, {"h": "The common misreading", "s": "That reparations ruined Germany.", "b": "<p>Germany paid about 20 billion gold marks of the 132 billion set. The hyperinflation of 1923 came from the French occupation of the Ruhr and the German government's own printing of money.<\/p>"}, {"h": "Today", "s": "Three borders the treaty drew still stand.", "b": "<p>The Rhineland is German, Alsace is French, and the Polish corridor is Poland's coast.<\/p>"}, {"h": "The detail", "s": "A vote of 11 to 6 that the chair ruled lost.", "b": "<p>On 11 April 1919 Japan's proposal to write racial equality into the League Covenant won 11 of the 17 votes in commission. Wilson, in the chair, ruled that it needed unanimity, and the clause died.<\/p>"}];
+  var WHY={
+    a:'<b>A. Read through.</b> Nothing is hidden. The Record reads as one article, each piece under a numbered label with its one-line answer in italics. The row of names is for jumping. Best for a reader who means to read it all; longest to scroll.',
+    b:'<b>B. One at a time.</b> One piece fills the space. The bar underneath names the piece before and the piece after, so the reader always knows what comes next. Swipe sideways or tap. Best for focus; a reader sees less at a glance.',
+    c:'<b>C. Answers first.</b> The one-line answer becomes the headline and the section name shrinks to a label above it. A reader who opens nothing still leaves with seven facts. Tap a row to read the detail under it.'
+  };
+  var host=document.getElementById('demo'), mode='a', at=0, calm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  try{ var m=localStorage.getItem('recDemo'); if(/^[abc]$/.test(m))mode=m; }catch(e){}
+  function short(h){ return h.split(',')[0]; }
+  function words(){ var n=0; REC.forEach(function(r){ n+=r.b.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length; }); return n; }
+
+  function drawA(){
+    host.innerHTML='<div class="idx" id="idx" role="group" aria-label="Pieces">'+REC.map(function(r,i){ return '<button type="button" data-i="'+i+'" aria-current="'+(i===0)+'">'+short(r.h)+'</button>'; }).join('')+'</div>'
+      +REC.map(function(r,i){ return (i?'<div class="sep" aria-hidden="true"><i></i></div>':'')+'<section class="a-piece" id="a'+i+'"><p class="lab"><b>'+(i+1)+'</b>of '+REC.length+'</p><h3>'+r.h+'</h3><p class="take">'+r.s+'</p>'+r.b+'</section>'; }).join('');
+    var idx=document.getElementById('idx');
+    idx.addEventListener('click',function(e){ var b=e.target.closest('button'); if(!b)return; document.getElementById('a'+b.dataset.i).scrollIntoView({behavior:calm?'auto':'smooth',block:'start'}); });
+    spy=function(){ var k=0; REC.forEach(function(r,i){ if(document.getElementById('a'+i).getBoundingClientRect().top<=130)k=i; });
+      [].forEach.call(idx.children,function(b,i){ b.setAttribute('aria-current',String(i===k)); }); var on=idx.children[k]; idx.scrollTo({left:Math.max(0,on.offsetLeft-(idx.clientWidth-on.offsetWidth)/2),behavior:calm?'auto':'smooth'}); };
+  }
+  var spy=null, tick=false;
+  window.addEventListener('scroll',function(){ if(!spy||tick)return; tick=true; requestAnimationFrame(function(){ tick=false; if(spy)spy(); }); },{passive:true});
+
+  function drawB(){ spy=null; var r=REC[at], prev=REC[at-1], next=REC[at+1];
+    host.innerHTML='<p class="b-count"><span>'+(at+1)+' of '+REC.length+'</span><span>swipe or tap below</span></p>'
+      +'<div class="b-card" id="bcard"><h3>'+r.h+'</h3><p class="take">'+r.s+'</p>'+r.b+'</div>'
+      +'<div class="b-nav"><button type="button" id="bPrev"'+(prev?'':' disabled')+'><em>Before</em><b>'+(prev?short(prev.h):'The start')+'</b></button><button type="button" id="bNext"'+(next?'':' disabled')+'><em>Next</em><b>'+(next?short(next.h):'The end')+'</b></button></div>'
+      +'<div class="b-dots" aria-hidden="true">'+REC.map(function(x,i){ return '<i'+(i===at?' class="on"':'')+'></i>'; }).join('')+'</div>';
+    document.getElementById('bPrev').addEventListener('click',function(){ if(at>0){ at--; drawB(); } });
+    document.getElementById('bNext').addEventListener('click',function(){ if(at<REC.length-1){ at++; drawB(); } });
+    var c=document.getElementById('bcard'), x0=null, y0=0;
+    c.addEventListener('touchstart',function(e){ x0=e.touches[0].clientX; y0=e.touches[0].clientY; },{passive:true});
+    c.addEventListener('touchend',function(e){ if(x0==null)return; var dx=e.changedTouches[0].clientX-x0, dy=e.changedTouches[0].clientY-y0; x0=null; if(Math.abs(dx)>50&&Math.abs(dx)>Math.abs(dy)*1.5){ if(dx<0&&at<REC.length-1){ at++; drawB(); } else if(dx>0&&at>0){ at--; drawB(); } } },{passive:true});
+  }
+
+  var open={};
+  function drawC(){ spy=null; var mins=Math.max(1,Math.round(words()/230)), all=REC.every(function(r,i){ return open[i]; });
+    host.innerHTML='<div class="c-top"><span>'+REC.length+' pieces · about '+mins+(mins===1?' minute':' minutes')+' to read in full</span><button type="button" id="cAll">'+(all?'Close all':'Open all')+'</button></div>'
+      +REC.map(function(r,i){ return '<div class="c-row'+(open[i]?' open':'')+'"><button type="button" data-i="'+i+'" aria-expanded="'+(!!open[i])+'"><span class="lab">'+r.h+'</span><span class="ans">'+r.s+'</span><i class="ch" aria-hidden="true"></i></button><div class="c-body">'+r.b+'</div></div>'; }).join('');
+    document.getElementById('cAll').addEventListener('click',function(){ var to=!all; REC.forEach(function(r,i){ if(to)open[i]=1; else delete open[i]; }); drawC(); });
+    host.addEventListener('click',onC);
+  }
+  function onC(e){ if(mode!=='c')return; var b=e.target.closest('.c-row > button'); if(!b)return; var i=+b.dataset.i; if(open[i])delete open[i]; else open[i]=1; drawC(); }
+
+  function paint(){
+    [].forEach.call(document.querySelectorAll('.seg button'),function(b){ b.setAttribute('aria-pressed',String(b.dataset.d===mode)); });
+    document.getElementById('why').innerHTML=WHY[mode];
+    if(mode==='a')drawA(); else if(mode==='b')drawB(); else drawC();
+  }
+  [].forEach.call(document.querySelectorAll('.seg button'),function(b){ b.addEventListener('click',function(){ mode=b.dataset.d; try{ localStorage.setItem('recDemo',mode); }catch(e){} paint(); window.scrollTo({top:0,behavior:'auto'}); }); });
+  paint();
+})();
+</script>

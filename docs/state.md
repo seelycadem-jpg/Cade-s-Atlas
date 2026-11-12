@@ -504,6 +504,15 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 - On trial: a hairline under the docked tabs in place of the fade; the chain's control
   bar and its scale bar set thinner, with smaller marks and labels.
 
+- **Three demos for The Record** (Cade asked, 2026-11-12; awaiting his pick):
+  `docs/design/mocks/record-demos.html`, the same seven pieces of text set three ways.
+  A, Read through: nothing hidden, one long read, each piece under a numbered label with
+  its one-line answer in italics, and the index row for jumping. B, One at a time: one
+  piece on screen, a bar underneath naming the piece before and the piece after, swipe or
+  tap. C, Answers first: the one-line answer is the headline and the section name a label
+  above it; tap to open the detail under a gilt rule; "Open all". The event mock still
+  carries the list-with-index-row version until he chooses.
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock
