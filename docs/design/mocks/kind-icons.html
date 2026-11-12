@@ -39,6 +39,7 @@ h1{margin:0;font:500 31px/1.08 var(--display);color:var(--title);text-wrap:balan
 
 /* a kind and its five tiles */
 .kind{margin-top:22px}
+.grp{margin:30px 0 -8px;padding-top:12px;border-top:1px solid var(--rule);font:500 11px/1.2 var(--ui);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
 .kind h2{display:flex;align-items:baseline;gap:10px;margin:0 0 8px;font:500 22px/1.1 var(--display);color:var(--title)}
 .kind h2 span{font:500 11px/1 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3)}
 .row{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:6px}
@@ -114,10 +115,10 @@ h1{margin:0;font:500 31px/1.08 var(--display);color:var(--title);text-wrap:balan
 @media (prefers-reduced-motion:no-preference){ .tile,.seg button{transition:background .15s,box-shadow .2s,border-color .2s} }
 </style>
 
-<div id="kc" data-draw="engraved" data-ink="ink">
+<div id="kc" data-draw="fine" data-ink="gilt">
 <div class="wrap">
-  <h1>Signs for the eight kinds</h1>
-  <p class="lede">Five designs for each kind of event. Tap one in each row. The small box under each drawing shows the sign at the size it takes on a chain card. Engraved adds hatching for shade; Fine leaves it off.</p>
+  <h1>Signs for the atlas</h1>
+  <p class="lede">Five designs each for the globe, the timeline and the quiz, then the eight kinds you have chosen. Tap one in each row. The small box under each drawing shows the sign at card size.</p>
   <div class="rulegilt"></div>
 
   <div class="bar">
@@ -213,6 +214,31 @@ h1{margin:0;font:500 31px/1.08 var(--display);color:var(--title);text-wrap:balan
    {n:'Volcano',h:[[0,13]],p:[['s','M2.5 21L9.5 10h5l7 11z'],['l','M12 7.5c0-1.5 1.2-2 1.2-3.5 0-.800-.400-1.4-.900-1.8'],['t','M8.8 7.5c-.600-.800-.600-1.8 0-2.6M15.5 7.5c.700-.700.9-1.6.600-2.5'],['d','M9.5 10c.800.7 4.2.700 5 0M11 10.5l-1.5 4 1 2-1 3M13.5 10.5l1 3.5-.500 2.5 1.5 3'],['f',dots([[6.5,4.2],[17.6,3],[18.6,6.6]],.45)]]},
    {n:'Sun and cloud',h:[[2,0,17.5]],p:[['l',dot(17,6.5,2.8)+'M17 1.2v1.2M22.5 6.5h-1.2M20.9 2.6l-.800.8M13.1 2.6l.800.8'],['d',dot(17,6.5,1.3)],['s','M7 21a4.5 4.5 0 0 1-1-8.9 5.5 5.5 0 0 1 10.8 1.4H17a3.75 3.75 0 0 1 0 7.5z'],['d','M9.5 14.8a3 3 0 0 1 4.3-1.3']]}
   ]};
+  /* The three signs of the event page's "Where next" block: five designs each. */
+  var NAV=['globe','timeline','quiz'];
+  KNAME.globe='The globe'; KNAME.timeline='The timeline'; KNAME.quiz='The quiz';
+  SETS.globe=[
+   {n:'Library globe',h:[[1,13]],p:[['l','M12 1.4a8.6 8.6 0 0 1 0 17.2M12 18.6V21M8 21.5h8'],['s','M12 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14z'],['d','M12 3c-3.2 2.4-3.2 11.6 0 14M12 3c3.2 2.4 3.2 11.6 0 14M5 10h14M6.4 6.4h11.2M6.4 13.6h11.2M12 1.4V3M10 21.5l.8-1.3h2.4l.8 1.3']]},
+   {n:'Tilted globe',h:[[0,13]],p:[['s',dot(12,12,8)],['d','M9 4.58A3.2 8 -22 1 0 15 19.42A3.2 8 -22 1 0 9 4.58zM4.58 15A8 2.6 -22 1 0 19.42 9A8 2.6 -22 1 0 4.58 15z'],['l','M7.8 1.6L9 4.6M15 19.4l1.2 3']]},
+   {n:'Two hemispheres',p:[['s',dot(6.7,12,5.2)],['s',dot(17.3,12,5.2)],['d','M6.7 6.8v10.4M6.7 6.8c-2.6 2-2.6 8.4 0 10.4M6.7 6.8c2.6 2 2.6 8.4 0 10.4M1.5 12h10.4M17.3 6.8v10.4M17.3 6.8c-2.6 2-2.6 8.4 0 10.4M17.3 6.8c2.6 2 2.6 8.4 0 10.4M12.1 12h10.4M12 4.6l.9.9-.9.9-.9-.9zM12 17.6l.900.9-.900.9-.900-.900z']]},
+   {n:'Compass rose',p:[['t',dot(12,12,9.6)],['d','M12 12l4.6-4.6M12 12l4.6 4.6M12 12l-4.6 4.6M12 12L7.4 7.4'],['s','M12 2.5l2 7.5 7.5 2-7.5 2-2 7.5-2-7.5L2.5 12l7.5-2z'],['f','M12 2.5l2 7.5h-2zM21.5 12L14 14v-2zM12 21.5L10 14h2zM2.5 12L10 10v2z']]},
+   {n:'Armillary sphere',p:[['l',dot(12,10.5,7.5)+'M12 18v3M8 21.5h8'],['t','M6.7 5.2A7.5 2.8 45 1 0 17.3 15.8A7.5 2.8 45 1 0 6.7 5.2z'],['d','M4.5 10.5a7.5 2.6 0 1 0 15 0a7.5 2.6 0 1 0-15 0zM5.8 4.3l12.4 12.4'],['f',dot(12,10.5,1.6)]]}
+  ];
+  SETS.timeline=[
+   {n:'Three marks',p:[['l','M1.5 12h21'],['d','M1.5 9.5v5M22.5 9.5v5M11 10.6v2.8M16.6 10.6v2.8M4.2 16.5h5.6M12.8 16.5h2.4M18.4 16.5h2.4'],['s','M7 8.2L10.2 12 7 15.8 3.8 12z'],['f',dot(14,12,1.9)],['s',dot(19.5,12,1.8)]]},
+   {n:'Hourglass',p:[['l','M5.5 3h13M5.5 21h13'],['s','M7.5 3c0 4 4.5 5.5 4.5 9s-4.5 5-4.5 9h9c0-4-4.5-5.5-4.5-9s4.5-5 4.5-9z'],['d','M9.2 6.5h5.6M12 12v3.5M6.5 3v18M17.5 3v18'],['f','M9.5 19c.600-1.6 1.5-2.5 2.5-3 1 .500 1.9 1.4 2.5 3z']]},
+   {n:'Measuring rule',h:[[0,13]],p:[['s','M2 8.5h20v7H2z'],['d','M5 8.5v3M8 8.5v2M11 8.5v3M14 8.5v2M17 8.5v3M20 8.5v2'],['f','M11 12.3l1.2 1.2-1.2 1.2-1.2-1.2z']]},
+   {n:'Knotted thread',p:[['l','M1.5 13.5H9c3.3 0 5.5-2 5.5-4.5 0-2-1.5-3.5-3.3-3.5S8 7 8 9c0 3.5 3 6.5 7 6.5h7.5'],['f',dot(1.8,13.5,1)+dot(22.2,15.5,1)]]},
+   {n:'Dial',p:[['s',dot(12,12,9)],['d','M12 3v2M12 19v2M3 12h2M19 12h2M5.64 5.64l1.4 1.4M16.96 16.96l1.4 1.4M5.64 18.36l1.4-1.4M16.96 7.04l1.4-1.4'],['l','M12 12V6.5M12 12l4 2.5'],['f',dot(12,12,1.1)]]}
+  ];
+  SETS.quiz=[
+   {n:'Cartouche',p:[['s','M5.5 4h13a2.5 2.5 0 0 0 2.5 2.5v11a2.5 2.5 0 0 0-2.5 2.5h-13A2.5 2.5 0 0 0 3 17.5v-11A2.5 2.5 0 0 0 5.5 4z'],['d','M6.6 5.8h10.8a2 2 0 0 0 1.8 1.8v8.8a2 2 0 0 0-1.8 1.8H6.6a2 2 0 0 0-1.8-1.8V7.6a2 2 0 0 0 1.8-1.8z'],['l','M9.6 9.8a2.4 2.4 0 1 1 3.6 2.1c-.800.45-1.2 1-1.2 1.9v.300'],['f',dot(12,16.2,.85)]]},
+   {n:'Laurel wreath',p:[['t','M12 20.5c-5-1-8-4.5-8-9.5 0-2.5 1-4.8 2.5-6.5M12 20.5c5-1 8-4.5 8-9.5 0-2.5-1-4.8-2.5-6.5'],['d','M4.2 13.5l-2.4.300M4.8 16l-2.2 1.2M6.5 18.3l-1.5 2M4.2 10.5L2 9.5M5 7.5L3.2 5.8M19.8 13.5l2.4.300M19.2 16l2.2 1.2M17.5 18.3l1.5 2M19.8 10.5l2.2-1M19 7.5l1.8-1.7'],['l','M10.3 9.5a1.9 1.9 0 1 1 2.9 1.6c-.700.4-1.2.900-1.2 1.7'],['f',dot(12,14.8,.8)]]},
+   {n:'Sealed letter',p:[['s','M3 6h18v12H3z'],['d','M3 6l9 7 9-7'],['s',dot(12,13.4,2.5)],['f','M12 12.2l1.2 1.2-1.2 1.2-1.2-1.2z']]},
+   {n:'Key',p:[['s',dot(7.5,12,4)],['d',dot(7.5,12,1.7)],['l','M11.5 12h10.5M18 12v3.5M21 12v2.5']]},
+   {n:'Diamond',p:[['s','M12 2.5l9.5 9.5-9.5 9.5L2.5 12z'],['d','M12 5l7 7-7 7-7-7z'],['l','M10 10a2.1 2.1 0 1 1 3.2 1.8c-.700.4-1.2.900-1.2 1.7v.300'],['f',dot(12,16,.8)]]}
+  ];
+  var ALL=NAV.concat(KINDS);
   var uid=0;
   function hatch(shape,hx,hy){
     var id='kh'+(++uid), d='', c, x0, x1; hx=hx||0; hy=hy||0;
@@ -229,17 +255,17 @@ h1{margin:0;font:500 31px/1.08 var(--display);color:var(--title);text-wrap:balan
    {y:1923,n:'German Hyperinflation',z:'fi',c:['economic']}
   ];
 
-  var root=document.getElementById('kc'), st={draw:'engraved',ink:'ink',pick:{}};
-  KINDS.forEach(function(k){ st.pick[k]=0; });
+  var root=document.getElementById('kc'), st={draw:'fine',ink:'gilt',pick:{}};
+  ALL.forEach(function(k){ st.pick[k]=0; }); st.pick.political=3; st.pick.science=1; st.pick.culture=1;   /* Cade's eight picks stand as the starting point */
   try{
-    var old=JSON.parse(localStorage.getItem('kindSigns2')||'null');
+    var old=JSON.parse(localStorage.getItem('kindSigns3')||'null');
     if(old){
       if(/^(engraved|fine|solid)$/.test(old.draw)) st.draw=old.draw;
       if(/^(ink|gilt)$/.test(old.ink)) st.ink=old.ink;
-      KINDS.forEach(function(k){ var v=old.pick&&old.pick[k]; if(v>=0&&v<5) st.pick[k]=v|0; });
+      ALL.forEach(function(k){ var v=old.pick&&old.pick[k]; if(v>=0&&v<5) st.pick[k]=v|0; });
     }
   }catch(e){}
-  function save(){ try{ localStorage.setItem('kindSigns2',JSON.stringify(st)); }catch(e){} }
+  function save(){ try{ localStorage.setItem('kindSigns3',JSON.stringify(st)); }catch(e){} }
 
   function sign(k,i,cls){
     var d=SETS[k][i], h='<svg class="ki'+(cls?' '+cls:'')+'" viewBox="0 0 24 24" aria-hidden="true">';
@@ -252,8 +278,8 @@ h1{margin:0;font:500 31px/1.08 var(--display);color:var(--title);text-wrap:balan
   function esc(s){ return String(s).replace(/&/g,'&amp;').replace(/</g,'&lt;'); }
 
   var host=document.getElementById('kinds');
-  host.innerHTML=KINDS.map(function(k){
-    return '<section class="kind" data-kind="'+k+'"><h2>'+KNAME[k]+'<span></span></h2><div class="row" role="group" aria-label="'+KNAME[k]+' signs">'+
+  host.innerHTML=ALL.map(function(k){
+    return (k==='globe'?'<p class="grp">For the Where next block</p>':k==='political'?'<p class="grp">The eight kinds, already chosen</p>':'')+'<section class="kind" data-kind="'+k+'"><h2>'+KNAME[k]+'<span></span></h2><div class="row" role="group" aria-label="'+KNAME[k]+' signs">'+
       SETS[k].map(function(d,i){
         return '<button type="button" class="tile" id="t-'+k+'-'+i+'" data-k="'+k+'" data-i="'+i+'" aria-pressed="false" aria-label="'+KNAME[k]+' '+(i+1)+', '+d.n+'">'+
           '<span class="num">'+(i+1)+'</span>'+sign(k,i,'big')+'<span class="true">'+sign(k,i)+'</span><span class="nm">'+esc(d.n)+'</span></button>';
@@ -276,7 +302,7 @@ h1{margin:0;font:500 31px/1.08 var(--display);color:var(--title);text-wrap:balan
       return '<div class="card'+(e.here?' here':'')+'"><span class="hd"><i class="mk '+e.z+'" aria-hidden="true"></i><span>'+e.y+'</span><span class="kd">'+
         e.c.map(function(k){ return sign(k,st.pick[k]); }).join('')+'</span></span><span class="nt" lang="en">'+esc(e.n)+'</span></div>';
     }).join('');
-    document.getElementById('set').innerHTML=KINDS.map(function(k){
+    document.getElementById('set').innerHTML=ALL.map(function(k){
       return '<div>'+sign(k,st.pick[k])+'<span><b>'+KNAME[k]+'</b><i>'+(st.pick[k]+1)+' · '+esc(SETS[k][st.pick[k]].n)+'</i></span></div>';
     }).join('');
     document.getElementById('strip').innerHTML=KINDS.map(function(k){ return sign(k,st.pick[k]); }).join('');
@@ -284,7 +310,7 @@ h1{margin:0;font:500 31px/1.08 var(--display);color:var(--title);text-wrap:balan
     document.getElementById('said').textContent='';
   }
   function line(){
-    return KINDS.map(function(k){ return KNAME[k]+' '+(st.pick[k]+1)+' '+SETS[k][st.pick[k]].n; }).join(' · ')+
+    return ALL.map(function(k){ return KNAME[k]+' '+(st.pick[k]+1)+' '+SETS[k][st.pick[k]].n; }).join(' · ')+
       ' · drawn '+({engraved:'Engraved',fine:'Fine',solid:'Solid'})[st.draw]+', in '+st.ink;
   }
 

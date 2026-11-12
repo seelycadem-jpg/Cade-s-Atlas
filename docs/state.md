@@ -395,7 +395,10 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   button. It is navigation, carries no h2 and sits outside the page's sections. Three signs
   drawn in this chat in the manner of the kind signs (hairline, square joins, gilt): a
   library globe in its meridian ring on a stand; a time rule carrying the diamond, the dot
-  and the ring; a question mark in the notched cartouche. For the
+  and the ring; a question mark in the notched cartouche. Cade asked for a variety to choose
+  from: the chooser (`kind-icons.html`) now opens with five designs each for the globe,
+  the timeline and the quiz, above the eight kinds, which start on his picks. Awaiting
+  his three choices; the event mock carries the first design of each until then. For the
   master chat: it adds a block after the last section of every event page; the globe and
   timeline links take over part of the job of the bottom bar this mock dropped; and the
   quiz is deferred in CLAUDE.md until the link and arrow-note work ships, so the button is
