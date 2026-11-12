@@ -308,7 +308,20 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       The pop-up now has the same build as the sheets: the frame stays still, only the text
       scrolls, and the buttons sit in a footer. Long names in the rows wrap in place of
       being cut with dots.
-      Question for the master chat (Cade, 2026-11-12): the verdict on a Contributing line
+      DECIDED by Cade (2026-11-12), for the master chat to write into house-style.md line
+      106 and to apply when the verdicts are rewritten: a verdict no longer ranks the
+      causes. His reason: the rank is arbitrary, and the reader can see the other causes
+      listed in the chain. The mock now shows them in the note of a Contributing line,
+      under "The other causes of X", read from the link table, each row opening its own
+      note. Follows from it: a cause a verdict names that has no event (for example "elite
+      co-option") must become an event with a link or be dropped. The verdict text itself
+      is data and is unchanged in the mock, so the old ranks still show there.
+      Count for the master chat: of the 18 Contributing lines in the pilot, 10 have another
+      cause of the same event in the link table and 8 have none. For those 8 (May Fourth
+      is one) the reader sees "one cause among several" and no other cause anywhere but in
+      the verdict's words. Dropping the list from the verdict is safe only once each of
+      those causes is an event with a link.
+      Background, as first recorded: the verdict on a Contributing line
       ranks the causes ("Versailles (second), Bolshevik fear (third)"). Cade finds the rank
       arbitrary and wants it gone. house-style.md line 106 requires it ("Contributing names
       the set and A's rank"); 18 of the 36 pilot verdicts do it. This chat's view: keep
