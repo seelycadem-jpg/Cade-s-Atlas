@@ -426,6 +426,17 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   search engine can cite; and the old data's place field is uneven ("Europe" for the US
   entry into the war).
 
+- **Review after a "doubling" fault** (Cade, 2026-11-12). His screenshot showed the chain's
+  bar drawn twice, one copy just below the other, when scrolling slowly. Not reproduced: a
+  fresh load at phone and desktop width holds one bar, pinned flush under the tabs at every
+  scroll step, and the 140-action tap test passes (84 checks, none failed). Likely cause:
+  the artifact page was left open through many republishes and held parts of two versions.
+  A start-up guard now reloads the page once if the script finds it has already run or
+  finds two elements with one id. Unproven until he reloads and tries again. Other faults
+  fixed in the same review: chain cards painting over the pinned bars (the web is now its
+  own layer), a sliver of cards showing between the tabs and a pinned bar, and long words
+  split in card titles.
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock

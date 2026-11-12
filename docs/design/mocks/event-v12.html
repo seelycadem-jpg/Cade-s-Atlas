@@ -1111,6 +1111,14 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 </nav>
 
 <script>
+/* A page left open while a newer version arrives can end up holding parts of both, which shows as a bar or a row drawn
+   twice. If this script finds it has already run here, or finds two elements with one id, it reloads the page once. */
+(function(){ var seen={}, dup=false; [].forEach.call(document.querySelectorAll('[id]'),function(e){ if(e.id&&!e.closest('svg')){ if(seen[e.id])dup=true; seen[e.id]=1; } });
+  var again=!!window.__atlasBooted; window.__atlasBooted=true;
+  if(again||dup){ var k='atlasReload', n=0; try{ n=+sessionStorage.getItem(k)||0; sessionStorage.setItem(k,String(n+1)); }catch(e){ n=1; } if(n<1){ try{ location.reload(); }catch(e){} } }
+  else { try{ sessionStorage.removeItem('atlasReload'); }catch(e){} } })();
+</script>
+<script>
 (function(){
   var root=document.documentElement, A=window.ATLAS||{events:[],links:[],land:null,borders:null};
   var E={}; A.events.forEach(function(e){E[e.id]=e});
