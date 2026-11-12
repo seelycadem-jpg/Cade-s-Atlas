@@ -852,6 +852,12 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .drumscroll i{display:block;scroll-snap-align:start}
 .drumscroll.gliding,.wscroll.gliding{scroll-snap-type:none}
 .dch{z-index:30}
+/* The web is its own layer: its cards and "more" buttons carry high z-indexes for the turning columns, and without
+   this they painted over the pinned bar and the tabs as the page scrolled. */
+.web{z-index:0;isolation:isolate}
+/* A title with a word too long for the card is set a little smaller, so no word is cut in two. */
+.wcanvas .nd:not(.chip) .nt.lw{font-size:12.6px;line-height:1.18;letter-spacing:-.005em;hyphens:manual;overflow-wrap:normal}
+.wcanvas .nd.here:not(.chip) .nt.lw{font-size:13px}
 
 /* ===== kinds (Cade, 2026-11-11): an icon for each kind on every card; an event the filters leave out but the path
    runs through stays a full card and fades back; the kind being filtered for shows dark on the cards that have it ===== */
@@ -1290,7 +1296,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   /* a card has room for two; the kind being filtered for comes first */
   function kicons(id){ var t=(E[id].c||[]).slice(); if(kind&&t.indexOf(kind)>0){ t.splice(t.indexOf(kind),1); t.unshift(kind); } return t.slice(0,2).map(kicon).join(''); }
   function mkNode(id){ var el=document.createElement('button'); el.type='button'; el.dataset.id=id;
-    el.innerHTML='<span class="card" lang="en"><span class="nm"><i class="mk '+size(id)+'" aria-hidden="true"></i><span class="yr">'+esc(String(E[id].y))+'</span><span class="kd"></span></span><span class="nt">'+esc(name(id))+'</span></span>';
+    el.innerHTML='<span class="card" lang="en"><span class="nm"><i class="mk '+size(id)+'" aria-hidden="true"></i><span class="yr">'+esc(String(E[id].y))+'</span><span class="kd"></span></span><span class="nt'+(/\S{12,}/.test(name(id))?' lw':'')+'">'+esc(name(id))+'</span></span>';
     nodesLayer.appendChild(el); return {id:id,el:el,cur:{x:0,y:0,s:1,o:0,d:1,q:1},tg:{x:0,y:0,s:1,o:1,d:1,q:1},w:NW,h:60,chip:false,gone:false,fresh:true,drumK:null,drumI:0}; }
   function mkEdge(l){ var g=document.createElementNS(SVGNS,'g'); g.setAttribute('class','eg');
     var w=(backbone(l)?2.3:1.35)*(l.conf==='High'?1:l.conf==='Moderate'?0.84:0.66);
