@@ -717,7 +717,13 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .dock .dnote{font:12.5px/1.4 var(--ui);color:var(--ink3);margin:0 0 9px}
 .dock .dline{-webkit-line-clamp:3;margin:0 0 2px}
 .dockin.open .dline{display:block;-webkit-line-clamp:unset;overflow:visible}
-.dockin.open{max-height:calc(100vh - 150px);overflow-y:auto;overscroll-behavior:contain}
+.dockin{display:flex;flex-direction:column;padding:10px 0 0!important}
+.dockin .dbody{min-height:0;padding:5px 17px 2px}
+.dockin > .acts,.dockin > .youare{flex:none;margin:0;padding:11px 17px 16px;border-top:1px solid var(--rule);background:var(--surface)}
+.dockin .dbody > :last-child{margin-bottom:0;border-bottom:0}
+.dockin.open{max-height:calc(100vh - 170px)}
+.dockin.open .dbody{overflow-y:auto;overscroll-behavior:contain}
+.dock .dgo span{white-space:normal!important;overflow:visible!important}
 .dock .dmore{display:block;margin:0 0 9px auto;min-height:26px;padding:0 0 0 10px;font:500 12.5px/1 var(--ui);color:var(--accent)}
 .dock .dline+.dmore[hidden]+.drels{margin-top:9px}
 .dock .drels{border-top:1px solid var(--rule);margin:0 0 12px}
@@ -1427,11 +1433,12 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     var same=A.links.filter(function(l){ return l.grade==='Coincident'&&(l.f===id||l.t===id)&&E[l.f]&&E[l.t]; }).length;
     if(path.length>1){ var w=weakest(path); h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl '+gcls(w)+'" aria-hidden="true"></i><span><b class="pl">'+(s<0?'Its part in ':'What it owes to ')+esc(name(centre))+'</b>'+esc(relLine(id,path))+'</span>'+CHEV+'</button>'; }
     else if(same){ h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl coinc" aria-hidden="true"></i><span>'+same+(same===1?' event':' events')+' in the same years, with no causal link.</span>'+CHEV+'</button>'; }
-    if(id===HOME&&id===centre) h+='<p class="youare">You are reading this event.</p>';
-    else { h+='<div class="acts">'+(id===HOME?'':'<button type="button" class="pri" id="openBtn">Open the page</button>')+(id!==centre?'<button type="button" class="sec" id="cenBtn">Centre here</button>':'')+'</div>'; }
+    var foot='';
+    if(id===HOME&&id===centre) foot='<p class="youare">You are reading this event.</p>';
+    else { foot='<div class="acts">'+(id===HOME?'':'<button type="button" class="pri" id="openBtn">Open the page</button>')+(id!==centre?'<button type="button" class="sec" id="cenBtn">Centre here</button>':'')+'</div>'; }
     var fresh=!dockEl;
     if(fresh){ dockEl=document.createElement('div'); dockEl.className='dock'; dockEl.setAttribute('role','region'); dockEl.setAttribute('aria-label','The event in hand'); dockEl.innerHTML='<div class="dockin"></div>'; dockHost.innerHTML=''; dockHost.appendChild(dockEl); var de=dockEl; requestAnimationFrame(function(){ requestAnimationFrame(function(){ de.classList.add('in'); }); }); }
-    var inner=dockEl.firstChild; inner.classList.remove('open'); inner.innerHTML=h; frameOn(inner,!fresh);
+    var inner=dockEl.firstChild; inner.classList.remove('open'); inner.innerHTML='<div class="dbody">'+h+'</div>'+foot; frameOn(inner,!fresh);
     document.getElementById('dockX').addEventListener('click',function(){ select(null); });
     var dl=document.getElementById('dLine'), dm=document.getElementById('dMore');
     if(dl.scrollHeight>dl.clientHeight+2){ dm.hidden=false; frameOn(inner,!fresh); dm.addEventListener('click',function(){ var o=inner.classList.toggle('open'); dm.setAttribute('aria-expanded',String(o)); dm.textContent=o?'Show less':'… more'; frameOn(inner,true); }); }

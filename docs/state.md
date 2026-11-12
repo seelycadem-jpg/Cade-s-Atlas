@@ -303,6 +303,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       only for a path of two lines or more, since one line is already a row above it; a
       "Caused by" or "Led to" row with nothing in it is left out; events that share only the
       same years get one line that opens How it connects.
+      Fault fixed (Cade's screenshot, 2026-11-12): with the synopsis opened on a long
+      event, the whole pop-up scrolled and "Open the page" slid out under the gilt frame.
+      The pop-up now has the same build as the sheets: the frame stays still, only the text
+      scrolls, and the buttons sit in a footer. Long names in the rows wrap in place of
+      being cut with dots.
       Question for the master chat: event names that are phrases with a verb ("Hitler Takes
       Power") read stiffly inside this sentence; should each event carry a short noun form?
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
