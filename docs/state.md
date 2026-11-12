@@ -389,6 +389,13 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   Record's text and organisation to be rewritten; the headings stay the fixed set unless
   the master chat rules otherwise.
 
+- **Meanwhile, third pass** (Cade, 2026-11-12; on trial; replaces the row list below, which he
+  found busy). Six entries in two columns with no rules and no underlines. Each is a
+  dateline: the size mark and year with the kind signs at the right, the name, the place.
+  The whole entry is the tap target. The graded line to the page's event no longer shows
+  here; the chain carries it. Cade wants the place as "City, Country" on every entry; the
+  old data's place field is free text and often lacks one or the other, so the rewrite
+  needs separate city and country fields, named as they were at the time.
 - **Meanwhile, second pass** (Cade, 2026-11-12; on trial). Six events at most, drawn at
   random from what the atlas holds within two years of the event and set in date order.
   Each row is one line where it fits: the size mark (diamond, dot or ring) and the year,

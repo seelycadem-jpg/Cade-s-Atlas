@@ -643,7 +643,19 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .mwr .arr{display:flex;min-height:30px;margin-top:1px;font-size:12.5px}
 .mwr .mwk{padding-top:0;align-self:center}
 .mwr .mwk .ki{width:14px;height:14px}
-.mwmore{margin:10px 0 0;min-height:40px;padding:0 14px;border:1px solid var(--rule);font:500 12.5px/1 var(--ui);color:var(--ink2)}
+/* third pass (Cade, 2026-11-12): no rules and no underlines. Six quiet entries in two columns, each a dateline:
+   mark and year, the name, the place. */
+.mw{border-top:0;display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:20px 18px;margin-top:6px}
+.mwc{display:grid;gap:3px;align-content:start;text-align:left;min-width:0;padding:0}
+.mwy{display:flex;align-items:center;gap:6px;font:600 11.5px/1 var(--ui);letter-spacing:.04em;color:var(--ink3);font-variant-numeric:tabular-nums}
+.mwy .mk.k{width:10px;height:10px}
+.mwy .mk.fi,.mwy .mk.st{width:7px;height:7px;margin:0 1.5px}
+.mwy .mwk{margin-left:auto;display:inline-flex;gap:4px;--kibg:var(--bg)}
+.mwy .mwk .ki{width:13px;height:13px}
+.mwt{font:500 17px/1.18 var(--display);color:var(--title);text-wrap:balance;margin-top:3px}
+.mwp{font:400 12px/1.3 var(--ui);color:var(--ink2)}
+.mwc:active .mwt{color:var(--accent)}
+.mwmore{margin:20px 0 0;min-height:40px;padding:0 14px;border:1px solid var(--rule);font:500 12.5px/1 var(--ui);color:var(--ink2)}
 .mwmore:active{background:var(--surface2)}
 .take.how{font:italic 400 15px/1.42 var(--display);color:var(--ink2);margin:-4px 0 14px;text-wrap:balance}
 .mockbtn{position:fixed;right:max(10px,env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:14;min-height:44px;padding:0 10px;background:var(--bg);border:1px dashed var(--ink3);font:500 11.5px/1 var(--ui);color:var(--ink2)}
@@ -1582,12 +1594,9 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     /* six at most, drawn at random from the pool, then set in date order */
     function draw(){ var p=pool.slice(), i, j, t; for(i=p.length-1;i>0;i--){ j=Math.floor(Math.random()*(i+1)); t=p[i]; p[i]=p[j]; p[j]=t; }
       var rows=p.slice(0,6).sort(function(a,b){ return a.y-b.y; });
-      el.innerHTML=rows.map(function(e){ var l=A.links.filter(function(x){ return (x.f===e.id&&x.t===HOME)||(x.t===e.id&&x.f===HOME); })[0];
-        var z=e.tier===1?'k':e.tier===3?'st':'fi';
-        return '<div class="mwr"><span class="y"><i class="mk '+z+'" role="img" aria-label="'+SZW[z]+'"></i>'+e.y+'</span><div class="mwb"><button type="button" class="t" data-mw="'+esc(tc(e.h))+'">'+esc(tc(e.h))+'</button>'
-          +'<span class="lane">'+esc(e.w||LANE[e.r]||'')+'</span>'
-          +(l?'<button type="button" class="arr" data-mwl="'+l.id+'"><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span>'+(l.f===HOME?'The treaty led to it':'It led to the treaty')+': <b>'+esc(l.grade)+'</b></span>'+CHEV.replace('<svg','<svg style="width:7px;height:12px;color:var(--ink3)"')+'</button>':'')
-          +'</div><span class="mwk">'+(e.c||[]).slice(0,2).map(kicon).join('')+'</span></div>'; }).join('')||'<p class="mwnote">The atlas holds no other event for these years yet.</p>';
+      el.innerHTML=rows.map(function(e){ var z=e.tier===1?'k':e.tier===3?'st':'fi', t=tc(e.h);
+        return '<button type="button" class="mwc" data-mw="'+esc(t)+'"><span class="mwy"><i class="mk '+z+'" role="img" aria-label="'+SZW[z]+'"></i>'+e.y+'<span class="mwk">'+(e.c||[]).slice(0,2).map(kicon).join('')+'</span></span>'
+          +'<span class="mwt">'+esc(t)+'</span><span class="mwp">'+esc(e.w||LANE[e.r]||'')+'</span></button>'; }).join('')||'<p class="mwnote">The atlas holds no other event for these years yet.</p>';
       if(more)more.hidden=pool.length<=6; }
     draw(); if(more)more.addEventListener('click',draw);
     el.addEventListener('click',function(ev){ var a=ev.target.closest('[data-mwl]'); if(a){ note(a.dataset.mwl); return; } var t=ev.target.closest('[data-mw]'); if(t)say('Would open the preview: '+t.dataset.mw); }); })();
