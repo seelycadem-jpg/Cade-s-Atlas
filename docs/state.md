@@ -488,6 +488,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   caption "steps from this event". The top of the chart now holds only the control bar
   and the column headings.
 
+- **Reading margins** (Cade, 2026-11-12; on trial, to compare on his phone). Side margins 20px
+  where they were 16; the opening line 21px (was 23); section headings 27px (was 30); the
+  page title a touch smaller on a phone so it still fits one line. Body text stays 17px.
+  The chain, the tabs and the Record's row still reach the screen edge.
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock
