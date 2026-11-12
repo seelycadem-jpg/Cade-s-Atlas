@@ -1023,6 +1023,9 @@ body{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px
 .piscroll{margin:0 -20px;padding:0 20px;scroll-padding:0 20px}
 .chainbox{margin-left:-20px;margin-right:-20px}
 .recidx{margin-left:calc(-1 * max(20px,env(safe-area-inset-left,0px)));margin-right:calc(-1 * max(20px,env(safe-area-inset-left,0px)));padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-left,0px))}
+/* On trial (Cade, 2026-11-12): no fade under the docked tabs; the hairline under them stays when they dock. */
+.pageindex::after{display:none!important}
+.pageindex.stuck::before{opacity:1!important}
 .bluf{font-size:21px;line-height:1.42}
 h2{font-size:27px}
 /* the title sets a touch smaller on a phone, so it still fits one line inside the wider margins */
