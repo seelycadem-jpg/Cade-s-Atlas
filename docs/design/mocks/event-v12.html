@@ -726,7 +726,9 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .rarrow b{font:600 14px/1 var(--ui);color:var(--ink);font-variant-numeric:tabular-nums}
 .rarrow i{font:500 9.5px/1 var(--ui);font-style:normal;letter-spacing:.06em;text-transform:uppercase;color:var(--ink3)}
 .rarrow:disabled{cursor:default;color:var(--rule)}
-.rarrow:disabled span{visibility:hidden}
+/* at the end of the chain the count stays, greyed, so the bar keeps its shape and reads "0 more" */
+.rarrow:disabled span{visibility:visible}
+.rarrow:disabled b{color:var(--ink3)}
 .rarrow:active{background:var(--surface2)}
 .ruler .mini{margin:0;height:44px}
 .ruler .mini .cell{min-height:44px}
