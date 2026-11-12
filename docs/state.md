@@ -298,7 +298,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       sit in one line under it. Scrolled text stops short of the gilt line at the top.
       The plain sentence under it names both events in place of "the first" and "the
       second" (Cade): "The Russian Revolution was one cause of Hitler Takes Power among
-      several." It is generated from the grade, never hand-written.
+      several." It is generated from the grade, never hand-written, and set in italics.
+      Question for the master chat: event names that are phrases with a verb ("Hitler Takes
+      Power") read stiffly inside this sentence; should each event carry a short noun form?
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width
