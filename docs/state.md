@@ -308,6 +308,14 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       The pop-up now has the same build as the sheets: the frame stays still, only the text
       scrolls, and the buttons sit in a footer. Long names in the rows wrap in place of
       being cut with dots.
+      Question for the master chat (Cade, 2026-11-12): the verdict on a Contributing line
+      ranks the causes ("Versailles (second), Bolshevik fear (third)"). Cade finds the rank
+      arbitrary and wants it gone. house-style.md line 106 requires it ("Contributing names
+      the set and A's rank"); 18 of the 36 pilot verdicts do it. This chat's view: keep
+      naming the set, which is the test for a Contributing grade, and drop the rank, which
+      has no stated method. Some sets also name causes the link table does not hold (for
+      example "elite co-option"), which a reader cannot follow anywhere. Not changed in the
+      mock: the verdicts are data.
       Question for the master chat: event names that are phrases with a verb ("Hitler Takes
       Power") read stiffly inside this sentence; should each event carry a short noun form?
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
