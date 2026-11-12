@@ -369,6 +369,15 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       changes and keeps the column in view. A test of 140 random taps, filter changes and
       height changes found no event missing afterwards.
 
+- **The Record, second pass** (Cade, 2026-11-12; on trial). The Record is a plain list of
+  its pieces: each shows its heading and one line saying what is inside, closed by default,
+  and opens in place. One piece is open at a time; the open one's heading turns red and its
+  rule gilt. A small index row above the list names the pieces and jumps to one; it hides
+  when an event has three pieces or fewer. The list is as long as the event supports
+  (event-pages.md already leaves the optional sections to the writer). Cade expects the
+  Record's text and organisation to be rewritten; the headings stay the fixed set unless
+  the master chat rules otherwise.
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock
