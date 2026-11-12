@@ -182,6 +182,13 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     works it: a before-and-after switch and a tap on each part. It sits last in Overview.
     Like the picture it swells a little as it crosses the screen; unlike the picture it
     never fades.
+    RULE (Cade, 2026-11-12), for the master chat to write into event-pages.md, Graphics:
+    every graphic carries a title that says plainly what it shows: whose, what, and the
+    span or comparison. "Germany's borders before and after the Great War", never
+    "Germany and its neighbours". A reader who sees only the title knows what the graphic
+    is. The mock's map now carries that title. Its year switch is red (Cade, same day),
+    a step outside the palette note that keeps red for the chain; the map already uses
+    red for the land lost.
     For a treaty or a conquest: the borders before and after, the land lost, and the
     states that came out of the redraw. For a battle: where it was fought and the lines of
     communication. For a vote: the tally. In the mock: Germany and its neighbours, 1914
