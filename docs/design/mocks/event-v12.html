@@ -1002,6 +1002,16 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .ruler.foot .mini .cell em{top:calc(50% + 9px)}
 .ruler.foot .mini .win{top:50%;height:16px;margin-top:-8px;background:transparent;border:1px solid var(--gilt);box-shadow:0 0 0 .5px var(--gilt);z-index:3}
 .ruler.foot .rarrow b{font-size:15px}
+
+/* Meanwhile: the redraw is a small shuffle sign at the right of the heading (Cade, 2026-11-12), drawn like the other
+   signs: hairline, square joins, gilt. */
+h2.mwh{position:relative;padding-right:52px}
+.mwshuf{position:absolute;right:-8px;top:50%;width:44px;height:44px;margin-top:-26px;display:grid;place-items:center}
+.mwshuf .ki{width:22px;height:22px;color:var(--gilt);stroke-width:1.25;transition:transform .35s var(--spring)}
+.mwshuf .ki .d{stroke-width:.7}
+.mwshuf:active .ki{transform:scale(.9)}
+.mwshuf.spin .ki{transform:rotate(180deg)}
+@media (prefers-reduced-motion:reduce){ .mwshuf .ki{transition:none} }
 </style>
 
 <div class="stage" id="stage">
@@ -1133,11 +1143,10 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 
   <section class="layer" id="meanwhile">
     <div class="sep" aria-hidden="true"><i></i></div>
-    <h2>Meanwhile</h2>
+    <h2 class="mwh">Meanwhile<button type="button" class="mwshuf" id="mwMore" aria-label="Show other events from the same years"><svg class="ki" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M3 7h3.5c4.5 0 6 10 10.5 10H20M3 17h3.5c1.700 0 3-1.4 4.1-3.2M13.4 10.2C14.5 8.4 15.8 7 17.5 7H20"/><path class="f" d="M21.8 7l-3.3-2.2v4.4zM21.8 17l-3.3-2.2v4.4z"/><path class="d" d="M3 5.6v2.8M3 15.6v2.8"/></svg></button></h2>
     <p class="take how">What else was happening around the world at the time of this event.</p>
     <div class="mw" id="mw"></div>
-    <button type="button" class="mwmore" id="mwMore">Show six others</button>
-    <p class="mwnote">Mock data: drawn from the 19 events the old atlas data holds for 1917 to 1921.</p>
+        <p class="mwnote">Mock data: drawn from the 19 events the old atlas data holds for 1917 to 1921.</p>
   </section>
 
   <nav class="onward" id="onward" aria-label="Where next">
@@ -1739,7 +1748,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
         return '<button type="button" class="mwc" data-mw="'+esc(t)+'"><span class="mwy"><i class="mk '+z+'" role="img" aria-label="'+SZW[z]+'"></i>'+e.y+'<span class="mwk">'+(e.c||[]).slice(0,2).map(kicon).join('')+'</span></span>'
           +'<span class="mwt">'+esc(t)+'</span><span class="mwp">'+esc(e.w||LANE[e.r]||'')+'</span></button>'; }).join('')||'<p class="mwnote">The atlas holds no other event for these years yet.</p>';
       if(more)more.hidden=pool.length<=6; }
-    draw(); if(more)more.addEventListener('click',draw);
+    draw(); if(more)more.addEventListener('click',function(){ draw(); more.classList.toggle('spin'); });
     el.addEventListener('click',function(ev){ var a=ev.target.closest('[data-mwl]'); if(a){ note(a.dataset.mwl); return; } var t=ev.target.closest('[data-mw]'); if(t)say('Would open the preview: '+t.dataset.mw); }); })();
 
   /* ---------- the picture: three placements on trial, and the fade as it leaves ---------- */

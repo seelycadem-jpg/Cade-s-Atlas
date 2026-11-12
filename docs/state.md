@@ -422,7 +422,7 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   as on a chain card; the name; the place; and up to two kind signs. Sizes are placeholders:
   the old data's tiers 1, 2 and 3 shown as knot, fibre and strand. A row shows the
   graded line to the page's event only where the link table holds one; the "no line"
-  sentence is gone. "Show six others" draws again. The mock reads the 19 events of 1917 to
+  sentence is gone. A shuffle sign at the right of the heading draws again (Cade, 2026-11-12; it replaced a "Show six others" button). The mock reads the 19 events of 1917 to
   1921 from `site/data.json` through the new `event-v12-meanwhile.js`. Open for the master
   chat: a random draw changes on every visit, which works against a page a reader or a
   search engine can cite; and the old data's place field is uneven ("Europe" for the US
