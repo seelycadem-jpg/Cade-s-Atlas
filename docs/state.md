@@ -327,6 +327,15 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       must move into the claim or the reader loses it. (2) The verdict text is also where
       the atlas says why the challenge does not overturn the grade; with it gone, the
       claim has to carry that.
+      DECIDED by Cade (2026-11-12): neither the claim nor the note names the other causes
+      of a Contributing line. The chain shows them, and an event may have twenty or more.
+      The "other causes" list is withdrawn from the note. Pattern for the rewritten text,
+      agreed in drafts: The claim says what happened, in order, and for a Necessary or
+      Sufficient line ends with what would be missing without the cause. The challenge
+      states the strongest case against and ends with one sentence on what it does and
+      does not change. No verdict section, no rank, no list of other causes.
+      Consequence: the chain is now the only place a reader sees the other causes, so every
+      cause the atlas relies on must be an event with a link.
       Count for the master chat: of the 18 Contributing lines in the pilot, 10 have another
       cause of the same event in the link table and 8 have none. For those 8 (May Fourth
       is one) the reader sees "one cause among several" and no other cause anywhere but in

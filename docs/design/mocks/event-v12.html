@@ -1123,9 +1123,6 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   function backbone(l){ return l.grade==='Necessary'||l.grade==='Sufficient'; }
   function gcls(l){ return l.grade==='Contributing'?'contrib':l.grade==='Contested'?'contest':l.grade==='Coincident'?'coinc':''; }
   var PLAIN={Necessary:'Without the first, the second does not happen.',Sufficient:'The first was enough on its own to bring about the second.',Contributing:'The first was one cause among several.',Contested:'Two readings; the atlas withholds a verdict.',Coincident:'Same years, no causal link.'};
-  /* "one cause among several": the several, read from the link table, each a row that opens its own note */
-  function sibs(l,back){ if(l.grade!=='Contributing')return ''; var o=A.links.filter(function(x){ return x.t===l.t&&x.id!==l.id&&x.grade!=='Coincident'&&E[x.f]&&E[x.t]; }).sort(function(a,b){ return E[a.f].y-E[b.f].y; });
-    if(!o.length)return ''; return '<h4>The other causes of '+esc(name(l.t))+'</h4><div class="lrows sibs">'+o.map(function(x){ return lrow(x,back,name(x.f)); }).join('')+'</div>'; }
   /* the grade in one plain sentence that names both events */
   function plain(l){ var a=name(l.f), b=name(l.t), g=l.grade;
     return g==='Necessary'?'Without '+a+', '+b+' does not happen.':g==='Sufficient'?a+' was enough on its own to bring about '+b+'.':g==='Contributing'?a+' was one cause of '+b+' among several.':g==='Contested'?'Two readings of the part '+a+' played in '+b+'; the atlas withholds a verdict.':a+' and '+b+' fall in the same years, with no causal link.'; }
@@ -1475,7 +1472,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   function note(lid,back){ var l=A.links.filter(function(x){return x.id===lid})[0]; if(!l)return;
     var h='<h3 class="jumph"><button type="button" class="jump" data-jump="'+l.f+'">'+esc(name(l.f))+'</button> <i class="garr '+gcls(l)+'" role="img" aria-label="led to"></i> <button type="button" class="jump" data-jump="'+l.t+'">'+esc(name(l.t))+'</button></h3>'
       +'<div class="kind under"><i class="gl '+gcls(l)+'" aria-hidden="true"></i>'+esc(gline(l))+' · '+E[l.f].y+' → '+E[l.t].y+'</div>'
-      +'<p class="plain">'+esc(plain(l))+'</p>'+sibs(l,back)+'<h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The challenge</h4><p>'+esc(l.objection)+'</p>'
+      +'<p class="plain">'+esc(plain(l))+'</p><h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The challenge</h4><p>'+esc(l.objection)+'</p>'
       +'<div class="acts">'+(back?'<button type="button" class="sec" data-pathback="'+back+'">Back to the path</button>':'')+'<button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,'The note on this line'); }
   function openBig(){ var h='<canvas id="bigGlobe" aria-label="The world in 1919. Drag to turn it."></canvas><div class="acts"><button type="button" class="pri" data-say="Would open the Political globe at 1919, centred here, with a Return chip back to this page.">Open the globe at 1919</button><button type="button" class="close" data-close>Close</button></div>';
