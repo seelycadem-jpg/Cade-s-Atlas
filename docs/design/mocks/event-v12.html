@@ -750,6 +750,18 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .sheet.gilded > .acts .close{border:1px solid var(--rule);color:var(--ink2)}
 .sheet.gilded > .acts .close:active,.sheet.gilded > .acts .sec:active{background:var(--surface2)}
 .sheet.gilded .sbody{padding-bottom:16px}
+/* the text scrolls inside the frame: the sheet keeps a clear band at the top so nothing runs under the gilt line */
+.sheet.gilded{padding-top:10px}
+.sheet.gilded .sbody{padding-top:10px}
+.sheet .jumph{margin-top:0}
+.sheet .kind.under{margin:7px 0 12px}
+.garr{display:inline-block;position:relative;width:30px;height:0;margin:0 9px 0 3px;vertical-align:middle;border-top:3px solid var(--accent)}
+.garr.contrib{border-top:2.5px dashed var(--accent)}
+.garr.contest{border-top:2.5px dotted var(--accent)}
+.garr::after{content:"";position:absolute;right:-7px;top:-6.5px;border-left:8px solid var(--accent);border-top:5px solid transparent;border-bottom:5px solid transparent}
+.garr.contrib::after,.garr.contest::after{top:-6.2px}
+.garr.coinc{border-top:2px solid var(--ink3)}
+.garr.coinc::after{display:none}
 .sheet.gilded .lrows{border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:none}
 .sheet.gilded .lrow{padding-left:2px;padding-right:2px}
 
@@ -1445,7 +1457,8 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     h+='<div class="acts" style="margin-top:10px"><button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,'How it connects'); }
   function note(lid,back){ var l=A.links.filter(function(x){return x.id===lid})[0]; if(!l)return;
-    var h='<div class="kind"><i class="gl '+gcls(l)+'" aria-hidden="true"></i>'+esc(gline(l))+'</div><h3 class="jumph"><button type="button" class="jump" data-jump="'+l.f+'">'+esc(name(l.f))+'</button> <span aria-hidden="true">→</span> <button type="button" class="jump" data-jump="'+l.t+'">'+esc(name(l.t))+'</button></h3><p class="date">'+E[l.f].y+' → '+E[l.t].y+'</p>'
+    var h='<h3 class="jumph"><button type="button" class="jump" data-jump="'+l.f+'">'+esc(name(l.f))+'</button> <i class="garr '+gcls(l)+'" role="img" aria-label="led to"></i> <button type="button" class="jump" data-jump="'+l.t+'">'+esc(name(l.t))+'</button></h3>'
+      +'<div class="kind under"><i class="gl '+gcls(l)+'" aria-hidden="true"></i>'+esc(gline(l))+' · '+E[l.f].y+' → '+E[l.t].y+'</div>'
       +'<p class="plain">'+esc(PLAIN[l.grade])+'</p><h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The strongest objection</h4><p>'+esc(l.objection)+'</p>'+(l.verdict?'<h4>The verdict</h4><p>'+esc(l.verdict)+'</p>':'')
       +'<div class="acts">'+(back?'<button type="button" class="sec" data-pathback="'+back+'">Back to the path</button>':'')+'<button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,'The note on this line'); }

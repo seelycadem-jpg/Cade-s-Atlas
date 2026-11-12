@@ -293,6 +293,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       The buttons of every gilt sheet (the note, How it connects) now sit in a footer under a
       rule, outside the scrolling text, as two equal squared buttons; on a long note they
       had run into the bottom of the frame.
+      The note's head, by Cade's direction: the title comes first, its arrow drawn in the
+      line's grade (solid, dashed, dotted) as on the web; the grade, confidence and years
+      sit in one line under it. Scrolled text stops short of the gilt line at the top.
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width
