@@ -336,6 +336,18 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       does not change. No verdict section, no rank, no list of other causes.
       Consequence: the chain is now the only place a reader sees the other causes, so every
       cause the atlas relies on must be an event with a link.
+      FINAL (Cade, 2026-11-12), replacing the two-part pattern above: a note has three
+      parts, each with one job. The claim: what the atlas says happened; a Necessary or
+      Sufficient line ends with what would be missing without the cause. The challenge: the
+      strongest case against, and nothing else. The verdict: one or two sentences answering
+      the challenge, saying why the grade stands or what the challenge cost it. The verdict
+      carries no rank, no list of other causes and no repeat of the grade words. A line
+      with little or no challenge shows the claim alone: no challenge section and no
+      verdict (never manufacture a fact against). The mock prints the verdict again and
+      hides both sections where a line has no challenge. The old verdict text in the data
+      still carries ranks; Cade accepts that until the rewrite removes them.
+      Header (Cade, 2026-11-12): the place stays beside the date when the title docks
+      ("28 June 1919 · Versailles, France"); it used to fade out with the path line.
       Count for the master chat: of the 18 Contributing lines in the pilot, 10 have another
       cause of the same event in the link table and 8 have none. For those 8 (May Fourth
       is one) the reader sees "one cause among several" and no other cause anywhere but in

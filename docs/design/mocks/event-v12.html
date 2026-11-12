@@ -55,7 +55,7 @@ p{margin:0 0 14px;text-wrap:pretty}
   :root.sda .tw{animation:twDock linear both;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-timeline:scroll(root block);animation-range:calc(var(--D) * .45) var(--D)}
   :root.sda .stage .gw{animation:gwDock linear both;animation-timing-function:cubic-bezier(.33,1,.68,1);animation-timeline:scroll(root block);animation-range:0px var(--D)}
   :root.sda .tw .sub{animation:subKeep linear both;animation-timing-function:cubic-bezier(.45,0,.55,1);animation-timeline:scroll(root block);animation-range:calc(var(--D) * .45) var(--D)}
-  :root.sda .tw .kicker,:root.sda .tw .sub .rest{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:calc(var(--D) * .3) calc(var(--D) * .72)}
+  :root.sda .tw .kicker{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:calc(var(--D) * .3) calc(var(--D) * .72)}
   :root.sda .hint{animation:fadeOut linear both;animation-timeline:scroll(root block);animation-range:0px calc(var(--D) * .28)}
   :root.sda .stage .hsub{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:var(--D) calc(var(--D) + 48px)}
   :root.sda .stage .band{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:calc(var(--D) * .7) calc(var(--D) * .9)}
@@ -1079,7 +1079,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     var g0x=(W-GS)/2, g0y=-GS*0.32, g1x=W-gutter-52, g1y=8, s1=52/GS;
     put(gw,'gw','transform','translate3d('+lerp(g0x,g1x,eo).toFixed(2)+'px,'+lerp(g0y,g1y,eo).toFixed(2)+'px,0) scale('+lerp(1,s1,eo).toFixed(4)+')');
     put(gw,'gw','opacity',lerp(1,0.78,eo).toFixed(3));
-    var fo=Math.max(0,1-Math.max(0,q-0.3)/0.42).toFixed(3); put(kicker,'kick','opacity',fo); [].forEach.call(sub.querySelectorAll('.rest'),function(r,i){ put(r,'rest'+i,'opacity',fo); });
+    var fo=Math.max(0,1-Math.max(0,q-0.3)/0.42).toFixed(3); put(kicker,'kick','opacity',fo);
     put(sub,'sub','transform','scale('+lerp(1,M.subk,qs).toFixed(4)+')');
     put(hint,'hint','opacity',Math.max(0,1-q*3.5).toFixed(3));
     put(hsub,'hsub','opacity',Math.min(1,Math.max(0,(sc-M.D)/48)).toFixed(3));
@@ -1472,7 +1472,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   function note(lid,back){ var l=A.links.filter(function(x){return x.id===lid})[0]; if(!l)return;
     var h='<h3 class="jumph"><button type="button" class="jump" data-jump="'+l.f+'">'+esc(name(l.f))+'</button> <i class="garr '+gcls(l)+'" role="img" aria-label="led to"></i> <button type="button" class="jump" data-jump="'+l.t+'">'+esc(name(l.t))+'</button></h3>'
       +'<div class="kind under"><i class="gl '+gcls(l)+'" aria-hidden="true"></i>'+esc(gline(l))+' · '+E[l.f].y+' → '+E[l.t].y+'</div>'
-      +'<p class="plain">'+esc(plain(l))+'</p><h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The challenge</h4><p>'+esc(l.objection)+'</p>'
+      +'<p class="plain">'+esc(plain(l))+'</p><h4>The claim</h4><p>'+esc(l.claim)+'</p>'+(l.objection?'<h4>The challenge</h4><p>'+esc(l.objection)+'</p>'+(l.verdict?'<h4>The verdict</h4><p>'+esc(l.verdict)+'</p>':''):'')
       +'<div class="acts">'+(back?'<button type="button" class="sec" data-pathback="'+back+'">Back to the path</button>':'')+'<button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,'The note on this line'); }
   function openBig(){ var h='<canvas id="bigGlobe" aria-label="The world in 1919. Drag to turn it."></canvas><div class="acts"><button type="button" class="pri" data-say="Would open the Political globe at 1919, centred here, with a Return chip back to this page.">Open the globe at 1919</button><button type="button" class="close" data-close>Close</button></div>';
