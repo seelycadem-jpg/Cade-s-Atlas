@@ -391,7 +391,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 
 - **Meanwhile, second pass** (Cade, 2026-11-12; on trial). Six events at most, drawn at
   random from what the atlas holds within two years of the event and set in date order.
-  Each row: the year, the name, the place, and up to two kind signs. A row shows the
+  Each row is one line where it fits: the size mark (diamond, dot or ring) and the year,
+  as on a chain card; the name; the place; and up to two kind signs. Sizes are placeholders:
+  the old data's tiers 1, 2 and 3 shown as knot, fibre and strand. A row shows the
   graded line to the page's event only where the link table holds one; the "no line"
   sentence is gone. "Show six others" draws again. The mock reads the 19 events of 1917 to
   1921 from `site/data.json` through the new `event-v12-meanwhile.js`. Open for the master
