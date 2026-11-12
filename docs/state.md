@@ -316,6 +316,17 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       note. Follows from it: a cause a verdict names that has no event (for example "elite
       co-option") must become an event with a link or be dropped. The verdict text itself
       is data and is unchanged in the mock, so the old ranks still show there.
+      DECIDED by Cade (2026-11-12): the note shows no Verdict section. It reads: the
+      title with its graded arrow; the grade, confidence and years; the plain sentence; the
+      other causes where the table holds them; The claim; The challenge (renamed from "The
+      strongest objection"). The grade line and the plain sentence are the verdict. The
+      mock no longer prints the verdict text; the data still holds it.
+      Two things this leaves for the master chat. (1) CLAUDE.md says the Argument "states
+      the verdict first, the challenge second" and that no Necessary is graded without its
+      counterfactual sentence. In the pilot that sentence lives in the verdict text, so it
+      must move into the claim or the reader loses it. (2) The verdict text is also where
+      the atlas says why the challenge does not overturn the grade; with it gone, the
+      claim has to carry that.
       Count for the master chat: of the 18 Contributing lines in the pilot, 10 have another
       cause of the same event in the link table and 8 have none. For those 8 (May Fourth
       is one) the reader sees "one cause among several" and no other cause anywhere but in

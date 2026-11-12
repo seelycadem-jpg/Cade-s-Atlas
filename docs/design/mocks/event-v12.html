@@ -1475,7 +1475,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   function note(lid,back){ var l=A.links.filter(function(x){return x.id===lid})[0]; if(!l)return;
     var h='<h3 class="jumph"><button type="button" class="jump" data-jump="'+l.f+'">'+esc(name(l.f))+'</button> <i class="garr '+gcls(l)+'" role="img" aria-label="led to"></i> <button type="button" class="jump" data-jump="'+l.t+'">'+esc(name(l.t))+'</button></h3>'
       +'<div class="kind under"><i class="gl '+gcls(l)+'" aria-hidden="true"></i>'+esc(gline(l))+' · '+E[l.f].y+' → '+E[l.t].y+'</div>'
-      +'<p class="plain">'+esc(plain(l))+'</p>'+sibs(l,back)+'<h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The strongest objection</h4><p>'+esc(l.objection)+'</p>'+(l.verdict?'<h4>The verdict</h4><p>'+esc(l.verdict)+'</p>':'')
+      +'<p class="plain">'+esc(plain(l))+'</p>'+sibs(l,back)+'<h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The challenge</h4><p>'+esc(l.objection)+'</p>'
       +'<div class="acts">'+(back?'<button type="button" class="sec" data-pathback="'+back+'">Back to the path</button>':'')+'<button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,'The note on this line'); }
   function openBig(){ var h='<canvas id="bigGlobe" aria-label="The world in 1919. Drag to turn it."></canvas><div class="acts"><button type="button" class="pri" data-say="Would open the Political globe at 1919, centred here, with a Return chip back to this page.">Open the globe at 1919</button><button type="button" class="close" data-close>Close</button></div>';
