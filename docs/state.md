@@ -389,6 +389,16 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   Record's text and organisation to be rewritten; the headings stay the fixed set unless
   the master chat rules otherwise.
 
+- **Meanwhile, second pass** (Cade, 2026-11-12; on trial). Six events at most, drawn at
+  random from what the atlas holds within two years of the event and set in date order.
+  Each row: the year, the name, the place, and up to two kind signs. A row shows the
+  graded line to the page's event only where the link table holds one; the "no line"
+  sentence is gone. "Show six others" draws again. The mock reads the 19 events of 1917 to
+  1921 from `site/data.json` through the new `event-v12-meanwhile.js`. Open for the master
+  chat: a random draw changes on every visit, which works against a page a reader or a
+  search engine can cite; and the old data's place field is uneven ("Europe" for the US
+  entry into the war).
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock

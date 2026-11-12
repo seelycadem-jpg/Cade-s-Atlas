@@ -5,6 +5,7 @@
 <script src="https://cdn.jsdelivr.net/npm/topojson-client@3.1.0/dist/topojson-client.min.js"></script>
 <script src="atlas-data.js"></script>
 <script src="event-v12-briefs.js"></script>
+<script src="event-v12-meanwhile.js"></script>
 <style>
 /* Layout: the globe opens the page and shrinks into the corner as the title docks; one reading column under it;
    the chain web breaks out to the full width of the phone and slides sideways, time running left to right.
@@ -623,6 +624,13 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .mwr .arr.no{color:var(--ink3);min-height:0}
 .mwr .arr b{font-weight:600;color:var(--ink)}
 .mwnote{font:13px/1.5 var(--ui);color:var(--ink3);margin:10px 0 0}
+.mwr{grid-template-columns:3rem minmax(0,1fr) auto;gap:10px;padding:10px 0;align-items:start}
+.mwr .t{font-size:18px;min-height:0;text-align:left}
+.mwr .lane{letter-spacing:.02em;text-transform:none;font:400 12.5px/1.35 var(--ui);color:var(--ink2);margin:3px 0 0}
+.mwr .arr{min-height:36px;margin-top:2px}
+.mwr .mwk{display:inline-flex;gap:5px;padding-top:5px;--kibg:var(--bg)}
+.mwmore{margin:10px 0 0;min-height:40px;padding:0 14px;border:1px solid var(--rule);font:500 12.5px/1 var(--ui);color:var(--ink2)}
+.mwmore:active{background:var(--surface2)}
 .take.how{font:italic 400 15px/1.42 var(--display);color:var(--ink2);margin:-4px 0 14px;text-wrap:balance}
 .mockbtn{position:fixed;right:max(10px,env(safe-area-inset-right,0px));bottom:calc(84px + env(safe-area-inset-bottom,0px));z-index:14;min-height:44px;padding:0 10px;background:var(--bg);border:1px dashed var(--ink3);font:500 11.5px/1 var(--ui);color:var(--ink2)}
 .places .frame .f1{stroke-width:.9;opacity:.75}
@@ -997,9 +1005,10 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   <section class="layer" id="meanwhile">
     <div class="sep" aria-hidden="true"><i></i></div>
     <h2>Meanwhile</h2>
-    <p class="take how">What else the atlas holds within two years of the treaty, and whether it draws a line between them.</p>
+    <p class="take how">What else was happening within two years of the treaty: six events from the atlas, drawn at random.</p>
     <div class="mw" id="mw"></div>
-    <p class="mwnote">Mock data: the pilot holds few events for these years, so the list is short.</p>
+    <button type="button" class="mwmore" id="mwMore">Show six others</button>
+    <p class="mwnote">Mock data: drawn from the 19 events the old atlas data holds for 1917 to 1921.</p>
   </section>
 
   <aside class="about" aria-label="About this mock">
@@ -1555,11 +1564,18 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 
   /* ---------- meanwhile ---------- */
   (function(){ var LANE={ea:'East Asia',as:'East Asia',na:'North America',eu:'Europe',me:'Middle East',sa:'South Asia',se:'Southeast Asia',af:'Africa',la:'Latin America',oc:'Oceania'};
-    var rows=A.events.filter(function(e){ return e.id!==HOME&&Math.abs(e.y-E[HOME].y)<=2; }).sort(function(a,b){return a.y-b.y}), el=document.getElementById('mw'); if(!el)return;
-    el.innerHTML=rows.map(function(e){ var l=A.links.filter(function(x){ return (x.f===e.id&&x.t===HOME)||(x.t===e.id&&x.f===HOME); })[0];
-      return '<div class="mwr"><span class="y">'+e.y+'</span><div><button type="button" class="t" data-mw="'+e.id+'">'+esc(name(e.id))+'</button><div class="lane">'+esc(LANE[e.r]||'')+'</div>'
-        +(l?'<button type="button" class="arr" data-mwl="'+l.id+'"><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span>'+(l.f===HOME?'The treaty led to it':'It led to the treaty')+': <b>'+esc(l.grade)+'</b></span>'+CHEV.replace('<svg','<svg style="width:7px;height:12px;color:var(--ink3)"')+'</button>':'<div class="arr no">No line to the treaty. The atlas treats the timing as a coincidence.</div>')+'</div></div>'; }).join('')||'<p class="mwnote">The atlas holds no other event for these years yet.</p>';
-    el.addEventListener('click',function(ev){ var a=ev.target.closest('[data-mwl]'); if(a){ note(a.dataset.mwl); return; } var t=ev.target.closest('[data-mw]'); if(t)say('Would open the preview: '+name(t.dataset.mw)); }); })();
+    var pool=(window.ATLAS_MEANWHILE||[]).slice(), el=document.getElementById('mw'), more=document.getElementById('mwMore'); if(!el)return;
+    /* six at most, drawn at random from the pool, then set in date order */
+    function draw(){ var p=pool.slice(), i, j, t; for(i=p.length-1;i>0;i--){ j=Math.floor(Math.random()*(i+1)); t=p[i]; p[i]=p[j]; p[j]=t; }
+      var rows=p.slice(0,6).sort(function(a,b){ return a.y-b.y; });
+      el.innerHTML=rows.map(function(e){ var l=A.links.filter(function(x){ return (x.f===e.id&&x.t===HOME)||(x.t===e.id&&x.f===HOME); })[0];
+        return '<div class="mwr"><span class="y">'+e.y+'</span><div class="mwb"><button type="button" class="t" data-mw="'+esc(tc(e.h))+'">'+esc(tc(e.h))+'</button>'
+          +'<div class="lane">'+esc(e.w||LANE[e.r]||'')+'</div>'
+          +(l?'<button type="button" class="arr" data-mwl="'+l.id+'"><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span>'+(l.f===HOME?'The treaty led to it':'It led to the treaty')+': <b>'+esc(l.grade)+'</b></span>'+CHEV.replace('<svg','<svg style="width:7px;height:12px;color:var(--ink3)"')+'</button>':'')
+          +'</div><span class="mwk">'+(e.c||[]).slice(0,2).map(kicon).join('')+'</span></div>'; }).join('')||'<p class="mwnote">The atlas holds no other event for these years yet.</p>';
+      if(more)more.hidden=pool.length<=6; }
+    draw(); if(more)more.addEventListener('click',draw);
+    el.addEventListener('click',function(ev){ var a=ev.target.closest('[data-mwl]'); if(a){ note(a.dataset.mwl); return; } var t=ev.target.closest('[data-mw]'); if(t)say('Would open the preview: '+t.dataset.mw); }); })();
 
   /* ---------- the picture: three placements on trial, and the fade as it leaves ---------- */
   (function(){ var pic=document.getElementById('pic'), capEl=document.getElementById('piccap'), thumb=document.getElementById('pthumb'), mainEl=document.getElementById('mainEl'), b=document.getElementById('picBtn'), V=[['pic-a','A plate'],['pic-b','B edge to edge'],['pic-c','C inset'],['pic-0','none']], vi=2, pq=false;
