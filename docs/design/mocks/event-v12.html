@@ -745,6 +745,11 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .dock .youare{margin:0}
 .sheet.gilded{padding:0;overflow:hidden;display:flex;flex-direction:column;border:0!important;border-radius:0;box-shadow:none;-webkit-mask:radial-gradient(circle at 0 0,transparent 11px,#000 11.6px) 0 0/51% 51% no-repeat,radial-gradient(circle at 100% 0,transparent 11px,#000 11.6px) 100% 0/51% 51% no-repeat,radial-gradient(circle at 0 100%,transparent 11px,#000 11.6px) 0 100%/51% 51% no-repeat,radial-gradient(circle at 100% 100%,transparent 11px,#000 11.6px) 100% 100%/51% 51% no-repeat;mask:radial-gradient(circle at 0 0,transparent 11px,#000 11.6px) 0 0/51% 51% no-repeat,radial-gradient(circle at 100% 0,transparent 11px,#000 11.6px) 100% 0/51% 51% no-repeat,radial-gradient(circle at 0 100%,transparent 11px,#000 11.6px) 0 100%/51% 51% no-repeat,radial-gradient(circle at 100% 100%,transparent 11px,#000 11.6px) 100% 100%/51% 51% no-repeat}
 .sheet.gilded .sbody{padding:18px 19px 14px;overflow-y:auto;overscroll-behavior:contain;min-height:0}
+.sheet.gilded > .acts{flex:none;display:grid;grid-auto-flow:column;grid-auto-columns:minmax(0,1fr);gap:9px;margin:0!important;padding:11px 19px 18px;border-top:1px solid var(--rule);background:var(--surface)}
+.sheet.gilded > .acts > button{justify-content:center;min-height:44px;padding:0 10px;font:500 14px/1 var(--ui);letter-spacing:.01em}
+.sheet.gilded > .acts .close{border:1px solid var(--rule);color:var(--ink2)}
+.sheet.gilded > .acts .close:active,.sheet.gilded > .acts .sec:active{background:var(--surface2)}
+.sheet.gilded .sbody{padding-bottom:16px}
 .sheet.gilded .lrows{border:0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);background:none}
 .sheet.gilded .lrow{padding-left:2px;padding-right:2px}
 
@@ -1426,7 +1431,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   function openSheet(html,label,cls){ if(!sheetHost.firstChild)lastFocus=document.activeElement;
     var own=cls&&/places|big/.test(cls);
     sheetHost.innerHTML='<div class="scrim" data-close></div><div class="sheet'+(cls?' '+cls:'')+(own?'':' gilded')+'" role="dialog" aria-modal="true" aria-label="'+esc(label)+'">'+(own?html:'<div class="sbody">'+html+'</div>')+'</div>';
-    if(!own)frameOn(sheetHost.querySelector('.sheet'),false);
+    if(!own){ var sh=sheetHost.querySelector('.sheet'), ac=sh.querySelector('.sbody > .acts:last-child'); if(ac)sh.appendChild(ac); frameOn(sh,false); }
     var c=sheetHost.querySelector('.sheet button'); if(c)c.focus({preventScroll:true}); }
   function closeSheet(){ sheetHost.innerHTML=''; big=null; if(lastFocus&&lastFocus.focus&&document.contains(lastFocus))lastFocus.focus({preventScroll:true}); }
   sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]')){closeSheet();return;} var jp=e.target.closest('[data-jump]'); if(jp){ var g=jp.dataset.jump; closeSheet(); if(N[g]&&!N[g].gone){ select(g); reveal(g); toCol(G.step[g],true); } else { recentre(g); select(g); say('Centred on '+name(g)); } return; } var r=e.target.closest('[data-note]'); if(r){note(r.dataset.note,r.dataset.back);return;} var b=e.target.closest('[data-pathback]'); if(b){pathSheet(b.dataset.pathback);return;} var sy=e.target.closest('[data-say]'); if(sy){say(sy.dataset.say);return;} var pl=e.target.closest('[data-place]'); if(pl){ var pi=+pl.dataset.place; closeSheet(); routed=true; follow(pi); var px2=places()[pi]; say('The page now follows '+px2.c+' › '+px2.s+' › '+px2.ch); return; } if(e.target.closest('[data-many]')){ many=!many; here=0; follow(0); placeSheet(); return; } if(e.target.closest('[data-route]')){ routed=!routed; here=0; follow(0); placeSheet(); } });

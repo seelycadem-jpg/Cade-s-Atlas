@@ -290,6 +290,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       the web does. "You are reading this event." is set in italics.
       Then (Cade, same day): in the note, the two event names in the title are links; a tap
       closes the note and moves the pop-up and the web to that event.
+      The buttons of every gilt sheet (the note, How it connects) now sit in a footer under a
+      rule, outside the scrolling text, as two equal squared buttons; on a long note they
+      had run into the bottom of the frame.
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width
