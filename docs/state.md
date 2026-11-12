@@ -397,8 +397,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   library globe in its meridian ring on a stand; a time rule carrying the diamond, the dot
   and the ring; a question mark in the notched cartouche. Cade asked for a variety to choose
   from: the chooser (`kind-icons.html`) now opens with five designs each for the globe,
-  the timeline and the quiz, above the eight kinds, which start on his picks. Awaiting
-  his three choices; the event mock carries the first design of each until then. For the
+  the timeline and the quiz, above the eight kinds, which start on his picks. After two
+  more rounds (an old-map set, then ten designs a row with varieties of the globe) he
+  DECIDED (2026-11-12): the globe is the library globe carrying the diamond, the dot and
+  the ring on its face; the timeline is the rule of years carrying the same three marks;
+  the quiz is a question mark in a diamond. All drawn Fine, in gilt, like the eight kind
+  signs, which he confirmed unchanged. The event mock carries all three. For the
   master chat: it adds a block after the last section of every event page; the globe and
   timeline links take over part of the job of the bottom bar this mock dropped; and the
   quiz is deferred in CLAUDE.md until the link and arrow-note work ships, so the button is
