@@ -482,6 +482,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 - Pop-ups from the chain open about a tenth of the screen above the bottom edge (Cade,
   2026-11-12), where they had sat on it.
 
+- **The chain's scroll ruler moved under the chart** (Cade, 2026-11-12; on trial) and is drawn
+  as a map's scale bar: a checkered bar with one segment a step, the red diamond at this
+  event, a gilt bracket over the part in view, the "N more" arrows at each end and the
+  caption "steps from this event". The top of the chart now holds only the control bar
+  and the column headings.
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock

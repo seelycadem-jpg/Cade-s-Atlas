@@ -988,6 +988,20 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 /* small text links keep their look and gain a finger-sized target */
 .hsub button,.recidx button,.dock .dmore,.dock .dall,.recexits a,.bamnew button{position:relative}
 .hsub button::after,.recidx button::after,.dock .dmore::after,.dock .dall::after,.recexits a::after,.bamnew button::after{content:"";position:absolute;left:-4px;right:-4px;top:50%;height:44px;transform:translateY(-50%)}
+
+/* The scroll ruler sits under the chart and is drawn as a map's scale bar (Cade, 2026-11-12): a checkered bar, one
+   segment for each step, the red diamond at this event, a gilt bracket over the part in view, and a caption. */
+.ruler.foot{position:relative;margin-top:6px;padding:10px 8px 22px!important;border-top:1px solid var(--rule)}
+.ruler.foot::after{content:"steps from this event";position:absolute;left:0;right:0;bottom:6px;text-align:center;font:italic 400 12px/1 var(--display);color:var(--ink3);pointer-events:none}
+.ruler.foot .mini::before{display:none}
+.ruler.foot .mini .cell::before{content:"";position:absolute;left:0;right:0;top:50%;height:6px;margin-top:-3px;border:1px solid var(--ink3);border-left-width:0;box-sizing:border-box}
+.ruler.foot .mini .cell:first-of-type::before{border-left-width:1px}
+.ruler.foot .mini .cell.sh::before{background:var(--ink3)}
+.ruler.foot .mini .cell i{display:none}
+.ruler.foot .mini .cell.c0 i{display:block;position:relative;z-index:2;width:9px;height:9px;background:var(--accent);transform:rotate(45deg);box-shadow:0 0 0 2px var(--chain)}
+.ruler.foot .mini .cell em{top:calc(50% + 9px)}
+.ruler.foot .mini .win{top:50%;height:16px;margin-top:-8px;background:transparent;border:1px solid var(--gilt);box-shadow:0 0 0 .5px var(--gilt);z-index:3}
+.ruler.foot .rarrow b{font-size:15px}
 </style>
 
 <div class="stage" id="stage">
@@ -1051,13 +1065,13 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     </div>
 
     <div class="web" id="web">
-      <div class="ruler">
+      <div class="wscroll" id="wscroll" tabindex="0" aria-label="The chain web. It slides sideways."><div class="wcanvas" id="wcanvas"><svg id="edges" aria-hidden="true"></svg><div id="heads"></div><div id="nodes"></div></div></div>
+      <div class="trail" id="trail" hidden></div>
+      <div class="ruler foot">
         <button type="button" class="rarrow l" id="goL" aria-label="Slide toward the causes"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg><span><b id="nL"></b><i>more</i></span></button>
         <div class="mini" id="mini" aria-label="The whole web. Drag, or tap a step, to slide there."></div>
         <button type="button" class="rarrow r" id="goR" aria-label="Slide toward the effects"><span><b id="nR"></b><i>more</i></span><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button>
       </div>
-      <div class="wscroll" id="wscroll" tabindex="0" aria-label="The chain web. It slides sideways."><div class="wcanvas" id="wcanvas"><svg id="edges" aria-hidden="true"></svg><div id="heads"></div><div id="nodes"></div></div></div>
-      <div class="trail" id="trail" hidden></div>
       <div class="webpad"></div>
     </div>
 
@@ -1453,7 +1467,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     /* counts, the small map, the way home, and the controls' own state */
     var m='<span class="win" id="win"></span>';
     for(s=G.minS;s<=G.maxS;s++) m+='<span class="cell'+(s===0?' c0':'')+'"><i></i>'+(s===0?'':'<em>'+Math.abs(s)+'</em>')+'</span>';
-    mini.innerHTML=m;
+    mini.innerHTML=m; (function(){ var cs=[].slice.call(mini.querySelectorAll('.cell')), c0=-1; cs.forEach(function(c,i){ if(c.classList.contains('c0'))c0=i; }); cs.forEach(function(c,i){ c.classList.toggle('sh',c0>=0&&Math.abs(i-c0)%2===1); }); })();
     if(centre!==HOME){ trail.hidden=false; trail.innerHTML='<span>Centred on <b>'+esc(name(centre))+'</b>, '+esc(when(centre))+'</span><button type="button" id="homeBtn">Back to '+esc(name(HOME))+'</button>'; document.getElementById('homeBtn').addEventListener('click',function(){ recentre(HOME); }); }
     else { trail.hidden=true; trail.innerHTML=''; }
     bar(); sync(); if(typeof secTops==='function')setTimeout(secTops,80);
