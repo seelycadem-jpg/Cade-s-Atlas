@@ -432,7 +432,13 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   scroll step, and the 140-action tap test passes (84 checks, none failed). Likely cause:
   the artifact page was left open through many republishes and held parts of two versions.
   A start-up guard now reloads the page once if the script finds it has already run or
-  finds two elements with one id. Unproven until he reloads and tries again. Other faults
+  finds two elements with one id. Unproven until he reloads and tries again. He reloaded and
+  still saw it, now at rest: a second copy of the bar in a strip about 18px tall directly
+  under the real one. That is the size and place of the bar's fade strip (a pseudo-element
+  with an opacity transition), so the strip is the suspect: the fade strips above and below
+  the bar are removed and the bar tucks 8px under the tabs to close the gap. Still not
+  reproduced in the test browser (Chromium), light or dark, phone, tablet or desktop width;
+  his browser and zoom are not yet known. Other faults
   fixed in the same review: chain cards painting over the pinned bars (the web is now its
   own layer), a sliver of cards showing between the tabs and a pinned bar, and long words
   split in card titles.
