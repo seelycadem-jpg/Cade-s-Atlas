@@ -389,6 +389,14 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   Record's text and organisation to be rewritten; the headings stay the fixed set unless
   the master chat rules otherwise.
 
+- **Where next** (Cade, 2026-11-12; on trial). A closing block under Meanwhile with three
+  ways on: a random chronicle, story or event; the globe and the timeline at the event's
+  year; and "Have you taken today's quiz?", the one gilt-framed item with the one red
+  button. It is navigation, carries no h2 and sits outside the page's sections. For the
+  master chat: it adds a block after the last section of every event page; the globe and
+  timeline links take over part of the job of the bottom bar this mock dropped; and the
+  quiz is deferred in CLAUDE.md until the link and arrow-note work ships, so the button is
+  a placeholder for the daily game.
 - **Meanwhile, third pass** (Cade, 2026-11-12; on trial; replaces the row list below, which he
   found busy). Six entries in two columns with no rules and no underlines. Each is a
   dateline: the size mark and year with the kind signs at the right, the name, the place.
