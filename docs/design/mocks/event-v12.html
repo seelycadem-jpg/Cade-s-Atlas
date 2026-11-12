@@ -1665,7 +1665,7 @@ h2{font-size:27px}
   [].forEach.call(cbar.querySelectorAll('[data-size]'),function(b){ b.addEventListener('click',function(){ var k=b.dataset.size; show[k]=!show[k]; change(); }); });
   /* the filter panel: small, and every choice is a switch. Kinds add up: Political and War shows events that are either. */
   function popFill(){ var ks=Object.keys(kinds);
-    var h='<div class="fp-top"><span class="fp-h">Kinds</span><span class="fp-note">'+(ks.length?ks.length+' on \u00b7 tap to add or remove':'all shown \u00b7 tap any to narrow')+'</span></div><div class="fp-kinds">'
+    var h='<div class="fp-top"><span class="fp-h">Event type</span><span class="fp-note">'+(ks.length?ks.length+' on \u00b7 tap to add or remove':'all shown \u00b7 tap any to narrow')+'</span></div><div class="fp-kinds">'
       +KINDS.map(function(kd){ var c=G.kc[kd]||0; return '<button type="button" data-kind="'+kd+'" aria-pressed="'+(!!kinds[kd])+'"'+(c?'':' disabled')+' aria-label="'+cap1(kd)+', '+(c||'no')+' events">'+kicon(kd)+'<span>'+cap1(kd)+'</span><i>'+(c||'\u2013')+'</i></button>'; }).join('')+'</div>'
       +'<div class="fp-line"><span class="fp-h">Side</span><div class="fp-seg" role="group" aria-label="Side">'+[[-1,'Causes'],[0,'Both'],[1,'Effects']].map(function(o){ return '<button type="button" data-side="'+o[0]+'" aria-pressed="'+(side===o[0])+'">'+o[1]+'</button>'; }).join('')+'</div></div>'
       +'<button type="button" class="fp-row" data-bb aria-pressed="'+bbOnly+'"><i class="gl" aria-hidden="true"></i><span><b>Backbone only</b><em>lines an event needed to happen</em></span><u aria-hidden="true"></u></button>'
