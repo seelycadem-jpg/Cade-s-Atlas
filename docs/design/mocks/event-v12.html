@@ -728,6 +728,8 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .dock .dgo .gl{width:16px}
 .dock .dgo svg{width:8px;height:14px;color:var(--ink3)}
 .dock .youare{font-style:italic}
+.sheet .jumph .jump{font:inherit;color:inherit;text-align:left;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:1px;text-underline-offset:4px}
+.sheet .jumph .jump:active{color:var(--accent)}
 .dock .dgo span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .dock .dgo em{font:normal 500 10.5px/1 var(--ui);color:var(--ink3);font-variant-numeric:tabular-nums}
 .dock .dgo.c span{color:var(--accent)}
@@ -1427,7 +1429,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     if(!own)frameOn(sheetHost.querySelector('.sheet'),false);
     var c=sheetHost.querySelector('.sheet button'); if(c)c.focus({preventScroll:true}); }
   function closeSheet(){ sheetHost.innerHTML=''; big=null; if(lastFocus&&lastFocus.focus&&document.contains(lastFocus))lastFocus.focus({preventScroll:true}); }
-  sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]')){closeSheet();return;} var r=e.target.closest('[data-note]'); if(r){note(r.dataset.note,r.dataset.back);return;} var b=e.target.closest('[data-pathback]'); if(b){pathSheet(b.dataset.pathback);return;} var sy=e.target.closest('[data-say]'); if(sy){say(sy.dataset.say);return;} var pl=e.target.closest('[data-place]'); if(pl){ var pi=+pl.dataset.place; closeSheet(); routed=true; follow(pi); var px2=places()[pi]; say('The page now follows '+px2.c+' › '+px2.s+' › '+px2.ch); return; } if(e.target.closest('[data-many]')){ many=!many; here=0; follow(0); placeSheet(); return; } if(e.target.closest('[data-route]')){ routed=!routed; here=0; follow(0); placeSheet(); } });
+  sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]')){closeSheet();return;} var jp=e.target.closest('[data-jump]'); if(jp){ var g=jp.dataset.jump; closeSheet(); if(N[g]&&!N[g].gone){ select(g); reveal(g); toCol(G.step[g],true); } else { recentre(g); select(g); say('Centred on '+name(g)); } return; } var r=e.target.closest('[data-note]'); if(r){note(r.dataset.note,r.dataset.back);return;} var b=e.target.closest('[data-pathback]'); if(b){pathSheet(b.dataset.pathback);return;} var sy=e.target.closest('[data-say]'); if(sy){say(sy.dataset.say);return;} var pl=e.target.closest('[data-place]'); if(pl){ var pi=+pl.dataset.place; closeSheet(); routed=true; follow(pi); var px2=places()[pi]; say('The page now follows '+px2.c+' › '+px2.s+' › '+px2.ch); return; } if(e.target.closest('[data-many]')){ many=!many; here=0; follow(0); placeSheet(); return; } if(e.target.closest('[data-route]')){ routed=!routed; here=0; follow(0); placeSheet(); } });
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'){ if(sheetHost.firstChild)closeSheet(); else if(sel)select(null); } });
   function lrow(l,back,lead){ return '<button type="button" class="lrow" data-note="'+l.id+'"'+(back?' data-back="'+back+'"':'')+'><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span><span class="lt">'+(lead?esc(lead):esc(name(l.f))+' → '+esc(name(l.t)))+'</span><span class="lg">'+esc(gline(l))+'</span></span>'+CHEV+'</button>'; }
   function pathSheet(id){ var s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path);
@@ -1438,7 +1440,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     h+='<div class="acts" style="margin-top:10px"><button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,'How it connects'); }
   function note(lid,back){ var l=A.links.filter(function(x){return x.id===lid})[0]; if(!l)return;
-    var h='<div class="kind"><i class="gl '+gcls(l)+'" aria-hidden="true"></i>'+esc(gline(l))+'</div><h3>'+esc(name(l.f))+' → '+esc(name(l.t))+'</h3><p class="date">'+E[l.f].y+' → '+E[l.t].y+'</p>'
+    var h='<div class="kind"><i class="gl '+gcls(l)+'" aria-hidden="true"></i>'+esc(gline(l))+'</div><h3 class="jumph"><button type="button" class="jump" data-jump="'+l.f+'">'+esc(name(l.f))+'</button> <span aria-hidden="true">→</span> <button type="button" class="jump" data-jump="'+l.t+'">'+esc(name(l.t))+'</button></h3><p class="date">'+E[l.f].y+' → '+E[l.t].y+'</p>'
       +'<p class="plain">'+esc(PLAIN[l.grade])+'</p><h4>The claim</h4><p>'+esc(l.claim)+'</p><h4>The strongest objection</h4><p>'+esc(l.objection)+'</p>'+(l.verdict?'<h4>The verdict</h4><p>'+esc(l.verdict)+'</p>':'')
       +'<div class="acts">'+(back?'<button type="button" class="sec" data-pathback="'+back+'">Back to the path</button>':'')+'<button type="button" class="close" data-close>Close</button></div>';
     openSheet(h,'The note on this line'); }
