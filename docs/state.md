@@ -374,9 +374,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   and opens in place. One piece is open at a time; the open one's heading turns red and its
   rule gilt. A small index row above the list names the pieces and jumps to one; it stays
   pinned under the main tabs while the reader is inside The Record, as the chain's bar does
-  (Cade, same day); it hides
+  (Cade, same day), marks the piece the reader has reached and slides sideways to keep
+  that name in view; it hides
   when an event has three pieces or fewer. The list is as long as the event supports
-  (event-pages.md already leaves the optional sections to the writer). Cade expects the
+  (event-pages.md already leaves the optional sections to the writer). The Wikipedia and
+  Britannica exits sit at the foot of The Record (Cade), moved from under Meanwhile. Cade expects the
   Record's text and organisation to be rewritten; the headings stay the fixed set unless
   the master chat rules otherwise.
 

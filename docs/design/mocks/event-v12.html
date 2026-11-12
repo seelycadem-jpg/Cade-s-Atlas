@@ -845,6 +845,9 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
    that jumps to a piece. The index row hides when the event has three pieces or fewer. */
 .recidx{display:flex;gap:0;margin:2px calc(-1 * max(16px,env(safe-area-inset-left,0px))) 6px;padding:0 max(16px,env(safe-area-inset-left,0px));overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--rule)}
 .recidx::-webkit-scrollbar{display:none}
+.recexits{align-items:center;gap:6px 16px;margin:14px 0 0}
+.recexits span{font:500 10.5px/1 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3)}
+.recexits a{text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:1px;text-underline-offset:4px;color:var(--ink)}
 .recidx{position:sticky;top:calc(86px + var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:6;background:var(--bg)}
 .recidx button{flex:none;min-height:40px;padding:0 11px;font:500 11px/1 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3);white-space:nowrap;box-shadow:inset 0 -2px 0 transparent;transition:color .2s,box-shadow .2s}
 .recidx button:first-child{padding-left:0}
@@ -985,6 +988,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
         <div class="b"><p>On 11 April 1919 Japan's proposal to write racial equality into the League Covenant won 11 of the 17 votes in commission. Wilson, in the chair, ruled that it needed unanimity, and the clause died.</p></div>
       </details>
     </div>
+    <div class="exits recexits"><span>Read more elsewhere</span><a href="https://en.wikipedia.org/wiki/Treaty_of_Versailles">Wikipedia</a><a href="https://www.britannica.com/event/Treaty-of-Versailles-1919">Britannica</a></div>
   </section>
 
   <section class="layer" id="meanwhile">
@@ -993,7 +997,6 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     <p class="take how">What else the atlas holds within two years of the treaty, and whether it draws a line between them.</p>
     <div class="mw" id="mw"></div>
     <p class="mwnote">Mock data: the pilot holds few events for these years, so the list is short.</p>
-      <div class="exits"><a href="https://en.wikipedia.org/wiki/Treaty_of_Versailles">Wikipedia</a><a href="https://www.britannica.com/event/Treaty-of-Versailles-1919">Britannica</a></div>
   </section>
 
   <aside class="about" aria-label="About this mock">
@@ -1638,12 +1641,17 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   /* ---------- The Record: an index row, and one piece open at a time ---------- */
   (function(){ var rec=document.getElementById('rec'), idx=document.getElementById('recIdx'); if(!rec||!idx)return;
     var ds=[].slice.call(rec.querySelectorAll('details')), calm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
-    function mark(){ [].forEach.call(idx.children,function(b,i){ b.setAttribute('aria-current',ds[i].open?'true':'false'); }); var on=idx.querySelector('[aria-current="true"]'); if(on&&on.scrollIntoView)on.scrollIntoView({block:'nearest',inline:'center',behavior:calm?'auto':'smooth'}); }
+    var cur=-1;
+    function at(){ var k=-1; ds.forEach(function(d,i){ if(d.getBoundingClientRect().top<=215)k=i; }); return k; }
+    function mark(){ var k=at(), open=-1; ds.forEach(function(d,i){ if(d.open)open=i; }); if(k<0)k=open; if(k===cur)return; cur=k;
+      [].forEach.call(idx.children,function(b,i){ b.setAttribute('aria-current',i===k?'true':'false'); });
+      var on=idx.children[k]; if(on){ var left=on.offsetLeft-(idx.clientWidth-on.offsetWidth)/2; idx.scrollTo({left:Math.max(0,left),behavior:calm?'auto':'smooth'}); } }
+    var tick=false; window.addEventListener('scroll',function(){ if(tick)return; tick=true; requestAnimationFrame(function(){ tick=false; mark(); }); },{passive:true});
     function show(d){ var top=d.getBoundingClientRect().top; if(top<192||top>window.innerHeight*0.6)window.scrollBy({top:top-192,behavior:calm?'auto':'smooth'}); }
     ds.forEach(function(d,i){
       var h=d.querySelector('summary .h').textContent, b=document.createElement('button'); b.type='button'; b.textContent=h.split(',')[0]; b.setAttribute('aria-current','false');
       b.addEventListener('click',function(){ if(!d.open){ d.open=true; } else show(d); }); idx.appendChild(b);
-      d.addEventListener('toggle',function(){ if(d.open){ ds.forEach(function(o){ if(o!==d&&o.open)o.open=false; }); requestAnimationFrame(function(){ show(d); }); } mark(); });
+      d.addEventListener('toggle',function(){ if(d.open){ ds.forEach(function(o){ if(o!==d&&o.open)o.open=false; }); requestAnimationFrame(function(){ show(d); }); } cur=-2; mark(); });
     });
     idx.hidden=ds.length<=3; })();
   document.getElementById('mockTog').addEventListener('click',function(){ var o=root.classList.toggle('mockopen'); this.setAttribute('aria-expanded',String(o)); this.textContent=o?'Hide':'Mock'; });
