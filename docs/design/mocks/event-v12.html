@@ -1039,6 +1039,19 @@ body{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px
 .chainbox .cb-rec svg{width:17px;height:17px}
 .chainbox .cbar .cb-sizes .cb-cell[aria-pressed="true"],.chainbox .cbar .cb-sizes .cb-cell+.cb-cell[aria-pressed="true"],.chainbox .cbar .cb-filter.on{box-shadow:inset 0 -1px 0 var(--gilt)}
 .chainbox .cbar .cb-sizes,.chainbox .cbar .cb-filter,.chainbox .cbar .cb-rec{background-size:1px 14px}
+/* The scale bar under the chart, thinner and sharper to match (Cade, 2026-11-12). */
+.ruler.foot{padding:5px 8px 17px!important;margin-top:4px}
+.ruler.foot::after{bottom:5px;font-size:11px}
+.chainbox .ruler.foot .mini,.chainbox .ruler.foot .mini .cell{height:30px;min-height:30px}
+.ruler.foot .mini .cell::before{height:4px;margin-top:-2px}
+.ruler.foot .mini .cell.c0 i{width:7px;height:7px}
+.ruler.foot .mini .cell em{top:calc(50% + 6px);font-size:8px}
+.ruler.foot .mini .win{height:12px;margin-top:-6px;box-shadow:none}
+.chainbox .ruler.foot .rarrow{min-height:32px;min-width:48px;position:relative}
+.chainbox .ruler.foot .rarrow::after{content:"";position:absolute;left:0;right:0;top:50%;height:44px;transform:translateY(-50%)}
+.ruler.foot .rarrow b{font-size:12.5px}
+.ruler.foot .rarrow i{font-size:8px;letter-spacing:.09em}
+.ruler.foot .rarrow svg{width:11px;height:11px}
 /* On trial (Cade, 2026-11-12): no fade under the docked tabs; the hairline under them stays when they dock. */
 .pageindex::after{display:none!important}
 .pageindex.stuck::before{opacity:1!important}
