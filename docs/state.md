@@ -445,6 +445,24 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   own layer), a sliver of cards showing between the tabs and a pinned bar, and long words
   split in card titles.
 
+- **Blind review** (2026-11-12). A fresh reviewer with none of this chat's context rated the
+  event mock on a phone, light and dark, and at desktop width: 6.5 of 10 overall
+  (consistency 8; first impression, flow and reading comfort 7; clarity, pop-ups and touch
+  controls 6; the chain diagram and desktop width 5). Cade's ruling: fix problems 1, 2 and 5
+  now; 3 (the verdict text reads as internal notes) and 4 (the opening line squeezed beside
+  the picture, and repeated by the Overview) go to the rewrite. Fixed: (1) every change to
+  Steps, the sizes or the filter now says how many events match and how many wait off
+  screen on each side, and the arrow on that side beats; (2) the key names the three kinds
+  of line; (5) the pop-up takes half the screen at most with its text scrolling inside,
+  hides while a sheet is open, and on a wide screen stands to the right with the page left
+  still. Not yet fixed, from the same review: "1 more" paints over a faded card; one card
+  title is still cut ("The Depression Reaches..."); the filter panel hangs over the next
+  section after a filter shrinks the web; tapping the large globe does nothing; Escape does
+  not close the filter; the Danzig label is crossed by the highlight; the 1914 map names
+  "Russia (Soviet Union)"; several text links are under 44px; desktop is a phone column in
+  empty space; and the path line's site words (chronicle, story 8 of 12, knot) meet a
+  newcomer before the subject.
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock

@@ -959,6 +959,24 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .ongo button:active{background:none}
 .ongo button:active b{color:var(--accent)}
 .onquiz{margin-top:14px}
+
+/* After the blind review (2026-11-12). */
+.legend .lines{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:5px;padding-top:8px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink2)}
+.legend .lines span{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
+.legend .lines .gl{width:18px}
+#goL.beat,#goR.beat{animation:beat .5s ease 2}
+@keyframes beat{50%{transform:scale(1.35)}}
+@media (prefers-reduced-motion:reduce){ #goL.beat,#goR.beat{animation:none} }
+/* the pop-up: half the screen at most, its text scrolling inside; opened, two thirds */
+.dockin{max-height:min(50vh,430px)}
+.dockin .dbody{overflow-y:auto;overscroll-behavior:contain}
+.dockin.open{max-height:66vh}
+/* on a wide screen it stands to the right of the reading column and the page does not move */
+@media (min-width:1100px){
+  .dock{left:auto;right:max(16px,calc(50% - 660px));bottom:24px;width:340px;transform:translate(0,18px)}
+  .dock.in{transform:translate(0,0)}
+  .dockin{max-height:min(72vh,620px)}
+}
 </style>
 
 <div class="stage" id="stage">
@@ -1036,6 +1054,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       <span class="g"><i class="mk k"></i></span><span><b>Knot.</b> An event that changed the course of its world.</span>
       <span class="g"><i class="mk fi"></i></span><span><b>Fibre.</b> An event that changed the course of one people or region.</span>
       <span class="g"><i class="mk st"></i></span><span><b>Strand.</b> An event that changed the course of a city, an institution or a movement.</span>
+      <span class="lines"><span><i class="gl" aria-hidden="true"></i>Necessary or Sufficient</span><span><i class="gl contrib" aria-hidden="true"></i>Contributing: one cause of several</span><span><i class="gl contest" aria-hidden="true"></i>Contested</span></span>
     </div>
     </div>
   </section>
@@ -1513,9 +1532,18 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     var lab=kind?cap1(kind):bbOnly?'Backbone':side<0?'Causes':side>0?'Effects':'Filter', n=(kind?1:0)+(bbOnly?1:0)+(side?1:0);
     document.getElementById('fLbl').textContent=n>1?lab+' +'+(n-1):lab; fBtn.classList.toggle('on',n>0);
     if(!fpop.hidden)popFill(); }
-  function change(){ layout('filter'); dock(); }
-  document.getElementById('stDn').addEventListener('click',function(){ if(steps>1){ steps--; layout('steps'); dock(); } });
-  document.getElementById('stUp').addEventListener('click',function(){ if(steps<5){ steps++; layout('steps'); dock(); } });
+  /* A control must show its result. New cards often land off screen, so each change says how many events now match and
+     on which side they wait, and the arrow on that side beats once. */
+  function tell(){ if(!G)return; sync(); var tot=0; Object.keys(N).forEach(function(id){ var n=N[id]; if(!n.gone&&!n.chip&&id!==centre)tot++; });
+    var l=+document.getElementById('nL').textContent||0, r=+document.getElementById('nR').textContent||0;
+    var m=tot+(tot===1?' event':' events')+' within '+steps+(steps===1?' step':' steps');
+    if(!tot)m='No event matches. Turn a size back on or clear the filter.';
+    else if(l||r)m+=': '+(l?l+' off screen to the left':'')+(l&&r?', ':'')+(r?r+' to the right':'')+'.';
+    else m+=', all in view.';
+    say(m); [['goL',l],['goR',r]].forEach(function(q){ var b=document.getElementById(q[0]); b.classList.remove('beat'); if(q[1]){ void b.offsetWidth; b.classList.add('beat'); } }); }
+  function change(){ layout('filter'); dock(); setTimeout(tell,60); }
+  document.getElementById('stDn').addEventListener('click',function(){ if(steps>1){ steps--; layout('steps'); dock(); setTimeout(tell,60); } });
+  document.getElementById('stUp').addEventListener('click',function(){ if(steps<5){ steps++; layout('steps'); dock(); setTimeout(tell,60); } });
   [].forEach.call(cbar.querySelectorAll('[data-size]'),function(b){ b.addEventListener('click',function(){ var k=b.dataset.size; show[k]=!show[k]; change(); }); });
   function popFill(){ var h='<p class="fp-h">Side</p><div class="fp-seg" role="group" aria-label="Side">'+[[-1,'Causes'],[0,'Both'],[1,'Effects']].map(function(o){ return '<button type="button" data-side="'+o[0]+'" aria-pressed="'+(side===o[0])+'">'+o[1]+'</button>'; }).join('')+'</div>'
       +'<p class="fp-h">Kind of event</p><div class="fp-kinds"><button type="button" data-kind="" aria-pressed="'+(!kind)+'">All kinds</button>'
@@ -1596,17 +1624,18 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     var ob=document.getElementById('openBtn'); if(ob)ob.addEventListener('click',function(){ say('Would open the page: '+name(id)); });
     var cb=document.getElementById('cenBtn'); if(cb)cb.addEventListener('click',function(){ recentre(id); });
     /* keep the event in hand clear of the card */
-    var nd=N[id]&&N[id].el; if(nd){ var over=nd.getBoundingClientRect().bottom-(window.innerHeight-18-dockEl.offsetHeight)+22; if(over>0)window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); }
+    var nd=N[id]&&N[id].el; if(nd){ var wide=window.innerWidth>=1100, over=wide?0:nd.getBoundingClientRect().bottom-(window.innerHeight-18-dockEl.offsetHeight)+14; if(over>0)window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); }
   }
 
   /* ---------- sheets: the path, then the note on one line ---------- */
   var sheetHost=document.getElementById('sheetHost'), lastFocus=null;
   function openSheet(html,label,cls){ if(!sheetHost.firstChild)lastFocus=document.activeElement;
     var own=cls&&/places|big/.test(cls);
+    dockHost.style.visibility='hidden';
     sheetHost.innerHTML='<div class="scrim" data-close></div><div class="sheet'+(cls?' '+cls:'')+(own?'':' gilded')+'" role="dialog" aria-modal="true" aria-label="'+esc(label)+'">'+(own?html:'<div class="sbody">'+html+'</div>')+'</div>';
     if(!own){ var sh=sheetHost.querySelector('.sheet'), ac=sh.querySelector('.sbody > .acts:last-child'); if(ac)sh.appendChild(ac); frameOn(sh,false); }
     var c=sheetHost.querySelector('.sheet button'); if(c)c.focus({preventScroll:true}); }
-  function closeSheet(){ sheetHost.innerHTML=''; big=null; if(lastFocus&&lastFocus.focus&&document.contains(lastFocus))lastFocus.focus({preventScroll:true}); }
+  function closeSheet(){ dockHost.style.visibility=''; sheetHost.innerHTML=''; big=null; if(lastFocus&&lastFocus.focus&&document.contains(lastFocus))lastFocus.focus({preventScroll:true}); }
   sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]')){closeSheet();return;} var jp=e.target.closest('[data-jump]'); if(jp){ var g=jp.dataset.jump; closeSheet(); if(N[g]&&!N[g].gone){ select(g); reveal(g); toCol(G.step[g],true); } else { recentre(g); select(g); say('Centred on '+name(g)); } return; } var r=e.target.closest('[data-note]'); if(r){note(r.dataset.note,r.dataset.back);return;} var b=e.target.closest('[data-pathback]'); if(b){pathSheet(b.dataset.pathback);return;} var sy=e.target.closest('[data-say]'); if(sy){say(sy.dataset.say);return;} var pl=e.target.closest('[data-place]'); if(pl){ var pi=+pl.dataset.place; closeSheet(); routed=true; follow(pi); var px2=places()[pi]; say('The page now follows '+px2.c+' › '+px2.s+' › '+px2.ch); return; } if(e.target.closest('[data-many]')){ many=!many; here=0; follow(0); placeSheet(); return; } if(e.target.closest('[data-route]')){ routed=!routed; here=0; follow(0); placeSheet(); } });
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'){ if(sheetHost.firstChild)closeSheet(); else if(sel)select(null); } });
   function lrow(l,back,lead){ return '<button type="button" class="lrow" data-note="'+l.id+'"'+(back?' data-back="'+back+'"':'')+'><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span><span class="lt">'+(lead?esc(lead):esc(name(l.f))+' → '+esc(name(l.t)))+'</span><span class="lg">'+esc(gline(l))+'</span></span>'+CHEV+'</button>'; }
