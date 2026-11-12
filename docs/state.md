@@ -282,7 +282,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       A second pass that drew the block as a small left-to-right flow (causes, a box for
       this event, effects, an arrow per line) was rejected by Cade the same day and rolled
       back to the two rows. He still finds cause and effect hard to see; what he wants
-      instead is not yet settled.
+      instead was this (Cade, with a phone screenshot, 2026-11-12): he likes the two rows;
+      each row needed an arrow at its right end that opens the note on that line (the
+      claim, the strongest objection, the verdict), because the way to that pane was hard
+      to find. Built: every "Caused by" and "Led to" row now ends in a chevron and opens
+      its note. A row no longer moves the pop-up to the other event; tapping that card in
+      the web does. "You are reading this event." is set in italics.
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width

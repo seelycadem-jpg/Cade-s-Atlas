@@ -724,8 +724,10 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .dock .drel{display:grid;grid-template-columns:68px minmax(0,1fr);gap:8px;padding:7px 0;border-bottom:1px solid var(--rule);align-items:start}
 .dock .drel .dl{padding-top:7px;font:500 10px/1.2 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3)}
 .dock .drel .dv{display:grid;gap:0;min-width:0}
-.dock .dgo{display:grid;grid-template-columns:16px minmax(0,1fr) auto;gap:8px;align-items:center;min-height:28px;text-align:left;font:500 15px/1.15 var(--display);color:var(--title)}
+.dock .dgo{display:grid;grid-template-columns:16px minmax(0,1fr) auto 8px;gap:8px;align-items:center;min-height:34px;text-align:left;font:500 15px/1.15 var(--display);color:var(--title)}
 .dock .dgo .gl{width:16px}
+.dock .dgo svg{width:8px;height:14px;color:var(--ink3)}
+.dock .youare{font-style:italic}
 .dock .dgo span{overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .dock .dgo em{font:normal 500 10.5px/1 var(--ui);color:var(--ink3);font-variant-numeric:tabular-nums}
 .dock .dgo.c span{color:var(--accent)}
@@ -1386,7 +1388,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     c.sort(function(a,b){ return E[a.f].y-E[b.f].y; }); e.sort(function(a,b){ return E[a.t].y-E[b.t].y; });
     function row(lab,arr,key,none){ var h='<div class="drel"><span class="dl">'+lab+'</span><span class="dv">';
       if(!arr.length) h+='<span class="dnone">'+none+'</span>';
-      else { h+=arr.slice(0,3).map(function(l){ var o=l[key]; return '<button type="button" class="dgo'+(o===centre?' c':'')+'" data-go="'+o+'"><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span>'+esc(name(o))+'</span><em>'+E[o].y+'</em></button>'; }).join('');
+      else { h+=arr.slice(0,3).map(function(l){ var o=l[key]; return '<button type="button" class="dgo'+(o===centre?' c':'')+'" data-ln="'+l.id+'" aria-label="'+esc(name(o))+', '+E[o].y+'. Read how the atlas argues this line."><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span>'+esc(name(o))+'</span><em>'+E[o].y+'</em>'+CHEV+'</button>'; }).join('');
         if(arr.length>3) h+='<button type="button" class="dall" data-all>'+(arr.length-3)+' more</button>'; }
       return h+'</span></div>'; }
     return '<div class="drels">'+row('Caused by',c,'f','No cause in the link table')+row('Led to',e,'t','No effect in the link table')+'</div>'; }
@@ -1408,7 +1410,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     document.getElementById('dockX').addEventListener('click',function(){ select(null); });
     var dl=document.getElementById('dLine'), dm=document.getElementById('dMore');
     if(dl.scrollHeight>dl.clientHeight+2){ dm.hidden=false; frameOn(inner,!fresh); dm.addEventListener('click',function(){ var o=inner.classList.toggle('open'); dm.setAttribute('aria-expanded',String(o)); dm.textContent=o?'Show less':'… more'; frameOn(inner,true); }); }
-    [].forEach.call(inner.querySelectorAll('[data-go]'),function(b){ b.addEventListener('click',function(){ var g=b.dataset.go; if(N[g]&&!N[g].gone){ select(g); reveal(g); toCol(G.step[g],true); } else { recentre(g); say('Centred on '+name(g)); } }); });
+    [].forEach.call(inner.querySelectorAll('[data-ln]'),function(b){ b.addEventListener('click',function(){ note(b.dataset.ln,id); }); });
     [].forEach.call(inner.querySelectorAll('[data-all]'),function(b){ b.addEventListener('click',function(){ pathSheet(id); }); });
     var pb=document.getElementById('pathBtn'); if(pb)pb.addEventListener('click',function(){ pathSheet(id); });
     var ob=document.getElementById('openBtn'); if(ob)ob.addEventListener('click',function(){ say('Would open the page: '+name(id)); });
