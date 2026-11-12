@@ -296,6 +296,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       The note's head, by Cade's direction: the title comes first, its arrow drawn in the
       line's grade (solid, dashed, dotted) as on the web; the grade, confidence and years
       sit in one line under it. Scrolled text stops short of the gilt line at the top.
+      The plain sentence under it names both events in place of "the first" and "the
+      second" (Cade): "The Russian Revolution was one cause of Hitler Takes Power among
+      several." It is generated from the grade, never hand-written.
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and
       the web rebuilt itself on every one, jumping back to the centre and resetting any
       turned column, so events seemed to vanish. It now rebuilds only when the width
