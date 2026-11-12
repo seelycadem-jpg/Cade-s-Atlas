@@ -941,7 +941,10 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
    between hairlines, with no boxes; the quiz keeps the only frame and the only red. */
 .onrand{display:block;border:0;border-top:1px solid var(--ink3);padding:13px 0 12px;text-align:center}
 .onrand .onk{display:block;padding:0;border:0;font:500 10px/1.2 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
-.onrand .onr{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0;margin-top:6px}
+.onrand .onk::after{content:"";display:block;width:120px;height:1px;margin:8px auto 0;background:linear-gradient(90deg,transparent,var(--gilt) 30%,var(--gilt) 70%,transparent)}
+.onrand{border-top-color:transparent;background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--gilt) 70%,transparent) 20%,color-mix(in srgb,var(--gilt) 70%,transparent) 80%,transparent) top/100% 1px no-repeat}
+.ongo{border-bottom-color:transparent;background:linear-gradient(90deg,transparent,color-mix(in srgb,var(--gilt) 70%,transparent) 20%,color-mix(in srgb,var(--gilt) 70%,transparent) 80%,transparent) bottom/100% 1px no-repeat}
+.onrand .onr{display:flex;flex-wrap:wrap;justify-content:center;align-items:center;gap:0;margin-top:5px}
 .onrand button{min-height:40px;padding:0 2px;font:500 17px/1.1 var(--display);color:var(--title);text-align:center;box-shadow:none!important}
 .onrand button+button::before{content:"";display:inline-block;width:5px;height:5px;margin:0 11px 3px 9px;border:1px solid var(--gilt);transform:rotate(45deg);vertical-align:middle}
 .onrand button:active{background:none;color:var(--accent)}
