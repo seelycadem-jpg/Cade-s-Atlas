@@ -1023,6 +1023,22 @@ body{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px
 .piscroll{margin:0 -20px;padding:0 20px;scroll-padding:0 20px}
 .chainbox{margin-left:-20px;margin-right:-20px}
 .recidx{margin-left:calc(-1 * max(20px,env(safe-area-inset-left,0px)));margin-right:calc(-1 * max(20px,env(safe-area-inset-left,0px)));padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-left,0px))}
+/* The chain's bar, thinner and sharper (Cade, 2026-11-12): a shorter row, smaller marks and labels, hairline gilt
+   under what is switched on. Each cell keeps a 44px finger target through an invisible pad. */
+.chainbox .cb-steps button,.chainbox .cb-cell{min-height:36px;position:relative}
+.chainbox .cb-steps button::after,.chainbox .cb-cell::after{content:"";position:absolute;left:0;right:0;top:50%;height:44px;transform:translateY(-50%)}
+.chainbox .cb-steps{grid-template-columns:28px 34px 28px}
+.chainbox .cb-steps button{font:400 16px/1 var(--ui)}
+.chainbox .cb-steps .n{gap:3px}
+.chainbox .cb-steps .n b{font:600 14px/1 var(--ui)}
+.chainbox .cb-steps .n i,.chainbox .cb-cell span{font-size:8.5px;letter-spacing:.09em}
+.chainbox .cb-cell{gap:4px}
+.chainbox .cb-cell .mk.k{width:9px;height:9px}
+.chainbox .cb-cell .mk.fi,.chainbox .cb-cell .mk.st{width:7px;height:7px}
+.chainbox .cb-filter svg{width:14px;height:12px}
+.chainbox .cb-rec svg{width:17px;height:17px}
+.chainbox .cbar .cb-sizes .cb-cell[aria-pressed="true"],.chainbox .cbar .cb-sizes .cb-cell+.cb-cell[aria-pressed="true"],.chainbox .cbar .cb-filter.on{box-shadow:inset 0 -1px 0 var(--gilt)}
+.chainbox .cbar .cb-sizes,.chainbox .cbar .cb-filter,.chainbox .cbar .cb-rec{background-size:1px 14px}
 /* On trial (Cade, 2026-11-12): no fade under the docked tabs; the hairline under them stays when they dock. */
 .pageindex::after{display:none!important}
 .pageindex.stuck::before{opacity:1!important}
