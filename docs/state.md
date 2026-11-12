@@ -463,6 +463,19 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   empty space; and the path line's site words (chronicle, story 8 of 12, knot) meet a
   newcomer before the subject.
 
+- **"Sufficient" is withdrawn as a grade** (Cade, restated 2026-11-12: "we got rid of
+  sufficient"). This chat holds no record of where that was decided, and the standards on
+  this branch and on main still list it: house-style.md (the grade list, the counterfactual
+  rule, the line styles), structure.md (the backbone, and the rule that drops an event a
+  size) and state.md. Six of the 36 pilot links are graded Sufficient. Done in the mock:
+  the key names the solid line "Necessary" only. NOT done, because it is data and rules:
+  the six links still show "Sufficient" in their pop-ups and notes, with the sentence "was
+  enough on its own to bring about". For the master chat: write the ruling into the
+  standards, say what each Sufficient link becomes (Necessary, Contributing, or regraded
+  one by one), and restate the backbone and the size rule without the word.
+- Pop-ups from the chain open about a tenth of the screen above the bottom edge (Cade,
+  2026-11-12), where they had sat on it.
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock

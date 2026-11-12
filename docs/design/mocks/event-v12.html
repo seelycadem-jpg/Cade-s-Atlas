@@ -960,6 +960,10 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .ongo button:active b{color:var(--accent)}
 .onquiz{margin-top:14px}
 
+/* Pop-ups from the chain stand clear of the bottom edge (Cade, 2026-11-12): about a tenth of the screen up. */
+.dock,.sheet.gilded{bottom:calc(max(64px,10vh) + env(safe-area-inset-bottom,0px))}
+.sheet.gilded{max-height:calc(100% - max(64px,10vh) - 110px)}
+@media (min-width:1100px){ .dock{bottom:max(64px,14vh)} }
 /* After the blind review (2026-11-12). */
 .legend .lines{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:5px;padding-top:8px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink2)}
 .legend .lines span{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
@@ -1054,7 +1058,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       <span class="g"><i class="mk k"></i></span><span><b>Knot.</b> An event that changed the course of its world.</span>
       <span class="g"><i class="mk fi"></i></span><span><b>Fibre.</b> An event that changed the course of one people or region.</span>
       <span class="g"><i class="mk st"></i></span><span><b>Strand.</b> An event that changed the course of a city, an institution or a movement.</span>
-      <span class="lines"><span><i class="gl" aria-hidden="true"></i>Necessary or Sufficient</span><span><i class="gl contrib" aria-hidden="true"></i>Contributing: one cause of several</span><span><i class="gl contest" aria-hidden="true"></i>Contested</span></span>
+      <span class="lines"><span><i class="gl" aria-hidden="true"></i>Necessary</span><span><i class="gl contrib" aria-hidden="true"></i>Contributing: one cause of several</span><span><i class="gl contest" aria-hidden="true"></i>Contested</span></span>
     </div>
     </div>
   </section>
@@ -1624,7 +1628,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     var ob=document.getElementById('openBtn'); if(ob)ob.addEventListener('click',function(){ say('Would open the page: '+name(id)); });
     var cb=document.getElementById('cenBtn'); if(cb)cb.addEventListener('click',function(){ recentre(id); });
     /* keep the event in hand clear of the card */
-    var nd=N[id]&&N[id].el; if(nd){ var wide=window.innerWidth>=1100, over=wide?0:nd.getBoundingClientRect().bottom-(window.innerHeight-18-dockEl.offsetHeight)+14; if(over>0)window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); }
+    var nd=N[id]&&N[id].el; if(nd){ var wide=window.innerWidth>=1100, over=wide?0:nd.getBoundingClientRect().bottom-(window.innerHeight-Math.max(64,window.innerHeight*0.1)-dockEl.offsetHeight)+14; if(over>0)window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); }
   }
 
   /* ---------- sheets: the path, then the note on one line ---------- */
