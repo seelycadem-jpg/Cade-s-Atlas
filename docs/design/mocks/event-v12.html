@@ -981,6 +981,13 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   .dock.in{transform:translate(0,0)}
   .dockin{max-height:min(72vh,620px)}
 }
+
+/* Six faults from the blind review (2026-11-12). */
+.wcanvas .nd[data-sliver="1"] .nt,.wcanvas .nd[data-sliver="1"] .nm > *{visibility:hidden}
+.wcanvas .nd:not(.chip) .nt.lg{font-size:13px;line-height:1.16}
+/* small text links keep their look and gain a finger-sized target */
+.hsub button,.recidx button,.dock .dmore,.dock .dall,.recexits a,.bamnew button{position:relative}
+.hsub button::after,.recidx button::after,.dock .dmore::after,.dock .dall::after,.recexits a::after,.bamnew button::after{content:"";position:absolute;left:-4px;right:-4px;top:50%;height:44px;transform:translateY(-50%)}
 </style>
 
 <div class="stage" id="stage">
@@ -1259,7 +1266,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   function onScroll(force){ var sc=Math.max(0,window.scrollY); if(reduced)sc=sc<120?0:9999; if(sc!==lastP||force){lastP=sc;apply(sc);} }
   window.addEventListener('scroll',function(){ if(scrollQueued)return; scrollQueued=true; requestAnimationFrame(function(){ scrollQueued=false; onScroll(false); }); },{passive:true});
   function pageLayout(){ W=window.innerWidth; H=window.innerHeight; GS=Math.min(W*1.12,540); measure(); draw(hero,GS); if(big)draw(big,Math.min(big.clientWidth,420)); onScroll(true); }
-  hero.addEventListener('click',function(){ if(small)openBig(); });
+  hero.addEventListener('click',function(){ openBig(); });
   document.getElementById('globeBtn').addEventListener('click',function(){ say('Would open the Political globe at 1919'); });
 
   /* ---------- the section tabs and their cartouche (from the story and event mocks) ---------- */
@@ -1358,7 +1365,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   /* a card has room for two; the kind being filtered for comes first */
   function kicons(id){ var t=(E[id].c||[]).slice(); if(kind&&t.indexOf(kind)>0){ t.splice(t.indexOf(kind),1); t.unshift(kind); } return t.slice(0,2).map(kicon).join(''); }
   function mkNode(id){ var el=document.createElement('button'); el.type='button'; el.dataset.id=id;
-    el.innerHTML='<span class="card" lang="en"><span class="nm"><i class="mk '+size(id)+'" aria-hidden="true"></i><span class="yr">'+esc(String(E[id].y))+'</span><span class="kd"></span></span><span class="nt'+(/\S{12,}/.test(name(id))?' lw':'')+'">'+esc(name(id))+'</span></span>';
+    el.innerHTML='<span class="card" lang="en"><span class="nm"><i class="mk '+size(id)+'" aria-hidden="true"></i><span class="yr">'+esc(String(E[id].y))+'</span><span class="kd"></span></span><span class="nt'+(/\S{12,}/.test(name(id))?' lw':name(id).length>=27?' lg':'')+'">'+esc(name(id))+'</span></span>';
     nodesLayer.appendChild(el); return {id:id,el:el,cur:{x:0,y:0,s:1,o:0,d:1,q:1},tg:{x:0,y:0,s:1,o:1,d:1,q:1},w:NW,h:60,chip:false,gone:false,fresh:true,drumK:null,drumI:0}; }
   function mkEdge(l){ var g=document.createElementNS(SVGNS,'g'); g.setAttribute('class','eg');
     var w=(backbone(l)?2.3:1.35)*(l.conf==='High'?1:l.conf==='Moderate'?0.84:0.66);
@@ -1371,7 +1378,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   function placeDrum(k){ var c=G.cols[k], f=drumF[k], top=G.yc-1.5*RH, dir=k<0?-1:1;
     c.forEach(function(id,i){ var n=N[id], rel=i-f, u=rel<0?-rel:Math.max(0,rel-2), cu=Math.min(u,1.5), edge=rel<0?top+RH*0.5:top+RH*2.5;
       n.tg.y=u>0?edge+(rel<0?-1:1)*RH*0.44*cu:top+(rel+0.5)*RH; n.tg.s=1-0.2*cu; n.tg.o=u<=0?1:u<=1?1-0.7*u:Math.max(0,0.3-(u-1)*0.6);
-      n.tg.x=baseX(n,k)-dir*6*cu; n.el.style.zIndex=u>0?'5':'12'; n.el.style.pointerEvents=u>0.4?'none':''; n.drumK=k; n.drumI=i; });
+      n.tg.x=baseX(n,k)-dir*6*cu; n.el.style.zIndex=u>0?'5':'12'; n.el.style.pointerEvents=u>0.4?'none':''; n.el.setAttribute('data-sliver',u>0.4?'1':'0'); n.drumK=k; n.drumI=i; });
     var above=Math.round(f), below=c.length-3-Math.round(f);
     [[-1,above],[1,below]].forEach(function(o){ var b=headsLayer.querySelector('[data-drum="'+k+'"][data-d="'+o[0]+'"]'); if(!b)return; b.hidden=o[1]<=0; b.lastChild.textContent=o[1]+' more'; }); }
   /* bring an event into its column's three rows */
@@ -1555,7 +1562,8 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       +'<p class="fp-h">Lines</p><button type="button" class="fp-row" data-bb aria-pressed="'+bbOnly+'"><i class="gl" aria-hidden="true"></i><span><b>Backbone only</b><em>Follow only the lines an event could not have happened without.</em></span></button>'
       +'<div class="fp-foot"><button type="button" data-clear>Clear filters</button><button type="button" data-done>Done</button></div>';
     fpop.innerHTML=h; }
-  function popOpen(o){ fpop.hidden=!o; fBtn.setAttribute('aria-expanded',String(o)); if(o){ popFill(); var b=fpop.querySelector('button'); if(b)b.focus({preventScroll:true}); } }
+  function popRoom(){ var box=cbar.parentNode; box.style.minHeight=fpop.hidden?'':(cbar.offsetHeight+fpop.offsetHeight+30)+'px'; }
+  function popOpen(o){ fpop.hidden=!o; fBtn.setAttribute('aria-expanded',String(o)); if(o){ popFill(); popRoom(); var b=fpop.querySelector('button'); if(b)b.focus({preventScroll:true}); } else popRoom(); }
   fBtn.addEventListener('click',function(e){ e.stopPropagation(); popOpen(fpop.hidden); });
   fpop.addEventListener('click',function(e){ e.stopPropagation(); var b=e.target.closest('button'); if(!b)return;
     if(b.dataset.side!=null){ side=+b.dataset.side; change(); }
@@ -1641,7 +1649,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
     var c=sheetHost.querySelector('.sheet button'); if(c)c.focus({preventScroll:true}); }
   function closeSheet(){ dockHost.style.visibility=''; sheetHost.innerHTML=''; big=null; if(lastFocus&&lastFocus.focus&&document.contains(lastFocus))lastFocus.focus({preventScroll:true}); }
   sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]')){closeSheet();return;} var jp=e.target.closest('[data-jump]'); if(jp){ var g=jp.dataset.jump; closeSheet(); if(N[g]&&!N[g].gone){ select(g); reveal(g); toCol(G.step[g],true); } else { recentre(g); select(g); say('Centred on '+name(g)); } return; } var r=e.target.closest('[data-note]'); if(r){note(r.dataset.note,r.dataset.back);return;} var b=e.target.closest('[data-pathback]'); if(b){pathSheet(b.dataset.pathback);return;} var sy=e.target.closest('[data-say]'); if(sy){say(sy.dataset.say);return;} var pl=e.target.closest('[data-place]'); if(pl){ var pi=+pl.dataset.place; closeSheet(); routed=true; follow(pi); var px2=places()[pi]; say('The page now follows '+px2.c+' › '+px2.s+' › '+px2.ch); return; } if(e.target.closest('[data-many]')){ many=!many; here=0; follow(0); placeSheet(); return; } if(e.target.closest('[data-route]')){ routed=!routed; here=0; follow(0); placeSheet(); } });
-  document.addEventListener('keydown',function(e){ if(e.key==='Escape'){ if(sheetHost.firstChild)closeSheet(); else if(sel)select(null); } });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'){ var fp=document.getElementById('fpop'); if(sheetHost.firstChild)closeSheet(); else if(fp&&!fp.hidden)document.getElementById('fBtn').click(); else if(sel)select(null); } });
   function lrow(l,back,lead){ return '<button type="button" class="lrow" data-note="'+l.id+'"'+(back?' data-back="'+back+'"':'')+'><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span><span class="lt">'+(lead?esc(lead):esc(name(l.f))+' → '+esc(name(l.t)))+'</span><span class="lg">'+esc(gline(l))+'</span></span>'+CHEV+'</button>'; }
   function pathSheet(id){ var s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path);
     var h='<div class="kind"><i class="mk '+size(id)+'" aria-hidden="true"></i>How it connects</div><h3>'+esc(name(id))+'</h3>';
@@ -1763,19 +1771,20 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       c.beginPath(); path(after?M19:M14); c.strokeStyle=css('--border'); c.lineWidth=.9; c.stroke();
       c.beginPath(); path(G); c.strokeStyle=css('--ink2'); c.lineWidth=1.2; c.stroke();
       if(after&&a>0.5){ c.setLineDash([3,3]); c.beginPath(); path(G14); c.strokeStyle=css('--ink3'); c.lineWidth=1; c.stroke(); c.setLineDash([]); }
-      label(c,'Germany',AT.Germany,true);
-      if(after){ NEW.forEach(function(f){ var n=nm(f); if(AT[n])label(c,n,AT[n],false); }); } else { label(c,'Austria-Hungary',AT['Austria-Hungary'],false); }
-      label(c,'France',AT.France,false,true); label(c,'Denmark',AT.Denmark,false,true);
+      labels(c,after);
       c.globalAlpha=1; }
+    function labels(c,after){ label(c,'Germany',AT.Germany,true);
+      if(after){ NEW.forEach(function(f){ var n=nm(f); if(AT[n])label(c,n,AT[n],false); }); } else { label(c,'Austria-Hungary',AT['Austria-Hungary'],false); }
+      label(c,'France',AT.France,false,true); label(c,'Denmark',AT.Denmark,false,true); }
     function draw(){ var dpr=cv.width/W, c=cv.getContext('2d'); c.setTransform(dpr,0,0,dpr,0,0); c.clearRect(0,0,W,H); path=d3.geoPath(proj,c);
       layer(c,false,1-mix); layer(c,true,mix);
-      if(pick){ c.beginPath(); path(pick); c.strokeStyle=css('--ink'); c.lineWidth=2; c.stroke(); } }
+      if(pick){ c.beginPath(); path(pick); c.strokeStyle=css('--ink'); c.lineWidth=2; c.stroke(); c.globalAlpha=1; labels(c,mix>=0.5); } }
     function setYear(y){ year=y; pick=null; [].forEach.call(document.querySelectorAll('[data-bam]'),function(b){ b.setAttribute('aria-pressed',String(+b.dataset.bam===y)); });
       say2(y?'Tap any land on the map.':'The borders of 1914. Tap any land on the map.'); listNew();
       cancelAnimationFrame(raf); if(reduced){ mix=y; draw(); return; } var from=mix, t0=performance.now();
       (function st(now){ var k=Math.min(1,(now-t0)/420); k=k<.5?2*k*k:-1+(4-2*k)*k; mix=from+(y-from)*k; draw(); if(k<1)raf=requestAnimationFrame(st); })(t0); }
     var tapEl=document.getElementById('bamTap'); function say2(h){ tapEl.innerHTML=h; }
-    function tell(f,lost){ var n=nm(f);
+    function tell(f,lost){ var n=nm(f); if(!year)n=n.replace(/\s*\(.*?\)/g,'');   /* the border record adds a later name in brackets */
       if(year&&lost){ var extra=n==='France'?' The treaty returned Alsace-Lorraine to France.':n==='Poland'?' The treaty gave Poland a corridor to the sea.':n==='Danzig'?' The border record puts it under the League of Nations.':''; return '<b>Land Germany lost.</b> In 1919 it is in '+esc(n)+'.'+extra; }
       if(year&&isG(f)) return '<b>Germany in 1919.</b> The dashed line is its border of 1914.';
       if(year&&isNew[f.properties.r]) return '<b>'+esc(n)+'.</b> On the map in 1919; no state of that name on the map of 1914.';

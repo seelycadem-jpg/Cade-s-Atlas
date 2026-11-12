@@ -455,7 +455,13 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   screen on each side, and the arrow on that side beats; (2) the key names the three kinds
   of line; (5) the pop-up takes half the screen at most with its text scrolling inside,
   hides while a sheet is open, and on a wide screen stands to the right with the page left
-  still. Not yet fixed, from the same review: "1 more" paints over a faded card; one card
+  still. A second pass the same day fixed six more: a card squeezed out of a column
+  drops its words so "N more" reads cleanly; a long card title is set smaller and shows
+  whole; the chain's box grows to hold the open filter panel; the large globe answers a
+  tap and Escape closes the filter; on the map the names sit over the highlight and a 1914
+  land carries no later name in brackets; small text links have a 44px target. Left from
+  the review after that: desktop is a phone column in empty space, and the path line's
+  site words meet a newcomer before the subject. The original list, for the record: "1 more" paints over a faded card; one card
   title is still cut ("The Depression Reaches..."); the filter panel hangs over the next
   section after a filter shrinks the web; tapping the large globe does nothing; Escape does
   not close the filter; the Danzig label is crossed by the highlight; the 1914 map names
