@@ -845,11 +845,12 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
    that jumps to a piece. The index row hides when the event has three pieces or fewer. */
 .recidx{display:flex;gap:0;margin:2px calc(-1 * max(16px,env(safe-area-inset-left,0px))) 6px;padding:0 max(16px,env(safe-area-inset-left,0px));overflow-x:auto;scrollbar-width:none;border-bottom:1px solid var(--rule)}
 .recidx::-webkit-scrollbar{display:none}
+.recidx{position:sticky;top:calc(86px + var(--tabsH,52px) + env(safe-area-inset-top,0px));z-index:6;background:var(--bg)}
 .recidx button{flex:none;min-height:40px;padding:0 11px;font:500 11px/1 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3);white-space:nowrap;box-shadow:inset 0 -2px 0 transparent;transition:color .2s,box-shadow .2s}
 .recidx button:first-child{padding-left:0}
 .recidx button[aria-current="true"]{color:var(--ink);box-shadow:inset 0 -2px 0 var(--gilt)}
 .rec{border:0!important;background:none;overflow:visible}
-.rec details{border-top:0!important;border-bottom:1px solid var(--rule);scroll-margin-top:150px}
+.rec details{border-top:0!important;border-bottom:1px solid var(--rule);scroll-margin-top:192px}
 .rec summary{grid-template-columns:1fr 18px;gap:3px 12px;padding:13px 0 13px;min-height:0}
 .rec summary .h{font:500 19px/1.2 var(--display)}
 .rec summary .s{font:13px/1.4 var(--ui);color:var(--ink2)}
@@ -1638,7 +1639,7 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   (function(){ var rec=document.getElementById('rec'), idx=document.getElementById('recIdx'); if(!rec||!idx)return;
     var ds=[].slice.call(rec.querySelectorAll('details')), calm=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;
     function mark(){ [].forEach.call(idx.children,function(b,i){ b.setAttribute('aria-current',ds[i].open?'true':'false'); }); var on=idx.querySelector('[aria-current="true"]'); if(on&&on.scrollIntoView)on.scrollIntoView({block:'nearest',inline:'center',behavior:calm?'auto':'smooth'}); }
-    function show(d){ var top=d.getBoundingClientRect().top; if(top<150||top>window.innerHeight*0.6)window.scrollBy({top:top-150,behavior:calm?'auto':'smooth'}); }
+    function show(d){ var top=d.getBoundingClientRect().top; if(top<192||top>window.innerHeight*0.6)window.scrollBy({top:top-192,behavior:calm?'auto':'smooth'}); }
     ds.forEach(function(d,i){
       var h=d.querySelector('summary .h').textContent, b=document.createElement('button'); b.type='button'; b.textContent=h.split(',')[0]; b.setAttribute('aria-current','false');
       b.addEventListener('click',function(){ if(!d.open){ d.open=true; } else show(d); }); idx.appendChild(b);
