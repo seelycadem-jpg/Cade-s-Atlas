@@ -968,8 +968,8 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .legend .lines{grid-column:1 / -1;display:flex;flex-wrap:wrap;gap:4px 14px;margin-top:5px;padding-top:8px;border-top:1px solid var(--rule);font-size:11.5px;color:var(--ink2)}
 .legend .lines span{display:inline-flex;align-items:center;gap:6px;white-space:nowrap}
 .legend .lines .gl{width:18px}
-#goL.beat,#goR.beat{animation:beat .5s ease 2}
-@keyframes beat{50%{transform:scale(1.35)}}
+#goL.beat,#goR.beat{animation:beat .42s ease 1}
+@keyframes beat{20%{transform:translateX(-2px)}45%{transform:translateX(2px)}70%{transform:translateX(-1px)}100%{transform:none}}
 @media (prefers-reduced-motion:reduce){ #goL.beat,#goR.beat{animation:none} }
 /* the pop-up: half the screen at most, its text scrolling inside; opened, two thirds */
 .dockin{max-height:min(50vh,430px)}
