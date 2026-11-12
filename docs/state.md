@@ -299,6 +299,10 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
       The plain sentence under it names both events in place of "the first" and "the
       second" (Cade): "The Russian Revolution was one cause of Hitler Takes Power among
       several." It is generated from the grade, never hand-written, and set in italics.
+      Trimmed (Cade, 2026-11-12): the line on the event's part in the page's event shows
+      only for a path of two lines or more, since one line is already a row above it; a
+      "Caused by" or "Led to" row with nothing in it is left out; events that share only the
+      same years get one line that opens How it connects.
       Question for the master chat: event names that are phrases with a verb ("Hitler Takes
       Power") read stiffly inside this sentence; should each event carry a short noun form?
     - Fault fixed: a phone fires a resize each time its address bar hides or shows, and

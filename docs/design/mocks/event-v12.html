@@ -720,7 +720,8 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
 .dockin.open{max-height:calc(100vh - 150px);overflow-y:auto;overscroll-behavior:contain}
 .dock .dmore{display:block;margin:0 0 9px auto;min-height:26px;padding:0 0 0 10px;font:500 12.5px/1 var(--ui);color:var(--accent)}
 .dock .dline+.dmore[hidden]+.drels{margin-top:9px}
-.dock .drels{border-top:1px solid var(--rule);margin:0}
+.dock .drels{border-top:1px solid var(--rule);margin:0 0 12px}
+.dock .drels+.pathbtn{margin-top:-12px}
 .dock .drel{display:grid;grid-template-columns:68px minmax(0,1fr);gap:8px;padding:7px 0;border-bottom:1px solid var(--rule);align-items:start}
 .dock .drel .dl{padding-top:7px;font:500 10px/1.2 var(--ui);letter-spacing:.07em;text-transform:uppercase;color:var(--ink3)}
 .dock .drel .dv{display:grid;gap:0;min-width:0}
@@ -1408,12 +1409,12 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
   function relRows(id){ var c=[], e=[];
     A.links.forEach(function(l){ if(l.grade==='Coincident'||!E[l.f]||!E[l.t])return; if(l.t===id)c.push(l); if(l.f===id)e.push(l); });
     c.sort(function(a,b){ return E[a.f].y-E[b.f].y; }); e.sort(function(a,b){ return E[a.t].y-E[b.t].y; });
-    function row(lab,arr,key,none){ var h='<div class="drel"><span class="dl">'+lab+'</span><span class="dv">';
+    function row(lab,arr,key,none){ if(!arr.length)return ''; var h='<div class="drel"><span class="dl">'+lab+'</span><span class="dv">';
       if(!arr.length) h+='<span class="dnone">'+none+'</span>';
       else { h+=arr.slice(0,3).map(function(l){ var o=l[key]; return '<button type="button" class="dgo'+(o===centre?' c':'')+'" data-ln="'+l.id+'" aria-label="'+esc(name(o))+', '+E[o].y+'. Read how the atlas argues this line."><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span>'+esc(name(o))+'</span><em>'+E[o].y+'</em>'+CHEV+'</button>'; }).join('');
         if(arr.length>3) h+='<button type="button" class="dall" data-all>'+(arr.length-3)+' more</button>'; }
       return h+'</span></div>'; }
-    return '<div class="drels">'+row('Caused by',c,'f','No cause in the link table')+row('Led to',e,'t','No effect in the link table')+'</div>'; }
+    var rows=row('Caused by',c,'f','')+row('Led to',e,'t',''); return rows?'<div class="drels">'+rows+'</div>':''; }
   function dock(){
     if(!sel){ if(dockEl){ var old=dockEl; dockEl=null; old.classList.remove('in'); clearTimeout(dockT); dockT=setTimeout(function(){ old.remove(); },260); } return; }
     var id=sel, sz=size(id), s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path), chip=N[id]&&N[id].chip;
@@ -1422,8 +1423,10 @@ main.pic-a .pic img{outline:1px solid color-mix(in srgb,var(--gilt) 50%,transpar
       +'<div class="kind"><i class="mk '+sz+'" aria-hidden="true"></i><span>'+SZW[sz]+' · '+esc(when(id))+' · '+where+'</span></div><h3>'+esc(name(id))+'</h3>'+((E[id].c||[]).length?'<p class="dkinds">'+(E[id].c||[]).map(function(k){ return '<span>'+kicon(k)+cap1(k)+'</span>'; }).join('')+'</p>':'')+'<p class="dline" id="dLine">'+esc((window.ATLAS_BRIEF&&window.ATLAS_BRIEF[id])||E[id].bluf||line(id))+'</p><button type="button" class="dmore" id="dMore" aria-expanded="false" hidden>… more</button>';
     h+=relRows(id);
     if(chip) h+='<p class="dnote">Outside your filters. It stays, faded, because the path runs through it.</p>';
-    if(path.length){ var w=weakest(path); h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl '+gcls(w)+'" aria-hidden="true"></i><span><b class="pl">'+(s<0?'Its part in ':'What it owes to ')+esc(name(centre))+'</b>'+esc(relLine(id,path))+'</span>'+CHEV+'</button>'; }
-    else if(o.length){ h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl" aria-hidden="true"></i><span>'+o.length+(o.length===1?' line':' lines')+' in the link table.</span>'+CHEV+'</button>'; }
+    /* the path line shows only when it adds something: a path of two lines or more. One line is already a row above. */
+    var same=A.links.filter(function(l){ return l.grade==='Coincident'&&(l.f===id||l.t===id)&&E[l.f]&&E[l.t]; }).length;
+    if(path.length>1){ var w=weakest(path); h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl '+gcls(w)+'" aria-hidden="true"></i><span><b class="pl">'+(s<0?'Its part in ':'What it owes to ')+esc(name(centre))+'</b>'+esc(relLine(id,path))+'</span>'+CHEV+'</button>'; }
+    else if(same){ h+='<button type="button" class="pathbtn" id="pathBtn"><i class="gl coinc" aria-hidden="true"></i><span>'+same+(same===1?' event':' events')+' in the same years, with no causal link.</span>'+CHEV+'</button>'; }
     if(id===HOME&&id===centre) h+='<p class="youare">You are reading this event.</p>';
     else { h+='<div class="acts">'+(id===HOME?'':'<button type="button" class="pri" id="openBtn">Open the page</button>')+(id!==centre?'<button type="button" class="sec" id="cenBtn">Centre here</button>':'')+'</div>'; }
     var fresh=!dockEl;
