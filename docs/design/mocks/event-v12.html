@@ -1059,6 +1059,41 @@ body{padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px
 h2{font-size:27px}
 /* the title sets a touch smaller on a phone, so it still fits one line inside the wider margins */
 .tw h1{font-size:clamp(35px,9.1vw,52px)}
+
+/* The short message (Cade, 2026-11-12): a slip of paper with a gilt hairline, serif italic, in place of a black block. */
+.toast{background:var(--surface);color:var(--ink);border:1px solid var(--gilt);box-shadow:0 0 0 3px var(--surface),0 0 0 3.6px color-mix(in srgb,var(--gilt) 55%,transparent),0 8px 20px rgba(30,18,12,.18);font:italic 400 15px/1.3 var(--display);padding:8px 16px;border-radius:0;max-width:min(88vw,24rem);bottom:calc(max(64px,10vh) + env(safe-area-inset-bottom,0px))}
+
+/* The filter panel, reworked (Cade, 2026-11-12): smaller, and the kinds are switches that add up. */
+.fpop{width:min(17.5rem,calc(100% - 24px));padding:10px 11px 6px}
+.fp-top{display:flex;align-items:baseline;justify-content:space-between;gap:8px;margin:0 0 6px}
+.fp-h{margin:0;font:600 9.5px/1.2 var(--ui);letter-spacing:.09em}
+.fp-note{font:italic 400 12px/1.2 var(--display);color:var(--ink3)}
+.fp-kinds{grid-template-columns:repeat(4,minmax(0,1fr));gap:4px}
+.fp-kinds button{position:relative;min-height:54px;padding:7px 2px 5px;display:grid;justify-items:center;align-content:center;gap:4px;border:1px solid var(--rule);font:500 9px/1 var(--ui);letter-spacing:.03em;color:var(--ink2);justify-content:stretch}
+.fp-kinds button .ki{width:18px;height:18px;color:var(--gilt);stroke-width:1.3}
+.fp-kinds button span{display:block;gap:0;max-width:100%;overflow:visible;white-space:nowrap;font-size:8.3px;letter-spacing:0}
+.fp-kinds button i{position:absolute;right:3px;top:3px;font:500 8.5px/1 var(--ui);color:var(--ink3)}
+.fp-kinds button[aria-pressed="true"]{background:var(--bg);color:var(--ink);border-color:var(--gilt);box-shadow:inset 0 0 0 .5px var(--gilt),inset 0 -2px 0 var(--gilt);--kibg:var(--bg)}
+.fp-kinds button[aria-pressed="true"] .ki{color:var(--ink)}
+.fp-kinds button[aria-pressed="true"] i{color:var(--ink2)}
+.fp-kinds button:disabled{opacity:.45;border-style:dashed}
+.fp-line{display:grid;grid-template-columns:auto 1fr;align-items:center;gap:10px;margin:9px 0 6px}
+.fp-seg{border-color:var(--rule)}
+.fp-seg button{min-height:32px;font:500 12px/1 var(--ui)}
+.fp-seg button[aria-pressed="true"]{background:var(--bg);color:var(--ink);box-shadow:inset 0 -2px 0 var(--gilt)}
+.fp-row{grid-template-columns:22px 1fr 26px;gap:8px;min-height:38px;padding:4px 8px}
+.fp-row b{font:600 12px/1.2 var(--ui)}
+.fp-row em{font:italic 400 12px/1.2 var(--display);color:var(--ink3)}
+.fp-row u{justify-self:end;width:24px;height:12px;border:1px solid var(--ink3);position:relative;text-decoration:none}
+.fp-row u::after{content:"";position:absolute;left:1px;top:1px;width:8px;height:8px;background:var(--ink3);transition:transform .2s}
+.fp-row[aria-pressed="true"]{border-color:var(--gilt);box-shadow:none;background:var(--bg)}
+.fp-row[aria-pressed="true"] u{border-color:var(--accent)}
+.fp-row[aria-pressed="true"] u::after{background:var(--accent);transform:translateX(12px)}
+.fp-foot{margin-top:2px}
+.fp-foot button{min-height:38px;font-size:12.5px}
+.fp-foot button:disabled{color:var(--rule);text-decoration:none;cursor:default}
+/* on the cards, the sign of a kind that is switched on turns ink */
+.wcanvas .nd:not(.here) .ki.on{color:var(--ink);stroke-width:1.8}
 </style>
 
 <div class="stage" id="stage">
@@ -1381,11 +1416,12 @@ h2{font-size:27px}
   var SVGNS='http://www.w3.org/2000/svg';
 
   /* what the reader has asked for */
-  var centre=HOME, steps=2, show={k:true,fi:true,st:false}, kind=null, side=0 /* -1 causes only, 1 effects only */, bbOnly=false, sel=null, G=null;
+  var centre=HOME, steps=3 /* three steps is the starting view (Cade, 2026-11-12) */, show={k:true,fi:true,st:false}, kinds={} /* the kinds switched on; none means all */, side=0 /* -1 causes only, 1 effects only */, bbOnly=false, sel=null, G=null;
   var scroller=document.getElementById('wscroll'), canvas=document.getElementById('wcanvas'), svg=document.getElementById('edges'), headsLayer=document.getElementById('heads'), nodesLayer=document.getElementById('nodes'), mini=document.getElementById('mini'), trail=document.getElementById('trail');
   var N={} /* event id -> its card, where it is and where it is going */, ED={} /* link id -> its line */, drumF={} /* step -> the row a long column is turned to */;
   var CW=130, NW=100, GAP=40, RH=92, RB=42, TOP=30, VIS=3, MAXR=3, HC=380, PEEK=34;
-  function matches(id){ return id===centre||(show[size(id)]&&(!kind||(E[id].c||[]).indexOf(kind)>=0)); }
+  function anyKind(){ return Object.keys(kinds).length>0; }
+  function matches(id){ return id===centre||(show[size(id)]&&(!anyKind()||(E[id].c||[]).some(function(c){ return kinds[c]; }))); }
 
   /* walk the link table outward from the centre. An event that fits the filters is a card. An event that
      does not fit, but lies between a card and the centre, stays as a small name so no line is ever invented. */
@@ -1433,7 +1469,7 @@ h2{font-size:27px}
     environment:[['s','M12 2.5c1.8 0 3.2 1 3.8 2.3 1.8.2 3.2 1.7 3.2 3.5 0 1.2-.6 2.3-1.5 2.9.1 2.1-1.6 3.800-3.700 3.800-.700 0-1.300-.200-1.800-.500-.500.300-1.100.500-1.800.500-2.100 0-3.800-1.700-3.700-3.800C5.600 10.600 5 9.500 5 8.300c0-1.800 1.400-3.300 3.200-3.500C8.800 3.500 10.200 2.500 12 2.500z'],['i','M12 14.500V9.500M12 12.500l2.500-2.500M12 11L9.800 8.800'],['l','M12 14.500v7M7.500 21.500h9'],['d','M12 19.500l-1.500 2M12 19.500l1.500 2M6 21.500l-.500-1.200M18 21.500l.500-1.200']]  /* Tree */};
   function kicon(k){ return '<svg class="ki" data-k="'+k+'" viewBox="0 0 24 24" aria-hidden="true">'+(KICON[k]||[]).map(function(q){ return '<path class="'+q[0]+'" d="'+q[1]+'"/>'; }).join('')+'</svg>'; }
   /* a card has room for two; the kind being filtered for comes first */
-  function kicons(id){ var t=(E[id].c||[]).slice(); if(kind&&t.indexOf(kind)>0){ t.splice(t.indexOf(kind),1); t.unshift(kind); } return t.slice(0,2).map(kicon).join(''); }
+  function kicons(id){ var t=(E[id].c||[]).slice().sort(function(a,b){ return (kinds[b]?1:0)-(kinds[a]?1:0); }); return t.slice(0,2).map(function(k){ var h=kicon(k); return kinds[k]?h.replace('class="ki"','class="ki on"'):h; }).join(''); }
   function mkNode(id){ var el=document.createElement('button'); el.type='button'; el.dataset.id=id;
     el.innerHTML='<span class="card" lang="en"><span class="nm"><i class="mk '+size(id)+'" aria-hidden="true"></i><span class="yr">'+esc(String(E[id].y))+'</span><span class="kd"></span></span><span class="nt'+(/\S{12,}/.test(name(id))?' lw':name(id).length>=27?' lg':'')+'">'+esc(name(id))+'</span></span>';
     nodesLayer.appendChild(el); return {id:id,el:el,cur:{x:0,y:0,s:1,o:0,d:1,q:1},tg:{x:0,y:0,s:1,o:1,d:1,q:1},w:NW,h:60,chip:false,gone:false,fresh:true,drumK:null,drumI:0}; }
@@ -1531,7 +1567,7 @@ h2{font-size:27px}
   function paintClasses(){ Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone)return; var c='nd sz-'+size(id)+(n.chip?' thru':'')+(n.drumK!=null?' indrum':'')+(id===centre?' here':'')+(id===sel?' sel':''); if(n.el.className!==c)n.el.className=c; n.el.setAttribute('aria-pressed',String(id===sel)); }); }
   /* selection lights one path and quiets the rest */
   function paint(run){ var path=sel&&sel!==centre?pathOf(sel):[], onE={}, onN={}; path.forEach(function(l){onE[l.id]=1;onN[l.f]=1;onN[l.t]=1;});
-    paintClasses(); canvas.setAttribute('data-kind',kind||'');
+    paintClasses(); canvas.setAttribute('data-kind','');
     Object.keys(N).forEach(function(id){ var n=N[id]; n.tg.d=path.length?((onN[id]||id===centre)?1:0.2):1; });
     Object.keys(ED).forEach(function(id){ var e=ED[id]; if(e.gone)return; e.tgA=path.length?(onE[id]?1:0.1):1; });
     if(run!==false)kick(); }
@@ -1610,8 +1646,8 @@ h2{font-size:27px}
   function cap1(s){ return s.charAt(0).toUpperCase()+s.slice(1); }
   function bar(){ document.getElementById('stN').textContent=steps; document.getElementById('stDn').disabled=steps<=1; document.getElementById('stUp').disabled=steps>=5;
     [].forEach.call(cbar.querySelectorAll('[data-size]'),function(b){ b.setAttribute('aria-pressed',String(show[b.dataset.size])); });
-    var lab=kind?cap1(kind):bbOnly?'Backbone':side<0?'Causes':side>0?'Effects':'Filter', n=(kind?1:0)+(bbOnly?1:0)+(side?1:0);
-    document.getElementById('fLbl').textContent=n>1?lab+' +'+(n-1):lab; fBtn.classList.toggle('on',n>0);
+    var ks=Object.keys(kinds), n=ks.length+(bbOnly?1:0)+(side?1:0), lab=n===0?'Filter':n===1?(ks.length?cap1(ks[0]):bbOnly?'Backbone':side<0?'Causes':'Effects'):n+' filters';
+    document.getElementById('fLbl').textContent=lab; fBtn.classList.toggle('on',n>0);
     if(!fpop.hidden)popFill(); }
   /* A control must show its result. New cards often land off screen, so each change says how many events now match and
      on which side they wait, and the arrow on that side beats once. */
@@ -1619,27 +1655,29 @@ h2{font-size:27px}
     var l=+document.getElementById('nL').textContent||0, r=+document.getElementById('nR').textContent||0;
     var m=tot+(tot===1?' event':' events')+' within '+steps+(steps===1?' step':' steps');
     if(!tot)m='No event matches. Turn a size back on or clear the filter.';
-    else if(l||r)m+=': '+(l?l+' off screen to the left':'')+(l&&r?', ':'')+(r?r+' to the right':'')+'.';
-    else m+=', all in view.';
+    else if(l||r)m+=' \u00b7 '+(l?l+' to the left':'')+(l&&r?', ':'')+(r?r+' to the right':'');
+    else m+=' \u00b7 all in view';
     say(m); [['goL',l],['goR',r]].forEach(function(q){ var b=document.getElementById(q[0]); b.classList.remove('beat'); if(q[1]){ void b.offsetWidth; b.classList.add('beat'); } }); }
   function change(){ layout('filter'); dock(); setTimeout(tell,60); }
   document.getElementById('stDn').addEventListener('click',function(){ if(steps>1){ steps--; layout('steps'); dock(); setTimeout(tell,60); } });
   document.getElementById('stUp').addEventListener('click',function(){ if(steps<5){ steps++; layout('steps'); dock(); setTimeout(tell,60); } });
   [].forEach.call(cbar.querySelectorAll('[data-size]'),function(b){ b.addEventListener('click',function(){ var k=b.dataset.size; show[k]=!show[k]; change(); }); });
-  function popFill(){ var h='<p class="fp-h">Side</p><div class="fp-seg" role="group" aria-label="Side">'+[[-1,'Causes'],[0,'Both'],[1,'Effects']].map(function(o){ return '<button type="button" data-side="'+o[0]+'" aria-pressed="'+(side===o[0])+'">'+o[1]+'</button>'; }).join('')+'</div>'
-      +'<p class="fp-h">Kind of event</p><div class="fp-kinds"><button type="button" data-kind="" aria-pressed="'+(!kind)+'">All kinds</button>'
-      +KINDS.map(function(kd){ var c=G.kc[kd]||0; return '<button type="button" data-kind="'+kd+'" aria-pressed="'+(kind===kd)+'"'+(c?'':' disabled')+'><span>'+kicon(kd)+cap1(kd)+'</span><i>'+(c||'none')+'</i></button>'; }).join('')+'</div>'
-      +'<p class="fp-h">Lines</p><button type="button" class="fp-row" data-bb aria-pressed="'+bbOnly+'"><i class="gl" aria-hidden="true"></i><span><b>Backbone only</b><em>Follow only the lines an event could not have happened without.</em></span></button>'
-      +'<div class="fp-foot"><button type="button" data-clear>Clear filters</button><button type="button" data-done>Done</button></div>';
+  /* the filter panel: small, and every choice is a switch. Kinds add up: Political and War shows events that are either. */
+  function popFill(){ var ks=Object.keys(kinds);
+    var h='<div class="fp-top"><span class="fp-h">Kinds</span><span class="fp-note">'+(ks.length?ks.length+' on \u00b7 tap to add or remove':'all shown \u00b7 tap any to narrow')+'</span></div><div class="fp-kinds">'
+      +KINDS.map(function(kd){ var c=G.kc[kd]||0; return '<button type="button" data-kind="'+kd+'" aria-pressed="'+(!!kinds[kd])+'"'+(c?'':' disabled')+' aria-label="'+cap1(kd)+', '+(c||'no')+' events">'+kicon(kd)+'<span>'+cap1(kd)+'</span><i>'+(c||'\u2013')+'</i></button>'; }).join('')+'</div>'
+      +'<div class="fp-line"><span class="fp-h">Side</span><div class="fp-seg" role="group" aria-label="Side">'+[[-1,'Causes'],[0,'Both'],[1,'Effects']].map(function(o){ return '<button type="button" data-side="'+o[0]+'" aria-pressed="'+(side===o[0])+'">'+o[1]+'</button>'; }).join('')+'</div></div>'
+      +'<button type="button" class="fp-row" data-bb aria-pressed="'+bbOnly+'"><i class="gl" aria-hidden="true"></i><span><b>Backbone only</b><em>lines an event needed to happen</em></span><u aria-hidden="true"></u></button>'
+      +'<div class="fp-foot"><button type="button" data-clear'+((ks.length||side||bbOnly)?'':' disabled')+'>Clear</button><button type="button" data-done>Done</button></div>';
     fpop.innerHTML=h; }
   function popRoom(){ var box=cbar.parentNode; box.style.minHeight=fpop.hidden?'':(cbar.offsetHeight+fpop.offsetHeight+30)+'px'; }
   function popOpen(o){ fpop.hidden=!o; fBtn.setAttribute('aria-expanded',String(o)); if(o){ popFill(); popRoom(); var b=fpop.querySelector('button'); if(b)b.focus({preventScroll:true}); } else popRoom(); }
   fBtn.addEventListener('click',function(e){ e.stopPropagation(); popOpen(fpop.hidden); });
   fpop.addEventListener('click',function(e){ e.stopPropagation(); var b=e.target.closest('button'); if(!b)return;
     if(b.dataset.side!=null){ side=+b.dataset.side; change(); }
-    else if(b.dataset.kind!=null){ kind=b.dataset.kind||null; change(); }
+    else if(b.dataset.kind!=null){ var kk=b.dataset.kind; if(kinds[kk])delete kinds[kk]; else kinds[kk]=1; change(); }
     else if(b.hasAttribute('data-bb')){ bbOnly=!bbOnly; change(); }
-    else if(b.hasAttribute('data-clear')){ kind=null; side=0; bbOnly=false; change(); }
+    else if(b.hasAttribute('data-clear')){ kinds={}; side=0; bbOnly=false; change(); }
     else if(b.hasAttribute('data-done')){ popOpen(false); fBtn.focus({preventScroll:true}); } });
   document.addEventListener('click',function(){ if(!fpop.hidden)popOpen(false); });
   (function(){ var mark=document.createElement('div'); mark.style.cssText='height:1px;margin-bottom:-1px'; cbar.parentNode.insertBefore(mark,cbar);

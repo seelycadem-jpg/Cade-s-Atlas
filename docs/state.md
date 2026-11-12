@@ -493,6 +493,17 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   page title a touch smaller on a phone so it still fits one line. Body text stays 17px.
   The chain, the tabs and the Record's row still reach the screen edge.
 
+- **The chain's filter, reworked** (Cade, 2026-11-12; on trial). The panel is smaller. The
+  eight kinds are a grid of switches, four across, each a sign with its name and count;
+  several can be on at once and they add up (Political and War shows events that are
+  either). None on means all shown; "All kinds" is gone. Side is a slim three-way switch,
+  Backbone a one-line switch, then Clear and Done. On the cards, the sign of every kind
+  that is on turns ink. The filter button reads the one filter's name, or "N filters".
+- The chain opens at three steps (Cade, 2026-11-12; it was two). The short message that
+  follows a change is a slip of paper with a gilt hairline, serif italic.
+- On trial: a hairline under the docked tabs in place of the fade; the chain's control
+  bar and its scale bar set thinner, with smaller marks and labels.
+
 ### B. On trial in the mock, for Cade to settle
 
 15. **Square corners everywhere** (ui-rules.md, palette.md). Cade leans this way. The mock
