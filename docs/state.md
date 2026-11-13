@@ -518,6 +518,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   marks each piece and fills when open; the section name in italics under the answer); 2,
   Numbered (a gilt numeral in the margin, the answer, the section name as a caption);
   3, Ledger (two columns: section name left, answer right). Awaiting his pick.
+  Cade's answer to those three: "meh" (2026-11-13). The page now shows a second try,
+  further from a list: 1, Tiles and sheet (the seven answers in two columns, set like
+  Meanwhile; a tap opens the piece in the gilt sheet, with Before and Next; the page never
+  grows); 2, Tabs in place (the row of names is the control, one panel beneath, the answer
+  as its headline); 3, Thread (the pieces hang on a gilt line with a diamond at each and
+  open where they hang). Awaiting his pick.
 
 ### B. On trial in the mock, for Cade to settle
 

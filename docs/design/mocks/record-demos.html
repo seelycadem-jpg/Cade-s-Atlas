@@ -129,46 +129,104 @@ td:nth-child(2){font-variant-numeric:tabular-nums;white-space:nowrap;color:var(-
 .v3 .open .lab{color:var(--accent)}
 .v3 .v-body{margin:0 0 16px 100px}
 .v3 .v-body .tablewrap{margin-left:-100px}
+
+/* ===== Second try (2026-11-13). ===== */
+/* 1. Tiles and sheet: the Record at a glance in two columns, set like Meanwhile; a tap opens the piece in the gilt sheet
+      the chain already uses. Nothing expands in the page, so the page never grows or jumps. */
+.t1{display:grid;grid-template-columns:repeat(2,minmax(0,1fr));gap:22px 18px;margin-top:6px}
+.t1 button{display:grid;gap:5px;align-content:start;text-align:left;min-width:0}
+.t1 .lab{display:flex;align-items:center;gap:7px;font:500 9.5px/1.2 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.t1 .lab::before{content:"";width:6px;height:6px;border:1px solid var(--gilt);transform:rotate(45deg);flex:none}
+.t1 .ans{font:500 17.5px/1.22 var(--display);color:var(--title);text-wrap:balance}
+.t1 button:active .ans{color:var(--accent)}
+.t1 .wide{grid-column:1 / -1}
+.t1 .wide .ans{font-size:21px}
+.scrim{position:fixed;inset:0;background:rgba(26,20,16,.42);z-index:20}
+.sheet{position:fixed;left:50%;transform:translateX(-50%);bottom:calc(max(64px,10vh) + env(safe-area-inset-bottom,0px));width:min(92vw,25rem);max-height:calc(100% - max(64px,10vh) - 110px);z-index:21;display:flex;flex-direction:column;background:var(--surface);border:1px solid var(--gilt);box-shadow:0 0 0 3px var(--surface),0 0 0 3.6px color-mix(in srgb,var(--gilt) 60%,transparent),0 14px 30px rgba(30,18,12,.28)}
+.sheet .sb{padding:16px 18px 14px;overflow-y:auto;min-height:0}
+.sheet .sb > :last-child{margin-bottom:0}
+.sheet .lab{font:500 9.5px/1.2 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.sheet h3{margin:5px 0 10px;font:500 22px/1.18 var(--display);color:var(--title);text-wrap:balance}
+.sheet .sf{flex:none;display:grid;grid-template-columns:1fr 1fr 1fr;border-top:1px solid var(--rule)}
+.sheet .sf button{min-height:46px;font:500 13px/1 var(--ui);color:var(--ink2)}
+.sheet .sf button+button{box-shadow:inset 1px 0 0 var(--rule)}
+.sheet .sf button:disabled{color:var(--rule)}
+.sheet .sf .cl{color:var(--ink)}
+
+/* 2. Tabs in place: the row of names is the control, as in the chain. One piece shows under it; the page keeps its length. */
+.t2 .panel{min-height:220px;padding:6px 0 0}
+.t2 .panel .ans{margin:0 0 12px;font:500 23px/1.2 var(--display);color:var(--title);text-wrap:balance}
+.t2 .panel > :last-child{margin-bottom:0}
+.t2 .foot{display:flex;justify-content:space-between;align-items:center;margin-top:16px;padding-top:10px;border-top:1px solid var(--rule);font:500 12.5px/1 var(--ui);color:var(--ink3)}
+.t2 .foot button{min-height:40px;color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-underline-offset:4px;text-decoration-thickness:1px}
+.t2 .idx button{min-height:40px;font-size:10.5px}
+.t2 .idx button[aria-current="true"]{box-shadow:inset 0 -2px 0 var(--gilt)}
+
+/* 3. Thread: the pieces hang on a thin gilt line with a diamond at each, as events hang on a chapter's thread. */
+.t3{position:relative;margin:8px 0 0;padding-left:26px}
+.t3::before{content:"";position:absolute;left:5.5px;top:10px;bottom:12px;width:1px;background:linear-gradient(var(--gilt),color-mix(in srgb,var(--gilt) 35%,transparent))}
+.t3 .st{position:relative;margin:0 0 20px}
+.t3 .st::before{content:"";position:absolute;left:-24px;top:7px;width:8px;height:8px;background:var(--bg);border:1px solid var(--gilt);transform:rotate(45deg)}
+.t3 .st.open::before{background:var(--accent);border-color:var(--accent)}
+.t3 .st > button{display:grid;gap:3px;width:100%;text-align:left}
+.t3 .ans{font:500 19.5px/1.24 var(--display);color:var(--title);text-wrap:balance}
+.t3 .lab{font:italic 400 14px/1.25 var(--display);color:var(--ink3)}
+.t3 .bd{display:none;margin-top:10px}
+.t3 .st.open .bd{display:block}
+.t3 .bd > :last-child{margin-bottom:0}
 </style>
 
 <div class="wrap">
   <p class="eyebrow">Event page · The Treaty of Versailles</p>
-  <h1>Answers first, three ways</h1>
-  <p class="lede">Three quieter variants of the layout you chose. The words are placeholders for the rewrite; judge the shape.</p>
+  <h1>The Record, three new shapes</h1>
+  <p class="lede">A second try, further from a plain list. Each borrows something the page already does well. The words are placeholders; judge the shape.</p>
 
   <div class="pick"><div class="seg" role="group" aria-label="Demo">
-    <button type="button" id="pick1" data-d="1" aria-pressed="true"><b>1</b><span>Open air</span></button>
-    <button type="button" id="pick2" data-d="2" aria-pressed="false"><b>2</b><span>Numbered</span></button>
-    <button type="button" id="pick3" data-d="3" aria-pressed="false"><b>3</b><span>Ledger</span></button>
+    <button type="button" id="pick1" data-d="1" aria-pressed="true"><b>1</b><span>Tiles and sheet</span></button>
+    <button type="button" id="pick2" data-d="2" aria-pressed="false"><b>2</b><span>Tabs in place</span></button>
+    <button type="button" id="pick3" data-d="3" aria-pressed="false"><b>3</b><span>Thread</span></button>
   </div></div>
   <p class="why" id="why"></p>
 
   <h2>The Record</h2>
   <div id="demo"></div>
 </div>
+<div id="sheetHost"></div>
 
 <script>
 (function(){
   var REC=[{"h": "The account", "s": "Paris, 18 January to 28 June 1919.", "b": "<p>The conference opened in Paris on 18 January 1919. The victors met without Germany or Soviet Russia. French Prime Minister Georges Clemenceau wanted Germany too weak to attack again. British Prime Minister David Lloyd George wanted a Germany that could still trade. US President Woodrow Wilson wanted a League of Nations. Clemenceau gave up his claim to the Rhine for an Anglo-American guarantee.<\/p><p>The German delegation received the terms on 7 May and signed at Versailles on 28 June.<\/p>"}, {"h": "What it did, and to whom", "s": "France and Poland gained land; Germany paid in land, arms and money.", "b": "<ul>\n          <li><b>Land.<\/b> Germany lost 13 percent of its European territory and every colony. France got Alsace-Lorraine back, and Poland got a corridor to the sea.<\/li>\n          <li><b>Arms.<\/b> The treaty capped the German army at 100,000 and disarmed the Rhineland.<\/li>\n          <li><b>Money.<\/b> The Allies set reparations at 132 billion gold marks in 1921. Germany paid about 20 billion.<\/li>\n          <li><b>Shandong.<\/b> Germany's rights in Shandong went to Japan, over China's protest.<\/li>\n        <\/ul>"}, {"h": "Why it held or failed", "s": "The terms held only while Britain and France enforced them.", "b": "<p>The treaty left Germany intact and surrounded by weak new states where Austria-Hungary and Russia had stood. The terms held only while Britain and France enforced them. By the 1930s British opinion considered German grievances fair.<\/p><p>One reading holds the terms were harsh enough to enrage and too weak to restrain. The other holds the terms were enforceable and the failure was the enforcers'.<\/p>"}, {"h": "By the numbers", "s": "Three figures and where each comes from.", "b": "<div class=\"tablewrap\"><table class=\"terms\">\n          <thead><tr><th>Figure<\/th><th>Value<\/th><th>Basis<\/th><\/tr><\/thead>\n          <tbody>\n            <tr><td>German territory lost in Europe<\/td><td class=\"num\">13%<\/td><td>Treaty terms<\/td><\/tr>\n            <tr><td>German army cap<\/td><td class=\"num\">100,000<\/td><td>Versailles, part V<\/td><\/tr>\n            <tr><td>Reparations<\/td><td class=\"num\">132 bn set<br>about 20 bn paid<\/td><td>London Schedule of Payments, 1921<\/td><\/tr>\n          <\/tbody><\/table><\/div>"}, {"h": "The common misreading", "s": "That reparations ruined Germany.", "b": "<p>Germany paid about 20 billion gold marks of the 132 billion set. The hyperinflation of 1923 came from the French occupation of the Ruhr and the German government's own printing of money.<\/p>"}, {"h": "Today", "s": "Three borders the treaty drew still stand.", "b": "<p>The Rhineland is German, Alsace is French, and the Polish corridor is Poland's coast.<\/p>"}, {"h": "The detail", "s": "A vote of 11 to 6 that the chair ruled lost.", "b": "<p>On 11 April 1919 Japan's proposal to write racial equality into the League Covenant won 11 of the 17 votes in commission. Wilson, in the chair, ruled that it needed unanimity, and the clause died.<\/p>"}];
   var WHY={
-    '1':'<b>1. Open air.</b> No lines and no arrows. White space does the separating. A small gilt diamond marks each piece and fills when it is open. The section name sits under the answer in quiet italics. The calmest of the three; the tap target is the least obvious.',
-    '2':'<b>2. Numbered.</b> A gilt numeral in the margin, the answer beside it, the section name as a small caption underneath. Hairlines between rows. Reads as a list of seven findings; the numbers give the eye a rail to run down.',
-    '3':'<b>3. Ledger.</b> Two columns, like a reference table: the section name in a narrow left column, the answer on the right. The most ordered and the quickest to scan for one section; the answers are set a little smaller to fit.'
+    '1':'<b>1. Tiles and sheet.</b> The Record at a glance, in two columns, set the way Meanwhile is. Tap a tile and the piece opens in the gilt sheet the chain uses, with Before and Next to move through all seven. Nothing expands in the page, so the page never grows or jumps.',
+    '2':'<b>2. Tabs in place.</b> The row of names is the control, as the chain\'s bar is. One piece shows beneath it and the page keeps its length. The answer is the headline of each panel.',
+    '3':'<b>3. Thread.</b> The pieces hang on a thin gilt line with a diamond at each, the way events hang on a chapter\'s thread. Tap one and it opens where it hangs; its diamond turns red.'
   };
-  var host=document.getElementById('demo'), mode='1', open=-1;
-  try{ var m=localStorage.getItem('recDemo2'); if(/^[123]$/.test(m))mode=m; }catch(e){}
-  function row(r,i){ var on=i===open, inner;
-    if(mode==='1') inner='<i class="mk" aria-hidden="true"></i><span class="ans">'+r.s+'</span><span class="lab">'+r.h+'</span>';
-    else if(mode==='2') inner='<span class="num" aria-hidden="true">'+(i+1)+'</span><span class="ans">'+r.s+'</span><span class="lab">'+r.h+'</span>';
-    else inner='<span class="lab">'+r.h+'</span><span class="ans">'+r.s+'</span>';
-    return '<div class="v-row'+(on?' open':'')+'"><button type="button" data-i="'+i+'" aria-expanded="'+on+'">'+inner+'</button><div class="v-body">'+r.b+'</div></div>'; }
-  function draw(){ host.className='v'+mode; host.innerHTML=REC.map(row).join(''); }
-  host.addEventListener('click',function(e){ var b=e.target.closest('.v-row > button'); if(!b)return; var i=+b.dataset.i; open=open===i?-1:i; draw(); });
+  var host=document.getElementById('demo'), sheetHost=document.getElementById('sheetHost'), mode='1', at=0, open=-1;
+  try{ var m=localStorage.getItem('recDemo3'); if(/^[123]$/.test(m))mode=m; }catch(e){}
+  function short(h){ return h.split(',')[0]; }
+
+  function sheet(i){ var r=REC[i];
+    sheetHost.innerHTML='<div class="scrim" data-x></div><div class="sheet" role="dialog" aria-modal="true" aria-label="'+r.h+'"><div class="sb"><p class="lab">'+r.h+' · '+(i+1)+' of '+REC.length+'</p><h3>'+r.s+'</h3>'+r.b+'</div>'
+      +'<div class="sf"><button type="button" data-go="'+(i-1)+'"'+(i>0?'':' disabled')+'>Before</button><button type="button" class="cl" data-x>Close</button><button type="button" data-go="'+(i+1)+'"'+(i<REC.length-1?'':' disabled')+'>Next</button></div></div>';
+    var c=sheetHost.querySelector('.cl'); if(c)c.focus({preventScroll:true}); }
+  sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-x]')){ sheetHost.innerHTML=''; return; } var g=e.target.closest('[data-go]'); if(g&&!g.disabled)sheet(+g.dataset.go); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape')sheetHost.innerHTML=''; });
+
+  function draw(){ host.className='t'+mode;
+    if(mode==='1'){ host.innerHTML=REC.map(function(r,i){ return '<button type="button" data-i="'+i+'"'+(i===0?' class="wide"':'')+'><span class="lab">'+r.h+'</span><span class="ans">'+r.s+'</span></button>'; }).join(''); }
+    else if(mode==='2'){ var r=REC[at], n=REC[at+1];
+      host.innerHTML='<div class="idx" role="group" aria-label="Pieces of the record">'+REC.map(function(x,i){ return '<button type="button" data-i="'+i+'" aria-current="'+(i===at)+'">'+short(x.h)+'</button>'; }).join('')+'</div>'
+        +'<div class="panel"><p class="ans">'+r.s+'</p>'+r.b+'</div><div class="foot"><span>'+(at+1)+' of '+REC.length+'</span>'+(n?'<button type="button" data-i="'+(at+1)+'">Next: '+short(n.h)+'</button>':'<span>The end of the record</span>')+'</div>';
+      var on=host.querySelector('.idx [aria-current="true"]'), ix=host.querySelector('.idx'); ix.scrollLeft=Math.max(0,on.offsetLeft-(ix.clientWidth-on.offsetWidth)/2); }
+    else { host.innerHTML=REC.map(function(r,i){ return '<div class="st'+(i===open?' open':'')+'"><button type="button" data-i="'+i+'" aria-expanded="'+(i===open)+'"><span class="ans">'+r.s+'</span><span class="lab">'+r.h+'</span></button><div class="bd">'+r.b+'</div></div>'; }).join(''); }
+  }
+  host.addEventListener('click',function(e){ var b=e.target.closest('button[data-i]'); if(!b)return; var i=+b.dataset.i;
+    if(mode==='1')sheet(i); else if(mode==='2'){ at=i; draw(); } else { open=open===i?-1:i; draw(); } });
   function paint(){
     [].forEach.call(document.querySelectorAll('.seg button'),function(b){ b.setAttribute('aria-pressed',String(b.dataset.d===mode)); });
     document.getElementById('why').innerHTML=WHY[mode]; draw();
   }
-  [].forEach.call(document.querySelectorAll('.seg button'),function(b){ b.addEventListener('click',function(){ mode=b.dataset.d; open=-1; try{ localStorage.setItem('recDemo2',mode); }catch(e){} paint(); window.scrollTo({top:0,behavior:'auto'}); }); });
+  [].forEach.call(document.querySelectorAll('.seg button'),function(b){ b.addEventListener('click',function(){ mode=b.dataset.d; open=-1; at=0; sheetHost.innerHTML=''; try{ localStorage.setItem('recDemo3',mode); }catch(e){} paint(); window.scrollTo({top:0,behavior:'auto'}); }); });
   paint();
 })();
 </script>
