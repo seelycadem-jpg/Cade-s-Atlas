@@ -529,7 +529,8 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   counter line, a gilt plus for the arrow, the label stays grey, the open text flush);
   C2, Roomier (no counter and no rules between rows, a fainter arrow, the gilt rule beside
   the open text kept); C3, Lead open (the first piece open on load and set larger, the
-  rest as C). Awaiting his pick. Lesson for this chat: when he names a chosen option,
+  rest as C). DECIDED (Cade, 2026-11-13): C1, Lighter. The event mock's Record now
+  carries it, with the pinned index row kept above the list. Lesson for this chat: when he names a chosen option,
   vary it in small steps and show the original beside the variations.
 
 ### B. On trial in the mock, for Cade to settle
