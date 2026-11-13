@@ -29,7 +29,7 @@ h1{margin:4px 0 0;font:500 28px/1.1 var(--display);color:var(--title)}
 
 /* the switch between demos */
 .pick{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;margin:14px calc(-1 * max(20px,env(safe-area-inset-left,0px))) 0;padding:8px max(20px,env(safe-area-inset-left,0px));background:var(--bg);border-bottom:1px solid var(--rule)}
-.seg{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--gilt)}
+.seg{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));border:1px solid var(--gilt)}
 .seg button{min-height:44px;padding:4px 4px;display:grid;align-content:center;justify-items:center;gap:3px;color:var(--ink3)}
 .seg button+button{box-shadow:inset 1px 0 0 var(--rule)}
 .seg b{font:600 13px/1 var(--ui);letter-spacing:.04em}
@@ -174,17 +174,46 @@ td:nth-child(2){font-variant-numeric:tabular-nums;white-space:nowrap;color:var(-
 .t3 .bd{display:none;margin-top:10px}
 .t3 .st.open .bd{display:block}
 .t3 .bd > :last-child{margin-bottom:0}
+
+/* ===== Close variations of C (2026-11-13). The markup is C's own; each variation changes a few rules. ===== */
+/* C1 Lighter: no counter line; a gilt plus in place of the arrow; the label stays grey; the open text sits flush. */
+.cv1 .c-top,.cv2 .c-top,.cv3 .c-top{display:none}
+.cv1 .c-row > button{padding:11px 0 12px}
+.cv1 .c-row .lab{font-size:9px;letter-spacing:.1em}
+.cv1 .c-row.open .lab{color:var(--ink3)}
+.cv1 .c-row .ans{font-size:18.5px}
+.cv1 .c-row .ch{position:relative;width:11px;height:11px;border:0;transform:none}
+.cv1 .c-row .ch::before,.cv1 .c-row .ch::after{content:"";position:absolute;left:0;right:0;top:5px;height:1px;background:var(--gilt);transition:transform .2s}
+.cv1 .c-row .ch::after{transform:rotate(90deg)}
+.cv1 .c-row.open .ch{transform:none}
+.cv1 .c-row.open .ch::after{transform:rotate(0)}
+.cv1 .c-body{border-left:0;padding:0;margin:0 0 16px}
+/* C2 Roomier: no rules between rows; more air; a smaller, fainter arrow; the gilt rule beside the open text stays. */
+.cv2 .c-row,.cv2 .c-row:last-child{border:0}
+.cv2 .c-row > button{padding:9px 0 9px;margin-bottom:8px;gap:4px 12px}
+.cv2 .c-row .ch{width:7px;height:7px;border-color:var(--rule)}
+.cv2 .c-row.open .ch{border-color:var(--gilt)}
+.cv2 .c-row.open .lab{color:var(--gilt)}
+.cv2 .c-body{margin:2px 0 20px}
+/* C3 Lead open: the first piece is open when the page loads and set larger, so the section opens on text, not on a
+   row of closed drawers. The rest are C's rows. */
+.cv3 .c-top + .c-row > button{padding-top:6px}
+.cv3 .c-top + .c-row .ans{font-size:22px}
+.cv3 .c-top + .c-row{border-top:0}
+.cv3 .c-row.open .lab{color:var(--ink3)}
+.cv3 .c-top + .c-row .c-body{border-left:0;padding-left:0}
 </style>
 
 <div class="wrap">
   <p class="eyebrow">Event page · The Treaty of Versailles</p>
-  <h1>The Record, three new shapes</h1>
-  <p class="lede">A second try, further from a plain list. Each borrows something the page already does well. The words are placeholders; judge the shape.</p>
+  <h1>Option C, and three close variations</h1>
+  <p class="lede">C is the layout you chose. Each variation keeps its shape and changes one or two things to quiet it. The words are placeholders.</p>
 
   <div class="pick"><div class="seg" role="group" aria-label="Demo">
-    <button type="button" id="pick1" data-d="1" aria-pressed="true"><b>1</b><span>Tiles and sheet</span></button>
-    <button type="button" id="pick2" data-d="2" aria-pressed="false"><b>2</b><span>Tabs in place</span></button>
-    <button type="button" id="pick3" data-d="3" aria-pressed="false"><b>3</b><span>Thread</span></button>
+    <button type="button" id="pick0" data-d="0" aria-pressed="true"><b>C</b><span>As chosen</span></button>
+    <button type="button" id="pick1" data-d="1" aria-pressed="false"><b>C1</b><span>Lighter</span></button>
+    <button type="button" id="pick2" data-d="2" aria-pressed="false"><b>C2</b><span>Roomier</span></button>
+    <button type="button" id="pick3" data-d="3" aria-pressed="false"><b>C3</b><span>Lead open</span></button>
   </div></div>
   <p class="why" id="why"></p>
 
@@ -197,36 +226,28 @@ td:nth-child(2){font-variant-numeric:tabular-nums;white-space:nowrap;color:var(-
 (function(){
   var REC=[{"h": "The account", "s": "Paris, 18 January to 28 June 1919.", "b": "<p>The conference opened in Paris on 18 January 1919. The victors met without Germany or Soviet Russia. French Prime Minister Georges Clemenceau wanted Germany too weak to attack again. British Prime Minister David Lloyd George wanted a Germany that could still trade. US President Woodrow Wilson wanted a League of Nations. Clemenceau gave up his claim to the Rhine for an Anglo-American guarantee.<\/p><p>The German delegation received the terms on 7 May and signed at Versailles on 28 June.<\/p>"}, {"h": "What it did, and to whom", "s": "France and Poland gained land; Germany paid in land, arms and money.", "b": "<ul>\n          <li><b>Land.<\/b> Germany lost 13 percent of its European territory and every colony. France got Alsace-Lorraine back, and Poland got a corridor to the sea.<\/li>\n          <li><b>Arms.<\/b> The treaty capped the German army at 100,000 and disarmed the Rhineland.<\/li>\n          <li><b>Money.<\/b> The Allies set reparations at 132 billion gold marks in 1921. Germany paid about 20 billion.<\/li>\n          <li><b>Shandong.<\/b> Germany's rights in Shandong went to Japan, over China's protest.<\/li>\n        <\/ul>"}, {"h": "Why it held or failed", "s": "The terms held only while Britain and France enforced them.", "b": "<p>The treaty left Germany intact and surrounded by weak new states where Austria-Hungary and Russia had stood. The terms held only while Britain and France enforced them. By the 1930s British opinion considered German grievances fair.<\/p><p>One reading holds the terms were harsh enough to enrage and too weak to restrain. The other holds the terms were enforceable and the failure was the enforcers'.<\/p>"}, {"h": "By the numbers", "s": "Three figures and where each comes from.", "b": "<div class=\"tablewrap\"><table class=\"terms\">\n          <thead><tr><th>Figure<\/th><th>Value<\/th><th>Basis<\/th><\/tr><\/thead>\n          <tbody>\n            <tr><td>German territory lost in Europe<\/td><td class=\"num\">13%<\/td><td>Treaty terms<\/td><\/tr>\n            <tr><td>German army cap<\/td><td class=\"num\">100,000<\/td><td>Versailles, part V<\/td><\/tr>\n            <tr><td>Reparations<\/td><td class=\"num\">132 bn set<br>about 20 bn paid<\/td><td>London Schedule of Payments, 1921<\/td><\/tr>\n          <\/tbody><\/table><\/div>"}, {"h": "The common misreading", "s": "That reparations ruined Germany.", "b": "<p>Germany paid about 20 billion gold marks of the 132 billion set. The hyperinflation of 1923 came from the French occupation of the Ruhr and the German government's own printing of money.<\/p>"}, {"h": "Today", "s": "Three borders the treaty drew still stand.", "b": "<p>The Rhineland is German, Alsace is French, and the Polish corridor is Poland's coast.<\/p>"}, {"h": "The detail", "s": "A vote of 11 to 6 that the chair ruled lost.", "b": "<p>On 11 April 1919 Japan's proposal to write racial equality into the League Covenant won 11 of the 17 votes in commission. Wilson, in the chair, ruled that it needed unanimity, and the clause died.<\/p>"}];
   var WHY={
-    '1':'<b>1. Tiles and sheet.</b> The Record at a glance, in two columns, set the way Meanwhile is. Tap a tile and the piece opens in the gilt sheet the chain uses, with Before and Next to move through all seven. Nothing expands in the page, so the page never grows or jumps.',
-    '2':'<b>2. Tabs in place.</b> The row of names is the control, as the chain\'s bar is. One piece shows beneath it and the page keeps its length. The answer is the headline of each panel.',
-    '3':'<b>3. Thread.</b> The pieces hang on a thin gilt line with a diamond at each, the way events hang on a chapter\'s thread. Tap one and it opens where it hangs; its diamond turns red.'
+    '0':'<b>C, as chosen.</b> For reference: a counter and "Open all" at the top, the section name as a small label, the answer as the headline, an arrow at the right, and the open text set in from a gilt rule with its label in red.',
+    '1':'<b>C1. Lighter.</b> The counter line is gone. A small gilt plus replaces the arrow and turns to a minus. The label stays grey when open, and the open text sits flush with no rule beside it. Same rows, less ink.',
+    '2':'<b>C2. Roomier.</b> The counter line and the lines between rows are gone; space separates the pieces. The arrow is smaller and fainter. The gilt rule beside the open text stays, and the open label turns gilt.',
+    '3':'<b>C3. Lead open.</b> The first piece is already open and set a size larger, so The Record begins with something to read. The other six are C\'s rows, one open at a time.'
   };
-  var host=document.getElementById('demo'), sheetHost=document.getElementById('sheetHost'), mode='1', at=0, open=-1;
-  try{ var m=localStorage.getItem('recDemo3'); if(/^[123]$/.test(m))mode=m; }catch(e){}
-  function short(h){ return h.split(',')[0]; }
-
-  function sheet(i){ var r=REC[i];
-    sheetHost.innerHTML='<div class="scrim" data-x></div><div class="sheet" role="dialog" aria-modal="true" aria-label="'+r.h+'"><div class="sb"><p class="lab">'+r.h+' · '+(i+1)+' of '+REC.length+'</p><h3>'+r.s+'</h3>'+r.b+'</div>'
-      +'<div class="sf"><button type="button" data-go="'+(i-1)+'"'+(i>0?'':' disabled')+'>Before</button><button type="button" class="cl" data-x>Close</button><button type="button" data-go="'+(i+1)+'"'+(i<REC.length-1?'':' disabled')+'>Next</button></div></div>';
-    var c=sheetHost.querySelector('.cl'); if(c)c.focus({preventScroll:true}); }
-  sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-x]')){ sheetHost.innerHTML=''; return; } var g=e.target.closest('[data-go]'); if(g&&!g.disabled)sheet(+g.dataset.go); });
-  document.addEventListener('keydown',function(e){ if(e.key==='Escape')sheetHost.innerHTML=''; });
-
-  function draw(){ host.className='t'+mode;
-    if(mode==='1'){ host.innerHTML=REC.map(function(r,i){ return '<button type="button" data-i="'+i+'"'+(i===0?' class="wide"':'')+'><span class="lab">'+r.h+'</span><span class="ans">'+r.s+'</span></button>'; }).join(''); }
-    else if(mode==='2'){ var r=REC[at], n=REC[at+1];
-      host.innerHTML='<div class="idx" role="group" aria-label="Pieces of the record">'+REC.map(function(x,i){ return '<button type="button" data-i="'+i+'" aria-current="'+(i===at)+'">'+short(x.h)+'</button>'; }).join('')+'</div>'
-        +'<div class="panel"><p class="ans">'+r.s+'</p>'+r.b+'</div><div class="foot"><span>'+(at+1)+' of '+REC.length+'</span>'+(n?'<button type="button" data-i="'+(at+1)+'">Next: '+short(n.h)+'</button>':'<span>The end of the record</span>')+'</div>';
-      var on=host.querySelector('.idx [aria-current="true"]'), ix=host.querySelector('.idx'); ix.scrollLeft=Math.max(0,on.offsetLeft-(ix.clientWidth-on.offsetWidth)/2); }
-    else { host.innerHTML=REC.map(function(r,i){ return '<div class="st'+(i===open?' open':'')+'"><button type="button" data-i="'+i+'" aria-expanded="'+(i===open)+'"><span class="ans">'+r.s+'</span><span class="lab">'+r.h+'</span></button><div class="bd">'+r.b+'</div></div>'; }).join(''); }
-  }
-  host.addEventListener('click',function(e){ var b=e.target.closest('button[data-i]'); if(!b)return; var i=+b.dataset.i;
-    if(mode==='1')sheet(i); else if(mode==='2'){ at=i; draw(); } else { open=open===i?-1:i; draw(); } });
+  var host=document.getElementById('demo'), mode='0', open={};
+  try{ var m=localStorage.getItem('recDemo4'); if(/^[0123]$/.test(m))mode=m; }catch(e){}
+  function words(){ var n=0; REC.forEach(function(r){ n+=r.b.replace(/<[^>]+>/g,' ').split(/\s+/).filter(Boolean).length; }); return n; }
+  function draw(){ host.className='cv'+mode; var mins=Math.max(1,Math.round(words()/230)), all=REC.every(function(r,i){ return open[i]; });
+    host.innerHTML='<div class="c-top"><span>'+REC.length+' pieces · about '+mins+(mins===1?' minute':' minutes')+' to read in full</span><button type="button" id="cAll">'+(all?'Close all':'Open all')+'</button></div>'
+      +REC.map(function(r,i){ return '<div class="c-row'+(open[i]?' open':'')+'"><button type="button" data-i="'+i+'" aria-expanded="'+(!!open[i])+'"><span class="lab">'+r.h+'</span><span class="ans">'+r.s+'</span><i class="ch" aria-hidden="true"></i></button><div class="c-body">'+r.b+'</div></div>'; }).join(''); }
+  host.addEventListener('click',function(e){
+    if(e.target.closest('#cAll')){ var to=!REC.every(function(r,i){ return open[i]; }); open={}; if(to)REC.forEach(function(r,i){ open[i]=1; }); draw(); return; }
+    var b=e.target.closest('.c-row > button'); if(!b)return; var i=+b.dataset.i, was=open[i];
+    if(mode!=='0')open={};            /* the variations keep one piece open at a time */
+    if(was)delete open[i]; else open[i]=1; draw(); });
   function paint(){
     [].forEach.call(document.querySelectorAll('.seg button'),function(b){ b.setAttribute('aria-pressed',String(b.dataset.d===mode)); });
     document.getElementById('why').innerHTML=WHY[mode]; draw();
   }
-  [].forEach.call(document.querySelectorAll('.seg button'),function(b){ b.addEventListener('click',function(){ mode=b.dataset.d; open=-1; at=0; sheetHost.innerHTML=''; try{ localStorage.setItem('recDemo3',mode); }catch(e){} paint(); window.scrollTo({top:0,behavior:'auto'}); }); });
+  [].forEach.call(document.querySelectorAll('.seg button'),function(b){ b.addEventListener('click',function(){ mode=b.dataset.d; open=mode==='3'?{0:1}:{}; try{ localStorage.setItem('recDemo4',mode); }catch(e){} paint(); window.scrollTo({top:0,behavior:'auto'}); }); });
+  if(mode==='3')open={0:1};
   paint();
 })();
 </script>

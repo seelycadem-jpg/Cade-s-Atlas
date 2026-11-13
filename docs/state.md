@@ -524,6 +524,13 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   grows); 2, Tabs in place (the row of names is the control, one panel beneath, the answer
   as its headline); 3, Thread (the pieces hang on a gilt line with a diamond at each and
   open where they hang). Awaiting his pick.
+  Cade rejected those too: he wants variations of C itself, the layout he chose. The page
+  now shows C as chosen beside three close variations that keep its rows: C1, Lighter (no
+  counter line, a gilt plus for the arrow, the label stays grey, the open text flush);
+  C2, Roomier (no counter and no rules between rows, a fainter arrow, the gilt rule beside
+  the open text kept); C3, Lead open (the first piece open on load and set larger, the
+  rest as C). Awaiting his pick. Lesson for this chat: when he names a chosen option,
+  vary it in small steps and show the original beside the variations.
 
 ### B. On trial in the mock, for Cade to settle
 
