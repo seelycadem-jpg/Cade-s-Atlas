@@ -596,6 +596,13 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     It is open on a reader's first visit and closed after (browser storage, key `atlasKeySeen`); always
     open at 1100px and wider.
   - The chain's top rule is gilt.
+  - Full screen is fitted to the way the phone is held (same day). Sideways: one thin bar, then the chart
+    to the bottom edge; the two counts and the Key button sit in the bar; the key opens as a small gilt
+    panel; a tapped event's card stands at the right and the chart narrows to three columns beside it.
+    Upright: a column shows as many events as the height allows (up to six) before it becomes a drum, and
+    a line says "Turn your phone for a wider view" on the first open. The number of rows a column shows is
+    now a variable (two to six), no longer fixed at three; in the page it stays three. A sideways phone
+    is short, so it shows two rows per column.
   For the master chat: full screen is a new mode of the event page that the standards do not describe.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
