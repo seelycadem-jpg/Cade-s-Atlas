@@ -575,6 +575,13 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   and The timeline carry the house link underline (thin, red); the chevron tried on the pair was dropped the same day.
 - **Link underlines at 0.6px (Cade, 2026-11-14, on trial).** Every link underline in the mock went from
   1px to 0.6px. A phone screen draws that as a finer line; an ordinary desktop screen still draws 1px.
+- **The chain moves by dragging; the scale bar is gone (Cade, 2026-11-14, on trial).** The chain already
+  slid sideways and settled on a column; the scale bar under it repeated that job. Now a column past the
+  last full one is drawn narrower, fainter and pulled in, so a sliver shows at each edge of the screen
+  (the same idea as the tall columns' drums). A tap on a sliver slides one screen that way. The foot keeps
+  the two counts and arrows, with "Drag to follow the chain" between them. On a phone the three full
+  columns keep the page's 20px margin (cards 90px wide at 390px, was 99px); the margin holds only the
+  slivers. Not done: a width cap for the chain on a desktop.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.

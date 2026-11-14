@@ -1131,6 +1131,15 @@ h2{font-size:24px}
 .ongo button+button{padding-left:10px}
 .ongo b{font-size:17px;white-space:nowrap}
 .ongo .onch{display:none;flex:none;width:8px;height:8px;margin-right:4px;border-top:1.25px solid var(--gilt);border-right:1.25px solid var(--gilt);transform:rotate(45deg)}
+
+/* The chain moves by dragging (Cade, 2026-11-14, on trial). The scale bar is gone: the two counts stay at the ends of
+   the foot, with one line between them that says how to move. The full columns keep the page's 20px margin; the
+   margin itself holds only the curved slivers. */
+.wcanvas .nd[data-hs="1"]{pointer-events:none}
+.wcanvas .nd[data-hs="1"] .nt,.wcanvas .nd[data-hs="1"] .nm > *{visibility:hidden}
+.ruler.foot{padding:2px 14px 3px!important;margin-top:2px}
+.ruler.foot .mini{visibility:hidden;pointer-events:none}
+.ruler.foot::after{content:"Drag to follow the chain";top:50%;bottom:auto;transform:translateY(-50%);font-size:13px}
 </style>
 
 <div class="stage" id="stage">
@@ -1531,10 +1540,10 @@ h2{font-size:24px}
     var move=(mode!=='init'&&mode!=='resize')&&!reduced, anchor=N[centre]&&!N[centre].gone?N[centre]:null;
     var keepCol=(mode==='resize'&&G&&G.cx)?Math.round((scroller.scrollLeft+G.W/2-G.cx(G.minS))/CW-0.5)+G.minS:0, keepDrum=(mode==='resize'||mode==='swap'||mode==='init')?{}:drumF;
     G=build(); if(sel&&!G.need[sel])sel=null;
-    var Wd=scroller.clientWidth||360; VIS=Wd<560?3:5; var EDGE=6; GAP=40; CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; var OFF=GAP/2-EDGE;
+    var Wd=scroller.clientWidth||360; VIS=Wd<560?3:5; var EDGE=Wd<560?20:6; GAP=40; CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; var OFF=GAP/2-EDGE;
     var half=(VIS-1)/2, padL=Math.max(0,half+G.minS)*CW, padR=Math.max(0,half-G.maxS)*CW, ncol=G.maxS-G.minS+1;
     var CWID=padL+ncol*CW+padR-2*OFF, yc=0;
-    G.cx=function(s){ return padL+(s-G.minS)*CW-OFF; }; G.W=Wd; G.ncol=ncol; G.CWID=CWID;
+    G.cx=function(s){ return padL+(s-G.minS)*CW-OFF; }; G.W=Wd; G.ncol=ncol; G.CWID=CWID; G.EDGE=EDGE;
     canvas.style.setProperty('--chipw',(CW-34).toFixed(0)+'px');
 
     /* every event that shows: make it, set whether it is a card or a small name, and measure it */
@@ -1611,12 +1620,16 @@ h2{font-size:24px}
   /* the engine: every card eases toward its place each frame, and the lines are redrawn from where the cards are */
   var running=0;
   function kick(){ if(!running) running=requestAnimationFrame(function(){ running=0; frame(false); }); }
-  function frame(snap){ var more=false, k=(snap||reduced)?1:0.17;
+  /* The chain curves away at the sides (Cade, 2026-11-14): a column past the last full one is drawn narrower, fainter
+     and pulled in, so a sliver of it shows at the edge of the screen and says there is more to drag to. */
+  function frame(snap){ var more=false, k=(snap||reduced)?1:0.17, sl=scroller.scrollLeft, Wv=(G&&G.W)||360, inner=((G&&G.EDGE)||6)+NW/2, pull=14-((G&&G.EDGE)||6)+GAP+0.15*NW;
     Object.keys(N).forEach(function(id){ var n=N[id], c=n.cur, t=n.tg;
       c.x+=(t.x-c.x)*k; c.y+=(t.y-c.y)*k; c.s+=(t.s-c.s)*k; c.o+=(t.o-c.o)*k; c.d+=(t.d-c.d)*k; c.q+=(t.q-c.q)*k;
       if(Math.abs(t.x-c.x)>0.25||Math.abs(t.y-c.y)>0.25||Math.abs(t.s-c.s)>0.003||Math.abs(t.o-c.o)>0.008||Math.abs(t.d-c.d)>0.008||Math.abs(t.q-c.q)>0.008) more=true; else { c.x=t.x; c.y=t.y; c.s=t.s; c.o=t.o; c.d=t.d; c.q=t.q; }
       if(n.gone&&c.o<0.02){ n.el.remove(); delete N[id]; return; }
-      n.el.style.transform='translate3d('+c.x.toFixed(2)+'px,'+c.y.toFixed(2)+'px,0) translateY(-50%) scale('+c.s.toFixed(4)+')'; n.el.style.opacity=(c.o*c.d*c.q).toFixed(3); });
+      var sx=c.x+n.w/2-sl, bl=inner-sx, br=sx-(Wv-inner), bb=Math.max(bl,br,0), u=Math.min(bb/CW,1.6), u1=Math.min(u,1), hx=(bl>0?1:-1)*pull*u1, ho=u<=1?1-0.6*u:Math.max(0,0.4-(u-1)*0.8);
+      var hs=u>0.5?'1':'0'; if(n.hs!==hs){ n.hs=hs; n.el.setAttribute('data-hs',hs); }
+      n.el.style.transform='translate3d('+(c.x+hx).toFixed(2)+'px,'+c.y.toFixed(2)+'px,0) translateY(-50%) scale('+(c.s*(1-0.3*u1)).toFixed(4)+','+(c.s*(1-0.14*u1)).toFixed(4)+')'; n.el.style.opacity=(c.o*c.d*c.q*ho).toFixed(3); });
     Object.keys(ED).forEach(function(id){ var e=ED[id], a=N[e.l.f], b=N[e.l.t]; if(!a||!b){ e.g.remove(); delete ED[id]; return; }
       e.cuA+=(e.tgA-e.cuA)*k; if(Math.abs(e.tgA-e.cuA)>0.008)more=true; else e.cuA=e.tgA;
       if(e.gone&&e.cuA<0.02){ e.g.remove(); delete ED[id]; return; }
@@ -1650,7 +1663,9 @@ h2{font-size:24px}
     document.getElementById('recBtn').classList.toggle('on',off||turned);
     var win=document.getElementById('win'); if(win){ var inner=mini.clientWidth, x0=G.cx(G.minS), span=G.ncol*CW;
       var a=Math.max(0,(x-x0)/span), b=Math.min(1,(x+G.W-x0)/span); win.style.transform='translate3d('+(a*inner).toFixed(1)+'px,0,0)'; win.style.width=Math.max(0,(b-a)*inner).toFixed(1)+'px'; } }
-  scroller.addEventListener('scroll',function(){ if(!q){q=true;requestAnimationFrame(sync);} },{passive:true});
+  scroller.addEventListener('scroll',function(){ if(!q){q=true;requestAnimationFrame(sync);} kick(); },{passive:true});
+  /* a tap on the sliver at either edge slides one screen that way */
+  scroller.addEventListener('click',function(e){ if(e.target.closest('.nd,button,.drumscroll'))return; var r=scroller.getBoundingClientRect(), x=e.clientX-r.left; if(x<26)document.getElementById('goL').click(); else if(x>r.width-26)document.getElementById('goR').click(); });
   document.getElementById('goL').addEventListener('click',function(){ toCol(clamp(colNow()-(VIS-1),G.minS+Math.min((VIS-1)/2,-G.minS),G.maxS),true); });
   document.getElementById('goR').addEventListener('click',function(){ toCol(clamp(colNow()+(VIS-1),G.minS,G.maxS-Math.min((VIS-1)/2,G.maxS)),true); });
   document.getElementById('recBtn').addEventListener('click',function(){ Object.keys(G.drum).forEach(function(k){ drumTo(+k,0); }); toCol(0,true); });
