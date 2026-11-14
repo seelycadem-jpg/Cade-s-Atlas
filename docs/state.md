@@ -643,6 +643,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   Meanwhile is gone, so every break is the same. In the mock it is one value, `--secgap`. For the master
   chat: Cade asked for this as a rule across the whole website; it belongs in the standards, which the
   sub chat does not edit.
+- **The key defines the three kinds of arrow (Cade, 2026-11-14).** In the page, Key sits at the left of its
+  row and Zoom at the right, as in full screen. The key now gives each arrow a full line, as it does each
+  size. The wording is the sub chat's draft and needs the master chat's check against the standards:
+  "Necessary. Without this cause, the effect would not have happened." "Contributing. One cause of
+  several. The effect could have happened without it." "Contested. The evidence supports two readings,
+  and the atlas gives no verdict." The compact strip in full screen shows the names only.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.

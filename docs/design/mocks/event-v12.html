@@ -1231,8 +1231,8 @@ html.chainland .toast{bottom:12px}
    the key row when upright. Sideways, the two "more" counts leave the bar and stand at the sides of the chart, in a
    margin the full cards keep clear. */
 .chainbox.land .cbar{grid-template-columns:auto minmax(0,250px) 1fr auto auto auto auto!important}
-.chainbox.full:not(.land) .zoomc{margin-left:auto;margin-right:10px}
-.chainbox.full:not(.land) .keybtn{justify-content:flex-start;padding-left:20px}
+.chainbox:not(.land) .zoomc{margin-left:auto;margin-right:10px}
+.chainbox:not(.land) .keybtn{justify-content:flex-start;padding-left:20px}
 .chainbox.land .web{position:relative}
 .chainbox.land .web .ruler.foot{position:absolute;inset:0;display:block;margin:0;padding:0!important;border:0;pointer-events:none;z-index:40}
 .chainbox.land .web .ruler.foot::after,.chainbox.land .web .ruler.foot .mini{display:none}
@@ -1246,6 +1246,19 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .wcanvas,.wcanvas .nd .card{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .wcanvas.zo .nd:not(.chip) .card{overflow:hidden}
 .wcanvas.zo .nd:not(.chip) .nt{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;hyphens:none}
+
+/* The key defines the three kinds of arrow as it defines the three sizes (Cade, 2026-11-14). */
+.legend .lgap{grid-column:1 / -1;height:0;border-top:1px solid var(--rule);margin:5px 0 3px}
+.legend .g .gl{width:15px}
+.chainbox.full .legend .lgap{display:none}
+.chainbox.full .legend .g .gl{width:18px;margin-right:6px}
+
+/* each mark stays with its name: a row is invisible to the page's grid and one unbreakable pair in the compact strip */
+.legend .kr{display:contents}
+.chainbox.full .legend .kr{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;font-size:0}
+.chainbox.full .legend .kr > span{font-size:0;display:inline-flex;align-items:center}
+.chainbox.full .legend .kr > span b{font:500 11.5px/1.2 var(--ui);color:var(--ink2);margin-right:8px}
+.chainbox.full .legend .g .gl{margin-right:0}
 </style>
 
 <div class="stage" id="stage">
@@ -1323,10 +1336,13 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     <div class="zoomc" id="zoomC" role="group" aria-label="Zoom"><button type="button" id="zOut" aria-label="Zoom out: more events on screen">&minus;</button><span>Zoom</span><button type="button" id="zIn" aria-label="Zoom in: larger cards" disabled>+</button></div>
     <button type="button" class="keybtn" id="keyBtn" aria-expanded="false" aria-controls="chainKey"><span>Key</span><i aria-hidden="true"></i></button>
     <div class="legend" id="chainKey" aria-label="Key" hidden>
-      <span class="g"><i class="mk k"></i></span><span><b>Knot</b>. An event that changed the course of its world.</span>
-      <span class="g"><i class="mk fi"></i></span><span><b>Fibre</b>. An event that changed the course of one people or region.</span>
-      <span class="g"><i class="mk st"></i></span><span><b>Strand</b>. An event that changed the course of a city, an institution or a movement.</span>
-      <span class="lines"><span><i class="gl" aria-hidden="true"></i>Necessary</span><span><i class="gl contrib" aria-hidden="true"></i>Contributing: one cause of several</span><span><i class="gl contest" aria-hidden="true"></i>Contested</span></span>
+      <span class="kr"><span class="g"><i class="mk k"></i></span><span><b>Knot</b>. An event that changed the course of its world.</span></span>
+      <span class="kr"><span class="g"><i class="mk fi"></i></span><span><b>Fibre</b>. An event that changed the course of one people or region.</span></span>
+      <span class="kr"><span class="g"><i class="mk st"></i></span><span><b>Strand</b>. An event that changed the course of a city, an institution or a movement.</span></span>
+      <span class="lgap" aria-hidden="true"></span>
+      <span class="kr"><span class="g"><i class="gl" aria-hidden="true"></i></span><span><b>Necessary</b>. Without this cause, the effect would not have happened.</span></span>
+      <span class="kr"><span class="g"><i class="gl contrib" aria-hidden="true"></i></span><span><b>Contributing</b>. One cause of several. The effect could have happened without it.</span></span>
+      <span class="kr"><span class="g"><i class="gl contest" aria-hidden="true"></i></span><span><b>Contested</b>. The evidence supports two readings, and the atlas gives no verdict.</span></span>
     </div>
     </div>
   </section>
