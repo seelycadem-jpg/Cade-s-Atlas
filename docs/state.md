@@ -630,6 +630,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     tells the phone not to enlarge small text on its own (`text-size-adjust`), clips a card's contents to
     the card and caps a zoomed-out title at three lines. Cade reported garbled text at the furthest zoom
     on his phone; the sub chat could not reproduce it in its test browser, so this fix is unconfirmed.
+  - Gaps scale with the cards (Cade, same day; corrects the two notes above). Cade found the gaps between
+    events odd when zoomed out: rows spread up to 1.7 times and columns held a 28px gap while the cards
+    shrank. Now the row gap shrinks with the card and rows spread by at most 1.22 times; the column gap
+    may fall to 20px. A zoomed-out chain sits as one tight group in the middle of the screen and no
+    longer stretches to fill the height. A third-pass change (plain Key switch, drag to the chain's ends)
+    was rolled back at Cade's request the same day; both needs stay open.
   For the master chat: full screen is a new mode of the event page that the standards do not describe.
 - **One gap between sections; Cade wants it as a site-wide rule (2026-11-14).** Every section of the event
   page now ends with the same space before the next heading: 68px on a phone, about two blank lines of

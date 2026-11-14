@@ -1652,12 +1652,12 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     /* Zoom (Cade, 2026-11-14, on trial): three levels. Zooming out fits more columns across and more rows down; the
        cards are the same cards, drawn smaller. */
     var Wd=scroller.clientWidth||360, vb=Wd<560?3:5, EDGE=isLand?40:Wd<560?20:6;
-    VIS=vb+(vb===3?zoomLv:2*zoomLv); GAP=clamp(Math.round(40*vb/VIS),28,48); CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; ZC=NW/((Wd-2*EDGE+40)/vb-40);
+    VIS=vb+(vb===3?zoomLv:2*zoomLv); GAP=clamp(Math.round(40*vb/VIS),20,48); CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; ZC=NW/((Wd-2*EDGE+40)/vb-40);
     RH=Math.round(92*ZC); PEEK=Math.round(34*ZC); canvas.style.setProperty('--zc',ZC.toFixed(4)); canvas.classList.toggle('zo',zoomLv>0); canvas.classList.toggle('zfar',zoomLv>2);
     /* Full screen fills its height (Cade, 2026-11-14): the chart takes all the room the bar, the foot and the key
        leave, the rows that fit are counted from that, and the rows then spread to use it, which also gives the
        arrows room between events. */
-    var avH=0, RHmin=Math.round(82*ZC+18);
+    var avH=0, RHmin=Math.round(82*ZC+8+10*ZC);   /* the gap between rows shrinks with the cards */
     MAXR=clamp(Math.round(3/ZC),3,6);
     if(isFull){ avH=window.innerHeight-cbar.offsetHeight-(isLand?0:footEl.offsetHeight+keyBtnEl.offsetHeight)-(keyEl.hidden?0:keyEl.offsetHeight)-10+fullAdj; RH=RHmin; MAXR=clamp(Math.floor((avH-TOP-2*PEEK)/RHmin),2,8); }
     G=build(); if(sel&&!G.need[sel])sel=null;
@@ -1675,7 +1675,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       n.el.setAttribute('aria-label',name(id)+', '+when(id)+', '+SZW[size(id)]+', '+stepWord(k)+(n.chip?', outside your filters':'')); }); });
     paintClasses();
     if(isFull){ var most=1, drumAny=false; Object.keys(G.cols).forEach(function(k){ var L=G.cols[k].length; if(L>MAXR)drumAny=true; most=Math.max(most,Math.min(L,MAXR)); });
-      RH=Math.round(clamp((avH-TOP-16-(drumAny?2*PEEK:0))/Math.max(most,2),RHmin,RHmin*1.7)); }
+      RH=Math.round(clamp((avH-TOP-16-(drumAny?2*PEEK:0))/Math.max(most,2),RHmin,RHmin*1.22)); }
     order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=isFull?RH:Math.max(64*ZC,n.h+(zoomLv?18:12)*ZC); });
     /* the canvas is as tall as its tallest column, up to four rows; a longer column becomes a drum */
     var tall=2.2*RH, anyDrum=false; Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); if(c.length>MAXR)anyDrum=true; tall=Math.max(tall,Math.min(t,MAXR*RH)); }); if(anyDrum)tall=MAXR*RH+2*PEEK-16;
