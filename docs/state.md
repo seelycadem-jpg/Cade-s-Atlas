@@ -636,6 +636,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     may fall to 20px. A zoomed-out chain sits as one tight group in the middle of the screen and no
     longer stretches to fill the height. A third-pass change (plain Key switch, drag to the chain's ends)
     was rolled back at Cade's request the same day; both needs stay open.
+  - A blank band under the chart in upright full screen (Cade's screenshot, same day) is fixed. The cause
+    was the sub chat's own "measure and correct" step: it measured while the chart was still easing to
+    its new height and so cut the chart short, by about 135px on Cade's phone. That step is gone. The
+    chart's room is now the box less its padding less each other part measured by itself. Tested at six
+    screen sizes, key open and closed, both zoom steps: 3px of slack at most, nothing spilling.
   For the master chat: full screen is a new mode of the event page that the standards do not describe.
 - **One gap between sections; Cade wants it as a site-wide rule (2026-11-14).** Every section of the event
   page now ends with the same space before the next heading: 68px on a phone, about two blank lines of

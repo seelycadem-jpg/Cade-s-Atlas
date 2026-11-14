@@ -1675,7 +1675,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
        arrows room between events. */
     var avH=0, RHmin=Math.round(82*ZC+8+10*ZC);   /* the gap between rows shrinks with the cards */
     MAXR=clamp(Math.round(3/ZC),3,6);
-    if(isFull){ avH=window.innerHeight-cbar.offsetHeight-(isLand?0:footEl.offsetHeight+keyBtnEl.offsetHeight)-(keyEl.hidden?0:keyEl.offsetHeight)-10+fullAdj; RH=RHmin; MAXR=clamp(Math.floor((avH-TOP-2*PEEK)/RHmin),2,8); }
+    if(isFull){ avH=roomForChart(); RH=RHmin; MAXR=clamp(Math.floor((avH-TOP-2*PEEK)/RHmin),2,8); }
     G=build(); if(sel&&!G.need[sel])sel=null;
     var OFF=GAP/2-EDGE;
     var half=(VIS-1)/2, padL=Math.max(0,half+G.minS)*CW, padR=Math.max(0,half-G.maxS)*CW, ncol=G.maxS-G.minS+1;
@@ -1939,7 +1939,13 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function snug(){ if(!isFull||sel)return; chainBox.scrollTop=0; var cb=0, box=chainBox.getBoundingClientRect(); [].forEach.call(chainBox.children,function(c){ var r=c.getBoundingClientRect(); if(r.height)cb=Math.max(cb,r.bottom); });
     /* the canvas eases to its new height, so count the height it is heading for, not the one on screen now */
     var d=box.bottom-(cb+HC-canvas.getBoundingClientRect().height); if(Math.abs(d)>3&&Math.abs(fullAdj+d)<160){ fullAdj+=d; layout('resize'); } }
-  function refit(home){ fullAdj=0; layout('resize'); snug(); paint(); toCol(sel&&G.step[sel]!=null?G.step[sel]:home===true?0:typeof home==='number'?clamp(home,G.minS,G.maxS):colNow(),false); sync(); kick(); }
+  /* The height the chart may take in full screen: the box, less its own padding, less every other part in it.
+     Each part is measured by itself, so the answer does not depend on how tall the chart is at the moment. */
+  function roomForChart(){ function outer(el){ var cs=getComputedStyle(el); if(cs.display==='none'||cs.position==='absolute'||cs.position==='fixed')return 0; return el.offsetHeight+(parseFloat(cs.marginTop)||0)+(parseFloat(cs.marginBottom)||0); }
+    var cs=getComputedStyle(chainBox), room=chainBox.clientHeight-(parseFloat(cs.paddingTop)||0)-(parseFloat(cs.paddingBottom)||0);
+    [].forEach.call(chainBox.children,function(c){ if(c===webEl){ [].forEach.call(webEl.children,function(w){ if(w!==scroller)room-=outer(w); }); } else room-=outer(c); });
+    return Math.max(220,Math.floor(room)-1); }
+  function refit(home){ chainBox.style.paddingBottom=''; layout('resize'); paint(); toCol(sel&&G.step[sel]!=null?G.step[sel]:home===true?0:typeof home==='number'?clamp(home,G.minS,G.maxS):colNow(),false); sync(); kick(); }
   window.addEventListener('resize',function(){ if(!isFull)return; if(sel)select(null); arrange(); setTimeout(function(){ refit(true); },180); });
   function scrollPort(){ return isFull?chainBox:window; }
   function portY(sp){ return sp===window?window.scrollY:sp.scrollTop; }
