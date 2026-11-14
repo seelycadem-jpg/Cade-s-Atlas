@@ -1246,6 +1246,16 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .wcanvas,.wcanvas .nd .card{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .wcanvas.zo .nd:not(.chip) .card{overflow:hidden}
 .wcanvas.zo .nd:not(.chip) .nt{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;hyphens:none}
+
+/* Full screen: Key is a plain switch like Knots and Fibres (a gilt line under it when the key shows), so its plus no
+   longer sits beside Zoom's minus. Sideways, the bar's groups sit closer together. */
+.chainbox.full .keybtn i{display:none}
+.chainbox.full .keybtn span{padding:5px 1px 6px;box-shadow:none;color:var(--ink3)}
+.chainbox.full .keybtn[aria-expanded="true"] span{color:var(--ink);box-shadow:inset 0 -1.5px 0 var(--gilt)}
+.chainbox.land .cbar{grid-template-columns:auto minmax(0,216px) 1fr auto auto auto auto!important}
+.chainbox.land .cbar .keybtn{padding:0 14px}
+.chainbox.land .cbar .zoomc{padding:0 4px}
+.chainbox.land .cbar .zoomc span{padding:0 4px}
 </style>
 
 <div class="stage" id="stage">
@@ -1662,7 +1672,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     if(isFull){ avH=window.innerHeight-cbar.offsetHeight-(isLand?0:footEl.offsetHeight+keyBtnEl.offsetHeight)-(keyEl.hidden?0:keyEl.offsetHeight)-10+fullAdj; RH=RHmin; MAXR=clamp(Math.floor((avH-TOP-2*PEEK)/RHmin),2,8); }
     G=build(); if(sel&&!G.need[sel])sel=null;
     var OFF=GAP/2-EDGE;
-    var half=(VIS-1)/2, padL=Math.max(0,half+G.minS)*CW, padR=Math.max(0,half-G.maxS)*CW, ncol=G.maxS-G.minS+1;
+    /* in full screen the chain can always be dragged until its first or last column stands in the middle */
+    var half=(VIS-1)/2, padL=(isFull?half:Math.max(0,half+G.minS))*CW, padR=(isFull?half:Math.max(0,half-G.maxS))*CW, ncol=G.maxS-G.minS+1;
     var CWID=padL+ncol*CW+padR-2*OFF, yc=0;
     G.cx=function(s){ return padL+(s-G.minS)*CW-OFF; }; G.W=Wd; G.ncol=ncol; G.CWID=CWID; G.EDGE=EDGE;
     canvas.style.setProperty('--chipw',((CW-34)/ZC).toFixed(0)+'px');
@@ -1786,7 +1797,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   var q=false; function sync(){ q=false; if(!G)return; var max=scroller.scrollWidth-scroller.clientWidth, x=scroller.scrollLeft;
     var ml=0, mr=0; Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone||n.chip||id===centre)return; if(n.tg.x+n.w<x+6)ml++; else if(n.tg.x>x+G.W-6)mr++; });
     document.getElementById('nL').textContent=ml; document.getElementById('nR').textContent=mr;
-    document.getElementById('goL').disabled=x<=2; document.getElementById('goR').disabled=x>=max-2;
+    document.getElementById('goL').disabled=x<=2||ml===0; document.getElementById('goR').disabled=x>=max-2||mr===0;
     var off=Math.abs(x-(G.cx(0)+CW/2-G.W/2))>6, turned=Object.keys(G.drum).some(function(k){ return drumF[k]>0.01; });
     document.getElementById('recBtn').classList.toggle('on',off||turned);
     var win=document.getElementById('win'); if(win){ var inner=mini.clientWidth, x0=G.cx(G.minS), span=G.ncol*CW;
