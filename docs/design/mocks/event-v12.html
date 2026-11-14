@@ -1208,6 +1208,13 @@ html.chainland .toast{bottom:12px}
 .chainbox.land .cbar .zoomc button{width:28px;height:36px}
 .chainbox.land .cbar{grid-template-columns:auto minmax(0,250px) 1fr auto auto auto auto auto!important}
 .chainbox.land .cbar .keybtn{padding-right:12px}
+
+/* Room between sections (Cade, 2026-11-14): a section ends, then about two blank lines, then the next heading.
+   One measure for every section break on the page. */
+:root{--secgap:68px}
+.layer ~ .layer > h2{margin-top:var(--secgap)}
+.onward .onl{margin-top:var(--secgap)}
+.layer > .sep{display:none}
 </style>
 
 <div class="stage" id="stage">

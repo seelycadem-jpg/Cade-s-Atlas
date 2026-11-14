@@ -610,6 +610,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     overview only. Column labels shorten to "Cause 2" when zoomed out. Three fixed levels, no free zoom,
     in line with the timeline's rule.
   For the master chat: full screen is a new mode of the event page that the standards do not describe.
+- **One gap between sections; Cade wants it as a site-wide rule (2026-11-14).** Every section of the event
+  page now ends with the same space before the next heading: 68px on a phone, about two blank lines of
+  reading text (was 34px). The same gap sits above "Where next?". The diamond rule that stood before
+  Meanwhile is gone, so every break is the same. In the mock it is one value, `--secgap`. For the master
+  chat: Cade asked for this as a rule across the whole website; it belongs in the standards, which the
+  sub chat does not edit.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.
