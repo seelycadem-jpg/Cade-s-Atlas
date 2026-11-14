@@ -603,6 +603,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     a line says "Turn your phone for a wider view" on the first open. The number of rows a column shows is
     now a variable (two to six), no longer fixed at three; in the page it stays three. A sideways phone
     is short, so it shows two rows per column.
+  - Zoom (same day, on trial): three levels, by a minus and plus control (beside the Key upright, in the
+    bar sideways) or a two-finger pinch on the chart. Zooming out fits more columns and rows: upright 3,
+    4 or 5 columns; sideways 5, 7 or 9. The cards are the same cards drawn smaller (CSS `zoom` on the
+    card), so titles wrap the same at every level; at the far level a title is about 8px tall, an
+    overview only. Column labels shorten to "Cause 2" when zoomed out. Three fixed levels, no free zoom,
+    in line with the timeline's rule.
   For the master chat: full screen is a new mode of the event page that the standards do not describe.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises

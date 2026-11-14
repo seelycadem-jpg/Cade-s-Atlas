@@ -1193,6 +1193,21 @@ html.chainland .dock.in{transform:none}
 html.chainland .dockin{max-height:100%}
 html.chainland .sheet.gilded{bottom:8px;max-height:calc(100% - 16px)}
 html.chainland .toast{bottom:12px}
+
+/* Zoom: the cards are drawn smaller, never re-set; the control shares a row with the Key. */
+.wcanvas .nd .card{zoom:var(--zc,1)}
+.wcanvas.zo .colh{font-size:9px;letter-spacing:.05em}
+.wcanvas.zo .dch{font-size:9px}
+.wscroll{touch-action:pan-x pan-y}
+.zoomc{display:flex;align-items:center;gap:0;width:max-content;height:34px;margin:0 0 -34px 10px;position:relative;z-index:1;font:500 9px/1 var(--ui);letter-spacing:.11em;text-transform:uppercase;color:var(--ink3)}
+.zoomc button{display:grid;place-items:center;width:32px;height:34px;font:400 16px/1 var(--ui);color:var(--ink)}
+.zoomc span{padding:0 2px}
+.zoomc button:disabled{color:var(--rule)}
+.chainbox .keybtn{justify-content:flex-end;padding-right:20px;border-top:1px solid var(--rule)}
+.chainbox.land .cbar .zoomc{margin:0;height:36px;border-bottom:1px solid var(--rule);padding:0 2px;background-image:linear-gradient(var(--rule),var(--rule));background-size:1px 14px;background-position:0 50%;background-repeat:no-repeat}
+.chainbox.land .cbar .zoomc button{width:28px;height:36px}
+.chainbox.land .cbar{grid-template-columns:auto minmax(0,250px) 1fr auto auto auto auto auto!important}
+.chainbox.land .cbar .keybtn{padding-right:12px}
 </style>
 
 <div class="stage" id="stage">
@@ -1267,6 +1282,7 @@ html.chainland .toast{bottom:12px}
       <div class="webpad"></div>
     </div>
 
+    <div class="zoomc" id="zoomC" role="group" aria-label="Zoom"><button type="button" id="zOut" aria-label="Zoom out: more events on screen">&minus;</button><span>Zoom</span><button type="button" id="zIn" aria-label="Zoom in: larger cards" disabled>+</button></div>
     <button type="button" class="keybtn" id="keyBtn" aria-expanded="false" aria-controls="chainKey"><span>Key</span><i aria-hidden="true"></i></button>
     <div class="legend" id="chainKey" aria-label="Key" hidden>
       <span class="g"><i class="mk k"></i></span><span><b>Knot.</b> An event that changed the course of its world.</span>
@@ -1519,7 +1535,7 @@ html.chainland .toast{bottom:12px}
   var centre=HOME, steps=3 /* three steps is the starting view (Cade, 2026-11-12) */, show={k:true,fi:true,st:false}, kinds={} /* the kinds switched on; none means all */, side=0 /* -1 causes only, 1 effects only */, bbOnly=false, sel=null, G=null;
   var scroller=document.getElementById('wscroll'), canvas=document.getElementById('wcanvas'), svg=document.getElementById('edges'), headsLayer=document.getElementById('heads'), nodesLayer=document.getElementById('nodes'), mini=document.getElementById('mini'), trail=document.getElementById('trail');
   var N={} /* event id -> its card, where it is and where it is going */, ED={} /* link id -> its line */, drumF={} /* step -> the row a long column is turned to */;
-  var CW=130, NW=100, GAP=40, RH=92, RB=42, TOP=30, VIS=3, MAXR=3, HC=380, PEEK=34;
+  var zoomLv=0, ZC=1, CW=130, NW=100, GAP=40, RH=92, RB=42, TOP=30, VIS=3, MAXR=3, HC=380, PEEK=34;
   function anyKind(){ return Object.keys(kinds).length>0; }
   function matches(id){ return id===centre||(show[size(id)]&&(!anyKind()||(E[id].c||[]).some(function(c){ return kinds[c]; }))); }
 
@@ -1595,13 +1611,18 @@ html.chainland .toast{bottom:12px}
     var move=(mode!=='init'&&mode!=='resize')&&!reduced, anchor=N[centre]&&!N[centre].gone?N[centre]:null;
     var keepCol=(mode==='resize'&&G&&G.cx)?Math.round((scroller.scrollLeft+G.W/2-G.cx(G.minS))/CW-0.5)+G.minS:0, keepDrum=(mode==='resize'||mode==='swap'||mode==='init')?{}:drumF;
     /* full screen fits the rows to the height it has: more of them upright, fewer on a phone turned sideways */
-    MAXR=3; if(isFull){ var avH=window.innerHeight-(cbar.offsetHeight||44)-(isLand?6:88); MAXR=clamp(Math.floor((avH-TOP-2*PEEK)/RH),2,6); }
+    /* Zoom (Cade, 2026-11-14, on trial): three levels. Zooming out fits more columns across and more rows down; the
+       cards are the same cards, drawn smaller. */
+    var Wd=scroller.clientWidth||360, vb=Wd<560?3:5, EDGE=Wd<560?20:6;
+    VIS=vb+(vb===3?zoomLv:2*zoomLv); GAP=Math.round(40*vb/VIS); CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; ZC=NW/((Wd-2*EDGE+40)/vb-40);
+    RH=Math.round(92*ZC); PEEK=Math.round(34*ZC); canvas.style.setProperty('--zc',ZC.toFixed(4)); canvas.classList.toggle('zo',zoomLv>0);
+    MAXR=clamp(Math.round(3/ZC),3,6); if(isFull){ var avH=window.innerHeight-(cbar.offsetHeight||44)-(isLand?6:120); MAXR=clamp(Math.floor((avH-TOP-2*PEEK)/RH),2,8); }
     G=build(); if(sel&&!G.need[sel])sel=null;
-    var Wd=scroller.clientWidth||360; VIS=Wd<560?3:5; var EDGE=Wd<560?20:6; GAP=40; CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; var OFF=GAP/2-EDGE;
+    var OFF=GAP/2-EDGE;
     var half=(VIS-1)/2, padL=Math.max(0,half+G.minS)*CW, padR=Math.max(0,half-G.maxS)*CW, ncol=G.maxS-G.minS+1;
     var CWID=padL+ncol*CW+padR-2*OFF, yc=0;
     G.cx=function(s){ return padL+(s-G.minS)*CW-OFF; }; G.W=Wd; G.ncol=ncol; G.CWID=CWID; G.EDGE=EDGE;
-    canvas.style.setProperty('--chipw',(CW-34).toFixed(0)+'px');
+    canvas.style.setProperty('--chipw',((CW-34)/ZC).toFixed(0)+'px');
 
     /* every event that shows: make it, set whether it is a card or a small name, and measure it */
     var seen={}, order=[];
@@ -1610,7 +1631,7 @@ html.chainland .toast{bottom:12px}
       n.el.style.width=NW.toFixed(1)+'px';
       n.el.setAttribute('aria-label',name(id)+', '+when(id)+', '+SZW[size(id)]+', '+stepWord(k)+(n.chip?', outside your filters':'')); }); });
     paintClasses();
-    order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=Math.max(64,n.h+12); });
+    order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=Math.max(64*ZC,n.h+12*ZC); });
     /* the canvas is as tall as its tallest column, up to four rows; a longer column becomes a drum */
     var tall=2.2*RH, anyDrum=false; Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); if(c.length>MAXR)anyDrum=true; tall=Math.max(tall,Math.min(t,MAXR*RH)); }); if(anyDrum)tall=MAXR*RH+2*PEEK-16;
     HC=Math.round(TOP+tall+16); yc=TOP+(HC-TOP)/2; G.yc=yc;
@@ -1646,7 +1667,7 @@ html.chainland .toast{bottom:12px}
       ins.forEach(function(l,i){ ED[l.id].pi=clamp((i-(ins.length-1)/2)*7,-lim,lim); }); });
 
     /* the step names over each column, the drum's arrows, and the plain statement when a side is empty */
-    var h=''; for(var s=G.minS;s<=G.maxS;s++){ h+='<div class="colh'+(s===0?' c0':'')+'" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px">'+(s===0?'This event':(s<0?'Cause':'Effect')+' · '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'))+'</div>';
+    var h=''; for(var s=G.minS;s<=G.maxS;s++){ h+='<div class="colh'+(s===0?' c0':'')+'" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px">'+(s===0?'This event':zoomLv?(s<0?'Cause ':'Effect ')+Math.abs(s):(s<0?'Cause':'Effect')+' · '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'))+'</div>';
       if(G.drum[s]){ var dtop=yc-MAXR/2*RH; h+='<div class="drumscroll" data-ds="'+s+'" tabindex="-1" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+dtop.toFixed(1)+'px;height:'+(MAXR*RH)+'px">'+G.cols[s].map(function(){ return '<i style="height:'+RH+'px"></i>'; }).join('')+'</div>'
         +'<button type="button" class="dch up" data-drum="'+s+'" data-d="-1" aria-label="Earlier events in this column" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+(dtop-PEEK-2).toFixed(1)+'px" hidden><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l5-5 5 5"/></svg><span></span></button>'
         +'<button type="button" class="dch dn" data-drum="'+s+'" data-d="1" aria-label="More events in this column" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+(dtop+MAXR*RH+2).toFixed(1)+'px" hidden><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5l5 5 5-5"/></svg><span></span></button>'; } }
@@ -1695,7 +1716,7 @@ html.chainland .toast{bottom:12px}
       if(e.gone&&e.cuA<0.02){ e.g.remove(); delete ED[id]; return; }
       /* an arrow meets a full card at its edge; as the card curves away the arrow runs in behind it */
       var x1=a.rx+a.w/2+a.rsx*a.w/2+2.5-20*a.ru, y1=a.cur.y+e.po*a.rsy, x2=b.rx+b.w/2-b.rsx*b.w/2-2.5+20*b.ru, y2=b.cur.y+e.pi*b.rsy;
-      var sc=Math.min(a.rsx,b.rsx), hl=(e.big?9.5:8)*Math.max(0.6,sc), hw=(e.big?4.1:3.4)*Math.max(0.6,sc), c=Math.max(12,(x2-x1)*0.5);
+      var sc=Math.min(a.rsx,b.rsx)*Math.max(0.7,ZC), hl=(e.big?9.5:8)*Math.max(0.6,sc), hw=(e.big?4.1:3.4)*Math.max(0.6,sc), c=Math.max(12,(x2-x1)*0.5);
       var d='M'+x1.toFixed(1)+' '+y1.toFixed(1)+' C'+(x1+c).toFixed(1)+' '+y1.toFixed(1)+' '+(x2-c-hl*0.5).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl*0.7).toFixed(1)+' '+y2.toFixed(1);
       e.line.setAttribute('d',d); e.hit.setAttribute('d',d); e.port.setAttribute('cx',x1.toFixed(1)); e.port.setAttribute('cy',y1.toFixed(1));
       e.head.setAttribute('d','M'+x2.toFixed(1)+' '+y2.toFixed(1)+' L'+(x2-hl).toFixed(1)+' '+(y2-hw).toFixed(1)+' Q'+(x2-hl*0.62).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl).toFixed(1)+' '+(y2+hw).toFixed(1)+' Z');
@@ -1841,7 +1862,17 @@ html.chainland .toast{bottom:12px}
   /* On a phone turned sideways the counts and the key move up into the bar, so the chart has the whole height. */
   function arrange(){ var land=isFull&&window.innerWidth>window.innerHeight&&window.innerHeight<560; if(land===isLand)return; isLand=land;
     chainBox.classList.toggle('land',land); document.documentElement.classList.toggle('chainland',land); chainBox.classList.remove('hasdock');
-    if(land){ cbar.insertBefore(footEl,fullBtn); cbar.insertBefore(keyBtnEl,fullBtn); setKey(false); } else { webEl.insertBefore(footEl,webPad); chainBox.insertBefore(keyBtnEl,keyEl); } }
+    if(land){ cbar.insertBefore(zoomEl,fullBtn); cbar.insertBefore(footEl,fullBtn); cbar.insertBefore(keyBtnEl,fullBtn); setKey(false); } else { webEl.insertBefore(footEl,webPad); chainBox.insertBefore(zoomEl,keyEl); chainBox.insertBefore(keyBtnEl,keyEl); } }
+  var zoomEl=document.getElementById('zoomC');
+  function setZoom(lv){ lv=clamp(lv,0,2); if(lv===zoomLv)return; var c=colNow(); if(sel&&!isLand)select(null); zoomLv=lv; layout('resize'); paint(); toCol(sel?G.step[sel]:c,false); sync(); kick();
+    document.getElementById('zIn').disabled=lv===0; document.getElementById('zOut').disabled=lv===2; say(lv===0?'Full size':VIS+' columns across'); }
+  document.getElementById('zOut').addEventListener('click',function(){ setZoom(zoomLv+1); });
+  document.getElementById('zIn').addEventListener('click',function(){ setZoom(zoomLv-1); });
+  /* two fingers: pinch in to zoom out one level, spread to zoom in one level */
+  (function(){ var d0=0, done=false; function dist(e){ var a=e.touches[0], b=e.touches[1]; return Math.hypot(a.clientX-b.clientX,a.clientY-b.clientY); }
+    scroller.addEventListener('touchstart',function(e){ if(e.touches.length===2){ d0=dist(e); done=false; } },{passive:true});
+    scroller.addEventListener('touchmove',function(e){ if(e.touches.length!==2||!d0)return; e.preventDefault(); if(done)return; var r=dist(e)/d0; if(r<0.78){ done=true; setZoom(zoomLv+1); } else if(r>1.28){ done=true; setZoom(zoomLv-1); } },{passive:false});
+    scroller.addEventListener('touchend',function(e){ if(e.touches.length<2)d0=0; },{passive:true}); })();
   function refit(home){ layout('resize'); paint(); toCol(sel&&G.step[sel]!=null?G.step[sel]:home===true?0:typeof home==='number'?clamp(home,G.minS,G.maxS):colNow(),false); sync(); kick(); }
   window.addEventListener('resize',function(){ if(!isFull)return; if(sel)select(null); arrange(); setTimeout(function(){ refit(true); },180); });
   function scrollPort(){ return isFull?chainBox:window; }
