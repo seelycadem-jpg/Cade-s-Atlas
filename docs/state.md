@@ -603,6 +603,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     a line says "Turn your phone for a wider view" on the first open. The number of rows a column shows is
     now a variable (two to six), no longer fixed at three; in the page it stays three. A sideways phone
     is short, so it shows two rows per column.
+  - Zoom is offered in full screen only (Cade, same day): the page's own chain has no zoom control and
+    no pinch, and leaving full screen puts the chain back at full size. The sub chat advised against free
+    zoom: fixed steps keep whole columns, whole cards and the settle-on-a-column drag.
   - Zoom (same day, on trial): three levels, by a minus and plus control (beside the Key upright, in the
     bar sideways) or a two-finger pinch on the chart. Zooming out fits more columns and rows: upright 3,
     4 or 5 columns; sideways 5, 7 or 9. The cards are the same cards drawn smaller (CSS `zoom` on the
