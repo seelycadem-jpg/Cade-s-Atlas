@@ -648,6 +648,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     In full screen the chain can be dragged until its first or last column stands in the middle, at every
     zoom level (the part of the rolled-back third pass Cade asked for again). A drum's "N more" label no
     longer sits on the key's rule at far zoom.
+  - Arrows at the closest zoom (Cade's screenshot, same day). With two columns across, the neighbouring
+    columns are half in view, and their arrows ran in behind them with no head, which read as clipping.
+    An arrow now runs behind a card only once the card is a thin sliver (the last 30% of its way out); a
+    half-visible card keeps its arrow at its edge, with its head. Sideways, the closest zoom a view offers
+    is the closest at which two rows of cards fit: five columns on a tall phone, seven on a short one
+    (under 362px high), since larger cards spilled off the bottom.
   For the master chat: full screen is a new mode of the event page that the standards do not describe.
 - **One gap between sections; Cade wants it as a site-wide rule (2026-11-14).** Every section of the event
   page now ends with the same space before the next heading: 68px on a phone, about two blank lines of

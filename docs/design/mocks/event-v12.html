@@ -1790,12 +1790,14 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       e.cuA+=(e.tgA-e.cuA)*k; if(Math.abs(e.tgA-e.cuA)>0.008)more=true; else e.cuA=e.tgA;
       if(e.gone&&e.cuA<0.02){ e.g.remove(); delete ED[id]; return; }
       /* an arrow meets a full card at its edge; as the card curves away the arrow runs in behind it */
-      var x1=a.rx+a.w/2+a.rsx*a.w/2+2.5-20*a.ru, y1=a.cur.y+e.po*a.rsy, x2=b.rx+b.w/2-b.rsx*b.w/2-2.5+20*b.ru, y2=b.cur.y+e.pi*b.rsy;
+      /* ...but only once the card is a thin sliver: a card that is half in view keeps its arrow at its edge, head and all */
+      var ta=Math.max(0,(a.ru-0.7)/0.3), tb=Math.max(0,(b.ru-0.7)/0.3);
+      var x1=a.rx+a.w/2+a.rsx*a.w/2+2.5-20*ta, y1=a.cur.y+e.po*a.rsy, x2=b.rx+b.w/2-b.rsx*b.w/2-2.5+20*tb, y2=b.cur.y+e.pi*b.rsy;
       var sc=Math.min(a.rsx,b.rsx)*Math.max(0.5,ZC), hl=(e.big?9.5:8)*Math.max(0.6,sc), hw=(e.big?4.1:3.4)*Math.max(0.6,sc), c=Math.max(12,(x2-x1)*0.5);
       var d='M'+x1.toFixed(1)+' '+y1.toFixed(1)+' C'+(x1+c).toFixed(1)+' '+y1.toFixed(1)+' '+(x2-c-hl*0.5).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl*0.7).toFixed(1)+' '+y2.toFixed(1);
       e.line.setAttribute('d',d); e.hit.setAttribute('d',d); e.port.setAttribute('cx',x1.toFixed(1)); e.port.setAttribute('cy',y1.toFixed(1));
       e.head.setAttribute('d','M'+x2.toFixed(1)+' '+y2.toFixed(1)+' L'+(x2-hl).toFixed(1)+' '+(y2-hw).toFixed(1)+' Q'+(x2-hl*0.62).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl).toFixed(1)+' '+(y2+hw).toFixed(1)+' Z');
-      e.head.style.opacity=Math.max(0,1-b.ru*4).toFixed(2); e.port.style.opacity=Math.max(0,1-a.ru*4).toFixed(2);
+      e.head.style.opacity=Math.max(0,1-tb*3).toFixed(2); e.port.style.opacity=Math.max(0,1-ta*3).toFixed(2);
       e.g.style.opacity=(e.cuA*Math.min(a.cur.o*a.cur.q,b.cur.o*b.cur.q)*Math.min(1,a.ro+b.ro>1.3?1:Math.max(a.ro,b.ro)*0.85)).toFixed(3); });
     if(more&&!snap) running=requestAnimationFrame(function(){ running=0; frame(false); }); }
   /* one bead runs the lit path once, in the direction the arrows point */
@@ -1937,11 +1939,14 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function setKey(o){ keyEl.hidden=!o; keyBtnEl.setAttribute('aria-expanded',String(o)); }
   /* On a phone turned sideways the counts and the key move up into the bar, so the chart has the whole height. */
   function arrange(){ var land=isFull&&window.innerWidth>window.innerHeight&&window.innerHeight<560; if(land===isLand)return; isLand=land;
-    chainBox.classList.toggle('land',land); document.documentElement.classList.toggle('chainland',land); chainBox.classList.remove('hasdock');
+    /* a phone on its side is too short for the closest zoom: two rows of the largest cards do not fit */
+    isLand=land; if(land)zoomLv=Math.max(zoomLv,minZ()); chainBox.classList.toggle('land',land); document.documentElement.classList.toggle('chainland',land); chainBox.classList.remove('hasdock');
     if(land){ cbar.insertBefore(keyBtnEl,fullBtn); cbar.insertBefore(zoomEl,fullBtn); } else { chainBox.insertBefore(zoomEl,keyEl); chainBox.insertBefore(keyBtnEl,keyEl); } }
   var zoomEl=document.getElementById('zoomC');
-  function zBtns(){ document.getElementById('zIn').disabled=zoomLv<=(isFull?-1:0); document.getElementById('zOut').disabled=zoomLv>=(isFull?3:1); }
-  function setZoom(lv,quiet){ lv=clamp(lv,isFull?-1:0,isFull?3:1); if(lv===zoomLv)return; var c=colNow(); if(sel&&!isLand)select(null); zoomLv=lv; layout('resize'); paint(); toCol(sel?G.step[sel]:c,false); sync(); kick();
+  /* the closest zoom a view allows: a phone on its side is short, so it stops where two rows of cards still fit */
+  function minZ(){ return !isFull?0:!isLand?-1:window.innerHeight<362?1:0; }
+  function zBtns(){ document.getElementById('zIn').disabled=zoomLv<=minZ(); document.getElementById('zOut').disabled=zoomLv>=(isFull?3:1); }
+  function setZoom(lv,quiet){ lv=clamp(lv,minZ(),isFull?3:1); if(lv===zoomLv)return; var c=colNow(); if(sel&&!isLand)select(null); zoomLv=lv; layout('resize'); paint(); toCol(sel?G.step[sel]:c,false); sync(); kick();
     zBtns(); if(!quiet)say(lv===0?'Full size':VIS+' columns across'); }
   document.getElementById('zOut').addEventListener('click',function(){ setZoom(zoomLv+1); });
   document.getElementById('zIn').addEventListener('click',function(){ setZoom(zoomLv-1); });
@@ -1960,7 +1965,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     var cs=getComputedStyle(chainBox), room=chainBox.clientHeight-(parseFloat(cs.paddingTop)||0)-(parseFloat(cs.paddingBottom)||0);
     [].forEach.call(chainBox.children,function(c){ if(c===webEl){ [].forEach.call(webEl.children,function(w){ if(w!==scroller)room-=outer(w); }); } else room-=outer(c); });
     return Math.max(220,Math.floor(room)-1); }
-  function refit(home){ chainBox.style.paddingBottom=''; layout('resize'); paint(); toCol(sel&&G.step[sel]!=null?G.step[sel]:home===true?0:typeof home==='number'?clamp(home,G.minS,G.maxS):colNow(),false); sync(); kick(); }
+  function refit(home){ zBtns(); chainBox.style.paddingBottom=''; layout('resize'); paint(); toCol(sel&&G.step[sel]!=null?G.step[sel]:home===true?0:typeof home==='number'?clamp(home,G.minS,G.maxS):colNow(),false); sync(); kick(); }
   window.addEventListener('resize',function(){ if(!isFull)return; if(sel)select(null); arrange(); setTimeout(function(){ refit(true); },180); });
   function scrollPort(){ return isFull?chainBox:window; }
   function portY(sp){ return sp===window?window.scrollY:sp.scrollTop; }
