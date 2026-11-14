@@ -1136,7 +1136,7 @@ h2{font-size:24px}
    the foot, with one line between them that says how to move. The full columns keep the page's 20px margin; the
    margin itself holds only the curved slivers. */
 .wcanvas .nd[data-hs="1"]{pointer-events:none}
-.wcanvas .nd[data-hs="1"] .nt,.wcanvas .nd[data-hs="1"] .nm > *{visibility:hidden}
+.wcanvas .nd .nt,.wcanvas .nd .nm > *{opacity:calc(1 - var(--hu,0) * 2)}
 .ruler.foot{padding:2px 14px 3px!important;margin-top:2px}
 .ruler.foot .mini{visibility:hidden;pointer-events:none}
 .ruler.foot::after{content:"Drag to follow the chain";top:50%;bottom:auto;transform:translateY(-50%);font-size:13px}
@@ -1622,24 +1622,27 @@ h2{font-size:24px}
   function kick(){ if(!running) running=requestAnimationFrame(function(){ running=0; frame(false); }); }
   /* The chain curves away at the sides (Cade, 2026-11-14): a column past the last full one is drawn narrower, fainter
      and pulled in, so a sliver of it shows at the edge of the screen and says there is more to drag to. */
-  function frame(snap){ var more=false, k=(snap||reduced)?1:0.17, sl=scroller.scrollLeft, Wv=(G&&G.W)||360, inner=((G&&G.EDGE)||6)+NW/2, pull=14-((G&&G.EDGE)||6)+GAP+0.15*NW;
+  function frame(snap){ var more=false, k=(snap||reduced)?1:0.17, sl=scroller.scrollLeft, Wv=(G&&G.W)||360, ED0=(G&&G.EDGE)||6, span=Math.max(1,CW-ED0), pull=14-ED0+GAP+0.09*NW;
     Object.keys(N).forEach(function(id){ var n=N[id], c=n.cur, t=n.tg;
       c.x+=(t.x-c.x)*k; c.y+=(t.y-c.y)*k; c.s+=(t.s-c.s)*k; c.o+=(t.o-c.o)*k; c.d+=(t.d-c.d)*k; c.q+=(t.q-c.q)*k;
       if(Math.abs(t.x-c.x)>0.25||Math.abs(t.y-c.y)>0.25||Math.abs(t.s-c.s)>0.003||Math.abs(t.o-c.o)>0.008||Math.abs(t.d-c.d)>0.008||Math.abs(t.q-c.q)>0.008) more=true; else { c.x=t.x; c.y=t.y; c.s=t.s; c.o=t.o; c.d=t.d; c.q=t.q; }
       if(n.gone&&c.o<0.02){ n.el.remove(); delete N[id]; return; }
-      var sx=c.x+n.w/2-sl, bl=inner-sx, br=sx-(Wv-inner), bb=Math.max(bl,br,0), u=Math.min(bb/CW,1.6), u1=Math.min(u,1), hx=(bl>0?1:-1)*pull*u1, ho=u<=1?1-0.6*u:Math.max(0,0.4-(u-1)*0.8);
-      var hs=u>0.5?'1':'0'; if(n.hs!==hs){ n.hs=hs; n.el.setAttribute('data-hs',hs); }
-      n.rx=c.x+hx; n.rsx=c.s*(1-0.3*u1); n.rsy=c.s*(1-0.14*u1); n.ro=ho; n.ru=u1;
+      /* a card stays whole until it touches the edge of the screen; from there it shrinks, fades and is pulled in */
+      var lx=c.x-sl, bl=-lx, br=lx+n.w-Wv, bb=Math.max(bl,br,0), u=Math.min(bb/span,1.6), u1=Math.min(u,1), hx=(bl>0?1:-1)*pull*u1, ho=u<=1?1-0.6*u:Math.max(0,0.4-(u-1)*0.8);
+      var hs=u>0.35?'1':'0'; if(n.hs!==hs){ n.hs=hs; n.el.setAttribute('data-hs',hs); }
+      if(Math.abs((n.hu||0)-u1)>0.02||(u1===0&&n.hu)||(u1===1&&n.hu!==1)){ n.hu=u1; n.el.style.setProperty('--hu',u1.toFixed(2)); }
+      n.rx=c.x+hx; n.rsx=c.s*(1-0.18*u1); n.rsy=n.rsx; n.ro=ho; n.ru=u1;
       n.el.style.transform='translate3d('+n.rx.toFixed(2)+'px,'+c.y.toFixed(2)+'px,0) translateY(-50%) scale('+n.rsx.toFixed(4)+','+n.rsy.toFixed(4)+')'; n.el.style.opacity=(c.o*c.d*c.q*ho).toFixed(3); });
     Object.keys(ED).forEach(function(id){ var e=ED[id], a=N[e.l.f], b=N[e.l.t]; if(!a||!b){ e.g.remove(); delete ED[id]; return; }
       e.cuA+=(e.tgA-e.cuA)*k; if(Math.abs(e.tgA-e.cuA)>0.008)more=true; else e.cuA=e.tgA;
       if(e.gone&&e.cuA<0.02){ e.g.remove(); delete ED[id]; return; }
       /* an arrow meets a full card at its edge; as the card curves away the arrow runs in behind it */
-      var x1=a.rx+a.w/2+(a.rsx*a.w/2+2.5)*(1-a.ru), y1=a.cur.y+e.po*a.rsy, x2=b.rx+b.w/2-(b.rsx*b.w/2+2.5)*(1-b.ru), y2=b.cur.y+e.pi*b.rsy;
+      var x1=a.rx+a.w/2+a.rsx*a.w/2+2.5-20*a.ru, y1=a.cur.y+e.po*a.rsy, x2=b.rx+b.w/2-b.rsx*b.w/2-2.5+20*b.ru, y2=b.cur.y+e.pi*b.rsy;
       var sc=Math.min(a.rsx,b.rsx), hl=(e.big?9.5:8)*Math.max(0.6,sc), hw=(e.big?4.1:3.4)*Math.max(0.6,sc), c=Math.max(12,(x2-x1)*0.5);
       var d='M'+x1.toFixed(1)+' '+y1.toFixed(1)+' C'+(x1+c).toFixed(1)+' '+y1.toFixed(1)+' '+(x2-c-hl*0.5).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl*0.7).toFixed(1)+' '+y2.toFixed(1);
       e.line.setAttribute('d',d); e.hit.setAttribute('d',d); e.port.setAttribute('cx',x1.toFixed(1)); e.port.setAttribute('cy',y1.toFixed(1));
       e.head.setAttribute('d','M'+x2.toFixed(1)+' '+y2.toFixed(1)+' L'+(x2-hl).toFixed(1)+' '+(y2-hw).toFixed(1)+' Q'+(x2-hl*0.62).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl).toFixed(1)+' '+(y2+hw).toFixed(1)+' Z');
+      e.head.style.opacity=Math.max(0,1-b.ru*4).toFixed(2); e.port.style.opacity=Math.max(0,1-a.ru*4).toFixed(2);
       e.g.style.opacity=(e.cuA*Math.min(a.cur.o*a.cur.q,b.cur.o*b.cur.q)*Math.min(1,a.ro+b.ro>1.3?1:Math.max(a.ro,b.ro)*0.85)).toFixed(3); });
     if(more&&!snap) running=requestAnimationFrame(function(){ running=0; frame(false); }); }
   /* one bead runs the lit path once, in the direction the arrows point */
