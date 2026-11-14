@@ -583,6 +583,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   columns keep the page's 20px margin (cards 90px wide at 390px, was 99px); the margin holds only the
   slivers. The arrows follow the curve: an arrow meets a full card at its edge and runs in behind a card
   as it curves away, shrinking and fading with it. Not done: a width cap for the chain on a desktop.
+- **Closing a chain card returns the page (Cade, 2026-11-14).** A tap on an event can push the page down
+  so the event stays visible above its card. Closing the card now scrolls the page back to where it was,
+  unless the reader has scrolled more than about 140px away in the meantime.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.

@@ -1773,8 +1773,12 @@ h2{font-size:24px}
         if(arr.length>3) h+='<button type="button" class="dall" data-all>'+(arr.length-3)+' more</button>'; }
       return h+'</span></div>'; }
     var rows=row('Caused by',c,'f','')+row('Led to',e,'t',''); return rows?'<div class="drels">'+rows+'</div>':''; }
+  /* Opening the card can push the page down to keep the tapped event in view. Closing it puts the page back where it
+     was (Cade, 2026-11-14), unless the reader has scrolled away since. */
+  var homeY=null, pushedY=0;
   function dock(){
-    if(!sel){ if(dockEl){ var old=dockEl; dockEl=null; old.classList.remove('in'); clearTimeout(dockT); dockT=setTimeout(function(){ old.remove(); },260); } return; }
+    if(!sel){ if(homeY!==null){ if(Math.abs(window.scrollY-(homeY+pushedY))<140)window.scrollTo({top:homeY,behavior:reduced?'auto':'smooth'}); homeY=null; pushedY=0; }
+      if(dockEl){ var old=dockEl; dockEl=null; old.classList.remove('in'); clearTimeout(dockT); dockT=setTimeout(function(){ old.remove(); },260); } return; }
     var id=sel, sz=size(id), s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path), chip=N[id]&&N[id].chip;
     var where=id===centre?'the centre of the web':((s<0?'cause':'effect')+', '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'));
     var h='<button type="button" class="xbtn" id="dockX" aria-label="Close"><i><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></i></button>'
@@ -1800,7 +1804,7 @@ h2{font-size:24px}
     var ob=document.getElementById('openBtn'); if(ob)ob.addEventListener('click',function(){ say('Would open the page: '+name(id)); });
     var cb=document.getElementById('cenBtn'); if(cb)cb.addEventListener('click',function(){ recentre(id); });
     /* keep the event in hand clear of the card */
-    var nd=N[id]&&N[id].el; if(nd){ var wide=window.innerWidth>=1100, over=wide?0:nd.getBoundingClientRect().bottom-(window.innerHeight-Math.max(64,window.innerHeight*0.1)-dockEl.offsetHeight)+14; if(over>0)window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); }
+    var nd=N[id]&&N[id].el; if(nd){ var wide=window.innerWidth>=1100, over=wide?0:nd.getBoundingClientRect().bottom-(window.innerHeight-Math.max(64,window.innerHeight*0.1)-dockEl.offsetHeight)+14; if(over>0){ if(homeY===null){ homeY=window.scrollY; pushedY=0; } pushedY+=over; window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); } }
   }
 
   /* ---------- sheets: the path, then the note on one line ---------- */
