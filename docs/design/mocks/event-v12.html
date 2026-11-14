@@ -1226,6 +1226,26 @@ html.chainland .toast{bottom:12px}
 .chainbox.full .legend .lines{grid-column:auto;margin:0;padding:0;border:0;font-size:11.5px;gap:4px 12px}
 .chainbox.land .legend{padding:5px 14px 6px}
 .chainbox.full .web{justify-content:flex-start}
+
+/* Full screen, second pass (Cade, 2026-11-14). Zoom sits at the right: last before the X when sideways, at the right of
+   the key row when upright. Sideways, the two "more" counts leave the bar and stand at the sides of the chart, in a
+   margin the full cards keep clear. */
+.chainbox.land .cbar{grid-template-columns:auto minmax(0,250px) 1fr auto auto auto auto!important}
+.chainbox.full:not(.land) .zoomc{margin-left:auto;margin-right:10px}
+.chainbox.full:not(.land) .keybtn{justify-content:flex-start;padding-left:20px}
+.chainbox.land .web{position:relative}
+.chainbox.land .web .ruler.foot{position:absolute;inset:0;display:block;margin:0;padding:0!important;border:0;pointer-events:none;z-index:40}
+.chainbox.land .web .ruler.foot::after,.chainbox.land .web .ruler.foot .mini{display:none}
+.chainbox.land .web .ruler.foot .rarrow{position:absolute;top:calc(50% - 34px);display:flex;flex-direction:column;align-items:center;justify-content:center;gap:4px;width:32px;min-width:0;height:68px;min-height:0;padding:0;pointer-events:auto;background:color-mix(in srgb,var(--chain) 90%,transparent);border:1px solid var(--rule)}
+.chainbox.land .web .ruler.foot .rarrow.l{left:max(3px,env(safe-area-inset-left,0px))}
+.chainbox.land .web .ruler.foot .rarrow.r{right:max(3px,env(safe-area-inset-right,0px))}
+.chainbox.land .web .ruler.foot .rarrow i{font-size:7px;letter-spacing:.06em}
+.chainbox.land .web .ruler.foot .rarrow:disabled{opacity:.45}
+/* Small cards keep their text inside (a phone may enlarge small text on its own; this tells it not to). */
+html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.wcanvas,.wcanvas .nd .card{-webkit-text-size-adjust:100%;text-size-adjust:100%}
+.wcanvas.zo .nd:not(.chip) .card{overflow:hidden}
+.wcanvas.zo .nd:not(.chip) .nt{display:-webkit-box;-webkit-box-orient:vertical;-webkit-line-clamp:3;overflow:hidden;hyphens:none}
 </style>
 
 <div class="stage" id="stage">
@@ -1631,7 +1651,7 @@ html.chainland .toast{bottom:12px}
     /* full screen fits the rows to the height it has: more of them upright, fewer on a phone turned sideways */
     /* Zoom (Cade, 2026-11-14, on trial): three levels. Zooming out fits more columns across and more rows down; the
        cards are the same cards, drawn smaller. */
-    var Wd=scroller.clientWidth||360, vb=Wd<560?3:5, EDGE=Wd<560?20:6;
+    var Wd=scroller.clientWidth||360, vb=Wd<560?3:5, EDGE=isLand?40:Wd<560?20:6;
     VIS=vb+(vb===3?zoomLv:2*zoomLv); GAP=clamp(Math.round(40*vb/VIS),28,48); CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; ZC=NW/((Wd-2*EDGE+40)/vb-40);
     RH=Math.round(92*ZC); PEEK=Math.round(34*ZC); canvas.style.setProperty('--zc',ZC.toFixed(4)); canvas.classList.toggle('zo',zoomLv>0); canvas.classList.toggle('zfar',zoomLv>2);
     /* Full screen fills its height (Cade, 2026-11-14): the chart takes all the room the bar, the foot and the key
@@ -1887,7 +1907,7 @@ html.chainland .toast{bottom:12px}
   /* On a phone turned sideways the counts and the key move up into the bar, so the chart has the whole height. */
   function arrange(){ var land=isFull&&window.innerWidth>window.innerHeight&&window.innerHeight<560; if(land===isLand)return; isLand=land;
     chainBox.classList.toggle('land',land); document.documentElement.classList.toggle('chainland',land); chainBox.classList.remove('hasdock');
-    if(land){ cbar.insertBefore(zoomEl,fullBtn); cbar.insertBefore(footEl,fullBtn); cbar.insertBefore(keyBtnEl,fullBtn); } else { webEl.insertBefore(footEl,webPad); chainBox.insertBefore(zoomEl,keyEl); chainBox.insertBefore(keyBtnEl,keyEl); } }
+    if(land){ cbar.insertBefore(keyBtnEl,fullBtn); cbar.insertBefore(zoomEl,fullBtn); } else { chainBox.insertBefore(zoomEl,keyEl); chainBox.insertBefore(keyBtnEl,keyEl); } }
   var zoomEl=document.getElementById('zoomC');
   function zBtns(){ document.getElementById('zIn').disabled=zoomLv<=(isFull?-1:0); document.getElementById('zOut').disabled=zoomLv>=(isFull?3:1); }
   function setZoom(lv,quiet){ lv=clamp(lv,isFull?-1:0,isFull?3:1); if(lv===zoomLv)return; var c=colNow(); if(sel&&!isLand)select(null); zoomLv=lv; layout('resize'); paint(); toCol(sel?G.step[sel]:c,false); sync(); kick();

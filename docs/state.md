@@ -624,6 +624,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     further than before. Columns across, upright: 2, 3, 4, 5, 6; sideways: 3, 5, 7, 9, 11. It still opens
     on the middle-out level (4 upright, 7 sideways). At the furthest level the column labels shorten to
     "C2", "Here", "E1" and a title is about 6px tall. The page keeps two levels.
+  - Full screen, second pass (Cade, same day). Zoom sits at the right: last before the X sideways, at the
+    right of the key row upright. Sideways, the two "more" counts left the bar and stand as small tabs at
+    the left and right of the chart, in a 40px margin the full cards keep clear. Small cards: the page
+    tells the phone not to enlarge small text on its own (`text-size-adjust`), clips a card's contents to
+    the card and caps a zoomed-out title at three lines. Cade reported garbled text at the furthest zoom
+    on his phone; the sub chat could not reproduce it in its test browser, so this fix is unconfirmed.
   For the master chat: full screen is a new mode of the event page that the standards do not describe.
 - **One gap between sections; Cade wants it as a site-wide rule (2026-11-14).** Every section of the event
   page now ends with the same space before the next heading: 68px on a phone, about two blank lines of
