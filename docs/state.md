@@ -614,6 +614,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     card), so titles wrap the same at every level; at the far level a title is about 8px tall, an
     overview only. Column labels shorten to "Cause 2" when zoomed out. Three fixed levels, no free zoom,
     in line with the timeline's rule.
+  - Full screen fills its height (Cade, same day). The chart takes all the room the bar, the foot and the
+    key leave; the rows that fit are counted from that, then the rows spread to use it (up to 1.7 times
+    the tightest spacing), which gives the arrows room between events. A zoomed-out column gap is never
+    under 28px. The key shows by default in full screen as one compact strip under the chart: the three
+    size names and the three line kinds, no definitions. Closing full screen puts the key back as the
+    page had it. In the page, zoomed-out rows sit a little further apart than before.
   For the master chat: full screen is a new mode of the event page that the standards do not describe.
 - **One gap between sections; Cade wants it as a site-wide rule (2026-11-14).** Every section of the event
   page now ends with the same space before the next heading: 68px on a phone, about two blank lines of
