@@ -561,6 +561,15 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 22. **Lines the web leaves out**: Coincident links, and links that skip a step or join two
     events of one step, are listed under "How it connects" and never drawn.
 
+- **Type sizes (2026-11-14, on trial).** Cade asked for smaller titles and Record text. The mock now
+  sets: page title 32px on a phone (clamp 32 to 48), section heading 24, opening line 19.5, reading
+  text 17, Record answer 16.5, Record text 16; side margins 20px. Labels still run 8 to 10px; the sub
+  chat advised a floor of 10px and Cade has not taken that up.
+- **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
+  switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
+  keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.
+  A change of typeface is a change to the stack and the palette doc: the master chat decides.
+
 ### C. Facts for the record
 
 - The mock's sizes are placeholders: old tier 1 as knot, tier 2 as fibre, four events set

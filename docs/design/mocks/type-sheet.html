@@ -1,0 +1,184 @@
+<title>Atlas Type Sheet</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400;0,500;0,600;1,400&family=Cormorant+Garamond:ital,wght@0,500;0,600;1,500&family=Libre+Caslon+Text:ital,wght@0,400;0,700;1,400&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Source+Serif+4:ital,opsz,wght@0,8..60,400;0,8..60,600;1,8..60,400&family=Literata:ital,opsz,wght@0,7..72,400;0,7..72,600;1,7..72,400&family=Public+Sans:wght@400;500;600&family=Inter:wght@400;500;600&family=Source+Sans+3:wght@400;500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap">
+<style>
+/* Layout: one reading column. Three switches at the top change the three type roles; everything below is set in the
+   roles, so the whole sheet restyles at once. Sizes are the event mock's own. Colours are docs/design/palette.md. */
+:root{
+  --bg:#F6F2EC; --surface:#FCFAF6; --surface2:#EFE9E1; --ink:#1C1916; --ink2:#4D4843; --ink3:#7B746D; --title:#3B2217; --lede:#5A3220; --rule:#DCD2C7;
+  --accent:#C81A12; --on-accent:#FFFFFF; --gilt:#B08A3E;
+  --display:"EB Garamond",Georgia,"Times New Roman",serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,-apple-system,sans-serif;
+  --fixed:"Public Sans",system-ui,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --lede:#E8C9A8; --rule:#3E2E26;
+  --accent:#FF6B5C; --on-accent:#1C130F; --gilt:#C9A45C; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --lede:#E8C9A8; --rule:#3E2E26;
+  --accent:#FF6B5C; --on-accent:#1C130F; --gilt:#C9A45C; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--fixed)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:40rem;margin:0 auto;padding-block:18px 70px;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.eyebrow{margin:0;font:500 10.5px/1.2 var(--fixed);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.pagehead{margin:4px 0 0;font:500 27px/1.1 "EB Garamond",Georgia,serif;color:var(--title)}
+.intro{margin:6px 0 0;font:400 14px/1.5 var(--fixed);color:var(--ink2);max-width:60ch}
+.sech{margin:30px 0 4px;font:600 11px/1.2 var(--fixed);letter-spacing:.09em;text-transform:uppercase;color:var(--ink2)}
+.secp{margin:0 0 10px;font:400 13.5px/1.5 var(--fixed);color:var(--ink2);max-width:62ch}
+
+/* the three switches */
+.picks{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;margin:14px calc(-1 * max(20px,env(safe-area-inset-left,0px))) 0;padding:8px max(20px,env(safe-area-inset-left,0px)) 9px;background:var(--bg);border-bottom:1px solid var(--rule);display:grid;gap:6px}
+.pk{display:grid;grid-template-columns:54px minmax(0,1fr);align-items:center;gap:8px}
+.pk > span{font:600 9.5px/1.2 var(--fixed);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.seg{display:flex;overflow-x:auto;scrollbar-width:none;border:1px solid var(--rule)}
+.seg::-webkit-scrollbar{display:none}
+.seg button{flex:1 0 auto;min-height:34px;padding:0 10px;font:500 12px/1 var(--fixed);color:var(--ink3);white-space:nowrap}
+.seg button+button{box-shadow:inset 1px 0 0 var(--rule)}
+.seg button[aria-pressed="true"]{background:var(--surface);color:var(--ink);box-shadow:inset 0 -2px 0 var(--gilt)}
+.now{margin:10px 0 0;padding:9px 12px;border:1px dashed var(--ink3);font:400 13px/1.45 var(--fixed);color:var(--ink2)}
+.now b{color:var(--ink);font-weight:600}
+
+/* the roles, one row each: a caption in fixed type, then the sample in the role */
+.role{padding:13px 0 14px;border-top:1px solid var(--rule)}
+.role:last-child{border-bottom:1px solid var(--rule)}
+.cap{display:flex;flex-wrap:wrap;gap:2px 10px;align-items:baseline;margin:0 0 6px;font:500 10.5px/1.3 var(--fixed);color:var(--ink3)}
+.cap b{font:600 10.5px/1.3 var(--fixed);letter-spacing:.07em;text-transform:uppercase;color:var(--ink2)}
+.cap i{font-style:normal;font-variant-numeric:tabular-nums}
+.s-title{margin:0;font:500 32px/1.04 var(--display);letter-spacing:-.008em;color:var(--title)}
+.s-h2{margin:0;font:500 24px/1.12 var(--display);color:var(--title)}
+.s-lede{margin:0;font:400 19.5px/1.42 var(--display);color:var(--lede)}
+.s-body{margin:0;font:400 17px/1.6 var(--body);color:var(--ink)}
+.s-rec{margin:0;font:500 16.5px/1.26 var(--display);color:var(--title)}
+.s-rect{margin:0;font:400 16px/1.55 var(--body);color:var(--ink)}
+.s-ital{margin:0;font:italic 400 15px/1.42 var(--display);color:var(--ink2)}
+.s-card{margin:0;font:500 14.5px/1.14 var(--display);color:var(--title)}
+.s-ui{margin:0;font:400 13.5px/1.45 var(--ui);color:var(--ink2)}
+.s-btn{display:inline-flex;align-items:center;min-height:44px;padding:0 18px;background:var(--accent);color:var(--on-accent);font:600 14px/1 var(--ui)}
+.s-lab{margin:0;font:500 10px/1.3 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.s-num{margin:0;font:600 14px/1.3 var(--ui);font-variant-numeric:tabular-nums;color:var(--ink)}
+
+/* a slice of the real page, to see the three working together */
+.slice{margin-top:10px;padding:16px 16px 18px;border:1px solid var(--gilt);background:var(--surface)}
+.slice .k{margin:0 0 8px;font:500 12px/1.4 var(--display);letter-spacing:.1em;text-transform:uppercase;color:var(--ink2)}
+.slice h3{margin:0;font:500 30px/1.04 var(--display);letter-spacing:-.008em;color:var(--title)}
+.slice .d{margin:7px 0 12px;font:16px/1.4 var(--display);color:var(--ink2)}
+.slice .d b{color:var(--accent);font-weight:600}
+.slice .l{margin:0 0 12px;font:400 19.5px/1.42 var(--display);color:var(--lede)}
+.slice .t{display:flex;gap:18px;margin:0 0 12px;padding:9px 0;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule);font:500 15px/1 var(--display);color:var(--ink2)}
+.slice .t b{color:var(--ink);font-weight:500;box-shadow:0 5px 0 -3.5px var(--gilt)}
+.slice .p{margin:0 0 14px;font:400 17px/1.6 var(--body);color:var(--ink)}
+.cards{display:flex;gap:10px;align-items:stretch}
+.cardx{width:104px;border:1px solid var(--rule);background:var(--bg)}
+.cardx .hd{display:flex;align-items:center;gap:6px;padding:5px 8px;border-bottom:1px solid var(--rule);font:500 10.5px/1 var(--ui);letter-spacing:.03em;color:var(--ink2)}
+.cardx .hd i{width:8px;height:8px;background:var(--accent);transform:rotate(45deg)}
+.cardx .nt{padding:6px 8px 9px;font:500 14.5px/1.14 var(--display);color:var(--title)}
+.bar{display:flex;gap:16px;margin-top:12px;font:500 9.5px/1 var(--ui);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
+.bar b{color:var(--ink);font-weight:500}
+
+.notes{margin:8px 0 0;padding:0 0 0 1.1em;display:grid;gap:7px;font:400 13.5px/1.5 var(--fixed);color:var(--ink2);max-width:62ch}
+.notes b{color:var(--ink);font-weight:600}
+table{width:100%;border-collapse:collapse;margin-top:6px;font:400 13px/1.4 var(--fixed)}
+th,td{text-align:left;vertical-align:top;padding:7px 10px 7px 0;border-bottom:1px solid var(--rule)}
+th{font:600 10px/1.2 var(--fixed);letter-spacing:.08em;text-transform:uppercase;color:var(--ink3)}
+td:first-child{color:var(--ink);font-weight:600;white-space:nowrap}
+.tw{overflow-x:auto}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Meanwhile Atlas · event page</p>
+  <h1 class="pagehead">The type sheet</h1>
+  <p class="intro">Three typefaces do every job on the page. Each row below shows one job at its real size. Change a typeface with the switches and the whole sheet follows.</p>
+
+  <div class="picks">
+    <div class="pk"><span>Titles</span><div class="seg" role="group" aria-label="Typeface for titles" id="segD"></div></div>
+    <div class="pk"><span>Reading</span><div class="seg" role="group" aria-label="Typeface for reading text" id="segB"></div></div>
+    <div class="pk"><span>Controls</span><div class="seg" role="group" aria-label="Typeface for controls and labels" id="segU"></div></div>
+  </div>
+  <p class="now" id="now"></p>
+
+  <p class="sech">A slice of the page</p>
+  <div class="slice">
+    <p class="k">Germany · Weimar Germany · The Treaty</p>
+    <h3>The Treaty of Versailles</h3>
+    <p class="d"><b>28 June 1919</b> · Versailles, France</p>
+    <p class="l">The treaty ended the war between Germany and the Allies and left Germany intact, resentful and able to recover.</p>
+    <p class="t"><span>Overview</span><b>The Chain</b><span>The Record</span><span>Meanwhile</span></p>
+    <p class="p">Germany had no seat at the conference that wrote the terms. Its delegation received them on 7 May 1919 and signed on 28 June under threat of invasion.</p>
+    <div class="cards">
+      <div class="cardx"><div class="hd"><i></i>1914</div><div class="nt">The Great War</div></div>
+      <div class="cardx"><div class="hd"><i></i>1919</div><div class="nt">The Treaty of Versailles</div></div>
+      <div class="cardx"><div class="hd"><i></i>1933</div><div class="nt">Hitler Takes Power</div></div>
+    </div>
+    <p class="bar"><b>3 steps</b><b>Knots</b><b>Fibres</b><span>Strands</span><span>Filter</span></p>
+  </div>
+
+  <p class="sech">Each job, at its real size</p>
+  <div class="role"><p class="cap"><b>Page title</b><i>Titles · 32px</i></p><p class="s-title">The Treaty of Versailles</p></div>
+  <div class="role"><p class="cap"><b>Section heading</b><i>Titles · 24px</i></p><p class="s-h2">Historical Chain</p></div>
+  <div class="role"><p class="cap"><b>Opening line</b><i>Titles · 19.5px</i></p><p class="s-lede">The treaty ended the war between Germany and the Allies and left Germany intact, resentful and able to recover.</p></div>
+  <div class="role"><p class="cap"><b>Reading text</b><i>Reading · 17px</i></p><p class="s-body">The Allies set reparations at 132 billion gold marks in 1921, and Germany paid about 20 billion. The treaty had no means of enforcement.</p></div>
+  <div class="role"><p class="cap"><b>The Record, an answer</b><i>Titles · 16.5px</i></p><p class="s-rec">The terms held only while Britain and France enforced them.</p></div>
+  <div class="role"><p class="cap"><b>The Record, its text</b><i>Reading · 16px</i></p><p class="s-rect">By the 1930s British opinion considered German grievances fair, and neither power would enforce the terms alone.</p></div>
+  <div class="role"><p class="cap"><b>Italic note</b><i>Titles, italic · 15px</i></p><p class="s-ital">Causes run in from the left, effects run out to the right. Each arrow is a cause the atlas has argued.</p></div>
+  <div class="role"><p class="cap"><b>Chain card title</b><i>Titles · 14.5px</i></p><p class="s-card">German Hyperinflation</p></div>
+  <div class="role"><p class="cap"><b>Small print</b><i>Controls · 13.5px</i></p><p class="s-ui">No line to the treaty. The atlas treats the timing as a coincidence.</p></div>
+  <div class="role"><p class="cap"><b>Button</b><i>Controls · 14px</i></p><span class="s-btn">Open the page</span></div>
+  <div class="role"><p class="cap"><b>Label</b><i>Controls, capitals · 10px</i></p><p class="s-lab">Cause · 2 steps &nbsp;&nbsp; Knots &nbsp;&nbsp; Fibres &nbsp;&nbsp; Event type</p></div>
+  <div class="role"><p class="cap"><b>Figures</b><i>Controls · 14px</i></p><p class="s-num">1914 · 1919 · 1933 · 132 billion · 13%</p></div>
+
+  <p class="sech">The options</p>
+  <div class="tw"><table>
+    <thead><tr><th>Typeface</th><th>For</th><th>Character</th></tr></thead>
+    <tbody>
+      <tr><td>EB Garamond</td><td>Titles</td><td>In use now. A sixteenth-century book face: warm, a little antique, the closest to an old atlas.</td></tr>
+      <tr><td>Cormorant Garamond</td><td>Titles</td><td>Sharper and more delicate, with finer hairlines. Elegant large; thin and faint at card size.</td></tr>
+      <tr><td>Libre Caslon Text</td><td>Titles</td><td>Sturdier and wider, an eighteenth-century English face. Reads well small; takes more room.</td></tr>
+      <tr><td>Newsreader</td><td>Reading</td><td>In use now. Made for news on screens: open, even, comfortable over a long page.</td></tr>
+      <tr><td>Source Serif 4</td><td>Reading</td><td>Plainer and more neutral. Very clear at small sizes; less personality.</td></tr>
+      <tr><td>Literata</td><td>Reading</td><td>Made for e-books. Slightly darker and rounder; the easiest on tired eyes.</td></tr>
+      <tr><td>Public Sans</td><td>Controls</td><td>In use now. Neutral and a little wide. Clear, with no strong character.</td></tr>
+      <tr><td>Inter</td><td>Controls</td><td>The nearest thing to a standard for screens. Built for small labels and figures; very legible at 10px.</td></tr>
+      <tr><td>Source Sans 3</td><td>Controls</td><td>Narrower and softer. Fits more in a tight bar; pairs naturally with Source Serif.</td></tr>
+      <tr><td>IBM Plex Sans</td><td>Controls</td><td>More engineered, with squarer forms. Distinct, but it pulls against the old-map feel.</td></tr>
+      <tr><td>System</td><td>Controls</td><td>The phone's own face: San Francisco on an iPhone, Roboto on Android. Nothing to download, and it matches the device.</td></tr>
+    </tbody>
+  </table></div>
+
+  <p class="sech">What to know before choosing</p>
+  <ul class="notes">
+    <li><b>Is there a standard?</b> For controls and labels, yes, in practice: Inter, or the phone's own system face. Both were drawn for small sizes on screens. For titles and reading text there is no standard; that is where a publication gets its voice.</li>
+    <li><b>Small labels are the real test.</b> The page uses labels at 8 to 10px. A face made for screens holds up there; a book face does not. That argues for Inter or System in the Controls role.</li>
+    <li><b>Each extra typeface is a download.</b> Three families is the usual ceiling. System costs nothing, which is why many news apps use it for controls.</li>
+    <li><b>Two serifs is unusual.</b> Titles and reading text could share one family. The split is deliberate here: Garamond is too fine for long reading at 17px, and Newsreader is too plain for titles.</li>
+  </ul>
+</div>
+
+<script>
+(function(){
+  var FALL_SERIF=',Georgia,"Times New Roman",serif', FALL_SANS=',system-ui,-apple-system,"Segoe UI",sans-serif';
+  var OPT={
+    D:[['EB Garamond','"EB Garamond"'+FALL_SERIF,1],['Cormorant','"Cormorant Garamond"'+FALL_SERIF],['Libre Caslon','"Libre Caslon Text"'+FALL_SERIF]],
+    B:[['Newsreader','"Newsreader"'+FALL_SERIF,1],['Source Serif','"Source Serif 4"'+FALL_SERIF],['Literata','"Literata"'+FALL_SERIF]],
+    U:[['Public Sans','"Public Sans"'+FALL_SANS,1],['Inter','"Inter"'+FALL_SANS],['Source Sans','"Source Sans 3"'+FALL_SANS],['Plex Sans','"IBM Plex Sans"'+FALL_SANS],['System','system-ui,-apple-system,"Segoe UI",Roboto,sans-serif']]
+  };
+  var VAR={D:'--display',B:'--body',U:'--ui'}, pick={D:0,B:0,U:0};
+  try{ var o=JSON.parse(localStorage.getItem('typeSheet')||'null'); if(o)['D','B','U'].forEach(function(k){ if(o[k]>=0&&o[k]<OPT[k].length)pick[k]=o[k]|0; }); }catch(e){}
+  function paint(){
+    ['D','B','U'].forEach(function(k){
+      document.documentElement.style.setProperty(VAR[k],OPT[k][pick[k]][1]);
+      [].forEach.call(document.getElementById('seg'+k).children,function(b,i){ b.setAttribute('aria-pressed',String(i===pick[k])); });
+    });
+    var same=!pick.D&&!pick.B&&!pick.U;
+    document.getElementById('now').innerHTML='<b>'+(same?'As the page is now.':'Your mix.')+'</b> Titles in '+OPT.D[pick.D][0]+', reading text in '+OPT.B[pick.B][0]+', controls in '+OPT.U[pick.U][0]+'.';
+  }
+  ['D','B','U'].forEach(function(k){
+    var seg=document.getElementById('seg'+k);
+    seg.innerHTML=OPT[k].map(function(o,i){ return '<button type="button" id="b'+k+i+'" data-k="'+k+'" data-i="'+i+'" aria-pressed="false">'+o[0]+(o[2]?' · now':'')+'</button>'; }).join('');
+    seg.addEventListener('click',function(e){ var b=e.target.closest('button'); if(!b)return; pick[k]=+b.dataset.i; try{ localStorage.setItem('typeSheet',JSON.stringify(pick)); }catch(err){} paint(); });
+  });
+  paint();
+})();
+</script>
