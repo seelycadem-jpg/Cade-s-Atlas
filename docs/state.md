@@ -586,6 +586,17 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 - **Closing a chain card returns the page (Cade, 2026-11-14).** A tap on an event can push the page down
   so the event stays visible above its card. Closing the card now scrolls the page back to where it was,
   unless the reader has scrolled more than about 140px away in the meantime.
+- **The chain: full screen, a folded key, a gilt top rule (Cade, 2026-11-14, on trial).**
+  - Full screen: a button at the right end of the chain's bar opens the same chain with the same
+    controls over the whole screen; the button becomes an X, and Escape closes too. The page behind is
+    held still and returns to the same place. A phone turned sideways shows five columns. A tapped event's
+    card opens inside the view, and the view scrolls within itself to keep the event visible. No side
+    borders: the slivers say the chain continues, and a border would say it ends.
+  - The key (Knot, Fibre, Strand and the three line kinds) folds behind a small "Key" row under the chart.
+    It is open on a reader's first visit and closed after (browser storage, key `atlasKeySeen`); always
+    open at 1100px and wider.
+  - The chain's top rule is gilt.
+  For the master chat: full screen is a new mode of the event page that the standards do not describe.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.

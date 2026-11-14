@@ -1141,6 +1141,40 @@ h2{font-size:24px}
 .ruler.foot .mini{visibility:hidden;pointer-events:none}
 .ruler.foot .rarrow span{align-items:center;text-align:center}
 .ruler.foot::after{content:"Drag to explore the chain";top:50%;bottom:auto;transform:translateY(-50%);font-size:13px}
+
+/* The chain's frame (Cade, 2026-11-14): a gilt rule on top, as on the filter panel and the pop-ups. */
+.chainbox{border-top-color:var(--gilt)}
+/* The key folds behind one small row. */
+.keybtn{display:flex;align-items:center;justify-content:center;gap:8px;width:100%;min-height:34px;border-top:1px solid var(--rule);font:500 9px/1 var(--ui);letter-spacing:.11em;text-transform:uppercase;color:var(--ink3)}
+.keybtn i{position:relative;width:9px;height:9px}
+.keybtn i::before,.keybtn i::after{content:"";position:absolute;left:0;right:0;top:4px;height:1px;background:var(--gilt);transition:transform .2s}
+.keybtn i::after{transform:rotate(90deg)}
+.keybtn[aria-expanded="true"] i::after{transform:none}
+.keybtn[aria-expanded="true"]{color:var(--ink2)}
+.chainbox .legend[hidden]{display:none}
+.chainbox .legend{border-top:0;padding-top:0}
+/* The full-screen button, last in the bar. */
+.cbar{grid-template-columns:auto 1fr auto auto auto!important}
+.chainbox .cb-full{min-width:36px;padding:0;border-left:0;border-right:0;background-image:linear-gradient(var(--rule),var(--rule));background-size:1px 14px;background-position:0 50%;background-repeat:no-repeat}
+.chainbox .cb-rec{min-width:36px}
+.chainbox .cbar{padding-left:8px;padding-right:8px}
+.chainbox .cb-steps{grid-template-columns:26px 32px 26px}
+.chainbox .cb-sizes .cb-cell{padding:0 3px}
+.chainbox .cb-filter{min-width:50px}
+.chainbox .cb-full svg{width:16px;height:16px}
+.cb-full .fx,.cb-full .fl{display:none}
+/* Full screen. */
+html.chainfull,html.chainfull body{overflow:hidden}
+.chainbox.full{position:fixed;inset:0;z-index:15;margin:0;display:flex;flex-direction:column;overflow-y:auto;overscroll-behavior:contain;border:0;
+  padding:env(safe-area-inset-top,0px) env(safe-area-inset-right,0px) env(safe-area-inset-bottom,0px) env(safe-area-inset-left,0px)}
+.chainbox.full .cbar{position:sticky;top:0;padding-top:4px;padding-bottom:0;flex:none;z-index:30}
+.chainbox.full .web{flex:1 0 auto;display:flex;flex-direction:column;justify-content:center}
+.chainbox.full .keybtn,.chainbox.full .legend{flex:none}
+.chainbox.full .cb-full{color:var(--ink)}
+.chainbox.full .cb-full .fo{display:none}
+.chainbox.full .cb-full .fx{display:block;width:15px;height:15px}
+html.chainfull .mockbtn{display:none}
+@media (max-width:420px){ .chainbox.full .cb-sizes .cb-cell span{letter-spacing:.05em} }
 </style>
 
 <div class="stage" id="stage">
@@ -1200,6 +1234,7 @@ h2{font-size:24px}
       </div>
       <button type="button" class="cb-box cb-cell cb-filter" id="fBtn" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 16 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M1.5 2.5h13M4 7h8M6.5 11.5h3"/></svg><span id="fLbl">Filter</span></button>
       <button type="button" class="cb-box cb-cell cb-rec" id="recBtn" aria-label="Recentre the web"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="5.2"/><path d="M10 1.5v3.2M10 15.3v3.2M1.5 10h3.2M15.3 10h3.2"/><path d="M10 8.1l1.9 1.9-1.9 1.9-1.9-1.9z" fill="currentColor" stroke="none"/></svg></button>
+      <button type="button" class="cb-box cb-cell cb-full" id="fullBtn" aria-pressed="false" aria-label="Open the chain full screen"><svg class="fo" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" aria-hidden="true"><path d="M3.5 7.5v-4h4M12.5 3.5h4v4M16.5 12.5v4h-4M7.5 16.5h-4v-4"/></svg><svg class="fx" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg><span class="fl">Close</span></button>
       <div class="fpop" id="fpop" role="dialog" aria-label="Filter the chain" hidden></div>
     </div>
 
@@ -1214,7 +1249,8 @@ h2{font-size:24px}
       <div class="webpad"></div>
     </div>
 
-    <div class="legend" aria-label="Key">
+    <button type="button" class="keybtn" id="keyBtn" aria-expanded="false" aria-controls="chainKey"><span>Key</span><i aria-hidden="true"></i></button>
+    <div class="legend" id="chainKey" aria-label="Key" hidden>
       <span class="g"><i class="mk k"></i></span><span><b>Knot.</b> An event that changed the course of its world.</span>
       <span class="g"><i class="mk fi"></i></span><span><b>Fibre.</b> An event that changed the course of one people or region.</span>
       <span class="g"><i class="mk st"></i></span><span><b>Strand.</b> An event that changed the course of a city, an institution or a movement.</span>
@@ -1777,8 +1813,25 @@ h2{font-size:24px}
   /* Opening the card can push the page down to keep the tapped event in view. Closing it puts the page back where it
      was (Cade, 2026-11-14), unless the reader has scrolled away since. */
   var homeY=null, pushedY=0;
+  /* Full screen (Cade, 2026-11-14, on trial): the same chain and the same controls fill the screen. The page behind is
+     held still; the last button of the bar becomes Close, and Escape closes too. */
+  var chainBox=document.querySelector('.chainbox'), isFull=false, fullBtn=document.getElementById('fullBtn'), fullAt=0;
+  function scrollPort(){ return isFull?chainBox:window; }
+  function portY(sp){ return sp===window?window.scrollY:sp.scrollTop; }
+  function setFull(on){ if(on===isFull)return; if(!fpop.hidden)fBtn.click();
+    if(sel)select(null); homeY=null; pushedY=0;
+    if(on)fullAt=window.scrollY; isFull=on; chainBox.classList.toggle('full',on); chainBox.style.paddingBottom=''; document.documentElement.classList.toggle('chainfull',on);
+    fullBtn.setAttribute('aria-pressed',String(on)); fullBtn.setAttribute('aria-label',on?'Close full screen':'Open the chain full screen');
+    chainBox.scrollTop=0; if(!on)window.scrollTo(0,fullAt);
+    requestAnimationFrame(function(){ layout('resize'); toCol(colNow(),false); sync(); kick(); if(on)fullBtn.focus({preventScroll:true}); }); }
+  fullBtn.addEventListener('click',function(){ setFull(!isFull); });
+  document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&isFull&&!sel&&!sheetHost.firstChild&&fpop.hidden)setFull(false); });
+  /* the key folds away on a phone; it is open on the first visit only */
+  (function(){ var kb=document.getElementById('keyBtn'), key=document.getElementById('chainKey'), seen=false; try{ seen=localStorage.getItem('atlasKeySeen')==='1'; localStorage.setItem('atlasKeySeen','1'); }catch(e){}
+    function setKey(o){ key.hidden=!o; kb.setAttribute('aria-expanded',String(o)); }
+    setKey(!seen||window.innerWidth>=1100); kb.addEventListener('click',function(){ setKey(key.hidden); }); })();
   function dock(){
-    if(!sel){ if(homeY!==null){ if(Math.abs(window.scrollY-(homeY+pushedY))<140)window.scrollTo({top:homeY,behavior:reduced?'auto':'smooth'}); homeY=null; pushedY=0; }
+    if(!sel){ if(homeY!==null){ var sp=scrollPort(); if(Math.abs(portY(sp)-(homeY+pushedY))<140)sp.scrollTo({top:homeY,behavior:reduced?'auto':'smooth'}); homeY=null; pushedY=0; } if(isFull)setTimeout(function(){ if(!sel)chainBox.style.paddingBottom=''; },320);
       if(dockEl){ var old=dockEl; dockEl=null; old.classList.remove('in'); clearTimeout(dockT); dockT=setTimeout(function(){ old.remove(); },260); } return; }
     var id=sel, sz=size(id), s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path), chip=N[id]&&N[id].chip;
     var where=id===centre?'the centre of the web':((s<0?'cause':'effect')+', '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'));
@@ -1805,7 +1858,8 @@ h2{font-size:24px}
     var ob=document.getElementById('openBtn'); if(ob)ob.addEventListener('click',function(){ say('Would open the page: '+name(id)); });
     var cb=document.getElementById('cenBtn'); if(cb)cb.addEventListener('click',function(){ recentre(id); });
     /* keep the event in hand clear of the card */
-    var nd=N[id]&&N[id].el; if(nd){ var wide=window.innerWidth>=1100, over=wide?0:nd.getBoundingClientRect().bottom-(window.innerHeight-Math.max(64,window.innerHeight*0.1)-dockEl.offsetHeight)+14; if(over>0){ if(homeY===null){ homeY=window.scrollY; pushedY=0; } pushedY+=over; window.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); } }
+    var nd=N[id]&&N[id].el; if(nd){ var wide=window.innerWidth>=1100, over=wide?0:nd.getBoundingClientRect().bottom-(window.innerHeight-Math.max(64,window.innerHeight*0.1)-dockEl.offsetHeight)+14; if(isFull){ chainBox.style.paddingBottom=(dockEl.offsetHeight+Math.max(64,window.innerHeight*0.1)+24)+'px'; over=wide?0:nd.getBoundingClientRect().bottom-(window.innerHeight-Math.max(64,window.innerHeight*0.1)-dockEl.offsetHeight)+14; }
+      if(over>0){ var sp=scrollPort(); if(homeY===null){ homeY=portY(sp); pushedY=0; } pushedY+=over; sp.scrollBy({top:over,behavior:reduced?'auto':'smooth'}); } }
   }
 
   /* ---------- sheets: the path, then the note on one line ---------- */
