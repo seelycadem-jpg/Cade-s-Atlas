@@ -565,6 +565,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   sets: page title 32px on a phone (clamp 32 to 48), section heading 24, opening line 19.5, reading
   text 17, Record answer 16.5, Record text 16; side margins 20px. Labels still run 8 to 10px; the sub
   chat advised a floor of 10px and Cade has not taken that up.
+- **Titles in Cormorant Garamond (Cade, 2026-11-14).** Cade chose Cormorant Garamond for the title
+  role (page title, headings, opening line, Record answers, italic notes, card titles) and kept
+  Newsreader and Public Sans. The mock uses it from Version 105. The palette doc and the stack still
+  name EB Garamond: the master chat updates them. Cormorant has finer strokes and a smaller body than
+  EB Garamond, so the small title jobs (card titles 14.5px, italic notes 15px) need a check on a phone.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.
