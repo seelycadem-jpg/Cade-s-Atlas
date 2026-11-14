@@ -1629,16 +1629,18 @@ h2{font-size:24px}
       if(n.gone&&c.o<0.02){ n.el.remove(); delete N[id]; return; }
       var sx=c.x+n.w/2-sl, bl=inner-sx, br=sx-(Wv-inner), bb=Math.max(bl,br,0), u=Math.min(bb/CW,1.6), u1=Math.min(u,1), hx=(bl>0?1:-1)*pull*u1, ho=u<=1?1-0.6*u:Math.max(0,0.4-(u-1)*0.8);
       var hs=u>0.5?'1':'0'; if(n.hs!==hs){ n.hs=hs; n.el.setAttribute('data-hs',hs); }
-      n.el.style.transform='translate3d('+(c.x+hx).toFixed(2)+'px,'+c.y.toFixed(2)+'px,0) translateY(-50%) scale('+(c.s*(1-0.3*u1)).toFixed(4)+','+(c.s*(1-0.14*u1)).toFixed(4)+')'; n.el.style.opacity=(c.o*c.d*c.q*ho).toFixed(3); });
+      n.rx=c.x+hx; n.rsx=c.s*(1-0.3*u1); n.rsy=c.s*(1-0.14*u1); n.ro=ho; n.ru=u1;
+      n.el.style.transform='translate3d('+n.rx.toFixed(2)+'px,'+c.y.toFixed(2)+'px,0) translateY(-50%) scale('+n.rsx.toFixed(4)+','+n.rsy.toFixed(4)+')'; n.el.style.opacity=(c.o*c.d*c.q*ho).toFixed(3); });
     Object.keys(ED).forEach(function(id){ var e=ED[id], a=N[e.l.f], b=N[e.l.t]; if(!a||!b){ e.g.remove(); delete ED[id]; return; }
       e.cuA+=(e.tgA-e.cuA)*k; if(Math.abs(e.tgA-e.cuA)>0.008)more=true; else e.cuA=e.tgA;
       if(e.gone&&e.cuA<0.02){ e.g.remove(); delete ED[id]; return; }
-      var x1=a.cur.x+a.w/2+a.cur.s*a.w/2+2.5, y1=a.cur.y+e.po*a.cur.s, x2=b.cur.x+b.w/2-b.cur.s*b.w/2-2.5, y2=b.cur.y+e.pi*b.cur.s;
-      var sc=Math.min(a.cur.s,b.cur.s), hl=(e.big?9.5:8)*Math.max(0.6,sc), hw=(e.big?4.1:3.4)*Math.max(0.6,sc), c=Math.max(12,(x2-x1)*0.5);
+      /* an arrow meets a full card at its edge; as the card curves away the arrow runs in behind it */
+      var x1=a.rx+a.w/2+(a.rsx*a.w/2+2.5)*(1-a.ru), y1=a.cur.y+e.po*a.rsy, x2=b.rx+b.w/2-(b.rsx*b.w/2+2.5)*(1-b.ru), y2=b.cur.y+e.pi*b.rsy;
+      var sc=Math.min(a.rsx,b.rsx), hl=(e.big?9.5:8)*Math.max(0.6,sc), hw=(e.big?4.1:3.4)*Math.max(0.6,sc), c=Math.max(12,(x2-x1)*0.5);
       var d='M'+x1.toFixed(1)+' '+y1.toFixed(1)+' C'+(x1+c).toFixed(1)+' '+y1.toFixed(1)+' '+(x2-c-hl*0.5).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl*0.7).toFixed(1)+' '+y2.toFixed(1);
       e.line.setAttribute('d',d); e.hit.setAttribute('d',d); e.port.setAttribute('cx',x1.toFixed(1)); e.port.setAttribute('cy',y1.toFixed(1));
       e.head.setAttribute('d','M'+x2.toFixed(1)+' '+y2.toFixed(1)+' L'+(x2-hl).toFixed(1)+' '+(y2-hw).toFixed(1)+' Q'+(x2-hl*0.62).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl).toFixed(1)+' '+(y2+hw).toFixed(1)+' Z');
-      e.g.style.opacity=(e.cuA*Math.min(a.cur.o*a.cur.q,b.cur.o*b.cur.q)).toFixed(3); });
+      e.g.style.opacity=(e.cuA*Math.min(a.cur.o*a.cur.q,b.cur.o*b.cur.q)*Math.min(1,a.ro+b.ro>1.3?1:Math.max(a.ro,b.ro)*0.85)).toFixed(3); });
     if(more&&!snap) running=requestAnimationFrame(function(){ running=0; frame(false); }); }
   /* one bead runs the lit path once, in the direction the arrows point */
   function pulse(links){ if(reduced||!links.length)return; var c=document.createElementNS(SVGNS,'circle'); c.setAttribute('r','3.4'); c.setAttribute('class','pulse'); svg.appendChild(c);
