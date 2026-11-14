@@ -572,7 +572,7 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   EB Garamond, so the small title jobs (card titles 14.5px, italic notes 15px) need a check on a phone.
 - **Where next, links that look like links (Cade, 2026-11-14).** The rule with the diamond above the
   block is gone and the line reads "Where next?". The four random choices and the titles of The globe
-  and The timeline carry the house link underline (thin, red); the pair also carries a gilt chevron.
+  and The timeline carry the house link underline (thin, red); the chevron tried on the pair was dropped the same day.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.
