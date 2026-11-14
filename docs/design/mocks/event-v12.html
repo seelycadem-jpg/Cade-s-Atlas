@@ -1259,6 +1259,19 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .chainbox.full .legend .kr > span{font-size:0;display:inline-flex;align-items:center}
 .chainbox.full .legend .kr > span b{font:500 11.5px/1.2 var(--ui);color:var(--ink2);margin-right:8px}
 .chainbox.full .legend .g .gl{margin-right:0}
+
+/* Sideways full screen, fourth pass (Cade's screenshot, 2026-11-14).
+   The side tabs sit at the true edge of the chart (the box already keeps clear of the phone's notch, so the tabs must
+   not step in a second time), and a tab with nothing behind it is not shown.
+   The bar is two groups under one unbroken hairline: the chain's controls at the left; Key, Zoom and the X at the right. */
+.chainbox.land .web .ruler.foot .rarrow.l{left:3px}
+.chainbox.land .web .ruler.foot .rarrow.r{right:3px}
+.chainbox.land .web .ruler.foot.noL .rarrow.l,.chainbox.land .web .ruler.foot.noR .rarrow.r{display:none}
+.chainbox.land .cbar{grid-template-columns:auto minmax(0,240px) auto auto 1fr auto auto!important;box-shadow:inset 0 -1px 0 var(--rule)}
+.chainbox.land .cbar .cb-box,.chainbox.land .cbar .zoomc,.chainbox.land .cbar .keybtn{border-bottom-color:transparent}
+.chainbox.land .cbar .cb-filter{justify-self:auto}
+.chainbox.land .cbar .keybtn{justify-self:end}
+.wcanvas.zfar .ehead{opacity:.9}
 </style>
 
 <div class="stage" id="stage">
@@ -1669,7 +1682,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
        cards are the same cards, drawn smaller. */
     var Wd=scroller.clientWidth||360, vb=Wd<560?3:5, EDGE=isLand?40:Wd<560?20:6;
     VIS=vb+(vb===3?zoomLv:2*zoomLv); GAP=clamp(Math.round(40*vb/VIS),20,48); CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; ZC=NW/((Wd-2*EDGE+40)/vb-40);
-    RH=Math.round(92*ZC); PEEK=Math.round(34*ZC); canvas.style.setProperty('--zc',ZC.toFixed(4)); canvas.classList.toggle('zo',zoomLv>0); canvas.classList.toggle('zfar',zoomLv>2);
+    RH=Math.round(92*ZC); PEEK=Math.max(26,Math.round(34*ZC)); canvas.style.setProperty('--zc',ZC.toFixed(4)); canvas.classList.toggle('zo',zoomLv>0); canvas.classList.toggle('zfar',zoomLv>2);
     /* Full screen fills its height (Cade, 2026-11-14): the chart takes all the room the bar, the foot and the key
        leave, the rows that fit are counted from that, and the rows then spread to use it, which also gives the
        arrows room between events. */
@@ -1678,7 +1691,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     if(isFull){ avH=roomForChart(); RH=RHmin; MAXR=clamp(Math.floor((avH-TOP-2*PEEK)/RHmin),2,8); }
     G=build(); if(sel&&!G.need[sel])sel=null;
     var OFF=GAP/2-EDGE;
-    var half=(VIS-1)/2, padL=Math.max(0,half+G.minS)*CW, padR=Math.max(0,half-G.maxS)*CW, ncol=G.maxS-G.minS+1;
+    /* in full screen the chain can always be dragged until its first or last column stands in the middle */
+    var half=(VIS-1)/2, padL=(isFull?half:Math.max(0,half+G.minS))*CW, padR=(isFull?half:Math.max(0,half-G.maxS))*CW, ncol=G.maxS-G.minS+1;
     var CWID=padL+ncol*CW+padR-2*OFF, yc=0;
     G.cx=function(s){ return padL+(s-G.minS)*CW-OFF; }; G.W=Wd; G.ncol=ncol; G.CWID=CWID; G.EDGE=EDGE;
     canvas.style.setProperty('--chipw',((CW-34)/ZC).toFixed(0)+'px');
@@ -1777,7 +1791,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       if(e.gone&&e.cuA<0.02){ e.g.remove(); delete ED[id]; return; }
       /* an arrow meets a full card at its edge; as the card curves away the arrow runs in behind it */
       var x1=a.rx+a.w/2+a.rsx*a.w/2+2.5-20*a.ru, y1=a.cur.y+e.po*a.rsy, x2=b.rx+b.w/2-b.rsx*b.w/2-2.5+20*b.ru, y2=b.cur.y+e.pi*b.rsy;
-      var sc=Math.min(a.rsx,b.rsx)*Math.max(0.7,ZC), hl=(e.big?9.5:8)*Math.max(0.6,sc), hw=(e.big?4.1:3.4)*Math.max(0.6,sc), c=Math.max(12,(x2-x1)*0.5);
+      var sc=Math.min(a.rsx,b.rsx)*Math.max(0.5,ZC), hl=(e.big?9.5:8)*Math.max(0.6,sc), hw=(e.big?4.1:3.4)*Math.max(0.6,sc), c=Math.max(12,(x2-x1)*0.5);
       var d='M'+x1.toFixed(1)+' '+y1.toFixed(1)+' C'+(x1+c).toFixed(1)+' '+y1.toFixed(1)+' '+(x2-c-hl*0.5).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl*0.7).toFixed(1)+' '+y2.toFixed(1);
       e.line.setAttribute('d',d); e.hit.setAttribute('d',d); e.port.setAttribute('cx',x1.toFixed(1)); e.port.setAttribute('cy',y1.toFixed(1));
       e.head.setAttribute('d','M'+x2.toFixed(1)+' '+y2.toFixed(1)+' L'+(x2-hl).toFixed(1)+' '+(y2-hw).toFixed(1)+' Q'+(x2-hl*0.62).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl).toFixed(1)+' '+(y2+hw).toFixed(1)+' Z');
@@ -1799,9 +1813,10 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function toCol(s,smooth){ var left=G.cx(s)+CW/2-G.W/2; if(smooth){ var dist=Math.abs(scroller.scrollLeft-left); glide(scroller,'scrollLeft',left,clamp(420+dist*0.75,420,900),sync); } else { halt(scroller); scroller.scrollLeft=left; } }
   function colNow(){ return clamp(Math.round((scroller.scrollLeft+G.W/2-G.cx(G.minS))/CW-0.5)+G.minS,G.minS,G.maxS); }
   ['pointerdown','wheel','touchstart'].forEach(function(t){ scroller.addEventListener(t,function(){ halt(scroller); },{passive:true}); });
+  var footEl0=document.querySelector('.ruler.foot');
   var q=false; function sync(){ q=false; if(!G)return; var max=scroller.scrollWidth-scroller.clientWidth, x=scroller.scrollLeft;
     var ml=0, mr=0; Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone||n.chip||id===centre)return; if(n.tg.x+n.w<x+6)ml++; else if(n.tg.x>x+G.W-6)mr++; });
-    document.getElementById('nL').textContent=ml; document.getElementById('nR').textContent=mr;
+    document.getElementById('nL').textContent=ml; document.getElementById('nR').textContent=mr; footEl0.classList.toggle('noL',ml===0); footEl0.classList.toggle('noR',mr===0);
     document.getElementById('goL').disabled=x<=2; document.getElementById('goR').disabled=x>=max-2;
     var off=Math.abs(x-(G.cx(0)+CW/2-G.W/2))>6, turned=Object.keys(G.drum).some(function(k){ return drumF[k]>0.01; });
     document.getElementById('recBtn').classList.toggle('on',off||turned);

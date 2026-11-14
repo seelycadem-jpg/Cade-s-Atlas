@@ -641,6 +641,13 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     its new height and so cut the chart short, by about 135px on Cade's phone. That step is gone. The
     chart's room is now the box less its padding less each other part measured by itself. Tested at six
     screen sizes, key open and closed, both zoom steps: 3px of slack at most, nothing spilling.
+  - Sideways full screen, fourth pass (Cade's screenshot, same day). The side tabs stood on top of the
+    first cards on a phone with a notch, because they stepped clear of the notch twice; they now sit at
+    the chart's true edge, and a tab with nothing behind it is hidden. The bar is two groups under one
+    unbroken hairline: steps, sizes, filter and recentre at the left; Key, Zoom and the X at the right.
+    In full screen the chain can be dragged until its first or last column stands in the middle, at every
+    zoom level (the part of the rolled-back third pass Cade asked for again). A drum's "N more" label no
+    longer sits on the key's rule at far zoom.
   For the master chat: full screen is a new mode of the event page that the standards do not describe.
 - **One gap between sections; Cade wants it as a site-wide rule (2026-11-14).** Every section of the event
   page now ends with the same space before the next heading: 68px on a phone, about two blank lines of
