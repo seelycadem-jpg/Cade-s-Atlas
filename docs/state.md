@@ -620,6 +620,10 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
     under 28px. The key shows by default in full screen as one compact strip under the chart: the three
     size names and the three line kinds, no definitions. Closing full screen puts the key back as the
     page had it. In the page, zoomed-out rows sit a little further apart than before.
+  - Full screen has five zoom levels (Cade, same day): one closer than the page's full size and one
+    further than before. Columns across, upright: 2, 3, 4, 5, 6; sideways: 3, 5, 7, 9, 11. It still opens
+    on the middle-out level (4 upright, 7 sideways). At the furthest level the column labels shorten to
+    "C2", "Here", "E1" and a title is about 6px tall. The page keeps two levels.
   For the master chat: full screen is a new mode of the event page that the standards do not describe.
 - **One gap between sections; Cade wants it as a site-wide rule (2026-11-14).** Every section of the event
   page now ends with the same space before the next heading: 68px on a phone, about two blank lines of

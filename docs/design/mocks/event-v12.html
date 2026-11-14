@@ -1197,6 +1197,9 @@ html.chainland .toast{bottom:12px}
 .wcanvas .nd .card{zoom:var(--zc,1)}
 .wcanvas.zo .colh{font-size:9px;letter-spacing:.05em}
 .wcanvas.zo .dch{font-size:9px}
+.wcanvas.zfar .colh{font-size:8px;letter-spacing:.03em}
+.wcanvas.zfar .dch{font-size:8px;letter-spacing:0}
+.wcanvas.zfar .dch svg{display:none}
 .wscroll{touch-action:pan-x pan-y}
 .zoomc{display:flex;align-items:center;gap:0;width:max-content;height:34px;margin:0 0 -34px 10px;position:relative;z-index:1;font:500 9px/1 var(--ui);letter-spacing:.11em;text-transform:uppercase;color:var(--ink3)}
 .zoomc button{display:grid;place-items:center;width:32px;height:34px;font:400 16px/1 var(--ui);color:var(--ink)}
@@ -1629,8 +1632,8 @@ html.chainland .toast{bottom:12px}
     /* Zoom (Cade, 2026-11-14, on trial): three levels. Zooming out fits more columns across and more rows down; the
        cards are the same cards, drawn smaller. */
     var Wd=scroller.clientWidth||360, vb=Wd<560?3:5, EDGE=Wd<560?20:6;
-    VIS=vb+(vb===3?zoomLv:2*zoomLv); GAP=Math.max(28,Math.round(40*vb/VIS)); CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; ZC=NW/((Wd-2*EDGE+40)/vb-40);
-    RH=Math.round(92*ZC); PEEK=Math.round(34*ZC); canvas.style.setProperty('--zc',ZC.toFixed(4)); canvas.classList.toggle('zo',zoomLv>0);
+    VIS=vb+(vb===3?zoomLv:2*zoomLv); GAP=clamp(Math.round(40*vb/VIS),28,48); CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; ZC=NW/((Wd-2*EDGE+40)/vb-40);
+    RH=Math.round(92*ZC); PEEK=Math.round(34*ZC); canvas.style.setProperty('--zc',ZC.toFixed(4)); canvas.classList.toggle('zo',zoomLv>0); canvas.classList.toggle('zfar',zoomLv>2);
     /* Full screen fills its height (Cade, 2026-11-14): the chart takes all the room the bar, the foot and the key
        leave, the rows that fit are counted from that, and the rows then spread to use it, which also gives the
        arrows room between events. */
@@ -1689,7 +1692,7 @@ html.chainland .toast{bottom:12px}
       ins.forEach(function(l,i){ ED[l.id].pi=clamp((i-(ins.length-1)/2)*7,-lim,lim); }); });
 
     /* the step names over each column, the drum's arrows, and the plain statement when a side is empty */
-    var h=''; for(var s=G.minS;s<=G.maxS;s++){ h+='<div class="colh'+(s===0?' c0':'')+'" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px">'+(s===0?'This event':zoomLv?(s<0?'Cause ':'Effect ')+Math.abs(s):(s<0?'Cause':'Effect')+' · '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'))+'</div>';
+    var h=''; for(var s=G.minS;s<=G.maxS;s++){ h+='<div class="colh'+(s===0?' c0':'')+'" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px">'+(s===0?(zoomLv>2?'Here':'This event'):zoomLv>2?(s<0?'C':'E')+Math.abs(s):zoomLv>0?(s<0?'Cause ':'Effect ')+Math.abs(s):(s<0?'Cause':'Effect')+' · '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'))+'</div>';
       if(G.drum[s]){ var dtop=yc-MAXR/2*RH; h+='<div class="drumscroll" data-ds="'+s+'" tabindex="-1" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+dtop.toFixed(1)+'px;height:'+(MAXR*RH)+'px">'+G.cols[s].map(function(){ return '<i style="height:'+RH+'px"></i>'; }).join('')+'</div>'
         +'<button type="button" class="dch up" data-drum="'+s+'" data-d="-1" aria-label="Earlier events in this column" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+(dtop-PEEK-2).toFixed(1)+'px" hidden><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l5-5 5 5"/></svg><span></span></button>'
         +'<button type="button" class="dch dn" data-drum="'+s+'" data-d="1" aria-label="More events in this column" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+(dtop+MAXR*RH+2).toFixed(1)+'px" hidden><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5l5 5 5-5"/></svg><span></span></button>'; } }
@@ -1886,8 +1889,8 @@ html.chainland .toast{bottom:12px}
     chainBox.classList.toggle('land',land); document.documentElement.classList.toggle('chainland',land); chainBox.classList.remove('hasdock');
     if(land){ cbar.insertBefore(zoomEl,fullBtn); cbar.insertBefore(footEl,fullBtn); cbar.insertBefore(keyBtnEl,fullBtn); } else { webEl.insertBefore(footEl,webPad); chainBox.insertBefore(zoomEl,keyEl); chainBox.insertBefore(keyBtnEl,keyEl); } }
   var zoomEl=document.getElementById('zoomC');
-  function zBtns(){ document.getElementById('zIn').disabled=zoomLv===0; document.getElementById('zOut').disabled=zoomLv>=(isFull?2:1); }
-  function setZoom(lv,quiet){ lv=clamp(lv,0,isFull?2:1); if(lv===zoomLv)return; var c=colNow(); if(sel&&!isLand)select(null); zoomLv=lv; layout('resize'); paint(); toCol(sel?G.step[sel]:c,false); sync(); kick();
+  function zBtns(){ document.getElementById('zIn').disabled=zoomLv<=(isFull?-1:0); document.getElementById('zOut').disabled=zoomLv>=(isFull?3:1); }
+  function setZoom(lv,quiet){ lv=clamp(lv,isFull?-1:0,isFull?3:1); if(lv===zoomLv)return; var c=colNow(); if(sel&&!isLand)select(null); zoomLv=lv; layout('resize'); paint(); toCol(sel?G.step[sel]:c,false); sync(); kick();
     zBtns(); if(!quiet)say(lv===0?'Full size':VIS+' columns across'); }
   document.getElementById('zOut').addEventListener('click',function(){ setZoom(zoomLv+1); });
   document.getElementById('zIn').addEventListener('click',function(){ setZoom(zoomLv-1); });
@@ -1907,7 +1910,7 @@ html.chainland .toast{bottom:12px}
   function setFull(on){ if(on===isFull)return; if(!fpop.hidden)fBtn.click();
     if(sel)select(null); homeY=null; pushedY=0;
     /* full screen opens wider: five steps out and one level zoomed out; closing puts back what the page had */
-    if(on){ fullAt=window.scrollY; pageSteps=steps; pageZoom=zoomLv; pageKey=!keyEl.hidden; steps=5; zoomLv=Math.max(1,zoomLv); } else { steps=pageSteps; zoomLv=Math.min(1,pageZoom); } isFull=on; zBtns(); bar(); chainBox.classList.toggle('full',on); chainBox.style.paddingBottom=''; document.documentElement.classList.toggle('chainfull',on);
+    if(on){ fullAt=window.scrollY; pageSteps=steps; pageZoom=zoomLv; pageKey=!keyEl.hidden; steps=5; zoomLv=Math.max(1,zoomLv); } else { steps=pageSteps; zoomLv=clamp(pageZoom,0,1); } isFull=on; zBtns(); bar(); chainBox.classList.toggle('full',on); chainBox.style.paddingBottom=''; document.documentElement.classList.toggle('chainfull',on);
     arrange(); setKey(on?true:pageKey); if(on&&!isLand&&!hinted&&window.innerWidth<560){ hinted=true; say('Turn your phone for a wider view'); }
     fullBtn.setAttribute('aria-pressed',String(on)); fullBtn.setAttribute('aria-label',on?'Close full screen':'Open the chain full screen');
     chainBox.scrollTop=0; if(!on)window.scrollTo(0,fullAt);
