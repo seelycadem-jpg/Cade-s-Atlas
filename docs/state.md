@@ -579,7 +579,7 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   slid sideways and settled on a column; the scale bar under it repeated that job. Now a column past the
   last full one is drawn narrower, fainter and pulled in, so a sliver shows at each edge of the screen
   (the same idea as the tall columns' drums). A tap on a sliver slides one screen that way. The foot keeps
-  the two counts and arrows, with "Drag to follow the chain" between them. On a phone the three full
+  the two counts and arrows, with "Drag to explore the chain" between them. On a phone the three full
   columns keep the page's 20px margin (cards 90px wide at 390px, was 99px); the margin holds only the
   slivers. The arrows follow the curve: an arrow meets a full card at its edge and runs in behind a card
   as it curves away, shrinking and fading with it. Not done: a width cap for the chain on a desktop.
