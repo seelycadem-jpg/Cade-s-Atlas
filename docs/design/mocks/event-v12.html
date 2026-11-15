@@ -1379,6 +1379,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .ruler.foot .cb-steps button{display:grid;place-items:center;line-height:1}
 /* the Story control's keyboard-focus ring is a dotted ink line, so it is never mistaken for the red "on" frame */
 .chainbox .cb-story:focus-visible{outline:1px dotted var(--ink2);outline-offset:-4px}
+
+.spop .snote{margin:0 0 8px}
+.spop .slist{margin:0 0 2px;border-top:1px solid var(--rule)}
 </style>
 
 <div class="stage" id="stage">
@@ -1441,7 +1444,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       <button type="button" class="cb-box cb-cell cb-rec" id="recBtn" aria-label="Recentre the web"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="5.2"/><path d="M10 1.5v3.2M10 15.3v3.2M1.5 10h3.2M15.3 10h3.2"/><path d="M10 8.1l1.9 1.9-1.9 1.9-1.9-1.9z" fill="currentColor" stroke="none"/></svg></button>
       <button type="button" class="cb-box cb-cell cb-full" id="fullBtn" aria-pressed="false" aria-label="Open the chain full screen"><svg class="fo" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" aria-hidden="true"><path d="M3.5 7.5v-4h4M12.5 3.5h4v4M16.5 12.5v4h-4M7.5 16.5h-4v-4"/></svg><svg class="fx" viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="square" aria-hidden="true"><path d="M5 5l10 10M15 5L5 15"/></svg><span class="fl">Close</span></button>
       <div class="fpop" id="fpop" role="dialog" aria-label="Filter the chain" hidden></div>
-      <div class="fpop spop" id="spop" role="dialog" aria-label="Choose a story" hidden></div>
+      <div class="fpop spop" id="spop" role="dialog" aria-label="Story filter" hidden></div>
     </div>
 
     <p class="storyline" id="storyLine" hidden></p>
@@ -1981,7 +1984,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     [].forEach.call(cbar.querySelectorAll('[data-size]'),function(b){ b.setAttribute('aria-pressed',String(show[b.dataset.size])); });
     var ks=Object.keys(kinds), n=ks.length+(bbOnly?1:0)+(side?1:0), lab=n===0?'Filter':n===1?(ks.length?cap1(ks[0]):bbOnly?'Backbone':side<0?'Causes':'Effects'):n+' filters';
     document.getElementById('fLbl').textContent=lab; fBtn.classList.toggle('on',n>0);
-    document.getElementById('sVal').textContent=story?(STORY.names[story]||story):''; sBtn.classList.toggle('on',!!story); sBtn.setAttribute('aria-label',story?'Story: '+(STORY.names[story]||story):'Story: all stories');
+    document.getElementById('sVal').textContent=story?(STORY.names[story]||story):''; sBtn.classList.toggle('on',!!story); sBtn.setAttribute('aria-label',story?'Story filter: '+(STORY.names[story]||story):'Story filter: all stories');
     var sl=document.getElementById('storyLine'); sl.hidden=!story; sl.style.display=story?'':'none'; if(story)sl.innerHTML='<span>Within the story <b>'+esc(STORY.names[story]||story)+'</b>.</span><button type="button" id="storyAll">Show all</button>';
     if(!fpop.hidden)popFill(); }
   /* A control must show its result. New cards often land off screen, so each change says how many events now match and
@@ -2013,10 +2016,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     fpop.innerHTML=h; }
   var spop=document.getElementById('spop'), sBtn=document.getElementById('sBtn'), stepsEl=cbar.querySelector('.cb-steps');
   function popRoom(){ var box=cbar.parentNode, hh=Math.max(fpop.hidden?0:fpop.offsetHeight,spop.hidden?0:spop.offsetHeight); box.style.minHeight=hh?(cbar.offsetHeight+hh+30)+'px':''; }
-  function storyFill(){ var mine=(STORY.of[centre]||[]), h='<p class="fh">Story</p><div class="slist" role="group" aria-label="Story">';
+  function storyFill(){ var mine=(STORY.of[centre]||[]), h='<p class="fh">Story filter</p><p class="snote">Show only the causes and effects of this event that belong to one story.</p><div class="slist" role="group" aria-label="Story filter">';
     h+='<button type="button" data-story="" aria-pressed="'+(!story)+'"><b>All stories</b><span>every cause and effect</span></button>';
-    mine.slice().sort(function(a,b){ return (b===ARRIVED)-(a===ARRIVED); }).forEach(function(a){ h+='<button type="button" data-story="'+a+'" aria-pressed="'+(story===a)+'"><b>'+esc(STORY.names[a]||a)+'</b>'+(a===ARRIVED?'<span>the story you came through</span>':'')+'</button>'; });
-    h+='</div><p class="snote">Show only the causes and effects of this event that belong to one story.</p>'; spop.innerHTML=h; }
+    /* the story the reader came through leads; the rest follow by name */
+    mine.slice().sort(function(a,b){ return (b===ARRIVED)-(a===ARRIVED)||String(STORY.names[a]||a).localeCompare(String(STORY.names[b]||b)); }).forEach(function(a){ h+='<button type="button" data-story="'+a+'" aria-pressed="'+(story===a)+'"><b>'+esc(STORY.names[a]||a)+'</b>'+(a===ARRIVED?'<span>the story you came through</span>':'')+'</button>'; });
+    h+='</div>'; spop.innerHTML=h; }
   function storyOpen(o){ if(o&&!fpop.hidden)popOpen(false); spop.hidden=!o; sBtn.setAttribute('aria-expanded',String(o)); if(o)storyFill(); popRoom(); }
   sBtn.addEventListener('click',function(e){ e.stopPropagation(); storyOpen(spop.hidden); });
   spop.addEventListener('click',function(e){ e.stopPropagation(); var b=e.target.closest('button[data-story]'); if(!b)return; story=b.dataset.story||null; storyOpen(false); bar(); change(); sBtn.focus({preventScroll:true}); });
