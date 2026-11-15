@@ -2142,13 +2142,15 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     Object.keys(G.step).forEach(function(id){ if(id===centre||(inStory(id)&&(!anyKind()||(E[id].c||[]).some(function(x){ return kinds[x]; }))))c[size(id)]++; });
     [].forEach.call(cbar.parentNode.querySelectorAll('[data-sc]'),function(el){ el.textContent='('+c[el.dataset.sc]+')'; }); }
   function change(){ layout('filter'); dock(); setTimeout(tell,60); }
-  /* A light tap in the hand when the steps change (Cade, 2026-11-15, on trial). Android phones allow a page to vibrate.
-     iPhones do not, so there the page flips a hidden switch, which recent iPhones answer with their own small tick; an
-     older iPhone, or a page shown inside another app, stays silent. At the first or last step the tap is doubled. */
-  var hapt=(function(){ var lab=null;
-    try{ lab=document.createElement('label'); lab.setAttribute('aria-hidden','true'); lab.style.cssText='position:fixed;left:-99px;top:0;width:1px;height:1px;overflow:hidden;opacity:0;pointer-events:none';
-      var inp=document.createElement('input'); inp.type='checkbox'; inp.setAttribute('switch',''); inp.tabIndex=-1; lab.appendChild(inp); document.body.appendChild(lab); }catch(e){ lab=null; }
-    return function(end){ try{ if(navigator.vibrate){ navigator.vibrate(end?[8,40,8]:8); return; } if(lab)lab.click(); }catch(e){} }; })();
+  /* A light tap in the hand when the steps change (Cade, 2026-11-15, on trial). Android phones let a page vibrate
+     directly. On an iPhone the page makes a switch control and flips it, and the phone answers a switch with its own
+     tick; this is the method other sites use, done the same way: a fresh hidden switch each time, flipped inside the
+     reader's own tap. At the first or last step the tap is doubled. */
+  var hapt=(function(){
+    function tick(){ try{ var lab=document.createElement('label'); lab.setAttribute('aria-hidden','true'); lab.style.display='none';
+      var inp=document.createElement('input'); inp.type='checkbox'; inp.setAttribute('switch',''); lab.appendChild(inp);
+      document.head.appendChild(lab); lab.click(); document.head.removeChild(lab); }catch(e){} }
+    return function(end){ try{ if(navigator.vibrate){ navigator.vibrate(end?[8,40,8]:8); return; } }catch(e){} tick(); if(end)setTimeout(tick,90); }; })();
   document.getElementById('stDn').addEventListener('click',function(){ if(steps>1){ steps--; hapt(steps===1); layout('steps'); dock(); setTimeout(tell,60); } });
   document.getElementById('stUp').addEventListener('click',function(){ if(steps<5){ steps++; hapt(steps===5); layout('steps'); dock(); setTimeout(tell,60); } });
   [].forEach.call(cbar.querySelectorAll('[data-size]'),function(b){ b.addEventListener('click',function(){ var k=b.dataset.size; show[k]=!show[k]; change(); }); });

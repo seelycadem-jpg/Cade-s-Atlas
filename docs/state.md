@@ -861,12 +861,14 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   links, back to the chapter and next chapter. C, title first and one navigator: the title leads, and one box
   under the date holds the three rows, "Next chapter" on the chapter row, and a foot naming the event before
   and after. Options 3, 4 and 5 of the first round (tabs, thread, sentence) were dropped from the page.
-- **A light tap in the hand when the steps change (Cade, 2026-11-15, on trial, unverified).** Each change of
-  steps gives one short vibration, doubled at the first and last step. Android phones allow a page to
-  vibrate. iPhones do not: there the page flips a hidden switch control, which recent versions of Safari answer
-  with the phone's own tick. That is a workaround with no promise behind it, and a page shown inside another
-  app's frame may get nothing. The sub chat could not test either. For the master chat: treat haptics as an
-  extra that may be absent; nothing may depend on it.
+- **A light tap in the hand when the steps change (Cade, 2026-11-15, on trial, unverified by the sub chat).**
+  Each change of steps gives one short tick, doubled at the first and last step. Android phones let a page
+  vibrate directly. On an iPhone the page makes a hidden switch control and flips it inside the reader's own
+  tap, and the phone answers a switch with its own tick; Cade reports browser games on his iPhone that give
+  haptic feedback, and this is the method such sites use. The sub chat first told Cade that iPhones do not
+  allow it; that was too strong and he corrected it. The sub chat's test browser has no motor, so whether the
+  mock ticks on Cade's phone, and inside the Claude app's frame, is for Cade to report. For the master chat:
+  haptics are welcome where they work; nothing may depend on them.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
