@@ -822,6 +822,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   "Knots (5)", "Fibres (10)", "Strands (3)". The number counts a size whether or not it is switched on, so a
   reader sees what turning Strands on would add; the story and type filters do apply. Each column shows its
   own total under its name: "Effect · 1 step" over "4 events" (a bare number when zoomed out).
+- **"Drag to explore" is back (Cade, 2026-11-15).** The line lost its place when Steps moved to the foot. It
+  now stands in italics between Key and Zoom, on the row under the chart, in the page and in upright full
+  screen. Sideways in full screen that row does not exist, so the line does not show there.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.

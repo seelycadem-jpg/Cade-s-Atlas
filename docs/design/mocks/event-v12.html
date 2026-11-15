@@ -1465,6 +1465,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 /* Counts live with the controls and the columns, not in the key (Cade, 2026-11-15). Each size shows how many of its
    events are within reach; each column shows its own total under its name. */
 .legend .kc,.keypanel .kc{display:none}
+/* "Drag to explore" stands between Key and Zoom, under the chart (Cade, 2026-11-15) */
+.chainbox:not(.land) .keybtn{position:relative}
+.chainbox:not(.land) .keybtn::after{content:"Drag to explore";position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center;font:italic 400 13.5px/1 var(--display);letter-spacing:0;text-transform:none;color:var(--ink3);pointer-events:none}
 .chainbox .cb-sizes .sc{font-style:normal;font-weight:400;margin-left:3px;letter-spacing:0;color:var(--ink3);font-variant-numeric:tabular-nums}
 .chainbox .cb-sizes .cb-cell{padding:0 2px}
 .colh{flex-direction:column;gap:3px;height:30px}
