@@ -679,6 +679,17 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
      adds weight to the open question on city and country fields.
   4. Neighbours linger: a card leaving at the side, or at the top or bottom of a turning column, fades
      more slowly and stays a little more visible; arrows fade in step with no jump.
+- **Place rule for the chain (Cade, 2026-11-15).** A card always names the country. Where the event is larger
+  than one country, it names the region. A city may show only after its country: "France, Paris". The card
+  shows the country alone; the event's pop-up shows country and place under the title. The old data has no
+  country field, so `build-places.py` holds a country for each of the 33 chain events, added by hand from
+  the place the data names (present-day country), and writes `event-v12-places.js`. Four events name
+  something wider and show that: Europe (three), the Holy Roman Empire, the Soviet Union, Silesia. These
+  are placeholders. For the master chat: every event needs a country field, and a rule on present-day
+  against period names (Petrograd is "Russia", Münster in 1648 is "Germany").
+- **A turning column fades (Cade, 2026-11-15).** The fade Cade asked about was a tall column scrolled up or
+  down. The cause of the pop was the words: they switched off at once when a card began to leave. Words
+  now fade with the card, and the card fades to a ghost that stays while any of it can be seen.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.
