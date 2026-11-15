@@ -897,6 +897,18 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   buttons: back to the chapter is a tap on the chapter's name, and the next chapter is the arrow on its row.
   Placeholders: "The Armistice", "2 of 5", "1 of 3", "The Ruhr and the Mark". The other options stay in
   `hero-demos.html`.
+- **The hero says what the route means, and is never bare (Cade's two worries, 2026-11-16, on trial).**
+  1. *Does the reader know they are reading the event through one story, and that "next" means next in that
+     story?* The sub chat's answer was no. Fixes: a line over the ladder, "You are reading this event within
+     the story Weimar Germany"; the event's stepper reads "2 of 5 in chapter"; the two buttons under the date
+     read "Before, in this chapter" and "Next, in this chapter".
+  2. *Does the hero look empty for a reader from the globe, the timeline or an unrelated link?* It did: only
+     the Event label and a count. Now it reads "This event belongs to 18 stories. Read it within one:" over
+     three of those stories as rows (chronicle over story), then "See all 18 stories". Tapping a row gives
+     the page that route and the full ladder. Which three stories lead is undecided; the mock takes the first
+     three of its placeholder list.
+  For the master chat, a rule in the making: an event page always shows a way into its stories, whether or not
+  the reader came through one; and every "next" on the page says what it is next in.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
