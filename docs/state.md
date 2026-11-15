@@ -749,6 +749,14 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   title: "Show only the causes and effects of this event that belong to one story." The list runs: "All
   stories"; then the story the reader came through, if any, marked as such; then the event's other stories
   in alphabetical order. The control in the bar keeps the one word "Story".
+- **A card in view is never blank (Cade, 2026-11-15; a rule).** The next card out of a tall column peeks
+  from behind the last full one as a faded copy of itself, words included: below a column it shows the end of
+  its title, above it shows its year and the start of its title. The "N more" label stands at the outer end
+  of the peek. The card after that waits behind, unseen. The peek is deeper than before (the column's ends
+  take 58px each, were 34px), so a chain with a tall column is about 48px taller in the page. Sideways in
+  full screen keeps the shallow peek, for want of height, but shows the words too. This replaces the earlier
+  note that words fade out as a card tucks away. Also: changing the story filter recentres the chain on the
+  event; before, "Show all" could leave it one column off.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
