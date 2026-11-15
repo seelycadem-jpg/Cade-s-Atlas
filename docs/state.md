@@ -1001,3 +1001,18 @@ it reads the page first and republishes to the same link.
   The globe rides up with the page through that first 110px, so it never sits behind the hero text. The docking
   animation starts after that stretch. Under reduced motion the offset is off and the page opens at the top.
 - Not yet checked on a real phone: Safari's own scroll restore and the scroll-driven ranges with the offset.
+
+### Event page hero: scroll up opens the globe view; date in ink; type signs on the date line (sub chat, 2026-11-16)
+
+- **Opening view shows a little less globe.** The page opens 150px down (was 110px).
+- **Scroll up opens the globe view.** From the opening view, scrolling up moves the globe to the middle of the screen
+  and fades the hero and the page out; the globe view's own words fade in over the second half (year at the top, the
+  event's name, date and place at the foot, "Back to the event"). Everything follows the finger. Letting go part-way
+  settles on the nearer view. The hint under the globe reads "Globe 1919 · scroll up to open". The globe view in the
+  mock is a labelled stand-in; the real one is the Political globe at that year, centred on the event. Off under
+  reduced motion, where the tap on the docked globe remains the way in.
+- **Date in ink.** The date is bold ink, no longer red. Red on the date line now belongs to the two signs alone.
+- **Type signs sit on the date line**, after the place, in gilt. They left the Event row of the ladder.
+- Open question for the master chat: the type signs carry no words here; the chain's key defines them. Decide whether
+  a first-time reader needs the word beside the sign.
+- Not yet checked on a real phone: the settle after letting go, and Safari's scroll-driven ranges.

@@ -65,7 +65,7 @@ p{margin:0 0 14px;text-wrap:pretty}
   :root.sda .stage .band::after{animation:fadeIn linear both;animation-timeline:scroll(root block);animation-range:var(--D) calc(var(--D) + 32px)}
 }
 @keyframes twDock{from{transform:translate3d(0,0,0) scale(1)}to{transform:translate3d(var(--dx),0,0) scale(var(--s1))}}
-@keyframes gwDock{from{transform:translate3d(var(--g0x),var(--g0y),0) scale(1);opacity:1}to{transform:translate3d(var(--g1x),var(--g1y),0) scale(var(--gs1));opacity:.78}}
+@keyframes gwDock{from{transform:translate3d(var(--g0x),var(--g0y),0) scale(var(--g0s,1));opacity:1}to{transform:translate3d(var(--g1x),var(--g1y),0) scale(var(--gs1));opacity:.78}}
 @keyframes fadeOut{from{opacity:1}to{opacity:0;visibility:hidden}}
 @keyframes fadeIn{from{opacity:0}to{opacity:1}}
 @keyframes subKeep{from{transform:scale(1)}to{transform:scale(var(--subk))}}
@@ -1575,8 +1575,28 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   :root.sda .stage .band{animation-range:calc(var(--E,0px) + var(--D) * .7) calc(var(--E,0px) + var(--D) * .9)}
   :root.sda .stage .band::after{animation-range:calc(var(--E,0px) + var(--D)) calc(var(--E,0px) + var(--D) + 32px)}
 }
+/* Scrolling up from the opening view opens the globe view (Cade, 2026-11-16). The hero's words fade, the globe moves
+   to the middle of the screen, and the globe view's own words fade in. All of it follows the scroll. */
+.gview{position:fixed;inset:0;z-index:7;background:var(--bg);opacity:0;visibility:hidden;pointer-events:none;display:flex;flex-direction:column;justify-content:flex-end;align-items:center;text-align:center;padding:0 20px calc(34px + env(safe-area-inset-bottom,0px))}
+.gview .gy{position:absolute;top:calc(env(safe-area-inset-top,0px) + 18px);left:0;right:0;font:500 12px/1 var(--label);letter-spacing:.14em;text-transform:uppercase;color:var(--ink2)}
+.gview .gt{font:500 26px/1.1 var(--display);color:var(--title);margin:0 0 6px}
+.gview .gp{font:16px/1.4 var(--display);color:var(--ink2);margin:0 0 18px}
+.gview .gb{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 4px;font:500 14px/1 var(--ui);color:var(--ink)}
+.gview .gb svg{color:var(--accent)}
+.gview .gn{font:11px/1.4 var(--ui);color:var(--ink3);margin:10px 0 0}
+.tw .sub b{color:var(--ink)}
+.tw .sub .pkinds{display:inline-flex;align-items:center;gap:6px}
+.tw .sub .pkinds span{display:inline-flex}
+.tw .sub .pkinds .ki{width:15px;height:15px;fill:none;stroke:var(--gilt);color:var(--gilt);stroke-width:1.25;--kibg:var(--bg)}
 </style>
 
+<div class="gview" id="gview" aria-hidden="true">
+  <div class="gy">Globe · 1919</div>
+  <p class="gt">The Treaty of Versailles</p>
+  <p class="gp">28 June 1919 · Versailles, France</p>
+  <button type="button" class="gb" id="gvBack" tabindex="-1"><svg width="14" height="14" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5l5 5 5-5"/></svg>Back to the event</button>
+  <p class="gn">Stand-in for the globe view: the full globe opens here.</p>
+</div>
 <div class="stage" id="stage">
   <div class="band" id="band"></div>
   <div class="gw" id="gw"><canvas id="globe" aria-label="The world in 1919, centred on Versailles. Drag to turn it; tap when small to open it large."></canvas></div>
@@ -1587,7 +1607,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     <button class="topsearch" type="button" data-say="Would open search" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="butt" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
   </div>
 </div>
-<div class="spacer" id="spacer"><div class="hint" id="hint">Globe 1919</div></div>
+<div class="spacer" id="spacer"><div class="hint" id="hint">Globe 1919 · scroll up to open</div></div>
 <div class="tw" id="tw">
   <nav class="kicker path route" id="kicker" aria-label="Where this sits">
     <p class="rhead" id="rHead"></p>
@@ -1596,11 +1616,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     <div class="rrow"><span class="rl">Chronicle</span><button class="lk" type="button" id="cChron">Germany</button><span class="rside" id="rAlso"></span></div>
     <div class="rrow"><span class="rl">Story</span><button class="lk" type="button" id="cStory">Weimar Germany</button><span class="stp"><button type="button" id="sPrev" aria-label="The story before"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg></button><i id="cStoryL">8 of 12</i><button type="button" id="sNext" aria-label="The story after"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button></span></div>
     <div class="rrow"><span class="rl">Chapter</span><button class="lk" type="button" id="cChap">The Treaty</button><span class="stp"><button type="button" id="chPrev" aria-label="The chapter before" disabled><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg></button><i id="cChapL">1 of 3</i><button type="button" id="chNext" aria-label="The chapter after"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button></span></div>
-    <div class="rev"><span class="pkind"><i class="mk k" aria-hidden="true"></i>Event</span><span class="pkinds" id="pKinds"></span><span class="rside" id="rAlso2"></span><span class="stp" id="evStp"><button type="button" id="ePrev" aria-label="The event before"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg></button><i id="cEvL">2 of 5 in chapter</i><button type="button" id="eNext" aria-label="The event after"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button></span></div>
+    <div class="rev"><span class="pkind"><i class="mk k" aria-hidden="true"></i>Event</span><span class="rside" id="rAlso2"></span><span class="stp" id="evStp"><button type="button" id="ePrev" aria-label="The event before"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg></button><i id="cEvL">2 of 5 in chapter</i><button type="button" id="eNext" aria-label="The event after"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button></span></div>
     <button type="button" class="alsoin" id="alsoin" aria-haspopup="dialog"><span id="alsoTxt"></span><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5"/></svg></button>
   </nav>
   <h1>The Treaty of Versailles</h1>
-  <div class="sub" id="sub"><span><button type="button" class="jump" id="toTime" aria-label="28 June 1919. See this event on the timeline"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M1.5 12h21"/><path class="d" d="M1.5 9.5v5M22.5 9.5v5"/><path class="s" d="M7 8.2L10.2 12 7 15.8 3.8 12z"/><path class="f" d="M12.1 12a1.9 1.9 0 1 0 3.8 0a1.9 1.9 0 1 0 -3.8 0z"/><path class="s" d="M17.7 12a1.8 1.8 0 1 0 3.6 0a1.8 1.8 0 1 0 -3.6 0z"/></svg><b>28 June 1919</b></button></span><span class="rest">·</span><span class="rest"><button type="button" class="jump" id="toGlobe" aria-label="Versailles, France. See this event on the globe"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M12 1.4a8.6 8.6 0 0 1 0 17.2M12 18.6V21M8 21.5h8"/><path class="s" d="M12 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/><path class="d" d="M12 3c-3.2 2.4-3.2 11.6 0 14M5 10h14"/></svg>Versailles, France</button></span></div>
+  <div class="sub" id="sub"><span><button type="button" class="jump" id="toTime" aria-label="28 June 1919. See this event on the timeline"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M1.5 12h21"/><path class="d" d="M1.5 9.5v5M22.5 9.5v5"/><path class="s" d="M7 8.2L10.2 12 7 15.8 3.8 12z"/><path class="f" d="M12.1 12a1.9 1.9 0 1 0 3.8 0a1.9 1.9 0 1 0 -3.8 0z"/><path class="s" d="M17.7 12a1.8 1.8 0 1 0 3.6 0a1.8 1.8 0 1 0 -3.6 0z"/></svg><b>28 June 1919</b></button></span><span class="rest">·</span><span class="rest"><button type="button" class="jump" id="toGlobe" aria-label="Versailles, France. See this event on the globe"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M12 1.4a8.6 8.6 0 0 1 0 17.2M12 18.6V21M8 21.5h8"/><path class="s" d="M12 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/><path class="d" d="M12 3c-3.2 2.4-3.2 11.6 0 14M5 10h14"/></svg>Versailles, France</button></span><span class="rest" id="pKindsDot">·</span><span class="rest pkinds" id="pKinds"></span></div>
 </div>
 
 <main class="wrap pic-c fr-corners" id="mainEl">
@@ -1860,11 +1880,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   /* The page opens with less of the globe and more of the page (Cade, 2026-11-16, on trial). The top PULL pixels of
      the page are held back above the opening view: the page starts scrolled past them, and a reader who scrolls up
      pulls the title down and more of the globe into view. The docking of the title starts below that stretch. */
-  var PULL=reduced?0:110; root.style.setProperty('--E',PULL+'px');
+  var PULL=reduced?0:150; root.style.setProperty('--E',PULL+'px');
   function measure(){ var h1=tw.querySelector('h1'); M.twH=tw.offsetHeight; M.kH=kicker.offsetHeight; M.h1H=h1.offsetHeight;
     var lh=parseFloat(getComputedStyle(h1).lineHeight)||M.h1H; M.two=M.h1H>lh*1.5; M.s1t=M.two?0.38:0.46; var t0y=Math.round(GS*0.66+10)-PULL, t1y=10-M.kH*M.s1t, padL=parseFloat(getComputedStyle(document.body).paddingLeft)||0; M.t0x=Math.max(gutter,(W-640)/2); M.t1x=gutter+50; M.fx=Math.max(0,M.t0x-padL);
     var stick=t1y-M.twH*(1-M.s1t); M.D=Math.max(1,t0y-stick); M.subk=12/(16*M.s1t); M.subH=sub.offsetHeight;
-    var g0x=(W-GS)/2, g0y=-GS*0.32-(M.pz||0), g1x=W-gutter-52, g1y=8;
+    var g0x=M.gx!=null?M.gx:(W-GS)/2, g0y=M.gy!=null?M.gy:-GS*0.32-PULL, g1x=W-gutter-52, g1y=8;
     var v={'--t0y':px(t0y),'--t0x':px(M.fx),'--stick':px(stick),'--D':px(M.D),'--dx':px(M.t1x-M.t0x),'--s1':String(M.s1t),'--g0x':px(g0x),'--g0y':px(g0y),'--g1x':px(g1x),'--g1y':px(g1y),'--gs1':(52/GS).toFixed(4),'--subk':M.subk.toFixed(3)};
     for(var k in v) root.style.setProperty(k,v[k]);
     hsub.style.transform='translate3d('+M.t1x+'px,'+(10+(M.h1H+8+M.subH*M.subk)*M.s1t+(M.two?3:6)).toFixed(2)+'px,0)'; last={}; }
@@ -1875,17 +1895,32 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     if(SDA) return;
     var qh=Math.max(0,(q-0.45)/0.55), qs=qh*qh*(3-2*qh), eo=1-(1-q)*(1-q), ts=lerp(1,M.s1t,qs);
     put(tw,'tw','transform','translate3d('+((M.t1x-M.t0x)*qs).toFixed(2)+'px,0,0) scale('+ts.toFixed(4)+')');
-    var g0x=(W-GS)/2, g0y=-GS*0.32-(M.pz||0), g1x=W-gutter-52, g1y=8, s1=52/GS;
-    put(gw,'gw','transform','translate3d('+lerp(g0x,g1x,eo).toFixed(2)+'px,'+lerp(g0y,g1y,eo).toFixed(2)+'px,0) scale('+lerp(1,s1,eo).toFixed(4)+')');
+    var g0x=M.gx!=null?M.gx:(W-GS)/2, g0y=M.gy!=null?M.gy:-GS*0.32-PULL, g1x=W-gutter-52, g1y=8, s1=52/GS;
+    put(gw,'gw','transform','translate3d('+lerp(g0x,g1x,eo).toFixed(2)+'px,'+lerp(g0y,g1y,eo).toFixed(2)+'px,0) scale('+lerp(M.gs||1,s1,eo).toFixed(4)+')');
     put(gw,'gw','opacity',lerp(1,0.78,eo).toFixed(3));
     var fo=Math.max(0,1-Math.max(0,q-0.3)/0.42).toFixed(3); put(kicker,'kick','opacity',fo);
     put(sub,'sub','transform','scale('+lerp(1,M.subk,qs).toFixed(4)+')');
     put(hint,'hint','opacity',Math.max(0,1-q*3.5).toFixed(3));
     put(hsub,'hsub','opacity',Math.min(1,Math.max(0,(sc-M.D)/48)).toFixed(3));
     put(band,'band','opacity',Math.min(1,Math.max(0,(q-0.7)/0.2)).toFixed(3)); var edge=sc>M.D+16; if(last.edge!==edge){ last.edge=edge; band.classList.toggle('edge',edge); } }
+  /* v runs from 0 (the opening view) to 1 (the top of the page, the globe view). The globe moves and grows with the
+     scroll; the hero's words leave in the first half and the globe view's words arrive in the second. */
+  var gview=document.getElementById('gview'), mainEl0=document.getElementById('mainEl');
+  function globeView(v){ var sG=Math.min(1,(W-28)/GS), yC=Math.max(64,(H-GS*sG)/2-36), gs=lerp(1,sG,v);
+    M.gs=gs; M.gx=(W-GS*gs)/2; M.gy=lerp(-GS*0.32-PULL,yC,v);
+    root.style.setProperty('--g0x',px(M.gx)); root.style.setProperty('--g0y',px(M.gy)); root.style.setProperty('--g0s',gs.toFixed(4));
+    var out=Math.max(0,1-v/0.5), inn=Math.max(0,Math.min(1,(v-0.4)/0.6)); inn=inn*inn*(3-2*inn);
+    put(tw,'twv','opacity',out.toFixed(3)); put(tw,'twv','visibility',out<=0?'hidden':'visible'); put(mainEl0,'mnv','opacity',out.toFixed(3)); put(document.getElementById('spacer'),'spv','opacity',Math.max(0,1-v/0.25).toFixed(3));
+    put(gview,'gv','opacity',inn.toFixed(3)); put(gview,'gv','visibility',inn<=0?'hidden':'visible'); put(gview,'gv','pointerEvents',v>0.9?'auto':'none');
+    gview.setAttribute('aria-hidden',v>0.9?'false':'true'); document.getElementById('gvBack').tabIndex=v>0.9?0:-1; }
+  /* Let go part-way and the page settles on the nearer of the two views. */
+  var held=false, settleT; function settle(){ clearTimeout(settleT); settleT=setTimeout(function(){ var y=window.scrollY; if(held||!PULL||y<=0||y>=PULL)return; window.scrollTo({top:y<PULL*0.55?0:PULL,behavior:'smooth'}); },130); }
+  window.addEventListener('touchstart',function(){ held=true; },{passive:true}); window.addEventListener('touchend',function(){ held=false; settle(); },{passive:true});
+  window.addEventListener('scroll',settle,{passive:true});
+  document.getElementById('gvBack').addEventListener('click',function(){ window.scrollTo({top:PULL,behavior:'smooth'}); });
   var scrollQueued=false;
   function onScroll(force){ /* through the held-back stretch the globe rides up with the page, so it never sits behind the text */
-    var pz=Math.min(PULL,Math.max(0,window.scrollY)); if(pz!==M.pz){ M.pz=pz; root.style.setProperty('--g0y',px(-GS*0.32-pz)); force=true; }
+    var pz=Math.min(PULL,Math.max(0,window.scrollY)); if(pz!==M.pz||force){ M.pz=pz; globeView(PULL?1-pz/PULL:0); force=true; }
     var sc=Math.max(0,window.scrollY-PULL); if(reduced)sc=sc<120?0:9999; if(sc!==lastP||force){lastP=sc;apply(sc);} }
   window.addEventListener('scroll',function(){ if(scrollQueued)return; scrollQueued=true; requestAnimationFrame(function(){ scrollQueued=false; onScroll(false); }); },{passive:true});
   function pageLayout(){ W=window.innerWidth; H=window.innerHeight; GS=Math.min(W*1.12,540); measure(); draw(hero,GS); if(big)draw(big,Math.min(big.clientWidth,420)); onScroll(true); }
