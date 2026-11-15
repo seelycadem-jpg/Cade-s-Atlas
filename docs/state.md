@@ -801,6 +801,14 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   the chain's two empty-side lines now read "No cause of this event is recorded yet." It is 395px tall and does not grow on a tap. Gone: the list of nine new
   countries (the map names them) and the fourth, unsourced figure. The three sourced figures stand under the
   graphic in a strip of three; in the real site that strip is generated, never written by hand.
+- **Key figures under the Overview's graphic (Cade, 2026-11-15, on trial; a layout to be chosen).** The
+  figures that left the graphic stand in a block headed "Key figures", three at most, each a number and a few
+  words, with a link "All the numbers" that goes to By the numbers in The Record. The mock offers three
+  layouts behind a dashed mock-only switch: A, three across; B, a short table with the numbers in one column;
+  C, three sentences each led by its number in red. Naming, for the master chat: Cade suggested "Takeaways",
+  but the standards already use "takeaway strip" for the strip at the top of the page (when, where, who, the
+  strongest arrow each way), so the sub chat used "Key figures" to keep the two apart. The block must be
+  generated from the page's `figures` header, never written by hand.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.

@@ -1421,6 +1421,37 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .figstrip div+div{border-left:1px solid var(--rule)}
 .figstrip b{display:block;font:500 21px/1.1 var(--display);color:var(--title);font-variant-numeric:tabular-nums}
 .figstrip span{display:block;margin-top:3px;font:11px/1.3 var(--ui);color:var(--ink2)}
+
+/* Key figures under the Overview's graphic (Cade, 2026-11-15, on trial): three at most, each a number and a few words,
+   with a way on to By the numbers. Three layouts to choose from; the dashed line is the mock's own switch. */
+.kf{margin:18px 0 0}
+.mockpick{margin:0 0 10px;padding:5px 8px;border:1px dashed var(--ink3);font:500 11px/1.4 var(--ui);color:var(--ink3)}
+.mockpick button{min-width:30px;min-height:28px;margin-left:4px;border:1px solid var(--rule);font:600 11.5px/1 var(--ui);color:var(--ink2)}
+.mockpick button[aria-pressed="true"]{border-color:var(--ink);color:var(--ink)}
+.kfh{display:flex;align-items:baseline;justify-content:space-between;gap:12px;padding-top:9px;background:linear-gradient(90deg,var(--gilt),color-mix(in srgb,var(--gilt) 25%,transparent) 55%,transparent) top left/100% 1px no-repeat}
+.kfh p{margin:0;font:500 10.5px/1.2 var(--ui);letter-spacing:.11em;text-transform:uppercase;color:var(--ink2)}
+.kfh button{font:italic 400 14px/1.2 var(--display);color:var(--ink2);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:4px;min-height:30px}
+.kfl b{font:500 25px/1.05 var(--display);color:var(--title);font-variant-numeric:lining-nums tabular-nums;font-feature-settings:"lnum" 1}
+.kfl span{font:12px/1.32 var(--ui);color:var(--ink2)}
+/* A: three across, each number over its words */
+.kf[data-v="a"] .kfl{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin-top:8px}
+.kf[data-v="a"] .kfl div{padding:0 9px}
+.kf[data-v="a"] .kfl div:first-child{padding-left:0}
+.kf[data-v="a"] .kfl div+div{border-left:1px solid var(--rule)}
+.kf[data-v="a"] .kfl b,.kf[data-v="a"] .kfl span{display:block}
+.kf[data-v="a"] .kfl span{margin-top:4px}
+/* B: a short table, numbers in one column and words in the next */
+.kf[data-v="b"] .kfl{margin-top:4px}
+.kf[data-v="b"] .kfl div{display:grid;grid-template-columns:96px 1fr;gap:12px;align-items:baseline;padding:8px 0}
+.kf[data-v="b"] .kfl div+div{border-top:1px solid var(--rule)}
+.kf[data-v="b"] .kfl b{font-size:23px;text-align:right}
+.kf[data-v="b"] .kfl span{font-size:13px}
+/* C: three sentences, each led by its number */
+.kf[data-v="c"] .kfl{margin-top:8px;display:grid;gap:7px}
+.kf[data-v="c"] .kfl div{position:relative;padding-left:17px;font:400 16px/1.35 var(--body);color:var(--ink)}
+.kf[data-v="c"] .kfl div::before{content:"";position:absolute;left:1px;top:.5em;width:6px;height:6px;border:1px solid var(--gilt);transform:rotate(45deg)}
+.kf[data-v="c"] .kfl b{font:600 16px/1.35 var(--body);color:var(--accent);margin-right:5px}
+.kf[data-v="c"] .kfl span{font:400 16px/1.35 var(--body);color:var(--ink)}
 </style>
 
 <div class="stage" id="stage">
@@ -1461,7 +1492,15 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       <p class="bamtap" id="bamTap" aria-live="polite">The treaty took 13% of Germany’s land in Europe. France and Poland gained land. Tap a country.</p>
       <p class="bamnew" id="bamNew" hidden></p>
     </div>
-    <div class="figstrip" aria-label="Key figures"><div><b>13%</b><span>of Germany's land in Europe lost</span></div><div><b>100,000</b><span>the cap on its army</span></div><div><b>132 bn</b><span>gold marks set in 1921; about 20 bn paid</span></div></div>
+    <div class="kf" id="kf" data-v="a">
+      <p class="mockpick" aria-label="Mock only: three ways to set the key figures">Mock only, pick a layout: <button type="button" data-kf="a" aria-pressed="true">A</button><button type="button" data-kf="b" aria-pressed="false">B</button><button type="button" data-kf="c" aria-pressed="false">C</button></p>
+      <div class="kfh"><p>Key figures</p><button type="button" id="kfAll">All the numbers</button></div>
+      <div class="kfl">
+        <div><b>13%</b><span>of Germany's land in Europe lost</span></div>
+        <div><b>100,000</b><span>men, the cap on its army</span></div>
+        <div><b>132 bn</b><span>gold marks demanded in 1921; about 20 bn paid</span></div>
+      </div>
+    </div>
   </section>
 
     <section class="layer" id="chain">
@@ -1984,6 +2023,12 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function toCol(s,smooth){ var left=G.cx(s)+CW/2-G.W/2; if(smooth){ var dist=Math.abs(scroller.scrollLeft-left); glide(scroller,'scrollLeft',left,clamp(420+dist*0.75,420,900),sync); } else { halt(scroller); scroller.scrollLeft=left; } }
   function colNow(){ return clamp(Math.round((scroller.scrollLeft+G.W/2-G.cx(G.minS))/CW-0.5)+G.minS,G.minS,G.maxS); }
   ['pointerdown','wheel','touchstart'].forEach(function(t){ scroller.addEventListener(t,function(){ halt(scroller); },{passive:true}); });
+  /* mock only: three layouts for the key figures; "All the numbers" goes to By the numbers in The Record */
+  (function(){ var kf=document.getElementById('kf'); if(!kf)return; var v='a'; try{ var m=localStorage.getItem('kfLayout'); if(/^[abc]$/.test(m))v=m; }catch(e){}
+    function set(x){ v=x; kf.setAttribute('data-v',x); [].forEach.call(kf.querySelectorAll('[data-kf]'),function(b){ b.setAttribute('aria-pressed',String(b.dataset.kf===x)); }); try{ localStorage.setItem('kfLayout',x); }catch(e){} }
+    kf.addEventListener('click',function(e){ var b=e.target.closest('[data-kf]'); if(b){ set(b.dataset.kf); return; }
+      if(e.target.closest('#kfAll')){ var r=document.getElementById('record'); if(r)window.scrollTo({top:r.getBoundingClientRect().top+window.scrollY-150,behavior:'smooth'}); } });
+    set(v); })();
   var footEl0=document.querySelector('.ruler.foot');
   var q=false; function sync(){ q=false; if(!G)return; var max=scroller.scrollWidth-scroller.clientWidth, x=scroller.scrollLeft;
     var ml=0, mr=0; Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone||n.chip||id===centre)return; if(n.tg.x+n.w<x+6)ml++; else if(n.tg.x>x+G.W-6)mr++; });
