@@ -667,6 +667,18 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   "Necessary. Without this cause, the effect would not have happened." "Contributing. One cause of
   several. The effect could have happened without it." "Contested. The evidence supports two readings,
   and the atlas gives no verdict." The compact strip in full screen shows the names only.
+- **Four chain changes (Cade, 2026-11-15).**
+  1. No message pops up on zoom.
+  2. The key counts what the chain shows: events of each size and arrows of each kind, as "Knot (5)" in
+     the page and "Knot 9" in the compact strip.
+  3. Each chain card carries one small line at its foot saying where the event happened, so a reader sees
+     an event in one country reach another. The card grew 12px (82 to 94) and the row pitch with it.
+     The line shows the last part of the old data's `where` field, from the new generated file
+     `event-v12-places.js`. That field is uneven: some events give a country ("Germany"), some a city only
+     ("Paris", "Beijing"), some a region ("Europe"). The card needs a real country field per event: this
+     adds weight to the open question on city and country fields.
+  4. Neighbours linger: a card leaving at the side, or at the top or bottom of a turning column, fades
+     more slowly and stays a little more visible; arrows fade in step with no jump.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.

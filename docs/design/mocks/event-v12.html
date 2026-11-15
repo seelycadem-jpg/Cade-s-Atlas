@@ -6,6 +6,7 @@
 <script src="atlas-data.js"></script>
 <script src="event-v12-briefs.js"></script>
 <script src="event-v12-meanwhile.js"></script>
+<script src="event-v12-places.js"></script>
 <style>
 /* Layout: the globe opens the page and shrinks into the corner as the title docks; one reading column under it;
    the chain web breaks out to the full width of the phone and slides sideways, time running left to right.
@@ -1136,7 +1137,7 @@ h2{font-size:24px}
    the foot, with one line between them that says how to move. The full columns keep the page's 20px margin; the
    margin itself holds only the curved slivers. */
 .wcanvas .nd[data-hs="1"]{pointer-events:none}
-.wcanvas .nd .nt,.wcanvas .nd .nm > *{opacity:calc(1 - var(--hu,0) * 2)}
+.wcanvas .nd .nt,.wcanvas .nd .nm > *,.wcanvas .nd .pl{opacity:calc(1 - var(--hu,0) * 1.5)}
 .ruler.foot{padding:2px 14px 3px!important;margin-top:2px}
 .ruler.foot .mini{visibility:hidden;pointer-events:none}
 .ruler.foot .rarrow span{align-items:center;text-align:center}
@@ -1272,6 +1273,17 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .chainbox.land .cbar .cb-filter{justify-self:auto}
 .chainbox.land .cbar .keybtn{justify-self:end}
 .wcanvas.zfar .ehead{opacity:.9}
+
+/* The country on each chain card (Cade, 2026-11-15): one small line at the foot, so a reader sees an event in France
+   reach an event in China. The card grows 12px to hold it. */
+.wcanvas .nd:not(.chip) .card{grid-template-rows:23px 1fr 15px;height:94px}
+.wcanvas .nd .pl{display:block;align-self:end;padding:0 8px 5px;font:500 8.5px/1 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;text-align:left}
+.wcanvas .nd.chip .pl{display:none}
+.wcanvas .nd[data-sliver="1"] .pl{visibility:hidden}
+/* counts in the key */
+.legend .kc{font-style:normal;font-weight:400;color:var(--ink3);font-variant-numeric:tabular-nums}
+.legend .kc::before{content:" ("}.legend .kc::after{content:")"}
+.chainbox.full .legend .kc::before{content:"\00a0"}.chainbox.full .legend .kc::after{content:""}
 </style>
 
 <div class="stage" id="stage">
@@ -1349,13 +1361,13 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     <div class="zoomc" id="zoomC" role="group" aria-label="Zoom"><button type="button" id="zOut" aria-label="Zoom out: more events on screen">&minus;</button><span>Zoom</span><button type="button" id="zIn" aria-label="Zoom in: larger cards" disabled>+</button></div>
     <button type="button" class="keybtn" id="keyBtn" aria-expanded="false" aria-controls="chainKey"><span>Key</span><i aria-hidden="true"></i></button>
     <div class="legend" id="chainKey" aria-label="Key" hidden>
-      <span class="kr"><span class="g"><i class="mk k"></i></span><span><b>Knot</b>. An event that changed the course of its world.</span></span>
-      <span class="kr"><span class="g"><i class="mk fi"></i></span><span><b>Fibre</b>. An event that changed the course of one people or region.</span></span>
-      <span class="kr"><span class="g"><i class="mk st"></i></span><span><b>Strand</b>. An event that changed the course of a city, an institution or a movement.</span></span>
+      <span class="kr"><span class="g"><i class="mk k"></i></span><span><b>Knot<i class="kc" data-kc="k"></i></b>. An event that changed the course of its world.</span></span>
+      <span class="kr"><span class="g"><i class="mk fi"></i></span><span><b>Fibre<i class="kc" data-kc="fi"></i></b>. An event that changed the course of one people or region.</span></span>
+      <span class="kr"><span class="g"><i class="mk st"></i></span><span><b>Strand<i class="kc" data-kc="st"></i></b>. An event that changed the course of a city, an institution or a movement.</span></span>
       <span class="lgap" aria-hidden="true"></span>
-      <span class="kr"><span class="g"><i class="gl" aria-hidden="true"></i></span><span><b>Necessary</b>. Without this cause, the effect would not have happened.</span></span>
-      <span class="kr"><span class="g"><i class="gl contrib" aria-hidden="true"></i></span><span><b>Contributing</b>. One cause of several. The effect could have happened without it.</span></span>
-      <span class="kr"><span class="g"><i class="gl contest" aria-hidden="true"></i></span><span><b>Contested</b>. The evidence supports two readings, and the atlas gives no verdict.</span></span>
+      <span class="kr"><span class="g"><i class="gl" aria-hidden="true"></i></span><span><b>Necessary<i class="kc" data-kc="nec"></i></b>. Without this cause, the effect would not have happened.</span></span>
+      <span class="kr"><span class="g"><i class="gl contrib" aria-hidden="true"></i></span><span><b>Contributing<i class="kc" data-kc="contrib"></i></b>. One cause of several. The effect could have happened without it.</span></span>
+      <span class="kr"><span class="g"><i class="gl contest" aria-hidden="true"></i></span><span><b>Contested<i class="kc" data-kc="contest"></i></b>. The evidence supports two readings, and the atlas gives no verdict.</span></span>
     </div>
     </div>
   </section>
@@ -1653,8 +1665,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function kicon(k){ return '<svg class="ki" data-k="'+k+'" viewBox="0 0 24 24" aria-hidden="true">'+(KICON[k]||[]).map(function(q){ return '<path class="'+q[0]+'" d="'+q[1]+'"/>'; }).join('')+'</svg>'; }
   /* a card has room for two; the kind being filtered for comes first */
   function kicons(id){ var t=(E[id].c||[]).slice().sort(function(a,b){ return (kinds[b]?1:0)-(kinds[a]?1:0); }); return t.slice(0,2).map(function(k){ var h=kicon(k); return kinds[k]?h.replace('class="ki"','class="ki on"'):h; }).join(''); }
+  function country(id){ var w=(window.ATLAS_PLACE||{})[id]||''; return w.split(',').pop().trim(); }
   function mkNode(id){ var el=document.createElement('button'); el.type='button'; el.dataset.id=id;
-    el.innerHTML='<span class="card" lang="en"><span class="nm"><i class="mk '+size(id)+'" aria-hidden="true"></i><span class="yr">'+esc(String(E[id].y))+'</span><span class="kd"></span></span><span class="nt'+(/\S{12,}/.test(name(id))?' lw':name(id).length>=27?' lg':'')+'">'+esc(name(id))+'</span></span>';
+    el.innerHTML='<span class="card" lang="en"><span class="nm"><i class="mk '+size(id)+'" aria-hidden="true"></i><span class="yr">'+esc(String(E[id].y))+'</span><span class="kd"></span></span><span class="nt'+(/\S{12,}/.test(name(id))?' lw':name(id).length>=27?' lg':'')+'">'+esc(name(id))+'</span>'+(country(id)?'<span class="pl">'+esc(country(id))+'</span>':'')+'</span>';
     nodesLayer.appendChild(el); return {id:id,el:el,cur:{x:0,y:0,s:1,o:0,d:1,q:1},tg:{x:0,y:0,s:1,o:1,d:1,q:1},w:NW,h:60,chip:false,gone:false,fresh:true,drumK:null,drumI:0}; }
   function mkEdge(l){ var g=document.createElementNS(SVGNS,'g'); g.setAttribute('class','eg');
     var w=(backbone(l)?2.3:1.35)*(l.conf==='High'?1:l.conf==='Moderate'?0.84:0.66);
@@ -1666,7 +1679,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
      shows as a faded sliver that curves away, and an arrow says how many more there are. */
   function placeDrum(k){ var c=G.cols[k], f=drumF[k], top=G.yc-MAXR/2*RH, dir=k<0?-1:1;
     c.forEach(function(id,i){ var n=N[id], rel=i-f, u=rel<0?-rel:Math.max(0,rel-(MAXR-1)), cu=Math.min(u,1.5), edge=rel<0?top+RH*0.5:top+RH*(MAXR-0.5);
-      n.tg.y=u>0?edge+(rel<0?-1:1)*RH*0.44*cu:top+(rel+0.5)*RH; n.tg.s=1-0.2*cu; n.tg.o=u<=0?1:u<=1?1-0.7*u:Math.max(0,0.3-(u-1)*0.6);
+      n.tg.y=u>0?edge+(rel<0?-1:1)*RH*0.44*cu:top+(rel+0.5)*RH; n.tg.s=1-0.2*cu; n.tg.o=u<=0?1:u<=1?1-0.55*u:Math.max(0,0.45-(u-1)*0.45);
       n.tg.x=baseX(n,k)-dir*6*cu; n.el.style.zIndex=u>0?'5':'12'; n.el.style.pointerEvents=u>0.4?'none':''; n.el.setAttribute('data-sliver',u>0.4?'1':'0'); n.drumK=k; n.drumI=i; });
     var above=Math.round(f), below=c.length-MAXR-Math.round(f);
     [[-1,above],[1,below]].forEach(function(o){ var b=headsLayer.querySelector('[data-drum="'+k+'"][data-d="'+o[0]+'"]'); if(!b)return; b.hidden=o[1]<=0; b.lastChild.textContent=o[1]+' more'; }); }
@@ -1682,11 +1695,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
        cards are the same cards, drawn smaller. */
     var Wd=scroller.clientWidth||360, vb=Wd<560?3:5, EDGE=isLand?40:Wd<560?20:6;
     VIS=vb+(vb===3?zoomLv:2*zoomLv); GAP=clamp(Math.round(40*vb/VIS),20,48); CW=(Wd-2*EDGE+GAP)/VIS; NW=CW-GAP; ZC=NW/((Wd-2*EDGE+40)/vb-40);
-    RH=Math.round(92*ZC); PEEK=Math.max(26,Math.round(34*ZC)); canvas.style.setProperty('--zc',ZC.toFixed(4)); canvas.classList.toggle('zo',zoomLv>0); canvas.classList.toggle('zfar',zoomLv>2);
+    RH=Math.round(104*ZC); PEEK=Math.max(isLand?22:26,Math.round(34*ZC)); canvas.style.setProperty('--zc',ZC.toFixed(4)); canvas.classList.toggle('zo',zoomLv>0); canvas.classList.toggle('zfar',zoomLv>2);
     /* Full screen fills its height (Cade, 2026-11-14): the chart takes all the room the bar, the foot and the key
        leave, the rows that fit are counted from that, and the rows then spread to use it, which also gives the
        arrows room between events. */
-    var avH=0, RHmin=Math.round(82*ZC+8+10*ZC);   /* the gap between rows shrinks with the cards */
+    var avH=0, RHmin=Math.round(94*ZC+8+10*ZC), RHtight=Math.round(94*ZC+4);   /* the gap between rows shrinks with the cards */
     MAXR=clamp(Math.round(3/ZC),3,6);
     if(isFull){ avH=roomForChart(); RH=RHmin; MAXR=clamp(Math.floor((avH-TOP-2*PEEK)/RHmin),2,8); }
     G=build(); if(sel&&!G.need[sel])sel=null;
@@ -1705,7 +1718,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       n.el.setAttribute('aria-label',name(id)+', '+when(id)+', '+SZW[size(id)]+', '+stepWord(k)+(n.chip?', outside your filters':'')); }); });
     paintClasses();
     if(isFull){ var most=1, drumAny=false; Object.keys(G.cols).forEach(function(k){ var L=G.cols[k].length; if(L>MAXR)drumAny=true; most=Math.max(most,Math.min(L,MAXR)); });
-      RH=Math.round(clamp((avH-TOP-16-(drumAny?2*PEEK:0))/Math.max(most,2),RHmin,RHmin*1.22)); }
+      RH=Math.round(clamp((avH-TOP-16-(drumAny?2*PEEK:0))/Math.max(most,2),RHtight,RHmin*1.22)); }
     order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=isFull?RH:Math.max(64*ZC,n.h+(zoomLv?18:12)*ZC); });
     /* the canvas is as tall as its tallest column, up to four rows; a longer column becomes a drum */
     var tall=2.2*RH, anyDrum=false; Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); if(c.length>MAXR)anyDrum=true; tall=Math.max(tall,Math.min(t,MAXR*RH)); }); if(anyDrum)tall=MAXR*RH+2*PEEK-16;
@@ -1762,7 +1775,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     else { trail.hidden=true; trail.innerHTML=''; }
     bar(); sync(); if(typeof secTops==='function')setTimeout(secTops,80);
   }
-  function paintClasses(){ Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone)return; var c='nd sz-'+size(id)+(n.chip?' thru':'')+(n.drumK!=null?' indrum':'')+(id===centre?' here':'')+(id===sel?' sel':''); if(n.el.className!==c)n.el.className=c; n.el.setAttribute('aria-pressed',String(id===sel)); }); }
+  function paintClasses(){ keyCounts(); Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone)return; var c='nd sz-'+size(id)+(n.chip?' thru':'')+(n.drumK!=null?' indrum':'')+(id===centre?' here':'')+(id===sel?' sel':''); if(n.el.className!==c)n.el.className=c; n.el.setAttribute('aria-pressed',String(id===sel)); }); }
   /* selection lights one path and quiets the rest */
   function paint(run){ var path=sel&&sel!==centre?pathOf(sel):[], onE={}, onN={}; path.forEach(function(l){onE[l.id]=1;onN[l.f]=1;onN[l.t]=1;});
     paintClasses(); canvas.setAttribute('data-kind','');
@@ -1781,7 +1794,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       if(Math.abs(t.x-c.x)>0.25||Math.abs(t.y-c.y)>0.25||Math.abs(t.s-c.s)>0.003||Math.abs(t.o-c.o)>0.008||Math.abs(t.d-c.d)>0.008||Math.abs(t.q-c.q)>0.008) more=true; else { c.x=t.x; c.y=t.y; c.s=t.s; c.o=t.o; c.d=t.d; c.q=t.q; }
       if(n.gone&&c.o<0.02){ n.el.remove(); delete N[id]; return; }
       /* a card stays whole until it touches the edge of the screen; from there it shrinks, fades and is pulled in */
-      var lx=c.x-sl, bl=-lx, br=lx+n.w-Wv, bb=Math.max(bl,br,0), u=Math.min(bb/span,1.6), u1=Math.min(u,1), hx=(bl>0?1:-1)*pull*u1, ho=u<=1?1-0.6*u:Math.max(0,0.4-(u-1)*0.8);
+      var lx=c.x-sl, bl=-lx, br=lx+n.w-Wv, bb=Math.max(bl,br,0), u=Math.min(bb/span,2), u1=Math.min(u,1), hx=(bl>0?1:-1)*pull*u1, ho=u<=1?1-0.5*u:Math.max(0,0.5-(u-1)*0.5);
       var hs=u>0.35?'1':'0'; if(n.hs!==hs){ n.hs=hs; n.el.setAttribute('data-hs',hs); }
       if(Math.abs((n.hu||0)-u1)>0.02||(u1===0&&n.hu)||(u1===1&&n.hu!==1)){ n.hu=u1; n.el.style.setProperty('--hu',u1.toFixed(2)); }
       n.rx=c.x+hx; n.rsx=c.s*(1-0.18*u1); n.rsy=n.rsx; n.ro=ho; n.ru=u1;
@@ -1798,7 +1811,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       e.line.setAttribute('d',d); e.hit.setAttribute('d',d); e.port.setAttribute('cx',x1.toFixed(1)); e.port.setAttribute('cy',y1.toFixed(1));
       e.head.setAttribute('d','M'+x2.toFixed(1)+' '+y2.toFixed(1)+' L'+(x2-hl).toFixed(1)+' '+(y2-hw).toFixed(1)+' Q'+(x2-hl*0.62).toFixed(1)+' '+y2.toFixed(1)+' '+(x2-hl).toFixed(1)+' '+(y2+hw).toFixed(1)+' Z');
       e.head.style.opacity=Math.max(0,1-tb*3).toFixed(2); e.port.style.opacity=Math.max(0,1-ta*3).toFixed(2);
-      e.g.style.opacity=(e.cuA*Math.min(a.cur.o*a.cur.q,b.cur.o*b.cur.q)*Math.min(1,a.ro+b.ro>1.3?1:Math.max(a.ro,b.ro)*0.85)).toFixed(3); });
+      e.g.style.opacity=(e.cuA*Math.min(a.cur.o*a.cur.q,b.cur.o*b.cur.q)*Math.min(1,(a.ro+b.ro)/1.5)).toFixed(3); });
     if(more&&!snap) running=requestAnimationFrame(function(){ running=0; frame(false); }); }
   /* one bead runs the lit path once, in the direction the arrows point */
   function pulse(links){ if(reduced||!links.length)return; var c=document.createElementNS(SVGNS,'circle'); c.setAttribute('r','3.4'); c.setAttribute('class','pulse'); svg.appendChild(c);
@@ -1870,6 +1883,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     else if(l||r)m+=' \u00b7 '+(l?l+' to the left':'')+(l&&r?', ':'')+(r?r+' to the right':'');
     else m+=' \u00b7 all in view';
     say(m); [['goL',l],['goR',r]].forEach(function(q){ var b=document.getElementById(q[0]); b.classList.remove('beat'); if(q[1]){ void b.offsetWidth; b.classList.add('beat'); } }); }
+  /* the key counts what the chain shows now: events of each size, arrows of each kind */
+  function keyCounts(){ var c={k:0,fi:0,st:0,nec:0,contrib:0,contest:0};
+    Object.keys(N).forEach(function(id){ var n=N[id]; if(!n.gone&&!n.chip)c[size(id)]++; });
+    if(G)G.edges.forEach(function(l){ var g=gcls(l); if(g==='coinc')return; c[g||'nec']++; });
+    [].forEach.call(document.querySelectorAll('#chainKey [data-kc]'),function(el){ el.textContent=c[el.dataset.kc]; }); }
   function change(){ layout('filter'); dock(); setTimeout(tell,60); }
   document.getElementById('stDn').addEventListener('click',function(){ if(steps>1){ steps--; layout('steps'); dock(); setTimeout(tell,60); } });
   document.getElementById('stUp').addEventListener('click',function(){ if(steps<5){ steps++; layout('steps'); dock(); setTimeout(tell,60); } });
@@ -1944,10 +1962,10 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     if(land){ cbar.insertBefore(keyBtnEl,fullBtn); cbar.insertBefore(zoomEl,fullBtn); } else { chainBox.insertBefore(zoomEl,keyEl); chainBox.insertBefore(keyBtnEl,keyEl); } }
   var zoomEl=document.getElementById('zoomC');
   /* the closest zoom a view allows: a phone on its side is short, so it stops where two rows of cards still fit */
-  function minZ(){ return !isFull?0:!isLand?-1:window.innerHeight<362?1:0; }
+  function minZ(){ return !isFull?0:!isLand?-1:window.innerHeight<372?1:0; }
   function zBtns(){ document.getElementById('zIn').disabled=zoomLv<=minZ(); document.getElementById('zOut').disabled=zoomLv>=(isFull?3:1); }
   function setZoom(lv,quiet){ lv=clamp(lv,minZ(),isFull?3:1); if(lv===zoomLv)return; var c=colNow(); if(sel&&!isLand)select(null); zoomLv=lv; layout('resize'); paint(); toCol(sel?G.step[sel]:c,false); sync(); kick();
-    zBtns(); if(!quiet)say(lv===0?'Full size':VIS+' columns across'); }
+    zBtns(); }
   document.getElementById('zOut').addEventListener('click',function(){ setZoom(zoomLv+1); });
   document.getElementById('zIn').addEventListener('click',function(){ setZoom(zoomLv-1); });
   /* two fingers: pinch in to zoom out one level, spread to zoom in one level */
