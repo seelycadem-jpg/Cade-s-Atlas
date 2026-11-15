@@ -695,6 +695,32 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   back when Key is switched off. Sideways there is no height for that (the key would leave the chart less
   than two rows), so the strip of names and counts always shows and the Key button opens the full
   definitions as a gilt panel over the foot of the chart, three across; a tap on the panel closes it.
+- **TAKEAWAY FOR THE MASTER CHAT: stories and the chain (Cade and the sub chat, 2026-11-15).** Proposed
+  rule, for the standards (the sub chat does not edit them):
+  1. **The chain shows every link by default, whichever route the reader took to the page.** An event has
+     one set of causes and effects. Two readers on the same event page see the same chain. The links that
+     cross from one story into another (the Treaty of Versailles to the May Fourth Movement) are the
+     atlas's best material and are never hidden by default.
+  2. **The story is a lens the reader turns on.** The chain carries a Story control. It lists "All stories"
+     and each story the page's event belongs to. Choosing one keeps the events that belong to that story;
+     the rest leave, except an event a path runs through, which stays faded. The reader can switch to
+     another of the event's stories or back to all.
+  3. **Story is its own control, first in the chain's bar.** It is not inside the Filter panel (Cade). It
+     shows its state at all times: "All", or the story's name in red with a gilt line.
+  4. **The route still shows elsewhere on the page.** The line under the title and the Next link carry the
+     story the reader came through. The chain does not repeat that job.
+  5. **Membership uses the standards' own test.** An event belongs to a story by its links, never by its
+     dates alone. The chain's Story control must read the same membership the story and chapter pages use.
+  Open for the master chat: (a) the membership data does not exist yet; the mock uses the old atlas's arcs
+  as stand-ins (`build-stories.py`, clearly marked), so its story names ("WWII in Europe", "Road to WWI",
+  "Depression & dictators") do not match the page's own line ("Germany · Weimar Germany · The Treaty");
+  (b) whether the story the reader arrived through is marked or listed first in the control; (c) whether
+  the control also offers chronicles and chapters, or stories only; (d) whether a story lens should dim
+  the others in place, as first proposed, or remove them, as the mock does by reusing the filter's rule.
+- **Steps moved to the foot of the chain (Cade, 2026-11-15, on trial).** To make room for Story, the steps
+  control left the bar and sits in the foot between the two "more" counts, where "Drag to explore the
+  chain" stood; that line is gone. Sideways in full screen the foot is the side tabs, so steps stays in the
+  bar there, first, before Story.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.
