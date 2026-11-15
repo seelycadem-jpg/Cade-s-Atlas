@@ -817,6 +817,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   but the standards already use "takeaway strip" for the strip at the top of the page (when, where, who, the
   strongest arrow each way), so the sub chat used "Key figures" to keep the two apart. The block must be
   generated from the page's `figures` header, never written by hand.
+- **Where the chain's counts go (Cade, 2026-11-15; this replaces "the key counts what the chain shows").** The
+  key carries no counts. Each size control in the bar shows how many events of that size lie within reach:
+  "Knots (5)", "Fibres (10)", "Strands (3)". The number counts a size whether or not it is switched on, so a
+  reader sees what turning Strands on would add; the story and type filters do apply. Each column shows its
+  own total under its name: "Effect · 1 step" over "4 events" (a bare number when zoomed out).
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.

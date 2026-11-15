@@ -1461,6 +1461,15 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .bamres li{position:relative;padding-left:16px;font:400 15px/1.35 var(--body);color:var(--ink)}
 .bamres li::before{content:"";position:absolute;left:1px;top:.52em;width:5px;height:5px;border:1px solid var(--gilt);transform:rotate(45deg)}
 .bamres b{font-weight:600;color:var(--ink);font-variant-numeric:lining-nums}
+
+/* Counts live with the controls and the columns, not in the key (Cade, 2026-11-15). Each size shows how many of its
+   events are within reach; each column shows its own total under its name. */
+.legend .kc,.keypanel .kc{display:none}
+.chainbox .cb-sizes .sc{font-style:normal;font-weight:400;margin-left:3px;letter-spacing:0;color:var(--ink3);font-variant-numeric:tabular-nums}
+.chainbox .cb-sizes .cb-cell{padding:0 2px}
+.colh{flex-direction:column;gap:3px;height:30px}
+.colh .cn{font:400 9px/1 var(--ui);font-style:normal;letter-spacing:.04em;text-transform:none;color:var(--ink3);font-variant-numeric:tabular-nums}
+.wcanvas.zfar .colh .cn{font-size:7.5px}
 </style>
 
 <div class="stage" id="stage">
@@ -1524,9 +1533,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       </div>
       <button type="button" class="cb-box cb-cell cb-story" id="sBtn" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 16 14" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="miter" aria-hidden="true"><path d="M1 7h14"/><path d="M4 4.4L6.6 7 4 9.600 1.400 7z" fill="var(--chain)"/><path d="M12 4.4L14.600 7 12 9.600 9.400 7z" fill="currentColor"/></svg><span>Story</span><b id="sVal"></b></button>
       <div class="cb-box cb-sizes" role="group" aria-label="Show">
-        <button type="button" class="cb-cell" data-size="k" aria-pressed="true"><i class="mk k" aria-hidden="true"></i><span>Knots</span></button>
-        <button type="button" class="cb-cell" data-size="fi" aria-pressed="true"><i class="mk fi" aria-hidden="true"></i><span>Fibres</span></button>
-        <button type="button" class="cb-cell" data-size="st" aria-pressed="false"><i class="mk st" aria-hidden="true"></i><span>Strands</span></button>
+        <button type="button" class="cb-cell" data-size="k" aria-pressed="true"><i class="mk k" aria-hidden="true"></i><span>Knots<i class="sc" data-sc="k"></i></span></button>
+        <button type="button" class="cb-cell" data-size="fi" aria-pressed="true"><i class="mk fi" aria-hidden="true"></i><span>Fibres<i class="sc" data-sc="fi"></i></span></button>
+        <button type="button" class="cb-cell" data-size="st" aria-pressed="false"><i class="mk st" aria-hidden="true"></i><span>Strands<i class="sc" data-sc="st"></i></span></button>
       </div>
       <button type="button" class="cb-box cb-cell cb-filter" id="fBtn" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 16 14" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M1.5 2.5h13M4 7h8M6.5 11.5h3"/></svg><span id="fLbl">Filter</span></button>
       <button type="button" class="cb-box cb-cell cb-rec" id="recBtn" aria-label="Recentre the web"><svg viewBox="0 0 20 20" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" aria-hidden="true"><circle cx="10" cy="10" r="5.2"/><path d="M10 1.5v3.2M10 15.3v3.2M1.5 10h3.2M15.3 10h3.2"/><path d="M10 8.1l1.9 1.9-1.9 1.9-1.9-1.9z" fill="currentColor" stroke="none"/></svg></button>
@@ -1958,7 +1967,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       ins.forEach(function(l,i){ ED[l.id].pi=clamp((i-(ins.length-1)/2)*7,-lim,lim); }); });
 
     /* the step names over each column, the drum's arrows, and the plain statement when a side is empty */
-    var h=''; for(var s=G.minS;s<=G.maxS;s++){ h+='<div class="colh'+(s===0?' c0':'')+'" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px">'+(s===0?(zoomLv>2?'Here':'This event'):zoomLv>2?(s<0?'C':'E')+Math.abs(s):zoomLv>0?(s<0?'Cause ':'Effect ')+Math.abs(s):(s<0?'Cause':'Effect')+' · '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'))+'</div>';
+    var h=''; for(var s=G.minS;s<=G.maxS;s++){ h+='<div class="colh'+(s===0?' c0':'')+'" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px">'+'<span>'+(s===0?(zoomLv>2?'Here':'This event'):zoomLv>2?(s<0?'C':'E')+Math.abs(s):zoomLv>0?(s<0?'Cause ':'Effect ')+Math.abs(s):(s<0?'Cause':'Effect')+' · '+Math.abs(s)+(Math.abs(s)===1?' step':' steps'))+'</span>'+(s===0?'':(function(){ var n=(G.cols[s]||[]).filter(function(id){ return N[id]&&!N[id].chip; }).length; return '<i class="cn">'+n+(zoomLv>0?'':(n===1?' event':' events'))+'</i>'; })())+'</div>';
       if(G.drum[s]){ var dtop=yc-MAXR/2*RH; h+='<div class="drumscroll" data-ds="'+s+'" tabindex="-1" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+dtop.toFixed(1)+'px;height:'+(MAXR*RH)+'px">'+G.cols[s].map(function(){ return '<i style="height:'+RH+'px"></i>'; }).join('')+'</div>'
         +'<button type="button" class="dch up" data-drum="'+s+'" data-d="-1" aria-label="Earlier events in this column" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+(dtop-PEEK-2).toFixed(1)+'px" hidden><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l5-5 5 5"/></svg><span></span></button>'
         +'<button type="button" class="dch dn" data-drum="'+s+'" data-d="1" aria-label="More events in this column" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+(dtop+MAXR*RH+(isLand?2:PEEK-24)).toFixed(1)+'px" hidden><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5l5 5 5-5"/></svg><span></span></button>'; } }
@@ -2090,10 +2099,10 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     /* no pop-up (Cade, 2026-11-15): the counts in the foot and the key carry the result */
     [['goL',l],['goR',r]].forEach(function(q){ var b=document.getElementById(q[0]); b.classList.remove('beat'); if(q[1]){ void b.offsetWidth; b.classList.add('beat'); } }); }
   /* the key counts what the chain shows now: events of each size, arrows of each kind */
-  function keyCounts(){ var c={k:0,fi:0,st:0,nec:0,contrib:0,contest:0};
-    Object.keys(N).forEach(function(id){ var n=N[id]; if(!n.gone&&!n.chip)c[size(id)]++; });
-    if(G)G.edges.forEach(function(l){ var g=gcls(l); if(g==='coinc')return; c[g||'nec']++; });
-    [].forEach.call(document.querySelectorAll('.chainbox [data-kc]'),function(el){ el.textContent=c[el.dataset.kc]; }); }
+  function keyCounts(){ if(!G)return; var c={k:0,fi:0,st:0};
+    /* how many events of each size lie within reach, whether or not that size is switched on; other filters apply */
+    Object.keys(G.step).forEach(function(id){ if(id===centre||(inStory(id)&&(!anyKind()||(E[id].c||[]).some(function(x){ return kinds[x]; }))))c[size(id)]++; });
+    [].forEach.call(cbar.parentNode.querySelectorAll('[data-sc]'),function(el){ el.textContent='('+c[el.dataset.sc]+')'; }); }
   function change(){ layout('filter'); dock(); setTimeout(tell,60); }
   document.getElementById('stDn').addEventListener('click',function(){ if(steps>1){ steps--; layout('steps'); dock(); setTimeout(tell,60); } });
   document.getElementById('stUp').addEventListener('click',function(){ if(steps<5){ steps++; layout('steps'); dock(); setTimeout(tell,60); } });
