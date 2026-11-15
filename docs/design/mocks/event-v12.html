@@ -1548,6 +1548,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .route.noroute .rall{margin:0 0 8px}
 .route.noroute .alsoin{min-height:30px;font-size:13px;color:var(--ink2)}
 .route.noroute .alsoin b{text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:4px;font-weight:500}
+
+/* the event's type signs, beside the Event label in the hero (Cade, 2026-11-16) */
+.route .pkinds{display:inline-flex;align-items:center;gap:6px;margin-left:2px}
+.route .pkinds span{display:inline-flex}
+.route .pkinds .ki{width:15px;height:15px;fill:none;stroke:var(--gilt);color:var(--gilt);stroke-width:1.25;--kibg:var(--bg)}
 </style>
 
 <div class="stage" id="stage">
@@ -1569,7 +1574,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     <div class="rrow"><span class="rl">Chronicle</span><button class="lk" type="button" id="cChron">Germany</button><span class="rside" id="rAlso"></span></div>
     <div class="rrow"><span class="rl">Story</span><button class="lk" type="button" id="cStory">Weimar Germany</button><span class="stp"><button type="button" id="sPrev" aria-label="The story before"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg></button><i id="cStoryL">8 of 12</i><button type="button" id="sNext" aria-label="The story after"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button></span></div>
     <div class="rrow"><span class="rl">Chapter</span><button class="lk" type="button" id="cChap">The Treaty</button><span class="stp"><button type="button" id="chPrev" aria-label="The chapter before" disabled><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg></button><i id="cChapL">1 of 3</i><button type="button" id="chNext" aria-label="The chapter after"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button></span></div>
-    <div class="rev"><span class="pkind"><i class="mk k" aria-hidden="true"></i>Event</span><span class="rside" id="rAlso2"></span><span class="stp" id="evStp"><button type="button" id="ePrev" aria-label="The event before"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg></button><i id="cEvL">2 of 5 in chapter</i><button type="button" id="eNext" aria-label="The event after"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button></span></div>
+    <div class="rev"><span class="pkind"><i class="mk k" aria-hidden="true"></i>Event</span><span class="pkinds" id="pKinds"></span><span class="rside" id="rAlso2"></span><span class="stp" id="evStp"><button type="button" id="ePrev" aria-label="The event before"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg></button><i id="cEvL">2 of 5 in chapter</i><button type="button" id="eNext" aria-label="The event after"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button></span></div>
     <button type="button" class="alsoin" id="alsoin" aria-haspopup="dialog"><span id="alsoTxt"></span><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5"/></svg></button>
   </nav>
   <h1>The Treaty of Versailles</h1>
@@ -2452,6 +2457,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       document.getElementById('pnone').hidden=any; });
     var cur=sheetHost.querySelector('.prow[aria-current]'), list=document.getElementById('plist'); if(cur&&list)list.scrollTop=Math.max(0,cur.offsetTop-list.offsetTop-60); }
   document.getElementById('alsoin').addEventListener('click',placeSheet);
+  /* the event's type signs stand beside the Event label, the same signs its chain card carries */
+  try{ var hk=(E[HOME].c||[]); document.getElementById('pKinds').innerHTML=hk.map(function(k){ return '<span title="'+cap1(k)+'">'+kicon(k)+'</span>'; }).join(''); document.getElementById('pKinds').setAttribute('aria-label',hk.map(cap1).join(', ')); }catch(e){}
   document.getElementById('rPick').addEventListener('click',function(e){ var b=e.target.closest('[data-pick]'); if(!b)return; routed=true; follow(+b.dataset.pick); });
   ['cChron','cStory','cChap','hChap'].forEach(function(id){ document.getElementById(id).addEventListener('click',function(){ if(!routed&&id==='hChap'){ placeSheet(); return; } say('Would open: '+this.textContent.replace(/^\u2039 /,'')); }); });
   /* the arrows: each row steps to its own neighbours (mock actions) */
