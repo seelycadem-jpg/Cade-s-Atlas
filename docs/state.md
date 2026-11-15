@@ -697,8 +697,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   definitions as a gilt panel over the foot of the chart, three across; a tap on the panel closes it.
 - **TAKEAWAY FOR THE MASTER CHAT: stories and the chain (Cade and the sub chat, 2026-11-15).** Proposed
   rule, for the standards (the sub chat does not edit them):
-  1. **The chain shows every link by default, whichever route the reader took to the page.** An event has
-     one set of causes and effects. Two readers on the same event page see the same chain. The links that
+  1. **The route sets where the lens starts; the chain itself never changes (amended by Cade, 2026-11-15).**
+     A reader who comes to an event through a story or one of its chapters finds that story's lens already
+     on, with its name in the line above the chart and "Show all" one tap away. A reader who comes any other
+     way (search, the globe, the timeline, a link from another event) finds every link showing. An event has
+     one set of causes and effects: the lens only chooses which of them show first. The links that
      cross from one story into another (the Treaty of Versailles to the May Fourth Movement) are the
      atlas's best material and are never hidden by default.
   2. **The story is a lens the reader turns on.** The chain carries a Story control. It lists "All stories"
@@ -711,7 +714,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
      story the reader came through. The chain does not repeat that job.
   5. **Membership uses the standards' own test.** An event belongs to a story by its links, never by its
      dates alone. The chain's Story control must read the same membership the story and chapter pages use.
-  Open for the master chat: (a) the membership data does not exist yet; the mock uses the old atlas's arcs
+  In the mock the page opens with the lens on, because its line under the title says the reader came through
+  a story; the Story panel lists that story first, marked "the story you came through". Cade spoke of the
+  lens for "that specific chapter": the mock works at story level only.
+  Open for the master chat: (e) whether the lens narrows to the chapter the reader came through, or to its
+  story, and whether the control lists chapters; (a) the membership data does not exist yet; the mock uses the old atlas's arcs
   as stand-ins (`build-stories.py`, clearly marked), so its story names ("WWII in Europe", "Road to WWI",
   "Depression & dictators") do not match the page's own line ("Germany · Weimar Germany · The Treaty");
   (b) whether the story the reader arrived through is marked or listed first in the control; (c) whether
@@ -734,6 +741,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   frame over a red fill: the fill is kept for the page's own event and the Play button. Full screen now
   opens with the key closed, upright and sideways (this replaces "open on arrival" and the always-on strip);
   the Key button opens it, in place upright and as the panel sideways.
+- **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
+  "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
+  high with 44px invisible targets.
 - **Steps moved to the foot of the chain (Cade, 2026-11-15, on trial).** To make room for Story, the steps
   control left the bar and sits in the foot between the two "more" counts, where "Drag to explore the
   chain" stood; that line is gone. Sideways in full screen the foot is the side tabs, so steps stays in the

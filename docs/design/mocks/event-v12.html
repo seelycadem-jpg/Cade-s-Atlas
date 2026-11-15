@@ -1359,6 +1359,23 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .chainbox.land .cbar .cb-story.on span{order:3;flex-basis:100%;text-align:center}
 .storyline{padding:4px 20px 3px;font-size:13.5px;align-items:center}
 .storyline button{min-height:26px;font-size:11.5px}
+
+/* The foot of the chain, thinner (Cade, 2026-11-15): each count and the steps read on one line, and the two small
+   rules beside the step number are gone. */
+.chainbox:not(.land) .ruler.foot{padding:0 12px!important;margin-top:0}
+.chainbox:not(.land) .ruler.foot .rarrow{min-height:30px}
+.chainbox:not(.land) .ruler.foot .rarrow span{flex-direction:row;align-items:baseline;gap:5px}
+.chainbox:not(.land) .ruler.foot .rarrow b{font-size:13px}
+.ruler.foot .cb-steps .n{box-shadow:none!important;background:none!important;flex-direction:row;align-items:baseline;gap:5px}
+.ruler.foot .cb-steps{grid-template-columns:32px auto 32px;background:none!important}
+.ruler.foot .cb-steps button{min-height:30px}
+.ruler.foot .cb-steps .n b{font-size:13px}
+
+.ruler.foot .cb-steps{align-items:center}
+.ruler.foot .cb-steps .n{align-items:center;height:30px}
+.ruler.foot .cb-steps button{display:grid;place-items:center;line-height:1}
+/* the Story control's keyboard-focus ring is a dotted ink line, so it is never mistaken for the red "on" frame */
+.chainbox .cb-story:focus-visible{outline:1px dotted var(--ink2);outline-offset:-4px}
 </style>
 
 <div class="stage" id="stage">
@@ -1697,7 +1714,10 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function anyKind(){ return Object.keys(kinds).length>0; }
   /* Story (Cade, 2026-11-15, on trial): the chain shows every link by default. Choosing a story keeps the events that
      belong to it; the rest leave, except those a path runs through, which stay faded. Membership is a placeholder. */
-  var story=null, STORY=window.ATLAS_STORY||{names:{},of:{}};
+  /* A reader who comes to the event through a story or one of its chapters finds that story's lens already on (Cade,
+     2026-11-15). The mock's page says it was reached through a story (the line under the title), so it opens that way.
+     ARRIVED names the stand-in story; a real page takes it from the route the reader took, and has none on a direct visit. */
+  var STORY=window.ATLAS_STORY||{names:{},of:{}}, ARRIVED='interwar', story=(STORY.of[HOME]||[]).indexOf(ARRIVED)>=0?ARRIVED:null;
   function inStory(id){ return !story||(STORY.of[id]||[]).indexOf(story)>=0; }
   function matches(id){ return id===centre||(show[size(id)]&&inStory(id)&&(!anyKind()||(E[id].c||[]).some(function(c){ return kinds[c]; }))); }
 
@@ -1992,7 +2012,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function popRoom(){ var box=cbar.parentNode, hh=Math.max(fpop.hidden?0:fpop.offsetHeight,spop.hidden?0:spop.offsetHeight); box.style.minHeight=hh?(cbar.offsetHeight+hh+30)+'px':''; }
   function storyFill(){ var mine=(STORY.of[centre]||[]), h='<p class="fh">Story</p><div class="slist" role="group" aria-label="Story">';
     h+='<button type="button" data-story="" aria-pressed="'+(!story)+'"><b>All stories</b><span>every cause and effect</span></button>';
-    mine.forEach(function(a){ h+='<button type="button" data-story="'+a+'" aria-pressed="'+(story===a)+'"><b>'+esc(STORY.names[a]||a)+'</b></button>'; });
+    mine.slice().sort(function(a,b){ return (b===ARRIVED)-(a===ARRIVED); }).forEach(function(a){ h+='<button type="button" data-story="'+a+'" aria-pressed="'+(story===a)+'"><b>'+esc(STORY.names[a]||a)+'</b>'+(a===ARRIVED?'<span>the story you came through</span>':'')+'</button>'; });
     h+='</div><p class="snote">A story keeps its own events. Others stay, faded, where a path runs through them.</p>'; spop.innerHTML=h; }
   function storyOpen(o){ if(o&&!fpop.hidden)popOpen(false); spop.hidden=!o; sBtn.setAttribute('aria-expanded',String(o)); if(o)storyFill(); popRoom(); }
   sBtn.addEventListener('click',function(e){ e.stopPropagation(); storyOpen(spop.hidden); });
