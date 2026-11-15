@@ -1557,11 +1557,24 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 /* Two jumps on the date line (Cade, 2026-11-16): the date opens the timeline at this event and the place opens the
    globe at it. Each carries its sign, the timeline's rule and the globe, and the thin red line of a link. The line
    stays in the docked header, so both jumps are in reach down the whole page. */
-.tw .sub .jump{position:relative;display:inline-flex;align-items:center;gap:6px;font:inherit;color:inherit;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:4px;pointer-events:auto}
+.tw .sub .jump{position:relative;display:inline-flex;align-items:center;gap:6px;font:inherit;color:inherit;text-decoration:none;pointer-events:auto}
 .tw .sub .jump::after{content:"";position:absolute;left:-4px;right:-4px;top:50%;height:44px;transform:translateY(-50%)}
-.tw .sub .jump .jmp{width:15px;height:15px;flex:none;color:var(--gilt);stroke:currentColor;stroke-width:1.3;fill:none;--kibg:var(--bg)}
+.tw .sub .jump .jmp{width:15px;height:15px;flex:none;color:var(--accent);stroke:currentColor;stroke-width:1.3;fill:none;--kibg:var(--bg)}
 .tw .sub .jump .jmp .d{stroke-width:.8}
 .tw .sub .jump:active{color:var(--accent)}
+
+/* the stretch held back above the opening view, and every docking range moved down by it */
+.spacer{height:calc(var(--t0y,360px) + var(--E,0px))}
+@supports (animation-timeline: scroll()){
+  :root.sda .tw{animation-range:calc(var(--E,0px) + var(--D) * .45) calc(var(--E,0px) + var(--D))}
+  :root.sda .stage .gw{animation-range:var(--E,0px) calc(var(--E,0px) + var(--D))}
+  :root.sda .tw .sub{animation-range:calc(var(--E,0px) + var(--D) * .45) calc(var(--E,0px) + var(--D))}
+  :root.sda .tw .kicker{animation-range:calc(var(--E,0px) + var(--D) * .3) calc(var(--E,0px) + var(--D) * .72)}
+  :root.sda .hint{animation-range:var(--E,0px) calc(var(--E,0px) + var(--D) * .28)}
+  :root.sda .stage .hsub{animation-range:calc(var(--E,0px) + var(--D)) calc(var(--E,0px) + var(--D) + 48px)}
+  :root.sda .stage .band{animation-range:calc(var(--E,0px) + var(--D) * .7) calc(var(--E,0px) + var(--D) * .9)}
+  :root.sda .stage .band::after{animation-range:calc(var(--E,0px) + var(--D)) calc(var(--E,0px) + var(--D) + 32px)}
+}
 </style>
 
 <div class="stage" id="stage">
@@ -1844,10 +1857,14 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   if(SDA) root.classList.add('sda');
   function put(el,key,prop,val){ var k=key+prop; if(last[k]===val)return; last[k]=val; el.style[prop]=val; }
   function px(n){ return n.toFixed(2)+'px'; }
+  /* The page opens with less of the globe and more of the page (Cade, 2026-11-16, on trial). The top PULL pixels of
+     the page are held back above the opening view: the page starts scrolled past them, and a reader who scrolls up
+     pulls the title down and more of the globe into view. The docking of the title starts below that stretch. */
+  var PULL=reduced?0:110; root.style.setProperty('--E',PULL+'px');
   function measure(){ var h1=tw.querySelector('h1'); M.twH=tw.offsetHeight; M.kH=kicker.offsetHeight; M.h1H=h1.offsetHeight;
-    var lh=parseFloat(getComputedStyle(h1).lineHeight)||M.h1H; M.two=M.h1H>lh*1.5; M.s1t=M.two?0.38:0.46; var t0y=Math.round(GS*0.66+10), t1y=10-M.kH*M.s1t, padL=parseFloat(getComputedStyle(document.body).paddingLeft)||0; M.t0x=Math.max(gutter,(W-640)/2); M.t1x=gutter+50; M.fx=Math.max(0,M.t0x-padL);
+    var lh=parseFloat(getComputedStyle(h1).lineHeight)||M.h1H; M.two=M.h1H>lh*1.5; M.s1t=M.two?0.38:0.46; var t0y=Math.round(GS*0.66+10)-PULL, t1y=10-M.kH*M.s1t, padL=parseFloat(getComputedStyle(document.body).paddingLeft)||0; M.t0x=Math.max(gutter,(W-640)/2); M.t1x=gutter+50; M.fx=Math.max(0,M.t0x-padL);
     var stick=t1y-M.twH*(1-M.s1t); M.D=Math.max(1,t0y-stick); M.subk=12/(16*M.s1t); M.subH=sub.offsetHeight;
-    var g0x=(W-GS)/2, g0y=-GS*0.32, g1x=W-gutter-52, g1y=8;
+    var g0x=(W-GS)/2, g0y=-GS*0.32-(M.pz||0), g1x=W-gutter-52, g1y=8;
     var v={'--t0y':px(t0y),'--t0x':px(M.fx),'--stick':px(stick),'--D':px(M.D),'--dx':px(M.t1x-M.t0x),'--s1':String(M.s1t),'--g0x':px(g0x),'--g0y':px(g0y),'--g1x':px(g1x),'--g1y':px(g1y),'--gs1':(52/GS).toFixed(4),'--subk':M.subk.toFixed(3)};
     for(var k in v) root.style.setProperty(k,v[k]);
     hsub.style.transform='translate3d('+M.t1x+'px,'+(10+(M.h1H+8+M.subH*M.subk)*M.s1t+(M.two?3:6)).toFixed(2)+'px,0)'; last={}; }
@@ -1858,7 +1875,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     if(SDA) return;
     var qh=Math.max(0,(q-0.45)/0.55), qs=qh*qh*(3-2*qh), eo=1-(1-q)*(1-q), ts=lerp(1,M.s1t,qs);
     put(tw,'tw','transform','translate3d('+((M.t1x-M.t0x)*qs).toFixed(2)+'px,0,0) scale('+ts.toFixed(4)+')');
-    var g0x=(W-GS)/2, g0y=-GS*0.32, g1x=W-gutter-52, g1y=8, s1=52/GS;
+    var g0x=(W-GS)/2, g0y=-GS*0.32-(M.pz||0), g1x=W-gutter-52, g1y=8, s1=52/GS;
     put(gw,'gw','transform','translate3d('+lerp(g0x,g1x,eo).toFixed(2)+'px,'+lerp(g0y,g1y,eo).toFixed(2)+'px,0) scale('+lerp(1,s1,eo).toFixed(4)+')');
     put(gw,'gw','opacity',lerp(1,0.78,eo).toFixed(3));
     var fo=Math.max(0,1-Math.max(0,q-0.3)/0.42).toFixed(3); put(kicker,'kick','opacity',fo);
@@ -1867,7 +1884,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     put(hsub,'hsub','opacity',Math.min(1,Math.max(0,(sc-M.D)/48)).toFixed(3));
     put(band,'band','opacity',Math.min(1,Math.max(0,(q-0.7)/0.2)).toFixed(3)); var edge=sc>M.D+16; if(last.edge!==edge){ last.edge=edge; band.classList.toggle('edge',edge); } }
   var scrollQueued=false;
-  function onScroll(force){ var sc=Math.max(0,window.scrollY); if(reduced)sc=sc<120?0:9999; if(sc!==lastP||force){lastP=sc;apply(sc);} }
+  function onScroll(force){ /* through the held-back stretch the globe rides up with the page, so it never sits behind the text */
+    var pz=Math.min(PULL,Math.max(0,window.scrollY)); if(pz!==M.pz){ M.pz=pz; root.style.setProperty('--g0y',px(-GS*0.32-pz)); force=true; }
+    var sc=Math.max(0,window.scrollY-PULL); if(reduced)sc=sc<120?0:9999; if(sc!==lastP||force){lastP=sc;apply(sc);} }
   window.addEventListener('scroll',function(){ if(scrollQueued)return; scrollQueued=true; requestAnimationFrame(function(){ scrollQueued=false; onScroll(false); }); },{passive:true});
   function pageLayout(){ W=window.innerWidth; H=window.innerHeight; GS=Math.min(W*1.12,540); measure(); draw(hero,GS); if(big)draw(big,Math.min(big.clientWidth,420)); onScroll(true); }
   hero.addEventListener('click',function(){ openBig(); });
@@ -2615,6 +2634,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   /* a phone fires 'resize' each time its address bar hides or shows. Only a change of width rebuilds the web. */
   var rz, lastW=scroller.clientWidth; window.addEventListener('resize',function(){ pageLayout(); clearTimeout(rz); rz=setTimeout(function(){ frameAll(); var w=scroller.clientWidth; if(w===lastW)return; lastW=w; layout('resize'); },150); });
   window.addEventListener('load',function(){ pageLayout(); frameAll(); });
+  try{ if('scrollRestoration' in history)history.scrollRestoration='manual'; }catch(e){}
+  if(PULL&&window.scrollY<2){ window.scrollTo(0,PULL); onScroll(true); }
   if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){ pageLayout(); layout('resize'); frameAll(); });
   window.__atlasChain=function(){ return {N:N,G:G,ED:ED,drumF:drumF,sel:sel}; }; /* mock only: lets a test read the web's state */
   if(window.ResizeObserver){ var roT=null; new ResizeObserver(function(){ clearTimeout(roT); roT=setTimeout(secTops,60); }).observe(document.querySelector('main')); }

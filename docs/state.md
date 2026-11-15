@@ -989,3 +989,15 @@ pull request. A session that starts from `main` sees only what has been merged.
 
 To update a published mock from a new chat, give it the artifact link from the table above;
 it reads the page first and republishes to the same link.
+
+### Event page hero: red signs on the date line, and opening with less globe (sub chat, 2026-11-15)
+
+- **Date-line jumps.** The timeline sign and the globe sign on the date line are red (the accent colour). Their words
+  carry no underline. The red sign is the mark that says "this opens something"; an underline as well made the line busy.
+  Proposed as a site rule for the master chat: a link that carries its own sign takes the red sign and no underline;
+  a link inside running text keeps the thin 0.6px underline.
+- **Opening view.** The page opens 110px down its own scroll, so the first screen shows the globe's lower arc and more
+  of the page (route ladder, title, date line, the start of the Overview). Scrolling up pulls the whole globe into view.
+  The globe rides up with the page through that first 110px, so it never sits behind the hero text. The docking
+  animation starts after that stretch. Under reduced motion the offset is off and the page opens at the top.
+- Not yet checked on a real phone: Safari's own scroll restore and the scroll-driven ranges with the offset.
