@@ -1400,6 +1400,27 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
    filter carry in gilt. No frame, no glint. */
 .chainbox .cb-story.on,.chainbox.land .cbar .cb-story.on{box-shadow:inset 0 -1px 0 var(--accent)!important;overflow:visible}
 .chainbox .cb-story.on::before{content:none!important;animation:none!important}
+
+/* The before-and-after graphic, rebuilt to half a screen (Cade, 2026-11-15, on trial). In order: a one-line title, the
+   map, one row holding the key and the year switch, one caption line of fixed height that also answers a tap. The list
+   of new countries is gone (the map names them) and the figures stand outside the graphic, in their own strip. */
+.fig.g2{padding:12px 12px 10px}
+.fig.g2 .ft{margin:0 0 8px;font:500 16.5px/1.2 var(--display);letter-spacing:0;text-transform:none;color:var(--title);text-wrap:balance}
+.fig.g2 .bamrow{display:flex;align-items:center;justify-content:space-between;gap:10px;margin:8px 0 0}
+.fig.g2 .bamkey{margin:0;gap:3px 10px;font-size:11px;line-height:1.2}
+.fig.g2 .bamkey span{gap:5px;white-space:nowrap}
+.fig.g2 .bamkey i{width:12px;height:10px}
+.fig.g2 .bamsw{flex:none}
+.fig.g2 .bamsw button{position:relative;min-width:50px;min-height:30px;font-size:12.5px}
+.fig.g2 .bamsw button::after{content:"";position:absolute;left:0;right:0;top:50%;height:44px;transform:translateY(-50%)}
+.fig.g2 .bamtap{margin:8px 0 0;padding-top:7px;border-top:1px solid var(--rule);min-height:0;height:calc(2 * 1.35em + 7px);overflow:hidden;font:italic 400 13.5px/1.35 var(--display);color:var(--ink2)}
+.fig.g2 .bamtap b{font-style:normal;font-weight:600;color:var(--ink)}
+.figstrip{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));margin:14px 0 0;padding:10px 0 0;border-top:1px solid var(--rule)}
+.figstrip div{padding:0 8px}
+.figstrip div:first-child{padding-left:0}
+.figstrip div+div{border-left:1px solid var(--rule)}
+.figstrip b{display:block;font:500 21px/1.1 var(--display);color:var(--title);font-variant-numeric:tabular-nums}
+.figstrip span{display:block;margin-top:3px;font:11px/1.3 var(--ui);color:var(--ink2)}
 </style>
 
 <div class="stage" id="stage">
@@ -1430,15 +1451,17 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     <p>The treaty ended the war between Germany and the Allies. Germany survived as a republic. It lost 13 percent of its European territory, all its colonies and most of its army. France and Poland gained the land. The Allies set reparations at 132 billion gold marks in 1921, and Germany paid about 20 billion.</p>
     <p>Germany had no seat at the conference that wrote the terms. Its delegation received them on 7 May 1919 and signed on 28 June under threat of invasion. Every enemy of the new republic held the signature against it.</p>
     <p>The treaty had no means of enforcement. The US Senate rejected it, and the League of Nations had no army. By the 1930s Britain and France would not enforce the terms alone.</p>
-    <div class="fig bam" style="margin-top:18px" id="bam">
-      <div class="bamh"><p class="ft" id="bamT">Germany's borders before and after the Great War</p>
-        <div class="bamsw" role="group" aria-label="Year"><button type="button" data-bam="0" aria-pressed="false">1914</button><button type="button" data-bam="1" aria-pressed="true">1919</button></div></div>
+    <div class="fig bam g2" style="margin-top:18px" id="bam">
+      <p class="ft" id="bamT">Germany's borders before and after the Great War</p>
       <canvas id="bamC" role="img" aria-label="A map of Germany and its neighbours. It switches between the borders of 1914 and of 1919. Tap a land to name it."></canvas>
-      <p class="bamtap" id="bamTap" aria-live="polite">Tap any land on the map.</p>
-      <div class="bamkey" aria-label="Key"><span><i class="k1"></i>Germany</span><span><i class="k2"></i>Land Germany lost</span><span><i class="k3"></i>New on the map in 1919</span></div>
-      <p class="bamnew" id="bamNew"></p>
-      <div class="bamfig"><div><b>13%</b><span>of Germany's land in Europe lost</span></div><div><b>100,000</b><span>the cap on its army</span></div><div><b>132 bn</b><span>gold marks set in 1921; about 20 bn paid</span></div><div class="tbd"><b>— · —%</b><span>people Germany lost, as a number and a share. Placeholder: the figure is not yet sourced.</span></div></div>
+      <div class="bamrow">
+        <div class="bamkey" aria-label="Key"><span><i class="k1"></i>Germany</span><span><i class="k2"></i>Land lost</span><span><i class="k3"></i>New in 1919</span></div>
+        <div class="bamsw" role="group" aria-label="Year"><button type="button" data-bam="0" aria-pressed="false">1914</button><button type="button" data-bam="1" aria-pressed="true">1919</button></div>
+      </div>
+      <p class="bamtap" id="bamTap" aria-live="polite">Tap any land on the map. Borders from the atlas's border record.</p>
+      <p class="bamnew" id="bamNew" hidden></p>
     </div>
+    <div class="figstrip" aria-label="Key figures"><div><b>13%</b><span>of Germany's land in Europe lost</span></div><div><b>100,000</b><span>the cap on its army</span></div><div><b>132 bn</b><span>gold marks set in 1921; about 20 bn paid</span></div></div>
   </section>
 
     <section class="layer" id="chain">
@@ -2309,7 +2332,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     var AT={'Germany':[10.4,51.2],'Poland':[19.6,52.3],'Czechoslovakia':[16.6,49.55],'Austria':[14.2,47.5],'Hungary':[19.4,47.0],'Yugoslavia':[17.2,45.9],'Lithuania':[23.9,55.3],'Latvia':[24.9,56.9],'France':[5.3,47.4],'Denmark':[9.3,56.2],'Austria-Hungary':[17.6,47.9],'Danzig':[18.9,54.75]};
     var mix=1, year=1, pick=null, W=0, H=0, proj, path, raf=0, hatch=null, hatchKey='';
     function mkHatch(c){ var k=css('--mhatch'); if(hatch&&hatchKey===k)return hatch; var t=document.createElement('canvas'); t.width=t.height=10; var x=t.getContext('2d'); x.strokeStyle=k; x.lineWidth=1.1; x.beginPath(); x.moveTo(-2,12); x.lineTo(12,-2); x.moveTo(-2,2); x.lineTo(2,-2); x.moveTo(8,12); x.lineTo(12,8); x.stroke(); hatchKey=k; hatch=c.createPattern(t,'repeat'); return hatch; }
-    function size(){ var w=cv.clientWidth||300, dpr=Math.min(2,window.devicePixelRatio||1); W=w; H=Math.round(w*0.8); cv.style.height=H+'px'; cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr);
+    function size(){ var w=cv.clientWidth||300, dpr=Math.min(2,window.devicePixelRatio||1); W=w; H=Math.round(w*0.7); cv.style.height=H+'px'; cv.width=Math.round(W*dpr); cv.height=Math.round(H*dpr);
       proj=d3.geoConicConformal().parallels([46,57]).rotate([-14,0]).fitExtent([[4,4],[W-4,H-4]],BOX); draw(); }
     function label(c,t,ll,big,quiet){ var q=proj(ll); if(!q||q[0]<8||q[0]>W-8||q[1]<10||q[1]>H-8)return; c.font=(quiet?'italic 400 ':'italic 500 ')+(big?16:12.5)+'px "Cormorant Garamond", Georgia, serif'; c.textAlign='center'; c.textBaseline='middle'; c.lineJoin='round'; c.lineWidth=3; c.strokeStyle=css('--surface'); c.globalAlpha=.85; c.strokeText(t,q[0],q[1]); c.globalAlpha=1; c.fillStyle=quiet?css('--ink2'):css('--title'); c.fillText(t,q[0],q[1]); }
     function layer(c,after,a){ if(a<=0.01)return; c.globalAlpha=a; var F=after?F19:F14, G=after?G19:G14;
@@ -2328,10 +2351,10 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       layer(c,false,1-mix); layer(c,true,mix);
       if(pick){ c.beginPath(); path(pick); c.strokeStyle=css('--ink'); c.lineWidth=2; c.stroke(); c.globalAlpha=1; labels(c,mix>=0.5); } }
     function setYear(y){ year=y; pick=null; [].forEach.call(document.querySelectorAll('[data-bam]'),function(b){ b.setAttribute('aria-pressed',String(+b.dataset.bam===y)); });
-      say2(y?'Tap any land on the map.':'The borders of 1914. Tap any land on the map.'); listNew();
+      say2(y?REST:'The borders of 1914. Tap any land on the map.'); listNew();
       cancelAnimationFrame(raf); if(reduced){ mix=y; draw(); return; } var from=mix, t0=performance.now();
       (function st(now){ var k=Math.min(1,(now-t0)/420); k=k<.5?2*k*k:-1+(4-2*k)*k; mix=from+(y-from)*k; draw(); if(k<1)raf=requestAnimationFrame(st); })(t0); }
-    var tapEl=document.getElementById('bamTap'); function say2(h){ tapEl.innerHTML=h; }
+    var tapEl=document.getElementById('bamTap'), REST='Tap any land on the map. Borders from the atlas\u2019s border record.'; function say2(h){ tapEl.innerHTML=h; }
     function tell(f,lost){ var n=nm(f); if(!year)n=n.replace(/\s*\(.*?\)/g,'');   /* the border record adds a later name in brackets */
       if(year&&lost){ var extra=n==='France'?' The treaty returned Alsace-Lorraine to France.':n==='Poland'?' The treaty gave Poland a corridor to the sea.':n==='Danzig'?' The border record puts it under the League of Nations.':''; return '<b>Land Germany lost.</b> In 1919 it is in '+esc(n)+'.'+extra; }
       if(year&&isG(f)) return '<b>Germany in 1919.</b> The dashed line is its border of 1914.';

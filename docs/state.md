@@ -774,6 +774,26 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 - **The Story control when on, final (Cade, 2026-11-15).** One red line under it, the same 1px line the sizes
   and the filter carry in gilt, with the sign and the word in red. The red frame and the animated glint are
   gone (this replaces the two earlier notes on them).
+- **TAKEAWAY FOR THE MASTER CHAT: guiding principles for a graphic (Cade and the sub chat, 2026-11-15).**
+  Proposed for the standards. Cade found the Overview's before-and-after graphic far too big: 733px tall at
+  phone width, on a screen of about 844px, with the map a third of it.
+  1. One graphic makes one point, and its title states that point (the title rule of 2026-11-12 stands).
+  2. Half a screen at most: about 420px tall on a phone, title and key included.
+  3. The picture carries the facts. Words inside the frame are a title, a one-line key and one caption or
+     source line.
+  4. Nothing the picture already shows is repeated as a list under it.
+  5. Key figures are not part of a graphic. They stand in the page's own figures strip, which the data
+     header generates.
+  6. The still image must make the point. A tap adds detail in one line of fixed height and never changes
+     the graphic's size.
+  7. No empty or placeholder slot is shown. A figure or label without a source is left out.
+  8. Every graphic shares one frame: the same border, type and colours, and the same places for the title,
+     the switch, the key and the source.
+  The rebuilt graphic in the mock follows them: a title, the map (seven tenths as tall as it is wide, was
+  eight), one row with the key at the left and the 1914/1919 switch at the right, and one caption line two
+  lines high that also answers a tap. It is 395px tall and does not grow on a tap. Gone: the list of nine new
+  countries (the map names them) and the fourth, unsourced figure. The three sourced figures stand under the
+  graphic in a strip of three; in the real site that strip is generated, never written by hand.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
