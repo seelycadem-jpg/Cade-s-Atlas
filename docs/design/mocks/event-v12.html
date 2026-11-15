@@ -1452,6 +1452,15 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .kf[data-v="c"] .kfl div::before{content:"";position:absolute;left:1px;top:.5em;width:6px;height:6px;border:1px solid var(--gilt);transform:rotate(45deg)}
 .kf[data-v="c"] .kfl b{font:600 16px/1.35 var(--body);color:var(--accent);margin-right:5px}
 .kf[data-v="c"] .kfl span{font:400 16px/1.35 var(--body);color:var(--ink)}
+
+/* Results under the graphic, inside its frame (Cade, 2026-11-15): a short heading and at most three lines, each led by
+   its figure. They belong here because they are results of the thing the graphic shows. */
+.bamres{margin:10px 0 0;padding-top:9px;border-top:1px solid var(--rule)}
+.bamres .rh{margin:0 0 6px;font:500 10.5px/1.2 var(--ui);letter-spacing:.11em;text-transform:uppercase;color:var(--ink2)}
+.bamres ul{margin:0;padding:0;list-style:none;display:grid;gap:4px}
+.bamres li{position:relative;padding-left:16px;font:400 15px/1.35 var(--body);color:var(--ink)}
+.bamres li::before{content:"";position:absolute;left:1px;top:.52em;width:5px;height:5px;border:1px solid var(--gilt);transform:rotate(45deg)}
+.bamres b{font-weight:600;color:var(--accent);font-variant-numeric:lining-nums}
 </style>
 
 <div class="stage" id="stage">
@@ -1489,16 +1498,15 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
         <div class="bamkey" aria-label="Key"><span><i class="k1"></i>Germany</span><span><i class="k2"></i>Land lost</span><span><i class="k3"></i>New in 1919</span></div>
         <div class="bamsw" role="group" aria-label="Year"><button type="button" data-bam="0" aria-pressed="false">1914</button><button type="button" data-bam="1" aria-pressed="true">1919</button></div>
       </div>
-      <p class="bamtap" id="bamTap" aria-live="polite">The treaty took 13% of Germany’s land in Europe. France and Poland gained land. Tap a country.</p>
+      <p class="bamtap" id="bamTap" aria-live="polite">The hatched land left Germany in 1919. France and Poland gained most of it. Tap a country.</p>
       <p class="bamnew" id="bamNew" hidden></p>
-    </div>
-    <div class="kf" id="kf" data-v="a">
-      <p class="mockpick" aria-label="Mock only: three ways to set the key figures">Mock only, pick a layout: <button type="button" data-kf="a" aria-pressed="true">A</button><button type="button" data-kf="b" aria-pressed="false">B</button><button type="button" data-kf="c" aria-pressed="false">C</button></p>
-      <div class="kfh"><p>Key figures</p><button type="button" id="kfAll">All the numbers</button></div>
-      <div class="kfl">
-        <div><b>13%</b><span>of Germany's land in Europe lost</span></div>
-        <div><b>100,000</b><span>men, the cap on its army</span></div>
-        <div><b>132 bn</b><span>gold marks demanded in 1921; about 20 bn paid</span></div>
+      <div class="bamres">
+        <p class="rh">Results of the treaty</p>
+        <ul>
+          <li><b>13%</b> of Germany's land in Europe lost</li>
+          <li><b>100,000</b> men, the cap on its army</li>
+          <li><b>132 bn</b> gold marks demanded; about 20 bn paid</li>
+        </ul>
       </div>
     </div>
   </section>
@@ -2023,12 +2031,6 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function toCol(s,smooth){ var left=G.cx(s)+CW/2-G.W/2; if(smooth){ var dist=Math.abs(scroller.scrollLeft-left); glide(scroller,'scrollLeft',left,clamp(420+dist*0.75,420,900),sync); } else { halt(scroller); scroller.scrollLeft=left; } }
   function colNow(){ return clamp(Math.round((scroller.scrollLeft+G.W/2-G.cx(G.minS))/CW-0.5)+G.minS,G.minS,G.maxS); }
   ['pointerdown','wheel','touchstart'].forEach(function(t){ scroller.addEventListener(t,function(){ halt(scroller); },{passive:true}); });
-  /* mock only: three layouts for the key figures; "All the numbers" goes to By the numbers in The Record */
-  (function(){ var kf=document.getElementById('kf'); if(!kf)return; var v='a'; try{ var m=localStorage.getItem('kfLayout'); if(/^[abc]$/.test(m))v=m; }catch(e){}
-    function set(x){ v=x; kf.setAttribute('data-v',x); [].forEach.call(kf.querySelectorAll('[data-kf]'),function(b){ b.setAttribute('aria-pressed',String(b.dataset.kf===x)); }); try{ localStorage.setItem('kfLayout',x); }catch(e){} }
-    kf.addEventListener('click',function(e){ var b=e.target.closest('[data-kf]'); if(b){ set(b.dataset.kf); return; }
-      if(e.target.closest('#kfAll')){ var r=document.getElementById('record'); if(r)window.scrollTo({top:r.getBoundingClientRect().top+window.scrollY-150,behavior:'smooth'}); } });
-    set(v); })();
   var footEl0=document.querySelector('.ruler.foot');
   var q=false; function sync(){ q=false; if(!G)return; var max=scroller.scrollWidth-scroller.clientWidth, x=scroller.scrollLeft;
     var ml=0, mr=0; Object.keys(N).forEach(function(id){ var n=N[id]; if(n.gone||n.chip||id===centre)return; if(n.tg.x+n.w<x+6)ml++; else if(n.tg.x>x+G.W-6)mr++; });
@@ -2399,7 +2401,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       say2(y?REST:'Germany and its neighbours in 1914, before the war. Tap a country.'); listNew();
       cancelAnimationFrame(raf); if(reduced){ mix=y; draw(); return; } var from=mix, t0=performance.now();
       (function st(now){ var k=Math.min(1,(now-t0)/420); k=k<.5?2*k*k:-1+(4-2*k)*k; mix=from+(y-from)*k; draw(); if(k<1)raf=requestAnimationFrame(st); })(t0); }
-    var tapEl=document.getElementById('bamTap'), REST='The treaty took 13% of Germany\u2019s land in Europe. France and Poland gained land. Tap a country.'; function say2(h){ tapEl.innerHTML=h; }
+    var tapEl=document.getElementById('bamTap'), REST='The hatched land left Germany in 1919. France and Poland gained most of it. Tap a country.'; function say2(h){ tapEl.innerHTML=h; }
     function tell(f,lost){ var n=nm(f); if(!year)n=n.replace(/\s*\(.*?\)/g,'');   /* the source data adds a later name in brackets */
       if(year&&lost){ var extra=n==='France'?' The treaty returned Alsace-Lorraine to France.':n==='Poland'?' The treaty gave Poland a corridor to the sea.':n==='Danzig'?' The treaty made it a free city under the League of Nations.':''; return '<b>Land Germany lost.</b> In 1919 it '+(n==='Danzig'?'is Danzig.':'belongs to '+esc(n)+'.')+extra; }
       if(year&&isG(f)) return '<b>Germany in 1919.</b> The dashed line is its border of 1914.';
@@ -2418,8 +2420,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     listNew(); size(); var rz2; window.addEventListener('resize',function(){ clearTimeout(rz2); rz2=setTimeout(size,160); }); if(document.fonts&&document.fonts.ready)document.fonts.ready.then(size);
     if(window.MutationObserver)new MutationObserver(function(){ hatch=null; draw(); }).observe(root,{attributes:true,attributeFilter:['data-theme']}); })();
 
-  /* ---------- a graphic swells a little as it crosses the screen; it never fades ---------- */
-  (function(){ if(reduced)return; var figs=[].slice.call(document.querySelectorAll('.fig')).map(function(el){ el.style.willChange='transform'; el.style.transformOrigin='50% 50%'; return {el:el,cu:1,tg:1}; }), q3=false, er3=0;
+  /* ---------- graphics hold still (Cade, 2026-11-15): the swell on scroll is for pictures only, so this is off ---------- */
+  (function(){ return; if(reduced)return; var figs=[].slice.call(document.querySelectorAll('.fig')).map(function(el){ el.style.willChange='transform'; el.style.transformOrigin='50% 50%'; return {el:el,cu:1,tg:1}; }), q3=false, er3=0;
     function ease3(){ er3=0; var more=false; figs.forEach(function(f){ f.cu+=(f.tg-f.cu)*0.11; if(Math.abs(f.tg-f.cu)>0.0004)more=true; else f.cu=f.tg; f.el.style.transform='scale('+f.cu.toFixed(4)+')'; }); if(more)er3=requestAnimationFrame(ease3); }
     function aim(){ q3=false; var vh=Math.max(1,window.innerHeight); figs.forEach(function(f){ var top=0, el=f.el; while(el){ top+=el.offsetTop; el=el.offsetParent; } var mid=(top-window.scrollY+f.el.offsetHeight/2)/vh, s=Math.max(0,1-Math.abs(mid-0.46)/0.55); s=s*s*(3-2*s); f.tg=1+0.03*s; }); if(!er3)er3=requestAnimationFrame(ease3); }
     window.addEventListener('scroll',function(){ if(!q3){ q3=true; requestAnimationFrame(aim); } },{passive:true}); aim(); })();

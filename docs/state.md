@@ -801,6 +801,14 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   the chain's two empty-side lines now read "No cause of this event is recorded yet." It is 395px tall and does not grow on a tap. Gone: the list of nine new
   countries (the map names them) and the fourth, unsourced figure. The three sourced figures stand under the
   graphic in a strip of three; in the real site that strip is generated, never written by hand.
+- **Results sit inside the graphic; graphics hold still (Cade, 2026-11-15; this replaces the "Key figures"
+  note below and amends principles 2 and 5 for graphics).** Where figures are results of the thing a graphic
+  shows, they stand inside its frame under a short heading ("Results of the treaty"), at most three lines,
+  each led by its figure. Figures that are not about the graphic stay in By the numbers. With the results
+  the graphic is about 500px tall on a phone: the half-screen measure applies to the picture, its key and its
+  caption (395px), and the results add to it. The caption no longer repeats a figure the results give.
+  Graphics no longer grow and shrink as they cross the screen; that effect is kept for pictures only. The
+  three-layout "Key figures" trial and its mock switch are removed.
 - **Key figures under the Overview's graphic (Cade, 2026-11-15, on trial; a layout to be chosen).** The
   figures that left the graphic stand in a block headed "Key figures", three at most, each a number and a few
   words, with a link "All the numbers" that goes to By the numbers in The Record. The mock offers three
