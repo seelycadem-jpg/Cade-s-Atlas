@@ -1316,6 +1316,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .spop .slist span{font:italic 400 13px/1.2 var(--display);color:var(--ink3)}
 .spop .snote{margin:6px 0 4px;font:italic 400 12.5px/1.35 var(--display);color:var(--ink3)}
 .spop .fh{margin:0 0 4px}
+.spop .slist button{flex-direction:column;align-items:flex-start;justify-content:center;gap:2px;min-height:44px;padding-top:6px;padding-bottom:6px}
+.spop .slist b{white-space:nowrap}
+.spop .slist button::before{margin-top:-4px}
 .cbar{grid-template-columns:auto 1fr auto auto auto!important}
 .chainbox:not(.land) .ruler.foot::after{display:none}
 .chainbox:not(.land) .ruler.foot .mini{display:none}
@@ -2013,7 +2016,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function storyFill(){ var mine=(STORY.of[centre]||[]), h='<p class="fh">Story</p><div class="slist" role="group" aria-label="Story">';
     h+='<button type="button" data-story="" aria-pressed="'+(!story)+'"><b>All stories</b><span>every cause and effect</span></button>';
     mine.slice().sort(function(a,b){ return (b===ARRIVED)-(a===ARRIVED); }).forEach(function(a){ h+='<button type="button" data-story="'+a+'" aria-pressed="'+(story===a)+'"><b>'+esc(STORY.names[a]||a)+'</b>'+(a===ARRIVED?'<span>the story you came through</span>':'')+'</button>'; });
-    h+='</div><p class="snote">A story keeps its own events. Others stay, faded, where a path runs through them.</p>'; spop.innerHTML=h; }
+    h+='</div><p class="snote">Show only the causes and effects of this event that belong to one story.</p>'; spop.innerHTML=h; }
   function storyOpen(o){ if(o&&!fpop.hidden)popOpen(false); spop.hidden=!o; sBtn.setAttribute('aria-expanded',String(o)); if(o)storyFill(); popRoom(); }
   sBtn.addEventListener('click',function(e){ e.stopPropagation(); storyOpen(spop.hidden); });
   spop.addEventListener('click',function(e){ e.stopPropagation(); var b=e.target.closest('button[data-story]'); if(!b)return; story=b.dataset.story||null; storyOpen(false); bar(); change(); sBtn.focus({preventScroll:true}); });
