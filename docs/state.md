@@ -912,6 +912,10 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 - **The event's type signs in the hero (Cade, 2026-11-16).** The signs for the event's types (the Treaty has
   one, Political) stand beside the Event label in gilt, the same signs its chain card carries, with the type's
   name for screen readers and as a tooltip. Signs only, no words: the row also holds the event's stepper.
+- **The docked header is never an empty band (Cade, 2026-11-16).** For a reader with no route the docked
+  header used to show the title and date over a blank third line. It now carries "In 18 stories: choose one ›",
+  which opens the list of the event's stories, the same offer the hero makes. With a route it still reads
+  "‹ The Treaty · ‹ Before · After ›".
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.

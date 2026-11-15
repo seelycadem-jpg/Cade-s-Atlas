@@ -2431,7 +2431,12 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     var P0=places()[here]||HOMEPLACE; document.getElementById('rHead').innerHTML=routed?'You are reading this event within the story <b>'+esc(P0.s)+'</b>':'This event belongs to '+n+w+'.';
     document.getElementById('rPick').innerHTML='';   /* no list of stories here (Cade): the one link to choose is enough */
     document.getElementById('kicker').classList.toggle('noroute',!routed);
-    document.getElementById('hsub').style.visibility=routed?'':'hidden'; var cn=document.getElementById('chapnav'), pp=places()[here]||HOMEPLACE, showN=routed&&!!(pp.prev||pp.next); cn.hidden=!showN; cn.style.display=showN?'':'none';
+    /* once the title docks: with a route, the way back to the chapter and the steps either side; with none, the same
+       offer the hero makes, so the docked header is never an empty band */
+    document.getElementById('hsub').style.visibility=''; var hc=document.getElementById('hChap'), hw=document.getElementById('hNextW'), p1=places()[here]||HOMEPLACE;
+    if(routed){ hc.textContent='\u2039 '+p1.ch; var hn=!!(p1.prev||p1.next); hw.hidden=!hn; hw.style.display=hn?'':'none'; }
+    else { hc.textContent='In '+n+w+': choose one \u203a'; hw.hidden=true; hw.style.display='none'; }
+    var cn=document.getElementById('chapnav'), pp=places()[here]||HOMEPLACE, showN=routed&&!!(pp.prev||pp.next); cn.hidden=!showN; cn.style.display=showN?'':'none';
     document.getElementById(routed?'rAlso':'rAlso3').appendChild(document.getElementById('alsoin')); document.getElementById('evStp').style.display=routed?'':'none'; }
   function follow(i){ var P=places(), x=P[i]; here=i;
     document.getElementById('cChron').textContent=x.c; document.getElementById('cStory').textContent=x.s; document.getElementById('cChap').textContent=x.ch;
