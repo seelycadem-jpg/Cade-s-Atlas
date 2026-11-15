@@ -847,6 +847,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   where, is undecided. (b) The standards' takeaway strip says "no size word" beside the route; the mock keeps
   the size as a mark only. (c) "The Ruhr and the Mark" and "1 of 3" are placeholders. (d) The ladder adds
   about 30px to the hero against the old breadcrumb.
+- **Five hero options for Cade to choose from (2026-11-15, undecided).** `hero-demos.html`
+  (https://claude.ai/artifact/JgMdtfyqAeTQot9jGb3jRy): 1 Ladder (what event-v12 has), 2 one line and a flip bar
+  (steps to the event before and after in the chapter, with the event's place in it), 3 three tabs, 4 the
+  thread (the route on a gilt line ending at this event), 5 a sentence (title first; three buttons: chapter,
+  next event, next chapter). Cade's aims: simple navigation, room for curiosity, knowing where to go, flipping
+  around quickly. The Event label is light grey in all five and in event-v12 (Cade: not too important).
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.

@@ -1,0 +1,164 @@
+<title>Hero Options</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;1,400;1,500&family=Newsreader:ital,opsz,wght@0,6..72,400;0,6..72,500;1,6..72,400&family=Public+Sans:wght@400;500;600&display=swap">
+<style>
+/* Five ways to open an event page, for Cade to choose from (2026-11-15). Each must do three jobs: say quietly that this
+   is an event page; show the chronicle, story and chapter the reader came through; and offer the way back to the
+   chapter and on from it. A choosing tool, not a page of the atlas. Colours are docs/design/palette.md.
+   Layout: a sticky switch, a note on the chosen option, then the hero as it opens and as it looks once scrolled. */
+:root{
+  --bg:#F6F2EC; --surface:#FCFAF6; --surface2:#EFE9E1; --ink:#1C1916; --ink2:#4D4843; --ink3:#7B746D; --title:#3B2217; --lede:#5A3220; --rule:#DCD2C7;
+  --accent:#C81A12; --on-accent:#FFFFFF; --gilt:#B08A3E;
+  --display:"Cormorant Garamond","Newsreader",Georgia,serif; --body:"Newsreader",Georgia,serif; --ui:"Public Sans",system-ui,-apple-system,sans-serif;
+  color-scheme:light;
+}
+@media (prefers-color-scheme: dark){ :root:not([data-theme="light"]){
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --lede:#E8C9A8; --rule:#3E2E26;
+  --accent:#FF6B5C; --on-accent:#1C130F; --gilt:#C9A45C; color-scheme:dark } }
+:root[data-theme="dark"]{
+  --bg:#1C130F; --surface:#261A15; --surface2:#2E211B; --ink:#F2E9E0; --ink2:#C4B4A7; --ink3:#948174; --title:#F2E9E0; --lede:#E8C9A8; --rule:#3E2E26;
+  --accent:#FF6B5C; --on-accent:#1C130F; --gilt:#C9A45C; color-scheme:dark }
+*{box-sizing:border-box}
+body{background:var(--bg);color:var(--ink);font:15px/1.5 var(--ui)}
+body::before{content:"";position:fixed;inset:0 0 auto;height:env(safe-area-inset-top,0px);z-index:10;background:var(--bg)}
+button{font:inherit;color:inherit;background:none;border:0;padding:0;margin:0;cursor:pointer;text-align:inherit;-webkit-tap-highlight-color:transparent}
+:focus-visible{outline:2px solid var(--accent);outline-offset:2px}
+.wrap{max-width:26rem;margin:0 auto;padding-block:14px 60px;padding-left:max(20px,env(safe-area-inset-left,0px));padding-right:max(20px,env(safe-area-inset-right,0px))}
+.eyebrow{margin:0;font:500 10.5px/1.2 var(--ui);letter-spacing:.09em;text-transform:uppercase;color:var(--ink3)}
+.pagehead{margin:4px 0 0;font:500 26px/1.1 var(--display);color:var(--title)}
+.seg{position:sticky;top:env(safe-area-inset-top,0px);z-index:8;display:grid;grid-template-columns:repeat(5,1fr);margin:12px -20px 0;padding:8px 20px 9px;background:var(--bg);border-bottom:1px solid var(--rule)}
+.seg button{min-height:44px;display:grid;place-items:center;gap:1px;padding:4px 2px;border:1px solid var(--rule);border-left-width:0;text-align:center}
+.seg button:first-child{border-left-width:1px}
+.seg b{font:600 14px/1 var(--ui);color:var(--ink3)}
+.seg span{font:500 9px/1.1 var(--ui);letter-spacing:.04em;color:var(--ink3)}
+.seg button[aria-pressed="true"]{background:var(--surface);box-shadow:inset 0 -2px 0 var(--gilt)}
+.seg button[aria-pressed="true"] b,.seg button[aria-pressed="true"] span{color:var(--ink)}
+.why{margin:12px 0 0;padding:10px 12px;border:1px dashed var(--ink3);font:400 13px/1.5 var(--ui);color:var(--ink2)}
+.why b{color:var(--ink);font-weight:600}
+.lab{margin:20px 0 6px;font:600 10px/1.2 var(--ui);letter-spacing:.1em;text-transform:uppercase;color:var(--ink3)}
+.frame{border:1px solid var(--rule);background:var(--bg);overflow:hidden}
+.top{display:flex;align-items:center;justify-content:space-between;padding:10px 14px 6px;font:500 13px/1 var(--ui);color:var(--ink2)}
+.top span{display:inline-flex;align-items:center;gap:6px}
+.hero{padding:6px 16px 16px}
+h1{margin:0;font:500 31px/1.05 var(--display);letter-spacing:-.008em;color:var(--title)}
+.date{margin:7px 0 0;font:16px/1.3 var(--display);color:var(--ink2)}
+.date b{color:var(--accent);font-weight:600}
+.kind{display:inline-flex;align-items:center;gap:6px;font:500 9.5px/1 var(--ui);letter-spacing:.14em;text-transform:uppercase;color:var(--ink3)}
+.mk{display:inline-block;width:8px;height:8px;background:var(--accent);transform:rotate(45deg)}
+.kind .mk{background:var(--ink3);width:7px;height:7px}
+.lk{font:500 16px/1.25 var(--display);color:var(--title);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:4px}
+.lede{margin:14px 0 0;font:400 17.5px/1.42 var(--display);color:var(--lede)}
+.chev{flex:none;width:11px;height:11px;color:var(--accent)}
+.small{font:500 9px/1 var(--ui);letter-spacing:.11em;text-transform:uppercase;color:var(--ink3)}
+/* the scrolled header every option shares the shape of */
+.dock{display:grid;grid-template-columns:auto 1fr;gap:4px 10px;align-items:center;padding:9px 14px 10px;border-bottom:1px solid var(--rule)}
+.dock .t{font:500 15px/1.15 var(--display);color:var(--title)}
+.dock .d{font:13px/1.2 var(--display);color:var(--ink2)}
+.dock .d b{color:var(--accent);font-weight:600}
+.dock .n{grid-column:2;display:flex;flex-wrap:wrap;gap:2px 12px;font:13.5px/1.3 var(--display);color:var(--ink2)}
+.dock .n button{text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:3px;min-height:26px}
+
+/* 1. Ladder */
+.o1 .row{display:grid;grid-template-columns:78px minmax(0,1fr) auto;align-items:baseline;gap:8px;min-height:28px;border-bottom:1px solid var(--rule)}
+.o1 .row:first-child{border-top:1px solid var(--rule)}
+.o1 .row i{font:400 11.5px/1 var(--ui);font-style:normal;color:var(--ink3)}
+.o1 .kind{margin:10px 0 5px}
+.pair{display:grid;grid-template-columns:1fr 1fr;margin-top:14px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.pair button{display:flex;align-items:center;gap:9px;min-height:50px;padding:7px 2px;min-width:0}
+.pair button+button{justify-content:flex-end;text-align:right;padding-left:10px;box-shadow:inset 1px 0 0 var(--rule)}
+.pair span{display:grid;gap:4px;min-width:0}
+.pair b{font:500 15.5px/1.15 var(--display);color:var(--title);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+
+/* 2. One line and a flip bar */
+.o2 .crumb{display:flex;align-items:baseline;gap:6px;overflow:hidden;white-space:nowrap;font:500 14.5px/1.3 var(--display);color:var(--ink2);margin-bottom:10px}
+.o2 .crumb .lk{font-size:14.5px;overflow:hidden;text-overflow:ellipsis}
+.o2 .crumb em{font-style:normal;color:var(--ink3)}
+.o2 .kind{margin-bottom:5px}
+.flip{display:grid;grid-template-columns:44px 1fr 44px;align-items:stretch;margin-top:14px;border:1px solid var(--rule);background:var(--surface)}
+.flip > button{display:grid;place-items:center;min-height:52px}
+.flip > button+div{border-left:1px solid var(--rule);border-right:1px solid var(--rule)}
+.flip .mid{display:grid;gap:5px;justify-items:center;align-content:center;padding:6px 8px;text-align:center}
+.flip .mid b{font:500 15.5px/1.1 var(--display);color:var(--title);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:3px}
+.flip .dots{display:flex;gap:7px;align-items:center}
+.flip .dots i{width:6px;height:6px;border:1px solid var(--ink3);transform:rotate(45deg)}
+.flip .dots i.on{background:var(--accent);border-color:var(--accent);width:8px;height:8px}
+.o2 .nextc{display:flex;justify-content:flex-end;align-items:center;gap:7px;margin-top:8px;font:italic 400 14.5px/1.2 var(--display);color:var(--ink2);min-height:30px;width:100%}
+
+/* 3. Three tabs of the route */
+.o3 .tabs{display:grid;grid-template-columns:repeat(3,minmax(0,1fr));border:1px solid var(--rule);margin-bottom:12px}
+.o3 .tabs button{display:grid;gap:5px;padding:8px 9px 9px;min-width:0;min-height:50px}
+.o3 .tabs button+button{box-shadow:inset 1px 0 0 var(--rule)}
+.o3 .tabs b{font:500 15px/1.15 var(--display);color:var(--title);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.o3 .tabs button:last-child{background:var(--surface);box-shadow:inset 1px 0 0 var(--rule),inset 0 -2px 0 var(--gilt)}
+.o3 .kind{margin-bottom:5px}
+
+/* 4. The thread */
+.o4 .thread{position:relative;margin:2px 0 0;padding-left:22px}
+.o4 .thread::before{content:"";position:absolute;left:4.5px;top:9px;bottom:22px;width:1px;background:linear-gradient(color-mix(in srgb,var(--gilt) 45%,transparent),var(--gilt))}
+.o4 .st{position:relative;display:flex;align-items:baseline;gap:9px;min-height:27px}
+.o4 .st::before{content:"";position:absolute;left:-21px;top:8px;width:7px;height:7px;background:var(--bg);border:1px solid var(--gilt);transform:rotate(45deg)}
+.o4 .st .small{width:66px;flex:none}
+.o4 .here{display:block;margin-top:6px;padding-bottom:2px}
+.o4 .here::before{top:12px;left:-22px;width:9px;height:9px;background:var(--accent);border-color:var(--accent)}
+.o4 .here .kind{margin-bottom:4px}
+.o4 .also{margin:10px 0 0 22px;font:400 12.5px/1 var(--ui);color:var(--ink2);min-height:28px;display:flex;align-items:center;gap:6px}
+
+/* 5. A sentence */
+.o5 .kind{margin-bottom:6px}
+.o5 .sent{margin:10px 0 0;font:400 16px/1.5 var(--display);color:var(--ink2)}
+.o5 .sent .lk{font-size:16px}
+.o5 .three{display:grid;grid-template-columns:1fr 1fr 1fr;margin-top:14px;border-top:1px solid var(--rule);border-bottom:1px solid var(--rule)}
+.o5 .three button{display:grid;gap:5px;align-content:center;min-height:52px;padding:7px 8px;min-width:0}
+.o5 .three button+button{box-shadow:inset 1px 0 0 var(--rule)}
+.o5 .three b{font:500 14.5px/1.15 var(--display);color:var(--title);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.o5 .three button:last-child{text-align:right}
+.foot{margin:18px 0 0;font:400 12.5px/1.5 var(--ui);color:var(--ink3)}
+</style>
+
+<div class="wrap">
+  <p class="eyebrow">Meanwhile Atlas · event page</p>
+  <h1 class="pagehead">Five ways to open the page</h1>
+  <div class="seg" role="group" aria-label="Option" id="seg"></div>
+  <p class="why" id="why"></p>
+  <p class="lab">As the page opens</p>
+  <div class="frame"><div class="top"><span><svg class="chev" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--ink2)"><path d="M9 2L4 7l5 5"/></svg>Back</span><span>Search</span></div><div class="hero" id="hero"></div></div>
+  <p class="lab">Once the reader scrolls</p>
+  <div class="frame"><div class="dock" id="dock"></div></div>
+  <p class="foot">Placeholders: "The Ruhr and the Mark", "The Armistice", "German Hyperinflation" as neighbours, and the counts "8 of 12", "1 of 3" and "2 of 5". The opening line is the mock's own text.</p>
+</div>
+
+<script>
+(function(){
+  var L='<svg class="chev" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg>';
+  var R='<svg class="chev" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg>';
+  var KIND='<span class="kind"><i class="mk" aria-hidden="true"></i>Event</span>';
+  var HEAD='<h1>The Treaty of Versailles</h1><p class="date"><b>28 June 1919</b> · Versailles, France</p>';
+  var LEDE='<p class="lede">France, Britain and the United States wrote the treaty to end the war with Germany and to keep Germany from attacking again.</p>';
+  var PAIR='<div class="pair"><button type="button">'+L+'<span><i class="small">Back to chapter</i><b>The Treaty</b></span></button><button type="button"><span><i class="small">Next chapter</i><b>The Ruhr and the Mark</b></span>'+R+'</button></div>';
+  var OPT=[
+   {n:'Ladder',why:'<b>1. Ladder.</b> What the page has now, with Event in grey. Three thin rows name the chronicle, the story and the chapter, each with its level beside it. Two buttons under the date go back to the chapter and on to the next. The clearest statement of the route; the tallest of the five.',
+    h:'<div class="o1"><div class="row"><span class="small">Chronicle</span><button class="lk">Germany</button><i></i></div><div class="row"><span class="small">Story</span><button class="lk">Weimar Germany</button><i>8 of 12</i></div><div class="row"><span class="small">Chapter</span><button class="lk">The Treaty</button><i>1 of 3</i></div>'+KIND+HEAD+PAIR+LEDE+'</div>',
+    d:'<button type="button">‹ The Treaty</button><button type="button">Next chapter ›</button>'},
+   {n:'Flip bar',why:'<b>2. One line and a flip bar.</b> The route is a single line that can be read at a glance. Under the date sits a flip bar: arrows step to the event before and after this one in the chapter, the middle names the chapter and shows where this event falls in it, and a line under it leads to the next chapter. Built for moving quickly from event to event.',
+    h:'<div class="o2"><p class="crumb"><button class="lk">Germany</button><em>›</em><button class="lk">Weimar Germany</button><em>›</em><button class="lk">The Treaty</button></p>'+KIND+HEAD+'<div class="flip"><button type="button" aria-label="The event before: The Armistice">'+L+'</button><div class="mid"><span class="small">Chapter · event 2 of 5</span><b>The Treaty</b><span class="dots" aria-hidden="true"><i></i><i class="on"></i><i></i><i></i><i></i></span></div><button type="button" aria-label="The event after: German Hyperinflation">'+R+'</button></div><button type="button" class="nextc">Next chapter: The Ruhr and the Mark '+R+'</button>'+LEDE+'</div>',
+    d:'<button type="button">‹ Before</button><button type="button">The Treaty · 2 of 5</button><button type="button">After ›</button>'},
+   {n:'Tabs',why:'<b>3. Three tabs.</b> The route is three boxes in a row, each a button with its level over its name; the chapter, the nearest level, is marked in gilt. It reads like the tabs lower on the page and takes one row. Long names are cut short. The two buttons under the date are the same as in the ladder.',
+    h:'<div class="o3"><div class="tabs"><button type="button"><span class="small">Chronicle</span><b>Germany</b></button><button type="button"><span class="small">Story 8/12</span><b>Weimar Germany</b></button><button type="button"><span class="small">Chapter 1/3</span><b>The Treaty</b></button></div>'+KIND+HEAD+PAIR+LEDE+'</div>',
+    d:'<button type="button">‹ The Treaty</button><button type="button">Next chapter ›</button>'},
+   {n:'Thread',why:'<b>4. The thread.</b> The route hangs on a thin gilt line with a diamond at each level, the way events hang on the chain; the line ends at this event, whose diamond is red. It shows that the page is the last step of a path. It uses the atlas’s own picture of history, and it is the most decorative of the five.',
+    h:'<div class="o4"><div class="thread"><div class="st"><span class="small">Chronicle</span><button class="lk">Germany</button></div><div class="st"><span class="small">Story</span><button class="lk">Weimar Germany</button></div><div class="st"><span class="small">Chapter</span><button class="lk">The Treaty</button></div><div class="st here">'+KIND+HEAD+'</div></div>'+PAIR+LEDE+'</div>',
+    d:'<button type="button">‹ The Treaty</button><button type="button">Next chapter ›</button>'},
+   {n:'Sentence',why:'<b>5. A sentence.</b> The title comes first, and the route is said in plain words under the date, as a book would say it. Three buttons follow: back to the chapter, on to the next event, on to the next chapter. The quietest of the five, and the only one that puts the title at the very top.',
+    h:'<div class="o5">'+KIND+HEAD+'<p class="sent">An event in the chapter <button class="lk">The Treaty</button>, part of the story <button class="lk">Weimar Germany</button> in the chronicle <button class="lk">Germany</button>.</p><div class="three"><button type="button"><span class="small">‹ Chapter</span><b>The Treaty</b></button><button type="button"><span class="small">Next event</span><b>German Hyperinflation</b></button><button type="button"><span class="small">Next chapter ›</span><b>The Ruhr and the Mark</b></button></div>'+LEDE+'</div>',
+    d:'<button type="button">‹ The Treaty</button><button type="button">Next event ›</button><button type="button">Next chapter ›</button>'}
+  ];
+  var seg=document.getElementById('seg'), at=0;
+  try{ var m=+localStorage.getItem('heroDemo'); if(m>=0&&m<OPT.length)at=m|0; }catch(e){}
+  seg.innerHTML=OPT.map(function(o,i){ return '<button type="button" id="h'+(i+1)+'" data-i="'+i+'" aria-pressed="false"><b>'+(i+1)+'</b><span>'+o.n+'</span></button>'; }).join('');
+  function paint(){ [].forEach.call(seg.children,function(b,i){ b.setAttribute('aria-pressed',String(i===at)); });
+    document.getElementById('why').innerHTML=OPT[at].why; document.getElementById('hero').innerHTML=OPT[at].h;
+    document.getElementById('dock').innerHTML='<span style="grid-row:1 / span 2;color:var(--ink2)">'+L.replace('class="chev"','class="chev" style="color:var(--ink2)"')+'</span><div><div class="t">The Treaty of Versailles</div><div class="d"><b>28 June 1919</b> · Versailles, France</div></div><div class="n">'+OPT[at].d+'</div>'; }
+  seg.addEventListener('click',function(e){ var b=e.target.closest('button'); if(!b)return; at=+b.dataset.i; try{ localStorage.setItem('heroDemo',at); }catch(err){} paint(); });
+  paint();
+})();
+</script>
