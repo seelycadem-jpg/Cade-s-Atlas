@@ -1975,7 +1975,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=isFull?RH:Math.max(64*ZC,n.h+(zoomLv?18:12)*ZC);
       var nt=n.el.querySelector('.nt'), cd=nt&&nt.parentNode; n.slack=(nt&&!n.chip)?Math.max(0,cd.clientHeight-23-12-nt.offsetHeight):0; });
     /* the canvas is as tall as its tallest column, up to four rows; a longer column becomes a drum */
-    var tall=isFull?0:2.2*RH, anyDrum=false;   /* the page keeps a least height; full screen takes its height from the screen */ Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); if(c.length>MAXR)anyDrum=true; tall=Math.max(tall,Math.min(t,MAXR*RH)); }); if(anyDrum)tall=MAXR*RH+2*PEEK-16;
+    var tall=isFull?0:2.2*RH, anyDrum=false;   /* the page keeps a least height; full screen takes its height from the screen */ Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); if(c.length>MAXR)anyDrum=true; tall=Math.max(tall,c.length>MAXR?MAXR*RH:t); });   /* a column that shows all its cards gets all the height they need */ if(anyDrum)tall=MAXR*RH+2*PEEK-16;
     HC=Math.round(TOP+tall+16); if(isFull)HC=Math.max(HC,Math.round(avH)); yc=TOP+(HC-TOP)/2; G.yc=yc;
 
     /* keep the centre under the reader's eye while the canvas changes size around it */
