@@ -861,6 +861,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   links, back to the chapter and next chapter. C, title first and one navigator: the title leads, and one box
   under the date holds the three rows, "Next chapter" on the chapter row, and a foot naming the event before
   and after. Options 3, 4 and 5 of the first round (tabs, thread, sentence) were dropped from the page.
+- **A light tap in the hand when the steps change (Cade, 2026-11-15, on trial, unverified).** Each change of
+  steps gives one short vibration, doubled at the first and last step. Android phones allow a page to
+  vibrate. iPhones do not: there the page flips a hidden switch control, which recent versions of Safari answer
+  with the phone's own tick. That is a workaround with no promise behind it, and a page shown inside another
+  app's frame may get nothing. The sub chat could not test either. For the master chat: treat haptics as an
+  extra that may be absent; nothing may depend on it.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
