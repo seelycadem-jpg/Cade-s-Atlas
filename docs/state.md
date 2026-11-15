@@ -771,6 +771,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   (the nearer always over the one behind), a tucking card stays solid for the first third of its way, and its
   year and signs fade with its country. Recreated and checked with a six-event column at eight points of a
   turn. Also: a three-line title sits 2px higher, clear of the country under it.
+- **The Story control when on, final (Cade, 2026-11-15).** One red line under it, the same 1px line the sizes
+  and the filter carry in gilt, with the sign and the word in red. The red frame and the animated glint are
+  gone (this replaces the two earlier notes on them).
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.

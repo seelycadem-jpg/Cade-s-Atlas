@@ -1395,6 +1395,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 /* a card tucking under the foot of a column lets its year and signs fade with its country, so no cut-off strip of
    them shows in the gap between rows */
 .wcanvas .nd:not(.chip) .nm > *{opacity:calc((1 - var(--hu,0) * 1.5) * (1 - var(--vu,0)) * (1 - var(--pd,0)))}
+
+/* The Story control when on (Cade, 2026-11-15, final): one red line under it, the same 1px line the sizes and the
+   filter carry in gilt. No frame, no glint. */
+.chainbox .cb-story.on,.chainbox.land .cbar .cb-story.on{box-shadow:inset 0 -1px 0 var(--accent)!important;overflow:visible}
+.chainbox .cb-story.on::before{content:none!important;animation:none!important}
 </style>
 
 <div class="stage" id="stage">
