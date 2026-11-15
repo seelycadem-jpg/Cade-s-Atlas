@@ -1016,3 +1016,11 @@ it reads the page first and republishes to the same link.
 - Open question for the master chat: the type signs carry no words here; the chain's key defines them. Decide whether
   a first-time reader needs the word beside the sign.
 - Not yet checked on a real phone: the settle after letting go, and Safari's scroll-driven ranges.
+
+### Event page hero: the scroll up to the globe is a weighted push (sub chat, 2026-11-16)
+
+- The reader scrolls 260px up to open the globe view. The first half of that push moves the page little (the page and
+  the globe follow the scroll raised to the power 2.6), and the second half carries it. Letting go before about 60% of
+  the push returns to the event; past it, the page finishes opening the globe by itself.
+- The opening view is unchanged (150px of the globe hidden), and the page always opens on the event view: it sets that
+  position at start-up, on load and when the page is shown again.
