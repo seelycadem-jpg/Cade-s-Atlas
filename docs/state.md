@@ -717,6 +717,15 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   (b) whether the story the reader arrived through is marked or listed first in the control; (c) whether
   the control also offers chronicles and chapters, or stories only; (d) whether a story lens should dim
   the others in place, as first proposed, or remove them, as the mock does by reusing the filter's rule.
+- **No pop-up messages from the chain (Cade, 2026-11-15; a standing preference, said twice).** Cade does not
+  like a message box that appears and fades after a control is used. The chain's controls (steps, sizes,
+  filter, story, zoom, opening full screen) now show none. The result of a change reads from the page: the
+  two "more" counts, the counts in the key, the state of the control. For the master chat: treat this as a
+  rule for the site. Do not answer a control with a transient message; show the result in place.
+- **A story lens announces itself (Cade, 2026-11-15).** With a story chosen: the Story control carries a
+  gilt frame and a slow glint along its foot (still under reduced motion), and one line sits above the
+  chart, "This event's chain within the story [name].", with "Show all" beside it. Sideways in full screen
+  there is no height for the line, so the Story control widens to show the whole name.
 - **Steps moved to the foot of the chain (Cade, 2026-11-15, on trial).** To make room for Story, the steps
   control left the bar and sits in the foot between the two "more" counts, where "Drag to explore the
   chain" stood; that line is gone. Sideways in full screen the foot is the side tabs, so steps stays in the

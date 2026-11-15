@@ -1326,6 +1326,23 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .ruler.foot .cb-steps button{min-height:36px}
 .chainbox.land .cbar{grid-template-columns:auto auto minmax(0,220px) auto auto 1fr auto auto!important}
 .chainbox.land .cbar .cb-story{border-bottom-color:transparent}
+
+/* A story lens announces itself (Cade, 2026-11-15): a gilt frame on the Story control with a slow glint along its
+   foot, and one line above the chart naming the story, with the way back beside it. */
+.chainbox .cb-story.on{box-shadow:inset 0 0 0 1px var(--gilt);overflow:hidden}
+.chainbox .cb-story.on::before{content:"";position:absolute;left:0;right:0;bottom:0;height:2px;pointer-events:none;
+  background:linear-gradient(90deg,transparent 0,transparent 35%,color-mix(in srgb,var(--gilt) 40%,#fff) 50%,transparent 65%,transparent 100%) 0 0/300% 100% no-repeat,var(--gilt);
+  animation:glint 3.6s ease-in-out infinite}
+@keyframes glint{0%,35%{background-position:120% 0,0 0}75%,100%{background-position:-20% 0,0 0}}
+@media (prefers-reduced-motion:reduce){ .chainbox .cb-story.on::before{animation:none} }
+.storyline{display:flex;align-items:baseline;justify-content:space-between;gap:12px;margin:0;padding:8px 20px 7px;border-bottom:1px solid var(--rule);font:italic 400 14.5px/1.3 var(--display);color:var(--ink2)}
+.storyline b{font-style:normal;font-weight:500;color:var(--accent)}
+.storyline button{flex:none;min-height:30px;font:500 12px/1 var(--ui);font-style:normal;color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:4px}
+.chainbox.full .storyline{flex:none}
+/* sideways there is no height for the line: the Story control widens to show the whole name instead */
+.chainbox.land .storyline{display:none!important}
+.chainbox.land .cbar .cb-story{max-width:190px}
+.chainbox.land .cbar .cb-story.on{padding:0 12px}
 </style>
 
 <div class="stage" id="stage">
@@ -1391,6 +1408,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       <div class="fpop spop" id="spop" role="dialog" aria-label="Choose a story" hidden></div>
     </div>
 
+    <p class="storyline" id="storyLine" hidden></p>
     <div class="web" id="web">
       <div class="wscroll" id="wscroll" tabindex="0" aria-label="The chain web. It slides sideways."><div class="wcanvas" id="wcanvas"><svg id="edges" aria-hidden="true"></svg><div id="heads"></div><div id="nodes"></div></div></div>
       <div class="trail" id="trail" hidden></div>
@@ -1772,7 +1790,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       RH=Math.round(clamp((avH-TOP-16-(drumAny?2*PEEK:0))/Math.max(most,2),RHtight,RHmin*1.22)); }
     order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=isFull?RH:Math.max(64*ZC,n.h+(zoomLv?18:12)*ZC); });
     /* the canvas is as tall as its tallest column, up to four rows; a longer column becomes a drum */
-    var tall=2.2*RH, anyDrum=false; Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); if(c.length>MAXR)anyDrum=true; tall=Math.max(tall,Math.min(t,MAXR*RH)); }); if(anyDrum)tall=MAXR*RH+2*PEEK-16;
+    var tall=isFull?0:2.2*RH, anyDrum=false;   /* the page keeps a least height; full screen takes its height from the screen */ Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); if(c.length>MAXR)anyDrum=true; tall=Math.max(tall,Math.min(t,MAXR*RH)); }); if(anyDrum)tall=MAXR*RH+2*PEEK-16;
     HC=Math.round(TOP+tall+16); if(isFull)HC=Math.max(HC,Math.round(avH)); yc=TOP+(HC-TOP)/2; G.yc=yc;
 
     /* keep the centre under the reader's eye while the canvas changes size around it */
@@ -1925,6 +1943,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     var ks=Object.keys(kinds), n=ks.length+(bbOnly?1:0)+(side?1:0), lab=n===0?'Filter':n===1?(ks.length?cap1(ks[0]):bbOnly?'Backbone':side<0?'Causes':'Effects'):n+' filters';
     document.getElementById('fLbl').textContent=lab; fBtn.classList.toggle('on',n>0);
     document.getElementById('sVal').textContent=story?(STORY.names[story]||story):'All'; sBtn.classList.toggle('on',!!story);
+    var sl=document.getElementById('storyLine'); sl.hidden=!story; sl.style.display=story?'':'none'; if(story)sl.innerHTML='<span>This event\u2019s chain within the story <b>'+esc(STORY.names[story]||story)+'</b>.</span><button type="button" id="storyAll">Show all</button>';
     if(!fpop.hidden)popFill(); }
   /* A control must show its result. New cards often land off screen, so each change says how many events now match and
      on which side they wait, and the arrow on that side beats once. */
@@ -1934,7 +1953,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     if(!tot)m='No event matches. Turn a size back on or clear the filter.';
     else if(l||r)m+=' \u00b7 '+(l?l+' to the left':'')+(l&&r?', ':'')+(r?r+' to the right':'');
     else m+=' \u00b7 all in view';
-    say(m); [['goL',l],['goR',r]].forEach(function(q){ var b=document.getElementById(q[0]); b.classList.remove('beat'); if(q[1]){ void b.offsetWidth; b.classList.add('beat'); } }); }
+    /* no pop-up (Cade, 2026-11-15): the counts in the foot and the key carry the result */
+    [['goL',l],['goR',r]].forEach(function(q){ var b=document.getElementById(q[0]); b.classList.remove('beat'); if(q[1]){ void b.offsetWidth; b.classList.add('beat'); } }); }
   /* the key counts what the chain shows now: events of each size, arrows of each kind */
   function keyCounts(){ var c={k:0,fi:0,st:0,nec:0,contrib:0,contest:0};
     Object.keys(N).forEach(function(id){ var n=N[id]; if(!n.gone&&!n.chip)c[size(id)]++; });
@@ -1960,8 +1980,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     h+='</div><p class="snote">A story keeps its own events. Others stay, faded, where a path runs through them.</p>'; spop.innerHTML=h; }
   function storyOpen(o){ if(o&&!fpop.hidden)popOpen(false); spop.hidden=!o; sBtn.setAttribute('aria-expanded',String(o)); if(o)storyFill(); popRoom(); }
   sBtn.addEventListener('click',function(e){ e.stopPropagation(); storyOpen(spop.hidden); });
-  spop.addEventListener('click',function(e){ e.stopPropagation(); var b=e.target.closest('button[data-story]'); if(!b)return; story=b.dataset.story||null; storyOpen(false); change(); sBtn.focus({preventScroll:true}); });
+  spop.addEventListener('click',function(e){ e.stopPropagation(); var b=e.target.closest('button[data-story]'); if(!b)return; story=b.dataset.story||null; storyOpen(false); bar(); change(); sBtn.focus({preventScroll:true}); });
   document.addEventListener('click',function(){ if(!spop.hidden)storyOpen(false); });
+  document.getElementById('storyLine').addEventListener('click',function(e){ if(e.target.closest('#storyAll')){ story=null; bar(); change(); sBtn.focus({preventScroll:true}); } });
   function popOpen(o){ if(o&&!spop.hidden)storyOpen(false); fpop.hidden=!o; fBtn.setAttribute('aria-expanded',String(o)); if(o){ popFill(); popRoom(); var b=fpop.querySelector('button'); if(b)b.focus({preventScroll:true}); } else popRoom(); }
   fBtn.addEventListener('click',function(e){ e.stopPropagation(); popOpen(fpop.hidden); });
   fpop.addEventListener('click',function(e){ e.stopPropagation(); var b=e.target.closest('button'); if(!b)return;
@@ -2059,7 +2080,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     if(sel)select(null); homeY=null; pushedY=0;
     /* full screen opens wider: five steps out and one level zoomed out; closing puts back what the page had */
     if(on){ fullAt=window.scrollY; pageSteps=steps; pageZoom=zoomLv; pageKey=!keyEl.hidden; steps=5; zoomLv=Math.max(1,zoomLv); } else { steps=pageSteps; zoomLv=clamp(pageZoom,0,1); } isFull=on; zBtns(); bar(); chainBox.classList.toggle('full',on); chainBox.style.paddingBottom=''; document.documentElement.classList.toggle('chainfull',on);
-    arrange(); setKey(on?!isLand:pageKey); if(on&&!isLand&&!hinted&&window.innerWidth<560){ hinted=true; say('Turn your phone for a wider view'); }
+    arrange(); setKey(on?!isLand:pageKey); 
     fullBtn.setAttribute('aria-pressed',String(on)); fullBtn.setAttribute('aria-label',on?'Close full screen':'Open the chain full screen');
     chainBox.scrollTop=0; if(!on)window.scrollTo(0,fullAt);
     requestAnimationFrame(function(){ refit(true); if(on)fullBtn.focus({preventScroll:true}); }); }
