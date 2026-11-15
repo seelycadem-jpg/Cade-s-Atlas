@@ -886,6 +886,17 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   strokes, and the upright one turns to lie flat as the thing opens (0.2s; still under reduced motion). The
   Key had it; The Record's pieces now have it, where the upright stroke used to vanish in one step. Any new
   open-and-close control uses this sign.
+- **Hero on trial in event-v12: mix A with the neighbours named (2026-11-16; the sub chat's pick, built so
+  Cade can judge it on the page; he has not chosen).** Every row of the ladder carries its level, its name, its
+  place and a pair of arrows to its own neighbours: Story "8 of 12" steps stories, Chapter "1 of 3" steps
+  chapters (the back arrow greys at the first), and the Event row, directly over the title, "2 of 5" steps
+  events. A name is a link up to that page. Under the date two buttons name the events on each side ("Event
+  before, The Armistice"; "Event after, German Hyperinflation"), taken from mix C. "Also in 17 more stories"
+  moved to the right of the Chronicle row. Docked, the line reads "‹ The Treaty · ‹ Before · After ›". The six
+  row arrows give the haptic tick on an iPhone. This replaces the "Back to chapter" and "Next chapter"
+  buttons: back to the chapter is a tap on the chapter's name, and the next chapter is the arrow on its row.
+  Placeholders: "The Armistice", "2 of 5", "1 of 3", "The Ruhr and the Mark". The other options stay in
+  `hero-demos.html`.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
