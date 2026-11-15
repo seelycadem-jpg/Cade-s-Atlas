@@ -826,6 +826,27 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 - **"Drag to explore" is back (Cade, 2026-11-15).** The line lost its place when Steps moved to the foot. It
   now stands in italics between Key and Zoom, on the row under the chart, in the page and in upright full
   screen. Sideways in full screen that row does not exist, so the line does not show there.
+- **TAKEAWAY FOR THE MASTER CHAT: the event page's hero says where the reader is (Cade, 2026-11-15, on
+  trial).** Three needs from Cade, and how the mock meets them:
+  1. *Say lightly that this is an event page* (not a chapter, story, chronicle or person). A small red label
+     "Event", with the event's size mark beside it, sits directly over the title. Every kind of page should
+     carry its own such label in the same place.
+  2. *Show the route.* A reader who came through a chapter sees a ladder over the title: three thin rows,
+     each naming its level in small capitals and then the thing itself as a link: Chronicle, Germany; Story,
+     Weimar Germany, "8 of 12"; Chapter, The Treaty, "1 of 3". Read downward the ladder ends in the Event label
+     and the title: chronicle, story, chapter, event. This replaces the breadcrumb, where the level words sat
+     under the names and were easy to miss.
+  3. *Back to the chapter, on to the next chapter.* Under the date, two buttons side by side: "Back to
+     chapter, The Treaty" and "Next chapter, The Ruhr and the Mark". When the title docks at the top, the line
+     under it reads "‹ The Treaty · Next chapter ›".
+  A reader who came another way (the globe, the timeline, search) sees the Event label and "Part of 18
+  stories", with no ladder and no buttons. "Also in 17 more stories" sits on the Event row and still opens
+  the list of every story the event belongs to.
+  Open for the master chat: (a) the old "Next: German Hyperinflation" link, the next event in the chapter,
+  is gone from the hero; Cade asked for the next chapter. Whether the page also offers the next event, and
+  where, is undecided. (b) The standards' takeaway strip says "no size word" beside the route; the mock keeps
+  the size as a mark only. (c) "The Ruhr and the Mark" and "1 of 3" are placeholders. (d) The ladder adds
+  about 30px to the hero against the old breadcrumb.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
