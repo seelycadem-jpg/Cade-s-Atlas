@@ -1385,8 +1385,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 
 /* A card peeking below a column shows the end of its title above its country, so the strip in view has words in it;
    a card peeking above shows its year and the start of its title as it stands. */
-.wcanvas .nd[data-sv="dn"]:not(.chip) .nt{align-self:end;padding-bottom:3px}
-.wcanvas .nd[data-sv="dn"]:not(.chip) .pl{visibility:hidden}   /* the "N more" label stands where its country would be */
+.wcanvas .nd:not(.chip) .nt{transform:translateY(var(--ty,0px))}
+.wcanvas .nd:not(.chip) .pl{opacity:calc((1 - var(--hu,0) * 1.5) * (1 - var(--vu,0)) * (1 - var(--pd,0)))}   /* the "N more" label stands where a peeking card's country would be */
 .wcanvas .dch{height:24px;line-height:24px}
 </style>
 
@@ -1798,7 +1798,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     c.forEach(function(id,i){ var n=N[id], rel=i-f, u=rel<0?-rel:Math.max(0,rel-(MAXR-1)), cu=Math.min(u,1), edge=rel<0?top+RH*0.5:top+RH*(MAXR-0.5), slv=isLand?0.44:0.56, ssc=isLand?0.2:0.1;
       /* the next card out is never blank (Cade, 2026-11-15): it peeks from behind the last full one as a faded copy of itself, words and all; the one after that waits behind it, unseen */
       n.tg.y=u>0?edge+(rel<0?-1:1)*RH*slv*cu:top+(rel+0.5)*RH; n.tg.s=1-ssc*cu; n.tg.o=u<=0?1:u<=1?1-0.5*u:Math.max(0,0.5-(u-1)*1.1);
-      n.tg.x=baseX(n,k)-dir*6*cu; n.el.style.zIndex=u>0?'5':'12'; n.el.style.pointerEvents=u>0.4?'none':''; n.el.setAttribute('data-sliver',u>0.4?'1':'0'); var vu=clamp((u-1)*2.5,0,1).toFixed(2); if(n.vu!==vu){ n.vu=vu; n.el.style.setProperty('--vu',vu); } var sv=u>0.05?(rel<0?'up':'dn'):''; if(n.sv!==sv){ n.sv=sv; n.el.setAttribute('data-sv',sv); } n.drumK=k; n.drumI=i; });
+      n.tg.x=baseX(n,k)-dir*6*cu; n.el.style.zIndex=u>0?'5':'12'; n.el.style.pointerEvents=u>0.4?'none':''; n.el.setAttribute('data-sliver',u>0.4?'1':'0'); var vu=clamp((u-1)*2.5,0,1).toFixed(2); if(n.vu!==vu){ n.vu=vu; n.el.style.setProperty('--vu',vu); } /* below a column the title slides down to the card's foot and the country fades, both in step with the turn: nothing switches */
+      var dn=rel>=0?Math.min(1,u):0, sv=dn.toFixed(2); if(n.sv!==sv){ n.sv=sv; n.el.style.setProperty('--ty',(dn*(n.slack||0)).toFixed(1)+'px'); n.el.style.setProperty('--pd',clamp(dn*2,0,1).toFixed(2)); } n.drumK=k; n.drumI=i; });
     var above=Math.round(f), below=c.length-MAXR-Math.round(f);
     [[-1,above],[1,below]].forEach(function(o){ var b=headsLayer.querySelector('[data-drum="'+k+'"][data-d="'+o[0]+'"]'); if(!b)return; b.hidden=o[1]<=0; b.lastChild.textContent=o[1]+' more'; }); }
   /* bring an event into its column's three rows */
@@ -1831,13 +1832,14 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     /* every event that shows: make it, set whether it is a card or a small name, and measure it */
     var seen={}, order=[];
     Object.keys(G.cols).map(Number).sort(function(a,b){ return Math.abs(a)-Math.abs(b); }).forEach(function(k){ G.cols[k].forEach(function(id){ seen[id]=1; order.push(id);
-      var n=N[id]; if(!n||n.gone){ if(n)n.el.remove(); n=N[id]=mkNode(id); } n.step=k; n.chip=!matches(id); n.tg.q=n.chip?0.4:1; if(n.fresh)n.cur.q=n.tg.q; n.el.querySelector('.kd').innerHTML=kicons(id); n.drumK=null; n.el.style.zIndex=''; n.el.style.pointerEvents=''; n.el.setAttribute('data-sliver','0'); if(n.vu!=='0'){ n.vu='0'; n.el.style.setProperty('--vu','0'); } if(n.sv){ n.sv=''; n.el.setAttribute('data-sv',''); }
+      var n=N[id]; if(!n||n.gone){ if(n)n.el.remove(); n=N[id]=mkNode(id); } n.step=k; n.chip=!matches(id); n.tg.q=n.chip?0.4:1; if(n.fresh)n.cur.q=n.tg.q; n.el.querySelector('.kd').innerHTML=kicons(id); n.drumK=null; n.el.style.zIndex=''; n.el.style.pointerEvents=''; n.el.setAttribute('data-sliver','0'); if(n.vu!=='0'){ n.vu='0'; n.el.style.setProperty('--vu','0'); } if(n.sv&&n.sv!=='0.00'){ n.sv='0.00'; n.el.style.setProperty('--ty','0px'); n.el.style.setProperty('--pd','0'); }
       n.el.style.width=NW.toFixed(1)+'px';
       n.el.setAttribute('aria-label',name(id)+', '+when(id)+', '+SZW[size(id)]+', '+stepWord(k)+(n.chip?', outside your filters':'')); }); });
     paintClasses();
     if(isFull){ var most=1, drumAny=false; Object.keys(G.cols).forEach(function(k){ var L=G.cols[k].length; if(L>MAXR)drumAny=true; most=Math.max(most,Math.min(L,MAXR)); });
       RH=Math.round(clamp((avH-TOP-16-(drumAny?2*PEEK:0))/Math.max(most,2),RHtight,RHmin*1.22)); }
-    order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=isFull?RH:Math.max(64*ZC,n.h+(zoomLv?18:12)*ZC); });
+    order.forEach(function(id){ var n=N[id]; n.w=n.el.offsetWidth||NW; n.h=n.el.offsetHeight||60; n.slot=isFull?RH:Math.max(64*ZC,n.h+(zoomLv?18:12)*ZC);
+      var nt=n.el.querySelector('.nt'), cd=nt&&nt.parentNode; n.slack=(nt&&!n.chip)?Math.max(0,cd.clientHeight-23-12-nt.offsetHeight):0; });
     /* the canvas is as tall as its tallest column, up to four rows; a longer column becomes a drum */
     var tall=isFull?0:2.2*RH, anyDrum=false;   /* the page keeps a least height; full screen takes its height from the screen */ Object.keys(G.cols).forEach(function(k){ var c=G.cols[k], t=0; c.forEach(function(id){ t+=N[id].slot; }); if(c.length>MAXR)anyDrum=true; tall=Math.max(tall,Math.min(t,MAXR*RH)); }); if(anyDrum)tall=MAXR*RH+2*PEEK-16;
     HC=Math.round(TOP+tall+16); if(isFull)HC=Math.max(HC,Math.round(avH)); yc=TOP+(HC-TOP)/2; G.yc=yc;

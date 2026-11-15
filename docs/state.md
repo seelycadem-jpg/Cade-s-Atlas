@@ -757,6 +757,10 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   full screen keeps the shallow peek, for want of height, but shows the words too. This replaces the earlier
   note that words fade out as a card tucks away. Also: changing the story filter recentres the chain on the
   event; before, "Show all" could leave it one column off.
+- **Nothing on a chain card switches; everything eases (Cade, 2026-11-15; a rule).** As a column turns, a
+  card's country fades in and out in step with the turn, and its title slides between the top of the card and
+  its foot. Before, both changed in one step and the country popped. For the master chat: in the chain, any
+  part of a card that appears, leaves or moves does so gradually, tied to the reader's drag.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
