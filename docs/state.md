@@ -881,6 +881,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   page, a column of four cards had its last card cut off above the "Centred on" lines. Cause: the chart's
   height was capped at four rows of the tightest spacing, while a column that shows all its cards spaces them
   a little wider. The chart now takes the height such a column needs.
+- **One plus for everything that opens and closes (Cade, 2026-11-16; a rule for the site).** Wherever a plus
+  opens something and a minus closes it, it is the same sign with the same small motion: two thin gilt
+  strokes, and the upright one turns to lie flat as the thing opens (0.2s; still under reduced motion). The
+  Key had it; The Record's pieces now have it, where the upright stroke used to vanish in one step. Any new
+  open-and-close control uses this sign.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
