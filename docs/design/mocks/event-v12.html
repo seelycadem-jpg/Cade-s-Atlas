@@ -1465,6 +1465,10 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 /* Counts live with the controls and the columns, not in the key (Cade, 2026-11-15). Each size shows how many of its
    events are within reach; each column shows its own total under its name. */
 .legend .kc,.keypanel .kc{display:none}
+/* the two lines that show when the chain is centred on another event sit close together (Cade, 2026-11-16) */
+.trail{padding:5px 20px 6px;gap:0 10px;line-height:1.3}
+.trail button{position:relative;min-height:24px;line-height:1.3}
+.trail button::after{content:"";position:absolute;left:-6px;right:-6px;top:50%;height:44px;transform:translateY(-50%)}
 /* "Drag to explore" stands between Key and Zoom, under the chart (Cade, 2026-11-15) */
 .chainbox:not(.land) .keybtn{position:relative}
 .chainbox:not(.land) .keybtn::after{content:"Drag to explore";position:absolute;left:0;right:0;top:50%;transform:translateY(-50%);text-align:center;font:italic 400 13.5px/1 var(--display);letter-spacing:0;text-transform:none;color:var(--ink3);pointer-events:none}
