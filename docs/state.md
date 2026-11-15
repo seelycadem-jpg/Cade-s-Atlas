@@ -821,7 +821,8 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   key carries no counts. Each size control in the bar shows how many events of that size lie within reach:
   "Knots (5)", "Fibres (10)", "Strands (3)". The number counts a size whether or not it is switched on, so a
   reader sees what turning Strands on would add; the story and type filters do apply. Each column shows its
-  own total under its name: "Effect · 1 step" over "4 events" (a bare number when zoomed out).
+  own total under its name as a number in brackets, the same form as the size counts: "Effect · 1 step"
+  over "(4)", in the page and in full screen at every zoom level.
 - **"Drag to explore" is back (Cade, 2026-11-15).** The line lost its place when Steps moved to the foot. It
   now stands in italics between Key and Zoom, on the row under the chart, in the page and in upright full
   screen. Sideways in full screen that row does not exist, so the line does not show there.
