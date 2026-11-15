@@ -765,6 +765,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   the chart reads "Cause and effect filtered to story: Weimar Germany", with "Show all" beside it; one line at phone
   width. Cade's first wording ("Filtering cause and effect for this event specific to story: ...") took two
   lines and he asked for it shorter.
+- **Long columns on a fast turn (Cade, 2026-11-15).** In a column with three or more events folded away,
+  years, signs and titles of cards further back showed through the cards in front. Cause: every card leaving
+  the column shared one layer, so whichever the page had made last lay on top. Now the cards stack by depth
+  (the nearer always over the one behind), a tucking card stays solid for the first third of its way, and its
+  year and signs fade with its country. Recreated and checked with a six-event column at eight points of a
+  turn. Also: a three-line title sits 2px higher, clear of the country under it.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
