@@ -1553,6 +1553,15 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .route .pkinds{display:inline-flex;align-items:center;gap:6px;margin-left:2px}
 .route .pkinds span{display:inline-flex}
 .route .pkinds .ki{width:15px;height:15px;fill:none;stroke:var(--gilt);color:var(--gilt);stroke-width:1.25;--kibg:var(--bg)}
+
+/* Two jumps on the date line (Cade, 2026-11-16): the date opens the timeline at this event and the place opens the
+   globe at it. Each carries its sign, the timeline's rule and the globe, and the thin red line of a link. The line
+   stays in the docked header, so both jumps are in reach down the whole page. */
+.tw .sub .jump{position:relative;display:inline-flex;align-items:center;gap:6px;font:inherit;color:inherit;text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:4px;pointer-events:auto}
+.tw .sub .jump::after{content:"";position:absolute;left:-4px;right:-4px;top:50%;height:44px;transform:translateY(-50%)}
+.tw .sub .jump .jmp{width:15px;height:15px;flex:none;color:var(--gilt);stroke:currentColor;stroke-width:1.3;fill:none;--kibg:var(--bg)}
+.tw .sub .jump .jmp .d{stroke-width:.8}
+.tw .sub .jump:active{color:var(--accent)}
 </style>
 
 <div class="stage" id="stage">
@@ -1578,7 +1587,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     <button type="button" class="alsoin" id="alsoin" aria-haspopup="dialog"><span id="alsoTxt"></span><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5"/></svg></button>
   </nav>
   <h1>The Treaty of Versailles</h1>
-  <div class="sub" id="sub"><span><b>28 June 1919</b></span><span class="rest">·</span><span class="rest">Versailles, France</span></div>
+  <div class="sub" id="sub"><span><button type="button" class="jump" id="toTime" aria-label="28 June 1919. See this event on the timeline"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M1.5 12h21"/><path class="d" d="M1.5 9.5v5M22.5 9.5v5"/><path class="s" d="M7 8.2L10.2 12 7 15.8 3.8 12z"/><path class="f" d="M12.1 12a1.9 1.9 0 1 0 3.8 0a1.9 1.9 0 1 0 -3.8 0z"/><path class="s" d="M17.7 12a1.8 1.8 0 1 0 3.6 0a1.8 1.8 0 1 0 -3.6 0z"/></svg><b>28 June 1919</b></button></span><span class="rest">·</span><span class="rest"><button type="button" class="jump" id="toGlobe" aria-label="Versailles, France. See this event on the globe"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M12 1.4a8.6 8.6 0 0 1 0 17.2M12 18.6V21M8 21.5h8"/><path class="s" d="M12 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/><path class="d" d="M12 3c-3.2 2.4-3.2 11.6 0 14M5 10h14"/></svg>Versailles, France</button></span></div>
 </div>
 
 <main class="wrap pic-c fr-corners" id="mainEl">
@@ -2462,6 +2471,9 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       document.getElementById('pnone').hidden=any; });
     var cur=sheetHost.querySelector('.prow[aria-current]'), list=document.getElementById('plist'); if(cur&&list)list.scrollTop=Math.max(0,cur.offsetTop-list.offsetTop-60); }
   document.getElementById('alsoin').addEventListener('click',placeSheet);
+  /* the date is the way to the timeline and the place is the way to the globe (mock actions) */
+  document.getElementById('toTime').addEventListener('click',function(){ say('Would open the timeline at 28 June 1919, on this event'); });
+  document.getElementById('toGlobe').addEventListener('click',function(){ say('Would open the globe at 1919, centred on Versailles'); });
   /* the event's type signs stand beside the Event label, the same signs its chain card carries */
   try{ var hk=(E[HOME].c||[]); document.getElementById('pKinds').innerHTML=hk.map(function(k){ return '<span title="'+cap1(k)+'">'+kicon(k)+'</span>'; }).join(''); document.getElementById('pKinds').setAttribute('aria-label',hk.map(cap1).join(', ')); }catch(e){}
   document.getElementById('rPick').addEventListener('click',function(e){ var b=e.target.closest('[data-pick]'); if(!b)return; routed=true; follow(+b.dataset.pick); });

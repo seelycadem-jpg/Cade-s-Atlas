@@ -916,6 +916,12 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   header used to show the title and date over a blank third line. It now carries "In 18 stories: choose one ›",
   which opens the list of the event's stories, the same offer the hero makes. With a route it still reads
   "‹ The Treaty · ‹ Before · After ›".
+- **Two jumps on the date line (Cade, 2026-11-16, on trial).** At the top of the event page the date is the
+  way to the timeline at this event and the place is the way to the globe at it: "28 June 1919" carries the
+  timeline's sign, "Versailles, France" the globe's sign, and each the thin red line of a link. The date line
+  stays in the docked header, so both jumps are in reach down the whole page. No new row or button was added.
+  For the master chat, a rule in the making: on every page, a date is a link to the timeline at that date and
+  a place is a link to the globe at that place.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
