@@ -1994,7 +1994,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     var ks=Object.keys(kinds), n=ks.length+(bbOnly?1:0)+(side?1:0), lab=n===0?'Filter':n===1?(ks.length?cap1(ks[0]):bbOnly?'Backbone':side<0?'Causes':'Effects'):n+' filters';
     document.getElementById('fLbl').textContent=lab; fBtn.classList.toggle('on',n>0);
     document.getElementById('sVal').textContent=story?(STORY.names[story]||story):''; sBtn.classList.toggle('on',!!story); sBtn.setAttribute('aria-label',story?'Story filter: '+(STORY.names[story]||story):'Story filter: all stories');
-    var sl=document.getElementById('storyLine'); sl.hidden=!story; sl.style.display=story?'':'none'; if(story)sl.innerHTML='<span>Filtering cause and effect for this event specific to story: <b>'+esc(STORY.names[story]||story)+'</b></span><button type="button" id="storyAll">Show all</button>';
+    var sl=document.getElementById('storyLine'); sl.hidden=!story; sl.style.display=story?'':'none'; if(story)sl.innerHTML='<span>Cause and effect filtered to story: <b>'+esc(STORY.names[story]||story)+'</b></span><button type="button" id="storyAll">Show all</button>';
     if(!fpop.hidden)popFill(); }
   /* A control must show its result. New cards often land off screen, so each change says how many events now match and
      on which side they wait, and the arrow on that side beats once. */
