@@ -853,6 +853,14 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   thread (the route on a gilt line ending at this event), 5 a sentence (title first; three buttons: chapter,
   next event, next chapter). Cade's aims: simple navigation, room for curiosity, knowing where to go, flipping
   around quickly. The Event label is light grey in all five and in event-v12 (Cade: not too important).
+- **Hero: Cade narrowed to a mix of the ladder (1) and the flip bar (2) (2026-11-15, undecided).**
+  `hero-demos.html` now shows those two beside three mixes. A, the ladder that steps: every row carries its
+  level, its name, its place ("8 of 12") and arrows to its neighbours, so the Story row steps stories, the
+  Chapter row chapters and the Event row events; no other buttons. B, a labelled line and the flip bar: the
+  route on one row with each level word over its name, the flip bar under the date stepping events, and two
+  links, back to the chapter and next chapter. C, title first and one navigator: the title leads, and one box
+  under the date holds the three rows, "Next chapter" on the chapter row, and a foot naming the event before
+  and after. Options 3, 4 and 5 of the first round (tabs, thread, sentence) were dropped from the page.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.

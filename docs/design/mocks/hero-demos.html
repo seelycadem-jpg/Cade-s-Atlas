@@ -113,18 +113,49 @@ h1{margin:0;font:500 31px/1.05 var(--display);letter-spacing:-.008em;color:var(-
 .o5 .three b{font:500 14.5px/1.15 var(--display);color:var(--title);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
 .o5 .three button:last-child{text-align:right}
 .foot{margin:18px 0 0;font:400 12.5px/1.5 var(--ui);color:var(--ink3)}
+
+/* Mix A: every row of the ladder steps to its neighbours */
+.oa .row{display:grid;grid-template-columns:74px minmax(0,1fr) auto;align-items:center;gap:8px;min-height:36px;border-bottom:1px solid var(--rule)}
+.oa .row:first-child{border-top:1px solid var(--rule)}
+.oa .row .lk{justify-self:start;overflow:hidden;text-overflow:ellipsis;white-space:nowrap;max-width:100%}
+.oa .row.ev{border-bottom:0;margin-bottom:2px}
+.stp{display:inline-flex;align-items:center;gap:0}
+.stp i{min-width:46px;text-align:center;font:400 11.5px/1 var(--ui);font-style:normal;color:var(--ink3);font-variant-numeric:tabular-nums}
+.stp button{display:grid;place-items:center;width:30px;height:36px}
+.stp button:disabled .chev{color:var(--rule)}
+/* Mix B: a labelled line, then the flip bar */
+.ob .line{display:grid;grid-template-columns:auto auto minmax(0,1fr);gap:0 16px;margin-bottom:12px;padding-bottom:9px;border-bottom:1px solid var(--rule)}
+.ob .line button{display:grid;gap:5px;min-width:0;min-height:38px;align-content:center}
+.ob .line b{font:500 15.5px/1.15 var(--display);color:var(--title);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:4px;overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.ob .kind{margin-bottom:5px}
+.ob .flip .mid{gap:7px}
+.ends{display:flex;justify-content:space-between;margin-top:6px}
+.ends button{display:inline-flex;align-items:center;gap:6px;min-height:34px;font:italic 400 14.5px/1.2 var(--display);color:var(--ink2)}
+/* Mix C: title first, then one navigator */
+.oc .kind{margin-bottom:6px}
+.oc .nav{margin-top:14px;border:1px solid var(--rule);background:var(--surface)}
+.oc .nav .row{display:grid;grid-template-columns:72px minmax(0,1fr) auto;align-items:center;gap:8px;min-height:34px;padding:0 10px;border-bottom:1px solid var(--rule)}
+.oc .nav .row .lk{justify-self:start;font-size:15.5px}
+.oc .nav .row i{font:400 11.5px/1 var(--ui);font-style:normal;color:var(--ink3)}
+.oc .nx{display:inline-flex;align-items:center;gap:5px;font:italic 400 13.5px/1 var(--display);color:var(--ink2);min-height:34px}
+.oc .step{display:grid;grid-template-columns:1fr auto 1fr;align-items:center}
+.oc .step button{display:flex;align-items:center;gap:8px;min-height:50px;padding:6px 10px;min-width:0}
+.oc .step button:last-child{justify-content:flex-end;text-align:right}
+.oc .step span{display:grid;gap:4px;min-width:0}
+.oc .step b{font:500 14.5px/1.15 var(--display);color:var(--title);overflow:hidden;text-overflow:ellipsis;white-space:nowrap}
+.oc .step .pos{font:400 11px/1 var(--ui);color:var(--ink3);padding:0 2px}
 </style>
 
 <div class="wrap">
   <p class="eyebrow">Meanwhile Atlas · event page</p>
-  <h1 class="pagehead">Five ways to open the page</h1>
+  <h1 class="pagehead">Ladder, flip bar, and three mixes</h1>
   <div class="seg" role="group" aria-label="Option" id="seg"></div>
   <p class="why" id="why"></p>
   <p class="lab">As the page opens</p>
   <div class="frame"><div class="top"><span><svg class="chev" viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" style="color:var(--ink2)"><path d="M9 2L4 7l5 5"/></svg>Back</span><span>Search</span></div><div class="hero" id="hero"></div></div>
   <p class="lab">Once the reader scrolls</p>
   <div class="frame"><div class="dock" id="dock"></div></div>
-  <p class="foot">Placeholders: "The Ruhr and the Mark", "The Armistice", "German Hyperinflation" as neighbours, and the counts "8 of 12", "1 of 3" and "2 of 5". The opening line is the mock's own text.</p>
+  <p class="foot">1 and 2 are the two you named; A, B and C mix them. Placeholders: "The Ruhr and the Mark", "The Armistice", "German Hyperinflation" as neighbours, and the counts "8 of 12", "1 of 3" and "2 of 5". The opening line is the mock's own text.</p>
 </div>
 
 <script>
@@ -142,23 +173,23 @@ h1{margin:0;font:500 31px/1.05 var(--display);letter-spacing:-.008em;color:var(-
    {n:'Flip bar',why:'<b>2. One line and a flip bar.</b> The route is a single line that can be read at a glance. Under the date sits a flip bar: arrows step to the event before and after this one in the chapter, the middle names the chapter and shows where this event falls in it, and a line under it leads to the next chapter. Built for moving quickly from event to event.',
     h:'<div class="o2"><p class="crumb"><button class="lk">Germany</button><em>›</em><button class="lk">Weimar Germany</button><em>›</em><button class="lk">The Treaty</button></p>'+KIND+HEAD+'<div class="flip"><button type="button" aria-label="The event before: The Armistice">'+L+'</button><div class="mid"><span class="small">Chapter · event 2 of 5</span><b>The Treaty</b><span class="dots" aria-hidden="true"><i></i><i class="on"></i><i></i><i></i><i></i></span></div><button type="button" aria-label="The event after: German Hyperinflation">'+R+'</button></div><button type="button" class="nextc">Next chapter: The Ruhr and the Mark '+R+'</button>'+LEDE+'</div>',
     d:'<button type="button">‹ Before</button><button type="button">The Treaty · 2 of 5</button><button type="button">After ›</button>'},
-   {n:'Tabs',why:'<b>3. Three tabs.</b> The route is three boxes in a row, each a button with its level over its name; the chapter, the nearest level, is marked in gilt. It reads like the tabs lower on the page and takes one row. Long names are cut short. The two buttons under the date are the same as in the ladder.',
-    h:'<div class="o3"><div class="tabs"><button type="button"><span class="small">Chronicle</span><b>Germany</b></button><button type="button"><span class="small">Story 8/12</span><b>Weimar Germany</b></button><button type="button"><span class="small">Chapter 1/3</span><b>The Treaty</b></button></div>'+KIND+HEAD+PAIR+LEDE+'</div>',
-    d:'<button type="button">‹ The Treaty</button><button type="button">Next chapter ›</button>'},
-   {n:'Thread',why:'<b>4. The thread.</b> The route hangs on a thin gilt line with a diamond at each level, the way events hang on the chain; the line ends at this event, whose diamond is red. It shows that the page is the last step of a path. It uses the atlas’s own picture of history, and it is the most decorative of the five.',
-    h:'<div class="o4"><div class="thread"><div class="st"><span class="small">Chronicle</span><button class="lk">Germany</button></div><div class="st"><span class="small">Story</span><button class="lk">Weimar Germany</button></div><div class="st"><span class="small">Chapter</span><button class="lk">The Treaty</button></div><div class="st here">'+KIND+HEAD+'</div></div>'+PAIR+LEDE+'</div>',
-    d:'<button type="button">‹ The Treaty</button><button type="button">Next chapter ›</button>'},
-   {n:'Sentence',why:'<b>5. A sentence.</b> The title comes first, and the route is said in plain words under the date, as a book would say it. Three buttons follow: back to the chapter, on to the next event, on to the next chapter. The quietest of the five, and the only one that puts the title at the very top.',
-    h:'<div class="o5">'+KIND+HEAD+'<p class="sent">An event in the chapter <button class="lk">The Treaty</button>, part of the story <button class="lk">Weimar Germany</button> in the chronicle <button class="lk">Germany</button>.</p><div class="three"><button type="button"><span class="small">‹ Chapter</span><b>The Treaty</b></button><button type="button"><span class="small">Next event</span><b>German Hyperinflation</b></button><button type="button"><span class="small">Next chapter ›</span><b>The Ruhr and the Mark</b></button></div>'+LEDE+'</div>',
-    d:'<button type="button">‹ The Treaty</button><button type="button">Next event ›</button><button type="button">Next chapter ›</button>'}
+   {n:'Mix A',k:'A',why:'<b>Mix A. The ladder that steps.</b> The ladder’s rows stay, and each gains the flip bar’s arrows. Every row works the same way: its level, its name, where it stands, and arrows to its neighbours. The Story row steps to the next story, the Chapter row to the next chapter, the Event row to the next event. Tapping a name goes up to that page. One rule to learn, and no other buttons.',
+    h:'<div class="oa"><div class="row"><span class="small">Chronicle</span><button class="lk">Germany</button><span class="stp"></span></div><div class="row"><span class="small">Story</span><button class="lk">Weimar Germany</button><span class="stp"><button type="button" aria-label="The story before">'+L+'</button><i>8 of 12</i><button type="button" aria-label="The story after">'+R+'</button></span></div><div class="row"><span class="small">Chapter</span><button class="lk">The Treaty</button><span class="stp"><button type="button" aria-label="The chapter before" disabled>'+L+'</button><i>1 of 3</i><button type="button" aria-label="The chapter after">'+R+'</button></span></div><div class="row ev"><span class="kind"><i class="mk" aria-hidden="true"></i>Event</span><span></span><span class="stp"><button type="button" aria-label="The event before">'+L+'</button><i>2 of 5</i><button type="button" aria-label="The event after">'+R+'</button></span></div>'+HEAD+LEDE+'</div>',
+    d:'<button type="button">‹ Before</button><button type="button">The Treaty · 2 of 5</button><button type="button">After ›</button>'},
+   {n:'Mix B',k:'B',why:'<b>Mix B. A labelled line and the flip bar.</b> The route stays on one row, as in the flip bar, and takes the ladder’s level words: each name sits under its level in small grey capitals. Under the date, the flip bar steps from event to event and shows this event’s place in the chapter. Two plain links close it: back to the chapter, and on to the next.',
+    h:'<div class="ob"><div class="line"><button type="button"><span class="small">Chronicle</span><b>Germany</b></button><button type="button"><span class="small">Story</span><b>Weimar Germany</b></button><button type="button"><span class="small">Chapter</span><b>The Treaty</b></button></div>'+KIND+HEAD+'<div class="flip"><button type="button" aria-label="The event before: The Armistice">'+L+'</button><div class="mid"><span class="small">Event 2 of 5 in this chapter</span><span class="dots" aria-hidden="true"><i></i><i class="on"></i><i></i><i></i><i></i></span></div><button type="button" aria-label="The event after: German Hyperinflation">'+R+'</button></div><div class="ends"><button type="button">'+L+' Back to chapter</button><button type="button">Next chapter '+R+'</button></div>'+LEDE+'</div>',
+    d:'<button type="button">‹ Before</button><button type="button">The Treaty · 2 of 5</button><button type="button">After ›</button>'},
+   {n:'Mix C',k:'C',why:'<b>Mix C. Title first, one navigator.</b> The title leads, so the page opens on what it is about. Everything for finding your way sits in one box under the date: the ladder’s three rows, then a foot that steps to the event before and after. The chapter row carries the way on to the next chapter. Nothing about navigation sits anywhere else.',
+    h:'<div class="oc">'+KIND+HEAD+'<div class="nav"><div class="row"><span class="small">Chronicle</span><button class="lk">Germany</button><i></i></div><div class="row"><span class="small">Story</span><button class="lk">Weimar Germany</button><i>8 of 12</i></div><div class="row"><span class="small">Chapter</span><button class="lk">The Treaty</button><button type="button" class="nx">Next chapter '+R+'</button></div><div class="step"><button type="button">'+L+'<span><i class="small">Event before</i><b>The Armistice</b></span></button><span class="pos">2 of 5</span><button type="button"><span><i class="small">Event after</i><b>German Hyperinflation</b></span>'+R+'</button></div></div>'+LEDE+'</div>',
+    d:'<button type="button">‹ Before</button><button type="button">The Treaty · 2 of 5</button><button type="button">After ›</button>'}
   ];
   var seg=document.getElementById('seg'), at=0;
-  try{ var m=+localStorage.getItem('heroDemo'); if(m>=0&&m<OPT.length)at=m|0; }catch(e){}
-  seg.innerHTML=OPT.map(function(o,i){ return '<button type="button" id="h'+(i+1)+'" data-i="'+i+'" aria-pressed="false"><b>'+(i+1)+'</b><span>'+o.n+'</span></button>'; }).join('');
+  try{ var m=+localStorage.getItem('heroDemo2'); if(m>=0&&m<OPT.length)at=m|0; }catch(e){}
+  seg.innerHTML=OPT.map(function(o,i){ return '<button type="button" id="h'+(i+1)+'" data-i="'+i+'" aria-pressed="false"><b>'+(o.k||(i+1))+'</b><span>'+o.n+'</span></button>'; }).join('');
   function paint(){ [].forEach.call(seg.children,function(b,i){ b.setAttribute('aria-pressed',String(i===at)); });
     document.getElementById('why').innerHTML=OPT[at].why; document.getElementById('hero').innerHTML=OPT[at].h;
     document.getElementById('dock').innerHTML='<span style="grid-row:1 / span 2;color:var(--ink2)">'+L.replace('class="chev"','class="chev" style="color:var(--ink2)"')+'</span><div><div class="t">The Treaty of Versailles</div><div class="d"><b>28 June 1919</b> · Versailles, France</div></div><div class="n">'+OPT[at].d+'</div>'; }
-  seg.addEventListener('click',function(e){ var b=e.target.closest('button'); if(!b)return; at=+b.dataset.i; try{ localStorage.setItem('heroDemo',at); }catch(err){} paint(); });
+  seg.addEventListener('click',function(e){ var b=e.target.closest('button'); if(!b)return; at=+b.dataset.i; try{ localStorage.setItem('heroDemo2',at); }catch(err){} paint(); });
   paint();
 })();
 </script>
