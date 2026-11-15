@@ -726,6 +726,14 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   gilt frame and a slow glint along its foot (still under reduced motion), and one line sits above the
   chart, "This event's chain within the story [name].", with "Show all" beside it. Sideways in full screen
   there is no height for the line, so the Story control widens to show the whole name.
+- **Story control, third pass; the key closed in full screen (Cade, 2026-11-15).** The Story control no longer
+  prints the story's name: it is a sign (two diamonds on a line) over the word Story, as Filter is a sign
+  over its word. Turned on, it takes a thin red frame and red ink, with the glint along its foot. The name
+  lives in the line above the chart, now thinner and shorter: "Within the story [name]." with "Show all".
+  Sideways in full screen that line has no room, so the name sits beside the sign. The sub chat chose a red
+  frame over a red fill: the fill is kept for the page's own event and the Play button. Full screen now
+  opens with the key closed, upright and sideways (this replaces "open on arrival" and the always-on strip);
+  the Key button opens it, in place upright and as the panel sideways.
 - **Steps moved to the foot of the chain (Cade, 2026-11-15, on trial).** To make room for Story, the steps
   control left the bar and sits in the foot between the two "more" counts, where "Drag to explore the
   chain" stood; that line is gone. Sideways in full screen the foot is the side tabs, so steps stays in the

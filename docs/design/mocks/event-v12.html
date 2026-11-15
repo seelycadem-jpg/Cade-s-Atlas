@@ -1343,6 +1343,22 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .chainbox.land .storyline{display:none!important}
 .chainbox.land .cbar .cb-story{max-width:190px}
 .chainbox.land .cbar .cb-story.on{padding:0 12px}
+
+/* The Story control, third pass (Cade, 2026-11-15): a sign and its label, as Filter has. Turned on, it takes a thin red
+   frame and red ink, with the glint along its foot; the story's name is in the line above the chart. Sideways in full
+   screen that line has no room, so the name sits beside the sign there. */
+.chainbox .cb-story{flex-direction:column;gap:5px;min-width:50px;max-width:none;padding:0 6px;color:var(--ink2)}
+.chainbox .cb-story svg{width:16px;height:14px}
+.chainbox .cb-story #sVal{display:none}
+.chainbox .cb-story.on{color:var(--accent);box-shadow:inset 0 0 0 1px var(--accent)}
+.chainbox .cb-story.on span{color:var(--accent)}
+.chainbox .cb-story.on::before{background:linear-gradient(90deg,transparent 0,transparent 35%,color-mix(in srgb,var(--accent) 35%,#fff) 50%,transparent 65%,transparent 100%) 0 0/300% 100% no-repeat,var(--accent)}
+.chainbox.land .cbar .cb-story.on{flex-direction:row;flex-wrap:wrap;column-gap:7px;row-gap:3px;padding:0 10px;max-width:200px}
+.chainbox.land .cbar .cb-story.on #sVal{display:block;order:2;font:600 12px/1 var(--ui);color:var(--accent);white-space:nowrap;overflow:hidden;text-overflow:ellipsis;max-width:150px}
+.chainbox.land .cbar .cb-story.on svg{order:1}
+.chainbox.land .cbar .cb-story.on span{order:3;flex-basis:100%;text-align:center}
+.storyline{padding:4px 20px 3px;font-size:13.5px;align-items:center}
+.storyline button{min-height:26px;font-size:11.5px}
 </style>
 
 <div class="stage" id="stage">
@@ -1395,7 +1411,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
         <span class="n" aria-live="polite"><b id="stN">2</b><i>steps</i></span>
         <button type="button" id="stUp" aria-label="One step more">+</button>
       </div>
-      <button type="button" class="cb-box cb-cell cb-story" id="sBtn" aria-haspopup="dialog" aria-expanded="false"><b id="sVal">All</b><span>Story</span></button>
+      <button type="button" class="cb-box cb-cell cb-story" id="sBtn" aria-haspopup="dialog" aria-expanded="false"><svg viewBox="0 0 16 14" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linejoin="miter" aria-hidden="true"><path d="M1 7h14"/><path d="M4 4.4L6.6 7 4 9.600 1.400 7z" fill="var(--chain)"/><path d="M12 4.4L14.600 7 12 9.600 9.400 7z" fill="currentColor"/></svg><span>Story</span><b id="sVal"></b></button>
       <div class="cb-box cb-sizes" role="group" aria-label="Show">
         <button type="button" class="cb-cell" data-size="k" aria-pressed="true"><i class="mk k" aria-hidden="true"></i><span>Knots</span></button>
         <button type="button" class="cb-cell" data-size="fi" aria-pressed="true"><i class="mk fi" aria-hidden="true"></i><span>Fibres</span></button>
@@ -1942,8 +1958,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     [].forEach.call(cbar.querySelectorAll('[data-size]'),function(b){ b.setAttribute('aria-pressed',String(show[b.dataset.size])); });
     var ks=Object.keys(kinds), n=ks.length+(bbOnly?1:0)+(side?1:0), lab=n===0?'Filter':n===1?(ks.length?cap1(ks[0]):bbOnly?'Backbone':side<0?'Causes':'Effects'):n+' filters';
     document.getElementById('fLbl').textContent=lab; fBtn.classList.toggle('on',n>0);
-    document.getElementById('sVal').textContent=story?(STORY.names[story]||story):'All'; sBtn.classList.toggle('on',!!story);
-    var sl=document.getElementById('storyLine'); sl.hidden=!story; sl.style.display=story?'':'none'; if(story)sl.innerHTML='<span>This event\u2019s chain within the story <b>'+esc(STORY.names[story]||story)+'</b>.</span><button type="button" id="storyAll">Show all</button>';
+    document.getElementById('sVal').textContent=story?(STORY.names[story]||story):''; sBtn.classList.toggle('on',!!story); sBtn.setAttribute('aria-label',story?'Story: '+(STORY.names[story]||story):'Story: all stories');
+    var sl=document.getElementById('storyLine'); sl.hidden=!story; sl.style.display=story?'':'none'; if(story)sl.innerHTML='<span>Within the story <b>'+esc(STORY.names[story]||story)+'</b>.</span><button type="button" id="storyAll">Show all</button>';
     if(!fpop.hidden)popFill(); }
   /* A control must show its result. New cards often land off screen, so each change says how many events now match and
      on which side they wait, and the arrow on that side beats once. */
@@ -2039,7 +2055,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   /* The key. In the page and in upright full screen it opens in place with its full definitions. Sideways there is no
      height for that: the strip of names and counts always shows, and Key opens the full definitions as a panel. */
   var keyOpen=false, keyPanel=document.createElement('div'); keyPanel.className='keypanel'; keyPanel.hidden=true; keyPanel.setAttribute('aria-label','Key, in full'); chainBox.appendChild(keyPanel);
-  function setKey(o){ keyOpen=o; keyEl.hidden=isLand?false:!o; keyBtnEl.setAttribute('aria-expanded',String(o));
+  function setKey(o){ keyOpen=o; keyEl.hidden=isLand?true:!o; keyBtnEl.setAttribute('aria-expanded',String(o));
     var show=isLand&&o; if(show)keyPanel.innerHTML=keyEl.innerHTML; keyPanel.hidden=!show; keyPanel.style.display=show?'':'none'; }
   keyPanel.addEventListener('click',function(){ setKey(false); });
   /* On a phone turned sideways the counts and the key move up into the bar, so the chart has the whole height. */
@@ -2047,7 +2063,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     /* a phone on its side is too short for the closest zoom: two rows of the largest cards do not fit */
     isLand=land; if(land)zoomLv=Math.max(zoomLv,minZ()); chainBox.classList.toggle('land',land); document.documentElement.classList.toggle('chainland',land); chainBox.classList.remove('hasdock');
     if(land){ cbar.insertBefore(stepsEl,cbar.firstChild); cbar.insertBefore(keyBtnEl,fullBtn); cbar.insertBefore(zoomEl,fullBtn); } else { footEl.insertBefore(stepsEl,document.getElementById('goR')); chainBox.insertBefore(zoomEl,keyEl); chainBox.insertBefore(keyBtnEl,keyEl); }
-    if(isFull)setKey(!land); }
+    if(isFull)setKey(false); }
   var zoomEl=document.getElementById('zoomC');
   footEl.insertBefore(stepsEl,document.getElementById('goR'));
   /* the closest zoom a view allows: a phone on its side is short, so it stops where two rows of cards still fit */
@@ -2080,7 +2096,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     if(sel)select(null); homeY=null; pushedY=0;
     /* full screen opens wider: five steps out and one level zoomed out; closing puts back what the page had */
     if(on){ fullAt=window.scrollY; pageSteps=steps; pageZoom=zoomLv; pageKey=!keyEl.hidden; steps=5; zoomLv=Math.max(1,zoomLv); } else { steps=pageSteps; zoomLv=clamp(pageZoom,0,1); } isFull=on; zBtns(); bar(); chainBox.classList.toggle('full',on); chainBox.style.paddingBottom=''; document.documentElement.classList.toggle('chainfull',on);
-    arrange(); setKey(on?!isLand:pageKey); 
+    arrange(); setKey(on?false:pageKey); 
     fullBtn.setAttribute('aria-pressed',String(on)); fullBtn.setAttribute('aria-label',on?'Close full screen':'Open the chain full screen');
     chainBox.scrollTop=0; if(!on)window.scrollTo(0,fullAt);
     requestAnimationFrame(function(){ refit(true); if(on)fullBtn.focus({preventScroll:true}); }); }
