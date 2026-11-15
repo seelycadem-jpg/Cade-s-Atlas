@@ -903,10 +903,10 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
      the story Weimar Germany"; the event's stepper reads "2 of 5 in chapter"; the two buttons under the date
      read "Before, in this chapter" and "Next, in this chapter".
   2. *Does the hero look empty for a reader from the globe, the timeline or an unrelated link?* It did: only
-     the Event label and a count. Now it reads "This event belongs to 18 stories. Read it within one:" over
-     three of those stories as rows (chronicle over story), then "See all 18 stories". Tapping a row gives
-     the page that route and the full ladder. Which three stories lead is undecided; the mock takes the first
-     three of its placeholder list.
+     the Event label and a count. Now it reads "This event belongs to 18 stories." over one link, "Choose a
+     story to read it within", which opens the list of all of them; choosing one gives the page that route
+     and the full ladder. A first version listed three stories in the hero; Cade judged the one link to be
+     enough and the rows were removed the same day.
   For the master chat, a rule in the making: an event page always shows a way into its stories, whether or not
   the reader came through one; and every "next" on the page says what it is next in.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",

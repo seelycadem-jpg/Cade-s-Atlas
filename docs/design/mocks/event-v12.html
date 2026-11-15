@@ -1542,6 +1542,12 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .route .rall{justify-content:flex-start;margin:2px 0 6px}
 .route .rall:empty{display:none}
 .route.noroute .rev{min-height:26px;margin-top:4px}
+
+/* a reader with no route: one line and one link to choose a story (Cade, 2026-11-16) */
+.route.noroute .rhead{margin-bottom:0}
+.route.noroute .rall{margin:0 0 8px}
+.route.noroute .alsoin{min-height:30px;font-size:13px;color:var(--ink2)}
+.route.noroute .alsoin b{text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:4px;font-weight:500}
 </style>
 
 <div class="stage" id="stage">
@@ -2414,11 +2420,11 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function stories(){ var P=places(), out=[], by={}; P.forEach(function(x,i){ var k=x.c+'|'+x.s; if(!by[k]){ by[k]={c:x.c,s:x.s,sn:x.sn,first:i,chs:[],ph:true}; out.push(by[k]); } by[k].chs.push(x.ch); if(!x.ph)by[k].ph=false; if(i===here)by[k].here=true; }); return out; }
   function places(){ return [HOMEPLACE].concat((many?PH:PH.slice(3,4).concat(PH.slice(11,12))).map(function(r){ return {c:r[0],s:r[1],ch:r[2],ph:true}; })); }
   function alsoLabel(){ var n=stories().length-(routed?1:0), w=n===1?' story':' stories';
-    document.getElementById('alsoTxt').innerHTML=routed?'Also in <b>'+n+' more'+w+'</b>':'See all <b>'+n+w+'</b>';
+    document.getElementById('alsoTxt').innerHTML=routed?'Also in <b>'+n+' more'+w+'</b>':'<b>Choose a story</b> to read it within';
     /* the line over the ladder says what the ladder is: the story this page is being read within. A reader with no
        route is offered three of the event's stories to read it within, and the list of all of them. */
-    var P0=places()[here]||HOMEPLACE; document.getElementById('rHead').innerHTML=routed?'You are reading this event within the story <b>'+esc(P0.s)+'</b>':'This event belongs to '+n+w+'. Read it within one:';
-    document.getElementById('rPick').innerHTML=routed?'':stories().slice(0,3).map(function(x){ return '<button type="button" data-pick="'+x.first+'"><span><i>'+esc(x.c)+'</i><b>'+esc(x.s)+'</b></span>'+CHEV+'</button>'; }).join('');
+    var P0=places()[here]||HOMEPLACE; document.getElementById('rHead').innerHTML=routed?'You are reading this event within the story <b>'+esc(P0.s)+'</b>':'This event belongs to '+n+w+'.';
+    document.getElementById('rPick').innerHTML='';   /* no list of stories here (Cade): the one link to choose is enough */
     document.getElementById('kicker').classList.toggle('noroute',!routed);
     document.getElementById('hsub').style.visibility=routed?'':'hidden'; var cn=document.getElementById('chapnav'), pp=places()[here]||HOMEPLACE, showN=routed&&!!(pp.prev||pp.next); cn.hidden=!showN; cn.style.display=showN?'':'none';
     document.getElementById(routed?'rAlso':'rAlso3').appendChild(document.getElementById('alsoin')); document.getElementById('evStp').style.display=routed?'':'none'; }
