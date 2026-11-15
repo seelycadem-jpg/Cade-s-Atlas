@@ -1588,6 +1588,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .tw .sub .pkinds{display:inline-flex;align-items:center;gap:6px}
 .tw .sub .pkinds span{display:inline-flex}
 .tw .sub .pkinds .ki{width:15px;height:15px;fill:none;stroke:var(--gilt);color:var(--gilt);stroke-width:1.25;--kibg:var(--bg)}
+html{overscroll-behavior-y:none}
+:root.gopen,:root.gopen body{overflow:hidden}
 </style>
 
 <div class="gview" id="gview" aria-hidden="true">
@@ -1607,7 +1609,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     <button class="topsearch" type="button" data-say="Would open search" aria-label="Search"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="butt" aria-hidden="true"><circle cx="11" cy="11" r="7"/><path d="M20 20l-4-4"/></svg></button>
   </div>
 </div>
-<div class="spacer" id="spacer"><div class="hint" id="hint">Globe 1919 · scroll up to open</div></div>
+<div class="spacer" id="spacer"><div class="hint" id="hint">Globe 1919 · pull down to open</div></div>
 <div class="tw" id="tw">
   <nav class="kicker path route" id="kicker" aria-label="Where this sits">
     <p class="rhead" id="rHead"></p>
@@ -1843,7 +1845,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function draw(cv,size){ if(!window.d3||!cv)return; var dpr=Math.min(2,window.devicePixelRatio||1); var S=size||cv.clientWidth||cv.width;
     if(cv.width!==Math.round(S*dpr)){cv.width=Math.round(S*dpr);cv.height=Math.round(S*dpr);cv.style.width=S+'px';cv.style.height=S+'px';}
     var c=cv.getContext('2d'); c.setTransform(dpr,0,0,dpr,0,0); var r=S/2-1.5;
-    var proj=d3.geoOrthographic().translate([S/2,S/2]).scale(r).rotate(rot).clipAngle(90), path=d3.geoPath(proj,c);
+    var rr=cv===hero?[rot[0],rot[1]-tilt]:rot; var proj=d3.geoOrthographic().translate([S/2,S/2]).scale(r).rotate(rr).clipAngle(90), path=d3.geoPath(proj,c);
     c.clearRect(0,0,S,S);
     c.beginPath();path({type:'Sphere'});c.fillStyle=css('--sea');c.fill();
     c.beginPath();path(d3.geoGraticule10());c.strokeStyle=css('--grat');c.lineWidth=.6;c.stroke();
@@ -1852,13 +1854,13 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       c.beginPath();path(L19.m);c.strokeStyle=css('--border');c.lineWidth=S>200?.9:.6;c.stroke(); }
     if(land){c.beginPath();path(land);c.strokeStyle=css('--coast');c.lineWidth=S>200?.8:.5;c.stroke();}
     c.beginPath();path({type:'Sphere'});c.strokeStyle=css('--coast');c.lineWidth=1;c.stroke();
-    pins.forEach(function(p){ var q=proj(p.c); if(!q)return; if(d3.geoDistance([-rot[0],-rot[1]],p.c)>Math.PI/2)return;
+    pins.forEach(function(p){ var q=proj(p.c); if(!q)return; if(d3.geoDistance(proj.invert([S/2,S/2]),p.c)>Math.PI/2)return;
       var pr=S>200?5:3; c.beginPath();c.arc(q[0],q[1],pr,0,7);c.fillStyle=p.main?css('--accent'):css('--ink2');c.fill();c.lineWidth=S>200?2:1;c.strokeStyle=css('--bg');c.stroke();
       /* the place, lettered on the map beside its pin */
       if(S>200&&p.label){ c.font='italic 500 '+(p.main?19:16)+'px "Cormorant Garamond", Georgia, serif'; c.textBaseline='middle'; c.textAlign=p.main?'right':'left'; var lx=q[0]+(p.main?-11:11), ly=q[1]+1;
         c.lineJoin='round'; c.lineWidth=4; c.strokeStyle=css('--land'); c.strokeText(p.label,lx,ly); c.fillStyle=css('--title'); c.fillText(p.label,lx,ly); } });
   }
-  var hero=document.getElementById('globe'), big=null, W=0, H=0, GS=0;
+  var hero=document.getElementById('globe'), big=null, W=0, H=0, GS=0, TILT=50, tilt=TILT;
   function drawAll(){ draw(hero,GS); if(big)draw(big,Math.min(big.clientWidth,420)); }
   var dragger=window.d3?d3.drag().on('drag',function(ev){ rot[0]+=ev.dx*0.3; rot[1]=Math.max(-80,Math.min(80,rot[1]-ev.dy*0.3)); drawAll(); }):null;
   if(dragger)d3.select(hero).call(dragger);
@@ -1880,7 +1882,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   /* The page opens with less of the globe and more of the page (Cade, 2026-11-16, on trial). The top PULL pixels of
      the page are held back above the opening view: the page starts scrolled past them, and a reader who scrolls up
      pulls the title down and more of the globe into view. The docking of the title starts below that stretch. */
-  var PULL=reduced?0:260, HIDE=reduced?0:150; /* PULL: how far the reader scrolls to open the globe. HIDE: how much of the globe the opening view hides. */ root.style.setProperty('--E',PULL+'px');
+  var PULL=0, HIDE=150; /* HIDE: how much of the globe the opening view keeps above the screen */ root.style.setProperty('--E','0px');
   function measure(){ var h1=tw.querySelector('h1'); M.twH=tw.offsetHeight; M.kH=kicker.offsetHeight; M.h1H=h1.offsetHeight;
     var lh=parseFloat(getComputedStyle(h1).lineHeight)||M.h1H; M.two=M.h1H>lh*1.5; M.s1t=M.two?0.38:0.46; var t0y=Math.round(GS*0.66+10)-HIDE, t1y=10-M.kH*M.s1t, padL=parseFloat(getComputedStyle(document.body).paddingLeft)||0; M.t0x=Math.max(gutter,(W-640)/2); M.t1x=gutter+50; M.fx=Math.max(0,M.t0x-padL);
     var stick=t1y-M.twH*(1-M.s1t); M.D=Math.max(1,t0y-stick); M.subk=12/(16*M.s1t); M.subH=sub.offsetHeight;
@@ -1890,7 +1892,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     hsub.style.transform='translate3d('+M.t1x+'px,'+(10+(M.h1H+8+M.subH*M.subk)*M.s1t+(M.two?3:6)).toFixed(2)+'px,0)'; last={}; }
   function apply(sc){
     var q=Math.max(0,Math.min(1,sc/M.D));
-    small=q>=0.999; var sm=q>0.2; if(last.sm!==sm){ last.sm=sm; stage.classList.toggle('small',sm); }
+    M.q=q; setTilt(); small=q>=0.999; var sm=q>0.2; if(last.sm!==sm){ last.sm=sm; stage.classList.toggle('small',sm); }
     put(hero,'hero','cursor',small?'pointer':'grab'); put(hsub,'hsub','pointerEvents',sc>M.D+24?'auto':'none'); put(hint,'hint','pointerEvents',q>0.25?'none':'auto');
     if(SDA) return;
     var qh=Math.max(0,(q-0.45)/0.55), qs=qh*qh*(3-2*qh), eo=1-(1-q)*(1-q), ts=lerp(1,M.s1t,qs);
@@ -1903,27 +1905,49 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     put(hint,'hint','opacity',Math.max(0,1-q*3.5).toFixed(3));
     put(hsub,'hsub','opacity',Math.min(1,Math.max(0,(sc-M.D)/48)).toFixed(3));
     put(band,'band','opacity',Math.min(1,Math.max(0,(q-0.7)/0.2)).toFixed(3)); var edge=sc>M.D+16; if(last.edge!==edge){ last.edge=edge; band.classList.toggle('edge',edge); } }
-  /* v runs from 0 (the opening view) to 1 (the top of the page, the globe view). The globe moves and grows with the
-     scroll; the hero's words leave in the first half and the globe view's words arrive in the second. */
-  var gview=document.getElementById('gview'), mainEl0=document.getElementById('mainEl');
-  function globeView(r,pz){ /* weighted: the first half of the push moves the page little, the second half carries it (Cade) */
-    var v=Math.pow(r,2.6), hold=PULL?-(PULL*(r-v)):0, tr=hold?'0px '+hold.toFixed(2)+'px':'none';
-    put(tw,'twv','translate',tr); put(mainEl0,'mnv','translate',tr); put(document.getElementById('spacer'),'spv','translate',tr);
+  /* The globe view (Cade, 2026-11-16). v runs from 0 (the event) to 1 (the globe view). Scrolling never opens it: a
+     fling up the page stops at the top. A new, separate push at the top opens it: a finger pulled down the screen, or
+     a fresh turn of the wheel. The push is weighted, and letting go before 60% returns to the event. */
+  var gview=document.getElementById('gview'), mainEl0=document.getElementById('mainEl'), spacer0=document.getElementById('spacer'), gv=0, gOpen=false, gAnim=null;
+  function sm01(x){ x=Math.max(0,Math.min(1,x)); return x*x*(3-2*x); }
+  function setTilt(){ var t=TILT*(1-sm01(gv))*(1-sm01((M.q||0)*1.6)); if(Math.abs(t-tilt)>0.15||(t===0&&tilt!==0)){ tilt=t; draw(hero,GS); } }
+  function globeView(v){ gv=v; var tr=v>0?'0px '+(v*130).toFixed(2)+'px':'none';
+    put(tw,'twv','translate',tr); put(mainEl0,'mnv','translate',tr); put(spacer0,'spv','translate',tr);
     var sG=Math.min(1,(W-28)/GS), yC=Math.max(64,(H-GS*sG)/2-36), gs=lerp(1,sG,v);
     M.gs=gs; M.gx=(W-GS*gs)/2; M.gy=lerp(-GS*0.32-HIDE,yC,v);
     root.style.setProperty('--g0x',px(M.gx)); root.style.setProperty('--g0y',px(M.gy)); root.style.setProperty('--g0s',gs.toFixed(4));
-    var out=Math.max(0,1-v/0.28), inn=Math.max(0,Math.min(1,(v-0.4)/0.6)); inn=inn*inn*(3-2*inn);
-    put(tw,'twv','opacity',out.toFixed(3)); put(tw,'twv','visibility',out<=0?'hidden':'visible'); put(mainEl0,'mnv','opacity',out.toFixed(3)); put(document.getElementById('spacer'),'spv','opacity',Math.max(0,1-v/0.25).toFixed(3));
+    if(!SDA&&gw) put(gw,'gw','transform','translate3d('+M.gx.toFixed(2)+'px,'+M.gy.toFixed(2)+'px,0) scale('+gs.toFixed(4)+')');
+    var out=Math.max(0,1-v/0.4), inn=sm01((v-0.45)/0.55);
+    put(tw,'twv','opacity',out.toFixed(3)); put(tw,'twv','visibility',out<=0?'hidden':'visible'); put(mainEl0,'mnv','opacity',out.toFixed(3)); put(spacer0,'spv','opacity',Math.max(0,1-v/0.25).toFixed(3));
     put(gview,'gv','opacity',inn.toFixed(3)); put(gview,'gv','visibility',inn<=0?'hidden':'visible'); put(gview,'gv','pointerEvents',v>0.9?'auto':'none');
-    gview.setAttribute('aria-hidden',v>0.9?'false':'true'); document.getElementById('gvBack').tabIndex=v>0.9?0:-1; }
-  /* Let go part-way and the page settles on the nearer of the two views. */
-  var held=false, settleT; function settle(){ clearTimeout(settleT); settleT=setTimeout(function(){ var y=window.scrollY; if(held||!PULL||y<=0||y>=PULL)return; window.scrollTo({top:y<PULL*0.42?0:PULL,behavior:'smooth'}); },130); }
-  window.addEventListener('touchstart',function(){ held=true; },{passive:true}); window.addEventListener('touchend',function(){ held=false; settle(); },{passive:true});
-  window.addEventListener('scroll',settle,{passive:true});
-  document.getElementById('gvBack').addEventListener('click',function(){ window.scrollTo({top:PULL,behavior:'smooth'}); });
+    gview.setAttribute('aria-hidden',v>0.9?'false':'true'); document.getElementById('gvBack').tabIndex=v>0.9?0:-1; setTilt(); }
+  function globeTo(to){ if(gAnim)cancelAnimationFrame(gAnim); var from=gv, t0=performance.now(), D=reduced?0:160+380*Math.abs(to-from);
+    gOpen=to===1; root.classList.toggle('gopen',gOpen);
+    (function step(now){ var k=D?Math.min(1,(now-t0)/D):1, e=1-Math.pow(1-k,3); globeView(lerp(from,to,e)); if(k<1)gAnim=requestAnimationFrame(step); else gAnim=null; })(t0); }
+  function weight(r){ return Math.pow(Math.max(0,Math.min(1,r)),1.7); }
+  var PUSH=300, tch=null;
+  function atTop(){ return window.scrollY<=0; }
+  window.addEventListener('touchstart',function(e){ tch=null; if(e.touches.length!==1)return; var el=e.target;
+    if(el===hero||(el.closest&&el.closest('dialog,[role="dialog"]')))return; if(!gOpen&&!atTop())return;
+    tch={x:e.touches[0].clientX,y:e.touches[0].clientY,on:false,r:gOpen?1:0}; },{passive:true});
+  window.addEventListener('touchmove',function(e){ if(!tch)return; var dy=e.touches[0].clientY-tch.y, dx=e.touches[0].clientX-tch.x;
+    if(!tch.on){ if(Math.abs(dy)<8)return; if(Math.abs(dx)>Math.abs(dy)||(gOpen?dy>0:dy<0)){ tch=null; return; } tch.on=true; if(gAnim){cancelAnimationFrame(gAnim);gAnim=null;} }
+    if(e.cancelable)e.preventDefault(); tch.r=gOpen?1-Math.max(0,Math.min(1,-dy/PUSH)):Math.max(0,Math.min(1,dy/PUSH)); globeView(gOpen?1-weight(1-tch.r):weight(tch.r)); },{passive:false});
+  function touchDone(){ if(!tch||!tch.on){ tch=null; return; } var r=tch.r; tch=null; globeTo(gOpen?(r<0.4?0:1):(r>=0.6?1:0)); }
+  window.addEventListener('touchend',touchDone,{passive:true}); window.addEventListener('touchcancel',touchDone,{passive:true});
+  /* the wheel: a turn that is still running from the scroll up the page does not count; a fresh one does */
+  var wLast=0, wOn=false, wAcc=0, wT;
+  window.addEventListener('wheel',function(e){ var now=performance.now(), fresh=now-wLast>220; wLast=now;
+    if(gOpen){ if(e.cancelable)e.preventDefault(); if(fresh&&e.deltaY>0)globeTo(0); return; }
+    if(!atTop()||e.deltaY>=0){ if(wOn){ wOn=false; clearTimeout(wT); globeTo(0); } return; }
+    if(fresh&&!wOn){ wOn=true; wAcc=0; } if(!wOn)return;
+    wAcc+=-e.deltaY; var r=Math.min(1,wAcc/700); globeView(weight(r)); clearTimeout(wT);
+    if(r>=1){ wOn=false; globeTo(1); return; } wT=setTimeout(function(){ wOn=false; globeTo(r>=0.6?1:0); },170); },{passive:false});
+  window.addEventListener('keydown',function(e){ if(e.key==='Escape'&&gOpen)globeTo(0); });
+  document.getElementById('gvBack').addEventListener('click',function(){ globeTo(0); });
   var scrollQueued=false;
-  function onScroll(force){ /* through the held-back stretch the globe rides up with the page, so it never sits behind the text */
-    var pz=Math.min(PULL,Math.max(0,window.scrollY)); if(pz!==M.pz||force){ M.pz=pz; globeView(PULL?1-pz/PULL:0,pz); force=true; }
+  function onScroll(force){
+    if(force)globeView(gv);
     var sc=Math.max(0,window.scrollY-PULL); if(reduced)sc=sc<120?0:9999; if(sc!==lastP||force){lastP=sc;apply(sc);} }
   window.addEventListener('scroll',function(){ if(scrollQueued)return; scrollQueued=true; requestAnimationFrame(function(){ scrollQueued=false; onScroll(false); }); },{passive:true});
   function pageLayout(){ W=window.innerWidth; H=window.innerHeight; GS=Math.min(W*1.12,540); measure(); draw(hero,GS); if(big)draw(big,Math.min(big.clientWidth,420)); onScroll(true); }

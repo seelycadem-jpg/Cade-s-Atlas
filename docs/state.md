@@ -1024,3 +1024,19 @@ it reads the page first and republishes to the same link.
   the push returns to the event; past it, the page finishes opening the globe by itself.
 - The opening view is unchanged (150px of the globe hidden), and the page always opens on the event view: it sets that
   position at start-up, on load and when the page is shown again.
+
+### Event page hero: the globe opens on a separate push; the place shows in the opening strip (sub chat, 2026-11-16)
+
+Replaces the two entries above on how the globe view opens.
+
+- **Scrolling never opens the globe view.** The top of the page is the event view. A fling up the page stops there.
+- **A separate push opens it.** At the top, a new finger pull down the screen (or a fresh turn of the wheel, after the
+  earlier scroll has stopped) moves the page down, fades the hero and brings the globe to the middle. The push is
+  weighted: 300px of finger travel, eased so the first part moves little. Letting go before 60% returns to the event;
+  past it, the globe view finishes opening. In the globe view, a swipe up, "Back to the event" or Escape returns.
+- **The place shows in the opening strip.** The globe is tilted 50 degrees in the opening view so the event's pin and
+  name sit in the strip of globe the reader sees. The tilt eases to centred as the globe view opens and as the globe
+  docks into the corner.
+- The hint reads "Globe 1919 · pull down to open".
+- Not yet checked on a real phone: whether Safari, or the Claude app's own frame, takes the pull for its own
+  pull-to-refresh or bounce before the page sees it.
