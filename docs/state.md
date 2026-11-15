@@ -761,6 +761,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   card's country fades in and out in step with the turn, and its title slides between the top of the card and
   its foot. Before, both changed in one step and the country popped. For the master chat: in the chain, any
   part of a card that appears, leaves or moves does so gradually, tied to the reader's drag.
+- **The story line's words (Cade, 2026-11-15; his wording, replacing "Within the story ...").** The line above
+  the chart reads "Filtering cause and effect for this event specific to story: Weimar Germany", with "Show
+  all" beside it. It takes two lines at phone width.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
