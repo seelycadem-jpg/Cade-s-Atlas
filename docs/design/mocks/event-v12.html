@@ -2142,15 +2142,25 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     Object.keys(G.step).forEach(function(id){ if(id===centre||(inStory(id)&&(!anyKind()||(E[id].c||[]).some(function(x){ return kinds[x]; }))))c[size(id)]++; });
     [].forEach.call(cbar.parentNode.querySelectorAll('[data-sc]'),function(el){ el.textContent='('+c[el.dataset.sc]+')'; }); }
   function change(){ layout('filter'); dock(); setTimeout(tell,60); }
-  /* A light tap in the hand when the steps change (Cade, 2026-11-15, on trial). Android phones let a page vibrate
-     directly. On an iPhone the page makes a switch control and flips it, and the phone answers a switch with its own
-     tick; this is the method other sites use, done the same way: a fresh hidden switch each time, flipped inside the
-     reader's own tap. At the first or last step the tap is doubled. */
-  var hapt=(function(){
-    function tick(){ try{ var lab=document.createElement('label'); lab.setAttribute('aria-hidden','true'); lab.style.display='none';
-      var inp=document.createElement('input'); inp.type='checkbox'; inp.setAttribute('switch',''); lab.appendChild(inp);
-      document.head.appendChild(lab); lab.click(); document.head.removeChild(lab); }catch(e){} }
-    return function(end){ try{ if(navigator.vibrate){ navigator.vibrate(end?[8,40,8]:8); return; } }catch(e){} tick(); if(end)setTimeout(tick,90); }; })();
+  /* A light tap in the hand when the steps change (Cade, 2026-11-15, on trial).
+     Android: the page asks the phone to vibrate.
+     iPhone: a phone ticks when a finger flips a real switch control. Since iOS 26.5 it no longer ticks when a script
+     flips one, so each steps button carries an invisible switch laid over it: the reader's finger lands on the switch,
+     the phone ticks, and the tap is passed on to the button. One tick per tap; a page cannot double it there. */
+  var hasVib=false; try{ hasVib=typeof navigator.vibrate==='function'; }catch(e){}
+  function hapt(end){ if(hasVib){ try{ navigator.vibrate(end?[8,40,8]:8); }catch(e){} } }
+  function tickOnTap(el){ try{
+    if(hasVib||!/iPhone|iPod/.test(navigator.userAgent)||!('switch' in HTMLInputElement.prototype))return;
+    var lab=document.createElement('label'); lab.setAttribute('aria-hidden','true');
+    lab.style.cssText='position:absolute;left:0;right:0;top:-6px;bottom:-6px;margin:0;padding:0;opacity:0;cursor:inherit;z-index:2';
+    var inp=document.createElement('input'); inp.type='checkbox'; inp.setAttribute('switch',''); inp.tabIndex=-1;
+    inp.style.cssText='position:absolute;width:1px;height:1px;margin:-1px;padding:0;border:0;overflow:hidden;clip-path:inset(50%);opacity:0';
+    lab.appendChild(inp); if(getComputedStyle(el).position==='static')el.style.position='relative'; el.appendChild(lab);
+    ['click','change'].forEach(function(t){ inp.addEventListener(t,function(e){ e.stopPropagation(); }); });
+    lab.addEventListener('click',function(e){ if(e.target!==lab)return; e.stopPropagation(); if(el.disabled){ e.preventDefault(); return; }
+      el.dispatchEvent(new MouseEvent('click',{bubbles:true,cancelable:true})); });
+  }catch(e){} }
+  tickOnTap(document.getElementById('stDn')); tickOnTap(document.getElementById('stUp'));
   document.getElementById('stDn').addEventListener('click',function(){ if(steps>1){ steps--; hapt(steps===1); layout('steps'); dock(); setTimeout(tell,60); } });
   document.getElementById('stUp').addEventListener('click',function(){ if(steps<5){ steps++; hapt(steps===5); layout('steps'); dock(); setTimeout(tell,60); } });
   [].forEach.call(cbar.querySelectorAll('[data-size]'),function(b){ b.addEventListener('click',function(){ var k=b.dataset.size; show[k]=!show[k]; change(); }); });

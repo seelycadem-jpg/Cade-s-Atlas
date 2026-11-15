@@ -861,14 +861,16 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   links, back to the chapter and next chapter. C, title first and one navigator: the title leads, and one box
   under the date holds the three rows, "Next chapter" on the chapter row, and a foot naming the event before
   and after. Options 3, 4 and 5 of the first round (tabs, thread, sentence) were dropped from the page.
-- **A light tap in the hand when the steps change (Cade, 2026-11-15, on trial, unverified by the sub chat).**
-  Each change of steps gives one short tick, doubled at the first and last step. Android phones let a page
-  vibrate directly. On an iPhone the page makes a hidden switch control and flips it inside the reader's own
-  tap, and the phone answers a switch with its own tick; Cade reports browser games on his iPhone that give
-  haptic feedback, and this is the method such sites use. The sub chat first told Cade that iPhones do not
-  allow it; that was too strong and he corrected it. The sub chat's test browser has no motor, so whether the
-  mock ticks on Cade's phone, and inside the Claude app's frame, is for Cade to report. For the master chat:
-  haptics are welcome where they work; nothing may depend on them.
+- **A light tap in the hand when the steps change (Cade, 2026-11-15, on trial; third attempt, still
+  unconfirmed on a phone).** Cade felt nothing from the first two attempts. Cause, from the web-haptics
+  projects' own notes: an iPhone ticks when a finger flips a real switch control (Safari 17.4 on), and from
+  iOS 26.5 it no longer ticks when a script flips one. Both earlier attempts flipped the switch by script.
+  Now each steps button carries an invisible switch laid over it, so the reader's finger lands on the switch
+  itself, the phone ticks, and the tap is passed on to the button. One tick per tap on an iPhone; a page
+  cannot double it there. Android still vibrates through the page, doubled at the first and last step. Not
+  known: whether the tick passes through the Claude app's frame, where Cade views the mock. Checked by the sub
+  chat: with the overlay in place a tap changes the steps exactly once. For the master chat: haptics are
+  welcome where they work, each needs its own overlaid switch on iPhone, and nothing may depend on them.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
