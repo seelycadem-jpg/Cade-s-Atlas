@@ -804,7 +804,7 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 - **Results sit inside the graphic; graphics hold still (Cade, 2026-11-15; this replaces the "Key figures"
   note below and amends principles 2 and 5 for graphics).** Where figures are results of the thing a graphic
   shows, they stand inside its frame under a short heading ("Results of the treaty"), at most three lines,
-  each led by its figure. Figures that are not about the graphic stay in By the numbers. With the results
+  each led by its figure in bold ink, never red (Cade). Figures that are not about the graphic stay in By the numbers. With the results
   the graphic is about 500px tall on a phone: the half-screen measure applies to the picture, its key and its
   caption (395px), and the results add to it. The caption no longer repeats a figure the results give.
   Graphics no longer grow and shrink as they cross the screen; that effect is kept for pictures only. The
