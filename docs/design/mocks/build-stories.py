@@ -15,6 +15,10 @@ REPO = os.path.abspath(os.path.join(ROOT, '..', '..', '..'))
 d = json.load(open(os.path.join(REPO, 'site', 'data.json'), encoding='utf8'))
 data = {e['id']: e for e in d['events']}
 arcs = {a['id']: (a.get('short') or a.get('title') or a['id']) for a in d['arcs']}
+# The mock's page says it was reached through the story "Weimar Germany" (the line under its title). The old arc that
+# stands in for that story takes that name here, so the chain's line matches the page. Its events are still the old
+# arc's ("Depression & dictators"); only the name changes.
+arcs['interwar'] = 'Weimar Germany'
 chain = open(os.path.join(ROOT, 'atlas-data.js'), encoding='utf8').read()
 ids = sorted(set(re.findall(r'"id"\s*:\s*"([^"]+)"', chain)) & set(data))
 

@@ -741,6 +741,10 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   frame over a red fill: the fill is kept for the page's own event and the Play button. Full screen now
   opens with the key closed, upright and sideways (this replaces "open on arrival" and the always-on strip);
   the Key button opens it, in place upright and as the panel sideways.
+- **The lens is named for the page's own story (Cade, 2026-11-15).** The line above the chart reads "Within
+  the story Weimar Germany.", matching the line under the title. In the mock the old arc that stands in for
+  that story carries the name; its events are still the old arc's. Rule for the master chat: the lens always
+  uses the story's own name, the same words the page's line and the story page use.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
   "− 3 steps +", "7 more"), the two small rules beside the step number are gone, and the row is about 30px
   high with 44px invisible targets.
