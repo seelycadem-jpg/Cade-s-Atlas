@@ -1458,7 +1458,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
         <div class="bamkey" aria-label="Key"><span><i class="k1"></i>Germany</span><span><i class="k2"></i>Land lost</span><span><i class="k3"></i>New in 1919</span></div>
         <div class="bamsw" role="group" aria-label="Year"><button type="button" data-bam="0" aria-pressed="false">1914</button><button type="button" data-bam="1" aria-pressed="true">1919</button></div>
       </div>
-      <p class="bamtap" id="bamTap" aria-live="polite">Tap any land on the map. Borders from the atlas's border record.</p>
+      <p class="bamtap" id="bamTap" aria-live="polite">The treaty took 13% of Germany’s land in Europe. France and Poland gained land. Tap a country.</p>
       <p class="bamnew" id="bamNew" hidden></p>
     </div>
     <div class="figstrip" aria-label="Key figures"><div><b>13%</b><span>of Germany's land in Europe lost</span></div><div><b>100,000</b><span>the cap on its army</span></div><div><b>132 bn</b><span>gold marks set in 1921; about 20 bn paid</span></div></div>
@@ -1916,8 +1916,8 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
         +'<button type="button" class="dch up" data-drum="'+s+'" data-d="-1" aria-label="Earlier events in this column" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+(dtop-PEEK-2).toFixed(1)+'px" hidden><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 9l5-5 5 5"/></svg><span></span></button>'
         +'<button type="button" class="dch dn" data-drum="'+s+'" data-d="1" aria-label="More events in this column" style="left:'+G.cx(s).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+(dtop+MAXR*RH+(isLand?2:PEEK-24)).toFixed(1)+'px" hidden><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M2 5l5 5 5-5"/></svg><span></span></button>'; } }
     function none(sd,txt){ h+='<div class="none" style="left:'+(sd<0?G.cx(0)-CW:G.cx(1)).toFixed(1)+'px;width:'+CW.toFixed(1)+'px;top:'+TOP+'px;height:'+(HC-TOP)+'px">'+txt+'</div>'; }
-    if(side<=0&&G.minS===0) none(-1,G.reach.l?(story&&!anyKind()&&!bbOnly?'No cause within reach belongs to this story.':'No cause within reach fits these filters.'):'The link table holds no cause for this event yet.');
-    if(side>=0&&G.maxS===0) none(1,G.reach.r?(story&&!anyKind()&&!bbOnly?'No effect within reach belongs to this story.':'No effect within reach fits these filters.'):'The link table holds no effect of this event yet.');
+    if(side<=0&&G.minS===0) none(-1,G.reach.l?(story&&!anyKind()&&!bbOnly?'No cause within reach belongs to this story.':'No cause within reach fits these filters.'):'No cause of this event is recorded yet.');
+    if(side>=0&&G.maxS===0) none(1,G.reach.r?(story&&!anyKind()&&!bbOnly?'No effect within reach belongs to this story.':'No effect within reach fits these filters.'):'No effect of this event is recorded yet.');
     headsLayer.innerHTML=h; Object.keys(G.drum).forEach(function(k){ placeDrum(+k); var ov=drumEl(+k); if(ov){ ov._quiet=performance.now()+160; ov.scrollTop=drumF[k]*RH; } });
 
     paint(false);
@@ -2351,19 +2351,19 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
       layer(c,false,1-mix); layer(c,true,mix);
       if(pick){ c.beginPath(); path(pick); c.strokeStyle=css('--ink'); c.lineWidth=2; c.stroke(); c.globalAlpha=1; labels(c,mix>=0.5); } }
     function setYear(y){ year=y; pick=null; [].forEach.call(document.querySelectorAll('[data-bam]'),function(b){ b.setAttribute('aria-pressed',String(+b.dataset.bam===y)); });
-      say2(y?REST:'The borders of 1914. Tap any land on the map.'); listNew();
+      say2(y?REST:'Germany and its neighbours in 1914, before the war. Tap a country.'); listNew();
       cancelAnimationFrame(raf); if(reduced){ mix=y; draw(); return; } var from=mix, t0=performance.now();
       (function st(now){ var k=Math.min(1,(now-t0)/420); k=k<.5?2*k*k:-1+(4-2*k)*k; mix=from+(y-from)*k; draw(); if(k<1)raf=requestAnimationFrame(st); })(t0); }
-    var tapEl=document.getElementById('bamTap'), REST='Tap any land on the map. Borders from the atlas\u2019s border record.'; function say2(h){ tapEl.innerHTML=h; }
-    function tell(f,lost){ var n=nm(f); if(!year)n=n.replace(/\s*\(.*?\)/g,'');   /* the border record adds a later name in brackets */
-      if(year&&lost){ var extra=n==='France'?' The treaty returned Alsace-Lorraine to France.':n==='Poland'?' The treaty gave Poland a corridor to the sea.':n==='Danzig'?' The border record puts it under the League of Nations.':''; return '<b>Land Germany lost.</b> In 1919 it is in '+esc(n)+'.'+extra; }
+    var tapEl=document.getElementById('bamTap'), REST='The treaty took 13% of Germany\u2019s land in Europe. France and Poland gained land. Tap a country.'; function say2(h){ tapEl.innerHTML=h; }
+    function tell(f,lost){ var n=nm(f); if(!year)n=n.replace(/\s*\(.*?\)/g,'');   /* the source data adds a later name in brackets */
+      if(year&&lost){ var extra=n==='France'?' The treaty returned Alsace-Lorraine to France.':n==='Poland'?' The treaty gave Poland a corridor to the sea.':n==='Danzig'?' The treaty made it a free city under the League of Nations.':''; return '<b>Land Germany lost.</b> In 1919 it '+(n==='Danzig'?'is Danzig.':'belongs to '+esc(n)+'.')+extra; }
       if(year&&isG(f)) return '<b>Germany in 1919.</b> The dashed line is its border of 1914.';
-      if(year&&isNew[f.properties.r]) return '<b>'+esc(n)+'.</b> On the map in 1919; no state of that name on the map of 1914.';
+      if(year&&isNew[f.properties.r]) return '<b>'+esc(n)+'.</b> A state in 1919. No state of that name existed in 1914.';
       if(!year&&isG(f)) return '<b>Germany in 1914.</b> Switch to 1919 to see what it lost.';
-      if(!year&&!names19[f.properties.r]) return '<b>'+esc(n)+'.</b> On the map in 1914; gone from the map of 1919.';
+      if(!year&&!names19[f.properties.r]) return '<b>'+esc(n)+'.</b> A state in 1914. It no longer existed in 1919.';
       return '<b>'+esc(n)+'</b> in '+(year?'1919':'1914')+'.'; }
     function hit(ll){ var F=year?F19:F14, f=null; for(var i=0;i<F.length;i++){ if(d3.geoContains(F[i],ll)){ f=F[i]; break; } } return f; }
-    cv.addEventListener('click',function(e){ var r=cv.getBoundingClientRect(), ll=proj.invert([e.clientX-r.left,e.clientY-r.top]); if(!ll)return; var f=hit(ll); if(!f){ pick=null; say2('That is sea, or land the border record leaves unnamed.'); draw(); return; }
+    cv.addEventListener('click',function(e){ var r=cv.getBoundingClientRect(), ll=proj.invert([e.clientX-r.left,e.clientY-r.top]); if(!ll)return; var f=hit(ll); if(!f){ pick=null; say2('No country is named here.'); draw(); return; }
       var lost=year&&d3.geoContains(G14,ll)&&!isG(f); pick=f; say2(tell(f,lost)); draw(); });
     function listNew(){ var el=document.getElementById('bamNew');
       if(year) el.innerHTML='On this map in 1919 and absent in 1914: '+NEW.map(function(f){ return '<button type="button" data-bn="'+esc(f.properties.r)+'">'+esc(nm(f))+'</button>'; }).join(', ')+'.';

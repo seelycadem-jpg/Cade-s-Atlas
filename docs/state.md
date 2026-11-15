@@ -784,6 +784,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
   4. Nothing the picture already shows is repeated as a list under it.
   5. Key figures are not part of a graphic. They stand in the page's own figures strip, which the data
      header generates.
+  9. **A caption reads as a history textbook's would (Cade, 2026-11-15).** It states what the picture shows,
+     as fact, in the atlas's voice. It never mentions the atlas's own records, data, tables or method ("the
+     border record", "the link table"): that is the standing rule against explaining the method outside the
+     About page, and the sub chat broke it in its first caption. Credits a licence requires go on the About
+     page.
   6. The still image must make the point. A tap adds detail in one line of fixed height and never changes
      the graphic's size.
   7. No empty or placeholder slot is shown. A figure or label without a source is left out.
@@ -791,7 +796,9 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
      the switch, the key and the source.
   The rebuilt graphic in the mock follows them: a title, the map (seven tenths as tall as it is wide, was
   eight), one row with the key at the left and the 1914/1919 switch at the right, and one caption line two
-  lines high that also answers a tap. It is 395px tall and does not grow on a tap. Gone: the list of nine new
+  lines high that also answers a tap. The caption at rest reads "The treaty took 13% of Germany's land in
+  Europe. France and Poland gained land. Tap a country."; every tap answer was rewritten the same way, and
+  the chain's two empty-side lines now read "No cause of this event is recorded yet." It is 395px tall and does not grow on a tap. Gone: the list of nine new
   countries (the map names them) and the fourth, unsourced figure. The three sourced figures stand under the
   graphic in a strip of three; in the real site that strip is generated, never written by hand.
 - **The chain's foot is thinner (Cade, 2026-11-15).** Each count and the steps read on one line ("4 more",
