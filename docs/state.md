@@ -690,6 +690,11 @@ knot. This chat changed no standards doc. Each item names the doc that needs the
 - **A turning column fades (Cade, 2026-11-15).** The fade Cade asked about was a tall column scrolled up or
   down. The cause of the pop was the words: they switched off at once when a card began to leave. Words
   now fade with the card, and the card fades to a ghost that stays while any of it can be seen.
+- **The key in full, in full screen (Cade, 2026-11-15).** Upright full screen shows the page's own key under
+  the chart, every definition and count, open on arrival; the chart takes the height that is left and grows
+  back when Key is switched off. Sideways there is no height for that (the key would leave the chart less
+  than two rows), so the strip of names and counts always shows and the Key button opens the full
+  definitions as a gilt panel over the foot of the chart, three across; a tap on the panel closes it.
 - **Typefaces (2026-11-14, open).** `type-sheet.html` shows every type job at its real size with
   switches for other faces (https://claude.ai/artifact/VenRt5pSyfVRW7UCsX2YW5). The sub chat advises
   keeping EB Garamond and Newsreader and trying Inter or the system face for controls and labels.

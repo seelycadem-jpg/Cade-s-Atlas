@@ -1219,11 +1219,11 @@ html.chainland .toast{bottom:12px}
 .layer > .sep{display:none}
 
 /* Full screen: the key is one compact strip under the chart (names and line kinds, no definitions), open by default. */
-.chainbox.full .legend{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:5px 6px;padding:7px 14px 9px;border-top:1px solid var(--rule);font-size:0}
-.chainbox.full .legend > span{font-size:0;display:inline-flex;align-items:center}
-.chainbox.full .legend > span b{font:500 11.5px/1.2 var(--ui);color:var(--ink2);margin-right:10px}
-.chainbox.full .legend > span.g{width:auto}
-.chainbox.full .legend .lines{grid-column:auto;margin:0;padding:0;border:0;font-size:11.5px;gap:4px 12px}
+.chainbox.land .legend{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:5px 6px;padding:7px 14px 9px;border-top:1px solid var(--rule);font-size:0}
+.chainbox.land .legend > span{font-size:0;display:inline-flex;align-items:center}
+.chainbox.land .legend > span b{font:500 11.5px/1.2 var(--ui);color:var(--ink2);margin-right:10px}
+.chainbox.land .legend > span.g{width:auto}
+.chainbox.land .legend .lines{grid-column:auto;margin:0;padding:0;border:0;font-size:11.5px;gap:4px 12px}
 .chainbox.land .legend{padding:5px 14px 6px}
 .chainbox.full .web{justify-content:flex-start}
 
@@ -1250,15 +1250,15 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 /* The key defines the three kinds of arrow as it defines the three sizes (Cade, 2026-11-14). */
 .legend .lgap{grid-column:1 / -1;height:0;border-top:1px solid var(--rule);margin:5px 0 3px}
 .legend .g .gl{width:15px}
-.chainbox.full .legend .lgap{display:none}
-.chainbox.full .legend .g .gl{width:18px;margin-right:6px}
+.chainbox.land .legend .lgap{display:none}
+.chainbox.land .legend .g .gl{width:18px;margin-right:6px}
 
 /* each mark stays with its name: a row is invisible to the page's grid and one unbreakable pair in the compact strip */
 .legend .kr{display:contents}
-.chainbox.full .legend .kr{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;font-size:0}
-.chainbox.full .legend .kr > span{font-size:0;display:inline-flex;align-items:center}
-.chainbox.full .legend .kr > span b{font:500 11.5px/1.2 var(--ui);color:var(--ink2);margin-right:8px}
-.chainbox.full .legend .g .gl{margin-right:0}
+.chainbox.land .legend .kr{display:inline-flex;align-items:center;gap:6px;white-space:nowrap;font-size:0}
+.chainbox.land .legend .kr > span{font-size:0;display:inline-flex;align-items:center}
+.chainbox.land .legend .kr > span b{font:500 11.5px/1.2 var(--ui);color:var(--ink2);margin-right:8px}
+.chainbox.land .legend .g .gl{margin-right:0}
 
 /* Sideways full screen, fourth pass (Cade's screenshot, 2026-11-14).
    The side tabs sit at the true edge of the chart (the box already keeps clear of the phone's notch, so the tabs must
@@ -1281,10 +1281,23 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 /* counts in the key */
 .legend .kc{font-style:normal;font-weight:400;color:var(--ink3);font-variant-numeric:tabular-nums}
 .legend .kc::before{content:" ("}.legend .kc::after{content:")"}
-.chainbox.full .legend .kc::before{content:"\00a0"}.chainbox.full .legend .kc::after{content:""}
+.chainbox.land .legend .kc::before{content:"\00a0"}.chainbox.land .legend .kc::after{content:""}
 
 /* where the event happened, in its pop-up: country first, then the place */
 .dplace{margin:2px 0 6px;font:italic 400 15px/1.3 var(--display);color:var(--ink2)}
+
+/* Full screen, the key in full (Cade, 2026-11-15). Upright: the page's own key, every definition, under the chart.
+   Sideways: the strip stays, and Key opens this panel over the foot of the chart, three definitions across. */
+.keypanel{position:fixed;z-index:45;left:max(8px,env(safe-area-inset-left,0px));right:max(8px,env(safe-area-inset-right,0px));bottom:calc(36px + env(safe-area-inset-bottom,0px));
+  display:grid;grid-template-columns:repeat(3,minmax(0,1fr));gap:9px 18px;padding:12px 14px 13px;background:var(--surface);border:1px solid var(--gilt);
+  box-shadow:0 0 0 3px var(--surface),0 0 0 3.6px color-mix(in srgb,var(--gilt) 55%,transparent),0 10px 22px rgba(30,18,12,.22);font:11.5px/1.35 var(--ui);color:var(--ink2)}
+.keypanel .kr{display:grid;grid-template-columns:20px 1fr;gap:0 6px;align-items:start}
+.keypanel .g{display:flex;align-items:center;justify-content:center;height:15px}
+.keypanel .g .gl{width:15px}
+.keypanel b{color:var(--ink);font-weight:600}
+.keypanel .kc{font-style:normal;font-weight:400;color:var(--ink3)}
+.keypanel .kc::before{content:" ("}.keypanel .kc::after{content:")"}
+.keypanel .lgap{display:none}
 </style>
 
 <div class="stage" id="stage">
@@ -1890,7 +1903,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   function keyCounts(){ var c={k:0,fi:0,st:0,nec:0,contrib:0,contest:0};
     Object.keys(N).forEach(function(id){ var n=N[id]; if(!n.gone&&!n.chip)c[size(id)]++; });
     if(G)G.edges.forEach(function(l){ var g=gcls(l); if(g==='coinc')return; c[g||'nec']++; });
-    [].forEach.call(document.querySelectorAll('#chainKey [data-kc]'),function(el){ el.textContent=c[el.dataset.kc]; }); }
+    [].forEach.call(document.querySelectorAll('.chainbox [data-kc]'),function(el){ el.textContent=c[el.dataset.kc]; }); }
   function change(){ layout('filter'); dock(); setTimeout(tell,60); }
   document.getElementById('stDn').addEventListener('click',function(){ if(steps>1){ steps--; layout('steps'); dock(); setTimeout(tell,60); } });
   document.getElementById('stUp').addEventListener('click',function(){ if(steps<5){ steps++; layout('steps'); dock(); setTimeout(tell,60); } });
@@ -1957,12 +1970,18 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
      held still; the last button of the bar becomes Close, and Escape closes too. */
   var chainBox=document.querySelector('.chainbox'), isFull=false, fullBtn=document.getElementById('fullBtn'), fullAt=0;
   var fullAdj=0, pageSteps=3, pageZoom=0, pageKey=false, isLand=false, footEl=chainBox.querySelector('.ruler.foot'), keyBtnEl=document.getElementById('keyBtn'), keyEl=document.getElementById('chainKey'), webEl=document.getElementById('web'), webPad=webEl.querySelector('.webpad'), hinted=false;
-  function setKey(o){ keyEl.hidden=!o; keyBtnEl.setAttribute('aria-expanded',String(o)); }
+  /* The key. In the page and in upright full screen it opens in place with its full definitions. Sideways there is no
+     height for that: the strip of names and counts always shows, and Key opens the full definitions as a panel. */
+  var keyOpen=false, keyPanel=document.createElement('div'); keyPanel.className='keypanel'; keyPanel.hidden=true; keyPanel.setAttribute('aria-label','Key, in full'); chainBox.appendChild(keyPanel);
+  function setKey(o){ keyOpen=o; keyEl.hidden=isLand?false:!o; keyBtnEl.setAttribute('aria-expanded',String(o));
+    var show=isLand&&o; if(show)keyPanel.innerHTML=keyEl.innerHTML; keyPanel.hidden=!show; keyPanel.style.display=show?'':'none'; }
+  keyPanel.addEventListener('click',function(){ setKey(false); });
   /* On a phone turned sideways the counts and the key move up into the bar, so the chart has the whole height. */
   function arrange(){ var land=isFull&&window.innerWidth>window.innerHeight&&window.innerHeight<560; if(land===isLand)return; isLand=land;
     /* a phone on its side is too short for the closest zoom: two rows of the largest cards do not fit */
     isLand=land; if(land)zoomLv=Math.max(zoomLv,minZ()); chainBox.classList.toggle('land',land); document.documentElement.classList.toggle('chainland',land); chainBox.classList.remove('hasdock');
-    if(land){ cbar.insertBefore(keyBtnEl,fullBtn); cbar.insertBefore(zoomEl,fullBtn); } else { chainBox.insertBefore(zoomEl,keyEl); chainBox.insertBefore(keyBtnEl,keyEl); } }
+    if(land){ cbar.insertBefore(keyBtnEl,fullBtn); cbar.insertBefore(zoomEl,fullBtn); } else { chainBox.insertBefore(zoomEl,keyEl); chainBox.insertBefore(keyBtnEl,keyEl); }
+    if(isFull)setKey(!land); }
   var zoomEl=document.getElementById('zoomC');
   /* the closest zoom a view allows: a phone on its side is short, so it stops where two rows of cards still fit */
   function minZ(){ return !isFull?0:!isLand?-1:window.innerHeight<372?1:0; }
@@ -1994,7 +2013,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
     if(sel)select(null); homeY=null; pushedY=0;
     /* full screen opens wider: five steps out and one level zoomed out; closing puts back what the page had */
     if(on){ fullAt=window.scrollY; pageSteps=steps; pageZoom=zoomLv; pageKey=!keyEl.hidden; steps=5; zoomLv=Math.max(1,zoomLv); } else { steps=pageSteps; zoomLv=clamp(pageZoom,0,1); } isFull=on; zBtns(); bar(); chainBox.classList.toggle('full',on); chainBox.style.paddingBottom=''; document.documentElement.classList.toggle('chainfull',on);
-    arrange(); setKey(on?true:pageKey); if(on&&!isLand&&!hinted&&window.innerWidth<560){ hinted=true; say('Turn your phone for a wider view'); }
+    arrange(); setKey(on?!isLand:pageKey); if(on&&!isLand&&!hinted&&window.innerWidth<560){ hinted=true; say('Turn your phone for a wider view'); }
     fullBtn.setAttribute('aria-pressed',String(on)); fullBtn.setAttribute('aria-label',on?'Close full screen':'Open the chain full screen');
     chainBox.scrollTop=0; if(!on)window.scrollTo(0,fullAt);
     requestAnimationFrame(function(){ refit(true); if(on)fullBtn.focus({preventScroll:true}); }); }
@@ -2002,7 +2021,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'&&isFull&&!sel&&!sheetHost.firstChild&&fpop.hidden)setFull(false); });
   /* the key folds away on a phone; it is open on the first visit only */
   (function(){ var seen=false; try{ seen=localStorage.getItem('atlasKeySeen')==='1'; localStorage.setItem('atlasKeySeen','1'); }catch(e){}
-    setKey(!seen||window.innerWidth>=1100); keyBtnEl.addEventListener('click',function(){ setKey(keyEl.hidden); if(isFull)refit(); }); })();
+    setKey(!seen||window.innerWidth>=1100); keyBtnEl.addEventListener('click',function(){ setKey(!keyOpen); if(isFull&&!isLand)refit(); }); })();
   function dock(){
     if(!sel){ if(homeY!==null){ var sp=scrollPort(); if(Math.abs(portY(sp)-(homeY+pushedY))<140)sp.scrollTo({top:homeY,behavior:reduced?'auto':'smooth'}); homeY=null; pushedY=0; } if(isFull)setTimeout(function(){ if(!sel)chainBox.style.paddingBottom=''; },320); if(chainBox.classList.contains('hasdock')){ chainBox.classList.remove('hasdock'); refit(); }
       if(dockEl){ var old=dockEl; dockEl=null; old.classList.remove('in'); clearTimeout(dockT); dockT=setTimeout(function(){ old.remove(); },260); } return; }
