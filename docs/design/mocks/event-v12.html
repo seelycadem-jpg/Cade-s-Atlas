@@ -1588,6 +1588,14 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .tw .sub .pkinds{display:inline-flex;align-items:center;gap:6px}
 .tw .sub .pkinds span{display:inline-flex}
 .tw .sub .pkinds .ki{width:15px;height:15px;fill:none;stroke:var(--gilt);color:var(--gilt);stroke-width:1.25;--kibg:var(--bg)}
+/* A cleaner hero (Cade, 2026-11-16): no rules between the rows of the ladder, no second stepper on the Event row (the
+   two named buttons under the title do that job), and no line above the ladder when the reader came through a story. */
+.route .rrow,.route .rrow:first-child{border:0;min-height:31px}
+.route #evStp{display:none!important}
+.route .rev{min-height:20px;margin-top:8px}
+.route:not(.noroute) .rhead{display:none}
+.tw h1{margin-top:2px}
+.chapnav{border-bottom:0;margin-bottom:10px}
 html{overscroll-behavior-y:none}
 :root.gopen,:root.gopen body{overflow:hidden}
 </style>
@@ -1897,7 +1905,7 @@ html{overscroll-behavior-y:none}
   /* The page opens with less of the globe and more of the page (Cade, 2026-11-16, on trial). The top PULL pixels of
      the page are held back above the opening view: the page starts scrolled past them, and a reader who scrolls up
      pulls the title down and more of the globe into view. The docking of the title starts below that stretch. */
-  var PULL=0, HIDE=150; /* HIDE: how much of the globe the opening view keeps above the screen */ root.style.setProperty('--E','0px');
+  var PULL=0, HIDE=126; /* HIDE: how much of the globe the opening view keeps above the screen */ root.style.setProperty('--E','0px');
   function measure(){ var h1=tw.querySelector('h1'); M.twH=tw.offsetHeight; M.kH=kicker.offsetHeight; M.h1H=h1.offsetHeight;
     var lh=parseFloat(getComputedStyle(h1).lineHeight)||M.h1H; M.two=M.h1H>lh*1.5; M.s1t=M.two?0.38:0.46; var t0y=Math.round(GS*0.66+10)-HIDE, t1y=10-M.kH*M.s1t, padL=parseFloat(getComputedStyle(document.body).paddingLeft)||0; M.t0x=Math.max(gutter,(W-640)/2); M.t1x=gutter+50; M.fx=Math.max(0,M.t0x-padL);
     var stick=t1y-M.twH*(1-M.s1t); M.D=Math.max(1,t0y-stick); M.subk=12/(16*M.s1t); M.subH=sub.offsetHeight;

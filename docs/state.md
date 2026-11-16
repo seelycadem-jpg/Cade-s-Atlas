@@ -1067,3 +1067,14 @@ still frames showed doubled lines and flipped between soft and sharp.
   globe that means thinned data sized to the globe on screen. Carry this into the real app's globe.
 - Dragging the globe by hand uses the same drawing and is faster too.
 - Still unproven on a real phone; the test browser has no graphics chip.
+
+### Event page hero: cleaner ladder, a little more globe (sub chat, 2026-11-16, on trial)
+
+- The opening view shows a little more globe (126px held above the screen, was 150px).
+- The ladder has no rules between its rows; white space separates them.
+- The Event row is the small "Event" label alone. Its stepper is gone: the two named buttons under the title
+  ("Before, in this chapter" / "Next, in this chapter") do that job and name where they go.
+- The line "You are reading this event within the story ..." is gone when the reader came through a story; the Story
+  row says it. A reader with no route still gets the one line and the offer to choose a story.
+- The two named buttons keep their top rule and lose their bottom rule.
+- On trial: Cade has not yet confirmed these.
