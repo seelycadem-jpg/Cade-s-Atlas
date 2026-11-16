@@ -125,7 +125,7 @@ Optional sections are the agent's call. A fibre may have no layer 3 at all. A kn
 
 ## Sourcing
 
-- Every event page shows a **Sources** list at its end (Cade, 2026-11-16): at least two independent sources beyond the exits, each by author, title, year and publisher or archive, with a link where one exists. Two sources are independent when neither draws on the other and they share no author. The list is generated from `sources` in the data header. The shelf (the editors' wider reading) stays in the header and never renders.
+- Every event page shows a **Sources** list at its end (Cade, 2026-11-16): at least two independent sources beyond the exits, each by author, title, year and publisher or archive, with a link where one exists. Two sources are independent when neither draws on the other and they share no author. The list is generated from `sources` in the data header. It sits at the end of The Record as a fold, closed by default on Cade's decision (2026-11-17); its words are in the page when it loads. "Cite this page" sits under it. The shelf (the editors' wider reading) stays in the header and never renders.
 - **Every hard figure and every quotation is a tap** (Cade, 2026-11-16): the figure itself is the control, marked quietly and unlike a page link; a tap shows its source, the source's year, its basis and the range where sources disagree. It is generated from `figures`. No footnote numbers. The mark is designed with the shared components (roadmap 1.8 to 1.12).
 - **Cause and effect carry no footnote.** Their evidence is the link's note (claim, strongest objection, verdict), on tap.
 - **The order of preference** (Cade, 2026-11-16):

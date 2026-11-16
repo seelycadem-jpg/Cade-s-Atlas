@@ -1086,3 +1086,22 @@ still frames showed doubled lines and flipped between soft and sharp.
 - Amended the same day (Cade): the story-view line reads "Reading within a story" again, in the small sans, italic,
   sentence case. It is no longer a capitals label.
 
+
+### Sources, tappable figures and Cite this page in the mock (sub chat, 2026-11-17)
+
+Built at Cade's request, following the master chat's message of 2026-11-16. Everything shown is a labelled placeholder.
+
+- **Sources** sits at the end of The Record, after the two exits, as one more fold of the same kind (same plus
+  sign), **closed by default on Cade's decision**. The master chat's note said "a visible Sources list"; Cade chose
+  a closed fold. Its words are in the page when it loads, which is what search needs (seo.md, Growth). For the
+  master chat to settle in event-pages.md: "visible" means present in the page and one tap away.
+- Each entry: its kind in small capitals (Primary record, Scholarship), its title in serif, then author, title,
+  year, publisher or archive, link. The mock's three entries are placeholders and cite nothing.
+- **A figure is a tap.** Trial mark: a thin dotted grey underline, unlike a link's red line; gilt and solid while
+  open. A tap opens a note under the paragraph, in the page (no pop-up): the figure, then Source, Year, Basis,
+  Range, and "Show in Sources", which opens the fold and scrolls to the entry. A second tap closes it. The mock
+  marks three figures in the Overview's first paragraph only.
+- **Cite this page** sits under Sources. It opens a sheet with APA, MLA and Chicago; the reader picks one, the
+  citation is written with today's date, and Copy copies it. The page address is a placeholder.
+- Open for Cade through the master chat: whether figures in The Record and the chain's notes take the same mark;
+  which citation styles to offer; whether Cite also sits near the top of the page.
