@@ -1053,3 +1053,17 @@ Replaces the two entries above on how the globe view opens.
   pull cannot tick there.
 - **Date line.** The type sign is gone from the hero. The date is no longer bold; it reads in the same weight and
   colour as the place. The line is now: red sign, date, red sign, place.
+
+### Event page hero: the globe is drawn for real at every step (sub chat, 2026-11-16)
+
+Replaces the "drawn ahead of time as 20 still frames" note above. Cade saw the slow push look laggy: the blended
+still frames showed doubled lines and flipped between soft and sharp.
+
+- The pre-drawn frames are gone. The globe is drawn in full on every step of its turn, at any speed.
+- That is affordable because one drawing fell from about 40 ms to about 7 ms on the test machine: map points closer
+  than a third to half a degree (about one screen pixel at this size) are dropped once at start-up; the land is worked
+  out once per drawing and used for both fill and coast; d3's in-between resampling is off (`precision(0)`).
+- Rule for the master chat, amended: anything that follows the finger must cost less than one screen frame. For the
+  globe that means thinned data sized to the globe on screen. Carry this into the real app's globe.
+- Dragging the globe by hand uses the same drawing and is faster too.
+- Still unproven on a real phone; the test browser has no graphics chip.

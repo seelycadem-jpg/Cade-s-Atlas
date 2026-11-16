@@ -1842,17 +1842,32 @@ html{overscroll-behavior-y:none}
   var rot=[-VERS[0],-VERS[1]], pins=[{c:VERS,main:true,label:'Versailles'}];
   var land=A.land&&window.topojson?topojson.feature(A.land,A.land.objects.land):null;
   var L19=A.borders&&window.topojson?{f:topojson.feature(A.borders,A.borders.objects.cs),m:topojson.mesh(A.borders,A.borders.objects.cs,function(a,b){return a!==b})}:null;
+  /* The map data holds far more points than a globe this size can show. Points closer together than a third of a
+     degree (about one screen pixel here) are dropped once, at start-up, so every drawing of the globe is quick enough
+     to follow a finger. */
+  function thinLine(a,tol,ring){ var out=[a[0]], l=a[0], i, p, n=a.length; for(i=1;i<n-1;i++){ p=a[i]; var dy=p[1]-l[1], dx=(p[0]-l[0])*Math.cos(p[1]*Math.PI/180); if(dx*dx+dy*dy>=tol*tol){ out.push(p); l=p; } } out.push(a[n-1]); if(ring&&out.length<4)return null; return out; }
+  function thinGeom(g,tol){ if(!g)return g; var t=g.type, keep=function(x){return x;};
+    if(t==='FeatureCollection')return {type:t,features:g.features.map(function(f){return thinGeom(f,tol);})};
+    if(t==='Feature')return {type:t,properties:g.properties,geometry:thinGeom(g.geometry,tol)};
+    if(t==='GeometryCollection')return {type:t,geometries:g.geometries.map(function(x){return thinGeom(x,tol);})};
+    if(t==='LineString')return {type:t,coordinates:thinLine(g.coordinates,tol,false)};
+    if(t==='MultiLineString')return {type:t,coordinates:g.coordinates.map(function(l){return thinLine(l,tol,false);})};
+    if(t==='Polygon')return {type:t,coordinates:g.coordinates.map(function(r){return thinLine(r,tol,true);}).filter(keep)};
+    if(t==='MultiPolygon')return {type:t,coordinates:g.coordinates.map(function(pl){return pl.map(function(r){return thinLine(r,tol,true);}).filter(keep);}).filter(function(pl){return pl.length;})};
+    return g; }
+  try{ if(land)land=thinGeom(land,0.5); if(L19){ L19.f=thinGeom(L19.f,0.3); L19.m=thinGeom(L19.m,0.3); } }catch(e){}
   function draw(cv,size,tOv,dOv){ if(!window.d3||!cv)return; var dpr=dOv||Math.min(2,window.devicePixelRatio||1); var S=size||cv.clientWidth||cv.width;
     if(cv.width!==Math.round(S*dpr)){cv.width=Math.round(S*dpr);cv.height=Math.round(S*dpr);cv.style.width=S+'px';cv.style.height=S+'px';}
     var c=cv.getContext('2d'); c.setTransform(dpr,0,0,dpr,0,0); var r=S/2-1.5;
-    var rr=tOv!=null?[rot[0],rot[1]-tOv]:cv===hero?[rot[0],rot[1]-tilt]:rot; var proj=d3.geoOrthographic().translate([S/2,S/2]).scale(r).rotate(rr).clipAngle(90), path=d3.geoPath(proj,c);
+    var rr=tOv!=null?[rot[0],rot[1]-tOv]:cv===hero?[rot[0],rot[1]-tilt]:rot; var proj=d3.geoOrthographic().translate([S/2,S/2]).scale(r).rotate(rr).clipAngle(90).precision(0), path=d3.geoPath(proj,c), lp=null; /* precision(0): the thinned points sit close enough that no in-between points are needed */
+    if(land&&window.Path2D){ lp=new Path2D(); d3.geoPath(proj,lp)(land); } /* the land is worked out once and used for both its fill and its coast */
     c.clearRect(0,0,S,S);
     c.beginPath();path({type:'Sphere'});c.fillStyle=css('--sea');c.fill();
     c.beginPath();path(d3.geoGraticule10());c.strokeStyle=css('--grat');c.lineWidth=.6;c.stroke();
-    if(land){c.beginPath();path(land);c.fillStyle=css('--land');c.fill();}
+    if(land){c.fillStyle=css('--land'); if(lp)c.fill(lp); else{c.beginPath();path(land);c.fill();}}
     if(L19){ L19.f.features.forEach(function(f){ if(/^Germany/.test(f.properties.r||'')){c.beginPath();path(f);c.fillStyle=css('--here');c.fill();} });
       c.beginPath();path(L19.m);c.strokeStyle=css('--border');c.lineWidth=S>200?.9:.6;c.stroke(); }
-    if(land){c.beginPath();path(land);c.strokeStyle=css('--coast');c.lineWidth=S>200?.8:.5;c.stroke();}
+    if(land){c.strokeStyle=css('--coast');c.lineWidth=S>200?.8:.5; if(lp)c.stroke(lp); else{c.beginPath();path(land);c.stroke();}}
     c.beginPath();path({type:'Sphere'});c.strokeStyle=css('--coast');c.lineWidth=1;c.stroke();
     pins.forEach(function(p){ var q=proj(p.c); if(!q)return; if(d3.geoDistance(proj.invert([S/2,S/2]),p.c)>Math.PI/2)return;
       var pr=S>200?5:3; c.beginPath();c.arc(q[0],q[1],pr,0,7);c.fillStyle=p.main?css('--accent'):css('--ink2');c.fill();c.lineWidth=S>200?2:1;c.strokeStyle=css('--bg');c.stroke();
@@ -1910,19 +1925,9 @@ html{overscroll-behavior-y:none}
      a fresh turn of the wheel. The push is weighted, and letting go before 60% returns to the event. */
   var gview=document.getElementById('gview'), mainEl0=document.getElementById('mainEl'), spacer0=document.getElementById('spacer'), gv=0, gOpen=false, gAnim=null;
   function sm01(x){ x=Math.max(0,Math.min(1,x)); return x*x*(3-2*x); }
-  /* Turning the globe means drawing it again, and a full drawing costs more than one screen frame on a phone. So the
-     turn is drawn ahead of time as a run of still frames, and the moving globe shows the two nearest, blended. The
-     full drawing returns when the globe comes to rest. A globe the reader has turned by hand is drawn live. */
-  var TF=[], TFN=20, TFkey='', TFbusy=false, crispT, buildT;
-  function tfKey(){ return rot[0].toFixed(2)+'|'+rot[1].toFixed(2)+'|'+GS+'|'+css('--land')+css('--sea'); }
-  function buildFrames(){ if(!window.d3||!GS||TFbusy)return; var key=tfKey(); if(key===TFkey&&TF.length===TFN)return; TFbusy=true; TF=[]; TFkey=key; var i=0;
-    (function next(){ if(tfKey()!==key){ TFbusy=false; TF=[]; TFkey=''; return; } var cv=document.createElement('canvas'); draw(cv,GS,TILT*i/(TFN-1),1.5); TF.push(cv); i++; if(i<TFN)setTimeout(next,24); else TFbusy=false; })(); }
-  function queueFrames(){ clearTimeout(buildT); buildT=setTimeout(buildFrames,500); }
-  function setTilt(){ var t=TILT*(1-sm01(gv))*(1-sm01((M.q||0)*1.6)); if(!(Math.abs(t-tilt)>0.15||(t===0&&tilt!==0)))return; tilt=t;
-    if(TF.length===TFN&&!TFbusy&&TFkey===tfKey()&&hero.width){ var f=t/TILT*(TFN-1), lo=Math.max(0,Math.min(TFN-1,Math.floor(f))), hi=Math.min(TFN-1,lo+1), a=f-lo, c=hero.getContext('2d');
-      c.setTransform(1,0,0,1,0,0); c.clearRect(0,0,hero.width,hero.height); c.globalAlpha=1; c.drawImage(TF[lo],0,0,hero.width,hero.height); if(a>0.02){ c.globalAlpha=a; c.drawImage(TF[hi],0,0,hero.width,hero.height); c.globalAlpha=1; }
-      clearTimeout(crispT); crispT=setTimeout(function(){ draw(hero,GS); },160); }
-    else { draw(hero,GS); queueFrames(); } }
+  /* The globe is drawn in full on every step of its turn, so it moves truly at any speed. The thinned map data and
+     the single working-out of the land (see draw) keep one drawing inside one screen frame. */
+  function setTilt(){ var t=TILT*(1-sm01(gv))*(1-sm01((M.q||0)*1.6)); if(Math.abs(t-tilt)<0.02&&!(t===0&&tilt!==0))return; tilt=t; draw(hero,GS); }
   function globeView(v){ gv=v; var tr=v>0?'0px '+(v*130).toFixed(2)+'px':'none';
     put(tw,'twv','translate',tr); put(mainEl0,'mnv','translate',tr); put(spacer0,'spv','translate',tr);
     var sG=Math.min(1,(W-28)/GS), yC=Math.max(64,(H-GS*sG)/2-36), gs=lerp(1,sG,v);
@@ -2711,11 +2716,12 @@ html{overscroll-behavior-y:none}
   pageLayout(); layout('init'); frameAll();
   /* a phone fires 'resize' each time its address bar hides or shows. Only a change of width rebuilds the web. */
   var rz, lastW=scroller.clientWidth; window.addEventListener('resize',function(){ pageLayout(); clearTimeout(rz); rz=setTimeout(function(){ frameAll(); var w=scroller.clientWidth; if(w===lastW)return; lastW=w; layout('resize'); },150); });
-  window.addEventListener('load',function(){ pageLayout(); frameAll(); queueFrames(); if(PULL&&window.scrollY<PULL){ window.scrollTo(0,PULL); onScroll(true); } });
+  window.addEventListener('load',function(){ pageLayout(); frameAll(); if(PULL&&window.scrollY<PULL){ window.scrollTo(0,PULL); onScroll(true); } });
   window.addEventListener('pageshow',function(){ if(PULL&&window.scrollY<PULL){ window.scrollTo(0,PULL); onScroll(true); } });
   try{ if('scrollRestoration' in history)history.scrollRestoration='manual'; }catch(e){}
   if(PULL&&window.scrollY<2){ window.scrollTo(0,PULL); onScroll(true); }
   if(document.fonts&&document.fonts.ready)document.fonts.ready.then(function(){ pageLayout(); layout('resize'); frameAll(); });
+  window.__drawMs=function(){ var t=performance.now(),i; for(i=0;i<10;i++)draw(hero,GS); return (performance.now()-t)/10; }; /* mock only: a test times one drawing of the globe */
   window.__atlasChain=function(){ return {N:N,G:G,ED:ED,drumF:drumF,sel:sel}; }; /* mock only: lets a test read the web's state */
   if(window.ResizeObserver){ var roT=null; new ResizeObserver(function(){ clearTimeout(roT); roT=setTimeout(secTops,60); }).observe(document.querySelector('main')); }
 })();
