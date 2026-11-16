@@ -1136,3 +1136,13 @@ still frames showed doubled lines and flipped between soft and sharp.
 - **Step buttons** have their red arrows again, beside the event's name on the second line, with the label above.
   The names lost the underline they briefly had. Both fit side by side at 375px.
 - The title sits about 10px closer to the Event row.
+
+### Event page hero: two voices only (sub chat, 2026-11-17)
+
+- The hero's type is held to two voices. Labels are the ladder's small sans capitals; names are the serif.
+- The story-view line follows that: "STORY VIEW" as a ladder label on the left, "Clear story view ×" on the right.
+- In the small sans, anything a reader can tap is the darker grey at medium weight ("Clear story view", "2 of 3 in
+  this chapter"); plain counts stay light grey. The × is grey; red stays for arrows, signs and link underlines.
+- "Also in 17 more stories" stays italic serif at Cade's request; it is the hero's one italic.
+- Proposed rule for the master chat: a block of controls uses at most two type voices, and weight plus a darker grey,
+  never a third face, marks what can be tapped.
