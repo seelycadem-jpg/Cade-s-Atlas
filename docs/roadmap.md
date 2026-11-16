@@ -50,6 +50,7 @@ Goal: decide how the atlas looks and works on a phone before building real scree
 | 1.3 | Two or three design directions (type, colour, spacing), each as a mock event page on a phone | AI | Cade can tap through each |
 | 1.4 | Pick a direction, or mix | C | Chosen |
 | 1.5 | Mock the front door: plain earth, eight random chronicle pins and cards, the turn to a first year with its political map and the world's turning points of those years | AI, C approves | Tap-through mock |
+| 1.5a | Mock the year page (`/years/1919`) on a phone: the year's knots and each region's biggest events, the year card, the globe at that year (seo.md, Growth) | AI, C approves | Tap-through mock |
 | 1.6 | Mock the filters on a phone: type and depth chips up front, region chips, the rest behind More; filtered-out events fade | AI, C approves | Tap-through mock (the "detail" wording question is closed: the gate is dropped, 2026-11-07) |
 | 1.7 | Mock the two globes as two pages sharing one map, one look, one set of gestures; show how quiet peoples' homelands should be | AI, C approves | Tap-through mock |
 | 1.7a | Mock the wide screen (laptop and desktop) for the story, chapter and event pages, once the phone versions are approved: use the width, never stretch the phone layout | AI, C approves | Cade approves on a laptop |
@@ -234,10 +235,15 @@ Goal: the web of cause and effect at scale, and the tools to follow it.
 | 10.4 | Visitor counting that respects privacy (proposed: Cloudflare Web Analytics; needs Cade's OK) | C approves | On |
 | 10.5 | Not-found page and error pages | AI | Test |
 | 10.5a | "Report a problem" on every page (Cade, 2026-11-11): a reader who sees a wrong fact or a broken screen sends it to us by email, with the page's address filled in. No account needed. Proposed: a link that opens the reader's own email app; a form is the alternative and needs a service | AI, C approves | A report from a phone reaches Cade's inbox |
+| 10.5b | Year pages and On this day pages, generated from the data (seo.md, Growth); designed in Phase 1 with the other page types | AI, C approves | Built; a year with no event has no page |
+| 10.5c | "Cite this page", embeddable graphics with credit, and the title patterns per page type (seo.md, Growth) | AI | `/page-check` passes |
 | 10.6 | Speed and accessibility audit on a mid-range phone | AI | Passes |
 | 10.7 | Google Search Console: submit the sitemap, check the structured data | C+AI | No errors |
 | 10.8 | People test with five people who have never seen the atlas | C+AI | Fixes made |
 | 10.9 | Launch | C | Public |
+
+| 10.10 | Social accounts reserved under the site's name on X, Instagram, Facebook, TikTok and YouTube, once the name is decided | C | Held |
+| 10.11 | Launch promotion run from `docs/marketing.md`: six weeks of posts before launch, the launch week, then a steady rhythm | C+AI | Posting on schedule |
 
 **Test:** every check green; Cade says go.
 

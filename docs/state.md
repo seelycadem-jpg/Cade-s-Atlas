@@ -953,6 +953,14 @@ Next in this chat: Cade's read of the rebuilt Historical Chain.
 - Step 10.5a: "Report a problem" by email on every page, at launch, with no account.
 - The services these need are outside the stack and wait for a proposal (step 14.2).
 
+## Growth (Cade, 2026-11-16)
+
+- `docs/seo.md`, Growth: year pages, On this day pages, every word in the HTML, question
+  titles, Cite this page, embeddable graphics, the About page naming the editor, and a
+  hard list of tactics never used. Roadmap 1.5a (year page mock), 10.5b, 10.5c.
+- `docs/marketing.md`: a draft launch and social plan (X, Instagram, Facebook, TikTok),
+  with five decisions for Cade. Roadmap 10.10 and 10.11.
+
 ## Desktop (Cade, 2026-11-08)
 
 Phone first, desktop second, and the desktop is designed, never the phone layout stretched
