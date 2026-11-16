@@ -1120,3 +1120,19 @@ Built at Cade's request, following the master chat's message of 2026-11-16. Ever
   3. Everything else in the file matches the mock as far as the sub chat read it.
 - **Still for Cade to settle** (the sub chat has asked him): the tab hairline when the row sticks; the tab "The
   Chain" against the heading "Historical Chain"; the heading's pen stroke; the italic line under Meanwhile's heading.
+
+### Cade settles the four differences; tab hairline runs edge to edge (sub chat, 2026-11-17)
+
+Decided by Cade today:
+
+1. **Tab hairline.** The hairline stays under the tab row when the row sticks. The older entry (fades when stuck)
+   is withdrawn.
+2. **Tab name.** The tab reads "The Chain"; the section heading reads "Historical Chain". Both stand.
+3. **Heading pen stroke.** Confirmed as it looks in the mock: a pen line under every section heading, up to 250px
+   wide, 1.8px at its thickest, fading to the right.
+4. **Meanwhile's italic line.** Cade's words: "No need I like how it looks now is fine". The sub chat reads this as:
+   keep the line as it is. Told to Cade in those terms.
+
+**Shared part changed (tab row).** Once the tab row sticks, its hairline runs from screen edge to screen edge,
+like the docked header's edge above it. At rest it keeps the reading margins. It eases between the two in 0.25s.
+CSS: `.pageindex.stuck::before{left:0;right:0}` with `left` and `right` added to the transition.
