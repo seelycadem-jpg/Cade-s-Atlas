@@ -1008,6 +1008,107 @@ pull request. A session that starts from `main` sees only what has been merged.
 To update a published mock from a new chat, give it the artifact link from the table above;
 it reads the page first and republishes to the same link.
 
+## The chain sub chat, second handoff (2026-11-17): the hero and the globe view
+
+For the master chat. This is everything the sub chat changed after the first handoff above (sections A to C),
+written as the state the mock is in now. The twelve dated entries under it are the working notes it was built from;
+where they disagree with this list, this list is right. The mock is `docs/design/mocks/event-v12.html`
+(https://claude.ai/artifact/Kx3QuaNRt7JLYdqsj1pimc, version 182). This chat changed no standards doc.
+
+It replaces these items of section B above: the line "You are reading this event within the story ...", the type
+signs on the hero's Event row, the Event row's own stepper, the buttons "Before, in this chapter" and "Next, in this
+chapter", and every earlier note on how the page opens over the globe.
+
+### H1. Decided by Cade (he asked for each in these words or close to them)
+
+The hero, top to bottom, for a reader who came through a story:
+
+1. **Globe strip.** The page opens with a strip of the globe above the hero, less than before. The globe is turned
+   so the event's pin and place name sit inside that strip: the reader sees where the event happened without
+   opening anything. (Doc: ui-rules.md, hero.)
+2. **Hint.** One small centred line under the globe's lowest point: "Globe 1919 · pull down to open". Words never
+   cross the globe's edge.
+3. **Story view line.** Left: "Reading within a story", in the small sans, italic. Right: "Clear story view ×".
+   Clearing is one switch for the page: the ladder folds to the no-route hero, and the chain's story filter turns
+   off. Choosing a story again restores the ladder and turns the chain's filter on for that story.
+4. **Ladder.** Four rows in one label column: Chronicle, Story, Chapter, Event. Chronicle carries "Also in 17 more
+   stories" in italic serif, no bold. Story and Chapter keep their steppers ("8 of 12", "1 of 3"). The Event row
+   carries "2 of 3 in this chapter" as a link and "· 7 in the story" as plain text, with no arrows.
+5. **Title**, close under the Event row.
+6. **Date line.** Red timeline sign, date, dot, red globe sign, place, dot, type sign in gilt. The date is neither
+   bold nor red. Nothing on this line is underlined: the red sign marks what opens something.
+7. **Step buttons.** "Previous event in this chapter" and "Next event in this chapter (1 more)". Label above, red
+   arrow beside the event's name, no rules around or between them. The count is the events left in the chapter.
+8. **Events sheet.** The Event row's link opens a sheet on this chapter: chapter number, name, its events in order,
+   each with size mark, year, country and type signs; the page's own event reads "This page". A switch reads
+   "This chapter | Whole story". A type filter shows one type at a time. Tapping an event opens it.
+
+The globe view:
+
+9. **Scrolling never opens it.** The top of the page is the event view; a fling up the page stops there.
+10. **A separate, weighted push opens it.** At the top, a new pull down moves the page away, fades the hero and
+    brings the globe to the middle with the place centred. Letting go early returns to the event. In the globe
+    view: year at the top; event name, date, place and type signs at the foot; "Back to the event". A swipe up
+    also returns.
+11. **Smooth at every speed.** Cade rejected a version that looked laggy on a slow pull.
+12. **Type signs** show in the globe view and on the hero's date line.
+
+### H2. On trial (the sub chat's choices; Cade has seen them and not objected, and has not confirmed them)
+
+- No rules between the ladder's rows; white space separates them.
+- The Event row has no stepper; the two step buttons do that job.
+- Two type voices in the hero: small sans capitals for labels, serif for names. In the small sans, what can be
+  tapped is darker grey at medium weight; plain counts are light grey. The × is grey. "Also in ..." is the one
+  italic serif; "Reading within a story" is the one italic sans.
+- The numbers: 126px of globe held above the screen at opening; a 50 degree turn of the globe; 300px of finger
+  travel to open; commit at 60%; the page buzzes at the commit point where the browser allows it (Android; an
+  iPhone cannot buzz from a pull).
+- The title block sits 26px lower than it otherwise would, to keep the hint clear of the globe.
+
+### H3. Rules proposed for the standards docs (none written into a doc)
+
+1. A link that carries its own sign takes the red sign and no underline. A link in running text keeps the thin
+   red underline. (house-style.md or ui-rules.md)
+2. Words never cross the edge of the globe; a caption for the globe sits clear of it. (ui-rules.md)
+3. The hero's story and the chain's story filter are one state. (ui-rules.md, structure.md)
+4. A block of controls uses at most two type voices. Weight and a darker grey mark what can be tapped; a third
+   face never does. (house-style.md)
+5. Anything that follows the finger costs less than one screen frame. For the globe: map data thinned to the
+   globe's size on screen (points under about a third of a degree apart dropped at start-up), the land worked out
+   once per drawing, d3's resampling off. One drawing fell from about 40 ms to about 7 ms on the test machine.
+   Pre-drawn frames blended together look laggy at slow speed; do not use them. (architecture.md, budgets)
+6. A gesture that leaves the page for another view needs a separate, deliberate push, never the tail of a scroll.
+   (ui-rules.md)
+
+### H4. Placeholders in the mock (labelled in the code; none is atlas data)
+
+- The globe view is a stand-in. The real one is the Political globe at the event's year, centred on the event.
+- The events sheet: six real events (the chain's events the old arc holds), three made-up chapter names ("The
+  Treaty", "The Crash", "The Republic Falls") and a made-up split; "The Armistice" is a row with no event behind
+  it. The hero's "2 of 3", "7 in the story", "8 of 12", "1 of 3" and "17 more stories" are placeholders.
+- The real page needs, from the link table: each story's ordered events with chapter membership, and the counts.
+
+### H5. Open questions for Cade, through the master chat
+
+1. Does the type sign need its word beside it for a first-time reader? It has none in the hero or the globe view.
+2. Should the events sheet sort (by date, by size) as well as filter by type?
+3. The no-route hero (a reader from the globe, the timeline or an unrelated link) was not revisited in this round.
+   It still reads "This event belongs to 18 stories. Choose a story to read it within".
+4. Desktop layout of all of the above is not designed.
+
+### H6. Not proven on a real phone
+
+The test browser has no graphics chip and no finger. Cade tried the push on his iPhone and called it "pretty
+great", then reported the slow-pull lag, which was fixed; he has not reported on the fix. Unchecked: whether Safari
+or the Claude app's frame takes the pull-down for its own bounce; smoothness of the fixed version on the phone.
+
+### H7. Not yet applied in the mock from the master chat's message of 2026-11-16
+
+The Sources list, tappable figures, "Cite this page", every word in the HTML at load, and the graphics limits.
+The sub chat listed them to Cade and waits for his word before building.
+
+### Working notes behind the list above (superseded where they differ)
+
 ### Event page hero: red signs on the date line, and opening with less globe (sub chat, 2026-11-15)
 
 - **Date-line jumps.** The timeline sign and the globe sign on the date line are red (the accent colour). Their words
