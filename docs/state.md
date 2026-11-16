@@ -1097,3 +1097,18 @@ still frames showed doubled lines and flipped between soft and sharp.
   longer crosses the globe's edge. The title block sits 26px lower to make room.
 - **Type signs** show in the globe view, after the date and place. They stay out of the hero.
 - Proposed rule for the master chat: words never cross the edge of the globe; a caption for the globe sits clear of it.
+
+### Event page hero: the story's events sheet, plainer step buttons, type sign after the place (sub chat, 2026-11-17)
+
+- **Type sign after the place** on the hero's date line (Cade reversed the earlier removal). No dot before it.
+- **Step buttons** under the title read "Previous event in this chapter" and "Next event in this chapter", in small
+  sentence-case grey. They carry no rules and sit closer to the date line. Cade weighed a count of events remaining
+  and left it out.
+- **"7 events in the story" is a link** on the Event row. It opens a sheet: the story's name, the events under their
+  chapters in order, each with its size mark, year, country and type signs; the page's own event marked "This page".
+  A row of type filters (All, then each type the story holds) shows one type at a time. Tapping an event opens it.
+- PLACEHOLDER data throughout that sheet: the six events are the chain's events the old arc holds; the three chapter
+  names and the split are made up for the mock; "The Armistice" is a row with no event behind it. The hero's counts
+  now agree with the sheet ("2 of 3 in this chapter", "7 events in the story").
+- Open for the master chat: the real page needs each story's ordered event list with chapter membership from the link
+  table; and whether the sheet should also sort (by date, by size) as well as filter by type.

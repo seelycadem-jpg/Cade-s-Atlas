@@ -1605,6 +1605,26 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .gview .gk{display:inline-flex;gap:6px;margin-left:10px;vertical-align:-2px}
 .gview .gk span{display:inline-flex}
 .gview .gk .ki{width:16px;height:16px;fill:none;stroke:var(--gilt);color:var(--gilt);stroke-width:1.25;--kibg:var(--bg)}
+/* The date line's type sign; the two named buttons without rules, closer to the title; the story's events (Cade, 2026-11-17) */
+.tw .sub .pkinds{margin-left:2px}
+.chapnav{border:0;margin:6px 0 8px}
+.chapnav button{min-height:44px;padding:4px 2px}
+.chapnav button+button{box-shadow:none}
+.chapnav{grid-template-columns:auto auto;justify-content:space-between;gap:8px}
+.chapnav i{text-transform:none;letter-spacing:0;font-size:10.5px;white-space:nowrap}
+.route .rcount .evall{font:inherit;color:var(--ink2);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:3px;position:relative}
+.route .rcount .evall::after{content:"";position:absolute;left:-6px;right:-6px;top:50%;height:44px;transform:translateY(-50%)}
+.echips{display:flex;flex-wrap:wrap;gap:4px 16px;margin:10px 0 2px}
+.echips button{display:inline-flex;align-items:center;gap:5px;min-height:32px;font:500 12.5px/1 var(--ui);color:var(--ink2);border-bottom:1px solid transparent}
+.echips button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--gilt)}
+.echips .ki{width:14px;height:14px;fill:none;stroke:var(--gilt);color:var(--gilt);stroke-width:1.25;--kibg:var(--surface,var(--bg))}
+.erow .pt{display:flex;align-items:center;gap:8px}
+.erow .pt .mk{flex:none}
+.erow .pm{padding-left:21px}
+.erow .eki{display:inline-flex;gap:5px}
+.erow .eki .ki{width:15px;height:15px;fill:none;stroke:var(--gilt);color:var(--gilt);stroke-width:1.25;--kibg:var(--surface,var(--bg))}
+.erow[aria-current="true"] .pr{color:var(--ink3);font-weight:500}
+.erow.ph0 .pt{color:var(--ink3)}
 html{overscroll-behavior-y:none}
 :root.gopen,:root.gopen body{overflow:hidden}
 </style>
@@ -1640,13 +1660,13 @@ html{overscroll-behavior-y:none}
     <button type="button" class="alsoin" id="alsoin" aria-haspopup="dialog"><span id="alsoTxt"></span><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5"/></svg></button>
   </nav>
   <h1>The Treaty of Versailles</h1>
-  <div class="sub" id="sub"><span><button type="button" class="jump" id="toTime" aria-label="28 June 1919. See this event on the timeline"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M1.5 12h21"/><path class="d" d="M1.5 9.5v5M22.5 9.5v5"/><path class="s" d="M7 8.2L10.2 12 7 15.8 3.8 12z"/><path class="f" d="M12.1 12a1.9 1.9 0 1 0 3.8 0a1.9 1.9 0 1 0 -3.8 0z"/><path class="s" d="M17.7 12a1.8 1.8 0 1 0 3.6 0a1.8 1.8 0 1 0 -3.6 0z"/></svg><b>28 June 1919</b></button></span><span class="rest">·</span><span class="rest"><button type="button" class="jump" id="toGlobe" aria-label="Versailles, France. See this event on the globe"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M12 1.4a8.6 8.6 0 0 1 0 17.2M12 18.6V21M8 21.5h8"/><path class="s" d="M12 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/><path class="d" d="M12 3c-3.2 2.4-3.2 11.6 0 14M5 10h14"/></svg>Versailles, France</button></span></div>
+  <div class="sub" id="sub"><span><button type="button" class="jump" id="toTime" aria-label="28 June 1919. See this event on the timeline"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M1.5 12h21"/><path class="d" d="M1.5 9.5v5M22.5 9.5v5"/><path class="s" d="M7 8.2L10.2 12 7 15.8 3.8 12z"/><path class="f" d="M12.1 12a1.9 1.9 0 1 0 3.8 0a1.9 1.9 0 1 0 -3.8 0z"/><path class="s" d="M17.7 12a1.8 1.8 0 1 0 3.6 0a1.8 1.8 0 1 0 -3.6 0z"/></svg><b>28 June 1919</b></button></span><span class="rest">·</span><span class="rest"><button type="button" class="jump" id="toGlobe" aria-label="Versailles, France. See this event on the globe"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M12 1.4a8.6 8.6 0 0 1 0 17.2M12 18.6V21M8 21.5h8"/><path class="s" d="M12 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/><path class="d" d="M12 3c-3.2 2.4-3.2 11.6 0 14M5 10h14"/></svg>Versailles, France</button></span><span class="rest pkinds" id="pKinds"></span></div>
 </div>
 
 <main class="wrap pic-c fr-corners" id="mainEl">
   <nav class="chapnav" id="chapnav" aria-label="The events beside this one">
-    <button type="button" id="cBack"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg><span><i>Before, in this chapter</i><b id="cBackN">The Armistice</b></span></button>
-    <button type="button" id="cFwd"><span><i>Next, in this chapter</i><b id="cFwdN">German Hyperinflation</b></span><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button>
+    <button type="button" id="cBack"><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M9 2L4 7l5 5"/></svg><span><i>Previous event in this chapter</i><b id="cBackN">The Armistice</b></span></button>
+    <button type="button" id="cFwd"><span><i>Next event in this chapter</i><b id="cFwdN">German Hyperinflation</b></span><svg viewBox="0 0 14 14" fill="none" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M5 2l5 5-5 5"/></svg></button>
   </nav>
   <div class="picwrap"><figure class="pic" id="pic" role="button" tabindex="0" aria-label="The Hall of Mirrors during the signing, 28 June 1919. Open the picture and its details."><img src="versailles-signing-1919.jpg" alt="A long mirrored hall packed with standing delegates and onlookers, facing a table at its far end."></figure>
   <p class="piccap" id="piccap">The Hall of Mirrors during the signing, 28 June 1919.</p></div>
@@ -2541,7 +2561,11 @@ html{overscroll-behavior-y:none}
   /* ---------- where this event sits ---------- */
   /* Only the first place is in the atlas plan. Every other row is a placeholder, there to show how a long list reads and scrolls. */
   /* nc, the next chapter of the story, is a placeholder name from the list below */
-  var HOMEPLACE={es:(function(){ var o=(window.ATLAS_STORY||{of:{}}).of, n=0, k; for(k in o)if(o[k].indexOf('interwar')>=0)n++; return n||''; })(), /* PLACEHOLDER count: the chain's events the stand-in story holds */ c:'Germany',s:'Weimar Germany',sn:'8 of 12',ch:'The Treaty',cn:'1 of 3',en:'2 of 5',prev:'The Armistice',next:'German Hyperinflation',nc:'The Ruhr and the Mark'};   /* prev, en and nc are placeholders too */
+  /* PLACEHOLDER: the events of the stand-in story, in order, under stand-in chapters. The six ids are the chain's
+     events that the old arc holds (event-v12-stories.js). The chapter names and the split into chapters are made up for
+     the mock, and "The Armistice" is a row with no data behind it, kept so the hero's "previous event" has a home. */
+  var STORYCH=[{n:'The Treaty',ev:[{t:'The Armistice',ph:true},'eu191988','d-hyperinflation']},{n:'The Crash',ev:['na192964','d-depression1930']},{n:'The Republic Falls',ev:['as193153','eu193391']}];
+  var HOMEPLACE={es:STORYCH.reduce(function(a,c){ return a+c.ev.length; },0), c:'Germany',s:'Weimar Germany',sn:'8 of 12',ch:'The Treaty',cn:'1 of 3',en:'2 of 3',prev:'The Armistice',next:'German Hyperinflation',nc:'The Crash'};   /* prev, en and nc are placeholders too */
   var PH=[['Germany','Weimar Germany','The Ruhr and the Mark'],['Germany','Weimar Germany','The Seizure of Power'],['Germany','Nazi Germany','Tearing Up the Treaty'],
     ['The Great War','The Peace','The Treaty with Germany'],['The Great War','The Peace','The Other Four Treaties'],['The Second World War','The Road to War','Revision by Force'],
     ['France','The Third Republic','The Search for Security'],['France','The Third Republic','The Occupation of the Ruhr'],['Britain','Between the Wars','The Case for Revision'],
@@ -2557,7 +2581,7 @@ html{overscroll-behavior-y:none}
     document.getElementById('alsoTxt').innerHTML=routed?'Also in <b>'+n+' more'+w+'</b>':'<b>Choose a story</b> to read it within';
     /* the line over the ladder says what the ladder is: the story this page is being read within. A reader with no
        route is offered three of the event's stories to read it within, and the list of all of them. */
-    var P0=places()[here]||HOMEPLACE; document.getElementById('cEvRow').textContent=(P0.en?P0.en+' in this chapter':'')+(P0.en&&P0.es?' \u00b7 ':'')+(P0.es?P0.es+' events in the story':''); document.getElementById('rHead').innerHTML=routed?'You are reading this event within the story <b>'+esc(P0.s)+'</b>':'This event belongs to '+n+w+'.';
+    var P0=places()[here]||HOMEPLACE; evRow(P0); document.getElementById('rHead').innerHTML=routed?'You are reading this event within the story <b>'+esc(P0.s)+'</b>':'This event belongs to '+n+w+'.';
     document.getElementById('rPick').innerHTML='';   /* no list of stories here (Cade): the one link to choose is enough */
     document.getElementById('kicker').classList.toggle('noroute',!routed);
     /* once the title docks: with a route, the way back to the chapter and the steps either side; with none, the same
@@ -2570,7 +2594,7 @@ html{overscroll-behavior-y:none}
   function follow(i){ var P=places(), x=P[i]; here=i;
     document.getElementById('cChron').textContent=x.c; document.getElementById('cStory').textContent=x.s; document.getElementById('cChap').textContent=x.ch;
     document.getElementById('cStoryL').textContent=x.sn||''; document.getElementById('cChapL').textContent=x.cn||'';
-    document.getElementById('hChap').textContent='\u2039 '+x.ch; var hasN=!!(x.prev||x.next); document.getElementById('hNextW').hidden=!hasN; document.getElementById('hNextW').style.display=hasN?'':'none'; document.getElementById('cEvL').textContent=x.en?x.en+' in chapter':''; document.getElementById('cEvRow').textContent=(x.en?x.en+' in this chapter':'')+(x.en&&x.es?' \u00b7 ':'')+(x.es?x.es+' events in the story':''); document.getElementById('evStp').style.visibility=hasN?'':'hidden';
+    document.getElementById('hChap').textContent='\u2039 '+x.ch; var hasN=!!(x.prev||x.next); document.getElementById('hNextW').hidden=!hasN; document.getElementById('hNextW').style.display=hasN?'':'none'; document.getElementById('cEvL').textContent=x.en?x.en+' in chapter':''; evRow(x); document.getElementById('evStp').style.visibility=hasN?'':'hidden';
     document.getElementById('cBackN').textContent=x.prev||''; document.getElementById('cBack').style.visibility=x.prev?'':'hidden'; document.getElementById('cFwdN').textContent=x.next||''; document.getElementById('cFwd').style.visibility=x.next?'':'hidden';
     document.getElementById('chNext').disabled=!x.nc; document.getElementById('chPrev').disabled=true; document.getElementById('sPrev').disabled=!x.sn; document.getElementById('sNext').disabled=!x.sn;
     alsoLabel(); pageLayout(); frameAll(); }
@@ -2591,6 +2615,31 @@ html{overscroll-behavior-y:none}
       document.getElementById('pnone').hidden=any; });
     var cur=sheetHost.querySelector('.prow[aria-current]'), list=document.getElementById('plist'); if(cur&&list)list.scrollTop=Math.max(0,cur.offsetTop-list.offsetTop-60); }
   document.getElementById('alsoin').addEventListener('click',placeSheet);
+  /* The Event row: the place in the chapter, then a link that opens the story's events */
+  function evRow(x){ document.getElementById('cEvRow').innerHTML=(x.en?esc(x.en)+' in this chapter':'')+(x.en&&x.es?' \u00b7 ':'')+(x.es?'<button type="button" class="evall" id="evAll" aria-haspopup="dialog">'+x.es+' events in the story</button>':''); }
+  /* The story's events: under their chapters, in order, with a filter by type (Cade, 2026-11-17) */
+  var evType='';
+  function storySheet(){ var types=[], n=0; STORYCH.forEach(function(c){ c.ev.forEach(function(e){ n++; if(typeof e==='string')(E[e].c||[]).forEach(function(k){ if(types.indexOf(k)<0)types.push(k); }); }); }); types.sort();
+    var PL=window.ATLAS_PLACE||{};
+    var h='<div class="ph"><button type="button" class="xbtn" data-close aria-label="Close"><i><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></i></button>'
+      +'<div class="kind">Story</div><h3>'+esc(HOMEPLACE.s)+'</h3><p class="cnt">'+n+' events in '+STORYCH.length+' chapters, in order. Stand-in list.</p>'
+      +'<div class="echips" role="group" aria-label="Show one type of event"><button type="button" data-etype="" aria-pressed="'+(evType===''?'true':'false')+'">All</button>'+types.map(function(k){ return '<button type="button" data-etype="'+k+'" aria-pressed="'+(evType===k?'true':'false')+'">'+kicon(k)+cap1(k)+'</button>'; }).join('')+'</div></div><div class="plist" id="plist">';
+    STORYCH.forEach(function(c,ci){ h+='<div class="pgrp"><div class="pg">Chapter '+(ci+1)+' \u00b7 '+esc(c.n)+'<span>'+c.ev.length+'</span></div>'
+      +c.ev.map(function(e){ if(typeof e!=='string')return '<div class="prow erow ph0" data-k=""><span class="pt"><i class="mk st" aria-hidden="true"></i>'+esc(e.t)+'</span><span class="pm">Placeholder: no event behind this row yet</span></div>';
+        var ev=E[e], pl=PL[e]||{}, mine=e===HOME, mk=ev.tier===1?'k':ev.tier===2?'fi':'st';
+        return '<button type="button" class="prow erow" data-ev="'+e+'" data-k="'+(ev.c||[]).join(' ')+'"'+(mine?' aria-current="true"':'')+'><span class="pt"><i class="mk '+mk+'" aria-hidden="true"></i>'+esc(name(e))+'</span><span class="pm">'+ev.y+(pl.c?' \u00b7 '+esc(pl.c):'')+'</span><span class="pr">'+(mine?'This page':'<span class="eki">'+(ev.c||[]).map(kicon).join('')+'</span>')+'</span></button>'; }).join('')+'</div>'; });
+    h+='<div class="pnone" id="pnone" hidden>No event of that type in this story.</div></div>';
+    openSheet(h,'The events of the story','places');
+    var sh=sheetHost.querySelector('.sheet'), fw=sh.offsetWidth, fh=sh.offsetHeight;
+    function cart(i,r){ var x0=i,y0=i,x1=fw-i,y1=fh-i; return 'M'+(x0+r)+' '+y0+' H'+(x1-r)+' A'+r+' '+r+' 0 0 0 '+x1+' '+(y0+r)+' V'+(y1-r)+' A'+r+' '+r+' 0 0 0 '+(x1-r)+' '+y1+' H'+(x0+r)+' A'+r+' '+r+' 0 0 0 '+x0+' '+(y1-r)+' V'+(y0+r)+' A'+r+' '+r+' 0 0 0 '+(x0+r)+' '+y0+' Z'; }
+    sh.insertAdjacentHTML('beforeend','<svg class="frame" viewBox="0 0 '+fw+' '+fh+'" aria-hidden="true"><path class="f1" pathLength="1" d="'+cart(1.2,11.5)+'"/><path class="f2" d="'+cart(4.2,10)+'"/></svg>');
+    sh.style.height=fh+'px'; /* the sheet keeps its size while the filter hides rows, so its frame stays true */
+    evFilter(); }
+  function evFilter(){ var any=false; [].forEach.call(sheetHost.querySelectorAll('.pgrp'),function(g){ var shown=0; [].forEach.call(g.querySelectorAll('.erow'),function(r){ var ok=!evType||(' '+r.dataset.k+' ').indexOf(' '+evType+' ')>=0; r.hidden=!ok; r.style.display=ok?'':'none'; if(ok)shown++; }); g.hidden=!shown; g.style.display=shown?'':'none'; if(shown)any=true; });
+    var pn=document.getElementById('pnone'); if(pn)pn.hidden=any; [].forEach.call(sheetHost.querySelectorAll('[data-etype]'),function(b){ b.setAttribute('aria-pressed',b.dataset.etype===evType?'true':'false'); }); }
+  document.addEventListener('click',function(e){ if(e.target.closest&&e.target.closest('#evAll')){ storySheet(); return; }
+    var t=e.target.closest&&e.target.closest('[data-etype]'); if(t){ evType=t.dataset.etype; evFilter(); return; }
+    var r=e.target.closest&&e.target.closest('[data-ev]'); if(r){ var id=r.dataset.ev; closeSheet(); if(id!==HOME)say('Would open the event: '+name(id)); } });
   /* the date is the way to the timeline and the place is the way to the globe (mock actions) */
   document.getElementById('toTime').addEventListener('click',function(){ say('Would open the timeline at 28 June 1919, on this event'); });
   document.getElementById('toGlobe').addEventListener('click',function(){ say('Would open the globe at 1919, centred on Versailles'); });
