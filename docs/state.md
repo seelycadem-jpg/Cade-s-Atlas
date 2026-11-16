@@ -1112,3 +1112,15 @@ still frames showed doubled lines and flipped between soft and sharp.
   now agree with the sheet ("2 of 3 in this chapter", "7 events in the story").
 - Open for the master chat: the real page needs each story's ordered event list with chapter membership from the link
   table; and whether the sheet should also sort (by date, by size) as well as filter by type.
+
+### Event page hero: chapter-first events sheet, step links, italic "Also in" (sub chat, 2026-11-17)
+
+- A dot sits between the place and the type sign on the date line.
+- **Event row:** "2 of 3 in this chapter" is the link; "7 in the story" follows as plain text.
+- **Events sheet opens on this chapter**: chapter number, name and its events in order. A switch at the top reads
+  "This chapter | Whole story" (red underline on the chosen one); the whole story lists every chapter. The type
+  filter shows only the types present in the chosen scope and hides itself when there is one type.
+- **Step links:** "Previous event in this chapter" and "Next event in this chapter (1 more)". The count is the events
+  left in the chapter after this one. The arrows are gone; the names carry the thin red underline every link carries.
+  That is what lets both fit side by side on a 375px phone.
+- **"Also in 17 more stories"** is italic serif with no bold.
