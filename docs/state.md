@@ -1146,3 +1146,6 @@ still frames showed doubled lines and flipped between soft and sharp.
 - "Also in 17 more stories" stays italic serif at Cade's request; it is the hero's one italic.
 - Proposed rule for the master chat: a block of controls uses at most two type voices, and weight plus a darker grey,
   never a third face, marks what can be tapped.
+
+- Amended the same day (Cade): the story-view line reads "Reading within a story" again, in the small sans, italic,
+  sentence case. It is no longer a capitals label.
