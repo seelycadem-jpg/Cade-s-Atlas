@@ -101,11 +101,19 @@ Reach across regions and domains · Irreversibility · Explanatory load for toda
 ## Links
 
 Type (one): Structural · Material · Ideological · Reactive · Enabling · Precedent.
-Grade (one): Necessary · Sufficient · Contributing (default) · Contested · Coincident (kept).
+Grade (one): Necessary · Contributing (default) · Contested · Coincident (kept). Sufficient is withdrawn as a grade (Cade, 2026-11-12).
 Confidence (one): High · Moderate · Low.
-One mechanism per hop; long chains are split. Necessary/Sufficient require a counterfactual sentence; Contributing names the set and A's rank; Contested states each reading ("one reading holds …") with its evidence, without naming its authors. Ideological links need evidence the actors read or invoked the idea.
+One mechanism per hop; long chains are split. Necessary requires a counterfactual sentence; Contributing: the other causes are events with links in the chain, and the note names no rank and no list (Cade, 2026-11-12); Contested states each reading ("one reading holds …") with its evidence, without naming its authors. Ideological links need evidence the actors read or invoked the idea.
 
 Refinement (3 November 2026): the grade is the atlas's verdict; the confidence word says how sure; the objection in the note carries the challenge. A link the atlas judges real but which has a known case against it is graded (usually Contributing) at Low or Moderate confidence with the objection stated, never Contested. Contested is reserved for links where the readings are matched and the atlas withholds a verdict; it is rare. On the page, the Argument section states the atlas's verdict first and the challenge second. Confidence sets the line weight on every arrow (High heavy, Low thin); grade sets the line style.
+
+## The note as readers see it (Cade, 2026-11-12; page-system.md, The grades)
+
+The grade, the confidence and the years lead, then one plain sentence generated from the
+grade and naming both events. Then three parts: the claim (a Necessary line ends with what
+would be missing without the cause); the challenge, the strongest case against; the verdict,
+one or two sentences answering the challenge. A line with no real challenge shows the claim
+alone. No one writes the plain sentence by hand.
 
 ## Arrow note (60-100 words)
 
@@ -117,7 +125,7 @@ The event page structure, layers, word budgets, section rules, sourcing and file
 
 ## Grade visual language
 
-Necessary and Sufficient: solid, and drawn heavier than the rest, because they are the backbone (structure.md, 2026-11-11). Contributing: dashed. Contested: dotted. Coincident: grey with a cross-stroke (palette.md, which sets every colour). Same everywhere: timeline, dossier, story page.
+Necessary: solid, and drawn heavier than the rest, because it is the backbone (structure.md). Contributing: dashed. Contested: dotted. Coincident: grey with a cross-stroke (palette.md, which sets every colour). Same everywhere: timeline, dossier, story page.
 
 ## Politics
 

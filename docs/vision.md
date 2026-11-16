@@ -121,7 +121,7 @@ changed much grows. "How much of today it explains" is no part of the test; it l
 an event page's Lasting impact and, later, on the theme pages.
 
 What a chapter turns on is a separate judgment, carried by the link grades. An event whose
-link in a chapter is graded Necessary or Sufficient, with its counterfactual sentence, is
+link in a chapter is graded Necessary, with its counterfactual sentence, is
 part of that chapter's backbone, whatever its size. The backbone draws heavy on the thread
 and can be filtered. The timeline's Pull button shows the same judgment: pull such an
 event and the chain downstream greys out.

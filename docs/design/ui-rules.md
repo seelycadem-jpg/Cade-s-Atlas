@@ -5,6 +5,8 @@ check the ones that can be checked. Written from `docs/design/brief.md`, the nav
 rules in `docs/narrative-flow.md` (Getting around), `docs/timeline.md`, and the two design
 skills. Where a rule here and an older doc differ, this file wins once approved.
 
+> **Amended by `docs/design/page-system.md` (Cade, 2026-11-11 to 2026-11-17).** Where a rule here differs from an item that file marks decided, that file wins. The main changes: the hero's ladder of level rows replaces the breadcrumb (rule 15); the globe view opens only on a separate pull at the top of a page (rules 14 and 20); fewer floating pills (rule 6); the chain's filters remove events and every chain card is one size (rules 8 and 9, in the chain only); one plus sign for everything that opens and closes; no pop-up messages; nothing switches, everything eases; one gap between sections; a link with its own red sign carries no underline; words never cross the globe's edge; a block of controls uses two type voices at most; a gesture that leaves the page is a separate, deliberate pull.
+
 ## The three ideas behind every rule
 
 - **The globe is home.** Every place is reached from it and returns to it.
@@ -61,7 +63,7 @@ skills. Where a rule here and an older doc differ, this file wins once approved.
 8. **Three sizes, the same words everywhere:** knot, fibre, strand, in that order of
    size (Cade's decision, 2026-11-08). Each event has one size, rated by its impact on world history
    (docs/structure.md, 2026-11-11), and shows the same mark on every page. A chapter's thread
-   shows its events with their marks: knots, then fibres, then strands; a chapter with no knot opens at its fibres. The thread also shows what the chapter turns on: links graded Necessary or Sufficient draw heavy and solid, and a second filter cuts the thread to that backbone (docs/structure.md, 2026-11-11; designed in step 1.6). The depth control uses the same three
+   shows its events with their marks: knots, then fibres, then strands; a chapter with no knot opens at its fibres. The thread also shows what the chapter turns on: links graded Necessary draw heavy and solid, and a second filter cuts the thread to that backbone (docs/structure.md, 2026-11-11; designed in step 1.6). The depth control uses the same three
    words with their marks, and every chain view carries the one-line key. This is the strategic-to-tactical ladder: a reader at any level can see
    the level above (the breadcrumb, the parent chronicle) and the level below (the next
    depth word, the linked names) from where they stand. Size is shown, never said: a

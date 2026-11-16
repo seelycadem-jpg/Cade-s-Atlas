@@ -25,6 +25,16 @@ What is never room: skipping a wall because the event is small, padding a sectio
 
 ## The layers
 
+**The order since 2026-11-17 (Cade, with the event sub chat; mock `docs/design/mocks/event-v12.html`,
+spec `docs/design/page-system.md`):** the bottom line in one paragraph; Overview, with its
+graphic last where it has one; Historical Chain (a sideways web: causes run in from the left,
+effects out to the right, with "What caused it" and "What it caused" as the labels of its two
+sides); The Record, ending in the exits; Meanwhile. Historical significance, Lasting impact,
+What caused it, What it caused, and Before and after have no section of their own; their
+content lives in the bottom line, the Overview, the chain and The Record. Every event page
+ends with its Sources list (Sourcing, below). The paragraph and the tables that follow
+describe the order of 2026-11-08 and are read through this one until they are rewritten.
+
 The page's order (Cade, 2026-11-08, after the tenth mock): Historical significance
 (what it was in one or two sentences, then why it matters as bullets); Lasting impact
 (the long so-what, by region where the event reached several); What caused it (prose,

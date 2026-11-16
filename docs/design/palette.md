@@ -1,5 +1,7 @@
 # The palette: the red thread on espresso (Cade's choices, 2026-11-08)
 
+> **Amended by `docs/design/page-system.md` (Cade, 2026-11-11 to 2026-11-17).** That file wins on every item it marks decided. The main changes: titles are set in Cormorant Garamond (EB Garamond before); gilt also draws the cartouche round every sheet, the corner marks on a picture, the signs and the plus sign; red also marks what opens something (a sign on a link, a stepper arrow, the chosen side of a switch); the divider diamond is gone and one gap separates sections; a link that carries its own red sign has no underline.
+
 One idea: the product is the link, so the link gets the only loud colour. A warm paper
 ground, warm-black text with espresso titles, and one red used for the chain alone: the knots, the
 connectors, the years, the Globe pill. Everything else is quiet. Links in text are ink
@@ -85,8 +87,7 @@ Chosen from eight candidates shown on the same slice of story page, light and da
   shift as the number changes (Cade, 2026-11-08). A frame that only followed the scroll was tried
   and dropped (Cade, 2026-11-08). The page ends with enough room for its last section to
   reach the reading line, so every tab can be selected by scrolling.
-- Grades are told by line style, never by colour alone: solid for Necessary and
-  Sufficient, dashed for Contributing, dotted for Contested, grey with a cross-stroke for
+- Grades are told by line style, never by colour alone: solid for Necessary, dashed for Contributing, dotted for Contested, grey with a cross-stroke for
   Coincident.
 - The three marks sit in the accent (diamond, filled dot) and in `--ink3` (open ring).
 - The dark side is built from this table, shifted, never inverted; every text token is

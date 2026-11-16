@@ -139,7 +139,7 @@ they lived. It is counted in people, never in countries.
 | Part of one: a city, an institution, an army, a movement | Strand |
 
 - **How far reach travels.** Reach counts the event's direct effects, plus the
-  consequences joined to it by links graded Necessary or Sufficient: the ones that would
+  consequences joined to it by links graded Necessary: the ones that would
   not have happened without it. Weaker links carry no reach. The printing press reaches
   as far as its backbone runs, and no further.
 - **Its world** is the connected world of its day: before 1492 the Americas are a world of
@@ -164,7 +164,9 @@ they lived. It is counted in people, never in countries.
   past the 25 years and is rated in full; the United States election of 2024 holds the
   size its recorded consequences support and is rated again as links are added.
 - **Cause or mark.** Had a named earlier event already decided this outcome? The drop
-  applies only when that earlier event is in the link table with a link graded Sufficient.
+  applies only when that earlier event is in the link table with a link flagged "decided
+  the outcome" (a yes or no in the data, with its sentence in the note; Sufficient is no
+  longer a grade).
   Japan's surrender ceremony of 2 September 1945 marked an outcome that the events of
   August had decided, so it drops, and the size sits with them. Where a change came from
   slow conditions that no single event carries, the event that brought it keeps its size,
@@ -206,7 +208,7 @@ Versailles carries the same size in every chapter that holds it.
 
 Size says how big an event was in world history. The grade on its link says how much a
 chapter depends on it, and that changes from chapter to chapter. A chapter turns on the
-events whose links in it are graded Necessary or Sufficient: its backbone.
+events whose links in it are graded Necessary: its backbone.
 
 - **Visible.** On a chapter's thread the backbone draws as a heavy solid red line; a
   Contributing link draws lighter and dashed, a Contested one dotted (house-style.md, Links).

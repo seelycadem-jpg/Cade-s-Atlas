@@ -25,6 +25,11 @@ past it.
 7. **One source, one build.** Content lives in `content/`; the pipeline checks and
    prepares it; Astro turns it into pages; nothing built is edited by hand.
 
+**Following the finger (Cade and the event sub chat, 2026-11-17).** Anything that follows
+the reader's finger is drawn in full within one screen frame. For the globe that means map
+data thinned to its size on screen. Pre-drawn frames are never blended. This is a budget
+like the others: measured on a mid-range phone before it ships.
+
 ## Where things live
 
 | Folder | Holds |
