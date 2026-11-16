@@ -1,12 +1,11 @@
 # Source access: where the agents read (draft, 2026-11-16)
 
 The verification loop (agents.md, Source verification) only works where a session can
-fetch the source. Today the environment allows three hosts (developers.cloudflare.com,
-commons.wikimedia.org, upload.wikimedia.org), so almost every source below is blocked.
-Each host is added to the environment with Cade's approval; a key is entered by Cade in a
-secure form and never pasted into a chat.
+fetch the source. Since 2026-11-16 the cloud environment reaches any public website
+(Cade's decision), so the hosts below need no approval; the list says where to look first.
+A key is entered by Cade in a secure form and never pasted into a chat.
 
-## 1. Free and open, no key (add first)
+## 1. Free and open, no key
 
 | Host | What it gives | Used for |
 | --- | --- | --- |
