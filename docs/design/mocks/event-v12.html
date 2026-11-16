@@ -1660,6 +1660,34 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .escope button{min-height:32px;font:500 13px/1 var(--ui);color:var(--ink3);border-bottom:1px solid transparent}
 .escope button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--accent)}
 .echips{margin-top:2px}
+/* Figures that open their source; the Sources list; Cite this page (Cade and the master chat, 2026-11-17) */
+.fsrc{font:inherit;color:inherit;display:inline;padding:0;border-bottom:1px dotted var(--ink3);cursor:pointer;-webkit-tap-highlight-color:transparent}
+.fsrc[aria-expanded="true"]{border-bottom:1px solid var(--gilt)}
+.srcnote{display:grid;grid-template-rows:0fr;transition:grid-template-rows .28s ease,opacity .28s ease,margin .28s ease;opacity:0;margin:-8px 0 0}
+.srcnote.on{grid-template-rows:1fr;opacity:1;margin:-6px 0 14px}
+.srcnote>div{overflow:hidden;min-height:0}
+.srcnote .in{border-left:2px solid var(--gilt);padding:2px 0 2px 12px;font:13px/1.5 var(--ui);color:var(--ink2)}
+.srcnote b{font-weight:600;color:var(--ink)}
+.srcnote dl{display:grid;grid-template-columns:auto 1fr;gap:1px 10px;margin:4px 0 6px}
+.srcnote dt{color:var(--ink3)} .srcnote dd{margin:0}
+.srcnote .go{font:500 12.5px/1 var(--ui);color:var(--ink);text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:3px;min-height:28px}
+.srcrec{margin-top:6px}
+.srclist{margin:0 0 10px;padding:0 0 0 1.4em;display:grid;gap:12px}
+.srclist li{font:13px/1.4 var(--ui);color:var(--ink2);scroll-margin-top:200px}
+.srclist li::marker{color:var(--ink3);font-variant-numeric:tabular-nums}
+.srclist li span{display:block}
+.srclist .sk{font:500 9.5px/1.2 var(--ui);letter-spacing:.11em;text-transform:uppercase;color:var(--ink3);margin-bottom:3px}
+.srclist .st{font:500 16px/1.3 var(--display);color:var(--title)}
+.srclist li.hit .st{color:var(--accent)}
+.srcrec .b .srcfoot{font:italic 12px/1.4 var(--ui);color:var(--ink3);margin:0 0 12px}
+.srcrec .srclist .sm{font:12.5px/1.4 var(--ui);color:var(--ink3)}
+.citerow{margin:12px 0 0}
+.citerow button{display:inline-flex;align-items:center;gap:7px;min-height:44px;font:500 13px/1 var(--ui);color:var(--ink2)}
+.citerow svg{width:15px;height:15px;color:var(--accent)}
+.citebox{margin:12px 16px 6px;padding:12px;border:1px solid var(--rule);background:var(--bg);font:15px/1.45 var(--display);color:var(--ink);user-select:all;-webkit-user-select:all;overflow-wrap:anywhere}
+.citeact{display:flex;align-items:center;gap:14px;margin:0 16px 14px}
+.citeact button{min-height:40px;padding:0 14px;border:1px solid var(--ink3);font:500 13px/1 var(--ui);color:var(--ink)}
+.citeact span{font:12px/1.3 var(--ui);color:var(--ink3)}
 html{overscroll-behavior-y:none}
 :root.gopen,:root.gopen body{overflow:hidden}
 </style>
@@ -1711,7 +1739,7 @@ html{overscroll-behavior-y:none}
 
 <section class="layer" id="overview">
     <h2>Overview</h2>
-    <p>The treaty ended the war between Germany and the Allies. Germany survived as a republic. It lost 13 percent of its European territory, all its colonies and most of its army. France and Poland gained the land. The Allies set reparations at 132 billion gold marks in 1921, and Germany paid about 20 billion.</p>
+    <p>The treaty ended the war between Germany and the Allies. Germany survived as a republic. It lost <button type="button" class="fsrc" data-fsrc="1">13 percent of its European territory</button>, all its colonies and most of its army. France and Poland gained the land. The Allies set reparations at <button type="button" class="fsrc" data-fsrc="2">132 billion gold marks</button> in 1921, and Germany paid <button type="button" class="fsrc" data-fsrc="3">about 20 billion</button>.</p>
     <p>Germany had no seat at the conference that wrote the terms. Its delegation received them on 7 May 1919 and signed on 28 June under threat of invasion. Every enemy of the new republic held the signature against it.</p>
     <p>The treaty had no means of enforcement. The US Senate rejected it, and the League of Nations had no army. By the 1930s Britain and France would not enforce the terms alone.</p>
     <div class="fig bam g2" style="margin-top:18px" id="bam">
@@ -1829,6 +1857,19 @@ html{overscroll-behavior-y:none}
       </details>
     </div>
     <div class="exits recexits"><span>Read more elsewhere</span><a href="https://en.wikipedia.org/wiki/Treaty_of_Versailles">Wikipedia</a><a href="https://www.britannica.com/event/Treaty-of-Versailles-1919">Britannica</a></div>
+    <!-- PLACEHOLDER SOURCES. No entry below is a real citation: the rule is that no source is cited unless an agent
+         fetched it and a verifier passed it. These rows show the layout only. All of it is in the page when it loads. -->
+    <div class="rec srcrec" id="srcRec">
+      <details id="sources">
+        <summary><span class="h">Sources</span><span class="s">Where the figures and quotations on this page come from.</span></summary>
+        <div class="b"><ol class="srclist">
+          <li id="src1"><span class="sk">Primary record</span><span class="st">Placeholder source 1: the text of the treaty</span><span class="sm">Author · title · year · archive · link (to come)</span></li>
+          <li id="src2"><span class="sk">Primary record</span><span class="st">Placeholder source 2: the schedule that set the reparations</span><span class="sm">Author · title · year · archive · link (to come)</span></li>
+          <li id="src3"><span class="sk">Scholarship</span><span class="st">Placeholder source 3: a study of what Germany paid</span><span class="sm">Author · title · year · publisher · link (to come)</span></li>
+        </ol><p class="srcfoot">Placeholder list: the mock shows the layout, and cites nothing.</p></div>
+      </details>
+    </div>
+    <div class="citerow"><button type="button" id="citeBtn" aria-haspopup="dialog"><svg viewBox="0 0 16 16" fill="none" stroke="currentColor" stroke-width="1.3" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M3.5 2.5h6l3 3v8h-9z"/><path d="M9.5 2.5v3h3M5.5 8.5h5M5.5 11h5"/></svg>Cite this page</button></div>
   </section>
 
   <section class="layer" id="meanwhile">
@@ -2651,6 +2692,30 @@ html{overscroll-behavior-y:none}
       document.getElementById('pnone').hidden=any; });
     var cur=sheetHost.querySelector('.prow[aria-current]'), list=document.getElementById('plist'); if(cur&&list)list.scrollTop=Math.max(0,cur.offsetTop-list.offsetTop-60); }
   document.getElementById('alsoin').addEventListener('click',placeSheet);
+  /* A figure is a tap: its note opens under the paragraph, in the page, and closes on a second tap. PLACEHOLDER
+     contents: the basis repeats the mock's own "By the numbers" table; source and year are to come. */
+  var FSRC={1:{b:'Treaty terms'},2:{b:'London Schedule of Payments, 1921'},3:{b:'To come'}}, fOpen=null;
+  function fClose(){ if(!fOpen)return; var n=fOpen.note, b=fOpen.btn; b.setAttribute('aria-expanded','false'); n.classList.remove('on'); setTimeout(function(){ if(n.parentNode&&!n.classList.contains('on'))n.parentNode.removeChild(n); },300); fOpen=null; }
+  document.addEventListener('click',function(e){ var b=e.target.closest&&e.target.closest('.fsrc');
+    if(b){ var same=fOpen&&fOpen.btn===b; fClose(); if(same)return; var k=b.dataset.fsrc, d=FSRC[k]||{}, p0=b.closest('p,li'), n=document.createElement('div'); n.className='srcnote';
+      n.innerHTML='<div><div class="in"><b>'+esc(b.textContent.replace(/\s+/g,' '))+'</b><dl><dt>Source</dt><dd>Placeholder source '+k+'</dd><dt>Year</dt><dd>To come</dd><dt>Basis</dt><dd>'+esc(d.b||'To come')+'</dd><dt>Range</dt><dd>To come, where sources disagree</dd></dl><button type="button" class="go" data-gosrc="'+k+'">Show in Sources</button></div></div>';
+      p0.parentNode.insertBefore(n,p0.nextSibling); b.setAttribute('aria-expanded','true'); fOpen={btn:b,note:n}; requestAnimationFrame(function(){ requestAnimationFrame(function(){ n.classList.add('on'); }); }); return; }
+    var g=e.target.closest&&e.target.closest('[data-gosrc]'); if(g){ var det=document.getElementById('sources'), li=document.getElementById('src'+g.dataset.gosrc); det.open=true; [].forEach.call(document.querySelectorAll('.srclist li.hit'),function(x){ x.classList.remove('hit'); }); if(li){ li.classList.add('hit'); li.scrollIntoView({block:'center',behavior:reduced?'auto':'smooth'}); } return; } });
+  [].forEach.call(document.querySelectorAll('.fsrc'),function(b){ b.setAttribute('aria-expanded','false'); });
+  /* Cite this page: the reader picks the style; the date is today's. The page address is a placeholder in the mock. */
+  var citeFmt='apa';
+  function citeText(){ var t=name(HOME), d=new Date(), M=['January','February','March','April','May','June','July','August','September','October','November','December'], m3=['Jan.','Feb.','Mar.','Apr.','May','June','July','Aug.','Sept.','Oct.','Nov.','Dec.'], url='[page address]';
+    if(citeFmt==='mla')return '\u201c'+t+'.\u201d <i>Meanwhile Atlas</i>, '+url+'. Accessed '+d.getDate()+' '+m3[d.getMonth()]+' '+d.getFullYear()+'.';
+    if(citeFmt==='chicago')return 'Meanwhile Atlas. \u201c'+t+'.\u201d Accessed '+M[d.getMonth()]+' '+d.getDate()+', '+d.getFullYear()+'. '+url+'.';
+    return 'Meanwhile Atlas. (n.d.). <i>'+t+'</i>. Retrieved '+M[d.getMonth()]+' '+d.getDate()+', '+d.getFullYear()+', from '+url; }
+  function citeSheet(){ var F=[['apa','APA'],['mla','MLA'],['chicago','Chicago']];
+    var h='<div class="ph"><button type="button" class="xbtn" data-close aria-label="Close"><i><svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M2 2l8 8M10 2l-8 8"/></svg></i></button>'
+      +'<div class="kind">Cite this page</div><h3>'+esc(name(HOME))+'</h3><div class="escope" role="group" aria-label="Citation style">'+F.map(function(f){ return '<button type="button" data-cite="'+f[0]+'" aria-pressed="'+(citeFmt===f[0]?'true':'false')+'">'+f[1]+'</button>'; }).join('')+'</div></div>'
+      +'<div class="citebox" id="citeBox">'+citeText()+'</div><div class="citeact"><button type="button" id="citeCopy">Copy</button><span>The page address is a placeholder in this mock.</span></div>';
+    openSheet(h,'Cite this page','places'); }
+  document.getElementById('citeBtn').addEventListener('click',citeSheet);
+  document.addEventListener('click',function(e){ var c=e.target.closest&&e.target.closest('[data-cite]'); if(c){ citeFmt=c.dataset.cite; document.getElementById('citeBox').innerHTML=citeText(); [].forEach.call(sheetHost.querySelectorAll('[data-cite]'),function(b){ b.setAttribute('aria-pressed',b.dataset.cite===citeFmt?'true':'false'); }); document.getElementById('citeCopy').textContent='Copy'; return; }
+    var cp=e.target.closest&&e.target.closest('#citeCopy'); if(cp){ var tx=document.getElementById('citeBox').textContent; try{ if(navigator.clipboard&&navigator.clipboard.writeText){ navigator.clipboard.writeText(tx).then(function(){ cp.textContent='Copied'; },function(){ cp.textContent='Select the text to copy'; }); } else cp.textContent='Select the text to copy'; }catch(er){ cp.textContent='Select the text to copy'; } } });
   /* One switch for the story view (Cade, 2026-11-17): clearing it drops the ladder and takes the story filter off the
      chain; choosing a story again puts both back. */
   function chainStory(v){ if(story===v)return; story=v; try{ bar(); change(); toCol(0,false); sync(); kick(); }catch(e){} }
