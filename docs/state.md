@@ -1040,3 +1040,16 @@ Replaces the two entries above on how the globe view opens.
 - The hint reads "Globe 1919 · pull down to open".
 - Not yet checked on a real phone: whether Safari, or the Claude app's own frame, takes the pull for its own
   pull-to-refresh or bounce before the page sees it.
+
+### Event page hero: smoothness pass, buzz on entering the globe, plainer date line (sub chat, 2026-11-16)
+
+- **Smoothness.** A frame-timing test on a processor slowed four times found the globe's turn stalled every other
+  frame: each step of the turn redrew the whole globe. The turn is now drawn ahead of time as 20 still frames, and the
+  moving globe shows the two nearest, blended; the full drawing returns when the globe rests. Finger moves are applied
+  once per screen frame. Rule proposed for the master chat: nothing that follows the finger may redraw the globe in
+  full; draw ahead, or move a finished picture.
+- **Buzz.** The page buzzes once where the push commits (and again if the reader backs out). This works on phones
+  whose browser lets a page buzz (Android). iPhone Safari gives a tick only when a finger taps a real switch, so a
+  pull cannot tick there.
+- **Date line.** The type sign is gone from the hero. The date is no longer bold; it reads in the same weight and
+  colour as the place. The line is now: red sign, date, red sign, place.

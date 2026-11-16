@@ -1584,7 +1584,7 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 .gview .gb{display:inline-flex;align-items:center;gap:6px;min-height:44px;padding:0 4px;font:500 14px/1 var(--ui);color:var(--ink)}
 .gview .gb svg{color:var(--accent)}
 .gview .gn{font:11px/1.4 var(--ui);color:var(--ink3);margin:10px 0 0}
-.tw .sub b{color:var(--ink)}
+.tw .sub b{color:inherit;font-weight:inherit}
 .tw .sub .pkinds{display:inline-flex;align-items:center;gap:6px}
 .tw .sub .pkinds span{display:inline-flex}
 .tw .sub .pkinds .ki{width:15px;height:15px;fill:none;stroke:var(--gilt);color:var(--gilt);stroke-width:1.25;--kibg:var(--bg)}
@@ -1622,7 +1622,7 @@ html{overscroll-behavior-y:none}
     <button type="button" class="alsoin" id="alsoin" aria-haspopup="dialog"><span id="alsoTxt"></span><svg viewBox="0 0 10 10" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M1.5 3.5L5 7l3.5-3.5"/></svg></button>
   </nav>
   <h1>The Treaty of Versailles</h1>
-  <div class="sub" id="sub"><span><button type="button" class="jump" id="toTime" aria-label="28 June 1919. See this event on the timeline"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M1.5 12h21"/><path class="d" d="M1.5 9.5v5M22.5 9.5v5"/><path class="s" d="M7 8.2L10.2 12 7 15.8 3.8 12z"/><path class="f" d="M12.1 12a1.9 1.9 0 1 0 3.8 0a1.9 1.9 0 1 0 -3.8 0z"/><path class="s" d="M17.7 12a1.8 1.8 0 1 0 3.6 0a1.8 1.8 0 1 0 -3.6 0z"/></svg><b>28 June 1919</b></button></span><span class="rest">·</span><span class="rest"><button type="button" class="jump" id="toGlobe" aria-label="Versailles, France. See this event on the globe"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M12 1.4a8.6 8.6 0 0 1 0 17.2M12 18.6V21M8 21.5h8"/><path class="s" d="M12 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/><path class="d" d="M12 3c-3.2 2.4-3.2 11.6 0 14M5 10h14"/></svg>Versailles, France</button></span><span class="rest" id="pKindsDot">·</span><span class="rest pkinds" id="pKinds"></span></div>
+  <div class="sub" id="sub"><span><button type="button" class="jump" id="toTime" aria-label="28 June 1919. See this event on the timeline"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M1.5 12h21"/><path class="d" d="M1.5 9.5v5M22.5 9.5v5"/><path class="s" d="M7 8.2L10.2 12 7 15.8 3.8 12z"/><path class="f" d="M12.1 12a1.9 1.9 0 1 0 3.8 0a1.9 1.9 0 1 0 -3.8 0z"/><path class="s" d="M17.7 12a1.8 1.8 0 1 0 3.6 0a1.8 1.8 0 1 0 -3.6 0z"/></svg><b>28 June 1919</b></button></span><span class="rest">·</span><span class="rest"><button type="button" class="jump" id="toGlobe" aria-label="Versailles, France. See this event on the globe"><svg class="ki jmp" viewBox="0 0 24 24" aria-hidden="true"><path class="l" d="M12 1.4a8.6 8.6 0 0 1 0 17.2M12 18.6V21M8 21.5h8"/><path class="s" d="M12 3a7 7 0 1 0 0 14 7 7 0 0 0 0-14z"/><path class="d" d="M12 3c-3.2 2.4-3.2 11.6 0 14M5 10h14"/></svg>Versailles, France</button></span></div>
 </div>
 
 <main class="wrap pic-c fr-corners" id="mainEl">
@@ -1842,10 +1842,10 @@ html{overscroll-behavior-y:none}
   var rot=[-VERS[0],-VERS[1]], pins=[{c:VERS,main:true,label:'Versailles'}];
   var land=A.land&&window.topojson?topojson.feature(A.land,A.land.objects.land):null;
   var L19=A.borders&&window.topojson?{f:topojson.feature(A.borders,A.borders.objects.cs),m:topojson.mesh(A.borders,A.borders.objects.cs,function(a,b){return a!==b})}:null;
-  function draw(cv,size){ if(!window.d3||!cv)return; var dpr=Math.min(2,window.devicePixelRatio||1); var S=size||cv.clientWidth||cv.width;
+  function draw(cv,size,tOv,dOv){ if(!window.d3||!cv)return; var dpr=dOv||Math.min(2,window.devicePixelRatio||1); var S=size||cv.clientWidth||cv.width;
     if(cv.width!==Math.round(S*dpr)){cv.width=Math.round(S*dpr);cv.height=Math.round(S*dpr);cv.style.width=S+'px';cv.style.height=S+'px';}
     var c=cv.getContext('2d'); c.setTransform(dpr,0,0,dpr,0,0); var r=S/2-1.5;
-    var rr=cv===hero?[rot[0],rot[1]-tilt]:rot; var proj=d3.geoOrthographic().translate([S/2,S/2]).scale(r).rotate(rr).clipAngle(90), path=d3.geoPath(proj,c);
+    var rr=tOv!=null?[rot[0],rot[1]-tOv]:cv===hero?[rot[0],rot[1]-tilt]:rot; var proj=d3.geoOrthographic().translate([S/2,S/2]).scale(r).rotate(rr).clipAngle(90), path=d3.geoPath(proj,c);
     c.clearRect(0,0,S,S);
     c.beginPath();path({type:'Sphere'});c.fillStyle=css('--sea');c.fill();
     c.beginPath();path(d3.geoGraticule10());c.strokeStyle=css('--grat');c.lineWidth=.6;c.stroke();
@@ -1910,7 +1910,19 @@ html{overscroll-behavior-y:none}
      a fresh turn of the wheel. The push is weighted, and letting go before 60% returns to the event. */
   var gview=document.getElementById('gview'), mainEl0=document.getElementById('mainEl'), spacer0=document.getElementById('spacer'), gv=0, gOpen=false, gAnim=null;
   function sm01(x){ x=Math.max(0,Math.min(1,x)); return x*x*(3-2*x); }
-  function setTilt(){ var t=TILT*(1-sm01(gv))*(1-sm01((M.q||0)*1.6)); if(Math.abs(t-tilt)>0.15||(t===0&&tilt!==0)){ tilt=t; draw(hero,GS); } }
+  /* Turning the globe means drawing it again, and a full drawing costs more than one screen frame on a phone. So the
+     turn is drawn ahead of time as a run of still frames, and the moving globe shows the two nearest, blended. The
+     full drawing returns when the globe comes to rest. A globe the reader has turned by hand is drawn live. */
+  var TF=[], TFN=20, TFkey='', TFbusy=false, crispT, buildT;
+  function tfKey(){ return rot[0].toFixed(2)+'|'+rot[1].toFixed(2)+'|'+GS+'|'+css('--land')+css('--sea'); }
+  function buildFrames(){ if(!window.d3||!GS||TFbusy)return; var key=tfKey(); if(key===TFkey&&TF.length===TFN)return; TFbusy=true; TF=[]; TFkey=key; var i=0;
+    (function next(){ if(tfKey()!==key){ TFbusy=false; TF=[]; TFkey=''; return; } var cv=document.createElement('canvas'); draw(cv,GS,TILT*i/(TFN-1),1.5); TF.push(cv); i++; if(i<TFN)setTimeout(next,24); else TFbusy=false; })(); }
+  function queueFrames(){ clearTimeout(buildT); buildT=setTimeout(buildFrames,500); }
+  function setTilt(){ var t=TILT*(1-sm01(gv))*(1-sm01((M.q||0)*1.6)); if(!(Math.abs(t-tilt)>0.15||(t===0&&tilt!==0)))return; tilt=t;
+    if(TF.length===TFN&&!TFbusy&&TFkey===tfKey()&&hero.width){ var f=t/TILT*(TFN-1), lo=Math.max(0,Math.min(TFN-1,Math.floor(f))), hi=Math.min(TFN-1,lo+1), a=f-lo, c=hero.getContext('2d');
+      c.setTransform(1,0,0,1,0,0); c.clearRect(0,0,hero.width,hero.height); c.globalAlpha=1; c.drawImage(TF[lo],0,0,hero.width,hero.height); if(a>0.02){ c.globalAlpha=a; c.drawImage(TF[hi],0,0,hero.width,hero.height); c.globalAlpha=1; }
+      clearTimeout(crispT); crispT=setTimeout(function(){ draw(hero,GS); },160); }
+    else { draw(hero,GS); queueFrames(); } }
   function globeView(v){ gv=v; var tr=v>0?'0px '+(v*130).toFixed(2)+'px':'none';
     put(tw,'twv','translate',tr); put(mainEl0,'mnv','translate',tr); put(spacer0,'spv','translate',tr);
     var sG=Math.min(1,(W-28)/GS), yC=Math.max(64,(H-GS*sG)/2-36), gs=lerp(1,sG,v);
@@ -1925,14 +1937,18 @@ html{overscroll-behavior-y:none}
     gOpen=to===1; root.classList.toggle('gopen',gOpen);
     (function step(now){ var k=D?Math.min(1,(now-t0)/D):1, e=1-Math.pow(1-k,3); globeView(lerp(from,to,e)); if(k<1)gAnim=requestAnimationFrame(step); else gAnim=null; })(t0); }
   function weight(r){ return Math.pow(Math.max(0,Math.min(1,r)),1.7); }
-  var PUSH=300, tch=null;
+  var PUSH=300, tch=null, pend=0, pendQ=false;
+  /* a short buzz where the push commits; phones whose browser cannot buzz from a page stay silent */
+  function buzz(){ try{ if(navigator.vibrate)navigator.vibrate(10); }catch(e){} }
   function atTop(){ return window.scrollY<=0; }
   window.addEventListener('touchstart',function(e){ tch=null; if(e.touches.length!==1)return; var el=e.target;
     if(el===hero||(el.closest&&el.closest('dialog,[role="dialog"]')))return; if(!gOpen&&!atTop())return;
     tch={x:e.touches[0].clientX,y:e.touches[0].clientY,on:false,r:gOpen?1:0}; },{passive:true});
   window.addEventListener('touchmove',function(e){ if(!tch)return; var dy=e.touches[0].clientY-tch.y, dx=e.touches[0].clientX-tch.x;
     if(!tch.on){ if(Math.abs(dy)<8)return; if(Math.abs(dx)>Math.abs(dy)||(gOpen?dy>0:dy<0)){ tch=null; return; } tch.on=true; if(gAnim){cancelAnimationFrame(gAnim);gAnim=null;} }
-    if(e.cancelable)e.preventDefault(); tch.r=gOpen?1-Math.max(0,Math.min(1,-dy/PUSH)):Math.max(0,Math.min(1,dy/PUSH)); globeView(gOpen?1-weight(1-tch.r):weight(tch.r)); },{passive:false});
+    if(e.cancelable)e.preventDefault(); tch.r=gOpen?1-Math.max(0,Math.min(1,-dy/PUSH)):Math.max(0,Math.min(1,dy/PUSH));
+    var past=gOpen?tch.r<0.4:tch.r>=0.6; if(past!==!!tch.past){ tch.past=past; buzz(); }
+    pend=gOpen?1-weight(1-tch.r):weight(tch.r); if(!pendQ){ pendQ=true; requestAnimationFrame(function(){ pendQ=false; if(tch&&tch.on)globeView(pend); }); } },{passive:false});
   function touchDone(){ if(!tch||!tch.on){ tch=null; return; } var r=tch.r; tch=null; globeTo(gOpen?(r<0.4?0:1):(r>=0.6?1:0)); }
   window.addEventListener('touchend',touchDone,{passive:true}); window.addEventListener('touchcancel',touchDone,{passive:true});
   /* the wheel: a turn that is still running from the scroll up the page does not count; a fresh one does */
@@ -2695,7 +2711,7 @@ html{overscroll-behavior-y:none}
   pageLayout(); layout('init'); frameAll();
   /* a phone fires 'resize' each time its address bar hides or shows. Only a change of width rebuilds the web. */
   var rz, lastW=scroller.clientWidth; window.addEventListener('resize',function(){ pageLayout(); clearTimeout(rz); rz=setTimeout(function(){ frameAll(); var w=scroller.clientWidth; if(w===lastW)return; lastW=w; layout('resize'); },150); });
-  window.addEventListener('load',function(){ pageLayout(); frameAll(); if(PULL&&window.scrollY<PULL){ window.scrollTo(0,PULL); onScroll(true); } });
+  window.addEventListener('load',function(){ pageLayout(); frameAll(); queueFrames(); if(PULL&&window.scrollY<PULL){ window.scrollTo(0,PULL); onScroll(true); } });
   window.addEventListener('pageshow',function(){ if(PULL&&window.scrollY<PULL){ window.scrollTo(0,PULL); onScroll(true); } });
   try{ if('scrollRestoration' in history)history.scrollRestoration='manual'; }catch(e){}
   if(PULL&&window.scrollY<2){ window.scrollTo(0,PULL); onScroll(true); }
