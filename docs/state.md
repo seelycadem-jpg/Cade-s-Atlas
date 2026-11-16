@@ -1096,3 +1096,66 @@ still frames showed doubled lines and flipped between soft and sharp.
   row says it. A reader with no route still gets the one line and the offer to choose a story.
 - The two named buttons keep their top rule and lose their bottom rule.
 - On trial: Cade has not yet confirmed these.
+
+### Event page hero: Event row in the ladder, hint clear of the globe, type signs in the globe view (sub chat, 2026-11-16)
+
+- **Event is the ladder's last row.** Chronicle, Story, Chapter, Event share one label column, and the title follows
+  as the event's name. The Event row carries two counts in small grey text and no arrows: "2 of 5 in this chapter ·
+  6 events in the story". PLACEHOLDER figures: "2 of 5" was already a placeholder; the story count is the number of
+  the mock chain's events that the stand-in story holds. The real page needs both from the link table.
+- **Hint.** "Globe 1919 · pull down to open" is centred under the globe's lowest point, smaller and lighter, and no
+  longer crosses the globe's edge. The title block sits 26px lower to make room.
+- **Type signs** show in the globe view, after the date and place. They stay out of the hero.
+- Proposed rule for the master chat: words never cross the edge of the globe; a caption for the globe sits clear of it.
+
+### Event page hero: the story's events sheet, plainer step buttons, type sign after the place (sub chat, 2026-11-17)
+
+- **Type sign after the place** on the hero's date line (Cade reversed the earlier removal). No dot before it.
+- **Step buttons** under the title read "Previous event in this chapter" and "Next event in this chapter", in small
+  sentence-case grey. They carry no rules and sit closer to the date line. Cade weighed a count of events remaining
+  and left it out.
+- **"7 events in the story" is a link** on the Event row. It opens a sheet: the story's name, the events under their
+  chapters in order, each with its size mark, year, country and type signs; the page's own event marked "This page".
+  A row of type filters (All, then each type the story holds) shows one type at a time. Tapping an event opens it.
+- PLACEHOLDER data throughout that sheet: the six events are the chain's events the old arc holds; the three chapter
+  names and the split are made up for the mock; "The Armistice" is a row with no event behind it. The hero's counts
+  now agree with the sheet ("2 of 3 in this chapter", "7 events in the story").
+- Open for the master chat: the real page needs each story's ordered event list with chapter membership from the link
+  table; and whether the sheet should also sort (by date, by size) as well as filter by type.
+
+### Event page hero: chapter-first events sheet, step links, italic "Also in" (sub chat, 2026-11-17)
+
+- A dot sits between the place and the type sign on the date line.
+- **Event row:** "2 of 3 in this chapter" is the link; "7 in the story" follows as plain text.
+- **Events sheet opens on this chapter**: chapter number, name and its events in order. A switch at the top reads
+  "This chapter | Whole story" (red underline on the chosen one); the whole story lists every chapter. The type
+  filter shows only the types present in the chosen scope and hides itself when there is one type.
+- **Step links:** "Previous event in this chapter" and "Next event in this chapter (1 more)". The count is the events
+  left in the chapter after this one. The arrows are gone; the names carry the thin red underline every link carries.
+  That is what lets both fit side by side on a 375px phone.
+- **"Also in 17 more stories"** is italic serif with no bold.
+
+### Event page hero: one switch for the story view; arrows back on the step buttons (sub chat, 2026-11-17)
+
+- **Story view line.** Above the ladder: "Reading within a story" on the left, "Clear story view ×" on the right.
+- **Clearing is one switch for the page.** It drops the ladder to the no-route hero ("This event belongs to 18
+  stories. Choose a story to read it within") and takes the story filter off the chain. Choosing a story again puts
+  the ladder back and turns the chain's filter on for that story. Rule proposed for the master chat: the hero's story
+  and the chain's story filter are one state; no page shows one story in the hero and another in the chain unless the
+  reader changed the chain's filter by hand afterwards.
+- **Step buttons** have their red arrows again, beside the event's name on the second line, with the label above.
+  The names lost the underline they briefly had. Both fit side by side at 375px.
+- The title sits about 10px closer to the Event row.
+
+### Event page hero: two voices only (sub chat, 2026-11-17)
+
+- The hero's type is held to two voices. Labels are the ladder's small sans capitals; names are the serif.
+- The story-view line follows that: "STORY VIEW" as a ladder label on the left, "Clear story view ×" on the right.
+- In the small sans, anything a reader can tap is the darker grey at medium weight ("Clear story view", "2 of 3 in
+  this chapter"); plain counts stay light grey. The × is grey; red stays for arrows, signs and link underlines.
+- "Also in 17 more stories" stays italic serif at Cade's request; it is the hero's one italic.
+- Proposed rule for the master chat: a block of controls uses at most two type voices, and weight plus a darker grey,
+  never a third face, marks what can be tapped.
+
+- Amended the same day (Cade): the story-view line reads "Reading within a story" again, in the small sans, italic,
+  sentence case. It is no longer a capitals label.
