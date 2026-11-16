@@ -1124,3 +1124,15 @@ still frames showed doubled lines and flipped between soft and sharp.
   left in the chapter after this one. The arrows are gone; the names carry the thin red underline every link carries.
   That is what lets both fit side by side on a 375px phone.
 - **"Also in 17 more stories"** is italic serif with no bold.
+
+### Event page hero: one switch for the story view; arrows back on the step buttons (sub chat, 2026-11-17)
+
+- **Story view line.** Above the ladder: "Reading within a story" on the left, "Clear story view ×" on the right.
+- **Clearing is one switch for the page.** It drops the ladder to the no-route hero ("This event belongs to 18
+  stories. Choose a story to read it within") and takes the story filter off the chain. Choosing a story again puts
+  the ladder back and turns the chain's filter on for that story. Rule proposed for the master chat: the hero's story
+  and the chain's story filter are one state; no page shows one story in the hero and another in the chain unless the
+  reader changed the chain's filter by hand afterwards.
+- **Step buttons** have their red arrows again, beside the event's name on the second line, with the label above.
+  The names lost the underline they briefly had. Both fit side by side at 375px.
+- The title sits about 10px closer to the Event row.

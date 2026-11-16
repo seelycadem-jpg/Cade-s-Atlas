@@ -1628,13 +1628,26 @@ html{-webkit-text-size-adjust:100%;text-size-adjust:100%}
 /* Cade, 2026-11-17: the "Also in" link in italic serif, no bold; the sheet's two scopes */
 .route .alsoin,.route.noroute .alsoin{font:italic 400 14px/1 var(--display);color:var(--ink2)}
 .route .alsoin b,.route.noroute .alsoin b{font-weight:400;color:inherit}
-/* the two step buttons as two labelled links, side by side: no arrows, the name underlined like every other link */
-.chapnav{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 12px;margin:8px 0 10px}
-.chapnav button{min-width:0}
-.chapnav button+button{margin-left:auto;padding-left:0;text-align:right}
-.chapnav svg{display:none}
-.chapnav i{font-size:10px}
-.chapnav b{text-decoration:underline;text-decoration-color:var(--accent);text-decoration-thickness:.6px;text-underline-offset:4px;padding-bottom:3px}
+/* the two step buttons side by side: the label above, the red arrow beside the name (Cade, 2026-11-17) */
+.chapnav{display:flex;flex-wrap:wrap;justify-content:space-between;gap:2px 10px;margin:6px 0 10px}
+.chapnav button,.chapnav button+button{display:grid;grid-template-columns:auto auto;align-items:center;gap:3px 7px;min-width:0;padding:4px 0;justify-content:start;text-align:left}
+.chapnav button+button{margin-left:auto;justify-content:end;text-align:right}
+.chapnav button span{display:contents}
+.chapnav i{grid-column:1 / -1;grid-row:1;font-size:10px}
+.chapnav b{grid-row:2}
+.chapnav svg{grid-row:2;width:11px;height:11px}
+#cBack{grid-template-columns:auto 1fr} #cBack svg{grid-column:1} #cBack b{grid-column:2;justify-self:start}
+#cFwd{grid-template-columns:1fr auto} #cFwd b{grid-column:1;justify-self:end} #cFwd svg{grid-column:2}
+/* the story view's own line above the ladder, with the way out of it */
+.route .rview{display:flex;align-items:center;justify-content:space-between;gap:10px;min-height:26px;margin:0 0 2px;letter-spacing:0;text-transform:none}
+.route .rview span{font:italic 400 14px/1 var(--display);color:var(--ink2)}
+.route .rview button{display:inline-flex;align-items:center;gap:5px;font:400 11.5px/1 var(--ui);color:var(--ink3);position:relative}
+.route .rview button::after{content:"";position:absolute;left:-6px;right:-6px;top:50%;height:44px;transform:translateY(-50%)}
+.route .rview button svg{width:9px;height:9px;color:var(--accent)}
+.route.noroute .rview{display:none}
+/* the title sits closer to the Event row */
+.tw .kicker{margin-bottom:1px}
+.tw h1{margin-top:0}
 .escope{display:flex;gap:18px;margin:10px 0 0}
 .escope button{min-height:32px;font:500 13px/1 var(--ui);color:var(--ink3);border-bottom:1px solid transparent}
 .escope button[aria-pressed="true"]{color:var(--ink);border-bottom-color:var(--accent)}
@@ -1664,6 +1677,7 @@ html{overscroll-behavior-y:none}
 <div class="tw" id="tw">
   <nav class="kicker path route" id="kicker" aria-label="Where this sits">
     <p class="rhead" id="rHead"></p>
+    <div class="rview"><span>Reading within a story</span><button type="button" id="clearStory">Clear story view<svg viewBox="0 0 12 12" fill="none" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" aria-hidden="true"><path d="M2.5 2.5l7 7M9.5 2.5l-7 7"/></svg></button></div>
     <div class="rpick" id="rPick"></div>
     <div class="rside rall" id="rAlso3"></div>
     <div class="rrow"><span class="rl">Chronicle</span><button class="lk" type="button" id="cChron">Germany</button><span class="rside" id="rAlso"></span></div>
@@ -2553,7 +2567,7 @@ html{overscroll-behavior-y:none}
     if(!own){ var sh=sheetHost.querySelector('.sheet'), ac=sh.querySelector('.sbody > .acts:last-child'); if(ac)sh.appendChild(ac); frameOn(sh,false); }
     var c=sheetHost.querySelector('.sheet button'); if(c)c.focus({preventScroll:true}); }
   function closeSheet(){ dockHost.style.visibility=''; sheetHost.innerHTML=''; big=null; if(lastFocus&&lastFocus.focus&&document.contains(lastFocus))lastFocus.focus({preventScroll:true}); }
-  sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]')){closeSheet();return;} var jp=e.target.closest('[data-jump]'); if(jp){ var g=jp.dataset.jump; closeSheet(); if(N[g]&&!N[g].gone){ select(g); reveal(g); toCol(G.step[g],true); } else { recentre(g); select(g); say('Centred on '+name(g)); } return; } var r=e.target.closest('[data-note]'); if(r){note(r.dataset.note,r.dataset.back);return;} var b=e.target.closest('[data-pathback]'); if(b){pathSheet(b.dataset.pathback);return;} var sy=e.target.closest('[data-say]'); if(sy){say(sy.dataset.say);return;} var pl=e.target.closest('[data-place]'); if(pl){ var pi=+pl.dataset.place; closeSheet(); routed=true; follow(pi); var px2=places()[pi]; say('The page now follows '+px2.c+' › '+px2.s+' › '+px2.ch); return; } if(e.target.closest('[data-many]')){ many=!many; here=0; follow(0); placeSheet(); return; } if(e.target.closest('[data-route]')){ routed=!routed; here=0; follow(0); placeSheet(); } });
+  sheetHost.addEventListener('click',function(e){ if(e.target.closest('[data-close]')){closeSheet();return;} var jp=e.target.closest('[data-jump]'); if(jp){ var g=jp.dataset.jump; closeSheet(); if(N[g]&&!N[g].gone){ select(g); reveal(g); toCol(G.step[g],true); } else { recentre(g); select(g); say('Centred on '+name(g)); } return; } var r=e.target.closest('[data-note]'); if(r){note(r.dataset.note,r.dataset.back);return;} var b=e.target.closest('[data-pathback]'); if(b){pathSheet(b.dataset.pathback);return;} var sy=e.target.closest('[data-say]'); if(sy){say(sy.dataset.say);return;} var pl=e.target.closest('[data-place]'); if(pl){ var pi=+pl.dataset.place; closeSheet(); routed=true; follow(pi); chainStory(pi===0&&(STORY.of[HOME]||[]).indexOf(ARRIVED)>=0?ARRIVED:null); var px2=places()[pi]; say('The page now follows '+px2.c+' › '+px2.s+' › '+px2.ch); return; } if(e.target.closest('[data-many]')){ many=!many; here=0; follow(0); placeSheet(); return; } if(e.target.closest('[data-route]')){ routed=!routed; here=0; follow(0); placeSheet(); } });
   document.addEventListener('keydown',function(e){ if(e.key==='Escape'){ var fp=document.getElementById('fpop'); if(sheetHost.firstChild)closeSheet(); else if(fp&&!fp.hidden)document.getElementById('fBtn').click(); else if(sel)select(null); } });
   function lrow(l,back,lead){ return '<button type="button" class="lrow" data-note="'+l.id+'"'+(back?' data-back="'+back+'"':'')+'><i class="gl '+gcls(l)+'" aria-hidden="true"></i><span><span class="lt">'+(lead?esc(lead):esc(name(l.f))+' → '+esc(name(l.t)))+'</span><span class="lg">'+esc(gline(l))+'</span></span>'+CHEV+'</button>'; }
   function pathSheet(id){ var s=G.step[id], path=id===centre?[]:pathOf(id), o=others(id,path);
@@ -2629,6 +2643,10 @@ html{overscroll-behavior-y:none}
       document.getElementById('pnone').hidden=any; });
     var cur=sheetHost.querySelector('.prow[aria-current]'), list=document.getElementById('plist'); if(cur&&list)list.scrollTop=Math.max(0,cur.offsetTop-list.offsetTop-60); }
   document.getElementById('alsoin').addEventListener('click',placeSheet);
+  /* One switch for the story view (Cade, 2026-11-17): clearing it drops the ladder and takes the story filter off the
+     chain; choosing a story again puts both back. */
+  function chainStory(v){ if(story===v)return; story=v; try{ bar(); change(); toCol(0,false); sync(); kick(); }catch(e){} }
+  document.getElementById('clearStory').addEventListener('click',function(){ routed=false; here=0; follow(0); chainStory(null); var a=document.getElementById('alsoin'); if(a)a.focus({preventScroll:true}); });
   /* The Event row: the place in the chapter, then a link that opens the story's events */
   function moreLeft(x){ var m=/^(\d+) of (\d+)$/.exec(x.en||''), n=m?(+m[2])-(+m[1]):0; document.getElementById('cFwdL').textContent='Next event in this chapter'+(n>0?' ('+n+' more)':''); }
   function evRow(x){ moreLeft(x); document.getElementById('cEvRow').innerHTML=(x.en?'<button type="button" class="evall" id="evAll" aria-haspopup="dialog">'+esc(x.en)+' in this chapter</button>':'')+(x.en&&x.es?' \u00b7 ':'')+(x.es?x.es+' in the story':''); }
@@ -2666,7 +2684,7 @@ html{overscroll-behavior-y:none}
   /* the event's type signs stand beside the Event label, the same signs its chain card carries */
   try{ var hk0=(E[HOME].c||[]); document.getElementById('gvKinds').innerHTML=hk0.map(function(k){ return '<span title="'+cap1(k)+'">'+kicon(k)+'</span>'; }).join(''); document.getElementById('gvKinds').setAttribute('aria-label',hk0.map(cap1).join(', ')); }catch(e){}
   try{ var hk=(E[HOME].c||[]); document.getElementById('pKinds').innerHTML=hk.map(function(k){ return '<span title="'+cap1(k)+'">'+kicon(k)+'</span>'; }).join(''); document.getElementById('pKinds').setAttribute('aria-label',hk.map(cap1).join(', ')); }catch(e){}
-  document.getElementById('rPick').addEventListener('click',function(e){ var b=e.target.closest('[data-pick]'); if(!b)return; routed=true; follow(+b.dataset.pick); });
+  document.getElementById('rPick').addEventListener('click',function(e){ var b=e.target.closest('[data-pick]'); if(!b)return; routed=true; follow(+b.dataset.pick); chainStory(+b.dataset.pick===0&&(STORY.of[HOME]||[]).indexOf(ARRIVED)>=0?ARRIVED:null); });
   ['cChron','cStory','cChap','hChap'].forEach(function(id){ document.getElementById(id).addEventListener('click',function(){ if(!routed&&id==='hChap'){ placeSheet(); return; } say('Would open: '+this.textContent.replace(/^\u2039 /,'')); }); });
   /* the arrows: each row steps to its own neighbours (mock actions) */
   (function(){ var P=function(){ return places()[here]||HOMEPLACE; };
