@@ -43,7 +43,7 @@ its date of verification. A paywalled book counts only where its passage can be 
 catalogue preview or a library scan; otherwise it is left out.
 
 Fetching sources needs the session's network to reach them. Where a host is blocked, the
-session asks Cade to allow it (environment settings) and never cites the source unread.
+session asks Cade to allow it (environment settings) and never cites the source unread. The hosts, keys and accounts are listed in docs/source-access.md.
 
 ## Skills
 
