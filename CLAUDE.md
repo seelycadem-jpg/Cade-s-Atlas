@@ -57,6 +57,10 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
   the checks each of the six places adds. Read before building or running a skill.
 - `docs/timeline.md`: the timeline page: layout, three zoom levels, filters, chain mode, phone.
 - `docs/seo.md`: what every page carries so it is found on Google; `/page-check` enforces it.
+- `docs/design/page-system.md`: the design system as built in the event mock and decided
+  by Cade, 2026-11-11 to 2026-11-17: type, links, gilt, the hero and its ladder, sheets,
+  Meanwhile, pictures, graphics, motion, the grades. It wins over palette.md and ui-rules.md
+  on every item it marks decided. Read before building any page or mock.
 - `docs/house-style.md`: voice, tiers, links, grades and the globe.
 - `docs/story-method.md`: chronicles, stories, patches, knots and the anti-slop rules.
 - `docs/border-review.md`: how the province map and its owners are built.
@@ -90,7 +94,9 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
   and placement of a fact, never in an adjective.
 - The themes layer alone ("Man and Power" and the rest) is written like Cicero: it may
   ask real questions, address the reader and take a style of its own. Rule zero holds.
-- Event pages open with an Overview: the so-what in hard facts, in 2-3 short paragraphs.
+- Event pages open with the bottom line in one paragraph, then the Overview: the so-what
+  in hard facts. The order is: bottom line, Overview, Historical Chain, The Record,
+  Meanwhile (Cade, 2026-11-17; docs/event-pages.md).
 - Name a person with role and name on first mention (German Chancellor Olaf Scholz). A
   government may act under its capital or seat when that is the actor: Moscow, London,
   the Porte.
@@ -104,11 +110,13 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
 - Every event and person page carries a verified Wikipedia and Britannica exit.
 - Tags (political, war, economic, ideas, religion, science, culture, environment) sit on
   every event, several at a time; they never affect tier.
-- Readers see the five grade words and the note. The analytic foundations stay internal.
+- Readers see four grade words (Necessary, Contributing, Contested, Coincident) and the
+  note. Sufficient is withdrawn as a grade (Cade, 2026-11-12). The analytic foundations
+  stay internal.
 - A link with a known case against it is graded at Low or Moderate confidence with the
   objection in its note, never Contested. Contested is reserved for matched readings
-  where the atlas withholds a verdict. The Argument section states the verdict first,
-  the challenge second.
+  where the atlas withholds a verdict. A link's note gives the claim, the challenge and
+  the verdict, in that order; the verdict names no rank among the causes.
 - The voice and method standards are internal. The public About page carries purpose,
   goal and the method in brief, plus any credit a data licence requires.
 - Writing must pass an expert's reading as human work: an expert's nod on every page
@@ -168,14 +176,15 @@ Whatever the prompt says:
   the literal form of an amended rule is a bug in the check.
 - Never hedge with words where the grade does the hedging, and never explain the
   method to the reader outside the About page.
-- Never use an image without its source, licence and credit recorded beside it, never
-  a photograph of a living person, and never a credit printed under the picture.
+- Never use an image without its source, licence and credit recorded beside it, and never a credit printed under the picture. A photograph of a living person is allowed
+  (Cade, 2026-11-17), as is a later drawing or painting of an event too old for
+  photographs; the caption says what the picture is and when it was made.
   Open sources only (Commons, Met Open Access, LoC, National Archives); see
   docs/narrative-flow.md, Pictures.
 - Never let a reviewer read a draft it helped write; never skip the fact-checker or
   the flow editor.
 - Never free zoom on the timeline, more than three levels, a page without Back or its
-  breadcrumb, or a card without the shared preview component.
+  ladder of level rows (a reader with no route sees the offer of the page's stories), or a card without the shared preview component.
 - Never hand-write the takeaway strip, the year card figures or any text the data
   header generates.
 - Never add a view or layer without a licence line, or redistribute a file whose
