@@ -95,7 +95,8 @@ The old app loads D3 7.9.0, topojson-client 3.1.0 and MapLibre GL 5.24.0 from CD
   government may act under its capital or seat when that is the actor: Moscow, London,
   the Porte.
 - Name no academics, historians, authors or schools in product text (a thinker who is the
-  subject of an event or a life, such as Hobbes or Confucius, is an actor and is named). Give the facts and
+  subject of an event or a life, such as Hobbes or Confucius, is an actor and is named;
+  the Sources list at a page's end names its sources). Give the facts and
   the judgment.
 - Use plain literal verbs. No idioms, cliches or figurative phrases.
 - Include no invented specifics. Leave out any name, date or figure that cannot be
@@ -133,6 +134,10 @@ Whatever the prompt says:
 - Never delete or shorten a page to make a check pass; fix the flagged sentence.
 - Never write a page without reading its sources, and never ship one without its two
   verified exits.
+- Never cite a source that no agent fetched and quoted, or that the resolver script and an
+  independent verifier have not passed (docs/agents.md, Source verification). Never cite
+  a source from memory. Every event page shows its Sources list; prefer the primary
+  record for terms, dates and quotations, and scholarship for interpretation.
 - Never write a person's impact as prose: impact is graded links. A feature with no
   link into a chain stays a label on the map, never a page.
 - Four levels: chronicle, story, chapter, event. Readers see three sizes of event, knot,

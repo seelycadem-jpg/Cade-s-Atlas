@@ -115,7 +115,15 @@ Optional sections are the agent's call. A fibre may have no layer 3 at all. A kn
 
 ## Sourcing
 
-- At least two independent sources per page beyond the exits, recorded in the data header under `sources`, never in the text. The shelf (the editors' reading list) lives there too and never renders.
+- Every event page shows a **Sources** list at its end (Cade, 2026-11-16): at least two independent sources beyond the exits, each by author, title, year and publisher or archive, with a link where one exists. Two sources are independent when neither draws on the other and they share no author. The list is generated from `sources` in the data header. The shelf (the editors' wider reading) stays in the header and never renders.
+- **Every hard figure and every quotation is a tap** (Cade, 2026-11-16): the figure itself is the control, marked quietly and unlike a page link; a tap shows its source, the source's year, its basis and the range where sources disagree. It is generated from `figures`. No footnote numbers. The mark is designed with the shared components (roadmap 1.8 to 1.12).
+- **Cause and effect carry no footnote.** Their evidence is the link's note (claim, strongest objection, verdict), on tap.
+- **The order of preference** (Cade, 2026-11-16):
+  1. Primary: the document itself (a treaty's text, a law, a decree, official records, a census, letters, minutes, a contemporary report), from the archive or a scholarly edition. First for terms, dates, wording, quotations and official figures.
+  2. Scholarship: peer-reviewed articles and books from university or scholarly presses. First for interpretation, causes, estimates and any figure the primary record does not settle. A primary source shows what a document says; scholarship says what it meant.
+  3. Reference works with named editors (Britannica, national biographies, scholarly encyclopedias), for confirming plain facts.
+  4. Never cited: Wikipedia (it is an exit), content farms, unsigned web pages, AI-written pages, a source known only through another source's citation of it.
+- **No source is cited unless it was opened.** An agent cites a source only after it has fetched the source, or a record of it, and copied the passage that supports the claim into the header. A source recalled from memory is never cited. A source whose passage cannot be read is left out, and the claim goes to `open`. The review that enforces this is in docs/agents.md, Source verification.
 - Every figure in the text has a basis in `figures`: the number, its source, its year, and the range where sources disagree. The text may say "about 20 billion"; the header says where that comes from.
 - Dates carry their precision. A date the sources dispute is written to the precision they agree on.
 - Quotations come only from primary sources with the source recorded, and only where the words themselves changed something. A quotation for colour is cut.
@@ -147,7 +155,10 @@ exits:
   wikipedia: https://en.wikipedia.org/wiki/Paris_Peace_Conference_(1919%E2%80%931920)
   britannica: https://www.britannica.com/event/Paris-Peace-Conference
 sources:
-  - { title: "...", author: "...", year: 0000, note: "which claims it supports" }
+  - { title: "...", author: "...", year: 0000, publisher: "...", kind: primary | scholarly | reference,
+      id: "DOI, ISBN, archive reference or stable URL", url: "...", archived: "web.archive.org copy",
+      passage: "the exact words that support the claim", supports: "which claims",
+      found_by: agent, verified_by: agent, verified_on: 2026-00-00 }
 shelf: []
 figures:
   - { text: "13 percent of its European territory", value: 13, unit: percent, source: "...", year: 0000 }

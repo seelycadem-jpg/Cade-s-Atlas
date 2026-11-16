@@ -961,6 +961,16 @@ Next in this chat: Cade's read of the rebuilt Historical Chain.
 - `docs/marketing.md`: a draft launch and social plan (X, Instagram, Facebook, TikTok),
   with five decisions for Cade. Roadmap 10.10 and 10.11.
 
+## Sources (Cade, 2026-11-16)
+
+- Every event page shows a Sources list; every hard figure and quotation is a tap to its
+  source; cause and effect rely on the link note (event-pages.md, Sourcing).
+- Primary record first for terms, dates and quotations; scholarship for interpretation;
+  Wikipedia never cited.
+- No source is cited unread: a finder fetches and quotes, a script resolves, an
+  independent verifier passes it, and Cade audits a share by hand (agents.md, Source
+  verification; a new hard limit in CLAUDE.md).
+
 ## Desktop (Cade, 2026-11-08)
 
 Phone first, desktop second, and the desktop is designed, never the phone layout stretched

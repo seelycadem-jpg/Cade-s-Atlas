@@ -10,6 +10,41 @@ One task per session. Plan mode first for anything over three files. A branch fo
 
 Draft from sources -> four reviewers in parallel, none of which has seen the draft being written (fact-checker, style editor, red team, flavor check) -> merge, where fact fixes bind and the other notes are answered -> recheck any claim added at merge -> published with an audit line. Data pages add a fifth reviewer, the provenance check. Stories and chronicles add the flow editor at assembly. Every reviewer returns a list of places with the failing test named, never a rewrite.
 
+## Source verification (Cade, 2026-11-16)
+
+Models invent sources: a real author with a book that does not exist, a real book with a page
+that says something else. So no source reaches a page on one agent's word.
+
+1. **Find.** The source finder searches and returns each candidate with its identifier (DOI,
+   ISBN, archive reference or stable URL), the passage that supports the claim copied from
+   the fetched text, and its kind (primary, scholarly, reference). It works only from what
+   it fetches. It never adds a source from memory.
+2. **Resolve, by script.** A script resolves every identifier against its registry (the DOI
+   resolver, an ISBN catalogue, the archive's own catalogue, the URL itself) and fails a
+   source whose record does not exist or whose author, title or year differ. Where the text
+   is open, the script finds the copied passage in it, word for word. A script, never an
+   agent, does this step.
+3. **Verify, independently.** A source verifier that took no part in finding reads each
+   passage against the claim it is cited for and answers: does it say this? It also checks
+   independence (no shared author, neither drawing on the other) and the order of
+   preference in event-pages.md.
+4. **Rank.** The verifier fails a page whose terms, dates or quotations rest on scholarship
+   where the primary record is available, or whose interpretation rests on a primary source
+   alone.
+5. **Bind.** The fact-checker checks every name, date and figure against verified sources
+   only. A claim with no verified source is cut and goes to `open`; it is never softened.
+6. **Keep.** Every cited web page is saved to the Internet Archive at verification, and a
+   monthly script re-checks every link and reports the broken ones.
+7. **Audit.** For the first batch Cade checks one source in five by hand; afterwards one in
+   twenty. The error rate is recorded, and a rise stops the batch.
+
+The build fails a page with a source missing its identifier, its passage, its verifier or
+its date of verification. A paywalled book counts only where its passage can be read in a
+catalogue preview or a library scan; otherwise it is left out.
+
+Fetching sources needs the session's network to reach them. Where a host is blocked, the
+session asks Cade to allow it (environment settings) and never cites the source unread.
+
 ## Skills
 
 Each skill lives in `.claude/skills/<name>/SKILL.md` and is written once, in the session that first does the job by hand, from what worked.
@@ -23,7 +58,9 @@ Each skill lives in `.claude/skills/<name>/SKILL.md` and is written once, in the
 | `/place-events <year>` | Places the year's events by coordinates and lane; placement check | 4 |
 | `/profile <polity> <year>` | Country profile by era, source and year on every figure; provenance check | 5 |
 | `/event-page <id>` | Drafts from sources; four reviewers; merge; recheck | 6 |
-| `/fact-check <path>` | Every name, date, figure against the sources; binding | 6 |
+| `/find-sources <id>` | Searches and fetches candidate sources; returns identifier, kind and the copied passage per claim; never from memory | 6 |
+| `/verify-sources <path>` | The resolver script, then the independent verifier: existence, passage, support, independence, order of preference; binding | 6 |
+| `/fact-check <path>` | Every name, date, figure against verified sources only; binding | 6 |
 | `/slop-check <path>` | Banned list, sentence length, active voice; fails on a match | 6 |
 | `/red-team <path>` | "Where would you stop reading, and why" | 6 |
 | `/flavor-check <path>` | Transplant test per paragraph; the four sources counted | 6 |
