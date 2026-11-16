@@ -1078,3 +1078,14 @@ still frames showed doubled lines and flipped between soft and sharp.
   row says it. A reader with no route still gets the one line and the offer to choose a story.
 - The two named buttons keep their top rule and lose their bottom rule.
 - On trial: Cade has not yet confirmed these.
+
+### Event page hero: Event row in the ladder, hint clear of the globe, type signs in the globe view (sub chat, 2026-11-16)
+
+- **Event is the ladder's last row.** Chronicle, Story, Chapter, Event share one label column, and the title follows
+  as the event's name. The Event row carries two counts in small grey text and no arrows: "2 of 5 in this chapter ·
+  6 events in the story". PLACEHOLDER figures: "2 of 5" was already a placeholder; the story count is the number of
+  the mock chain's events that the stand-in story holds. The real page needs both from the link table.
+- **Hint.** "Globe 1919 · pull down to open" is centred under the globe's lowest point, smaller and lighter, and no
+  longer crosses the globe's edge. The title block sits 26px lower to make room.
+- **Type signs** show in the globe view, after the date and place. They stay out of the hero.
+- Proposed rule for the master chat: words never cross the edge of the globe; a caption for the globe sits clear of it.
